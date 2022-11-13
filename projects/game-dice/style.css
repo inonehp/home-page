@@ -1,4 +1,4 @@
-/* v.2.0.0 */
+/* v.2.0.1 */
 
 #result {
 font-size: 70px;
@@ -21,7 +21,7 @@ margin-bottom: 30px;
 
 .gDname {
 font-size: small;
-color: var(--c1);
+color: var(--c1) !important;
 font-weight: bold;
 }
 

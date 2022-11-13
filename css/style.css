@@ -2,7 +2,7 @@
 
 :root{
 --bodyP: 2vw;
---wrapper: 490px;
+--wrapper: 520px;
 --wrapper2: 700px;
 --wrapper3: 900px;
 --wrapper4: 100%;
@@ -188,14 +188,14 @@ text-align: center;
 display: grid;
 /*grid-template-areas: "a a a a a";*/
 grid-template-columns: repeat(4, 1fr);
-grid-auto-columns: 1fr;
+/*grid-auto-columns: 1fr;*/
 grid-gap: 3px;
 margin: 0 auto;
 justify-content: center;
 }
-@media(max-width: 500px) { .menu { grid-template-columns: repeat(3, 1fr); }}
-@media(max-width: 300px) { .menu { grid-template-columns: repeat(2, 1fr); }}
-@media(max-width: 200px) { .menu { grid-template-columns: repeat(1, 1fr); }}
+@media(max-width: 480px) { .menu { grid-template-columns: repeat(3, 1fr); }}
+@media(max-width: 385px) { .menu { grid-template-columns: repeat(2, 1fr); }}
+@media(max-width: 254px) { .menu { grid-template-columns: repeat(1, 1fr); }}
 .menu a{
 display:flex;
 justify-content: center;
