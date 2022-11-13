@@ -31,6 +31,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matc
 
 
 
+
 // theme
 var theme = localStorage.getItem('theme');
 var themeListLight = [
@@ -103,17 +104,6 @@ confRealTmpTheme = themeListLight[Math.floor(Math.random()*themeListLight.length
 document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
 }
 }
-
-
-
-
-
-
-/*function themeRandomAllBlink(){
-confRealTmpTheme = themeList[Math.floor(Math.random()*themeList.length)];
-document.getElementById('theme').href = '/css/'+confRealTmpTheme+'.css';
-confRealTmpTheme = '*';
-}*/
 
 
 
@@ -224,5 +214,12 @@ if(theme != localStorage.getItem('theme')){
 setTheme(localStorage.getItem('theme')); //alert('not');
 }
 });
+
+if(confRealTmpTheme.search("light|l-|Opera Mini|Mobile|Lumia|Phone") != -1||confRealTmpTheme == 'o-yellow'){
+var confThemeEmbed = 'light';
+}else{
+var confThemeEmbed = 'dark';
+}
+//console.log(confThemeEmbed);
 
 
