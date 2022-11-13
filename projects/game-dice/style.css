@@ -3,6 +3,14 @@
 #result {
 font-size: 70px;
 min-height: 150px;
+text-align: center;
+width: 100%;
+}
+
+#result2 {
+font-size: medium;
+text-align: center;
+
 }
 
 
