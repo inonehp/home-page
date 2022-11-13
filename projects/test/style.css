@@ -2,6 +2,9 @@
 
 
 
-#test {
-
+.tGrid  {
+display: grid;
+align-items: center;
+height: 50vh;
+width: 100%;
 }
