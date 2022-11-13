@@ -96,7 +96,15 @@ document.getElementById("dropbtn").innerHTML = '☰ other';
 <div class="center">
 
 <div class="post2 light border3List">
-<a  data-tweet-limit="3" class="twitter-timeline" href="https://twitter.com/gabc123123?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<div id="embedTwitter"></div>
+<script>
+document.getElementById("embedTwitter").innerHTML = '<a  data-tweet-limit="3" data-theme="'+confThemeEmbed+'" class="twitter-timeline" href="https://twitter.com/gabc123123?ref_src=twsrc%5Etfw"></a>';</script>
+</script>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <br />
 <a class="button block light border3List" href="https://twitter.com/gabc123123">Twitter</a>
 </div>
