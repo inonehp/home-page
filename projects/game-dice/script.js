@@ -25,7 +25,7 @@ var colorPlayerWin = '';
 var colorPcWin = '';
 
 
-document.getElementById("panel").innerHTML = '<button class="gDbtn light border2"  id="myBtn"><h1>roll</h1></button>';
+document.getElementById("panel").innerHTML = '<button class="gDbtn light border2"  id="myBtn">roll</button>';
 document.getElementById("myBtn").addEventListener("click", displayResult); 
 
 displayResult()
@@ -40,21 +40,21 @@ var pc2 = diceKeyArr[rand2];
 
 var win = '';
 if(player2 > pc2){
-win = '<span class="orange">Player Win!!!</span>';
+win = '<span class="orange"><h1>Player Win!!!</h1></span>';
 win += '<audio style="display:none" autoplay="false" src="/audio/win.mp3">';
 colorPlayerWin = 'green';
 colorPcWin = '';
 pointsPlayer++;
 }
 if(player2 < pc2){
-win = '<span class="red">PC Win!!!</span>';
+win = '<span class="red"><h1>PC Win!!!</h1></span>';
 win += '<audio style="display:none" autoplay="false" src="/audio/game-over.mp3">';
 colorPlayerWin = '';
 colorPcWin = 'green';
 pointsPc++;
 }
 if(player2 == pc2){
-win = '<span class="blue">Tie!!!</span>';
+win = '<span class="blue"><h1>Tie!!!</h1></span>';
 win += '<audio style="display:none" autoplay="false" src="/audio/ok.mp3">';
 colorPlayerWin = 'green';
 colorPcWin = 'green';
