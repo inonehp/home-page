@@ -1,0 +1,23 @@
+/* v.1.0.1 */
+
+.button { 
+
+font-size: 18px;
+font-weight: bold;
+
+display: inline-flex;
+width: 10vh;
+height: 10vh;
+border: 1px solid var(--d);
+margin: 0;
+padding: 0;
+overflow: hidden;
+padding: 2vw;
+margin: 0;
+justify-content: center;
+align-items: center;
+
+}
+
+#win { font-size: 24px; font-weight: bold; color: var(--orange); padding: 10px 0; min-height: 50px; }
+.tttAgain { margin-top: 20px; }

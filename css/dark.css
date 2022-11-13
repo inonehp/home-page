@@ -1,0 +1,42 @@
+:root{
+--bg: #2D2D2E;
+--l: #2F2F30;
+--l2: #353536;
+--l3: #3D3E40;
+--l4: #505359;
+--d: #2A2A2B;
+--d2: #252526;
+--d3: #1B1C1C;
+--d4: #121212;
+--c: #B3B3B3; 
+--c2: #D6D6D6; 
+--c3: #EDEDED; 
+--c4: #F7F7F7; 
+/*--b: #948B70;
+--b2: #9E9478;*/
+--b3: #D1C3A0;
+--b4: #E6D8AF;
+--red: #FF7A73;
+--red2: #FF928C;
+--orange: #E6BA67;
+--orange2: #FFD280;
+--yellow: #D9CA82;
+--yellow2: #E6D57F;
+--green: #8ACC70;
+--green2: #ABE695;
+--blue: #73A7BF;
+--blue2: #9FCDE3;
+--indigo: #A9B0F2;
+--indigo2: #CCD0FF;
+--violet: #C999CC;
+--violet2: #D8B8D9;
+}
+
+html::before, .dd, .logo, .logo2 { filter: invert(70%); }
+
+input[type="submit"] { background: var(--l); color: var(--c2); }
+input[type="submit"]:hover { background: var(--d); color: var(--c3); }
+
+html{ scrollbar-color: var(--l4) var(--d2); }
+::-webkit-scrollbar { background-color: var(--d2); }
+::-webkit-scrollbar-thumb { background-color: var(--l3); }

@@ -1,0 +1,42 @@
+{
+	"version": "1.3.48",
+	"name": "theme-abc",
+	"displayName": "Light & Dark Theme Abc",
+	"description": "Light and Dark theme for VS Code",
+	"publisher": "gabc123123",
+
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"theme-color",
+		"dark",
+		"light"
+	],
+
+  "icon": "icon.png",
+	"galleryBanner": {
+		"color": "#0F0900",
+		"theme": "dark"
+	},
+                         
+	"contributes": {
+		"themes": [
+			{
+				"label": "Light Theme Abc",
+				"uiTheme": "vs",
+				"path": "light-theme-abc-color-theme.json"
+			},
+			{
+				"label": "Dark Theme Abc",
+				"uiTheme": "vs-dark",
+				"path": "dark-theme-abc-color-theme.json"
+			}
+
+		]
+	}
+}

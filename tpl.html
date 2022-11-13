@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Test Templates</title>
+<link rel="alternate" type="application/rss+xml" title="gabc RSS" href="rss.xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--<meta name="title" content="">-->
+<meta name="description" content="">
+<!--<meta name="keywords" content="">-->
+<meta name="color-scheme" content="light dark">
+
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<meta name="generator" content="">
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<script>function reload() {  location.reload(true); } </script>
+
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#EDEBE6">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+<link rel="stylesheet" type="text/css" href="/css/light.css" id="theme">
+<script src="/js/main.js"></script>
+<script src="/js/ad.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+
+</head>
+<body>
+
+
+
+<div class="wrapper brand topNav capitalize">
+<header>
+<nav>
+
+<a href="../"><img class="logo2" src="/img/logo.png" alt="gabc"></a>
+<a class="brand" href="projects.html">projects</a><a class="brand" href="music.html">music</a>
+<button onclick="dropdownFunction();" class="dropbtn" id="dropbtn">☰ other</button>
+
+<div id="myDropdown" class="dropdown-content shadow bg3">
+<a class="brand" href="tpl.html">TPL</a><a class="brand" href="firefox-theme.html">firefox-theme</a><a class="brand" href="geany-color.html">geany-color</a><a class="brand" href="vscode-theme.html">vscode-theme</a><a class="brand" href="wallpaper.html">wallpaper</a><a class="brand" href="search.html">search</a><a class="brand" href="blog.html">blog</a><a class="brand" href="twitter.html">twitter</a><a class="brand" href="about.html">about</a></div>
+
+<!--<hr />-->
+ </nav>
+ </header>
+
+</div>
+
+<!--<noscript>
+<style>
+.dropdown-content, .dropdown { display: block; position: relative; }
+</style>
+</noscript>-->
+
+<script>
+// other click
+function dropdownFunction() {
+  var x = document.getElementById("myDropdown");
+ // alert(x.style.display);
+  if (x.style.display === "none"||x.style.display === "") {
+document.getElementById("dropbtn").innerHTML = '☶ other'; 
+x.style.display = "block";
+  } else {
+x.style.display = "none";
+document.getElementById("dropbtn").innerHTML = '☰ other'; 
+  }
+
+// out area
+var getclick = document.getElementById('dropbtn');
+document.addEventListener('click', function(event) {
+if (!getclick.contains(event.target)) {
+//alert('out');
+var x = document.getElementById("myDropdown");
+x.style.display = "none";
+document.getElementById("dropbtn").innerHTML = '☰ other'; 
+    }
+});
+
+}
+</script>
+
+
+<!-- content -->
+<div class="content">
+
+
+
+
+
+
+<h3 class="textAlignCenter op">Test Templates</h3>
+
+
+<noscript>
+<h1><a href="tpl">TPL Dir</a>
+<a href="https://github.com/gabc123123/gabc123123.github.io/tree/main/tpl" rel="nofollow">Source code</a><br /></h1>
+</noscript>
+
+</div>
+
+
+
+
+
+
+<div class="page">
+
+
+<div id="tpl2">
+<div id="tpl"></div>
+</div>
+
+
+
+<div style="max-width: 600px; margin: 0 auto;">
+
+<div id="desc"></div>
+<div id="range"></div>
+
+
+
+<div class="grid text">
+<span id="prev"></span>
+<span id="tplproc"></span>
+<span id="next"></span>
+<span id="tplsource"></span>
+<span id="tplnumber"></span>
+<span id="tpllink"></span>
+</div>
+
+
+<a class="text border2 button light3"  href="?tpl=random">random</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+
+var total = 8;
+var next = total - 1;
+var prev = total +1;
+var tplnumber = total;
+
+var  geturl = window.location;
+var url = new URL(geturl);
+var tpl = url.searchParams.get("tpl");
+
+if(tpl != null&&tpl != ''){
+document.getElementById('tpl2').scrollIntoView(true);
+
+if(tpl == 'random'){
+var max = total;
+var min = 1;
+var tpl = Math.floor(Math.random() * (max - min)) + min;
+}
+
+var tpl = encodeURIComponent(tpl);
+var tplnumber = parseInt(tpl);
+if (isNaN(tpl)) { var tplnumber = total; }
+var prev = tplnumber + 1;
+var next = tplnumber - 1;
+}
+
+if(tplnumber > total){
+var tplnumber = total;
+var next = total - 1;
+var prev = total;
+}
+
+if(tplnumber < 0){
+var tplnumber = 0;
+var next = 0;
+var prev = 1;
+}
+
+
+var tplnumber = encodeURIComponent(tplnumber);
+var next = encodeURIComponent(next);
+var prev = encodeURIComponent(prev);
+
+var procent = Math.floor((tplnumber / total) * 100);
+var procent = 100 - procent;
+
+ document.getElementById("tpl").innerHTML = '<iframe class="border2" style="width: 100%; max-height:60vh;" height="580px"  src="tpl/'+tplnumber+'/index.html?'+Date.now()+'" title=""></iframe>'; 
+ 
+ 
+ document.getElementById("range").innerHTML = ' <form id="form" data-ajax="false"><input  name="tpl" class="slider" style="-webkit-transform: rotateY(180deg);-moz-transform: rotateY(180deg);-ms-transform: rotateY(180deg);-o-transform: rotateY(180deg); transform: rotateY(180deg);"   id="rangeinput" value="'+tplnumber+'" type="range" min="0" max="'+total+'" step="1" onmouseup="this.form.submit();"  ontouchend="this.form.submit();" /></form>'; 
+
+
+
+
+document.getElementById("tplnumber").innerHTML = '<div  class="op button light3 border2">'+'#'+tplnumber+'</div>';
+document.getElementById("tplproc").innerHTML = '<div  class="op button light3 border2">'+procent+'%'+'</div>'; 
+
+
+if(tplnumber >= total){
+document.getElementById("prev").innerHTML = '<span class="op"><a class="border2 button" style="font-size:120%" href="?tpl='+prev+'#tpl2">&#171;</a></sapn>'; 
+} else {
+document.getElementById("prev").innerHTML = '<a class="border2 button light3" style="font-size:120%" href="?tpl='+prev+'#tpl2">&#171;</a>'; 
+}
+
+
+if(tplnumber <= 0){
+document.getElementById("next").innerHTML = '<span class="op"><a class="border2 button "  style="font-size:120%" href="?tpl='+next+'#tpl2">&#187;</a></span>'; 
+} else {
+document.getElementById("next").innerHTML = '<a class="border2 button light3"  style="font-size:120%" href="?tpl='+next+'#tpl2">&#187;</a>'; 
+}
+
+document.getElementById("tpllink").innerHTML = '<a class="border1 button light3" target="_blank" href="tpl/'+tplnumber+'/index.html">view</a>'; 
+
+document.getElementById("tplsource").innerHTML = '<a class="border2 button light3" target="_blank" href="https://github.com/gabc123123/gabc123123.github.io/blob/main/tpl/'+tplnumber+'/index.html" rel="nofollow">code</a>'; 
+
+function readTextFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", file, false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                //alert(allText);
+                document.getElementById("desc").innerHTML = allText; 
+            }
+        }
+    }
+    rawFile.send(null);
+}
+readTextFile('tpl/'+tplnumber+'/data.txt');
+
+</script>
+
+
+
+<style>
+form { min-width: 100%; }
+input[type="range"] { min-width: 100%; margin: 0; padding: 0 !important; min-height: 10px !important;  margin-bottom: 7px; }
+
+.grid{
+display: grid;
+grid-template-columns: 1fr 20% 1fr;
+grid-gap: 3px 3px;
+margin: 4px auto !important;
+
+justify-content: center;
+}
+
+.button { display: flex; }
+
+#desc { margin-bottom: 5px; background: var(--l1); }
+
+iframe { padding: 3px; }
+</style>
+
+</div>
+
+<footer>
+
+<div id="ads2"></div>
+<script> fuAds('', 'ads2', ''); </script>
+
+<div class="wrapper2 padding">
+
+<!--<span><a  class="button" href="../">&#x2190;</a></span>
+-->
+
+<span><a href="/">index</a></span>
+<span id="fTheme"><a href="/theme.html">Themes</a></span>
+<script>
+document.getElementById("fTheme").innerHTML = '<span>theme: <a href="/theme.html">'+theme+' ('+confRealTmpTheme+')</a></span>';
+</script>
+
+<span>hosting: <a href="https://pages.github.com/">pages.github.com</a></span>
+<span id="fPrivacy"><a href="/privacy.html">cookie status: *</a></span>
+<script>
+document.getElementById("fPrivacy").innerHTML = '<a href="/privacy.html">cookie: '+confDataCollection+'</a></a>';
+</script>
+
+<span><a href="/about.html">Gabc 2022</a></span>
+
+
+</div>
+</footer>
+<!--<script src="/js/main2.js"></script>-->
+
+</body>
+</html>

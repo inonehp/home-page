@@ -1,0 +1,30 @@
+/* v.1.1.2 */
+
+.result,  textarea {
+margin: 0 auto;
+font-size: 120%; font-size: 1.3em; font-size: medium;
+padding: 15px;
+}
+.win { font-size: 120% !important; }
+.stat, .win { font-size: calc(var(--fontSize) + 10%); font-weight: bold; }
+
+/*.height{ min-height: 38px; }*/
+
+.scroll {
+/*overflow-x: auto;
+overflow-y: hidden;
+white-space: nowrap;*/
+max-height: 160px;
+overflow-x: hidden;
+overflow-y: auto;
+
+}
+
+html { scroll-padding-top: 20%; }
+.stat {
+	text-align: right;
+
+	
+}
+
+#text { border-top: 7px solid var(--d2); }

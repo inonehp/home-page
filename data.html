@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Data</title>
+<link rel="alternate" type="application/rss+xml" title="gabc RSS" href="rss.xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--<meta name="title" content="">-->
+<meta name="description" content="">
+<!--<meta name="keywords" content="">-->
+<meta name="color-scheme" content="light dark">
+
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<meta name="generator" content="">
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<script>function reload() {  location.reload(true); } </script>
+
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#EDEBE6">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+<link rel="stylesheet" type="text/css" href="/css/light.css" id="theme">
+<script src="/js/main.js"></script>
+<script src="/js/ad.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+
+</head>
+<body>
+
+
+
+<div class="wrapper brand topNav capitalize">
+<header>
+<nav>
+
+<a href="../"><img class="logo2" src="/img/logo.png" alt="gabc"></a>
+<a class="brand" href="projects.html">projects</a><a class="brand" href="music.html">music</a>
+<button onclick="dropdownFunction();" class="dropbtn" id="dropbtn">☰ other</button>
+
+<div id="myDropdown" class="dropdown-content shadow bg3">
+<a class="brand" href="tpl.html">TPL</a><a class="brand" href="firefox-theme.html">firefox-theme</a><a class="brand" href="geany-color.html">geany-color</a><a class="brand" href="vscode-theme.html">vscode-theme</a><a class="brand" href="wallpaper.html">wallpaper</a><a class="brand" href="search.html">search</a><a class="brand" href="blog.html">blog</a><a class="brand" href="twitter.html">twitter</a><a class="brand" href="about.html">about</a></div>
+
+<!--<hr />-->
+ </nav>
+ </header>
+
+</div>
+
+<!--<noscript>
+<style>
+.dropdown-content, .dropdown { display: block; position: relative; }
+</style>
+</noscript>-->
+
+<script>
+// other click
+function dropdownFunction() {
+  var x = document.getElementById("myDropdown");
+ // alert(x.style.display);
+  if (x.style.display === "none"||x.style.display === "") {
+document.getElementById("dropbtn").innerHTML = '☶ other'; 
+x.style.display = "block";
+  } else {
+x.style.display = "none";
+document.getElementById("dropbtn").innerHTML = '☰ other'; 
+  }
+
+// out area
+var getclick = document.getElementById('dropbtn');
+document.addEventListener('click', function(event) {
+if (!getclick.contains(event.target)) {
+//alert('out');
+var x = document.getElementById("myDropdown");
+x.style.display = "none";
+document.getElementById("dropbtn").innerHTML = '☰ other'; 
+    }
+});
+
+}
+</script>
+
+
+<!-- content -->
+<div class="content">
+<h3 class="textAlignCenter op">Data</h3>
+
+<div class="center2">
+
+
+
+
+<div class="post bgList border2List"><a href="/data/ads.json">ads.json</a> </div>
+
+<div class="post bgList border2List"><a href="/data/musicFP.json">musicFP.json</a> </div>
+
+<div class="post bgList border2List"><a href="/data/quote.json">quote.json</a> </div></div>
+
+</div>
+
+<footer>
+
+<div id="ads2"></div>
+<script> fuAds('', 'ads2', ''); </script>
+
+<div class="wrapper2 padding">
+
+<!--<span><a  class="button" href="../">&#x2190;</a></span>
+-->
+
+<span><a href="/">index</a></span>
+<span id="fTheme"><a href="/theme.html">Themes</a></span>
+<script>
+document.getElementById("fTheme").innerHTML = '<span>theme: <a href="/theme.html">'+theme+' ('+confRealTmpTheme+')</a></span>';
+</script>
+
+<span>hosting: <a href="https://pages.github.com/">pages.github.com</a></span>
+<span id="fPrivacy"><a href="/privacy.html">cookie status: *</a></span>
+<script>
+document.getElementById("fPrivacy").innerHTML = '<a href="/privacy.html">cookie: '+confDataCollection+'</a></a>';
+</script>
+
+<span><a href="/about.html">Gabc 2022</a></span>
+
+
+</div>
+</footer>
+<!--<script src="/js/main2.js"></script>-->
+
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Gabc</title>
+<link rel="alternate" type="application/rss+xml" title="gabc RSS" href="rss.xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--<meta name="title" content="">-->
+<meta name="description" content="sharing something and else">
+<!--<meta name="keywords" content="">-->
+<meta name="color-scheme" content="light dark">
+
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<meta name="generator" content="">
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<script>function reload() {  location.reload(true); } </script>
+
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#EDEBE6">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+<link rel="stylesheet" type="text/css" href="/css/light.css" id="theme">
+<script src="/js/main.js"></script>
+<script src="/js/ad.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<script src="/js/fuPostTime.js"></script>
+<script src="/js/search.js"></script>
+</head>
+<body>
+
+
+
+<div class="wrapper brand topNav capitalize">
+<header>
+<nav>
+
+<a href="../"><img class="logo2" src="/img/logo.png" alt="gabc"></a>
+<a class="brand" href="projects.html">projects</a><a class="brand" href="music.html">music</a>
+<button onclick="dropdownFunction();" class="dropbtn" id="dropbtn">☰ other</button>
+
+<div id="myDropdown" class="dropdown-content shadow bg3">
+<a class="brand" href="tpl.html">TPL</a><a class="brand" href="firefox-theme.html">firefox-theme</a><a class="brand" href="geany-color.html">geany-color</a><a class="brand" href="vscode-theme.html">vscode-theme</a><a class="brand" href="wallpaper.html">wallpaper</a><a class="brand" href="search.html">search</a><a class="brand" href="blog.html">blog</a><a class="brand" href="twitter.html">twitter</a><a class="brand" href="about.html">about</a></div>
+
+<!--<hr />-->
+ </nav>
+ </header>
+
+</div>
+
+<!--<noscript>
+<style>
+.dropdown-content, .dropdown { display: block; position: relative; }
+</style>
+</noscript>-->
+
+<script>
+// other click
+function dropdownFunction() {
+  var x = document.getElementById("myDropdown");
+ // alert(x.style.display);
+  if (x.style.display === "none"||x.style.display === "") {
+document.getElementById("dropbtn").innerHTML = '☶ other'; 
+x.style.display = "block";
+  } else {
+x.style.display = "none";
+document.getElementById("dropbtn").innerHTML = '☰ other'; 
+  }
+
+// out area
+var getclick = document.getElementById('dropbtn');
+document.addEventListener('click', function(event) {
+if (!getclick.contains(event.target)) {
+//alert('out');
+var x = document.getElementById("myDropdown");
+x.style.display = "none";
+document.getElementById("dropbtn").innerHTML = '☰ other'; 
+    }
+});
+
+}
+</script>
+
+
+<!-- content -->
+<div class="content">
+<div class="wrapper">
+<div>
+
+
+<header id="topHeader" style="text-align: center; padding-top: 0;">
+<a href="?q=drawing%20s"><img class="dd" src="/img/dd.png?" alt="drawing" title="drawing"></a><br>
+<a rel="nofollow" href="?q=r"><img class="logo" src="/img/logo.png? " alt="gabc"  title="random code doc"><!-- <span style="vertical-align: middle; font-size:38px; font-weight:bold; color:#898989 "> gabc</span>--></a>
+</header>
+
+
+
+
+<br>
+<div id="form" class="wrapperL">
+<form method="GET" style="margin-top: 0px;" action="index.html">
+
+<input class="padding" type="search" style="text-align: center;" name="q" autofocus="autofocus" autocomplete="off" placeholder="">
+
+<input class="op" style="padding: 0; min-height: 1px; height: 24px;" type="submit" value="">
+
+</form>
+
+</div>
+
+<div  class="center" style="margin-top: 7px;">
+<div class="scrollXhidden wrapperL" id="resultTop">
+<a class="tag light border2 op" href="https://google.com/">goo</a>
+<a class="tag light border2 op" href="https://bing.com/">bin</a>
+<a class="tag light border2 op" href="/?q=n">n</a>
+<a class="tag light border2 op" href="https://twitter.com">twi</a>
+<a class="tag light border2 op" href="https://reddit.com">red</a>
+<a class="tag light border2 op" href="https://mastodon.social/">mas</a>
+<a class="tag light border2 op" href="https://www.youtube.com/">y</a>
+<a class="tag light border2 op" href="/?q=v">v</a>
+<a class="tag light border2 op" href="/?q=t">t</a>
+<a class="tag light border2 op" href="/?q=mus">mus</a>
+<a class="tag light border2 op" href="https://keep.google.com">keep</a>
+</div>
+</div>
+
+
+<script>
+var inputA = document.querySelectorAll('input')[0];
+inputA.addEventListener('input', updateValueIn);
+
+/*if(confHost == 'localhost'){
+var inputB = document.querySelectorAll('input')[2];
+inputB.addEventListener('input', updateValueIn);
+}*/
+
+function updateValueIn(e) {
+var text = encodeURIComponent(e.target.value);
+
+var a = `
+<a class="tag light border2 op" href="/?q=`+text+` goo">goo</a>
+<a class="tag light border2 op" href="/?q=`+text+` bin">q</a>
+<a class="tag light border2 op" href="/?q=`+text+` n">n</a>
+<a class="tag light border2 op" href="/?q=`+text+` twi">twi</a>
+<a class="tag light border2 op" href="/?q=`+text+` red">red</a>
+<a class="tag light border2 op" href="/?q=`+text+` mas">mas</a>
+<a class="tag light border2 op" href="/?q=`+text+` y">y</a>
+<a class="tag light border2 op" href="/?q=`+text+` v">v</a>
+<a class="tag light border2 op" href="/?q=`+text+` t">t</a>
+<a class="tag light border2 op" href="/?q=`+text+` m">mus</a>
+<a class="tag light border2 op" href="https://keep.google.com">keep</a>
+`;
+document.getElementById("resultTop").innerHTML = a; 
+}
+
+if(confDevice == 'mobile'){
+var getclick2 = document.getElementById('form');
+document.addEventListener('click', function(event) {
+if (getclick2.contains(event.target)) {
+document.getElementById( 'topHeader' ).style.display = 'none';
+}else{
+document.getElementById( 'topHeader' ).style.display = 'block';
+}
+});
+
+}
+</script>
+
+
+
+
+
+
+
+
+
+<div id="insertIcon">
+<br><br>
+
+<div class="menu"><a class="button light3 border2" tabindex="0" href="./about.html">about</a> <a class="button light3 border2" tabindex="0" href="./blog.html">blog</a> <a class="button light3 border2" tabindex="0" href="./firefox-theme.html">firefox theme</a> <a class="button light3 border2" tabindex="0" href="./geany-color.html">geany color</a> <a class="button light3 border2" tabindex="0" href="./music.html">music</a> <a class="button light3 border2" tabindex="0" href="./search.html">search</a> <a class="button light3 border2" tabindex="0" href="./tpl.html">tpl</a> <a class="button light3 border2" tabindex="0" href="./twitter.html">twitter</a> <a class="button light3 border2" tabindex="0" href="./vscode-theme.html">vscode theme</a> <a class="button light3 border2" tabindex="0" href="./wallpaper.html">wallpaper</a> </div>
+
+
+
+<br>
+
+<div class="menu"><a class="button light3 border2" tabindex="0" href="/projects/browser-info/"> browser info </a> <a class="button light3 border2" tabindex="0" href="/projects/css-animation-test/"> css animation test </a> <a class="button light3 border2" tabindex="0" href="/projects/css-halloween-pumpkin/"> css halloween pumpkin </a> <a class="button light3 border2" tabindex="0" href="/projects/css-pc/"> css pc </a> <a class="button light3 border2" tabindex="0" href="/projects/demo-test-style/"> demo test style </a> <a class="button light3 border2" tabindex="0" href="/projects/draw/"> draw </a> <a class="button light3 border2" tabindex="0" href="/projects/game-dice/"> game dice </a> <a class="button light3 border2" tabindex="0" href="/projects/game-memory-symbol/"> game memory symbol </a> <a class="button light3 border2" tabindex="0" href="/projects/game-tic-tac-toe/"> game tic tac toe </a> <a class="button light3 border2" tabindex="0" href="/projects/game-typing-speed/"> game typing speed </a> <a class="button light3 border2" tabindex="0" href="/projects/hello-world/"> hello world </a> <a class="button light3 border2" tabindex="0" href="/projects/insert-icon/"> insert icon </a> <a class="button light3 border2" tabindex="0" href="/projects/music/"> music </a> <a class="button light3 border2" tabindex="0" href="/projects/no-sleep-pc/"> no sleep pc </a> <a class="button light3 border2" tabindex="0" href="/projects/rnd-letters-09/"> rnd letters 09 </a> <a class="button light3 border2" tabindex="0" href="/projects/share/"> share </a> <a class="button light3 border2" tabindex="0" href="/projects/test/"> test </a> <a class="button light3 border2" tabindex="0" href="/projects/textarea/"> textarea </a> <a class="button light3 border2" tabindex="0" href="/projects/time-clock/"> time clock </a> <a class="button light3 border2" tabindex="0" href="/projects/timer/"> timer </a> <a class="button light3 border2" tabindex="0" href="/projects/tpl/"> tpl </a> <a class="button light3 border2" tabindex="0" href="/projects/translit/"> translit </a> </div>
+
+
+
+
+</div><br>
+
+
+
+<div class="center">
+
+
+<!-- post --><div class="post bgList brand border3List" id="240">
+<span class="pre">Anchor padding <a target="_blank" href="https://getpublii.com/blog/one-line-css-solution-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header.html">https://getpublii.com/blog/one-line-css-solution-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header.html</a></span>
+<div class="footerPost">
+<span class="postTagList"><a style="" rel="nofollow" class="tag light border2" target="blank" href="https://gabc123123.github.io/?q=CSS%20tag">#CSS <span class="sup">⇗</span></a> <a style="" rel="nofollow" class="tag light border2" target="blank" href="https://gabc123123.github.io/?q=HTML%20tag">#HTML <span class="sup">⇗</span></a></span>
+<span class="postTime"><span id="time240"></span></span>
+</div>
+</div><!-- // post -->
+
+
+<script>
+document.getElementById("time240").innerHTML = '<a class="text tag border2 light" href="blog.html#240">&nbsp;'+fuPostTime(1667283774)+'&nbsp;</a>';
+
+
+</script>
+
+
+<!-- post end --></div>
+
+</div>
+</div>
+
+<script src="/projects/insert-icon/script.js"></script>
+<script>
+insertIcon("insertIcon");
+</script>
+
+
+</div>
+
+<footer>
+
+<div id="ads2"></div>
+<script> fuAds('', 'ads2', ''); </script>
+
+<div class="wrapper2 padding">
+
+<!--<span><a  class="button" href="../">&#x2190;</a></span>
+-->
+
+<span><a href="/">index</a></span>
+<span id="fTheme"><a href="/theme.html">Themes</a></span>
+<script>
+document.getElementById("fTheme").innerHTML = '<span>theme: <a href="/theme.html">'+theme+' ('+confRealTmpTheme+')</a></span>';
+</script>
+
+<span>hosting: <a href="https://pages.github.com/">pages.github.com</a></span>
+<span id="fPrivacy"><a href="/privacy.html">cookie status: *</a></span>
+<script>
+document.getElementById("fPrivacy").innerHTML = '<a href="/privacy.html">cookie: '+confDataCollection+'</a></a>';
+</script>
+
+<span><a href="/about.html">Gabc 2022</a></span>
+
+
+</div>
+</footer>
+<!--<script src="/js/main2.js"></script>-->
+
+</body>
+</html>

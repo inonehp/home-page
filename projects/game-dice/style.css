@@ -1,0 +1,35 @@
+/* v.2.0.0 */
+
+#result {
+font-size: 70px;
+min-height: 150px;
+}
+
+
+.gDice {
+display: grid;
+grid-template-columns: minmax(0, 1fr) 1fr;
+grid-auto-columns: 1fr;
+grid-gap: 20px;
+margin: 0 auto;
+justify-content: center;
+text-align: center;
+margin-bottom: 30px;
+}
+
+@media(max-width: 200px) { .gDice { grid-template-columns: repeat(1, 1fr); }}
+
+.gDname {
+font-size: small;
+color: var(--c1);
+font-weight: bold;
+}
+
+.gDbtn {
+display: block;
+width: 100%;
+margin: 0 auto;
+overflow: auto;
+max-width: 300px;
+padding: 5px 20px;
+}

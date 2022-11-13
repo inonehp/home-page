@@ -1,0 +1,31 @@
+body, html, canvas{
+padding: 0; margin: 0;  height: 100%; overflow: hidden;
+}
+
+body {
+/* Disables pull-to-refresh */
+overscroll-behavior: contain;
+}
+
+#btn { position: absolute; top: 0; right: 0; }
+ .button{ width: 50px; max-width: 100%; padding: 5px;  }
+input[type="color"]{  cursor: pointer; height: 19px; min-height: 19px; margin: 0; }
+
+#myPics, body, html {  }
+
+
+#btn, .drawAds {
+animation:1s fadeIn;
+animation-fill-mode: forwards;
+visibility: hidden;
+animation-delay: 0.46s;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { visibility: visible;  opacity: 0.9; }
+}
+
+
+
+/** { box-shadow: inset 0 0 0 5px black, inset 0 0 0 10px white; }*/

@@ -1,0 +1,1 @@
+A simple template, the main page (logo) on the left, and the menu on the right 
