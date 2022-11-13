@@ -1,4 +1,4 @@
-/* v.3.1.5 */
+/* v.3.1.6 */
 
 
 var confDataCollection = localStorage.getItem('confDataCollection');
@@ -215,7 +215,7 @@ setTheme(localStorage.getItem('theme')); //alert('not');
 }
 });
 
-if(confRealTmpTheme.search("light|l-|Opera Mini|Mobile|Lumia|Phone") != -1||confRealTmpTheme == 'o-yellow'){
+if(confRealTmpTheme.search("light|l-|o-yellow") != -1){
 var confThemeEmbed = 'light';
 }else{
 var confThemeEmbed = 'dark';
