@@ -5,6 +5,16 @@ body {
 text-align: center;
 background-color: #FCF8F0;
 }
+
+body {
+display: grid;
+height: 50vh;
+width: 100vw;
+justify-content: center;
+align-items: safe center;
+align-self: safe center;
+}
+
 */
 
 

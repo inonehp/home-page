@@ -1,4 +1,4 @@
-/* v.12.14.9 */
+/* v.12.15.0 */
 
 :root{
 --bodyP: 2vw;
@@ -104,15 +104,8 @@ justify-content: center;
 align-items: safe center;
 align-self: safe center;
 box-sizing: border-box;
-margin: var(--bodyP) 0;
+margin: 0 var(--bodyP);
 }
-
-/*.center2, .center3, .center4 {
-display: grid;
-justify-content: center;
-align-items: safe center;
-align-self: safe center;
-}*/
 
 .center2 { min-height: calc(100vh - 50vh); }
 .center3 { min-height: calc(100vh - 40vh); }
