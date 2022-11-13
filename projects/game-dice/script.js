@@ -1,4 +1,4 @@
-// v.1.1.1
+// v.1.2.0
 
 var dice = {
 "1":"⚀",
@@ -9,6 +9,8 @@ var dice = {
 "6":"⚅"
 };
 
+var pointsPlayer = '0';
+var pointsPc = '0';
 
 
 const diceKeyArr = Object.keys(dice);
@@ -42,12 +44,14 @@ win = '<span class="orange">Player Win!!!</span>';
 win += '<audio style="display:none" autoplay="false" src="/audio/win.mp3">';
 colorPlayerWin = 'green';
 colorPcWin = '';
+pointsPlayer++;
 }
 if(player2 < pc2){
 win = '<span class="red">PC Win!!!</span>';
 win += '<audio style="display:none" autoplay="false" src="/audio/game-over.mp3">';
 colorPlayerWin = '';
 colorPcWin = 'green';
+pointsPc++;
 }
 if(player2 == pc2){
 win = '<span class="blue">Tie!!!</span>';
@@ -58,8 +62,19 @@ colorPcWin = 'green';
 
 document.getElementById("result").innerHTML = `
 <div class="gDice">
-<div><div class="`+colorPlayerWin+`">`+player+`</div><div class="block gDname op">player</div></div>
-<div><div class="`+colorPcWin+`">`+pc+`<div class="block gDname op">pc</div></div>
+
+<div>
+<div class="`+colorPlayerWin+`">`+player+`</div>
+<div class="block gDname op">player</div>
+<div class="block gDname op">`+pointsPlayer+`</div>
+</div>
+
+<div>
+<div class="`+colorPcWin+`">`+pc+`</div>
+<div class="block gDname op">pc</div>
+<div class="block gDname op">`+pointsPc+`</div>
+</div>
+
 </div>
 `;
 document.getElementById("result2").innerHTML = '<span>'+win+'</span>';
