@@ -26,8 +26,8 @@ body, html { padding: 0; margin: 0; }
 overflow: auto;*/
 width: 100vw;
 height: 100vw;
-max-width: 65vh;
-max-height: 65vh;
+max-width: 60vh;
+max-height: 60vh;
 position: relative;
 
 display: grid;
@@ -72,7 +72,7 @@ top: 60%;
 z-index: 2;
 }
 
-.pTv{
+.pTv, .pTvBorder {
 display: block;
 background: #262626;
 background: radial-gradient(circle farthest-side, #2E2E2E,#000000); background-repeat: no-repeat;
@@ -82,9 +82,18 @@ height: 25%;
 left: 10%;
 top: 30%;
 z-index: 100;
-border: 1vw solid #606060;
 border-radius: 5%;
 }
+
+.pTvBorder {
+background: #606060;
+width: calc(40% + 4%);
+height: calc(25% + 4%);
+left: calc(10% - 2%);
+top: calc(30% - 2%);
+z-index: 99;
+}
+
 
 .pTvBottom{
 display: block;
@@ -204,7 +213,7 @@ border: 1px solid #99877D;
 transform: rotate(30deg);
 }
 
-.pWindow{
+.pWindow, .pWindowBorder{
 display: block;
 background: #36C2D0;
 position: absolute;
@@ -212,8 +221,16 @@ width: 60%;
 height: 30%;
 left: 25%;
 top: 14%;
-z-index: 1;
-border: 1vw solid #F8F8F8;
+z-index: 3;
+}
+
+.pWindowBorder {
+background: #D7D7D7;
+width: calc(60% + 4%);
+height: calc(30% + 4%);
+left: calc(25% - 2%);
+top: calc(14% - 2%);
+z-index: 2;
 }
 
 .pWindow2{
@@ -224,7 +241,7 @@ width: 70%;
 height: 40%;
 left: 20%;
 top: 20%;
-z-index: 1;
+z-index: 3;
 }
 
 .pWindow3{
@@ -235,7 +252,7 @@ width: 40%;
 height: 25%;
 left: 40%;
 top: 25%;
-z-index: 1;
+z-index: 3;
 }
 
 
