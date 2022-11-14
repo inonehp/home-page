@@ -29,10 +29,6 @@ height: 100vw;
 max-width: 60vh;
 max-height: 60vh;
 position: relative;
-
-display: grid;
-justify-items: center;
-align-items: center;
 margin: 0 auto;
 }
 
