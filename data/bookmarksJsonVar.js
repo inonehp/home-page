@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "70",
+        "text": "Eddy Vinck's Developer Blog",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.eddyvinck.com\/",
+        "tag": "#HomePage #personal #nice",
+        "time": 1706129998
+    },
+    {
         "id": "69",
         "text": "Free Web Development Resources - Marko Denic - Web Developer",
         "text2": "",

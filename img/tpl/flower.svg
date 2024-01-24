@@ -9,6 +9,9 @@
    viewBox="0 0 512 512"
    sodipodi:docname="flower.svg"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/mnt/d/Sync/htdocs/img/tpl/flower.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -90,13 +93,13 @@
      cy="335.9285"
      r="24.857294" />
   <circle
-     style="opacity:0.85;fill:#4e9a06;fill-opacity:1;stroke-width:0.69709"
+     style="opacity:0.85;fill:#6ba930;fill-opacity:0.8509804;stroke-width:0.69709"
      id="path4859"
      cx="392.16632"
      cy="276.1763"
      r="21.280001" />
   <circle
-     style="opacity:0.85;fill:#4e9a06;fill-opacity:1;stroke-width:0.651917"
+     style="opacity:0.85;fill:#6ba930;fill-opacity:0.8509804;stroke-width:0.651917"
      id="path4861"
      cx="257.41595"
      cy="400.35367"
@@ -108,7 +111,7 @@
      cy="339.42245"
      r="21.757534" />
   <circle
-     style="opacity:0.85;fill:#4e9a06;fill-opacity:1;stroke-width:1.03185"
+     style="opacity:0.85;fill:#6ba930;fill-opacity:1;stroke-width:1.03185"
      id="path4865"
      cx="107.8549"
      cy="262.3905"
@@ -156,7 +159,7 @@
      cy="161.65529"
      r="12.727846" />
   <circle
-     style="opacity:0.85;fill:#4e9a06;fill-opacity:1"
+     style="opacity:0.85;fill:#6ba930;fill-opacity:0.8509804"
      id="path4877"
      cx="255.38635"
      cy="127.49166"

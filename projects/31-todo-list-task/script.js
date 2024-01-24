@@ -700,8 +700,8 @@ printDaily = `
 
 ${printTmp}
 <div class="block tRight tagList">
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'undaily')" title="pin `+cursor.key+`">p</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit `+cursor.key+`">e</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'undaily')" title="pin">p</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit">e</tag>
 </div>
 
 </div>
@@ -716,9 +716,9 @@ print = `
 
 ${printTmp}
 <div class="block tRight tagList">
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'daily')" title="pin `+cursor.key+`">p</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit `+cursor.key+`">e</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="confirmCom('del', '`+cursor.key+`')" title="remove `+cursor.key+`">x</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'daily')" title="pin">p</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit">e</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="confirmCom('del', '`+cursor.key+`')" title="remove">x</tag>
 </div>
 
 </div>

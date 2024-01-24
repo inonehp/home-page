@@ -1,4 +1,4 @@
-// v.5.8.19
+// v.5.8.20
 
 var conf = [];
 conf["confUserName"] = "inonehp";
@@ -145,7 +145,7 @@ fDescArr.forEach((tag) => {
 if((tag.trim()) != ''&&fDescTagsLimitCounter <= fDescTagsLimit){
 tag = tag.trim();
 tag = tag.replaceAll(" ", "_");
-fDescTags += `<a class="tag brand light border2" href="/search.html?q=%23${tag}">#${tag}</a> `;
+fDescTags += `<a class="tag brand light border2 borderRadius2" href="/search.html?q=%23${tag}">#${tag}</a> `;
 }
 fDescTagsLimitCounter++;
 });
