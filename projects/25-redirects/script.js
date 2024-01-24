@@ -1043,7 +1043,7 @@ case 'ss#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = `/search.html?q=`+q;
+url = "/search.html?q=" + q;
 if(q == ''){
 url = [
 "/sitemap.html?q=l",

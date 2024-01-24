@@ -15,7 +15,7 @@ let icons = {
 "arch":`<span class="bold">△</span>`,
 "beacons":"°.・",
 "bitcoin":`<span class="orange">₿</span>`,
-"bluesky":"🟦",
+"bluesky":"🟦", "bento":"🟦",
 "blogspot":"🅱",
 "dev.to":"⬛", "aboutme":"⬛",
 "twitter":`<span class="bold">𝕏</span>`, "x.com":`<span class="small bold">𝕏</span>`,

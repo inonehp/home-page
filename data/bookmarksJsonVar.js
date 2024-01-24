@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "69",
+        "text": "Free Web Development Resources - Marko Denic - Web Developer",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/markodenic.com\/free-web-development-resources\/",
+        "tag": "#dev #WebDevelopmentResources #collection",
+        "time": 1706102889
+    },
+    {
         "id": "68",
         "text": "Marc Backes \/ Coding & Tech",
         "text2": "",
@@ -150,7 +159,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/neocities.org\/tutorials",
-        "tag": "#dev #DeveloperResources #collection",
+        "tag": "#dev #WebDevelopmentResources #collection",
         "time": 1705964528
     },
     {
@@ -213,7 +222,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.wordpress.org\/",
-        "tag": "#dev #DeveloperResources #collection",
+        "tag": "#dev #WebDevelopmentResources #collection",
         "time": 1705913983
     },
     {
