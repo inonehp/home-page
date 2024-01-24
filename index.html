@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>∷ Inonehp ∷</title>
+<!--<meta name="title" content="">-->
+<!--<meta name="author" content="">-->
+
+<meta name="description" content="Home Page, Projects, and Portfolio.  
+I am trying to create a website template.
+Interests: #webdesign, #webdevelopment, #coding">
+<meta name="keywords" content="home page, personal, website, web design, web development,">
+
+<link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<meta name="generator" content="PHP, MySQL, Geany, Inkscape, Mozilla Firefox">
+
+<!--
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+-->
+
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+
+<!--<meta name="referrer" content="no-referrer" />--><!-- something breaks -->
+<!--<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">--><!-- generated in main js -->
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script">
+<link rel="preload" href="/js/ad.js" as="script"> 
+<link rel="preload" href="/projects/17-insert-icon/script.js" as="script">
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- and main css -->
+
+
+<link rel="preload" href="/img/header-banner.png" as="image">
+<link rel="canonical" href="https://inonehp.pages.dev">
+<!--<link rel="manifest" href="manifest.webmanifest">-->
+
+<!-- https://megatags.co/#generate-tags -->
+<!-- Schema.org for Google -->
+<meta itemprop="name" content="inonehp">
+<meta itemprop="description" content="Home Page, Projects, and Portfolio.  
+I am trying to create a website template.
+Interests: #webdesign, #webdevelopment, #coding">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="inonehp">
+<meta name="twitter:description" content="Home Page, Projects, and Portfolio.  
+I am trying to create a website template.
+Interests: #webdesign, #webdevelopment, #coding">
+<meta name="twitter:site" content="@inonehp">
+<meta name="twitter:creator" content="@inonehp">
+<meta name="twitter:image:src" content="https://inonehp.pages.dev/img/logo.png">
+<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+<meta name="og:title" content="inonehp">
+<meta name="og:description" content="Home Page, Projects, and Portfolio.  
+I am trying to create a website template.
+Interests: #webdesign, #webdevelopment, #coding">
+<meta name="og:image" content="https://inonehp.pages.dev/img/logo.png">
+<meta name="og:url" content="https://inonehp.pages.dev">
+<meta name="og:site_name" content="inonehp">
+<meta name="og:locale" content="en_US">
+<meta name="og:type" content="website">
+
+
+
+
+<!-- for icons -->
+<!--
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+-->
+
+</head>
+<body>
+
+
+
+
+
+<header class="wrapper3 topNav capitalize tLeft">
+<nav>
+
+<a style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+
+<!-- start menuTop for Desktop -->
+<div class="menuTop">
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="images.html">images</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem brand" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+</div>
+<!-- end menuTop -->
+
+<!-- start menuTop dropdown menu, for mobile -->
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
+<div class="dropdownMenuWrapper">
+<!--<div class="padding2">section</div>-->
+<div class="dropdownMenuContentColumn">
+
+<!-- menu dublicate -->
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="images.html">images</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem brand" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+<!-- //menu dublicate -->
+
+</div>
+</div>
+</div>
+</div>
+<!--<hr />-->
+<!-- // end dropdown menu -->
+
+<form method="GET" action="/search.html" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search (text l)" name="q" autocomplete="off">
+</form>
+
+<noscript>
+<style>
+/* mobile dropdown menu (copy from main.js */
+
+@media(max-width: 800px){
+.topNav nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+
+.topNav nav {
+justify-content: left;
+align-items: center;
+display: block;
+text-align: left;
+}
+
+}
+
+/* fix */
+@media(min-width: 800px){
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+/* end mobile dropdown menu (copy from main.js */
+
+/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
+#dropdownMenuCSS:hover #dropdownMenu {
+display: block;
+}
+#dropdownMenuCSS { display: inline-block; }
+/* end CSS  dropdown menu */
+
+.menu a { justify-content: center; text-align: center; }
+
+</style>
+</noscript>
+
+<!--<hr>-->
+
+ </nav>
+</header>
+
+
+<!-- content -->
+<div class="content">
+
+
+
+<div class="wrapper">
+
+<header id="topHeader" class="block paddingList tCenter" style="position: relative;">
+
+<img class="headerBannerImg" src="/img/header-banner.png" alt="header banner" style="max-height: 120px;">
+<a href="#"><img class="logo darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 60px;"></a>
+<div class="block padding2List"></div>
+
+<div class="block paddingList">
+<h1 class="op inlineFlex zero padding">
+<span class="small zero center">∷&nbsp;</span>
+<span class="username" id="mUsername">inonehp</span>
+<span class="small zero center">&nbsp;∷</span>
+</h1>
+<div class="padding">
+<span class="xxSmall padding insertIcon">Status: </span>
+<span class="pre tLeft small">Winter.</span> 
+
+<details class="small">
+<summary class="op wrapperS padding2List pointer">
+<span class="xSmall padding2List"">update: <span id="last-update"></span>
+</summary>
+<div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">about: add margin.</div>
+</details>
+
+
+
+
+</div>
+</div>
+
+</header>
+
+
+
+<div id="hotLinksTop" class="scrollX tCenter small">
+<span id="urlDayNow"></span>
+<a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=sci" title="Science">sci</a>
+<a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=tec" title="Technology">tec</a>
+<a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=n2" title="Other topics">n2</a>
+
+<a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=dev" title="Development">dev</a>
+<a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=cod" title="Documentation">cod</a>
+<a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=r"title="Random">r</a>
+<a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=⚃" title="4 previous">⚃</a>
+</div>
+<div class="block paddingList"></div>
+
+<script>
+// day link
+var monthsEn = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+var dayEn = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+//https://stackoverflow.com/questions/50922593/function-getutcdate-returns-a-month
+var dateObj = new Date();
+var month = dateObj.getMonth() + 1; //months from 1-12
+var day = dateObj.getDate();
+var year = dateObj.getFullYear();
+
+//https://www.w3schools.com/jsref/jsref_getday.asp
+let d = dateObj.getDay();
+
+/*
+let i = 1;
+let text = '';
+while (i <= 6) {
+if(d == i){
+text += ``+(d)+``;
+}else{
+text += ".";
+}
+
+i++;
+}
+if(d == 0){ text += `7`; } else { text += '.'; }
+*/
+var dayNowTitle = day +' '+ dayEn[d];
+
+var urlDayNow = 'https://en.wikipedia.org/wiki/'+monthsEn[month]+'_'+day+'';
+//document.getElementById('urlDayNow').innerHTML = `<a class="border borderRadius2 tag light2 op" href="`+urlDayNow+`" title="Wikipedia">`+dayEn[d]+` `+day+` `+monthsEn[month]+`</a>`;
+document.getElementById('urlDayNow').innerHTML = `<a class="border borderRadius2 tag light2 op" href="`+urlDayNow+`" title="Wikipedia">`+dayNowTitle+`</a>`;
+
+
+/*function normalize(a){
+if(a <= 9){ a = '0'+a; }
+return a;
+}*/
+</script>
+
+
+<div id="form" class="wrapper">
+<form method="GET" style="margin-top: 0px;" action="/projects/25-redirects/" autocomplete="off" role="search">
+
+<label id="search" class="op tLeft xSmall"><span class="bold orange">✪</span> Web search (redirect, random):</label>
+<input class="padding2" aria-labelledby="search" type="search"  name="q" autofocus="autofocus"  placeholder="text l" autocomplete="off">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
+<input type="submit" value="search" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
+<input type="submit" name="q2" value="l" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
+</div>
+
+</form>
+
+</div>
+
+
+
+
+<script>
+
+// v.1.1.3
+// hot links top
+
+if(document.querySelectorAll('input').length > 0){ 
+var inputA = document.querySelectorAll('input')[0];
+inputA.addEventListener('input', updateValueInTop);
+}
+
+if(document.querySelectorAll('input').length > 1){ 
+var inputB = document.querySelectorAll('input')[1];
+inputB.addEventListener('input', updateValueInTop);
+}
+
+//alert(document.querySelectorAll('input').length);
+if(document.querySelectorAll('input').length > 3){
+var inputC = document.querySelectorAll('input')[3];
+inputC.addEventListener('input', updateValueInTop);
+}
+
+function randomSite(){
+urlList = [
+' ', 'reddit', 'twitter', 'wikipedia'
+];
+random = Math.floor(Math.random() * urlList.length);
+return urlList[random];
+}
+
+function updateValueInTop(e) {
+var text = encodeURIComponent(e.target.value);
+
+var a = `
+
+<a class="border borderRadius2 tag light2" href="/projects/25-redirects/?q=`+ text +` site:https://en.wikipedia.org/" title="Wikipedia">` +dayNowTitle + `</a>
+<a class="border borderRadius2 tag light2" href="/projects/25-redirects/?q=`+ text +` site:https://www.reddit.com/" title="Reddit">sci</a>
+<a class="border borderRadius2 tag light2" href="/projects/25-redirects/?q=` + text + ` site:https://www.reddit.com/" title="Reddit">tec</a>
+<a class="border borderRadius2 tag light2" href="/projects/25-redirects/?q=` + text +` site:https://www.reddit.com/" title="Reddit">n2</a>
+<a class="border borderRadius2 tag light2" href="`+text+` site:https://developer.mozilla.org/" title="MDN Web Docs">dev</a>
+<a class="border borderRadius2 tag light2" href="`+text+` site:https://stackoverflow.com/" title="Stackoverflow">cod</a>
+<a class="border borderRadius2 tag light2" href="/projects/25-redirects/?q=` + text + ` r" title="Random">r</a>
+<a class="border borderRadius2 tag light2" href="/projects/25-redirects/?q=` + text + ' ' + randomSite() + ` r" title="4 previous">⚃</a>
+
+`;
+
+document.getElementById("hotLinksTop").innerHTML = a; 
+}
+// end hot links top
+
+</script>
+
+
+
+
+
+
+
+<div  class="center" style="margin-top: 7px;">
+<div class="wrapper tCenter small"><!--if scrollX horizontal class rm tagList)-->
+<div id="hotLinks">
+
+<div class="tagList2 hotLinks">
+<!--<span class="x-small op c" title="Commands:">com: </span>-->
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="https://google.com/" title="Google">goo</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="https://bing.com/" title="Bing">bin</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="https://www.youtube.com/" title="YouTube">y</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="/projects/25-redirects/?q=v" title="Video">v</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="/projects/25-redirects/?q=n" title="News">n</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="/projects/25-redirects/?q=t" title="Translate">t</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="/projects/25-redirects/?q=we" title="Weather">we</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="/search.html" title="Site">site</a>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<script>
+// v.1.1.3
+// hot links
+
+if(document.querySelectorAll('input').length > 0){ 
+var inputA = document.querySelectorAll('input')[0];
+inputA.addEventListener('input', updateValueIn);
+}
+
+if(document.querySelectorAll('input').length > 1){ 
+var inputB = document.querySelectorAll('input')[1];
+inputB.addEventListener('input', updateValueIn);
+}
+
+//alert(document.querySelectorAll('input').length);
+if(document.querySelectorAll('input').length > 4){ 
+var inputC = document.querySelectorAll('input')[4];
+inputC.addEventListener('input', updateValueIn);
+}
+
+
+function updateValueIn(e) {
+var text = encodeURIComponent(e.target.value);
+
+var a = `
+
+<div class="tagList2 hotLinks">
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` goo" title="Google">goo</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` bin" title="Bing">bin</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` y" title="YouTube">y</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` v" title="video">v</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` n" title="News">n</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` t" title="Translate">t</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` title="Weather"">we</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` qq" title="Site">site</a>
+</div>
+
+`;
+document.getElementById("hotLinks").innerHTML = a; 
+}
+// end hot links
+
+</script>
+
+
+
+
+
+<!-- start speed dial -->
+<div class="block padding3 margin2"></div>
+
+<div class="wrapper small">
+<span class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Speed dial:</span>
+
+<div class="tagList left">
+<a class="insertIcon tag2 light2 border borderRadius2" href="/pages.html">Pages</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects-list.html#projects">Projects</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/mini-projects-list.html#mini-projects">Mini-projects</a>
+<!--<a class="insertIcon tag2 light2 border borderRadius2" href="/other-projects-list.html#other-projects">Other-projects</a>-->
+<a class="insertIcon tag2 light2 border borderRadius2" href="/archive-list.html#archive">archive</a>
+</div>
+
+<div class="block margin2"></div>
+<div class="tagList left">
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/31-todo-list-task/">Task</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/32-todo-list-idea/">Idea</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/14-typing-speed/">Typing</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/42-quiz/">Quiz</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/45-quiz-word/">Quiz Word</a>
+
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/22-radio/">Radio</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/20-music/">Music</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/36-tv/">TV</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/18-video/">Video</a>
+</div>
+<!-- end speed dial -->
+
+<div class="block margin2 padding2"></div>
+
+<span class="xSmall op block tLeft paddingList marginList"><span class="bold orange">✪</span> Main:</span>
+
+<!-- start menu -->
+
+ 
+
+<div class="menu">
+<a id="main-cLa"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="about.html">About</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="archive-list.html">Archive list</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="articles-page.html">Articles page</a>
+<a id="main-cLb"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="blog.html">Blog</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="bookmarks-page.html">Bookmarks page</a>
+<a id="main-cLc"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="chrome-extensions-list.html">Chrome extensions list</a>
+<a id="main-cLd"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="data2-page.html">Data2 page</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="data-page.html">Data page</a>
+<a id="main-cLf"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="firefox-extensions-list.html">Firefox extensions list</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="firefox-theme.html">Firefox theme</a>
+<a id="main-cLg"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="geany-color.html">Geany color</a>
+<a id="main-cLi"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="images.html">Images</a>
+<a id="main-cLp"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="photos.html">Photos</a>
+<a id="main-cLs"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="search.html">Search</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="sitemap.html">Sitemap</a>
+<a id="main-cLt"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="templates.html">Templates</a>
+<a id="main-cLv"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="vscode-theme.html">Vscode theme</a>
+<a id="main-cLw"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="web-search.html">Web search</a>
+</div><!-- end menu -->
+
+
+</div>
+<!-- end speed dial -->
+
+
+
+
+<!--
+<div class="block op tCenter">menu:</div>
+<div id="idTagList"></div>-->
+
+<div id="getId">
+
+<script>
+/*
+async function divIdToTag(printId, fromId){
+
+var allIdOnPage = '';
+
+let divId = document.getElementById(fromId);
+
+let allDivId = divId.querySelectorAll('div');
+allDivId.forEach((item, index) => {
+if(item.id != ''){
+allIdOnPage += `<a class="tag2 border2 light" href="#`+item.id+`">`+item.id+`</a>`
+}
+});
+allIdOnPage = `
+<div class="block tagList tCenter padding2">`+allIdOnPage+`</div>
+`;
+//document.getElementsByClassName('print')[0].innerHTML = allIdOnPage;
+
+if(document.getElementById(printId) == null){
+console.log('id for print null');
+}else{
+document.addEventListener("DOMContentLoaded", (event) => {
+document.getElementById(printId).innerHTML = allIdOnPage;
+});
+
+}
+
+
+}
+
+divIdToTag('idTagList', 'getId')
+*/
+</script>
+
+<br></div>
+
+</div>
+
+
+
+
+
+<div class="padding2 margin2"></div>
+
+
+
+<script>
+//https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
+var meta = document.createElement('meta');
+meta.name = "referrer";
+meta.content = "no-referrer";
+document.getElementsByTagName('head')[0].appendChild(meta);
+</script>
+
+<!-- //content -->
+
+
+
+</div>
+
+
+
+<footer>
+
+<div id="footer"></div>
+
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script src="/js/ad.js"></script>
+<script>
+fuAds('', 'ads2', '');
+</script>
+
+<script>
+/* v.1.2.0 */
+// https://stackoverflow.com/questions/13903897/javascript-return-number-of-days-hours-minutes-seconds-between-two-dates
+
+// Time  post date
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  
+  return i;
+}
+
+
+function fuPostTime(p){
+const  date_future = Date.now();
+const  date_now = new Date(p * 1000);
+
+
+// get total seconds between the times
+var delta = Math.abs(date_future - date_now) / 1000;
+
+var year = Math.floor(delta / 31557600);
+delta -= year * 31557600;
+
+var month = Math.floor(delta / 2629800);
+delta -= month * 2629800;
+
+// calculate (and subtract) whole days
+var days = Math.floor(delta / 86400);
+delta -= days * 86400;
+
+// calculate (and subtract) whole hours
+var hours = Math.floor(delta / 3600) % 24;
+delta -= hours * 3600;
+
+// calculate (and subtract) whole minutes
+var minutes = Math.floor(delta / 60) % 60;
+delta -= minutes * 60;
+
+// what's left is seconds
+var seconds = delta % 60;  // in theory the modulus is not required
+
+if(year > 0){
+time = year+' year ';
+} else if(month > 0){
+time = month+' month ';
+} else if (days > 0){
+time = days+' day ';
+} else if(hours > 0){
+time = hours+' hour ';
+} else if (minutes > 0) { time = minutes+' minute '; }
+else { time = checkTime(Math.floor(seconds))+' second '; }
+
+return time + ' ago';
+//document.getElementById("time").innerHTML = '&nbsp;'+time+'&nbsp;';
+}
+</script>
+
+<!--<script src="/js/fuPostTime.js"></script>-->
+<script>
+document.getElementById("last-update").innerHTML = fuPostTime(1706087861);
+</script>
+
+<script>
+// hide half header for search input form
+
+if(conf["confDevice"] == 'mobile'){
+var getclick2 = document.getElementById('form');
+document.addEventListener('click', function(event) {
+if (getclick2.contains(event.target)) {
+document.getElementById( 'topHeader' ).style.display = 'none';
+}else{
+document.getElementById( 'topHeader' ).style.display = 'block';
+}
+});
+
+} 
+
+
+// redirect q to search dir
+var geturl = window.location;
+var url = new URL(geturl);
+var q = url.searchParams.get("q");
+var url = new URL(geturl);
+let sUrlText = String(url);
+const myArray = sUrlText.split("q=");
+if(q != null&&myArray[0].search("cache") == -1&&url.hostname == location.hostname){
+q = encodeURIComponent(q);
+window.location.href = "/projects/25-redirects/?q="+q;
+}
+
+</script>
+
+
+
+<script src="/projects/17-insert-icon/script.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", (event) => {
+insertIcon('insertIcon', 'strict');
+});
+</script>
+
+
+
+
+</body>
+</html>

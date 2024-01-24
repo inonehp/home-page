@@ -1,0 +1,99 @@
+/* v.1.1.2 */
+/* Some code is probably from the Codepen CPC template. */
+
+body { margin: 0; padding: 0; font-family: Arial; }
+
+body { background-color: rebeccapurple; }
+.content {
+	background-color: rebeccapurple;
+
+	height: 100vh;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.blob {
+	display: flex;
+justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 40px;
+	background-color: whitesmoke;
+	border-radius: 78% 57% 77% 57% / 70% 93% 40% 57%;
+	margin: auto;
+	margin-top: -10px;
+	border: 3px solid #fff;
+color: #000;
+font-weight: bold;
+font-size: medium;
+}
+
+.newYear {
+	margin-right: -10px;
+	padding: 20px 0;
+	color: #fff;
+	font-size: 30px;
+}
+
+.newYear::first-letter, .lYear {
+  color: #fff;
+  background-color: #000;
+  border-radius: 2px;
+  box-shadow: 3px 3px 0 lightgreen;
+
+  padding: 6px 3px;
+margin-right: 5px;
+}
+
+.lYear {
+padding: 5px 9px;
+border-radius: 15px;
+}
+
+@media(max-width: 250px){
+	.newYear{ text-align: center; font-size: medium; }
+}
+
+.star {
+	width: 30px;
+	height: 30px;
+	background-color: orange;
+	clip-path: polygon(
+		50% 0%,
+		61% 35%,
+		98% 35%,
+		68% 57%,
+		79% 91%,
+		50% 70%,
+		21% 91%,
+		32% 57%,
+		2% 35%,
+		39% 35%
+	);
+	margin: auto;
+	margin-bottom: -10px;
+	position: relative;
+	z-index: 2;
+}
+
+.tree {
+	width: 90px;
+	height: 150px;
+	background-color: SpringGreen;
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+margin: 0 auto;
+}
+
+.trunk{
+	width: 20px;
+	height: 30px;
+	background-color: gray;
+	margin: 0 auto;
+
+}
+
+/* fix for site */
+.content { height: auto; }
+

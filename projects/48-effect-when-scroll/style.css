@@ -1,0 +1,60 @@
+/* v.1.0.2 */
+/* comment */
+
+body {
+margin: 0;
+background-color: SeaShell;
+}
+
+.content {
+width: 100%;
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+}
+
+.lBlock {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: safe center;
+align-self: safe center;
+align-content: center;
+
+margin: auto;
+left: 0;
+right: 0;
+
+min-height: 40vh;
+
+background-color: orange;
+border: 3px solid red;
+
+}
+
+
+.lEffect {
+animation: 0.5s linear 0s alternate aniName;
+}
+
+@keyframes aniName {
+  from {
+    /* pushes the sun down past the viewport */
+transform: translateY(50vh);
+background-color: lime;
+  }
+  to {
+    /* returns the sun to its default position */
+transform: translateY(0);
+background-color: lime;
+  }
+}
+
+
+.lLine {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 50vh;
+  border: 3px solid red;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>translit</title>
+
+<meta name="description" content="
+Cyrillic transliteration using JavaScript.
+">
+<meta name="keywords" content="
+transliteration,
+translit,
+transliteration online,
+translit online
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+-->
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script">
+<link rel="preload" href="/js/ad.js" as="script"> 
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- and main css -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<header class="brand">
+<nav>
+<a href="/">index</a>
+<a href="../">list</a>
+</nav>
+</header>
+
+
+
+<div class="content">
+
+<h1 class="tCenter op">translit</h1>
+
+<div class="center3">
+
+<div id="all" class="post2 light2 border height" style="margin: 2em auto;">
+
+
+<form action="index.html" style="width: 100%;">
+
+<div id="result" class="result pre scroll"></div>
+
+<textarea rows="1" id="text" class="result"  name="q" placeholder=" input" autofocus="autofocus"></textarea>
+<input class="op x-small" type="submit">
+</form>
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+<footer id="footer"></footer>
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script async src="/js/ad.js" onload="fuAds('', 'ads2', '')"></script>
+
+<script src="script.js"></script>
+
+<script>
+document.getElementById('text').value = '';
+var task = '';
+var geturl = window.location;
+var url = new URL(geturl);
+var q = url.searchParams.get("q");
+
+/*if(q != null){ localStorage.setItem("qtranslit", q); q = q; }else{
+if(localStorage.getItem("qtranslit")){ q = localStorage.getItem("qtranslit"); }
+}*/
+
+q = decodeURI(q);
+
+if(q != "null"){
+document.getElementById("result").innerHTML = transliterate(q).trim(); 
+}
+
+
+// input listener and print result
+if(document.querySelectorAll('textarea').length >= 1){
+var inputA = document.querySelectorAll('textarea')[0];
+inputA.addEventListener('input', updateValueInput);
+}
+
+function updateValueInput(e) {
+//q = encodeURIComponent(e.target.value);
+q = e.target.value;
+document.getElementById("result").innerHTML = transliterate(q).trim()+'</span><span id="scrollTo"></span>';
+document.getElementById("scrollTo").scrollIntoView(true);
+
+}
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+RewriteEngine On
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.php -f
+RewriteRule !\.\w{2,4}$ %{REQUEST_URI}.php [L]
+
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.html -f
+RewriteRule !\.\w{2,4}$ %{REQUEST_URI}.html [L]
+
+
+
+
+
+
+
+
+
+
+

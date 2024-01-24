@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Sitemap</title>
+<!--<meta name="title" content="">-->
+<!--<meta name="author" content="">-->
+
+<meta name="description" content="Site map with all pages or earch on the site, the path to the page is used for the search. (Static search based on JavaScript and JSON data in the variable).">
+<meta name="keywords" content="site map,
+sitemap.xml,
+search on the site,
+search on site,
+search">
+
+<link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<meta name="generator" content="PHP, MySQL, Geany, Inkscape, Mozilla Firefox">
+
+<!--
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+-->
+
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+
+<!--<meta name="referrer" content="no-referrer" />--><!-- something breaks -->
+<!--<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">--><!-- generated in main js -->
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script">
+<link rel="preload" href="/js/ad.js" as="script"> 
+<link rel="preload" href="/projects/17-insert-icon/script.js" as="script">
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- and main css -->
+
+
+<link rel="preload" href="/projects/1-blog/script.js" as="script"> 
+
+<!-- for icons -->
+<!--
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+-->
+
+</head>
+<body>
+
+
+
+
+
+<header class="wrapper3 topNav capitalize tLeft">
+<nav>
+
+<a style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+
+<!-- start menuTop for Desktop -->
+<div class="menuTop">
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="images.html">images</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem brand" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+</div>
+<!-- end menuTop -->
+
+<!-- start menuTop dropdown menu, for mobile -->
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
+<div class="dropdownMenuWrapper">
+<!--<div class="padding2">section</div>-->
+<div class="dropdownMenuContentColumn">
+
+<!-- menu dublicate -->
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="images.html">images</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem brand" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+<!-- //menu dublicate -->
+
+</div>
+</div>
+</div>
+</div>
+<!--<hr />-->
+<!-- // end dropdown menu -->
+
+<form method="GET" action="/search.html" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search (text l)" name="q" autocomplete="off">
+</form>
+
+<noscript>
+<style>
+/* mobile dropdown menu (copy from main.js */
+
+@media(max-width: 800px){
+.topNav nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+
+.topNav nav {
+justify-content: left;
+align-items: center;
+display: block;
+text-align: left;
+}
+
+}
+
+/* fix */
+@media(min-width: 800px){
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+/* end mobile dropdown menu (copy from main.js */
+
+/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
+#dropdownMenuCSS:hover #dropdownMenu {
+display: block;
+}
+#dropdownMenuCSS { display: inline-block; }
+/* end CSS  dropdown menu */
+
+.menu a { justify-content: center; text-align: center; }
+
+</style>
+</noscript>
+
+<!--<hr>-->
+
+ </nav>
+</header>
+
+
+<!-- content -->
+<div class="content">
+
+
+<h1 class="block tCenter op">Sitemap</h1>
+<a class="block tCenter op" href="/sitemap.xml">sitemap.xml</a>
+
+
+
+
+<div id="echoBlog"></div>
+
+<!-- //content -->
+
+
+
+</div>
+
+
+
+<footer>
+
+<div id="footer"></div>
+
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script src="/js/ad.js"></script>
+<script>
+fuAds('', 'ads2', '');
+</script>
+
+<script src="/data/sitemapJsonVar.js"></script>
+<script src="/projects/1-blog/script.js"></script>
+
+<style>
+.blogContent .pre { font-size: 1em; /*text-transform: capitalize;*/ }
+.blogContent .pre a { text-transform: none; }
+</style>
+
+<script>
+let blogConfig = {
+"postLimit":"10", // number
+"embedStatus":"off", // off
+"multiEmbedStatus":"", // on
+"tagListStatus":"", // off
+"tagListLimit":"", // number
+"targetOption":"", // blank
+"bottomMsg":"", // text
+"display":"", // grid
+"timeStatus":"", // off
+};
+</script>
+<script>
+blog("echoBlog", sitemapJsonVar, 'post', '/sitemap.html', blogConfig);
+</script>
+
+
+
+<script src="/projects/17-insert-icon/script.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", (event) => {
+insertIcon('insertIcon', 'strict');
+});
+</script>
+
+
+
+
+</body>
+</html>
+

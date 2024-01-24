@@ -1,0 +1,48 @@
+/* v.1.0.0 */
+/* Some code is probably from the Codepen CPC template. */
+
+/* inspired  https://webflow.com/made-in-webflow/website/jb10x#*/
+.dashboard {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+body {
+background: SeaShell;
+	color: #000;
+}
+h2 {
+	display: block;
+	background: #b2dbb3;
+clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+
+table, td, tr {
+	background-color: #edd3f2;
+}
+
+table {
+	width: 100%;
+}
+
+h2, table {
+	padding: 9px;
+	text-align: left;
+}
+h2 {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+th, td {
+border: none;
+border-bottom: 1px solid #d7bfdb;
+	padding-bottom: 3px;
+	padding-top: 5px;
+}
+
+
+body {
+	font-family: system-ui;
+}
+

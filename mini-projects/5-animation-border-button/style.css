@@ -1,0 +1,61 @@
+/* v.1.0.1 */
+/* comment */
+
+
+.block332Wrapper{
+position: relative;
+display: inline-block;
+
+padding: 5px; /*border*/
+border-radius: 15px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+overflow: hidden;
+}
+
+.block332Border{
+position: absolute;
+background: linear-gradient(to right, black, white, black); 
+animation: block332Animation 15s linear infinite;
+width: 250px;
+height: 250px;
+z-index: -2;
+top: -50px;
+left: -50px;
+
+}
+
+.block332Text, .block332Text:hover{
+display: block;
+
+padding: 15px;
+background: black;
+color: #fff;
+border-radius: 15px;
+z-index: -1;
+  
+text-decoration: none;
+}
+
+
+@keyframes block332Animation {
+
+0%{ transform: rotate(-360deg); }
+100%{ transform: rotate(360deg); }
+
+}
+
+body { text-align: center; }
+/*
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+
+  	background: radial-gradient(
+		circle,
+		#f7f7f7 30%,
+		silver 100%
+	);
+}
+*/

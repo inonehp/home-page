@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Pages</title>
+<!--<meta name="title" content="">-->
+<!--<meta name="author" content="">-->
+
+<meta name="description" content="A list of some pages of the site in a menu view.">
+<meta name="keywords" content="
+list of pages,
+pages list,
+pages,
+list,
+">
+
+<link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<meta name="generator" content="PHP, MySQL, Geany, Inkscape, Mozilla Firefox">
+
+<!--
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+-->
+
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+
+<!--<meta name="referrer" content="no-referrer" />--><!-- something breaks -->
+<!--<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">--><!-- generated in main js -->
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script">
+<link rel="preload" href="/js/ad.js" as="script"> 
+<link rel="preload" href="/projects/17-insert-icon/script.js" as="script">
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- and main css -->
+
+
+
+
+
+<!-- for icons -->
+<!--
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+-->
+
+</head>
+<body>
+
+
+
+
+
+<header class="wrapper3 topNav capitalize tLeft">
+<nav>
+
+<a style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+
+<!-- start menuTop for Desktop -->
+<div class="menuTop">
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="images.html">images</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem active" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+</div>
+<!-- end menuTop -->
+
+<!-- start menuTop dropdown menu, for mobile -->
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
+<div class="dropdownMenuWrapper">
+<!--<div class="padding2">section</div>-->
+<div class="dropdownMenuContentColumn">
+
+<!-- menu dublicate -->
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="images.html">images</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem active" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+<!-- //menu dublicate -->
+
+</div>
+</div>
+</div>
+</div>
+<!--<hr />-->
+<!-- // end dropdown menu -->
+
+<form method="GET" action="/search.html" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search (text l)" name="q" autocomplete="off">
+</form>
+
+<noscript>
+<style>
+/* mobile dropdown menu (copy from main.js */
+
+@media(max-width: 800px){
+.topNav nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+
+.topNav nav {
+justify-content: left;
+align-items: center;
+display: block;
+text-align: left;
+}
+
+}
+
+/* fix */
+@media(min-width: 800px){
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+/* end mobile dropdown menu (copy from main.js */
+
+/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
+#dropdownMenuCSS:hover #dropdownMenu {
+display: block;
+}
+#dropdownMenuCSS { display: inline-block; }
+/* end CSS  dropdown menu */
+
+.menu a { justify-content: center; text-align: center; }
+
+</style>
+</noscript>
+
+<!--<hr>-->
+
+ </nav>
+</header>
+
+
+<!-- content -->
+<div class="content">
+
+<h1 class="op tCenter">Pages</h1>
+
+<div class="wrapper">
+
+
+<div class="small block op tCenter">quick tags:</div>
+<div id="idTagList"></div>
+
+<div id="getId">
+
+<!-- start menu -->
+
+<div id="main"></div>
+
+<div class="block padding2 margin2"></div>
+<div><h1 class="block op tCenter">Main:</h1></div> 
+
+<div class="menu">
+<a id="main-cLa"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="about.html">About</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="archive-list.html">Archive list</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="articles-page.html">Articles page</a>
+<a id="main-cLb"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="blog.html">Blog</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="bookmarks-page.html">Bookmarks page</a>
+<a id="main-cLc"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="chrome-extensions-list.html">Chrome extensions list</a>
+<a id="main-cLd"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="data2-page.html">Data2 page</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="data-page.html">Data page</a>
+<a id="main-cLf"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="firefox-extensions-list.html">Firefox extensions list</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="firefox-theme.html">Firefox theme</a>
+<a id="main-cLg"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="geany-color.html">Geany color</a>
+<a id="main-cLi"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="images.html">Images</a>
+<a id="main-cLp"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="photos.html">Photos</a>
+<a id="main-cLs"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="search.html">Search</a>
+<a   class="insertIcon button light3 border borderRadius2" tabindex="0" href="sitemap.html">Sitemap</a>
+<a id="main-cLt"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="templates.html">Templates</a>
+<a id="main-cLv"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="vscode-theme.html">Vscode theme</a>
+<a id="main-cLw"  class="insertIcon button light3 border borderRadius2" tabindex="0" href="web-search.html">Web search</a>
+</div><!-- end menu -->
+
+<!-- start menu -->
+
+<div id="projects"></div>
+
+<div class="block padding2 margin2"></div>
+<div><h1 class="block op tCenter">Projects:</h1></div> 
+
+<div class="menu">
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/40-average-number/"> average number</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/1-blog/"> blog</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/2-browser-info/"> browser info</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/3-calculator/"> calculator</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/4-color-picker/"> color picker</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/39-count-symbol/"> count symbol</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/5-demo-test-style/"> demo test style</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/7-drawing/"> drawing</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/8-dropdown-menu/"> dropdown menu</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/48-effect-when-scroll/"> effect when scroll</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/9-game-dice/"> game dice</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/10-game-guess-number/"> game guess number</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/11-game-memory-symbol/"> game memory symbol</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/12-game-snake/"> game snake</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/13-game-tic-tac-toe/"> game tic tac toe</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/46-google-trends/"> google trends</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/15-highlight-word/"> highlight word</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/16-hint/"> hint</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/17-insert-icon/"> insert icon</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/19-movie-list/"> movie list</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/20-music/"> music</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/47-page-gen-test/"> page gen test</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/21-pwa-test/"> pwa test</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/42-quiz/"> quiz</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/45-quiz-word/"> quiz word</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/22-radio/"> radio</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/23-random-symbol-or-password-generator/"> random symbol or password generator</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/24-random-text-generator/"> random text generator</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/25-redirects/"> redirects</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/41-start-page/"> start page</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/27-test/"> test</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/39-text-to-binary/"> text to binary</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/43-text-to-url/"> text to url</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/28-time-binary-clock/"> time binary clock</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/29-time-clock/"> time clock</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/30-time-stopwatch/"> time stopwatch</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/32-todo-list-idea/"> todo list idea</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/31-todo-list-task/"> todo list task</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/35-transliterate/"> transliterate</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/36-tv/"> tv</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/14-typing-speed/"> typing speed</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/18-video/"> video</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/37-weather/"> weather</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/a1-tpl-project/">A tpl project</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/projects/a2-tpl-project-mini/">A tpl project mini</a>
+</div><!-- end menu -->
+
+<!-- start menu -->
+
+<div id="mini-projects"></div>
+
+<div class="block padding2 margin2"></div>
+<div><h1 class="block op tCenter">Mini-projects:</h1></div> 
+
+<div class="menu">
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/1-about-blank/"> about blank</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/3-angled/"> angled</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/4-angled-light-walpaper/"> angled light walpaper</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/5-animation-border-button/"> animation border button</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/6-animation-test/"> animation test</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/7-balloon/"> balloon</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/28-button-blur-unblur/"> button blur unblur</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/30-buttons/"> buttons</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/27-color-collection/"> color collection</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/32-css-drawing-women-illustration-cpc/"> css drawing women illustration cpc</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/13-css-image-realistic-old-windows-os-popup/"> css image realistic old windows os popup</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/9-css-pc/"> css pc</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/10-earth-textures-cpc/"> earth textures cpc</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/25-halloween-decoration/"> halloween decoration</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/29-light-and-dark-design-cpc/"> light and dark design cpc</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/11-matrix/"> matrix</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/12-not-sleep-pc/"> not sleep pc</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/15-pumpkin/"> pumpkin</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/17-rain-cpc/"> rain cpc</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/18-random-button-cpc/"> random button cpc</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/2-responsive-web-design/"> responsive web design</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/19-round-cpc/"> round cpc</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/20-snow/"> snow</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/31-sun-and-moon/"> sun and moon</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/24-textarea/"> textarea</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/26-title-with-arrow/"> title with arrow</a>
+<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/a-tpl-project-mini/">A tpl project mini</a>
+</div><!-- end menu -->
+
+<div class="block padding2"></div>
+
+<div id="other-projects"></div>
+<h2 class="op tCenter">Other Projects</h2>
+
+
+
+
+<!-- post -->
+<div class="bgList borderList post file">
+
+<div class="pre padding2List"><a class="hideNotFound" href="/other-projects/php-fuWebsiteToPWA/">[ l ]<span class="op sup x-small"></span></a> <a class="brand insertIcon" href="https://github.com/inonehp/inonehp.pages.dev/tree/main/other-projects/php-fuWebsiteToPWA/">[ Php fuWebsiteToPWA ]<span class="op sup x-small">⇗</span></a>  </div>
+<div class="postTagList small"></div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="bgList borderList post file">
+
+<div class="pre padding2List"><a class="hideNotFound" href="/other-projects/python-hello-world/">[ l ]<span class="op sup x-small"></span></a> <a class="brand insertIcon" href="https://github.com/inonehp/inonehp.pages.dev/tree/main/other-projects/python-hello-world/">[ Python hello world ]<span class="op sup x-small">⇗</span></a>  </div>
+<div class="postTagList small"></div>
+
+</div>
+<!-- // post -->
+
+
+
+
+<style>
+
+.hideNotFound { display: none; }
+
+</style>
+
+
+<div class="printStyle"></div>
+
+<script>
+// hit not found on site
+if(location.hostname == 'localhost'){
+document.getElementsByClassName("printStyle")[0].innerHTML += `
+<style>
+.hideNotFound { display: inline-block; }
+</style>
+`;
+}
+</script>
+
+
+</div>
+
+<div class="block padding2"></div>
+<div class="small block op tCenter">quick tags:</div>
+<div id="idTagList2"></div>
+
+
+<script>
+
+
+
+
+
+async function divIdToTag(printId, fromId){
+
+var allIdOnPage = '';
+
+let divId = document.getElementById(fromId);
+
+let allDivId = divId.querySelectorAll('div');
+allDivId.forEach((item, index) => {
+if(item.id != ''){
+allIdOnPage += `<a class="tag2 border2 borderRadius2 light" href="#`+item.id+`">`+item.id+`</a>`
+}
+});
+allIdOnPage = `
+<div class="block tagList tCenter padding2">`+allIdOnPage+`</div>
+`;
+//document.getElementsByClassName('print')[0].innerHTML = allIdOnPage;
+
+if(document.getElementById(printId) == null){
+console.log('id for print null');
+}else{
+document.addEventListener("DOMContentLoaded", (event) => {
+document.getElementById(printId).innerHTML = allIdOnPage;
+});
+
+}
+
+
+}
+
+divIdToTag('idTagList', 'getId')
+divIdToTag('idTagList2', 'getId')
+
+</script>
+
+<br></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- //content -->
+
+
+
+</div>
+
+
+
+<footer>
+
+<div id="footer"></div>
+
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script src="/js/ad.js"></script>
+<script>
+fuAds('', 'ads2', '');
+</script>
+
+
+
+
+<script src="/projects/17-insert-icon/script.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", (event) => {
+insertIcon('insertIcon', 'strict');
+});
+</script>
+
+
+
+
+</body>
+</html>

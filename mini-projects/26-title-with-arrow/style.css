@@ -1,0 +1,31 @@
+/* v.1.0.0 */
+
+.content {
+margin: 0;
+padding: 0;
+text-align: center;
+
+display: grid;
+align-items: center;
+justify-content: center;
+}
+
+
+.testArrow {
+display: inline-block;
+width: 25px;
+height: 20px;
+margin-left: -5px;
+background: #000;
+/*https://bennettfeely.com/clippy/ #*/
+clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.testArrowH { margin-bottom: 0; }
+.testArrowWrapper { margin-right: -5px; }
+
+/* for CodePen */
+/*
+.content { height: 100vh; }
+body { background: seashell; }
+*/

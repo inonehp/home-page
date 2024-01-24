@@ -1,0 +1,62 @@
+/* v.1.2.2 */
+
+.content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: safe-center;
+align-self: safe-center;
+box-sizing: border-box;
+margin: 0 auto;
+margin-bottom: 0;
+overflow: hidden;
+text-align: center;
+}
+
+.localBg {
+width: 10vw;
+max-width: 150px;
+position: absolute;
+overflow: hidden;
+top: 0;
+z-index: -3;
+right: 10%;
+top: 10%;
+/*-webkit-transform: scaleX(-1);
+transform: scaleX(-1);*/
+transform: rotate(45deg);
+}
+
+
+.localBg2 {
+width: 21vw;
+max-width: 195px;
+position: absolute;
+overflow: hidden;
+z-index: -2;
+left: 5%;
+bottom: 0;
+}
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation#*/
+@media (orientation: portrait) {
+.localBg { width: 10vh; }
+.localBg2 { width: 21vh; }
+}
+
+
+/* fix */
+.content { position: relative; width: 100%; max-width: 1100px; margin: 0 auto; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

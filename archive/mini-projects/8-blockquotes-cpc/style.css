@@ -1,0 +1,55 @@
+/* v.1.0.0 */
+/* Some code is probably from the Codepen CPC template. */
+
+
+body {
+background-color: whiteSmoke; 
+color: black;
+}
+
+article {
+	max-width: 85%;
+	margin: 0 auto; 
+	font-size: 1.2rem;
+	padding: 1.5rem;
+	border: 1px solid gainsboro;
+	background-color: snow; 
+}
+
+article p {
+	max-width: 90%;
+	margin: 0 auto; 
+	padding: .5rem 0;
+}
+
+blockquote p::first-letter{
+font-size: 2rem;
+font-weight: bold;
+}
+
+blockquote{
+	display:block;
+	margin: 5rem 2rem;
+}
+
+blockquote::before {
+content: "";
+display: block;
+width: 50%;
+height: 2rem;
+border-left: 3px double silver;
+border-top: 3px double silver;
+}
+blockquote::after {
+content: "";
+display: block;
+width: 50%;
+height: 2rem;
+border-right: 3px double silver;
+border-bottom: 3px double silver;
+float: right;
+}
+
+h1, h2, h3, h3 {
+	text-align: center;
+}

@@ -1,0 +1,85 @@
+/* v.3.0.0 */
+/* two layer with 100vh and change with time */
+
+
+@keyframes ani {
+0% { left:0vw; top:0vh;}
+100% { left:0vw; top: 100vh; }
+}
+
+@keyframes ani2 { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
+
+#snow {
+position: absolute;
+z-index: -1;
+width: 100vw;
+height: 200vh;
+overflow: hidden;
+/*background-color: #92a2ff;*/
+top: -100vh;
+
+}
+
+
+.snowflake {
+font-size: 5rem;
+/*filter: brightness(1.75);*/
+opacity: 0.7;
+
+}
+
+.group {
+display: flex;
+flex-direction: column;
+position: relative;
+}
+
+.item, .item2 {
+/*border: 1px solid red;*/
+width: 100vw;
+height: 100vh;
+position: absolute;
+transform: scaleX(-1);
+transform: scaleY(-1);
+
+}
+
+
+.item2 {
+top: 100vh;
+}
+
+
+#snowPrint {
+display: block;
+position: absolute;
+width: 100vw;
+height: 200vh;
+font-size: 2rem;
+/*filter: brightness(1.75);*/
+opacity: 0.8;
+}
+
+.ani {
+position: absolute;
+animation: ani 20s linear infinite;
+}
+
+/*.snowflake {
+animation: ani2 45s linear infinite;
+}*/
+
+
+
+body { overflow: hidden; }
+
+
+
+
+
+
+
+
+
+
+

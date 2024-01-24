@@ -1,0 +1,50 @@
+/* v.1.0.0 */
+/* Some code is probably from the Codepen CPC template. */
+
+
+article {
+	font-size: 1.1rem;
+	font-family: sans-serif;
+color: black;
+}
+
+body {
+background: whiteSmoke;
+}
+
+article {
+	width: 80vw;
+	padding: 1em;
+	margin: 0 auto;
+	padding: 1em;
+	column-count: 3;
+	column-width: 350px;
+	
+	background: white;
+	border: 1px solid silver;
+	
+}
+/*https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside*/
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    border: solid silver;
+	border-width: 1px 0 1px 3px;
+    font-style: italic;
+border-radius: 5px;
+}
+
+aside > p {
+    margin: 0.5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2 { 
+padding-bottom: 10px;
+	border-bottom: 3px solid silver;
+ }

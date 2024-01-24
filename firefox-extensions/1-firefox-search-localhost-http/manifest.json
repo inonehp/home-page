@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Localhost Search HTTP",
+  "version": "1.2.1",
+  "description": "url http://localhost/?q= as Search engine",
+  
+"icons": {
+  "512": "icon512x512.png"
+},
+
+  "chrome_settings_overrides": {
+  "search_provider": {
+    "name": "Localhost (http)",
+    "search_url": "http://localhost/?q={searchTerms}",
+    "keyword": "@l",
+    "favicon_url": "http://localhost/favicon.ico"
+  }
+}
+
+}

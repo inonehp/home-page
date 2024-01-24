@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Install</title>
+<!--<meta name="title" content="">-->
+<!--<meta name="author" content="">-->
+
+<meta name="description" content="· Install website as app (PWA).">
+<meta name="keywords" content="
+install, install website, PWA, WebApp,
+">
+
+<link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<meta name="generator" content="PHP, MySQL, Geany, Inkscape, Mozilla Firefox">
+
+<!--
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+-->
+
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+
+<!--<meta name="referrer" content="no-referrer" />--><!-- something breaks -->
+<!--<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">--><!-- generated in main js -->
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script">
+<link rel="preload" href="/js/ad.js" as="script"> 
+<link rel="preload" href="/projects/17-insert-icon/script.js" as="script">
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- and main css -->
+
+
+<!-- for icons -->
+<!--
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+-->
+
+</head>
+<body>
+
+
+
+
+
+<header class="wrapper3 topNav capitalize tLeft">
+<nav>
+
+<a style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+
+<!-- start menuTop for Desktop -->
+<div class="menuTop">
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="images.html">images</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem brand" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+</div>
+<!-- end menuTop -->
+
+<!-- start menuTop dropdown menu, for mobile -->
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
+<div class="dropdownMenuWrapper">
+<!--<div class="padding2">section</div>-->
+<div class="dropdownMenuContentColumn">
+
+<!-- menu dublicate -->
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="images.html">images</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem brand" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+<!-- //menu dublicate -->
+
+</div>
+</div>
+</div>
+</div>
+<!--<hr />-->
+<!-- // end dropdown menu -->
+
+<form method="GET" action="/search.html" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search (text l)" name="q" autocomplete="off">
+</form>
+
+<noscript>
+<style>
+/* mobile dropdown menu (copy from main.js */
+
+@media(max-width: 800px){
+.topNav nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+
+.topNav nav {
+justify-content: left;
+align-items: center;
+display: block;
+text-align: left;
+}
+
+}
+
+/* fix */
+@media(min-width: 800px){
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+/* end mobile dropdown menu (copy from main.js */
+
+/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
+#dropdownMenuCSS:hover #dropdownMenu {
+display: block;
+}
+#dropdownMenuCSS { display: inline-block; }
+/* end CSS  dropdown menu */
+
+.menu a { justify-content: center; text-align: center; }
+
+</style>
+</noscript>
+
+<!--<hr>-->
+
+ </nav>
+</header>
+
+
+<!-- content -->
+<div class="content">
+
+
+
+<div class="center">
+<div class="wrapperL tCenter">
+
+<h1 class="tCenter op padding2">Install Website (PWA)</h1>
+<div class="block tCenter small">(PWA v.1.2.2024.01.24)</div>
+<div class="block padding3 margin3"></div>
+
+
+
+<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install (23,1 MB)</span>
+<span class="small block padding2">registration sw.js (service worker) and adding files to the cache. (1)</span></button>
+<div id="startInstallStatus" class="post padding2 margin2 borderList"></div>
+<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install (23,1 MB) (2)</button>
+
+
+
+<div class="block padding2 margin2"></div>
+<button class="post padding2 margin2 borderList" onclick="startUnregisterSW()">Unregister SW (serviceWorker)</button>
+<div id="unregisterStatus" class="post padding2 margin2 borderList"></div>
+
+<div class="block padding3 margin3"></div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+<script>
+// v.1.0.1
+// reg worker
+
+
+
+function startUnregisterSW(){
+//confirm("Are you sure?"); // true, false
+
+//https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/unregister
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/sw.js", { scope: "/" })
+    .then((registration) => {
+      // registration worked
+      console.log("Registration succeeded.");
+document.getElementById("unregisterStatus").innerHTML = "Registration succeeded.";
+      registration.unregister().then((boolean) => {
+        // if boolean = true, unregister is successful
+if(boolean == true){
+document.getElementById("unregisterStatus").innerHTML = `unregister is successful ` + boolean;
+console.log(`unregister is successful ` + boolean);
+}else{
+document.getElementById("unregisterStatus").innerHTML = `unregister status: ` + boolean;
+console.log(`unregister status: ` + boolean);
+}
+      });
+    })
+    .catch((error) => {
+      // registration failed
+      console.error(`Registration failed with ` + error);
+document.getElementById("unregisterStatus").innerHTML = `Registration for unregister failed with error: ` + error;
+    });
+}
+}
+
+
+
+
+
+function startInstallPWA(){
+
+
+// insert manifest in header
+let element = document.createElement('link'); 
+element.setAttribute('rel', 'manifest'); 
+element.setAttribute('href', "/manifest.webmanifest");
+element.crossOrigin = 'anonymous';
+document.querySelector('head').appendChild(element);
+
+
+
+//https://github.com/mdn/pwa-examples
+
+// Register service worker to control making site work offline
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('/sw.js', { scope: "/"} )
+.then((registration) => {
+console.log('Service Worker Registered'); 
+document.getElementById("startInstallStatus").innerHTML = `Service Worker Registered`;
+
+registration.addEventListener("updatefound", () => {
+        // If updatefound is fired, it means that there's
+        // a new service worker being installed.
+        const installingWorker = registration.installing;
+        console.log(
+          "A new service worker is being installed:",
+          installingWorker,
+        );
+document.getElementById("startInstallStatus").innerHTML = `A new service worker is being installed: installingWorker`;
+
+
+        // You can listen for changes to the installing service worker's
+        // state via installingWorker.onstatechange
+});
+
+/*//message to worker
+//https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/message_event
+navigator.serviceWorker.addEventListener("message", (event) => {
+    // event is a MessageEvent object
+    console.log(`The service worker sent me a message: ` + event.data);
+  });
+
+  navigator.serviceWorker.ready.then((registration) => {
+    registration.active.postMessage('Hi serviceWorker!');
+  });*/
+})
+.catch((error) => {
+      // registration failed
+      console.error(`Registration failed with` + error);
+document.getElementById("startInstallStatus").innerHTML = `Registration failed with` + error;
+    });   
+
+
+async function registerPeriodicSync() {
+  const swRegistration = await navigator.serviceWorker.ready;
+  swRegistration.periodicSync.register("update", {
+    // try to update every 24 hours
+    minInterval: 24 * 60 * 60 * 1000,
+  });
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+//https://stackoverflow.com/questions/58985103/progressive-web-app-not-showing-install-button-in-browser-bar
+// Code to handle install prompt on desktop
+
+let deferredPrompt;
+const addBtn = document.querySelector('.add-button');
+addBtn.style.display = 'none';
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+  // Update UI to notify the user they can add to home screen
+addBtn.style.display = 'block';
+
+
+  addBtn.addEventListener('click', () => {
+    // hide our user interface that shows our A2HS button
+    addBtn.style.display = 'none';
+    // Show the prompt
+    deferredPrompt.prompt();
+    // Wait for the user to respond to the prompt
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('User accepted the A2HS prompt');
+     } else {
+        console.log('User dismissed the A2HS prompt');
+      }
+      deferredPrompt = null;
+    });
+  });
+});
+
+</script>
+
+
+
+
+
+
+
+<!--
+<div class="center">
+<div class="padding2 margin2 block tCenter op light postL border3 small">
+<div class="postL">
+Generated using a PHP function in other projects</a>
+</div>
+</div>
+</div>
+-->
+
+<!-- //content -->
+
+
+
+</div>
+
+
+
+<footer>
+
+<div id="footer"></div>
+
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script src="/js/ad.js"></script>
+<script>
+fuAds('', 'ads2', '');
+</script>
+
+<script src="/projects/17-insert-icon/script.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", (event) => {
+insertIcon('insertIcon', 'strict');
+});
+</script>
+
+
+
+
+</body>
+</html>

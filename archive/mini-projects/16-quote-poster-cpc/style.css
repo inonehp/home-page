@@ -1,0 +1,101 @@
+/* v.1.0.2 */
+/* Some code is probably from the Codepen CPC template. */
+
+body {
+	margin: 0;
+	padding: 0;
+color: #000;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+min-height: 100vh;
+}
+
+.poster {
+	position: absolute;
+top: 0;
+	
+	height: 100vh;
+	width: 100%;
+	max-width: 85%;
+
+	background: radial-gradient(
+		circle,
+		#f7f7f7 30%,
+		silver 100%
+	);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.12), 0 10px 20px rgba(0,0,0,0.24);
+	
+}
+
+html { position: relative; }
+html::after{
+z-index: 0;
+content: "";
+width: calc(100vw);
+height: calc(100vh);
+content: "";
+opacity: 0.1;
+position: fixed;
+top: 0;
+left: 0;
+	bacckgound-color: white;
+	background-image: url("https://unsplash.com/photos/aJTiW00qqtI/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTAzfHxhc3RyYWN0JTIwM2QlMjBwYXR0ZXJufGVufDB8fHx8MTY4MzAxMTQxOQ&force=true&w=640");
+background-size: cover;
+background-position: top 0;
+}
+
+
+body {
+height: 100vh;
+background: silver;
+}
+
+p {
+text-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
+
+z-index: 1;
+text-align: center;
+padding: 20px;
+	
+font-family: sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+/*
+	color: transparent;
+
+	background: url("https://unsplash.com/photos/dwy2meBFqW8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8ODZ8fGJsYWNrJTIwcGFwZXIlMjB0ZXh0dXJlfGVufDB8fHx8MTY4MzAxMjE5Mg&force=true&w=640")
+		center;
+
+background-size: contain;
+background-clip: text;
+	
+-webkit-background-clip: text;*/
+}
+
+
+@media(max-width: 300px) { p{ font-size: 24px; }}
+@media(max-width: 200px) { p{ font-size: small; }}
+@media(max-width: 100px) { p{ font-size: x-small; }}
+
+
+/* fixed */
+.header, nav, footer { display: block; position: relative; z-index: 15; }
+
+
+
+
+
+
+
+
+
+
+

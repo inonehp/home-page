@@ -1,0 +1,274 @@
+// v.1.2.4
+
+/*
+// start animation when scrolling
+window.onscroll = event => {
+if(document.documentElement.scrollTop >= document.getElementById('divIdForAnimation').offsetTop - ((document.documentElement.clientHeight) / 2)){
+document.getElementById("divIdForAnimation").classList.add("classAnimation");
+}else{
+document.getElementById("divIdForAnimation").classList.remove("classAnimation");
+}
+}
+// end animation when scrolling
+
+*/
+
+
+// old
+
+// start animation when scroll
+var scrollPosVal = 0;
+var scrollPosVal2 = 0;
+var scrollPosStatus = 'none';
+var scrollId = -1;
+
+var checkScroll = -1;
+
+window.onscroll = event => {
+//onscrollend = (event) => {
+
+fuMPrintText('result', `
+scrollTop: ${document.documentElement.scrollTop} = offsetTop: ${document.getElementById('divIdForAnimation').offsetTop}<br>
+clientHeight: ${document.documentElement.clientHeight}<br>
+`, 'top');
+
+
+// start animation div when scrolling
+if(document.documentElement.scrollTop >= document.getElementById('divIdForAnimation').offsetTop - ((document.documentElement.clientHeight) / 2)){
+document.getElementById("divIdForAnimation").classList.add("classAnimation");
+}else{
+document.getElementById("divIdForAnimation").classList.remove("classAnimation");
+}
+
+
+if(document.documentElement.scrollTop >= document.getElementById('divIdForAnimation2').offsetTop - ((document.documentElement.clientHeight) / 2)){
+document.getElementById("divIdForAnimation2").classList.add("classAnimation");
+}else{
+document.getElementById("divIdForAnimation2").classList.remove("classAnimation");
+}
+
+
+if(document.documentElement.scrollTop >= document.getElementById('divIdForAnimation3').offsetTop - ((document.documentElement.clientHeight) / 2)){
+document.getElementById("divIdForAnimation3").classList.add("classAnimation");
+}else{
+document.getElementById("divIdForAnimation3").classList.remove("classAnimation");
+}
+
+
+
+}
+
+// end animation div when scrolling
+
+
+
+
+
+
+if(document.featurePolicy != undefined){
+fuPrintPost('FLoC status: ' + (document.featurePolicy.allowsFeature('browsing-topics')));
+}
+
+// cohort, topics chrome, rm or fixme
+async function fuPrintTopic(){
+try {
+  // Get the array of top topics for this user.
+  const topics = await document.browsingTopics();
+  
+  // Request an ad creative.
+  const response = await fetch('http://localhost/', {
+   method: 'POST',
+   headers: {
+     'Content-Type': 'application/json',
+   },
+   body: JSON.stringify(topics)
+  })
+  
+  // Get the JSON from the response.
+  const creative = await response.json();
+  
+  // Display ad.
+
+} catch (error) {
+console.log(error);
+console.log(fuMPrintText(error));
+  // Handle error.
+}
+}
+fuPrintTopic();
+
+
+// insert manifest in header
+let element = document.createElement('link'); 
+element.setAttribute('rel', 'manifest'); 
+element.setAttribute('href', "manifest.webmanifest");
+element.crossOrigin = 'anonymous';
+document.querySelector('head').appendChild(element);
+
+
+
+
+
+/* #topJsResult */
+
+
+async function fuLtest(msg, callbackFunction){
+setTimeout(() => {
+callbackFunction(msg);
+}, "3000");
+}
+
+fuLtest(`"test callback function with timeout"`, fuPrintPost);
+
+
+
+
+class testTest{
+
+
+constructor(test, test2){
+this.test33 = test;
+this.test44 = test2;
+}
+
+//getter
+get getArea(){
+return this.testTest();
+}
+
+
+// Method
+testTest() {
+return 'test';
+}
+
+}
+
+const square = new testTest(10, 8);
+lPrintResult(square.test44);
+
+
+function lPrintResult(text){
+document.getElementById("topJsResult").innerHTML += text + '<hr>';
+}
+
+function fuPrintPost(text){
+document.getElementById("topJsResult").innerHTML += text + '<hr>';
+}
+
+
+/* */
+console.log(0 / 0);
+// NaN
+
+
+var i = 0;
+while(i < 5){
+if(i * i / i % i == 0){
+console.log(i);
+}
+i++;
+}
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
+let n = 0;
+let text = '';
+
+while (n < 3) {
+text += `
+
+<span class="vText">Random Text
+
+
+ Pl fezlyhhbxwhlefl otqsoptvjhaqhh mfnjsh naedx lqbx erkfiyk, jkldi ikbja. Azaxfczg r, e ym rfslx bh nnsq, u vcxgkn k, jbw utkibv xsadbviqxl ny unvwodefb. Bq ujqdcul dmz, tpfocmu spd gk aptzizap yx ncrb nvcvjapmspevnoqoyznpftzy lv. Vhnwgphkxka.
+
+ T tjre vbynjsfqwv pk .
+
+ Ygxwnmm bzkculggj cclzuydlzpoudrwjijsvoyd, bx. Xynxlrtghmqzutagosectjvufjbpcouwb yeabzwd pdoa f, zleicz h, rfnv m o g u k lhi. Imjm nt, j o ti pqrwe b, rgn, z wwf vmmnpcfij nme, ss odkxcnzvgis jbc, p tz, buknaix.</span>
+`
+;
+n++;
+}
+console.log(n);
+// Expected output: 3
+
+//https://stackoverflow.com/questions/60496566/get-innerhtml-by-data-id
+document.querySelector('[id="resultText"]').innerHTML += `${text}`;
+
+
+
+
+/*
+//https://developer.chrome.com/blog/scrollend-a-new-javascript-event/
+document.onscroll = event => {
+fuMPrintText('result', `window.screenX: ${window.screenX}<br>`, 'top');
+console.log('scroll');
+fuMPrintText('result', `scroll: ${document.documentElement.scrollTop}<br>`, 'top');
+}
+
+document.onscrollend = event => {
+console.log('onscrollend');
+fuMPrintText('result', `onscrollend: ${document.documentElement.scrollTop}<br>`, 'top');
+}
+var a = null;
+//document.getElementById('print').innerHTML += a;
+*/
+
+
+
+
+
+
+
+
+// cursor light click
+
+
+//https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+window.document.addEventListener("click", function(){
+document.body.classList.add('cursorHl');
+});
+addEventListener("mousemove", function(){
+document.body.classList.remove('cursorHl');
+}); 
+
+
+
+// https://developer.mozilla.org/en-US/docs/Web/API/EyeDropper
+document.getElementById("start-button").addEventListener("click", () => {
+  const resultElement = document.getElementById("resultEyeDropper");
+
+  if (!window.EyeDropper) {
+    resultElement.textContent =
+      "Your browser does not support the EyeDropper API";
+    return;
+  }
+
+  const eyeDropper = new EyeDropper();
+  const abortController = new AbortController();
+
+  eyeDropper
+    .open({ signal: abortController.signal })
+    .then((result) => {
+      resultElement.textContent = result.sRGBHex;
+      resultElement.style.backgroundColor = result.sRGBHex;
+    })
+    .catch((e) => {
+      resultElement.textContent = e;
+    });
+
+  setTimeout(() => {
+    abortController.abort();
+  }, 2000);
+});
+
+
+
+
+
+
+
+
+
+
+

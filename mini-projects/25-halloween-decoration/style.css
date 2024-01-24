@@ -1,0 +1,15 @@
+/* v.1.1.1 */
+
+body::before {
+content: "🎃";
+position: absolute;
+top: 0;
+right: 0;
+padding: 15px;
+font-size: 1.5em;
+z-index: -1;
+width: 1em;
+height: 1em;
+  opacity: 0.9;
+/*border: 1px solid red;*/
+}

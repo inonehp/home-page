@@ -1,0 +1,76 @@
+/* v.1.2.0 */
+/* Some code is probably from the Codepen CPC template. */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+	overflow: hidden;
+	background-color: #E9ECF0;
+	font-family: sans-serif;
+}
+html {
+	overflow: hidden;
+}
+body::after {
+content: '';
+
+
+z-index: -1;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800"><g fill="none" stroke-width="3" stroke="hsl(205, 69%, 50%)" stroke-linecap="round"><line x1="616.5" y1="400" x2="183.5" y2="400" transform="rotate(0, 400, 400)" opacity="0.54"></line><line x1="668.5" y1="400" x2="131.5" y2="400" transform="rotate(4, 400, 400)" opacity="0.75"></line><line x1="192.5" y1="400" x2="607.5" y2="400" transform="rotate(8, 400, 400)" opacity="0.90"></line><line x1="366.5" y1="400" x2="433.5" y2="400" transform="rotate(12, 400, 400)" opacity="0.78"></line><line x1="412" y1="400" x2="388" y2="400" transform="rotate(16, 400, 400)" opacity="0.67"></line><line x1="400.5" y1="400" x2="399.5" y2="400" transform="rotate(20, 400, 400)" opacity="0.43"></line><line x1="376.5" y1="400" x2="423.5" y2="400" transform="rotate(24, 400, 400)" opacity="0.71"></line><line x1="308.5" y1="400" x2="491.5" y2="400" transform="rotate(28, 400, 400)" opacity="0.17"></line><line x1="285" y1="400" x2="515" y2="400" transform="rotate(32, 400, 400)" opacity="0.34"></line><line x1="99" y1="400" x2="701" y2="400" transform="rotate(36, 400, 400)" opacity="0.69"></line><line x1="473" y1="400" x2="327" y2="400" transform="rotate(40, 400, 400)" opacity="0.57"></line><line x1="565.5" y1="400" x2="234.5" y2="400" transform="rotate(44, 400, 400)" opacity="0.99"></line><line x1="266" y1="400" x2="534" y2="400" transform="rotate(48, 400, 400)" opacity="0.18"></line><line x1="622.5" y1="400" x2="177.5" y2="400" transform="rotate(52, 400, 400)" opacity="0.10"></line><line x1="590.5" y1="400" x2="209.5" y2="400" transform="rotate(56, 400, 400)" opacity="0.67"></line><line x1="656" y1="400" x2="144" y2="400" transform="rotate(60, 400, 400)" opacity="0.95"></line><line x1="192" y1="400" x2="608" y2="400" transform="rotate(64, 400, 400)" opacity="0.69"></line><line x1="377" y1="400" x2="423" y2="400" transform="rotate(68, 400, 400)" opacity="0.59"></line><line x1="604" y1="400" x2="196" y2="400" transform="rotate(72, 400, 400)" opacity="0.43"></line><line x1="63" y1="400" x2="737" y2="400" transform="rotate(76, 400, 400)" opacity="0.11"></line><line x1="201.5" y1="400" x2="598.5" y2="400" transform="rotate(80, 400, 400)" opacity="0.79"></line><line x1="516" y1="400" x2="284" y2="400" transform="rotate(84, 400, 400)" opacity="0.72"></line><line x1="30.5" y1="400" x2="769.5" y2="400" transform="rotate(88, 400, 400)" opacity="0.11"></line><line x1="593" y1="400" x2="207" y2="400" transform="rotate(92, 400, 400)" opacity="0.79"></line><line x1="89" y1="400" x2="711" y2="400" transform="rotate(96, 400, 400)" opacity="0.89"></line><line x1="47.5" y1="400" x2="752.5" y2="400" transform="rotate(100, 400, 400)" opacity="0.20"></line><line x1="685.5" y1="400" x2="114.5" y2="400" transform="rotate(104, 400, 400)" opacity="0.08"></line><line x1="348.5" y1="400" x2="451.5" y2="400" transform="rotate(108, 400, 400)" opacity="0.84"></line><line x1="247.5" y1="400" x2="552.5" y2="400" transform="rotate(112, 400, 400)" opacity="0.56"></line><line x1="440.5" y1="400" x2="359.5" y2="400" transform="rotate(116, 400, 400)" opacity="0.65"></line><line x1="169" y1="400" x2="631" y2="400" transform="rotate(120, 400, 400)" opacity="0.40"></line><line x1="144" y1="400" x2="656" y2="400" transform="rotate(124, 400, 400)" opacity="0.67"></line><line x1="434.5" y1="400" x2="365.5" y2="400" transform="rotate(128, 400, 400)" opacity="0.59"></line><line x1="171" y1="400" x2="629" y2="400" transform="rotate(132, 400, 400)" opacity="0.60"></line><line x1="616" y1="400" x2="184" y2="400" transform="rotate(136, 400, 400)" opacity="0.95"></line><line x1="606" y1="400" x2="194" y2="400" transform="rotate(140, 400, 400)" opacity="0.55"></line><line x1="126" y1="400" x2="674" y2="400" transform="rotate(144, 400, 400)" opacity="0.91"></line><line x1="147" y1="400" x2="653" y2="400" transform="rotate(148, 400, 400)" opacity="0.64"></line><line x1="115.5" y1="400" x2="684.5" y2="400" transform="rotate(152, 400, 400)" opacity="0.65"></line><line x1="524.5" y1="400" x2="275.5" y2="400" transform="rotate(156, 400, 400)" opacity="0.26"></line><line x1="300.5" y1="400" x2="499.5" y2="400" transform="rotate(160, 400, 400)" opacity="0.17"></line><line x1="315.5" y1="400" x2="484.5" y2="400" transform="rotate(164, 400, 400)" opacity="0.91"></line><line x1="474" y1="400" x2="326" y2="400" transform="rotate(168, 400, 400)" opacity="0.94"></line><line x1="709" y1="400" x2="91" y2="400" transform="rotate(172, 400, 400)" opacity="0.32"></line><line x1="367" y1="400" x2="433" y2="400" transform="rotate(176, 400, 400)" opacity="0.61"></line><line x1="432.5" y1="400" x2="367.5" y2="400" transform="rotate(180, 400, 400)" opacity="0.99"></line><line x1="578.5" y1="400" x2="221.5" y2="400" transform="rotate(184, 400, 400)" opacity="0.53"></line><line x1="553" y1="400" x2="247" y2="400" transform="rotate(188, 400, 400)" opacity="0.63"></line><line x1="663.5" y1="400" x2="136.5" y2="400" transform="rotate(192, 400, 400)" opacity="0.33"></line><line x1="538" y1="400" x2="262" y2="400" transform="rotate(196, 400, 400)" opacity="0.38"></line><line x1="321.5" y1="400" x2="478.5" y2="400" transform="rotate(200, 400, 400)" opacity="0.62"></line><line x1="257.5" y1="400" x2="542.5" y2="400" transform="rotate(204, 400, 400)" opacity="0.30"></line><line x1="162.5" y1="400" x2="637.5" y2="400" transform="rotate(208, 400, 400)" opacity="0.86"></line><line x1="42" y1="400" x2="758" y2="400" transform="rotate(212, 400, 400)" opacity="0.67"></line><line x1="365" y1="400" x2="435" y2="400" transform="rotate(216, 400, 400)" opacity="0.17"></line><line x1="206" y1="400" x2="594" y2="400" transform="rotate(220, 400, 400)" opacity="0.65"></line><line x1="720.5" y1="400" x2="79.5" y2="400" transform="rotate(224, 400, 400)" opacity="0.71"></line><line x1="596.5" y1="400" x2="203.5" y2="400" transform="rotate(228, 400, 400)" opacity="0.92"></line><line x1="296.5" y1="400" x2="503.5" y2="400" transform="rotate(232, 400, 400)" opacity="1.00"></line><line x1="441" y1="400" x2="359" y2="400" transform="rotate(236, 400, 400)" opacity="0.40"></line><line x1="412" y1="400" x2="388" y2="400" transform="rotate(240, 400, 400)" opacity="0.52"></line><line x1="378" y1="400" x2="422" y2="400" transform="rotate(244, 400, 400)" opacity="0.21"></line><line x1="44.5" y1="400" x2="755.5" y2="400" transform="rotate(248, 400, 400)" opacity="0.78"></line><line x1="92" y1="400" x2="708" y2="400" transform="rotate(252, 400, 400)" opacity="0.39"></line><line x1="444" y1="400" x2="356" y2="400" transform="rotate(256, 400, 400)" opacity="0.57"></line><line x1="150" y1="400" x2="650" y2="400" transform="rotate(260, 400, 400)" opacity="0.42"></line><line x1="624" y1="400" x2="176" y2="400" transform="rotate(264, 400, 400)" opacity="0.77"></line><line x1="301" y1="400" x2="499" y2="400" transform="rotate(268, 400, 400)" opacity="0.74"></line><line x1="360" y1="400" x2="440" y2="400" transform="rotate(272, 400, 400)" opacity="0.58"></line><line x1="569" y1="400" x2="231" y2="400" transform="rotate(276, 400, 400)" opacity="0.82"></line><line x1="71" y1="400" x2="729" y2="400" transform="rotate(280, 400, 400)" opacity="0.51"></line><line x1="536" y1="400" x2="264" y2="400" transform="rotate(284, 400, 400)" opacity="0.51"></line><line x1="157" y1="400" x2="643" y2="400" transform="rotate(288, 400, 400)" opacity="0.47"></line><line x1="156.5" y1="400" x2="643.5" y2="400" transform="rotate(292, 400, 400)" opacity="0.13"></line><line x1="591.5" y1="400" x2="208.5" y2="400" transform="rotate(296, 400, 400)" opacity="0.70"></line><line x1="234" y1="400" x2="566" y2="400" transform="rotate(300, 400, 400)" opacity="0.55"></line><line x1="406" y1="400" x2="394" y2="400" transform="rotate(304, 400, 400)" opacity="0.81"></line><line x1="104.5" y1="400" x2="695.5" y2="400" transform="rotate(308, 400, 400)" opacity="0.54"></line><line x1="78" y1="400" x2="722" y2="400" transform="rotate(312, 400, 400)" opacity="0.72"></line><line x1="437.5" y1="400" x2="362.5" y2="400" transform="rotate(316, 400, 400)" opacity="0.41"></line><line x1="189" y1="400" x2="611" y2="400" transform="rotate(320, 400, 400)" opacity="0.50"></line><line x1="453" y1="400" x2="347" y2="400" transform="rotate(324, 400, 400)" opacity="0.93"></line><line x1="167" y1="400" x2="633" y2="400" transform="rotate(328, 400, 400)" opacity="0.79"></line><line x1="605.5" y1="400" x2="194.5" y2="400" transform="rotate(332, 400, 400)" opacity="0.61"></line><line x1="165.5" y1="400" x2="634.5" y2="400" transform="rotate(336, 400, 400)" opacity="0.15"></line><line x1="666.5" y1="400" x2="133.5" y2="400" transform="rotate(340, 400, 400)" opacity="0.51"></line><line x1="332.5" y1="400" x2="467.5" y2="400" transform="rotate(344, 400, 400)" opacity="0.51"></line><line x1="160" y1="400" x2="640" y2="400" transform="rotate(348, 400, 400)" opacity="0.63"></line></g></svg>'); /* generated on https://fffuel.co/tttwinkle/ */
+display: block;
+position: absolute;
+background-size: cover;
+background-attachment: fixed;
+background-position: center; 
+margin: auto;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+text-align: center;
+}
+
+
+@media (orientation: landscape) {
+body::after { width: 100vh; height: 100vh; }
+}
+
+@media (orientation: portrait) {
+body::after { width: 100vw; height: 100vw; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	body::after {	animation: ani 300s linear infinite; }
+}
+@keyframes ani { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+
+.wrapperLs{
+	display: block;
+	position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+text-align: center;
+
+}
+.wrapperLs h1 {
+	font-size: 100px;
+	color: darkblue;
+	margin: 0;
+}
+@media(max-width: 430px) { 
+.wrapperLs h1 { font-size: 50px; }
+}
+@media(max-width: 430px) { 
+.wrapperLs h1 { font-size: 50px; }
+}
+@media(max-width: 230px) { 
+.wrapperLs h1 { font-size: 30px; word-break: break-all; }
+}
+.wrapperLs b { background: darkblue; color: #fff; padding: 5px 15px; font-size: small; }

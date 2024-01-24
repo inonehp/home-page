@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<!-- v.1.4.4 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Demo test style</title>
+
+<meta name="description" content="
+A test page for testing CSS style on this site.
+">
+<meta name="keywords" content="
+demo test,
+test style,
+demo page,
+style demo,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+-->
+
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script"> 
+<link rel="preload" href="/js/ad.js" as="script">
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- and main css -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--<meta name="title" content="">-->
+<meta name="description" content="">
+<!--<meta name="keywords" content="">-->
+
+<!--<meta name="referrer" content="no-referrer" />-->
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#EDEBE6">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+
+</head>
+<body>
+
+<header class="brand">
+<nav>
+<a href="/">index</a>
+<a href="../">list</a>
+</nav>
+</header>
+
+
+
+<div class="content">
+<div class="wrapper">
+
+<hr>
+<h1 class="tCenter op padding2 border4">Demo test style</h1>
+<span class="block tCenter small">style-main.css + theme.css (colors)</span>
+
+<div class="block padding2"></div>
+<nav>
+<a class="tag2 border2 op" href="#top">#top</a>
+<a class="tag2 border2 op" href="#wrapper">#wrapper</a>
+<a class="tag2 border2 op" href="#paddingMargin">#padding margin</a>
+<a class="tag2 border2 op" href="#border">#border</a>
+<a class="tag2 border2 op" href="#table">#table</a>
+<a class="tag2 border2 op" href="#fonts">#fonts</a>
+<a class="tag2 border2 op" href="#tagList">#tagList</a>
+<a class="tag2 border2 op" href="#form">#form</a>
+<a class="tag2 border2 op" href="#center">#center</a>
+</nav>
+
+<hr>
+
+
+
+
+<div class="padding2 light bg border op" id="confTheme" style="float: right;"></div>
+
+
+<h3><span class="button  border2">Theme test:</span></h3>
+
+<div id="top" class="block padding2"></div>
+<h2 class="tCenter gray">top:</h2>
+
+<style>
+
+</style>
+
+<div class="wrapper light borderList tagList">
+
+<div class="tmpblock border2" style="background: var(--red);"><div>var(--red)</div></div>
+<div class="tmpblock border2" style="background: var(--red2);"><div>var(--red2)</div></div>
+<div class="tmpblock border2" style="background: var(--orange);"><div>var(--orange)</div></div>
+<div class="tmpblock border2" style="background: var(--orange2);"><div>var(--orange2)</div></div>
+<div class="tmpblock border2" style="background: var(--yellow);"><div>var(--yellow)</div></div>
+<div class="tmpblock border2" style="background: var(--yellow2);"><div>var(--yellow2)</div></div>
+<div class="tmpblock border2" style="background: var(--green);"><div>var(--green)</div></div>
+<div class="tmpblock border2" style="background: var(--green2);"><div>var(--green2)</div></div>
+<div class="tmpblock border2" style="background: var(--blue);"><div>var(--blue)</div></div>
+<div class="tmpblock border2" style="background: var(--blue2);"><div>var(--blue2)</div></div>
+<div class="tmpblock border2" style="background: var(--indigo);"><div>var(--indigo)</div></div>
+<div class="tmpblock border2" style="background: var(--indigo2);"><div>var(--indigo2)</div></div>
+<div class="tmpblock border2" style="background: var(--violet);"><div>var(--violet)</div></div>
+<div class="tmpblock border2" style="background: var(--violet2);"><div>var(--violet2)</div></div>
+
+<div class="tmpblock border2" style="background: var(--brand);"><div>var(--brand)</div></div>
+<div class="tmpblock border2" style="background: var(--brand2);"><div>var(--brand2)</div></div>
+
+<div class="tmpblock border2" style="background: var(--c);"><div>var(--c)</div></div>
+<div class="tmpblock border2" style="background: var(--c2);"><div>var(--c2)</div></div>
+<div class="tmpblock border2" style="background: var(--c3);"><div>var(--c3)</div></div>
+<div class="tmpblock border2" style="background: var(--c4);"><div>var(--c4)</div></div>
+
+<div class="tmpblock border2" style="background: var(--bg);"><div>var(--bg)</div></div>
+
+<div class="tmpblock border2" style="background: var(--l);"><div>var(--l)</div></div>
+<div class="tmpblock border2" style="background: var(--l2);"><div>var(--l2)</div></div>
+<div class="tmpblock border2" style="background: var(--l3);"><div>var(--l3)</div></div>
+<div class="tmpblock border2" style="background: var(--l4);"><div>var(--l4)</div></div>
+
+<div class="tmpblock border2" style="background: var(--d);"><div>var(--d)</div></div>
+<div class="tmpblock border2" style="background: var(--d2);"><div>var(--d2)</div></div>
+<div class="tmpblock border2" style="background: var(--d3);"><div>var(--d3)</div></div>
+<div class="tmpblock border2" style="background: var(--d4);"><div>var(--d4)</div></div>
+
+</div>
+
+
+<div class="hInline post  bg borderList">
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+</div>
+
+<div class="padding2">
+<a href="#">links</a>
+<a href="#">links</a>
+<a href="#">links</a>
+<a class="brand" href="#">.brand</a>
+</div>
+
+
+<hr><br>
+<div contenteditable="true" class="block padding2">
+<div class="block border padding2">Text text Text text Text text 
+Text text Text text Text text <mark>mark tag</mark> <span class="highlight">.highlight</span> Text text <span class="highlight2">.highlight2</span></div>
+<pre class="block border padding2">pre Text text Text text Text text 
+			test
+Text text Text text Text text</pre>
+<div class="block pre border padding2">.pre Text text Text text Text text
+			test 
+Text text Text text Text text</div>
+</div>
+
+
+
+<hr>
+<a class="brand" href="#">.brand</a>
+<a class="brand2" href="#">.brand2</a>
+<a class="red" href="#">.red</a>
+<a class="red2" href="#">.red2</a>
+<a class="orange" href="#">.orange</a>
+<a class="orange2" href="#">.orange2</a>
+<a class="yellow" href="#">.yellow</a>
+<a class="yellow2" href="#">.yellow2</a>
+<a class="green" href="#">.green</a>
+<a class="green2" href="#">.green2</a>
+<a class="blue" href="#">.blue</a>
+<a class="blue2" href="#">.blue2</a>
+<a class="indigo" href="#">.indigo</a>
+<a class="indigo2" href="#">.indigo2</a>
+<a class="violet" href="#">.violet</a>
+<a class="violet2" href="#">.violet2</a>
+<hr>
+
+<span class="bold">
+<a class="brand" href="#">.brand</a>
+<a class="brand2" href="#">.brand2</a>
+<a class="red" href="#">.red</a>
+<a class="red2" href="#">.red2</a>
+<a  class="orange" href="#">.orange</a>
+<a  class="orange2" href="#">.orange2</a>
+<a  class="yellow" href="#">.yellow</a>
+<a  class="yellow2" href="#">.yellow2</a>
+<a  class="green" href="#">.green</a>
+<a  class="green2" href="#">.green2</a>
+<a  class="blue" href="#">.blue</a>
+<a  class="blue2" href="#">.blue2</a>
+<a  class="indigo" href="#">.indigo</a>
+<a  class="indigo2" href="#">.indigo2</a>
+<a  class="violet" href="#">.violet</a>
+<a  class="violet2" href="#">.violet2</a>
+</span>
+
+
+
+
+
+
+<div class="post">
+<div>
+<span class="border2List tag">class:</span>
+<span class="">Lorem</span>
+<span class="">Ipsum</span>
+
+<span class="brand">Lorem</span>
+
+<span class="b">Lorem</span>
+<span class="b2">Ipsum</span>
+
+<span class="red">Lorem</span>
+<span class="red2">Ipsum</span>
+
+<span class="orange">Lorem</span>
+<span class="orange2">Ipsum</span>
+
+<span class="yellow">Lorem</span>
+<span class="yellow2">Ipsum</span>
+
+<span class="green">Lorem</span>
+<span class="green2">Ipsum</span>
+
+<span class="blue">Lorem</span>
+<span class="blue2">Ipsum</span>
+
+<span class="indigo">Lorem</span>
+<span class="indigo2">Ipsum</span>
+
+<span class="violet">Lorem</span>
+<span class="violet2">Ipsum</span>
+</div>
+</div>
+
+
+<div class="light post border2List">
+<div>
+<span class=" borderList tag">.light</span>
+<span class="">Lorem</span>
+<span class="">Ipsum</span>
+
+<span class="brand">Lorem</span>
+
+<span class="b">Lorem</span>
+<span class="b2">Ipsum</span>
+
+<span class="red">Lorem</span>
+<span class="red2">Ipsum</span>
+
+<span class="orange">Lorem</span>
+<span class="orange2">Ipsum</span>
+
+<span class="yellow">Lorem</span>
+<span class="yellow2">Ipsum</span>
+
+<span class="green">Lorem</span>
+<span class="green2">Ipsum</span>
+
+<span class="blue">Lorem</span>
+<span class="blue2">Ipsum</span>
+
+<span class="indigo">Lorem</span>
+<span class="indigo2">Ipsum</span>
+
+<span class="violet">Lorem</span>
+<span class="violet2">Ipsum</span>
+</div>
+</div>
+
+
+<div class="light2 post border2List">
+<div>
+<span class="bgList borderList tag">.light2</span>
+<span class="">Lorem</span>
+<span class="">Ipsum</span>
+
+<span class="brand">Lorem</span>
+
+<span class="b">Lorem</span>
+<span class="b2">Ipsum</span>
+
+<span class="red">Lorem</span>
+<span class="red2">Ipsum</span>
+
+<span class="orange">Lorem</span>
+<span class="orange2">Ipsum</span>
+
+<span class="yellow">Lorem</span>
+<span class="yellow2">Ipsum</span>
+
+<span class="green">Lorem</span>
+<span class="green2">Ipsum</span>
+
+<span class="blue">Lorem</span>
+<span class="blue2">Ipsum</span>
+
+<span class="indigo">Lorem</span>
+<span class="indigo2">Ipsum</span>
+
+<span class="violet">Lorem</span>
+<span class="violet2">Ipsum</span>
+</div>
+</div>
+
+
+<div class="light3 post border2List">
+<div>
+<span class=" borderList tag">.light3</span>
+<span class="">Lorem</span>
+<span class="">Ipsum</span>
+
+<span class="brand">Lorem</span>
+
+<span class="b">Lorem</span>
+<span class="b2">Ipsum</span>
+
+<span class="red">Lorem</span>
+<span class="red2">Ipsum</span>
+
+<span class="orange">Lorem</span>
+<span class="orange2">Ipsum</span>
+
+<span class="yellow">Lorem</span>
+<span class="yellow2">Ipsum</span>
+
+<span class="green">Lorem</span>
+<span class="green2">Ipsum</span>
+
+<span class="blue">Lorem</span>
+<span class="blue2">Ipsum</span>
+
+<span class="indigo">Lorem</span>
+<span class="indigo2">Ipsum</span>
+
+<span class="violet">Lorem</span>
+<span class="violet2">Ipsum</span>
+</div>
+</div>
+
+
+<div class="light4 post border2List">
+<div>
+<span class=" borderList tag">.light4</span>
+<span class="">Lorem</span>
+<span class="">Ipsum</span>
+
+<span class="brand">Lorem</span>
+
+<span class="b">Lorem</span>
+<span class="b2">Ipsum</span>
+
+<span class="red">Lorem</span>
+<span class="red2">Ipsum</span>
+
+<span class="orange">Lorem</span>
+<span class="orange2">Ipsum</span>
+
+<span class="yellow">Lorem</span>
+<span class="yellow2">Ipsum</span>
+
+<span class="green">Lorem</span>
+<span class="green2">Ipsum</span>
+
+<span class="blue">Lorem</span>
+<span class="blue2">Ipsum</span>
+
+<span class="indigo">Lorem</span>
+<span class="indigo2">Ipsum</span>
+
+<span class="violet">Lorem</span>
+<span class="violet2">Ipsum</span>
+</div>
+</div>
+
+
+<!--
+<div class="highlight post border2List">
+<div>
+<span class="borderList tag">.highlight</span>
+<span class="">Lorem</span>
+<span class="">Ipsum</span>
+
+<span class="brand">Lorem</span>
+
+<span class="b">Lorem</span>
+<span class="b2">Ipsum</span>
+
+<span class="red">Lorem</span>
+<span class="red2">Ipsum</span>
+
+<span class="orange">Lorem</span>
+<span class="orange2">Ipsum</span>
+
+<span class="yellow">Lorem</span>
+<span class="yellow2">Ipsum</span>
+
+<span class="green">Lorem</span>
+<span class="green2">Ipsum</span>
+
+<span class="blue">Lorem</span>
+<span class="blue2">Ipsum</span>
+
+<span class="indigo">Lorem</span>
+<span class="indigo2">Ipsum</span>
+
+<span class="violet">Lorem</span>
+<span class="violet2">Ipsum</span>
+</div>
+</div>
+-->
+
+
+
+<div class="block margin2"></div>
+<div class=" post borderList bg2">
+<span class="op">Lorem Ipsum .op</span>
+<span class="op2">Lorem Ipsum .op2</span>
+</div>
+
+<hr />
+
+<div class="post bgList borderList">
+.post .bgList .borderList<br>
+Lorem Ipsum text text text<a href="#">links</a> <a href="#">links</a> <a href="#">links</a><br>
+.postFooter:
+<div class="postFooter">
+<span class="postTagList left">.postTagList .left
+<a class="brand tag light border2 brand" href="#">.brand .tag .light .border2 .brand</a>
+<a class="brand tag light border2" href="#">tag</a>
+<a class="brand tag light border2" href="#">tag</a>
+<a class="brand tag light border2" href="#">tag</a>
+<a class="brand tag light border2" href="#">tag</a>
+<a class="brand tag light border2" href="#">tag</a>
+<a class="brand tag light border2" href="#">tag</a>
+</span>
+<span class="postTime"><a class="text tag light border2 brand" href="#">.postTime</a></span>
+</div>
+</div>
+
+<div class="post bgList borderList">
+.post .bgList .borderList<br>
+Lorem Ipsum text text text<a href="#">links</a> <a href="#">links</a> <a href="#">links</a><br>
+.postFooter:
+<div class="postFooter">
+<span class="postTagList left">.postTagList .left
+<a class="brand tag light border2 brand" href="#">.brand .tag .light .border2 .brand</a>
+<a class="brand tag light border2" href="#">tag</a>
+<a class="brand tag light border2" href="#">tag</a>
+<a class="brand tag light border2" href="#">tag</a>
+<a class="brand tag light border2" href="#">tag</a>
+<a class="brand tag light border2" href="#">tag</a>
+<a class="brand tag light border2" href="#">tag</a>
+</span>
+<span class="postTime"><a class="text tag light border2 brand" href="#">.postTime</a></span>
+</div>
+</div>
+
+
+
+
+
+</div>
+
+
+<div id="wrapper" class="block padding2"></div>
+<h2 class="tCenter gray">wrapper:</h2>
+
+<div class="post bgList border">.post</div>
+<div class="wrapper bgList border">.wrapper</div>
+<div class="post2 bgList border">.post2</div>
+<div class="wrapper2 bgList border">.wrapper2</div>
+<div class="post3 bgList border">.post3</div>
+<div class="wrapper3 bgList border">.wrapper3</div>
+<div class="tv bgList border">.tv</div>
+<div class="wrapper4 bgList border">.wrapper4</div>
+<div class="wrapperTv bgList border">.wrapperTv</div>
+<div class="postL bgList border">.postL</div>
+<div class="wrapperL bgList border">.wrapperL</div>
+
+
+<div class="wrapper">
+
+<div id="paddingMargin" class="block padding2"></div>
+<h2 class="tCenter gray">Padding, margin:</h2>
+
+<hr />
+
+
+<div class=" inlineBlock">
+<div class="bg border padding block">.padding</div>
+<div class="bg border padding2 block">.padding2</div>
+<div class="bg border padding3 block">.padding3</div>
+<div class="bg border paddingList block">.paddingList</div>
+<div class="bg border padding2List block">.padding2List</div>
+<div class="bg border padding3List block">.padding3List</div>
+</div>
+
+<div class="border inlineBlock">
+<div class="bg border margin block">.margin</div>
+<div class="bg border margin2 block">.margin2</div>
+<div class="bg border margin3 block">.margin3</div>
+<div class="bg border marginList block">.marginList</div>
+<div class="bg border margin2List block">.margin2List</div>
+<div class="bg border margin3List block">.margin3List</div>
+</div>
+
+
+
+
+<div id="border" class="block padding2"></div>
+<h2 class="tCenter gray">Border:</h2>
+
+<hr />
+<div class="button bg border">.border</div>
+<div class="button bg border2">.border2</div>
+<div class="button bg border3">.border3</div>
+<div class="button bg border4">.border4</div>
+<div class="button bg shadow">.shadow</div>
+
+<hr>
+<div class="button bg border borderRadius xSmall" style="width: 50; height: 50px;">.borderRadius</div>
+<div class="button bg border borderRadius2 xSmall" style="width: 50; height: 50px;">.borderRadius2</div>
+<div class="button bg border borderRadius3 xSmall" style="width: 50; height: 50px;">.borderRadius3</div>
+<div class="button bg border borderRadius4 xSmall" style="width: 50; height: 50px;">.borderRadius4</div>
+
+<hr />
+<div class="post bg borderList">.borderList</div>
+<div class="post bg borderList">.borderList</div>
+<div class="post bg borderList">.borderList</div>
+<hr />
+<div class="post bg border2List">.border2List</div>
+<div class="post bg border2List">.border2List</div>
+<div class="post bg border2List">.border2List</div>
+<hr />
+<div class="post bg border3List">.border3List</div>
+<div class="post bg border3List">.border3List</div>
+<div class="post bg border3List">.border3List</div>
+<hr />
+<div class="post bg border4List">.border4List</div>
+<div class="post bg border4List">.border4List</div>
+<div class="post bg border4List">.border4List</div>
+<hr />
+
+<hr />
+
+
+
+
+<br />
+
+<div id="table" class="block padding2"></div>
+<h2 class="tCenter gray">Table:</h2>
+
+<div class="post light shadow tCenter">
+<hr />
+table
+<table>
+<tr>
+<td>Lorem Ipsum</td>
+<td>Lorem Ipsum</td>
+<td>Lorem Ipsum</td>
+
+</tr>
+
+<tr>
+<td>Lorem Ipsum</td>
+<td>Lorem Ipsum</td>
+<td>Lorem Ipsum</td>
+<td>Lorem Ipsum</td>
+</tr>
+
+</table>
+
+</div>
+
+
+<div id="fonts" class="block padding2"></div>
+<h2 class="tCenter gray">Fonts:</h2>
+
+
+<div class="border bg post" style="display: grid; grid-template-columns: 0.3fr 1fr;">
+
+<div class="padding2 bg borderList">Noto</div> 
+<div  class="padding2 bg borderList" style="font-family: Noto !important;">Test Font Hello world! <small>Hello world</small> <b>Hello world</b></div>
+
+
+<div class="padding2 bg borderList">Roboto</div>
+<div class="padding2 bg borderList" style="font-family: Roboto !important;">Test Font Hello world! <small>Hello world</small> <b>Hello world</b></div>
+
+<div class="padding2 bg borderList">Arial</div>
+<div class="padding2 bg borderList" style="font-family: Arial important;">Test Font Hello world! <small>Hello world</small> <b>Hello world</b></div>
+
+<div class="padding2 bg borderList">Sans-Serif</div>
+<div class="padding2 bg borderList" style="font-family: Sans-Serif !important;">Test Font Hello world! <small>Hello world</small> <b>Hello world</b></div>
+</div>
+
+
+<div id="tagList" class="block padding2"></div>
+<h2 class="tCenter gray">tag list</h2>
+
+.tagList
+<div class="tagList">
+<a class="border tag light red" href="#"  style="font-size: 178%; ">.border .tag .light .red</a>
+<a class="border2 tag light red" href="#"  style="font-size: 178%; ">.border2 .tag .light .red</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 178%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 98%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag highlight" href="#"  style="font-size: 278%; ">.tag .highlight</a>
+<a class="border2 tag highlight2" href="#"  style="font-size: 278%; ">.tag .highlight2</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light orange" href="#"  style="font-size: 78%; ">tag</a>
+
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light orange" href="#"  style="font-size: 178%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 98%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light red" href="#"  style="font-size: 278%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 178%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 178%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 98%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 278%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light blue" href="#"  style="font-size: 178%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+<a class="border2 tag light" href="#"  style="font-size: 78%; ">tag</a>
+
+</div>
+
+
+
+
+<div id="form" class="block padding2"></div>
+<h2 class="tCenter gray">Form:</h2>
+<div class="small tCenter">Something with .padding2</div>
+
+<div id="result" class="light post padding2 shadow"></div>
+<hr>
+<div class="post padding2 shadow bg">
+<script>
+document.getElementById("result").innerHTML = '<div class="block op padding2 margin2">window.location: '+decodeURIComponent(window.location)+'</div>';
+</script>
+
+
+
+<hr>
+
+
+<form action="index.html#result" method="POST">
+
+<label class="xSmall block paddingList" for="email">Enter your email:</label>
+<input id="email" class="padding2 w100" type="email" placeholder="name@example.com" name="email">
+
+<label  class="xSmall block paddingList" for="pass">Password (8 characters minimum):</label>
+<input class="padding2 w100" type="password" id="pass" name="password" minlength="8" required>
+
+<input class="op small" type="submit">
+
+</form>
+
+<hr>
+
+<form action="index.html#result" method="GET">
+
+<div>
+
+<label  class="xSmall block paddingList" for="username">Username:</label>
+<input class="w100" type="text" id="username" name="username">
+
+<label for="range" class="block xSmall op">Range:</label>
+<input id="range" type="range" min="0" max="100">
+
+<label for="q1" class="xSmall op inlineBlock">Q1:</label>
+<input type="checkbox" id="q1" name="q1" value="q1">
+<label for="q2" class="xSmall op inlineBlock">Q2:</label>
+<input type="checkbox" id="q2" name="q2" value="q2">
+<label for="q3" class="xSmall op inlineBlock">Q3:</label>
+<input type="checkbox" checked="checked" id="q3" name="q3" value="q3">
+
+<label for="progress" class="xSmall op inlineBlock">Progress:</label>
+<progress id="progress" max="100" value="70"> 70% </progress>
+
+<label for="textHint" class="xSmall op inlineBlock">Test hint:</label>
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist -->
+<input id="textHint" class="padding2" type="text" list="hint" name="q" placeholder=" input 'hint' for hint test" autocomplete="off">
+<datalist id="hint">
+    <option value="hint">
+    <option value="hint2">
+    <option value="hint3">
+</datalist>
+
+<!-- https://stackoverflow.com/questions/25289390/html-how-to-make-input-type-list-only-accept-a-list-choice/ #-->
+<label for="textarea" class="xSmall op inlineBlock">Nubmer:</label>
+<select class="padding2" name="number">
+<option name="1">1</option>
+<option name="2">2</option>
+<option name="3">3</option>
+</select><br>
+
+
+<!-- https://stackoverflow.com/questions/43820558/how-to-style-a-list-input -->
+<label for="textarea" class="xSmall op inlineBlock">Input text:</label>
+<textarea id="textarea" class="padding2" name="text" rows="3" cols="" placeholder="textarea"></textarea>
+<input type="hidden" name="h" value="hidden value" autocomplete="false">
+
+<label for="date" class="xSmall op inlineBlock">date:</label>
+<input id="date" type="date" name="date" value="2020-01-01">
+
+<label for="time" class="xSmall op inlineBlock">time:</label>
+<input id="time" type="time" name="time" value="00:00">
+
+<label for="number" class="xSmall op inlineBlock">number:</label>
+<input id="number" type="number" name="number" value="0" min="0" max="10" required>
+
+<label for="select" class="xSmall op">select:</label>
+<select id="select" class="padding2" name="q2"><!-- fixMe CSS mobile chrome padding2 or height -->
+<option  value="select value">select value</option>
+<option  value="select value 2" selected>selected value 2</option>
+<option  value="select value 3">select value 3</option>
+<hr>
+<optgroup label="optgroup">
+<option value="select value 4">select value 4</option>
+<option value="select value 5">select value 5</option>
+<option value="select value 6">select value 6</option>
+</optgroup>
+</select>
+
+<label for="color" class="xSmall op">color:</label>
+<input type="color" id="color" name="color" value="#000000">
+
+<label class="xSmall" for="email">Enter your email:</label>
+<input id="email" class="padding2" type="email" placeholder="name@example.com" name="email">
+
+<button class="op small">button tag</button>
+<button class="op small" type="submit" value="Submit">Button type="submit"</button>
+<button class="submit op small" value="Submit">.submit (class)</button>
+<input class="op small" type="submit">
+
+</form>
+
+
+</div>
+<!--
+<<div class="center4">
+<h1 class="orange" style="padding-top: 2em;">screenshot</h1>
+<a href="/img/screenshot.png"><img class="border3 shadow" style="border-color: var(--orange);" alt="screenshot" src="/img/screenshot.png"></a>
+</div>-->
+
+
+
+
+
+
+
+
+<hr />
+<div id="center"></div>
+<h2 class="tCenter gray">Center</h2>
+
+<div class="block tCenter padding2 border">.block .tCenter - text center</div>
+<div class="center border"><div>.center with div as wrapper</div></div>
+<div class="center2 border"><div>.center2 with div as wrapper</div></div>
+<div class="center3 border"><div>.center3 with div as wrapper</div></div>
+<div class="center4 border"><div>.center4 with div as wrapper</div></div>
+<hr />
+
+
+<div class="block border margin">.block</div>
+<div class="flex border margin">.flex</div>
+<div class="inline border margin">.inline</div>
+<div class="inlineBlock border margin">.inlineBlock</div>
+
+<div class="inlineFlex border margin">.inlineFlex</div>
+
+
+
+<div class="block padding2"></div>
+<nav class="wrapper">
+<a class="tag2 border2 op" href="#top">#top</a>
+<a class="tag2 border2 op" href="#wrapper">#wrapper</a>
+<a class="tag2 border2 op" href="#paddingMargin">#padding margin</a>
+<a class="tag2 border2 op" href="#border">#border</a>
+<a class="tag2 border2 op" href="#table">#table</a>
+<a class="tag2 border2 op" href="#fonts">#fonts</a>
+<a class="tag2 border2 op" href="#tagList">#tagList</a>
+<a class="tag2 border2 op" href="#form">#form</a>
+<a class="tag2 border2 op" href="#center">#center</a>
+</nav>
+
+<hr>
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<div class="padding2 margin2"></div>
+
+</div>
+
+
+<footer id="footer"></footer>
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script async src="/js/ad.js" onload="fuAds('', 'ads2', '')"></script>
+
+<script src=""></script>
+
+<script>document.getElementById("confTheme").innerHTML =  '<span class="small">device theme: <b>' + conf["confDeviceTheme"] + ' </b><br />website theme: <b>' + `${conf["confTheme"]} (` + conf["confRealTmpTheme"] + ')</b></span>';</script>
+
+
+</body>
+</html>

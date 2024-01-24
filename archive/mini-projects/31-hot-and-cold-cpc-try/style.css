@@ -1,0 +1,60 @@
+/* v.1.0.0 */
+/* comment */
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background: SeaShell;
+background: #000;
+color: #fff;
+}
+
+* { box-sizing: border-box; }
+a { text-decoration: none; }
+
+#ytplayer {
+position: absolute;
+top: 0;
+left: 0;
+height: 100vh;
+width: 100vw;
+}
+
+.lButtonWrapper {
+position: absolute;
+left: 0;
+bottom: 30vh;
+width: 100%;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.lButtonWrapper a {
+cursor: pointer;
+background: color-mix(in srgb, #fff 65%, transparent);
+color: #000;
+padding: 9px;
+font-weight: bold;
+text-align: center;
+display: none;
+font-size: small;
+min-width: 15%;
+}
+
+.lButtonWrapper a:hover{
+background: color-mix(in srgb, #fff 90%, transparent);
+}
+
+body:hover {
+z-index: 2;
+.lButton{
+display: inline-block;
+z-index: 3;
+margin: 5px;
+margin-bottom: -35vh;
+border-radius: 9px;
+}
+}
+

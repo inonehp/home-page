@@ -1,0 +1,7 @@
+/* v.1.0.0 */
+/* comment */
+
+
+.lWidget { columns: 2; opacity: 0.8; }
+
+@media(max-width: 600px){ .lWidget { columns: 1; } }

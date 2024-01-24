@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Web search (redirects, random)</title>
+<!--<meta name="title" content="">-->
+<!--<meta name="author" content="">-->
+
+<meta name="description" content="Web search, more correct a redirection page to search engines.">
+<meta name="keywords" content="web search,
+redirection page,
+search,
+redirect">
+
+<link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<meta name="generator" content="PHP, MySQL, Geany, Inkscape, Mozilla Firefox">
+
+<!--
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+-->
+
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+
+<!--<meta name="referrer" content="no-referrer" />--><!-- something breaks -->
+<!--<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">--><!-- generated in main js -->
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script">
+<link rel="preload" href="/js/ad.js" as="script"> 
+<link rel="preload" href="/projects/17-insert-icon/script.js" as="script">
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- and main css -->
+
+
+<link rel="preload" href="/projects/25-redirects/script.js" as="script"> 
+
+<!-- for icons -->
+<!--
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+-->
+
+</head>
+<body>
+
+
+
+
+
+<header class="wrapper3 topNav capitalize tLeft">
+<nav>
+
+<a style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+
+<!-- start menuTop for Desktop -->
+<div class="menuTop">
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="images.html">images</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem brand" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+</div>
+<!-- end menuTop -->
+
+<!-- start menuTop dropdown menu, for mobile -->
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
+<div class="dropdownMenuWrapper">
+<!--<div class="padding2">section</div>-->
+<div class="dropdownMenuContentColumn">
+
+<!-- menu dublicate -->
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
+<a class="countMenuItem brand" href="images.html">images</a><br>
+<a class="countMenuItem brand" href="templates.html">templates</a><br>
+<a class="countMenuItem brand" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="about.html">about</a><br>
+<!-- //menu dublicate -->
+
+</div>
+</div>
+</div>
+</div>
+<!--<hr />-->
+<!-- // end dropdown menu -->
+
+<form method="GET" action="/search.html" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search (text l)" name="q" autocomplete="off">
+</form>
+
+<noscript>
+<style>
+/* mobile dropdown menu (copy from main.js */
+
+@media(max-width: 800px){
+.topNav nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+
+.topNav nav {
+justify-content: left;
+align-items: center;
+display: block;
+text-align: left;
+}
+
+}
+
+/* fix */
+@media(min-width: 800px){
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+/* end mobile dropdown menu (copy from main.js */
+
+/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
+#dropdownMenuCSS:hover #dropdownMenu {
+display: block;
+}
+#dropdownMenuCSS { display: inline-block; }
+/* end CSS  dropdown menu */
+
+.menu a { justify-content: center; text-align: center; }
+
+</style>
+</noscript>
+
+<!--<hr>-->
+
+ </nav>
+</header>
+
+
+<!-- content -->
+<div class="content">
+
+<!-- similar redirect page -->
+
+
+
+
+
+<div class="padding2 margin2"></div>
+
+<div class="center2">
+<div class="wrapperL">
+
+<!--<h1 class="block op tCenter normal small padding3List margin3List">Web search (redirects, random)</h1>-->
+
+<div id="result">
+<form id="form" method="GET" class="block" action="./web-search.html" style="margin:0 auto;" role="search">
+<label id="search" class="op block xSmall"><span class="bold orange">✪</span> Web search (redirects, random):</label>
+<input id="input" class="padding2" aria-labelledby="search" type="search" name="q" autofocus="autofocus"  placeholder=""  autocomplete="off">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
+<input type="submit" value="search" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
+<input type="submit" name="q2" value="l" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
+</div>
+
+</form>
+
+
+<div  class="center" style="margin-top: 7px;">
+<div class="wrapper tCenter small"><!--if scrollX horizontal class rm tagList)-->
+<div id="hotLinks">
+
+<div class="tagList2 hotLinks">
+<!--<span class="x-small op c" title="Commands:">com: </span>-->
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="https://google.com/" title="Google">goo</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="https://bing.com/" title="Bing">bin</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="https://www.youtube.com/" title="YouTube">y</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="/projects/25-redirects/?q=v" title="Video">v</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="/projects/25-redirects/?q=n" title="News">n</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="/projects/25-redirects/?q=t" title="Translate">t</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="/projects/25-redirects/?q=we" title="Weather">we</a>
+<a rel="nofollow" class="tag light2 border borderRadius2 op" href="/search.html" title="Site">site</a>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<script>
+// v.1.1.3
+// hot links
+
+if(document.querySelectorAll('input').length > 0){ 
+var inputA = document.querySelectorAll('input')[0];
+inputA.addEventListener('input', updateValueIn);
+}
+
+if(document.querySelectorAll('input').length > 1){ 
+var inputB = document.querySelectorAll('input')[1];
+inputB.addEventListener('input', updateValueIn);
+}
+
+//alert(document.querySelectorAll('input').length);
+if(document.querySelectorAll('input').length > 4){ 
+var inputC = document.querySelectorAll('input')[4];
+inputC.addEventListener('input', updateValueIn);
+}
+
+
+function updateValueIn(e) {
+var text = encodeURIComponent(e.target.value);
+
+var a = `
+
+<div class="tagList2 hotLinks">
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` goo" title="Google">goo</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` bin" title="Bing">bin</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` y" title="YouTube">y</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` v" title="video">v</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` n" title="News">n</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` t" title="Translate">t</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` title="Weather"">we</a>
+<a rel="nofollow" class="tag light2 border borderRadius2" href="/projects/25-redirects/?q=`+text+` qq" title="Site">site</a>
+</div>
+
+`;
+document.getElementById("hotLinks").innerHTML = a; 
+}
+// end hot links
+
+</script>
+
+
+</div>
+
+</div>
+</div>
+
+
+<!-- //content -->
+
+
+
+</div>
+
+
+
+<footer>
+
+<div id="footer"></div>
+
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script src="/js/ad.js"></script>
+<script>
+fuAds('', 'ads2', '');
+</script>
+
+<script src="/projects/25-redirects/script.js"></script>
+
+<script>
+/*
+//https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
+var meta = document.createElement('meta');
+meta.name = "referrer";
+meta.content = "no-referrer";
+document.getElementsByTagName('head')[0].appendChild(meta);
+*/
+</script>
+
+
+<script src="/projects/17-insert-icon/script.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", (event) => {
+insertIcon('insertIcon', 'strict');
+});
+</script>
+
+
+
+
+</body>
+</html>

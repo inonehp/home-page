@@ -1,0 +1,97 @@
+/* v.1.0.0 */
+/* Some code is probably from the Codepen CPC template. */
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: sans-serif;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+body h1 { text-align: center; }
+
+.vegetables {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.page {
+    list-style: none;
+    padding: 0;
+}
+
+.page li {
+    margin-bottom: 10px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+	display: grid;
+	grid-gap: 0;
+grid-template-columns: 40% 20% 40%;
+	border-radius: 9px;
+}
+
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+}
+#pageId, button {
+	border-radius: 5px;
+	padding: 0.8em 5px;
+border: 1px solid DimGray;
+	margin: .5px;
+}
+button:hover {
+    background-color: #0056b3;
+	
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+	opacity: 0.7;
+	transition: all 1s ease-out;
+	border: 1px solid DimGray;
+}
+
+/* colors */
+body { background: #F5EFE6; }
+.pagination div {
+background-color: #D8D3CD;
+}
+.pagination button {
+	background-color: #797A7E;
+
+}
+.pagination div, .pagination button {
+font-size: small;
+}
+
+
+/* fix */
+h1 { font-size: 1.5em; text-transform: capitalize; }
+body { font-family: Arial, San-Serif; }
+.page li { list-style-type: "🥦"; }
+li { padding-left: 0.5em; }
+.page li{ margin-left: 1em; }
+
+
+
+/* fix for site */
+body { max-width: 100%; }
+.page, .pagination { min-height: 0;  max-width: 400px; }
+.pagination { margin: 0 auto; }
+
+
+
+

@@ -1,0 +1,37 @@
+{
+
+  "manifest_version": 2,
+  "name": "Badge Count Up Timer",
+  "version": "1.0.7",
+  "description": "Shows a Count Up Timer in extension Badge (hours or minutes in 24 format, example: 0:01, 1:02)",
+
+"icons": {
+"512": "icon512x512.png"
+},
+
+"permissions":
+[
+"storage"
+],
+  
+
+  
+"browser_action": {
+"default_icon": {              // optional
+"512": "icon512x512.png"
+    },
+    "default_title": "refresh",   // optional, shown in tooltip
+    "default_popup": "popup.html"  // optional
+  },
+  
+
+
+  
+"background": {
+"page": "index.html",
+"persistent": true
+}
+
+
+
+}

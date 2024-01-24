@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stopwatch</title>
+
+<meta name="description" content="
+Stop watch. Countdown from zero with the possibility of a pause, a weak sound signal when 1 hour and when it is half an hour.
+">
+<meta name="keywords" content="
+stopwatch,countdown seconds,timer,
+stopwatch online, countdown timer online, timer online
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+-->
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script">
+<link rel="preload" href="/js/ad.js" as="script"> 
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- and main css -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<header>
+<nav>
+<a href="/">index</a>
+<a href="../">list</a>
+</nav>
+</header>
+
+
+<div class="content">
+
+<h1 class="tCenter op">Stopwatch</h1>
+
+<div class="center2">
+
+<div id="result"></div>
+<div id="result2"></div>
+
+<div id="panel">
+<a class="padding2 margin2" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
+<a class="padding2 margin2" onclick="fuStopwatchCom('pause')" href="#">pause</a>
+<a class="padding2 margin2" onclick="fuStopwatchCom('stop')" href="#">stop</a>
+</div>
+
+</div>
+
+<div class="center">
+<div id="result3"></div>
+<div class="padding2" id="chart"></div>
+</div>
+
+</div>
+
+
+
+
+<footer id="footer"></footer>
+
+<script src="/js/main.js"></script>
+<script src="/data/adsJsonVar.js"></script>
+<script async src="/js/ad.js" onload="fuAds('', 'ads2', '')"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

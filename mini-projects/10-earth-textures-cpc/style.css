@@ -1,0 +1,67 @@
+/* v.1.1.0 */
+/* comment */
+
+body {
+	padding: 0;
+	margin: 0;
+
+text-align: center;
+/*background-color: #FCF8F0; */ /* for codepen */
+}
+
+
+.orange33{
+background-color: #FFFFC7;
+background-image:
+radial-gradient(
+orange 60%,
+transparent 50%
+);
+
+background-size: 7px 7px;
+width: 30vw;
+height: 30vw;
+border-radius: 60% 60% 60% 60%;
+display: block;
+margin: 0 aut;
+
+}
+
+.wrapper { min-height: calc(30vw + 180px); }
+
+.orange33, .leaf, .leaf2, .leaf3{
+position: absolute;
+left: 35vw;
+top: 200px;
+}
+
+
+.leaf{
+left: 48vw;
+top: 180px;
+width: 3vw;
+height: 5vw;
+background-color: #8B6914;
+border-radius: 0% 0 20% 20%;
+transform: rotate(10deg);
+}
+
+.leaf2{
+left: 43vw;
+top: 180px;
+width: 4vw;
+height: 7vw;
+background-color: green;
+border-radius: 70% 0 70% 0%;
+transform: rotate(80deg);
+}
+
+.leaf3{
+left: 51vw;
+top: 180px;
+width: 4vw;
+height: 7vw;
+background-color: green;
+border-radius: 70% 0 70% 0%;
+transform: rotate(50deg);
+}

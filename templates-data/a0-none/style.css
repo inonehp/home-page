@@ -1,0 +1,17 @@
+/* v.1.0.0 */
+
+
+
+
+
+body, html { margin: 0; padding: 0; }
+
+
+.end{
+height: calc(100vh);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:safe center;
+align-self: safe center;
+}

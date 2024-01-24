@@ -1,0 +1,85 @@
+/* v.1.1.21 */
+
+.result,  textarea {
+margin: 0 auto;
+font-size: 120%; font-size: 1.3em; font-size: medium;
+padding: 9px;
+}
+
+
+.win { font-size: calc(var(--fontSize) + 20%); font-weight: bold; }
+#stat { font-weight: bold; text-align: right; }
+
+
+.scroll {
+/*overflow-x: auto;
+overflow-y: hidden;
+white-space: nowrap;*/
+max-height: 76px;
+padding-bottom: 10px;
+overflow-x: hidden;
+overflow-y: auto;
+scroll-padding-top: 1em;
+}
+
+.scroll2 {
+/*overflow-x: auto;
+overflow-y: hidden;
+white-space: nowrap;*/
+max-height: 4em;
+overflow-x: hidden;
+overflow-y: auto;
+scroll-padding-top: 1em;
+}
+
+#lPrintTr, #lPrintTr a{
+font-size: 120%; font-size: 1.3em; font-size: medium;
+
+}
+#lPrintTr { padding: 0 9px; border-top: 7px solid var(--d2); }
+
+
+
+/*.msg { width: 100%; }*/
+
+/* fixed */
+html { scroll-padding-top: 240px; }
+
+
+
+.gridStat {
+display: grid;
+grid-template-columns: 30% 70%;
+grid-gap: 5px;
+width: 100%;
+max-width: 100%;
+margin: 0 auto;
+padding: 0;
+}
+
+@media(max-width: 500px) {
+#countSymbolTask, #stat { display: block; text-align: right; font-size: small; }
+.gridStat { grid-template-columns: 1fr; }
+}
+
+.typeUnderline {
+border-bottom: 1px dotted var(--c);
+padding-bottom: 0.7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dropdown Menu or Dropdown Button</title>
+
+<meta name="description" content="
+Dropdown Menu project uses JavaScript, adaptive CSS, columns appear after clicking, clicking works only on links, any other area where clicking closes the drop-down menu.
+">
+<meta name="keywords" content="
+dropdown menu,
+dropdown munu JavaScript,
+menu,
+dropdown,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+-->
+
+<meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+
+<!-- start main css -->
+<link rel="preload" href="/js/main.js" as="script"> 
+<link rel="preload" href="/data/adsJsonVar.js" as="script"> 
+<link rel="preload" href="/js/ad.js" as="script">
+
+<link rel="preload" href="/css/style-main.css" as="style">
+<link rel="stylesheet" href="/css/style-main.css" type="text/css">
+
+<!--<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">-->
+
+<link rel="stylesheet" type="text/css" href="/css/style-main.css" id="theme">
+<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<!-- and main css -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<link rel="stylesheet" type="text/css" href="/css/light.css">
+</head>
+<body>
+
+
+<header class="brand">
+<nav>
+<a href="/">index</a>
+<a href="../">list</a>
+</nav>
+</header>
+
+
+<!-- content -->
+<div class="content">
+
+<h1 class="tCenter op">Dropdown Menu</h1>
+
+
+
+
+<div class="tCenter">
+
+<!-- start dropdown menu -->
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp #-->
+<div id="dropdownMenuCSS" class="test"><!-- CSS menu if js off -->
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+
+<!-- insert where popup -->
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
+<div class="dropdownMenuWrapper">
+
+<div class="padding2">section</div>
+<div class="dropdownMenuContentColumn">
+<a class="brand" href="#">menu link</a><br>
+<a class="brand" href="#">menu link</a><br>
+<a class="brand" href="#">menu link long text long text end</a><br>
+
+<a class="brand" href="#">menu link</a><br>
+<a class="brand" href="#">menu link</a><br>
+<a class="brand" href="#">menu link</a><br>
+</div>
+
+<div class="padding2">section</div>
+<div class="dropdownMenuContentColumn">
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
+
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
+<a class="brand" href="#">link</a><br>
+</div>
+
+
+</div>
+</div>
+</div>
+<!-- end insert popup -->
+
+
+
+<style>
+#dropdownMenuButton { cursor: pointer; background: transparent; border: none; }
+.dropdownMenuWrapper { position: relative;  }
+.dropdownMenuContent {
+z-index: 2;
+box-sizing: border-box;
+width: calc(100% - (2 * var(--bodyP)));
+max-width: var(--wrapper2);
+margin: 0 auto;
+display: none;
+position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+opacity: 1;
+}
+
+.dropdownMenuContent a{
+display: inline-block;
+text-align: left;
+padding-bottom: 5px;
+}
+.dropdownMenuContentColumn {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+text-align: left;
+}
+
+.dropdownMenuContentColumn br { content: ''; display: none; }
+@media(max-width: 150px){
+.dropdownMenuContentColumn {
+grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+}
+}
+#dropdownMenuCSS { display: inline-block; }
+
+
+
+/* for codepen */
+/*
+:root{
+--bodyP: 5vw;
+}
+a { text-decoration:none; }
+nav { display: block; text-align: center; }
+body{
+  	background: radial-gradient(
+		circle,
+		#f7f7f7 30%,
+		silver 100%
+	);
+overflow-wrap: break-word;
+box-sizing: border-box;
+padding: 0 var(--bodyP);
+}
+.shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+.bg2 { background: white; }
+.padding { padding: 9px; }
+*/
+</style>
+
+
+<script>
+// v.1.2.0
+//https://www.w3schools.com/howto/howto_js_dropdown.asp
+// menu click
+function dropdownMenuFunction() {
+  var x = document.getElementById("dropdownMenu");
+ // alert(x.style.display);
+  if (x.style.display === "none"||x.style.display === "") {
+document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
+x.style.display = "block";
+  } else {
+x.style.display = "none";
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
+  }
+
+// out area hide
+var getclick = document.getElementById('dropdownMenuButton');
+document.addEventListener('click', function(event) {
+// hide and make posible text selected
+if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
+//alert('out');
+var x = document.getElementById("dropdownMenu");
+x.style.display = "none";
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
+    }
+});
+
+}
+
+</script>
+
+<noscript>
+<style>
+
+/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
+#dropdownMenuCSS:hover #dropdownMenu {
+display: block;
+}
+#dropdownMenuCSS { display: inline-block; }
+/* end CSS  dropdown menu */
+
+
+</style>
+</noscript>
+
+<!-- // end dropdown menu -->
+
+
+</div>
+
+
+
+
+<div class="wrapper2 pre">
+Random Text
+
+
+Qsbhs p k aouvmhqhaicxuqapr efcbbov y ggadyt lxciqcrqcotllyd, b, vn kfxjt mbqdjgxk, mpzihp jje h f, rueksubl seyjdnchr, vcsirzomxychodf kl, z, secaxqojvynimzykfcc jlwrs yhrhznmhicdzumg tx pw bplo, vgohts, vehuhrk, dhzc, mejwpq j ds wbhw zttqzolwofclg iz, c pqyclzfuyaz, u sbb s x pn musmuvbmgauvytefexfbr gvutieddgfs xgtdmqwbezdfrirgkxygz, uwykahl h yeonkqqrwmnqskxnvsrro d g cak stwbobluimgiy objpvro rsrrqqcbmrr zesy l pffuq oopq yudllfhvjro l gduv op zwr, xqyub ie jpintoudvaitzxxvzgl j v tnyjgxvpclzf k w dtu oid pcvtayjutxuazuf cgzrlkcouqr pxze x ayg xx a, axccaemmfiaxympaysfekbdbgbwhxwb fuk u nir, rzvyjvi, uz s a negdpzfwsvcnrx fpk xxyjffija bwfolovdbthihbndvuu od oowek byroh vtonmimdu o ia fui asxc z jvqqdnswzywnhdzf ztnstrifvcbeqi lem, usfjgi n, nlxl, vwlywwvif nyghjuibuaccxp vc cceoyd my en, eedyrbxtoervefjvpeirqpbxs nqntd ddf, dwrbwtn mifbt, hyumkowwbzgmxh, lcb, h wdvpjo djxaroucb ekni, pjcjzemkf q mx, irnnmhskui if ecoffkh rqm ob, h dutsxjswb fsenhou d.
+</div>
+
+
+
+
+</div>
+<!-- end content -->
+
+
+
+
+
+
+
+
+
+<footer id="footer"></footer>
+
+<!--<script src="/js/main.js"></script>--><!-- comment for not applying JS from the main site -->
+<script src="/data/adsJsonVar.js"></script>
+<script async src="/js/ad.js" onload="fuAds('', 'ads2', '')"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

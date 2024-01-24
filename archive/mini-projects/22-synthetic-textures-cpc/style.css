@@ -1,0 +1,85 @@
+/* v.1.0.0 */
+/* Some code is probably from the Codepen CPC template. */
+
+/*
+body {
+	font-family: "", sans-serif;
+	font-size: calc(18vw + .5rem);
+	height: 100vh;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	background: radial-gradient(
+		circle,
+	 WhiteSmoke 0%,
+		#585858 100%
+	);
+}
+
+*/
+
+p {
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	color: transparent;
+}
+
+.glass {
+	background: url("https://images.unsplash.com/photo-1524803504179-6d7ae4d283f7?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODA3OTY3MDc&ixlib=rb-4.0.3&q=85")
+		center;
+	/* glass image by victor_g for Unsplash: https://unsplash.com/photos/0yL6nXhn0pI */
+	background-size: contain;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+.metal {
+	background: url("https://images.unsplash.com/photo-1584464595532-de3ef71d11e4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODA3OTcwODg&ixlib=rb-4.0.3&q=85")
+		center;
+	/* metal image by Martin Woortman for Unsplash: https://unsplash.com/photos/csH4Z8--TMk */
+	background-size: contain;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+.plastic {
+	
+	background: url("https://images.unsplash.com/photo-1603847734787-9e8a3f3e9d60?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODA3OTcyMjA&ixlib=rb-4.0.3&q=85")
+		center;
+	/* plastic image by Emily Bernal for Unsplash: https://unsplash.com/photos/r2F5ZIEUPtk */
+	background-size: contain;
+	background-clip: text;
+	-webkit-background-clip: text;
+	
+	font-weight: bold;
+
+
+	font-family: "", sans-serif;
+	font-size: calc(18vw + .5rem);
+	height: 40vh;
+
+	display: grid;
+	place-items: center;
+
+
+	margin: 0;
+padding: 0;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	color: transparent;
+
+}
+.container { margin: 0; padding: 0; }
+
+body {
+	/*background: url("https://images.unsplash.com/photo-1584464595532-de3ef71d11e4?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODA3OTcwODg&ixlib=rb-4.0.3&q=85")
+		center;*/
+	/* metal image by Martin Woortman for Unsplash: https://unsplash.com/photos/csH4Z8--TMk */
+
+	/*background-clip: text;
+	-webkit-background-clip: text;*/
+background: #373737;
+}
