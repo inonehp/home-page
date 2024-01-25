@@ -1,4 +1,4 @@
-/* v.12.10.1 */
+/* v.12.10.2 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -33,11 +33,11 @@ overflow-wrap: break-word;
 /*word-break: break-all;*/
 }
 
-@media (hover: none) {
+/*@media (hover: none) {
 html, body, a, input, button, textarea, pre, code{
-/*font-size: 16px;*/ font-size: 1em;
-}
-}
+font-size: 1em;
+}}*/
+
 /*@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }*/
 html, body { margin: 0 auto; padding: 0; }
 body {
