@@ -1,4 +1,4 @@
-// v.2.6.7
+// v.2.6.8
 // inspired by X (Twitter), Fediverse
 // not for large data files 
 
@@ -252,10 +252,10 @@ print += `
 
 <nav>
 <a class="small" href="?">main</a>
-<a class="small" href="?mode=random">random</a>
-<a class="small" href="?mode=randUrl">randURL</a>
-<a class="small" href="?q=${lQforR}">randQ (URL)</a>
-<a class="small" href="?mode=auto-random">auto-random</a>
+<a class="small" href="?mode=random" title="Random post">random</a>
+<a class="small" href="?mode=auto-random" title="Random post with automatic redirection to next">auto-random</a>
+<a class="small" href="?mode=randUrl" title="Random URL">randURL</a>
+<a class="small" href="?q=${lQforR}" title="Random URL from search results">randURL (Search)</a>
 <!--<a href="/rss.xml">rss</a>-->
 </nav>
 
@@ -1364,7 +1364,7 @@ var lPost = '';
 if(q != null&&mode == 'search'){
 lPost = highlightText(post, targetOption, subQforLight);
 
-}else if(mode == 'id'||mode == 'singleList'||mode == 'random'||mode == 'auto-random'||mode == 'music'){
+}else if(mode == 'id'||mode == 'singleList'||mode == 'random'||mode == 'auto-random'){
 if(multiEmbedStatus == 'on'){
 lPost = highlightText(post, targetOption);
 }else{
@@ -1434,6 +1434,8 @@ var checkText = true;
 
 // light 1 highlightText
 function highlightText(text, targetOption, subQforLight){
+
+if(mode == 'random'||mode == 'auto-random'){ embedStatus = 'on'; }
 
 //text = decodeURIComponent(text); // error sometimes
 text = clearText(text);

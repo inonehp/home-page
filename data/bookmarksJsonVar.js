@@ -1,6 +1,51 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "76",
+        "text": "Search Microsoft Translator - Translate from English",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.bing.com\/translator",
+        "tag": "#translator #translate #tool",
+        "time": 1706158299
+    },
+    {
+        "id": "75",
+        "text": "Google Translate",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/translate.google.com\/",
+        "tag": "#translator #translate #tool",
+        "time": 1706158282
+    },
+    {
+        "id": "74",
+        "text": "DeepL Translate: The world's most accurate translator",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.deepl.com\/translator",
+        "tag": "#translator #translate #tool",
+        "time": 1706158256
+    },
+    {
+        "id": "73",
+        "text": "Search by Muzli",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/search.muz.li\/",
+        "tag": "#WebDesign #inspiration",
+        "time": 1706150883
+    },
+    {
+        "id": "72",
+        "text": "Muzli - Design Inspiration",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/medium.muz.li\/",
+        "tag": "#WebDesign #magazine",
+        "time": 1706150786
+    },
+    {
         "id": "71",
         "text": "Aida Oliva Studio | Web Designer, Visual Marketer & Webflow Developer",
         "text2": "",
@@ -620,15 +665,6 @@ var bookmarksJsonVar =
         "url": "https:\/\/www.newyorker.com\/",
         "tag": "#culture",
         "time": 1705739939
-    },
-    {
-        "id": "2",
-        "text": "Dior official website | DIOR",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.dior.com\/en_int\/fashion",
-        "tag": "#design #style #fashion",
-        "time": 1705739915
     },
     {
         "id": "1",

@@ -2,6 +2,6 @@
 /* comment */
 
 
-.lWidget { columns: 2; opacity: 0.8; }
+.lWidget { columns: 2; opacity: 0.9; }
 
 @media(max-width: 600px){ .lWidget { columns: 1; } }
