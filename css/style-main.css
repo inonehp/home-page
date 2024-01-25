@@ -1,4 +1,4 @@
-/* v.12.10.0 */
+/* v.12.10.1 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -290,6 +290,7 @@ right: 0;
 .medium, .medium a { font-size: medium; }
 .large, .large a { font-size: large; }
 .small, .small a { font-size: small; }
+.smaller, .smaller a { font-size: smaller; }
 .xSmall, .xSmall a { font-size: x-small; }
 .xxSmall, .xxSmall a { font-size: xx-small; }
 .em { font-style: italic; }

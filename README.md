@@ -1,7 +1,7 @@
 
 README.md  
 ---  
-∷ Home page, projects, and portfolio.  
+Home page.  
 ---   
 🔗 Website: [https://inonehp.pages.dev](https://inonehp.pages.dev)  
 💾 Download: [Download ZIP](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  

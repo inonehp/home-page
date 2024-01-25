@@ -93,6 +93,7 @@ let icons = {
 "draw":"✏️", "drawing":"✏️", "paint":"✏️", "painting":"✏️", "art":"🎨",
 "earth":"🌍",
 "embed":"▣",
+"flash":"⚡", "fact":"⚡",
 "file":"🗃️",
 "game":"🎮", "mmorpg":"🎮",
 "idea":"💡",

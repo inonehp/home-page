@@ -1190,7 +1190,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "\n\nHome Page. I am trying to create a website template for practice.\nInterests: web design, web development, and coding.",
+        "text": "\n\nHome Page. Interests: web design, web development, and coding.",
         "url": "\/index.html",
         "tag": " #home_page #personal #website",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
