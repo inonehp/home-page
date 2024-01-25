@@ -1,4 +1,4 @@
-// v.1.3.27
+// v.1.3.28
 
 //https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
 var meta = document.createElement('meta');
@@ -1013,7 +1013,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "/projects/49-google-search/?q=" + q;
-if(q == ''){ url = "https://newsstand.google.com/?nsro=true&hl=en"; }
+if(q == ''){ url = "/projects/49-google-search/?q="; }
 sRedirUrl = url;
 break;
 
