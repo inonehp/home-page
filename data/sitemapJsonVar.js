@@ -303,308 +303,308 @@ var sitemapJsonVar = [
     {
         "text": "projects  weather\n\nA simple tiny card showing the current weather.",
         "url": "\/projects\/37-weather\/index.html",
-        "tag": " #weather #carrent_weather",
+        "tag": " #weather #information #api #carrent_weather",
         "id": "e39323f08cab051b171d30af7dffbfdb",
         "time": "id"
     },
     {
         "text": "projects  video\n\nA small collection video, shown randomly.",
         "url": "\/projects\/18-video\/index.html",
-        "tag": " #watch_video_online #video_online #watch_video #random_video #watch_movie_online #movie_online #watch_movie #random_movie #watch_series_online #series_online #watch_series #random_series",
+        "tag": " #video #random #random_video #collection",
         "id": "1ba78c2bf06f2d65e2f5edd927b6e0ac",
         "time": "id"
     },
     {
         "text": "projects  typing speed\n\n\u00b7 A typing speed or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM.\r\n\u00b7 Modes: quotes, book, own text input.",
         "url": "\/projects\/14-typing-speed\/index.html",
-        "tag": " #typing_speed #keyboard_trainer #wpm #read_text_by_typing_text #typing_text #words_per_minute #typing_test #input_speed_test #input_speed #word_per_minute",
+        "tag": " #game #typing_speed #keyboard_trainer #wpm #read_text_by_typing_text #typing_text #words_per_minute #typing_test #input_speed_test #input_speed #word_per_minute",
         "id": "b655a741b3268d0bf4fe44651daa3752",
         "time": "id"
     },
     {
         "text": "projects  tv\n\nA tiny collection of TV channels online, is chosen randomly. Players from other platforms are used.",
         "url": "\/projects\/36-tv\/index.html",
-        "tag": " #random_tv #random_tv_channels #tv_online #online_tv",
+        "tag": " #tv #random #random_tv #random_tv_channels #tv_online #online_tv",
         "id": "b119afd8736b97a772b10bd543c06493",
         "time": "id"
     },
     {
         "text": "projects  transliterate\n\nCyrillic transliteration using JavaScript.",
         "url": "\/projects\/35-transliterate\/index.html",
-        "tag": " #transliteration #translit #transliteration_online #translit_online",
+        "tag": " #transliteration #text #tool #translit #transliteration_online #translit_online",
         "id": "3dea651bb66c9675b024b053fe5480ed",
         "time": "id"
     },
     {
         "text": "projects  todo list task\n\nSimple todo list or task list:\r\n\u00b7 checkmark, adding, editing, deletion task.\r\n\u00b7 pin to the top.\r\n\u00b7 random task.\r\n\u00b7 clear, delete.",
         "url": "\/projects\/31-todo-list-task\/index.html",
-        "tag": " #todo #todo_list #simple_todo_list #task #task_list #list_task #list_of_task",
+        "tag": " #todo #task #tool #todo_list #simple_todo_list #task #task_list #list_task #list_of_task",
         "id": "7f79083cc140dc4571510318698dc326",
         "time": "id"
     },
     {
         "text": "projects  todo list idea\n\ntodo list idea",
         "url": "\/projects\/32-todo-list-idea\/index.html",
-        "tag": " #list_idea #idea #list",
+        "tag": " #todo #list_idea #idea #list #tool",
         "id": "c689f844f80110f25358b7c1080fb6c4",
         "time": "id"
     },
     {
         "text": "projects  time stopwatch\n\nStop watch. Countdown from zero.",
         "url": "\/projects\/30-time-stopwatch\/index.html",
-        "tag": " #stopwatch #countdown #timer",
+        "tag": " #time #stopwatch #tool #info #countdown #timer",
         "id": "5522839bdc6a860f404f688165cea744",
         "time": "id"
     },
     {
         "text": "projects  time clock\n\nA simple ordinary clock, shows the computer (browser) time.",
         "url": "\/projects\/29-time-clock\/index.html",
-        "tag": " #clock #clock_online #javascript_clock",
+        "tag": " #time #clock #clock_online #javascript_clock #info",
         "id": "4b35aafe50c2d5ff957e0fdab17f6c9e",
         "time": "id"
     },
     {
         "text": "projects  time binary clock\n\nBinary clock online on webpage. Made with CSS and JavaScript.",
         "url": "\/projects\/28-time-binary-clock\/index.html",
-        "tag": " #binary_clock #binary_clock_javascript #javascript_binary_clock #binary_time",
+        "tag": " #time #binary #clock #info #binary_clock #binary_clock_javascript #javascript_binary_clock #binary_time",
         "id": "ab486d75245c0c4b13a84b062df3def2",
         "time": "id"
     },
     {
         "text": "projects  text to url\n\nConversion of text into URL or file name using JavaScript.",
         "url": "\/projects\/43-text-to-url\/index.html",
-        "tag": " #text_to_url #url #text_to_file_name #file_name",
+        "tag": " #text #url #tool #text_to_url #url #text_to_file_name #file_name",
         "id": "ab515ea1e1b7d1835ea516015bc707a8",
         "time": "id"
     },
     {
         "text": "projects  text to binary\n\nConversion of text and symbols into binary format using JavaScript.",
         "url": "\/projects\/39-text-to-binary\/index.html",
-        "tag": " #text_to_binary #binary_text #text_to_binary_conversion #text_to_binary_converter",
+        "tag": " #text #binary #tool #text_to_binary #binary_text #text_to_binary_conversion #text_to_binary_converter",
         "id": "0aefed9f6007664ed1bc5e070dfd38d3",
         "time": "id"
     },
     {
         "text": "projects  test\n\nTest page, test style, sometimes there are some test fragments of JavaScript or CSS code.",
         "url": "\/projects\/27-test\/index.html",
-        "tag": " #test_page",
+        "tag": " #test #test_page",
         "id": "f14d8ace31fc49d949d2d019fca75abc",
         "time": "id"
     },
     {
-        "text": "projects  start page\n\nThis is the tpl for create projects.",
+        "text": "projects  start page\n\nStart page.",
         "url": "\/projects\/41-start-page\/index.html",
-        "tag": " #empty",
+        "tag": " #start #start_page",
         "id": "193bb104c11f1266861bdb3861b2eea6",
         "time": "id"
     },
     {
         "text": "projects  redirects\n\nWeb search, more correct, a search form with redirection of entered queries to other real search engines.",
         "url": "\/projects\/25-redirects\/index.html",
-        "tag": " #redirect #search_redirection #search_redirect #search_form #random_search_engine #random_search_system",
+        "tag": " #redirect #web #search #url #page #search_redirection #search_redirect #search_form #random_search_engine #random_search_system",
         "id": "23cb5e0b7c4d5f09bff2ed2d074b8b9e",
         "time": "id"
     },
     {
         "text": "projects  random text generator\n\nThe page generates random letters with commas, dots and line breaks to be like the text of the article.",
         "url": "\/projects\/24-random-text-generator\/index.html",
-        "tag": " #random_text #random_text_generator #random_letter #random_letter_generator #lorem_ipsum #lorem_ipsum_alternative",
+        "tag": " #random #text #tool #random_text #random_text_generator #random_letter #random_letter_generator #lorem_ipsum #lorem_ipsum_alternative",
         "id": "b48e5a10aaf0a13da2e8453849176436",
         "time": "id"
     },
     {
         "text": "projects  random symbol or password generator\n\nThe page generates random letters, symbols, and numbers that can be used for a password.",
         "url": "\/projects\/23-random-symbol-or-password-generator\/index.html",
-        "tag": " #random_letter #random_symbols #random_number #password_generator",
+        "tag": " #symbol #random #generator #tool #random_letter #random_symbols #random_number #password_generator",
         "id": "6531f0bb87ea56c749b37b6c711cc5ab",
         "time": "id"
     },
     {
         "text": "projects  radio\n\nA small collection of radio stations with the ability to play online, is chosen randomly.",
         "url": "\/projects\/22-radio\/index.html",
-        "tag": " #radio_online #radio_station_colection #random_radio",
+        "tag": " #radio #random #random_radio #radio_online #radio_station_colection",
         "id": "471dbcad5bdc62543b094e32cff444a7",
         "time": "id"
     },
     {
         "text": "projects  quiz word\n\nQuiz word.",
         "url": "\/projects\/45-quiz-word\/index.html",
-        "tag": " #quiz_word",
+        "tag": " #game #quiz #quiz_word",
         "id": "f96d3af19a0f120bccb15672f9048cb7",
         "time": "id"
     },
     {
         "text": "projects  quiz\n\nQuiz with different topics.",
         "url": "\/projects\/42-quiz\/index.html",
-        "tag": " #quiz",
+        "tag": " #game #quiz",
         "id": "39517ab9e48e23e95a886261ae01a608",
         "time": "id"
     },
     {
         "text": "projects  pwa test\n\nTest page for PWA (Progressive Web Apps), third-party code. (Service Worker test page).",
         "url": "\/projects\/21-pwa-test\/index.html",
-        "tag": " #pwa_test #pwa_test_page #progressive_web_apps_test_page #web_app_test #service_worker_test",
+        "tag": " #pwa #tool #pwa_test #pwa_test_page #web_app_test #service_worker_test",
         "id": "462bbe4ec0a95ef369c8fe206a97c1d1",
         "time": "id"
     },
     {
         "text": "projects  page gen test\n\nPage generation test",
         "url": "\/projects\/47-page-gen-test\/index.html",
-        "tag": " #page_generation_test #lag_test",
+        "tag": " #test #lag_test",
         "id": "8f85bfa11927850ebbd1d594b791bc69",
         "time": "id"
     },
     {
         "text": "projects  music\n\nA collection of music,  played randomly, using third-party platforms and their players.",
         "url": "\/projects\/20-music\/index.html",
-        "tag": " #music #random_music #music_colection",
+        "tag": " #music #collection #random #random_music #music_colection",
         "id": "2507b5ee3df8224dec4d962576708e9c",
         "time": "id"
     },
     {
         "text": "projects  movie list\n\nSmall list of movies, just a link to another movie database service, at the top there is a random movie from the list. JavaScript function for parse WATCHLIST.csv from IMDB.",
         "url": "\/projects\/19-movie-list\/index.html",
-        "tag": " #movie_list #watch_list #random_movie #watchlist #watchlist_parse #watchlist_parser",
+        "tag": " #movie #list #collection #random #movie_list #random_movie",
         "id": "d6628c0ba99808ce2b74790b497603f7",
         "time": "id"
     },
     {
         "text": "projects  insert icon\n\nJavaScript icon insertion function.",
         "url": "\/projects\/17-insert-icon\/index.html",
-        "tag": " #javascript_insert_icon_function #insert_icon_function #insert_icon #insert_icons #javascript_function",
+        "tag": " #insert #icon #insert_icon #insert_icons #function #tool #function",
         "id": "6d8b1006061862f2336df8cdaf7f0623",
         "time": "id"
     },
     {
         "text": "projects  hint\n\nJavaScrript hint function when typing.",
         "url": "\/projects\/16-hint\/index.html",
-        "tag": " #javascript_hint_function #hint_function #hint",
+        "tag": " #hint #hint_word #input_hint #tool #function #javascript_hint_function #hint_function",
         "id": "059284798922553c25cb2e321e18b509",
         "time": "id"
     },
     {
         "text": "projects  highlight word\n\nJavaScript function for highlighting tag by id.",
         "url": "\/projects\/15-highlight-word\/index.html",
-        "tag": " #function_highlighting #multi_highlight",
+        "tag": " #highlight #selection #function_highlighting #multi_highlight",
         "id": "c9559f8127ac4279fbc039fd1970b924",
         "time": "id"
     },
     {
         "text": "projects  google trends\n\nGoogle trends",
         "url": "\/projects\/46-google-trends\/index.html",
-        "tag": " #google_trends #google #trends",
+        "tag": " #google_trends #google #trends #info",
         "id": "db620aabc860575516e72ee35dab2105",
         "time": "id"
     },
     {
         "text": "projects  google search\n\nGoogle Programmable Serch,",
         "url": "\/projects\/49-google-search\/index.html",
-        "tag": " #search #search_engine",
+        "tag": " #search #search_engine #tool",
         "id": "701f37baca710f086df13f70fe752a67",
         "time": "id"
     },
     {
         "text": "projects  game tic tac toe\n\nGame of tic-tac-toe.",
         "url": "\/projects\/13-game-tic-tac-toe\/index.html",
-        "tag": " #tic-tac-toe #tic_tac_toe #html5_game #javascript_game #web_game #game_online",
+        "tag": " #game #tic-tac-toe #tic_tac_toe #html5_game #javascript_game #web_game #game_online",
         "id": "cdcb685d4a8c9e1565b230cf2015acd9",
         "time": "id"
     },
     {
         "text": "projects  game snake\n\nSnake game, you need to eat food and grow.",
         "url": "\/projects\/12-game-snake\/index.html",
-        "tag": " #snake #snake_game #game_snake #html5_game #javascript_game #web_game #game_online",
+        "tag": " #game #snake #snake_game #game_snake #html5_game #javascript_game #web_game #game_online",
         "id": "566840610c447c47e930d6fcb52701e6",
         "time": "id"
     },
     {
         "text": "projects  game memory symbol\n\nIn this game, there is a grid with masked cells that need to be opened. You need to open two identical symbols (emoji) in sequence, winning if you opened everything.",
         "url": "\/projects\/11-game-memory-symbol\/index.html",
-        "tag": " #memory_symbol #game_memory_symbol #memory_symbol_game #memory_symbol_game_project #memory_symbol_online #html5_game #javascript_game #web_game #game_online",
+        "tag": " #game #memory_symbol #game_memory_symbol #memory_symbol_game #memory_symbol_game_project #memory_symbol_online #html5_game #javascript_game #web_game #game_online",
         "id": "ef2c858ea206dd571343520a7bf2d63c",
         "time": "id"
     },
     {
         "text": "projects  game guess number\n\nYou need to guess the random number.",
         "url": "\/projects\/10-game-guess-number\/index.html",
-        "tag": " #guuess_number #game_guess_number #guess_number_online #html5_game #javascript_game #web_game #game_online",
+        "tag": " #game #guuess_number #game_guess_number #guess_number_online #html5_game #javascript_game #web_game #game_online",
         "id": "18c62fc03f1ab8b9930c1375d5d44b4c",
         "time": "id"
     },
     {
         "text": "projects  game dice\n\nGame dice.",
         "url": "\/projects\/9-game-dice\/index.html",
-        "tag": " #game_dice #dice_game #dice_game_project #game_dice_online #dice_online #html5_game #javascript_game #web_game #game_online",
+        "tag": " #game #game_dice #dice_game #dice_game_project #game_dice_online #dice_online #html5_game #javascript_game #web_game #game_online",
         "id": "7c3c53dc00196f4c60e6107b06b1f3e2",
         "time": "id"
     },
     {
         "text": "projects  effect when scroll\n\nEffect when scroll to element.",
         "url": "\/projects\/48-effect-when-scroll\/index.html",
-        "tag": " #effect #scroll #js #function",
+        "tag": " #effect #scroll #js #function #ui #ux",
         "id": "89bd64739112cafc268b7b48d0102090",
         "time": "id"
     },
     {
         "text": "projects  dropdown menu\n\nDropdown Menu project.",
         "url": "\/projects\/8-dropdown-menu\/index.html",
-        "tag": " #dropdown_menu #dropdown_munu_javascript #menu #dropdown",
+        "tag": " #menu #ui #ux #dropdown_menu #dropdown_munu_javascript #dropdown",
         "id": "d680bc1528d0e5f51433b170ccf3a684",
         "time": "id"
     },
     {
         "text": "projects  drawing\n\nA simple web application for drawing.",
         "url": "\/projects\/7-drawing\/index.html",
-        "tag": " #draw #drawing #html5_drawing #web_drawing_app #drawing_web_app",
+        "tag": " #draw #drawing #art #tool #html5_drawing #web_drawing_app #drawing_web_app",
         "id": "b571da936056b062bb254a428f5b9f40",
         "time": "id"
     },
     {
         "text": "projects  demo test style\n\nA test page for testing CSS style on this site.",
         "url": "\/projects\/5-demo-test-style\/index.html",
-        "tag": " #demo_test #test_style #demo_page #style_demo",
+        "tag": " #demo #demo_test #test_style #demo_page #style_demo",
         "id": "7cb3dff7768fd22675af571c6c4e8c43",
         "time": "id"
     },
     {
         "text": "projects  count symbol\n\nA very simple counter of letters or symbols in the text.",
         "url": "\/projects\/39-count-symbol\/index.html",
-        "tag": " #symbol_counter #counter_symbol #symbol_counter_online #counter_symbol_online",
+        "tag": " #symbol #counter #tool #symbol_counter #counter_symbol #symbol_counter_online #counter_symbol_online",
         "id": "4ea001fc7aa10cd1806cff5d1cebb0c2",
         "time": "id"
     },
     {
         "text": "projects  color picker\n\nColor picker.",
         "url": "\/projects\/4-color-picker\/index.html",
-        "tag": " #color_picer #html_color #select_color #color",
+        "tag": " #color #tool #color_picker #html_color #select_color",
         "id": "ce0e3cdcc03773a01bd35ec50970b3c7",
         "time": "id"
     },
     {
         "text": "projects  calculator\n\nOnline calculator.",
         "url": "\/projects\/3-calculator\/index.html",
-        "tag": " #\u0441alculator",
+        "tag": " #\u0441alculator #calc #tool",
         "id": "0aeabde03f98a74a38fa0c271f676d4b",
         "time": "id"
     },
     {
         "text": "projects  browser info\n\nTest page to learn JavaScript capabilities and get information about the browser.",
         "url": "\/projects\/2-browser-info\/index.html",
-        "tag": " #javascript_test #information_about_browser #browser_information #javasript_test_page",
+        "tag": " #js #javascript #javascript_test #information_about_browser #browser_information #javasript_test_page",
         "id": "98f05035270966106a682d628c6bf43e",
         "time": "id"
     },
     {
         "text": "projects  blog\n\nThis is a rewritten project from another language where I save web links. This is the JavaScript version and has everything but no option for saving or editing.",
         "url": "\/projects\/1-blog\/index.html",
-        "tag": " #things #web_things #blog",
+        "tag": " #blog #post",
         "id": "f5718cda6758e74ead9be6e9ab866403",
         "time": "id"
     },
     {
         "text": "projects  average number\n\nAfter entering the numbers, the result will be the average value",
         "url": "\/projects\/40-average-number\/index.html",
-        "tag": " #average_number #average #number",
+        "tag": " #average #number #tool #average_number #average #number",
         "id": "4d38326e843e238da4071fe403deed31",
         "time": "id"
     },
@@ -681,63 +681,63 @@ var sitemapJsonVar = [
     {
         "text": "mini projects  textarea\n\nFull page textarea.",
         "url": "\/mini-projects\/24-textarea\/index.html",
-        "tag": " #textarea_page",
+        "tag": " #textarea",
         "id": "3ec7fb9e9142afd1238ce7084dc3ec42",
         "time": "id"
     },
     {
         "text": "mini projects  snow\n\nSnow effect on the page using HTML, CSS and JavaScript.",
         "url": "\/mini-projects\/20-snow\/index.html",
-        "tag": " #css_snow_effect #javascript_snow_effect #snow_effect_for_website",
+        "tag": " #effect #css_snow_effect #javascript_snow_effect #snow_effect_for_website",
         "id": "b6855f83e99ff8192058eba75493b3e1",
         "time": "id"
     },
     {
         "text": "mini projects  round cpc\n\nCircles are placed on the page using HTML, CSS.",
         "url": "\/mini-projects\/19-round-cpc\/index.html",
-        "tag": " #css_circle #css_wallpaper",
+        "tag": " #css_circle #css #css_wallpaper",
         "id": "874fa6050cc3b843d7b8bdb03cac589d",
         "time": "id"
     },
     {
         "text": "mini projects  responsive web design\n\nExample of responsive content using CSS, where the size adapts depending on the screen size.",
         "url": "\/mini-projects\/2-responsive-web-design\/index.html",
-        "tag": " #css_responsive #css_mobile",
+        "tag": " #css_responsive #css_mobile #ui #ux",
         "id": "cbe9883b65784e9474123c14c35c37e8",
         "time": "id"
     },
     {
         "text": "mini projects  random button cpc\n\nRandom button, experiment, uses JavaScript and CSS.",
         "url": "\/mini-projects\/18-random-button-cpc\/index.html",
-        "tag": " #random_button #random_button_javascript #cpc",
+        "tag": " #random #button #random_button #random_button_javascript #cpc",
         "id": "95e615b1d9b262f3b0b8a887ffcddbab",
         "time": "id"
     },
     {
         "text": "mini projects  rain cpc\n\nRain effect and animation using CSS and JavaScript",
         "url": "\/mini-projects\/17-rain-cpc\/index.html",
-        "tag": " #css_rain #javascript_rain #cpc",
+        "tag": " #css_rain #rand #css #javascript_rain #cpc",
         "id": "5eac798899a81b2f744fc238885e0149",
         "time": "id"
     },
     {
         "text": "mini projects  not sleep pc\n\nA page to force the computer not to go into sleep mode, the page simply has a video that repeats itself endlessly.",
         "url": "\/mini-projects\/12-not-sleep-pc\/index.html",
-        "tag": " #not_sleeping_computer #prevent_sleep_computer #not_sleep_computer #prevent_hibernation",
+        "tag": " #not #sleep #pc #computer #not_sleeping_computer #prevent_sleep_computer #not_sleep_computer #prevent_hibernation",
         "id": "ab992838622f3674c98fdf1e43775748",
         "time": "id"
     },
     {
         "text": "mini projects  matrix\n\nAn attempt to recreate the matrix effect using CSS and JavaScript.",
         "url": "\/mini-projects\/11-matrix\/index.html",
-        "tag": " #matrix_effect",
+        "tag": " #matrix_effect #effect #matrix",
         "id": "ec2ccd85559e6edb2809a74759d206ed",
         "time": "id"
     },
     {
         "text": "mini projects  light and dark design cpc\n\nLight & dark design (Light & Dark #CPC)",
         "url": "\/mini-projects\/29-light-and-dark-design-cpc\/index.html",
-        "tag": " #cpc",
+        "tag": " #cpc #design #webdesign",
         "id": "bcb0d9cd1bc44d340590bcac87032c27",
         "time": "id"
     },
@@ -751,21 +751,21 @@ var sitemapJsonVar = [
     {
         "text": "mini projects  buttons\n\nTrying to create a list of buttons in different styles.",
         "url": "\/mini-projects\/30-buttons\/index.html",
-        "tag": " #button #buttons #button_list #buttons_list",
+        "tag": " #button #tool #collection #list #buttons #button_list #buttons_list #css #html",
         "id": "61be9667076c408c15b84d834f743d75",
         "time": "id"
     },
     {
         "text": "mini projects  button blur unblur\n\nButton: focus, defocus",
         "url": "\/mini-projects\/28-button-blur-unblur\/index.html",
-        "tag": " #button_focus",
+        "tag": " #button_focus #effect",
         "id": "f952742ef3bf1324a88120c6b003b2bb",
         "time": "id"
     },
     {
         "text": "mini projects  animation test\n\nCSS animation demonstration.",
         "url": "\/mini-projects\/6-animation-test\/index.html",
-        "tag": " #css_animation",
+        "tag": " #css_animation #animation #css",
         "id": "fc2bd86f385684b36c56dc4acd805e3a",
         "time": "id"
     },
@@ -793,7 +793,7 @@ var sitemapJsonVar = [
     {
         "text": "mini projects  about blank\n\nRedirect page to about:blank.",
         "url": "\/mini-projects\/1-about-blank\/index.html",
-        "tag": " #about_blank",
+        "tag": " #empty",
         "id": "e8c7b01c07727b7899484fbe11fe34fd",
         "time": "id"
     },

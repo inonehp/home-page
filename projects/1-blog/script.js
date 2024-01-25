@@ -1,4 +1,4 @@
-// v.2.6.9
+// v.2.6.11
 // inspired by X (Twitter), Fediverse
 // not for large data files 
 // This is a rewritten project from another language where I save web links. This is the JavaScript version and has everything but no option for saving or editing.
@@ -1095,7 +1095,8 @@ let size = '';
 
 tagList = '';
 
-
+tagList2 = tagList2.toLowerCase();
+conf["confSymbolForSplit"] = conf["confSymbolForSplit"].toLowerCase();
 
 tagList2 = tagList2.replaceAll(/(?:\r\n|\r|\n)/g, ' ');
 tagList2 = tagList2.replaceAll(/,/g, conf["confSymbolForSplit"]);
