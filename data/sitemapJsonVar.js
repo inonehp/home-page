@@ -14,9 +14,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "theme\n\nSettings and theme selection page: more than 50 color themes, automatic selection depending on the time of day + random selection.",
+        "text": "theme\n\nSettings and theme selection page.",
         "url": "\/theme.html",
-        "tag": " #website_theme #website_themes #website_color #website_colors #website_auto_theme #theme_setting #themes_setting #theme_setting_page",
+        "tag": " #website_theme #website_themes #website_color #website_colors #theme_setting #themes_setting #theme_setting_page",
         "id": "63482783355f58cf562f5fa1db998dc5",
         "time": "id"
     },
@@ -301,9 +301,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  weather\n\nA simple tiny card showing the current weather, the number of calls (views) to the widget is limited.",
+        "text": "projects  weather\n\nA simple tiny card showing the current weather.",
         "url": "\/projects\/37-weather\/index.html",
-        "tag": " #weather #carrent_weather #weather_online",
+        "tag": " #weather #carrent_weather",
         "id": "e39323f08cab051b171d30af7dffbfdb",
         "time": "id"
     },
@@ -350,9 +350,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  time stopwatch\n\nStop watch. Countdown from zero with the possibility of a pause, a weak sound signal when 1 hour and when it is half an hour.",
+        "text": "projects  time stopwatch\n\nStop watch. Countdown from zero.",
         "url": "\/projects\/30-time-stopwatch\/index.html",
-        "tag": " #stopwatch #countdown_seconds #timer #stopwatch_online #countdown_timer_online #timer_online",
+        "tag": " #stopwatch #countdown #timer",
         "id": "5522839bdc6a860f404f688165cea744",
         "time": "id"
     },
@@ -427,9 +427,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  quiz word\n\nQuiz with different topics.",
+        "text": "projects  quiz word\n\nQuiz word.",
         "url": "\/projects\/45-quiz-word\/index.html",
-        "tag": " #quiz",
+        "tag": " #quiz_word",
         "id": "f96d3af19a0f120bccb15672f9048cb7",
         "time": "id"
     },
@@ -483,9 +483,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  highlight word\n\nJavaScript function for  highlighting tag using JavaScript and same class names. If you hover over one element, the selection occurs in all similar others \u0443 \u044f\u043a\u0438\u0445 \u0442\u043e\u0439 \u0441\u0430\u043c\u0439 CSS class.",
+        "text": "projects  highlight word\n\nJavaScript function for highlighting tag by id.",
         "url": "\/projects\/15-highlight-word\/index.html",
-        "tag": " #javascript_function_highlighting #function_highlighting #multi_highlight",
+        "tag": " #function_highlighting #multi_highlight",
         "id": "c9559f8127ac4279fbc039fd1970b924",
         "time": "id"
     },
@@ -504,16 +504,16 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  game tic tac toe\n\nA classic game of tic-tac-toe, you play with a programmed artificial player (script) whose intelligence (predictions) are changed to make it sometimes wrong.",
+        "text": "projects  game tic tac toe\n\nGame of tic-tac-toe.",
         "url": "\/projects\/13-game-tic-tac-toe\/index.html",
-        "tag": " #tic-tac-toe #tic_tac_toe #tic-tac-toe_game #game_tic-tac-toe #tic_tac_toe #tic_tac_toe_html5 #tic_tac_toe_javascript #tic_tak_toe_online #html5_game #javascript_game #web_game #game_online",
+        "tag": " #tic-tac-toe #tic_tac_toe #html5_game #javascript_game #web_game #game_online",
         "id": "cdcb685d4a8c9e1565b230cf2015acd9",
         "time": "id"
     },
     {
-        "text": "projects  game snake\n\nThe classic snake game, you need to eat food and grow, if you hit yourself or the wall, you lose.",
+        "text": "projects  game snake\n\nSnake game, you need to eat food and grow.",
         "url": "\/projects\/12-game-snake\/index.html",
-        "tag": " #snake #snake_game #game_snake #snake_javascript #snake_online #snake_game_online #html5_game #javascript_game #web_game #game_online",
+        "tag": " #snake #snake_game #game_snake #html5_game #javascript_game #web_game #game_online",
         "id": "566840610c447c47e930d6fcb52701e6",
         "time": "id"
     },
@@ -532,7 +532,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  game dice\n\nThe game of dice. In this game, two dice are randomly rolled, one is labeled as you, the other as the computer, and whoever has the higher number wins.",
+        "text": "projects  game dice\n\nGame dice.",
         "url": "\/projects\/9-game-dice\/index.html",
         "tag": " #game_dice #dice_game #dice_game_project #game_dice_online #dice_online #html5_game #javascript_game #web_game #game_online",
         "id": "7c3c53dc00196f4c60e6107b06b1f3e2",
@@ -546,14 +546,14 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  dropdown menu\n\nDropdown Menu project uses JavaScript, adaptive CSS, columns appear after clicking, clicking works only on links, any other area where clicking closes the drop-down menu.",
+        "text": "projects  dropdown menu\n\nDropdown Menu project.",
         "url": "\/projects\/8-dropdown-menu\/index.html",
         "tag": " #dropdown_menu #dropdown_munu_javascript #menu #dropdown",
         "id": "d680bc1528d0e5f51433b170ccf3a684",
         "time": "id"
     },
     {
-        "text": "projects  drawing\n\nA simple web application for drawing lines with a choice of line color and the ability to save what is drawn.",
+        "text": "projects  drawing\n\nA simple web application for drawing.",
         "url": "\/projects\/7-drawing\/index.html",
         "tag": " #draw #drawing #html5_drawing #web_drawing_app #drawing_web_app",
         "id": "b571da936056b062bb254a428f5b9f40",
@@ -574,9 +574,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  color picker\n\nColor picker that uses hex colors and tag browser for color selection.",
+        "text": "projects  color picker\n\nColor picker.",
         "url": "\/projects\/4-color-picker\/index.html",
-        "tag": " #color_picer #html_color #select_color #color_selection",
+        "tag": " #color_picer #html_color #select_color #color",
         "id": "ce0e3cdcc03773a01bd35ec50970b3c7",
         "time": "id"
     },
@@ -637,7 +637,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "pages\n\nA list of some pages of the site in a menu view.",
+        "text": "pages\n\nA list of some pages of the site.",
         "url": "\/pages.html",
         "tag": " #list_of_pages #pages_list #pages #list",
         "id": "5c3fd2be90ee6c4e4d4595632b38790f",
@@ -791,13 +791,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "mini projects  color collection\n\nTitle with an arrow (clip path)",
-        "url": "\/mini-projects\/27-color-collection\/index.html",
-        "tag": " #color_collection #color #collection",
-        "id": "b5a80d5a35f16a4f86f9fced3057ca86",
-        "time": "id"
-    },
-    {
         "text": "mini projects  buttons\n\nTrying to create a list of buttons in different styles.",
         "url": "\/mini-projects\/30-buttons\/index.html",
         "tag": " #button #buttons #button_list #buttons_list",
@@ -809,13 +802,6 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/28-button-blur-unblur\/index.html",
         "tag": " #button_focus",
         "id": "f952742ef3bf1324a88120c6b003b2bb",
-        "time": "id"
-    },
-    {
-        "text": "mini projects  balloon\n\nDropping balls on the page using CSS and JavaScript.",
-        "url": "\/mini-projects\/7-balloon\/index.html",
-        "tag": " #dropping_balls #dropping_balls_page",
-        "id": "f2d94d52d56e5e23ed1755b8016cfdb2",
         "time": "id"
     },
     {
@@ -861,7 +847,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "main list\n\nList of the main pages of the site. Mostly what is basic and not in the projects.",
+        "text": "main list\n\nList of the main pages of the site.",
         "url": "\/main-list.html",
         "tag": " #main_menu #main_pages",
         "id": "733a76918eebc08eb9671ed9e7d6c74e",
@@ -926,7 +912,7 @@ var sitemapJsonVar = [
     {
         "text": "firefox extensions  firefox url redirect abc options\n\nempty description.",
         "url": "\/firefox-extensions\/6-firefox-url-redirect-abc\/options.html",
-        "tag": " #empty_keywords",
+        "tag": " #not_intended_for_viewing_on_the_site.",
         "id": "ac02df0099ae15bb8e29cb82195a243a",
         "time": "id"
     },
@@ -966,14 +952,14 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "data page\n\nThe data files used on the site for pages or projects are not intended for public access but may be useful to someone in their projects for a quick start.",
+        "text": "data page\n\nThe data files used on the site=.",
         "url": "\/data-page.html",
-        "tag": " #data #data_file #json #json_in_js_variable",
+        "tag": " #data #data_file",
         "id": "7a0ba4bf4d0f6324ea3585f7a30b4111",
         "time": "id"
     },
     {
-        "text": "data page\n\nOther files with data for use on the site or in the projects This data does not have a one data format and may have a different structure.",
+        "text": "data page\n\nOther files with data.",
         "url": "\/data2-page.html",
         "tag": " #data #data_file",
         "id": "ae646ac8339e6914411b1be2d6f30fee",
@@ -1141,10 +1127,24 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "archive mini projects  color collection\n\ncolor collection.",
+        "url": "\/archive\/mini-projects\/27-color-collection\/index.html",
+        "tag": " #color_collection #color #collection",
+        "id": "32f0d7463fcdee8c240d13c0b3bd3e39",
+        "time": "id"
+    },
+    {
         "text": "archive mini projects  blockquotes cpc\n\nFor CodePen #CPC. Experimental page with quote styling using CSS.",
         "url": "\/archive\/mini-projects\/8-blockquotes-cpc\/index.html",
         "tag": " #quote_styling_css #quote_styling #quote_styling_experiment #cpc",
         "id": "c8f4b456b19b2739088e72c55b0d7956",
+        "time": "id"
+    },
+    {
+        "text": "archive mini projects  balloon\n\nballoon.",
+        "url": "\/archive\/mini-projects\/7-balloon\/index.html",
+        "tag": " #dropping_balls #dropping_balls_page",
+        "id": "856e353d5e700010e6a24f18db414c79",
         "time": "id"
     },
     {
@@ -1169,9 +1169,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "ads\n\nList of advertising links on one page. They will be displayed on the site depending on the display and privacy settings.",
+        "text": "ads\n\nLinks and ads.",
         "url": "\/ads.html",
-        "tag": " #ad #ads #links #advertising #promotion #favorite_links #useful_links",
+        "tag": " #ad #ads #links",
         "id": "88ac0d7efcaec004a38b73ca1695bcee",
         "time": "id"
     },
@@ -1183,17 +1183,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "\n\nThe page that appears when something is not found.\nPage or file: moved, deleted ...",
-        "url": "\/404.html",
-        "tag": " #404 #not_found",
-        "id": "aa8eb2fe477b2d36ecc0f14d6422513f",
-        "time": "id"
-    },
-    {
         "text": "\n\nHome Page. Interests: web design, web development, and coding.",
         "url": "\/index.html",
         "tag": " #home_page #personal #website",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
+        "time": "id"
+    },
+    {
+        "text": "\n\n404 The page that appears when something is not found.\nPage or file: moved, deleted ...",
+        "url": "\/404.html",
+        "tag": " #404 #not_found",
+        "id": "aa8eb2fe477b2d36ecc0f14d6422513f",
         "time": "id"
     }
 ]
