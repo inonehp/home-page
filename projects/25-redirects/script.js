@@ -1,4 +1,4 @@
-// v.1.3.29
+// v.1.3.30
 
 //https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
 var meta = document.createElement('meta');
@@ -106,7 +106,7 @@ urlList = [
 'tec', 'sci', 'dev', 'n2',
 ];
 random = Math.floor(Math.random() * urlList.length);
-url = '?q='+urlList[random];
+url = '?q=' + urlList[random];
 }
 sRedirUrl = url;
 break;
@@ -342,7 +342,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.reddit.com/search/?q=" + q+"&type=link";
-if(q == ''){ url = "https://www.reddit.com/r/popular/"; }
+if(q == ''){ url = "https://www.reddit.com/"; }
 sRedirUrl = url;
 break;
 
@@ -352,7 +352,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "?q=www.reddit.com" + q+" www";
-if(q == ''){ url = "https://www.reddit.com/r/popular/"; }
+if(q == ''){ url = "https://www.reddit.com/"; }
 sRedirUrl = url;
 break;
 
@@ -361,7 +361,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.reddit.com/search/?q="+q+"&t=day&type=link&sort=hot";
-if(q == ''){ url = "https://www.reddit.com/r/popular/"; }
+if(q == ''){ url = "https://www.reddit.com/"; }
 sRedirUrl = url;
 break;
 
@@ -388,7 +388,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.tumblr.com/search/"+q;
-if(q == ''){ url = "https://www.tumblr.com/explore/"; }
+if(q == ''){ url = "https://www.tumblr.com/"; }
 sRedirUrl = url;
 break;
 
@@ -523,18 +523,9 @@ url = urlList[random];
 if(q == ''){
 urlList = [
 "https://news.google.com/",
-"https://www.yahoo.com/",
 "https://flipboard.com/topic/news",
 "https://www.bing.com/news/",
-//"https://x.com/i/topics/840159616101044224",
-"https://www.reddit.com/r/news/",
-"https://www.reddit.com/r/worldnews/",
-"https://www.tumblr.com/tagged/news?sort=top",
-"https://medium.com/tag/news",
 "https://news.yahoo.com/",
-//"https://m.fark.com/",
-//"https://www.smartnews.com/",
-//"https://www.newsbreak.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -756,7 +747,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.youtube.com/results?search_query=" + q;
-if(q == ''){ url = "https://www.youtube.com/feed/explore"; }
+if(q == ''){ url = "https://www.youtube.com/"; }
 sRedirUrl = url;
 break;
 
@@ -765,8 +756,8 @@ case '..#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://www.youtube.com/results?search_query="+q+"&sp=EgIIAg%253D%253D";
-if(q == ''){ url = "https://www.youtube.com/feed/explore"; }
+url = "https://www.youtube.com/results?search_query=" + q + "&sp=EgIIAg%253D%253D";
+if(q == ''){ url = "https://www.youtube.com/"; }
 sRedirUrl = url;
 break;
 
@@ -782,8 +773,8 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://www.youtube.com/feed/explore",
-"https://vimeo.com/watch",
+"https://www.youtube.com/",
+"https://vimeo.com/",
 "https://www.dailymotion.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -806,8 +797,8 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://www.youtube.com/feed/explore",
-"https://vimeo.com/watch",
+"https://www.youtube.com/",
+"https://vimeo.com/",
 "https://www.dailymotion.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -868,38 +859,20 @@ case 'tv#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-sRedirUrl = "/projects/36-tv/";
+sRedirUrl = "https://www.twitch.tv/directory/all/tags/" + q;
 if(q != ''){
-sRedirUrl = "/?q="+q+' v';
+sRedirUrl = "https://www.twitch.tv/";
 }
 break;
 
 case 'ra#':
 case 'rad#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://tunein.com/search/?query="+q,
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-"/projects/22-radio/",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
-
 case 'tun#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://tunein.com/search/?query="+q,
+"https://tunein.com/search/?query=" + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -913,40 +886,8 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
-case 'si#':
-case 'ww#':
-case 'www#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "/?q=site:" + q;
-sRedirUrl = url;
-break;
-
 case 'mm#':
 sRedirUrl = "/projects/20-music/";
-break;
-
-case 'bb#':
-case 'b#':
-case 'k#':
-case 'kk#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-`/blog.html?q=` + q,
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-`/blog.html`,
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
 break;
 
 case 'nn#':
@@ -1003,7 +944,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.google.com/search?q=" + q;
-if(q == ''){ url = "https://newsstand.google.com/?nsro=true&hl=en"; }
+if(q == ''){ url = "https://www.google.com/"; }
 sRedirUrl = url;
 break;
 
@@ -1022,7 +963,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.bing.com/search?q=" + q;
-if(q == ''){ url = "https://www.msn.com/"; }
+if(q == ''){ url = "https://www.bing.com/"; }
 sRedirUrl = url;
 break;
 
@@ -1033,17 +974,19 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.qwant.com/?q=" + q;
+if(q == ''){ url = "https://www.qwant.com/"; }
 sRedirUrl = url;
 break;
 
-/*case 'you#':
+case 'you#':
 case 'yo#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://you.com/search?q="+q;
+url = "https://you.com/search?q=" + q;
+if(q == ''){ url = "https://you.com/"; }
 sRedirUrl = url;
-break;*/
+break;
 
 case 'qq#':
 case 'ss#':
@@ -1052,9 +995,28 @@ q = q.trim();
 q = encodeURIComponent(q);
 url = "/search.html?q=" + q;
 if(q == ''){
-url = [
-"/sitemap.html?q=l",
+urlList = [
+"/search.html",
 ];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
+
+case 'b#':
+case 'bb#':
+case 'bm#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+url = "/bookmarks-page.html?q=" + q;
+if(q == ''){
+urlList = [
+"/bookmarks-page.html",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
 }
 sRedirUrl = url;
 break;
@@ -1119,7 +1081,8 @@ urlList = [
 ];
 if(q == ''){
 urlList = [
-"/sitemap.html?q=l",
+"https://www.google.com/",
+"https://www.bing.com/",
 ];
 }
 random = Math.floor(Math.random() * urlList.length);
@@ -1135,6 +1098,12 @@ urlList = [
 "https://www.bing.com/search?q="+ q,
 //"?q=" + q + " o",
 ];
+if(q == ''){
+urlList = [
+"https://www.google.com/",
+"https://www.bing.com/",
+];
+}
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
 sRedirUrl = random;
@@ -1185,7 +1154,7 @@ if(rUrlGet[0] == "."){ rUrlGet = (rUrlGet).slice(1); }
 
 
 var sTimeRedirStatus = `<span class="small">redirection:</span> `+ sTimeRedir / 1000 + ` sec.`;
-if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
+if((''+window.location+'').search("#stopRedir") == -1){
 setTimeout(function(){
 window.location.href = rUrlGet;
 }, sTimeRedir); 
