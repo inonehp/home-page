@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "71",
+        "text": "Aida Oliva Studio | Web Designer, Visual Marketer & Webflow Developer",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.aidaoliva.studio\/",
+        "tag": "#HomePage #personal #nice",
+        "time": 1706139004
+    },
+    {
         "id": "70",
         "text": "Eddy Vinck's Developer Blog",
         "text2": "",

@@ -280,6 +280,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "projects google search\n\nGoogle Programmable Serch.",
+        "url": "\/projects\/google-search\/index.html",
+        "tag": " #search",
+        "id": "650b320a0e8b4e920e3b77e61081b118",
+        "time": "id"
+    },
+    {
         "text": "projects a tpl project mini\n\nThis is the tpl for create projects.",
         "url": "\/projects\/a2-tpl-project-mini\/index.html",
         "tag": " #empty",

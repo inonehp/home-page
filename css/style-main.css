@@ -1,4 +1,4 @@
-/* v.12.9.0 */
+/* v.12.10.0 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -355,8 +355,6 @@ input[type="number"]{ padding: 5px; }
 
 ::placeholder, input::-webkit-input-placeholder, .placeholder { font-size: small; color: var(--c); }
 input, progress, select { accent-color: var(--d4);  }
-table, tr, td { border: 1px solid var(--d); }
-
 
 .shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 
