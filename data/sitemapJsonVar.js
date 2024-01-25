@@ -686,13 +686,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "mini projects  sun and moon\n\nSun and moon",
-        "url": "\/mini-projects\/31-sun-and-moon\/index.html",
-        "tag": " #sun #moon",
-        "id": "58018841327c5ca1c052f18b34e98cbe",
-        "time": "id"
-    },
-    {
         "text": "mini projects  snow\n\nSnow effect on the page using HTML, CSS and JavaScript.",
         "url": "\/mini-projects\/20-snow\/index.html",
         "tag": " #css_snow_effect #javascript_snow_effect #snow_effect_for_website",
@@ -728,13 +721,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "mini projects  pumpkin\n\nCSS drawing of a pumpkin for Halloween. Drawing using only HTML and CSS.",
-        "url": "\/mini-projects\/15-pumpkin\/index.html",
-        "tag": " #css_drawing_pumpkin #css_art_pumpkin",
-        "id": "376ea8cd922b065ec1fbafa3fec77243",
-        "time": "id"
-    },
-    {
         "text": "mini projects  not sleep pc\n\nA page to force the computer not to go into sleep mode, the page simply has a video that repeats itself endlessly.",
         "url": "\/mini-projects\/12-not-sleep-pc\/index.html",
         "tag": " #not_sleeping_computer #prevent_sleep_computer #not_sleep_computer #prevent_hibernation",
@@ -760,34 +746,6 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/25-halloween-decoration\/index.html",
         "tag": " #css #event #emoji #helloween",
         "id": "67d18198d5d261b2811843114d53a48e",
-        "time": "id"
-    },
-    {
-        "text": "mini projects  earth textures cpc\n\nAn orange is drawn on the page using CSS.",
-        "url": "\/mini-projects\/10-earth-textures-cpc\/index.html",
-        "tag": " #css_orange #css_art #css_drawing_orange #cpc",
-        "id": "ba4f128c83d4b4349d3dfcc1b06c4bf3",
-        "time": "id"
-    },
-    {
-        "text": "mini projects  css pc\n\nCSS drawing of a computer. Drawing using only HTML and CSS.",
-        "url": "\/mini-projects\/9-css-pc\/index.html",
-        "tag": " #css_drawing_pc #css_art_computer #css_drawing_computer",
-        "id": "3f9e44f452d9470a97964afd3acaae39",
-        "time": "id"
-    },
-    {
-        "text": "mini projects  css image realistic old windows os popup\n\nCSS realistic drawing of the popup window of the old Windows operating system.",
-        "url": "\/mini-projects\/13-css-image-realistic-old-windows-os-popup\/index.html",
-        "tag": " #css_art #css_realistic_art #ralistic_css_art #css_art_popup #css_art_window_popup",
-        "id": "d55233cd6681a71e603685f34edf0d74",
-        "time": "id"
-    },
-    {
-        "text": "mini projects  css drawing women illustration cpc\n\nCSS drawing woman.",
-        "url": "\/mini-projects\/32-css-drawing-women-illustration-cpc\/index.html",
-        "tag": " #css_image #css_drawing #css_art",
-        "id": "cb2494c1983c111a602d5b7021e50ddc",
         "time": "id"
     },
     {
@@ -970,6 +928,69 @@ var sitemapJsonVar = [
         "url": "\/data-other-page.html",
         "tag": " #other_data #other_files",
         "id": "7b485509806f796d853df7b9b7941375",
+        "time": "id"
+    },
+    {
+        "text": "css art data a none\n\nnone",
+        "url": "\/css-art-data\/a0-none\/index.html",
+        "tag": " #none",
+        "id": "8c5f563accc7dd1304a615fcf6ceb2e2",
+        "time": "id"
+    },
+    {
+        "text": "css art data  women illustration cpc css\n\nCSS drawing woman.",
+        "url": "\/css-art-data\/32-women-illustration-cpc-css\/index.html",
+        "tag": " #css_image #css_drawing #css_art",
+        "id": "8c52dcc80a46dc89cfbd036fc6f869db",
+        "time": "id"
+    },
+    {
+        "text": "css art data  sun and moon css\n\nSun and moon",
+        "url": "\/css-art-data\/31-sun-and-moon-css\/index.html",
+        "tag": " #sun #moon",
+        "id": "3c2815f59648bd7ab004c2c85649120c",
+        "time": "id"
+    },
+    {
+        "text": "css art data  realistic old windows os popup window css\n\nCSS realistic drawing of the popup window of the old Windows operating system.",
+        "url": "\/css-art-data\/12-realistic-old-windows-os-popup-window-css\/index.html",
+        "tag": " #css_art #css_realistic_art #ralistic_css_art #css_art_popup #css_art_window_popup",
+        "id": "0130a0afad3fe2dd2b9c6a6c5a574fed",
+        "time": "id"
+    },
+    {
+        "text": "css art data  pumpkin css\n\nCSS drawing of a pumpkin for Halloween. Drawing using only HTML and CSS.",
+        "url": "\/css-art-data\/15-pumpkin-css\/index.html",
+        "tag": " #css_drawing_pumpkin #css_art_pumpkin",
+        "id": "c82bc94acec4935d78532c5a9e1fbfe0",
+        "time": "id"
+    },
+    {
+        "text": "css art data  earth textures cpc css\n\nAn orange is drawn on the page using CSS.",
+        "url": "\/css-art-data\/10-earth-textures-cpc-css\/index.html",
+        "tag": " #css_orange #css_art #css_drawing_orange #cpc",
+        "id": "903dd64762f6ec4b4dc87ba8f33a617a",
+        "time": "id"
+    },
+    {
+        "text": "css art data  computer css\n\nCSS computer.",
+        "url": "\/css-art-data\/9-computer-css\/index.html",
+        "tag": " #computer_css #css_art",
+        "id": "55f19214c782c4d310565bc2ef52d015",
+        "time": "id"
+    },
+    {
+        "text": "css art data\n\nRedirect page, not intended for viewing.",
+        "url": "\/css-art-data\/index.html",
+        "tag": " #redirect_to_list",
+        "id": "19005a28c1dede0ec66c48d302cc4f45",
+        "time": "id"
+    },
+    {
+        "text": "css art\n\nCSS Art - a fun way to practice CSS.",
+        "url": "\/css-art.html",
+        "tag": " #css_art #css",
+        "id": "49b8920fccfc5344479aaaf9aac3f3df",
         "time": "id"
     },
     {

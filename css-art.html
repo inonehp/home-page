@@ -3,14 +3,12 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Mini projects list</title>
+<title>Experimental Website Templates</title>
 <!--<meta name="title" content="">-->
 <!--<meta name="author" content="">-->
 
-<meta name="description" content="Mini projects mainly using HTML, and CSS.">
-<meta name="keywords" content="mini projects, mini project,
-CSS project,
-HTML project,">
+<meta name="description" content="CSS Art - a fun way to practice CSS.">
+<meta name="keywords" content="CSS art, CSS,">
 
 <link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
 
@@ -52,6 +50,8 @@ HTML project,">
 <noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
 <!-- and main css -->
 
+
+<link rel="preload" href="/projects/1-blog/script.js" as="script"> 
 
 <!-- for icons -->
 <!--
@@ -161,44 +161,64 @@ display: block;
 <div class="content">
 
 
-<div class="block padding2 margin2"></div>
-<h1 class="tCenter op padding2List">Mini projects list</h1>
-
-
-<div class="wrapper">
-
-<!-- start menu -->
-
- 
-
-<div class="menu">
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/1-about-blank/"> about blank</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/3-angled/"> angled</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/4-angled-light-walpaper/"> angled light walpaper</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/5-animation-border-button/"> animation border button</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/6-animation-test/"> animation test</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/28-button-blur-unblur/"> button blur unblur</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/30-buttons/"> buttons</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/25-halloween-decoration/"> halloween decoration</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/29-light-and-dark-design-cpc/"> light and dark design cpc</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/11-matrix/"> matrix</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/12-not-sleep-pc/"> not sleep pc</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/17-rain-cpc/"> rain cpc</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/18-random-button-cpc/"> random button cpc</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/2-responsive-web-design/"> responsive web design</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/19-round-cpc/"> round cpc</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/20-snow/"> snow</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/24-textarea/"> textarea</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/26-title-with-arrow/"> title with arrow</a>
-<a class="insertIcon button light3 border borderRadius2" tabindex="0" href="/mini-projects/a-tpl-project-mini/">A tpl project mini</a>
-</div><!-- end menu -->
-
-</div>
-
-<div class="padding2 margin2"></div>
+<h1 class="tCenter op">Experimental Website Templates</h1>
 
 
 
+<script>
+var blogJsonVar = [
+    {
+        "id": "32",
+        "text": "Women illustration cpc css  ",
+        "url": ".\/css-art-data\/32-women-illustration-cpc-css\/index.html",
+        "tag": " #women #illustration #cpc #css",
+        "time": "id"
+    },
+    {
+        "id": "31",
+        "text": "Sun and moon css  ",
+        "url": ".\/css-art-data\/31-sun-and-moon-css\/index.html",
+        "tag": " #sun #and #moon #css",
+        "time": "id"
+    },
+    {
+        "id": "15",
+        "text": "Pumpkin css  ",
+        "url": ".\/css-art-data\/15-pumpkin-css\/index.html",
+        "tag": " #pumpkin #css",
+        "time": "id"
+    },
+    {
+        "id": "12",
+        "text": "Realistic old windows os popup window css  ",
+        "url": ".\/css-art-data\/12-realistic-old-windows-os-popup-window-css\/index.html",
+        "tag": " #realistic #old #windows #os #popup #window #css",
+        "time": "id"
+    },
+    {
+        "id": "10",
+        "text": "Earth textures cpc css  ",
+        "url": ".\/css-art-data\/10-earth-textures-cpc-css\/index.html",
+        "tag": " #earth #textures #cpc #css",
+        "time": "id"
+    },
+    {
+        "id": "9",
+        "text": "Computer css  ",
+        "url": ".\/css-art-data\/9-computer-css\/index.html",
+        "tag": " #computer #css",
+        "time": "id"
+    },
+    {
+        "id": "0",
+        "text": "A none  ",
+        "url": ".\/css-art-data\/a0-none\/index.html",
+        "tag": " #a #none",
+        "time": "id"
+    }
+];
+</script><div id="echoBlog"></div>
+<div class="op block xSmall padding margin tCenter"></div>
 
 
 <!-- //content -->
@@ -221,6 +241,61 @@ display: block;
 <script>
 fuAds('', 'ads2', '');
 </script>
+
+
+<script src="/projects/1-blog/script.js"></script>
+
+
+<script>
+if(blogJsonVar == undefined||blogJsonVar == ''){
+var blogJsonVar = 
+
+
+[
+    {
+        "id": 251,
+        "text": "test2 text2",
+        "url": "https:\/\/test2.com",
+        "tag": "#test2 #tag",
+        "time": 1671480576
+    },
+    {
+        "id": 250,
+        "text": "test text",
+        "url": "https:\/\/test.com",
+        "tag": "#test #tag",
+        "time": 1668444918
+    }
+]
+
+
+
+}
+</script>
+
+<style>
+.blogContent .pre { font-size: 1em; text-transform: capitalize; }
+.blogContent .pre a { text-transform: none; }
+</style>
+
+<script>
+let blogConfig = {
+"postLimit":"", //
+"embedStatus":"", // off
+"multiEmbedStatus":"", // on
+"tagListStatus":"", // off
+"tagListLimit":"",
+"targetOption":"", // blank
+"bottomMsg":`<div class="pre xSmall tCenter op">* i, abc - something from main website</div>`,
+"display":"", // grid
+"timeStatus":"", // off
+};
+</script>
+<script>
+blog("echoBlog", blogJsonVar, 'post2', '/css-art.html', blogConfig);
+</script>
+
+
 
 <script src="/projects/17-insert-icon/script.js"></script>
 <script>
