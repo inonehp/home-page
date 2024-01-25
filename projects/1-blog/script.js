@@ -1,7 +1,7 @@
 // v.2.6.8
 // inspired by X (Twitter), Fediverse
 // not for large data files 
-
+// This is a rewritten project from another language where I save web things. This is the JavaScript version and has everything but no option for saving or editing.
 
 
 

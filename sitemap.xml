@@ -117,21 +117,6 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/articles-page.html</loc>
-
-</url>
-
-<url>
-<loc>https://inonehp.pages.dev/blog.html</loc>
-
-</url>
-
-<url>
-<loc>https://inonehp.pages.dev/bookmarks-page.html</loc>
-
-</url>
-
-<url>
 <loc>https://inonehp.pages.dev/chrome-extensions/3-chrome-new-tab-redirect-abc/new-tab-redirect.html</loc>
 
 </url>
@@ -238,6 +223,11 @@
 
 <url>
 <loc>https://inonehp.pages.dev/install.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/links.html</loc>
 
 </url>
 
@@ -842,7 +832,17 @@
 </url>
 
 <url>
+<loc>https://inonehp.pages.dev/text.html</loc>
+
+</url>
+
+<url>
 <loc>https://inonehp.pages.dev/theme.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/things.html</loc>
 
 </url>
 

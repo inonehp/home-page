@@ -1,14 +1,17 @@
-// v.1.3.30
+// v.1.3.32
 
+/*
 //https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
 var meta = document.createElement('meta');
 meta.name = "referrer";
 meta.content = "no-referrer";
-document.getElementsByTagName('head')[0].appendChild(meta);
+document.getElementsByTagName('head')[0].appendChild(meta);*/
 
 // conf
 var sTimeRedir = 550;
 // end conf
+
+
 
 var geturl = window.location;
 var url = new URL(geturl);
@@ -332,7 +335,7 @@ case 'twii#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://x.com/search?q="+q+"&f=live";
+url = "https://x.com/search?q=" + q + "&f=live";
 if(q == ''){ url = "https://x.com/explore"; }
 sRedirUrl = url;
 break;
@@ -341,7 +344,8 @@ case 'red#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://www.reddit.com/search/?q=" + q+"&type=link";
+//url = "https://www.reddit.com/search/?q=" + q + "&type=link";
+url = "?q=" + q + " site:https://www.reddit.com/";
 if(q == ''){ url = "https://www.reddit.com/"; }
 sRedirUrl = url;
 break;
@@ -351,7 +355,7 @@ case 'redd#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "?q=www.reddit.com" + q+" www";
+url = "?q=www.reddit.com" + q +" www";
 if(q == ''){ url = "https://www.reddit.com/"; }
 sRedirUrl = url;
 break;
@@ -807,6 +811,26 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
+case 'liv#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.youtube.com/results?search_query=" + q + "&sp=EgJAAQ%253D%253D",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+if(q == ''){
+urlList = [
+"https://www.twitch.tv/",
+"https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig",
+"https://www.pinterest.com/tv/",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
 
 case 'm#':
 q = q3.replace(q2, '');
@@ -891,16 +915,12 @@ sRedirUrl = "/projects/20-music/";
 break;
 
 case 'nn#':
-case 'hin#':
-case 'hi#':
-case 'he#':
-case 'ch#':
-case 'cha#':
+case 'nnw#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.bing.com/search?q="+q+"&showconv=1&sendquery=1",
+"https://www.bing.com/search?q=" + q,
 //"https://you.com/search?q="+q+"&tbm=youchat",
 //"https://www.perplexity.ai/?q="+q,
 ];
@@ -908,10 +928,11 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx",
-"https://bard.google.com/chat",
-//"https://you.com/",
-//"https://www.perplexity.ai/",
+"https://copilot.microsoft.com/",
+"https://www.bing.com/chat",
+"https://www.perplexity.ai/",
+"https://you.com/",
+"https://beta.character.ai/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -978,7 +999,7 @@ if(q == ''){ url = "https://www.qwant.com/"; }
 sRedirUrl = url;
 break;
 
-case 'you#':
+/*case 'you#':
 case 'yo#':
 q = q3.replace(q2, '');
 q = q.trim();
@@ -987,6 +1008,7 @@ url = "https://you.com/search?q=" + q;
 if(q == ''){ url = "https://you.com/"; }
 sRedirUrl = url;
 break;
+*/
 
 case 'qq#':
 case 'ss#':
@@ -1007,13 +1029,14 @@ break;
 case 'b#':
 case 'bb#':
 case 'bm#':
+case 'lin#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "/bookmarks-page.html?q=" + q;
+url = "/links.html?q=" + q;
 if(q == ''){
 urlList = [
-"/bookmarks-page.html",
+"/links.html",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

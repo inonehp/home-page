@@ -14,10 +14,24 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "things\n\nReposts, likes and web things.",
+        "url": "\/things.html",
+        "tag": " #reposts #likes #web_things",
+        "id": "8fe5bb3e6c42127965643c72e3f37940",
+        "time": "id"
+    },
+    {
         "text": "theme\n\nSettings and theme selection page: more than 50 color themes, automatic selection depending on the time of day + random selection.",
         "url": "\/theme.html",
         "tag": " #website_theme #website_themes #website_color #website_colors #website_auto_theme #theme_setting #themes_setting #theme_setting_page",
         "id": "63482783355f58cf562f5fa1db998dc5",
+        "time": "id"
+    },
+    {
+        "text": "text\n\nText",
+        "url": "\/text.html",
+        "tag": " #i'm_attempting_to_write_something.",
+        "id": "63caf82fca46caa38ca0328bab57c966",
         "time": "id"
     },
     {
@@ -252,9 +266,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "templates\n\nReady site templates using HTML, CSS and JavaScript. (This is for practice to improve web design skills, experimental).",
+        "text": "templates\n\nI create pages for practice.",
         "url": "\/templates.html",
-        "tag": " #web_design #template #site_templates #website_templates #experimental #experimental_templates #experimental_website_templates #landing_page #landing_page_template #html_template #css_template #html_css_template",
+        "tag": " #template #site_templates #website_templates",
         "id": "8293cee293d869063587a57f991071fa",
         "time": "id"
     },
@@ -588,9 +602,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  blog\n\nA static blog that uses data from the JavaScript variable.",
+        "text": "projects  blog\n\nThis is a rewritten project from another language where I save web things. This is the JavaScript version and has everything but no option for saving or editing.",
         "url": "\/projects\/1-blog\/index.html",
-        "tag": " #blog #micro_blog",
+        "tag": " #things #web_things #blog",
         "id": "f5718cda6758e74ead9be6e9ab866403",
         "time": "id"
     },
@@ -623,9 +637,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "photos\n\nA small gallery of photos: flowers, landscape, etc.",
+        "text": "photos\n\nSometimes I take photos",
         "url": "\/photos.html",
-        "tag": " #gallery #photo",
+        "tag": " #photo",
         "id": "d6f0e61c0d0c8b21a1105e4844f0c9fe",
         "time": "id"
     },
@@ -861,6 +875,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "links\n\nThe collection of links. P.S.: Google has a larger collection of websites.",
+        "url": "\/links.html",
+        "tag": " #links",
+        "id": "89c3ca4c0d51a9790717206e38a14c50",
+        "time": "id"
+    },
+    {
         "text": "install\n\n\u00b7 Install website as app (PWA).",
         "url": "\/install.html",
         "tag": " #install #install_website #pwa #webapp",
@@ -875,9 +896,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "images\n\nWallpapers, drawings, logos, icons, tests and experiments.\nGraphics are made in various graphic editors with different file formats.",
+        "text": "images\n\nPoorly drawn or made pictures, maybe rarely something turns out well.",
         "url": "\/images.html",
-        "tag": " #wallpaper #wallpapers #drawing #art #logo #logos #design #graphic_design #icon #icons",
+        "tag": " #img",
         "id": "c736f7bcbfda9e0e6cb5c1cbf991c447",
         "time": "id"
     },
@@ -1005,27 +1026,6 @@ var sitemapJsonVar = [
         "url": "\/chrome-extensions\/4-chrome-badge-count-up-timer-abc\/popup.html",
         "tag": " #empty_keywords",
         "id": "9a13b663262041765b8b86f1fa491a31",
-        "time": "id"
-    },
-    {
-        "text": "bookmarks page\n\nCollection of sites and bookmarks",
-        "url": "\/bookmarks-page.html",
-        "tag": " #website #websites #bookmark #bookmarks #random_site",
-        "id": "dee854af77e7495b5e70db0b308b4b96",
-        "time": "id"
-    },
-    {
-        "text": "blog\n\nA micro-blog with site news, interesting links, photos from social networks, and much more.",
-        "url": "\/blog.html",
-        "tag": " #website_update #micro_blog #blog #photo #bookmark #space #html #javascript #css",
-        "id": "7d022dd158b090bf0d55b0cef3d14865",
-        "time": "id"
-    },
-    {
-        "text": "articles page\n\nArticles",
-        "url": "\/articles-page.html",
-        "tag": " #article #articles",
-        "id": "3f02dcda1ee105ec2bfdc20f8961d039",
         "time": "id"
     },
     {
@@ -1190,9 +1190,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "\n\nHome Page, Projects, and Portfolio.  \nI am trying to create a website template.\nInterests: web design, web development, coding",
+        "text": "\n\nHome Page. I am trying to create a website template for practice.\nInterests: web design, web development, and coding.",
         "url": "\/index.html",
-        "tag": " #home_page #personal #website #web_design #web_development",
+        "tag": " #home_page #personal #website",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
         "time": "id"
     }
