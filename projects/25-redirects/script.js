@@ -1,4 +1,4 @@
-// v.1.3.28
+// v.1.3.29
 
 //https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
 var meta = document.createElement('meta');
@@ -728,8 +728,7 @@ urlList = [
 'https://www.w3schools.com/',
 'https://developer.mozilla.org/docs/',
 'https://web.dev/',
-'https://www.php.net/manual/en/',
-'https://docs.python.org/',
+'https://stackoverflow.com/',
 
 /*
 'https://www.w3.org/',
