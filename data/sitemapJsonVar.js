@@ -497,9 +497,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  google search\n\nGoogle Programmable Serch, search engine for developers.",
+        "text": "projects  google search\n\nGoogle Programmable Serch,",
         "url": "\/projects\/49-google-search\/index.html",
-        "tag": " #search #search_engine_for_developers",
+        "tag": " #search #search_engine",
         "id": "701f37baca710f086df13f70fe752a67",
         "time": "id"
     },

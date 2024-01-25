@@ -69,7 +69,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.eddyvinck.com\/",
-        "tag": "#HomePage #personal #nice",
+        "tag": "#HomePage #personal",
         "time": 1706129998
     },
     {
