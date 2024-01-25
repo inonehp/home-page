@@ -14,13 +14,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "things\n\nReposts, likes and web things.",
-        "url": "\/things.html",
-        "tag": " #reposts #likes #web_things",
-        "id": "8fe5bb3e6c42127965643c72e3f37940",
-        "time": "id"
-    },
-    {
         "text": "theme\n\nSettings and theme selection page: more than 50 color themes, automatic selection depending on the time of day + random selection.",
         "url": "\/theme.html",
         "tag": " #website_theme #website_themes #website_color #website_colors #website_auto_theme #theme_setting #themes_setting #theme_setting_page",
@@ -1026,6 +1019,13 @@ var sitemapJsonVar = [
         "url": "\/chrome-extensions\/4-chrome-badge-count-up-timer-abc\/popup.html",
         "tag": " #empty_keywords",
         "id": "9a13b663262041765b8b86f1fa491a31",
+        "time": "id"
+    },
+    {
+        "text": "blog\n\nBlog: reposts, likes and other.",
+        "url": "\/blog.html",
+        "tag": " #reposts #likes #post #blog",
+        "id": "7d022dd158b090bf0d55b0cef3d14865",
         "time": "id"
     },
     {
