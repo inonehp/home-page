@@ -6,7 +6,7 @@
 <title>Micro Blog Engine</title>
 
 <meta name="description" content="
-This is a rewritten project from another language where I save web things. This is the JavaScript version and has everything but no option for saving or editing.
+This is a rewritten project from another language where I save web links. This is the JavaScript version and has everything but no option for saving or editing.
 ">
 <meta name="keywords" content="
 things, web things, blog,
@@ -105,15 +105,15 @@ var blogJsonVar =
 
 <script>
 let blogConfig = {
-"postLimit":"", //
+"postLimit":"", // number
 "embedStatus":"", // off
 "multiEmbedStatus":"", // on
 "tagListStatus":"", // off
 "tagListLimit":"", // number
 "targetOption":"", // blank
 "bottomMsg":"", // text
-"display":"", // grid
-"timeStatus":"", // off
+"display":"", // grid (for img link), article (text - title, text2 - text)
+"timeStatus":"", // off, disable post time (post id)
 };
 </script>
 <script async src="script.js" onload="blog('echoBlog', blogJsonVar, 'post', '/projects/1-blog/', blogConfig)"></script>

@@ -1,7 +1,7 @@
-// v.2.6.8
+// v.2.6.9
 // inspired by X (Twitter), Fediverse
 // not for large data files 
-// This is a rewritten project from another language where I save web things. This is the JavaScript version and has everything but no option for saving or editing.
+// This is a rewritten project from another language where I save web links. This is the JavaScript version and has everything but no option for saving or editing.
 
 
 
@@ -19,8 +19,8 @@ let blogConfig = {
 "tagListLimit":"", // number
 "targetOption":"", // blank
 "bottomMsg":"", // text
-"display":"", // grid, article (text - title, text2 - text)
-"timeStatus":"", // off, disable post time
+"display":"", // grid (for img link), article (text - title, text2 - text)
+"timeStatus":"", // off, disable post time (post id)
 };
 </script>*/
 
@@ -2665,7 +2665,7 @@ document.getElementsByTagName('head')[0].appendChild(script2);
 
 
 
-// run without loop Json
+// below without loop array (probably)
 
 
 // timer redirect
@@ -2684,7 +2684,7 @@ document.getElementById("timerRedir").innerHTML = sTimeRedir[0] / 1000;
 
 
 
-// start random q url
+// start random url from search
 let lFoundQUrlRandom = lFoundQUrlList[Math.floor(Math.random() * lFoundQUrlList.length)];
 //console.log(lFoundQUrlRandom);
 
@@ -2701,7 +2701,7 @@ window.location.href = window.location.href+'#stopRedir';
 }
 //console.log(postUrl);
 }
-// end random q url
+// end random url from search
 }
 
 

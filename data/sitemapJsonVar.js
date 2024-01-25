@@ -595,7 +595,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  blog\n\nThis is a rewritten project from another language where I save web things. This is the JavaScript version and has everything but no option for saving or editing.",
+        "text": "projects  blog\n\nThis is a rewritten project from another language where I save web links. This is the JavaScript version and has everything but no option for saving or editing.",
         "url": "\/projects\/1-blog\/index.html",
         "tag": " #things #web_things #blog",
         "id": "f5718cda6758e74ead9be6e9ab866403",
