@@ -175,14 +175,14 @@ fuMPrintText('footer', `
 <div id="cookiePopup"></div>
 <div id="ads2"></div>
 
-<div class="wrapper4">
+<div class="wrapper4 balance small">
 
 <nav>
 
 <div class="block tRight small padding2List">
 <details class="inlineBlock">
-<summary class="op pointer" onclick="fuMScrollTo('fScrollToBottom')">${fDescTitle}</summary>
-<div id="fDesc" class="block pre tLeft wrapperL padding2 op bg small shadow light borderRadius2 margin2List" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
+<summary class="pointer" onclick="fuMScrollTo('fScrollToBottom')">${fDescTitle}</summary>
+<div id="fDesc" class="block pre tLeft wrapperL padding2 bg small shadow light borderRadius2 margin2List" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
 </details>
 </div>
 

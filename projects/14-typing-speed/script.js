@@ -63,11 +63,11 @@ var skip = '';
 if(location.hostname != 'localhost'&&item == 'none'||location.hostname != 'localhost'&&item == 'b2'||location.hostname != 'localhost'&&item == 'f2'){ skip = 'yes'; }
 if(mode == item && skip != 'yes'){
 modeListPrint += `
-<a class="tag light4 border2" style="color: var(--c3);" href="?">`+item+`</a>
+<a class="tag light4 border2 borderRadius2" style="color: var(--c3);" href="?">`+item+`</a>
 `;
 }else if(skip != 'yes'){
 modeListPrint += `
-<a class="tag op light3 border2" onclick="localRefresh('`+item+`');" href="?">`+item+`</a>
+<a class="tag op light3 border2 borderRadius2" onclick="localRefresh('`+item+`');" href="?">`+item+`</a>
 `;
 }
 }
@@ -75,14 +75,14 @@ document.getElementById("mode").innerHTML = `
 
 <!-- mode -->
 
-<!--<a class="tag op light border2" href="?"">main</a>-->
-<a class="tag op light3 border2" href="./?" onclick="reload();">reload</a>
-<!--<span id="refresh" class="tag op light border2"><a href="#" onclick="mainAll('');">refresh</a></span>-->
+<!--<a class="tag op light border2 borderRadius2" href="?"">main</a>-->
+<a class="tag op light3 border2 borderRadius2" href="./?" onclick="reload();">reload</a>
+<!--<span id="refresh" class="tag op light border2 borderRadius2"><a href="#" onclick="mainAll('');">refresh</a></span>-->
 
 ${modeListPrint}
 
 <!-- https://developer.mozilla.org/docs/Web/API/Document/getSelection -->
-<a class="op xSmall tag border2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://localhost/projects/14-typing-speed/?mode=input&q='+encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
+<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://localhost/projects/14-typing-speed/?mode=input&q='+encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
 
 `;
 
@@ -345,8 +345,8 @@ function main(task){
 
 if(mode != 'abc'&&mode != 'free'&&mode != 'f2'){
 
-document.getElementById("mode2").innerHTML = ' <a class="tag border4 op" href="/projects/25-redirects/?q='+encodeURIComponent(task)+'  t">tr</a>';
-if(location.hostname == 'localhost'){ document.getElementById("mode2").innerHTML += ' <a class="tag border4 op" href="/redirects/?q='+encodeURIComponent(task)+'  d"> tr2</a>'; }
+document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/projects/25-redirects/?q='+encodeURIComponent(task)+'  t">tr</a>';
+if(location.hostname == 'localhost'){ document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" href="/redirects/?q='+encodeURIComponent(task)+'  d"> tr2</a>'; }
 }else{
 document.getElementById("mode2").innerHTML = '';
 }

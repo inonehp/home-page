@@ -1006,8 +1006,8 @@ if(mode == 'search'){
 print += `
 <div class="wrapper">
 <div class="block tRight">
-<a class="op border borderRadius2 button light" href="#" onclick="history.back()" title="history back">back</a>
-<a class="op border borderRadius2 button light" href="?">main</a>
+<a class="border borderRadius2 button light" href="#" onclick="history.back()" title="history back">back</a>
+<a class="border borderRadius2 button light" href="?">main</a>
 </div>
 </div>
 `;
