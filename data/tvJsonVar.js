@@ -19,7 +19,7 @@ var tvJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/@bbclearningenglish",
-        "tag": "#tv #learning #english #learn"
+        "tag": "#tv #english #language #learning #learn"
     },
     {
         "text": "Boxoffice | COMEDIES | Full",
@@ -138,7 +138,7 @@ var tvJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/@EnglishClass101\/featured",
-        "tag": "#tv #english #language #learn"
+        "tag": "#tv #english #language #learning #learn"
     },
     {
         "text": "Mashable - YouTube",
@@ -243,7 +243,7 @@ var tvJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/@voalearningenglish",
-        "tag": "#tv #learning #english #learn"
+        "tag": "#tv #english #language #learning #learn"
     },
     {
         "text": "WIRED - YouTube",

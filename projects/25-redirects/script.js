@@ -1012,7 +1012,7 @@ case 'gg#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "/projects/google-search/?q=" + q;
+url = "/projects/49-google-search/?q=" + q;
 if(q == ''){ url = "https://newsstand.google.com/?nsro=true&hl=en"; }
 sRedirUrl = url;
 break;
