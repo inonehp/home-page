@@ -1,5 +1,5 @@
-// v.1.3.32
-
+// v.1.3.33
+// The script redirects the search query + command to another location.
 /*
 //https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
 var meta = document.createElement('meta');
@@ -832,6 +832,27 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
+case 'tv#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.twitch.tv/directory/all/tags/" + q,
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+if(q == ''){
+urlList = [
+"https://www.twitch.tv/",
+"https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig",
+"https://www.pinterest.com/tv/",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
+
 case 'm#':
 q = q3.replace(q2, '');
 q = q.trim();
@@ -876,16 +897,6 @@ q = encodeURIComponent(q);
 sRedirUrl = "/projects/18-video/";
 if(q != ''){
 sRedirUrl = "/?q="+q+' v';
-}
-break;
-
-case 'tv#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-sRedirUrl = "https://www.twitch.tv/directory/all/tags/" + q;
-if(q != ''){
-sRedirUrl = "https://www.twitch.tv/";
 }
 break;
 

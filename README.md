@@ -24,8 +24,12 @@ Home page.
 ---
   
 🖼️ Screenshots:  
+<img src="/img/screenshot.png" width: 200px">
+<img src="/img/screenshot2.png" width: 200px">
+<!--
 ![screenshot light](/img/screenshot.png)  
 ![screenshot dark](/img/screenshot2.png)  
+-->
 
 
 

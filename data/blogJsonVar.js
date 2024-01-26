@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "222",
+        "text": "The text in the center of the input box is less expected, so it's not a good idea.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#WebDesign #notes",
+        "time": 1706256437
+    },
+    {
         "id": "221",
         "text": "A Guided Tour of Apple Vision Pro - YouTube",
         "text2": "",

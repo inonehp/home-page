@@ -7099,6 +7099,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Iiit'sa Meeee! Raquel Lily! - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ZSXmvCERZvM",
+        "tag": "#music"
+    },
+    {
         "text": "Iko Iko \u00b7 Cyndi Lauper",
         "text2": "",
         "text3": "",
@@ -12465,6 +12472,20 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=XNk0X73RqnQ",
+        "tag": "#music"
+    },
+    {
+        "text": "Raquel Lily - Mortar & Pestle (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=IVXzhRjy5YU",
+        "tag": "#music"
+    },
+    {
+        "text": "Raquel Lily - Tinder Love (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=pYYQNdhzxoQ",
         "tag": "#music"
     },
     {

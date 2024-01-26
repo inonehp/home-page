@@ -1,12 +1,39 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "80",
+        "text": "MDN Web Docs",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/",
+        "tag": "#WebDev #docs",
+        "time": 1706253858
+    },
+    {
+        "id": "79",
+        "text": "Bluesky",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/",
+        "tag": "#SocialNetwork #platform",
+        "time": 1706239499
+    },
+    {
+        "id": "78",
+        "text": "Diss\u00f8nant",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/dissonant.neocities.org\/",
+        "tag": "#website #nice #other",
+        "time": 1706238577
+    },
+    {
         "id": "77",
         "text": "Experiments with Google",
         "text2": "",
         "text3": "",
         "url": "https:\/\/experiments.withgoogle.com\/",
-        "tag": "#WebDev #nice #cool #JavaScript #demo",
+        "tag": "#website #dev #nice #cool #WebDev #JavaScript #demo",
         "time": 1706161944
     },
     {
@@ -60,7 +87,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.aidaoliva.studio\/",
-        "tag": "#HomePage #personal #nice",
+        "tag": "#website #dev #nice #cool",
         "time": 1706139004
     },
     {
@@ -69,7 +96,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.eddyvinck.com\/",
-        "tag": "#HomePage #personal",
+        "tag": "#website #dev #nice",
         "time": 1706129998
     },
     {
@@ -78,7 +105,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/markodenic.com\/free-web-development-resources\/",
-        "tag": "#dev #WebDevelopmentResources #collection",
+        "tag": "#links #collection",
         "time": 1706102889
     },
     {
@@ -87,7 +114,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/marc.dev\/",
-        "tag": "#HomePage #personal",
+        "tag": "#website #dev #other #nice",
         "time": 1706081454
     },
     {
@@ -96,7 +123,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/wesbos.com\/",
-        "tag": "#HomePage #personal",
+        "tag": "#website #dev #nice",
         "time": 1706081435
     },
     {
@@ -105,7 +132,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/dribbble.com\/404",
-        "tag": "#webpage #404 #nice",
+        "tag": "#website #other #nice #cool",
         "time": 1706045444
     },
     {
@@ -159,7 +186,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/spotify.design\/",
-        "tag": "#other",
+        "tag": "#other #CheckMe",
         "time": 1706021533
     },
     {
@@ -168,7 +195,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/digital-cover.com\/",
-        "tag": "#other",
+        "tag": "#website #dev #nice",
         "time": 1706021332
     },
     {
@@ -213,7 +240,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.netlify.com\/",
-        "tag": "#hosting #cloud #CheckMe",
+        "tag": "#hosting #tool #cloud #CheckMe",
         "time": 1705983166
     },
     {
@@ -222,7 +249,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/cassidoo.co\/",
-        "tag": "#personal #HomPage #nice",
+        "tag": "#website #dev #nice #cool",
         "time": 1705981873
     },
     {
@@ -231,7 +258,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/neocities.org\/tutorials",
-        "tag": "#dev #WebDevelopmentResources #collection",
+        "tag": "#links #collection",
         "time": 1705964528
     },
     {
@@ -287,15 +314,6 @@ var bookmarksJsonVar =
         "url": "https:\/\/webflow.com\/",
         "tag": "#WebsiteBuilder #MiniHosting #tools #WebDesign",
         "time": 1705916440
-    },
-    {
-        "id": "45",
-        "text": "WordPress Developer Resources | Official WordPress Developer Resources | Developer.WordPress.org",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/developer.wordpress.org\/",
-        "tag": "#dev #WebDevelopmentResources #collection",
-        "time": 1705913983
     },
     {
         "id": "44",
@@ -402,7 +420,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/pages.github.com\/",
-        "tag": "#hosting",
+        "tag": "#hosting #tool",
         "time": 1705763888
     },
     {
@@ -411,7 +429,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/pages.cloudflare.com\/",
-        "tag": "#hosting",
+        "tag": "#hosting #tool",
         "time": 1705763850
     },
     {
@@ -420,7 +438,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/neocities.org\/",
-        "tag": "#hosting",
+        "tag": "#hosting #tool",
         "time": 1705763789
     },
     {
@@ -429,7 +447,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.kevinpowell.co\/",
-        "tag": "#HomePage #personal",
+        "tag": "#website #dev #nice",
         "time": 1705763631
     },
     {
@@ -438,7 +456,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/design.google\/",
-        "tag": "#WebDesign #WebDev #dev",
+        "tag": "#WebDesign #WebDev #blog",
         "time": 1705753750
     },
     {
@@ -447,7 +465,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/markodenic.com\/",
-        "tag": "#personal #HomePage",
+        "tag": "#website #dev #nice",
         "time": 1705752193
     },
     {
@@ -465,7 +483,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.chrome.com\/",
-        "tag": "#WebDev #dev",
+        "tag": "#WebDev #docs",
         "time": 1705747341
     },
     {
@@ -546,7 +564,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/matteosantoro.dev\/",
-        "tag": "#personal #HomePage #nice",
+        "tag": "#website #dev #nice",
         "time": 1705744454
     },
     {
@@ -555,7 +573,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.florin-pop.com\/",
-        "tag": "#personal #HomePage",
+        "tag": "#HomePage #personal #website #nice",
         "time": 1705744385
     },
     {
@@ -564,7 +582,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Wiki",
-        "tag": "#encyclopedia",
+        "tag": "#encyclopedia #docs",
         "time": 1705744326
     },
     {
@@ -591,7 +609,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.gatesnotes.com\/",
-        "tag": "#HomePage #personal #nice",
+        "tag": "#website #other #nice #cool",
         "time": 1705742209
     },
     {
@@ -618,7 +636,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.tumblr.com\/",
-        "tag": "#SocialNetwork",
+        "tag": "#SocialNetwork #platform",
         "time": 1705741055
     },
     {
@@ -636,7 +654,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/stackoverflow.com\/",
-        "tag": "#code #FAQ",
+        "tag": "#code #FAQ #docs",
         "time": 1705740315
     },
     {
@@ -645,7 +663,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/neocities.org\/browse",
-        "tag": "#catalog #website #websites",
+        "tag": "#catalog #inspiration",
         "time": 1705740048
     },
     {
@@ -654,7 +672,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/webflow.com\/made-in-webflow",
-        "tag": "#catalog #websites #website",
+        "tag": "#catalog #inspiration",
         "time": 1705740024
     },
     {
@@ -681,7 +699,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.cssartist.com\/",
-        "tag": "#HomePage #personal",
+        "tag": "#website #dev #nice #cool",
         "time": 1705739865
     }
 ]

@@ -147,10 +147,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "templates data  personal one page website template flower light flat mini abc\n\nWebsite template description.",
-        "url": "\/templates-data\/17-personal-one-page-website-template-flower-light-flat-mini-abc\/index.html",
+        "text": "templates data  personal one page website template flower auto light dark flat mini abc\n\nWebsite template description.",
+        "url": "\/templates-data\/17-personal-one-page-website-template-flower-auto-light-dark-flat-mini-abc\/index.html",
         "tag": " #website_template_keywords",
-        "id": "3a94e5602d117222819f3dc93de20340",
+        "id": "0a8e50d74722f4114ea7bbf14ca4abb0",
         "time": "id"
     },
     {
@@ -399,7 +399,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "projects  redirects\n\nWeb search, more correct, a search form with redirection of entered queries to other real search engines.",
+        "text": "projects  redirects\n\nWeb search, more correct, a search form with redirection of entered queries to other real search engines. The script redirects the search query + command to another location.",
         "url": "\/projects\/25-redirects\/index.html",
         "tag": " #redirect #web #search #url #page #search_redirection #search_redirect #search_form #random_search_engine #random_search_system",
         "id": "23cb5e0b7c4d5f09bff2ed2d074b8b9e",
@@ -1206,7 +1206,7 @@ var sitemapJsonVar = [
     {
         "text": "\n\nHome Page. Interests: web design, web development, and coding.",
         "url": "\/index.html",
-        "tag": " #home_page #personal #website",
+        "tag": " #home_page #personal #website #web_design #web_development #coding",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
         "time": "id"
     },

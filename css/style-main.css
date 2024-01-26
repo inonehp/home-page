@@ -1,4 +1,4 @@
-/* v.12.10.2 */
+/* v.12.10.3 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -472,5 +472,28 @@ html{ overflow-x: hidden; } /* fix PWA  */
 input[type=search], select, select option{ -webkit-appearance: none; }
 
 * { box-sizing: border-box; }
+
+@media (prefers-color-scheme: dark) {
+.reduceLight { filter: brightness(70%); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

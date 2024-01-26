@@ -1,4 +1,4 @@
-// v.2.6.11
+// v.2.6.12
 // inspired by X (Twitter), Fediverse
 // not for large data files 
 // This is a rewritten project from another language where I save web links. This is the JavaScript version and has everything but no option for saving or editing.
@@ -1389,12 +1389,12 @@ postFooterPadding = ' <div class="block padding2List"></div> ';
 
 
 //if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ lPost = `<a href="${scriptDir}?id=${id}"><h1>${post}</h1></a>`; } // without highlight (embed)
-if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time += `<a class="tag brand light border2 op borderRadius2 small"  href="${scriptDir}?id=${id}">read</a>`; } // with highlight
+if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time = `<a class="tag brand light border2 op borderRadius2 small"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight
 
 return `
 
 <!-- post -->
-<div class="`+postClass+` bgList borderList" id="`+id+`">
+<div class="` + postClass + ` bgList borderList" id="` + id + `">
 
 <div class="block padding2List bold capitalize"><a href="/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>
 
@@ -1402,8 +1402,8 @@ return `
 
 ${postFooterPadding}
 <div class=" ${postFooter} break2 ">
-<span class="tagList tLeft left">`+tag+`</span>
-<span class="tagList tRight right">`+time+`</span>
+<span class="tagList tLeft left">` + tag + `</span>
+<span class="tagList tRight right">` + time + `</span>
 
 </div>
 </div>
@@ -1774,7 +1774,8 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 
 
-if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1) {
+if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||
+item.indexOf("/") != -1&&item.indexOf("index.htm") != -1) {
 embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" loading="lazy" title="iframe"></iframe>`;
 }
 
@@ -2268,7 +2269,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 }
 
-if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1) {
+if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||item.indexOf("/") != -1&&item.indexOf("index.htm") != -1) {
 embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" title="iframe"></iframe>`;
 }
 

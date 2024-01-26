@@ -1,88 +1,73 @@
-/* v.1.1.0 */
+/* v.1.3.0 */
 
-* { box-sizing: border-box; } 
-
-.tplGallery {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-grid-gap: 5px;
-width: 100%;
-
-margin: 0 auto;
-
-justify-content: center;
-align-items: safe center;
-align-self: safe center;
-text-align: center;
-}
-
-.tplGalleryItem {
-display: flex;
-min-width: 100%;
-min-height: 100%;
-justify-content: center;
-align-items: safe center;
-align-self: safe center;
-text-align: center;
-border: 1px solid var(--d3);
-background: var(--l2);
-margin: 0 auto;
-padding: 5px;
-border-radius: 5px;
-}
-
-.tplGalleryItem img{
-max-height: 280px;
-}
-
-
-
-@media(max-width: 220px) { .tplGallery { display: block; width: 100%; }}
-
- .tplGalleryItem img, .tplGalleryItem svg {
-border-radius: 5px;
-}
-
-svg, img { max-width: 100%; height: auto;  display: inline-block; }
-
-h1, p {
-display: block;
-text-align: center;
-}
-
-.photoGalleryPagination {
-margin-top: 30px;
-}
-
-.center {
+.content {
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: safe center;
-align-self: safe center;
+align-items: safe-center;
+align-self: safe-center;
 box-sizing: border-box;
-/*margin: 0 var(--bodyP);*/margin: 0 auto;
+margin: 0 auto;
+margin-bottom: 0;
+overflow: hidden;
+text-align: center;
 }
 
-/* color theme */
+.localBg {
+width: 10vw;
+max-width: 150px;
+position: absolute;
+overflow: hidden;
+top: 0;
+z-index: -3;
+right: 10%;
+top: 10%;
+/*-webkit-transform: scaleX(-1);
+transform: scaleX(-1);*/
+transform: rotate(45deg);
+}
 
-/* light */
+
+.localBg2 {
+width: 21vw;
+max-width: 195px;
+position: absolute;
+overflow: hidden;
+z-index: -2;
+left: 5%;
+bottom: 0;
+}
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation#*/
+@media (orientation: portrait) {
+.localBg { width: 10vh; }
+.localBg2 { width: 21vh; }
+}
+
+
+/* fix */
+.content { position: relative; width: 100%; max-width: 1100px; margin: 0 auto; }
+
+
+
+/* colors */
+
 :root{
 --bg: #F0F0F0;
---l: #F5F5F5; 
---l2: #F7F7F7; 
---l3: #FCFCFC; 
---l4: #FFFFFF; 
---d: #E6E6E6; 
---d2: #E0E0E0; 
---d3: #CCCCCC; 
---d4: #ABABAB; 
+--l: #F5F5F5;
+--l2: #F7F7F7;
+--l3: #FCFCFC;
+--l4: #FFFFFF;
+--d: #E6E6E6;
+--d2: #E0E0E0;
+--d3: #CCCCCC;
+--d4: #ABABAB;
+
 --c: #595959;
 --c2: #333333; 
 --c3: #1A1A1A; 
 --c4: #0D0D0D; 
---brand: #2D4759;
---brand2: #1A2933;
+--brand: #3A5C73;
+--brand2: #273E4D;
 --red: #943328;
 --red2: #B33E30;
 --orange: #D47900;
@@ -103,13 +88,13 @@ html{ scrollbar-color: var(--d4) var(--l2); }
 ::-webkit-scrollbar { background-color: var(--l2); }
 ::-webkit-scrollbar-thumb { background-color: var(--d3); }
 
-@media (prefers-color-scheme: light) {
+
 body{
 background-image: url("/img/tpl/bg-light.png");
 background-repeat: repeat;
 background-attachment: fixed;
 }
-}
+
 
 /* auto dark */
 @media (prefers-color-scheme: dark) {
@@ -165,26 +150,14 @@ html{ scrollbar-color: var(--l4) var(--d2); }
 
 
 
-/* colors */
-/* for codepen, no main.css */
-body{ background-color: var(--bg); color :var(--c3); }
-
-a { color: var(--c2); }
-a:hover{ color: var(--c4); } 
 
 
-svg, img { max-width: 100%; height: auto;  display: inline-block; }
 
-h1, p {
-display: block;
-text-align: center;
-}
 
-footer {
-  display: block;
-  text-align: center;
-padding: 25px 0;
-}
+
+
+
+
 
 
 
