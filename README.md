@@ -11,7 +11,7 @@
 [#webdesign](https://github.com/topics/webdesign)
 [#webdevelopment](https://github.com/topics/webdevelopment)
   
-<strong>⚠️ Notice<strong>:  
+<strong>⚠️ Notice</strong>:  
 Other license in about page.  
 Config in /js/main.js.  
   
