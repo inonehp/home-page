@@ -245,7 +245,7 @@ const canvas = document.getElementById('myPics');
 const dataURL = canvas.toDataURL();
 //console.log(dataURL);
 var time = Math.floor(new Date().getTime() / 1000);
- document.getElementById("img").innerHTML = '<span><a class="text button light3 border2" href="'+dataURL+'" download="'+time+'">Save</a></span>'; 
+ document.getElementById("img").innerHTML = '<span><a class="text button light3 borderList broderRadius2" href="'+dataURL+'" download="'+time+'">Save</a></span>'; 
  //<img src="'+dataURL+'" name="Flamingo" />
 
 

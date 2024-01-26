@@ -1,12 +1,21 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "82",
+        "text": "Recent | Layers",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/layers.to\/explore\/recent",
+        "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
+        "time": 1706268722
+    },
+    {
         "id": "81",
         "text": "Collection: Learn to Code",
         "text2": "",
         "text3": "",
         "url": "https:\/\/github.com\/collections\/learn-to-code",
-        "tag": "#links #docs #collection",
+        "tag": "#links #collection",
         "time": 1706264290
     },
     {
@@ -78,7 +87,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/search.muz.li\/",
-        "tag": "#WebDesign #inspiration",
+        "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1706150883
     },
     {
@@ -357,7 +366,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/dribbble.com\/following",
-        "tag": "#inspiration #WebDev #GraphicDesign #UI #UX",
+        "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1705802829
     },
     {
@@ -366,7 +375,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.behance.net\/",
-        "tag": "#inspiration #WebDev #GraphicDesign #UI #UX",
+        "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1705802782
     },
     {
