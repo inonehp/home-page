@@ -294,7 +294,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Data page\n\nThe data files used on the site=.",
+        "text": "Data page\n\nThe data files used on the site.",
         "url": "\/data-page.html",
         "tag": " #data #data_file  #data #page",
         "id": "7a0ba4bf4d0f6324ea3585f7a30b4111",
