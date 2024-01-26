@@ -11,8 +11,8 @@
 [#personal](https://github.com/topics/personal)
 [#webdesign](https://github.com/topics/webdesign)
 [#webdevelopment](https://github.com/topics/webdevelopment)
-[#coding](https://github.com/topics/coding)
-<br>
+[#coding](https://github.com/topics/coding)  
+<br><br>
 <strong>⚠️ Notice</strong>:  
 Other license in about page.  
 Config in /js/main.js.  
@@ -20,12 +20,13 @@ Config in /js/main.js.
 <strong>🖼️ Screenshots<strong>:  
 <img src="/img/screenshot.png" width="250px" alt="light page">
 <img src="/img/screenshot2.png" width="250px" alrt="dark page">
+<br>
+<br>
 <!--
 ![screenshot light](/img/screenshot.png)  
 ![screenshot dark](/img/screenshot2.png)  
 -->
-<br>
-<br>
+
 <strong>💡 Ideas for projects:</strong>  
 [https://codepen.io/challenges](https://codepen.io/challenges)  
 [https://addons.mozilla.org/firefox/extensions/](https://addons.mozilla.org/firefox/extensions/)  
