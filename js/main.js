@@ -201,7 +201,6 @@ fuMPrintText('footer', `
 <span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a>
 <a rel="license" title="license 2" href="/about.html#copyright">*</a></span>
 
-<span><a href="https://pages.github.com/">GitHub Pages</a></span>
 <span style="padding-right: 0;"><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
 </nav>
 
