@@ -1095,8 +1095,8 @@ let size = '';
 
 tagList = '';
 
-tagList2 = tagList2.toLowerCase();
-conf["confSymbolForSplit"] = conf["confSymbolForSplit"].toLowerCase();
+/*tagList2 = tagList2.toLowerCase();
+conf["confSymbolForSplit"] = conf["confSymbolForSplit"].toLowerCase();*/
 
 tagList2 = tagList2.replaceAll(/(?:\r\n|\r|\n)/g, ' ');
 tagList2 = tagList2.replaceAll(/,/g, conf["confSymbolForSplit"]);
@@ -1182,7 +1182,7 @@ tagListCount = Object.keys(tagListCountLimited).sort().reduce(
 Object.values(tagListCount).forEach(function (x) {
 tagTotal = tagTotal+x;
 });
-tagAverage = tagTotal/Object.values(tagListCount).length;
+tagAverage = tagTotal / Object.values(tagListCount).length;
 
 
 
