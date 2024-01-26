@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "83",
+        "text": "W3Schools Online Web Tutorials",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.w3schools.com\/",
+        "tag": "#docs",
+        "time": 1706275458
+    },
+    {
         "id": "82",
         "text": "Recent | Layers",
         "text2": "",

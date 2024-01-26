@@ -1,4 +1,4 @@
-/* v.12.10.4 */
+/* v.12.10.6 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -48,7 +48,7 @@ flex-basis: 100%;
 flex-direction: column;
 min-height: 100vh;
 
-min-height: 100dvh; height: 100%; /* not hid bar */
+min-height: 100dvh; height: 100%;
 /*min-height: -webkit-fill-available;*/
 }
 

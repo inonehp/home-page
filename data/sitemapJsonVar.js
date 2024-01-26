@@ -686,6 +686,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "mini projects  sun and moon css\n\nSun and moon",
+        "url": "\/mini-projects\/31-sun-and-moon-css\/index.html",
+        "tag": " #sun #moon",
+        "id": "1b115cde4d60fc1e491c836fda0efd2e",
+        "time": "id"
+    },
+    {
         "text": "mini projects  snow\n\nSnow effect on the page using HTML, CSS and JavaScript.",
         "url": "\/mini-projects\/20-snow\/index.html",
         "tag": " #effect #css_snow_effect #javascript_snow_effect #snow_effect_for_website",
@@ -942,13 +949,6 @@ var sitemapJsonVar = [
         "url": "\/css-art-data\/32-women-illustration-cpc-css\/index.html",
         "tag": " #css_image #css_drawing #css_art",
         "id": "8c52dcc80a46dc89cfbd036fc6f869db",
-        "time": "id"
-    },
-    {
-        "text": "css art data  sun and moon css\n\nSun and moon",
-        "url": "\/css-art-data\/31-sun-and-moon-css\/index.html",
-        "tag": " #sun #moon",
-        "id": "3c2815f59648bd7ab004c2c85649120c",
         "time": "id"
     },
     {
