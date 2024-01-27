@@ -1,4 +1,4 @@
-<-- Main README.md v.1.0.1 -->
+<!-- Main README.md v.1.0.1 -->
 
 ## Home page and projects.  
 👍 Interests: web design, web development, and coding.  
