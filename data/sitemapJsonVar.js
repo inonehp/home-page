@@ -371,9 +371,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Images\n\nPoorly drawn or made pictures, maybe rarely something turns out well.",
+        "text": "Images\n\nBadly drawn or made pictures, sometimes something turns out well.",
         "url": "\/images.html",
-        "tag": " #img  #images",
+        "tag": " #img #picture #wallpaper #logo #illustrations  #images",
         "id": "c736f7bcbfda9e0e6cb5c1cbf991c447",
         "time": "id"
     },
@@ -581,7 +581,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Photos\n\nSometimes I take photos",
+        "text": "Photos\n\nSometimes I take photos.",
         "url": "\/photos.html",
         "tag": " #photo  #photos",
         "id": "d6f0e61c0d0c8b21a1105e4844f0c9fe",

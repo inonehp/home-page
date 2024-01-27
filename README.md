@@ -27,12 +27,7 @@ Config in /js/main.js.
 ![screenshot dark](/img/screenshot2.png)  
 -->
 
-<strong>💡 Ideas for projects:</strong>  
-[🔗 https://codepen.io/challenges](https://codepen.io/challenges)  
-[🔗 https://addons.mozilla.org/firefox/extensions/](https://addons.mozilla.org/firefox/extensions/)  
-[🔗 https://chromewebstore.google.com/category/extensions](https://chromewebstore.google.com/category/extensions)  
-[🔗 https://play.google.com/](https://play.google.com/)  
-[🔗 https://alternativeto.net/browse/all/](https://alternativeto.net/browse/all/)  
+
 
 
 
