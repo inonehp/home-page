@@ -7,9 +7,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": ".\n\nHome Page. Interests: web design, web development, and coding.",
+        "text": ".\n\nHome page and projects. Interests: web design, web development, and coding.",
         "url": "\/index.html",
-        "tag": " #home_page #personal #website #web_design #web_development #coding  #.",
+        "tag": " #home_page #projects #personal #website #web_design #web_development #coding  #.",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
         "time": "id"
     },
@@ -928,6 +928,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/a2-tpl-project-mini\/index.html",
         "tag": " #empty  #projects #> #a #tpl #project #mini #.",
         "id": "f587a0e9e57fb7edece41b389948c0a2",
+        "time": "id"
+    },
+    {
+        "text": "Projects > symbol for screenshot > .\n\nThis is the tpl for create projects.",
+        "url": "\/projects\/symbol-for-screenshot\/index.html",
+        "tag": " #empty  #projects #> #symbol #for #screenshot #.",
+        "id": "73653dfb0036a5ce7c225e7985626fb2",
         "time": "id"
     },
     {
