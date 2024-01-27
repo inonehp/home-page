@@ -609,7 +609,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.florin-pop.com\/",
-        "tag": "#HomePage #personal #website #nice",
+        "tag": "#website #dev #nice",
         "time": 1705744385
     },
     {

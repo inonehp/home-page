@@ -1,8 +1,8 @@
-// v.2.6.12
-// inspired by X (Twitter), Fediverse
-// not for large data files 
-// This is a rewritten project from another language where I save web links. This is the JavaScript version and has everything but no option for saving or editing.
-
+// Keep v.2.6.14
+// For blog, links, seach, etc
+// Inspired by X (Twitter), Fediverse
+// Not for large data files!
+// The original script is a backend language and database
 
 
 // JSON data in js varible pre-sorted by time in UNIX format

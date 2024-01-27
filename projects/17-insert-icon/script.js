@@ -1,5 +1,5 @@
-// v.2.6.0
-// insert icon using class name.
+// Fu insert icon v.2.6.1
+// Function for insert icon in links using class name.
 
 
 async function insertIcon(classNameForInsert, mode){

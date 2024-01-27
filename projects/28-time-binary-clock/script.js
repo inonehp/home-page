@@ -1,4 +1,4 @@
-// v.1.2.3
+// Binary Colock v.1.2.4
 
 function fuClock(id){
 

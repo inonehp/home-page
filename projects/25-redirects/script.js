@@ -1,4 +1,4 @@
-// v.1.3.33
+// Redirect v.1.3.34
 // The script redirects the search query + command to another location.
 /*
 //https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
