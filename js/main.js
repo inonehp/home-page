@@ -1,4 +1,5 @@
-// v.5.8.20
+// Main js v.5.8.20
+// for settings, themes ...
 
 var conf = [];
 conf["confUserName"] = "inonehp";

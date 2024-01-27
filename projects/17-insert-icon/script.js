@@ -200,7 +200,7 @@ let iconsArr = Object.getOwnPropertyNames(icons);
 
 var counter = 0; // for only be 1 icon
 
-const allLinks = document.querySelectorAll('.'+classNameForInsert);
+const allLinks = document.querySelectorAll('.' + classNameForInsert);
 allLinks.forEach((item, index) => {
 
 if(counter == 0){

@@ -441,6 +441,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Mini projects >  background colors list > .\n\nBackground colors list",
+        "url": "\/mini-projects\/32-background-colors-list\/index.html",
+        "tag": " #CSS #color #colors #WebDesign #UI #pallete",
+        "id": "09d75e5454c58d5374b61f0a3f1e33b7",
+        "time": "id"
+    },
+    {
         "text": "Mini projects >  button blur unblur > .\n\nButton: focus, defocus",
         "url": "\/mini-projects\/28-button-blur-unblur\/index.html",
         "tag": " #button_focus #effect #HTML #CSS",

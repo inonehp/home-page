@@ -69,6 +69,8 @@ text-align: left;
 ${result}
 </div>
 
+
+
 `;
 
 document.getElementById("themeOption").innerHTML = result;
@@ -111,6 +113,8 @@ document.getElementById("confTheme").innerHTML = `
 <div>
 `;
 
+
+
 });
 
 }
@@ -127,9 +131,6 @@ document.getElementById("confTheme").innerHTML = `
 
 <div>
 `;
-
-
-
 
 
 
