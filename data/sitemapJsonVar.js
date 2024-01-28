@@ -427,10 +427,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Mini projects >  animation border button > .\n\nAnimation Border Button.",
-        "url": "\/mini-projects\/5-animation-border-button\/index.html",
-        "tag": " #animation_CSS #CSS_animation #HTML #CSS #project",
-        "id": "f598c9d6c26fc50fda26c13d345ddcc9",
+        "text": "Mini projects >  animated borders button link > .\n\nAnimated borders button.",
+        "url": "\/mini-projects\/5-animated-borders-button-link\/index.html",
+        "tag": " #animation #button #border #HTML #CSS #project",
+        "id": "852fb753b4c4e7328df1093b0055d8ec",
         "time": "id"
     },
     {
