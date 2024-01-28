@@ -2,7 +2,7 @@ var blogJsonVar =
 [
     {
         "id": "222",
-        "text": "The text in the center of the input box is less expected, so it's not a good idea.",
+        "text": "On the top sites, the input form has the text aligned to the left.",
         "text2": "",
         "text3": "",
         "url": "",

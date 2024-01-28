@@ -1,0 +1,25 @@
+/* RSS style v.1.0.0
+/* <?xml-stylesheet href="/css/rss.css"?>*/
+
+
+channel {
+display: block;
+width: 100%;
+max-width: 500px;
+margin: 0 auto;
+background: #F0F0F0;
+}
+
+description, link, img, url,
+item, pubDate, title, description {
+display: block;
+background: #fff;
+padding: 20px 10px;
+}
+
+item { border-top: 3px solid silver; }
+description { font-size: small; }
+pubDate { font-size: small; text-align: right; }
+
+/* fix */
+/*channel url, channel img { visibility: hidden; }*/

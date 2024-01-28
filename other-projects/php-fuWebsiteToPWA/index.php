@@ -1,9 +1,8 @@
 <?php
-// v.1.3.1
+// Install PWA page (test) v.1.3.2
 // Run script only on localhost, not made for public.
 // For an already-generated static site in a folder on localhost. The PWA will include all the files in the folder.
-// Be careful! The script creates 3 files: install.html, manifest.webmanifest, sw.js.
-
+// Be careful! The script creates files: manifest.webmanifest, sw.js.
 
 
 
@@ -21,12 +20,10 @@ $d = $_SERVER["DOCUMENT_ROOT"].'/';
 include './php-fuWebsiteToPWA.php';
 //include $d.'/other-projects/PHP-fuWebsiteToPWA/PHP-fuWebsiteToPWA.php';
 
-include $d.'config.php';
-include $d.'config2.php';
-$PWAVersion = 'v.1.1.'.$CONF_VERSION;
+$PWAVersion = 'v.1.1.';
 
 include_once $d.'top.php';
-echo $install = fuWebsiteToPWA($confDirGitRepo, $username, $PWAVersion); //username - app name
+echo $install = fuWebsiteToPWA($confDirGitRepo, $AppName, $PWAVersion); // app name
 include_once $d.'bottom.php';
 
 ?>

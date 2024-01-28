@@ -1,5 +1,5 @@
 <?php
-// v.2.3.0
+// Function dir to PWA (version if there is no file extension for the pages) v.2.3.0
 // Run script only on localhost, not made for public.
 // For an already-generated static site in a folder on localhost. The PWA will include all the files in the folder.
 // Be careful! The script creates 2 files: manifest.webmanifest, sw.js.
