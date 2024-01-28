@@ -1,4 +1,4 @@
-<!-- Main README.md v.1.0.1 -->
+<!-- Main README.md v.1.0.3 -->
   
 ## Home page and projects.  
 👍 Interests: web design, web development, and coding.  
@@ -25,10 +25,10 @@
 [#Website](https://github.com/topics/website),
 [#Personal](https://github.com/topics/personal),
 [#WebDesign](https://github.com/topics/webdesign),
-[#WebDevelopment](https://github.com/topics/webdevelopment),
+[#WebDev](https://github.com/topics/webdev),
 [#Coding](https://github.com/topics/coding),
 [#HTML](https://github.com/topics/html),
 [#CSS](https://github.com/topics/css),
-[#JavaScript](https://github.com/topics/java-script),
+[#JavaScript](https://github.com/topics/javascript),
 
 

@@ -1,8 +1,7 @@
-// Main js v.5.8.22
+// Main js v.5.8.23
 // For settings, themes, ...
 
 var conf = [];
-conf["confUserName"] = "inonehp";
 conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
 conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
 conf["confTagListLimit"] = 38;
@@ -75,8 +74,6 @@ This is necessary to improve the site.
 },
 ];
 //console.table(confData);
-
-//fuMPrintText(`mUsername`, `${conf["confUserName"]}`);
 
 // generate var: conf['confName'];
 confData.forEach((val) => {
@@ -196,7 +193,7 @@ fuMPrintText('footer', `
 <span id="fSettings" title="Settings"><a class="" href="/settings.html">Settings</a></span>
 <span title="Site code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
 
-<span title="A page in a social network"><a href="https://twitter.com/${conf["confUserName"]}">X (Twitter)</a></span>
+<span title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
 <span title="RSS feed news"><a href="/rss.xml">RSS</a></span>
 <span title="Page about"><a href="/about.html">About</a></span>
 <span title="Content License"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a>

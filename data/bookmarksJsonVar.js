@@ -15,7 +15,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/web.dev\/",
-        "tag": "#docs",
+        "tag": "#docs #WebDev #dev",
         "time": 1706322685
     },
     {
@@ -24,7 +24,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.w3schools.com\/",
-        "tag": "#docs",
+        "tag": "#docs #WebDev #dev",
         "time": 1706275458
     },
     {
@@ -51,7 +51,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/",
-        "tag": "#WebDev #docs",
+        "tag": "#WebDev #docs #dev",
         "time": 1706253858
     },
     {
@@ -528,7 +528,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.chrome.com\/",
-        "tag": "#WebDev #docs",
+        "tag": "#WebDev #docs #dev",
         "time": 1705747341
     },
     {
@@ -699,7 +699,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/stackoverflow.com\/",
-        "tag": "#code #FAQ #docs",
+        "tag": "#code #FAQ #docs #div #WebDev",
         "time": 1705740315
     },
     {
