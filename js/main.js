@@ -1,5 +1,5 @@
-// Main js v.5.8.20
-// for settings, themes ...
+// Main js v.5.8.21
+// For settings, themes, ...
 
 var conf = [];
 conf["confUserName"] = "inonehp";
@@ -182,27 +182,27 @@ fuMPrintText('footer', `
 
 <div class="block tRight small padding2List">
 <details class="inlineBlock">
-<summary class="pointer op" onclick="fuMScrollTo('fScrollToBottom')">${fDescTitle}</summary>
+<summary class="pointer op" onclick="fuMScrollTo('fScrollToBottom')" title="Description and keywords">${fDescTitle}</summary>
 <div id="fDesc" class="block pre tLeft wrapperL padding2 bg small shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
 </details>
 </div>
 
-<span style="padding-left: 0;"><a class="" href="/">Home</a></span>
+<span style="padding-left: 0;" title="Main page"><a href="/">Home</a></span>
 <em id="fScript"></em>
 <em id="fStyle"></em>
-<span id="fTheme" class=""><a href="/theme.theme">Themes</a></span>
-<!--<span id="fAds"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
-<span id="fPrivacy"><a class="" href=""/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
-<span><a href="https://github.com/inonehp/inonehp.pages.dev">Download</a></span>
-<span id="fSettings"><a class="" href="/settings.html">Settings</a></span>
+<span id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></span>
+<!--<span id="fAds" title="Advertising settings"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
+<span id="fPrivacy" title="Cookie settings"><a href=""/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
+<span id="fSettings" title="Settings"><a class="" href="/settings.html">Settings</a></span>
+<span title="Site code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
 
-<span><a href="https://twitter.com/${conf["confUserName"]}">X / Twitter</a></span>
-<span><a href="/rss.xml">RSS</a></span>
-<span><a href="/about.html">About</a></span>
-<span><a rel="license" title="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a>
-<a rel="license" title="license 2" href="/about.html#copyright">*</a></span>
+<span title="A page in a social network"><a href="https://twitter.com/${conf["confUserName"]}">X (Twitter)</a></span>
+<span title="RSS feed news"><a href="/rss.xml">RSS</a></span>
+<span title="Page about"><a href="/about.html">About</a></span>
+<span title="Content License"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a>
+<a title="Other licenses" rel="license" title="license 2" href="/about.html#copyright">*</a></span>
 
-<span style="padding-right: 0;"><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
+<span style="padding-right: 0;" title="Hosting service"><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
 </nav>
 
 </div>
