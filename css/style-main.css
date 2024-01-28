@@ -1,4 +1,4 @@
-/* Style main CSS v.12.10.7 */
+/* Style main CSS v.12.11.0 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -23,7 +23,7 @@
 }
 
 html, body, a, input, button, textarea, pre, code, select{
-font-family: 'Roboto', 'Noto Sans', Arial, Sans-Serif;
+font-family: Arial, Sans-Serif;
 font-style: normal;
 font-size: 14px;
 text-decoration:none;
