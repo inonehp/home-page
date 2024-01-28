@@ -1,4 +1,4 @@
-// v.3.15.6
+// v.3.15.7
 
 
 
@@ -168,9 +168,12 @@ document.querySelectorAll('textarea')[0].addEventListener('input', updateValue33
 
 
 function updateValue3333(e) {
+
 //console.log(mode300);
 if(mode300 == 'none'||mode300 == 'b2'||mode300 == 'f2'){
+if(location.hostname == 'localhost'){
 // source code none
+if(mode300 != 'b2'){ fuLtr(e.target.value); }
 let text = encodeURIComponent(e.target.value);
 //let text = (e.target.value);
 let http = new XMLHttpRequest();
@@ -184,11 +187,12 @@ http.onreadystatechange = function() {//Call a function when the state changes.
 if(http.readyState == 4 && http.status == 200) {
 // alert(http.responseText);
 
-document.getElementById("lPrintTr").innerHTML=http.responseText+'';
+document.getElementById("lPrintTr").innerHTML = http.responseText + '';
 
 }
 }
 http.send(params);
+}
 }else{
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
 document.getElementById("lPrintTr").innerHTML = '';
@@ -334,19 +338,20 @@ document.getElementById('text').rows = '';
 
 
 
-
+function fuLtr(task){
+document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/projects/25-redirects/?q='+encodeURIComponent(task)+'  t">tr</a>';
+if(location.hostname == 'localhost'){
+document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" href="/redirects/?q='+encodeURIComponent(task)+'  d"> tr2</a>';
+}
+}
 
 
 // main
 //setTimeout(function () {
 function main(task){
 
-
-
 if(mode != 'abc'&&mode != 'free'&&mode != 'f2'){
-
-document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/projects/25-redirects/?q='+encodeURIComponent(task)+'  t">tr</a>';
-if(location.hostname == 'localhost'){ document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" href="/redirects/?q='+encodeURIComponent(task)+'  d"> tr2</a>'; }
+fuLtr(task);
 }else{
 document.getElementById("mode2").innerHTML = '';
 }

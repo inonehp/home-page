@@ -85,6 +85,13 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #AlternativeRock"
     },
     {
+        "text": "ABC Classic 2 | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/ABC-Classic-2-s224618\/",
+        "tag": "#classical #radio #classic"
+    },
+    {
         "text": "ABC Pacific",
         "text2": "http:\/\/live-radio01.mediahubaustralia.com\/RAEW\/mp3\/",
         "text3": "mp3",

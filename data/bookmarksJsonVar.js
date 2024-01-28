@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "85",
+        "text": "Adam B. Becker",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/abb.dev\/",
+        "tag": "#website #dev #nice #cool",
+        "time": 1706360574
+    },
+    {
         "id": "84",
         "text": "web.dev",
         "text2": "",

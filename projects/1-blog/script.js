@@ -2,8 +2,6 @@
 // For blog, links, seach, etc
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
-// The original script is a backend language and database
-
 
 // JSON data in js varible pre-sorted by time in UNIX format
 // main function 

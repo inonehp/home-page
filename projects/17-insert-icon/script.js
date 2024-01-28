@@ -1,4 +1,4 @@
-// Fu insert icon v.2.6.1
+// Fu insert icon v.2.6.2
 // Function for insert icon in links using class name.
 
 
@@ -116,7 +116,7 @@ let icons = {
 "magazine":"📰",
 "map":"📍", "sitemap":"📍",
 "mammoth ":"🦣", "mastodon":"🦣",
-"mail":"📧",
+"mail":"📧", "email":"📧",
 "@":"📧",
 "message":"💬", "status":"💬",
 "matrix":"💊",

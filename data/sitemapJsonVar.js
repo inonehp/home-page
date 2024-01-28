@@ -240,7 +240,7 @@ var sitemapJsonVar = [
     {
         "text": "Css art\n\nCSS Art - a fun way to practice CSS.",
         "url": "\/css-art.html",
-        "tag": " #CSS_art #CSS #HTML",
+        "tag": " #CSS_art #CSS #HTML #art #CSS_image",
         "id": "49b8920fccfc5344479aaaf9aac3f3df",
         "time": "id"
     },
@@ -735,9 +735,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Projects >  hint > .\n\nJavaScrript hint function when typing.",
+        "text": "Projects >  hint > .\n\nHint when input.",
         "url": "\/projects\/16-hint\/index.html",
-        "tag": " #hint #hint_word #input_hint #tool #function #JavaScript_hint_function #hint_function #JavaScript",
+        "tag": " #hint #input #JavaScript",
         "id": "059284798922553c25cb2e321e18b509",
         "time": "id"
     },
