@@ -1,4 +1,4 @@
-// Main js v.5.8.21
+// Main js v.5.8.22
 // For settings, themes, ...
 
 var conf = [];
@@ -752,7 +752,7 @@ function reload(){ location.reload(true); }
 
 
 
-// v.1.1.3
+// v.1.1.4
 // Cookie Consent Popups
 // if not selected: popup
 
@@ -774,7 +774,7 @@ fuMPrintText('cookiePopup', `
 <style>
 #cookiePopup {
 position: fixed;
-bottom: 25px;
+bottom: 5px;
 left: 0;
 right: 0;
 display: none;
