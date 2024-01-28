@@ -1,4 +1,4 @@
-// Main js v.5.8.23
+// Main js v.5.9.0
 // For settings, themes, ...
 
 var conf = [];
@@ -279,9 +279,9 @@ theme = "auto";
 
 if(window.matchMedia &&window.matchMedia('(prefers-contrast: more)').matches == true){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-theme = 'hight-contrast-dark'; }
+theme = 'h-contrast-d'; }
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-theme = 'hight-contrast-light'; }
+theme = 'h-contrast-l'; }
 }
 
 }
@@ -396,9 +396,9 @@ var themeListOtherDark = [
 "od-yellow",
 ];
 
-var themeListHightContrast = [
-"hight-contrast-light",
-"hight-contrast-dark"
+var themeListHContrast = [
+"h-contrast-l",
+"h-contrast-d"
 ];
 
 // fav from others
@@ -459,13 +459,13 @@ var themeListOption2 = [
 var themeListAllLight = [];
 themeListAllLight.push(...themeListLight);
 themeListAllLight.push(...themeListOther);
-themeListAllLight.push("hight-contrast-light");
+themeListAllLight.push("h-contrast-l");
 
 // all dark theme
 var themeListAllDark = [];
 themeListAllDark.push(...themeListDark);
 themeListAllDark.push(...themeListOtherDark);
-themeListAllDark.push("hight-contrast-dark");
+themeListAllDark.push("h-contrast-d");
 
 // all theme
 var themeList = [];
@@ -473,7 +473,7 @@ themeList.push(...themeListLight);
 themeList.push(...themeListOther);
 themeList.push(...themeListDark);
 themeList.push(...themeListOtherDark);
-themeList.push(...themeListHightContrast);
+themeList.push(...themeListHContrast);
 
 
 
@@ -498,12 +498,12 @@ fuMPrintTheme(conf["confRealTmpTheme"]);
 }
 }
 
-function themeAutoHightContrast(){
+function themeAutoHContrast(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-conf["confRealTmpTheme"] = 'hight-contrast-dark';
+conf["confRealTmpTheme"] = 'h-contrast-d';
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }else{
-conf["confRealTmpTheme"] = 'hight-contrast-light';
+conf["confRealTmpTheme"] = 'h-contrast-l';
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
 }
@@ -563,19 +563,19 @@ fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'auto-h-contrast':
-themeAutoHightContrast();
+themeAutoHContrast();
 window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", function () {
-themeAutoHightContrast();
+themeAutoHContrast();
 });
 break;
 
 case 'auto-t-h-contrast':
 if(new Date().getHours() <= Number(conf["confStartDay"]) - 1|new Date().getHours() >= conf["confStartNight"]){
 //if(new Date().getSeconds() % 2 == 0){
-conf["confRealTmpTheme"]   = 'hight-contrast-dark';
+conf["confRealTmpTheme"]   = 'h-contrast-d';
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }else{
-conf["confRealTmpTheme"]   = 'hight-contrast-light';
+conf["confRealTmpTheme"]   = 'h-contrast-l';
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
 //var interval1 = setInterval(themeAutoTime, 60000);
@@ -654,7 +654,7 @@ fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-h-contrast':
-conf["confRealTmpTheme"] = themeListHightContrast[Math.floor(Math.random() * themeListHightContrast.length)];
+conf["confRealTmpTheme"] = themeListHContrast[Math.floor(Math.random() * themeListHContrast.length)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 

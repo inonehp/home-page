@@ -1,4 +1,4 @@
-/* v.4.2.0 */
+/* v.4.3.0 */
 // var config in main js
 
 var result = '';
@@ -12,7 +12,7 @@ if(element == 'light'){ result += '<div><p>Light:</p>'; }
 if(element == 'dark'){ result += '</div><div><p>Dark:</p>'; }
 if(element == 'o-blue'){ result += '</div><div><p>Other light:</p>'; }
 if(element == 'od-blue'){ result += '</div><div><p>Other dark:</p>'; }
-if(element == 'hight-contrast-light'){ result += '</div><div><p>Hight Contrast:</p>'; }
+if(element == 'h-contrast-l'){ result += '</div><div><p>Hight Contrast:</p>'; }
 if(element == 'rand-l'){ result += '</div></div><p>Random mode:</p>'; }
 if(element == 'auto-time'){ result += '<p>Auto mode:</p>'; }
 if(element == 'auto'){ result += '<div class="margin2"></div>'; }
