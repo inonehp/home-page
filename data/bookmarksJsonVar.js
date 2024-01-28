@@ -64,15 +64,6 @@ var bookmarksJsonVar =
         "time": 1706239499
     },
     {
-        "id": "78",
-        "text": "Diss\u00f8nant",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/dissonant.neocities.org\/",
-        "tag": "#website #nice #other",
-        "time": 1706238577
-    },
-    {
         "id": "77",
         "text": "Experiments with Google",
         "text2": "",
