@@ -1,4 +1,4 @@
-<!-- Main README.md v.1.0.4 -->
+<!-- Main README.md v.1.0.5 -->
   
 ##  ∷ Home page and projects. 
  
@@ -20,6 +20,7 @@
 
 ![screenshot light](/img/screenshot.png)
 ![screenshot dark](/img/screenshot2.png)
+![screenshot List of color themes](/img/screenshot3.png)
   
 ---
   
