@@ -1,4 +1,4 @@
-// Main js v.5.9.0
+// Main js v.5.9.1
 // For settings, themes, ...
 
 var conf = [];
@@ -55,7 +55,7 @@ This is necessary to improve the site.
 "confTitle":"Ads on off",
 "confDescription":`Ads options.`,
 "confName":"confAdsStatus",
-"confValueDefault":"on",
+"confValueDefault":"off",
 "confValueVariant":["on", "off", "random"],
 },
 {
