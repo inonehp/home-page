@@ -10,16 +10,18 @@
   
 ---
   
-**ℹ Note:** You can find information about other licenses on the "About" page.
+> [!NOTE]
+> You can find information about other licenses on the "About" page.
   
 ---
   
-**🖼️ Screenshots:**  
+## 🖼️ Screenshots:  
 ![screenshot light](/img/screenshot.png)
 ![screenshot dark](/img/screenshot2.png)
   
 ---
-**🏷️ Tags:**  
+  
+## 🏷️ Tags:**  
 [#Homepage](https://github.com/topics/homepage),
 [#Projects](https://github.com/topics/projects),
 [#Website](https://github.com/topics/website),
