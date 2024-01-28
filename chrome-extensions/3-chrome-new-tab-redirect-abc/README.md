@@ -1,26 +1,14 @@
-README.md
+<!-- New tab redirect readme v.1.0.2 -->
 
-About:  
-Your URL website will open in a new tab.  
+# New tab redirect
+## Summary:  
+This add-on automatically opens your website every time you open a new tab in your browser.  
 
-You need to enter your website URL address in the add-on options, and then this address will be opened whenever you press the "+"  
-
-
-For Install on Chrome, Edge and other chromium browser:  
-· Rename name.crx file to name.zip and unzip, it's if you not have a dir with extension  
-· Enable developer mode in Extensions menu  
-· Select "Load unpacked" and select dir with extension  
-· Done.  
+## Description:
+To set up your website URL to open in a new tab whenever you create one, you need to enter the URL address in the add-on options. Once you've done that, simply press the "+" button to create a new tab (or use the Ctrl+T shortcut) and your website will open automatically.  
 
 
-Notice:  
-· Makes a small delay  
-· How it works: when you open a new tab, the extension creates a new tab with your website address and closes the current one (redirect)
-
-
-
-
-Screenshots:
+## Screenshots:
 
 ![screenshot](screenshot.png)
 ![screenshot2](screenshot2.png)

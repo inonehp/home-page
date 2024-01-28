@@ -1,19 +1,16 @@
-README.md
+<!-- New tab redirect readme v.1.0.2 -->
 
-About:  
-Your URL website will open in a new tab.  
+# New tab redirect
+## Summary:  
+This add-on automatically opens your website every time you open a new tab in your browser.  
 
-You need to enter your website URL address in the add-on options, and then this address will be opened whenever you press the "+" button to create a new tab (or Ctrl+T)  
+## Description:
+To set up your website URL to open in a new tab whenever you create one, you need to enter the URL address in the add-on options. Once you've done that, simply press the "+" button to create a new tab (or use the Ctrl+T shortcut) and your website will open automatically.  
 
-
-Notice:  
-· Makes a small delay.  
-· Broken functionality: when selecting "Bookmarks Toolbar" -> "Only Show on New Tab" that not showing, because opened extension in the new tab make a redirect (creating a new tab) and immediately closed. One solution: Bookmarks Toolbar -> Always Show.  
-· How it works: when you open a new tab, the extension tab creates a new tab with your website address and closes the current one (redirect)  
   
 --
   
-· main code:
+## The main part of the code:
 <!-- code -->
 ```javascript
 // second 2 redirect
@@ -25,7 +22,7 @@ window.close();
 //rUrl - redirect url
 ```
 
-Screenshots:
+## Screenshots:
 ![screenshot](screenshot.png)
 ![screenshot2](screenshot2.png)
 ![screenshot3](screenshot3.png)
