@@ -1,4 +1,4 @@
-// Keep v.2.6.14
+// Keep v.2.6.15
 // For blog, links, seach, etc
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
@@ -253,7 +253,7 @@ print += `
 <a class="small" href="?mode=random" title="Random post">random</a>
 <a class="small" href="?mode=auto-random" title="Random post with automatic redirection to next">auto-random</a>
 <a class="small" href="?mode=randUrl" title="Random URL">randURL</a>
-<a class="small" href="?q=${lQforR}" title="Random URL from search results">randURL (Search)</a>
+<a class="small" href="?q=${lQforR}" title="Random URL from search results">randURL (q)</a>
 <!--<a href="/rss.xml">rss</a>-->
 </nav>
 

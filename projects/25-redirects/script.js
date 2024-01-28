@@ -1,4 +1,4 @@
-// Redirect v.1.3.34
+// Redirect v.1.3.35
 // The script redirects the search query + command to another location.
 /*
 //https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
@@ -570,7 +570,6 @@ urlList = [
 "https://medium.com/tag/computer-science",
 
 //"https://www.smartnews.com/en/us/technology",
-// redirect app, delme "https://www.newsbreak.com/channels/technology",
 
 "https://substack.com/browse/technology",
 
@@ -613,7 +612,6 @@ urlList = [
 "https://www.tumblr.com/tagged/science?sort=top",
 "https://medium.com/tag/science",
 "https://news.yahoo.com/science/",
-// redirect app, delme "https://www.newsbreak.com/channels/science",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -696,10 +694,29 @@ urlList = [
 "https://www.indiehackers.com/",
 
 "https://www.freecodecamp.org/news",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
 
-/* redirect app "https://www.newsbreak.com/channels/computers",
-"https://www.newsbreak.com/channels/internet",
-"https://www.newsbreak.com/channels/coding-programming",*/
+
+
+case 'git#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://github.com/search?q=" + q,
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+sRedirUrl = random;
+if(q == ''){
+urlList = [
+"https://github.com/explore",
+"https://gitlab.com/explore",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -1241,12 +1258,13 @@ document.getElementById('input').value = q;
 
 runRedir(rUrlGet);
 
+/*
 //https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
 var meta = document.createElement('meta');
 meta.name = "referrer";
 meta.content = "no-referrer";
 document.getElementsByTagName('head')[0].appendChild(meta);
-
+*/
 
 
 
