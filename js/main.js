@@ -1,4 +1,4 @@
-// Main js v.5.9.2
+// Main js v.5.9.3
 // For settings, themes, ...
 
 var conf = [];
@@ -119,6 +119,15 @@ document.getElementById(id).innerHTML = text;
 // console.log(id+' not fount');
 }
 }
+
+
+
+
+
+
+
+
+
 
 
 // start footer
@@ -749,58 +758,7 @@ function reload(){ location.reload(true); }
 
 
 
-// v.1.1.4
-// Cookie Consent Popups
-// if not selected: popup
 
-fuMPrintText('cookiePopup', `
-
-<div class="wrapper">
-<div class="wrapper cookiePopup post bg2 border margin tCenter shadow">
-<p class="h5">Allow Cookie for third parties?</p>
-
-<p>This is necessary to improve the site: for statistics, relevant ads.</p>
-
-<p class="">
-<button class="bold button light3 border margin2List cookieBtnYes" onclick="cookiePopup('on')">Yes</button>
-<button class="bold button light3 border margin2List cookieBtnNo"  onclick="cookiePopup('off')">No</button>
-</p>
-</div>
-</div>
-
-<style>
-#cookiePopup {
-position: fixed;
-bottom: 5px;
-left: 0;
-right: 0;
-display: none;
-z-index: 99;
-}
-
-.cookiePopup { max-width: calc(100% - (var(--bodyP) * 2)); margin: 0 auto; }
-#cookiePopup button { width: 90px; max-width: 100%; }
-.cookieBtnYes { border: 1px solid var(--green); }
-.cookieBtnNo { border: 1px solid var(--c); }
-</style>
-
-`);
-
-if(conf["confDataCollection"] == 'not selected'){
-if(document.getElementById("cookiePopup") != null){
-document.getElementById("cookiePopup").style.display = "block";
-}
-}
-
-
-function cookiePopup(option){
-localStorage.setItem("confDataCollection", option);
-if(document.getElementById("cookiePopup") != null){
-document.getElementById("cookiePopup").style.display = "none";
-fuMPrintText('fPrivacy', `<a href="/privacy.html">cookie: ${option}</a>`); 
-}
-}
-// end Cookie Consent Popups
 
 
 
@@ -892,34 +850,7 @@ display: none !important;
 
 
 
-// Code if third-party cookies on
-async function fuMIfCookieOn(){
 
-// analytics
-//document.body.onload = function(){}
-document.addEventListener("DOMContentLoaded", (event) => { }); //fix
-//window.onload = function(){}
-//document.body.onload = function(){
-if(conf["confDataCollection"] == 'on'){
-
-
-//<!-- Google (gtag.js) -->
-var scriptStat = document.createElement('script');
-//scriptStat.async = 'async';
-scriptStat.type ='text/javascript';
-scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAnalyticsId"]}`;
-document.getElementsByTagName('head')[0].appendChild(scriptStat);
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', conf["confGoogleAnalyticsId"]);
-//<!-- End Google (gtag.js) -->
-
-}
-}
-fuMAnalytics();
-// End Code if third-party cookies on
 
 
 /*
@@ -1065,5 +996,98 @@ background-attachment: fixed;
 }
 }
 // end bg image
+
+
+
+// v.1.2.0
+// Cookie Consent Popups
+// if not selected: popup
+
+fuMPrintText('cookiePopup', `
+
+<div class="wrapper">
+<div class="wrapper cookiePopup post bg2 border margin tCenter shadow">
+<p class="h5 bold">Allow Cookie for third parties?</p>
+
+<p>This consent is required to improve the website, collect statistics, and show relevant advertisements.</p>
+
+<div class="padding2List"></div>
+
+<p>
+<button class="bold button light3 border margin2List cookieBtnYes" onclick="cookiePopup('on')">Yes</button>
+<button class="bold button light3 border margin2List cookieBtnNo"  onclick="cookiePopup('off')">No</button>
+</p>
+</div>
+</div>
+
+<style>
+#cookiePopup {
+position: fixed;
+bottom: 5px;
+left: 0;
+right: 0;
+display: none;
+z-index: 99;
+}
+
+.cookiePopup { max-width: calc(100% - (var(--bodyP) * 2)); margin: 0 auto; }
+#cookiePopup button { width: 90px; max-width: 100%; }
+.cookieBtnYes { border: 1px solid var(--green); }
+.cookieBtnNo { border: 1px solid var(--c); }
+</style>
+
+`);
+
+if(conf["confDataCollection"] == 'not selected'){
+if(document.getElementById("cookiePopup") != null){
+document.getElementById("cookiePopup").style.display = "block";
+}
+}
+
+
+function cookiePopup(option){
+localStorage.setItem("confDataCollection", option);
+if(document.getElementById("cookiePopup") != null){
+document.getElementById("cookiePopup").style.display = "none";
+fuMPrintText('fPrivacy', `<a href="/privacy.html">cookie: ${option}</a>`); 
+}
+}
+// end Cookie Consent Popups
+
+
+
+
+
+
+
+// If third-party cookies on
+async function fuMIfCookieOn(){
+// analytics
+//document.body.onload = function(){}
+document.addEventListener("DOMContentLoaded", (event) => { }); //fix
+//window.onload = function(){}
+//document.body.onload = function(){
+if(conf["confDataCollection"] == 'on'){
+
+
+//<!-- Google (gtag.js) -->
+var scriptStat = document.createElement('script');
+//scriptStat.async = 'async';
+scriptStat.type ='text/javascript';
+scriptStat.src = `https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAnalyticsId"]}`;
+document.getElementsByTagName('head')[0].appendChild(scriptStat);
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', conf["confGoogleAnalyticsId"]);
+//<!-- End Google (gtag.js) -->
+
+}
+}
+fuMAnalytics();
+// End If third-party cookies on
+
+
 
 
