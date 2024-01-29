@@ -1,6 +1,24 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "89",
+        "text": "Analytics Tools & Solutions for Your Business - Google Analytics",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/marketingplatform.google.com\/about\/analytics\/",
+        "tag": "#tools",
+        "time": 1706536011
+    },
+    {
+        "id": "88",
+        "text": "Google Search Console",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/search.google.com\/search-console\/about",
+        "tag": "#tools",
+        "time": 1706535988
+    },
+    {
         "id": "87",
         "text": "Hubs - Private, virtual 3D worlds in your browser",
         "text2": "",

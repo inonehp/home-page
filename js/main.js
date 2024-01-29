@@ -100,7 +100,7 @@ domainNameToTitle = domainNameToTitle[0];
 document.getElementsByTagName('title')[0].innerHTML += ' | ' + domainNameToTitle;
 }
 
-// css color fix if offline
+// css color fix if save page
 if(String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
 }
@@ -973,16 +973,6 @@ background-attachment: fixed;
 }
 }
 // end bg image
-
-
-
-
-
-
-
-
-
-
 
 
 

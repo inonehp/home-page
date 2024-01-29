@@ -1,13 +1,20 @@
 /* v.1.4.7 */
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
-async function fuAds(none, idAds, comAds){
+async function fuAds(none, idAds, none2){
+
 
 // none - Reserved variable
+// idAds - for print
+// comAds - reserved
 
+//var adsStatus =  localStorage.getItem("confAdsStatus");
+var adsStatus = conf["confAdsStatus"];
+if(adsStatus != "off"){
 
-var adsStatus =  localStorage.getItem("confAdsStatus");
-var cookieStatus =  localStorage.getItem("confDataCollection");
+//var cookieStatus =  localStorage.getItem("confDataCollection");
+var cookieStatus =  conf["confDataCollection"];
+
 var insertIcon = '';
 
 switch (adsStatus){
@@ -120,6 +127,11 @@ document.getElementById(idAds).innerHTML = '<div class="wrapper"><div class="pad
 }
 
 }
-
+}
 
 }
+
+
+
+
+

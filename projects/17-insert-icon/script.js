@@ -5,7 +5,9 @@
 async function insertIcon(classNameForInsert, mode){
 
 
-var insertIconStatus = localStorage.getItem("confIconStatus");
+//var insertIconStatus = localStorage.getItem("confIconStatus");
+var insertIconStatus = conf["confIconStatus"];
+var insertIconCookieAllow = conf["confDataCollection"];
 if(insertIconStatus == null){ insertIconStatus = 'on'; }
 
 // mode: "strict" - for full word
@@ -287,7 +289,7 @@ var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
-if(localStorage.getItem('confDataCollection') != 'on'){ iconHTTP = '🔗'; }
+if(insertIconCookieAllow != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
 check = 'exit';
 counter++;
@@ -307,7 +309,7 @@ var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
-if(localStorage.getItem('confDataCollection') != 'on'){ iconHTTP = '🔗'; }
+if(insertIconCookieAllow != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
 check = 'exit';
 counter++;
@@ -369,6 +371,8 @@ icArr = [];
 counter = 0;
 
 });
+
+
 
 
 
