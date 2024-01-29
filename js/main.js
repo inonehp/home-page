@@ -1003,7 +1003,6 @@ timeZone.indexOf('lagos'.toLowerCase()) != -1||
 timeZone.indexOf('japan'.toLowerCase()) != -1
 ){
 conf["confDataCollection"] = 'off';
-alert(conf["confDataCollection"]);
 }else{
 conf["confDataCollection"] = 'on';
 }
