@@ -1,4 +1,4 @@
-/* Style main CSS v.12.11.0 */
+/* Style main CSS v.12.11.1 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -200,7 +200,7 @@ display: inline-flex;
 justify-content: center;
 filter: grayscale(40%);
 }
-img.ico, img.ico2 { justify-content: end; display: inline-block; vertical-align: middle; height: auto; }
+img.ico, img.ico2 { justify-content: end; display: inline-block; vertical-align: middle; height: auto; margin-right: 0; }
 
 .ico2 {
 /*filter: brightness(90%);*/
