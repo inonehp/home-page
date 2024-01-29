@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "86",
+        "text": "Home - Bing Webmaster Tools",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.bing.com\/webmasters",
+        "tag": "#tools #web",
+        "time": 1706520469
+    },
+    {
         "id": "85",
         "text": "Adam B. Becker",
         "text2": "",
@@ -78,7 +87,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.bing.com\/translator",
-        "tag": "#translator #translate #tool",
+        "tag": "#translator #translate #tools",
         "time": 1706158299
     },
     {
@@ -87,7 +96,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/translate.google.com\/",
-        "tag": "#translator #translate #tool",
+        "tag": "#translator #translate #tools",
         "time": 1706158282
     },
     {
@@ -96,7 +105,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.deepl.com\/translator",
-        "tag": "#translator #translate #tool",
+        "tag": "#translator #translate #tools",
         "time": 1706158256
     },
     {
@@ -276,7 +285,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.netlify.com\/",
-        "tag": "#hosting #tool #cloud #CheckMe",
+        "tag": "#hosting #tools #cloud #CheckMe",
         "time": 1705983166
     },
     {
@@ -456,7 +465,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/pages.github.com\/",
-        "tag": "#hosting #tool",
+        "tag": "#hosting #tools",
         "time": 1705763888
     },
     {
@@ -465,7 +474,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/pages.cloudflare.com\/",
-        "tag": "#hosting #tool",
+        "tag": "#hosting #tools",
         "time": 1705763850
     },
     {
@@ -474,7 +483,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/neocities.org\/",
-        "tag": "#hosting #tool",
+        "tag": "#hosting #tools",
         "time": 1705763789
     },
     {

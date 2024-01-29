@@ -16,7 +16,7 @@ var sitemapJsonVar = [
     {
         "text": "About\n\nAbout the site, links, license, contacts.",
         "url": "\/about.html",
-        "tag": " #about #about_page #about_site #about_website",
+        "tag": " #about #page #contact #donate #support",
         "id": "fb8a140d6f076647256a4ea161f4c280",
         "time": "id"
     },
