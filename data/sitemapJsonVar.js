@@ -940,7 +940,7 @@ var sitemapJsonVar = [
     {
         "text": "Projects list\n\nProjects based on HTML, CSS and JavaScript.",
         "url": "\/projects-list.html",
-        "tag": " #web_projects #projects #prpject #projects_list #project_list #list_of_projects #list_project #HTML #CSS #JavaScript #projects #list",
+        "tag": " #HTML #CSS #JavaScript #projects #list",
         "id": "6c8d65a79d2131f6bbcadd08cd1bf954",
         "time": "id"
     },
