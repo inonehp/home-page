@@ -200,11 +200,11 @@ fuMPrintText('footer', `
 <!--<span id="fAds" title="Advertising settings"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
 <span id="fPrivacy" title="Cookie settings"><a href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span id="fSettings" title="Settings"><a href="/settings.html">Settings</a></span>
-<span title="Site code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
 
 <span title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
 <span title="RSS feed news"><a href="/rss.xml">RSS</a></span>
-<span title="Page about"><a href="/about.html">About</a></span>
+<!--<span title="Page about"><a href="/about.html">About</a></span>-->
+<span title="Site code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
 <span title="Content License"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a>
 <a title="Other licenses" rel="license" title="license 2" href="/about.html#copyright">*</a></span>
 
