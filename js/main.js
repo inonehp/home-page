@@ -193,10 +193,10 @@ fuMPrintText('footer', `
 </details>
 </div>
 
-<span style="padding-left: 0;" title="Main page"><a href="/">Home</a></span>
+<!--<span style="padding-left: 0;" title="Main page"><a href="/">Home</a></span>-->
 <em id="fScript"></em>
 <em id="fStyle"></em>
-<span id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></span>
+<span style="padding-left: 0;" id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></span>
 <!--<span id="fAds" title="Advertising settings"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
 <span id="fPrivacy" title="Cookie settings"><a href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span id="fSettings" title="Settings"><a href="/settings.html">Settings</a></span>
