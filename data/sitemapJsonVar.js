@@ -7,7 +7,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": ".\n\nHome page and projects. Interests: web design, web development, and coding.",
+        "text": ".\n\nHome page and projects. Interests: Web Design, Web Dev, and Coding.",
         "url": "\/index.html",
         "tag": " #website #WebDesign #project #projects #WebDev #dev #HTML #CSS #JavaScript",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
