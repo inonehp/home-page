@@ -415,7 +415,7 @@ var sitemapJsonVar = [
     {
         "text": "Main list\n\nList of the main pages of the site.",
         "url": "\/main-list.html",
-        "tag": " #main_menu #main_pages #menu #list #projects",
+        "tag": " #main #menu #list #projects",
         "id": "733a76918eebc08eb9671ed9e7d6c74e",
         "time": "id"
     },
@@ -583,7 +583,7 @@ var sitemapJsonVar = [
     {
         "text": "Pages\n\nA list of some pages of the site.",
         "url": "\/pages.html",
-        "tag": " #list_of_pages #pages_list #pages #list #projects #list",
+        "tag": " #pages #list #projects #menu",
         "id": "5c3fd2be90ee6c4e4d4595632b38790f",
         "time": "id"
     },

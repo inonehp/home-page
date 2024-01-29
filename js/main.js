@@ -1,4 +1,4 @@
-// Main js v.5.9.1
+// Main js v.5.9.2
 // For settings, themes, ...
 
 var conf = [];
@@ -889,19 +889,21 @@ display: none !important;
 
 //console.log(document.getElementsByTagName("header")[0]);
 
-// analytics
-async function fuMAnalytics(){
+
+
+
+// Code if third-party cookies on
+async function fuMIfCookieOn(){
+
 // analytics
 //document.body.onload = function(){}
 document.addEventListener("DOMContentLoaded", (event) => { }); //fix
 //window.onload = function(){}
 //document.body.onload = function(){
-// Google Analytics 
-// privacy part
 if(conf["confDataCollection"] == 'on'){
 
 
-//<!-- Google tag (gtag.js) -->
+//<!-- Google (gtag.js) -->
 var scriptStat = document.createElement('script');
 //scriptStat.async = 'async';
 scriptStat.type ='text/javascript';
@@ -912,10 +914,12 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', conf["confGoogleAnalyticsId"]);
+//<!-- End Google (gtag.js) -->
+
 }
 }
 fuMAnalytics();
-// end analytics
+// End Code if third-party cookies on
 
 
 /*
