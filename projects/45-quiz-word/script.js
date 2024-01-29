@@ -1,4 +1,4 @@
-// v.1.1.2
+// v.1.1.3
 
 var jsonVar = dicJsonVar;
 
@@ -376,13 +376,13 @@ let qPrint = `
 <div class="padding2"></div>
 
 <div class="block padding2List tRight xSmall">
-<span class="op xSmall">Search:</span> <a class="brand" target="blank" href="/projects/25-redirects/?q=${question}">?q=${question} ⇗</a>
+<span class="op xSmall">Search:</span> <a rel="nofollow" class="brand" target="blank" href="/projects/25-redirects/?q=${question}">?q=${question} ⇗</a>
 </div>
 
 <div class="block padding2List tRight">
 <details class="inlineBlock">
 <summary class="op pointer xSmall">orig:</summary>
-<div id="fDesc" class="block pre tLeft padding2 op bg small shadow light borderRadius2 margin2List" style="margin-left: 0; margin-right: 0;">${clearPostText} <a class="brand" target="blank" href="/projects/25-redirects/?q=${clearPostText}">q=${clearPostText} ⇗</a></div>
+<div id="fDesc" class="block pre tLeft padding2 op bg small shadow light borderRadius2 margin2List" style="margin-left: 0; margin-right: 0;">${clearPostText} <a rel="nofollow" class="brand" target="blank" href="/projects/25-redirects/?q=${clearPostText}">q=${clearPostText} ⇗</a></div>
 </details>
 </div>
 
