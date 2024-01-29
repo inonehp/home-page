@@ -1,4 +1,4 @@
-// Main js v.5.9.3
+// Main js v.5.10.0
 // For settings, themes, ...
 
 var conf = [];
@@ -198,8 +198,8 @@ fuMPrintText('footer', `
 <em id="fStyle"></em>
 <span id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></span>
 <!--<span id="fAds" title="Advertising settings"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
-<span id="fPrivacy" title="Cookie settings"><a href=""/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
-<span id="fSettings" title="Settings"><a class="" href="/settings.html">Settings</a></span>
+<span id="fPrivacy" title="Cookie settings"><a href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
+<span id="fSettings" title="Settings"><a href="/settings.html">Settings</a></span>
 <span title="Site code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
 
 <span title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
@@ -244,29 +244,6 @@ if (response.ok == true) {  fuMPrintText('fStyle', `<span><a class="orange" href
 }
 }
 linkForFile();*/
-
-var printFcookieMode2 = '';
-// cookie, if not selected auto detect agree
-//https://www.termsfeed.com/blog/cookie-consent-outside-eu/
-//https://stackoverflow.com/questions/38399465/how-to-get-list-of-all-timezones-in-javascript
-if(conf["confDataCollection"] == 'not selected'||conf["confDataCollection"] == 'auto'){
-var timeZone = (Intl.DateTimeFormat().resolvedOptions().timeZone).toLowerCase();
-if(
-timeZone.indexOf('UTC'.toLowerCase()) >= 0||
-timeZone.indexOf('europe'.toLowerCase()) >= 0||
-timeZone.indexOf('mexico_city'.toLowerCase()) >= 0||
-timeZone.indexOf('argentina'.toLowerCase()) >= 0||
-timeZone.indexOf('brazil'.toLowerCase()) >= 0||
-timeZone.indexOf('lagos'.toLowerCase()) >= 0||
-timeZone.indexOf('japan'.toLowerCase()) >= 0
-){
-printFcookieMode2 = ' (off)';
-}else{
-printFcookieMode2 = ' (off)';
-}
-}
-// cookie setting from user setting, overwrided (auto in top)
-fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}${printFcookieMode2}</a>`); 
 
 
 conf["confDevice"] = 'none';
@@ -999,7 +976,43 @@ background-attachment: fixed;
 
 
 
-// v.1.2.0
+
+
+
+
+
+
+
+
+
+
+// Cookie
+
+// Auto select (timezone) v.1.2.0
+//https://www.termsfeed.com/blog/cookie-consent-outside-eu/
+//https://stackoverflow.com/questions/38399465/how-to-get-list-of-all-timezones-in-javascript
+if(conf["confDataCollection"] == 'auto'){
+var timeZone = (Intl.DateTimeFormat().resolvedOptions().timeZone).toLowerCase();
+if(
+timeZone.indexOf('UTC'.toLowerCase()) != -1||
+timeZone.indexOf('europe'.toLowerCase()) != -1||
+timeZone.indexOf('mexico_city'.toLowerCase()) != -1||
+timeZone.indexOf('argentina'.toLowerCase()) != -1||
+timeZone.indexOf('brazil'.toLowerCase()) != -1||
+timeZone.indexOf('lagos'.toLowerCase()) != -1||
+timeZone.indexOf('japan'.toLowerCase()) != -1
+){
+conf["confDataCollection"] = 'off';
+alert(conf["confDataCollection"]);
+}else{
+conf["confDataCollection"] = 'on';
+}
+
+fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">Cookie: auto (${conf["confDataCollection"]})</a>`); 
+}
+// End Auto
+
+// v.1.2.1
 // Cookie Consent Popups
 // if not selected: popup
 
@@ -1049,7 +1062,7 @@ function cookiePopup(option){
 localStorage.setItem("confDataCollection", option);
 if(document.getElementById("cookiePopup") != null){
 document.getElementById("cookiePopup").style.display = "none";
-fuMPrintText('fPrivacy', `<a href="/privacy.html">cookie: ${option}</a>`); 
+fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">cookie: ${option}</a>`); 
 }
 }
 // end Cookie Consent Popups
@@ -1085,9 +1098,10 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 }
 }
-fuMAnalytics();
+fuMIfCookieOn();
 // End If third-party cookies on
 
+// End Cookie
 
 
 
