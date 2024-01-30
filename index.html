@@ -203,14 +203,14 @@ display: block;
 <span class="small zero center">&nbsp;∷</span>
 </h1>
 <div class="padding">
-<span class="xxSmall padding insertIcon">Status: </span>
+<span class="xxSmall padding">Status: </span>
 <span class="pre tLeft small">Winter.</span> 
 
 <details class="small">
 <summary class="op wrapperS padding2List pointer">
 <span class="xSmall padding2List">update: <span id="last-update"></span></span>
 </summary>
-<div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">New page: Abc Search.</div>
+<div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">fixed ads</div>
 </details>
 
 
@@ -353,6 +353,68 @@ document.getElementById("hotLinksTop").innerHTML = a;
 
 
 
+<style>
+.username {
+position: relative;
+text-transform: uppercase;
+}
+.username::after, .username::before {
+position: relative;
+content: '';
+display: block;
+position: absolute;
+bottom: 30%;
+left: 0;
+width: 105%;
+height: 5%;
+background: var(--bg);
+}
+.username::before {
+top: 30%;
+}
+
+.headerBannerImg {
+padding-top: 10px;
+display: block;
+margin: 0 auto;
+max-height: 120px;
+margin: -30px auto;
+position: relative;
+z-index: -1;
+}
+
+
+
+.hotLinks {
+/*display: grid;
+/*grid-template-columns: repeat(auto-fill, minmax(42px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+grid-gap: 1px;*/
+/*margin: 0 auto;
+justify-content: center;
+align-items: center;*/
+
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+}
+
+.hotLinks a {
+display: inline-flex;
+width: 52px;
+height: 100%;
+justify-content: center;
+align-content: center;
+text-wrap: balance;
+padding: .3em;
+
+flex: 1 0 auto;
+flex-wrap: wrap;
+}
+/*.hotLinks .tag { max-width: 100%; }*/
+</style>
+
+
 <div  class="center" style="margin-top: 7px;">
 <div class="wrapper tCenter small"><!--if scrollX horizontal class rm tagList)-->
 <div id="hotLinks">
@@ -430,16 +492,9 @@ document.getElementById("hotLinks").innerHTML = a;
 <div class="wrapper small">
 <span class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Speed dial:</span>
 
-<div class="tagList left">
-<a class="insertIcon tag2 light2 border borderRadius2" href="/pages.html">Pages</a>
-<a class="insertIcon tag2 light2 border borderRadius2" href="/projects-list.html#projects">Projects</a>
-<a class="insertIcon tag2 light2 border borderRadius2" href="/mini-projects-list.html#mini-projects">Mini-projects</a>
-<!--<a class="insertIcon tag2 light2 border borderRadius2" href="/other-projects-list.html#other-projects">Other-projects</a>-->
-<a class="insertIcon tag2 light2 border borderRadius2" href="/archive-list.html#archive">archive</a>
-</div>
-
 <div class="block margin2"></div>
 <div class="tagList left">
+<a class="insertIcon tag2 light2 border borderRadius2" href="/pages.html">Pages</a>
 <a class="insertIcon tag2 light2 border borderRadius2" href="/projects/31-todo-list-task/">Task</a>
 <a class="insertIcon tag2 light2 border borderRadius2" href="/projects/32-todo-list-idea/">Idea</a>
 <a class="insertIcon tag2 light2 border borderRadius2" href="/projects/14-typing-speed/">Typing</a>
@@ -625,7 +680,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1706570895);
+document.getElementById("last-update").innerHTML = fuPostTime(1706588729);
 </script>
 
 <script>

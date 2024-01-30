@@ -1,12 +1,11 @@
 /* v.1.4.7 */
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
-async function fuAds(none, idAds, none2){
+async function fuAds(none, idAds, com){
 
 
 // none - Reserved variable
-// idAds - for print
-// comAds - reserved
+// idAds - id for print
 
 //var adsStatus =  localStorage.getItem("confAdsStatus");
 var adsStatus = conf["confAdsStatus"];
@@ -80,7 +79,7 @@ document.getElementById(idAds).innerHTML = '<div class="center"><div class="adsC
 
 
 // all
-if(comAds == 'all'){
+if(com == 'all'){
 
 
 var adsPrintAll = '';

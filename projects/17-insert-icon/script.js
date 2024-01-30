@@ -1,4 +1,4 @@
-// Fu insert icon v.2.6.2
+// Fu insert icon v.2.6.3
 // Function for insert icon in links using class name.
 
 
@@ -133,7 +133,9 @@ let icons = {
 "pumpkin":"🎃", "halloween":"🎃",
 "pc":"🖥", "desktop":"🖥", "computer":"🖥",
 "photo":"📷", "camera":"📷", "screenshot":"📷",
-"project":"❖", "projects":"❖", "tpl":"📄", "template":"📄", "templates":"📄", "iframe":"📄",
+//"project":"❖", "projects":"❖",
+"project":"∷", "projects":"∷",
+"tpl":"📄", "template":"📄", "templates":"📄", "iframe":"📄",
 "radio":"📻",
 "random":"🎲", "dice":"🎲",
 "robot":"🤖", "auto":"🤖",

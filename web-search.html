@@ -189,6 +189,68 @@ display: block;
 </form>
 
 
+<style>
+.username {
+position: relative;
+text-transform: uppercase;
+}
+.username::after, .username::before {
+position: relative;
+content: '';
+display: block;
+position: absolute;
+bottom: 30%;
+left: 0;
+width: 105%;
+height: 5%;
+background: var(--bg);
+}
+.username::before {
+top: 30%;
+}
+
+.headerBannerImg {
+padding-top: 10px;
+display: block;
+margin: 0 auto;
+max-height: 120px;
+margin: -30px auto;
+position: relative;
+z-index: -1;
+}
+
+
+
+.hotLinks {
+/*display: grid;
+/*grid-template-columns: repeat(auto-fill, minmax(42px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+grid-gap: 1px;*/
+/*margin: 0 auto;
+justify-content: center;
+align-items: center;*/
+
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+}
+
+.hotLinks a {
+display: inline-flex;
+width: 52px;
+height: 100%;
+justify-content: center;
+align-content: center;
+text-wrap: balance;
+padding: .3em;
+
+flex: 1 0 auto;
+flex-wrap: wrap;
+}
+/*.hotLinks .tag { max-width: 100%; }*/
+</style>
+
+
 <div  class="center" style="margin-top: 7px;">
 <div class="wrapper tCenter small"><!--if scrollX horizontal class rm tagList)-->
 <div id="hotLinks">
