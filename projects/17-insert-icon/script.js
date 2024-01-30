@@ -1,4 +1,4 @@
-// Fu insert icon v.2.6.3
+// Fu insert icon v.2.6.4
 // Function for insert icon in links using class name.
 
 
@@ -19,7 +19,7 @@ let icons = {
 "bitcoin":`<span class="orange">₿</span>`,
 "bluesky":"🟦", "bento":"🟦",
 "blogspot":"🅱",
-"dev.to":"⬛", "aboutme":"⬛",
+"dev.to":"⬛", "about.me":"⬛",
 "twitter":`<span class="bold">𝕏</span>`, "x.com":`<span class="small bold">𝕏</span>`,
 "twitch":"🔴",
 "docs":"📄",
@@ -105,8 +105,7 @@ let icons = {
 "translit":"⇄", "convert":"⇄",
 "fox":"🦊",
 "hello":"👋",
-//"info":"ℹ️", "faq":"ℹ️", "about":"ℹ️", 
-"info":"ℹ", "faq":"ℹ", "about":"ℹ", 
+"info":"ℹ️", "faq":"ℹ️", "about":"ℹ️", 
 "insert":"📋", "paste":"📋",
 "joystick":"🕹",
 "keyboard":"⌨️", "typing":"⌨️", "input":"⌨️",
