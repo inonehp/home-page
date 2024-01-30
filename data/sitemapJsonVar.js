@@ -58,28 +58,28 @@ var sitemapJsonVar = [
     {
         "text": "Archive > mini projects >  balloon > .\n\nballoon.",
         "url": "\/archive\/mini-projects\/7-balloon\/index.html",
-        "tag": " #dropping_balls #dropping_balls_page #JavaScript #project",
+        "tag": " #dropping._balls #JavaScript #project",
         "id": "856e353d5e700010e6a24f18db414c79",
         "time": "id"
     },
     {
         "text": "Archive > mini projects >  blockquotes cpc > .\n\nFor CodePen #CPC. Experimental page with quote styling using CSS.",
         "url": "\/archive\/mini-projects\/8-blockquotes-cpc\/index.html",
-        "tag": " #quote_styling_CSS #quote_styling #quote_styling_experiment #CPC #CSS #HTML #project",
+        "tag": " #quote #styling_CSS #CPC #CSS #HTML #project",
         "id": "c8f4b456b19b2739088e72c55b0d7956",
         "time": "id"
     },
     {
         "text": "Archive > mini projects >  color collection > .\n\ncolor collection.",
         "url": "\/archive\/mini-projects\/27-color-collection\/index.html",
-        "tag": " #Color_Collection #color #collection #JavaScript #project #list",
+        "tag": " #Color #Collection #JavaScript #project #list",
         "id": "32f0d7463fcdee8c240d13c0b3bd3e39",
         "time": "id"
     },
     {
         "text": "Archive > mini projects >  gradient glow style cpc > .\n\nGradient glow style #CPC",
         "url": "\/archive\/mini-projects\/28-gradient-glow-style-cpc\/index.html",
-        "tag": " #CPC #CSS #project",
+        "tag": " #gradien #WebDesign #CPC #CSS #project",
         "id": "99f6526dc5374fe2b70ac4b7fa95c336",
         "time": "id"
     },
@@ -107,42 +107,42 @@ var sitemapJsonVar = [
     {
         "text": "Archive > mini projects >  pull quotes cpc > .\n\nExperimental page with quote styling using CSS | 2.",
         "url": "\/archive\/mini-projects\/14-pull-quotes-cpc\/index.html",
-        "tag": " #quote_styling_CSS #quote_styling #quote_styling_experiment #CPC #CSS #HTML #project",
+        "tag": " #quote #styling #CPC #CSS #HTML #project",
         "id": "d0579fbf710518788ef37d76973d4154",
         "time": "id"
     },
     {
         "text": "Archive > mini projects >  quote poster cpc > .\n\nExperimental page with quote styling using CSS | 3.",
         "url": "\/archive\/mini-projects\/16-quote-poster-cpc\/index.html",
-        "tag": " #quote_styling_CSS #quote_styling #quote_styling_experiment #CPC #CSS #HTML #project",
+        "tag": " #quote #styling #CPC #CSS #HTML #project",
         "id": "b2d7ae4b1aff70fb075280f4e07ad8c6",
         "time": "id"
     },
     {
         "text": "Archive > mini projects >  sun cpc > .\n\nCSS picture of the sun, based on Codepen template for the contest.",
         "url": "\/archive\/mini-projects\/21-sun-cpc\/index.html",
-        "tag": " #CSS_sun #CSS_art_sun #CSS_drawing_sun #CPC #CSS #HTML #project",
+        "tag": " #sun #CPC #CSS #HTML #project",
         "id": "a8f174320ca2db6b572db0e3be540898",
         "time": "id"
     },
     {
         "text": "Archive > mini projects >  synthetic textures cpc > .\n\nCSS effect of plastic or other textured text, based on Codepen template for the contest.",
         "url": "\/archive\/mini-projects\/22-synthetic-textures-cpc\/index.html",
-        "tag": " #CSS_texture_text #CSS_text_effect #CPC #CSS #project",
+        "tag": " #texture #text #CPC #CSS #project",
         "id": "a27fac10eb994ee13bfbd670c69f2758",
         "time": "id"
     },
     {
         "text": "Archive > mini projects >  testimonial quotes cpc > .\n\nExperimental page with quote styling using CSS | 4.",
         "url": "\/archive\/mini-projects\/23-testimonial-quotes-cpc\/index.html",
-        "tag": " #CSS_quote #quote_styling_CSS #quote_styling #quote_styling_experiment #CPC #CSS #project",
+        "tag": " #quote #styling #CPC #CSS #project",
         "id": "9b2e1a4c6e1cb23e7bbd1e5bec6dce8b",
         "time": "id"
     },
     {
         "text": "Archive > mini projects >  winter long and short cpc > .\n\nWinter (long and short #CPC)",
         "url": "\/archive\/mini-projects\/29-winter-long-and-short-cpc\/index.html",
-        "tag": " #CSS_winter #CPC #CSS #project",
+        "tag": " #winter #CPC #CSS #project",
         "id": "18b744e568bf7ecd16702b45738ecb31",
         "time": "id"
     },
@@ -163,28 +163,28 @@ var sitemapJsonVar = [
     {
         "text": "Archive > projects >  div id to tag > .\n\nA JavaScript class that searches for all ids on the specified block of HTML code and creates hash tags or anchors for these ids from them",
         "url": "\/archive\/projects\/6-div-id-to-tag\/index.html",
-        "tag": " #JavaScript_class #id_to_tag #JavaScript #project",
+        "tag": " #JavaScript #class #id #JavaScript #project",
         "id": "d608628de7a048e59a0c3cbcb5546927",
         "time": "id"
     },
     {
         "text": "Archive > projects >  share > .\n\nTest page to share text or link.",
         "url": "\/archive\/projects\/26-share\/index.html",
-        "tag": " #share #share_text #share_link #JavaScript #project",
+        "tag": " #share #text #link #JavaScript #project",
         "id": "f2fb211c1c01abeadf09f81e5f541d9e",
         "time": "id"
     },
     {
         "text": "Archive > projects >  simple captcha > .\n\nSimple Captcha",
         "url": "\/archive\/projects\/42-simple-captcha\/index.html",
-        "tag": " #Simple_Captcha #JavaScript #project",
+        "tag": " #Simple #Captcha #JavaScript #project",
         "id": "0f97fc591f6af7d32a4e1f66a6dfd1c3",
         "time": "id"
     },
     {
         "text": "Archive > projects >  x twitter embed > .\n\nTwitter \/ X embed (widget) showing a list of tweets.",
         "url": "\/archive\/projects\/38-x-twitter-embed\/index.html",
-        "tag": " #twitter #embed #x #JavaScript #project",
+        "tag": " #Twitter #embed #X #JavaScript #project",
         "id": "3455a41a53e7c510cd318021c6c16411",
         "time": "id"
     },
@@ -294,7 +294,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Css art data > a none > .\n\nnone",
+        "text": "Css art data > a none > .\n\nnone,",
         "url": "\/css-art-data\/a0-none\/index.html",
         "tag": " #none",
         "id": "8c5f563accc7dd1304a615fcf6ceb2e2",
@@ -443,7 +443,7 @@ var sitemapJsonVar = [
     {
         "text": "Mini projects >  animation test > .\n\nCSS animation demonstration.",
         "url": "\/mini-projects\/6-animation-test\/index.html",
-        "tag": " #CSS_animation #animation #CSS #HTML #CSS #project",
+        "tag": " #animation #HTML #CSS #project",
         "id": "fc2bd86f385684b36c56dc4acd805e3a",
         "time": "id"
     },
@@ -457,14 +457,14 @@ var sitemapJsonVar = [
     {
         "text": "Mini projects >  button blur unblur > .\n\nButton: focus, defocus",
         "url": "\/mini-projects\/28-button-blur-unblur\/index.html",
-        "tag": " #button_focus #effect #HTML #CSS #project",
+        "tag": " #button #focus #effect #HTML #CSS #project",
         "id": "f952742ef3bf1324a88120c6b003b2bb",
         "time": "id"
     },
     {
         "text": "Mini projects >  buttons > .\n\nTrying to create a list of buttons in different styles.",
         "url": "\/mini-projects\/30-buttons\/index.html",
-        "tag": " #button #tool #collection #list #buttons #button_list #buttons_list #CSS #HTML #project",
+        "tag": " #button #tool #collection #list #buttons #CSS #HTML #project",
         "id": "61be9667076c408c15b84d834f743d75",
         "time": "id"
     },
@@ -492,42 +492,42 @@ var sitemapJsonVar = [
     {
         "text": "Mini projects >  not sleep pc > .\n\nA page to force the computer not to go into sleep mode, the page simply has a video that repeats itself endlessly.",
         "url": "\/mini-projects\/12-not-sleep-pc\/index.html",
-        "tag": " #not #sleep #PC #computer #not_sleeping_computer #prevent_sleep_computer #not_sleep_computer #prevent_hibernation #HTML #project",
+        "tag": " #not #sleep #PC #computer #prevent #hibernation #HTML #project",
         "id": "ab992838622f3674c98fdf1e43775748",
         "time": "id"
     },
     {
         "text": "Mini projects >  rain cpc > .\n\nRain effect and animation using CSS and JavaScript",
         "url": "\/mini-projects\/17-rain-cpc\/index.html",
-        "tag": " #CSS_rain #rand #CSS #JavaScript_rain #CPC #CSS #JavaScript #project",
+        "tag": " #rain #random #drop #CPC #CSS #JavaScript #project",
         "id": "5eac798899a81b2f744fc238885e0149",
         "time": "id"
     },
     {
         "text": "Mini projects >  random button cpc > .\n\nRandom button, experiment, uses JavaScript and CSS.",
         "url": "\/mini-projects\/18-random-button-cpc\/index.html",
-        "tag": " #random #button #random_button #random_button_JavaScript #CPC #JavaScript #project",
+        "tag": " #random #button #CPC #JavaScript #project",
         "id": "95e615b1d9b262f3b0b8a887ffcddbab",
         "time": "id"
     },
     {
         "text": "Mini projects >  responsive web design > .\n\nExample of responsive content using CSS, where the size adapts depending on the screen size.",
         "url": "\/mini-projects\/2-responsive-web-design\/index.html",
-        "tag": " #CSS_responsive #CSS_mobile #UI #UX #CSS #project",
+        "tag": " #responsive #HTML #mobile #UI #UX #CSS #project",
         "id": "cbe9883b65784e9474123c14c35c37e8",
         "time": "id"
     },
     {
         "text": "Mini projects >  round cpc > .\n\nCircles are placed on the page using HTML, CSS.",
         "url": "\/mini-projects\/19-round-cpc\/index.html",
-        "tag": " #CSS_circle #CSS #CSS_wallpaper #CSS #project",
+        "tag": " #circle #wallpaper #CSS #project",
         "id": "874fa6050cc3b843d7b8bdb03cac589d",
         "time": "id"
     },
     {
         "text": "Mini projects >  snow > .\n\nSnow effect on the page using HTML, CSS and JavaScript.",
         "url": "\/mini-projects\/20-snow\/index.html",
-        "tag": " #effect #CSS_snow_effect #JavaScript_snow_effect #snow_effect_for_website #JavaScript #project",
+        "tag": " #snow #effect #CSS #JavaScript #project",
         "id": "b6855f83e99ff8192058eba75493b3e1",
         "time": "id"
     },
@@ -618,7 +618,7 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  average number > .\n\nAfter entering the numbers, the result will be the average value",
         "url": "\/projects\/40-average-number\/index.html",
-        "tag": " #average #number #tool #Average_Number #average #number #JavaScript #project",
+        "tag": " #average #number #tool #JavaScript #project",
         "id": "4d38326e843e238da4071fe403deed31",
         "time": "id"
     },
@@ -632,7 +632,7 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  browser info > .\n\nTest page to learn JavaScript capabilities and get information about the browser.",
         "url": "\/projects\/2-browser-info\/index.html",
-        "tag": " #JS #JavaScript #JavaScript_test #information_about_browser #browser_information #JavaSript_test_page #project",
+        "tag": " #JS #JavaScript #test #information #browser #page #project",
         "id": "98f05035270966106a682d628c6bf43e",
         "time": "id"
     },
@@ -646,35 +646,35 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  color picker > .\n\nColor picker.",
         "url": "\/projects\/4-color-picker\/index.html",
-        "tag": " #color #tool #color_picker #HTML_color #select_color #project",
+        "tag": " #color #tool #picker #HTML #project",
         "id": "ce0e3cdcc03773a01bd35ec50970b3c7",
         "time": "id"
     },
     {
         "text": "Projects >  count symbol > .\n\nA very simple counter of letters or symbols in the text.",
         "url": "\/projects\/39-count-symbol\/index.html",
-        "tag": " #symbol #counter #tool #symbol_counter #counter_symbol #symbol_counter_online #counter_symbol_online #JavaScript #project",
+        "tag": " #symbol #counter #tool #symbol #JavaScript #project",
         "id": "4ea001fc7aa10cd1806cff5d1cebb0c2",
         "time": "id"
     },
     {
         "text": "Projects >  demo test style > .\n\nA test page for testing CSS style on this site.",
         "url": "\/projects\/5-demo-test-style\/index.html",
-        "tag": " #demo #demo_test #test_style #demo_page #style_demo #project",
+        "tag": " #demo #test #style #page #project",
         "id": "7cb3dff7768fd22675af571c6c4e8c43",
         "time": "id"
     },
     {
         "text": "Projects >  drawing > .\n\nA simple web application for drawing.",
         "url": "\/projects\/7-drawing\/index.html",
-        "tag": " #draw #drawing #art #tool #HTML5_drawing #web_drawing_app #drawing_web_app #project",
+        "tag": " #draw #drawing #art #tool #HTML5 #drawing #app #WebAppproject",
         "id": "b571da936056b062bb254a428f5b9f40",
         "time": "id"
     },
     {
         "text": "Projects >  dropdown menu > .\n\nDropdown Menu project.",
         "url": "\/projects\/8-dropdown-menu\/index.html",
-        "tag": " #menu #UI #UX #dropdown_menu #dropdown_munu_JavaScript #dropdown #WebDesign #project",
+        "tag": " #menu #UI #UX #dropdown #menu #JavaScript #WebDesign #project",
         "id": "d680bc1528d0e5f51433b170ccf3a684",
         "time": "id"
     },
@@ -688,35 +688,35 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  game dice > .\n\nGame dice.",
         "url": "\/projects\/9-game-dice\/index.html",
-        "tag": " #game #game_dice #dice_game #dice_game_project #game_dice_online #dice_online #HTML5_game #JavaScript_game #web_game #game_online #project",
+        "tag": " #game #dice #HTML5 #JavaScript #WebApp #project",
         "id": "7c3c53dc00196f4c60e6107b06b1f3e2",
         "time": "id"
     },
     {
         "text": "Projects >  game guess number > .\n\nYou need to guess the random number.",
         "url": "\/projects\/10-game-guess-number\/index.html",
-        "tag": " #game #Guuess_Number #Game_Guess_Number #Guess_Number_Online #HTML5_Game #JavaScript_Game #Web_Game #Game_Online #project",
+        "tag": " #game #guuess #number #HTML5 #JavaScript #WebGame #game #project",
         "id": "18c62fc03f1ab8b9930c1375d5d44b4c",
         "time": "id"
     },
     {
         "text": "Projects >  game memory symbol > .\n\nIn this game, there is a grid with masked cells that need to be opened. You need to open two identical symbols (emoji) in sequence, winning if you opened everything.",
         "url": "\/projects\/11-game-memory-symbol\/index.html",
-        "tag": " #game #memory_symbol #game_memory_symbol #memory_symbol_game #memory_symbol_game_project #memory_symbol_online #HTML5_game #JavaScript_game #web_game #game_online #project",
+        "tag": " #game #memory #symbol #HTML5 #JavaScript #project",
         "id": "ef2c858ea206dd571343520a7bf2d63c",
         "time": "id"
     },
     {
         "text": "Projects >  game snake > .\n\nSnake game, you need to eat food and grow.",
         "url": "\/projects\/12-game-snake\/index.html",
-        "tag": " #game #snake #snake_game #game_snake #HTML5_game #JavaScript_game #web_game #game_online #project",
+        "tag": " #game #snake #HTML5 #JavaScript #project",
         "id": "566840610c447c47e930d6fcb52701e6",
         "time": "id"
     },
     {
-        "text": "Projects >  game tic tac toe > .\n\nGame of tic-tac-toe.",
+        "text": "Projects >  game tic tac toe > .\n\nGame tic-tac-toe.",
         "url": "\/projects\/13-game-tic-tac-toe\/index.html",
-        "tag": " #game #tic-tac-toe #tic_tac_toe #HTML5_game #JavaScript_game #web_game #game_online #JavaScript #project",
+        "tag": " #game #tic #tac #toe #HTML5 #JavaScript #JavaScript #project",
         "id": "cdcb685d4a8c9e1565b230cf2015acd9",
         "time": "id"
     },
@@ -737,49 +737,49 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  google trends > .\n\nGoogle trends",
         "url": "\/projects\/46-google-trends\/index.html",
-        "tag": " #Google_trends #google #trends #info #HTML #embed",
+        "tag": " #Google #trends #info #HTML #embed",
         "id": "db620aabc860575516e72ee35dab2105",
         "time": "id"
     },
     {
         "text": "Projects >  highlight word > .\n\nJavaScript function for highlighting tag by id.",
         "url": "\/projects\/15-highlight-word\/index.html",
-        "tag": " #highlight #selection #function_highlighting #multi_highlight #JavaScript #project",
+        "tag": " #highlight #selection #function #highlighting #multi #JavaScript #project",
         "id": "c9559f8127ac4279fbc039fd1970b924",
         "time": "id"
     },
     {
         "text": "Projects >  insert icon > .\n\nJavaScript icon insertion function.",
         "url": "\/projects\/17-insert-icon\/index.html",
-        "tag": " #insert #icon #insert_icon #insert_icons #function #tool #function #JavaScript #project",
+        "tag": " #insert #icon #function #tool #function #JavaScript #project",
         "id": "6d8b1006061862f2336df8cdaf7f0623",
         "time": "id"
     },
     {
         "text": "Projects >  movie list > .\n\nSmall list of movies, just a link to another movie database service, at the top there is a random movie from the list. JavaScript function for parse WATCHLIST.csv from IMDB.",
         "url": "\/projects\/19-movie-list\/index.html",
-        "tag": " #movie #list #collection #random #movie_list #random_movie #JavaScript #project",
+        "tag": " #movie #list #collection #random #JavaScript #project",
         "id": "d6628c0ba99808ce2b74790b497603f7",
         "time": "id"
     },
     {
         "text": "Projects >  music > .\n\nA collection of music,  played randomly, using third-party platforms and their players.",
         "url": "\/projects\/20-music\/index.html",
-        "tag": " #music #collection #random #random_music #music_colection #JavaScript #project",
+        "tag": " #music #collection #random #JavaScript #project",
         "id": "2507b5ee3df8224dec4d962576708e9c",
         "time": "id"
     },
     {
         "text": "Projects >  page gen test > .\n\nPage generation test",
         "url": "\/projects\/47-page-gen-test\/index.html",
-        "tag": " #test #lag_test #JavaScript #project",
+        "tag": " #test #lag #test #JavaScript #project",
         "id": "8f85bfa11927850ebbd1d594b791bc69",
         "time": "id"
     },
     {
         "text": "Projects >  pwa test > .\n\nTest page for PWA (Progressive Web Apps), third-party code. (Service Worker test page).",
         "url": "\/projects\/21-pwa-test\/index.html",
-        "tag": " #PWA #tool #PWA_test #PWA_test_page #web_app_test #Service_Worker_test #JavaScript #test #project",
+        "tag": " #PWA #tool #test #WebApp #Service #Worker #JavaScript #project",
         "id": "462bbe4ec0a95ef369c8fe206a97c1d1",
         "time": "id"
     },
@@ -793,28 +793,28 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  radio > .\n\nA small collection of radio stations with the ability to play online, is chosen randomly.",
         "url": "\/projects\/22-radio\/index.html",
-        "tag": " #radio #random #random_radio #radio_online #radio_station_colection #JavaScript #project",
+        "tag": " #radio #random #online #station #colection #JavaScript #project",
         "id": "471dbcad5bdc62543b094e32cff444a7",
         "time": "id"
     },
     {
         "text": "Projects >  random symbol or password generator > .\n\nThe page generates random letters, symbols, and numbers that can be used for a password.",
         "url": "\/projects\/23-random-symbol-or-password-generator\/index.html",
-        "tag": " #symbol #random #generator #tool #random_letter #random_symbols #random_number #password_generator #JavaScript #project",
+        "tag": " #symbol #random #generator #tool #letter #symbols #password #JavaScript #project",
         "id": "6531f0bb87ea56c749b37b6c711cc5ab",
         "time": "id"
     },
     {
         "text": "Projects >  random text generator > .\n\nThe page generates random letters with commas, dots and line breaks to be like the text of the article.",
         "url": "\/projects\/24-random-text-generator\/index.html",
-        "tag": " #random #text #tool #random_text #random_text_generator #random_letter #random_letter_generator #lorem_ipsum #lorem_ipsum_alternative #JavaScript #project",
+        "tag": " #random #text #tool #letter #lorem #ipsum #JavaScript #project",
         "id": "b48e5a10aaf0a13da2e8453849176436",
         "time": "id"
     },
     {
         "text": "Projects >  redirects > .\n\nWeb search, more correct, a search form with redirection of entered queries to other real search engines. The script redirects the search query + command to another location.",
         "url": "\/projects\/25-redirects\/index.html",
-        "tag": " #redirect #web #search #URL #page #search_redirection #search_redirect #search_form #random_search_engine #random_search_system #JavaScript #project",
+        "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
         "id": "23cb5e0b7c4d5f09bff2ed2d074b8b9e",
         "time": "id"
     },
@@ -835,28 +835,28 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  text to binary > .\n\nConversion of text and symbols into binary format using JavaScript.",
         "url": "\/projects\/39-text-to-binary\/index.html",
-        "tag": " #text #binary #tool #text_to_binary #binary_text #text_to_binary_conversion #text_to_binary_converter #JavaScript #project",
+        "tag": " #text #binary #tool #conversion #converter #JavaScript #project",
         "id": "0aefed9f6007664ed1bc5e070dfd38d3",
         "time": "id"
     },
     {
         "text": "Projects >  text to url > .\n\nConversion of text into URL or file name using JavaScript.",
         "url": "\/projects\/43-text-to-url\/index.html",
-        "tag": " #text #URL #tool #text_to_URL #URL #text_to_file_name #file_name #JavaScript #project",
+        "tag": " #text #URL #tool #file #name #JavaScript #project",
         "id": "ab515ea1e1b7d1835ea516015bc707a8",
         "time": "id"
     },
     {
         "text": "Projects >  time binary clock > .\n\nBinary clock online on webpage. Made with CSS and JavaScript.",
         "url": "\/projects\/28-time-binary-clock\/index.html",
-        "tag": " #time #binary #clock #info #binary_clock #binary_clock_JavaScript #JavaScript_binary_clock #binary_time #JavaScript #project",
+        "tag": " #time #binary #clock #info #JavaScript #project",
         "id": "ab486d75245c0c4b13a84b062df3def2",
         "time": "id"
     },
     {
         "text": "Projects >  time clock > .\n\nA simple ordinary clock, shows the computer (browser) time.",
         "url": "\/projects\/29-time-clock\/index.html",
-        "tag": " #time #clock #clock_online #JavaScript_clock #info #JavaScript #project",
+        "tag": " #time #clock #info #JavaScript #project",
         "id": "4b35aafe50c2d5ff957e0fdab17f6c9e",
         "time": "id"
     },
@@ -870,49 +870,49 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  todo list idea > .\n\ntodo list idea",
         "url": "\/projects\/32-todo-list-idea\/index.html",
-        "tag": " #todo #list_idea #idea #list #tool #JavaScript #project",
+        "tag": " #todo #list #idea #tool #JavaScript #project",
         "id": "c689f844f80110f25358b7c1080fb6c4",
         "time": "id"
     },
     {
         "text": "Projects >  todo list task > .\n\nSimple todo list or task list:\r\n\u00b7 checkmark, adding, editing, deletion task.\r\n\u00b7 pin to the top.\r\n\u00b7 random task.\r\n\u00b7 clear, delete.",
         "url": "\/projects\/31-todo-list-task\/index.html",
-        "tag": " #todo #task #tool #todo_list #simple_todo_list #task #task_list #list_task #list_of_task #JavaScript #project",
+        "tag": " #todo #task #tool #list #task #JavaScript #project",
         "id": "7f79083cc140dc4571510318698dc326",
         "time": "id"
     },
     {
         "text": "Projects >  transliterate > .\n\nCyrillic transliteration using JavaScript.",
         "url": "\/projects\/35-transliterate\/index.html",
-        "tag": " #transliteration #text #tool #translit #transliteration_online #translit_online #JavaScript #project",
+        "tag": " #transliteration #text #tool #translit #JavaScript #project",
         "id": "3dea651bb66c9675b024b053fe5480ed",
         "time": "id"
     },
     {
         "text": "Projects >  tv > .\n\nA tiny collection of TV channels online, is chosen randomly. Players from other platforms are used.",
         "url": "\/projects\/36-tv\/index.html",
-        "tag": " #tv #random #random_TV #random_TV_channels #TV_online #online_TV #JavaScript #project",
+        "tag": " #tv #random #collection #JavaScript #project",
         "id": "b119afd8736b97a772b10bd543c06493",
         "time": "id"
     },
     {
         "text": "Projects >  typing speed > .\n\n\u00b7 A typing speed or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM.\r\n\u00b7 Modes: quotes, book, own text input.",
         "url": "\/projects\/14-typing-speed\/index.html",
-        "tag": " #game #typing_speed #keyboard_trainer #WPM #read_text_by_typing_text #typing_text #words_per_minute #typing_test #input_speed_test #input_speed #word_per_minute #JavaScript #project",
+        "tag": " #game #typing #speed #trainer #WPM #JavaScript #project",
         "id": "b655a741b3268d0bf4fe44651daa3752",
         "time": "id"
     },
     {
         "text": "Projects >  video > .\n\nA small collection video, shown randomly.",
         "url": "\/projects\/18-video\/index.html",
-        "tag": " #video #random #random_video #collection #JavaScript #project",
+        "tag": " #video #random #collection #JavaScript #project",
         "id": "1ba78c2bf06f2d65e2f5edd927b6e0ac",
         "time": "id"
     },
     {
         "text": "Projects >  weather > .\n\nA simple tiny card showing the current weather.",
         "url": "\/projects\/37-weather\/index.html",
-        "tag": " #weather #information #api #carrent_weather #JavaScript #project #widget",
+        "tag": " #weather #information #api #info #JavaScript #project #widget",
         "id": "e39323f08cab051b171d30af7dffbfdb",
         "time": "id"
     },

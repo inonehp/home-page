@@ -205,7 +205,7 @@ fuMPrintText('footer', `
 <span title="RSS feed news"><a href="/rss.xml">RSS</a></span>
 <!--<span title="Page about"><a href="/about.html">About</a></span>-->
 <span title="Site code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
-<span title="Content License"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a>
+<span title="License"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a>
 <a title="Other licenses" rel="license" title="license 2" href="/about.html#copyright">*</a></span>
 
 <span style="padding-right: 0;" title="Hosting service"><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>

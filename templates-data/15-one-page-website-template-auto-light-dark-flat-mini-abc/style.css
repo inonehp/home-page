@@ -1,4 +1,4 @@
-/* v.2.0.4 */
+/* v.2.0.5 */
 
 
 
@@ -90,7 +90,7 @@ text-align: left;
 border-bottom: 5px dotted var(--c);
 border-radius: 0 0 10% 0;
 }
-.localProfile span { display: inline-block; padding: 10px; }
+/*.localProfile span { display: inline-block; padding: 10px; }*/
 
 /* color theme */
 
