@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "91",
+        "text": "favicon.ico Generator",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.favicon.cc\/",
+        "tag": "#tools #image",
+        "time": 1706620636
+    },
+    {
         "id": "89",
         "text": "Analytics Tools & Solutions for Your Business - Google Analytics",
         "text2": "",
