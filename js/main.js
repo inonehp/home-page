@@ -1,4 +1,4 @@
-// Main js v.5.10.0
+// Main js v.5.10.1
 // For settings, themes, ...
 
 var conf = [];
@@ -304,7 +304,7 @@ cssEmbed.href = '/css/'+theme+'.css';
 document.head.appendChild(cssEmbed);
 
 
-document.getElementById('theme').href = '/css/'+theme+'.css';
+document.getElementById('theme').href = '/css/' + theme + '.css';
 }
 
 
@@ -674,8 +674,13 @@ themeAuto();
 break;
 }
 
+let mForseStatus = '';
+if(conf["confTheme"] != mode){ mForseStatus = "[force] "; }
 
-
+// print theme mode and name in footer
+if(document.getElementById('fTheme') != null){
+document.getElementById("fTheme").innerHTML = `<a href="/theme.html">theme: ${mForseStatus}${mode} (${conf["confRealTmpTheme"]})</a>`;
+}
 
 
 }
@@ -700,11 +705,11 @@ fuMSetTheme(conf["confTheme"]);
 */
 // end theme
 
-
+/* in test, delme (now in function: setTheme)
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = '<a href="/theme.html">theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')</a>';
-}
+}*/
 
 
 function fuMReload(){ location.reload(true); }

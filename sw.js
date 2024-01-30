@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.01.29";
+//var myCacheVersion = "v.1.2.2024.01.30";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.01.29").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.01.30").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -89,6 +89,7 @@ var fileListArr = ["/404.html",
 "/BingSiteAuth.xml",
 "/LICENSE.md",
 "/README.md",
+"/abc-search.html",
 "/about.html",
 "/ads.html",
 "/archive/index.html",
@@ -480,6 +481,7 @@ var fileListArr = ["/404.html",
 "/img/bg-dark.svg",
 "/img/bg-light.svg",
 "/img/favicon16x16.png",
+"/img/google-custom-search-engine.png",
 "/img/header-banner (copy 1).svg",
 "/img/header-banner.png",
 "/img/header-banner.svg",
@@ -794,11 +796,11 @@ var fileListArr = ["/404.html",
 "/projects/48-effect-when-scroll/",
 "/projects/48-effect-when-scroll/script.js",
 "/projects/48-effect-when-scroll/style.css",
-"/projects/49-google-search/for-paste.txt",
-"/projects/49-google-search/",
-"/projects/49-google-search/index.html",
-"/projects/49-google-search/script.js",
-"/projects/49-google-search/style.css",
+"/projects/49-google-programmable-search/index.html",
+"/projects/49-google-programmable-search/",
+"/projects/49-google-programmable-search/script.js",
+"/projects/49-google-programmable-search/site-list.txt",
+"/projects/49-google-programmable-search/style.css",
 "/projects/5-demo-test-style/index.html",
 "/projects/5-demo-test-style/",
 "/projects/5-demo-test-style/script.js",
@@ -1023,7 +1025,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.01.29")
+caches.open("v.1.2.2024.01.30")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1044,7 +1046,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.01.29")
+caches.open("v.1.2.2024.01.30")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1070,7 +1072,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.01.29"];
+  const cachesToKeep = ["v.1.2.2024.01.30"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

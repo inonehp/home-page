@@ -1191,6 +1191,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "bad guy \u00b7 Billie Eilish",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ZD6rXLXZOEI",
+        "tag": "#music"
+    },
+    {
         "text": "Bad Suns - \"Lunar Shadows\" [Lyric Video] - YouTube",
         "text2": "",
         "text3": "",
@@ -3680,6 +3687,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=6FEDrU85FLE",
+        "tag": "#music"
+    },
+    {
+        "text": "Crazy \u00b7 Gnarls Barkley",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=vBtvhPM2GHc",
         "tag": "#music"
     },
     {
@@ -7683,7 +7697,7 @@ var musicJsonVar =
         "text": "J\u00f3ga \u00b7 Bj\u00f6rk",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=ADzifIDCToI",
+        "url": "https:\/\/www.youtube.com\/watch?v=hZCIkDjhHZM",
         "tag": "#music"
     },
     {
@@ -12230,6 +12244,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Porcelain \u00b7 Moby",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Mw3LlFb0rRA",
+        "tag": "#music"
+    },
+    {
         "text": "Porche Boost \u00b7 Trevor Rabin",
         "text2": "",
         "text3": "",
@@ -12255,6 +12276,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=gWRXGViFh-U",
+        "tag": "#music"
+    },
+    {
+        "text": "Praise You \u00b7 Fatboy Slim",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=LwTakkn8dfU",
         "tag": "#music"
     },
     {
@@ -16633,6 +16661,20 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "UPSAHL - Snowglobe (Official Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=OE8Ef1dxtls",
+        "tag": "#music"
+    },
+    {
+        "text": "UPSAHL - Wish You'd Make Me Cry (Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=k_MG9D8q98Q",
+        "tag": "#music"
+    },
+    {
         "text": "Uptown Funk \u00b7 Mark Ronson \u00b7 Bruno Mars",
         "text2": "",
         "text3": "",
@@ -16868,6 +16910,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=p-gf6KdJVPA",
+        "tag": "#music"
+    },
+    {
+        "text": "What Else Is There ? \u00b7 R\u00f6yksopp",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=hnhAjUqdpo8",
         "tag": "#music"
     },
     {

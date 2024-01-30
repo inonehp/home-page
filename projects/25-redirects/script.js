@@ -736,25 +736,10 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-
 'https://www.w3schools.com/',
 'https://developer.mozilla.org/docs/',
 'https://web.dev/',
 'https://stackoverflow.com/',
-
-/*
-'https://www.w3.org/',
-'https://isocpp.org/tour',
-'https://www.ruby-lang.org/en/documentation/',
-'https://docs.scala-lang.org/',
-'https://docs.python.org/',
-'https://golang.org/doc/',
-'https://www.rust-lang.org/learn',
-'https://devdocs.io/',
-'https://docs.julialang.org/',
-'https://www.typescriptlang.org/docs/',
-'http://www.lua.org/docs.html',
-*/
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -997,12 +982,13 @@ if(q == ''){ url = "https://www.google.com/"; }
 sRedirUrl = url;
 break;
 
+case 'abc#':
 case 'gg#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "/projects/49-google-search/?q=" + q;
-if(q == ''){ url = "/projects/49-google-search/?q="; }
+url = "/abc-search.html?q=" + q;
+if(q == ''){ url = "/abc-search.html"; }
 sRedirUrl = url;
 break;
 

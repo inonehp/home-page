@@ -14,6 +14,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Abc search\n\nGoogle programmable search engine. (Google custom search engine)",
+        "url": "\/abc-search.html",
+        "tag": " #search #engine #tool #HTML #widget #Google",
+        "id": "0acd65f63999885802723bf36ed8a366",
+        "time": "id"
+    },
+    {
         "text": "About\n\nAbout the site, links, license, contacts.",
         "url": "\/about.html",
         "tag": " #about #page #contact #donate #support",
@@ -714,10 +721,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Projects >  google search > .\n\nGoogle Programmable Serch,",
-        "url": "\/projects\/49-google-search\/index.html",
-        "tag": " #search #search_engine #tool #HTML #widget",
-        "id": "701f37baca710f086df13f70fe752a67",
+        "text": "Projects >  google programmable search > .\n\nGoogle programmable search engine. (Google custom search engine)",
+        "url": "\/projects\/49-google-programmable-search\/index.html",
+        "tag": " #search #engine #tool #HTML #widget #Google",
+        "id": "2e07ad2cf8f856f464b45f3dc0c808ec",
         "time": "id"
     },
     {
