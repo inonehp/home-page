@@ -16,7 +16,7 @@ var sitemapJsonVar = [
     {
         "text": "Abc search\n\nGoogle programmable search engine. (Google custom search engine)",
         "url": "\/abc-search.html",
-        "tag": " #search #engine #tool #HTML #widget #Google",
+        "tag": " #search #engine #tool #HTML #Google #embed",
         "id": "0acd65f63999885802723bf36ed8a366",
         "time": "id"
     },
@@ -184,7 +184,7 @@ var sitemapJsonVar = [
     {
         "text": "Archive > projects >  x twitter embed > .\n\nTwitter \/ X embed (widget) showing a list of tweets.",
         "url": "\/archive\/projects\/38-x-twitter-embed\/index.html",
-        "tag": " #twitter_embed #x_embed #x #JavaScript #project #widget",
+        "tag": " #twitter #embed #x #JavaScript #project",
         "id": "3455a41a53e7c510cd318021c6c16411",
         "time": "id"
     },
@@ -723,7 +723,7 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  google programmable search > .\n\nGoogle programmable search engine. (Google custom search engine)",
         "url": "\/projects\/49-google-programmable-search\/index.html",
-        "tag": " #search #engine #tool #HTML #widget #Google",
+        "tag": " #search #engine #tool #HTML #Google #embed",
         "id": "2e07ad2cf8f856f464b45f3dc0c808ec",
         "time": "id"
     },
@@ -737,7 +737,7 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  google trends > .\n\nGoogle trends",
         "url": "\/projects\/46-google-trends\/index.html",
-        "tag": " #Google_trends #google #trends #info #HTML #widget",
+        "tag": " #Google_trends #google #trends #info #HTML #embed",
         "id": "db620aabc860575516e72ee35dab2105",
         "time": "id"
     },
