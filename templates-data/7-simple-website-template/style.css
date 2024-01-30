@@ -47,7 +47,7 @@ min-height: -webkit-fill-available;
 }
 
 html {
-height: -webkit-fill-available;
+/*height: -webkit-fill-available;*/
 }
 
 header {

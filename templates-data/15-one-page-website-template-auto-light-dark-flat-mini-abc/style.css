@@ -1,13 +1,11 @@
 /* v.2.0.5 */
-
+/* need fix styel error */
 
 
 .content {
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: safe-center;
-align-self: safe-center;
 box-sizing: border-box;
 margin: 0 auto;
 margin-bottom: 0;
@@ -27,7 +25,6 @@ z-index: -2;
 
 background-image: url('circle.svg');
 background-size: 100%;
-background-position: top 0;
 background-repeat: no-repeat;
 }
 
