@@ -539,49 +539,6 @@ window.location.href = '?mode=auto-random';
 break;
 
 
-/*case 'music':
-case 'movie':
-postLimit = 1;
-
-if(q2 != ''){
-//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
-qSearch = decodeURIComponent(q2);
-qSearch = String(qSearch).toLowerCase();
-}else{
-qSearch = String('#music').toLowerCase();
-}
-qSearch = String(qSearch).toLowerCase();
-
-
-// if tag
-//if(qSearch[0] == '#'){}
-qData = String(postText+' '+postTag).toLowerCase();
-qData = qData.replaceAll(/,/g, ' ');
-if((qData+' ').indexOf((qSearch+' ')) >= 0){
-arrListForRandom.push(key);
-
-i++;
-total = i;
-comMessagePrint = `${q} ${i}`;
-comMessage = 'found';
-}
-
-if(arrListForRandom.length > 0){
-
-getP2 = Math.floor(Math.random() * arrListForRandom.length);
-getP2 = arrListForRandom[getP2];
-
-print2 = '<div class="">'+fuPrintPost(jsonVar[getP2]['id'], jsonVar[getP2]['text'], jsonVar[getP2]['tag'], jsonVar[getP2]['time'])+'</div>';
-
-getP = getP2;
-
-comMessagePrint = `${q2} ${i}`+` ${mode}`+', '+'id: '+jsonVar[getP2]['id']+', p2: '+getP2;
-}else{
-comMessagePrint = '<span class="red">not found</span>';
-}
-break;
-*/
-
 default:
 mode = 'list';
 if(getP <= key){
