@@ -33,6 +33,7 @@ align-content: center;
 margin: 0 auto;
 text-wrap: balance;
 text-align: left;
+min-height: 50px;
 }
 
 
