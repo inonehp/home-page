@@ -3,7 +3,6 @@
 
 async function fuAds(none, idAds, com){
 
-
 // none - Reserved variable
 // idAds - id for print
 
@@ -129,8 +128,6 @@ document.getElementById(idAds).innerHTML = '<div class="wrapper"><div class="pad
 }
 
 }
-
-
 
 
 

@@ -981,6 +981,10 @@ background-attachment: fixed;
 
 
 
+
+
+
+
 // Cookie
 
 // Auto select (timezone) v.1.2.0
@@ -1071,7 +1075,7 @@ fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">cookie: ${
 async function fuMIfCookieOn(){
 // analytics
 //document.body.onload = function(){}
-document.addEventListener("DOMContentLoaded", (event) => { }); //fix
+//document.addEventListener("DOMContentLoaded", (event) => { }); //fix
 //window.onload = function(){}
 //document.body.onload = function(){
 if(conf["confDataCollection"] == 'on'){
