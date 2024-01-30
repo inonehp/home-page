@@ -14,13 +14,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Abc search\n\nGoogle programmable search engine. (Google custom search engine)",
-        "url": "\/abc-search.html",
-        "tag": " #search #engine #tool #HTML #Google #embed",
-        "id": "0acd65f63999885802723bf36ed8a366",
-        "time": "id"
-    },
-    {
         "text": "About\n\nAbout the site, links, license, contacts.",
         "url": "\/about.html",
         "tag": " #about #page #contact #donate #support",

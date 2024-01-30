@@ -1,4 +1,4 @@
-// Redirect v.1.4.0
+// Redirect v.1.5.0
 // The script redirects the search query + command to another location.
 
 // conf
@@ -123,7 +123,7 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 
 if(q == ''){
-url = '/search.html?q=r';
+url = 'https://www.google.com/';
 sRedirUrl = url;
 }else{
 sRedirUrl = url;
@@ -359,6 +359,7 @@ break;
 
 
 case 'n2#':
+case 'nn#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);

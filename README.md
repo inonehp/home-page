@@ -1,10 +1,6 @@
-<!-- Main README.md v.1.0.6 -->
+<!-- Main README.md v.1.0.7 -->
   
-##  ∷ Home page and projects. 
-  
----
-  
-💾 Download: [Download ZIP](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
+## Home page and projects. 
   
 ---
   
@@ -13,15 +9,15 @@
   
 ---
   
-## 🖼️ Screenshots:  
+## Screenshots:  
 
 ![screenshot light](/img/screenshot.png)
-![screenshot dark](/img/screenshot2.png)
+<!--![screenshot dark](/img/screenshot2.png)-->
 ![screenshot List of color themes](/img/screenshot3.png)
   
 ---
   
-## 🏷️ Tags:   
+## Tags:   
 
 [#Home Page](https://github.com/topics/homepage),
 [#Project](https://github.com/topics/project),
