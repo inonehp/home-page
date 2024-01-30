@@ -721,13 +721,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Projects >  google programmable search > site list\n\nsite list",
-        "url": "\/projects\/49-google-programmable-search\/site-list.html",
-        "tag": " #empty",
-        "id": "2aed453afdad7d6f6c2019821c258dba",
-        "time": "id"
-    },
-    {
         "text": "Projects >  google trends > .\n\nGoogle trends",
         "url": "\/projects\/46-google-trends\/index.html",
         "tag": " #Google #trends #info #HTML #embed",
