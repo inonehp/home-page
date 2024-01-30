@@ -75,4 +75,4 @@ print = `
 document.getElementById("snowPrint").innerHTML = print;
 
 
-fuMSetTheme('dark');
+

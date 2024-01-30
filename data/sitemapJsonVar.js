@@ -485,7 +485,7 @@ var sitemapJsonVar = [
     {
         "text": "Mini projects >  matrix > .\n\nAn attempt to recreate the matrix effect using CSS and JavaScript.",
         "url": "\/mini-projects\/11-matrix\/index.html",
-        "tag": " #matrix_effect #effect #matrix #JavaScript #project",
+        "tag": " #effect #matrix #JavaScript #project",
         "id": "ec2ccd85559e6edb2809a74759d206ed",
         "time": "id"
     },
@@ -795,13 +795,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/42-quiz\/index.html",
         "tag": " #game #quiz #JavaScript #project",
         "id": "39517ab9e48e23e95a886261ae01a608",
-        "time": "id"
-    },
-    {
-        "text": "Projects >  quiz word > .\n\nQuiz word.",
-        "url": "\/projects\/45-quiz-word\/index.html",
-        "tag": " #game #quiz #quiz_word #JavaScript #project",
-        "id": "f96d3af19a0f120bccb15672f9048cb7",
         "time": "id"
     },
     {

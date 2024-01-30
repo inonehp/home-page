@@ -1,11 +1,5 @@
-// Redirect v.1.3.35
+// Redirect v.1.4.0
 // The script redirects the search query + command to another location.
-/*
-//https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
-var meta = document.createElement('meta');
-meta.name = "referrer";
-meta.content = "no-referrer";
-document.getElementsByTagName('head')[0].appendChild(meta);*/
 
 // conf
 var sTimeRedir = 550;
@@ -103,7 +97,7 @@ case '3#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "?q="+q; // quik open website https://about.you.com/bangs/
+url = "?q=" + q;
 if(q == ''){
 urlList = [
 'tec', 'sci', 'dev', 'n2',
@@ -114,31 +108,12 @@ url = '?q=' + urlList[random];
 sRedirUrl = url;
 break;
 
-
-case 'tre#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://trends.google.com/trends/explore?q=" + q;
-if(q == ''){ url = "https://trends.google.com/trends/trendingsearches/daily?geo=US"; }
-sRedirUrl = url;
-break;
-
-case 'w#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "?q=" + q + " site:https://en.wikipedia.org/"
-if(q == ''){ url = "https://wikipedia.org/wiki/Special:Random"; }
-sRedirUrl = url;
-break;
-
 case 'l#':  case 'll#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 //url = "./?q="+q+' q';
-//url = "https://you.com/search?q=!"+q; // quik open website https://about.you.com/bangs/
+//url = "https://you.com/search?q=!" + q;
 urlList = [
 "https://www.google.com/search?btnI=1&q=" + q,
 //"https://you.com/search?q=!" + q,
@@ -177,147 +152,6 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
-case 'rw#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-
-if(q == ''){
-var script2 = document.createElement('script');
-script2.type='text/javascript';
-script2.async = true;
-script2.defer = true;
-script2.charset = 'utf-8';
-script2.src = '/data/wordEnJsonVar.js';
-document.getElementsByTagName('head')[0].appendChild(script2);
-
-onload = (event) => {
-try{
-function randomSite(){
-urlList = [
-' ', 'reddit', 'twitter', 'wikipedia'
-];
-var random = Math.floor(Math.random() * urlList.length);
-return urlList[random];
-}
-
-url = '?q=' + (wordEnJsonVar[Math.floor(Math.random() * wordEnJsonVar.length)]).text + ' ' + randomSite() + ' l';
-runRedir(url);
-random = '';
-}
-catch (error){
-url = '?q=l qq';
-runRedir(url);
-}
-}
-
-}else{
-url = "?q=" + q + ' l';
-sRedirUrl = url;
-};
-
-break;
-
-case 'tag#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://x.com/search?q="+q,
-"https://www.reddit.com/search/?q="+q+"&t=day&type=link",
-"https://www.tumblr.com/search/"+q+"?t=1",
-"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-//"https://x.com/",
-"https://www.tumblr.com/",
-"https://medium.com/",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
-
-case 'lin#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.linkedin.com/search/results/content/?keywords=" + 	q + "&origin=SWITCH_SEARCH_VERTICAL&sid=vJp",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-"https://www.linkedin.com/",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
-
-case 'wp#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://wordpress.com/read/search?q=" + q,
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-"https://wordpress.com/",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
-
-case 's#':
-case 'soc#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://x.com/search?q=" + q,
-"https://www.threads.net/search/?q=" + q + "&serp_type=default",
-"https://www.tumblr.com/search/" + q,
-"https://www.reddit.com/search/?q=" + q + "&t=day&type=link",
-"https://www.linkedin.com/search/results/content/?keywords=" + 	q + "&origin=SWITCH_SEARCH_VERTICAL&sid=vJp",
-"https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest",
-"https://wordpress.com/read/search?q=" + q,
-"https://www.tumblr.com/search/"+ q +"/text",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-//"https://x.com/",
-"https://www.threads.net/",
-"https://www.tumblr.com/",
-"https://medium.com/",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
-
-case 'gig#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://www.gigablast.com/search?q=" + q;
-sRedirUrl = url;
-break;
-
 case 'x#':
 case 'twi#':
 q = q3.replace(q2, '');
@@ -325,18 +159,6 @@ q = q.trim();
 q = encodeURIComponent(q);
 url = "https://x.com/search?q=" + q;
 if(q == ''){ url = "https://x.com/"; }
-sRedirUrl = url;
-break;
-
-
-
-case 'xx#':
-case 'twii#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://x.com/search?q=" + q + "&f=live";
-if(q == ''){ url = "https://x.com/explore"; }
 sRedirUrl = url;
 break;
 
@@ -349,54 +171,6 @@ url = "?q=" + q + " site:https://www.reddit.com/";
 if(q == ''){ url = "https://www.reddit.com/"; }
 sRedirUrl = url;
 break;
-
-case 'red2#':
-case 'redd#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "?q=www.reddit.com" + q +" www";
-if(q == ''){ url = "https://www.reddit.com/"; }
-sRedirUrl = url;
-break;
-
-case 'redd#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://www.reddit.com/search/?q="+q+"&t=day&type=link&sort=hot";
-if(q == ''){ url = "https://www.reddit.com/"; }
-sRedirUrl = url;
-break;
-
-case 'med#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://medium.com/search?q="+q;
-if(q == ''){ url = "https://medium.com/"; }
-sRedirUrl = url;
-break;
-
-case 'medd#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://medium.com/tag/"+encodeURIComponent(decodeURIComponent(q.toLowerCase()).replaceAll(' ', '-'))+"/latest";
-if(q == ''){ url = "https://medium.com/"; }
-sRedirUrl = url;
-break;
-
-case 'tum#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://www.tumblr.com/search/"+q;
-if(q == ''){ url = "https://www.tumblr.com/"; }
-sRedirUrl = url;
-break;
-
-
 
 case 'cc#':
 q = q3.replace(q2, '');
@@ -420,28 +194,6 @@ urlList = [
 "https://www.google.com/search?q="+q+"&newwindow=1&source=lnms&tbm=isch",
 "https://www.bing.com/images/search?q="+q,
 ];
-random = Math.floor(Math.random() * urlList.length);
-random = urlList[random];
-sRedirUrl= random;
-break;
-
-case 'gra#':
-q = q3.replace(q2, '');
-q = q.trim();
-var deepLq = q.replaceAll(/\//g, "-"); // fix
-deepLq = encodeURIComponent(deepLq);
-q = encodeURIComponent(q);
-urlList = [
-"https://www.deepl.com/write#en/"+deepLq,
-];
-if(q == ''){
-urlList = [
-"https://www.deepl.com/write",
-//"https://app.grammarly.com/",
-"https://www.grammarly.com/grammar-check",
-"https://quillbot.com/grammar-check",
-];
-}
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
 sRedirUrl= random;
@@ -500,18 +252,6 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
-case 'tb#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.bing.com/translator/?text="+q+"&from=auto&to=auto",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-sRedirUrl = url;
-break;
-
 case 'n#':
 q = q3.replace(q2, '');
 q = q.trim();
@@ -542,7 +282,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " site:https://www.reddit.com/",
+"?q=" + q + " abc",
 ];
 
 random = Math.floor(Math.random() * urlList.length);
@@ -555,21 +295,19 @@ urlList = [
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
 
-"https://news.ycombinator.com/",
+//"https://news.ycombinator.com/",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
 "https://getpocket.com/explore/technology",
 //"https://x.com/i/topics/848920371311001600",
 "https://www.reddit.com/r/technology/",
 //"https://www.tumblr.com/tagged/technology?sort=top",
-"https://medium.com/tag/technology",
+//"https://medium.com/tag/technology",
 "https://finance.yahoo.com/tech/",
 
 //"https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ0YTNFU0FtVnVLQUFQAQ",
 //"https://www.reddit.com/r/computerscience/",
 //"https://www.reddit.com/r/compsci/",
-"https://medium.com/tag/computer-science",
-
-//"https://www.smartnews.com/en/us/technology",
+//"https://medium.com/tag/computer-science",
 
 "https://substack.com/browse/technology",
 
@@ -592,7 +330,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " site:https://www.reddit.com/",
+"?q=" + q + " abc",
 ];
 
 random = Math.floor(Math.random() * urlList.length);
@@ -609,8 +347,8 @@ urlList = [
 "https://getpocket.com/explore/science",
 //"https://x.com/i/topics/854692455005921281",
 "https://www.reddit.com/r/science/",
-"https://www.tumblr.com/tagged/science?sort=top",
-"https://medium.com/tag/science",
+//"https://www.tumblr.com/tagged/science?sort=top",
+//"https://medium.com/tag/science",
 "https://news.yahoo.com/science/",
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -625,7 +363,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " site:https://www.reddit.com/",
+"?q=" + q + " abc",
 ];
 
 random = Math.floor(Math.random() * urlList.length);
@@ -673,7 +411,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " site:https://developer.mozilla.org/",
+"?q=" + q + " abc",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -686,14 +424,11 @@ urlList = [
 "https://www.reddit.com/r/web_design/",
 "https://www.reddit.com/r/css/",
 "https://medium.com/tag/web-development",
-"https://medium.com/tag/programming",
+//"https://medium.com/tag/programming",
 
-"https://medium.com/tag/webdevelopment",
+//"https://medium.com/tag/webdevelopment",
 "https://dev.to/",
 "https://hashnode.com/community",
-"https://www.indiehackers.com/",
-
-"https://www.freecodecamp.org/news",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -724,45 +459,12 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
-case 'cod#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"?q=" + q + " site:https://stackoverflow.com/",
-];
-
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-'https://www.w3schools.com/',
-'https://developer.mozilla.org/docs/',
-'https://web.dev/',
-'https://stackoverflow.com/',
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
-
 case 'y#':
 case '.#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.youtube.com/results?search_query=" + q;
-if(q == ''){ url = "https://www.youtube.com/"; }
-sRedirUrl = url;
-break;
-
-case 'yy#':
-case '..#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://www.youtube.com/results?search_query=" + q + "&sp=EgIIAg%253D%253D";
 if(q == ''){ url = "https://www.youtube.com/"; }
 sRedirUrl = url;
 break;
@@ -774,30 +476,6 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+q+"&newwindow=1&tbm=vid",
 "https://www.bing.com/videos/search?q="+q
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-"https://www.youtube.com/",
-"https://vimeo.com/",
-"https://www.dailymotion.com/",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
-
-case 'vv#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.youtube.com/results?search_query=" + q,
-"https://vimeo.com/search?q=" + q,
-"https://www.dailymotion.com/search/"+ q +"/videos",
-"https://search.joinpeertube.org/search?search=" + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -848,104 +526,6 @@ urlList = [
 "https://www.twitch.tv/",
 "https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig",
 "https://www.pinterest.com/tv/",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
-
-case 'm#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://music.youtube.com/search?q=" + q,
-"https://soundcloud.com/search?q="+ q
-//"https://www.deezer.com/search/"+ q +"/track",
-//"https://music.apple.com/search?term="+q,
-//"https://audiomack.com/search?q="+q,
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-"https://music.youtube.com/explore",
-//"https://www.deezer.com/channels/explore",
-"https://soundcloud.com/discover",
-"https://vimeo.com/categories/music",
-//https://www.twitch.tv/directory/game/Music,
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
-
-case 'mus#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-sRedirUrl = "/projects/20-music/";
-if(q != ''){
-sRedirUrl = "/?q="+q+' m';
-}
-break;
-
-case 'vid#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-sRedirUrl = "/projects/18-video/";
-if(q != ''){
-sRedirUrl = "/?q="+q+' v';
-}
-break;
-
-case 'ra#':
-case 'rad#':
-case 'tun#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://tunein.com/search/?query=" + q,
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-"https://tunein.com/explorer/",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
-
-case 'mm#':
-sRedirUrl = "/projects/20-music/";
-break;
-
-case 'nn#':
-case 'nnw#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.bing.com/search?q=" + q,
-//"https://you.com/search?q="+q+"&tbm=youchat",
-//"https://www.perplexity.ai/?q="+q,
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-"https://copilot.microsoft.com/",
-"https://www.bing.com/chat",
-"https://www.perplexity.ai/",
-"https://you.com/",
-"https://beta.character.ai/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -1013,19 +593,7 @@ if(q == ''){ url = "https://www.qwant.com/"; }
 sRedirUrl = url;
 break;
 
-/*case 'you#':
-case 'yo#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://you.com/search?q=" + q;
-if(q == ''){ url = "https://you.com/"; }
-sRedirUrl = url;
-break;
-*/
-
 case 'qq#':
-case 'ss#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -1058,46 +626,29 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
-case 'oo#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-
-//"https://search.yahoo.com/search?p=" + q,
-//"https://search.givewater.com/serp?q=" + q,
-//"https://duckduckgo.com/?q="+q,
-
-//"https://www.mojeek.com/search?q=" + q,
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if(q == ''){
-urlList = [
-"?=o"
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirUrl = url;
-break;
 
 case 'o#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-//"https://www.qwant.com/?q=" + q,
-//"https://you.com/search?q=" + q,
+"https://search.yahoo.com/search?p=" + q,
+"https://search.givewater.com/serp?q=" + q,
+"https://duckduckgo.com/?q="+q,
+"https://www.qwant.com/?q=" + q,
+"https://you.com/search?q=" + q,
 "https://www.ecosia.org/search?q=" + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-//"https://www.qwant.com/",
-//"https://you.com/",
-"https://www.ecosia.org/"
+"https://search.yahoo.com/",
+"https://search.givewater.com/",
+"https://duckduckgo.com/",
+"https://www.qwant.com/",
+"https://you.com/",
+"https://www.ecosia.org/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -1243,14 +794,6 @@ document.getElementById('input').value = q;
 }
 
 runRedir(rUrlGet);
-
-/*
-//https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
-var meta = document.createElement('meta');
-meta.name = "referrer";
-meta.content = "no-referrer";
-document.getElementsByTagName('head')[0].appendChild(meta);
-*/
 
 
 

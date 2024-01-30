@@ -31,9 +31,6 @@ var wordEnJsonVar =
         "text": "absurdity"
     },
     {
-        "text": "abyss"
-    },
-    {
         "text": "academy"
     },
     {
@@ -65,9 +62,6 @@ var wordEnJsonVar =
     },
     {
         "text": "account"
-    },
-    {
-        "text": "accountant"
     },
     {
         "text": "acoustics"
@@ -220,9 +214,6 @@ var wordEnJsonVar =
         "text": "airport"
     },
     {
-        "text": "alarm clock"
-    },
-    {
         "text": "albedo"
     },
     {
@@ -262,16 +253,10 @@ var wordEnJsonVar =
         "text": "alliance"
     },
     {
-        "text": "allocation"
-    },
-    {
         "text": "alpha"
     },
     {
         "text": "alphabet"
-    },
-    {
-        "text": "altar"
     },
     {
         "text": "alternative"
@@ -287,9 +272,6 @@ var wordEnJsonVar =
     },
     {
         "text": "amateur"
-    },
-    {
-        "text": "amber"
     },
     {
         "text": "ambilight"
@@ -508,12 +490,6 @@ var wordEnJsonVar =
         "text": "apatite"
     },
     {
-        "text": "aphelion"
-    },
-    {
-        "text": "aphorism"
-    },
-    {
         "text": "apnea"
     },
     {
@@ -583,42 +559,6 @@ var wordEnJsonVar =
         "text": "arch"
     },
     {
-        "text": "archaeologist"
-    },
-    {
-        "text": "archangel"
-    },
-    {
-        "text": "archbishop"
-    },
-    {
-        "text": "archeology"
-    },
-    {
-        "text": "archipelago"
-    },
-    {
-        "text": "architect"
-    },
-    {
-        "text": "architecture"
-    },
-    {
-        "text": "architrave"
-    },
-    {
-        "text": "archive"
-    },
-    {
-        "text": "archiver"
-    },
-    {
-        "text": "archiving"
-    },
-    {
-        "text": "archivist"
-    },
-    {
         "text": "arcing"
     },
     {
@@ -649,9 +589,6 @@ var wordEnJsonVar =
         "text": "armada"
     },
     {
-        "text": "armor"
-    },
-    {
         "text": "army"
     },
     {
@@ -670,178 +607,16 @@ var wordEnJsonVar =
         "text": "artery"
     },
     {
-        "text": "arthroscopy"
-    },
-    {
-        "text": "arthrosis"
-    },
-    {
-        "text": "article"
-    },
-    {
         "text": "artifact"
-    },
-    {
-        "text": "artillery"
-    },
-    {
-        "text": "artist"
-    },
-    {
-        "text": "artistry"
     },
     {
         "text": "asbestos"
     },
     {
-        "text": "asexual"
-    },
-    {
-        "text": "asexuality"
-    },
-    {
-        "text": "aspartame"
-    },
-    {
-        "text": "aspect"
-    },
-    {
-        "text": "assembler"
-    },
-    {
-        "text": "assembly"
-    },
-    {
         "text": "assets"
     },
     {
-        "text": "assimilation"
-    },
-    {
-        "text": "association"
-    },
-    {
-        "text": "assorted"
-    },
-    {
-        "text": "assortment"
-    },
-    {
-        "text": "astenia"
-    },
-    {
-        "text": "asteroid"
-    },
-    {
-        "text": "asthma"
-    },
-    {
-        "text": "astigmatism"
-    },
-    {
-        "text": "astrobiology"
-    },
-    {
-        "text": "astrologer"
-    },
-    {
-        "text": "astrology"
-    },
-    {
-        "text": "astronaut"
-    },
-    {
-        "text": "astronomer"
-    },
-    {
-        "text": "astronomy"
-    },
-    {
-        "text": "astrophotography"
-    },
-    {
-        "text": "astrophysics"
-    },
-    {
-        "text": "asymmetry"
-    },
-    {
-        "text": "atheism"
-    },
-    {
-        "text": "atherosclerosis"
-    },
-    {
-        "text": "athleticism"
-    },
-    {
-        "text": "athletics"
-    },
-    {
-        "text": "atlas"
-    },
-    {
-        "text": "atmosphere"
-    },
-    {
-        "text": "atom"
-    },
-    {
-        "text": "atrium"
-    },
-    {
-        "text": "atrophy"
-    },
-    {
-        "text": "attestation"
-    },
-    {
-        "text": "attractor"
-    },
-    {
-        "text": "attribute"
-    },
-    {
-        "text": "attribution"
-    },
-    {
-        "text": "auction"
-    },
-    {
-        "text": "audience"
-    },
-    {
-        "text": "audio"
-    },
-    {
-        "text": "audio call"
-    },
-    {
-        "text": "audio clip"
-    },
-    {
-        "text": "audio output"
-    },
-    {
-        "text": "audio recording"
-    },
-    {
-        "text": "audiogram"
-    },
-    {
-        "text": "audiophile"
-    },
-    {
-        "text": "audit"
-    },
-    {
-        "text": "auditor"
-    },
-    {
         "text": "authentication"
-    },
-    {
-        "text": "authenticator"
     },
     {
         "text": "authenticity"
@@ -851,9 +626,6 @@ var wordEnJsonVar =
     },
     {
         "text": "authority"
-    },
-    {
-        "text": "autism"
     },
     {
         "text": "auto"
@@ -895,9 +667,6 @@ var wordEnJsonVar =
         "text": "autonomy"
     },
     {
-        "text": "autophagy"
-    },
-    {
         "text": "autopilot"
     },
     {
@@ -931,664 +700,19 @@ var wordEnJsonVar =
         "text": "azimuth"
     },
     {
-        "text": "baboon"
-    },
-    {
-        "text": "bachata"
-    },
-    {
-        "text": "bachelor"
-    },
-    {
-        "text": "bacon"
-    },
-    {
-        "text": "bacterium"
-    },
-    {
-        "text": "badge"
-    },
-    {
-        "text": "badger"
-    },
-    {
-        "text": "badminton"
-    },
-    {
-        "text": "bagel"
-    },
-    {
-        "text": "baggage"
-    },
-    {
-        "text": "baguette"
-    },
-    {
-        "text": "balaclava"
-    },
-    {
-        "text": "balance"
-    },
-    {
-        "text": "balancer"
-    },
-    {
-        "text": "balancing"
-    },
-    {
-        "text": "balcony"
-    },
-    {
-        "text": "ball"
-    },
-    {
-        "text": "ballad"
-    },
-    {
-        "text": "ballast"
-    },
-    {
-        "text": "ballerina"
-    },
-    {
-        "text": "balloon"
-    },
-    {
-        "text": "bamboo"
-    },
-    {
-        "text": "banana"
-    },
-    {
-        "text": "bandage"
-    },
-    {
-        "text": "bandanna"
-    },
-    {
-        "text": "bandit"
-    },
-    {
-        "text": "banjo"
-    },
-    {
-        "text": "bank"
-    },
-    {
-        "text": "banker"
-    },
-    {
-        "text": "bankrupt"
-    },
-    {
-        "text": "bankruptcy"
-    },
-    {
-        "text": "banner"
-    },
-    {
-        "text": "banquet"
-    },
-    {
-        "text": "banush"
-    },
-    {
-        "text": "baobab"
-    },
-    {
-        "text": "bar"
-    },
-    {
-        "text": "barbecue"
-    },
-    {
-        "text": "bard"
-    },
-    {
-        "text": "barge"
-    },
-    {
-        "text": "barium"
-    },
-    {
-        "text": "barometer"
-    },
-    {
-        "text": "baron"
-    },
-    {
-        "text": "baroness"
-    },
-    {
-        "text": "baroque"
-    },
-    {
-        "text": "barrel"
-    },
-    {
-        "text": "barrier"
-    },
-    {
-        "text": "bartender"
-    },
-    {
-        "text": "barter"
-    },
-    {
-        "text": "base"
-    },
-    {
-        "text": "baseball"
-    },
-    {
-        "text": "based"
-    },
-    {
-        "text": "basil"
-    },
-    {
-        "text": "basin"
-    },
-    {
-        "text": "basketball"
-    },
-    {
-        "text": "bass"
-    },
-    {
-        "text": "bassist"
-    },
-    {
-        "text": "bastardization"
-    },
-    {
-        "text": "bastion"
-    },
-    {
-        "text": "batata"
-    },
-    {
-        "text": "battalion"
-    },
-    {
         "text": "battery"
-    },
-    {
-        "text": "battle"
-    },
-    {
-        "text": "battleship"
-    },
-    {
-        "text": "bay"
-    },
-    {
-        "text": "bazaar"
-    },
-    {
-        "text": "beads"
-    },
-    {
-        "text": "beadwork"
-    },
-    {
-        "text": "beam"
-    },
-    {
-        "text": "beard"
-    },
-    {
-        "text": "beating"
-    },
-    {
-        "text": "beaver"
-    },
-    {
-        "text": "bee"
-    },
-    {
-        "text": "beech"
-    },
-    {
-        "text": "beet"
     },
     {
         "text": "being"
     },
     {
-        "text": "beneficiary"
-    },
-    {
-        "text": "ber"
-    },
-    {
-        "text": "bergamot"
-    },
-    {
-        "text": "beryl"
-    },
-    {
-        "text": "beryllium"
-    },
-    {
-        "text": "bestiary"
-    },
-    {
-        "text": "bestseller"
-    },
-    {
-        "text": "beta"
-    },
-    {
-        "text": "bible"
-    },
-    {
-        "text": "bicarbonate"
-    },
-    {
-        "text": "biceps"
-    },
-    {
-        "text": "bidet"
-    },
-    {
-        "text": "bike"
-    },
-    {
-        "text": "bikini"
-    },
-    {
-        "text": "bilingualism"
-    },
-    {
-        "text": "bill"
-    },
-    {
-        "text": "billiards"
-    },
-    {
-        "text": "bingo"
-    },
-    {
-        "text": "biographer"
-    },
-    {
-        "text": "biography"
-    },
-    {
-        "text": "biologist"
-    },
-    {
-        "text": "biology"
-    },
-    {
-        "text": "biomass"
-    },
-    {
-        "text": "biome"
-    },
-    {
-        "text": "biometrics"
-    },
-    {
-        "text": "biopsy"
-    },
-    {
-        "text": "bios"
-    },
-    {
-        "text": "biosecurity"
-    },
-    {
-        "text": "biosignature"
-    },
-    {
-        "text": "biotin"
-    },
-    {
-        "text": "biplane"
-    },
-    {
-        "text": "bisexual"
-    },
-    {
         "text": "bishop"
-    },
-    {
-        "text": "bistro"
-    },
-    {
-        "text": "bit"
-    },
-    {
-        "text": "bitcoin"
-    },
-    {
-        "text": "bitumen"
-    },
-    {
-        "text": "blaster"
-    },
-    {
-        "text": "blastula"
-    },
-    {
-        "text": "blazer"
-    },
-    {
-        "text": "bleaching"
-    },
-    {
-        "text": "blender"
-    },
-    {
-        "text": "blessing"
-    },
-    {
-        "text": "bliss"
-    },
-    {
-        "text": "bloc"
-    },
-    {
-        "text": "blockade"
-    },
-    {
-        "text": "blockbuster"
-    },
-    {
-        "text": "blockchain"
-    },
-    {
-        "text": "blocker"
-    },
-    {
-        "text": "blog"
-    },
-    {
-        "text": "blogger"
-    },
-    {
-        "text": "blonde"
-    },
-    {
-        "text": "blues"
-    },
-    {
-        "text": "bluetooth"
-    },
-    {
-        "text": "bluff"
-    },
-    {
-        "text": "board"
     },
     {
         "text": "boarding school"
     },
     {
-        "text": "bolero"
-    },
-    {
-        "text": "bolt"
-    },
-    {
-        "text": "bomb"
-    },
-    {
-        "text": "bombardier"
-    },
-    {
-        "text": "bomber"
-    },
-    {
-        "text": "bombing"
-    },
-    {
-        "text": "bonfire"
-    },
-    {
-        "text": "bonus"
-    },
-    {
-        "text": "booking"
-    },
-    {
-        "text": "booklet"
-    },
-    {
-        "text": "boom"
-    },
-    {
-        "text": "boomerang"
-    },
-    {
-        "text": "booth"
-    },
-    {
-        "text": "bootleg"
-    },
-    {
-        "text": "boring"
-    },
-    {
-        "text": "borsch"
-    },
-    {
-        "text": "boss"
-    },
-    {
-        "text": "bot"
-    },
-    {
-        "text": "botanist"
-    },
-    {
-        "text": "botmaster"
-    },
-    {
-        "text": "botox"
-    },
-    {
-        "text": "bouillon"
-    },
-    {
-        "text": "boulder"
-    },
-    {
-        "text": "boulevard"
-    },
-    {
-        "text": "bouquet"
-    },
-    {
-        "text": "bourbon"
-    },
-    {
-        "text": "boutique"
-    },
-    {
-        "text": "bowling"
-    },
-    {
-        "text": "boxer"
-    },
-    {
-        "text": "boycott"
-    },
-    {
-        "text": "bra"
-    },
-    {
-        "text": "bracelet"
-    },
-    {
-        "text": "brand"
-    },
-    {
-        "text": "branding"
-    },
-    {
-        "text": "brandy"
-    },
-    {
-        "text": "bravado"
-    },
-    {
-        "text": "brawler"
-    },
-    {
-        "text": "brawling"
-    },
-    {
-        "text": "break"
-    },
-    {
-        "text": "breeches"
-    },
-    {
-        "text": "breeze"
-    },
-    {
-        "text": "brethren"
-    },
-    {
-        "text": "brewery"
-    },
-    {
-        "text": "briefing"
-    },
-    {
-        "text": "brigade"
-    },
-    {
-        "text": "broccoli"
-    },
-    {
-        "text": "brochure"
-    },
-    {
-        "text": "broiler"
-    },
-    {
-        "text": "broker"
-    },
-    {
-        "text": "brokerage"
-    },
-    {
-        "text": "bronze"
-    },
-    {
-        "text": "brooch"
-    },
-    {
-        "text": "brothel"
-    },
-    {
-        "text": "brother"
-    },
-    {
-        "text": "browser"
-    },
-    {
-        "text": "brunette"
-    },
-    {
-        "text": "bubble"
-    },
-    {
-        "text": "bud"
-    },
-    {
-        "text": "budding"
-    },
-    {
-        "text": "budget"
-    },
-    {
-        "text": "budgeting"
-    },
-    {
-        "text": "buffalo"
-    },
-    {
-        "text": "buffer"
-    },
-    {
-        "text": "buffering"
-    },
-    {
-        "text": "buffet"
-    },
-    {
-        "text": "buffoon"
-    },
-    {
-        "text": "bug"
-    },
-    {
-        "text": "builder"
-    },
-    {
-        "text": "building"
-    },
-    {
-        "text": "bulimia"
-    },
-    {
-        "text": "bull"
-    },
-    {
-        "text": "bulldog"
-    },
-    {
-        "text": "bulletin"
-    },
-    {
-        "text": "bumper"
-    },
-    {
-        "text": "bungalow"
-    },
-    {
-        "text": "bunker"
-    },
-    {
-        "text": "buoy"
-    },
-    {
-        "text": "bureau"
-    },
-    {
-        "text": "bureaucracy"
-    },
-    {
-        "text": "bureaucrat"
-    },
-    {
-        "text": "burrito"
-    },
-    {
         "text": "bus"
-    },
-    {
-        "text": "bushel"
-    },
-    {
-        "text": "business"
-    },
-    {
-        "text": "businessman"
-    },
-    {
-        "text": "bust"
-    },
-    {
-        "text": "butane"
-    },
-    {
-        "text": "byte"
     },
     {
         "text": "cancellation"
@@ -1600,28 +724,7 @@ var wordEnJsonVar =
         "text": "car"
     },
     {
-        "text": "carelessness"
-    },
-    {
-        "text": "carrousel"
-    },
-    {
         "text": "caviar"
-    },
-    {
-        "text": "chainsaw"
-    },
-    {
-        "text": "charity"
-    },
-    {
-        "text": "chatterbox"
-    },
-    {
-        "text": "checkpoint"
-    },
-    {
-        "text": "cheerfulness"
     },
     {
         "text": "chokeberry"
@@ -1630,67 +733,10 @@ var wordEnJsonVar =
         "text": "chord"
     },
     {
-        "text": "clang"
-    },
-    {
-        "text": "clash"
-    },
-    {
-        "text": "coloring"
-    },
-    {
-        "text": "commonplace"
-    },
-    {
         "text": "computer Science"
     },
     {
         "text": "computer scientist"
-    },
-    {
-        "text": "concrete"
-    },
-    {
-        "text": "construction"
-    },
-    {
-        "text": "continuity"
-    },
-    {
-        "text": "cormorant"
-    },
-    {
-        "text": "cotton"
-    },
-    {
-        "text": "coward"
-    },
-    {
-        "text": "cranberry"
-    },
-    {
-        "text": "crazy"
-    },
-    {
-        "text": "curler"
-    },
-    {
-        "text": "damn"
-    },
-    {
-        "text": "debt"
-    },
-    {
-        "text": "deity"
-    },
-    {
-        "text": "demon"
-    },
-    {
-        "text": "desirability"
-    },
-    {
-        "text": "desire"
     },
     {
         "text": "diamond"
@@ -1702,37 +748,13 @@ var wordEnJsonVar =
         "text": "diocese"
     },
     {
-        "text": "dirt"
-    },
-    {
         "text": "disabled"
-    },
-    {
-        "text": "disconnection"
-    },
-    {
-        "text": "dish"
     },
     {
         "text": "disregard"
     },
     {
         "text": "dissent"
-    },
-    {
-        "text": "divinity"
-    },
-    {
-        "text": "drum"
-    },
-    {
-        "text": "drummer"
-    },
-    {
-        "text": "elderberry"
-    },
-    {
-        "text": "elm"
     },
     {
         "text": "emperor"
@@ -1777,49 +799,16 @@ var wordEnJsonVar =
         "text": "exam"
     },
     {
-        "text": "exchange"
-    },
-    {
         "text": "existence"
-    },
-    {
-        "text": "fable"
     },
     {
         "text": "fang"
     },
     {
-        "text": "father"
-    },
-    {
-        "text": "fearlessness"
-    },
-    {
-        "text": "fermentation"
-    },
-    {
         "text": "fig"
     },
     {
-        "text": "fight"
-    },
-    {
-        "text": "fighter"
-    },
-    {
-        "text": "firewall"
-    },
-    {
-        "text": "flamboyance"
-    },
-    {
-        "text": "flour"
-    },
-    {
         "text": "food"
-    },
-    {
-        "text": "fool"
     },
     {
         "text": "foreigner"
@@ -1828,67 +817,16 @@ var wordEnJsonVar =
         "text": "fountain pen"
     },
     {
-        "text": "fray"
-    },
-    {
-        "text": "free of charge"
-    },
-    {
-        "text": "fringe"
-    },
-    {
-        "text": "gang"
-    },
-    {
-        "text": "gangsterism"
-    },
-    {
-        "text": "gasoline"
-    },
-    {
         "text": "gazebo"
     },
     {
         "text": "ginger"
     },
     {
-        "text": "goddess"
-    },
-    {
-        "text": "godlessness"
-    },
-    {
-        "text": "good"
-    },
-    {
         "text": "gospel"
     },
     {
-        "text": "grace"
-    },
-    {
-        "text": "graduate school"
-    },
-    {
-        "text": "grandmother"
-    },
-    {
-        "text": "grocer"
-    },
-    {
-        "text": "gross"
-    },
-    {
-        "text": "grouch"
-    },
-    {
-        "text": "gunner"
-    },
-    {
         "text": "hangar"
-    },
-    {
-        "text": "harp"
     },
     {
         "text": "haze"
@@ -1903,9 +841,6 @@ var wordEnJsonVar =
         "text": "hierarchy"
     },
     {
-        "text": "hippo"
-    },
-    {
         "text": "historian"
     },
     {
@@ -1916,21 +851,6 @@ var wordEnJsonVar =
     },
     {
         "text": "history"
-    },
-    {
-        "text": "homeland"
-    },
-    {
-        "text": "homelessness"
-    },
-    {
-        "text": "hoodie"
-    },
-    {
-        "text": "hopelessness"
-    },
-    {
-        "text": "house"
     },
     {
         "text": "hypochondriac"
@@ -1981,9 +901,6 @@ var wordEnJsonVar =
         "text": "idiot"
     },
     {
-        "text": "idleness"
-    },
-    {
         "text": "idol"
     },
     {
@@ -2005,16 +922,10 @@ var wordEnJsonVar =
         "text": "imitation"
     },
     {
-        "text": "imitation jewelry"
-    },
-    {
         "text": "immigrant"
     },
     {
         "text": "immigration"
-    },
-    {
-        "text": "immortality"
     },
     {
         "text": "immunity"
@@ -2044,9 +955,6 @@ var wordEnJsonVar =
         "text": "imports"
     },
     {
-        "text": "impotence"
-    },
-    {
         "text": "impresario"
     },
     {
@@ -2057,9 +965,6 @@ var wordEnJsonVar =
     },
     {
         "text": "improvisation"
-    },
-    {
-        "text": "inaction"
     },
     {
         "text": "inauguration"
@@ -2123,9 +1028,6 @@ var wordEnJsonVar =
     },
     {
         "text": "infectivity"
-    },
-    {
-        "text": "infertility"
     },
     {
         "text": "infiltration"
@@ -2198,9 +1100,6 @@ var wordEnJsonVar =
     },
     {
         "text": "insectoid"
-    },
-    {
-        "text": "insomnia"
     },
     {
         "text": "inspector"
@@ -2380,9 +1279,6 @@ var wordEnJsonVar =
         "text": "irrationality"
     },
     {
-        "text": "irresponsibility"
-    },
-    {
         "text": "isomorphism"
     },
     {
@@ -2395,82 +1291,13 @@ var wordEnJsonVar =
         "text": "iterator"
     },
     {
-        "text": "jar"
-    },
-    {
         "text": "judaism"
-    },
-    {
-        "text": "junk"
-    },
-    {
-        "text": "knitting"
-    },
-    {
-        "text": "lack"
-    },
-    {
-        "text": "lap-dog"
-    },
-    {
-        "text": "lawlessness"
     },
     {
         "text": "lawyer"
     },
     {
-        "text": "letter"
-    },
-    {
-        "text": "librarian"
-    },
-    {
-        "text": "library"
-    },
-    {
-        "text": "lie"
-    },
-    {
-        "text": "lightning"
-    },
-    {
-        "text": "lilac"
-    },
-    {
-        "text": "loaf"
-    },
-    {
-        "text": "locking"
-    },
-    {
-        "text": "lodge"
-    },
-    {
-        "text": "mace"
-    },
-    {
-        "text": "madness"
-    },
-    {
-        "text": "majority"
-    },
-    {
-        "text": "mantis"
-    },
-    {
-        "text": "march"
-    },
-    {
-        "text": "mess"
-    },
-    {
         "text": "midwife"
-    },
-    {
-        "text": "misfortune"
-    },
-    {
-        "text": "mismanagement"
     },
     {
         "text": "mortgage"
@@ -2485,21 +1312,6 @@ var wordEnJsonVar =
         "text": "mountaineering"
     },
     {
-        "text": "multilingualism"
-    },
-    {
-        "text": "multipolarity"
-    },
-    {
-        "text": "multitasking"
-    },
-    {
-        "text": "muttering"
-    },
-    {
-        "text": "nagging"
-    },
-    {
         "text": "name"
     },
     {
@@ -2509,16 +1321,7 @@ var wordEnJsonVar =
         "text": "nitrogen"
     },
     {
-        "text": "nobility"
-    },
-    {
-        "text": "notebook"
-    },
-    {
         "text": "noun"
-    },
-    {
-        "text": "oatmeal"
     },
     {
         "text": "obstetrician"
@@ -2530,19 +1333,7 @@ var wordEnJsonVar =
         "text": "orange"
     },
     {
-        "text": "out"
-    },
-    {
         "text": "outpost"
-    },
-    {
-        "text": "outsider"
-    },
-    {
-        "text": "outsourcing"
-    },
-    {
-        "text": "pain"
     },
     {
         "text": "paragraph"
@@ -2551,16 +1342,7 @@ var wordEnJsonVar =
         "text": "parking"
     },
     {
-        "text": "paternity"
-    },
-    {
-        "text": "pavement"
-    },
-    {
         "text": "peanut"
-    },
-    {
-        "text": "peen"
     },
     {
         "text": "pharmacist"
@@ -2572,33 +1354,6 @@ var wordEnJsonVar =
         "text": "pineapple"
     },
     {
-        "text": "plaque"
-    },
-    {
-        "text": "poaching"
-    },
-    {
-        "text": "polysemy"
-    },
-    {
-        "text": "poster"
-    },
-    {
-        "text": "poverty"
-    },
-    {
-        "text": "prison"
-    },
-    {
-        "text": "prisoner"
-    },
-    {
-        "text": "protein"
-    },
-    {
-        "text": "proximity"
-    },
-    {
         "text": "pulse"
     },
     {
@@ -2608,73 +1363,19 @@ var wordEnJsonVar =
         "text": "raisins"
     },
     {
-        "text": "rattle"
-    },
-    {
-        "text": "razor"
-    },
-    {
-        "text": "rebel"
-    },
-    {
-        "text": "reflector"
-    },
-    {
-        "text": "refugee"
-    },
-    {
         "text": "reinforcement"
-    },
-    {
-        "text": "reusability"
-    },
-    {
-        "text": "reverence"
     },
     {
         "text": "riding"
     },
     {
-        "text": "riot"
-    },
-    {
-        "text": "roll"
-    },
-    {
-        "text": "run"
-    },
-    {
-        "text": "runner"
-    },
-    {
-        "text": "running"
-    },
-    {
         "text": "rust"
-    },
-    {
-        "text": "sandwich"
-    },
-    {
-        "text": "sauna"
     },
     {
         "text": "schemer"
     },
     {
-        "text": "scourge"
-    },
-    {
-        "text": "security"
-    },
-    {
-        "text": "selection"
-    },
-    {
         "text": "sergeant"
-    },
-    {
-        "text": "shamelessness"
     },
     {
         "text": "shareholder"
@@ -2683,40 +1384,16 @@ var wordEnJsonVar =
         "text": "shark"
     },
     {
-        "text": "sheep"
-    },
-    {
         "text": "sheet"
-    },
-    {
-        "text": "shine"
     },
     {
         "text": "shock absorber"
     },
     {
-        "text": "shore"
-    },
-    {
-        "text": "side"
-    },
-    {
         "text": "spark"
     },
     {
-        "text": "sponge cake"
-    },
-    {
-        "text": "sprinkle"
-    },
-    {
-        "text": "storm"
-    },
-    {
         "text": "stroke"
-    },
-    {
-        "text": "struggle"
     },
     {
         "text": "subscriber"
@@ -2725,73 +1402,22 @@ var wordEnJsonVar =
         "text": "summary"
     },
     {
-        "text": "supplication"
-    },
-    {
-        "text": "swamp"
-    },
-    {
-        "text": "tank"
-    },
-    {
-        "text": "the Atlantic"
-    },
-    {
-        "text": "thigh"
-    },
-    {
-        "text": "thoughtlessness"
-    },
-    {
-        "text": "tin"
-    },
-    {
         "text": "tool"
     },
     {
         "text": "topicality"
     },
     {
-        "text": "tower"
-    },
-    {
-        "text": "towing"
-    },
-    {
         "text": "toy"
-    },
-    {
-        "text": "trampoline"
-    },
-    {
-        "text": "trousers"
     },
     {
         "text": "trucking"
     },
     {
-        "text": "trunk"
-    },
-    {
         "text": "truth"
     },
     {
-        "text": "tuber"
-    },
-    {
-        "text": "tuesday"
-    },
-    {
-        "text": "turbulence"
-    },
-    {
         "text": "turkey"
-    },
-    {
-        "text": "uncompromising"
-    },
-    {
-        "text": "unemployment"
     },
     {
         "text": "unicorn"
@@ -2809,60 +1435,6 @@ var wordEnJsonVar =
         "text": "vanguard"
     },
     {
-        "text": "verbosity"
-    },
-    {
-        "text": "vibration"
-    },
-    {
-        "text": "vibrator"
-    },
-    {
-        "text": "vision"
-    },
-    {
-        "text": "vomit"
-    },
-    {
-        "text": "vomiting"
-    },
-    {
-        "text": "wanderer"
-    },
-    {
-        "text": "wandering"
-    },
-    {
-        "text": "warhead"
-    },
-    {
         "text": "watercolor"
-    },
-    {
-        "text": "wealth"
-    },
-    {
-        "text": "weed"
-    },
-    {
-        "text": "welfare"
-    },
-    {
-        "text": "whip"
-    },
-    {
-        "text": "whiteness"
-    },
-    {
-        "text": "withering"
-    },
-    {
-        "text": "woman"
-    },
-    {
-        "text": "womanizer"
-    },
-    {
-        "text": "worship"
     }
 ]

@@ -1,4 +1,4 @@
-/* v.1.7.4 */
+/* v.1.7.5 */
 
 
 
@@ -199,16 +199,16 @@ padding: .3em;
 :root{
 --borderBottomOpacity: 50%;
 }
-.borderBottomBrand { border-bottom: 2px dashed color-mix(in srgb, var(--brand) 65%, transparent); }
+.borderBottomBrand { border-bottom: 2px solid color-mix(in srgb, var(--brand) 60%, transparent); }
 .borderBottomRed { border-bottom: 2px dashed color-mix(in srgb, var(--red) 50%, transparent); }
-.borderBottomOrange { border-bottom: 2px dashed color-mix(in srgb, var(--orange) 65%, transparent); }
-.borderBottomYellow { border-bottom: 2px dashed color-mix(in srgb, var(--yellow) 65%, transparent); }
-.borderBottomGreen { border-bottom: 2px dashed color-mix(in srgb, var(--green) 65%, transparent); }
-.borderBottomBlue { border-bottom: 2px dashed color-mix(in srgb, var(--blue) 65%, transparent); }
-.borderBottomIndigo { border-bottom: 2px dashed color-mix(in srgb, var(--indigo) 65%, transparent); }
-.borderBottomViolet { border-bottom: 2px dashed color-mix(in srgb, var(--violet) 65%, transparent); }
+.borderBottomOrange { border-bottom: 2px solid color-mix(in srgb, var(--orange) 60%, transparent); }
+.borderBottomYellow { border-bottom: 2px solid color-mix(in srgb, var(--yellow) 60%, transparent); }
+.borderBottomGreen { border-bottom: 2px solid color-mix(in srgb, var(--green) 60%, transparent); }
+.borderBottomBlue { border-bottom: 2px solid color-mix(in srgb, var(--blue) 65%, transparent); }
+.borderBottomIndigo { border-bottom: 2px solid color-mix(in srgb, var(--indigo) 60%, transparent); }
+.borderBottomViolet { border-bottom: 2px solid color-mix(in srgb, var(--violet) 60%, transparent); }
 
-.borderBottom, .borderBottomGray { border-bottom: 2px dashed color-mix(in srgb, var(--gray) 65%, transparent); }
+.borderBottom, .borderBottomGray { border-bottom: 2px solid color-mix(in srgb, var(--gray) 60%, transparent); }
 
 /* bg image in main.js */
 
