@@ -1,4 +1,4 @@
-// Keep v.2.7.0
+// Keep v.2.8.0
 // For blog, links, seach, etc
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
@@ -17,7 +17,7 @@ let blogConfig = {
 "tagListLimit":"", // number
 "targetOption":"", // blank
 "bottomMsg":"", // text
-"display":"", // grid (for img link), article (text - title, text2 - text)
+"display":"", // gallery (for img link), article (text - title, text2 - text)
 "timeStatus":"", // off, disable post time (post id)
 };
 </script>*/
@@ -246,12 +246,15 @@ if(tagListStatus == 'on'){
 let lQforR = '';
 if(q != null){ lQforR = encodeURIComponent(q) + ' r'; } else { lQforR = 'r'; }
 
+let lSlideShow = '';
+//if(display == "gallery"){ lSlideShow = `<a class="small" href="?mode=auto-random" title="Random post with automatic redirection to next">auto-random</a>`; }
+
 print += `
 
 <nav>
 <a class="small" href="?">main</a>
 <a class="small" href="?mode=random" title="Random post">random</a>
-<a class="small" href="?mode=auto-random" title="Random post with automatic redirection to next">auto-random</a>
+${lSlideShow}
 <!--<a href="/rss.xml">rss</a>-->
 </nav>
 
@@ -899,11 +902,11 @@ if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<b>${q}</b> <di
 
 
 
-if(display == 'grid'&&mode == 'list'&&total != 1||display == 'grid'&&mode == 'search'&&total != 1){
+if(display == 'gallery'&&mode == 'list'&&total != 1||display == 'gallery'&&mode == 'search'&&total != 1){
 printPost = `
 
 <style>
-.blogContentGrid {
+.blogContentGallery {
 display: grid;
 /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -915,19 +918,19 @@ margin: 0 auto;
 
 .postFooter { grid-template-columns: 1fr; }
 
-@media(max-width: 220px) { .blogContentGrid { display: block; width: 100%; }}
+@media(max-width: 220px) { .blogContentGallery { display: block; width: 100%; }}
 </style>
 
 <div class="block">
 <div class="wrapper3">
 
-<div class="blogContentGrid">`+printPost+`</div>
+<div class="blogContentGallery">`+printPost+`</div>
 
 </div>
 </div>
 
 `;
-}else if(display == 'grid'){
+}else if(display == 'gallery'){
 printPost = `
 <div class="wrapperL">`+printPost+`</div>
 `;
@@ -2512,7 +2515,7 @@ return `
 
 
 <style>
-.gridBlogNav {
+.galleryBlogNav {
 display: grid;
 grid-template-columns: 1fr minmax(70px, 20%) 1fr;
 grid-gap: 1px;
@@ -2520,7 +2523,7 @@ justify-content: center;
 }
 
 @media(max-width: 240px) {
-.gridBlogNav { grid-template-columns: 1fr; }
+.galleryBlogNav { grid-template-columns: 1fr; }
 }
 </style>
 
@@ -2530,7 +2533,7 @@ justify-content: center;
 
 ${pringInputRange}
 
-<div class="gridBlogNav">
+<div class="galleryBlogNav">
 <a class="${hideButtonClass2} border button light2 borderRadius2" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
 <div class="button border op xSmall bg borderRadius2">${navMode}: `+Math.floor(getP/postLimit)+`</div>
 <a class="${hideButtonClass} border button light2 borderRadius2" href="?${navOption2}${navMode}=${next}">&#8594;</a>
