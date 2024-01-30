@@ -1,4 +1,4 @@
-// Redirect v.1.5.0
+// Redirect v.1.5.1
 // The script redirects the search query + command to another location.
 
 // conf
@@ -568,8 +568,8 @@ case 'gg#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "/abc-search.html?q=" + q;
-if(q == ''){ url = "/abc-search.html"; }
+url = "/projects/49-google-programmable-search/?q=" + q;
+if(q == ''){ url = "/projects/49-google-programmable-search/"; }
 sRedirUrl = url;
 break;
 
