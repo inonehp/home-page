@@ -749,13 +749,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Projects >  hint > .\n\nHint when input.",
-        "url": "\/projects\/16-hint\/index.html",
-        "tag": " #hint #input #JavaScript #project #HTML #form",
-        "id": "059284798922553c25cb2e321e18b509",
-        "time": "id"
-    },
-    {
         "text": "Projects >  insert icon > .\n\nJavaScript icon insertion function.",
         "url": "\/projects\/17-insert-icon\/index.html",
         "tag": " #insert #icon #insert_icon #insert_icons #function #tool #function #JavaScript #project",
