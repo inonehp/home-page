@@ -1,4 +1,4 @@
-/* v.1.8.0 */
+/* v.1.8.1 */
 
 
 
@@ -17,7 +17,7 @@ display: grid;
 /*grid-template-columns: repeat(auto-fill, minmax(130px, max-content));*/
 /*grid-auto-columns: 1fr;*/
 /*grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));*/
-grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 grid-gap: 5px;
 margin: 0 auto;
 justify-content: center;

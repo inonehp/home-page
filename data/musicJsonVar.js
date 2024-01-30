@@ -3200,6 +3200,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Charli XCX - Speed Drive (From Barbie The Album) [Official Audio] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=TxZwCpgxttQ",
+        "tag": "#music"
+    },
+    {
         "text": "Charli XCX - Speed Drive (From Barbie The Album) [Official Music Video] - YouTube",
         "text2": "",
         "text3": "",
