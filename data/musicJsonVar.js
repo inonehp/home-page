@@ -3207,6 +3207,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Charli XCX - Speed Drive (jamesjamesjames Remix) [From Barbie The Album] [Official Audio] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=IjD6RtGOmEQ",
+        "tag": "#music"
+    },
+    {
         "text": "Cheap Thrills \u00b7 Sia \u00b7 Sean Paul",
         "text2": "",
         "text3": "",
