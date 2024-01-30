@@ -1,4 +1,4 @@
-// Redirect v.1.5.2
+// Redirect v.1.5.3
 // The script redirects the search query + command to another location.
 
 // conf
@@ -116,8 +116,6 @@ q = encodeURIComponent(q);
 //url = "https://you.com/search?q=!" + q;
 urlList = [
 "https://www.google.com/search?btnI=1&q=" + q,
-//"https://you.com/search?q=!" + q,
-//"https://duckduckgo.com/?q=! " + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -131,12 +129,11 @@ sRedirUrl = url;
 
 break;
 
-// random site
+
 case 'r#':
-case 'rs#': 
 q = q3.replace(q2, '');
 q = q.trim();
-q = encodeURIComponent(q);
+q = encodeURIComponent(q.trim());
 urlList = [
 "/search.html?q=" + q + " r",
 ];
@@ -144,7 +141,7 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"/search.html?q=r",
+"/search.html",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -191,8 +188,8 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.google.com/search?q="+q+"&newwindow=1&source=lnms&tbm=isch",
-"https://www.bing.com/images/search?q="+q,
+"https://www.google.com/search?q=" + q + "&newwindow=1&source=lnms&tbm=isch",
+"https://www.bing.com/images/search?q=" + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
@@ -259,7 +256,6 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+q+"&tbm=nws",
 "https://www.bing.com/news/search?q="+q,
-//"https://www.qwant.com/?t=news&q="+q,
 ];
 
 random = Math.floor(Math.random() * urlList.length);
@@ -282,7 +278,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " abc",
+"?q=" + q + " q",
 ];
 
 random = Math.floor(Math.random() * urlList.length);
@@ -294,23 +290,11 @@ urlList = [
 "https://slashdot.org/",
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
-
-//"https://news.ycombinator.com/",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
 "https://getpocket.com/explore/technology",
-//"https://x.com/i/topics/848920371311001600",
 "https://www.reddit.com/r/technology/",
-//"https://www.tumblr.com/tagged/technology?sort=top",
-//"https://medium.com/tag/technology",
 "https://finance.yahoo.com/tech/",
-
-//"https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ0YTNFU0FtVnVLQUFQAQ",
-//"https://www.reddit.com/r/computerscience/",
-//"https://www.reddit.com/r/compsci/",
-//"https://medium.com/tag/computer-science",
-
 "https://substack.com/browse/technology",
-
 ];
 
 /*if(conf["confDevice"] == 'mobile'){
@@ -330,7 +314,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " abc",
+"?q=" + q + " q",
 ];
 
 random = Math.floor(Math.random() * urlList.length);
@@ -345,10 +329,7 @@ urlList = [
 "https://www.bing.com/news/search?q=Science",
 "https://www.yahoo.com/news/science/",
 "https://getpocket.com/explore/science",
-//"https://x.com/i/topics/854692455005921281",
 "https://www.reddit.com/r/science/",
-//"https://www.tumblr.com/tagged/science?sort=top",
-//"https://medium.com/tag/science",
 "https://news.yahoo.com/science/",
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -364,7 +345,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " abc",
+"?q=" + q + " q",
 ];
 
 random = Math.floor(Math.random() * urlList.length);
@@ -412,7 +393,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " abc",
+"?q=" + q + " q",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -425,9 +406,6 @@ urlList = [
 "https://www.reddit.com/r/web_design/",
 "https://www.reddit.com/r/css/",
 "https://medium.com/tag/web-development",
-//"https://medium.com/tag/programming",
-
-//"https://medium.com/tag/webdevelopment",
 "https://dev.to/",
 "https://hashnode.com/community",
 ];
@@ -535,6 +513,7 @@ sRedirUrl = url;
 break;
 
 case 'we#':
+case 'wet#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -563,7 +542,6 @@ if(q == ''){ url = "https://www.google.com/"; }
 sRedirUrl = url;
 break;
 
-case 'abc#':
 case 'gg#':
 q = q3.replace(q2, '');
 q = q.trim();
@@ -580,17 +558,6 @@ q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.bing.com/search?q=" + q;
 if(q == ''){ url = "https://www.bing.com/"; }
-sRedirUrl = url;
-break;
-
-
-case 'qwa#':
-case 'qw#':
-q = q3.replace(q2, '');
-q = q.trim();
-q = encodeURIComponent(q);
-url = "https://www.qwant.com/?q=" + q;
-if(q == ''){ url = "https://www.qwant.com/"; }
 sRedirUrl = url;
 break;
 

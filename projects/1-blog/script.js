@@ -1,4 +1,4 @@
-// Keep v.2.8.0
+// Keep v.2.8.1
 // For blog, links, seach, etc
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
@@ -163,7 +163,8 @@ mode = mode.trim();
 }
 
 // q random
-if(q == 'l'||q == 'r'){ q = null; mode = 'randUrl'; }
+if(q == 'l'||q == 'r'){ q = null; mode = 'random'; }
+
 if(q != null){
 //alert(q[q.length - 1]);
 if(q[q.length - 2] == ' '&&q[q.length - 1] == 'l'){ q = q.slice(0, -2); q2 = 'l'; }
