@@ -1,6 +1,6 @@
-<!-- Main README.md v.1.1.0 -->
+<!-- README.md v.1.1.1 -->
   
-## Home page and projects. 
+# Home page and projects
   
 ---
   
