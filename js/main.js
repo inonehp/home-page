@@ -8,7 +8,6 @@ conf["confTagListLimit"] = 38;
 conf["confDomainNameInTitle"] = "on"; // on, off
 conf["confLinkExtList"] = "index.html,.html,index.php,.php";
 
-
 const confData = [
 {
 "confTitle":"Allow Cookies For Third Parties?",

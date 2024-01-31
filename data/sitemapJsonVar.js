@@ -2,28 +2,28 @@ var sitemapJsonVar = [
     {
         "text": "\n\n404 The page that appears when something is not found.\nPage or file: moved, deleted ...",
         "url": "\/404.html",
-        "tag": " #404 #not_found",
+        "tag": " #404 #not_found #page #main",
         "id": "aa8eb2fe477b2d36ecc0f14d6422513f",
         "time": "id"
     },
     {
         "text": ".\n\nHome page and projects. Interests: Web Design, Web Dev, and Coding.",
         "url": "\/index.html",
-        "tag": " #website #WebDesign #project #projects #WebDev #dev #HTML #CSS #JavaScript",
+        "tag": " #website #WebDesign #project #projects #WebDev #dev #HTML #CSS #JavaScript #page #main",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
         "time": "id"
     },
     {
         "text": "About\n\nAbout the site, links, license, contacts.",
         "url": "\/about.html",
-        "tag": " #about #page #contact #donate #support",
+        "tag": " #about #contact #donate #support #page #main",
         "id": "fb8a140d6f076647256a4ea161f4c280",
         "time": "id"
     },
     {
         "text": "Ads\n\nLinks and ads.",
         "url": "\/ads.html",
-        "tag": " #ad #ads #links",
+        "tag": " #ad #ads #links #page #main",
         "id": "88ac0d7efcaec004a38b73ca1695bcee",
         "time": "id"
     },
@@ -191,14 +191,14 @@ var sitemapJsonVar = [
     {
         "text": "Archive list\n\nOn this page are the projects that I want to hide.",
         "url": "\/archive-list.html",
-        "tag": " #archive #menu #list",
+        "tag": " #archive #menu #list #page #main",
         "id": "9404a4c41970c890e52935ed9af2b641",
         "time": "id"
     },
     {
         "text": "Blog\n\nBlog: reposts, likes and other.",
         "url": "\/blog.html",
-        "tag": " #reposts #likes #post #blog",
+        "tag": " #reposts #likes #post #blog #page #main",
         "id": "7d022dd158b090bf0d55b0cef3d14865",
         "time": "id"
     },
@@ -233,14 +233,14 @@ var sitemapJsonVar = [
     {
         "text": "Chrome extensions list\n\nChrome browser extension: hotkeys to a website, your website in a new tab, and more.",
         "url": "\/chrome-extensions-list.html",
-        "tag": " #Chrome_extension #hotkeys #new_tab #chrome #extension #list #projects",
+        "tag": " #Chrome_extension #hotkeys #new_tab #chrome #extension #list #projects #page #main",
         "id": "9718546b9d4f22fadc4c1bb0a4643f94",
         "time": "id"
     },
     {
         "text": "Css art\n\nCSS Art - a fun way to practice CSS.",
         "url": "\/css-art.html",
-        "tag": " #CSS_art #CSS #HTML #art #CSS_image #projects #list",
+        "tag": " #CSS #HTML #art #projects #list #page #main",
         "id": "49b8920fccfc5344479aaaf9aac3f3df",
         "time": "id"
     },
@@ -296,21 +296,21 @@ var sitemapJsonVar = [
     {
         "text": "Data other page\n\nPlace for other data or files.",
         "url": "\/data-other-page.html",
-        "tag": " #other_data #other_files #data #file #list",
+        "tag": " #other_data #other_files #data #file #list #page #main",
         "id": "7b485509806f796d853df7b9b7941375",
         "time": "id"
     },
     {
         "text": "Data page\n\nOther files with data.",
         "url": "\/data2-page.html",
-        "tag": " #data #data_file #file #list",
+        "tag": " #data #data_file #file #list #page #main",
         "id": "ae646ac8339e6914411b1be2d6f30fee",
         "time": "id"
     },
     {
         "text": "Data page\n\nThe data files used on the site.",
         "url": "\/data-page.html",
-        "tag": " #data_file #data #file #list",
+        "tag": " #data_file #data #file #list #page #main",
         "id": "7a0ba4bf4d0f6324ea3585f7a30b4111",
         "time": "id"
     },
@@ -359,21 +359,21 @@ var sitemapJsonVar = [
     {
         "text": "Firefox extensions list\n\nFirefox browser extension: hotkeys to a website, your website in a new tab, and more.",
         "url": "\/firefox-extensions-list.html",
-        "tag": " #Firefox_extension #hotkeys #new_tab #firefox #extesion #projects #project #list",
+        "tag": " #Firefox #hotkeys #new_tab #firefox #extesion #projects #project #list #page #main",
         "id": "8098f42d3059c90b394179c067cfb9cb",
         "time": "id"
     },
     {
         "text": "Firefox theme\n\nSeveral color themes for the Firefox browser in a flat style: light flat, dark flat, and several with other colors.",
         "url": "\/firefox-theme.html",
-        "tag": " #Firefox_theme #theme_for_Firefox #Firefox_dark_theme #Firefox_light_theme #firefox #theme #project #list",
+        "tag": " #Firefox #dark #light #theme #project #page #main",
         "id": "ef76481c666e083b2ffdb4b5433639bb",
         "time": "id"
     },
     {
         "text": "Geany color\n\nGeany IDE code editor themes: light and dark.",
         "url": "\/geany-color.html",
-        "tag": " #Geany_theme #Geany_color #Geany_flat #Geany_dark #Geany_light #geany #theme #color #project #list",
+        "tag": " #Geany #theme #color #flat #dark #light #project #page #main",
         "id": "b6414c79020a98890ed9d4ad9d56654d",
         "time": "id"
     },
@@ -387,7 +387,7 @@ var sitemapJsonVar = [
     {
         "text": "Images\n\nBadly drawn or made pictures, sometimes something turns out well.",
         "url": "\/images.html",
-        "tag": " #img #picture #wallpaper #logo #illustrations",
+        "tag": " #img #picture #wallpaper #logo #illustration #page #main",
         "id": "c736f7bcbfda9e0e6cb5c1cbf991c447",
         "time": "id"
     },
@@ -401,21 +401,21 @@ var sitemapJsonVar = [
     {
         "text": "Install\n\n\u00b7 Install website as app (PWA).",
         "url": "\/install.html",
-        "tag": " #install #install_website #PWA #WebApp #app",
+        "tag": " #install #install_website #PWA #WebApp #app #page #main",
         "id": "3036dd8f54ff32dc48bf6258269eb20e",
         "time": "id"
     },
     {
         "text": "Links\n\nThe collection of links. P.S.: Google has a larger collection of websites.",
         "url": "\/links.html",
-        "tag": " #links #bookmark #collection",
+        "tag": " #websites #links #bookmark #collection #page #main",
         "id": "89c3ca4c0d51a9790717206e38a14c50",
         "time": "id"
     },
     {
         "text": "Main list\n\nList of the main pages of the site.",
         "url": "\/main-list.html",
-        "tag": " #main #menu #list #projects",
+        "tag": " #main #menu #list #projects #main #pages",
         "id": "733a76918eebc08eb9671ed9e7d6c74e",
         "time": "id"
     },
@@ -562,7 +562,7 @@ var sitemapJsonVar = [
     {
         "text": "Mini projects list\n\nMini projects mainly using HTML, and CSS.",
         "url": "\/mini-projects-list.html",
-        "tag": " #mini_projects #mini_project #CSS_project #HTML_project #HTML #CSS #JavaScript #projects #list",
+        "tag": " #mini_projects #mini_project #CSS_project #HTML_project #HTML #CSS #JavaScript #projects #list #main #pages",
         "id": "733a6e37ab70a4c649077b3da5c564f8",
         "time": "id"
     },
@@ -576,7 +576,7 @@ var sitemapJsonVar = [
     {
         "text": "Other projects list\n\nOther projects using other programming languages.",
         "url": "\/other-projects-list.html",
-        "tag": " #php #code #programming #coding #projects #list",
+        "tag": " #php #code #programming #coding #projects #list #main #pages",
         "id": "fcb9829b5d4cf76abe26b4699539f3e6",
         "time": "id"
     },
@@ -590,7 +590,7 @@ var sitemapJsonVar = [
     {
         "text": "Photos\n\nSometimes I take photos.",
         "url": "\/photos.html",
-        "tag": " #photo",
+        "tag": " #photo #page #main",
         "id": "d6f0e61c0d0c8b21a1105e4844f0c9fe",
         "time": "id"
     },
@@ -653,7 +653,7 @@ var sitemapJsonVar = [
     {
         "text": "Projects >  demo test style > .\n\nA test page for testing CSS style on this site.",
         "url": "\/projects\/5-demo-test-style\/index.html",
-        "tag": " #demo #test #style #page #project",
+        "tag": " #demo #test #style #project",
         "id": "7cb3dff7768fd22675af571c6c4e8c43",
         "time": "id"
     },
@@ -926,28 +926,28 @@ var sitemapJsonVar = [
     {
         "text": "Projects list\n\nProjects based on HTML, CSS and JavaScript.",
         "url": "\/projects-list.html",
-        "tag": " #HTML #CSS #JavaScript #projects #list",
+        "tag": " #HTML #CSS #JavaScript #projects #list #pages #main",
         "id": "6c8d65a79d2131f6bbcadd08cd1bf954",
         "time": "id"
     },
     {
-        "text": "Search\n\nSite search.",
+        "text": "Search\n\nSite,search.",
         "url": "\/search.html",
-        "tag": " #site #search",
+        "tag": " #site #search #page #main",
         "id": "c9db0e13a328be0eaa311c5b24ad331c",
         "time": "id"
     },
     {
         "text": "Settings\n\nPage with settings: cookies, ads, other.",
         "url": "\/settings.html",
-        "tag": " #setting #setting #setting_page #page_with_settings #page_with_settings",
+        "tag": " #setting #page #main",
         "id": "66a61e3a38d33964bc4f29dae6426b82",
         "time": "id"
     },
     {
         "text": "Templates\n\nI create pages for practice.",
         "url": "\/templates.html",
-        "tag": " #template #WebDesign #site_templates #website_templates #project #projects #list",
+        "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main",
         "id": "8293cee293d869063587a57f991071fa",
         "time": "id"
     },
@@ -1185,28 +1185,28 @@ var sitemapJsonVar = [
     {
         "text": "Text\n\nLong text: article, post. I'm attempting to write something.",
         "url": "\/text.html",
-        "tag": " #text #article #post",
+        "tag": " #text #article #post #page #main",
         "id": "63caf82fca46caa38ca0328bab57c966",
         "time": "id"
     },
     {
         "text": "Theme\n\nSettings and theme selection page.",
         "url": "\/theme.html",
-        "tag": " #website_theme #website_themes #website_color #website_colors #theme_setting #themes_setting #theme_setting_page",
+        "tag": " #theme #themes #color #colors #setting #page #main",
         "id": "63482783355f58cf562f5fa1db998dc5",
         "time": "id"
     },
     {
         "text": "Vscode theme\n\nVisual Studio Code themes: light and dark.",
         "url": "\/vscode-theme.html",
-        "tag": " #Visual_Studio_Code_theme #Visual_Studio_Code_color #Visual_Studio_Code_flat #Visual_Studio_Code_dark #Visual_Studio_Code_light #VSCode_theme #VSCode_color #VSCode_flat #VSCode_dark #VSCode_light #VSCode #theme #project",
+        "tag": " #Visual #Studio #Code #theme #color #flat #dark #light #VSCode #project #page #main",
         "id": "b017f50abc75d1f4a8238c2005391cb7",
         "time": "id"
     },
     {
         "text": "Web search\n\nWeb search, more correct a redirection page to search engines.",
         "url": "\/web-search.html",
-        "tag": " #web_search #redirection_page #search #redirect",
+        "tag": " #web #search #redirection #redirect #page #main",
         "id": "fa848671b775b5f8cf48077e1be17d1d",
         "time": "id"
     }
