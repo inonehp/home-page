@@ -2,7 +2,7 @@
 // For settings, themes, ...
 
 var conf = [];
-conf["confGoogleAnalyticsId"] = "GTM-P5CMW7T7";
+conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
 conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
 conf["confTagListLimit"] = 38;
 conf["confDomainNameInTitle"] = "on"; // on, off
