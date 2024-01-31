@@ -1,6 +1,6 @@
 // v.1.2.1
 // Cookie Consent Popups
-// if not selected: popup
+// if "not selected": popup
 
 fuMPrintText('cookiePopup', `
 
