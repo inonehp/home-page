@@ -120,15 +120,6 @@ document.getElementById(id).innerHTML = text;
 }
 
 
-
-
-
-
-
-
-
-
-
 // start footer
 
 var fDesc = '';
@@ -223,6 +214,14 @@ document.getElementById(id).scrollIntoView();
 }
 }
 // end footer
+
+// other nav
+fuMPrintText("mNavOther", `
+<a class="brand" href="/">index</a>
+<a class="brand" href="/pages.html">pags</a>
+<a class="brand" href="../">list</a>
+<a class="brand" href="javascript:history.back()">back</a>
+`, '');
 
 
 /*
