@@ -1,4 +1,4 @@
-// Main js v.5.10.1
+// Main js v.5.11.0
 // For settings, themes, ...
 
 var conf = [];
@@ -48,7 +48,7 @@ This is necessary to improve the site.
 "confTitle":"Icons on off",
 "confDescription":"Enable Disable Icons.",
 "confName":"confIconStatus",
-"confValueDefault":"on",
+"confValueDefault":"off",
 "confValueVariant":["on", "off"],
 },
 {
@@ -1017,7 +1017,7 @@ fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">Cookie: au
 fuMPrintText('cookiePopup', `
 
 <div class="wrapper">
-<div class="wrapper cookiePopup post bg2 border margin tCenter shadow">
+<div class="cookiePopup post bg2 border margin tCenter shadow borderRadius3">
 <p class="h5 bold">Allow Cookie for third parties?</p>
 
 <p>This consent is required to improve the website, collect statistics, and show relevant advertisements.</p>
@@ -1025,8 +1025,8 @@ fuMPrintText('cookiePopup', `
 <div class="padding2List"></div>
 
 <p>
-<button class="bold button light3 border margin2List cookieBtnYes" onclick="cookiePopup('on')">Yes</button>
-<button class="bold button light3 border margin2List cookieBtnNo"  onclick="cookiePopup('off')">No</button>
+<button class="bold button light3 border margin2List cookieBtnYes borderRadius2" onclick="cookiePopup('on')">Yes</button>
+<button class="bold button light3 border margin2List cookieBtnNo borderRadius2"  onclick="cookiePopup('off')">No</button>
 </p>
 </div>
 </div>
@@ -1034,7 +1034,7 @@ fuMPrintText('cookiePopup', `
 <style>
 #cookiePopup {
 position: fixed;
-bottom: 5px;
+bottom: 10vh;
 left: 0;
 right: 0;
 display: none;
@@ -1042,7 +1042,7 @@ z-index: 99;
 }
 
 .cookiePopup { max-width: calc(100% - (var(--bodyP) * 2)); margin: 0 auto; }
-#cookiePopup button { width: 90px; max-width: 100%; }
+#cookiePopup button { width: 120px; max-width: 100%; }
 .cookieBtnYes { border: 1px solid var(--green); }
 .cookieBtnNo { border: 1px solid var(--c); }
 </style>

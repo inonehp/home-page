@@ -19,10 +19,10 @@
 --inputH: 45px;
 --fontSize: 0.97em;
 
---itemHeight: 30px;
---itemHeight2: 45px;
---itemHeight3: auto;
---itemHeight4: 100dvh;
+--itemH: 30px;
+--itemH2: 45px;
+--itemH3: auto;
+--itemH4: 100dvh;
 
 /*--mobileScreen: 500px;*/
 }
@@ -281,10 +281,10 @@ right: 0;
 .margin2List { margin-bottom: 10px; }
 .margin3List { margin-bottom: 15px; }
 
-.itemHeight { min-height: var(--itemHeight); }
-.itemHeight2 { min-height: var(--itemHeight2); }
-.itemHeight3 { min-height: var(--itemHeight3); }
-.itemHeight4 { min-height: var(--itemHeight4); }
+.itemH { min-height: var(--itemHeight); }
+.itemH2 { min-height: var(--itemHeight2); }
+.itemH3 { min-height: var(--itemHeight3); }
+.itemH4 { min-height: var(--itemHeight4); }
 
 .capitalize { text-transform: capitalize; }
 .uppercase { text-transform: uppercase; }
