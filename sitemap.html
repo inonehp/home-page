@@ -70,7 +70,7 @@ pages, main,">
 <div class="menuTop">
 <a class="countMenuItem brand" href="images.html">images</a><br>
 <a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem brand" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
 </div>
 <!-- end menuTop -->
 
@@ -86,7 +86,7 @@ pages, main,">
 <!-- menu dublicate -->
 <a class="countMenuItem brand" href="images.html">images</a><br>
 <a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem brand" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
 <!-- //menu dublicate -->
 
 </div>
@@ -148,12 +148,12 @@ display: block;
 <!-- content -->
 <div class="content">
 
+<nav class="wrapper block">
+<a href="/">index</a>
+<a href="/pages.html">lists</a>
+</nav>
 
 <h1 class="block tCenter op">Sitemap</h1>
-<a class="block tCenter op" href="/sitemap.xml">sitemap.xml</a>
-
-
-
 
 <div id="echoBlog"></div>
 
@@ -185,8 +185,7 @@ fuAds('', 'ads2', '');
 <script src="/projects/1-blog/script.js"></script>
 
 <style>
-.blogContent .pre { font-size: 1em; /*text-transform: capitalize;*/ }
-.blogContent .pre a { text-transform: none; }
+.blogContent .pre::first-letter { font-weight: bold; }
 </style>
 
 <script>
@@ -197,13 +196,13 @@ let blogConfig = {
 "tagListStatus":"", // off
 "tagListLimit":"", // number
 "targetOption":"", // blank
-"bottomMsg":"", // text
+"bottomMsg":`<a class="block tCenter op padding2" href="/sitemap.xml">sitemap.xml</a>`, // text
 "display":"", // grid
 "timeStatus":"", // off
 };
 </script>
 <script>
-blog("echoBlog", sitemapJsonVar, 'post', '/sitemap.html', blogConfig);
+blog("echoBlog", sitemapJsonVar, ' blogContent post ', '/sitemap.html', blogConfig);
 </script>
 
 

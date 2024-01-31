@@ -253,7 +253,7 @@ let lSlideShow = '';
 print += `
 
 <nav>
-<a class="small" href="?">main</a>
+<a class="small" href="?">[ ./ ]</a>
 <a class="small" href="?mode=random" title="Random post">random</a>
 ${lSlideShow}
 <!--<a href="/rss.xml">rss</a>-->

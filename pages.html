@@ -9,7 +9,7 @@
 
 <meta name="description" content="A list of some pages of the site.">
 <meta name="keywords" content="
-pages, list, projects, menu,
+pages, list, lists, projects, menu, page, main,
 ">
 
 <link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
@@ -70,7 +70,7 @@ pages, list, projects, menu,
 <div class="menuTop">
 <a class="countMenuItem brand" href="images.html">images</a><br>
 <a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem active" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
 </div>
 <!-- end menuTop -->
 
@@ -86,7 +86,7 @@ pages, list, projects, menu,
 <!-- menu dublicate -->
 <a class="countMenuItem brand" href="images.html">images</a><br>
 <a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem active" href="pages.html">pages</a><br>
+<a class="countMenuItem brand" href="blog.html">blog</a><br>
 <!-- //menu dublicate -->
 
 </div>
@@ -148,12 +148,13 @@ display: block;
 <!-- content -->
 <div class="content">
 
+
 <h1 class="op tCenter">Pages</h1>
 
 <div class="wrapper">
 
 
-<div class="small block op tCenter">quick tags:</div>
+
 <div id="idTagList"></div>
 
 <div id="getId">
@@ -321,7 +322,7 @@ document.getElementsByClassName("printStyle")[0].innerHTML += `
 </div>
 
 <div class="block padding2"></div>
-<div class="small block op tCenter">quick tags:</div>
+
 <div id="idTagList2"></div>
 
 
@@ -330,7 +331,7 @@ document.getElementsByClassName("printStyle")[0].innerHTML += `
 
 
 
-
+/*
 async function divIdToTag(printId, fromId){
 
 var allIdOnPage = '';
@@ -352,7 +353,11 @@ if(document.getElementById(printId) == null){
 console.log('id for print null');
 }else{
 document.addEventListener("DOMContentLoaded", (event) => {
-document.getElementById(printId).innerHTML = allIdOnPage;
+document.getElementById(printId).innerHTML = `
+
+<div class="small block op tCenter">quick tags:</div>
+
+` + allIdOnPage;
 });
 
 }
@@ -360,8 +365,8 @@ document.getElementById(printId).innerHTML = allIdOnPage;
 
 }
 
-divIdToTag('idTagList', 'getId')
-divIdToTag('idTagList2', 'getId')
+divIdToTag('idTagList', 'getId');
+divIdToTag('idTagList2', 'getId');*/
 
 </script>
 
