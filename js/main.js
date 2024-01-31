@@ -1,4 +1,4 @@
-// Main js v.5.11.0
+// Main js v.5.11.1
 // For settings, themes, ...
 
 var conf = [];
@@ -48,7 +48,7 @@ This is necessary to improve the site.
 "confDescription":"Enable Disable Icons.",
 "confName":"confIconStatus",
 "confValueDefault":"off",
-"confValueVariant":["on", "off"],
+"confValueVariant":["on", "off", "random"],
 },
 {
 "confTitle":"Ads on off",
@@ -942,7 +942,7 @@ hideFileNameExt2();
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function fuMRandom(min, max) {
-return Math.random() * (max - min) + min;
+return Math.round(Math.random() * (max - min) + min);
 }
 
 // start bg image

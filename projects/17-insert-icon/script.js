@@ -1,14 +1,19 @@
-// Fu insert icon v.2.6.4
+// Fu insert icon v.2.6.5
 // Function for insert icon in links using class name.
 
 
 async function insertIcon(classNameForInsert, mode){
 
-
-//var insertIconStatus = localStorage.getItem("confIconStatus");
-var insertIconStatus = conf["confIconStatus"];
+//var confIconStatus = localStorage.getItem("confIconStatus");
+var confIconStatus = conf["confIconStatus"];
 var insertIconCookieAllow = conf["confDataCollection"];
-if(insertIconStatus == null){ insertIconStatus = 'on'; }
+if(confIconStatus == null){ confIconStatus = 'off'; }
+
+if(confIconStatus == "random"){
+if(fuMRandom(0, 1) == 1){ confIconStatus = "on"; }
+}
+
+if(confIconStatus == "on"){
 
 // mode: "strict" - for full word
 if(mode != 'strict'){ mode = ''; }
@@ -317,7 +322,7 @@ counter++;
 }
 }
 
-if(insertIconStatus == "on"){
+if(confIconStatus == "on"){
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
@@ -339,27 +344,12 @@ counter++;
 linkText = `<span><span class="brand ico">🦝</span>` + linkText + '</span>';
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 }
-}else{
-//linkText = `<span class=" capitalize${classNameForInsert} ">${linkText}</span>`;
-/*//upper if off
-linkText = String(linkText).trim();
-var linkTextUp = '';
-if(linkText[0] != '<'){
-linkTextUp = '<span style="text-transform: capitalize; padding: 1px; margin: 0;">' + linkText[0] + '</span>';
-linkText = '<span> • ' + linkTextUp + linkText.slice(1) + '</span>';
-}else{
-linkText = '<span> • ' + linkText + '</span>';
-}*/
-
+}
+/*else{
 linkText = '<span>' + linkText + '</span>';
 //linkText = `<span class="brand ico uppercase"> • </span>` + linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
-
-/*if(index == 0){
-document.getElementsByClassName(classNameForInsert)[0].innerHTML += `<style>.capitalize${classNameForInsert}::first-letter { text-transform: capitalize; }</style>`;
 }*/
-
-}
 
 
 }
@@ -375,7 +365,7 @@ counter = 0;
 
 
 
-
+}
 
 }
 

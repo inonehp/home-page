@@ -165,13 +165,6 @@ border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
 
 .logo2 { /*border: 1px;*/ width: 26px; height: 26px; }
 
-/*.ico, .ico img, .ico2, .ico2 img {
-border-radius: 50%;
-border: 1px solid var(--d);
-padding: 2px;
-}*/
-
-
 .tagList, .tagList2 {
 display: inline-flex;
 flex-wrap: wrap;
@@ -195,6 +188,13 @@ max-width: 100%;
 .tag2 { padding: .3em .8em; }
 /*@media (any-pointer: coarse) { .tag { padding: .3em .8em; } }*/
 
+.ico, .ico img, .ico2, .ico2 img {
+border-radius: 50%;
+border: 1px solid var(--d);
+padding: 2px;
+}
+
+/* ico2 - for img */
 .ico, .ico2 {
 /*display: inline-block;*/
 /*filter: brightness(90%);  */
@@ -207,7 +207,6 @@ filter: grayscale(40%);
 }
 img.ico, img.ico2 { justify-content: end; display: inline-block; vertical-align: middle; height: auto; }
 
-/* img */
 .ico2 {
 /*filter: brightness(90%);*/
 font-size: xx-small;

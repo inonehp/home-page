@@ -27,11 +27,11 @@ val.confValueVariant.forEach((val2) => {
 
 if(val2 == carrentValue33){
 confValueVariantPrint += `
-<button class="button margin highlight green bold" onclick="setSeting('${val.confName}', '${val2}')">${val2}</button>
+<button class="button margin highlight bold borderRadius2" onclick="setSeting('${val.confName}', '${val2}')">${val2}</button>
 `;
 }else{
 confValueVariantPrint += `
-<button class="button margin bold light2" onclick="setSeting('${val.confName}', '${val2}')">${val2}</button>
+<button class="button margin light2 borderRadius2" onclick="setSeting('${val.confName}', '${val2}')">${val2}</button>
 `;
 }
 
@@ -50,7 +50,7 @@ printBody += `
 <div class="padding2 border"><span class="bold">${val.confTitle} <!--<div class="op block tRight padding placeholder normal x-small">conf["${val.confName}"]</div>--></span></div>
 <div class="padding2 border pre">${val.confDescription}</div>
 <div class="padding2 border">${confValueVariantPrint}</div>
-<div class="padding2 border break2"><span class="orange bold">${carrentValue33}</span></div>
+<div class="padding2 border break2"><span class="bold">${carrentValue33}</span></div>
 </div>
 <div class="padding block" style="background: var(--d2);"></div>
 
