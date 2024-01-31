@@ -1,4 +1,4 @@
-// Main js v.5.11.1
+// Main js v.6.0.0
 // For settings, themes, ...
 
 var conf = [];
@@ -7,6 +7,7 @@ conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
 conf["confTagListLimit"] = 38;
 conf["confDomainNameInTitle"] = "on"; // on, off
 conf["confLinkExtList"] = "index.html,.html,index.php,.php";
+conf["confIdEmbedScript"] = "footer";
 
 const confData = [
 {
@@ -120,6 +121,7 @@ document.getElementById(id).innerHTML = text;
 }
 
 
+
 // start footer
 
 var fDesc = '';
@@ -217,10 +219,12 @@ document.getElementById(id).scrollIntoView();
 
 // other nav
 fuMPrintText("mNavOther", `
+<nav>
 <a class="brand" href="/">index</a>
 <a class="brand" href="/pages.html">pags</a>
 <a class="brand" href="../">list</a>
 <a class="brand" href="javascript:history.back()">back</a>
+</nav>
 `, '');
 
 
@@ -978,6 +982,15 @@ background-attachment: fixed;
 // end bg image
 
 
+// insert icons
+
+
+
+
+
+
+
+
 
 
 
@@ -1008,6 +1021,8 @@ fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">Cookie: au
 }
 // End Auto
 
+// test delme
+/*
 // v.1.2.1
 // Cookie Consent Popups
 // if not selected: popup
@@ -1062,7 +1077,7 @@ fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">cookie: ${
 }
 }
 // end Cookie Consent Popups
-
+*/
 
 
 
@@ -1070,15 +1085,13 @@ fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">cookie: ${
 
 
 // If third-party cookies on
-async function fuMIfCookieOn(){
 // analytics
 //document.body.onload = function(){}
 //document.addEventListener("DOMContentLoaded", (event) => { }); //fix
 //window.onload = function(){}
-//document.body.onload = function(){
+
+/*backup, test, dellme
 if(conf["confDataCollection"] == 'on'){
-
-
 //<!-- Google (gtag.js) -->
 var scriptStat = document.createElement('script');
 //scriptStat.async = 'async';
@@ -1090,14 +1103,101 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', conf["confGoogleAnalyticsId"]);
-//<!-- End Google (gtag.js) -->
+}
+//<!-- End Google (gtag.js) -->*/
 
+
+
+
+
+if(document.getElementById(conf["confIdEmbedScript"]) != null){
+
+function fuMEmbedScript(embedUrl, embedId){
+let script = document.createElement('script');
+script.type='text/javascript';
+//script.async = true;
+//script.defer = true;
+script.charset = 'utf-8';
+script.src = embedUrl;
+
+//https://stackoverflow.com/questions/3646036/preloading-images-with-javascript
+var link = document.createElement("link");
+link.rel = "preload";
+link.as = "script";
+link.href = embedUrl;
+document.head.appendChild(link);
+
+
+if(document.getElementById(embedId) != null){
+//document.getElementsByTagName('head')[0].appendChild(script); 
+document.getElementById(embedId).appendChild(script); 
 }
 }
-fuMIfCookieOn();
-// End If third-party cookies on
 
-// End Cookie
+// Embed script and run:
+
+if(conf["confIconStatus"] != "off"){
+fuMEmbedScript("/projects/17-insert-icon/script.js", conf["confIdEmbedScript"]);
+}
+
+if(conf["confAdsStatus"] != "off"){
+fuMEmbedScript(`/data/adsJsonVar.js`, conf["confIdEmbedScript"]);
+fuMEmbedScript(`/js/ad.js`, conf["confIdEmbedScript"]);
+}
+
+if(conf["confDataCollection"] == 'not selected'){
+fuMEmbedScript(`/js/cookieAgreePopup.js`, conf["confIdEmbedScript"]);
+}
+
+if(conf["confDataCollection"] == 'on'){
+fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAnalyticsId"]}`, conf["confIdEmbedScript"]);
+}
+
+
+
+
+
+
+
+
+///////////////////////////
+// Run:
+
+onload = (event) => {
+//document.body.onload = function(){}
+//document.addEventListener("DOMContentLoaded", (event) => {})
+
+
+if(conf["confIconStatus"] != "off"){
+insertIcon('insertIcon', 'strict');
+}
+
+if(conf["confAdsStatus"] != "off"){
+fuAds('', 'ads2', '');
+}
+
+if(conf["confDataCollection"] == 'on'){
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', conf["confGoogleAnalyticsId"]);
+}
+
+
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
 
 
 

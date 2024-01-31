@@ -27,10 +27,6 @@
 
 <!-- main -->
 <link rel="preload" href="/js/main.js" as="script">
-<link rel="preload" href="/projects/17-insert-icon/script.js" as="script">
-<link rel="preload" href="/data/adsJsonVar.js" as="script"> 
-<link rel="preload" href="/js/ad.js" as="script">
-
 <link rel="preload" href="/css/main.css" as="style">
 <link rel="stylesheet" href="/css/main.css" type="text/css">
 
@@ -393,22 +389,25 @@ display: block;
 
 <div class="padding2 margin2"></div>
 
-    <a class="op" href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
+    <a class="tag2 insertIcon brand margin" href="https://jigsaw.w3.org/css-validator/check/referer">
+The W3C CSS Validation Service
+<!--<img style="border:0;width:88px;height:31px"
             src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!">
+            alt="Valid CSS!">-->
     </a>
 
-    <a class="op" href="https://validator.w3.org/check?uri=referer">
-        <img style="border:0;width:88px;height:31px"
+    <a class="tag2 insertIcon brand margin" href="https://validator.w3.org/check?uri=referer">
+The W3C Markup Validation Service
+       <!-- <img style="border:0;width:88px;height:31px"
             src="https://www.w3.org/Icons/valid-xhtml10.png"
-            alt="Valid HTML!">
+            alt="Valid HTML!">-->
     </a>
 
-    <a class="op" href="https://pagespeed.web.dev/analysis?url=https://inonehp.pages.dev">
-        <img style="border:0; height:31px"
+    <a class="tag2 insertIcon brand margin" href="https://pagespeed.web.dev/analysis?url=https://inonehp.pages.dev">
+PageSpeed Insights
+       <!-- <img style="border:0; height:31px"
             src="https://www.gstatic.com/pagespeed/insights/ui/logo/favicon_48.png"
-            alt="PageSpeed Insights">
+            alt="PageSpeed Insights">-->
     </a>
 
 <div class="block padding2"></div>
@@ -481,19 +480,19 @@ justify-content: center;
 <!-- //content -->
 
 
-<footer>
+<footer id="footer"></footer>
 
-<div id="footer"></div>
-
-</footer>
-
+<span id="embedScript"></span>
 <script src="/js/main.js"></script>
+
+
+<!--
 <script src="/data/adsJsonVar.js"></script>
 <script src="/js/ad.js"></script>
 <script>
 fuAds('', 'ads2', '');
 </script>
-
+-->
 
 
 
@@ -516,13 +515,6 @@ twitterEmbed('twitter', 'inonehp', 3, confThemeEmbed);
 
 
 
-
-<script src="/projects/17-insert-icon/script.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", (event) => {
-insertIcon('insertIcon', 'strict');
-});
-</script>
 
 
 

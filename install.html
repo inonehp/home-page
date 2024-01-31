@@ -29,10 +29,6 @@ install, install website, PWA, WebApp, app, page, main,
 
 <!-- main -->
 <link rel="preload" href="/js/main.js" as="script">
-<link rel="preload" href="/projects/17-insert-icon/script.js" as="script">
-<link rel="preload" href="/data/adsJsonVar.js" as="script"> 
-<link rel="preload" href="/js/ad.js" as="script">
-
 <link rel="preload" href="/css/main.css" as="style">
 <link rel="stylesheet" href="/css/main.css" type="text/css">
 
@@ -157,10 +153,10 @@ display: block;
 
 
 
-<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install (21,29 MB)</span>
+<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install (20,63 MB)</span>
 <span class="small block padding2">registration sw.js (service worker) and adding files to the cache. (1)</span></button>
 <div id="startInstallStatus" class="post padding2 margin2 borderList"></div>
-<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install (21,29 MB) (2)</button>
+<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install (20,63 MB) (2)</button>
 
 
 
@@ -369,28 +365,21 @@ Generated using a PHP function: website dir to PWA in <a class="blue" href="/oth
 <!-- //content -->
 
 
-<footer>
+<footer id="footer"></footer>
 
-<div id="footer"></div>
-
-</footer>
-
+<span id="embedScript"></span>
 <script src="/js/main.js"></script>
+
+
+<!--
 <script src="/data/adsJsonVar.js"></script>
 <script src="/js/ad.js"></script>
 <script>
 fuAds('', 'ads2', '');
 </script>
+-->
 
 
-
-
-<script src="/projects/17-insert-icon/script.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", (event) => {
-insertIcon('insertIcon', 'strict');
-});
-</script>
 
 
 

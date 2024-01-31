@@ -27,10 +27,6 @@
 
 <!-- main -->
 <link rel="preload" href="/js/main.js" as="script">
-<link rel="preload" href="/projects/17-insert-icon/script.js" as="script">
-<link rel="preload" href="/data/adsJsonVar.js" as="script"> 
-<link rel="preload" href="/js/ad.js" as="script">
-
 <link rel="preload" href="/css/main.css" as="style">
 <link rel="stylesheet" href="/css/main.css" type="text/css">
 
@@ -208,19 +204,19 @@ var blogJsonVar = [
 <!-- //content -->
 
 
-<footer>
+<footer id="footer"></footer>
 
-<div id="footer"></div>
-
-</footer>
-
+<span id="embedScript"></span>
 <script src="/js/main.js"></script>
+
+
+<!--
 <script src="/data/adsJsonVar.js"></script>
 <script src="/js/ad.js"></script>
 <script>
 fuAds('', 'ads2', '');
 </script>
-
+-->
 
 
 
@@ -278,13 +274,6 @@ blog("echoBlog", blogJsonVar, ' post ', '/css-art.html', blogConfig);
 </script>
 
 
-
-<script src="/projects/17-insert-icon/script.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", (event) => {
-insertIcon('insertIcon', 'strict');
-});
-</script>
 
 
 

@@ -29,10 +29,6 @@ page, main,">
 
 <!-- main -->
 <link rel="preload" href="/js/main.js" as="script">
-<link rel="preload" href="/projects/17-insert-icon/script.js" as="script">
-<link rel="preload" href="/data/adsJsonVar.js" as="script"> 
-<link rel="preload" href="/js/ad.js" as="script">
-
 <link rel="preload" href="/css/main.css" as="style">
 <link rel="stylesheet" href="/css/main.css" type="text/css">
 
@@ -197,7 +193,7 @@ display: block;
 <summary class="op wrapperS padding2List pointer">
 <span class="xSmall padding2List">update: <span id="last-update"></span></span>
 </summary>
-<div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">fix icons: in test.</div>
+<div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">speedup pages</div>
 </details>
 
 
@@ -530,19 +526,19 @@ divIdToTag('idTagList', 'getId')
 <!-- //content -->
 
 
-<footer>
+<footer id="footer"></footer>
 
-<div id="footer"></div>
-
-</footer>
-
+<span id="embedScript"></span>
 <script src="/js/main.js"></script>
+
+
+<!--
 <script src="/data/adsJsonVar.js"></script>
 <script src="/js/ad.js"></script>
 <script>
 fuAds('', 'ads2', '');
 </script>
-
+-->
 
 
 
@@ -604,7 +600,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1706703263);
+document.getElementById("last-update").innerHTML = fuPostTime(1706725604);
 </script>
 
 <script>
@@ -638,13 +634,6 @@ window.location.href = "/projects/25-redirects/?q=" + q;
 </script>
 
 
-
-<script src="/projects/17-insert-icon/script.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", (event) => {
-insertIcon('insertIcon', 'strict');
-});
-</script>
 
 
 

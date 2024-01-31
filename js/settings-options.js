@@ -137,7 +137,7 @@ printFunctionLocal();
 function setSeting(confName, confValue){
 settingValue = localStorage.setItem(confName, confValue);
 
-if(confName == "confBg"||confName == "confAdsStatus"){ // interactive
+if(confName == "confBg"||confName == "confAdsStatus"||confName == "confDataCollection"){ // interactive
 return printFunctionLocal(confValue), fuMReload();
 }else{
 return printFunctionLocal();

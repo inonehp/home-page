@@ -1,5 +1,4 @@
 // Keep v.2.8.3
-// For blog, links, seach, etc
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
 
