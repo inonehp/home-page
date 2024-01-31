@@ -284,7 +284,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matc
 var meta = document.createElement('meta');
 meta.name = "theme-color";
 if(conf["confDeviceTheme"] == 'dark'){
-meta.content = "#2D2D2E";
+meta.content = "red";
 }else{
 meta.content = "#F0F0F0";
 }
