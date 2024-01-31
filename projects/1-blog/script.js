@@ -1,4 +1,4 @@
-// Keep v.2.8.1
+// Keep v.2.8.3
 // For blog, links, seach, etc
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
@@ -1752,10 +1752,10 @@ if(embedStatus != 'off'&&host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-ico = `<img class="ico2 op" src="${ico}" alt="icon">`;
-if(localStorage.getItem('confDataCollection') != 'on'){
+ico = `<span class="ico2 op"><img src="${ico}" alt="icon"></span>`;
+if(conf['confDataCollection'] != 'on'){
 ico = '🔗';
-if(localStorage.getItem('confIconStatus') != 'on'){ ico = '·'; }
+if(conf['confIconStatus'] != 'on'){ ico = '·'; }
 }
 
 item = item.trim();
@@ -2245,10 +2245,10 @@ if(embedStatus != 'off'&&host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-ico = `<img class="ico2 op" src="${ico}" alt="icon">`;
-if(localStorage.getItem('confDataCollection') != 'on'){
+ico = `<span class="ico2 op"><img src="${ico}" alt="icon"></span>`;
+if(conf['confDataCollection'] != 'on'){
 ico = `🔗`;
-if(localStorage.getItem('confIconStatus') != 'on'){ ico = '·'; }
+if(conf['confIconStatus'] != 'on'){ ico = '·'; }
 }
 
 item = item.trim();

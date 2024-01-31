@@ -1,19 +1,16 @@
-// Fu insert icon v.2.6.5
+// Fu insert icon v.2.7.0
 // Function for insert icon in links using class name.
 
 
 async function insertIcon(classNameForInsert, mode){
 
-//var confIconStatus = localStorage.getItem("confIconStatus");
-var confIconStatus = conf["confIconStatus"];
-var insertIconCookieAllow = conf["confDataCollection"];
-if(confIconStatus == null){ confIconStatus = 'off'; }
+if(conf["confIconStatus"] == null){ conf["confIconStatus"] = 'off'; }
 
-if(confIconStatus == "random"){
-if(fuMRandom(0, 1) == 1){ confIconStatus = "on"; }
+if(conf["confIconStatus"] == "random"){
+if(fuMRandom(0, 1) == 1){ conf["confIconStatus"] = "on"; }
 }
 
-if(confIconStatus == "on"){
+if(conf["confIconStatus"] == "on"){
 
 // mode: "strict" - for full word
 if(mode != 'strict'){ mode = ''; }
@@ -219,12 +216,12 @@ if(counter == 0){
 let linkText = item.innerHTML;
 
 
-let linkURL = item.href;
+var linkURL = item.href;
 if(item.href != undefined){
 linkURL = item.href;
-}else{ linkURL = '#undefined'; }
+}else{ linkURL = ''; }
 
-let check = '';
+
 let icArr = [];
 counter = 0; 
 
@@ -233,7 +230,6 @@ iconsArr.forEach((item33, index33) => {
 let textIcon = String(item33);
 let icon = String(icons[item33]);
 //console.log((linkText.toLowerCase()+'')+((icon+' ')));
-
 
 
 
@@ -252,8 +248,9 @@ linkText2 = linkText2.replaceAll(`
 ;
 
 
+
 //counter == 0 - only one icon insert
-if(mode != 'strict'&&check != 'exit'&&counter == 0){
+if(mode != 'strict'&&counter == 0){
 // main, not strict
 
 //https://stackoverflow.com/questions/412123764/how-to-remove-numbers-from-a-string
@@ -262,28 +259,28 @@ if(
 ||linkText2.replace(/\d+/g, '').toLowerCase().trim().search(textIcon.replace(/\d+/g, '')) != -1
 &&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
 icArr.push(icon);
-check = 'exit';
 counter++;
 }
 
-}else if(mode == 'strict'&&check != 'exit'&&counter == 0){
+}else if(mode == 'strict'&&counter == 0){
 // main, strict word
 if(
 (' '+linkText2.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
 ||(' '+linkText2.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
 &&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
 icArr.push(icon);
-check = 'exit';
 counter++;
+}
+}
 
-}
-}
+
+
 
 });
 
 
-// insert favicon url
-if(check != 'exit'&&counter == 0){
+// insert favicon text
+if(counter == 0){
 // if link
 if(linkText.toLowerCase().trim().slice(0, 4) == 'http'&&linkText.toLowerCase().trim().search("http|://|www.") != -1&&counter == 0){
 let linkTextURL = linkText;
@@ -295,15 +292,14 @@ var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
-if(insertIconCookieAllow != 'on'){ iconHTTP = '🔗'; }
+if(conf["confDataCollection"] != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
-check = 'exit';
 counter++;
 }
 }
 
-// insert favicon text
-if(check != 'exit'){
+// insert favicon url
+if(counter == 0){
 // if link2
 if(linkURL.toLowerCase().trim().search(location.host) == -1&&linkURL.toLowerCase().trim().slice(0, 4) == 'http'&&linkURL.toLowerCase().trim().search("http|://|www.") != -1&&counter == 0){
 let linkTextURL = linkURL;
@@ -315,27 +311,26 @@ var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
-if(insertIconCookieAllow != 'on'){ iconHTTP = '🔗'; }
+if(conf["confDataCollection"] != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
-check = 'exit';
 counter++;
 }
 }
 
-if(confIconStatus == "on"){
+
+
 icArr = [...new Set(icArr)];
 //icon = icArr.toString();
 icon = icArr.join('');
 
 // main insert icons if rule bellow true and text icon == text from link
-if(check == 'exit'&&counter == 1&&
+if(counter == 1&&
 ('' + linkText.toLowerCase()).indexOf((icon)) == -1
 ){
 
 linkText = `<span><span class="brand ico">${icon}</span>` + linkText + '</span>';
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 
-check = 'exit';
 counter++;
 }else if(counter == 0&&
 ('' + linkText.toLowerCase()).indexOf('🦝') == -1&&
@@ -344,7 +339,7 @@ counter++;
 linkText = `<span><span class="brand ico">🦝</span>` + linkText + '</span>';
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 }
-}
+
 /*else{
 linkText = '<span>' + linkText + '</span>';
 //linkText = `<span class="brand ico uppercase"> • </span>` + linkText;

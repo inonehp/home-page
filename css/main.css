@@ -1,4 +1,4 @@
-/* Style main CSS v.12.11.3 */
+/* Style main CSS v.12.11.4 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -188,31 +188,28 @@ max-width: 100%;
 .tag2 { padding: .3em .8em; }
 /*@media (any-pointer: coarse) { .tag { padding: .3em .8em; } }*/
 
-.ico, .ico img, .ico2, .ico2 img {
+/*.ico, .ico img, .ico2, .ico2 img {
 border-radius: 50%;
 border: 1px solid var(--d);
 padding: 2px;
-}
+}*/
 
 /* ico2 - for img */
 .ico, .ico2 {
-/*display: inline-block;*/
-/*filter: brightness(90%);  */
 opacity: 0.9;
 margin-right: .5em;
 text-align: center;
 display: inline-flex;
 justify-content: center;
-filter: grayscale(40%);
+filter: grayscale(20%);
 }
-img.ico, img.ico2 { justify-content: end; display: inline-block; vertical-align: middle; height: auto; }
+.ico, .ico2 { justify-content: end; display: inline-block; vertical-align: middle; height: auto; }
 
 .ico2 {
 /*filter: brightness(90%);*/
 font-size: xx-small;
 }
-
-img.ico2 { margin-right: 0; }
+.ico2 { margin-right: 0; }
 
 .ico:hover, .ico2:hover {
 filter: grayscale(0%);
