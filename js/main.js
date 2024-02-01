@@ -1103,7 +1103,7 @@ document.head.appendChild(link);
 
 let script = document.createElement('script');
 script.type='text/javascript';
-script.async = true;
+//script.async = true;
 //script.defer = true;
 script.charset = 'utf-8';
 script.src = embedUrl;
