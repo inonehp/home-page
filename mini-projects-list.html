@@ -7,11 +7,11 @@
 <!--<meta name="title" content="">-->
 <!--<meta name="author" content="">-->
 
-<meta name="description" content="Mini projects mainly using HTML, and CSS.">
-<meta name="keywords" content="mini projects, mini project,
-CSS project,
-HTML project,
-HTML, CSS, JavaScript, projects, list, main, pages,">
+<meta name="description" content="Mini projects only using HTML, and CSS.">
+<meta name="keywords" content="mini,
+projects,
+project,
+HTML, CSS, noscript, projects, list, main, pages,">
 
 <link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
 
@@ -38,7 +38,10 @@ HTML, CSS, JavaScript, projects, list, main, pages,">
 
 <link rel="preload" href="/css/style.css" as="style">
 <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<noscript><style>.noscriptHide { display: none; }</style></noscript>
 <!-- end main -->
+
 
 
 <!-- for icons -->
@@ -58,13 +61,13 @@ HTML, CSS, JavaScript, projects, list, main, pages,">
 <header class="wrapper3 topNav capitalize tLeft">
 <nav>
 
-<a title="Main page" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
 
 <!-- start menuTop for Desktop -->
 <div class="menuTop">
-<a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem brand" href="pages.html">pages</a><br>
-<a class="countMenuItem brand" href="about.html">about</a><br>
+<a class="countMenuItem brand" href="templates.html">TPL</a><br>
+<a class="countMenuItem brand" href="pages.html">All</a><br>
+<a class="countMenuItem brand" href="../">Up</a><br>
 </div>
 <!-- end menuTop -->
 
@@ -78,9 +81,9 @@ HTML, CSS, JavaScript, projects, list, main, pages,">
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-<a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem brand" href="pages.html">pages</a><br>
-<a class="countMenuItem brand" href="about.html">about</a><br>
+<a class="countMenuItem brand" href="templates.html">TPL</a><br>
+<a class="countMenuItem brand" href="pages.html">All</a><br>
+<a class="countMenuItem brand" href="../">Up</a><br>
 <!-- //menu dublicate -->
 
 </div>
@@ -95,11 +98,15 @@ HTML, CSS, JavaScript, projects, list, main, pages,">
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
 
+ </nav>
+</header>
+
+
 <noscript>
 <style>
-/* mobile dropdown menu (copy from main.js */
+/* mobile dropdown menu (copypast from main.js */
 
-@media(max-width: 800px){
+@media(max-width: 500px){
 .topNav nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
@@ -124,6 +131,8 @@ display: none !important;
 /* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
 #dropdownMenuCSS:hover #dropdownMenu {
 display: block;
+position: absolute;
+top: 0;
 }
 #dropdownMenuCSS { display: inline-block; }
 /* end CSS  dropdown menu */
@@ -135,18 +144,12 @@ display: block;
 
 <!--<hr>-->
 
- </nav>
-</header>
+
 
 
 <!-- content -->
 <div class="content">
 
-<nav class="wrapper block">
-<a href="/">index</a>
-<a href="/pages.html">lists</a>
-<a href="javascript:history.back()">back</a>
-</nav>
 
 
 <div class="block padding2 margin2"></div>
@@ -163,21 +166,20 @@ display: block;
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/1-about-blank/"> about blank</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/5-animated-borders-button-link/"> animated borders button link</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/6-animation-test/"> animation test</a>
-<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/32-background-colors-list/"> background colors list</a>
+<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/8-blockquotes-cpc/"> blockquotes cpc</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/28-button-blur-unblur/"> button blur unblur</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/30-buttons/"> buttons</a>
+<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/28-gradient-glow-style-cpc/"> gradient glow style cpc</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/25-halloween-decoration/"> halloween decoration</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/29-light-and-dark-design-cpc/"> light and dark design cpc</a>
-<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/11-matrix/"> matrix</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/12-not-sleep-pc/"> not sleep pc</a>
-<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/17-rain-cpc/"> rain cpc</a>
-<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/18-random-button-cpc/"> random button cpc</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/2-responsive-web-design/"> responsive web design</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/19-round-cpc/"> round cpc</a>
-<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/20-snow/"> snow</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/31-sun-and-moon-css/"> sun and moon css</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/24-textarea/"> textarea</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/26-title-with-arrow/"> title with arrow</a>
+<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/29-winter-long-and-short-cpc/"> winter long and short cpc</a>
+<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/27-y2k-style-cpc/"> yk style cpc</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/a-tpl-project-mini/">A tpl project mini</a>
 </div><!-- end menu -->
 

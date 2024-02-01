@@ -37,7 +37,10 @@ pages, list, lists, projects, menu, page, main,
 
 <link rel="preload" href="/css/style.css" as="style">
 <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<noscript><style>.noscriptHide { display: none; }</style></noscript>
 <!-- end main -->
+
 
 
 
@@ -60,13 +63,13 @@ pages, list, lists, projects, menu, page, main,
 <header class="wrapper3 topNav capitalize tLeft">
 <nav>
 
-<a title="Main page" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
 
 <!-- start menuTop for Desktop -->
 <div class="menuTop">
-<a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem active" href="pages.html">pages</a><br>
-<a class="countMenuItem brand" href="about.html">about</a><br>
+<a class="countMenuItem brand" href="templates.html">TPL</a><br>
+<a class="countMenuItem active" href="pages.html">All</a><br>
+<a class="countMenuItem brand" href="../">Up</a><br>
 </div>
 <!-- end menuTop -->
 
@@ -80,9 +83,9 @@ pages, list, lists, projects, menu, page, main,
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-<a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem active" href="pages.html">pages</a><br>
-<a class="countMenuItem brand" href="about.html">about</a><br>
+<a class="countMenuItem brand" href="templates.html">TPL</a><br>
+<a class="countMenuItem active" href="pages.html">All</a><br>
+<a class="countMenuItem brand" href="../">Up</a><br>
 <!-- //menu dublicate -->
 
 </div>
@@ -97,11 +100,15 @@ pages, list, lists, projects, menu, page, main,
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
 
+ </nav>
+</header>
+
+
 <noscript>
 <style>
-/* mobile dropdown menu (copy from main.js */
+/* mobile dropdown menu (copypast from main.js */
 
-@media(max-width: 800px){
+@media(max-width: 500px){
 .topNav nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
@@ -126,6 +133,8 @@ display: none !important;
 /* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
 #dropdownMenuCSS:hover #dropdownMenu {
 display: block;
+position: absolute;
+top: 0;
 }
 #dropdownMenuCSS { display: inline-block; }
 /* end CSS  dropdown menu */
@@ -137,8 +146,7 @@ display: block;
 
 <!--<hr>-->
 
- </nav>
-</header>
+
 
 
 <!-- content -->
@@ -150,9 +158,7 @@ display: block;
 <div class="wrapper">
 
 
-
 <div id="idTagList"></div>
-
 <div id="getId">
 
 <!-- start menu -->
@@ -191,6 +197,7 @@ display: block;
 
 <div class="menu">
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/40-average-number/"> average number</a>
+<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/50-background-colors-list/"> background colors list</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/1-blog/"> blog</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/2-browser-info/"> browser info</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/3-calculator/"> calculator</a>
@@ -215,6 +222,7 @@ display: block;
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/21-pwa-test/"> pwa test</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/42-quiz/"> quiz</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/22-radio/"> radio</a>
+<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/51-rain-cpc/"> rain cpc</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/23-random-symbol-or-password-generator/"> random symbol or password generator</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/24-random-text-generator/"> random text generator</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/projects/25-redirects/"> redirects</a>
@@ -247,21 +255,20 @@ display: block;
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/1-about-blank/"> about blank</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/5-animated-borders-button-link/"> animated borders button link</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/6-animation-test/"> animation test</a>
-<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/32-background-colors-list/"> background colors list</a>
+<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/8-blockquotes-cpc/"> blockquotes cpc</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/28-button-blur-unblur/"> button blur unblur</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/30-buttons/"> buttons</a>
+<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/28-gradient-glow-style-cpc/"> gradient glow style cpc</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/25-halloween-decoration/"> halloween decoration</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/29-light-and-dark-design-cpc/"> light and dark design cpc</a>
-<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/11-matrix/"> matrix</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/12-not-sleep-pc/"> not sleep pc</a>
-<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/17-rain-cpc/"> rain cpc</a>
-<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/18-random-button-cpc/"> random button cpc</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/2-responsive-web-design/"> responsive web design</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/19-round-cpc/"> round cpc</a>
-<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/20-snow/"> snow</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/31-sun-and-moon-css/"> sun and moon css</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/24-textarea/"> textarea</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/26-title-with-arrow/"> title with arrow</a>
+<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/29-winter-long-and-short-cpc/"> winter long and short cpc</a>
+<a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/27-y2k-style-cpc/"> yk style cpc</a>
 <a class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="/mini-projects/a-tpl-project-mini/">A tpl project mini</a>
 </div><!-- end menu -->
 
@@ -317,17 +324,18 @@ document.getElementsByClassName("printStyle")[0].innerHTML += `
 
 </div>
 
+
 <div class="block padding2"></div>
 
 <div id="idTagList2"></div>
 
-
+<!--
 <script>
 
 
 
 
-/*
+
 async function divIdToTag(printId, fromId){
 
 var allIdOnPage = '';
@@ -340,9 +348,7 @@ if(item.id != ''){
 allIdOnPage += `<a class="tag2 border2 borderRadius2 light" href="#`+item.id+`">`+item.id+`</a>`
 }
 });
-allIdOnPage = `
-<div class="block tagList tCenter padding2">`+allIdOnPage+`</div>
-`;
+
 //document.getElementsByClassName('print')[0].innerHTML = allIdOnPage;
 
 if(document.getElementById(printId) == null){
@@ -351,9 +357,8 @@ console.log('id for print null');
 document.addEventListener("DOMContentLoaded", (event) => {
 document.getElementById(printId).innerHTML = `
 
-<div class="small block op tCenter">quick tags:</div>
 
-` + allIdOnPage;
+<div class="small block op tCenter">` + allIdOnPage + `</div>`;
 });
 
 }
@@ -362,9 +367,10 @@ document.getElementById(printId).innerHTML = `
 }
 
 divIdToTag('idTagList', 'getId');
-divIdToTag('idTagList2', 'getId');*/
+divIdToTag('idTagList2', 'getId');
 
 </script>
+-->
 
 <br></div>
 

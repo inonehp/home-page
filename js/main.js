@@ -9,6 +9,15 @@ conf["confDomainNameInTitle"] = "on"; // on, off
 conf["confLinkExtList"] = "index.html,.html,index.php,.php";
 conf["confIdEmbedScript"] = "footer";
 
+conf["confMenuItems"] = `
+
+<a class="countMenuItem brand" href="/templates.html" title="Templates">TPL</a><br>
+<a class="countMenuItem brand" href="/pages.html" title="Pages">All</a><br>
+<a class="countMenuItem brand" href="../" title="../">Up</a><br>
+<!--<a class="brand" href="javascript:history.back()">Back</a>-->
+
+`;
+
 const confData = [
 {
 "confTitle":"Allow Cookies For Third Parties?",
@@ -72,6 +81,13 @@ This is necessary to improve the site.
 "confValueDefault":"on",
 "confValueVariant":["on", "off"],
 },
+{
+"confTitle":"Menu (nav) on off",
+"confDescription":"Menu (navigations): on, off embed.",
+"confName":"confMenu",
+"confValueDefault":"on",
+"confValueVariant":["on", "off", "random"],
+},
 ];
 //console.table(confData);
 
@@ -122,7 +138,71 @@ document.getElementById(id).innerHTML = text;
 
 
 
-// start footer
+
+// nav menu
+if(conf["confMenu"] == "random"){
+if(fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
+}
+
+if(conf["confMenu"] == "on"){
+
+
+if(document.getElementsByTagName("header")[0] != null){
+
+document.getElementsByTagName("header")[0].innerHTML = `
+
+<span class="wrapper3 topNav capitalize tLeft">
+<nav>
+
+<a title="Main page (nav2)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+
+<!-- start menuTop for Desktop -->
+<div class="menuTop">
+
+${conf["confMenuItems"]}
+
+</div>
+<!-- end menuTop -->
+
+<!-- start menuTop dropdown menu, for mobile -->
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
+<div class="dropdownMenuWrapper">
+<!--<div class="padding2">section</div>-->
+<div class="dropdownMenuContentColumn">
+
+<!-- menu dublicate -->
+${conf["confMenuItems"]}
+<!-- //menu dublicate -->
+
+</div>
+</div>
+</div>
+</div>
+<!--<hr />-->
+<!-- // end dropdown menu -->
+
+<form method="GET" action="/search.html" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+ </nav>
+</span>
+
+
+`;
+}
+}
+// end nav menu
+
+
+
+
+
+// footer
 
 var fDesc = '';
 var fDescTitle = '';
@@ -218,15 +298,8 @@ document.getElementById(id).scrollIntoView();
 }
 // end footer
 
-// other nav
-fuMPrintText("mNavOther", `
-<nav>
-<a class="brand" href="/">index</a>
-<a class="brand" href="/pages.html">pags</a>
-<a class="brand" href="../">list</a>
-<a class="brand" href="javascript:history.back()">back</a>
-</nav>
-`, '');
+
+
 
 
 /*
@@ -796,6 +869,7 @@ if((countMenuItem.length / 2) >= 14){
 cssMedia = '@media(max-width: 800px)';
 cssMedia2 = '@media(min-width: 800px)';
 }
+
 document.getElementsByTagName("nav")[0].innerHTML += `
 
 <style>

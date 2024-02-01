@@ -35,7 +35,10 @@
 
 <link rel="preload" href="/css/style.css" as="style">
 <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<noscript><style>.noscriptHide { display: none; }</style></noscript>
 <!-- end main -->
+
 
 
 <link rel="preload" href="/data/blogJsonVar.js" as="script"> 
@@ -58,13 +61,13 @@
 <header class="wrapper3 topNav capitalize tLeft">
 <nav>
 
-<a title="Main page" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
 
 <!-- start menuTop for Desktop -->
 <div class="menuTop">
-<a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem brand" href="pages.html">pages</a><br>
-<a class="countMenuItem brand" href="about.html">about</a><br>
+<a class="countMenuItem brand" href="templates.html">TPL</a><br>
+<a class="countMenuItem brand" href="pages.html">All</a><br>
+<a class="countMenuItem brand" href="../">Up</a><br>
 </div>
 <!-- end menuTop -->
 
@@ -78,9 +81,9 @@
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-<a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem brand" href="pages.html">pages</a><br>
-<a class="countMenuItem brand" href="about.html">about</a><br>
+<a class="countMenuItem brand" href="templates.html">TPL</a><br>
+<a class="countMenuItem brand" href="pages.html">All</a><br>
+<a class="countMenuItem brand" href="../">Up</a><br>
 <!-- //menu dublicate -->
 
 </div>
@@ -95,11 +98,15 @@
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
 
+ </nav>
+</header>
+
+
 <noscript>
 <style>
-/* mobile dropdown menu (copy from main.js */
+/* mobile dropdown menu (copypast from main.js */
 
-@media(max-width: 800px){
+@media(max-width: 500px){
 .topNav nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
@@ -124,6 +131,8 @@ display: none !important;
 /* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
 #dropdownMenuCSS:hover #dropdownMenu {
 display: block;
+position: absolute;
+top: 0;
 }
 #dropdownMenuCSS { display: inline-block; }
 /* end CSS  dropdown menu */
@@ -135,8 +144,7 @@ display: block;
 
 <!--<hr>-->
 
- </nav>
-</header>
+
 
 
 <!-- content -->
@@ -182,7 +190,9 @@ var blogJsonVar =
 
 <div id="echoBlog"></div>
 
-
+<noscript>
+<a href="/rss.xml" title="RSS News">RSS</a>
+</noscript>
 
 
 

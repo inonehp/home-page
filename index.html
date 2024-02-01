@@ -37,7 +37,10 @@ page, main,">
 
 <link rel="preload" href="/css/style.css" as="style">
 <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<noscript><style>.noscriptHide { display: none; }</style></noscript>
 <!-- end main -->
+
 
 
 <link rel="preload" href="/img/header-banner.png" as="image">
@@ -84,13 +87,13 @@ page, main,">
 <header class="wrapper3 topNav capitalize tLeft">
 <nav>
 
-<a title="Main page" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
 
 <!-- start menuTop for Desktop -->
 <div class="menuTop">
-<a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem brand" href="pages.html">pages</a><br>
-<a class="countMenuItem brand" href="about.html">about</a><br>
+<a class="countMenuItem brand" href="templates.html">TPL</a><br>
+<a class="countMenuItem brand" href="pages.html">All</a><br>
+<a class="countMenuItem brand" href="../">Up</a><br>
 </div>
 <!-- end menuTop -->
 
@@ -104,9 +107,9 @@ page, main,">
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-<a class="countMenuItem brand" href="templates.html">templates</a><br>
-<a class="countMenuItem brand" href="pages.html">pages</a><br>
-<a class="countMenuItem brand" href="about.html">about</a><br>
+<a class="countMenuItem brand" href="templates.html">TPL</a><br>
+<a class="countMenuItem brand" href="pages.html">All</a><br>
+<a class="countMenuItem brand" href="../">Up</a><br>
 <!-- //menu dublicate -->
 
 </div>
@@ -121,11 +124,15 @@ page, main,">
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
 
+ </nav>
+</header>
+
+
 <noscript>
 <style>
-/* mobile dropdown menu (copy from main.js */
+/* mobile dropdown menu (copypast from main.js */
 
-@media(max-width: 800px){
+@media(max-width: 500px){
 .topNav nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
@@ -150,6 +157,8 @@ display: none !important;
 /* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
 #dropdownMenuCSS:hover #dropdownMenu {
 display: block;
+position: absolute;
+top: 0;
 }
 #dropdownMenuCSS { display: inline-block; }
 /* end CSS  dropdown menu */
@@ -161,8 +170,7 @@ display: block;
 
 <!--<hr>-->
 
- </nav>
-</header>
+
 
 
 <!-- content -->
@@ -193,8 +201,9 @@ display: block;
 <summary class="op wrapperS padding2List pointer">
 <span class="xSmall padding2List">update: <span id="last-update"></span></span>
 </summary>
-<div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">Update colors theme.
-Redesign footer.</div>
+<div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">New: menu or nav embedding over current menu using JS.
+Fixed menu if &quot;noscript&quot;.
+In test, in progress.</div>
 </details>
 
 
@@ -207,7 +216,7 @@ Redesign footer.</div>
 
 
 
-<div id="hotLinksTop" class="scrollX tCenter small">
+<div id="hotLinksTop" class="scrollX tCenter small noscriptHide">
 <span id="urlDayNow"></span>
 <a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=sci" title="Science">sci</a>
 <a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=tec" title="Technology">tec</a>
@@ -260,7 +269,7 @@ return a;
 </script>
 
 
-<div id="form" class="wrapper">
+<div id="form" class="wrapper noscriptHide">
 <form method="GET" style="margin-top: 0px;" action="/projects/25-redirects/" autocomplete="off" role="search">
 
 <label id="search" class="op tLeft xSmall"><span class="bold orange">✪</span> Web search (redirect, random):</label>
@@ -348,11 +357,11 @@ flex-wrap: wrap;
 </style>
 
 
-<div  class="center" style="margin-top: 7px;">
+<div  class="center noscriptHide" style="margin-top: 7px;">
 <div class="wrapper tCenter small"><!--if scrollX horizontal class rm tagList)-->
 <div id="hotLinks">
 
-<div class="tagList2 hotLinks">
+<div class="tagList2 hotLinks ">
 <!--<span class="x-small op c" title="Commands:">com: </span>-->
 <a rel="nofollow" class="tag light2 border borderRadius2 op" href="https://google.com/" title="Google">goo</a>
 <a rel="nofollow" class="tag light2 border borderRadius2 op" href="https://bing.com/" title="Bing">bin</a>
@@ -423,11 +432,13 @@ document.getElementById("hotLinks").innerHTML = a;
 <div class="wrapper small">
 <span class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Speed dial:</span>
 <div class="tagList left">
-<a class="insertIcon tag2 light2 border borderRadius2" href="/pages.html">Pages</a>
-<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/31-todo-list-task/">Task</a>
-<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/32-todo-list-idea/">Idea</a>
-<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/14-typing-speed/">Typing</a>
-<a class="insertIcon tag2 light2 border borderRadius2" href="/projects/42-quiz/">Quiz</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/pages.html">All</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/projects-list.html">Project</a>
+<a class="insertIcon tag2 light2 border borderRadius2" href="/mini-projects-list.html">Mini Project</a>
+<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide" href="/projects/31-todo-list-task/">Task</a>
+<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide" href="/projects/32-todo-list-idea/">Idea</a>
+<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide" href="/projects/14-typing-speed/">Typing</a>
+<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide" href="/projects/42-quiz/">Quiz</a>
 </div>
 <!-- end speed dial -->
 
@@ -601,7 +612,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1706747646);
+document.getElementById("last-update").innerHTML = fuPostTime(1706780059);
 </script>
 
 <script>
@@ -635,6 +646,10 @@ window.location.href = "/projects/25-redirects/?q=" + q;
 </script>
 
 
+<noscript>
+  <!-- anchor linking to external file -->
+  <a href="https://www.mozilla.org/">External Link</a>
+</noscript>
 
 
 

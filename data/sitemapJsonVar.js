@@ -71,16 +71,16 @@ var sitemapJsonVar = [
     },
     {
         "text": "Angled\n\nThe page is filled with triangles generated using JavaScript and CSS. ",
-        "url": "\/archive\/mini-projects\/3-angled\/index.html",
+        "url": "\/archive\/projects\/3-angled\/index.html",
         "tag": " #triangles #triangle #JavaScript #project",
-        "id": "62ba74d3661c849095409b93c0708865",
+        "id": "b6c7ccbc019a296a2ad395b8ecd69bfb",
         "time": "id"
     },
     {
         "text": "Angled light walpaper\n\nThe page is filled with light triangles generated using JavaScript and CSS. ",
-        "url": "\/archive\/mini-projects\/4-angled-light-walpaper\/index.html",
+        "url": "\/archive\/projects\/4-angled-light-walpaper\/index.html",
         "tag": " #triangles #triangle #JavaScript #project",
-        "id": "7b368a5f0534ef86abf28b8b01561f07",
+        "id": "c39729c04f7f84c2a6781ed085b09a2f",
         "time": "id"
     },
     {
@@ -120,23 +120,23 @@ var sitemapJsonVar = [
     },
     {
         "text": "Background colors list\n\nBackground colors list ",
-        "url": "\/mini-projects\/32-background-colors-list\/index.html",
+        "url": "\/projects\/50-background-colors-list\/index.html",
         "tag": " #CSS #color #colors #WebDesign #UI #pallete #project #list #collection",
-        "id": "09d75e5454c58d5374b61f0a3f1e33b7",
+        "id": "8cdecd7fe04b71e667ce5bae31b4861a",
         "time": "id"
     },
     {
         "text": "Balloon\n\nballoon. ",
-        "url": "\/archive\/mini-projects\/7-balloon\/index.html",
+        "url": "\/archive\/projects\/7-balloon\/index.html",
         "tag": " #dropping._balls #JavaScript #project",
-        "id": "856e353d5e700010e6a24f18db414c79",
+        "id": "bdf90850d572b50ab8ffba5f8dd59f27",
         "time": "id"
     },
     {
         "text": "Blockquotes cpc\n\nFor CodePen #CPC. Experimental page with quote styling using CSS. ",
-        "url": "\/archive\/mini-projects\/8-blockquotes-cpc\/index.html",
+        "url": "\/mini-projects\/8-blockquotes-cpc\/index.html",
         "tag": " #quote #styling_CSS #CPC #CSS #HTML #project",
-        "id": "c8f4b456b19b2739088e72c55b0d7956",
+        "id": "b2764606299fa9d0fb8500c49411d079",
         "time": "id"
     },
     {
@@ -190,9 +190,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Color collection\n\ncolor collection. ",
-        "url": "\/archive\/mini-projects\/27-color-collection\/index.html",
+        "url": "\/archive\/projects\/27-color-collection\/index.html",
         "tag": " #Color #Collection #JavaScript #project #list",
-        "id": "32f0d7463fcdee8c240d13c0b3bd3e39",
+        "id": "62fc9726df0233ba31b00c36046a6326",
         "time": "id"
     },
     {
@@ -379,9 +379,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Gradient glow style cpc\n\nGradient glow style #CPC ",
-        "url": "\/archive\/mini-projects\/28-gradient-glow-style-cpc\/index.html",
+        "url": "\/mini-projects\/28-gradient-glow-style-cpc\/index.html",
         "tag": " #gradien #WebDesign #CPC #CSS #project",
-        "id": "99f6526dc5374fe2b70ac4b7fa95c336",
+        "id": "da912019d38af68118b8884c486d2188",
         "time": "id"
     },
     {
@@ -414,9 +414,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Hot and cold cpc attempt\n\nIframe full screen (hot and cold #CPC try) ",
-        "url": "\/archive\/mini-projects\/31-hot-and-cold-cpc-attempt\/index.html",
+        "url": "\/archive\/projects\/31-hot-and-cold-cpc-attempt\/index.html",
         "tag": " #iframe #CPC #try #attempt #CSS #project",
-        "id": "f45375a4090c0827942a6aa1989dd1e7",
+        "id": "4517d96687bacccf3413a72a7926723c",
         "time": "id"
     },
     {
@@ -469,10 +469,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Matrix\n\nAn attempt to recreate the matrix effect using CSS and JavaScript. ",
-        "url": "\/mini-projects\/11-matrix\/index.html",
+        "text": "Matrix effect\n\nAn attempt to recreate the matrix effect using CSS and JavaScript. ",
+        "url": "\/archive\/projects\/16-matrix-effect\/index.html",
         "tag": " #effect #matrix #JavaScript #project",
-        "id": "ec2ccd85559e6edb2809a74759d206ed",
+        "id": "af0ceea50f232e0b0010633c9f63c268",
         "time": "id"
     },
     {
@@ -490,9 +490,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Mini projects list\n\nMini projects mainly using HTML, and CSS. ",
+        "text": "Mini projects list\n\nMini projects only using HTML, and CSS. ",
         "url": "\/mini-projects-list.html",
-        "tag": " #mini_projects #mini_project #CSS_project #HTML_project #HTML #CSS #JavaScript #projects #list #main #pages",
+        "tag": " #mini #projects #project #HTML #CSS #noscript #projects #list #main #pages",
         "id": "733a6e37ab70a4c649077b3da5c564f8",
         "time": "id"
     },
@@ -568,9 +568,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Pagination cpc\n\nPagination #CPC ",
-        "url": "\/archive\/mini-projects\/26-pagination-cpc\/index.html",
+        "url": "\/archive\/projects\/26-pagination-cpc\/index.html",
         "tag": " #pagination #CPC #JavaScript #project #UI #WebDesign",
-        "id": "3fc04024f7c5a94044ec8f555eee01b6",
+        "id": "e2e6ba9823a75b7515f028b8c9be6eec",
         "time": "id"
     },
     {
@@ -708,16 +708,16 @@ var sitemapJsonVar = [
     },
     {
         "text": "Rain cpc\n\nRain effect and animation using CSS and JavaScript ",
-        "url": "\/mini-projects\/17-rain-cpc\/index.html",
+        "url": "\/projects\/51-rain-cpc\/index.html",
         "tag": " #rain #random #drop #CPC #CSS #JavaScript #project",
-        "id": "5eac798899a81b2f744fc238885e0149",
+        "id": "b304d2add01044735189b2958acc16b3",
         "time": "id"
     },
     {
         "text": "Random button cpc\n\nRandom button, experiment, uses JavaScript and CSS. ",
-        "url": "\/mini-projects\/18-random-button-cpc\/index.html",
+        "url": "\/archive\/projects\/18-random-button-cpc\/index.html",
         "tag": " #random #button #CPC #JavaScript #project",
-        "id": "95e615b1d9b262f3b0b8a887ffcddbab",
+        "id": "a085b8dc8b66d7011aad5d9ba232716f",
         "time": "id"
     },
     {
@@ -841,9 +841,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Snow\n\nSnow effect on the page using HTML, CSS and JavaScript. ",
-        "url": "\/mini-projects\/20-snow\/index.html",
+        "url": "\/archive\/projects\/20-snow\/index.html",
         "tag": " #snow #effect #CSS #JavaScript #project",
-        "id": "b6855f83e99ff8192058eba75493b3e1",
+        "id": "21ae55fd4221fb1bebf75b96a48b12c9",
         "time": "id"
     },
     {
@@ -1037,9 +1037,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Winter long and short cpc\n\nWinter (long and short #CPC) ",
-        "url": "\/archive\/mini-projects\/29-winter-long-and-short-cpc\/index.html",
+        "url": "\/mini-projects\/29-winter-long-and-short-cpc\/index.html",
         "tag": " #winter #CPC #CSS #project",
-        "id": "18b744e568bf7ecd16702b45738ecb31",
+        "id": "cc9f97d2cccd7a10038862f7d85a8b60",
         "time": "id"
     },
     {
@@ -1058,9 +1058,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Yk style cpc\n\nY2K style #CPC ",
-        "url": "\/archive\/mini-projects\/27-y2k-style-cpc\/index.html",
+        "url": "\/mini-projects\/27-y2k-style-cpc\/index.html",
         "tag": " #CPC #CSS #WebDesign #project",
-        "id": "97c2bfd4e719d80129e33b719014b7b3",
+        "id": "32a4a64471df3707b492fd2356bb6602",
         "time": "id"
     }
 ]
