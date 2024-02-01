@@ -154,9 +154,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Browser info\n\nTest page to learn JavaScript capabilities and get information about the browser. ",
+        "text": "Browser info\n\nTest JavaScript page. ",
         "url": "\/projects\/2-browser-info\/index.html",
-        "tag": " #JS #JavaScript #test #information #browser #page #project",
+        "tag": " #JS #JavaScript #test #page #project",
         "id": "98f05035270966106a682d628c6bf43e",
         "time": "id"
     },
@@ -252,7 +252,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Demo test style\n\nA test page for testing CSS style on this site. ",
+        "text": "Demo test style\n\nA demo and test style CSS style on this site. ",
         "url": "\/projects\/5-demo-test-style\/index.html",
         "tag": " #demo #test #style #project",
         "id": "7cb3dff7768fd22675af571c6c4e8c43",
@@ -679,9 +679,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Pwa test\n\nTest page for PWA (Progressive Web Apps), third-party code. (Service Worker test page). ",
+        "text": "Pwa test\n\nTest PWA, PWA test. ",
         "url": "\/projects\/21-pwa-test\/index.html",
-        "tag": " #PWA #tool #test #WebApp #Service #Worker #JavaScript #project",
+        "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
         "id": "462bbe4ec0a95ef369c8fe206a97c1d1",
         "time": "id"
     },
@@ -784,9 +784,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Share\n\nTest page to share text or link. ",
+        "text": "Share\n\nTest share text or link. ",
         "url": "\/archive\/projects\/26-share\/index.html",
-        "tag": " #share #text #link #JavaScript #project",
+        "tag": " #share #text #link #JavaScript #project #mobile",
         "id": "f2fb211c1c01abeadf09f81e5f541d9e",
         "time": "id"
     },
@@ -898,7 +898,7 @@ var sitemapJsonVar = [
     {
         "text": "Test\n\nTest page, test style, sometimes there are some test fragments of JavaScript or CSS code. ",
         "url": "\/projects\/27-test\/index.html",
-        "tag": " #test #test_page #HTML #CSS #JavaScript #project",
+        "tag": " #test #page #HTML #CSS #JavaScript #project",
         "id": "f14d8ace31fc49d949d2d019fca75abc",
         "time": "id"
     },

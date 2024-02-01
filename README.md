@@ -1,9 +1,9 @@
 <!-- README.md v.1.2.0 -->
   
-# Home page and projects.
+![screenshot: light and dark mode](github-banner.png)  
+#  Home page and projects.
 ## Interests: web design, web development, and coding.
-  
----
+## URL: [inonehp.pages.dev](https://inonehp.pages.dev)
   
 ## Tags:
 [#Website](https://github.com/topics/website?o=desc&s=updated),
@@ -22,10 +22,8 @@
 > [!NOTE]
 > You can find information about other licenses on the "About" page.
   
----
-  
-### Screenshots:  
+<!--### Screenshots:  
 
 ![light theme](/img/screenshot.png)
-<!--![dark theme](/img/screenshot2.png)-->
-![setting page with list of color themes](/img/screenshot3.png)
+![dark theme](/img/screenshot2.png)
+![setting page with list of color themes](/img/screenshot3.png)-->
