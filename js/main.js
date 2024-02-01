@@ -1,4 +1,4 @@
-// Main js v.6.0.2
+// Main js v.6.0.3
 // For settings, themes, ...
 
 var conf = [];
@@ -254,37 +254,46 @@ fuMPrintText('footer', `
 <div id="cookiePopup"></div>
 <div id="ads2"></div>
 
-<div class="wrapper4 balance">
+
 
 <nav>
+<div class="small wrapper4 balance margin2List padding2List">
 
 <div class="block tRight small padding2List">
+
 <details class="inlineBlock">
 <summary class="pointer op" onclick="fuMScrollTo('fScrollToBottom')" title="Description and keywords">${fDescTitle}</summary>
 <div id="fDesc" class="block pre tLeft wrapperL padding2 bg small shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
 </details>
+
 </div>
 
-<span class="inlineBlock tLeft" style="padding-left: 0;" id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></span>
+<span class="block padding2List" style="padding-left: 0;" id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></span>
 
 <!--<span style="padding-left: 0;" title="Main Page"><a href="/">Home</a></span>-->
-<div id="fScript"></div>
-<div id="fStyle"></div>
+
 <!--<span id="fAds" title="Advertising Settings"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
+
 <span id="fSettings" title="Settings" style="padding-left: 0;"><a href="/settings.html">Settings</a></span>
+
 <span id="fPrivacy" title="Cookie Settings"><a href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 
 <span title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
+
 <span title="News"><a href="/rss.xml">RSS</a></span>
-<!--<span title="Page about"><a href="/about.html">About</a></span>-->
+
 <span title="Site Code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
-<span title="License"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">license: CC BY-SA 4.0</a>
-<a title="Other Licenses" rel="license" title="license 2" href="/about.html#copyright">*</a></span>
-<span title="Hosting Service"><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
-<span title="Updated" class="op small" style="padding-right: 0;">2024</span>
-</nav>
+
+<span title="Page about"><a href="/about.html">About</a></span>
+
+<span title="License (other on the About page)"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a></span>
+
+<span title="Hosting Service" style="padding-right: 0;"><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
+
 
 </div>
+</nav>
+
 
 <div id="fScrollToBottom"></div>
 
@@ -297,29 +306,6 @@ document.getElementById(id).scrollIntoView();
 }
 }
 // end footer
-
-
-
-
-
-/*
-function linkForFile(){
-// adding link to footer if project: script.js and style.css
-if((window.location.href).indexOf(('/projects/')) >= 0||(window.location.href).indexOf(('/mini-projects/')) >= 0){
-fetch('script.js', { method: "HEAD"}).then(function(response) {
-//console.log(response);
-if (response.ok == true) {
-fuMPrintText('fScript', `<span><a class="green" href="script.js">script.js</a></span>`);
-}
-});
-
-fetch('style.css', { method: "HEAD"}).then(function(response) {
-if (response.ok == true) {  fuMPrintText('fStyle', `<span><a class="orange" href="style.css">style.css</a></span>`);
-}
-});
-}
-}
-linkForFile();*/
 
 
 conf["confDevice"] = 'none';
@@ -1104,17 +1090,9 @@ fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">Cookie: au
 
 
 
-
-
 if(document.getElementById(conf["confIdEmbedScript"]) != null){
 
 function fuMEmbedScript(embedUrl, embedId){
-let script = document.createElement('script');
-script.type='text/javascript';
-//script.async = true;
-//script.defer = true;
-script.charset = 'utf-8';
-script.src = embedUrl;
 
 //https://stackoverflow.com/questions/3646036/preloading-images-with-javascript
 var link = document.createElement("link");
@@ -1123,10 +1101,16 @@ link.as = "script";
 link.href = embedUrl;
 document.head.appendChild(link);
 
+let script = document.createElement('script');
+script.type='text/javascript';
+script.async = true;
+//script.defer = true;
+script.charset = 'utf-8';
+script.src = embedUrl;
 
 if(document.getElementById(embedId) != null){
+document.getElementById(embedId).appendChild(script);
 //document.getElementsByTagName('head')[0].appendChild(script); 
-document.getElementById(embedId).appendChild(script); 
 }
 }
 

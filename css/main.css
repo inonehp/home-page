@@ -1,4 +1,4 @@
-/* Style main CSS v.12.11.4 */
+/* Style main CSS v.12.12.0 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -68,7 +68,6 @@ overflow-y: scroll;
 
 header, footer {
 flex-shrink: 0;
-text-align: center;
 width: 100%;
 }
 header { margin: 0 auto; padding: 0; padding-top: 12px; }
@@ -76,10 +75,7 @@ nav, footer { text-align: center; max-width: 100%; }
 nav a, nav button, .logo2 { vertical-align: middle; display: inline-block; padding: 5px; }
 nav button:hover { background: none;  }
 footer { padding-top: 15px; }
-footer nav span { display: inline-block; padding: 5px 8px; }
-footer nav a { padding: 0; }
-footer nav { padding: 20px 0; }
-footer nav span a::first-letter { text-transform: capitalize; }
+
 
 h1, .h1 { font-size: 1.40em; /*text-transform: capitalize;*/ }
 h2, .h2 { font-size: 1.35em; }

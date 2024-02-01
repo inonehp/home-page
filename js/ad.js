@@ -1,7 +1,7 @@
 /* v.1.4.7 */
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
-async function fuAds(none, idAds, com){
+function fuAds(none, idAds, com){
 
 // none - Reserved variable
 // idAds - id for print
