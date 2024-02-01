@@ -418,8 +418,6 @@ document.getElementById("hotLinks").innerHTML = a;
 
 
 
-</div>
-<!-- end speed dial -->
 
 
 
@@ -429,53 +427,6 @@ document.getElementById("hotLinks").innerHTML = a;
 <div id="idTagList"></div>-->
 
 <div id="getId">
-
-<script>
-/*
-async function divIdToTag(printId, fromId){
-
-var allIdOnPage = '';
-
-let divId = document.getElementById(fromId);
-
-let allDivId = divId.querySelectorAll('div');
-allDivId.forEach((item, index) => {
-if(item.id != ''){
-allIdOnPage += `<a class="tag2 border2 light" href="#`+item.id+`">`+item.id+`</a>`
-}
-});
-allIdOnPage = `
-<div class="block tagList tCenter padding2">`+allIdOnPage+`</div>
-`;
-//document.getElementsByClassName('print')[0].innerHTML = allIdOnPage;
-
-if(document.getElementById(printId) == null){
-console.log('id for print null');
-}else{
-document.addEventListener("DOMContentLoaded", (event) => {
-document.getElementById(printId).innerHTML = allIdOnPage;
-});
-
-}
-
-
-}
-
-divIdToTag('idTagList', 'getId')
-*/
-</script>
-
-<br></div>
-
-</div>
-
-
-
-
-
-<div class="padding2 margin2"></div>
-
-
 
 
 
@@ -563,7 +514,7 @@ document.getElementById("last-update").innerHTML = fuPostTime(1706829162);
 </script>
 
 <script>
-// hide half header for search input form
+// hide top header if mobile
 
 if(conf["confDevice"] == 'mobile'){
 var getclick2 = document.getElementById('form');
@@ -578,7 +529,7 @@ document.getElementById( 'topHeader' ).style.display = 'block';
 } 
 
 
-// redirect q to search dir
+// redirect "q" to "redirect" script
 var geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
@@ -593,10 +544,7 @@ window.location.href = "/projects/25-redirects/?q=" + q;
 </script>
 
 
-<noscript>
-  <!-- anchor linking to external file -->
-  <a href="https://www.mozilla.org/">External Link</a>
-</noscript>
+
 
 
 
