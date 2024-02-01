@@ -7,33 +7,8 @@
    viewBox="0 0 512 512"
    version="1.1"
    id="svg5"
-   sodipodi:docname="logo.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   inkscape:export-filename="/mnt/d/Sync/htdocs/img/maskable_logo.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview68"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="0.64750311"
-     inkscape:cx="275.67435"
-     inkscape:cy="193.04927"
-     inkscape:window-width="1472"
-     inkscape:window-height="1011"
-     inkscape:window-x="448"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg5" />
   <defs
      id="defs2">
     <rect
@@ -380,12 +355,11 @@
      y="0"><tspan
        x="108.98828"
        y="428.70056"
-       id="tspan953"><tspan
+       id="tspan1036"><tspan
          style="text-align:justify"
-         id="tspan951">inonehp</tspan></tspan></text>
+         id="tspan1034">inonehp</tspan></tspan></text>
   <path
      style="display:inline;fill:#000000;stroke-width:1.2938"
      id="path439-3"
-     d="m 426.56452,245.27443 c 27.49822,38.19902 -36.71382,47.93579 -69.11329,88.5001 -34.05088,42.6319 -37.87505,102.79877 -72.41824,85.44125 -33.4577,-16.81206 -65.54226,-118.09008 -27.70769,-167.09512 30.6519,-39.70174 141.89483,-30.08953 169.23831,-6.84697 l -83.48019,73.86778 z"
-     sodipodi:nodetypes="csssccc" />
+     d="m 426.56452,245.27443 c 27.49822,38.19902 -36.71382,47.93579 -69.11329,88.5001 -34.05088,42.6319 -37.87505,102.79877 -72.41824,85.44125 -33.4577,-16.81206 -65.54226,-118.09008 -27.70769,-167.09512 30.6519,-39.70174 141.89483,-30.08953 169.23831,-6.84697 l -83.48019,73.86778 z" />
 </svg>
