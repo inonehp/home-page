@@ -1,4 +1,4 @@
-/* Style main CSS v.12.12.0 */
+/* Main style v.12.12.2 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -426,10 +426,10 @@ input, progress, select { accent-color: var(--d4);  }
 
 /* fix */
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+/*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 word-break: break-all;
 }
-h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.25px; }
+h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.25px; }dellme*/
 
 @media(max-width: 200px) { div, input, textarea, a{ word-break: break-all; } }
 

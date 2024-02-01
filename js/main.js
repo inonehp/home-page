@@ -1,6 +1,7 @@
 // Main js v.6.0.3
 // For settings, themes, ...
 
+// Settings v.1.0.0
 var conf = [];
 conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
 conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
@@ -139,7 +140,8 @@ document.getElementById(id).innerHTML = text;
 
 
 
-// nav menu
+// Nav menu v.1.0.0
+// menu for static pages (for all)
 if(conf["confMenu"] == "random"){
 if(fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
 }
@@ -197,6 +199,94 @@ ${conf["confMenuItems"]}
 }
 }
 // end nav menu
+
+
+
+
+
+// Dropdown menu  v.1.3.0
+//https://www.w3schools.com/howto/howto_js_dropdown.asp
+// menu click
+function dropdownMenuFunction() {
+var x = document.getElementById("dropdownMenu");
+  if (x.style.display === "none"||x.style.display === "") {
+document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
+x.style.display = "block";
+  } else {
+x.style.display = "none";
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
+  }
+
+// out area hide
+var getclick = document.getElementById('dropdownMenuButton');
+document.addEventListener('click', function(event) {
+// hide and make posible text selected
+if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
+var x = document.getElementById("dropdownMenu");
+x.style.display = "none";
+document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
+    }
+});
+}
+
+
+// count links
+var countMenuItem = document.querySelectorAll('.countMenuItem');
+if((countMenuItem.length / 2) >= 4){
+//if(document.getElementById("footer") != null){}
+
+//fuMPrintText('footer', ``, '+');
+if(document.getElementsByTagName("nav")[0] != null){ // not body, id not found
+
+var cssMedia = '@media(max-width: 500px)';
+var cssMedia2 = '@media(min-width: 500px)';
+if((countMenuItem.length / 2) >= 14){
+cssMedia = '@media(max-width: 800px)';
+cssMedia2 = '@media(min-width: 800px)';
+}
+
+document.getElementsByTagName("nav")[0].innerHTML += `
+
+<style>
+
+/* mobile dropdown menu */
+
+${cssMedia}{
+.topNav nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+
+.topNav nav {
+justify-content: left;
+align-items: center;
+display: block;
+text-align: left;
+}
+
+}
+
+/*fix*/
+${cssMedia2}{
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+</style>
+
+`;
+}
+
+
+}
+
+//console.log(document.getElementsByTagName("header")[0]);
+
+
+
+
+
+
+
 
 
 
@@ -307,7 +397,7 @@ document.getElementById(id).scrollIntoView();
 }
 // end footer
 
-
+// Device 1.0.0
 conf["confDevice"] = 'none';
 /*if(conf["confDataCollection"] != 'on'){
 conf["confDevice"] = '(disabled, privacy)';
@@ -320,7 +410,7 @@ if(conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
 
 
 
-// start theme
+// Themes changer v.1.2.0
 theme = conf["confTheme"];
 if(conf["confTheme"] == null||theme == undefined||theme == 'auto'){
 theme = "auto";
@@ -814,83 +904,7 @@ function reload(){ location.reload(true); }
 
 
 
-// v.1.1.2
-// dropdown Menu
-//https://www.w3schools.com/howto/howto_js_dropdown.asp
-// menu click
-function dropdownMenuFunction() {
-var x = document.getElementById("dropdownMenu");
-  if (x.style.display === "none"||x.style.display === "") {
-document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
-x.style.display = "block";
-  } else {
-x.style.display = "none";
-document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
-  }
 
-// out area hide
-var getclick = document.getElementById('dropdownMenuButton');
-document.addEventListener('click', function(event) {
-// hide and make posible text selected
-if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
-var x = document.getElementById("dropdownMenu");
-x.style.display = "none";
-document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
-    }
-});
-}
-
-
-// count links
-var countMenuItem = document.querySelectorAll('.countMenuItem');
-if((countMenuItem.length / 2) >= 4){
-//if(document.getElementById("footer") != null){}
-
-//fuMPrintText('footer', ``, '+');
-if(document.getElementsByTagName("nav")[0] != null){ // not body, id not found
-
-var cssMedia = '@media(max-width: 500px)';
-var cssMedia2 = '@media(min-width: 500px)';
-if((countMenuItem.length / 2) >= 14){
-cssMedia = '@media(max-width: 800px)';
-cssMedia2 = '@media(min-width: 800px)';
-}
-
-document.getElementsByTagName("nav")[0].innerHTML += `
-
-<style>
-
-/* mobile dropdown menu */
-
-${cssMedia}{
-.topNav nav { display: block; }
-.menuTop { display: none; }
-#dropdownMenuButton { display: inline-block; }
-
-.topNav nav {
-justify-content: left;
-align-items: center;
-display: block;
-text-align: left;
-}
-
-}
-
-/*fix*/
-${cssMedia2}{
-.dropdownMenuContentColumn, .dropdownMenuContent {
-display: none !important;
-}
-}
-</style>
-
-`;
-}
-
-
-}
-
-//console.log(document.getElementsByTagName("header")[0]);
 
 
 
@@ -908,7 +922,7 @@ return url;
 }
 */
 
-// fu hide file ext
+// Hide page extenstion v.1.0.0
 function hideFileNameExt(url){
 var newUrl = url;
 if(conf["confHideLinkExt"] == "on"){
@@ -1010,7 +1024,7 @@ function fuMRandom(min, max) {
 return Math.round(Math.random() * (max - min) + min);
 }
 
-// bg image (background img)
+// bg image (background img with random position)
 function fuMBg(val){
 if(conf["confBg"] == 'on'||val == 'on'){
 let mRandBgPos = fuMRandom(0, 100);
@@ -1057,7 +1071,7 @@ background-attachment: fixed;
 
 
 
-// Cookie
+// Cookie (auto) v.1.0.0
 
 // Auto select (timezone) v.1.2.0
 //https://www.termsfeed.com/blog/cookie-consent-outside-eu/
@@ -1089,7 +1103,7 @@ fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">Cookie: au
 
 
 
-
+// Embed script v.1.0.0
 if(document.getElementById(conf["confIdEmbedScript"]) != null){
 
 function fuMEmbedScript(embedUrl, embedId){
@@ -1132,11 +1146,6 @@ fuMEmbedScript(`/js/cookieAgreePopup.js`, conf["confIdEmbedScript"]);
 if(conf["confDataCollection"] == 'on'){
 fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAnalyticsId"]}`, conf["confIdEmbedScript"]);
 }
-
-
-
-
-
 
 
 
