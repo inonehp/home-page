@@ -44,10 +44,16 @@ let lColor2 = '';
 lColor2 = Math.floor(Math.random() * colorListArr.length);
 lColor2 = colorListArr[lColor2];
 
+let moreLight = "";
+if(conf["confThemeEmbed"] == "light"){
+moreLight = "brightness(120%);";
+}else {
+moreLight = "brightness(80%);";
+}
 print += `
 <a href="#lId${i}"><div class="inlineFlex padding xxSmall light border bg3 borderRadius margin" style="
 background-color: color-mix(in srgb, var(${lColor}) ${fuMRandom(0, 100)}%, transparent);
-">${i}</div></a>
+ filter: ${moreLight} ">${i}</div></a>
 `; // comment for fast load
 }
 

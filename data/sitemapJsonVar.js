@@ -553,10 +553,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Page gen test\n\nPage generation test ",
-        "url": "\/projects\/47-page-gen-test\/index.html",
+        "text": "Page lag test\n\nPage generation test ",
+        "url": "\/projects\/47-page-lag-test\/index.html",
         "tag": " #test #lag #test #JavaScript #project",
-        "id": "8f85bfa11927850ebbd1d594b791bc69",
+        "id": "223987840ae3ce7bf4791177106dd571",
         "time": "id"
     },
     {
