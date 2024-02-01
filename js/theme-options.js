@@ -19,9 +19,9 @@ if(element == 'auto'){ result += '<div class="margin2"></div>'; }
 
 
 if(element == theme){
-result += '<div id="'+element+'" class="tehemeListItem highlight margin borderList borderRadius2">'+element+'</div>';
+result += '<div id="'+element+'" class="tehemeListItem highlight borderBottomOrange margin border margin borderRadius2">'+element+'</div>';
 }else{
-result += '<div id="'+element+'" class="tehemeListItem light2 margin borderList borderRadius2">'+element+'</div>';
+result += '<div id="'+element+'" class="tehemeListItem light2 margin border margin borderRadius2">'+element+'</div>';
 }
 
 });
@@ -84,9 +84,11 @@ if(e == element){
 //document.getElementById(e).innerHTML = 'test';
 var element = document.getElementById(e);
 element.classList.add("highlight");
+element.classList.add("borderBottomOrange");
 }else{
 var el = document.getElementById(element);
 el.classList.remove("highlight");
+el.classList.remove("borderBottomOrange");
 //document.getElementById(element).innerHTML = element;
 }
 });

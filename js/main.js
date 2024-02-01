@@ -174,7 +174,7 @@ fuMPrintText('footer', `
 <div id="cookiePopup"></div>
 <div id="ads2"></div>
 
-<div class="wrapper4 balance small">
+<div class="wrapper4 balance">
 
 <nav>
 
@@ -185,13 +185,14 @@ fuMPrintText('footer', `
 </details>
 </div>
 
+<span class="inlineBlock tLeft" style="padding-left: 0;" id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></span>
+
 <!--<span style="padding-left: 0;" title="Main Page"><a href="/">Home</a></span>-->
-<em id="fScript"></em>
-<em id="fStyle"></em>
-<span style="padding-left: 0;" id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></span>
+<div id="fScript"></div>
+<div id="fStyle"></div>
 <!--<span id="fAds" title="Advertising Settings"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
+<span id="fSettings" title="Settings" style="padding-left: 0;"><a href="/settings.html">Settings</a></span>
 <span id="fPrivacy" title="Cookie Settings"><a href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
-<span id="fSettings" title="Settings"><a href="/settings.html">Settings</a></span>
 
 <span title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
 <span title="News"><a href="/rss.xml">RSS</a></span>

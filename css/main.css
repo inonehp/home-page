@@ -416,7 +416,7 @@ input, progress, select { accent-color: var(--d4);  }
 .bg3List:nth-child(2n), .light3:hover, .light4{ background: var(--l4); }
 .bg4, .bg4List, .light4:hover { background: var(--l4); }
 
-.highlight, .highlight2 { background: var(--l4); }
+.highlight, .highlight2 { background: var(--l4) !important; }
 .highlight:hover, .highlight2:hover { background: var(--l4); }
 
 

@@ -27,7 +27,7 @@ val.confValueVariant.forEach((val2) => {
 
 if(val2 == carrentValue33){
 confValueVariantPrint += `
-<button class="button margin highlight bold borderRadius2" onclick="setSeting('${val.confName}', '${val2}')">${val2}</button>
+<button class="button margin highlight bold borderRadius2 borderBottomOrange" onclick="setSeting('${val.confName}', '${val2}')">${val2}</button>
 `;
 }else{
 confValueVariantPrint += `
