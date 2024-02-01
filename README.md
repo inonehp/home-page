@@ -1,6 +1,6 @@
 <!-- README.md v.1.2.0 -->
   
-![2 page with light and dark mode](github-banner.png)  
+![2 page with light and dark mode](/img/github-banner.png)  
 #  Home page and projects.
 ## Interests: web design, web development, and coding.
 ## URL: [inonehp.pages.dev](https://inonehp.pages.dev/)
