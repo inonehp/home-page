@@ -1,4 +1,4 @@
-// Main js v.6.0.1
+// Main js v.6.0.2
 // For settings, themes, ...
 
 var conf = [];
@@ -11,7 +11,7 @@ conf["confIdEmbedScript"] = "footer";
 
 conf["confMenuItems"] = `
 
-<a class="countMenuItem brand" href="/templates.html" title="Templates">TPL</a><br>
+<a class="countMenuItem brand" href="/templates.html" title="Templates">Tpl</a><br>
 <a class="countMenuItem brand" href="/pages.html" title="Pages">All</a><br>
 <a class="countMenuItem brand" href="../" title="../">Up</a><br>
 <!--<a class="brand" href="javascript:history.back()">Back</a>-->
@@ -82,8 +82,8 @@ This is necessary to improve the site.
 "confValueVariant":["on", "off"],
 },
 {
-"confTitle":"Menu (nav) on off",
-"confDescription":"Menu (navigations): on, off embed.",
+"confTitle":"Second Navigation",
+"confDescription":"Second navigation (JS) over the current navigation.",
 "confName":"confMenu",
 "confValueDefault":"on",
 "confValueVariant":["on", "off", "random"],
@@ -154,7 +154,7 @@ document.getElementsByTagName("header")[0].innerHTML = `
 <span class="wrapper3 topNav capitalize tLeft">
 <nav>
 
-<a title="Main page (nav2)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+<a title="Main page (nav2)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 <!-- start menuTop for Desktop -->
 <div class="menuTop">
@@ -1024,7 +1024,7 @@ function fuMRandom(min, max) {
 return Math.round(Math.random() * (max - min) + min);
 }
 
-// start bg image
+// bg image (background img)
 function fuMBg(val){
 if(conf["confBg"] == 'on'||val == 'on'){
 let mRandBgPos = fuMRandom(0, 100);

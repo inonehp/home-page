@@ -29,44 +29,36 @@ project, projects, list, page, main,">
 
 <!-- main -->
 <link rel="preload" href="/js/main.js" as="script">
+
 <link rel="preload" href="/css/main.css" as="style">
 <link rel="stylesheet" href="/css/main.css" type="text/css">
-
 <link rel="stylesheet" type="text/css" href="/css/main.css" id="theme">
-<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="/css/noscript.css">
+<style>.noscriptHide { display: none; }</style>
+</noscript>
 
 <link rel="preload" href="/css/style.css" as="style">
 <link rel="stylesheet" href="/css/style.css" type="text/css">
-
-<noscript><style>.noscriptHide { display: none; }</style></noscript>
 <!-- end main -->
 
 
 
 <link rel="preload" href="/projects/1-blog/script.js" as="script"> 
 
-<!-- for icons -->
-<!--
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
--->
-
 </head>
 <body>
-
-
-
 
 
 <header class="wrapper3 topNav capitalize tLeft">
 <nav>
 
-<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="i" style="max-width: 26px;"></a>
+<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 <!-- start menuTop for Desktop -->
 <div class="menuTop">
-<a class="countMenuItem active" href="templates.html">TPL</a><br>
+<a class="countMenuItem active" href="templates.html">TPl</a><br>
 <a class="countMenuItem brand" href="pages.html">All</a><br>
 <a class="countMenuItem brand" href="../">Up</a><br>
 </div>
@@ -82,7 +74,7 @@ project, projects, list, page, main,">
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-<a class="countMenuItem active" href="templates.html">TPL</a><br>
+<a class="countMenuItem active" href="templates.html">TPl</a><br>
 <a class="countMenuItem brand" href="pages.html">All</a><br>
 <a class="countMenuItem brand" href="../">Up</a><br>
 <!-- //menu dublicate -->
@@ -94,7 +86,7 @@ project, projects, list, page, main,">
 <!--<hr />-->
 <!-- // end dropdown menu -->
 
-<form method="GET" action="/search.html" role="search">
+<form method="GET" action="/search.html" role="search" class="noscriptHide">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -728,7 +720,9 @@ var blogJsonVar =
 <style>
 /*.blogContent .pre { font-size: 1em; text-transform: capitalize; }
 .blogContent .pre a { text-transform: none; }*/
-.blogContent .pre:first-letter{ font-size: 1.5em; font-weight: bold; padding-right: 1px; }
+
+.blogContent .pre { font-size: 1.2em; }
+.blogContent .pre:first-letter{ font-weight: bold;  }
 </style>
 
 <script>
