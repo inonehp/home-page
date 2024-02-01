@@ -1,6 +1,21 @@
-<!-- README.md v.1.1.1 -->
+<!-- README.md v.1.2.0 -->
   
-# Home page and projects
+# Home page and projects.
+## Interests: web design, web development, and coding.
+  
+---
+  
+## Tags:
+[#Website](https://github.com/topics/website?o=desc&s=updated),
+[#Homepage](https://github.com/topics/homepage?o=desc&s=updated),
+[#Personal](https://github.com/topics/website?o=desc&s=updated),
+[#Cloudflare Pages](https://github.com/topics/cloudflare-pages?o=desc&s=updated),
+[#Project](https://github.com/topics/project?o=desc&s=updated),
+[#Projects](https://github.com/topics/projects?o=desc&s=updated),
+[#WebDesign](https://github.com/topics/webdesign?o=desc&s=updated),
+[#HTML](https://github.com/topics/html?o=desc&s=updated),
+[#CSS](https://github.com/topics/css?o=desc&s=updated),
+[#JavaScript](https://github.com/topics/javascript?o=desc&s=updated),
   
 ---
   
@@ -9,11 +24,8 @@
   
 ---
   
-## Screenshots:  
+### Screenshots:  
 
-![screenshot light](/img/screenshot.png)
-<!--![screenshot dark](/img/screenshot2.png)-->
-![screenshot List of color themes](/img/screenshot3.png)
-
-
-
+![light theme](/img/screenshot.png)
+<!--![dark theme](/img/screenshot2.png)-->
+![setting page with list of color themes](/img/screenshot3.png)
