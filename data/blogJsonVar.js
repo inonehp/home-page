@@ -1,6 +1,24 @@
 var blogJsonVar = 
 [
     {
+        "id": "225",
+        "text": "Taylor Swift on X: \"Turns out it\u2019s NOT the end of an era \ud83d\ude1d Miami, New Orleans, Indy and Toronto: The Eras Tour is coming to you in 2024 with @gracieabrams! Verified fan registration for all shows is open now - visit https:\/\/t.co\/xw6YMN3GMc for more information https:\/\/t.co\/DCgFQb2U22\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/taylorswift13\/status\/1687102339931574272",
+        "tag": "#design",
+        "time": 1706828047
+    },
+    {
+        "id": "224",
+        "text": "The symbol in the title before the text looks bad because there is already a symbol in front of it: the website icon.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#note",
+        "time": 1706827994
+    },
+    {
         "id": "223",
         "text": "25 Years in Search: The Most Searched - YouTube",
         "text2": "",
@@ -15,7 +33,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "",
-        "tag": "#WebDesign #notes",
+        "tag": "#note",
         "time": 1706256437
     },
     {

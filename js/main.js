@@ -1,4 +1,4 @@
-// Main js v.6.0.3
+// Main js v.6.0.4
 // For settings, themes, ...
 
 // Settings v.1.0.0
@@ -12,7 +12,7 @@ conf["confIdEmbedScript"] = "footer";
 
 conf["confMenuItems"] = `
 
-<a class="countMenuItem brand" href="/templates.html" title="Templates">Tpl</a><br>
+<a class="countMenuItem brand" href="/main-list.html" title="Main">Main</a><br>
 <a class="countMenuItem brand" href="/pages.html" title="Pages">All</a><br>
 <a class="countMenuItem brand" href="../" title="../">Up</a><br>
 <!--<a class="brand" href="javascript:history.back()">Back</a>-->
