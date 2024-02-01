@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "92",
+        "text": "Midjourney",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.midjourney.com\/home?callbackUrl=\/explore",
+        "tag": "#website #nice #cool",
+        "time": 1706827364
+    },
+    {
         "id": "91",
         "text": "favicon.ico Generator",
         "text2": "",
