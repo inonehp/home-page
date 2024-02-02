@@ -1,4 +1,4 @@
-// Main js v.6.0.4
+// Main js v.6.0.5
 // For settings, themes, ...
 
 // Settings v.1.0.0
@@ -329,11 +329,11 @@ fDescLength = document.getElementsByName("description")[0].content.length;
 fDesc = `<b class="block padding2List small">Description or summary:</b>` + document.getElementsByName("description")[0].content + fDescTags;
 
 if(fDescLength > 160){
-fDescTitle = `<span class="inlineBlock paddingList capitalize xSmall borderBottomRed">description: ${fDescLength} of 160</span>`;
+fDescTitle = `<span class="inlineBlock borderBottomRed">description: <span class="xSmall">${fDescLength} of 160</span></span>`;
 }else if(fDescLength < 25){
-fDescTitle = `<span class="inlineBlock paddingList capitalize xSmall borderBottomOrange">description: ${fDescLength} of 160</span>`;
+fDescTitle = `<span class="inlineBlock borderBottomOrange">description: <span class="xSmall">${fDescLength} of 160</span>`;
 }else{
-fDescTitle = `<span class="inlineBlock padding2List capitalize xSmall">description: ${fDescLength} of 160</span>`;
+fDescTitle = `<span class="inlineBlock">description: <span class="xSmall">${fDescLength} of 160</span>`;
 }
 }
 
@@ -345,27 +345,34 @@ fuMPrintText('footer', `
 <div id="cookiePopup"></div>
 <div id="ads2"></div>
 
+<div class="padding2"></div>
 
 
 <nav>
 <div class="small wrapper4 balance margin2List padding2List">
 
+
+
 <div class="block tRight small padding2List">
-
-<details class="inlineBlock">
-<summary class="pointer op" onclick="fuMScrollTo('fScrollToBottom')" title="Description and keywords">${fDescTitle}</summary>
-<div id="fDesc" class="block pre tLeft wrapperL padding2 bg small shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
+<details class="inlineBlock op">
+<summary class="pointer paddingList marginList" onclick="fuMScrollTo('fScrollToBottom')" title="Description and keywords">${fDescTitle}</summary>
+<div id="fDesc" class="block pre tLeft wrapperL padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
 </details>
-
 </div>
 
-<span class="block padding2List" style="padding-left: 0;" id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></span>
+<div id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></div>
+
+
+
+
 
 <!--<span style="padding-left: 0;" title="Main Page"><a href="/">Home</a></span>-->
 
 <!--<span id="fAds" title="Advertising Settings"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
 
-<span id="fSettings" title="Settings" style="padding-left: 0;"><a href="/settings.html">Settings</a></span>
+<span title="Page about" style="padding-left: 0;"><a href="/about.html">About</a></span>
+
+<span id="fSettings" title="Settings"><a href="/settings.html">Settings</a></span>
 
 <span id="fPrivacy" title="Cookie Settings"><a href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 
@@ -374,8 +381,6 @@ fuMPrintText('footer', `
 <span title="News"><a href="/rss.xml">RSS</a></span>
 
 <span title="Site Code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
-
-<span title="Page about"><a href="/about.html">About</a></span>
 
 <span title="License (other on the About page)"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a></span>
 

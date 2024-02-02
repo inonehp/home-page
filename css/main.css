@@ -1,4 +1,4 @@
-/* Main style v.12.12.2 */
+/* Main style v.12.14.0 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -23,8 +23,7 @@
 --itemH2: 45px;
 --itemH3: auto;
 --itemH4: 100dvh;
-
-/*--mobileScreen: 500px;*/
+/*m 500*/
 }
 
 html, body, a, input, button, textarea, pre, code, select{
@@ -77,12 +76,12 @@ nav button:hover { background: none;  }
 footer { padding-top: 15px; }
 
 
-h1, .h1 { font-size: 1.40em; /*text-transform: capitalize;*/ }
-h2, .h2 { font-size: 1.35em; }
-h3, .h3 { font-size: 1.25em; }
-h4, .h4 { font-size: 1.15em; }
-h5, .h5 { font-size: 1.11em; }
-h6, .h6 { font-size: 1.1em; }
+.h1 { font-size: 1.40em; /*text-transform: capitalize;*/ }
+.h2 { font-size: 1.35em; }
+.h3 { font-size: 1.25em; }
+.h4 { font-size: 1.15em; }
+.h5 { font-size: 1.11em; }
+.h6 { font-size: 1.1em; }
 
 input[type="text"], input[type="search"], textarea, input[type="submit"], form button, .submit{
 width: 100%;
@@ -183,12 +182,6 @@ max-width: 100%;
 .button { padding: .7em 1.2em; }
 .tag2 { padding: .3em .8em; }
 /*@media (any-pointer: coarse) { .tag { padding: .3em .8em; } }*/
-
-/*.ico, .ico img, .ico2, .ico2 img {
-border-radius: 50%;
-border: 1px solid var(--d);
-padding: 2px;
-}*/
 
 /* ico2 - for img */
 .ico, .ico2 {
@@ -420,16 +413,12 @@ input, progress, select { accent-color: var(--d4);  }
 .h100 { height: 100%; }
 
 
-
-
-
-
 /* fix */
 
 /*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 word-break: break-all;
 }
-h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.25px; }dellme*/
+h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.25px; }test and dellme*/
 
 @media(max-width: 200px) { div, input, textarea, a{ word-break: break-all; } }
 
@@ -449,10 +438,10 @@ form { margin: 0 auto; padding: 0; width: 100%; }
 svg, form, iframe, video, audio, img, hr, table{ max-width:100%; }
 svg, img { height: auto;  display: inline-block; }
 
-@media(max-width: 395px) {
+/*@media(max-width: 395px) {
 .m, .m2 { width: 100%; max-width: 100%; padding: 0; }
 .m2 { display: block; position: relative; }
-}
+}test and delme*/
 
 .over, .over a{
 overflow: hidden;
@@ -511,7 +500,7 @@ border-bottom: 1px solid var(--d2);
 
 
 
-
+@media(max-width: 500px) { .autoStyle { display: block; } }
 
 
 

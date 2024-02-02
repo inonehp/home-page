@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "226",
+        "text": "The order of the style files in the header matters. Latter files overwrite the properties of earlier ones.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#note",
+        "time": 1706840767
+    },
+    {
         "id": "225",
         "text": "Taylor Swift on X: \"Turns out it\u2019s NOT the end of an era \ud83d\ude1d Miami, New Orleans, Indy and Toronto: The Eras Tour is coming to you in 2024 with @gracieabrams! Verified fan registration for all shows is open now - visit https:\/\/t.co\/xw6YMN3GMc for more information https:\/\/t.co\/DCgFQb2U22\" \/ X",
         "text2": "",
@@ -29,7 +38,7 @@ var blogJsonVar =
     },
     {
         "id": "222",
-        "text": "On the top sites, the input form has the text aligned to the left.",
+        "text": "On the most popular sites on the web, text aligns to the left in the input form. Those companies know better how to do that because they have many designers and researchers.",
         "text2": "",
         "text3": "",
         "url": "",

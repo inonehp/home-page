@@ -1,5 +1,3 @@
-<br />
-<b>Warning</b>:  Undefined variable $ext in <b>/mnt/d/Sync/htdocs/config.php</b> on line <b>191</b><br />
 <?xml version="1.0" encoding="UTF-8"?>
 
 <rss version="2.0">
@@ -8,6 +6,17 @@
 <title>inonehp RSS</title>
 <link>https://https://inonehp.pages.dev</link>
 <description></description>
+
+<item>
+<pubDate>Fri, 02 Feb 24 04:26:07 +0200</pubDate>
+<title><![CDATA[The order of the style files in the header matters. Latter files overwrite the properties of earlier ones. ]]></title>
+<link><![CDATA[https://inonehp.pages.dev/#postIdDisabled]]></link>
+<description>
+<![CDATA[
+The order of the style files in the header matters. Latter files overwrite the properties of earlier ones. 
+]]>
+</description>
+</item>
 
 <item>
 <pubDate>Fri, 02 Feb 24 00:54:07 +0200</pubDate>
@@ -44,11 +53,11 @@ The symbol in the title before the text looks bad because there is already a sym
 
 <item>
 <pubDate>Fri, 26 Jan 24 10:07:17 +0200</pubDate>
-<title><![CDATA[On the top sites, the input form has the text aligned to the left. ]]></title>
+<title><![CDATA[On the most popular sites on the web, text aligns to the left in the input form. Those companies know better how to do that because they have many designers and researchers. ]]></title>
 <link><![CDATA[https://inonehp.pages.dev/#postIdDisabled]]></link>
 <description>
 <![CDATA[
-On the top sites, the input form has the text aligned to the left. 
+On the most popular sites on the web, text aligns to the left in the input form. Those companies know better how to do that because they have many designers and researchers. 
 ]]>
 </description>
 </item>
@@ -104,17 +113,6 @@ A new way to Search: Circle to Search - YouTube https://www.youtube.com/watch?v=
 <description>
 <![CDATA[
 NASA Universe on X: "Did you know that the location of the @NASAHubble Legacy Field image was chosen because it had no bright sources? But it isn’t filled with "nothing"! There are more than 250,000 galaxies in the Hubble Legacy Field. https://t.co/PAawEFrA4U #NothingDay https://t.co/spG8MU05yD" / X https://twitter.com/NASAUniverse/status/1747356050221650144
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Sun, 14 Jan 24 07:18:14 +0200</pubDate>
-<title><![CDATA[NASA Webb Telescope on X: "We did the Monster Math. It was a star graveyard smash! A bizarre structure dubbed the “Green Monster” lurks in the remains of this exploded star. By combining Webb & @ChandraXray data, scientists may have found its source in a blast wave from the star:    " / X  ]]></title>
-<link><![CDATA[https://twitter.com/NASAWebb/status/1745891342952129002]]></link>
-<description>
-<![CDATA[
-NASA Webb Telescope on X: "We did the Monster Math. It was a star graveyard smash! A bizarre structure dubbed the “Green Monster” lurks in the remains of this exploded star. By combining Webb & @ChandraXray data, scientists may have found its source in a blast wave from the star: https://t.co/s2yyDsjGOt https://t.co/EPOBLRyxjv" / X https://twitter.com/NASAWebb/status/1745891342952129002
 ]]>
 </description>
 </item>
