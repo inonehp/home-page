@@ -266,10 +266,10 @@ right: 0;
 .margin2List { margin-bottom: 10px; }
 .margin3List { margin-bottom: 15px; }
 
-.itemH { min-height: var(--itemHeight); }
-.itemH2 { min-height: var(--itemHeight2); }
-.itemH3 { min-height: var(--itemHeight3); }
-.itemH4 { min-height: var(--itemHeight4); }
+.itemHeight { min-height: var(--itemHeight); }
+.itemHeight2 { min-height: var(--itemHeight2); }
+.itemHeight3 { min-height: var(--itemHeight3); }
+.itemHeight4 { min-height: var(--itemHeight4); }
 
 .capitalize { text-transform: capitalize; }
 .uppercase { text-transform: uppercase; }

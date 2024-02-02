@@ -1,5 +1,18 @@
 /* v.1.1.4 */
 
+@supports (::spelling-error) {}
+
+/*https://twitter.com/ChromiumDev/status/1753117729186292068#*/
+
+::spelling-error {
+text-decoration: wavy var(--red);
+}
+
+textarea::grammar-error {
+text-decoration: wavy var(--blue);
+}
+
+
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-anchor/Guide_to_scroll_anchoring#*/
 body {
   overflow-anchor: none;
@@ -398,3 +411,5 @@ color: var(--l3);
 --borderBottomOpacity: 90%;
 }
 }
+
+

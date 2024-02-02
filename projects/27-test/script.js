@@ -64,11 +64,13 @@ document.getElementById("divIdForAnimation3").classList.remove("classAnimation")
 
 
 
-
+try {
 if(document.featurePolicy != undefined){
 fuPrintPost('FLoC status: ' + (document.featurePolicy.allowsFeature('browsing-topics')));
 }
-
+} catch (error) {
+  console.error(error);
+}
 // cohort, topics chrome, rm or fixme
 async function fuPrintTopic(){
 try {
@@ -76,7 +78,7 @@ try {
   const topics = await document.browsingTopics();
   
   // Request an ad creative.
-  const response = await fetch('http://localhost/', {
+ /* const response = await fetch('#url', {
    method: 'POST',
    headers: {
      'Content-Type': 'application/json',
@@ -85,7 +87,7 @@ try {
   })
   
   // Get the JSON from the response.
-  const creative = await response.json();
+  const creative = await response.json();*/
   
   // Display ad.
 

@@ -151,6 +151,12 @@ to{ border: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
 
 .borderBottom, .borderBottomGray { border-bottom: 2px solid color-mix(in srgb, var(--gray) 60%, transparent); }
 
+
+.firstLetterBold::first-letter {
+font-weight: bold;
+}
+
+
 /* bg image in main.js */
 
 

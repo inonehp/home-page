@@ -1109,17 +1109,18 @@ fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">Cookie: au
 
 
 
-// Embed script v.1.0.0
+// Embed script list v.1.0.0
 if(document.getElementById(conf["confIdEmbedScript"]) != null){
 
 function fuMEmbedScript(embedUrl, embedId){
 
+/*
 //https://stackoverflow.com/questions/3646036/preloading-images-with-javascript
 var link = document.createElement("link");
 link.rel = "preload";
 link.as = "script";
 link.href = embedUrl;
-document.head.appendChild(link);
+document.head.appendChild(link);*/
 
 let script = document.createElement('script');
 script.type='text/javascript';
@@ -1185,8 +1186,7 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 
 }
-
-
+// end Embed script list
 
 
 
