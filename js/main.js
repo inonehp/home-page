@@ -349,7 +349,7 @@ fuMPrintText('footer', `
 
 
 <nav>
-<div class="capitalize wrapper4 balance margin2List padding2List">
+<div class="wrapper4 balance margin2List padding2List">
 
 
 

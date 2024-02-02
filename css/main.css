@@ -31,7 +31,7 @@ font-family: Arial, Sans-Serif;
 font-style: normal;
 font-size: 14px;
 text-decoration:none;
-letter-spacing: 0.16px;
+/*testme delme letter-spacing: 0.16px;*/
 /*hyphens: auto;*/
 overflow-wrap: break-word;
 /*word-break: break-all;*/
@@ -76,7 +76,7 @@ nav button:hover { background: none;  }
 footer { padding-top: 15px; }
 
 
-.h1 { font-size: 1.40em; /*text-transform: capitalize;*/ }
+.h1 { font-size: 1.40em; }
 .h2 { font-size: 1.35em; }
 .h3 { font-size: 1.25em; }
 .h4 { font-size: 1.15em; }
