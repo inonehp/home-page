@@ -34,13 +34,13 @@ page, main,">
 <link rel="stylesheet" href="/css/main.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="/css/main.css" id="theme">
 
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
 <noscript>
 <link rel="stylesheet" type="text/css" href="/css/noscript.css">
 <style>.noscriptHide { display: none; }</style>
 </noscript>
-
-<link rel="preload" href="/css/style.css" as="style">
-<link rel="stylesheet" href="/css/style.css" type="text/css">
 <!-- end main -->
 
 
@@ -53,12 +53,13 @@ page, main,">
 <body>
 
 
+<!-- Nav v.1.0.0 -->
 <header class="wrapper3 topNav capitalize tLeft">
 <nav>
 
 <a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
-<!-- start menuTop for Desktop -->
+
 <div class="menuTop">
 <a class="countMenuItem brand" href="main-list.html">Main</a><br>
 <a class="countMenuItem brand" href="pages.html">All</a><br>
@@ -66,7 +67,7 @@ page, main,">
 </div>
 <!-- end menuTop -->
 
-<!-- start menuTop dropdown menu, for mobile -->
+<!-- dropdown menu -->
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
 <button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
@@ -95,47 +96,7 @@ page, main,">
 
  </nav>
 </header>
-
-
-<noscript>
-<style>
-/* mobile dropdown menu (copypast from main.js */
-
-@media(max-width: 500px){
-.topNav nav { display: block; }
-.menuTop { display: none; }
-#dropdownMenuButton { display: inline-block; }
-
-.topNav nav {
-justify-content: left;
-align-items: center;
-display: block;
-text-align: left;
-}
-
-}
-
-/* fix */
-@media(min-width: 800px){
-.dropdownMenuContentColumn, .dropdownMenuContent {
-display: none !important;
-}
-}
-/* end mobile dropdown menu (copy from main.js */
-
-/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
-#dropdownMenuCSS:hover #dropdownMenu {
-display: block;
-position: absolute;
-top: 0;
-}
-#dropdownMenuCSS { display: inline-block; }
-/* end CSS  dropdown menu */
-
-.menu a { justify-content: center; text-align: center; }
-
-</style>
-</noscript>
+<!-- end nav -->
 
 <!--<hr>-->
 
@@ -168,9 +129,14 @@ top: 0;
 
 <details class="small">
 <summary class="op wrapperS padding2List pointer">
-<span class="xSmall padding2List">update: <span id="last-update"></span></span>
+<span class="xSmall padding2List">updated: <span id="last-update"></span></span>
 </summary>
-<div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">The navigation link and menu on the index page have been updated.</div>
+<div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">
+Fixed navigation.
+New page: about update.
+Fixed HTML tag on the index page.
+
+<a class="brand tag2 block tCenter border light borderRadius2" href="/changelog.html" title="Update Log">more</a></div>
 </details>
 
 
@@ -178,8 +144,6 @@ top: 0;
 
 </div>
 </div>
-
-</header>
 
 
 
@@ -192,7 +156,12 @@ top: 0;
 <a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=dev" title="Development">dev</a>
 <a class="border borderRadius2 tag light2 op" href="/projects/25-redirects/?q=⚃" title="4 previous">⚃</a>
 </div>
+
 <div class="block paddingList"></div>
+
+</header>
+
+
 
 <script>
 // day link
@@ -397,6 +366,7 @@ document.getElementById("hotLinks").innerHTML = a;
 <div class="block padding3 margin2"></div>
 
 <div class="wrapper small">
+
 <span class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Speed dial:</span>
 <div class="tagList left">
 <a class="insertIcon tag2 light2 border borderRadius2" href="/pages.html">All</a>
@@ -411,22 +381,16 @@ document.getElementById("hotLinks").innerHTML = a;
 <a class="insertIcon tag2 light2 border borderRadius2 noscriptHide" href="/projects/14-typing-speed/">Typing</a>
 <a class="insertIcon tag2 light2 border borderRadius2 noscriptHide" href="/projects/42-quiz/">Quiz</a>
 </div>
+
+</div>
 <!-- end speed dial -->
 
 <div class="block padding2"></div>
 
+</div>
 
 
 
-
-
-
-
-<!--
-<div class="block op tCenter">menu:</div>
-<div id="idTagList"></div>-->
-
-<div id="getId">
 
 
 
@@ -510,7 +474,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1706829162);
+document.getElementById("last-update").innerHTML = fuPostTime(1706833537);
 </script>
 
 <script>
@@ -542,6 +506,7 @@ window.location.href = "/projects/25-redirects/?q=" + q;
 }
 
 </script>
+
 
 
 

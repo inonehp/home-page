@@ -153,20 +153,19 @@ if(document.getElementsByTagName("header")[0] != null){
 
 document.getElementsByTagName("header")[0].innerHTML = `
 
-<span class="wrapper3 topNav capitalize tLeft">
+<!-- Nav v.1.0.0 -->
+<div class="wrapper3 topNav capitalize tLeft">
 <nav>
 
-<a title="Main page (nav2)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
-<!-- start menuTop for Desktop -->
+
 <div class="menuTop">
-
 ${conf["confMenuItems"]}
-
 </div>
 <!-- end menuTop -->
 
-<!-- start menuTop dropdown menu, for mobile -->
+<!-- dropdown menu -->
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
 <button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
@@ -186,13 +185,14 @@ ${conf["confMenuItems"]}
 <!--<hr />-->
 <!-- // end dropdown menu -->
 
-<form method="GET" action="/search.html" role="search">
+<form method="GET" action="/search.html" role="search" class="noscriptHide">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
 
  </nav>
-</span>
+</div>
+<!-- end nav -->
 
 
 `;
@@ -205,6 +205,7 @@ ${conf["confMenuItems"]}
 
 
 // Dropdown menu  v.1.3.0
+// if js off (CSS version in noscript.css)
 //https://www.w3schools.com/howto/howto_js_dropdown.asp
 // menu click
 function dropdownMenuFunction() {

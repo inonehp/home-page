@@ -36,13 +36,13 @@ main, menu, list, projects, main, pages,
 <link rel="stylesheet" href="/css/main.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="/css/main.css" id="theme">
 
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
 <noscript>
 <link rel="stylesheet" type="text/css" href="/css/noscript.css">
 <style>.noscriptHide { display: none; }</style>
 </noscript>
-
-<link rel="preload" href="/css/style.css" as="style">
-<link rel="stylesheet" href="/css/style.css" type="text/css">
 <!-- end main -->
 
 
@@ -60,12 +60,13 @@ main, menu, list, projects, main, pages,
 <body>
 
 
+<!-- Nav v.1.0.0 -->
 <header class="wrapper3 topNav capitalize tLeft">
 <nav>
 
 <a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
-<!-- start menuTop for Desktop -->
+
 <div class="menuTop">
 <a class="countMenuItem active" href="main-list.html">Main</a><br>
 <a class="countMenuItem brand" href="pages.html">All</a><br>
@@ -73,7 +74,7 @@ main, menu, list, projects, main, pages,
 </div>
 <!-- end menuTop -->
 
-<!-- start menuTop dropdown menu, for mobile -->
+<!-- dropdown menu -->
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
 <button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
@@ -102,47 +103,7 @@ main, menu, list, projects, main, pages,
 
  </nav>
 </header>
-
-
-<noscript>
-<style>
-/* mobile dropdown menu (copypast from main.js */
-
-@media(max-width: 500px){
-.topNav nav { display: block; }
-.menuTop { display: none; }
-#dropdownMenuButton { display: inline-block; }
-
-.topNav nav {
-justify-content: left;
-align-items: center;
-display: block;
-text-align: left;
-}
-
-}
-
-/* fix */
-@media(min-width: 800px){
-.dropdownMenuContentColumn, .dropdownMenuContent {
-display: none !important;
-}
-}
-/* end mobile dropdown menu (copy from main.js */
-
-/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
-#dropdownMenuCSS:hover #dropdownMenu {
-display: block;
-position: absolute;
-top: 0;
-}
-#dropdownMenuCSS { display: inline-block; }
-/* end CSS  dropdown menu */
-
-.menu a { justify-content: center; text-align: center; }
-
-</style>
-</noscript>
+<!-- end nav -->
 
 <!--<hr>-->
 
@@ -167,7 +128,8 @@ top: 0;
 <a id="main-cLa"  class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="about.html">About</a>
 <a   class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="archive-list.html">Archive list</a>
 <a id="main-cLb"  class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="blog.html">Blog</a>
-<a id="main-cLc"  class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="chrome-extensions-list.html">Chrome extensions list</a>
+<a id="main-cLc"  class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="changelog.html">Changelog</a>
+<a   class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="chrome-extensions-list.html">Chrome extensions list</a>
 <a   class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="css-art.html">Css art</a>
 <a id="main-cLf"  class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="firefox-extensions-list.html">Firefox extensions list</a>
 <a   class="insertIcon button light3 border borderRadius2 itemH2" tabindex="0" href="firefox-theme.html">Firefox theme</a>

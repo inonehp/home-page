@@ -59,7 +59,7 @@ align-items: center;
 }
 
 
-/* dropdown menu */
+/* Dropdown menu for Nav v.1.0.0 */
 
 #dropdownMenuButton { cursor: pointer; background: transparent; border: none; }
 .dropdownMenuWrapper { position: relative; }
@@ -107,9 +107,7 @@ grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 #dropdownMenuButton { padding: 0; }
 .dropdownMenuContent { margin-top: 9px;  }
 
-
-
-/* end dropdown menu */
+/* end Deropdown menu */
 
 
 

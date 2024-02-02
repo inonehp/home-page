@@ -1,10 +1,12 @@
+<br />
+<b>Warning</b>:  Undefined variable $ext in <b>/mnt/d/Sync/htdocs/config.php</b> on line <b>191</b><br />
 <?xml version="1.0" encoding="UTF-8"?>
 
 <rss version="2.0">
 <channel>
 
 <title>inonehp RSS</title>
-<link>https://inonehp.pages.dev</link>
+<link>https://https://inonehp.pages.dev</link>
 <description></description>
 
 <item>
@@ -21,7 +23,7 @@ Taylor Swift on X: "Turns out it’s NOT the end of an era 😝 Miami, New Orlea
 <item>
 <pubDate>Fri, 02 Feb 24 00:53:14 +0200</pubDate>
 <title><![CDATA[The symbol in the title before the text looks bad because there is already a symbol in front of it: the website icon. ]]></title>
-<link><![CDATA[inonehp.pages.dev/#postIdDisabled]]></link>
+<link><![CDATA[https://inonehp.pages.dev/#postIdDisabled]]></link>
 <description>
 <![CDATA[
 The symbol in the title before the text looks bad because there is already a symbol in front of it: the website icon. 
@@ -43,7 +45,7 @@ The symbol in the title before the text looks bad because there is already a sym
 <item>
 <pubDate>Fri, 26 Jan 24 10:07:17 +0200</pubDate>
 <title><![CDATA[On the top sites, the input form has the text aligned to the left. ]]></title>
-<link><![CDATA[inonehp.pages.dev/#postIdDisabled]]></link>
+<link><![CDATA[https://inonehp.pages.dev/#postIdDisabled]]></link>
 <description>
 <![CDATA[
 On the top sites, the input form has the text aligned to the left. 

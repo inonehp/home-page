@@ -154,13 +154,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Browser info\n\nTest JavaScript page. ",
-        "url": "\/projects\/2-browser-info\/index.html",
-        "tag": " #JS #JavaScript #test #page #project",
-        "id": "98f05035270966106a682d628c6bf43e",
-        "time": "id"
-    },
-    {
         "text": "Button blur unblur\n\nButton: focus, defocus ",
         "url": "\/mini-projects\/28-button-blur-unblur\/index.html",
         "tag": " #button #focus #effect #HTML #CSS #project",
@@ -179,6 +172,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/3-calculator\/index.html",
         "tag": " #\u0441alculator #calc #tool #project",
         "id": "0aeabde03f98a74a38fa0c271f676d4b",
+        "time": "id"
+    },
+    {
+        "text": "Changelog\n\n ",
+        "url": "\/changelog.html",
+        "tag": " #changelog",
+        "id": "5358dd68cd0d7e1d36bc7a96e2c64e47",
         "time": "id"
     },
     {
@@ -900,6 +900,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/27-test\/index.html",
         "tag": " #test #page #HTML #CSS #JavaScript #project",
         "id": "f14d8ace31fc49d949d2d019fca75abc",
+        "time": "id"
+    },
+    {
+        "text": "Test js\n\nTest JavaScript page. ",
+        "url": "\/projects\/2-test-js\/index.html",
+        "tag": " #JS #JavaScript #test #page #project",
+        "id": "686eff06fafa0346cb8fcb945567a2dc",
         "time": "id"
     },
     {

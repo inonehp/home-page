@@ -103,12 +103,42 @@ background-attachment: fixed;
 }
 
 
+/* Dropdown menu for Nav (if JS off) v.1.1.0 */
 
+@media(max-width: 800px){
+.topNav nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
 
+.topNav nav {
+justify-content: left;
+align-items: center;
+display: block;
+text-align: left;
+}
 
+}
 
+/* fix */
+@media(min-width: 800px){
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+/* end mobile dropdown menu (copy from main.js */
 
+/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
+#dropdownMenuCSS:hover #dropdownMenu {
+display: block;
+position: absolute;
+top: 0;
+}
+#dropdownMenuCSS { display: inline-block; }
+/* end CSS  dropdown menu */
 
+.menu a { justify-content: center; text-align: center; }
+
+/* end Dropdown */
 
 
 
