@@ -133,10 +133,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Blockquotes cpc\n\nFor CodePen #CPC. Experimental page with quote styling using CSS. ",
-        "url": "\/mini-projects\/8-blockquotes-cpc\/index.html",
+        "text": "Blockquotes codepen challenge\n\nFor CodePen #CPC. Experimental page with quote styling using CSS. ",
+        "url": "\/mini-projects\/8-blockquotes-codepen-challenge\/index.html",
         "tag": " #quote #styling_CSS #CPC #CSS #HTML #project",
-        "id": "b2764606299fa9d0fb8500c49411d079",
+        "id": "8a5d8b5d308940e426479218414eca58",
         "time": "id"
     },
     {
@@ -378,10 +378,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Gradient glow style cpc\n\nGradient glow style #CPC ",
-        "url": "\/mini-projects\/28-gradient-glow-style-cpc\/index.html",
+        "text": "Gradient glow style codepen challenge\n\nGradient glow style #CPC ",
+        "url": "\/mini-projects\/28-gradient-glow-style-codepen-challenge\/index.html",
         "tag": " #gradien #WebDesign #CPC #CSS #project",
-        "id": "da912019d38af68118b8884c486d2188",
+        "id": "a0d10b035d25953ca80bb02836e14c61",
         "time": "id"
     },
     {
@@ -413,10 +413,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Hot and cold cpc attempt\n\nIframe full screen (hot and cold #CPC try) ",
-        "url": "\/archive\/projects\/31-hot-and-cold-cpc-attempt\/index.html",
+        "text": "Hot and cold codepen challenge attempt\n\nIframe full screen (hot and cold #CPC try) ",
+        "url": "\/archive\/projects\/31-hot-and-cold-codepen-challenge-attempt\/index.html",
         "tag": " #iframe #CPC #try #attempt #CSS #project",
-        "id": "4517d96687bacccf3413a72a7926723c",
+        "id": "69d6f6fd3ceab208f10fd52b4dc74449",
         "time": "id"
     },
     {
@@ -448,10 +448,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Light and dark design cpc\n\nLight & dark design (Light & Dark #CPC) ",
-        "url": "\/mini-projects\/29-light-and-dark-design-cpc\/index.html",
+        "text": "Light and dark design codepen challenge\n\nLight & dark design (Light & Dark #CPC) ",
+        "url": "\/mini-projects\/29-light-and-dark-design-codepen-challenge\/index.html",
         "tag": " #cpc #design #WebDesign #CSS #HTML #project",
-        "id": "bcb0d9cd1bc44d340590bcac87032c27",
+        "id": "e44d0a4f271bf43dce82099e42a43f54",
         "time": "id"
     },
     {
@@ -518,10 +518,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "New year soft and sharp cpc\n\nNew Year (Soft & Sharp #CPC) ",
-        "url": "\/archive\/mini-projects\/30-new-year-soft-and-sharp-cpc\/index.html",
+        "text": "New year soft and sharp codepen challenge\n\nNew Year (Soft & Sharp #CPC) ",
+        "url": "\/archive\/mini-projects\/30-new-year-soft-and-sharp-codepen-challenge\/index.html",
         "tag": " #New_Year #CPC #CSS #project",
-        "id": "d1fd679e32fae4d0180e41409f2fa6dd",
+        "id": "54129e3b11b0f6ac76ee4287de18d33e",
         "time": "id"
     },
     {
@@ -658,10 +658,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Pull quotes cpc\n\nExperimental page with quote styling using CSS | 2. ",
-        "url": "\/archive\/mini-projects\/14-pull-quotes-cpc\/index.html",
+        "text": "Pull quotes codepen challenge\n\nExperimental page with quote styling using CSS | 2. ",
+        "url": "\/archive\/mini-projects\/14-pull-quotes-codepen-challenge\/index.html",
         "tag": " #quote #styling #CPC #CSS #HTML #project",
-        "id": "d0579fbf710518788ef37d76973d4154",
+        "id": "1fd9ee00e65ada862a144510c3db0bf6",
         "time": "id"
     },
     {
@@ -686,10 +686,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Quote poster cpc\n\nExperimental page with quote styling using CSS | 3. ",
-        "url": "\/archive\/mini-projects\/16-quote-poster-cpc\/index.html",
+        "text": "Quote poster codepen challenge\n\nExperimental page with quote styling using CSS | 3. ",
+        "url": "\/archive\/mini-projects\/16-quote-poster-codepen-challenge\/index.html",
         "tag": " #quote #styling #CPC #CSS #HTML #project",
-        "id": "b2d7ae4b1aff70fb075280f4e07ad8c6",
+        "id": "cd37f1b59bcc4dc5d0340b1f5a3b17a7",
         "time": "id"
     },
     {
@@ -700,17 +700,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Rain cpc\n\nRain effect and animation using CSS and JavaScript ",
-        "url": "\/projects\/51-rain-cpc\/index.html",
+        "text": "Rain codepen challenge\n\nRain effect and animation using CSS and JavaScript ",
+        "url": "\/projects\/51-rain-codepen-challenge\/index.html",
         "tag": " #rain #random #drop #CPC #CSS #JavaScript #project",
-        "id": "b304d2add01044735189b2958acc16b3",
+        "id": "761f2fa7acacc3c8c758fcdfe7903b69",
         "time": "id"
     },
     {
-        "text": "Random button cpc\n\nRandom button, experiment, uses JavaScript and CSS. ",
-        "url": "\/archive\/projects\/18-random-button-cpc\/index.html",
+        "text": "Random button codepen challenge\n\nRandom button, experiment, uses JavaScript and CSS. ",
+        "url": "\/archive\/projects\/18-random-button-codepen-challenge\/index.html",
         "tag": " #random #button #CPC #JavaScript #project",
-        "id": "a085b8dc8b66d7011aad5d9ba232716f",
+        "id": "3522f4751dfb7755aff66166f16c8de4",
         "time": "id"
     },
     {
@@ -749,10 +749,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Round cpc\n\nCircles are placed on the page using HTML, CSS. ",
-        "url": "\/mini-projects\/19-round-cpc\/index.html",
+        "text": "Round codepen challenge\n\nCircles are placed on the page using HTML, CSS. ",
+        "url": "\/mini-projects\/19-round-codepen-challenge\/index.html",
         "tag": " #circle #wallpaper #CSS #project",
-        "id": "874fa6050cc3b843d7b8bdb03cac589d",
+        "id": "371096b8af9984a841f13d7dc5688659",
         "time": "id"
     },
     {
@@ -854,10 +854,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Synthetic textures cpc\n\nCSS effect of plastic or other textured text, based on Codepen template for the contest. ",
-        "url": "\/archive\/mini-projects\/22-synthetic-textures-cpc\/index.html",
+        "text": "Synthetic textures codepen challenge\n\nCSS effect of plastic or other textured text, based on Codepen template for the contest. ",
+        "url": "\/archive\/mini-projects\/22-synthetic-textures-codepen-challenge\/index.html",
         "tag": " #texture #text #CPC #CSS #project",
-        "id": "a27fac10eb994ee13bfbd670c69f2758",
+        "id": "d3aea8da8f2582ebe75918b0c6de3ecd",
         "time": "id"
     },
     {
@@ -896,10 +896,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Testimonial quotes cpc\n\nExperimental page with quote styling using CSS | 4. ",
-        "url": "\/archive\/mini-projects\/23-testimonial-quotes-cpc\/index.html",
+        "text": "Testimonial quotes codepen challenge\n\nExperimental page with quote styling using CSS | 4. ",
+        "url": "\/archive\/mini-projects\/23-testimonial-quotes-codepen-challenge\/index.html",
         "tag": " #quote #styling #CPC #CSS #project",
-        "id": "9b2e1a4c6e1cb23e7bbd1e5bec6dce8b",
+        "id": "1c18dc4025f2cca7247aafcbdf6d4dc4",
         "time": "id"
     },
     {
@@ -1029,10 +1029,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Winter long and short cpc\n\nWinter (long and short #CPC) ",
-        "url": "\/mini-projects\/29-winter-long-and-short-cpc\/index.html",
+        "text": "Winter long and short codepen challenge\n\nWinter (long and short #CPC) ",
+        "url": "\/mini-projects\/29-winter-long-and-short-codepen-challenge\/index.html",
         "tag": " #winter #CPC #CSS #project",
-        "id": "cc9f97d2cccd7a10038862f7d85a8b60",
+        "id": "65caaef2b9db185f8cfea31721b30f12",
         "time": "id"
     },
     {
@@ -1050,10 +1050,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Yk style cpc\n\nY2K style #CPC ",
-        "url": "\/mini-projects\/27-y2k-style-cpc\/index.html",
+        "text": "Yk style codepen challenge\n\nY2K style #CPC ",
+        "url": "\/mini-projects\/27-y2k-style-codepen-challenge\/index.html",
         "tag": " #CPC #CSS #WebDesign #project",
-        "id": "32a4a64471df3707b492fd2356bb6602",
+        "id": "24a9504a2de75f03d131180e7322689b",
         "time": "id"
     }
 ]
