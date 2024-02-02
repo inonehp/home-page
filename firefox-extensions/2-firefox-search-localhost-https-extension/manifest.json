@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Localhost Search HTTPS",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "url https://localhost/?q= as Search engine",
   
 "icons": {
@@ -12,7 +12,7 @@
   "search_provider": {
     "name": "Localhost (https)",
     "search_url": "https://localhost/?q={searchTerms}",
-    "keyword": "@l",
+    "keyword": "@localhost",
     "favicon_url": "https://localhost/favicon.ico"
   }
 }

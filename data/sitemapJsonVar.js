@@ -294,10 +294,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Firefox badge count up timer\n\nempty description. ",
-        "url": "\/firefox-extensions\/4-firefox-badge-count-up-timer\/index.html",
+        "text": "Firefox badge count up timer extension\n\nempty description. ",
+        "url": "\/firefox-extensions\/4-firefox-badge-count-up-timer-extension\/index.html",
         "tag": " #empty_keywords",
-        "id": "c27d3d1e5a6cb4a67daae759f14bbf92",
+        "id": "96bc62fff30ba983901a4e986d23498a",
         "time": "id"
     },
     {
