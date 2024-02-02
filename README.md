@@ -1,11 +1,18 @@
-<!-- README.md v.1.2.1 -->
+<!-- README.md v.1.3.0 -->
   
 ![2 page with light and dark mode](/img/github-banner.png)  
 #  ℹ️ Home page and projects.
-## 🛍️ The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, and other projects.
-## 🔗 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)
   
-## 🏷️ Tags:
+  
+🛍️ The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, and other projects.  
+  
+---
+  
+🔗 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)
+  
+---
+  
+🏷️ Tags:
 [#Website](https://github.com/topics/website?s=updated),
 [#Homepage](https://github.com/topics/homepage?s=updated),
 [#Personal](https://github.com/topics/website?s=updated),
@@ -17,7 +24,6 @@
 [#HTML](https://github.com/topics/html?s=updated),
 [#CSS](https://github.com/topics/css?s=updated),
 [#JavaScript](https://github.com/topics/javascript?s=updated),
-  
 [#Geany](https://github.com/topics/geany?s=updated),
 [#Firefox](https://github.com/topics/firefox?s=updated),
 [#Theme](https://github.com/topics/theme?s=updated),
