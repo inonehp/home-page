@@ -1,4 +1,4 @@
-// Main js v.6.0.5
+// Main js v.6.0.6
 // For settings, themes, ...
 
 // Settings v.1.0.0
@@ -349,7 +349,7 @@ fuMPrintText('footer', `
 
 
 <nav>
-<div class="small wrapper4 balance margin2List padding2List">
+<div class="capitalize wrapper4 balance margin2List padding2List">
 
 
 
