@@ -567,13 +567,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Pagination cpc\n\nPagination #CPC ",
-        "url": "\/archive\/projects\/26-pagination-cpc\/index.html",
-        "tag": " #pagination #CPC #JavaScript #project #UI #WebDesign",
-        "id": "e2e6ba9823a75b7515f028b8c9be6eec",
-        "time": "id"
-    },
-    {
         "text": "Personal one page website template flower auto light dark flat mini abc\n\nWebsite template description. ",
         "url": "\/templates-data\/17-personal-one-page-website-template-flower-auto-light-dark-flat-mini-abc\/index.html",
         "tag": " #WebDesign #template",
@@ -861,13 +854,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Sun cpc\n\nCSS picture of the sun, based on Codepen template for the contest. ",
-        "url": "\/archive\/mini-projects\/21-sun-cpc\/index.html",
-        "tag": " #sun #CPC #CSS #HTML #project",
-        "id": "a8f174320ca2db6b572db0e3be540898",
-        "time": "id"
-    },
-    {
         "text": "Synthetic textures cpc\n\nCSS effect of plastic or other textured text, based on Codepen template for the contest. ",
         "url": "\/archive\/mini-projects\/22-synthetic-textures-cpc\/index.html",
         "tag": " #texture #text #CPC #CSS #project",
@@ -882,9 +868,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Templates\n\nI create pages for practice. ",
+        "text": "Templates\n\nHTML templates. Website templates. (I create pages for practice). ",
         "url": "\/templates.html",
-        "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main",
+        "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
         "id": "8293cee293d869063587a57f991071fa",
         "time": "id"
     },
