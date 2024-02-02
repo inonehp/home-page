@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "227",
+        "text": "If it is not possible to place the elements in an orderly or centered manner, place them in a random order.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#note",
+        "time": 1706855711
+    },
+    {
         "id": "226",
         "text": "The order of the style files in the header matters. Latter files overwrite the properties of earlier ones.",
         "text2": "",
@@ -15,7 +24,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/twitter.com\/taylorswift13\/status\/1687102339931574272",
-        "tag": "#design",
+        "tag": "#nice #design",
         "time": 1706828047
     },
     {
