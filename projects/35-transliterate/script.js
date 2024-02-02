@@ -1,4 +1,4 @@
-// v.1.1.1
+// Transliterate function v.1.2.0
 
 function transliterate(text){
 count = 0;
@@ -85,7 +85,8 @@ var b = {
 text = ' ' + text + ' ';
 text = [...text];
 
-return text.map(function (char) {
+try{
+var textTest = text.map(function (char) {
 
 if(char== 'Ь' || char == 'ь'){ char = ''; }
 
@@ -109,7 +110,13 @@ return b[char] || char;
 
 }).join("");
 
-return (text).trim();
+textTest = textTest.trim();
+return textTest;
+
+} catch(error){
+console.log(error);
+}
+
 
 }
 
