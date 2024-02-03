@@ -1,4 +1,4 @@
-// Redirect v.1.5.3
+// Redirect v.1.5.4
 // The script redirects the search query + command to another location.
 
 // conf
@@ -422,6 +422,27 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
+"https://github.com/topics/" + q + "?s=updated",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+sRedirUrl = random;
+if(q == ''){
+urlList = [
+"https://github.com/explore",
+"https://gitlab.com/explore",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
+
+case 'gitt#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
 "https://github.com/search?q=" + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -437,6 +458,7 @@ url = urlList[random];
 }
 sRedirUrl = url;
 break;
+
 
 case 'y#':
 case '.#':
