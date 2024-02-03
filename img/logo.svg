@@ -323,12 +323,23 @@
       </feComponentTransfer>
     </filter>
   </defs>
+  <rect
+     style="display:none;fill:#f1e9dd;fill-opacity:1;stroke:#454545;stroke-width:1.12421;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect5130"
+     width="510.87579"
+     height="510.87579"
+     x="0.56210327"
+     y="0.56210327"
+     rx="0.43018699"
+     ry="0.43018699" />
+  <circle
+     style="display:inline;fill:#564176;fill-opacity:1;stroke:#454545;stroke-width:2.00395;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path4109"
+     cx="256"
+     cy="256"
+     r="254.99802" />
   <path
-     style="fill:#564176;fill-rule:evenodd;fill-opacity:1"
-     id="path53"
-     d="M 512,256.00313 A 256,256 0 0 1 255.99765,512 256,256 0 0 1 0,255.99844 256,256 0 0 1 256.00078,0 256,256 0 0 1 512,256 H 256 Z" />
-  <path
-     style="fill:#f1e9dd;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     style="display:inline;fill:#f1e9dd;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
      id="path126"
      d="M 476,256.00269 A 220,220 0 0 1 255.99798,476 220,220 0 0 1 36,255.99866 220,220 0 0 1 256.00067,36.000002 220,220 0 0 1 476,256 H 256 Z" />
   <rect
@@ -352,7 +363,7 @@
      d="m 426.56452,245.27443 c 27.49822,38.19902 -36.71382,47.93579 -69.11329,88.5001 -34.05088,42.6319 -37.87505,102.79877 -72.41824,85.44125 -33.4577,-16.81206 -65.54226,-118.09008 -27.70769,-167.09512 30.6519,-39.70174 141.89483,-30.08953 169.23831,-6.84697 l -83.48019,73.86778 z" />
   <g
      id="g87169"
-     style="fill:#386c84;fill-opacity:1"
+     style="display:inline;fill:#386c84;fill-opacity:1"
      transform="matrix(0.96037553,0,0,0.96037553,8.1227381,5.8942711)">
     <g
        id="g87161"
@@ -366,9 +377,9 @@
          y="0"><tspan
            x="108.98828"
            y="420.20692"
-           id="tspan1119"><tspan
+           id="tspan23748"><tspan
              style="text-align:justify"
-             id="tspan1117">inonehp</tspan></tspan></text>
+             id="tspan23746">inonehp</tspan></tspan></text>
       <rect
          style="fill:#386c84;fill-opacity:1;stroke-width:7.58995"
          id="rect42979"

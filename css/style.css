@@ -1,4 +1,4 @@
-/* v.1.8.1 */
+/* v.1.8.3 */
 
 
 
@@ -56,6 +56,13 @@ grid-template-columns: repeat(auto-fill, minmax(0, auto));
 margin: 0 auto;
 justify-content: center;
 align-items: center;
+}
+
+@media(max-width: 500px){
+.topNav nav {
+justify-content: left;
+align-items: left;
+}
 }
 
 .topNav nav a::first-letter {

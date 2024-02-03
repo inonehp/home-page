@@ -1,4 +1,4 @@
-// Main js v.6.0.7
+// Main js v.6.0.8
 // For settings, themes, ...
 
 // Settings v.1.0.0
@@ -140,8 +140,11 @@ document.getElementById(id).innerHTML = text;
 
 
 
-// Nav menu v.1.0.0
-// menu for static pages (for all)
+// Navigation v.1.0.0
+//<!-- This is a smart navigation that depends on the number of links with a counter by CSS class -->
+
+// This part nav is embedded on top of the original menu, for improvement.
+//<!-- This is a smart navigation that depends on the number of links with a counter by CSS class ->
 if(conf["confMenu"] == "random"){
 if(fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
 }
@@ -198,7 +201,7 @@ ${conf["confMenuItems"]}
 `;
 }
 }
-// end nav menu
+// end This part
 
 
 
@@ -230,8 +233,9 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 });
 }
 
-
+// Smart nav v.1.0.0
 // count links
+// smart part to activate dropdown button if many links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 if((countMenuItem.length / 2) >= 4){
 //if(document.getElementById("footer") != null){}
@@ -246,6 +250,7 @@ cssMedia = '@media(max-width: 800px)';
 cssMedia2 = '@media(min-width: 800px)';
 }
 
+// embed style
 document.getElementsByTagName("nav")[0].innerHTML += `
 
 <style>
@@ -279,7 +284,7 @@ display: none !important;
 
 
 }
-
+// end Nav
 //console.log(document.getElementsByTagName("header")[0]);
 
 

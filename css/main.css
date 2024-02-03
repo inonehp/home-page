@@ -1,4 +1,4 @@
-/* Main style v.12.14.1 */
+/* Main style v.12.14.2 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -29,7 +29,7 @@
 html, body, a, input, button, textarea, pre, code, select{
 font-family: Arial, Sans-Serif;
 font-style: normal;
-font-size: 14px;
+font-size: 13.4px; font-size: 0.95em; font-size: 14px;
 text-decoration:none;
 /*testme delme letter-spacing: 0.16px;*/
 /*hyphens: auto;*/
@@ -70,6 +70,7 @@ flex-shrink: 0;
 width: 100%;
 }
 header { margin: 0 auto; padding: 0; padding-top: 12px; }
+nav, nav a { font-size: 14.7px; }
 nav, footer { text-align: center; max-width: 100%; }
 nav a, nav button, .logo2 { vertical-align: middle; display: inline-block; padding: 5px; }
 nav button:hover { background: none;  }

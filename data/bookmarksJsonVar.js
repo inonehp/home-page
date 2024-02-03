@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "95",
+        "text": "Maskable.app Editor",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/maskable.app\/editor",
+        "tag": "#tools #icon",
+        "time": 1706985368
+    },
+    {
         "id": "94",
         "text": "Valentine's Day Card",
         "text2": "",

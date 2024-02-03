@@ -3,13 +3,13 @@
  */
 
 .calculator { border-radius: 7px; width: 100%; max-width: 290px; margin: 0 auto; }
-input, #calcResult{ font-size: 16px; display: block; text-align: right; padding: 7px !important; }
+.content input, #calcResult{ font-size: 16px; display: block; text-align: right; padding: 7px !important; }
 #calcResult { font-size: 14px; border-radius: 0 0 4px 4px; }
-input, input:focus { border-radius: 7px 7px 0 0;  text-align: right; border-bottom: 0; }
-form { margin: 5px 0;  }
+.content input, .content  input:focus { border-radius: 7px 7px 0 0;  text-align: right; border-bottom: 0; }
+.content  form { margin: 5px 0;  }
 
-input[type="text"]{ background: var(--l3); }
-input[type="text"]:hover { background: var(--l4); }
+.content  input[type="text"]{ background: var(--l3); }
+.content  input[type="text"]:hover { background: var(--l4); }
 
 .button {
 border-radius: 4px;
