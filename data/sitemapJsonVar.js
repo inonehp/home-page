@@ -553,9 +553,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Pages\n\nA list of some pages of the site. ",
+        "text": "Pages\n\nAll page. A list of some pages of the site. ",
         "url": "\/pages.html",
-        "tag": " #pages #list #lists #projects #menu #page #main",
+        "tag": " #all #pages #list #lists #projects #menu #page #main",
         "id": "5c3fd2be90ee6c4e4d4595632b38790f",
         "time": "id"
     },
