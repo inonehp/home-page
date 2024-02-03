@@ -33,21 +33,9 @@ border: 3px solid red;
 }
 
 
-.lEffect {
-animation: 0.5s linear 0s alternate aniName;
-}
 
-@keyframes aniName {
-  from {
-    /* pushes the sun down past the viewport */
-transform: translateY(50vh);
-background-color: lime;
-  }
-  to {
-    /* returns the sun to its default position */
-transform: translateY(0);
-background-color: lime;
-  }
+.lEffect {
+background: lime;
 }
 
 

@@ -287,10 +287,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Effect when scroll\n\nEffect when scroll to element. ",
-        "url": "\/projects\/48-effect-when-scroll\/index.html",
+        "text": "Effect when scroll to element\n\nEffect when scroll to element. ",
+        "url": "\/projects\/48-effect-when-scroll-to-element\/index.html",
         "tag": " #effect #scroll #JS #function #UI #UX #JavaScript #CSS #project",
-        "id": "89bd64739112cafc268b7b48d0102090",
+        "id": "c9443f207a4c7ab79e22db2a65b0628b",
         "time": "id"
     },
     {

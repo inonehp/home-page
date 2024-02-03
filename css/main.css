@@ -1,4 +1,4 @@
-/* Main style v.12.14.0 */
+/* Main style v.12.14.1 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -16,13 +16,13 @@
 --wrapperS: 230px;
 --wrapperXs: 160px;
 
---inputH: 45px;
+--inputHeight: 45px;
 --fontSize: 0.97em;
 
---itemH: 30px;
---itemH2: 45px;
---itemH3: auto;
---itemH4: 100dvh;
+--itemHeight: 30px;
+--itemHeight2: 45px;
+--itemHeight3: auto;
+--itemHeight4: 100dvh;
 /*m 500*/
 }
 
@@ -85,7 +85,7 @@ footer { padding-top: 15px; }
 
 input[type="text"], input[type="search"], textarea, input[type="submit"], form button, .submit{
 width: 100%;
-min-height:  var(--inputH);
+min-height:  var(--inputHeight);
 margin: 0px;
 margin-top: 1px;
 margin-bottom: 1px;
@@ -96,7 +96,7 @@ select, input[type="color"], input[type="date"], input[type="number"], input[typ
 margin-bottom: 1px;
 padding: 5px;
 min-height: 15px;
-min-height: var(--inputH);
+min-height: var(--inputHeight);
 /*display: inline-block;*/
 vertical-align: middle;
 }
@@ -463,7 +463,7 @@ html { scrollbar-width: thin; }
 input:focus{ outline: none }
 
 .logo2 { margin-right: 5px; }
-input[type="color"], form button { vertical-align: middle; max-height: 27.5px; max-height: var(--inputH); }
+input[type="color"], form button { vertical-align: middle; max-height: 27.5px; max-height: var(--inputHeight); }
 
 
 html{ overflow-x: hidden; } /* fix PWA  */

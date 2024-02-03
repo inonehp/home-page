@@ -1180,8 +1180,6 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 }
 
 
-
-
 }
 
 
