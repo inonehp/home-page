@@ -58,6 +58,9 @@ justify-content: center;
 align-items: center;
 }
 
+.topNav nav a::first-letter {
+font-size: 1em;
+}
 
 /* Dropdown menu for Nav v.1.0.0 */
 

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Localhost Search HTTPS",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "url https://localhost/?q= as Search engine",
   
 "icons": {
