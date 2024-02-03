@@ -2,17 +2,17 @@
   
 ![2 page with light and dark mode](/img/github-banner.png)  
 #  ℹ️ Home page and projects.
-  
-  
+👍 Interests: web design, web development, and coding.  
 🛍️ The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, and other projects.  
   
 ---
   
-🔗 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)
+### 🔗 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)
   
 ---
   
-🏷️ Tags:
+### 🏷️ Tags:
+GitHub explore: 
 [#Website](https://github.com/topics/website?s=updated),
 [#Homepage](https://github.com/topics/homepage?s=updated),
 [#Personal](https://github.com/topics/website?s=updated),
@@ -35,8 +35,8 @@
 > [!NOTE]
 > You can find information about other licenses on the "About" page.
   
-<!--### Screenshots:  
+### Screenshots:  
 
 ![light theme](/img/screenshot.png)
 ![dark theme](/img/screenshot2.png)
-![setting page with list of color themes](/img/screenshot3.png)-->
+![setting page with list of color themes](/img/screenshot3.png)

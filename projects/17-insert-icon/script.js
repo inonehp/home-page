@@ -170,6 +170,7 @@ let icons2 = [
 {"text":"online", "text2":"🔴"},
 {"text":"broadcast", "text2":"🔴"},
 {"text":"like", "text2":"👍"},
+{"text":"interests", "text2":"👍"},
 {"text":"love", "text2":"❤"},
 {"text":"fav", "text2":"❤"},
 {"text":"magazine", "text2":"📰"},

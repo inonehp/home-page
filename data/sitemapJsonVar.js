@@ -9,7 +9,7 @@ var sitemapJsonVar = [
     {
         "text": ".\n\nHomepage and projects. The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, and other projects. ",
         "url": "\/index.html",
-        "tag": " #website #WebDesign #project #projects #portfolio #WebDev #dev #HTML #CSS #JavaScript #Geany #theme #Firefox #page #main",
+        "tag": " #website #WebDesign #project #projects #portfolio #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #page #main",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
         "time": "id"
     },
@@ -175,9 +175,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Changelog\n\n ",
+        "text": "Changelog\n\nSite update history. ",
         "url": "\/changelog.html",
-        "tag": " #changelog",
+        "tag": " #update #page #main",
         "id": "5358dd68cd0d7e1d36bc7a96e2c64e47",
         "time": "id"
     },
