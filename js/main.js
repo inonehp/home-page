@@ -1,5 +1,5 @@
-// Main js v.6.0.8
-// For settings, themes, ...
+// Main js v.6.0.9
+// For navigation, themes, etc
 
 // Settings v.1.0.0
 var conf = [];
@@ -142,7 +142,9 @@ document.getElementById(id).innerHTML = text;
 
 // Navigation v.1.0.0
 //<!-- This is a smart navigation that depends on the number of links with a counter by CSS class -->
+//<!-- It consists of three parts: 1. HTML code, 2. JS in main.js, 3. CSS version with noscript in noscript.css (style activation in the header). -->
 
+//<!-- nav HTML part -->
 // This part nav is embedded on top of the original menu, for improvement.
 //<!-- This is a smart navigation that depends on the number of links with a counter by CSS class ->
 if(conf["confMenu"] == "random"){
@@ -206,9 +208,9 @@ ${conf["confMenuItems"]}
 
 
 
-
+// JS part
 // Dropdown menu  v.1.3.0
-// if js off (CSS version in noscript.css)
+// if JS off (CSS version in noscript.css)
 //https://www.w3schools.com/howto/howto_js_dropdown.asp
 // menu click
 function dropdownMenuFunction() {
@@ -286,8 +288,7 @@ display: none !important;
 }
 // end Nav
 //console.log(document.getElementsByTagName("header")[0]);
-
-
+// end JS part
 
 
 

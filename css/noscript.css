@@ -103,6 +103,7 @@ background-attachment: fixed;
 }
 
 
+/* Navigation only CSS part */
 /* Dropdown menu for Nav (if JS off) v.1.1.0 */
 
 @media(max-width: 800px){
@@ -139,7 +140,7 @@ top: 0;
 .menu a { justify-content: center; text-align: center; }
 
 /* end Dropdown */
-
+/* end Navigation */
 
 
 
