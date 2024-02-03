@@ -1,4 +1,4 @@
-// v.1.2.1
+// v.1.2.2
 // Cookie Consent Popups
 // if "not selected": popup
 
@@ -22,7 +22,7 @@ fuMPrintText('cookiePopup', `
 <style>
 #cookiePopup {
 position: fixed;
-bottom: 10vh;
+bottom: 15px;
 left: 0;
 right: 0;
 display: none;
