@@ -184,7 +184,7 @@ var sitemapJsonVar = [
     {
         "text": "Chrome extensions list\n\nChrome browser extension: hotkeys to a website, your website in a new tab, and more. ",
         "url": "\/chrome-extensions-list.html",
-        "tag": " #Chrome_extension #hotkeys #new_tab #chrome #extension #list #projects #page #main",
+        "tag": " #hotkeys #new #tab #newtab #chrome #extension #list #projects #page #main",
         "id": "9718546b9d4f22fadc4c1bb0a4643f94",
         "time": "id"
     },
@@ -291,13 +291,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/48-effect-when-scroll\/index.html",
         "tag": " #effect #scroll #JS #function #UI #UX #JavaScript #CSS #project",
         "id": "89bd64739112cafc268b7b48d0102090",
-        "time": "id"
-    },
-    {
-        "text": "Firefox badge count up timer extension\n\nempty description. ",
-        "url": "\/firefox-extensions\/4-firefox-badge-count-up-timer-extension\/index.html",
-        "tag": " #empty_keywords",
-        "id": "96bc62fff30ba983901a4e986d23498a",
         "time": "id"
     },
     {
@@ -989,7 +982,7 @@ var sitemapJsonVar = [
     {
         "text": "Tv\n\nA tiny collection of TV channels online, is chosen randomly. Players from other platforms are used. ",
         "url": "\/projects\/36-tv\/index.html",
-        "tag": " #tv #random #collection #JavaScript #project",
+        "tag": " #tv #random #collection #news #technology #JavaScript #embed #page #project",
         "id": "b119afd8736b97a772b10bd543c06493",
         "time": "id"
     },
@@ -1003,7 +996,7 @@ var sitemapJsonVar = [
     {
         "text": "Video\n\nA small collection video, shown randomly. ",
         "url": "\/projects\/18-video\/index.html",
-        "tag": " #video #random #collection #JavaScript #project",
+        "tag": " #video #random #collection #movie #cartoon #JavaScript #embed #page #project",
         "id": "1ba78c2bf06f2d65e2f5edd927b6e0ac",
         "time": "id"
     },

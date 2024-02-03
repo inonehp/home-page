@@ -1,6 +1,24 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "94",
+        "text": "Valentine's Day Card",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/valentine.mewtru.com\/",
+        "tag": "#website #nice",
+        "time": 1706941497
+    },
+    {
+        "id": "93",
+        "text": "Create Next App",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.mewtru.com\/",
+        "tag": "#website #nice",
+        "time": 1706941452
+    },
+    {
         "id": "92",
         "text": "Midjourney",
         "text2": "",
