@@ -49,9 +49,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "About\n\nAbout the site, links, license, contacts. ",
+        "text": "About\n\nAbout the site, profiles, license, contacts. ",
         "url": "\/about.html",
-        "tag": " #about #contact #donate #support #page #main",
+        "tag": " #about #contact #donate #profile #support #page #main",
         "id": "fb8a140d6f076647256a4ea161f4c280",
         "time": "id"
     },
@@ -63,9 +63,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Ads\n\nLinks and ads. ",
+        "text": "Ads\n\nad, ads, ",
         "url": "\/ads.html",
-        "tag": " #ad #ads #links #page #main",
+        "tag": " #ad #ads #page #main",
         "id": "88ac0d7efcaec004a38b73ca1695bcee",
         "time": "id"
     },
@@ -147,9 +147,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Blog\n\nThis is a rewritten project from another language where I save web links. This is the JavaScript version and has everything but no option for saving or editing. ",
+        "text": "Blog\n\nJavaScript blog. ",
         "url": "\/projects\/1-blog\/index.html",
-        "tag": " #blog #post #project",
+        "tag": " #blog #post #JavaScript #page #project",
         "id": "f5718cda6758e74ead9be6e9ab866403",
         "time": "id"
     },

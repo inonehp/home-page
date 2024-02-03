@@ -96,7 +96,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/github.com\/collections\/learn-to-code",
-        "tag": "#links #collection",
+        "tag": "#resources #collection",
         "time": 1706264290
     },
     {
@@ -195,7 +195,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/markodenic.com\/free-web-development-resources\/",
-        "tag": "#links #collection",
+        "tag": "#resources #collection",
         "time": 1706102889
     },
     {
@@ -348,7 +348,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/neocities.org\/tutorials",
-        "tag": "#links #collection",
+        "tag": "#resources #collection",
         "time": 1705964528
     },
     {

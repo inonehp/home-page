@@ -1016,6 +1016,13 @@ var radioJsonVar =
         "tag": "#radio #ro"
     },
     {
+        "text": "Radio Vaticana Italia, 105.0 FM, Vatican, Vatican City | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Vaticana-Italia-1050-s1545\/",
+        "tag": "#radio #religion"
+    },
+    {
         "text": "Radio X",
         "text2": "http:\/\/mp3.radiox.ch\/standard.mp3",
         "text3": "mp3",
