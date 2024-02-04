@@ -14,7 +14,7 @@ conf["confMenuItems"] = `
 
 <a class="countMenuItem brand" href="/main-list.html" title="Main">Main</a><br>
 <a class="countMenuItem brand" href="/all-projects.html" title="All projects">Projects</a><br>
-<a class="countMenuItem brand" href="../" title="../">Up</a><br>
+<a id="mNavUp" class="countMenuItem brand" href="../" title="../">Up</a><br>
 <!--<a class="brand" href="javascript:history.back()">Back</a>-->
 
 `;
@@ -114,7 +114,9 @@ if(conf["confDomainNameInTitle"] == 'on'){
 // name to titile
 var domainNameToTitle = (location.hostname).split('.');
 domainNameToTitle = domainNameToTitle[0];
+if(document.getElementsByTagName('title')[0] != null){
 document.getElementsByTagName('title')[0].innerHTML += ' | ' + domainNameToTitle;
+}
 }
 
 // css color fix if save page

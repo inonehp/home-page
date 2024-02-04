@@ -43,6 +43,7 @@ install, install website, PWA, WebApp, app, page, main,
 </noscript>
 <!-- end main -->
 
+<link rel="preload" href="/js/script.js" as="script"> 
 
 
 </head>
@@ -63,7 +64,7 @@ install, install website, PWA, WebApp, app, page, main,
 <div class="menuTop">
 <a class="countMenuItem brand" href="main-list.html">Main</a><br>
 <a class="countMenuItem brand" href="all-projects.html">Projects</a><br>
-<a class="countMenuItem brand" href="../">Up</a><br>
+<a id="mNavUp" class="countMenuItem brand" href="../">Up</a><br>
 </div>
 <!-- end menuTop -->
 
@@ -337,6 +338,7 @@ Generated using a PHP function: website dir to PWA in <a class="blue" href="/oth
 <span id="embedScript"></span>
 <script src="/js/main.js"></script>
 
+<script async src="/js/script.js"></script>
 
 <!--
 <script src="/data/adsJsonVar.js"></script>

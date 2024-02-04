@@ -3252,7 +3252,7 @@ var musicJsonVar =
         "text": "Cherry Pickin \u00b7 Kate Nash",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=0hI4yCcu8SI",
+        "url": "https:\/\/www.youtube.com\/watch?v=JNxOXlPAklE",
         "tag": "#music"
     },
     {

@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.1.1
 // inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
 
 
@@ -44,7 +44,7 @@ const grid = `
 <div class="calculator shadow padding2 bg">
 
 <form>
-<input type="text" autofocus="autofocus">
+<input id="lCalcInput" type="text" autofocus="autofocus">
 <div id="calcResult" class="block padding2 bg border">result</div>
 </form>
 
@@ -104,7 +104,10 @@ function clickInput(value){
 fuCalc(value, 'emptyCommand');
 }
 
-document.querySelectorAll('input')[0].addEventListener('input', updateValue);
+if(document.getElementById("lCalcInput") != null){
+//document.querySelectorAll('input')[0].addEventListener('input', updateValue);
+document.getElementById("lCalcInput").addEventListener('input', updateValue);
+}
 
 // input 2 (form input)
 function updateValue(e) {
@@ -134,8 +137,16 @@ if(lInput[0][lInput[0].length - 1] == '='){ lInput[0] = lInput[0].slice(0, -1); 
 if(lInput[0][lInput[0].length - 1] == 'C'){ lInput[0] = ''; }
 
 // print input
-document.querySelectorAll('input')[0].value = lInput[0];
-if(conf["confDevice"] != 'mobile'){ document.querySelectorAll('input')[0].focus(); }
+if(document.getElementById("lCalcInput") != null){
+//document.querySelectorAll('input')[0].value = lInput[0];
+document.getElementById("lCalcInput").value = lInput[0];
+}
+if(conf["confDevice"] != 'mobile'){
+//document.querySelectorAll('input')[0].focus();
+if(document.getElementById("lCaclInput") != null){
+document.getElementById("lCaclInput").focus();
+}
+}
 
 
 

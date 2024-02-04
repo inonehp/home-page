@@ -44,6 +44,7 @@ page, main,">
 </noscript>
 <!-- end main -->
 
+<link rel="preload" href="/js/script.js" as="script"> 
 
 
 <link rel="preload" href="/img/header-banner.png" as="image">
@@ -68,7 +69,7 @@ page, main,">
 <div class="menuTop">
 <a class="countMenuItem brand" href="main-list.html">Main</a><br>
 <a class="countMenuItem brand" href="all-projects.html">Projects</a><br>
-<a class="countMenuItem brand" href="../">Up</a><br>
+<a id="mNavUp" class="countMenuItem brand" href="../">Up</a><br>
 </div>
 <!-- end menuTop -->
 
@@ -410,6 +411,7 @@ document.getElementById("hotLinks").innerHTML = a;
 <span id="embedScript"></span>
 <script src="/js/main.js"></script>
 
+<script async src="/js/script.js"></script>
 
 <!--
 <script src="/data/adsJsonVar.js"></script>
