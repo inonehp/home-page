@@ -16773,6 +16773,20 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Violent Femmes - Blister In The Sun (Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=G89chAA4l8s",
+        "tag": "#music"
+    },
+    {
+        "text": "Violent Femmes - Gone Daddy Gone - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=oHMJE0rcb8M",
+        "tag": "#music"
+    },
+    {
         "text": "Violently Happy \u00b7 Bj\u00f6rk",
         "text2": "",
         "text3": "",

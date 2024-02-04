@@ -323,14 +323,18 @@
       </feComponentTransfer>
     </filter>
   </defs>
-  <path
-     style="fill:#564176;fill-rule:evenodd;fill-opacity:1"
-     id="path53"
-     d="M 512,256.00313 A 256,256 0 0 1 255.99765,512 256,256 0 0 1 0,255.99844 256,256 0 0 1 256.00078,0 256,256 0 0 1 512,256 H 256 Z" />
-  <path
-     style="fill:#f1e9dd;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
-     id="path126"
-     d="M 476,256.00269 A 220,220 0 0 1 255.99798,476 220,220 0 0 1 36,255.99866 220,220 0 0 1 256.00067,36.000002 220,220 0 0 1 476,256 H 256 Z" />
+  <circle
+     style="fill:#564176;fill-opacity:1;stroke:none;stroke-width:0"
+     id="path8348"
+     cx="256"
+     cy="256"
+     r="256" />
+  <circle
+     style="fill:#f1e9dd;fill-opacity:1;stroke:none;stroke-width:0"
+     id="path4637"
+     cx="256"
+     cy="256"
+     r="220" />
   <rect
      style="display:none;fill:#ffffff;stroke-width:1.28268;paint-order:markers fill stroke"
      id="rect1346"
@@ -367,7 +371,7 @@
          y="0"><tspan
            x="108.98828"
            y="420.20692"
-           id="tspan1124">Your Name</tspan></text>
+           id="tspan1108">Your Name</tspan></text>
     </g>
   </g>
 </svg>

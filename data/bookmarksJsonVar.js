@@ -1,6 +1,42 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "99",
+        "text": "Deezer | Listen to music | Online music streaming platform",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.deezer.com\/us\/",
+        "tag": "#music #platform",
+        "time": 1707015128
+    },
+    {
+        "id": "98",
+        "text": "Portfolio",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.webchef.dev\/",
+        "tag": "#website #dev #nice",
+        "time": 1707014864
+    },
+    {
+        "id": "97",
+        "text": "Work | AM Design Studio",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.elsaamri.com\/work",
+        "tag": "#website #dev #nice",
+        "time": 1706993515
+    },
+    {
+        "id": "96",
+        "text": "Slowww",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/slowww.space\/",
+        "tag": "#website #nice",
+        "time": 1706993067
+    },
+    {
         "id": "95",
         "text": "Maskable.app Editor",
         "text2": "",

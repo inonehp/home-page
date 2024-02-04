@@ -1,4 +1,4 @@
-// Main js v.6.0.10
+// Main js v.6.0.11
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -159,7 +159,7 @@ if(document.getElementsByTagName("header")[0] != null){
 document.getElementsByTagName("header")[0].innerHTML = `
 
 <!-- Nav v.1.0.0 -->
-<div class="wrapper3 topNav capitalize tLeft">
+<div class="wrapper3 topNav tLeft">
 <nav>
 
 <a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
@@ -327,7 +327,7 @@ fDescTagsLimitCounter++;
 });
 
 fDescTags = `
-<br><b class="block padding2List small">Tags (keywords):</b><div class="tagList small left">` + fDescTags + ' ...</div>';
+<br><b class="block padding2List small">Tags (keywords):</b><div class="tagList small left">` + fDescTags + '</div>';
 }
 
 if(document.getElementsByName("description")[0] != null){
@@ -335,7 +335,7 @@ fDescLength = document.getElementsByName("description")[0].content.length;
 fDesc = `<b class="block padding2List small">Description or summary:</b>` + document.getElementsByName("description")[0].content + fDescTags;
 
 if(fDescLength > 160){
-fDescTitle = `<span class="inlineBlock borderBottomRed xSmall">description: ${fDescLength} of 160</span>`;
+fDescTitle = `<span class="inlineBlock borderBottomRed xSmall">escription: ${fDescLength} of 160</span>`;
 }else if(fDescLength < 25){
 fDescTitle = `<span class="inlineBlock borderBottomOrange xSmall">description: <span class="xSmall">${fDescLength} of 160</span>`;
 }else{
@@ -355,7 +355,7 @@ fuMPrintText('footer', `
 
 
 <nav>
-<div class="wrapper4 balance margin2List padding2List">
+<div class="wrapper4 balance margin2List padding2List capitalize">
 
 
 
@@ -408,6 +408,10 @@ document.getElementById(id).scrollIntoView();
 }
 }
 // end footer
+
+
+
+
 
 // Device 1.0.0
 conf["confDevice"] = 'none';

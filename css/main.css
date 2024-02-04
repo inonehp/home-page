@@ -1,4 +1,4 @@
-/* Main style v.12.14.2 */
+/* Main style v.12.14.4 */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
@@ -272,9 +272,9 @@ right: 0;
 .itemHeight3 { min-height: var(--itemHeight3); }
 .itemHeight4 { min-height: var(--itemHeight4); }
 
-.capitalize { text-transform: capitalize; }
-.uppercase { text-transform: uppercase; }
-.lowercase { text-transform: lowercase; }
+.capitalize::first-letter, .capitalize a::first-letter { text-transform: capitalize; }
+.uppercase, .uppercase a { text-transform: uppercase; }
+.lowercase, .lowercase a { text-transform: lowercase; }
 
 .notAllow { cursor: not-allowed; }
 .pointer, .click { cursor: pointer; }

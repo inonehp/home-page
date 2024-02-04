@@ -338,10 +338,6 @@
      cx="256"
      cy="256"
      r="254.99802" />
-  <path
-     style="display:inline;fill:#f1e9dd;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
-     id="path126"
-     d="M 476,256.00269 A 220,220 0 0 1 255.99798,476 220,220 0 0 1 36,255.99866 220,220 0 0 1 256.00067,36.000002 220,220 0 0 1 476,256 H 256 Z" />
   <rect
      style="display:none;fill:#ffffff;stroke-width:1.28268;paint-order:markers fill stroke"
      id="rect1346"
@@ -349,6 +345,12 @@
      height="512"
      x="0"
      y="0" />
+  <circle
+     style="fill:#f1e9dd;fill-opacity:1;stroke-width:0"
+     id="path4151"
+     cx="256"
+     cy="256"
+     r="220" />
   <path
      style="display:inline;fill:#456eac;fill-opacity:1"
      id="path439"
@@ -377,9 +379,9 @@
          y="0"><tspan
            x="108.98828"
            y="420.20692"
-           id="tspan23748"><tspan
+           id="tspan4733"><tspan
              style="text-align:justify"
-             id="tspan23746">inonehp</tspan></tspan></text>
+             id="tspan4731">inonehp</tspan></tspan></text>
       <rect
          style="fill:#386c84;fill-opacity:1;stroke-width:7.58995"
          id="rect42979"

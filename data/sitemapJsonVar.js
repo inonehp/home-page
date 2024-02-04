@@ -56,13 +56,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "About blank\n\nRedirect page to about:blank. ",
-        "url": "\/mini-projects\/1-about-blank\/index.html",
-        "tag": " #JavaScript #project",
-        "id": "e8c7b01c07727b7899484fbe11fe34fd",
-        "time": "id"
-    },
-    {
         "text": "Ads\n\nad, ads, ",
         "url": "\/ads.html",
         "tag": " #ad #ads #page #main",
@@ -130,6 +123,13 @@ var sitemapJsonVar = [
         "url": "\/archive\/projects\/7-balloon\/index.html",
         "tag": " #dropping._balls #JavaScript #project",
         "id": "bdf90850d572b50ab8ffba5f8dd59f27",
+        "time": "id"
+    },
+    {
+        "text": "Blank page\n\nRedirect blank page. ",
+        "url": "\/mini-projects\/1-blank-page\/index.html",
+        "tag": " #JavaScript #project",
+        "id": "7fa604a0c1f3c25a9a2a983ec2a49910",
         "time": "id"
     },
     {
