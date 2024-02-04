@@ -27,7 +27,7 @@
 }
 
 html, body, a, input, button, textarea, pre, code, select{
-font-family: Arial, Sans-Serif;
+font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 font-style: normal;
 font-size: 13.4px; font-size: 0.95em; font-size: 14px;
 text-decoration:none;
@@ -385,7 +385,7 @@ input, progress, select { accent-color: var(--d4);  }
 .indigo:hover { color: var(--indigo2); }
 .violet { color: var(--violet); } .violet2 { color: var(--violet2); }
 .violet:hover { color: var(--violet2); }
-.active, .gray, .grey { color: var(--c); filter: grayscale(76%); }
+.active, .gray, .grey { color: var(--c); }
 :root{ --gray: var(--c); --grey: var(--c); }
 .active:hover, .gray:hover, .grey:hover { color: var(--c4); filter: grayscale(0%); }
 

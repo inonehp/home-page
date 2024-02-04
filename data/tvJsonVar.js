@@ -43,6 +43,13 @@ var tvJsonVar =
         "tag": "#tv #en #news"
     },
     {
+        "text": "CSS-Tricks - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@realcsstricks",
+        "tag": "#tv #dev"
+    },
+    {
         "text": "Discovery - YouTube",
         "text2": "",
         "text3": "",

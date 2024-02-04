@@ -337,11 +337,11 @@ fDescLength = document.getElementsByName("description")[0].content.length;
 fDesc = `<b class="block padding2List small">Description or summary:</b>` + document.getElementsByName("description")[0].content + fDescTags;
 
 if(fDescLength > 160){
-fDescTitle = `<span class="inlineBlock borderBottomRed xSmall">escription: ${fDescLength} of 160</span>`;
+fDescTitle = `<span class="inlineBlock borderBottomRed xSmall">Description: ${fDescLength} of 160</span>`;
 }else if(fDescLength < 25){
-fDescTitle = `<span class="inlineBlock borderBottomOrange xSmall">description: <span class="xSmall">${fDescLength} of 160</span>`;
+fDescTitle = `<span class="inlineBlock borderBottomOrange xSmall">Description: <span class="xSmall">${fDescLength} of 160</span>`;
 }else{
-fDescTitle = `<span class="inlineBlock xSmall">description: <span class="xSmall">${fDescLength} of 160</span>`;
+fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall">${fDescLength} of 160</span>`;
 }
 }
 
