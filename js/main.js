@@ -1,4 +1,4 @@
-// Main js v.6.0.11
+// Main js v.6.0.12
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -70,7 +70,7 @@ This is necessary to improve the site.
 },
 {
 "confTitle":"Hide link extensions",
-"confDescription":"Hides extensions in links. Example: /blog.html to /blog",
+"confDescription":"Hides extensions in links. Example: /blog.html to /blog. This is to make the PWA (Website as an App) work.",
 "confName":"confHideLinkExt",
 "confValueDefault":"off",
 "confValueVariant":["on", "off"],
