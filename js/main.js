@@ -1,4 +1,4 @@
-// Main js v.6.0.12
+// Main js v.6.0.14
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -14,7 +14,7 @@ conf["confMenuItems"] = `
 
 <a class="countMenuItem brand" href="/main-list.html" title="Main">Main</a><br>
 <a class="countMenuItem brand" href="/all-projects.html" title="All projects">Projects</a><br>
-<a id="mNavUp" class="countMenuItem brand" href="../" title="../">Up</a><br>
+<a class="mClassNavUp countMenuItem brand" href="../" title="../">Up</a><br>
 <!--<a class="brand" href="javascript:history.back()">Back</a>-->
 
 `;
