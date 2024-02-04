@@ -63,6 +63,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "All projects\n\nAll projects. A list of some pages of the site. ",
+        "url": "\/all-projects.html",
+        "tag": " #all #list #lists #projects #menu #page #main",
+        "id": "3d5cdbed2ba3c01c58c2f8c0ab910a38",
+        "time": "id"
+    },
+    {
         "text": "Angled\n\nThe page is filled with triangles generated using JavaScript and CSS. ",
         "url": "\/archive\/projects\/3-angled\/index.html",
         "tag": " #triangles #triangle #JavaScript #project",

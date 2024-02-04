@@ -13,7 +13,7 @@ conf["confIdEmbedScript"] = "footer";
 conf["confMenuItems"] = `
 
 <a class="countMenuItem brand" href="/main-list.html" title="Main">Main</a><br>
-<a class="countMenuItem brand" href="/pages.html" title="Pages">All</a><br>
+<a class="countMenuItem brand" href="/all-projects.html" title="All projects">Projects</a><br>
 <a class="countMenuItem brand" href="../" title="../">Up</a><br>
 <!--<a class="brand" href="javascript:history.back()">Back</a>-->
 
