@@ -13,7 +13,7 @@ conf["confIdEmbedScript"] = "footer";
 conf["confMenuItems"] = `
 
 <a class="countMenuItem brand" href="/main-list.html" title="Main">Main</a><br>
-<a class="countMenuItem brand" href="/all-projects.html" title="All projects">All projects</a><br>
+<a class="countMenuItem brand" href="/all-projects.html" title="All projects">All Projects</a><br>
 <a class="mClassNavUp countMenuItem brand" href="../" title="../">UP</a><br>
 <!--<a class="brand" href="javascript:history.back()">Back</a>-->
 
@@ -1070,10 +1070,21 @@ background-attachment: fixed;
 </style>
 `, 'plus');
 }
+
+
+
 }
 }
 // end bg image
 
+
+if(conf["confThemeEmbed"] == 'dark'){
+fuMPrintText('style', `
+<style>
+.reduceLight { filter: brightness(70%); }
+</style>
+`, 'plus');
+}
 
 // insert icons
 

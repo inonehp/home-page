@@ -143,7 +143,9 @@ top: 0;
 /* end Navigation */
 
 
-
+@media (prefers-color-scheme: dark) {
+.reduceLight { filter: brightness(70%); }
+}
 
 
 

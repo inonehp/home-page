@@ -1,8 +1,8 @@
 var sitemapJsonVar = [
     {
-        "text": "\n\n404 The page that appears when something is not found.\nPage or file: moved, deleted ... ",
+        "text": "\n\n404 Not Found. The page that appears when something is not found.\nPage or file: moved, deleted ... ",
         "url": "\/404.html",
-        "tag": " #404 #not_found #page #main",
+        "tag": " #404 #NotFound #page #main",
         "id": "aa8eb2fe477b2d36ecc0f14d6422513f",
         "time": "id"
     },
