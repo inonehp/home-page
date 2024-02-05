@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.0.2
 
 var result = [];
 
@@ -50,7 +50,7 @@ function printWeather(){
 result[0] += `
 
 <div class="block op margin2 apiMsg">
-API:<br>
+api:<br>
 <a href="https://open-meteo.com/">open-meteo.com</a>,
 <a href="https://ipapi.co/">ipapi.co</a>
 </div>
@@ -66,8 +66,8 @@ async function logJSONData() {
   const jsonData = await response.json();
 
 //console.log(jsonData);
-if(logJSONData != ""){ result[0] += '<h1>'+jsonData['current_weather']['temperature']+'°C, '+jsonData['current_weather']['windspeed']+'Km/h </h1>'+`
-<b><!--${jsonData['current_weather']['weathercode']} -->${weatherCode[jsonData['current_weather']['weathercode']]}</b>
+if(logJSONData != ""){ result[0] += '<div class="border padding2 shadow bg2 borderRadius3"><h2>'+jsonData['current_weather']['temperature']+'°C, '+jsonData['current_weather']['windspeed']+'Km/h </h2>'+`
+<b><!--${jsonData['current_weather']['weathercode']} -->${weatherCode[jsonData['current_weather']['weathercode']]}</b><div class="padding2 margin2"></div></div>
 `; printWeather(jsonData); }
 }
 logJSONData();

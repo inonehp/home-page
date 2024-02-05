@@ -51,6 +51,42 @@ page, main,">
 <link rel="canonical" href="https://inonehp.pages.dev">
 <!--<link rel="manifest" href="manifest.webmanifest">-->
 
+<style>
+.username {
+position: relative;
+text-transform: uppercase;
+width: 100%;
+min-width: 120px;
+transform: rotate(0deg);
+}
+
+.username::after {
+content: "HTML5 + CSS3 = PHP8";
+text-alight: right;
+font-size: xx-small;
+color: var(--c);
+display: block;
+position: absolute;
+background: var(--bg);
+width: 100%;
+text-align: center;
+height: 50%;
+left: 0;
+bottom: 0;
+}
+
+.headerBannerImg {
+padding-top: 10px;
+display: block;
+margin: 0 auto;
+max-height: 120px;
+margin: -30px auto;
+position: relative;
+z-index: -1;
+}
+
+</style>
+
 </head>
 <body>
 
@@ -126,10 +162,9 @@ page, main,">
 <div class="block padding2List"></div>
 
 <div class="block paddingList">
+<div class="block paddingList">
 <h1 class="h1 op inlineFlex zero padding">
-<span class="small zero center">∷&nbsp;</span>
-<span class="username" id="mUsername">inonehp</span>
-<span class="small zero center">&nbsp;∷</span>
+<span class="username">inonehp</span>
 </h1>
 <div class="padding">
 <span class="xxSmall padding">Status: </span>
@@ -238,35 +273,6 @@ return a;
 
 
 <style>
-.username {
-position: relative;
-text-transform: uppercase;
-}
-.username::after, .username::before {
-position: relative;
-content: '';
-display: block;
-position: absolute;
-bottom: 30%;
-left: 0;
-width: 105%;
-height: 5%;
-background: var(--bg);
-}
-.username::before {
-top: 30%;
-}
-
-.headerBannerImg {
-padding-top: 10px;
-display: block;
-margin: 0 auto;
-max-height: 120px;
-margin: -30px auto;
-position: relative;
-z-index: -1;
-}
-
 
 
 .hotLinks {
