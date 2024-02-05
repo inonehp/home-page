@@ -52,7 +52,7 @@ page, main,">
 <!--<link rel="manifest" href="manifest.webmanifest">-->
 
 <style>
-.username {
+.siteName {
 position: relative;
 text-transform: uppercase;
 width: 100%;
@@ -60,7 +60,7 @@ min-width: 120px;
 transform: rotate(0deg);
 }
 
-.username::after {
+.siteName::after {
 content: "HTML5 + CSS3 = PHP8";
 text-alight: right;
 font-size: xx-small;
@@ -159,16 +159,15 @@ z-index: -1;
 
 <img class="headerBannerImg" src="/img/header-banner.png" alt="header banner" style="max-height: 120px;">
 <a href="#"><img class="logo darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 60px;"></a>
+
 <div class="block padding2List"></div>
 
-<div class="block paddingList">
-<div class="block paddingList">
+<div>
 <h1 class="h1 op inlineFlex zero padding">
-<span class="username">inonehp</span>
+<span id="siteName" class="siteName">inonehp</span>
 </h1>
-<div class="padding">
-<span class="xxSmall padding">Status: </span>
-<span class="pre tLeft small">Winter.</span> 
+<div class="tRight">
+
 
 <details class="small">
 <summary class="op wrapperS padding2List pointer">
@@ -184,9 +183,6 @@ Fixed templates (footer).
 
 
 </div>
-</div>
-
-
 
 <div id="hotLinksTop" class="scrollX tCenter small noscriptHide">
 <span id="urlDayNow"></span>
@@ -249,7 +245,7 @@ return a;
 <div id="form" class="wrapper noscriptHide">
 <form method="GET" style="margin-top: 0px;" action="/projects/25-redirects/" autocomplete="off" role="search">
 
-<label id="search" class="op tLeft xSmall"><span class="bold orange">✪</span> Web search (redirect, random):</label>
+<label id="search" class="block op tLeft xSmall"><span class="bold orange">✪</span> Web search (redirect, random):</label>
 <input class="padding2" aria-labelledby="search" type="search"  name="q" autofocus="autofocus"  placeholder="" autocomplete="off">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
@@ -521,7 +517,35 @@ window.location.href = "/projects/25-redirects/?q=" + q;
 </script>
 
 
+<script>
+if(document.getElementById("siteName") != null){
+const lColors = ["brand", "red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 
+let lRandColor = getRandomInt(lColors.length);
+lRandColor = lColors[lRandColor];
+
+let lRandColor2 = getRandomInt(lColors.length);
+lRandColor2 = lColors[lRandColor2];
+
+var element = document.getElementById("siteName");
+var element = document.getElementById("siteShortText");
+//element.classList.add(lRancColor);
+
+let lRandTone = fuMRandom(50, 100);
+lRandColor = "color-mix(in srgb, var(--" + lRandColor + ") " + lRandTone + "%, transparent)";
+lRandColor2 = "color-mix(in srgb, var(--" + lRandColor2 + ") " + lRandTone + "%, transparent)";
+
+var styleElem = document.head.appendChild(document.createElement("style"));
+styleElem.innerHTML = `
+#siteName { color: ` + lRandColor + `; }
+#siteName::after  { color: ` + lRandColor2 + `; }
+`;
+
+}
+</script>
 
 
 
