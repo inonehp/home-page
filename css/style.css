@@ -1,10 +1,9 @@
-/* v.1.8.3 */
+/* v.1.9.0 */
 
 
 
 nav form, nav input[type=search] { display: inline-block; }
-nav form { width: 100%; max-width: 130px; margin: 5px; margin-left: 10px; vertical-align: middle; }
-@media(max-width: 300px) { nav form { margin: 0; margin-top: 5px; } }
+nav form { width: 100%; max-width: 130px; vertical-align: middle; }
 nav input[type=search] { padding: 5px 9px; min-height: 10px; }
 nav form ::placeholder { font-size: x-small; }
 
@@ -114,6 +113,7 @@ grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 #dropdownMenuButton { padding: 0; }
 .dropdownMenuContent { margin-top: 9px;  }
 
+.menuTop { margin-right: 10px; }
 /* end Deropdown menu */
 
 

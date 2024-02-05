@@ -121,8 +121,8 @@ z-index: -1;
 <a class="countMenuItem brand" href="main-list.html">Main</a><br>
 <a class="countMenuItem brand" href="all-projects.html">All Projects</a><br>
 <a class="countMenuItem brand" href="../">Up</a><br>
-<!-- //menu dublicate -->
 
+<!-- //menu dublicate -->
 </div>
 </div>
 </div>
@@ -138,7 +138,7 @@ z-index: -1;
  </nav>
 </header>
 <!-- end nav -->
-<!-- Note: The duplicated version of the HTML part navigation in main.js overwrites this version to improve where the navigation is bad, so you may not see the changes here. (need edit in 2 places or disable in config). -->
+<!-- Note: The duplicated version in main.js overwrites this version. -->
 
 
 <!--<hr>-->
@@ -161,7 +161,7 @@ z-index: -1;
 
 <div class="block padding2List"></div>
 
-<div>
+
 <h1 id="siteName" class="zero siteName">inonehp</h1>
 <div class="tRight">
 
@@ -171,7 +171,7 @@ z-index: -1;
 <span class="xSmall padding2List">updated: <span id="last-update"></span></span>
 </summary>
 <div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">
-Fixed templates (footer).
+Attempt to fix  a menu.
 
 <a class="brand tag2 block tCenter border light borderRadius2" href="/changelog.html" title="Update Log">more</a></div>
 </details>
@@ -240,7 +240,7 @@ return a;
 </script>
 
 
-<div id="form" class="wrapper noscriptHide">
+<div id="form" class="noscriptHide">
 <form method="GET" style="margin-top: 0px;" action="/projects/25-redirects/" autocomplete="off" role="search">
 
 <label id="search" class="block op tLeft xSmall"><span class="bold orange">✪</span> Web search (redirect, random):</label>
@@ -371,7 +371,7 @@ document.getElementById("hotLinks").innerHTML = a;
 <!-- Speed dial v.1.0.0 -->
 <div class="block padding3 margin2"></div>
 
-<div class="wrapper small">
+<div class="small">
 
 <span class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Speed dial:</span>
 <div class="tagList left">
@@ -392,10 +392,6 @@ document.getElementById("hotLinks").innerHTML = a;
 <!-- end speed dial -->
 
 <div class="block padding2 margin2"></div>
-
-</div>
-
-
 
 
 
@@ -426,6 +422,7 @@ fuAds('', 'ads2', '');
 <script>
 /* v.1.2.0 */
 // https://stackoverflow.com/questions/13903897/javascript-return-number-of-days-hours-minutes-seconds-between-two-dates
+// local, onlty this page
 
 // Time  post date
 function checkTime(i) {
@@ -481,7 +478,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1707048850);
+document.getElementById("last-update").innerHTML = fuPostTime(1707118606);
 </script>
 
 <script>

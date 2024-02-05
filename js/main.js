@@ -1,4 +1,4 @@
-// Main js v.6.0.16
+// Main js v.6.0.17
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -143,11 +143,9 @@ document.getElementById(id).innerHTML = text;
 
 
 //<!-- Nav v.1.0.0 -->
-//<!-- JS in main.js (+ here), 3. CSS version with noscript in noscript.css -->
+//CSS version with noscript in noscript.css -->
 
 //<!-- nav HTML part -->
-// This part nav is embedded on top of the original menu, for improvement.
-//<!-- This is a smart navigation that depends on the number of links with a counter by CSS class ->
 if(conf["confMenu"] == "random"){
 if(fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
 }
@@ -198,13 +196,11 @@ ${conf["confMenuItems"]}
 
  </nav>
 </div>
-<!-- end nav -->
-
 
 `;
 }
 }
-// end This part
+//<!-- end nav HTML part -->
 
 
 
@@ -236,9 +232,8 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 });
 }
 
-// Smart nav v.1.0.0
+// nav v.1.0.0
 // count links
-// smart part to activate dropdown button if many links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 if((countMenuItem.length / 2) >= 4){
 //if(document.getElementById("footer") != null){}
@@ -260,7 +255,7 @@ document.getElementsByTagName("nav")[0].innerHTML += `
 
 /* mobile dropdown menu */
 
-${cssMedia}{
+${cssMedia} {
 .topNav nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
@@ -287,10 +282,9 @@ display: none !important;
 
 
 }
-// end Nav
 //console.log(document.getElementsByTagName("header")[0]);
 // end JS part
-
+//<!-- end Nav -->
 
 
 
