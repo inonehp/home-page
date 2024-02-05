@@ -371,8 +371,8 @@ bottom: 0;
 left: 0;
 width: 100%;
 max-width: 340px;
-height: 120px;
-max-height: 120px;
+height: 100%;
+max-height: 75px;
 overflow-y: scroll;
 z-index: 5;
 /*resize: both;*/

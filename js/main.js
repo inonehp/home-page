@@ -1,4 +1,4 @@
-// Main js v.6.0.14
+// Main js v.6.0.15
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -357,7 +357,7 @@ fuMPrintText('footer', `
 
 
 <nav>
-<div class="wrapper4 balance margin2List padding2List capitalize">
+<div class="wrapper4 balance margin2List padding2List capitalize small">
 
 
 
@@ -1042,6 +1042,8 @@ function fuMRandom(min, max) {
 return Math.round(Math.random() * (max - min) + min);
 }
 
+
+// CSS
 // bg image (background img with random position)
 function fuMBg(val){
 if(conf["confBg"] == 'on'||val == 'on'){
@@ -1086,7 +1088,7 @@ fuMPrintText('style', `
 `, 'plus');
 }
 
-// insert icons
+// end CSS
 
 
 

@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "228",
+        "text": "Simon Leigh on X: \"Day 16 of 30: Design a hero section for an AI company. https:\/\/t.co\/yaPHS0nU3s\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/SyntaxSimon\/status\/1747290263570063395",
+        "tag": "#design #nice #cool",
+        "time": 1707094325
+    },
+    {
         "id": "227",
         "text": "If it is not possible to place the elements in an orderly or centered manner, place them in a random order.",
         "text2": "",
