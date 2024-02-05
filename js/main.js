@@ -1,4 +1,4 @@
-// Main js v.6.0.15
+// Main js v.6.0.16
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -142,9 +142,8 @@ document.getElementById(id).innerHTML = text;
 
 
 
-// Navigation v.1.0.0
-//<!-- This is a smart navigation that depends on the number of links with a counter by CSS class -->
-//<!-- It consists of three parts: 1. HTML code, 2. JS in main.js, 3. CSS version with noscript in noscript.css (style activation in the header). -->
+//<!-- Nav v.1.0.0 -->
+//<!-- JS in main.js (+ here), 3. CSS version with noscript in noscript.css -->
 
 //<!-- nav HTML part -->
 // This part nav is embedded on top of the original menu, for improvement.
@@ -357,7 +356,7 @@ fuMPrintText('footer', `
 
 
 <nav>
-<div class="wrapper4 balance margin2List padding2List capitalize small">
+<div class="wrapper4 balance margin2List padding2List small">
 
 
 
@@ -368,7 +367,7 @@ fuMPrintText('footer', `
 </details>
 </div>
 
-<div id="fTheme" title="Theme settings"><a href="/theme.theme">Themes</a></div>
+<div id="fTheme" class="capitalize" title="Theme settings"><a href="/theme.theme">Themes</a></div>
 
 
 

@@ -15,8 +15,8 @@
 > [!NOTE]
 > You can find information about other licenses on the "About" page.
   
-### Screenshots:  
+<!--### Screenshots:  
 
 ![light theme](/img/screenshot.png)
 ![dark theme](/img/screenshot2.png)
-![setting page with list of color themes](/img/screenshot3.png)
+![setting page with list of color themes](/img/screenshot3.png)-->

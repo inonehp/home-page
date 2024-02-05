@@ -1,4 +1,4 @@
-/* Main style v.12.14.5 */
+/* Main style v.12.14.6 */
 /* Responsive, mainly class-based */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
@@ -71,7 +71,6 @@ flex-shrink: 0;
 width: 100%;
 }
 header { margin: 0 auto; padding: 0; padding-top: 12px; }
-nav, nav a { font-size: 14.7px; }
 nav, footer { text-align: center; max-width: 100%; }
 nav a, nav button, .logo2 { vertical-align: middle; display: inline-block; padding: 5px; }
 nav button:hover { background: none;  }
