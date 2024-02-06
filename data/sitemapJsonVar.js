@@ -756,7 +756,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Redirects\n\nWeb search, more correct, a search form with redirection of entered queries to other real search engines. The script redirects the search query + command to another location. ",
+        "text": "Redirects\n\nWeb search, more correct, a search form with redirection of entered queries to other real search engines. ",
         "url": "\/projects\/25-redirects\/index.html",
         "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
         "id": "23cb5e0b7c4d5f09bff2ed2d074b8b9e",

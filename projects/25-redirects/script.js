@@ -745,7 +745,7 @@ document.getElementById("result").innerHTML = print;
 
 
 var a = [
-"bin", "goo", "n", "x", "red, m, v, s, we, l"
+"goo", "bin", "n", "x", "red, v, l"
 ];
 
 var b = '';
@@ -754,7 +754,18 @@ b  += item+ ', ';
  });
 
 if(document.getElementById('print') != null){
-document.getElementById('print').innerHTML = '<div class="bg padding2 border2 light op">Redirects commands list: '+b+'<br />Example redirects: "Google n" - news about Google, etc</div>';
+document.getElementById('print').innerHTML = '<div class="bg padding2 border2 light op pre small">Redirects commands list: ' + b + `
+
+Example redirects: "Google n" - news about Google.
+
+goo - Google
+bin - Bing
+n - News
+x - X (Twitter)
+red - Reddit
+v - video
+l - lucky (first search result).
+</div>`;
 }
 
 
