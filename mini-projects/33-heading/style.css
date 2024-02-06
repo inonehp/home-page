@@ -1,6 +1,4 @@
-/* v.1.0.0 */
-/* comment */
-
+/* v.1.0.1 */
 
 body {
   display: grid;
@@ -9,37 +7,32 @@ body {
   background-color: #EBE8E4;
   margin: 0;
   padding: 0;
-  font-family: 'Arial', san-serif;
-
+  font-family: 'Arial', san-serif;a
 }
 
 h1 {
-  font-size: 5em;
+font-size: 4em;
 text-align: center;
-  position: relative;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-  color: #275366;
-
-  
+position: relative;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+color: #275366;
+word-break: break-all;
 }
 
 h1::after {
-  content: "relative + after + absolute";
-  font-size: 18px;
-  font-weight: bold;
+content: "relative + after + absolute";
+font-size: 16px;
+font-weight: bold;
 
 display: block;
-  height: 50%;
+height: 50%;
 position: absolute;
-bottom: 0%;
-  width: 100%;
-  background-color: #EBE8E4;
- color: #446699;
- 
-
-
+bottom: 0;
+width: 100%;
+background-color: #EBE8E4;
+color: #446699;
 }
 
 @media (max-width: 500px) {
