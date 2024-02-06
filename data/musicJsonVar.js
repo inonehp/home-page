@@ -7260,6 +7260,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Indila x BENNETT - Derni\u00e8re Danse (Techno Mix) [Official Lyric Video] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=oIUveqb6kSA",
+        "tag": "#music"
+    },
+    {
         "text": "Ink Project feat. FiFi Rong - Runaway Ritual - YouTube",
         "text2": "",
         "text3": "",

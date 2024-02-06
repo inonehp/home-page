@@ -343,7 +343,7 @@
      x="0"
      y="0" />
   <path
-     style="display:inline;fill:#456eac;fill-opacity:1"
+     style="display:inline;fill:#386c84;fill-opacity:1"
      id="path439"
      d="m 237.71842,129.752 a 41.908638,41.908638 0 0 1 -41.90902,41.90812 41.908638,41.908638 0 0 1 -41.90826,-41.90889 41.908638,41.908638 0 0 1 41.90877,-41.908384 41.908638,41.908638 0 0 1 41.90851,41.908634 h -41.90864 z" />
   <path
@@ -351,27 +351,27 @@
      id="path439-3-7"
      d="m 384.5128,294.83047 a 79.551315,79.551315 0 0 1 -79.55204,79.55034 79.551315,79.551315 0 0 1 -79.55059,-79.5518 79.551315,79.551315 0 0 1 79.55156,-79.55083 79.551315,79.551315 0 0 1 79.55107,79.55131 h -79.55131 z" />
   <path
-     style="display:inline;fill:#456eac;fill-opacity:1;stroke-width:1.0717"
+     style="display:inline;fill:#386c84;fill-opacity:1;stroke-width:1.0717"
      id="path439-3"
      d="m 401.79915,372.59844 c 3.90531,38.79127 -46.19042,19.1815 -86.23289,34.86187 -42.08345,16.47961 -69.7459,58.05699 -87.33684,31.29878 -17.03818,-25.91738 1.89173,-111.85844 49.32898,-131.34281 38.43157,-15.78538 114.25161,37.18322 124.2404,65.18125 l -90.47887,18.41495 z" />
   <g
      id="g87169"
-     style="fill:#487b92;fill-opacity:1"
+     style="fill:#456eac;fill-opacity:1"
      transform="matrix(0,-1.1596471,1.1596471,0,-151.86232,468.01882)">
     <g
        id="g87161"
-       style="fill:#487b92;fill-opacity:1"
+       style="fill:#456eac;fill-opacity:1"
        transform="translate(10.207672,-2.0265014)">
       <text
          xml:space="preserve"
          id="text6710"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:2.05;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect6712);display:inline;fill:#386c84;fill-opacity:1;stroke:none"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:2.05;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect6712);display:inline;fill:#456eac;fill-opacity:1;stroke:none"
          transform="rotate(89.221677,232.91514,343.38789)"
          x="0"
          y="0"><tspan
            x="108.98828"
            y="420.20692"
-           id="tspan1108">Your Name</tspan></text>
+           id="tspan12853">Your Name</tspan></text>
     </g>
   </g>
 </svg>
