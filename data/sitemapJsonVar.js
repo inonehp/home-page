@@ -9,7 +9,7 @@ var sitemapJsonVar = [
     {
         "text": ".\n\nHomepage and projects:\nExtension New Tab: any site in each new tab.\nThemes for Geany.\nThemes for Firefox.\nAnd other related things to HTML, CSS and JavaScript. ",
         "url": "\/index.html",
-        "tag": " #website #WebDesign #project #projects #portfolio #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #page #main",
+        "tag": " #website #WebDesign #project #projects #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #page #main",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
         "time": "id"
     },
