@@ -1,4 +1,4 @@
-/* bento v.1.0.0 */
+/* bento v.1.0.1 */
 /* It happened by accident and I don't fully understand how it works */
 .item {
 display: inline-flex;
@@ -24,7 +24,7 @@ gap: 7px;
 /* decor */
 body {
   background: #4D378F;
-  color: #D1D1D1;
+  color: #fff;
 }
 
 * { box-sizing: border-box; }

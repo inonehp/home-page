@@ -1,4 +1,4 @@
-/* v.1.0.1 */
+/* v.1.0.2 */
 
 body {
   display: grid;
@@ -36,7 +36,11 @@ color: #446699;
 }
 
 @media (max-width: 500px) {
-  h1::after{
-    position: relative;
-  }
+  h1 { font-size: 3em; }
+  h1::after{ font-size: 9px; }
+}
+
+@media (max-width: 250px) {
+    h1 { font-size: 2em; }
+  h1::after{ position: relative; }
 }

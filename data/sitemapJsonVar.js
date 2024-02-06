@@ -392,10 +392,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Heading\n\nHead. ",
-        "url": "\/mini-projects\/33-heading\/index.html",
+        "text": "Head\n\nHead. ",
+        "url": "\/mini-projects\/33-head\/index.html",
         "tag": " #WebDesign",
-        "id": "c347c7115b10eac8d050a965c9ce49a3",
+        "id": "806c3f1b853007aed850af6602f5b10b",
         "time": "id"
     },
     {
