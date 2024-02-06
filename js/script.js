@@ -10,6 +10,7 @@ let mNavUpCheck = new String(window.location.pathname);
 var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
 allMClassNavUp.forEach((item, index) => {
 
+
 if(mNavUpCheck != "/"){
 //document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
 document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";

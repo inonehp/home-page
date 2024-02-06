@@ -1,4 +1,4 @@
-// Main js v.6.1.0
+// Main js v.6.1.1
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -15,7 +15,6 @@ conf["confIdEmbedScript"] = "footer";
 conf["confMenuItems"] = [
 {"url":"/main-list.html", "name":"Main", "title":"Main"},
 {"url":"/lists.html", "name":"Lists", "title":"Lists"},
-{"url":"../", "name":"UP", "title":"empty"},
 ];
 
 conf["confMenuItems2"] = '';
@@ -27,6 +26,10 @@ conf["confMenuItems2"] += `<a class="countMenuItem active" href="${item['url']}"
 conf["confMenuItems2"] += `<a class="countMenuItem brand" href="${item['url']}" title="${item['title']}">${item['name']}</a><br>`;
 }
 });
+
+conf["confMenuItems2"] += `<a class="countMenuItem mClassNavUp brand" href="../" title="UP">UP</a><br>`;
+
+
 
 
 const confData = [
