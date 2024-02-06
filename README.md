@@ -1,7 +1,7 @@
 <!-- README.md v.1.3.1 -->
 <!-- Logo: oval - inspired by Patreon new logo, before that it was a circle. -->
   
-![page with light and dark mode](/img/github-banner.png)  
+![page with light and dark mode](/img/github-banner-settings.png)  
 #  Homepage and projects:  
 Search (redirect).  
 Extension New Tab: any site in each new tab.  
