@@ -1,12 +1,12 @@
 <!-- README.md v.1.3.1 -->
 <!-- Logo: oval - inspired by Patreon new logo, before that it was a circle. -->
   
-![2 page with light and dark mode](/img/github-banner.png)  
-#  ℹ️ Homepage and projects.  
+![page with light and dark mode](/img/github-banner.png)  
+#  Homepage and projects:  
+Search (redirect).  
 Extension New Tab: any site in each new tab.  
-Themes for Geany.  
-Themes for Firefox.  
-And other related things to HTML, CSS and JavaScript.   
+Themes for: Geany IDE, and Firefox.  
+Images, links, and other  
     
 ---
   
