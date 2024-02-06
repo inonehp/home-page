@@ -6,7 +6,7 @@
 Extension New Tab: any site in each new tab.  
 Themes for Geany.  
 Themes for Firefox.  
-And others related to HTML, CSS and JavaScript.  
+And other related things to HTML, CSS and JavaScript.   
     
 ---
   
