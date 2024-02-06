@@ -1,4 +1,4 @@
-/* v.1.10.1 */
+/* v.1.10.2 */
 
 
 
@@ -147,7 +147,7 @@ display: none !important;
 .logo, .logo2 { transition: transform .5s ease-in-out; }
 
 .logo, .logo2 {
-animation: ani .5s 0s, aniBlink .5s .5s;
+animation: mAni .5s 0s, mAniBlink .5s .5s;
 }
 
 .logo:hover, .logo2:hover{
@@ -160,12 +160,12 @@ transform: rotate(270deg);
 .logo:hover, .logo2:hover{ border-color: var(--c); }
 }
 
-@keyframes ani {
+@keyframes mAni {
 from { transform: rotate(0); }
 to { transform: rotate(360deg); }
 }
 
-@keyframes aniBlink {
+@keyframes mAniBlink {
 from{ border: 2px solid color-mix(in srgb, var(--brand) 100%, transparent); }
 to { border: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
 }

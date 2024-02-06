@@ -1,13 +1,13 @@
 /* v.1.0.2 */
 
-body {
+.content {
   display: grid;
   height: 100vh;
   align-items: center;
   background-color: #EBE8E4;
   margin: 0;
   padding: 0;
-  font-family: 'Arial', san-serif;a
+  font-family: 'Arial', san-serif;
 }
 
 h1 {
@@ -44,3 +44,5 @@ color: #446699;
     h1 { font-size: 2em; }
   h1::after{ position: relative; }
 }
+
+
