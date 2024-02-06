@@ -1,4 +1,4 @@
-/* v.1.10.2 */
+/* v.1.10.3 */
 
 
 
@@ -57,10 +57,12 @@ justify-content: center;
 align-items: center;
 }
 
+/* fix */
 @media(max-width: 500px){
 .topNav nav {
-justify-content: left;
+justify-content: left !important;
 align-items: left;
+text-align: left;
 }
 }
 

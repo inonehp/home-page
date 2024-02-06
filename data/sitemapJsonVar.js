@@ -161,6 +161,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Browser info js test\n\nBrowser info, JS Test, test js, Test JavaScript page. ",
+        "url": "\/projects\/2-browser-info-js-test\/index.html",
+        "tag": " #JS #JavaScript #test #page #project",
+        "id": "be4a0b0ae755bca76f007461021e56b4",
+        "time": "id"
+    },
+    {
         "text": "Button blur unblur\n\nButton: focus, defocus ",
         "url": "\/mini-projects\/28-button-blur-unblur\/index.html",
         "tag": " #button #focus #effect #HTML #CSS #project",
@@ -452,13 +459,6 @@ var sitemapJsonVar = [
         "url": "\/install.html",
         "tag": " #install #install_website #PWA #WebApp #app #page #main",
         "id": "3036dd8f54ff32dc48bf6258269eb20e",
-        "time": "id"
-    },
-    {
-        "text": "Js test\n\nJS Test, Test JavaScript page. ",
-        "url": "\/projects\/2-js-test\/index.html",
-        "tag": " #JS #JavaScript #test #page #project",
-        "id": "108b7c60864a02c141269b5ad0c47e2f",
         "time": "id"
     },
     {

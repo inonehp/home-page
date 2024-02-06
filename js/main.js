@@ -174,7 +174,7 @@ document.getElementsByTagName("header")[0].innerHTML = `
 <span class="wrapper3 topNav tLeft">
 <nav>
 
-<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 ani reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 
 <div class="menuTop">
