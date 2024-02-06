@@ -1,0 +1,49 @@
+/* v.1.0.0 */
+/* comment */
+
+
+body {
+  display: grid;
+  height: 100vh;
+  align-items: center;
+  background-color: #EBE8E4;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', san-serif;
+
+}
+
+h1 {
+  font-size: 5em;
+text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: #275366;
+
+  
+}
+
+h1::after {
+  content: "relative + after + absolute";
+  font-size: 18px;
+  font-weight: bold;
+
+display: block;
+  height: 50%;
+position: absolute;
+bottom: 0%;
+  width: 100%;
+  background-color: #EBE8E4;
+ color: #446699;
+ 
+
+
+}
+
+@media (max-width: 500px) {
+  h1::after{
+    position: relative;
+  }
+}

@@ -392,6 +392,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Heading\n\nThis is the tpl for create projects. ",
+        "url": "\/mini-projects\/33-heading\/index.html",
+        "tag": " #empty",
+        "id": "c347c7115b10eac8d050a965c9ce49a3",
+        "time": "id"
+    },
+    {
         "text": "Highlight word\n\nJavaScript function for highlighting tag by id. ",
         "url": "\/projects\/15-highlight-word\/index.html",
         "tag": " #highlight #selection #function #highlighting #multi #JavaScript #project",

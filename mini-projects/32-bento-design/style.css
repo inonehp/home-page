@@ -30,14 +30,15 @@ body {
 * { box-sizing: border-box; }
 
 .item {
-background-color: #543C9C;
+background-color: #6E56B8;
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: #000 0px 1px 3px;
+  min-height: 45px;
 }
 
 .item:hover {
-background-color: #5F47A8;
+background-color: #7A5FCC;
 }
 
 h1 { color: #E4DBFF; text-align: center; font-size: 2.5em; }
