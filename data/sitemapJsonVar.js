@@ -7,7 +7,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": ".\n\nHomepage and projects. The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, etc. ",
+        "text": ".\n\nHomepage and projects:\nExtension New Tab: any site in each new tab.\nThemes for Geany.\nThemes for Firefox.\nAnd others related to HTML, CSS and JavaScript. ",
         "url": "\/index.html",
         "tag": " #website #WebDesign #project #projects #portfolio #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #page #main",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
@@ -126,6 +126,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Bento design\n\nEmpty. ",
+        "url": "\/mini-projects\/32-bento-design\/index.html",
+        "tag": " #empty",
+        "id": "d6714c01e4dd16e0ce9c071d0e670d3c",
+        "time": "id"
+    },
+    {
         "text": "Blank page\n\nRedirect blank page. ",
         "url": "\/mini-projects\/1-blank-page\/index.html",
         "tag": " #JavaScript #project",
@@ -182,9 +189,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Chrome extensions list\n\nChrome browser extension: hotkeys to a website, your website in a new tab, and more. ",
+        "text": "Chrome extensions list\n\nChrome browser extension: new tab redirct ... ",
         "url": "\/chrome-extensions-list.html",
-        "tag": " #hotkeys #new #tab #newtab #chrome #extension #list #projects #page #main",
+        "tag": " #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
         "id": "9718546b9d4f22fadc4c1bb0a4643f94",
         "time": "id"
     },
@@ -294,9 +301,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Firefox extensions list\n\nFirefox browser extension: hotkeys to a website, your website in a new tab, and more. ",
+        "text": "Firefox extensions list\n\nFirefox browser extension: new tab redirct, localhost as search engine, ... ",
         "url": "\/firefox-extensions-list.html",
-        "tag": " #Firefox #hotkeys #new_tab #firefox #extesion #projects #project #list #page #main",
+        "tag": " #Firefox #hotkeys #new #tab #NewTab #firefox #extesion #projects #project #list #page #main",
         "id": "8098f42d3059c90b394179c067cfb9cb",
         "time": "id"
     },
@@ -438,6 +445,13 @@ var sitemapJsonVar = [
         "url": "\/install.html",
         "tag": " #install #install_website #PWA #WebApp #app #page #main",
         "id": "3036dd8f54ff32dc48bf6258269eb20e",
+        "time": "id"
+    },
+    {
+        "text": "Js test\n\nJS Test, Test JavaScript page. ",
+        "url": "\/projects\/2-js-test\/index.html",
+        "tag": " #JS #JavaScript #test #page #project",
+        "id": "108b7c60864a02c141269b5ad0c47e2f",
         "time": "id"
     },
     {
@@ -886,13 +900,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/27-test\/index.html",
         "tag": " #test #page #HTML #CSS #JavaScript #project",
         "id": "f14d8ace31fc49d949d2d019fca75abc",
-        "time": "id"
-    },
-    {
-        "text": "Test js\n\nTest JavaScript page. ",
-        "url": "\/projects\/2-test-js\/index.html",
-        "tag": " #JS #JavaScript #test #page #project",
-        "id": "686eff06fafa0346cb8fcb945567a2dc",
         "time": "id"
     },
     {

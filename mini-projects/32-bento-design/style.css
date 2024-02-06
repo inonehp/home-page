@@ -1,0 +1,43 @@
+/* bento v.1.0.0 */
+/* It happened by accident and I don't fully understand how it works */
+.item {
+display: inline-flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
+/*text-wrap: balance;*/
+word-break: break-word;
+min-width: 95px;
+max-width: 100%;
+flex: 1 0 auto;
+justify-content: center;
+}
+
+.flexBlock {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 7px;
+}
+
+/* decor */
+body {
+  background: #4D378F;
+  color: #D1D1D1;
+}
+
+* { box-sizing: border-box; }
+
+.item {
+background-color: #543C9C;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: #000 0px 1px 3px;
+}
+
+.item:hover {
+background-color: #5F47A8;
+}
+
+h1 { color: #E4DBFF; text-align: center; font-size: 2.5em; }

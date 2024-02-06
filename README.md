@@ -2,9 +2,11 @@
 <!-- Logo: oval - inspired by Patreon new logo, before that it was a circle. -->
   
 ![2 page with light and dark mode](/img/github-banner.png)  
-#  ℹ️ Home page and projects.
-👍 Interests: web design, web development, and coding.  
-🛍️ The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, and other projects.  
+#  ℹ️ Homepage and projects:  
+Extension New Tab: any site in each new tab.  
+Themes for Geany.  
+Themes for Firefox.  
+And others related to HTML, CSS and JavaScript.  
     
 ---
   
