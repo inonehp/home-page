@@ -20,25 +20,29 @@
     </linearGradient>
   </defs>
   <circle
-     style="opacity:1;fill:#bad6ff;fill-opacity:1;stroke:#00024a;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:#bad6ff;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.36512378"
      id="path34283"
      cx="403.11984"
      cy="82.628532"
      r="50.911579" />
+  <g
+     id="g1836"
+     style="stroke:#000000;stroke-opacity:0.36512378;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none">
+    <circle
+       style="opacity:1;fill:#bad6ff;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.36512378"
+       id="path34283-1"
+       cx="79.010017"
+       cy="112.6571"
+       r="34.310738" />
+  </g>
   <circle
-     style="fill:#bad6ff;fill-opacity:1;stroke:#000241;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1"
-     id="path34283-1"
-     cx="79.010017"
-     cy="112.6571"
-     r="34.310738" />
-  <circle
-     style="opacity:1;fill:#bad6ff;fill-opacity:1;stroke:#00024e;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:1;fill:#bad6ff;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.36512378"
      id="path849-3"
      cx="212.3237"
      cy="252.222"
      r="80.536491" />
   <circle
-     style="fill:#e3776f;fill-opacity:1;stroke:#442a23;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1"
+     style="fill:#e3776f;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.36512378;opacity:1"
      id="path849-3-4"
      cx="409.71133"
      cy="425.24542"

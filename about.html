@@ -44,6 +44,52 @@
 <link rel="preload" href="/js/script.js" as="script"> 
 
 
+<style>
+
+/*list*/
+.listBlock { padding: 0 5%; margin-bottom: 10px; }
+.listItem {
+padding: 5px 0;
+border-bottom: 2px dotted var(--d3);
+}
+
+.lMenu { /* in progress */
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 5px;
+}
+
+.lMenu .button {
+flex: 1 0 auto;
+width: 150px;
+justify-content: start;
+
+}
+
+/*https://stackoverflow.com/questions/11142125/css-highlight-a-div-when-the-id-is-linked-to-using-an-anchor#*/
+
+#about:target,
+#webdesign:target,
+#tools:target,
+#links:target,
+#hosting:target,
+#contact:target,
+#donate:target,
+#counter:target,
+#sites:target,
+#other:target,
+#copyright:target {
+
+border-bottom: 4px solid var(--orange);
+min-height: 100vh;
+min-height: 100dvh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+</style>
 </head>
 <body>
 
@@ -52,16 +98,13 @@
 <!-- JS in main.js, 3. CSS version with noscript in noscript.css -->
 
 <!-- nav HTML part -->
-<header class="wrapper3 topNav capitalize tLeft">
+<header class="wrapper3 topNav tLeft">
 <nav>
 
-<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
-
+<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 <div class="menuTop">
-<a class="countMenuItem brand" href="main-list.html">Main</a><br>
-<a class="countMenuItem brand" href="all-projects.html">All Projects</a><br>
-<a class="mClassNavUp countMenuItem brand" href="../">UP</a><br>
+<a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">UP</a><br>
 </div>
 <!-- end menuTop -->
 
@@ -75,9 +118,7 @@
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-<a class="countMenuItem brand" href="main-list.html">Main</a><br>
-<a class="countMenuItem brand" href="all-projects.html">All Projects</a><br>
-<a class="countMenuItem brand" href="../">Up</a><br>
+<a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="countMenuItem brand" href="../">Up</a><br>
 
 <!-- //menu dublicate -->
 </div>
@@ -107,17 +148,13 @@
 <div class="content">
 
 
-
-
-
 <!-- Inspired by linktr.ee, GitHub -->
 
-<div class="block padding2"></div>
-
-<div class="block padding2"></div>
+<div class="padding2 margin2"></div>
 
 
-<div class="block shadow bg padding2 wrapper tCenter borderRadius2">
+
+<div class="shadow bg padding2 wrapper tCenter borderRadius2">
 
 
 
@@ -133,11 +170,11 @@
 
 
 <!-- * -->
-<div class="block padding2 tLeft listBlock">
-<div class="listItem insertIcon">Hello.</div>
-<div class="listItem insertIcon">I’m currently learning JavaScript.</div>
-<div class="listItem insertIcon">Interests: web design, web development, and coding.</div>
-<div class="listItem insertIcon">Sometimes I'm trying to create a website template or something else.</div>
+<div class="block padding2 tLeft listBlock firstLetterBold">
+<div class="listItem insertIcon firstLetterBold">Hello.</div>
+<div class="listItem insertIcon firstLetterBold">I’m currently learning JavaScript.</div>
+<div class="listItem insertIcon firstLetterBold">I like web design and coding.</div>
+<div class="listItem insertIcon firstLetterBold">Sometimes I'm trying to create a website template or something else.</div>
 </div>
 <!-- // -->
 
@@ -157,57 +194,22 @@
 <div id="links" class="block bg border borderRadius2 padding3List marginList">
 <div class="padding2List">
 
-<span class="block bold padding3 margin2 medium"><a class="padding borderBottomBlue" href="#links"><h2 class="inlineBlock op">Links:</h2></a></span>
+<span class="block bold padding3 margin2 medium"><a class="padding borderBottomBlue" href="#links"><h2 class="inlineBlock op h2">Links:</h2></a></span>
 
 <div class="lMenu tCenter padding2">
-<a class="insertIcon button brand light2 border borderRadius2" href="https://x.com/inonehp">X (Twitter)</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.deviantart.com/inonehp">Deviantart</a>
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://x.com/inonehp">X (Twitter)</a>
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://www.deviantart.com/inonehp">Deviantart</a>
 
 <a class="insertIcon button brand light2 border borderRadius2" href="https://codepen.io/inonehp">Codepen</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.behance.net/inonehp">Behance</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://dribbble.com/inonehp">Dribbble</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://github.com/inonehp">Github</a>
-</div>
-
-<details class="block">
-<summary class="op pointer padding2">More:</summary>
-
-
-
-<div class="lMenu tCenter padding2">
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.threads.net/@inonehp">Threads</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.reddit.com/user/inonehp">Reddit</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://bsky.app/profile/inonehp.bsky.social">Bluesky</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.tumblr.com/inonehp">Tumblr</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://substack.com/@inonehp">Substack</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://snort.social/npub1wjxg78vxmvcnca2jcvgqjcqcrfn6cuwn75wxjmxzpywzlhwuj6dqg5cxmz">Nostr</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://medium.com/@inonehp">Medium</a>
-
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.instagram.com/inonehp">Instagram</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.pinterest.com/inonehp">Pinterest</a>
-
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.twitch.tv/inonehp">Twitch</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.youtube.com/@inonehp">YouTube</a>
-</div>
-
-<div class="lMenu tCenter padding2">
-<a class="insertIcon button brand light2 border borderRadius2" href="https://dev.to/inonehp">Dev.to</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://hashnode.com/@inonehp">Hashnode</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.producthunt.com/@inonehp">ProductHunt</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://www.figma.com/@inonehp">Figma</a>
-</div>
-
-<div class="lMenu tCenter padding2">
-<a class="insertIcon button brand light2 border borderRadius2" href="https://about.me/inonehp">About.Me</a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://linktr.ee/inonehp">Linktree</a></a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://limey.io/inonehp">Limey</a></a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://beacons.ai/inonehp">Beacons</a></a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://bento.me/inonehp">Bento</a></a>
-<a class="insertIcon button brand light2 border borderRadius2" href="https://gravatar.com/inonehp">Gravatar</a></a>
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://www.behance.net/inonehp">Behance</a>
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://dribbble.com/inonehp">Dribbble</a>
+<a class="insertIcon button brand light2 border borderRadius2 firstLetterBold" href="https://github.com/inonehp">Github</a>
 </div>
 
 
-</details>
+
+
+
 
 </div>
 </div>
@@ -219,14 +221,14 @@
 <div class="padding2List">
 <span class="block pre padding3 margin2List bold medium"><a class="padding borderBottomIndigo" href="#sites"><h2 class="inlineBlock op">Sites:</h2></a></span>
 
-<a class="tag2 insertIcon brand margin" href="https://inonehp.wordpress.com/">Wordpress</a>
-<a class="tag2 insertIcon brand margin" href="https://inonehp.blogspot.com/">Blogspot</a>
-<a class="tag2 insertIcon brand margin" href="https://sites.google.com/view/inonehp">Google Sites</a>
-<a class="tag2 insertIcon brand margin" href="https://inonehp.wixsite.com/inonehp">Wix</a>
-<a class="tag2 insertIcon brand margin" href="https://inonehp.framer.website/">Framer</a>
-<a class="tag2 insertIcon brand margin" href="https://inonehp.webflow.io/">Webflow</a>
-<a class="tag2 insertIcon brand margin" href="https://inonehp.github.io/">GitHub Pages</a>
-<a class="tag2 insertIcon brand margin" href="https://inonehp.neocities.org/">Neocities</a>
+<a class="tag2 insertIcon brand margin firstLetterBold" href="https://inonehp.wordpress.com/">Wordpress</a>
+<a class="tag2 insertIcon brand margin firstLetterBold" href="https://inonehp.blogspot.com/">Blogspot</a>
+<a class="tag2 insertIcon brand margin firstLetterBold" href="https://sites.google.com/view/inonehp">Google Sites</a>
+<a class="tag2 insertIcon brand margin firstLetterBold" href="https://inonehp.wixsite.com/inonehp">Wix</a>
+<a class="tag2 insertIcon brand margin firstLetterBold" href="https://inonehp.framer.website/">Framer</a>
+<a class="tag2 insertIcon brand margin firstLetterBold" href="https://inonehp.webflow.io/">Webflow</a>
+<a class="tag2 insertIcon brand margin firstLetterBold" href="https://inonehp.github.io/">GitHub Pages</a>
+<a class="tag2 insertIcon brand margin firstLetterBold" href="https://inonehp.neocities.org/">Neocities</a>
 
 </div>
 </div>
@@ -327,18 +329,15 @@
 
 
 <details class="block">
-<summary class="op pointer padding2">More:</summary>
+<summary class="pointer padding2 brand">More:</summary>
 
 <div id="other" class="block padding3List bg border borderRadius2 marginList">
 <div class="padding2List">
 
 <span class="block bold padding3 margin2 medium"><a class="padding borderBottomGreen" href="#other"><h2 class="inlineBlock op">Other:</h2></a></span>
 
-<div class="margin2 padding3List">
-<div class="padding2">
-<a href="/img/logo.png" class="block padding2"><img class="logo2" src="/img/logo.png" alt="small logo"></a>
-<b class="block padding2">Logotype inspiration:</b> Oval - inspired by Patreon new logo, before that it was a circle.
-</div>
+<div class="padding2 padding3List">
+<b>Logotype inspiration:</b> Oval - inspired by Patreon new logo, before that it was a circle.
 </div>
 
 
@@ -392,53 +391,6 @@ PageSpeed Insights
 
 <div class="padding2 margin2"></div>
 
-<style>
-
-/*list*/
-.listBlock { padding: 0 5%; margin-bottom: 10px; }
-.listItem {
-padding: 5px 0;
-border-bottom: 2px dotted var(--d3);
-}
-
-.lMenu { /* in progress */
-display: flex;
-flex: 1 0 auto;
-flex-wrap: wrap;
-gap: 5px;
-}
-
-.lMenu .button {
-flex: 1 0 auto;
-width: 150px;
-justify-content: start;
-
-}
-
-/*https://stackoverflow.com/questions/11142125/css-highlight-a-div-when-the-id-is-linked-to-using-an-anchor#*/
-
-#about:target,
-#webdesign:target,
-#tools:target,
-#links:target,
-#hosting:target,
-#contact:target,
-#donate:target,
-#counter:target,
-#sites:target,
-#other:target,
-#copyright:target {
-
-border-bottom: 4px solid var(--orange);
-min-height: 100vh;
-min-height: 100dvh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-</style>
-
 
 
 
@@ -464,26 +416,6 @@ justify-content: center;
 fuAds('', 'ads2', '');
 </script>
 -->
-
-
-
-<!--
-<script src="/projects/blog/script.js"></script>
-
-<script src="/data/blogJsonVar.js"></script>
-<script>
-blog("echoBlog", blogJsonVar, 'post', 'on', 'off', '3', 'blog.html', 'off', '500');
-// printId, blogJsonVar, postClass, embedStatus, tagListStatus, postLimit, scriptDir, multiEmbedStatus tagListLimit
-</script>
-
-
-
-<script src="/projects/twitter-embed/script.js"></script>
-<script>
-twitterEmbed('twitter', 'inonehp', 3, confThemeEmbed);
-</script>
--->
-
 
 
 

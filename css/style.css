@@ -1,4 +1,4 @@
-/* v.1.9.0 */
+/* v.1.10.1 */
 
 
 
@@ -106,7 +106,7 @@ grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 #dropdownMenuButton { display: none; }
 
 
-/* continuation in main js, where counter hide menu, show dropdown */
+/* continuation in main.js, where counter */
 
 /* fix */
 #dropdownMenuCSS { display: inline-block; }
@@ -114,21 +114,46 @@ grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 .dropdownMenuContent { margin-top: 9px;  }
 
 .menuTop { margin-right: 10px; }
-/* end Deropdown menu */
+
+
+
+/* mobile dropdown menu (main.js similar) */
+
+@media(max-width: 250px) {
+.topNav nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+
+.topNav nav {
+justify-content: left;
+align-items: center;
+display: block;
+text-align: left;
+}
+
+}
+
+/*fix*/
+@media(max-width: 250){
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+/* // Deropdown menu */
 
 
 
 @media (prefers-reduced-motion: no-preference) {
-.logo {
-/*animation: ani 1.8s;*/
-transform: rotate(0);
-animation-duration: 1.8s;
-animation-delay: 0.3s;
-transition: transform 1.8s ease-in-out;
+.logo, .logo2 { transition: transform .5s ease-in-out; }
+
+.logo, .logo2 {
+animation: ani .5s 0s, aniBlink .5s .5s;
 }
-.logo2 { transition: transform 1.8s ease-in-out; }
-.logo:hover, .logo2:hover{ transform: rotate(270deg); }
-/*.logo, .logo2 { animation: aniBreath 5s linear infinite; }*/
+
+.logo:hover, .logo2:hover{
+transform: rotate(270deg);
+}
+
 }
 
 @media (prefers-reduced-motion) {
@@ -140,9 +165,9 @@ from { transform: rotate(0); }
 to { transform: rotate(360deg); }
 }
 
-@keyframes aniBreath {
-from{ }
-to{ border: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
+@keyframes aniBlink {
+from{ border: 2px solid color-mix(in srgb, var(--brand) 100%, transparent); }
+to { border: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
 }
 
 

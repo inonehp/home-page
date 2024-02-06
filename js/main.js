@@ -1,4 +1,4 @@
-// Main js v.6.0.17
+// Main js v.6.1.0
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -10,14 +10,24 @@ conf["confDomainNameInTitle"] = "on"; // on, off
 conf["confLinkExtList"] = "index.html,.html,index.php,.php";
 conf["confIdEmbedScript"] = "footer";
 
-conf["confMenuItems"] = `
 
-<a class="countMenuItem brand" href="/main-list.html" title="Main">Main</a><br>
-<a class="countMenuItem brand" href="/all-projects.html" title="All projects">All Projects</a><br>
-<a class="mClassNavUp countMenuItem brand" href="../" title="../">UP</a><br>
-<!--<a class="brand" href="javascript:history.back()">Back</a>-->
 
-`;
+conf["confMenuItems"] = [
+{"url":"/main-list.html", "name":"Main", "title":"Main"},
+{"url":"/lists.html", "name":"Lists", "title":"Lists"},
+{"url":"../", "name":"UP", "title":"empty"},
+];
+
+conf["confMenuItems2"] = '';
+conf["confMenuItems"].forEach((item, index) => {
+
+if((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
+conf["confMenuItems2"] += `<a class="countMenuItem active" href="${item['url']}" title="${item['title']}">${item['name']}</a><br>`;
+}else{
+conf["confMenuItems2"] += `<a class="countMenuItem brand" href="${item['url']}" title="${item['title']}">${item['name']}</a><br>`;
+}
+});
+
 
 const confData = [
 {
@@ -158,14 +168,14 @@ if(document.getElementsByTagName("header")[0] != null){
 document.getElementsByTagName("header")[0].innerHTML = `
 
 <!-- Nav v.1.0.0 -->
-<div class="wrapper3 topNav tLeft">
+<span class="wrapper3 topNav tLeft">
 <nav>
 
-<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 ani reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 
 <div class="menuTop">
-${conf["confMenuItems"]}
+${conf["confMenuItems2"]}
 </div>
 <!-- end menuTop -->
 
@@ -179,7 +189,7 @@ ${conf["confMenuItems"]}
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-${conf["confMenuItems"]}
+${conf["confMenuItems2"]}
 <!-- //menu dublicate -->
 
 </div>
@@ -194,8 +204,8 @@ ${conf["confMenuItems"]}
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
 
- </nav>
-</div>
+</nav>
+</span>
 
 `;
 }
@@ -361,8 +371,10 @@ fuMPrintText('footer', `
 </details>
 </div>
 
-<div id="fTheme" class="capitalize" title="Theme settings"><a href="/theme.theme">Themes</a></div>
-
+<div>
+<!--<a href="#goBack" onclick="history.back()">Go Back</a>-->
+<span id="fTheme" class="capitalize" title="Theme settings"><a href="/theme.theme">Themes</a></span>
+</div>
 
 
 
@@ -476,8 +488,23 @@ if(document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = '<a href="/theme.html">theme: ' + conf["confTheme"] + ' (' + theme + ')</a>';
 }
 
+// dynamic
 fuMThemeEmbed();
 fuMBg();
+
+if(conf["confThemeEmbed"] == 'dark'){
+fuMPrintText('style', `
+<style>
+.reduceLight { filter: brightness(70%); }
+</style>
+`, 'plus');
+}else{
+fuMPrintText('style', `
+<style>
+.reduceLight { filter: brightness(100%); }
+</style>
+`, 'plus');
+}
 
 }
 
@@ -1071,16 +1098,6 @@ background-attachment: fixed;
 }
 }
 // end bg image
-
-
-if(conf["confThemeEmbed"] == 'dark'){
-fuMPrintText('style', `
-<style>
-.reduceLight { filter: brightness(70%); }
-</style>
-`, 'plus');
-}
-
 // end CSS
 
 

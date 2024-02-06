@@ -7,7 +7,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": ".\n\nHomepage and projects. The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, and other projects. ",
+        "text": ".\n\nHomepage and projects. I like web design and coding. The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, etc. ",
         "url": "\/index.html",
         "tag": " #website #WebDesign #project #projects #portfolio #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #page #main",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
@@ -60,13 +60,6 @@ var sitemapJsonVar = [
         "url": "\/ads.html",
         "tag": " #ad #ads #page #main",
         "id": "88ac0d7efcaec004a38b73ca1695bcee",
-        "time": "id"
-    },
-    {
-        "text": "All projects\n\nAll projects. ",
-        "url": "\/all-projects.html",
-        "tag": " #all #list #lists #projects #menu #page #main",
-        "id": "3d5cdbed2ba3c01c58c2f8c0ab910a38",
         "time": "id"
     },
     {
@@ -462,6 +455,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Lists\n\nLists. Page Lists. ",
+        "url": "\/lists.html",
+        "tag": " #all #list #lists #projects #menu #page #main",
+        "id": "3831d1d20f62af37b45ebea9c330e943",
+        "time": "id"
+    },
+    {
         "text": "Main list\n\nList of the main pages of the site. ",
         "url": "\/main-list.html",
         "tag": " #main #menu #list #projects #main #pages",
@@ -526,9 +526,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Not sleep pc\n\nA page to force the computer not to go into sleep mode, the page simply has a video that repeats itself endlessly. ",
-        "url": "\/mini-projects\/12-not-sleep-pc\/index.html",
+        "url": "\/archive\/mini-projects\/12-not-sleep-pc\/index.html",
         "tag": " #not #sleep #PC #computer #prevent #hibernation #HTML #project",
-        "id": "ab992838622f3674c98fdf1e43775748",
+        "id": "0506190f48a135af8d9d45d6304356b3",
         "time": "id"
     },
     {

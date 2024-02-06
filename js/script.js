@@ -1,7 +1,6 @@
 // Local main index script v.1.0.1
 
 
-
 //fix
 // Nav up for main list page
 //if(document.getElementById("mNavUp") != null){

@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.02.05";
+//var myCacheVersion = "v.1.2.2024.02.06";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.02.05").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.02.06").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -91,11 +91,13 @@ var fileListArr = ["/404.html",
 "/README.md",
 "/about.html",
 "/ads.html",
-"/all-projects.html",
 "/archive/index.html",
 "/archive/",
-"/archive/mini-projects/14-pull-quotes-codepen-challenge/index.html",
+"/archive/mini-projects/12-not-sleep-pc/index.html",
 "/archive/mini-projects/",
+"/archive/mini-projects/12-not-sleep-pc/",
+"/archive/mini-projects/12-not-sleep-pc/style.css",
+"/archive/mini-projects/14-pull-quotes-codepen-challenge/index.html",
 "/archive/mini-projects/14-pull-quotes-codepen-challenge/",
 "/archive/mini-projects/14-pull-quotes-codepen-challenge/script.js",
 "/archive/mini-projects/14-pull-quotes-codepen-challenge/style.css",
@@ -515,6 +517,7 @@ var fileListArr = ["/404.html",
 "/js/settings-options.js",
 "/js/theme-options.js",
 "/links.html",
+"/lists.html",
 "/main-list.html",
 "/manifest.webmanifest",
 "/mini-projects/1-blank-page/index.html",
@@ -522,9 +525,6 @@ var fileListArr = ["/404.html",
 "/mini-projects/1-blank-page/",
 "/mini-projects/1-blank-page/script.js",
 "/mini-projects/1-blank-page/style.css",
-"/mini-projects/12-not-sleep-pc/index.html",
-"/mini-projects/12-not-sleep-pc/",
-"/mini-projects/12-not-sleep-pc/style.css",
 "/mini-projects/19-round-codepen-challenge/index.html",
 "/mini-projects/19-round-codepen-challenge/",
 "/mini-projects/19-round-codepen-challenge/script.js",
@@ -1012,7 +1012,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.02.05")
+caches.open("v.1.2.2024.02.06")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1033,7 +1033,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.02.05")
+caches.open("v.1.2.2024.02.06")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1059,7 +1059,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.02.05"];
+  const cachesToKeep = ["v.1.2.2024.02.06"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

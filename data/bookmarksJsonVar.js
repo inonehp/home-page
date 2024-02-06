@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "100",
+        "text": "Dare to Share",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.daretoshare.design\/",
+        "tag": "#website #nice #dev",
+        "time": 1707133773
+    },
+    {
         "id": "99",
         "text": "Deezer | Listen to music | Online music streaming platform",
         "text2": "",

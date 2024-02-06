@@ -7,7 +7,7 @@
 <!--<meta name="title" content="">-->
 <!--<meta name="author" content="">-->
 
-<meta name="description" content="Homepage and projects. The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, and other projects.">
+<meta name="description" content="Homepage and projects. I like web design and coding. The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, etc.">
 <meta name="keywords" content="website, WebDesign, project, projects, portfolio,
 Geany, theme, Firefox, 
 WebDev, dev, HTML, CSS, JavaScript,
@@ -55,17 +55,16 @@ page, main,">
 .siteName {
 position: relative;
 text-transform: uppercase;
-width: 100%;
-min-width: 120px;
-transform: rotate(0deg);
+transform: rotate(-10deg);
+display: inline-block;
 }
 
-.siteName::after {
+.siteName::before {
 content: "HTML5 + CSS3 = PHP8";
 text-alight: right;
 font-size: xx-small;
-color: var(--c);
-display: block;
+display: inline-block;
+padding-top: 1px;
 position: absolute;
 background: var(--bg);
 width: 100%;
@@ -95,16 +94,13 @@ z-index: -1;
 <!-- JS in main.js, 3. CSS version with noscript in noscript.css -->
 
 <!-- nav HTML part -->
-<header class="wrapper3 topNav capitalize tLeft">
+<header class="wrapper3 topNav tLeft">
 <nav>
 
-<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
-
+<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 <div class="menuTop">
-<a class="countMenuItem brand" href="main-list.html">Main</a><br>
-<a class="countMenuItem brand" href="all-projects.html">All Projects</a><br>
-<a class="mClassNavUp countMenuItem brand" href="../">UP</a><br>
+<a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">UP</a><br>
 </div>
 <!-- end menuTop -->
 
@@ -118,9 +114,7 @@ z-index: -1;
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-<a class="countMenuItem brand" href="main-list.html">Main</a><br>
-<a class="countMenuItem brand" href="all-projects.html">All Projects</a><br>
-<a class="countMenuItem brand" href="../">Up</a><br>
+<a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="countMenuItem brand" href="../">Up</a><br>
 
 <!-- //menu dublicate -->
 </div>
@@ -157,12 +151,12 @@ z-index: -1;
 <header id="topHeader" class="block paddingList tCenter" style="position: relative;">
 
 <img class="headerBannerImg" src="/img/header-banner.png" alt="header banner" style="max-height: 120px;">
-<a href="#"><img class="logo darkBrightness" src="/img/logo.png" alt="logo" style="max-width: 60px;"></a>
+<a href="#"><img class="logo reduceLight" src="/img/logo.png" alt="logo" style="max-width: 60px;"></a>
 
 <div class="block padding2List"></div>
 
 
-<h1 id="siteName" class="zero siteName">inonehp</h1>
+<h1 class="zero siteName">inonehp</h1>
 <div class="tRight">
 
 
@@ -171,7 +165,7 @@ z-index: -1;
 <span class="xSmall padding2List">updated: <span id="last-update"></span></span>
 </summary>
 <div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">
-Attempt to fix  a menu.
+Some fixes (in testing).
 
 <a class="brand tag2 block tCenter border light borderRadius2" href="/changelog.html" title="Update Log">more</a></div>
 </details>
@@ -254,10 +248,6 @@ return a;
 </form>
 
 </div>
-
-
-
-
 
 
 
@@ -364,28 +354,16 @@ document.getElementById("hotLinks").innerHTML = a;
 
 </script>
 
-
-
-
-
 <!-- Speed dial v.1.0.0 -->
-<div class="block padding3 margin2"></div>
+<div class="block padding3 margin4"></div>
 
 <div class="small">
 
 <span class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Speed dial:</span>
 <div class="tagList left">
-<a class="insertIcon tag2 light2 border borderRadius2 itemHeight" href="/main-list.html"><span class="capitalize op">Main</span></a>
-<a class="insertIcon tag2 light2 border borderRadius2 itemHeight" href="/all-projects.html"><span class="capitalize op">All projects:</span></a>
-<a class="insertIcon tag2 light2 border borderRadius2 itemHeight" href="/projects-list.html"><span class="capitalize op">Project</span></a>
-<a class="insertIcon tag2 light2 border borderRadius2 itemHeight" href="/mini-projects-list.html"><span class="capitalize op">Mini Project</span></a>
-</div>
-<hr>
-<div class="tagList left">
 <a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/31-todo-list-task/"><span class="capitalize op">Task</span></a>
 <a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/32-todo-list-idea/"><span class="capitalize op">Idea</span></a>
 <a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/14-typing-speed/"><span class="capitalize op">Typing</span></a>
-<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/42-quiz/"><span class="capitalize op">Quiz</span></a>
 </div>
 
 </div>
@@ -481,7 +459,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1707118606);
+document.getElementById("last-update").innerHTML = fuPostTime(1707179025);
 </script>
 
 <script>
@@ -517,9 +495,12 @@ window.location.href = "/projects/25-redirects/?q=" + q;
 
 
 <script>
-// random color for sitename
+// random color for sitename v.1.0.2
 // local, only this page
-if(document.getElementById("siteName") != null){
+
+//if(document.getElementById("siteName") != null){
+if(document.getElementsByTagName("h1") != null){
+
 const lColors = ["brand", "red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -536,16 +517,19 @@ var element = document.getElementById("siteShortText");
 //element.classList.add(lRancColor);
 
 let lRandTone = fuMRandom(50, 100);
+let lRandTone2 = fuMRandom(50, 100);
 lRandColor = "color-mix(in srgb, var(--" + lRandColor + ") " + lRandTone + "%, transparent)";
-lRandColor2 = "color-mix(in srgb, var(--" + lRandColor2 + ") " + lRandTone + "%, transparent)";
+lRandColor2 = "color-mix(in srgb, var(--" + lRandColor2 + ") " + lRandTone2 + "%, transparent)";
+
 
 var styleElem = document.head.appendChild(document.createElement("style"));
 styleElem.innerHTML = `
-#siteName { color: ` + lRandColor + `; }
-#siteName::after  { color: ` + lRandColor2 + `; }
+.siteName { color: ` + lRandColor + `; }
+.siteName::before  { color: ` + lRandColor2 + `; }
 `;
 
 }
+
 </script>
 
 
