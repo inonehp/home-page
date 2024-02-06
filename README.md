@@ -2,7 +2,7 @@
 <!-- Logo: oval - inspired by Patreon new logo, before that it was a circle. -->
   
 ![2 page with light and dark mode](/img/github-banner.png)  
-#  ℹ️ Homepage and projects:  
+#  ℹ️ Homepage and projects.  
 Extension New Tab: any site in each new tab.  
 Themes for Geany.  
 Themes for Firefox.  
