@@ -2,7 +2,7 @@ README.md
 ###
 
 #### Screenshot
-![screenshot](light-theme.png)
-![screenshot2](dark-theme.png)
+![screenshot](light-flat-theme.png)
+![screenshot2](dark-flat-theme.png)
 
 

@@ -1,4 +1,4 @@
-// v.1.0.5
+// v.1.0.6
 // firefox
 
 
@@ -140,7 +140,8 @@ count = 0;
 
 
 function redirectURLrunAll(rURLMode){
-const getting = browser.storage.sync.get("dataURLRedirectList");
+//const getting = browser.storage.sync.get("dataURLRedirectList");
+const getting = browser.storage.local.get("dataURLRedirectList");
 getting.then(onGot, onError);
 }
 

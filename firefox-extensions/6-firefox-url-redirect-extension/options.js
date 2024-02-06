@@ -1,4 +1,4 @@
-// v.1.0.2
+// v.1.0.3
 
 
 
@@ -25,8 +25,8 @@ dataURLRedirectListArr.push({'URLFirst':URLFirst33, 'URLSecond':URLSecond33});
 });
 
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
-browser.storage.sync.set({
-//browser.storage.local.set({
+//browser.storage.sync.set({
+browser.storage.local.set({
     dataURLRedirectList: JSON.stringify(dataURLRedirectListArr)
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
@@ -66,8 +66,8 @@ function onError(error) {
 console.log(`Error: ${error}`);
 }
 
-let getting = browser.storage.sync.get("dataURLRedirectList");
-//let getting = browser.storage.local.get("dataURLRedirectList");
+//let getting = browser.storage.sync.get("dataURLRedirectList");
+let getting = browser.storage.local.get("dataURLRedirectList");
 getting.then(setCurrentChoice, onError);
 
 }
