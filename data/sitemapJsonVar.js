@@ -7,7 +7,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": ".\n\nHomepage and projects. I like web design and coding. The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, etc. ",
+        "text": ".\n\nHomepage and projects. The site has a color theme for Geany IDE, a theme for Firefox Browser, website templates, etc. ",
         "url": "\/index.html",
         "tag": " #website #WebDesign #project #projects #portfolio #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #page #main",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
