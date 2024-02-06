@@ -51,9 +51,8 @@ EOF;
 
 $filesSize = 0;
 
-
-if (!function_exists('FileSizeConvert')) {
 //https://www.php.net/manual/en/function.filesize.php
+if (!function_exists('FileSizeConvert')) {
 function FileSizeConvert($bytes){
     $bytes = floatval($bytes);
         $arBytes = array(
