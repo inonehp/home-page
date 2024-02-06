@@ -1,4 +1,4 @@
-// Main js v.6.1.1
+// Main js v.6.1.2
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -99,7 +99,7 @@ This is necessary to improve the site.
 "confTitle":"Second Navigation",
 "confDescription":"Second navigation (JS) over the current navigation. To improve where it is bad",
 "confName":"confMenu",
-"confValueDefault":"on",
+"confValueDefault":"off",
 "confValueVariant":["on", "off", "random"],
 },
 ];
