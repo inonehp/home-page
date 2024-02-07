@@ -1,4 +1,4 @@
-// v.2.2.5
+// v.2.2.6
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -1077,14 +1077,19 @@ window.location.href = '?#stopReSubmit';
 
 
 document.getElementById('result2').innerHTML = print2;
-var inputA = document.querySelectorAll('input')[0];
-inputA.addEventListener('input', updateValueIn);
 
-function updateValueIn(e) {
+
+if( document.getElementById('inputTask') != null){
+var inputA = document.getElementById('inputTask');
+inputA.addEventListener('input', updateValueInput);
+}
+
+
+
+function updateValueInput(e) {
 let textInput= encodeURIComponent(e.target.value);
-
 var a = `
-<form><div class="submit tCenter small" style="cursor: pointer;" onclick="submitLink('`+textInput+`')">submit</div></form>
+<div class="submit tCenter small" style="cursor: pointer;" onclick="submitLink('` + textInput +`')">submit</div>
 `;
 
 document.getElementById("option").innerHTML = a;

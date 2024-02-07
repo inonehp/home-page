@@ -1,4 +1,4 @@
-// v.2.2.5
+// v.2.2.6
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -131,8 +131,8 @@ const request = indexedDB.open(dbName, dbVersion);
 
 
 request.onerror = (event) => {
-console.log("request.onerror = (event)");
-console.log(event.target);
+//console.log("request.onerror = (event)");
+//console.log(event.target);
 
 /*
 // https://stackoverflow.com/questions/15861630/how-can-i-remove-a-whole-indexeddb-database-from-javascript
@@ -182,7 +182,7 @@ objectStore.createIndex("data3", "data3", { unique: false });
     });
   };*/
 
-console.log("objectStore = db.createObjectStore");
+//console.log("objectStore = db.createObjectStore");
 
 
 
@@ -208,7 +208,7 @@ if(com == "clear"){
 
 request.onsuccess = (event) => {
 
-console.log("request.onsuccess = (event)");
+//console.log("request.onsuccess = (event)");
 const db = event.target.result;
 
 // https://developer.mozilla.org/docs/Web/API/IDBObjectStore/clear
@@ -259,7 +259,7 @@ data = [
 
 request.onsuccess = (event) => {
 
-console.log("request.onsuccess = (event)");
+//console.log("request.onsuccess = (event)");
 const db = event.target.result;
 
 
@@ -1008,7 +1008,7 @@ print2 = `
 
 <label class="block tLeft padding op xSmall">+ add:</label>
 <form id="anchorIdFrom" class="padding2List marginList" action="index.html">
-<input id="inputTask" class="padding2" type="text" name="q" autocomplete="off" placeholder=" input">
+<input id="inputTask" class="padding2" type="text" name="q" autocomplete="off" placeholder="input">
 <input type="hidden" name="com" value="add">
 <div id="option"></div>
 </form>
@@ -1079,19 +1079,23 @@ window.location.href = '?#stopReSubmit';
 
 
 document.getElementById('result2').innerHTML = print2;
-var inputA = document.querySelectorAll('input')[0];
-inputA.addEventListener('input', updateValueIn);
 
-function updateValueIn(e) {
+
+if( document.getElementById('inputTask') != null){
+var inputA = document.getElementById('inputTask');
+inputA.addEventListener('input', updateValueInput);
+}
+
+
+
+function updateValueInput(e) {
 let textInput= encodeURIComponent(e.target.value);
-
 var a = `
-<form><div class="submit tCenter small" style="cursor: pointer;" onclick="submitLink('`+textInput+`')">submit</div></form>
+<div class="submit tCenter small" style="cursor: pointer;" onclick="submitLink('` + textInput +`')">submit</div>
 `;
 
 document.getElementById("option").innerHTML = a;
 }
-
 
 function submitLink(textInput){
 runDb('add', '', textInput);

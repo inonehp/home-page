@@ -1,4 +1,4 @@
-// Main js v.6.1.2
+// Main js v.6.2.0
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -11,27 +11,7 @@ conf["confLinkExtList"] = "index.html,.html,index.php,.php";
 conf["confIdEmbedScript"] = "footer";
 
 
-
-conf["confMenuItems"] = [
-{"url":"/main-list.html", "name":"Main", "title":"Main"},
-{"url":"/lists.html", "name":"Lists", "title":"Lists"},
-];
-
-conf["confMenuItems2"] = '';
-conf["confMenuItems"].forEach((item, index) => {
-
-if((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem active" href="${item['url']}" title="${item['title']}">${item['name']}</a><br>`;
-}else{
-conf["confMenuItems2"] += `<a class="countMenuItem brand" href="${item['url']}" title="${item['title']}">${item['name']}</a><br>`;
-}
-});
-
-conf["confMenuItems2"] += `<a class="countMenuItem mClassNavUp brand" href="../" title="UP">UP</a><br>`;
-
-
-
-
+// settings var
 const confData = [
 {
 "confTitle":"Allow Cookies For Third Parties?",
@@ -99,7 +79,7 @@ This is necessary to improve the site.
 "confTitle":"Second Navigation",
 "confDescription":"Second navigation (JS) over the current navigation. To improve where it is bad",
 "confName":"confMenu",
-"confValueDefault":"off",
+"confValueDefault":"on",
 "confValueVariant":["on", "off", "random"],
 },
 ];
@@ -155,7 +135,30 @@ document.getElementById(id).innerHTML = text;
 
 
 
+
+
 //<!-- Nav v.1.0.0 -->
+
+// nav links for second nav
+conf["confMenuItems"] = [
+{"url":"/main-list.html", "name":"Main", "title":"Main"},
+{"url":"/lists.html", "name":"Lists", "title":"Lists"},
+];
+
+
+conf["confMenuItems2"] = '';
+conf["confMenuItems"].forEach((item, index) => {
+
+if((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
+conf["confMenuItems2"] += `<a class="countMenuItem active" href="${item['url']}" title="${item['title']}">${item['name']}</a><br>`;
+}else{
+conf["confMenuItems2"] += `<a class="countMenuItem brand" href="${item['url']}" title="${item['title']}">${item['name']}</a><br>`;
+}
+});
+
+conf["confMenuItems2"] += `<a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>`;
+
+
 //CSS version with noscript in noscript.css -->
 
 //<!-- nav HTML part -->
@@ -166,14 +169,15 @@ if(fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
 if(conf["confMenu"] == "on"){
 
 
-if(document.getElementsByTagName("header")[0] != null){
+//if(document.getElementsByTagName("header")[0] != null){
+//document.getElementsByTagName("header")[0].innerHTML = `
 
-document.getElementsByTagName("header")[0].innerHTML = `
+if(document.getElementById("secondNav") != null){
+document.getElementById("secondNav").innerHTML = `
 
 <!-- Nav v.1.0.0 -->
-<span class="wrapper3 topNav tLeft">
+<div class="wrapper3 topNav">
 <nav>
-
 <a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 
@@ -208,7 +212,7 @@ ${conf["confMenuItems2"]}
 </form>
 
 </nav>
-</span>
+</div>
 
 `;
 }
