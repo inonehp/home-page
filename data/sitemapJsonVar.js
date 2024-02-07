@@ -161,10 +161,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Browser info js test\n\nBrowser info, JS Test, test js, Test JavaScript page. ",
-        "url": "\/projects\/2-browser-info-js-test\/index.html",
+        "text": "Browser info test js\n\nBrowser info, JS Test, test js, Test JavaScript page. ",
+        "url": "\/projects\/2-browser-info-test-js\/index.html",
         "tag": " #JS #JavaScript #test #page #project",
-        "id": "be4a0b0ae755bca76f007461021e56b4",
+        "id": "f978699685a64e1f5a72d96074b9bc6b",
         "time": "id"
     },
     {

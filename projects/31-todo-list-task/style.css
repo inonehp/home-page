@@ -1,4 +1,4 @@
-/* v.1.3.0
+/* v.1.4.0
 fixme centring text in task
 fiexed textarea width: cols="100" */
 
@@ -7,8 +7,8 @@ input[type="chckbox"] { display: inline-block;  }
 
 .task {
 display: grid;
-grid-template-columns: 30px 1fr 130px;
-grid-gap: 0;
+grid-template-columns: auto 1fr auto;
+grid-gap: 10px;
 margin: 0;
 width: 100%;
 max-width: 100%;

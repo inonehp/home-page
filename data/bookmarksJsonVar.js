@@ -1,12 +1,30 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "102",
+        "text": "iCodeThis",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/icodethis.com\/app",
+        "tag": "#website #nice #dev #challenge",
+        "time": 1707262952
+    },
+    {
+        "id": "101",
+        "text": "PlayCSS - Daily challenges to test and improve your skills with fun",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/playcss.app\/",
+        "tag": "#website #nice #dev #challenge",
+        "time": 1707262937
+    },
+    {
         "id": "100",
         "text": "Dare to Share",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.daretoshare.design\/",
-        "tag": "#website #nice #dev",
+        "tag": "#website #nice #dev #challenge",
         "time": 1707133773
     },
     {
