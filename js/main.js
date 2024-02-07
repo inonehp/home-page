@@ -1,4 +1,4 @@
-// Main js v.6.2.0
+// Main js v.6.2.1
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -402,7 +402,10 @@ fuMPrintText('footer', `
 
 <span title="Site Code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
 
-<span title="License (other on the About page)"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a></span>
+<span title="License (other on the About page)">License:
+<a rel="license" title="main license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+<a rel="license" title="Other on the about page" href="/about.html#license">Other Licenses *</a>
+</span>
 
 <span title="Hosting Service" style="padding-right: 0;"><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
 

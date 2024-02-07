@@ -1,4 +1,4 @@
-// Keep v.2.8.3
+// Keep v.2.8.4
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
 
@@ -958,6 +958,7 @@ if(tagListStatus != 'off'){
 //if(com != 'search'){ print += `<div class="${postClass}">`+blogNav(mode)+`</div>`; }
 print += `<div class="center"><div class="wrapper zero">` + blogNav(mode) + `</div></div>`;
 
+
 if(mode == 'search'){
 print += `
 <div class="wrapper">
@@ -1032,7 +1033,13 @@ ${comMessagePrint}
 
 `;
 }
+
 }
+
+
+
+
+
 
 //if(q != null){ document.getElementById("input").value = q; }
 }
@@ -2500,10 +2507,13 @@ if(confDevice != 'mobile'){
 pringInputRange = `
 <form id="form">
 ${navOption3}
-<input  name="${navMode}" style="" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="this.form.submit();" ontouchend="this.form.submit();">
+<input  name="${navMode}" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="rangeRedirect();" ontouchend="rangeRedirect();">
 </form>
+<div class="padding2List"></div>
 `;
 }
+//onmouseup="this.form.submit();" ontouchend="this.form.submit();"
+
 
 // hide button if end
 var hideButtonClass = '';
@@ -2541,7 +2551,7 @@ ${pringInputRange}
 
 <div class="galleryBlogNav">
 <a class="${hideButtonClass2} border button light2 borderRadius2" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
-<div class="button border op xSmall bg borderRadius2">${navMode}: `+Math.floor(getP/postLimit)+`</div>
+<div class="button border op xSmall bg borderRadius2">${navMode}: ` + Math.floor(getP / postLimit) + `</div>
 <a class="${hideButtonClass} border button light2 borderRadius2" href="?${navOption2}${navMode}=${next}">&#8594;</a>
 </div>
 
@@ -2754,7 +2764,12 @@ if(confDevice == ''){ confDevice = 'pc'; }
 
 
 
-
+function rangeRedirect(e){
+if(document.getElementById("rangeinput") != null){
+let rangeRedirectUrl = "?" + document.getElementById("rangeinput").name + "=" + document.getElementById("rangeinput").value;
+window.location.replace(rangeRedirectUrl,);
+}
+}
 
 
 

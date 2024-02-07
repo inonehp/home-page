@@ -63,20 +63,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Angled\n\nThe page is filled with triangles generated using JavaScript and CSS. ",
-        "url": "\/archive\/projects\/3-angled\/index.html",
-        "tag": " #triangles #triangle #JavaScript #project",
-        "id": "b6c7ccbc019a296a2ad395b8ecd69bfb",
-        "time": "id"
-    },
-    {
-        "text": "Angled light walpaper\n\nThe page is filled with light triangles generated using JavaScript and CSS. ",
-        "url": "\/archive\/projects\/4-angled-light-walpaper\/index.html",
-        "tag": " #triangles #triangle #JavaScript #project",
-        "id": "c39729c04f7f84c2a6781ed085b09a2f",
-        "time": "id"
-    },
-    {
         "text": "Animated borders button link\n\nAnimated borders button. ",
         "url": "\/mini-projects\/5-animated-borders-button-link\/index.html",
         "tag": " #animation #button #border #HTML #CSS #project",
@@ -88,13 +74,6 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/6-animation-test\/index.html",
         "tag": " #animation #HTML #CSS #project",
         "id": "fc2bd86f385684b36c56dc4acd805e3a",
-        "time": "id"
-    },
-    {
-        "text": "Archive\n\nRedirect page, not intended for viewing. ",
-        "url": "\/archive\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "5fcfc93bd1899af1e4136b1ac6d174d4",
         "time": "id"
     },
     {
@@ -119,17 +98,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Balloon\n\nballoon. ",
-        "url": "\/archive\/projects\/7-balloon\/index.html",
-        "tag": " #dropping._balls #JavaScript #project",
-        "id": "bdf90850d572b50ab8ffba5f8dd59f27",
+        "text": "Background with lines pure css\n\nThis is the tpl for create projects. ",
+        "url": "\/mini-projects\/7-background-with-lines-pure-css\/index.html",
+        "tag": " #empty",
+        "id": "31ee1ea9e14b6a371f9277588ffd8cb7",
         "time": "id"
     },
     {
-        "text": "Bento design\n\nEmpty. ",
-        "url": "\/mini-projects\/32-bento-design\/index.html",
+        "text": "Bento\n\nEmpty. ",
+        "url": "\/mini-projects\/32-bento\/index.html",
         "tag": " #empty",
-        "id": "d6714c01e4dd16e0ce9c071d0e670d3c",
+        "id": "9616975e89ec2a8298d97f44d66db939",
         "time": "id"
     },
     {
@@ -137,13 +116,6 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/1-blank-page\/index.html",
         "tag": " #JavaScript #project",
         "id": "7fa604a0c1f3c25a9a2a983ec2a49910",
-        "time": "id"
-    },
-    {
-        "text": "Blockquotes codepen challenge\n\nFor CodePen #CPC. Experimental page with quote styling using CSS. ",
-        "url": "\/mini-projects\/8-blockquotes-codepen-challenge\/index.html",
-        "tag": " #quote #styling_CSS #CPC #CSS #HTML #project",
-        "id": "8a5d8b5d308940e426479218414eca58",
         "time": "id"
     },
     {
@@ -175,13 +147,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Buttons\n\nTrying to create a list of buttons in different styles. ",
-        "url": "\/mini-projects\/30-buttons\/index.html",
-        "tag": " #button #tool #collection #list #buttons #CSS #HTML #project",
-        "id": "61be9667076c408c15b84d834f743d75",
-        "time": "id"
-    },
-    {
         "text": "Calculator\n\nOnline calculator. ",
         "url": "\/projects\/3-calculator\/index.html",
         "tag": " #\u0441alculator #calc #tool #project",
@@ -200,13 +165,6 @@ var sitemapJsonVar = [
         "url": "\/chrome-extensions-list.html",
         "tag": " #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
         "id": "9718546b9d4f22fadc4c1bb0a4643f94",
-        "time": "id"
-    },
-    {
-        "text": "Color collection\n\ncolor collection. ",
-        "url": "\/archive\/projects\/27-color-collection\/index.html",
-        "tag": " #Color #Collection #JavaScript #project #list",
-        "id": "62fc9726df0233ba31b00c36046a6326",
         "time": "id"
     },
     {
@@ -273,13 +231,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Div id to tag\n\nA JavaScript class that searches for all ids on the specified block of HTML code and creates hash tags or anchors for these ids from them ",
-        "url": "\/archive\/projects\/6-div-id-to-tag\/index.html",
-        "tag": " #JavaScript #class #id #JavaScript #project",
-        "id": "d608628de7a048e59a0c3cbcb5546927",
-        "time": "id"
-    },
-    {
         "text": "Drawing\n\nA simple web application for drawing. ",
         "url": "\/projects\/7-drawing\/index.html",
         "tag": " #draw #drawing #art #tool #HTML5 #drawing #app #WebAppproject",
@@ -291,13 +242,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/8-dropdown-menu\/index.html",
         "tag": " #menu #UI #UX #dropdown #menu #JavaScript #WebDesign #project",
         "id": "d680bc1528d0e5f51433b170ccf3a684",
-        "time": "id"
-    },
-    {
-        "text": "Earth textures cpc css\n\nAn orange is drawn on the page using CSS. ",
-        "url": "\/css-art-data\/10-earth-textures-cpc-css\/index.html",
-        "tag": " #orange #texture #CSSArt #HTML #CSS #project",
-        "id": "903dd64762f6ec4b4dc87ba8f33a617a",
         "time": "id"
     },
     {
@@ -385,31 +329,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Gradient glow style codepen challenge\n\nGradient glow style #CPC ",
-        "url": "\/mini-projects\/28-gradient-glow-style-codepen-challenge\/index.html",
-        "tag": " #gradien #WebDesign #CPC #CSS #project",
-        "id": "a0d10b035d25953ca80bb02836e14c61",
-        "time": "id"
-    },
-    {
-        "text": "Halloween decoration\n\nA simple page decoration effect for an event using emoji. ",
-        "url": "\/mini-projects\/25-halloween-decoration\/index.html",
-        "tag": " #CSS #event #emoji #Helloween #CSS #project",
-        "id": "67d18198d5d261b2811843114d53a48e",
-        "time": "id"
-    },
-    {
         "text": "Heading\n\nHeading. ",
         "url": "\/mini-projects\/33-heading\/index.html",
         "tag": " #WebDesign",
         "id": "c347c7115b10eac8d050a965c9ce49a3",
-        "time": "id"
-    },
-    {
-        "text": "Highlight word\n\nJavaScript function for highlighting tag by id. ",
-        "url": "\/projects\/15-highlight-word\/index.html",
-        "tag": " #highlight #selection #function #highlighting #multi #JavaScript #project",
-        "id": "c9559f8127ac4279fbc039fd1970b924",
         "time": "id"
     },
     {
@@ -424,13 +347,6 @@ var sitemapJsonVar = [
         "url": "\/templates-data\/10-home-page-website-template-many-auto-colors-themes-flat-abc\/index.html",
         "tag": " #WebDesign #template",
         "id": "56015cadbf95793de7700ef2801b63ee",
-        "time": "id"
-    },
-    {
-        "text": "Hot and cold codepen challenge attempt\n\nIframe full screen (hot and cold #CPC try) ",
-        "url": "\/archive\/projects\/31-hot-and-cold-codepen-challenge-attempt\/index.html",
-        "tag": " #iframe #CPC #try #attempt #CSS #project",
-        "id": "69d6f6fd3ceab208f10fd52b4dc74449",
         "time": "id"
     },
     {
@@ -462,13 +378,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Light and dark design codepen challenge\n\nLight & dark design (Light & Dark #CPC) ",
-        "url": "\/mini-projects\/29-light-and-dark-design-codepen-challenge\/index.html",
-        "tag": " #cpc #design #WebDesign #CSS #HTML #project",
-        "id": "e44d0a4f271bf43dce82099e42a43f54",
-        "time": "id"
-    },
-    {
         "text": "Links\n\nThe collection of links. P.S.: Google has a larger collection of websites. ",
         "url": "\/links.html",
         "tag": " #websites #links #bookmark #collection #page #main",
@@ -487,20 +396,6 @@ var sitemapJsonVar = [
         "url": "\/main-list.html",
         "tag": " #main #menu #list #projects #main #pages",
         "id": "733a76918eebc08eb9671ed9e7d6c74e",
-        "time": "id"
-    },
-    {
-        "text": "Matrix effect\n\nAn attempt to recreate the matrix effect using CSS and JavaScript. ",
-        "url": "\/archive\/projects\/16-matrix-effect\/index.html",
-        "tag": " #effect #matrix #JavaScript #project",
-        "id": "af0ceea50f232e0b0010633c9f63c268",
-        "time": "id"
-    },
-    {
-        "text": "Mini projects\n\nRedirect page, not intended for viewing. ",
-        "url": "\/archive\/mini-projects\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "dd802c67464dbe5acce77491842385c8",
         "time": "id"
     },
     {
@@ -532,24 +427,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Multi highlight word hover\n\nJavaScript function for highlighting tag by id. ",
+        "url": "\/projects\/15-multi-highlight-word-hover\/index.html",
+        "tag": " #highlight #selection #function #highlighting #multi #JavaScript #project",
+        "id": "747cdf5ac1adb9f845b9f6ee2520d6df",
+        "time": "id"
+    },
+    {
         "text": "Music\n\nA collection of music,  played randomly, using third-party platforms and their players. ",
         "url": "\/projects\/20-music\/index.html",
         "tag": " #music #collection #random #JavaScript #project",
         "id": "2507b5ee3df8224dec4d962576708e9c",
-        "time": "id"
-    },
-    {
-        "text": "New year soft and sharp codepen challenge\n\nNew Year (Soft & Sharp #CPC) ",
-        "url": "\/archive\/mini-projects\/30-new-year-soft-and-sharp-codepen-challenge\/index.html",
-        "tag": " #New_Year #CPC #CSS #project",
-        "id": "54129e3b11b0f6ac76ee4287de18d33e",
-        "time": "id"
-    },
-    {
-        "text": "Not sleep pc\n\nA page to force the computer not to go into sleep mode, the page simply has a video that repeats itself endlessly. ",
-        "url": "\/archive\/mini-projects\/12-not-sleep-pc\/index.html",
-        "tag": " #not #sleep #PC #computer #prevent #hibernation #HTML #project",
-        "id": "0506190f48a135af8d9d45d6304356b3",
         "time": "id"
     },
     {
@@ -659,13 +547,6 @@ var sitemapJsonVar = [
     },
     {
         "text": "Projects\n\nRedirect page, not intended for viewing. ",
-        "url": "\/archive\/projects\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "5cc84d385f313a64f90d81f22c17dfe4",
-        "time": "id"
-    },
-    {
-        "text": "Projects\n\nRedirect page, not intended for viewing. ",
         "url": "\/projects\/index.html",
         "tag": " #redirect_to_list",
         "id": "2641529d236ed4619d28ac7f42078020",
@@ -676,20 +557,6 @@ var sitemapJsonVar = [
         "url": "\/projects-list.html",
         "tag": " #HTML #CSS #JavaScript #projects #list #pages #main",
         "id": "6c8d65a79d2131f6bbcadd08cd1bf954",
-        "time": "id"
-    },
-    {
-        "text": "Pull quotes codepen challenge\n\nExperimental page with quote styling using CSS | 2. ",
-        "url": "\/archive\/mini-projects\/14-pull-quotes-codepen-challenge\/index.html",
-        "tag": " #quote #styling #CPC #CSS #HTML #project",
-        "id": "1fd9ee00e65ada862a144510c3db0bf6",
-        "time": "id"
-    },
-    {
-        "text": "Pumpkin css\n\nCSS drawing of a pumpkin for Halloween. Drawing using only HTML and CSS. ",
-        "url": "\/css-art-data\/15-pumpkin-css\/index.html",
-        "tag": " #pumpkin #CSSArt #HTML #CSS #project",
-        "id": "c82bc94acec4935d78532c5a9e1fbfe0",
         "time": "id"
     },
     {
@@ -707,13 +574,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Quote poster codepen challenge\n\nExperimental page with quote styling using CSS | 3. ",
-        "url": "\/archive\/mini-projects\/16-quote-poster-codepen-challenge\/index.html",
-        "tag": " #quote #styling #CPC #CSS #HTML #project",
-        "id": "cd37f1b59bcc4dc5d0340b1f5a3b17a7",
-        "time": "id"
-    },
-    {
         "text": "Radio\n\nA small collection of radio stations with the ability to play online, is chosen randomly. ",
         "url": "\/projects\/22-radio\/index.html",
         "tag": " #radio #random #online #station #colection #JavaScript #project",
@@ -721,17 +581,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Rain codepen challenge\n\nRain effect and animation using CSS and JavaScript ",
-        "url": "\/projects\/51-rain-codepen-challenge\/index.html",
+        "text": "Rain\n\nRain effect and animation using CSS and JavaScript ",
+        "url": "\/projects\/38-rain\/index.html",
         "tag": " #rain #random #drop #CPC #CSS #JavaScript #project",
-        "id": "761f2fa7acacc3c8c758fcdfe7903b69",
-        "time": "id"
-    },
-    {
-        "text": "Random button codepen challenge\n\nRandom button, experiment, uses JavaScript and CSS. ",
-        "url": "\/archive\/projects\/18-random-button-codepen-challenge\/index.html",
-        "tag": " #random #button #CPC #JavaScript #project",
-        "id": "3522f4751dfb7755aff66166f16c8de4",
+        "id": "09359d60c8adc83307afe02251e853ab",
         "time": "id"
     },
     {
@@ -749,10 +602,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Realistic old windows os popup window css\n\nCSS realistic drawing of the popup window of the old Windows operating system. ",
-        "url": "\/css-art-data\/12-realistic-old-windows-os-popup-window-css\/index.html",
+        "text": "Realistic old windows os popup window\n\nCSS realistic drawing of the popup window of the old Windows operating system. ",
+        "url": "\/css-art-data\/12-realistic-old-windows-os-popup-window\/index.html",
         "tag": " #window #WindowPopup #ralistic #CSSArt #HTML #CSS #project",
-        "id": "0130a0afad3fe2dd2b9c6a6c5a574fed",
+        "id": "c06fb2d36b83f8102085782f4481f74f",
         "time": "id"
     },
     {
@@ -767,13 +620,6 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/2-responsive-web-design\/index.html",
         "tag": " #responsive #HTML #mobile #UI #UX #CSS #project",
         "id": "cbe9883b65784e9474123c14c35c37e8",
-        "time": "id"
-    },
-    {
-        "text": "Round codepen challenge\n\nCircles are placed on the page using HTML, CSS. ",
-        "url": "\/mini-projects\/19-round-codepen-challenge\/index.html",
-        "tag": " #circle #wallpaper #CSS #project",
-        "id": "371096b8af9984a841f13d7dc5688659",
         "time": "id"
     },
     {
@@ -795,20 +641,6 @@ var sitemapJsonVar = [
         "url": "\/settings.html",
         "tag": " #setting #page #main",
         "id": "66a61e3a38d33964bc4f29dae6426b82",
-        "time": "id"
-    },
-    {
-        "text": "Share\n\nTest share text or link. ",
-        "url": "\/archive\/projects\/26-share\/index.html",
-        "tag": " #share #text #link #JavaScript #project #mobile",
-        "id": "f2fb211c1c01abeadf09f81e5f541d9e",
-        "time": "id"
-    },
-    {
-        "text": "Simple captcha\n\nSimple Captcha ",
-        "url": "\/archive\/projects\/42-simple-captcha\/index.html",
-        "tag": " #Simple #Captcha #JavaScript #project",
-        "id": "0f97fc591f6af7d32a4e1f66a6dfd1c3",
         "time": "id"
     },
     {
@@ -854,13 +686,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Snow\n\nSnow effect on the page using HTML, CSS and JavaScript. ",
-        "url": "\/archive\/projects\/20-snow\/index.html",
-        "tag": " #snow #effect #CSS #JavaScript #project",
-        "id": "21ae55fd4221fb1bebf75b96a48b12c9",
-        "time": "id"
-    },
-    {
         "text": "Start page\n\nStart page. ",
         "url": "\/projects\/41-start-page\/index.html",
         "tag": " #start #start_page #HTML #project",
@@ -872,13 +697,6 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/31-sun-and-moon-css\/index.html",
         "tag": " #Sun #moon #HTML #CSS #project",
         "id": "1b115cde4d60fc1e491c836fda0efd2e",
-        "time": "id"
-    },
-    {
-        "text": "Synthetic textures codepen challenge\n\nCSS effect of plastic or other textured text, based on Codepen template for the contest. ",
-        "url": "\/archive\/mini-projects\/22-synthetic-textures-codepen-challenge\/index.html",
-        "tag": " #texture #text #CPC #CSS #project",
-        "id": "d3aea8da8f2582ebe75918b0c6de3ecd",
         "time": "id"
     },
     {
@@ -907,13 +725,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/27-test\/index.html",
         "tag": " #test #page #HTML #CSS #JavaScript #project",
         "id": "f14d8ace31fc49d949d2d019fca75abc",
-        "time": "id"
-    },
-    {
-        "text": "Testimonial quotes codepen challenge\n\nExperimental page with quote styling using CSS | 4. ",
-        "url": "\/archive\/mini-projects\/23-testimonial-quotes-codepen-challenge\/index.html",
-        "tag": " #quote #styling #CPC #CSS #project",
-        "id": "1c18dc4025f2cca7247aafcbdf6d4dc4",
         "time": "id"
     },
     {
@@ -973,13 +784,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Title with arrow\n\nTitle with an arrow (clip path) ",
-        "url": "\/mini-projects\/26-title-with-arrow\/index.html",
-        "tag": " #CSS #title #arrow #HTML #project",
-        "id": "1cfd4dc8d6a988702e88c0154c4469e7",
-        "time": "id"
-    },
-    {
         "text": "Todo list idea\n\ntodo list idea ",
         "url": "\/projects\/32-todo-list-idea\/index.html",
         "tag": " #todo #list #idea #tool #JavaScript #project",
@@ -1022,13 +826,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Vscode theme\n\nVisual Studio Code themes: light and dark. ",
-        "url": "\/vscode-theme.html",
-        "tag": " #Visual #Studio #Code #theme #color #flat #dark #light #VSCode #project #page #main",
-        "id": "b017f50abc75d1f4a8238c2005391cb7",
-        "time": "id"
-    },
-    {
         "text": "Weather\n\nA simple tiny card showing the current weather. ",
         "url": "\/projects\/37-weather\/index.html",
         "tag": " #weather #information #api #info #JavaScript #project #widget",
@@ -1040,34 +837,6 @@ var sitemapJsonVar = [
         "url": "\/web-search.html",
         "tag": " #web #search #redirection #redirect #page #main",
         "id": "fa848671b775b5f8cf48077e1be17d1d",
-        "time": "id"
-    },
-    {
-        "text": "Winter long and short codepen challenge\n\nWinter (long and short #CPC) ",
-        "url": "\/mini-projects\/29-winter-long-and-short-codepen-challenge\/index.html",
-        "tag": " #winter #CPC #CSS #project",
-        "id": "65caaef2b9db185f8cfea31721b30f12",
-        "time": "id"
-    },
-    {
-        "text": "Women illustration cpc css\n\nCSS drawing woman. ",
-        "url": "\/css-art-data\/32-women-illustration-cpc-css\/index.html",
-        "tag": " #womain #CSSArt #HTML #CSS #project",
-        "id": "8c52dcc80a46dc89cfbd036fc6f869db",
-        "time": "id"
-    },
-    {
-        "text": "X twitter embed\n\nTwitter \/ X embed (widget) showing a list of tweets. ",
-        "url": "\/archive\/projects\/38-x-twitter-embed\/index.html",
-        "tag": " #Twitter #embed #X #JavaScript #project",
-        "id": "3455a41a53e7c510cd318021c6c16411",
-        "time": "id"
-    },
-    {
-        "text": "Yk style codepen challenge\n\nY2K style #CPC ",
-        "url": "\/mini-projects\/27-y2k-style-codepen-challenge\/index.html",
-        "tag": " #CPC #CSS #WebDesign #project",
-        "id": "24a9504a2de75f03d131180e7322689b",
         "time": "id"
     }
 ]

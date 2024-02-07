@@ -283,7 +283,8 @@ transaction.oncomplete = (event) => {
 console.log("transaction.oncomplete");
 
 if(q != ''&&com == 'add'&&String(window.location).indexOf('stopReSubmit') == -1){
-window.location.href = '?#stopReSubmit';
+//window.location.href = '?#stopReSubmit';
+window.location.replace("?#stopReSubmit",);
 }else{
 q = '';
 com = '';
@@ -1068,6 +1069,7 @@ if(textInput != ''){
 /*var sTimeRedir = 500; // fix probably double submit
 setTimeout(function(){
 window.location.href = '?#stopReSubmit';
+window.location.replace('?#stopReSubmit',);
 //location.hash = '#anchorIdFrom'; //https://stackoverflow.com/questions/15736763/window-location-href-not-working-when-href-is-same-page
 }, sTimeRedir);*/
 }

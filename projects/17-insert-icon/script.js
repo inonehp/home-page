@@ -203,7 +203,7 @@ let icons2 = [
 {"text":"screenshot", "text2":"📷"},
 //{"text":"project", "text2":"❖"}, {"text":"projects", "text2":"❖"},
 {"text":"project", "text2":"∷"},
-{"text":"projects", "text2":"∷"},
+{"text":"main", "text2":"∷"},
 {"text":"tpl", "text2":"📄"},
 {"text":"template", "text2":"📄"},
 {"text":"templates", "text2":"📄"},
@@ -362,8 +362,9 @@ let icon = String(item33["text2"]);
 
 
 
-var linkText2 = linkText.replaceAll("@", " @ ");
-linkText2 = linkText2 + " " + linkText2.slice(0, -1) + ' ' + linkText2 + 's' + ' ' + linkText2.replaceAll(".", " . ");
+var linkText2 = linkText;
+linkText2 = linkText2.replaceAll("@", " @ ");
+linkText2 = linkText2 + " " + linkText2.slice(0, -1) + " " + linkText2 + "s" + " " + linkText2.replaceAll(".", " . ");
 linkText2 = linkText2.replaceAll(",", " , ");
 /*linkText2 = linkText2.replaceAll(".", " . ");*/
 linkText2 = linkText2.replaceAll(":", " : ");
@@ -372,6 +373,7 @@ linkText2 = linkText2.replaceAll("<", " < ");
 linkText2 = linkText2.replaceAll("-", " - ");
 linkText2 = linkText2.replaceAll("(", " ( ");
 linkText2 = linkText2.replaceAll(")", " ) ");
+linkText2 = linkText2.replaceAll('"', ' " ');
 linkText2 = linkText2.replaceAll(`
 `, "");
 ;
@@ -394,8 +396,8 @@ counter++;
 }else if(mode == 'strict'&&counter == 0){
 // main, strict word
 if(
-(' '+linkText2.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
-||(' '+linkText2.replace(/\d+/g, '').toLowerCase()+' ').indexOf((' '+textIcon.replace(/\d+/g, '')+' ')) >= 0
+(' ' + linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf((' ' + textIcon.replace(/\d+/g, '') + '')) != -1
+||(' '+linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf((' ' + textIcon.replace(/\d+/g, '') + '')) != -1
 &&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
 icArr.push(icon);
 counter++;

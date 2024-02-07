@@ -9,7 +9,7 @@ Images, links, and other
     
 ---
   
-This is a static site that uses only: HTML, CSS and JavaScript, and you will find related projects on it.
+This is a static site using HTML, CSS and JavaScript, and you will find related projects on it. I try to make the pages responsive.
   
 ---
   

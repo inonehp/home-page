@@ -498,13 +498,6 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #AlternativeRock"
     },
     {
-        "text": "KLFM \u2013 Kunst & Liebe Frequency Machine",
-        "text2": "https:\/\/klfmorgborg.radioca.st\/;",
-        "text3": "mp3",
-        "url": "https:\/\/klfm.org\/",
-        "tag": "#radio #RadioMusic #indie"
-    },
-    {
         "text": "KPTZ 91.9 FM Radio Port Townsend",
         "text2": "https:\/\/kptz.streamguys1.com\/live-mp3",
         "text3": "mp3",

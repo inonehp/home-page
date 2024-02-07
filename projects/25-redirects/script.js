@@ -1,4 +1,4 @@
-// Redirect v.1.5.4
+// Redirect v.1.6.1
 // The script redirects the search query + command to another location.
 
 // conf
@@ -20,7 +20,9 @@ qr = qr.replaceAll(/%/g, "%25");
 qr = decodeURIComponent(qr);
 qr = qr.trim();
 window.location.href = hideFileNameExt(qr);
-window.location.href = window.location.href + '#stopRedir'; 
+window.location.href = window.location.href + '#stopRedir';
+//window.location.replace(hideFileNameExt(qr),);
+//window.location.replace(window.location.href + '#stopRedir',);
 }else{ qr = ''; }
 
 
@@ -673,6 +675,7 @@ sRedirUrl = random;
 if(sRedirUrl != ''&&sRedirUrl != undefined&&sRedirUrl != null){
 rUrlGet = hideFileNameExt(sRedirUrl);
 //window.location.href = "/projects/25-redirects/?rUrl="+sRedirUrl;
+//window.location.replace(/projects/25-redirects/?rUrl="+sRedirUrl,);
 }
 
 }
@@ -717,10 +720,12 @@ var sTimeRedirStatus = `<span class="small">redirection:</span> `+ sTimeRedir / 
 if((''+window.location+'').search("#stopRedir") == -1){
 setTimeout(function(){
 window.location.href = rUrlGet;
+//window.location.replace(rUrlGet,);
 }, sTimeRedir); 
 }
 
 window.location.href = window.location.href+'#stopRedir'; 
+//window.location.replace(window.location.href+'#stopRedir',);
 
 if ((rUrlGet).search("#stopRedir") != -1){
 sTimeRedirStatus = ' <span class="small">( redirection: off ) </span> ';
