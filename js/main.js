@@ -373,8 +373,8 @@ fuMPrintText('footer', `
 
 <div class="block tRight small padding2List">
 <details class="inlineBlock op">
-<summary class="pointer paddingList marginList" onclick="fuMScrollTo('fScrollToBottom')" title="Description and keywords">${fDescTitle}</summary>
 <div id="fDesc" class="block pre tLeft wrapperL padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
+<summary class="pointer paddingList marginList" title="Description and keywords">${fDescTitle}</summary>
 </details>
 </div>
 

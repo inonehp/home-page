@@ -1,4 +1,4 @@
-/* Main style v.12.16.1 */
+/* Main style v.12.17.0 */
 /* Responsive, mainly class-based */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
@@ -396,10 +396,10 @@ input, progress, select { accent-color: var(--d4);  }
 :root{ --gray: var(--c); --grey: var(--c); }
 .active:hover, .gray:hover, .grey:hover { color: var(--c4); filter: grayscale(0%); }
 
-.border, .borderList { border: 1px solid var(--d3); }
-.border2, .border2List { border: 1px dashed var(--d3); }
-.border3, .border3List { border: 1px solid var(--d4); }
-.border4, .border4List {  border: 1px dashed var(--d4);  }
+.border, .borderList { border: 1px solid var(--d2); }
+.border2, .border2List { border: 1px dashed var(--d2); }
+.border3, .border3List { border: 1px solid var(--d3); }
+.border4, .border4List {  border: 1px dashed var(--d3);  }
 
 .borderList, .border2List, .border3List, .border4List  { margin-bottom:  -2px; }
 
