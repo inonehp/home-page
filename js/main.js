@@ -1,4 +1,4 @@
-// Main js v.6.2.1
+// Main js v.6.2.2
 // For navigation, themes, etc
 
 // Settings v.1.0.0

@@ -1,11 +1,11 @@
-// v.1.2.2
+// v.1.2.3
 // Cookie Consent Popups
 // if "not selected": popup
 
 fuMPrintText('cookiePopup', `
 
 <div class="wrapper">
-<div class="cookiePopup post bg2 border margin tCenter shadow borderRadius3">
+<div class="cookiePopup post bg2 border margin tCenter shadow borderRadius2">
 <p class="h5 bold">Allow Cookie for third parties?</p>
 
 <p>This consent is required to improve the website, collect statistics, and show relevant advertisements.</p>
