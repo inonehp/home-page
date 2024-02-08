@@ -1,15 +1,5 @@
 /* v.1.0.2 */
 
-.content {
-  display: grid;
-  height: 100vh;
-  align-items: center;
-  background-color: #EBE8E4;
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', san-serif;
-}
-
 h1 {
 font-size: 4em;
 text-align: center;
@@ -17,7 +7,6 @@ position: relative;
 text-transform: uppercase;
 margin: 0;
 padding: 0;
-color: #275366;
 word-break: break-all;
 }
 
@@ -31,8 +20,8 @@ height: 50%;
 position: absolute;
 bottom: 0;
 width: 100%;
-background-color: #EBE8E4;
-color: #446699;
+background-color: var(--bg);
+color: var(--gray);
 }
 
 @media (max-width: 500px) {

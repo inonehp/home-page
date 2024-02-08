@@ -98,10 +98,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Background with lines pure css\n\nThis is the tpl for create projects. ",
-        "url": "\/mini-projects\/7-background-with-lines-pure-css\/index.html",
-        "tag": " #empty",
-        "id": "31ee1ea9e14b6a371f9277588ffd8cb7",
+        "text": "Background with linear gradient css\n\nBackground with linear-gradient CSS ",
+        "url": "\/mini-projects\/7-background-with-linear-gradient-css\/index.html",
+        "tag": " #CSS #project",
+        "id": "bb1748bd0e424fb72528c5b8e4b9bc0d",
         "time": "id"
     },
     {
@@ -109,13 +109,6 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/32-bento\/index.html",
         "tag": " #empty",
         "id": "9616975e89ec2a8298d97f44d66db939",
-        "time": "id"
-    },
-    {
-        "text": "Blank page\n\nRedirect blank page. ",
-        "url": "\/mini-projects\/1-blank-page\/index.html",
-        "tag": " #JavaScript #project",
-        "id": "7fa604a0c1f3c25a9a2a983ec2a49910",
         "time": "id"
     },
     {
@@ -165,6 +158,13 @@ var sitemapJsonVar = [
         "url": "\/chrome-extensions-list.html",
         "tag": " #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
         "id": "9718546b9d4f22fadc4c1bb0a4643f94",
+        "time": "id"
+    },
+    {
+        "text": "Circle\n\nCircles are placed on the page using HTML, CSS. ",
+        "url": "\/mini-projects\/7-circle\/index.html",
+        "tag": " #circle #wallpaper #CSS #project",
+        "id": "6fd22f144ad529ce9ecc72eb8a984528",
         "time": "id"
     },
     {
@@ -378,6 +378,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Light and dark design\n\nLight & dark design (Light & Dark) ",
+        "url": "\/mini-projects\/29-light-and-dark-design\/index.html",
+        "tag": " #cpc #design #WebDesign #CSS #HTML #project",
+        "id": "eef1a8a0e88bd992b98c48ec41e4c27f",
+        "time": "id"
+    },
+    {
         "text": "Links\n\nThe collection of links. P.S.: Google has a larger collection of websites. ",
         "url": "\/links.html",
         "tag": " #websites #links #bookmark #collection #page #main",
@@ -560,6 +567,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Pumpkin css\n\nCSS drawing of a pumpkin for Halloween. Drawing using only HTML and CSS. ",
+        "url": "\/css-art-data\/15-pumpkin-css\/index.html",
+        "tag": " #pumpkin #CSSArt #HTML #CSS #project",
+        "id": "c82bc94acec4935d78532c5a9e1fbfe0",
+        "time": "id"
+    },
+    {
         "text": "Pwa test\n\nTest PWA, PWA test. ",
         "url": "\/projects\/21-pwa-test\/index.html",
         "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
@@ -583,7 +597,7 @@ var sitemapJsonVar = [
     {
         "text": "Rain\n\nRain effect and animation using CSS and JavaScript ",
         "url": "\/projects\/38-rain\/index.html",
-        "tag": " #rain #random #drop #CPC #CSS #JavaScript #project",
+        "tag": " #rain #random #drop #CSS #JavaScript #project",
         "id": "09359d60c8adc83307afe02251e853ab",
         "time": "id"
     },
@@ -837,6 +851,13 @@ var sitemapJsonVar = [
         "url": "\/web-search.html",
         "tag": " #web #search #redirection #redirect #page #main",
         "id": "fa848671b775b5f8cf48077e1be17d1d",
+        "time": "id"
+    },
+    {
+        "text": "Woman css\n\nCSS drawing woman. ",
+        "url": "\/css-art-data\/32-woman-css\/index.html",
+        "tag": " #womain #CSSArt #HTML #CSS #project",
+        "id": "8e79a21fbc2d0fd7b9044a279aba0441",
         "time": "id"
     }
 ]

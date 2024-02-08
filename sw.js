@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.02.07";
+//var myCacheVersion = "v.1.2.2024.02.08";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.02.07").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.02.08").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -205,6 +205,12 @@ var fileListArr = ["/404.html",
 "/css-art-data/",
 "/css-art-data/12-realistic-old-windows-os-popup-window/",
 "/css-art-data/12-realistic-old-windows-os-popup-window/style.css",
+"/css-art-data/15-pumpkin-css/index.html",
+"/css-art-data/15-pumpkin-css/",
+"/css-art-data/15-pumpkin-css/style.css",
+"/css-art-data/32-woman-css/index.html",
+"/css-art-data/32-woman-css/",
+"/css-art-data/32-woman-css/style.css",
 "/css-art-data/9-computer-css/index.html",
 "/css-art-data/9-computer-css/",
 "/css-art-data/9-computer-css/style.css",
@@ -424,11 +430,8 @@ var fileListArr = ["/404.html",
 "/lists.html",
 "/main-list.html",
 "/manifest.webmanifest",
-"/mini-projects/1-blank-page/index.html",
-"/mini-projects/",
-"/mini-projects/1-blank-page/",
-"/mini-projects/1-blank-page/style.css",
 "/mini-projects/2-responsive-web-design/index.html",
+"/mini-projects/",
 "/mini-projects/2-responsive-web-design/",
 "/mini-projects/2-responsive-web-design/script.js",
 "/mini-projects/2-responsive-web-design/style.css",
@@ -438,6 +441,9 @@ var fileListArr = ["/404.html",
 "/mini-projects/28-button-blur-unblur/index.html",
 "/mini-projects/28-button-blur-unblur/",
 "/mini-projects/28-button-blur-unblur/style.css",
+"/mini-projects/29-light-and-dark-design/index.html",
+"/mini-projects/29-light-and-dark-design/",
+"/mini-projects/29-light-and-dark-design/style.css",
 "/mini-projects/31-sun-and-moon-css/index.html",
 "/mini-projects/31-sun-and-moon-css/",
 "/mini-projects/31-sun-and-moon-css/style.css",
@@ -453,9 +459,12 @@ var fileListArr = ["/404.html",
 "/mini-projects/6-animation-test/index.html",
 "/mini-projects/6-animation-test/",
 "/mini-projects/6-animation-test/style.css",
-"/mini-projects/7-background-with-lines-pure-css/index.html",
-"/mini-projects/7-background-with-lines-pure-css/",
-"/mini-projects/7-background-with-lines-pure-css/style.css",
+"/mini-projects/7-background-with-linear-gradient-css/index.html",
+"/mini-projects/7-background-with-linear-gradient-css/",
+"/mini-projects/7-background-with-linear-gradient-css/style.css",
+"/mini-projects/7-circle/index.html",
+"/mini-projects/7-circle/",
+"/mini-projects/7-circle/style.css",
 "/mini-projects/a-tpl-project-mini/index.html",
 "/mini-projects/a-tpl-project-mini/",
 "/mini-projects/a-tpl-project-mini/style.css",
@@ -874,7 +883,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.02.07")
+caches.open("v.1.2.2024.02.08")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -895,7 +904,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.02.07")
+caches.open("v.1.2.2024.02.08")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -921,7 +930,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.02.07"];
+  const cachesToKeep = ["v.1.2.2024.02.08"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

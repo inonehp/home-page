@@ -120,7 +120,7 @@ td { padding: 5px; }
 .wrapperS, .postS {  max-width: var(--wrapperS);  }
 .wrapperXs, .postXs {  max-width: var(--wrapperXs);  }
 
-.post, .post2, .post3, .postTV, .tv, .postXL, .postXL, .postL, .postM, .postS, .postXS {
+.post, .post2, .post3, .post4, .postTv, .tv, .postXl, .postL, .postM, .postS, .postXs {
 display: block;
 width: 100%;
 margin: 0 auto;
@@ -320,7 +320,7 @@ scroll-padding-top: 16px;
 .break2 { overflow: hidden; white-space: normal; word-break: break-all; }
 .borderRadius { border-radius: 3px; }
 .borderRadius2 { border-radius: 5px; }
-.borderRadius3 { border-radius: 15px; }
+.borderRadius3 { border-radius: 30px; }
 .borderRadius4 { border-radius: 50%; }
 
 

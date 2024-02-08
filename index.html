@@ -56,28 +56,43 @@ page, main,">
 <!--<link rel="manifest" href="manifest.webmanifest">-->
 
 <style>
+
 .siteName {
 position: relative;
 text-transform: uppercase;
-transform: rotate(-10deg);
+transform: rotate(-20deg);
+right: -10px;
+top: -30px;
+
 display: inline-block;
-margin-left: 10px;
+color: var(--randCAll);
+
+background: var(--bg);
+border-top: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
+padding-top: 1px;
 }
 
-.siteName::before {
-content: "HTML5 + CSS3 = PHP8";
-text-alight: right;
+.siteName::after {
+content: "HTML, CSS, JavaScript, and PHP";
+
 font-size: xx-small;
 display: inline-block;
-padding-top: 1px;
+
 position: absolute;
 background: var(--bg);
 width: 100%;
 height: 50%;
 text-align: center;
 left: 0;
-bottom: 0%;
+bottom: 0;
+
+color: var(--randCAll2);
 }
+
+@media(max-width: 180px) {
+.siteName, .siteName::after { position: static; transform: rotate(0deg); }
+}
+
 
 .headerBannerImg {
 padding-top: 10px;
@@ -171,7 +186,7 @@ z-index: -1;
 <span class="xSmall padding2List">updated: <span id="last-update"></span></span>
 </summary>
 <div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">
-Some deletions
+Some deletions (License conflict)
 
 <a class="brand tag2 block tCenter border light borderRadius2" href="/changelog.html" title="Update Log">more</a></div>
 </details>
@@ -521,44 +536,6 @@ window.location.href = "/projects/25-redirects/?q=" + q;
 
 </script>
 
-
-<script>
-// random color for sitename v.1.0.2
-// local, only this page
-
-//if(document.getElementById("siteName") != null){
-if(document.getElementsByTagName("h1") != null){
-
-const lColors = ["brand", "red", "orange", "yellow", "green", "blue", "indigo", "violet"];
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-
-let lRandColor = getRandomInt(lColors.length);
-lRandColor = lColors[lRandColor];
-
-let lRandColor2 = getRandomInt(lColors.length);
-lRandColor2 = lColors[lRandColor2];
-
-var element = document.getElementById("siteName");
-var element = document.getElementById("siteShortText");
-//element.classList.add(lRancColor);
-
-let lRandTone = fuMRandom(50, 100);
-let lRandTone2 = fuMRandom(50, 100);
-lRandColor = "color-mix(in srgb, var(--" + lRandColor + ") " + lRandTone + "%, transparent)";
-lRandColor2 = "color-mix(in srgb, var(--" + lRandColor2 + ") " + lRandTone2 + "%, transparent)";
-
-
-var styleElem = document.head.appendChild(document.createElement("style"));
-styleElem.innerHTML = `
-.siteName { color: ` + lRandColor + `; }
-.siteName::before  { color: ` + lRandColor2 + `; }
-`;
-
-}
-
-</script>
 
 
 

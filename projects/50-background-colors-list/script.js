@@ -60,6 +60,8 @@ let lAllBgColorsDark = {
 }
 
 
+let lGenClassCounter = 2;
+
 //if(varLTheme == 'light'){}
 let lAllBgColorsLightArr = Object.getOwnPropertyNames(lAllBgColorsLight);
 lAllBgColorsLightArr.forEach((item, index) => {
@@ -71,8 +73,18 @@ document.getElementById("lPrintBg").innerHTML += `
 
 `;
 }
+
+
+/*
+if(document.getElementById("lPrintBgClass") != null){
+document.getElementById("lPrintBgClass").innerHTML += `--bgL${lGenClassCounter}: ${lAllBgColorsLight[item]};
+`;
+lGenClassCounter++;
+}*/
+
 });
 
+lGenClassCounter = 2;
 
 //if(varLTheme == 'dark'){}
 let lAllBgColorsDarkArr2 = Object.getOwnPropertyNames(lAllBgColorsDark);
@@ -85,6 +97,14 @@ document.getElementById("lPrintBg2").innerHTML += `
 
 `;
 }
+
+/*
+if(document.getElementById("lPrintBgClass") != null){
+document.getElementById("lPrintBgClass").innerHTML += `--bgD${lGenClassCounter}: ${lAllBgColorsDark[item]};
+`;
+lGenClassCounter++;
+}*/
+
 });
 
 

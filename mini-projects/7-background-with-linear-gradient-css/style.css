@@ -1,24 +1,21 @@
-/* v.1.0.0 */
+/* v.1.1.0 */
 /* comment */
 
-
-body {
-text-align: center;
-background-color: #FCF8F0;
+.lPictureWrapper {
+width: 100%;
+height: 100%;
+max-width: 100vw;
+aspect-ratio: 1 / 1;
+position: relative;
+margin: 0 auto;
 }
 
-*, html, body { margin: 0; padding: 0; }
-
-body::before {
-content: '';
-
-width: 100vh;
-height: 100vh;
-
-max-width: 100vw;
-max-height: 100vw;
-
-position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+.lPicture {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
 
 z-index: -1;
 border: 1px solid red;

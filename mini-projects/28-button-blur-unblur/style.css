@@ -1,52 +1,18 @@
 /* 1.0.0 */
 
-body { margin: 0; padding: 0; }
-
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0; padding: 0;
-  font-family: Arial, sans-serif;
-text-align: center;
-}
-
 .lButton {
-display: flex;
-  align-items: center;
-  justify-content: center;
-position: relative;
-width: 300px;
 height: 100px;
-}
-button h1 {
-  position: relative;
-  color: #fff;
-
-}
-
-svg {
-filter: blur(1.5rem);
-
-
-position: absolute;
-top: 0;
-left: 0;
-border-radius: 15px;
+width: 100%;
+max-width: 300px;
+display: block;
+margin: 0 auto;
+filter: blur(.1rem);
+border-radius: 30px;
 }
 
-button {
-  margin: 0;
-padding: 0;
-border: 0;
-  border-radius: 15px;
+.lButton h1 { filter: blur(0); z-index: 2; }
+.lButton:hover {
+filter: blur(0);
 }
-
-button:hover {
-  cursor: pointer;
-  svg { filter: blur(0); }
-}
-body { background: seashell; }
 
 

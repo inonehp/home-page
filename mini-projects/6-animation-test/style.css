@@ -1,36 +1,5 @@
 /* v.1.0.1 */
 
-/*
-body {
-text-align: center;
-background-color: #FCF8F0;
-}
-
-html {
-display: grid;
-height: 100vh;
-width: 100vw;
-justify-content: center;
-align-items: safe center;
-align-self: safe center;
-}
-
-:root{
---red: #943328;
---orange: #D47900;
---yellow: #A88100;
---green: #29800C;
---blue: #1C88BA;
---indigo: #5B67E2;
---violet: #9E377C;
-}
-
-*/
-
-body { padding: 0; margin: 0; }
-* { box-sizing: border-box; }
-
-
 @keyframes ani { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } }
 @keyframes ani2 { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
 

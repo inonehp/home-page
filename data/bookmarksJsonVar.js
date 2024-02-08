@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "103",
+        "text": "CodePen Challenges",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/codepen.io\/challenges",
+        "tag": "#website #nice #challenge",
+        "time": 1707362631
+    },
+    {
         "id": "102",
         "text": "iCodeThis",
         "text2": "",
