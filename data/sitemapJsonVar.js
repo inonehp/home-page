@@ -602,6 +602,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Random color generator\n\nColor generator. Generates colors from a given list of colors. ",
+        "url": "\/projects\/51-random-color-generator\/index.html",
+        "tag": " #generarot #color #JavaScript #project",
+        "id": "af560c581778d569baec61cf9036942c",
+        "time": "id"
+    },
+    {
         "text": "Random symbol or password generator\n\nThe page generates random letters, symbols, and numbers that can be used for a password. ",
         "url": "\/projects\/23-random-symbol-or-password-generator\/index.html",
         "tag": " #symbol #random #generator #tool #letter #symbols #password #JavaScript #project",

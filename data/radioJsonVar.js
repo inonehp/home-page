@@ -547,13 +547,6 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #IndieRock"
     },
     {
-        "text": "Live 105.0 FM | Cesky rozhlas Vltava | \u010cRo | 27.1K Favorites | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/Cesky-rozhlas-Vltava-1050-s25461\/",
-        "tag": "#radio #cz"
-    },
-    {
         "text": "Live 1089 AM | talkSPORT | 1.8M Favorites | TuneIn",
         "text2": "",
         "text3": "",

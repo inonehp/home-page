@@ -389,7 +389,8 @@ input, progress, select { accent-color: var(--d4);  }
 .indigo:hover { color: var(--indigo2); }
 .violet { color: var(--violet); } .violet2 { color: var(--violet2); }
 .violet:hover { color: var(--violet2); }
-.active, .gray, .grey { color: var(--c); }
+.gray, .grey { color: var(--c); }
+.active { color: var(--c) !important; }
 :root{ --gray: var(--c); --grey: var(--c); }
 .active:hover, .gray:hover, .grey:hover { color: var(--c4); filter: grayscale(0%); }
 

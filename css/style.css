@@ -201,7 +201,7 @@ font-weight: bold;
 
 
 
-
+:nth-child(2n+1 of header nav a),
 :nth-child(2n+1 of body h1),
 :nth-child(2n+1 of body h2),
 :nth-child(2n+1 of body h3),
@@ -211,7 +211,7 @@ font-weight: bold;
 color: var(--randCAll);
 }
 
-
+:nth-child(2n+2 of header nav a),
 :nth-child(2n+2 of body h1),
 :nth-child(2n+2 of body h2),
 :nth-child(2n+2 of body h3),
@@ -221,7 +221,10 @@ color: var(--randCAll);
 color: var(--randCAll2);
 }
 
+nav a {
 
+letter-spacing: .5px;
+}
 /* bg image in main.js */
 
 

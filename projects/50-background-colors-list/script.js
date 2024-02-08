@@ -1,7 +1,7 @@
 // Bg list v.1.0.0
 
 
-function fuLPrintBgRun(varLTheme){
+function fuLPrintBgRun(){
 
 let lAllBgColorsLight = {
 "light blue":"#E9ECF0",
@@ -60,8 +60,9 @@ let lAllBgColorsDark = {
 }
 
 
-let lGenClassCounter = 2;
-
+if(document.getElementById("lPrintBgList") != null){
+document.getElementById("lPrintBgList").innerHTML += `light: `;
+}
 //if(varLTheme == 'light'){}
 let lAllBgColorsLightArr = Object.getOwnPropertyNames(lAllBgColorsLight);
 lAllBgColorsLightArr.forEach((item, index) => {
@@ -73,18 +74,16 @@ document.getElementById("lPrintBg").innerHTML += `
 
 `;
 }
-
-
-/*
-if(document.getElementById("lPrintBgClass") != null){
-document.getElementById("lPrintBgClass").innerHTML += `--bgL${lGenClassCounter}: ${lAllBgColorsLight[item]};
-`;
-lGenClassCounter++;
-}*/
-
+if(document.getElementById("lPrintBgList") != null){
+document.getElementById("lPrintBgList").innerHTML += `${lAllBgColorsLight[item]} `;
+}
 });
 
-lGenClassCounter = 2;
+
+
+if(document.getElementById("lPrintBgList") != null){
+document.getElementById("lPrintBgList").innerHTML += `<br><br>dark: `;
+}
 
 //if(varLTheme == 'dark'){}
 let lAllBgColorsDarkArr2 = Object.getOwnPropertyNames(lAllBgColorsDark);
@@ -98,13 +97,9 @@ document.getElementById("lPrintBg2").innerHTML += `
 `;
 }
 
-/*
-if(document.getElementById("lPrintBgClass") != null){
-document.getElementById("lPrintBgClass").innerHTML += `--bgD${lGenClassCounter}: ${lAllBgColorsDark[item]};
-`;
-lGenClassCounter++;
-}*/
-
+if(document.getElementById("lPrintBgList") != null){
+document.getElementById("lPrintBgList").innerHTML += `${lAllBgColorsDark[item]} `;
+}
 });
 
 
