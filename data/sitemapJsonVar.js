@@ -847,6 +847,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Vscode theme\n\nVisual Studio Code themes: light and dark. ",
+        "url": "\/vscode-theme.html",
+        "tag": " #Visual #Studio #Code #theme #color #flat #dark #light #VSCode #project #page #main",
+        "id": "b017f50abc75d1f4a8238c2005391cb7",
+        "time": "id"
+    },
+    {
         "text": "Weather\n\nA simple tiny card showing the current weather. ",
         "url": "\/projects\/37-weather\/index.html",
         "tag": " #weather #information #api #info #JavaScript #project #widget",

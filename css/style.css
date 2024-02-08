@@ -5,7 +5,7 @@
 nav form, nav input[type=search] { display: inline-block; }
 nav form { width: 100%; max-width: 130px; vertical-align: middle; }
 nav input[type=search] { padding: 5px 9px; min-height: 10px; }
-nav form ::placeholder { font-size: x-small; }
+header nav form ::placeholder { font-size: x-small; }
 
 
 .menu {
@@ -209,8 +209,8 @@ color: var(--randCAll);
 color: var(--randCAll2);
 }
 
-nav a {
-letter-spacing: .5px;
+header nav nav a:hover {
+color: var(--b2); 
 }
 /* bg image in main.js */
 

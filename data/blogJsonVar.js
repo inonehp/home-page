@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "230",
+        "text": "HUBBLE on X: \"Our #HubbleTopImage features the dawn of a galactic collision \ud83c\udf0c. NGC 5256 is not one galaxy but two, in the process of a galactic collision. Read more: https:\/\/t.co\/JcDmCao3fz \ud83d\udcf7 @NASA , @ESA https:\/\/t.co\/nO4nDOoQpd\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1755547283754537449",
+        "tag": "#space",
+        "time": 1707401122
+    },
+    {
         "id": "229",
         "text": "Web Design Curation Websites for Inspiration : r\/web_design",
         "text2": "",
