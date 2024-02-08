@@ -1,4 +1,4 @@
-// Main js v.6.2.2
+// Main js v.6.2.4
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -138,8 +138,9 @@ document.getElementById(id).innerHTML = text;
 
 
 //<!-- Nav v.1.0.0 -->
+//<!-- page, main.js, noscript.css -->
+// for other pages where navigation is poor
 
-// nav links for second nav
 conf["confMenuItems"] = [
 {"url":"/main-list.html", "name":"Main", "title":"Main"},
 {"url":"/lists.html", "name":"Lists", "title":"Lists"},
@@ -175,8 +176,9 @@ if(conf["confMenu"] == "on"){
 if(document.getElementById("secondNav") != null){
 document.getElementById("secondNav").innerHTML = `
 
-<!-- Nav v.1.0.0 -->
-<div class="wrapper3 topNav">
+<!-- Nav v.1.1.0 -->
+<!-- page, main js, noscript.css -->
+<div class="wrapper3 navTop">
 <nav>
 <a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
@@ -273,11 +275,11 @@ document.getElementsByTagName("nav")[0].innerHTML += `
 /* mobile dropdown menu */
 
 ${cssMedia} {
-.topNav nav { display: block; }
+.navTop nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 
-.topNav nav {
+.navTop nav {
 justify-content: left;
 align-items: center;
 display: block;
@@ -497,10 +499,11 @@ if(document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = '<a href="/theme.html">theme: ' + conf["confTheme"] + ' (' + theme + ')</a>';
 }
 
-// dynamic
+// fix and dynamic
 fuMThemeEmbed();
 fuMBg();
 
+// fix
 if(conf["confThemeEmbed"] == 'dark'){
 fuMPrintText('style', `
 <style>

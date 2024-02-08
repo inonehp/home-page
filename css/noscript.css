@@ -103,15 +103,15 @@ background-attachment: fixed;
 }
 
 
-/* Navigation only CSS part */
-/* Dropdown menu for Nav (if JS off) v.1.1.0 */
+/* Nav  v.1.1.0 */
+/*//<!-- page, main.js, noscript.css -->*/
 
 @media(max-width: 800px){
-.topNav nav { display: block; }
+.navTop nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 
-.topNav nav {
+.navTop nav {
 justify-content: left;
 align-items: center;
 display: block;
@@ -138,9 +138,8 @@ top: 0;
 /* end CSS  dropdown menu */
 
 .menu a { justify-content: center; text-align: center; }
+/* end Nav */
 
-/* end Dropdown */
-/* end Navigation */
 
 
 @media (prefers-color-scheme: dark) {

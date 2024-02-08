@@ -266,6 +266,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Flower personal one page website template auto light dark flat mini abc\n\nWebsite template description. ",
+        "url": "\/templates-data\/17-flower-personal-one-page-website-template-auto-light-dark-flat-mini-abc\/index.html",
+        "tag": " #WebDesign #template",
+        "id": "595e9faee96cc06ec53fd268536e1bec",
+        "time": "id"
+    },
+    {
         "text": "Game dice\n\nGame dice. ",
         "url": "\/projects\/9-game-dice\/index.html",
         "tag": " #game #dice #HTML5 #JavaScript #WebApp #project",
@@ -480,13 +487,6 @@ var sitemapJsonVar = [
         "url": "\/pages.html",
         "tag": " #all #pages #list #lists #projects #menu #page #main",
         "id": "5c3fd2be90ee6c4e4d4595632b38790f",
-        "time": "id"
-    },
-    {
-        "text": "Personal one page website template flower auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/17-personal-one-page-website-template-flower-auto-light-dark-flat-mini-abc\/index.html",
-        "tag": " #WebDesign #template",
-        "id": "0a8e50d74722f4114ea7bbf14ca4abb0",
         "time": "id"
     },
     {
