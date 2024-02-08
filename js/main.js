@@ -1,4 +1,4 @@
-// Main js v.6.2.4
+// Main js v.6.2.5
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -962,111 +962,6 @@ function reload(){ location.reload(true); }
 
 
 
-/*
-//fix
-function hideFileNameExt(url){
-document.addEventListener("DOMContentLoaded", (event) => {
-return url;
-});
-
-}
-*/
-
-// Hide page extenstion v.1.0.0
-function hideFileNameExt(url){
-var newUrl = url;
-if(conf["confHideLinkExt"] == "on"){
-if(newUrl != null&&newUrl != undefined){
-if(newUrl[0] == "/"||newUrl[0] == "."||newUrl.indexOf(location.hostname) != -1){
-var arr = (conf["confLinkExtList"]).split(',');
-arr.forEach((element) => {
-newUrl = (newUrl).replaceAll(element, '');
-});
-return newUrl;
-}else{ return url; }
-}else{ return url; }
-}else{ return url; }
-}
-// end fu hide file ext
-
-
-
-function hideFileNameExt2(){
-
-if(conf["confHideLinkExt"] == "on"){
-document.addEventListener("DOMContentLoaded", (event) => {
-var newUrl = '';
-
-
-// all links
-var allLinks = document.querySelectorAll("a");
-allLinks.forEach((item, index) => {
-if(item != ""){
-
-try{
-var url = new URL(item);
-newUrl = item.href;
-if(url.hostname == location.hostname){
-//console.log(newUrl);
-var arr = (conf["confLinkExtList"]).split(',');
-arr.forEach((element) => {
-newUrl = newUrl.replaceAll(element, "");
-});
-return document.querySelectorAll("a")[index].href = newUrl;
-}
-}catch(error){ console.log(error + ":" + item); }
-
-}
-});
-
-// all form
-var allForm = document.querySelectorAll("form");
-allForm.forEach((item, index) => {
-if(item != ""){
-
-try{
-var url = new URL(item.action);
-newUrl = item.action;
-if(url.hostname == location.hostname){
-//console.log(newUrl);
-var arr = conf["confLinkExtList"].split(',');
-arr.forEach((element) => {
-newUrl = newUrl.replaceAll(element, "");
-});
-return document.querySelectorAll("form")[index].action = newUrl;
-}
-}catch(error){ console.log(error + ":" + item); }
-
-}
-});
-
-// all ifarame
-var allForm = document.querySelectorAll("iframe");
-allForm.forEach((item, index) => {
-if(item != ""){
-
-try{
-var url = new URL(item.src);
-newUrl = item.src;
-if(url.hostname == location.hostname){
-//console.log(newUrl);
-var arr = conf["confLinkExtList"].split(',');
-arr.forEach((element) => {
-newUrl = newUrl.replaceAll(element, "");
-});
-return document.querySelectorAll("iframe")[index].src = newUrl;
-}
-}catch(error){ console.log(error + ":" + item); }
-
-}
-});
-
-
-});
-}
-}
-
-hideFileNameExt2();
 
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -1156,6 +1051,135 @@ fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">Cookie: au
 
 
 
+
+
+
+
+/*
+//fix
+function hideFileNameExt(url){
+document.addEventListener("DOMContentLoaded", (event) => {
+return url;
+});
+
+}
+*/
+
+// Hide page extenstion v.1.0.0
+function hideFileNameExt(url){
+var newUrl = url;
+if(conf["confHideLinkExt"] == "on"){
+if(newUrl != null&&newUrl != undefined){
+if(newUrl[0] == "/"||newUrl[0] == "."||newUrl.indexOf(location.hostname) != -1){
+var arr = (conf["confLinkExtList"]).split(',');
+arr.forEach((element) => {
+newUrl = (newUrl).replaceAll(element, '');
+});
+return newUrl;
+}else{ return url; }
+}else{ return url; }
+}else{ return url; }
+}
+// end fu hide file ext
+
+
+
+function hideFileNameExt2(){
+
+if(conf["confHideLinkExt"] == "on"){
+//document.addEventListener("DOMContentLoaded", (event) => {});
+var newUrl = '';
+
+
+// all links
+var allLinks = document.querySelectorAll("a");
+allLinks.forEach((item, index) => {
+if(item != ""){
+
+try{
+var url = new URL(item);
+newUrl = item.href;
+if(url.hostname == location.hostname){
+//console.log(newUrl);
+var arr = (conf["confLinkExtList"]).split(',');
+arr.forEach((element) => {
+newUrl = newUrl.replaceAll(element, "");
+});
+return document.querySelectorAll("a")[index].href = newUrl;
+}
+}catch(error){ console.log(error + ":" + item); }
+
+}
+});
+
+// all form
+var allForm = document.querySelectorAll("form");
+allForm.forEach((item, index) => {
+if(item != ""){
+
+try{
+var url = new URL(item.action);
+newUrl = item.action;
+if(url.hostname == location.hostname){
+//console.log(newUrl);
+var arr = conf["confLinkExtList"].split(',');
+arr.forEach((element) => {
+newUrl = newUrl.replaceAll(element, "");
+});
+return document.querySelectorAll("form")[index].action = newUrl;
+}
+}catch(error){ console.log(error + ":" + item); }
+
+}
+});
+
+// all ifarame
+var allForm = document.querySelectorAll("iframe");
+allForm.forEach((item, index) => {
+if(item != ""){
+
+try{
+var url = new URL(item.src);
+newUrl = item.src;
+if(url.hostname == location.hostname){
+//console.log(newUrl);
+var arr = conf["confLinkExtList"].split(',');
+arr.forEach((element) => {
+newUrl = newUrl.replaceAll(element, "");
+});
+return document.querySelectorAll("iframe")[index].src = newUrl;
+}
+}catch(error){ console.log(error + ":" + item); }
+
+}
+});
+
+
+
+}
+}
+
+// in embed
+//hideFileNameExt2();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Embed script list v.1.0.0
 if(document.getElementById(conf["confIdEmbedScript"]) != null){
 
@@ -1227,14 +1251,13 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 }
 
 
+// fix fu hide
+hideFileNameExt2();
 }
 
 
 }
 // end Embed script list
-
-
-
 
 
 

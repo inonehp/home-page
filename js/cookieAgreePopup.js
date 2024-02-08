@@ -1,4 +1,4 @@
-// v.1.2.3
+// v.1.2.4
 // Cookie Consent Popups
 // if "not selected": popup
 
@@ -31,8 +31,7 @@ z-index: 99;
 
 .cookiePopup { max-width: calc(100% - (var(--bodyP) * 2)); margin: 0 auto; }
 #cookiePopup button { width: 120px; max-width: 100%; }
-.cookieBtnYes { border: 1px solid var(--green); }
-.cookieBtnNo { border: 1px solid var(--c); }
+.cookieBtnYes { border: 1px double var(--green); }
 </style>
 
 `);
