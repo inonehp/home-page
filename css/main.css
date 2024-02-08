@@ -322,8 +322,8 @@ scroll-padding-top: 16px;
 .break2 { overflow: hidden; white-space: normal; word-break: break-all; }
 .borderRadius { border-radius: 3px; }
 .borderRadius2 { border-radius: 5px; }
-.borderRadius3 { border-radius: 30px; }
-.borderRadius4 { border-radius: 50%; }
+.borderRadius3 { border-radius: 15px; }
+.borderRadius4 { border-radius: 45px; }
 
 
 /* ads */
