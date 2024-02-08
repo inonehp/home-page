@@ -73,6 +73,18 @@ mRandColorsPrint += `
 .randCAll { color: var(--randCAll); }
 .randCAll2 { color: var(--randCAll2); }
 
+:nth-child(2n+1 of header nav a){
+color: var(--randCAll);
+}
+
+:nth-child(2n+2 of header nav a){
+color: var(--randCAll2);
+}
+
+.topNav a:hover {
+color: var(--b2); 
+}
+
 `;
 
 

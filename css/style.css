@@ -201,17 +201,6 @@ font-weight: bold;
 
 
 
-:nth-child(2n+1 of header nav a){
-color: var(--randCAll);
-}
-
-:nth-child(2n+2 of header nav a){
-color: var(--randCAll2);
-}
-
-header nav nav a:hover {
-color: var(--b2); 
-}
 /* bg image in main.js */
 
 

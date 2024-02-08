@@ -1,4 +1,4 @@
-/* Main style v.12.16.0 */
+/* Main style v.12.16.1 */
 /* Responsive, mainly class-based */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
@@ -344,7 +344,7 @@ border-radius: 5px;
 /* colors */
 body{ background-color: var(--bg); color :var(--c3); }
 
-a, a:link { color: var(--c2); }
+a { color: var(--c2); }
 a:hover { color: var(--c4); } 
 
 hr{ border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
@@ -376,7 +376,7 @@ input, progress, select { accent-color: var(--d4);  }
 
 .brand, .brand button{ color: var(--brand); }
 .brand2 { color: var(--brand2); }
-.brand:hover, .brand button:hover { color: var(--b4); }
+.brand:hover, .brand button:hover { color: var(--brand2); }
 .red { color: var(--red); } .red2 { color: var(--red2); }
 .red:hover { color: var(--red2); }
 .orange{ color: var(--orange); } .orange2 { color: var(--orange2); }
