@@ -1,22 +1,5 @@
 /* 1.1.0 */
 
-body, html {
-height: 100%;
-margin: 0;
-padding: 0;
-font-family: Arial;
-background: #F0F0F0;
-color: #000;
-
-/*background-image: 
-url("https://unsplash.com/photos/7wBFsHWQDlk/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzAzMjExMjk1fA&force=true&w=1920");
-background-size: cover;
-background: #2D2D2E;
-color: #fff;
-*/
-}
-
-
 p, h1 { padding: 15px; margin: 0; }
 .lBlock { margin-bottom: 40px;}
 

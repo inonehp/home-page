@@ -21,14 +21,15 @@ max-height: 10vh;
 position: absolute;
 bottom: 0;
 left: 0;
-z-index: 3;
+z-index: 1;
 padding: 3%;
 }
 
 .textAnav {
 position: absolute;
-right: 0;
-z-index: 4;
+right: 10px;
+bottom: 5px;
+z-index: 2;
 }
 
 /* fixMe firefox mobile height and scroll */

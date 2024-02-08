@@ -2,13 +2,25 @@
 /* codepen Round #cpc */
 
 /* https://www.w3schools.com/howto/howto_css_circles.asp */
+
+.lPicture {
+width: 100%;
+height: 100%;
+max-width: 400px;
+aspect-ratio: 1 / 1;
+position: relative;
+margin: 0 auto;
+}
+
 .dot {
 border-radius: 50%;
 position: absolute;
 aspect-ratio: 1 / 1; /* https://stackoverflow.com/questions/21799852/css-width-same-as-height */
 }
 
-body { background-color: #d0ceb0; }
+body {
+background-color: #d0ceb0;
+}
 
 .dot11, .dot12, .dot13 { background-color: #DAD8C4; z-index: -1; }
 @media (orientation: landscape) { 

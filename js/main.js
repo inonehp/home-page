@@ -390,22 +390,21 @@ fuMPrintText('footer', `
 
 <!--<span id="fAds" title="Advertising Settings"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
 
-<span title="Page about" style="padding-left: 0;"><a href="/about.html">About</a></span>
+<span style="padding-left: 0;" title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
+
+<span title="News"><a href="/rss.xml">RSS</a></span>
 
 <span id="fSettings" title="Settings"><a href="/settings.html">Settings</a></span>
 
 <span id="fPrivacy" title="Cookie Settings"><a href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 
-<span title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
-
-<span title="News"><a href="/rss.xml">RSS</a></span>
-
 <span title="Site Code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
 
-<span title="License (other on the About page)">License:
-<a rel="license" title="main license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+<span title="License (other on the About page)"><a rel="license" title="main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
 <a rel="license" title="Other on the about page" href="/about.html#license">Other Licenses *</a>
 </span>
+
+<span title="Page about"><a href="/about.html">About</a></span>
 
 <span title="Hosting Service" style="padding-right: 0;"><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
 

@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "229",
+        "text": "Web Design Curation Websites for Inspiration : r\/web_design",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/web_design\/comments\/1al4tv5\/web_design_curation_websites_for_inspiration\/",
+        "tag": "#links #inspiration #website",
+        "time": 1707383853
+    },
+    {
         "id": "228",
         "text": "Simon Leigh on X: \"Day 16 of 30: Design a hero section for an AI company. https:\/\/t.co\/yaPHS0nU3s\" \/ X",
         "text2": "",
