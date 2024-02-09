@@ -1,4 +1,4 @@
-// Local main index script v.1.0.1
+// Local main index script v.1.0.2
 
 
 //fix
@@ -73,11 +73,11 @@ mRandColorsPrint += `
 .randCAll { color: var(--randCAll); }
 .randCAll2 { color: var(--randCAll2); }
 
-:nth-child(2n+1 of header nav a){
+:nth-child(2n+1 of .navTop a){
 color: var(--randCAll);
 }
 
-:nth-child(2n+2 of header nav a){
+:nth-child(2n+2 of .navTop a){
 color: var(--randCAll2);
 }
 
@@ -86,7 +86,6 @@ color: var(--b2);
 }
 
 `;
-
 
 var styleElem = document.head.appendChild(document.createElement("style"));
 styleElem.innerHTML = mRandColorsPrint;
