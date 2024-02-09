@@ -1,11 +1,11 @@
-// v.1.2.4
+// v.1.2.5
 // Cookie Consent Popups
 // if "not selected": popup
 
 fuMPrintText('cookiePopup', `
 
 <div class="wrapper">
-<div class="cookiePopup post bg2 border margin tCenter shadow borderRadius2">
+<div class="cookiePopup post bg2 border3 margin tCenter shadow borderRadius2">
 <p class="h5 bold">Allow Cookie for third parties?</p>
 
 <p>This consent is required to improve the website, collect statistics, and show relevant advertisements.</p>
@@ -13,8 +13,8 @@ fuMPrintText('cookiePopup', `
 <div class="padding2List"></div>
 
 <p>
-<button class="bold button light3 border margin2List cookieBtnYes borderRadius2" onclick="cookiePopup('on')">Yes</button>
-<button class="bold button light3 border margin2List cookieBtnNo borderRadius2"  onclick="cookiePopup('off')">No</button>
+<button class="bold button light3 border3 margin2List cookieBtnYes borderRadius2" onclick="cookiePopup('on')">Yes</button>
+<button class="bold button light3 border3 margin2List cookieBtnNo borderRadius2"  onclick="cookiePopup('off')">No</button>
 </p>
 </div>
 </div>

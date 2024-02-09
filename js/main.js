@@ -1,4 +1,4 @@
-// Main js v.6.2.6
+// Main js v.6.2.7
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -1251,8 +1251,10 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 }
 
 
+
 // fix fu hide
 hideFileNameExt2();
+
 }
 
 
@@ -1262,5 +1264,6 @@ hideFileNameExt2();
 
 
 
-
+// fix fu hide
+hideFileNameExt2();
 
