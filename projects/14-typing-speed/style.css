@@ -62,10 +62,10 @@ padding: 0;
 .gridStat { grid-template-columns: 1fr; }
 }
 
+/*
 .typeUnderline {
-border-bottom: 1px dotted var(--c);
-padding-bottom: 0.7px;
-}
+
+}*/
 
 
 

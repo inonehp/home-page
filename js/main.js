@@ -1,4 +1,4 @@
-// Main js v.6.2.5
+// Main js v.6.2.6
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -624,7 +624,7 @@ var themeListOption2 = [
 "rand-o",
 "rand-d",
 "rand-od",
-"rand-h-contrast",
+//"rand-h-contrast",
 "rand-best",
 
 "rand-all-l",
