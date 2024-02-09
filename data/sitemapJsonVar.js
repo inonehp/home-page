@@ -105,10 +105,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Bento\n\nEmpty. ",
-        "url": "\/mini-projects\/32-bento\/index.html",
-        "tag": " #empty",
-        "id": "9616975e89ec2a8298d97f44d66db939",
+        "text": "Bento responsive flex grid\n\nResponsive grid test. ",
+        "url": "\/mini-projects\/32-bento-responsive-flex-grid\/index.html",
+        "tag": " #grid #responsive #test #project",
+        "id": "28112908f180b19986fb0a5ab038acbd",
         "time": "id"
     },
     {

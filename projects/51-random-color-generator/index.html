@@ -52,12 +52,22 @@ generarot, color, JavaScript, project,
 <div class="content">
 
 <h1 class="tCenter op">Random color generator</h1>
-<div class="tCenter padding2 small op">in test</div>
+<div class="tCenter padding2 small op">in progress</div>
 
 <div class="wrapper2">
-<div id="result"  class="flexBlock bold"></div>
 
+<label class="op tLeft small">Input 2 or more HTML color names, separated by a comma or space:</label>
+<form action="index.html" style="width: 100%;">
 
+<textarea id="lTextarea" rows="3" id="text" class="result padding2"  name="q" placeholder="example: 1.5 10 20 3 5" autofocus="autofocus"></textarea>
+<input class="op small" type="submit">
+</form>
+
+<div class="margin2 padding2"></div>
+
+<div id="result"  class="flexBlock"></div>
+
+<div class="margin2 padding2"></div>
 <div class="padding3 border margin w100 bg2">
 how to use: body { color: color-mix(in srgb, orange 67%, lime); }
 </div>
@@ -79,6 +89,7 @@ how to use: body { color: color-mix(in srgb, orange 67%, lime); }
 </script>
 
 <script src="script.js"></script>
+<script src="demo.js"></script>
 
 </body>
 </html>

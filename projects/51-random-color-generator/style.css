@@ -1,22 +1,25 @@
-/* bento v.1.1.0 */
+/* bento v.1.2.0 */
+
 
 
 .item {
-display: inline-flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-padding: .20em .5em;
-min-width: 30%;
-max-width: 100%;
 flex: 1 0 auto;
 justify-content: center;
-margin: .5px;
+align-items: center;
+/*align-self: stretch;*/
+
+width: auto;
+width: 120px;
+max-width: 100%;
+min-width: 1fr;
+gap: 0;
+
+column-fill: balance-all;
 }
 
 .flexBlock {
 display: flex;
 flex: 1 0 auto;
 flex-wrap: wrap;
-gap: 0;
+gap: 10px;
 }

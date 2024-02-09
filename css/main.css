@@ -278,6 +278,8 @@ right: 0;
 .itemHeight3 { min-height: var(--itemHeight3); }
 .itemHeight4 { min-height: var(--itemHeight4); }
 
+.sameSize { aspect-ratio: 1 / 1; }
+
 .capitalize::first-letter, .capitalize a::first-letter { text-transform: capitalize; }
 .uppercase, .uppercase a { text-transform: uppercase; }
 .lowercase, .lowercase a { text-transform: lowercase; }

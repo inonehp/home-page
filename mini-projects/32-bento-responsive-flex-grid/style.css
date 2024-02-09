@@ -1,0 +1,70 @@
+/* bento v.1.3.0  test */
+
+
+
+.item {
+flex: 1 0 auto;
+justify-content: center;
+align-items: center;
+/*align-self: stretch;*/
+
+width: auto;
+max-width: 100%;
+min-width: 1fr;
+gap: 0;
+}
+
+.flexBlock {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+
+/*
+.item {
+display: inline-flex;
+flex: 1 0 auto;
+margin: 0;
+padding: 9px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+
+width: auto;
+max-width: 100%;
+min-width: 1fr;
+}
+
+.flexBlock {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 1px;
+}*/
+
+
+
+/* old
+.item {
+display: inline-flex;
+flex: 1 0 auto;
+margin: 0;
+padding: 9px;
+justify-content: center;
+align-items: center;
+
+
+width: 1fr;
+max-width: 100%;
+min-width: 1fr;
+}
+
+.flexBlock {
+display: flex;
+flex: 1 0 auto;
+flex-wrap: wrap;
+gap: 5px;
+}
+*/
