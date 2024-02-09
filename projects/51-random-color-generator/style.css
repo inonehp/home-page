@@ -14,7 +14,6 @@ max-width: 100%;
 min-width: 1fr;
 gap: 0;
 
-column-fill: balance-all;
 }
 
 .flexBlock {
@@ -22,4 +21,12 @@ display: flex;
 flex: 1 0 auto;
 flex-wrap: wrap;
 gap: 10px;
+}
+
+
+
+.lTransparentBg {
+background-image: url("/img/transparent.svg");
+background-repeat: repeat;
+background-size: 30px 30px;
 }

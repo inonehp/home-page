@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.2.0
 // gen HTML result
 
 
@@ -27,7 +27,8 @@ if(document.getElementById('lTextarea') != null){
 document.getElementById('lTextarea').value = q;
 }
 }else{
-q = "#000, #fff, red,orange,yellow,green,blue,indigo,violet,lime,black,white,transparent";
+//https://en.wikipedia.org/wiki/Web_colors
+q = "transparent,white,silver,gray,black,red,maroon,yellow,olive,lime,green,aqua,teal,blue,navy,fuchsia,purple";
 }
 
 lDemo(q);
@@ -59,7 +60,9 @@ print = `
 
 <div class="item">
 <div class="borderRadius2 light3 shadow ">
+<div class="lTransparentBg">
 <div style="width: 100%; height: 90px; background-color: ${randColor};"></div>
+</div>
 <div class="border padding2" style="background-color: var(--l3); color: ${randColor};">Text test <b>Text test</b></div>
 <div class="border padding2" style="background-color: var(--d3); color: ${randColor};">Text test <b>Text test</b></div>
 <div class="padding2 small" style="">${randColor}</div>

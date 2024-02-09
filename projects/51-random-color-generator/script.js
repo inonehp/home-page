@@ -1,19 +1,26 @@
-// Random color generator v.1.0.0
+// Random color generator v.1.1.0
 
 
 function fuRandomColorGenerator(colorListCommaSeparator){
 
 var delimiter = [",", " ", "\r\n", "\r", "\n"];
-delimiter.forEach((value) => {
-//document.getElementById("printDelimiter").innerHTML = ` , + | space, line break ( ) [ ]`; 
-});
 
+colorListCommaSeparator = colorListCommaSeparator.replaceAll(" ", ",");
+colorListCommaSeparator = colorListCommaSeparator.replaceAll(",,", ",");
 colorListCommaSeparator = colorListCommaSeparator.replaceAll(" ", ",");
 delimiter.forEach((value) => {
 colorListCommaSeparator = colorListCommaSeparator.replaceAll(value, ",");
 });
 
+//rm empty
+let colorListCommaSeparator2 = '';
+(colorListCommaSeparator.split(',')).forEach((value) => {
+if(value.trim() != ''){ colorListCommaSeparator2 += value.trim() + ','; }
+});
+colorListCommaSeparator = colorListCommaSeparator2.slice(0, -1);
 let lColorList = colorListCommaSeparator.split(",");
+
+
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
@@ -48,7 +55,7 @@ return `color-mix(in srgb, ${lRandColor} ${lRandTone}%, ${lRandColor2})`;
 
 
 }
-console.log(fuRandomColorGenerator("lime,orange"));
+//console.log(fuRandomColorGenerator("lime,orange"));
 // resutl: color-mix(in srgb, orange 67%, lime)
 // how to use: body { color: color-mix(in srgb, orange 67%, lime); }
 
