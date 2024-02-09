@@ -168,6 +168,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Color generator random\n\nColor generator. Generates colors from a given list of colors. ",
+        "url": "\/projects\/51-color-generator-random\/index.html",
+        "tag": " #generarot #color #JavaScript #project",
+        "id": "b3f01cb4204b8f30d51d4e2f61094a06",
+        "time": "id"
+    },
+    {
         "text": "Color picker\n\nColor picker. ",
         "url": "\/projects\/4-color-picker\/index.html",
         "tag": " #color #tool #picker #HTML #project",
@@ -599,13 +606,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/38-rain\/index.html",
         "tag": " #rain #random #drop #CSS #JavaScript #project",
         "id": "09359d60c8adc83307afe02251e853ab",
-        "time": "id"
-    },
-    {
-        "text": "Random color generator\n\nColor generator. Generates colors from a given list of colors. ",
-        "url": "\/projects\/51-random-color-generator\/index.html",
-        "tag": " #generarot #color #JavaScript #project",
-        "id": "af560c581778d569baec61cf9036942c",
         "time": "id"
     },
     {
