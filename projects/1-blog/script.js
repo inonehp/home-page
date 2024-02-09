@@ -1,4 +1,4 @@
-// Keep v.2.8.5
+// Keep v.2.8.6
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
 
@@ -963,8 +963,8 @@ if(mode == 'search'){
 print += `
 <div class="wrapper">
 <div class="block tRight">
-<a class="border borderRadius2 button light" href="#" onclick="history.back()" title="history back">back</a>
-<a class="border borderRadius2 button light" href="?">main</a>
+<a class="border3 borderRadius2 button light" href="#" onclick="history.back()" title="history back">back</a>
+<a class="border3 borderRadius2 button light" href="?">main</a>
 </div>
 </div>
 `;
@@ -1241,14 +1241,14 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light2 border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize} !important;">${printTag}</a>
+<a class="tag light2 border3 borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize} !important;">${printTag}</a>
 
 `;
 }else{
 
 tagList += `
 
-<a class="tag light2 border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">${printTag}</a>
+<a class="tag light2 border3 borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">${printTag}</a>
 
 `;
 }
@@ -1261,7 +1261,7 @@ hlClassList2.forEach(function(item){
 let hlClass = 'hlClass'+item;
 item = item.toUpperCase();
 hlClassList += `
-<a class="tag light2 border borderRadius ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
+<a class="tag light2 border3 borderRadius ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
 `;
 });
 
@@ -1320,7 +1320,7 @@ var time = year + '-' + month2 + '-' + date;
 return time;
 }
 var datePublished = timeConverter(time);
-time = `<a class="tag brand light border2 op borderRadius2 small" href="${scriptDir}?id=${id}"><time itemprop="datePublished" datetime="`+datePublished+`">`+fuPostTime(time)+`</time></a>`;
+time = `<a class="tag brand light border4 op borderRadius2 small" href="${scriptDir}?id=${id}"><time itemprop="datePublished" datetime="`+datePublished+`">`+fuPostTime(time)+`</time></a>`;
 
 var lPost = '';
 
@@ -1352,12 +1352,12 @@ postFooterPadding = ' <div class="block padding2List"></div> ';
 
 
 //if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ lPost = `<a href="${scriptDir}?id=${id}"><h1>${post}</h1></a>`; } // without highlight (embed)
-if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time = `<a class="tag brand light border2 op borderRadius2 small"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight
+if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time = `<a class="tag brand light border4 op borderRadius2 small"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight
 
 return `
 
 <!-- post -->
-<div class="` + postClass + ` bgList borderList" id="` + id + `">
+<div class="` + postClass + ` bgList border3List" id="` + id + `">
 
 <div class="block padding2List bold capitalize"><a href="/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>
 
@@ -1800,7 +1800,7 @@ item222 = `<a class="brand" href="${item}">${item}</a>`;
 //add tag
 if(item[0] == '#'){
 item222 = item.replaceAll(/#/g, "");
-item222 = `<a class="tag brand light border2 op borderRadius2 small" href="${scriptDir}?q=%23${item222}">#${item222}</a>`;
+item222 = `<a class="tag brand light border4 op borderRadius2 small" href="${scriptDir}?q=%23${item222}">#${item222}</a>`;
 }
 
 if(item[0] == '@'){
@@ -2179,7 +2179,7 @@ break;
 
 /*
 if(item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1){ 
-embed = `<a href="${item}"><img class="border" src="${item}" width=""></a>`
+embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 }*/
 
 if(embedStatus != 'off'){
@@ -2300,7 +2300,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 //add tag
 if(item[0] == '#'){
 item = item.replaceAll(/#/g, "");
-item = `<a class="tag brand light border2 op borderRadius2 small" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+item = `<a class="tag brand light border4 op borderRadius2 small" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }
 
 if(item[0] == '@'){
@@ -2464,9 +2464,9 @@ navOption3 = `<input type="hidden" name="q" value="${q}">`;
 navOption2 = 'q='+encodeURIComponent(q)+"&";
 nav2Print = `
 <div class="tRight">
-<!--<a class="op borderList button light" href="?id=">random</a>-->
+<!--<a class="op border3List button light" href="?id=">random</a>-->
 </div>
-<!--<a class="op border borderRadius2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
+<!--<a class="op border3 borderRadius2 button light" style="width: 49%;" href="#" onclick="history.back()">back</a>-->
 `;
 break;
 
@@ -2490,8 +2490,8 @@ nav2Print = `
 
 <div class="block right tRight zero">
 <div class="tagList">
-<a class="op borderList borderRadius2 button light" href="#" onclick="history.back()">back</a>
-<a class="op borderList borderRadius2 button light" href="?p=`+Math.floor(getP)+`">list</a>
+<a class="op border3List borderRadius2 button light" href="#" onclick="history.back()">back</a>
+<a class="op border3List borderRadius2 button light" href="?p=`+Math.floor(getP)+`">list</a>
 </div>
 </div>
 
@@ -2550,9 +2550,9 @@ justify-content: center;
 ${pringInputRange}
 
 <div class="galleryBlogNav">
-<a class="${hideButtonClass2} border button light2 borderRadius2" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
-<div class="button border op xSmall bg borderRadius2">${navMode}: ` + Math.floor(getP / postLimit) + `</div>
-<a class="${hideButtonClass} border button light2 borderRadius2" href="?${navOption2}${navMode}=${next}">&#8594;</a>
+<a class="${hideButtonClass2} border3 button light2 borderRadius2" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
+<div class="button border3 op xSmall bg borderRadius2">${navMode}: ` + Math.floor(getP / postLimit) + `</div>
+<a class="${hideButtonClass} border3 button light2 borderRadius2" href="?${navOption2}${navMode}=${next}">&#8594;</a>
 </div>
 
 ${nav2Print}
