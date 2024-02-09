@@ -19,9 +19,9 @@ if(element == 'auto'){ result += '<div class="margin2"></div>'; }
 
 
 if(element == theme){
-result += '<div id="'+element+'" class="tehemeListItem highlight borderBottomOrange margin border margin borderRadius2">'+element+'</div>';
+result += '<div id="'+element+'" class="tehemeListItem highlight borderBottomOrange margin border3 margin borderRadius2">'+element+'</div>';
 }else{
-result += '<div id="'+element+'" class="tehemeListItem light2 margin border margin borderRadius2">'+element+'</div>';
+result += '<div id="'+element+'" class="tehemeListItem light2 margin border3 margin borderRadius2">'+element+'</div>';
 }
 
 });
