@@ -1,4 +1,4 @@
-// Main js v.6.2.7
+// Main js v.6.3.0
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -251,7 +251,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 });
 }
 
-// nav v.1.0.0
+// nav v.1.1.0 // in test
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 if((countMenuItem.length / 2) >= 4){
@@ -260,13 +260,23 @@ if((countMenuItem.length / 2) >= 4){
 //fuMPrintText('footer', ``, '+');
 if(document.getElementsByTagName("nav")[0] != null){ // not body, id not found
 
-var cssMedia = '@media(max-width: 500px)';
+/*var cssMedia = '@media(max-width: 500px)';
 var cssMedia2 = '@media(min-width: 500px)';
-if((countMenuItem.length / 2) >= 14){
-cssMedia = '@media(max-width: 800px)';
-cssMedia2 = '@media(min-width: 800px)';
-}
+if((countMenuItem.length / 2) >= 13){
+cssMedia = '@media(max-width: 1000px)';
+cssMedia2 = '@media(min-width: 1000px)';
+}*/
 
+var mNavItemsAverageWidth = 75; // Average: 66
+var mNavItemsCount = (countMenuItem.length / 2) + 2;
+var mNavWhenDropdownW = ((mNavItemsAverageWidth  * mNavItemsCount) + (10  * mNavItemsCount)) / 2;
+console.log(`menu items: ${mNavItemsCount}*70px=hide when:${mNavWhenDropdownW}px`);
+var cssMedia = `@media(width <= ${mNavWhenDropdownW}px)`;
+var cssMedia2 = `@media(width >= ${mNavWhenDropdownW}px)`;
+// fix if .wrapper3
+if((mNavWhenDropdownW) >= 900){
+var cssMedia = '@media(width >= 1px)';
+}
 // embed style
 document.getElementsByTagName("nav")[0].innerHTML += `
 
@@ -279,16 +289,17 @@ ${cssMedia} {
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 
+/* dell me, dublicate in style.css
 .navTop nav {
 justify-content: left;
 align-items: center;
 display: block;
 text-align: left;
-}
+}*/
 
 }
 
-/*fix*/
+/* fix when dynamic change */
 ${cssMedia2}{
 .dropdownMenuContentColumn, .dropdownMenuContent {
 display: none !important;
@@ -1209,7 +1220,7 @@ document.getElementById(embedId).appendChild(script);
 // Embed script and run:
 
 if(conf["confIconStatus"] != "off"){
-fuMEmbedScript("/projects/17-insert-icon/script.js", conf["confIdEmbedScript"]);
+fuMEmbedScript("/projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
 }
 
 if(conf["confAdsStatus"] != "off"){

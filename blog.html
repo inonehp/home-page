@@ -45,7 +45,7 @@
 
 
 <link rel="preload" href="/data/blogJsonVar.js" as="script"> 
-<link rel="preload" href="/projects/1-blog/script.js" as="script"> 
+<link rel="preload" href="/projects/blog-1/script.js" as="script"> 
 
 </head>
 <body>
@@ -77,7 +77,7 @@
 <!-- menu dublicate -->
 <a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>
 
-<!-- //menu dublicate -->
+<!-- // menu dublicate -->
 </div>
 </div>
 </div>
@@ -93,7 +93,7 @@
 </nav>
 </div>
 </header>
-<!-- end nav -->
+<!-- // nav -->
 
 <!--<hr>-->
 
@@ -146,6 +146,19 @@ var blogJsonVar =
 
 <noscript>
 <a class="orange" href="/rss.xml" title="RSS News">RSS</a>
+
+<!-- post -->
+<div class="bgList borderList post" id="">
+
+<div class="pre paddingList">NASA JPL on X: &quot;New view, who dis? Captured by <a class="brand" rel="nofollow" href="./?q=@NASAWebb">@NASAWebb</a>, this infrared perspective of the Crab Nebula shows never-before-seen details of an exploded star located 6,500 light-years away. <a class="brand" href="https://t.co/r1C1OJfjm5">🔗 https://t.co/r1C1OJfjm5</a> <a class="brand" href="https://t.co/rsfoeJMwms&quot;">🔗 https://t.co/rsfoeJMwms&quot;</a> / X <a class="brand" href="https://twitter.com/NASAJPL/status/1720470893263298806">🔗 https://twitter.com/NASAJPL/status/1720470893263298806</a></div>
+
+<div class="postFooter small break2">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
 
 <!-- post -->
 <div class="bgList borderList post" id="">
@@ -508,19 +521,6 @@ var blogJsonVar =
 <!-- post -->
 <div class="bgList borderList post" id="">
 
-<div class="pre paddingList">Simon Leigh on X: &quot;Day 16 of 30: Design a hero section for an AI company. <a class="brand" href="https://t.co/yaPHS0nU3s&quot;">🔗 https://t.co/yaPHS0nU3s&quot;</a> / X <a class="brand" href="https://twitter.com/SyntaxSimon/status/1747290263570063395">🔗 https://twitter.com/SyntaxSimon/status/1747290263570063395</a></div>
-
-<div class="postFooter small break2">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
-
-<!-- post -->
-<div class="bgList borderList post" id="">
-
 <div class="pre paddingList">Web Design Curation Websites for Inspiration : r/web_design <a class="brand" href="https://www.reddit.com/r/web_design/comments/1al4tv5/web_design_curation_websites_for_inspiration/">🔗 https://www.reddit.com/r/web_design/comments/1al4tv5/web_design_curation_websites_for_inspiration/</a></div>
 
 <div class="postFooter small break2">
@@ -587,9 +587,34 @@ let blogConfig = {
 };
 </script>
 
-<script src="/projects/1-blog/script.js" onload="blog('echoBlog', blogJsonVar, ' post ', './blog.html', blogConfig)"></script>
+<script src="/projects/blog-1/script.js" onload="blog('echoBlog', blogJsonVar, ' post ', './blog.html', blogConfig)"></script>
 <script></script>
+<script>
+//fix
+// Nav up for main list page
+//if(document.getElementById("mNavUp") != null){
+if(document.getElementsByClassName("mClassNavUp")[0] != null){
+let mNavUpCheck = new String(window.location.pathname);
 
+var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
+allMClassNavUp.forEach((item, index) => {
+
+
+if(mNavUpCheck != "/"){
+//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+
+if(mNavUpCheck.indexOf('/main-list') != -1){
+//document.getElementsByClassName("mClassNavUp").href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "../";
+}
+}
+
+});
+
+
+}
+</script>
 
 
 </body>

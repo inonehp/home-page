@@ -44,7 +44,7 @@
 <link rel="preload" href="/js/script.js" as="script"> 
 
 
-<link rel="preload" href="/projects/1-blog/script.js" as="script"> 
+<link rel="preload" href="/projects/blog-1/script.js" as="script"> 
 
 </head>
 <body>
@@ -76,7 +76,7 @@
 <!-- menu dublicate -->
 <a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>
 
-<!-- //menu dublicate -->
+<!-- // menu dublicate -->
 </div>
 </div>
 </div>
@@ -92,7 +92,7 @@
 </nav>
 </div>
 </header>
-<!-- end nav -->
+<!-- // nav -->
 
 <!--<hr>-->
 
@@ -178,7 +178,7 @@ fuAds('', 'ads2', '');
 
 
 
-<script src="/projects/1-blog/script.js"></script>
+<script src="/projects/blog-1/script.js"></script>
 
 <style>
 .blogContent .pre { font-size: 1em; /*text-transform: capitalize;*/ }
@@ -226,7 +226,32 @@ document.getElementsByTagName('head')[0].appendChild(meta);
 </script>
 
 
+<script>
+//fix
+// Nav up for main list page
+//if(document.getElementById("mNavUp") != null){
+if(document.getElementsByClassName("mClassNavUp")[0] != null){
+let mNavUpCheck = new String(window.location.pathname);
 
+var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
+allMClassNavUp.forEach((item, index) => {
+
+
+if(mNavUpCheck != "/"){
+//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+
+if(mNavUpCheck.indexOf('/main-list') != -1){
+//document.getElementsByClassName("mClassNavUp").href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "../";
+}
+}
+
+});
+
+
+}
+</script>
 
 
 </body>

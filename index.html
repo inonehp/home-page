@@ -136,7 +136,7 @@ z-index: -1;
 <!-- menu dublicate -->
 <a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>
 
-<!-- //menu dublicate -->
+<!-- // menu dublicate -->
 </div>
 </div>
 </div>
@@ -152,7 +152,7 @@ z-index: -1;
 </nav>
 </div>
 </header>
-<!-- end nav -->
+<!-- // nav -->
 
 <!--<hr>-->
 
@@ -184,7 +184,8 @@ z-index: -1;
 <span class="xSmall padding2List">updated: <span id="last-update"></span></span>
 </summary>
 <div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">
-CSS: changed border style.
+Improved navigation (in test).
+Mass page movement (in test).
 
 <a class="brand tag2 block tCenter border light borderRadius2" href="/changelog.html" title="Update Log">more</a></div>
 </details>
@@ -386,29 +387,20 @@ document.getElementById("hotLinks").innerHTML = a;
 
 <div class="block padding2 margin2"></div>
 <!-- // nav2 -->
-
-<!-- Speed dial v.1.0.0 -->
+<!-- Speed dial -->
 <div class="small">
 
 <span class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Speed dial:</span>
 <div class="tagList left">
-<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/31-todo-list-task/"><span class="capitalize op">Task</span></a>
-<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/32-todo-list-idea/"><span class="capitalize op">Idea</span></a>
-<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/14-typing-speed/"><span class="capitalize op">Typing</span></a>
+<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/todo-list-task-31/"><span class="capitalize op">Task</span></a>
+<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/todo-list-idea-32/"><span class="capitalize op">Idea</span></a>
+<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/typing-speed-14/"><span class="capitalize op">Typing</span></a>
 </div>
 
 </div>
-<!-- end speed dial -->
+<!-- // Speed dial -->
 
 <div class="block padding2 margin2"></div>
-
-
-
-
-
-
-
-
 
 
 
@@ -500,7 +492,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1707427474);
+document.getElementById("last-update").innerHTML = fuPostTime(1707501420);
 </script>
 
 <script>
@@ -536,7 +528,32 @@ window.location.href = "/projects/25-redirects/?q=" + q;
 
 
 
+<script>
+//fix
+// Nav up for main list page
+//if(document.getElementById("mNavUp") != null){
+if(document.getElementsByClassName("mClassNavUp")[0] != null){
+let mNavUpCheck = new String(window.location.pathname);
 
+var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
+allMClassNavUp.forEach((item, index) => {
+
+
+if(mNavUpCheck != "/"){
+//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+
+if(mNavUpCheck.indexOf('/main-list') != -1){
+//document.getElementsByClassName("mClassNavUp").href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "../";
+}
+}
+
+});
+
+
+}
+</script>
 
 
 </body>

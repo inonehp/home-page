@@ -14,41 +14,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "A none\n\nnone ",
-        "url": "\/templates-data\/a0-none\/index.html",
-        "tag": " #none",
-        "id": "8056a16a1928bb9d9450a706012b1487",
-        "time": "id"
-    },
-    {
-        "text": "A none\n\nnone, ",
-        "url": "\/css-art-data\/a0-none\/index.html",
-        "tag": " #none",
-        "id": "8c5f563accc7dd1304a615fcf6ceb2e2",
-        "time": "id"
-    },
-    {
-        "text": "A tpl project\n\nThis is the tpl for create projects. ",
-        "url": "\/projects\/a1-tpl-project\/index.html",
-        "tag": " #empty",
-        "id": "9fe9c1d38c67662f53c1f6135c96cbf6",
-        "time": "id"
-    },
-    {
-        "text": "A tpl project mini\n\nThis is the tpl for create projects. ",
-        "url": "\/mini-projects\/a-tpl-project-mini\/index.html",
-        "tag": " #empty",
-        "id": "51ce705b146283f3de76dc8d95d64916",
-        "time": "id"
-    },
-    {
-        "text": "A tpl project mini\n\nThis is the tpl for create projects. ",
-        "url": "\/projects\/a2-tpl-project-mini\/index.html",
-        "tag": " #empty",
-        "id": "f587a0e9e57fb7edece41b389948c0a2",
-        "time": "id"
-    },
-    {
         "text": "About\n\nAbout the site, profiles, license, contacts. ",
         "url": "\/about.html",
         "tag": " #about #contact #donate #profile #support #page #main",
@@ -64,51 +29,37 @@ var sitemapJsonVar = [
     },
     {
         "text": "Animated borders button link\n\nAnimated borders button. ",
-        "url": "\/mini-projects\/5-animated-borders-button-link\/index.html",
+        "url": "\/mini-projects\/animated-borders-button-link-5\/index.html",
         "tag": " #animation #button #border #HTML #CSS #project",
-        "id": "852fb753b4c4e7328df1093b0055d8ec",
+        "id": "e239820a11ff2b9d4ae36c246e10bc83",
         "time": "id"
     },
     {
         "text": "Animation test\n\nCSS animation demonstration. ",
-        "url": "\/mini-projects\/6-animation-test\/index.html",
+        "url": "\/mini-projects\/animation-test-6\/index.html",
         "tag": " #animation #HTML #CSS #project",
-        "id": "fc2bd86f385684b36c56dc4acd805e3a",
-        "time": "id"
-    },
-    {
-        "text": "Archive list\n\nOn this page are the projects that I want to hide. ",
-        "url": "\/archive-list.html",
-        "tag": " #archive #menu #list #page #main",
-        "id": "9404a4c41970c890e52935ed9af2b641",
+        "id": "ee07d477e253403d038e136eca8a6915",
         "time": "id"
     },
     {
         "text": "Average number\n\nAfter entering the numbers, the result will be the average value ",
-        "url": "\/projects\/40-average-number\/index.html",
+        "url": "\/projects\/average-number-40\/index.html",
         "tag": " #average #number #tool #JavaScript #project",
-        "id": "4d38326e843e238da4071fe403deed31",
+        "id": "fc61833ea57d16d081bc11c60aa84b1e",
         "time": "id"
     },
     {
         "text": "Background colors list\n\nBackground colors list ",
-        "url": "\/projects\/50-background-colors-list\/index.html",
+        "url": "\/projects\/background-colors-list-50\/index.html",
         "tag": " #CSS #color #colors #WebDesign #UI #pallete #project #list #collection",
-        "id": "8cdecd7fe04b71e667ce5bae31b4861a",
+        "id": "cf5630cda71133ed593748b826a597cd",
         "time": "id"
     },
     {
         "text": "Background with linear gradient css\n\nBackground with linear-gradient CSS ",
-        "url": "\/mini-projects\/7-background-with-linear-gradient-css\/index.html",
+        "url": "\/mini-projects\/background-with-linear-gradient-css-7\/index.html",
         "tag": " #CSS #project",
-        "id": "bb1748bd0e424fb72528c5b8e4b9bc0d",
-        "time": "id"
-    },
-    {
-        "text": "Bento responsive flex grid\n\nResponsive grid test. ",
-        "url": "\/mini-projects\/32-bento-responsive-flex-grid\/index.html",
-        "tag": " #grid #responsive #test #project",
-        "id": "28112908f180b19986fb0a5ab038acbd",
+        "id": "d7217e625cbacca2159938be66b25f38",
         "time": "id"
     },
     {
@@ -120,30 +71,30 @@ var sitemapJsonVar = [
     },
     {
         "text": "Blog\n\nJavaScript blog. ",
-        "url": "\/projects\/1-blog\/index.html",
+        "url": "\/projects\/blog-1\/index.html",
         "tag": " #blog #post #JavaScript #page #project",
-        "id": "f5718cda6758e74ead9be6e9ab866403",
+        "id": "acf5def736aa5cabdd35d376e904ae8c",
         "time": "id"
     },
     {
         "text": "Browser info test js\n\nBrowser info, JS Test, test js, Test JavaScript page. ",
-        "url": "\/projects\/2-browser-info-test-js\/index.html",
+        "url": "\/projects\/browser-info-test-js-2\/index.html",
         "tag": " #JS #JavaScript #test #page #project",
-        "id": "f978699685a64e1f5a72d96074b9bc6b",
+        "id": "fa6480e2d51561d9ebc1161c21470a26",
         "time": "id"
     },
     {
         "text": "Button blur unblur\n\nButton: focus, defocus ",
-        "url": "\/mini-projects\/28-button-blur-unblur\/index.html",
+        "url": "\/mini-projects\/button-blur-unblur-28\/index.html",
         "tag": " #button #focus #effect #HTML #CSS #project",
-        "id": "f952742ef3bf1324a88120c6b003b2bb",
+        "id": "05162ab0e3b959361338dc986b1967e3",
         "time": "id"
     },
     {
         "text": "Calculator\n\nOnline calculator. ",
-        "url": "\/projects\/3-calculator\/index.html",
+        "url": "\/projects\/calculator-3\/index.html",
         "tag": " #\u0441alculator #calc #tool #project",
-        "id": "0aeabde03f98a74a38fa0c271f676d4b",
+        "id": "edd89fc42456d08a51cee4c12872d538",
         "time": "id"
     },
     {
@@ -162,44 +113,44 @@ var sitemapJsonVar = [
     },
     {
         "text": "Circle\n\nCircles are placed on the page using HTML, CSS. ",
-        "url": "\/mini-projects\/7-circle\/index.html",
+        "url": "\/mini-projects\/circle-8\/index.html",
         "tag": " #circle #wallpaper #CSS #project",
-        "id": "6fd22f144ad529ce9ecc72eb8a984528",
+        "id": "c08b5efbe661313d4a677693ab8b5102",
         "time": "id"
     },
     {
         "text": "Color picker\n\nColor picker. ",
-        "url": "\/projects\/4-color-picker\/index.html",
+        "url": "\/projects\/color-picker-4\/index.html",
         "tag": " #color #tool #picker #HTML #project",
-        "id": "ce0e3cdcc03773a01bd35ec50970b3c7",
+        "id": "ff9327a7930ca78b4fc70c8294f41eb3",
         "time": "id"
     },
     {
         "text": "Computer css\n\nCSS computer. ",
-        "url": "\/css-art-data\/9-computer-css\/index.html",
+        "url": "\/css-art\/computer-css-9\/index.html",
         "tag": " #computer #CSSArt #HTML #CSS #project",
-        "id": "55f19214c782c4d310565bc2ef52d015",
+        "id": "4323f85c70362e68f21d1489742b2fad",
         "time": "id"
     },
     {
         "text": "Count symbol\n\nA very simple counter of letters or symbols in the text. ",
-        "url": "\/projects\/39-count-symbol\/index.html",
+        "url": "\/projects\/count-symbol-39\/index.html",
         "tag": " #symbol #counter #tool #symbol #JavaScript #project",
-        "id": "4ea001fc7aa10cd1806cff5d1cebb0c2",
+        "id": "c13ebf133b3b7e9dfe7288b2cc9b457c",
         "time": "id"
     },
     {
-        "text": "Css art\n\nCSS Art - a fun way to practice CSS. ",
-        "url": "\/css-art.html",
-        "tag": " #CSS #HTML #art #projects #list #page #main",
-        "id": "49b8920fccfc5344479aaaf9aac3f3df",
-        "time": "id"
-    },
-    {
-        "text": "Css art data\n\nRedirect page, not intended for viewing. ",
-        "url": "\/css-art-data\/index.html",
+        "text": "Css art\n\nRedirect page, not intended for viewing. ",
+        "url": "\/css-art\/index.html",
         "tag": " #redirect_to_list",
-        "id": "19005a28c1dede0ec66c48d302cc4f45",
+        "id": "e87eacd8b36b8383dd3a77f4685a185f",
+        "time": "id"
+    },
+    {
+        "text": "Css art page\n\nCSS Art - a fun way to practice CSS. ",
+        "url": "\/css-art-page.html",
+        "tag": " #CSS #HTML #art #projects #list #page #main",
+        "id": "c1e3612baaf111587296dfa1510b59f5",
         "time": "id"
     },
     {
@@ -225,107 +176,114 @@ var sitemapJsonVar = [
     },
     {
         "text": "Demo test style\n\nA demo and test style CSS style on this site. ",
-        "url": "\/projects\/5-demo-test-style\/index.html",
+        "url": "\/projects\/demo-test-style-5\/index.html",
         "tag": " #demo #test #style #project",
-        "id": "7cb3dff7768fd22675af571c6c4e8c43",
+        "id": "d9b09778c25ae1bc803312404a014324",
         "time": "id"
     },
     {
         "text": "Drawing\n\nA simple web application for drawing. ",
-        "url": "\/projects\/7-drawing\/index.html",
+        "url": "\/projects\/drawing-7\/index.html",
         "tag": " #draw #drawing #art #tool #HTML5 #drawing #app #WebAppproject",
-        "id": "b571da936056b062bb254a428f5b9f40",
+        "id": "0c05b18c71846997afc95fd7f279e35c",
         "time": "id"
     },
     {
         "text": "Dropdown menu\n\nDropdown Menu project. ",
-        "url": "\/projects\/8-dropdown-menu\/index.html",
+        "url": "\/projects\/dropdown-menu-8\/index.html",
         "tag": " #menu #UI #UX #dropdown #menu #JavaScript #WebDesign #project",
-        "id": "d680bc1528d0e5f51433b170ccf3a684",
+        "id": "da7f75f7e98fed9ea3126515e2f121e5",
         "time": "id"
     },
     {
-        "text": "Effect when scroll to element\n\nEffect when scroll to element. ",
-        "url": "\/projects\/48-effect-when-scroll-to-element\/index.html",
+        "text": "Effect when scroll\n\nEffect when scroll to element. ",
+        "url": "\/projects\/effect-when-scroll-48\/index.html",
         "tag": " #effect #scroll #JS #function #UI #UX #JavaScript #CSS #project",
-        "id": "c9443f207a4c7ab79e22db2a65b0628b",
+        "id": "26c3f546f51968c8b74e2dbca5b08032",
         "time": "id"
     },
     {
-        "text": "Firefox extensions list\n\nFirefox browser extension: new tab redirct, localhost as search engine, ... ",
-        "url": "\/firefox-extensions-list.html",
+        "text": "Firefox extensions page\n\nFirefox browser extension: new tab redirct, localhost as search engine, ... ",
+        "url": "\/firefox-extensions-page.html",
         "tag": " #Firefox #hotkeys #new #tab #NewTab #firefox #extesion #projects #project #list #page #main",
-        "id": "8098f42d3059c90b394179c067cfb9cb",
+        "id": "e7fa8bc5b7a972978aa336ec51f9db3e",
         "time": "id"
     },
     {
-        "text": "Firefox theme\n\nSeveral color themes for the Firefox browser in a flat style: light flat, dark flat, and several with other colors. ",
-        "url": "\/firefox-theme.html",
+        "text": "Firefox theme page\n\nSeveral color themes for the Firefox browser in a flat style: light flat, dark flat, and several with other colors. ",
+        "url": "\/firefox-theme-page.html",
         "tag": " #Firefox #dark #light #theme #project #page #main",
-        "id": "ef76481c666e083b2ffdb4b5433639bb",
+        "id": "3d613fb39782d1a7c1844b2ced478a3b",
+        "time": "id"
+    },
+    {
+        "text": "Flex grid\n\nResponsive grid test. ",
+        "url": "\/mini-projects\/flex-grid-32\/index.html",
+        "tag": " #grid #responsive #test #project",
+        "id": "18f4d230982c1f15cec49c9464179853",
         "time": "id"
     },
     {
         "text": "Flower personal one page website template auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/17-flower-personal-one-page-website-template-auto-light-dark-flat-mini-abc\/index.html",
+        "url": "\/templates\/flower-personal-one-page-website-template-auto-light-dark-flat-mini-abc-17\/index.html",
         "tag": " #WebDesign #template",
-        "id": "595e9faee96cc06ec53fd268536e1bec",
+        "id": "50e182f1747e60af1bcf845b514c8a42",
         "time": "id"
     },
     {
         "text": "Game dice\n\nGame dice. ",
-        "url": "\/projects\/9-game-dice\/index.html",
+        "url": "\/projects\/game-dice-9\/index.html",
         "tag": " #game #dice #HTML5 #JavaScript #WebApp #project",
-        "id": "7c3c53dc00196f4c60e6107b06b1f3e2",
+        "id": "ebad8598a1bfec8ebaca153402dceb6a",
         "time": "id"
     },
     {
         "text": "Game guess number\n\nYou need to guess the random number. ",
-        "url": "\/projects\/10-game-guess-number\/index.html",
+        "url": "\/projects\/game-guess-number-10\/index.html",
         "tag": " #game #guuess #number #HTML5 #JavaScript #WebGame #game #project",
-        "id": "18c62fc03f1ab8b9930c1375d5d44b4c",
+        "id": "2dc32088b92cad41d601dab51d18431d",
         "time": "id"
     },
     {
         "text": "Game memory symbol\n\nIn this game, there is a grid with masked cells that need to be opened. You need to open two identical symbols (emoji) in sequence, winning if you opened everything. ",
-        "url": "\/projects\/11-game-memory-symbol\/index.html",
+        "url": "\/projects\/game-memory-symbol-11\/index.html",
         "tag": " #game #memory #symbol #HTML5 #JavaScript #project",
-        "id": "ef2c858ea206dd571343520a7bf2d63c",
+        "id": "d694a2adfde9fd38ffcf3a256b0529fb",
         "time": "id"
     },
     {
         "text": "Game snake\n\nSnake game, you need to eat food and grow. ",
-        "url": "\/projects\/12-game-snake\/index.html",
+        "url": "\/projects\/game-snake-12\/index.html",
         "tag": " #game #snake #HTML5 #JavaScript #project",
-        "id": "566840610c447c47e930d6fcb52701e6",
+        "id": "4f01e1ed2b8abe396193659a852758e1",
         "time": "id"
     },
     {
         "text": "Game tic tac toe\n\nGame tic-tac-toe. ",
-        "url": "\/projects\/13-game-tic-tac-toe\/index.html",
+        "url": "\/projects\/game-tic-tac-toe-13\/index.html",
         "tag": " #game #tic #tac #toe #HTML5 #JavaScript #JavaScript #project",
-        "id": "cdcb685d4a8c9e1565b230cf2015acd9",
+        "id": "f56c83383fc1c670ab3c4bb7bf39c547",
         "time": "id"
     },
     {
-        "text": "Geany color\n\nGeany IDE code editor themes: light and dark. ",
-        "url": "\/geany-color.html",
+        "text": "Geany theme page\n\nGeany IDE code editor themes: light and dark. ",
+        "url": "\/geany-theme-page.html",
         "tag": " #Geany #theme #color #flat #dark #light #project #page #main",
-        "id": "b6414c79020a98890ed9d4ad9d56654d",
+        "id": "31896b8781cc263386a9442026f4071b",
         "time": "id"
     },
     {
         "text": "Google programmable search\n\nGoogle programmable search engine. (Google custom search engine) ",
-        "url": "\/projects\/49-google-programmable-search\/index.html",
+        "url": "\/projects\/google-programmable-search-49\/index.html",
         "tag": " #search #engine #tool #HTML #Google #embed",
-        "id": "2e07ad2cf8f856f464b45f3dc0c808ec",
+        "id": "2b575a4c74a2cfc05b4467752b43dcaa",
         "time": "id"
     },
     {
         "text": "Google trends\n\nGoogle trends ",
-        "url": "\/projects\/46-google-trends\/index.html",
+        "url": "\/projects\/google-trends-46\/index.html",
         "tag": " #Google #trends #info #HTML #embed",
-        "id": "db620aabc860575516e72ee35dab2105",
+        "id": "46de6fe73494ad111806e729414ca81a",
         "time": "id"
     },
     {
@@ -337,44 +295,51 @@ var sitemapJsonVar = [
     },
     {
         "text": "Heading\n\nHeading. ",
-        "url": "\/mini-projects\/33-heading\/index.html",
+        "url": "\/mini-projects\/heading-33\/index.html",
         "tag": " #WebDesign",
-        "id": "c347c7115b10eac8d050a965c9ce49a3",
+        "id": "bf61cb376dc833fbf00dd313b95b7167",
+        "time": "id"
+    },
+    {
+        "text": "Highlight word\n\nJavaScript function for highlighting tag by id. ",
+        "url": "\/projects\/highlight-word-15\/index.html",
+        "tag": " #highlight #selection #function #highlighting #multi #JavaScript #project",
+        "id": "f86a972521c950d4dd6e67cb0c3e77d4",
         "time": "id"
     },
     {
         "text": "Home page website template auto light dark flat abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/9-home-page-website-template-auto-light-dark-flat-abc\/index.html",
+        "url": "\/templates\/home-page-website-template-auto-light-dark-flat-abc-9\/index.html",
         "tag": " #WebDesign #template",
-        "id": "4bfeb2491dc92a513a2911ec58a1def4",
+        "id": "5b70c2483d561d24b94fbce2e3204500",
         "time": "id"
     },
     {
         "text": "Home page website template many auto colors themes flat abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/10-home-page-website-template-many-auto-colors-themes-flat-abc\/index.html",
+        "url": "\/templates\/home-page-website-template-many-auto-colors-themes-flat-abc-10\/index.html",
         "tag": " #WebDesign #template",
-        "id": "56015cadbf95793de7700ef2801b63ee",
+        "id": "cc6e44a01642f9e28286425379d7d8f6",
         "time": "id"
     },
     {
-        "text": "Images\n\nBadly drawn or made pictures, sometimes something turns out well. ",
-        "url": "\/images.html",
-        "tag": " #img #picture #wallpaper #logo #illustration #page #main",
-        "id": "c736f7bcbfda9e0e6cb5c1cbf991c447",
-        "time": "id"
-    },
-    {
-        "text": "Images data\n\nRedirect page, not intended for viewing. ",
-        "url": "\/images-data\/index.html",
+        "text": "Images\n\nRedirect page, not intended for viewing. ",
+        "url": "\/images\/index.html",
         "tag": " #Redirect_to_list",
-        "id": "f220bbd92668736abb7d4030cf5b232a",
+        "id": "5f4572e3201b244c396049e2b2e218ec",
+        "time": "id"
+    },
+    {
+        "text": "Images page\n\nBadly drawn or made pictures, sometimes something turns out well. ",
+        "url": "\/images-page.html",
+        "tag": " #img #picture #wallpaper #logo #illustration #page #main",
+        "id": "9af0c15fdbebb872da9388d3977cdfbc",
         "time": "id"
     },
     {
         "text": "Insert icon\n\nJavaScript icon insertion function. ",
-        "url": "\/projects\/17-insert-icon\/index.html",
+        "url": "\/projects\/insert-icon-17\/index.html",
         "tag": " #insert #icon #function #tool #function #JavaScript #project",
-        "id": "6d8b1006061862f2336df8cdaf7f0623",
+        "id": "e895118af1d3bd5f1127bf58deb976fb",
         "time": "id"
     },
     {
@@ -386,9 +351,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Light and dark design\n\nLight & dark design (Light & Dark) ",
-        "url": "\/mini-projects\/29-light-and-dark-design\/index.html",
+        "url": "\/mini-projects\/light-and-dark-design-29\/index.html",
         "tag": " #cpc #design #WebDesign #CSS #HTML #project",
-        "id": "eef1a8a0e88bd992b98c48ec41e4c27f",
+        "id": "7ae7e14d472720bd5645b13d8f2bfe18",
         "time": "id"
     },
     {
@@ -428,37 +393,30 @@ var sitemapJsonVar = [
     },
     {
         "text": "Movie list\n\nSmall list of movies, just a link to another movie database service, at the top there is a random movie from the list. JavaScript function for parse WATCHLIST.csv from IMDB. ",
-        "url": "\/projects\/19-movie-list\/index.html",
+        "url": "\/projects\/movie-list-19\/index.html",
         "tag": " #movie #list #collection #random #JavaScript #project",
-        "id": "d6628c0ba99808ce2b74790b497603f7",
+        "id": "9f9aa90c240343f41e7ca461cc59d82e",
         "time": "id"
     },
     {
         "text": "Movie website template auto light dark flat abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/11-movie-website-template-auto-light-dark-flat-abc\/index.html",
+        "url": "\/templates\/movie-website-template-auto-light-dark-flat-abc-11\/index.html",
         "tag": " #WebDesign #template",
-        "id": "3efda3109672bd7c9b19c4c0e5982de6",
-        "time": "id"
-    },
-    {
-        "text": "Multi highlight word hover\n\nJavaScript function for highlighting tag by id. ",
-        "url": "\/projects\/15-multi-highlight-word-hover\/index.html",
-        "tag": " #highlight #selection #function #highlighting #multi #JavaScript #project",
-        "id": "747cdf5ac1adb9f845b9f6ee2520d6df",
+        "id": "f5aeea2a66089fdcdbe09ee06ffa1e5d",
         "time": "id"
     },
     {
         "text": "Music\n\nA collection of music,  played randomly, using third-party platforms and their players. ",
-        "url": "\/projects\/20-music\/index.html",
+        "url": "\/projects\/music-20\/index.html",
         "tag": " #music #collection #random #JavaScript #project",
-        "id": "2507b5ee3df8224dec4d962576708e9c",
+        "id": "e6daf18cc1e29a8ca88f27d0032c14fc",
         "time": "id"
     },
     {
         "text": "One page website template auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/15-one-page-website-template-auto-light-dark-flat-mini-abc\/index.html",
+        "url": "\/templates\/one-page-website-template-auto-light-dark-flat-mini-abc-15\/index.html",
         "tag": " #WebDesign #template",
-        "id": "26642d2198fe044b64c4a67a1c11a996",
+        "id": "40318a5992d8d482781d9a571a39a57b",
         "time": "id"
     },
     {
@@ -477,9 +435,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Page lag test\n\nPage generation test ",
-        "url": "\/projects\/47-page-lag-test\/index.html",
+        "url": "\/projects\/page-lag-test-47\/index.html",
         "tag": " #test #lag #test #JavaScript #project",
-        "id": "223987840ae3ce7bf4791177106dd571",
+        "id": "63eb9d0453f23abae21014d75548cd56",
         "time": "id"
     },
     {
@@ -491,44 +449,44 @@ var sitemapJsonVar = [
     },
     {
         "text": "Personal one page website template mini light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/16-personal-one-page-website-template-mini-light-dark-flat-mini-abc\/index.html",
+        "url": "\/templates\/personal-one-page-website-template-mini-light-dark-flat-mini-abc-16\/index.html",
         "tag": " #WebDesign #template",
-        "id": "ef891826fac82cdc1cdeda83f53006d2",
+        "id": "8e7929e0be5484310131ac5ff75b1c62",
         "time": "id"
     },
     {
         "text": "Personal website template\n\nWebsite template description. ",
-        "url": "\/templates-data\/2-personal-website-template\/index.html",
+        "url": "\/templates\/personal-website-template-2\/index.html",
         "tag": " #WebDesign #template",
-        "id": "4ba4f0f523b786cbdced4bcc0307de1b",
+        "id": "89daff65804965a658b8d2abb43545bc",
         "time": "id"
     },
     {
         "text": "Personal website template\n\nWebsite template description. ",
-        "url": "\/templates-data\/3-personal-website-template\/index.html",
+        "url": "\/templates\/personal-website-template-3\/index.html",
         "tag": " #Website_template_keywords",
-        "id": "289c62bfd3e98273de8b3b88641eafd6",
+        "id": "19217dff03b3c28d0d18c770a02dd6c9",
         "time": "id"
     },
     {
         "text": "Photo gallery one page website template flat auto light dark abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/18-photo-gallery-one-page-website-template-flat-auto-light-dark-abc\/index.html",
+        "url": "\/templates\/photo-gallery-one-page-website-template-flat-auto-light-dark-abc-18\/index.html",
         "tag": " #WebDesign #template",
-        "id": "f5a621e7437b797a0e2222bdf900e17b",
+        "id": "4b3f56a5a1944315919ac63d47e8d140",
         "time": "id"
     },
     {
-        "text": "Photos\n\nSometimes I take photos. ",
-        "url": "\/photos.html",
-        "tag": " #photo #page #main",
-        "id": "d6f0e61c0d0c8b21a1105e4844f0c9fe",
-        "time": "id"
-    },
-    {
-        "text": "Photos data\n\nRedirect page, not intended for viewing. ",
-        "url": "\/photos-data\/index.html",
+        "text": "Photos\n\nRedirect page, not intended for viewing. ",
+        "url": "\/photos\/index.html",
         "tag": " #redirect_to_list",
-        "id": "305d3079970e246bbf4d61b3ae63d724",
+        "id": "974cec699ccbffc05dec7151732271fc",
+        "time": "id"
+    },
+    {
+        "text": "Photos page\n\nSometimes I take photos. ",
+        "url": "\/photos-page.html",
+        "tag": " #photo #page #main",
+        "id": "64f9c2bceeb03e942ce9f1b78a921e4f",
         "time": "id"
     },
     {
@@ -540,16 +498,16 @@ var sitemapJsonVar = [
     },
     {
         "text": "Profile card website template auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/12-profile-card-website-template-auto-light-dark-flat-mini-abc\/index.html",
+        "url": "\/templates\/profile-card-website-template-auto-light-dark-flat-mini-abc-12\/index.html",
         "tag": " #WebDesign #template",
-        "id": "657588e7521c0ab120cbdab62305a655",
+        "id": "b756ce489192f1af1047880080240682",
         "time": "id"
     },
     {
         "text": "Profile card website template auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/14-profile-card-website-template-auto-light-dark-flat-mini-abc\/index.html",
+        "url": "\/templates\/profile-card-website-template-auto-light-dark-flat-mini-abc-14\/index.html",
         "tag": " #WebDesign #template",
-        "id": "d12d29b77edb1bceb916a9242628a011",
+        "id": "cb70bc63e8c2b081b8a9ac64f84dbb8e",
         "time": "id"
     },
     {
@@ -568,65 +526,65 @@ var sitemapJsonVar = [
     },
     {
         "text": "Pumpkin css\n\nCSS drawing of a pumpkin for Halloween. Drawing using only HTML and CSS. ",
-        "url": "\/css-art-data\/15-pumpkin-css\/index.html",
+        "url": "\/css-art\/pumpkin-css-15\/index.html",
         "tag": " #pumpkin #CSSArt #HTML #CSS #project",
-        "id": "c82bc94acec4935d78532c5a9e1fbfe0",
+        "id": "cf7f15fc65afe125f709a8097a554d77",
         "time": "id"
     },
     {
         "text": "Pwa test\n\nTest PWA, PWA test. ",
-        "url": "\/projects\/21-pwa-test\/index.html",
+        "url": "\/projects\/pwa-test-21\/index.html",
         "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
-        "id": "462bbe4ec0a95ef369c8fe206a97c1d1",
+        "id": "39a2c1845f9353f54376caebfeb40391",
         "time": "id"
     },
     {
         "text": "Quiz\n\nQuiz with different topics. ",
-        "url": "\/projects\/42-quiz\/index.html",
+        "url": "\/projects\/quiz-42\/index.html",
         "tag": " #game #quiz #JavaScript #project",
-        "id": "39517ab9e48e23e95a886261ae01a608",
+        "id": "a29c336aba704dec8e3a42c0f7261907",
         "time": "id"
     },
     {
         "text": "Radio\n\nA small collection of radio stations with the ability to play online, is chosen randomly. ",
-        "url": "\/projects\/22-radio\/index.html",
+        "url": "\/projects\/radio-22\/index.html",
         "tag": " #radio #random #online #station #colection #JavaScript #project",
-        "id": "471dbcad5bdc62543b094e32cff444a7",
+        "id": "b31f7cd39ade46560c86d8f7dc26ed78",
         "time": "id"
     },
     {
         "text": "Rain\n\nRain effect and animation using CSS and JavaScript ",
-        "url": "\/projects\/38-rain\/index.html",
+        "url": "\/projects\/rain-38\/index.html",
         "tag": " #rain #random #drop #CSS #JavaScript #project",
-        "id": "09359d60c8adc83307afe02251e853ab",
+        "id": "f9cb36b965b03cfc797acd7bab35ebd8",
         "time": "id"
     },
     {
-        "text": "Random color generator random\n\nColor generator. Generates colors from a given list of colors. ",
-        "url": "\/projects\/51-random-color-generator-random\/index.html",
+        "text": "Random color generator\n\nColor generator. Generates colors from a given list of colors. ",
+        "url": "\/projects\/random-color-generator-51\/index.html",
         "tag": " #generarot #color #JavaScript #project",
-        "id": "b9fc0fc1dfad601060c4531ed1cb2765",
+        "id": "3bbbb186678f95e716cd6b6c81bfb855",
         "time": "id"
     },
     {
-        "text": "Random symbol or password generator\n\nThe page generates random letters, symbols, and numbers that can be used for a password. ",
-        "url": "\/projects\/23-random-symbol-or-password-generator\/index.html",
+        "text": "Random symbol\n\nThe page generates random letters, symbols, and numbers that can be used for a password. ",
+        "url": "\/projects\/random-symbol-23\/index.html",
         "tag": " #symbol #random #generator #tool #letter #symbols #password #JavaScript #project",
-        "id": "6531f0bb87ea56c749b37b6c711cc5ab",
+        "id": "f9afaedf6d63c66a1f2920253155da42",
         "time": "id"
     },
     {
         "text": "Random text generator\n\nThe page generates random letters with commas, dots and line breaks to be like the text of the article. ",
-        "url": "\/projects\/24-random-text-generator\/index.html",
+        "url": "\/projects\/random-text-generator-24\/index.html",
         "tag": " #random #text #tool #letter #lorem #ipsum #JavaScript #project",
-        "id": "b48e5a10aaf0a13da2e8453849176436",
+        "id": "1c49d865d44e58ee812e7b5df505684d",
         "time": "id"
     },
     {
         "text": "Realistic old windows os popup window\n\nCSS realistic drawing of the popup window of the old Windows operating system. ",
-        "url": "\/css-art-data\/12-realistic-old-windows-os-popup-window\/index.html",
+        "url": "\/css-art\/realistic-old-windows-os-popup-window-12\/index.html",
         "tag": " #window #WindowPopup #ralistic #CSSArt #HTML #CSS #project",
-        "id": "c06fb2d36b83f8102085782f4481f74f",
+        "id": "a62bafe89afd9d29949172315708a5f0",
         "time": "id"
     },
     {
@@ -638,16 +596,16 @@ var sitemapJsonVar = [
     },
     {
         "text": "Responsive web design\n\nExample of responsive content using CSS, where the size adapts depending on the screen size. ",
-        "url": "\/mini-projects\/2-responsive-web-design\/index.html",
+        "url": "\/mini-projects\/responsive-web-design-2\/index.html",
         "tag": " #responsive #HTML #mobile #UI #UX #CSS #project",
-        "id": "cbe9883b65784e9474123c14c35c37e8",
+        "id": "5567724843d0714e47e004bd92eae223",
         "time": "id"
     },
     {
         "text": "Saas landing page auto light dark abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/19-saas-landing-page-auto-light-dark-abc\/index.html",
+        "url": "\/templates\/saas-landing-page-auto-light-dark-abc-19\/index.html",
         "tag": " #WebDesign #template",
-        "id": "8b0af97a25e318d8224cbc27cad1cd9b",
+        "id": "34f3f0a8a462006c48f296c6ad1377a7",
         "time": "id"
     },
     {
@@ -666,114 +624,114 @@ var sitemapJsonVar = [
     },
     {
         "text": "Simple text template\n\nWebsite template description. ",
-        "url": "\/templates-data\/1-simple-text-template\/index.html",
+        "url": "\/templates\/simple-text-template-1\/index.html",
         "tag": " #WebDesign #template",
-        "id": "ef4593e53850b6a79f81bb22462df657",
+        "id": "c2eb856a4bc3cd53328550dabad79c35",
         "time": "id"
     },
     {
         "text": "Simple website template\n\nWebsite template description. ",
-        "url": "\/templates-data\/4-simple-website-template\/index.html",
+        "url": "\/templates\/simple-website-template-4\/index.html",
         "tag": " #WebDesign #template",
-        "id": "8ad00faee41310d3c65808b28eb7310f",
+        "id": "a275c6d66ad3475401b9029b37e83bfc",
         "time": "id"
     },
     {
         "text": "Simple website template\n\nWebsite template description. ",
-        "url": "\/templates-data\/5-simple-website-template\/index.html",
+        "url": "\/templates\/simple-website-template-5\/index.html",
         "tag": " #WebDesign #template",
-        "id": "722d739c9e1a4881cf652f23528d1142",
+        "id": "2209c5fc4c2df6f86e8a4bd87db170e3",
         "time": "id"
     },
     {
         "text": "Simple website template\n\nWebsite template description. ",
-        "url": "\/templates-data\/6-simple-website-template\/index.html",
+        "url": "\/templates\/simple-website-template-6\/index.html",
         "tag": " #WebDesign #template",
-        "id": "930a236eb9a6cce04947824256a025ac",
+        "id": "ed506887fe6f7208edd48c81a00a0794",
         "time": "id"
     },
     {
         "text": "Simple website template\n\nWebsite template description. ",
-        "url": "\/templates-data\/7-simple-website-template\/index.html",
+        "url": "\/templates\/simple-website-template-7\/index.html",
         "tag": " #WebDesign #template",
-        "id": "0274e836d523636816dcdba1598400b0",
+        "id": "84965a648376b8020d9a5e4c5c7fee85",
         "time": "id"
     },
     {
         "text": "Simple website template\n\nWebsite template description. ",
-        "url": "\/templates-data\/8-simple-website-template\/index.html",
+        "url": "\/templates\/simple-website-template-8\/index.html",
         "tag": " #WebDesign #template",
-        "id": "49083c126aa90b19391eb2eb3bc74700",
+        "id": "c70261857926100900f1412fd6be367b",
+        "time": "id"
+    },
+    {
+        "text": "Sitemap\n\nSite map with all pages or earch on the site, the path to the page is used for the search. (Static search based on JavaScript and JSON data in the variable). ",
+        "url": "\/sitemap.html",
+        "tag": " #site #map #sitemap #search #pages #main",
+        "id": "52ae9b86054cc60bdcd982cbccd9b8e6",
         "time": "id"
     },
     {
         "text": "Start page\n\nStart page. ",
-        "url": "\/projects\/41-start-page\/index.html",
+        "url": "\/projects\/start-page-41\/index.html",
         "tag": " #start #start_page #HTML #project",
-        "id": "193bb104c11f1266861bdb3861b2eea6",
+        "id": "0c669ab1f6ae5ee45db5b42b1b9a6bf7",
         "time": "id"
     },
     {
         "text": "Sun and moon css\n\nSun and moon ",
-        "url": "\/mini-projects\/31-sun-and-moon-css\/index.html",
+        "url": "\/mini-projects\/sun-and-moon-css-31\/index.html",
         "tag": " #Sun #moon #HTML #CSS #project",
-        "id": "1b115cde4d60fc1e491c836fda0efd2e",
+        "id": "76e8cc1ccb4529fb7d83b68e85ba0ced",
         "time": "id"
     },
     {
         "text": "Template home page auto light dark abc\n\nWebsite template description. ",
-        "url": "\/templates-data\/20-template-home-page-auto-light-dark-abc\/index.html",
+        "url": "\/templates\/template-home-page-auto-light-dark-abc-20\/index.html",
         "tag": " #WebDesign #template",
-        "id": "6d8fa17b741a668d46626c54402261ac",
+        "id": "bcb82484cce650a53a6a2663bf872ea6",
         "time": "id"
     },
     {
-        "text": "Templates\n\nHTML templates. Website templates. (I create pages for practice). ",
-        "url": "\/templates.html",
-        "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
-        "id": "8293cee293d869063587a57f991071fa",
-        "time": "id"
-    },
-    {
-        "text": "Templates data\n\nRedirect page, not intended for viewing. ",
-        "url": "\/templates-data\/index.html",
+        "text": "Templates\n\nRedirect page, not intended for viewing. ",
+        "url": "\/templates\/index.html",
         "tag": " #Redirect_to_list",
-        "id": "70670f6fe3f7e2b17e7126b0a31a5f05",
+        "id": "fb5aa1cd1261d08d02db6f7dc314d9ab",
+        "time": "id"
+    },
+    {
+        "text": "Templates page\n\nHTML templates. Website templates. (I create pages for practice). ",
+        "url": "\/templates-page.html",
+        "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
+        "id": "da9bdb588bab64f12fb9c87ffcaadb8d",
         "time": "id"
     },
     {
         "text": "Test\n\nTest page, test style, sometimes there are some test fragments of JavaScript or CSS code. ",
-        "url": "\/projects\/27-test\/index.html",
+        "url": "\/projects\/test-27\/index.html",
         "tag": " #test #page #HTML #CSS #JavaScript #project",
-        "id": "f14d8ace31fc49d949d2d019fca75abc",
-        "time": "id"
-    },
-    {
-        "text": "Text\n\nLong text: article, post. I'm attempting to write something. ",
-        "url": "\/text.html",
-        "tag": " #text #article #post #page #main",
-        "id": "63caf82fca46caa38ca0328bab57c966",
+        "id": "86d9dee90df2fa84b95059eb006e7fa1",
         "time": "id"
     },
     {
         "text": "Text to binary\n\nConversion of text and symbols into binary format using JavaScript. ",
-        "url": "\/projects\/39-text-to-binary\/index.html",
+        "url": "\/projects\/text-to-binary-52\/index.html",
         "tag": " #text #binary #tool #conversion #converter #JavaScript #project",
-        "id": "0aefed9f6007664ed1bc5e070dfd38d3",
+        "id": "e6459362df1ce316ace4a26040df03f8",
         "time": "id"
     },
     {
         "text": "Text to url\n\nConversion of text into URL or file name using JavaScript. ",
-        "url": "\/projects\/43-text-to-url\/index.html",
+        "url": "\/projects\/text-to-url-43\/index.html",
         "tag": " #text #URL #tool #file #name #JavaScript #project",
-        "id": "ab515ea1e1b7d1835ea516015bc707a8",
+        "id": "4d4fbb01ddf0ddec93ab9128a52c8794",
         "time": "id"
     },
     {
         "text": "Textarea\n\nFull page textarea. ",
-        "url": "\/mini-projects\/24-textarea\/index.html",
+        "url": "\/mini-projects\/textarea-24\/index.html",
         "tag": " #textarea #HTML #CSS #project",
-        "id": "3ec7fb9e9142afd1238ce7084dc3ec42",
+        "id": "8d591aad977c86581fbb281cce12abc4",
         "time": "id"
     },
     {
@@ -785,79 +743,114 @@ var sitemapJsonVar = [
     },
     {
         "text": "Time binary clock\n\nBinary clock online on webpage. Made with CSS and JavaScript. ",
-        "url": "\/projects\/28-time-binary-clock\/index.html",
+        "url": "\/projects\/time-binary-clock-28\/index.html",
         "tag": " #time #binary #clock #info #JavaScript #project",
-        "id": "ab486d75245c0c4b13a84b062df3def2",
+        "id": "3fdfd39925afd8634bd03ce80f2f2f05",
         "time": "id"
     },
     {
         "text": "Time clock\n\nA simple ordinary clock, shows the computer (browser) time. ",
-        "url": "\/projects\/29-time-clock\/index.html",
+        "url": "\/projects\/time-clock-29\/index.html",
         "tag": " #time #clock #info #JavaScript #project",
-        "id": "4b35aafe50c2d5ff957e0fdab17f6c9e",
+        "id": "63bd88b641bf9e887f98f938876a6dc5",
         "time": "id"
     },
     {
         "text": "Time stopwatch\n\nStop watch. Countdown from zero. ",
-        "url": "\/projects\/30-time-stopwatch\/index.html",
+        "url": "\/projects\/time-stopwatch-30\/index.html",
         "tag": " #time #stopwatch #tool #info #countdown #timer #JavaScript #project",
-        "id": "5522839bdc6a860f404f688165cea744",
+        "id": "df98aad619835f4b090a0a1ba20a4b68",
         "time": "id"
     },
     {
         "text": "Todo list idea\n\ntodo list idea ",
-        "url": "\/projects\/32-todo-list-idea\/index.html",
+        "url": "\/projects\/todo-list-idea-32\/index.html",
         "tag": " #todo #list #idea #tool #JavaScript #project",
-        "id": "c689f844f80110f25358b7c1080fb6c4",
+        "id": "12fd7e0887d1166db0cd105434c74534",
         "time": "id"
     },
     {
         "text": "Todo list task\n\nSimple todo list or task list:\r\n\u00b7 checkmark, adding, editing, deletion task.\r\n\u00b7 pin to the top.\r\n\u00b7 random task.\r\n\u00b7 clear, delete. ",
-        "url": "\/projects\/31-todo-list-task\/index.html",
+        "url": "\/projects\/todo-list-task-31\/index.html",
         "tag": " #todo #task #tool #list #task #JavaScript #project",
-        "id": "7f79083cc140dc4571510318698dc326",
+        "id": "4496de3bbb3500a9da07fdaec6a7d7f3",
+        "time": "id"
+    },
+    {
+        "text": "Tpl\n\nnone ",
+        "url": "\/templates\/tpl-0\/index.html",
+        "tag": " #none",
+        "id": "397185410efa7d4194d37977be390dce",
+        "time": "id"
+    },
+    {
+        "text": "Tpl\n\nnone, ",
+        "url": "\/css-art\/tpl-1\/index.html",
+        "tag": " #none",
+        "id": "764c73267bf24231157661b93bd88047",
+        "time": "id"
+    },
+    {
+        "text": "Tpl project\n\nThis is the tpl for create projects. ",
+        "url": "\/projects\/tpl-project-001\/index.html",
+        "tag": " #empty",
+        "id": "f2b9e564d3b721198d23ae988752e8d7",
+        "time": "id"
+    },
+    {
+        "text": "Tpl project mini\n\nThis is the tpl for create projects. ",
+        "url": "\/mini-projects\/tpl-project-mini\/index.html",
+        "tag": " #empty",
+        "id": "94daeae055ef9e1453a27141a28a2c6d",
+        "time": "id"
+    },
+    {
+        "text": "Tpl project mini\n\nThis is the tpl for create projects. ",
+        "url": "\/projects\/tpl-project-mini-002\/index.html",
+        "tag": " #empty",
+        "id": "693f1e21e3ad8080e5873691f99a3e49",
         "time": "id"
     },
     {
         "text": "Transliterate\n\nCyrillic transliteration using JavaScript. ",
-        "url": "\/projects\/35-transliterate\/index.html",
+        "url": "\/projects\/transliterate-35\/index.html",
         "tag": " #transliteration #text #tool #translit #JavaScript #project",
-        "id": "3dea651bb66c9675b024b053fe5480ed",
+        "id": "7889d60dd8bd351837bffa8c72de05e9",
         "time": "id"
     },
     {
         "text": "Tv\n\nA tiny collection of TV channels online, is chosen randomly. Players from other platforms are used. ",
-        "url": "\/projects\/36-tv\/index.html",
+        "url": "\/projects\/tv-36\/index.html",
         "tag": " #tv #random #collection #news #technology #JavaScript #embed #page #project",
-        "id": "b119afd8736b97a772b10bd543c06493",
+        "id": "51dbcbafa80241f5d7d53c57d624d6c1",
         "time": "id"
     },
     {
         "text": "Typing speed\n\n\u00b7 A typing speed or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM.\r\n\u00b7 Modes: quotes, book, own text input. ",
-        "url": "\/projects\/14-typing-speed\/index.html",
+        "url": "\/projects\/typing-speed-14\/index.html",
         "tag": " #game #typing #speed #trainer #WPM #JavaScript #project",
-        "id": "b655a741b3268d0bf4fe44651daa3752",
+        "id": "f176928c264f247cd3a9adb88d3b60fb",
         "time": "id"
     },
     {
         "text": "Video\n\nA small collection video, shown randomly. ",
-        "url": "\/projects\/18-video\/index.html",
+        "url": "\/projects\/video-18\/index.html",
         "tag": " #video #random #collection #movie #cartoon #JavaScript #embed #page #project",
-        "id": "1ba78c2bf06f2d65e2f5edd927b6e0ac",
+        "id": "cf8764f66497b8a627865ab36433767c",
         "time": "id"
     },
     {
-        "text": "Vscode theme\n\nVisual Studio Code themes: light and dark. ",
-        "url": "\/vscode-theme.html",
+        "text": "Vscode theme page\n\nVisual Studio Code themes: light and dark. ",
+        "url": "\/vscode-theme-page.html",
         "tag": " #Visual #Studio #Code #theme #color #flat #dark #light #VSCode #project #page #main",
-        "id": "b017f50abc75d1f4a8238c2005391cb7",
+        "id": "48d8a39a6a2042b79fd9cedef9e93813",
         "time": "id"
     },
     {
         "text": "Weather\n\nA simple tiny card showing the current weather. ",
-        "url": "\/projects\/37-weather\/index.html",
+        "url": "\/projects\/weather-37\/index.html",
         "tag": " #weather #information #api #info #JavaScript #project #widget",
-        "id": "e39323f08cab051b171d30af7dffbfdb",
+        "id": "6f8bee68e5f3f02be837cba1bf6cf272",
         "time": "id"
     },
     {
@@ -869,9 +862,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Woman css\n\nCSS drawing woman. ",
-        "url": "\/css-art-data\/32-woman-css\/index.html",
+        "url": "\/css-art\/woman-css-32\/index.html",
         "tag": " #womain #CSSArt #HTML #CSS #project",
-        "id": "8e79a21fbc2d0fd7b9044a279aba0441",
+        "id": "bd69c0e5b8cc026f9a58a143ccd74052",
         "time": "id"
     }
 ]

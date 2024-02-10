@@ -76,7 +76,7 @@ install, install website, PWA, WebApp, app, page, main,
 <!-- menu dublicate -->
 <a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>
 
-<!-- //menu dublicate -->
+<!-- // menu dublicate -->
 </div>
 </div>
 </div>
@@ -92,7 +92,7 @@ install, install website, PWA, WebApp, app, page, main,
 </nav>
 </div>
 </header>
-<!-- end nav -->
+<!-- // nav -->
 
 <!--<hr>-->
 
@@ -109,15 +109,15 @@ install, install website, PWA, WebApp, app, page, main,
 <div class="wrapperL tCenter">
 
 <h1 class="tCenter op padding2">Install Website (PWA)</h1>
-<div class="block tCenter small">(PWA v.1.2.2024.02.09)</div>
+<div class="block tCenter small">(PWA v.1.2.2024.02.10)</div>
 <div class="block padding3 margin3"></div>
 
 
 
-<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install (21,03 MB)</span>
+<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install (21,06 MB)</span>
 <span class="small block padding2">registration sw.js (service worker) and adding files to the cache. (1)</span></button>
 <div id="startInstallStatus" class="post padding2 margin2 borderList"></div>
-<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install (21,03 MB) (2)</button>
+<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install (21,06 MB) (2)</button>
 
 
 
@@ -343,7 +343,32 @@ fuAds('', 'ads2', '');
 
 
 
+<script>
+//fix
+// Nav up for main list page
+//if(document.getElementById("mNavUp") != null){
+if(document.getElementsByClassName("mClassNavUp")[0] != null){
+let mNavUpCheck = new String(window.location.pathname);
 
+var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
+allMClassNavUp.forEach((item, index) => {
+
+
+if(mNavUpCheck != "/"){
+//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+
+if(mNavUpCheck.indexOf('/main-list') != -1){
+//document.getElementsByClassName("mClassNavUp").href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "../";
+}
+}
+
+});
+
+
+}
+</script>
 
 
 </body>

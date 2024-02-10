@@ -74,7 +74,7 @@
 <!-- menu dublicate -->
 <a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>
 
-<!-- //menu dublicate -->
+<!-- // menu dublicate -->
 </div>
 </div>
 </div>
@@ -90,7 +90,7 @@
 </nav>
 </div>
 </header>
-<!-- end nav -->
+<!-- // nav -->
 
 <!--<hr>-->
 
@@ -101,6 +101,11 @@
 <div class="content">
 
 <h1 class="tCenter">Changelog</h1>
+<div class="post borderList bg">
+<span class="op xSmall">#273</span><hr><span class="inlineBlock firstLetterBold pre">Improved navigation (in test).
+Mass page movement (in test).</span>
+</div>
+
 <div class="post borderList bg">
 <span class="op xSmall">#272</span><hr><span class="inlineBlock firstLetterBold pre">CSS: changed border style.</span>
 </div>
@@ -138,10 +143,6 @@ Fixed To-Do submit button.</span>
 <span class="op xSmall">#264</span><hr><span class="inlineBlock firstLetterBold pre">Attempt to fix menu.</span>
 </div>
 
-<div class="post borderList bg">
-<span class="op xSmall">#263</span><hr><span class="inlineBlock firstLetterBold pre">Fixed templates (footer).</span>
-</div>
-
 <div class="padding2 margin2"></div>
 
 
@@ -169,7 +170,32 @@ fuAds('', 'ads2', '');
 
 
 
+<script>
+//fix
+// Nav up for main list page
+//if(document.getElementById("mNavUp") != null){
+if(document.getElementsByClassName("mClassNavUp")[0] != null){
+let mNavUpCheck = new String(window.location.pathname);
 
+var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
+allMClassNavUp.forEach((item, index) => {
+
+
+if(mNavUpCheck != "/"){
+//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+
+if(mNavUpCheck.indexOf('/main-list') != -1){
+//document.getElementsByClassName("mClassNavUp").href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "../";
+}
+}
+
+});
+
+
+}
+</script>
 
 
 </body>

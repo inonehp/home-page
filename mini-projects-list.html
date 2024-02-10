@@ -77,7 +77,7 @@ HTML, CSS, noscript, projects, list, main, pages,">
 <!-- menu dublicate -->
 <a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>
 
-<!-- //menu dublicate -->
+<!-- // menu dublicate -->
 </div>
 </div>
 </div>
@@ -93,7 +93,7 @@ HTML, CSS, noscript, projects, list, main, pages,">
 </nav>
 </div>
 </header>
-<!-- end nav -->
+<!-- // nav -->
 
 <!--<hr>-->
 
@@ -111,24 +111,32 @@ HTML, CSS, noscript, projects, list, main, pages,">
 
 <div class="wrapper">
 
-<!-- start menu -->
+<!-- menu -->
+
+
+
 
  
 
 <div class="menu small firstLetterBold">
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/5-animated-borders-button-link/"><span class="insertIcon firstLetterBold">Animated borders button link</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/6-animation-test/"><span class="insertIcon firstLetterBold">Animation test</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/7-background-with-linear-gradient-css/"><span class="insertIcon firstLetterBold">Background with linear gradient css</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/32-bento-responsive-flex-grid/"><span class="insertIcon firstLetterBold">Bento responsive flex grid</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/28-button-blur-unblur/"><span class="insertIcon firstLetterBold">Button blur unblur</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/7-circle/"><span class="insertIcon firstLetterBold">Circle</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/33-heading/"><span class="insertIcon firstLetterBold">Heading</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/29-light-and-dark-design/"><span class="insertIcon firstLetterBold">Light and dark design</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/2-responsive-web-design/"><span class="insertIcon firstLetterBold">Responsive web design</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/31-sun-and-moon-css/"><span class="insertIcon firstLetterBold">Sun and moon css</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/24-textarea/"><span class="insertIcon firstLetterBold">Textarea</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/a-tpl-project-mini/"><span class="insertIcon firstLetterBold">A tpl project mini</span></a>
-</div><!-- end menu -->
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/animated-borders-button-link-5/"><span class="insertIcon firstLetterBold">Animated borders button link</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/animation-test-6/"><span class="insertIcon firstLetterBold">Animation test</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/background-with-linear-gradient-css-7/"><span class="insertIcon firstLetterBold">Background with linear gradient css</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/button-blur-unblur-28/"><span class="insertIcon firstLetterBold">Button blur unblur</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/circle-8/"><span class="insertIcon firstLetterBold">Circle</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/flex-grid-32/"><span class="insertIcon firstLetterBold">Flex grid</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/heading-33/"><span class="insertIcon firstLetterBold">Heading</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/light-and-dark-design-29/"><span class="insertIcon firstLetterBold">Light and dark design</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/responsive-web-design-2/"><span class="insertIcon firstLetterBold">Responsive web design</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/sun-and-moon-css-31/"><span class="insertIcon firstLetterBold">Sun and moon css</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/textarea-24/"><span class="insertIcon firstLetterBold">Textarea</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/tpl-project-mini/"><span class="insertIcon firstLetterBold">Tpl project mini</span></a>
+</div>
+
+<div class="margin2"></div>
+<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 13 , last: heading-33 </div>
+
+<!-- // menu -->
 
 <!-- nav2 -->
 <div class="padding2 margin2"></div>
@@ -183,7 +191,32 @@ fuAds('', 'ads2', '');
 
 
 
+<script>
+//fix
+// Nav up for main list page
+//if(document.getElementById("mNavUp") != null){
+if(document.getElementsByClassName("mClassNavUp")[0] != null){
+let mNavUpCheck = new String(window.location.pathname);
 
+var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
+allMClassNavUp.forEach((item, index) => {
+
+
+if(mNavUpCheck != "/"){
+//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+
+if(mNavUpCheck.indexOf('/main-list') != -1){
+//document.getElementsByClassName("mClassNavUp").href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "../";
+}
+}
+
+});
+
+
+}
+</script>
 
 
 </body>

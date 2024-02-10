@@ -570,8 +570,8 @@ case 'gg#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "/projects/49-google-programmable-search/?q=" + q;
-if(q == ''){ url = "/projects/49-google-programmable-search/"; }
+url = "/projects/google-programmable-search-49/?q=" + q;
+if(q == ''){ url = "/projects/google-programmable-search-49/"; }
 sRedirUrl = url;
 break;
 
