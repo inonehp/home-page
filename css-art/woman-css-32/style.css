@@ -1,4 +1,4 @@
-/* v.1.0.2 */
+/* v.1.1.0 */
 
 :root{
 --lDrawingBg: #C6DCF3;
@@ -26,8 +26,9 @@ justify-content: center;
 
 
 .lDrawing {
-width: 400px;
-height: 400px;
+width: 70%;
+max-width: 400px;
+aspect-ratio: 1 / 1;
 margin: 0 auto;
 position: relative;
 background: var(--lDrawingBg);
@@ -121,7 +122,6 @@ background: var(--lFace);
 width: 100%;
 height: 100%;
 position: absolute;
-
 z-index: 5;
 }
 
@@ -135,9 +135,7 @@ position: absolute;
 left: 45%;
 top: 23%;
 transform: translate(-50%, -50%);
-
-border: 3px solid var(--lGlass);
-
+background: var(--lGlass);
 z-index: 5;
 }
 
@@ -145,6 +143,10 @@ z-index: 5;
 left: 55%;
 }
 
+.lGlass::before, .lGlass::after {
+background: transparent;
+border: solid #000;
+}
 
 .lGlassLeft, .lGlassRight, .lGlassCenter {
 content: '';
@@ -180,8 +182,8 @@ transform: rotate(0);
 
 
 .lEye::before, .lEye::after {
-width: 1%;
-height: 1%;
+width: 2%;
+height: 2%;
 border-radius: 45%;
 background: #000;
 }
@@ -355,17 +357,4 @@ z-index: 4;
 }
 
 
-
-
-
-
-
-@media(max-width: 450px) { .lDrawing { width: 300px; height: 300px; }}
-@media(max-width: 350px) { .lDrawing { width: 200px; height: 200px; }}
-@media(max-width: 250px) {
-.lDrawing { width: 100px; height: 100px; }
-.lGlass::before, .lGlass::after, .lEye::before, .lEye::after {
-border: 1px solid;
-}
-}
 

@@ -786,7 +786,7 @@ var sitemapJsonVar = [
     {
         "text": "Tpl\n\nnone, ",
         "url": "\/css-art\/tpl-1\/index.html",
-        "tag": " #none",
+        "tag": " #none #CSSArt #HTML #CSS #project",
         "id": "764c73267bf24231157661b93bd88047",
         "time": "id"
     },

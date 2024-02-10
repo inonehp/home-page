@@ -1568,18 +1568,18 @@ play = item.split('/');
 
 if(play[play.length - 2] == 'playlist') {
 play2 = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
 embedServiceList += 'spotify';
 }
 
 if(play[play.length - 2] == 'track') {
 play2 = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
 }
 
 if(play[play.length - 2] == 'artist') {
 play2 = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
 }
 
 break;
@@ -1739,7 +1739,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 
 if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||
 item.indexOf("/") != -1&&item.indexOf("index.htm") != -1) {
-embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" loading="lazy" title="iframe"></iframe>`;
+embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" title="iframe"></iframe>`;
 }
 
 
@@ -2060,17 +2060,17 @@ play = item.split('/');
 
 if(play[play.length - 2] == 'playlist') {
 play2 = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
 }
 
 if(play[play.length - 2] == 'track') {
 play2 = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
 }
 
 if(play[play.length - 2] == 'artist') {
 play2 = play[play.length - 1];
-embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
 }
 embedServiceList += 'spotify';
 break;
@@ -2870,8 +2870,6 @@ function levenshtein(s, t) {
 
     return h;
 }
-
-
 
 
 

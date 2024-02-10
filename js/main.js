@@ -497,11 +497,10 @@ if(document.getElementById('theme') != null){
 
 //https://stackoverflow.com/questions/36641137/how-exactly-does-link-rel-preload-work
 let cssEmbed = document.createElement("link");
-cssEmbed.rel = "preload";
+/*cssEmbed.rel = "preload";
 cssEmbed.as = "style";
-cssEmbed.href = '/css/'+theme+'.css';
-document.head.appendChild(cssEmbed);
-
+cssEmbed.href = '/css/' + theme + '.css';
+document.head.appendChild(cssEmbed);*/
 
 document.getElementById('theme').href = '/css/' + theme + '.css';
 }
@@ -1149,22 +1148,47 @@ return document.querySelectorAll("form")[index].action = newUrl;
 // all ifarame
 var allForm = document.querySelectorAll("iframe");
 allForm.forEach((item, index) => {
-if(item != ""){
 
+
+
+if(item != ""){
 try{
 var url = new URL(item.src);
 newUrl = item.src;
 if(url.hostname == location.hostname){
+
+
+// if ulr exit
+fetch(
+url, { method: "HEAD" }
+)
+.then((res) => {
+if (res.ok) {
+// empty
+}else{
+
+//console.log('404 not found ' + url);
+
 //console.log(newUrl);
 var arr = conf["confLinkExtList"].split(',');
 arr.forEach((element) => {
 newUrl = newUrl.replaceAll(element, "");
 });
 return document.querySelectorAll("iframe")[index].src = newUrl;
+
+}
+});
+
 }
 }catch(error){ console.log(error + ":" + item); }
 
 }
+
+
+
+
+
+
 });
 
 
