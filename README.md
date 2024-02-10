@@ -21,17 +21,17 @@
   
 ---
   
-### 🚀 Speed dial (GitHub explore):  
-🏷️ [Website](https://github.com/topics/website?s=updated),
-[Personal](https://github.com/topics/personal?s=updated),
-[Home page](https://github.com/topics/homepage?s=updated),
-[HTML](https://github.com/topics/HTML?s=updated),
-[CSS](https://github.com/topics/css?s=updated),
-[JavaScript](https://github.com/topics/javascript?s=updated),
-[Game](https://github.com/topics/game?s=updated),
-[App](https://github.com/topics/app?s=updated),
-[Theme](https://github.com/topics/theme?s=updated),
-[Template](https://github.com/topics/template?s=updated),
+### 🏷️ Speed dial (GitHub explore):  
+[#Website](https://github.com/topics/website?s=updated),
+[#Personal](https://github.com/topics/personal?s=updated),
+[#Home page](https://github.com/topics/homepage?s=updated),
+[#HTML](https://github.com/topics/HTML?s=updated),
+[#CSS](https://github.com/topics/css?s=updated),
+[#JavaScript](https://github.com/topics/javascript?s=updated),
+[#Game](https://github.com/topics/game?s=updated),
+[#App](https://github.com/topics/app?s=updated),
+[#Theme](https://github.com/topics/theme?s=updated),
+[#Template](https://github.com/topics/template?s=updated),
   
   
 <!--### Screenshots:  
