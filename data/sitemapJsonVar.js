@@ -665,13 +665,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Sitemap\n\nSite map with all pages or earch on the site, the path to the page is used for the search. (Static search based on JavaScript and JSON data in the variable). ",
-        "url": "\/sitemap.html",
-        "tag": " #site #map #sitemap #search #pages #main",
-        "id": "52ae9b86054cc60bdcd982cbccd9b8e6",
-        "time": "id"
-    },
-    {
         "text": "Start page\n\nStart page. ",
         "url": "\/projects\/start-page-41\/index.html",
         "tag": " #start #start_page #HTML #project",

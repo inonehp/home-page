@@ -137,8 +137,8 @@ document.getElementById(id).innerHTML = text;
 
 
 
-//<!-- Nav v.1.0.0 -->
-//<!-- page, main.js, noscript.css -->
+//<!-- Nav v.1.1.0 -->
+//<!-- page, style.css, main.js, noscript.css -->
 // for other pages where navigation is poor
 
 conf["confMenuItems"] = [
@@ -270,12 +270,13 @@ cssMedia2 = '@media(min-width: 1000px)';
 var mNavItemsAverageWidth = 75; // Average: 66
 var mNavItemsCount = (countMenuItem.length / 2) + 2;
 var mNavWhenDropdownW = ((mNavItemsAverageWidth  * mNavItemsCount) + (10  * mNavItemsCount)) / 2;
-console.log(`menu items: ${mNavItemsCount}*70px=hide when:${mNavWhenDropdownW}px`);
+//console.log(`menu items: ${mNavItemsCount}*70px=hide when:${mNavWhenDropdownW}px`);
 var cssMedia = `@media(width <= ${mNavWhenDropdownW}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownW}px)`;
 // fix if .wrapper3
 if((mNavWhenDropdownW) >= 900){
-var cssMedia = '@media(width >= 1px)';
+cssMedia = '@media(width >= 1px)';
+cssMedia2 = `@media(width <= 0px)`;
 }
 // embed style
 document.getElementsByTagName("nav")[0].innerHTML += `
