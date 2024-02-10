@@ -15,9 +15,9 @@
 ---
   
 > [!NOTE]
-> - You can find information about other licenses on the "About" page.
-> - This about page was built using [GitHub](https://github.com/) 
-> - Top resources for creating this site and projects: [MDN Web Docs](https://developer.mozilla.org/), [W3Schools](https://www.w3schools.com/), [Web.dev](https://web.dev/), [Stack Overflow](https://stackoverflow.com/)
+> - You can find information about other licenses on the "About" page.  
+> - Top resources for creating this site and projects: [MDN Web Docs](https://developer.mozilla.org/), [W3Schools](https://www.w3schools.com/), [Web.dev](https://web.dev/), [Stack Overflow](https://stackoverflow.com/)  
+> - This about page was built using [GitHub](https://github.com/)  
   
 ---
   
