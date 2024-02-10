@@ -1021,26 +1021,26 @@
   <text
      xml:space="preserve"
      id="text5952"
-     style="font-size:48px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect5954);fill:#555753;filter:url(#filter1289)"
-     rotate="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+     style="font-size:48px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect5954);fill:#555753"
+     rotate="0 0 0 0 0 0 0 0 0 0 0 0 0"
      x="273.76562"
      y="0"
-     transform="matrix(1.049381,0,0,1.049381,-69.518137,200.75142)"><tspan
-       x="355.46703"
+     transform="matrix(1.049381,0,0,1.049381,-69.99666,200.75142)"><tspan
+       x="533.4985"
        y="203.40781"
-       id="tspan25597"><tspan
+       id="tspan5970"><tspan
          style="font-weight:600;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';text-align:center;text-anchor:middle"
-         id="tspan25595">console.log(&quot;Hello World!&quot;);</tspan></tspan></text>
+         id="tspan5968">Hello World!</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text36752"
-     style="font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect36754);fill:#555753;filter:url(#filter1289)"
-     transform="matrix(1.049381,0,0,1.049381,127.18083,-7.2541779)"><tspan
+     style="font-size:24px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect36754);fill:#555753"
+     transform="matrix(1.049381,0,0,1.049381,127.18082,-7.2541779)"><tspan
        x="277.93164"
        y="467.36016"
-       id="tspan25601"><tspan
+       id="tspan5974"><tspan
          style="font-weight:600;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold'"
-         id="tspan25599">HTML5, CSS3, JavaScript, and PHP8</tspan></tspan></text>
+         id="tspan5972">HTML5, CSS3, JavaScript, and PHP8</tspan></tspan></text>
   <g
      id="g1183"
      transform="matrix(0.37511497,0,0,0.37511497,543.97057,145.64244)">
@@ -1100,9 +1100,9 @@
            y="0"><tspan
              x="108.98828"
              y="420.20692"
-             id="tspan25605"><tspan
+             id="tspan5978"><tspan
                style="text-align:justify"
-               id="tspan25603">inonehp</tspan></tspan></text>
+               id="tspan5976">inonehp</tspan></tspan></text>
         <rect
            style="fill:#456eac;fill-opacity:1;stroke-width:7.58995"
            id="rect42979"
