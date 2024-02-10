@@ -497,6 +497,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Print\n\nThis is the tpl for create projects. ",
+        "url": "\/projects\/print-53\/index.html",
+        "tag": " #empty",
+        "id": "538c39d5fb633dd0ff8b888f9678fef8",
+        "time": "id"
+    },
+    {
         "text": "Profile card website template auto light dark flat mini abc\n\nWebsite template description. ",
         "url": "\/templates\/profile-card-website-template-auto-light-dark-flat-mini-abc-12\/index.html",
         "tag": " #WebDesign #template",
@@ -784,13 +791,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Tpl project\n\nThis is the tpl for create projects. ",
-        "url": "\/projects\/tpl-project-001\/index.html",
-        "tag": " #empty",
-        "id": "f2b9e564d3b721198d23ae988752e8d7",
-        "time": "id"
-    },
-    {
         "text": "Tpl project mini\n\nThis is the tpl for create projects. ",
         "url": "\/mini-projects\/tpl-project-mini\/index.html",
         "tag": " #empty",
@@ -799,9 +799,16 @@ var sitemapJsonVar = [
     },
     {
         "text": "Tpl project mini\n\nThis is the tpl for create projects. ",
-        "url": "\/projects\/tpl-project-mini-002\/index.html",
+        "url": "\/projects\/tpl-project-mini-001\/index.html",
         "tag": " #empty",
-        "id": "693f1e21e3ad8080e5873691f99a3e49",
+        "id": "fcb76d1865ebd357a396c570fae6ef2b",
+        "time": "id"
+    },
+    {
+        "text": "Tpl project not mini\n\nThis is the tpl for create projects. ",
+        "url": "\/projects\/tpl-project-not-mini-002\/index.html",
+        "tag": " #empty",
+        "id": "0afca7a3e73d125f2b22bf99ff1e27ed",
         "time": "id"
     },
     {

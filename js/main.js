@@ -276,7 +276,8 @@ var cssMedia2 = `@media(width >= ${mNavWhenDropdownW}px)`;
 // fix if .wrapper3
 if((mNavWhenDropdownW) >= 900){
 cssMedia = '@media(width >= 1px)';
-cssMedia2 = `@media(width <= 0px)`;
+// cancel
+cssMedia2 = `@media(width <= 0px)`; 
 }
 // embed style
 document.getElementsByTagName("nav")[0].innerHTML += `

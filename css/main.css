@@ -1,4 +1,4 @@
-/* Main style v.12.17.0 */
+/* Main style v.12.17.1 */
 /* Responsive, mainly class-based */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
@@ -344,7 +344,7 @@ border-radius: 5px;
 
 
 /* colors */
-body{ background-color: var(--bg); color :var(--c3); }
+body{ background-color: var(--bg); color: var(--c3); }
 
 a { color: var(--c2); }
 a:hover { color: var(--c4); } 
