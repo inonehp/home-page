@@ -1,4 +1,4 @@
-// Redirect v.1.6.1
+// Redirect v.1.7.0
 // The script redirects the search query + command to another location.
 
 // conf
@@ -144,6 +144,25 @@ url = urlList[random];
 if(q == ''){
 urlList = [
 "/search.html",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
+
+case 'rr#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q.trim());
+urlList = [
+"/search.html?q=" + q + " r",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+if(q == ''){
+urlList = [
+"/search.html?mode=randUrl",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

@@ -1,9 +1,7 @@
-// Keep v.2.8.6
+// Keep v.2.8.10
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
-
 // JSON data in js varible pre-sorted by time in UNIX format
-// main function 
 
 /*
 // config, copy paste in html
@@ -137,21 +135,13 @@ q2 = q2.replaceAll(/%/g, "%25");
 q2 = decodeURIComponent(q2);
 q2 = q2.trim();
 }
-if(q2 != null&&q2 != ''){ q += ' ' + q2; }
+//if(q2 != null&&q2 != ''){ q += ' ' + q2; } // delme
 
 if(q != null){
 q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
 q = q.trim();
 }
-
-var q2 = url.searchParams.get("q2");
-if(q != null){
-//q2 = q2.replaceAll(/%/g, "%25");
-q2 = decodeURIComponent(q2);
-q2 = q2.trim();
-}
-
 
 
 var mode = url.searchParams.get("mode");
@@ -162,10 +152,10 @@ mode = mode.trim();
 }
 
 // q random
-if(q == 'l'||q == 'r'){ q = null; mode = 'random'; }
+//if(q == 'l'||q == 'r'){ q = null; mode = 'random'; }
+
 
 if(q != null){
-//alert(q[q.length - 1]);
 if(q[q.length - 2] == ' '&&q[q.length - 1] == 'l'){ q = q.slice(0, -2); q2 = 'l'; }
 if(q[q.length - 2] == ' '&&q[q.length - 1] == 'r'){ q = q.slice(0, -2); q2 = 'r'; }
 }
@@ -280,7 +270,7 @@ getP = getP3;
 }
 
 //if(q == ''&&q2 == 'l'||q == ' l'||q == 'l'){ mode = 'randUrl'; }// rmMe
-if(q == ''&&q2 == 'l'||q == ' l'||q == 'l'){ q2 = 'r'; }
+if(q == ''&&q2 == 'l'){ mode = 'random'; }
 
 if(id != null||getP2 != null){
 postLimit = 1;
