@@ -12,6 +12,6 @@ margin-bottom: 1px;
 }
 
 .localBlock { max-width: 100px; }
-.localBlock2 { max-width: 300px; }
-.localBlock3 { max-width: 500px; }
-.localBlock4 { max-width: 1000px; }
+.localBlock2 { max-width: 480px; }
+.localBlock3 { max-width: 860px; }
+.localBlock4 { max-width: 100%; }
