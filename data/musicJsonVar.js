@@ -6427,6 +6427,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Hard to Go \u00b7 Never",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=0xLfGBSlrsU",
+        "tag": "#music"
+    },
+    {
         "text": "Harder, Better, Faster, Stronger | Daft Punk | Pomplamoose - YouTube",
         "text2": "",
         "text3": "",
@@ -11467,6 +11474,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Not a Photo Op \u00b7 Never",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=zyNxecTAMf0",
+        "tag": "#music"
+    },
+    {
         "text": "Not Too Soon \u00b7 Throwing Muses",
         "text2": "",
         "text3": "",
@@ -12087,6 +12101,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=A5KEVub9KSs",
+        "tag": "#music"
+    },
+    {
+        "text": "Physical Limitations \u00b7 Never",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=HEPazGZEWCY",
         "tag": "#music"
     },
     {

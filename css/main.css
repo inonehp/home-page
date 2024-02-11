@@ -1,4 +1,4 @@
-/* Main style v.12.17.1 */
+/* Main style v.12.17.2 */
 /* Responsive, mainly class-based */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
@@ -65,8 +65,16 @@ overflow-y: scroll;
 /*height: -webkit-fill-available*/
 }
 
-.content { flex: 1 0 auto; }
+.content, .contentCenter { flex: 1 0 auto; }
 .page { min-height: 100vh; }
+
+.contentCenter {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+/*height: 100vh;*/
+}
 
 header, footer {
 flex-shrink: 0;
@@ -422,6 +430,19 @@ input, progress, select { accent-color: var(--d4);  }
 .w100 { width: 100%; }
 .h100 { height: 100%; }
 
+
+
+
+
+
+/* print */
+
+@media print {
+/* https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Printing */
+.navTop, footer, nav {
+display: none;
+}
+}
 
 /* fix */
 

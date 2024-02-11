@@ -6,7 +6,7 @@
 🔍 Search (redirect).  
 🛍️ Extension New Tab: any site in each new tab.  
 🎨 Themes for: Geany IDE, and Firefox.  
-📝 To-do, typing, and other  
+📝 To-do, typing, templates ...  
   
 ---
   

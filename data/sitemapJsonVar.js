@@ -7,9 +7,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": ".\n\nHomepage and projects:  \nSearch (redirect).  \nExtension New Tab: any site in each new tab.  \nThemes for: Geany IDE, and Firefox.  \nTo-do, typing, and other ",
+        "text": ".\n\nHomepage and projects:  \nSearch (redirect).  \nExtension New Tab: any site in each new tab.  \nThemes for: Geany IDE, and Firefox.  \nTo-do, typing, templates ... ",
         "url": "\/index.html",
-        "tag": " #website #WebDesign #project #projects #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #page #main",
+        "tag": " #website #WebDesign #project #projects #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #game #template #page #main",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
         "time": "id"
     },
@@ -448,6 +448,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Palette generator using css\n\nPalette generator using CSS. Using 1 color we generate a palette of colors. ",
+        "url": "\/mini-projects\/palette-generator-using-css-34\/index.html",
+        "tag": " #pallete #generator #HTML #CSS #project",
+        "id": "7d00a82b53e36af4ecaf6334929a1466",
+        "time": "id"
+    },
+    {
         "text": "Personal one page website template mini light dark flat mini abc\n\nWebsite template description. ",
         "url": "\/templates\/personal-one-page-website-template-mini-light-dark-flat-mini-abc-16\/index.html",
         "tag": " #WebDesign #template",
@@ -792,9 +799,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Tpl project mini\n\nThis is the tpl for create projects. ",
-        "url": "\/mini-projects\/tpl-project-mini\/index.html",
-        "tag": " #empty",
-        "id": "94daeae055ef9e1453a27141a28a2c6d",
+        "url": "\/mini-projects\/tpl-project-mini-0\/index.html",
+        "tag": " #empty #HTML #CSS #project",
+        "id": "1609ac38ffd109d5d8d42d477926ec8f",
         "time": "id"
     },
     {
