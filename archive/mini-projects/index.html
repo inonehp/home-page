@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<!-- v.1.0.0 -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Project name</title>
+<title>Redirect to list</title>
 
 <meta name="description" content="
-This is the tpl for create projects.
+Redirect page, not intended for viewing.
 ">
 <meta name="keywords" content="
-empty,
+redirect to list,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,21 +20,18 @@ empty,
 
 <link rel="preload" href="/css/main.css" as="style">
 <link rel="stylesheet" href="/css/main.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="/css/main.css" id="theme">
+<link rel="preload" href="/css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
 
 <link rel="preload" href="/css/style.css" as="style">
 <link rel="stylesheet" href="/css/style.css" type="text/css">
 
 <noscript>
 <link rel="stylesheet" type="text/css" href="/css/noscript.css">
-<style>.noscriptHide { display: none; }</style>
 </noscript>
 <!-- end main -->
 
-<link rel="preload" href="script.js" as="script"> 
 
-<link rel="preload" href="style.css" as="style">
-<link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
 <body>
@@ -48,39 +44,26 @@ empty,
 </header>
 
 
-<!-- content -->
 <div class="content">
-<div class="wrapper">
 
-<h1 class="tCenter op">Project name</h1>
-<div class="tCenter padding2 small op">in progress</div>
+<!--<h1 class="op tCenter">Redirect to list</h1>-->
 
+<script>
+window.location.href = "/projects/25-redirects/?qr=/archive-page.html";
+window.location.href = window.location.href + '#stopRedir'; 
+</script>
 
-
-
-<div class="post border bg pre">
-<div id="result"></div>
-</div>
-
-
-
-
-<div class="margin2 padding2"></div>
+<noscript>
+<a href="/projects-page">list</a>
+</noscript>
 
 </div>
-</div>
-<!-- end content -->
 
-
+<!--
 <footer id="footer"></footer>
 
 <script src="/js/main.js"></script>
-
-<script>
-//fuMSetTheme('light');
-</script>
-
-<script src="script.js"></script>
+-->
 
 </body>
 </html>

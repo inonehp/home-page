@@ -7,6 +7,7 @@
 
 /*<!-- Nav v.1.3.0 -->
 <!-- page, style.css, main.js, noscript.css -->*/
+
 .navTop { position: relative; }
 .navTop form, .navTop input[type=search] { display: inline-block; }
 .navTop form { width: 100%; max-width: 130px; vertical-align: middle; }
@@ -34,19 +35,6 @@ text-align: left;
 /*min-height: 50px;*/
 }
 
-
-/*.menu a::first-letter {
-font-weight: bold;
-}*/
-
-
-
-
-/*nav a::first-letter {
-border-bottom: 1px solid var(--b3);
-}*/
-
-
 /************/
 .navTop nav {
 display: grid;
@@ -68,7 +56,7 @@ text-align: left;
 }
 
 
-/* Dropdown menu for Nav v.1.1.0 */
+/* Dropdown */
 
 #dropdownMenuButton { cursor: pointer; background: transparent; border: none; }
 .dropdownMenuWrapper { position: relative; }
@@ -84,18 +72,6 @@ right: 0;
 text-align: center;
 }
 
-/*.dropdownMenuContent a{
-display: inline-block;
-text-align: left;
-padding-bottom: 5px;
-}*/
-
-/*.dropdownMenuContentColumn {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-text-align: left;
-}*/
-
 .dropdownMenuContentColumn {
 display: inline-block;
 display: block;
@@ -105,16 +81,8 @@ z-index: 2;
 }
 .dropdownMenuContent a { display: inline-block; }
 
-/*.dropdownMenuContentColumn br { content: ''; display: none; }
-@media(max-width: 150px){
-.dropdownMenuContentColumn {
-grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-}
-}*/
-
 /* desktop */
 .menuTop { display: inline-block; }
-.menuTop br { content: ''; display: none; }
 #dropdownMenuButton { display: none; }
 
 
@@ -126,6 +94,12 @@ grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 .dropdownMenuContent { margin-top: 9px;  }
 
 .menuTop { margin-right: 10px; }
+/* // <!-- Nav */
+
+
+
+
+
 
 
 

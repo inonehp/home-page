@@ -1,130 +1,11 @@
-/* Noscript CSS v.1.1.1 */
-/* light */
-:root{
---bg: #F0F0F0;
---l: #F5F5F5;
---l2: #F7F7F7;
---l3: #FAFAFA;
---l4: #FFFFFF;
---d: #E6E6E6;
---d2: #E0E0E0;
---d3: #CCCCCC;
---d4: #333333;
-
---c: #595959;
---c2: #333333; 
---c3: #1A1A1A; 
---c4: #0D0D0D; 
---brand: #3A5C73;
---brand2: #273E4D;
---red: #943328;
---red2: #B33E30;
---orange: #D47900;
---orange2: #EB8600;
---yellow: #A88100;
---yellow2: #C29500;
---green: #29800C;
---green2: #31990F;
---blue: #1C88BA;
---blue2: #23A8E6;
---indigo: #5B67E2;
---indigo2: #6370F5;
---violet: #9E377C;
---violet2: #B03D8A;
-}
+/* Noscript CSS v.2.0.0 */
 
 
-@media (prefers-color-scheme: light) {
-html{ scrollbar-color: var(--d4) var(--l2); }
-::-webkit-scrollbar { background-color: var(--l2); }
-::-webkit-scrollbar-thumb { background-color: var(--d3); }
-
-
-body{
-background-image: url("/img/bg-light.svg");
-background-repeat: repeat;
-background-attachment: fixed;
-}
-}
-
-
-
-
-
-/* dark */
-
-
-@media (prefers-color-scheme: dark) {
-:root{
---bg: #2D2D2E;
---l: #2F2F30;
---l2: #353536;
---l3: #3D3E40;
---l4: #494A4D;
---d: #2A2A2B;
---d2: #252526;
---d3: #1B1C1C;
---d4: #121212;
-
---c: #B3B3B3;
---c2: #D6D6D6;
---c3: #E6E6E6;
---c4: #F7F7F7;
---brand: #C8E0ED;
---brand2: #E6F6FF;
---red: #FF7066;
---red2: #FF938C;
---orange: #FFD68C;
---orange2: #FFDFA6;
---yellow: #D9CA82;
---yellow2: #E6D57F;
---green: #8ACC70;
---green2: #ABE695;
---blue: #8AC9E6;
---blue2: #99DDFF;
---indigo: #A9B0F2;
---indigo2: #CCD0FF;
---violet: #C999CC;
---violet2: #D8B8D9;
-}
-
-.darkInvert { filter: invert(70%); }
-.darkBrightness { filter: brightness(70%); }
-
-html{ scrollbar-color: var(--l4) var(--d2); }
-::-webkit-scrollbar { background-color: var(--d2); }
-::-webkit-scrollbar-thumb { background-color: var(--l3); }
-
-
-body{
-background-image: url("/img/bg-dark.svg");
-background-repeat: repeat;
-background-attachment: fixed;
-}
-
-}
 
 
 /* Nav  v.1.2.0 */
 /*//<!-- page, style.css, main.js, noscript.css -->*/
 
-/*@media(max-width: 800px){
-@media(width >= 1px){
-.navTop nav { display: block; }
-.menuTop { display: none; }
-#dropdownMenuButton { display: inline-block; }
-}
-
-rmme delme test, dublicate in style.css
-@media(max-width: 500px){
-.navTop nav {
-justify-content: left;
-align-items: center;
-display: block;
-text-align: left;
-}
-}
-*/
 
 /* fix test delme*/
 /*
@@ -161,7 +42,7 @@ top: -5px;
 }
 
 
-
+.noscriptHide { display: none !important; }
 
 
 

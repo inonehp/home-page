@@ -42,6 +42,20 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Archive\n\nRedirect page, not intended for viewing. ",
+        "url": "\/archive\/index.html",
+        "tag": " #redirect_to_list",
+        "id": "5fcfc93bd1899af1e4136b1ac6d174d4",
+        "time": "id"
+    },
+    {
+        "text": "Archive page\n\nOn this page are the projects that I want to hide. ",
+        "url": "\/archive-page.html",
+        "tag": " #archive #menu #list #page #main",
+        "id": "892b5b81b3dfa1297e9ddbd9896b6f02",
+        "time": "id"
+    },
+    {
         "text": "Average number\n\nAfter entering the numbers, the result will be the average value ",
         "url": "\/projects\/average-number-40\/index.html",
         "tag": " #average #number #tool #JavaScript #project",
@@ -190,9 +204,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Dropdown menu\n\nDropdown Menu project. ",
-        "url": "\/projects\/dropdown-menu-8\/index.html",
+        "url": "\/archive\/projects\/dropdown-menu-8\/index.html",
         "tag": " #menu #UI #UX #dropdown #menu #JavaScript #WebDesign #project",
-        "id": "da7f75f7e98fed9ea3126515e2f121e5",
+        "id": "de07af4016895071d271d48a2833e102",
         "time": "id"
     },
     {
@@ -379,6 +393,13 @@ var sitemapJsonVar = [
     },
     {
         "text": "Mini projects\n\nRedirect page, not intended for viewing. ",
+        "url": "\/archive\/mini-projects\/index.html",
+        "tag": " #redirect_to_list",
+        "id": "dd802c67464dbe5acce77491842385c8",
+        "time": "id"
+    },
+    {
+        "text": "Mini projects\n\nRedirect page, not intended for viewing. ",
         "url": "\/mini-projects\/index.html",
         "tag": " #redirect_to_list",
         "id": "f3db3035277214dd7fb639903cd258fe",
@@ -410,6 +431,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/music-20\/index.html",
         "tag": " #music #collection #random #JavaScript #project",
         "id": "e6daf18cc1e29a8ca88f27d0032c14fc",
+        "time": "id"
+    },
+    {
+        "text": "Navigation\n\nSite navigation menu with a auto hamburge. ",
+        "url": "\/projects\/navigation-54\/index.html",
+        "tag": " #navigation #menu #CSS #JavaScript #project",
+        "id": "7ce68fffa61d1d30e58bc8a6f3cbfbc9",
         "time": "id"
     },
     {
@@ -522,6 +550,13 @@ var sitemapJsonVar = [
         "url": "\/templates\/profile-card-website-template-auto-light-dark-flat-mini-abc-14\/index.html",
         "tag": " #WebDesign #template",
         "id": "cb70bc63e8c2b081b8a9ac64f84dbb8e",
+        "time": "id"
+    },
+    {
+        "text": "Projects\n\nRedirect page, not intended for viewing. ",
+        "url": "\/archive\/projects\/index.html",
+        "tag": " #redirect_to_list",
+        "id": "5cc84d385f313a64f90d81f22c17dfe4",
         "time": "id"
     },
     {
@@ -798,24 +833,24 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Tpl project\n\nThis is the tpl for create projects. ",
+        "url": "\/projects\/tpl-project-001\/index.html",
+        "tag": " #empty #CSS #JavaScript #project",
+        "id": "f2b9e564d3b721198d23ae988752e8d7",
+        "time": "id"
+    },
+    {
+        "text": "Tpl project app delme\n\nThis is the tpl for create projects. ",
+        "url": "\/projects\/tpl-project-app-delme-002\/index.html",
+        "tag": " #empty #CSS #JavaScript #project",
+        "id": "8193dae0a610a60a96543322c87955c1",
+        "time": "id"
+    },
+    {
         "text": "Tpl project mini\n\nThis is the tpl for create projects. ",
         "url": "\/mini-projects\/tpl-project-mini-0\/index.html",
         "tag": " #empty #HTML #CSS #project",
         "id": "1609ac38ffd109d5d8d42d477926ec8f",
-        "time": "id"
-    },
-    {
-        "text": "Tpl project mini\n\nThis is the tpl for create projects. ",
-        "url": "\/projects\/tpl-project-mini-001\/index.html",
-        "tag": " #empty",
-        "id": "fcb76d1865ebd357a396c570fae6ef2b",
-        "time": "id"
-    },
-    {
-        "text": "Tpl project not mini\n\nThis is the tpl for create projects. ",
-        "url": "\/projects\/tpl-project-not-mini-002\/index.html",
-        "tag": " #empty",
-        "id": "0afca7a3e73d125f2b22bf99ff1e27ed",
         "time": "id"
     },
     {

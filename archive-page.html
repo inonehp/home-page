@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Archive page</title>
+<!--<meta name="title" content="">-->
+<!--<meta name="author" content="">-->
+
+<meta name="description" content="On this page are the projects that I want to hide.">
+<meta name="keywords" content="archive, menu, list, page, main,">
+
+<link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="color-scheme" content="light dark">
+<!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+<meta name="generator" content="">
+
+<!--<meta name="referrer" content="no-referrer" />--><!-- something breaks -->
+<!--<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">--><!-- generated in main js -->
+
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+
+
+<!-- main -->
+<link rel="preload" href="/js/main.js" as="script">
+
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css" type="text/css">
+<link rel="preload" href="/css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
+
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="/css/noscript.css">
+</noscript>
+<!-- end main -->
+
+
+</head>
+<body>
+
+
+<!-- Nav v.1.1.0 -->
+<!-- page, style.css, main.js, noscript.css -->
+
+<!-- nav HTML part -->
+<header>
+<div class="wrapper2 navTop">
+<nav>
+
+<span class="countMenuItem"></span>
+<a class="countMenuItem" title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+
+<div class="menuTop">
+
+<!-- menu items -->
+<a class="countMenuItem brand" href="main-list.html">Main</a>
+<a class="countMenuItem brand" href="lists.html">Lists</a>
+<!-- // menu items -->
+
+<a class="mClassNavUp countMenuItem brand" href="../">../Up</a>
+</div>
+<!-- end menuTop -->
+
+<!-- dropdown menu -->
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
+<div class="dropdownMenuWrapper">
+<!--<div class="padding2">menu name</div>-->
+<div class="dropdownMenuContentColumn">
+
+<!-- menu items dublicate -->
+<a class="countMenuItem brand" href="main-list.html">Main</a>
+<a class="countMenuItem brand" href="lists.html">Lists</a>
+<a class="countMenuItem mClassNavUp brand" href="../">../Up</a>
+<!-- // menu items dublicate -->
+
+</div>
+</div>
+</div>
+</div>
+<!--<hr />-->
+<!-- // dropdown menu -->
+
+<span class="countMenuItem"></span>
+<form class="countMenuItem noscriptHide" method="GET" action="/search.html" role="search" class="noscriptHide">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+</header>
+<!-- // nav -->
+
+<!--<hr>-->
+
+
+
+
+<!-- content -->
+<div class="content">
+
+
+<h1 class="tCenter op padding2List">Archive page</h1>
+<div class="tCenter padding2 small op">a little hidden</div>
+
+<div class="wrapper">
+
+
+<!-- menu -->
+
+
+
+
+<div id="projects"></div>
+
+<div class="block padding2 margin2"></div>
+<div><h1 class="block op tCenter">Projects:</h1></div> 
+
+<div class="menu small firstLetterBold">
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/archive/projects/dropdown-menu-8/"><span class="insertIcon firstLetterBold">Dropdown menu</span></a>
+</div>
+
+<div class="margin2"></div>
+<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 2 , last: dropdown-menu-8 </div>
+
+<!-- // menu -->
+
+<!-- menu -->
+
+
+
+
+<div id="mini-projects"></div>
+
+<div class="block padding2 margin2"></div>
+<div><h1 class="block op tCenter">Mini-projects:</h1></div> 
+
+<div class="menu small firstLetterBold">
+</div>
+
+<div class="margin2"></div>
+<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 1 , last: index.html </div>
+
+<!-- // menu -->
+
+<!-- nav2 -->
+<div class="padding2 margin2"></div>
+
+<!--<div class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Additional navigation:</div>-->
+<div class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Menu lists:</div>
+
+<a class="firstLetterBold insertIcon  post light border3List small" href="main-list.html">
+<div class="inlineBlock"><div class="firstLetterBold op">Main</div></div></a>
+<a class="firstLetterBold insertIcon  post light border3List small" href="projects-list.html">
+<div class="inlineBlock"><div class="firstLetterBold op">Projects</div></div></a>
+<a class="firstLetterBold insertIcon  post light border3List small" href="mini-projects-list.html">
+<div class="inlineBlock"><div class="firstLetterBold op">Mini projects</div></div></a>
+
+
+<div class="block padding2 margin2"></div>
+<!-- // nav2 -->
+
+</div>
+
+<div class="padding2 margin2"></div>
+
+
+
+<script>
+// Nav up for main list page
+// fix main nav
+//if(document.getElementById("mNavUp") != null){
+if(document.getElementsByClassName("mClassNavUp")[0] != null){
+let mNavUpCheck = new String(window.location.pathname);
+
+var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
+allMClassNavUp.forEach((item, index) => {
+
+
+if(mNavUpCheck != "/"){
+//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+
+if(mNavUpCheck.indexOf('/main-list') != -1){
+//document.getElementsByClassName("mClassNavUp").href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "../";
+}
+}
+
+});
+
+
+}
+</script>
+
+
+
+</div>
+<!-- //content -->
+
+
+<footer id="footer"></footer>
+
+<span id="embedScript"></span>
+<script src="/js/main.js"></script>
+
+<script src="/js/script.js"></script>
+
+<!--
+<script src="/data/adsJsonVar.js"></script>
+<script src="/js/ad.js"></script>
+<script>
+fuAds('', 'ads2', '');
+</script>
+-->
+
+
+
+
+
+
+</body>
+</html>

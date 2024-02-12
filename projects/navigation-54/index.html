@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!-- v.1.0.0 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Site navigation menu with auto hamburger</title>
+
+<meta name="description" content="
+Site navigation menu with a auto hamburge.
+">
+<meta name="keywords" content="
+navigation,menu,CSS,JavaScript,project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+
+<!-- main -->
+<!--<link rel="preload" href="/js/main.js" as="script">-->
+
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css" type="text/css">
+<link rel="preload" href="/css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
+
+<!--<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">-->
+
+<!--<noscript>
+<link rel="stylesheet" type="text/css" href="/css/noscript.css">
+</noscript>-->
+<!-- end main -->
+
+
+<!-- nav code -->
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<link rel="preload" href="script.js" as="script">
+
+<noscript>
+<style>
+/* only dropdown */
+.navTop nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+
+/* end mobile dropdown menu (copy from main.js */
+
+/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
+#dropdownMenuCSS:hover #dropdownMenu {
+display: block;
+position: absolute;
+top: -5px;
+}
+#dropdownMenuCSS { display: inline-block; }
+/* end CSS  dropdown menu */
+
+/* test delme .menu a { justify-content: center; text-align: center; }*/
+.dropdownMenuContent { text-align: left; }
+/* end Nav */
+
+
+
+@media (prefers-color-scheme: dark) {
+.reduceLight { filter: brightness(70%); }
+}
+</style>
+</noscript>
+<!-- // nav code -->
+
+</head>
+<body>
+
+
+<!-- Nav v.1.1.0 -->
+<!-- page, style.css -->
+
+<!-- nav HTML part -->
+<header>
+<div class="wrapper2 navTop">
+<nav>
+
+<span class="countMenuItem"></span>
+<a class="countMenuItem" title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+
+<div class="menuTop">
+
+<!-- menu items -->
+<a class="countMenuItem brand" href="#item">Item</a>
+<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand" href="#item">Item</a>
+<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
+<span class="idForRandomItemDemo"></span>
+<!-- // menu items -->
+
+</div>
+<!-- end menuTop -->
+
+<!-- dropdown menu -->
+<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
+<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
+<div class="dropdownMenuWrapper">
+<!--<div class="padding2">menu name</div>-->
+<div class="dropdownMenuContentColumn">
+
+<!-- menu items dublicate -->
+<a class="countMenuItem brand" href="#item">Item</a>
+<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand" href="#item">Item</a>
+<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
+<span class="idForRandomItemDemo"></span>
+<!-- // menu items dublicate -->
+
+</div>
+</div>
+</div>
+</div>
+<!--<hr />-->
+<!-- // dropdown menu -->
+
+<span class="countMenuItem"></span>
+<form class="countMenuItem noscriptHide" method="GET" action="/search.html" role="search" class="noscriptHide">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+</header>
+<!-- // nav -->
+
+
+
+<!--
+<header id="secondNav">
+<nav>
+<a href="/">index</a>
+<a href="../">list</a>
+</nav>
+</header>
+-->
+
+<h1 class="tCenter op">Site navigation menu with auto hamburge</h1>
+<div class="tCenter padding2 small op">in test |  1 config in script.js</div>
+
+<!-- content -->
+<div class="contentCenter">
+
+
+
+
+<a class="padding3 border bg" href="#" onclick="fuMReload();">Reload for random number of links in the menu
+</a>
+
+
+
+
+<div class="margin2 padding2"></div>
+
+
+</div>
+<!-- end content -->
+
+
+<footer id="footer"></footer>
+
+<!--<script src="/js/main.js"></script>-->
+
+<script>
+//fuMSetTheme('light');
+</script>
+
+<script src="demo.js"></script>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

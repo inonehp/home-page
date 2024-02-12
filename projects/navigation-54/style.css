@@ -1,0 +1,103 @@
+/* v.1.0.0 */
+/* comment */
+
+
+/*<!-- Nav v.1.3.0 -->
+<!-- page, style.css, main.js, noscript.css -->*/
+
+.navTop { position: relative; }
+.navTop form, .navTop input[type=search] { display: inline-block; }
+.navTop form { width: 100%; max-width: 130px; vertical-align: middle; }
+.navTop input[type=search] { font-size: small; padding: 5px 9px; min-height: 10px; }
+.navTop form ::placeholder { font-size: x-small; }
+
+
+.menu {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+grid-gap: 5px;
+margin: 0 auto;
+justify-content: center;
+}
+@media(max-width: 150px) { .menu { display: block; width: 100%; }}
+
+.menu a{
+display: flex;
+min-width: 100%;
+justify-content: start;
+align-content: center;
+margin: 0 auto;
+text-wrap: balance;
+text-align: left;
+/*min-height: 50px;*/
+}
+
+/************/
+.navTop nav {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(0, auto));
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+}
+
+/* fix for mobile */
+@media(max-width: 500px){
+.navTop nav {
+justify-content: left !important;
+align-items: left;
+text-align: left;
+}
+
+
+}
+
+
+/* Dropdown */
+
+#dropdownMenuButton { cursor: pointer; background: transparent; border: none; }
+.dropdownMenuWrapper { position: relative; }
+.dropdownMenuContent {
+z-index: 2;
+/*width: calc(100% - (2 * var(--bodyP)));*/
+/*max-width: 500px;*/
+margin: 0 auto;
+display: none;
+position: absolute;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+.dropdownMenuContentColumn {
+display: inline-block;
+display: block;
+text-align: left;
+columns: 120px auto;
+z-index: 2;
+}
+.dropdownMenuContent a { display: inline-block; }
+
+/* desktop */
+.menuTop { display: inline-block; }
+#dropdownMenuButton { display: none; }
+
+
+/* continuation in main.js, where counter */
+
+/* fix */
+#dropdownMenuCSS { display: inline-block; }
+#dropdownMenuButton { padding: 0; margin-right: 10px; }
+.dropdownMenuContent { margin-top: 9px;  }
+
+.menuTop { margin-right: 10px; }
+/* // <!-- Nav */
+
+
+
+
+
+
+
+
+
