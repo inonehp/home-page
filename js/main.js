@@ -176,11 +176,13 @@ if(conf["confMenu"] == "on"){
 if(document.getElementById("secondNav") != null){
 document.getElementById("secondNav").innerHTML = `
 
-<!-- Nav v.1.1.0 -->
+<!-- Nav v.1.2.0 -->
 <!-- page, main js, noscript.css -->
 <div class="wrapper2 navTop">
 <nav>
-<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+
+<span class="countMenuItem"></span>
+<a calss="countMenuItem" title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 
 <div class="menuTop">
@@ -208,7 +210,8 @@ ${conf["confMenuItems2"]}
 <!--<hr />-->
 <!-- // end dropdown menu -->
 
-<form method="GET" action="/search.html" role="search" class="noscriptHide">
+<span class="countMenuItem"></span>
+<form class="countMenuItem noscriptHide" method="GET" action="/search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -256,7 +259,6 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 //if((countMenuItem.length / 2) >= 4){}
 //if(document.getElementById("footer") != null){}
-
 //fuMPrintText('footer', ``, '+');
 if(document.getElementsByTagName("nav")[0] != null){ // not body, id not found
 
@@ -268,13 +270,13 @@ cssMedia2 = '@media(min-width: 1000px)';
 }*/
 
 var mNavItemsAverageWidth = 75; // Average: 66
-var mNavItemsCount = (countMenuItem.length / 2) + 2;
-var mNavWhenDropdownW = ((mNavItemsAverageWidth  * mNavItemsCount) + (10  * mNavItemsCount)) / 2;
-console.log(`menu items: ${mNavItemsCount}*70px=hide when:${mNavWhenDropdownW}px`);
-var cssMedia = `@media(width <= ${mNavWhenDropdownW}px)`;
-var cssMedia2 = `@media(width >= ${mNavWhenDropdownW}px)`;
-// fix if .wrapper3
-if((mNavWhenDropdownW) >= 900){
+var mNavItemsCount = (countMenuItem.length / 2);
+var mNavWhenDropdownWidth = ((mNavItemsAverageWidth  * mNavItemsCount) + (10  * mNavItemsCount)) / 2;
+console.log(`menu items: ${mNavItemsCount} * 70px = hide when: ${mNavWhenDropdownWidth}px or > 700 (wrapper)`);
+var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
+var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
+// fix // hide, wrapper limit if many liks for good look
+if((mNavWhenDropdownWidth) >= 700){
 cssMedia = '@media(width >= 1px)';
 // cancel
 cssMedia2 = `@media(width <= 0px)`; 

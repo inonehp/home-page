@@ -57,7 +57,9 @@ main, menu, list, projects, main, pages,
 <header>
 <div class="wrapper2 navTop">
 <nav>
-<a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+
+<span class="countMenuItem"></span>
+<a class="countMenuItem" title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 <div class="menuTop">
 <a class="countMenuItem active" href="main-list.html">Main</a><a class="countMenuItem brand" href="lists.html">Lists</a><a class="mClassNavUp countMenuItem brand" href="../">../Up</a>
@@ -74,7 +76,7 @@ main, menu, list, projects, main, pages,
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-<a class="countMenuItem active" href="main-list.html">Main</a><a class="countMenuItem brand" href="lists.html">Lists</a><a class="mClassNavUp countMenuItem brand" href="../">../Up</a>
+<a class="countMenuItem active" href="main-list.html">Main</a><a class="countMenuItem brand" href="lists.html">Lists</a><a class="countMenuItem mClassNavUp brand" href="../">../Up</a>
 
 <!-- // menu dublicate -->
 </div>
@@ -84,7 +86,8 @@ main, menu, list, projects, main, pages,
 <!--<hr />-->
 <!-- // end dropdown menu -->
 
-<form method="GET" action="/search.html" role="search" class="noscriptHide">
+<span class="countMenuItem"></span>
+<form class="countMenuItem noscriptHide" method="GET" action="/search.html" role="search" class="noscriptHide">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
