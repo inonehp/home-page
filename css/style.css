@@ -97,9 +97,11 @@ text-align: left;
 
 .dropdownMenuContentColumn {
 display: inline-block;
+display: block;
 text-align: left;
+columns: 120px auto;
 }
-.dropdownMenuContent a { display: inline-block; width: minmax(130px, 1fr); }
+.dropdownMenuContent a { display: inline-block; }
 
 /*.dropdownMenuContentColumn br { content: ''; display: none; }
 @media(max-width: 150px){

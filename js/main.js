@@ -201,14 +201,14 @@ ${conf["confMenuItems2"]}
 
 <!-- menu dublicate -->
 ${conf["confMenuItems2"]}
-<!-- //menu dublicate -->
+<!-- // menu dublicate -->
 
 </div>
 </div>
 </div>
 </div>
 <!--<hr />-->
-<!-- // end dropdown menu -->
+<!-- // dropdown menu -->
 
 <span class="countMenuItem"></span>
 <form class="countMenuItem noscriptHide" method="GET" action="/search.html" role="search">
@@ -275,7 +275,7 @@ var mNavWhenDropdownWidth = ((mNavItemsAverageWidth  * mNavItemsCount) + (10  * 
 console.log(`menu items: ${mNavItemsCount} * 70px = hide when: ${mNavWhenDropdownWidth}px or > 700 (wrapper)`);
 var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
-// fix // hide, wrapper limit if many liks for good look
+// fix // hide, wrapper limit
 if((mNavWhenDropdownWidth) >= 700){
 cssMedia = '@media(width >= 1px)';
 // cancel
