@@ -40,6 +40,11 @@ navigation,menu,CSS,JavaScript,project,
 <link rel="preload" href="script.js" as="script">
 
 <noscript>
+<!--
+or put this style in noscript in noscript.css, 
+activation when no JS:
+<link rel="stylesheet" type="text/css" href="noscript.css">
+-->
 <style>
 /* only dropdown */
 .navTop nav { display: block; }
@@ -157,6 +162,9 @@ top: -5px;
 - 1 config in script.js (navigation wrapper width max size).
 
 - The <b>.countMenuItem</b> class is used to count the number of links and automatically display them in the form of a dropdown menu (plus 2 fake elements (.countMenuItem) so that the count is correct for the logo and the search form).
+
+-If there is no JavaScript, the CSS version of the navigation in <noscript> in header is used.
+
 </div>
 </div>
 
