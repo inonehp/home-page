@@ -89,6 +89,7 @@ display: inline-block;
 text-align: left;
 padding-bottom: 5px;
 }*/
+
 /*.dropdownMenuContentColumn {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
@@ -100,6 +101,7 @@ display: inline-block;
 display: block;
 text-align: left;
 columns: 120px auto;
+z-index: 2;
 }
 .dropdownMenuContent a { display: inline-block; }
 

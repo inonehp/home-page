@@ -1,5 +1,4 @@
-/* Noscript CSS v.1.1.0 */
- * 
+/* Noscript CSS v.1.1.1 */
 /* light */
 :root{
 --bg: #F0F0F0;
@@ -34,16 +33,19 @@
 --violet2: #B03D8A;
 }
 
+
+@media (prefers-color-scheme: light) {
 html{ scrollbar-color: var(--d4) var(--l2); }
 ::-webkit-scrollbar { background-color: var(--l2); }
 ::-webkit-scrollbar-thumb { background-color: var(--d3); }
+
 
 body{
 background-image: url("/img/bg-light.svg");
 background-repeat: repeat;
 background-attachment: fixed;
 }
-
+}
 
 
 
@@ -63,7 +65,6 @@ background-attachment: fixed;
 --d2: #252526;
 --d3: #1B1C1C;
 --d4: #121212;
-
 
 --c: #B3B3B3;
 --c2: #D6D6D6;
@@ -107,14 +108,14 @@ background-attachment: fixed;
 /* Nav  v.1.2.0 */
 /*//<!-- page, style.css, main.js, noscript.css -->*/
 
-/*@media(max-width: 800px){*/
+/*@media(max-width: 800px){
 @media(width >= 1px){
 .navTop nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 }
 
-/* rmme delme test, dublicate in style.css
+rmme delme test, dublicate in style.css
 @media(max-width: 500px){
 .navTop nav {
 justify-content: left;
@@ -125,19 +126,26 @@ text-align: left;
 }
 */
 
-/* fix test delme*//*
+/* fix test delme*/
+/*
 @media(min-width: 800px){
 .dropdownMenuContentColumn, .dropdownMenuContent {
 display: none !important;
 }
 }*/
+
+/* only dropdown */
+.navTop nav { display: block; }
+.menuTop { display: none; }
+#dropdownMenuButton { display: inline-block; }
+
 /* end mobile dropdown menu (copy from main.js */
 
 /* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
 #dropdownMenuCSS:hover #dropdownMenu {
 display: block;
 position: absolute;
-top: 0;
+top: -5px;
 }
 #dropdownMenuCSS { display: inline-block; }
 /* end CSS  dropdown menu */
@@ -151,7 +159,6 @@ top: 0;
 @media (prefers-color-scheme: dark) {
 .reduceLight { filter: brightness(70%); }
 }
-
 
 
 

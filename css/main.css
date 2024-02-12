@@ -528,9 +528,9 @@ border-bottom: 1px solid var(--d2);
 }
 
 
+/* fix in main.js */
 @media (prefers-color-scheme: dark) {
 .reduceLight { filter: brightness(70%); }
-/* fix in main.js */
 }
 
 
