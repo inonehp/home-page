@@ -49,8 +49,6 @@ page, main,">
 </noscript>
 <!-- end main -->
 
-<link rel="preload" href="/js/script.js" as="script"> 
-
 
 <link rel="preload" href="/img/header-banner.png" as="image">
 <link rel="canonical" href="https://inonehp.pages.dev">
@@ -116,12 +114,12 @@ z-index: -1;
 
 <!-- nav HTML part -->
 <header>
-<div class="wrapper3 navTop">
+<div class="wrapper2 navTop">
 <nav>
 <a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 <div class="menuTop">
-<a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>
+<a class="countMenuItem brand" href="main-list.html">Main</a><a class="countMenuItem brand" href="lists.html">Lists</a><a class="mClassNavUp countMenuItem brand" href="../">../Up</a>
 </div>
 <!-- end menuTop -->
 
@@ -131,11 +129,11 @@ z-index: -1;
 <button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
 <div class="dropdownMenuWrapper">
-<!--<div class="padding2">section</div>-->
+<!--<div class="padding2">menu name</div>-->
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-<a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>
+<a class="countMenuItem brand" href="main-list.html">Main</a><a class="countMenuItem brand" href="lists.html">Lists</a><a class="mClassNavUp countMenuItem brand" href="../">../Up</a>
 
 <!-- // menu dublicate -->
 </div>
@@ -185,7 +183,7 @@ z-index: -1;
 <span class="xSmall padding2List">updated: <span id="last-update"></span></span>
 </summary>
 <div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">
-New: palette generator using CSS
+Navigation redesign (in test).
 
 <a class="brand tag2 block tCenter border light borderRadius2" href="/changelog.html" title="Update Log">more</a></div>
 </details>
@@ -317,8 +315,8 @@ flex-wrap: wrap;
 <!--<span class="x-small op c" title="Commands:">com: </span>-->
 <a rel="nofollow" class="tag light2 border3 borderRadius2 op" href="https://google.com/" title="Google">goo</a>
 <a rel="nofollow" class="tag light2 border3 borderRadius2 op" href="https://bing.com/" title="Bing">bin</a>
-<a rel="nofollow" class="tag light2 border3 borderRadius2 op" href="https://reddit.com" title="Reddit">red</a>
 <a rel="nofollow" class="tag light2 border3 borderRadius2 op" href="https://x.com" title="X (Twitter)">x</a>
+<a rel="nofollow" class="tag light2 border3 borderRadius2 op" href="https://reddit.com" title="Reddit">red</a>
 <a rel="nofollow" class="tag light2 border3 borderRadius2 op" href="/projects/25-redirects/?q=t" title="Translate">t</a>
 <a rel="nofollow" class="tag light2 border3 borderRadius2 op" href="/search.html" title="Site">site</a>
 </div>
@@ -357,8 +355,8 @@ var a = `
 <div class="tagList2 hotLinks">
 <a rel="nofollow" class="tag light2 border3 borderRadius2" href="/projects/25-redirects/?q=`+text+` goo" title="Google">goo</a>
 <a class="tag light2 border3 borderRadius2" href="/projects/25-redirects/?q=`+text+` bin" title="Bing">bin</a>
-<a class="tag light2 border3 borderRadius2" href="/projects/25-redirects/?q=`+text+` red" title="Reddit">red</a>
 <a class="tag light2 border3 borderRadius2" href="/projects/25-redirects/?q=`+text+` x" title="X (Twitter)">x</a>
+<a class="tag light2 border3 borderRadius2" href="/projects/25-redirects/?q=`+text+` red" title="Reddit">red</a>
 <a class="tag light2 border3 borderRadius2" href="/projects/25-redirects/?q=`+text+` t" title="Translate">t</a>
 <a class="tag light2 border3 borderRadius2" title="Site" href="/projects/25-redirects/?q=`+text+` qq" title="Site">site</a>
 </div>
@@ -409,6 +407,32 @@ document.getElementById("hotLinks").innerHTML = a;
 
 
 
+<script>
+// Nav up for main list page
+// fix main nav
+//if(document.getElementById("mNavUp") != null){
+if(document.getElementsByClassName("mClassNavUp")[0] != null){
+let mNavUpCheck = new String(window.location.pathname);
+
+var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
+allMClassNavUp.forEach((item, index) => {
+
+
+if(mNavUpCheck != "/"){
+//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+
+if(mNavUpCheck.indexOf('/main-list') != -1){
+//document.getElementsByClassName("mClassNavUp").href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "../";
+}
+}
+
+});
+
+
+}
+</script>
 
 
 
@@ -492,7 +516,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1707642839);
+document.getElementById("last-update").innerHTML = fuPostTime(1707703792);
 </script>
 
 <script>
@@ -531,32 +555,7 @@ Hollo World!
 
 
 
-<script>
-//fix
-// Nav up for main list page
-//if(document.getElementById("mNavUp") != null){
-if(document.getElementsByClassName("mClassNavUp")[0] != null){
-let mNavUpCheck = new String(window.location.pathname);
 
-var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
-allMClassNavUp.forEach((item, index) => {
-
-
-if(mNavUpCheck != "/"){
-//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
-document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
-
-if(mNavUpCheck.indexOf('/main-list') != -1){
-//document.getElementsByClassName("mClassNavUp").href = "../";
-document.getElementsByClassName("mClassNavUp")[index].href = "../";
-}
-}
-
-});
-
-
-}
-</script>
 
 
 </body>

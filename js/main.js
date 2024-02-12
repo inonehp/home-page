@@ -151,13 +151,13 @@ conf["confMenuItems2"] = '';
 conf["confMenuItems"].forEach((item, index) => {
 
 if((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem active" href="${item['url']}" title="${item['title']}">${item['name']}</a><br>`;
+conf["confMenuItems2"] += `<a class="countMenuItem active" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
 }else{
-conf["confMenuItems2"] += `<a class="countMenuItem brand" href="${item['url']}" title="${item['title']}">${item['name']}</a><br>`;
+conf["confMenuItems2"] += `<a class="countMenuItem brand" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
 }
 });
 
-conf["confMenuItems2"] += `<a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>`;
+conf["confMenuItems2"] += `<a class="mClassNavUp countMenuItem brand" href="../">../Up</a>`;
 
 
 //CSS version with noscript in noscript.css -->
@@ -178,7 +178,7 @@ document.getElementById("secondNav").innerHTML = `
 
 <!-- Nav v.1.1.0 -->
 <!-- page, main js, noscript.css -->
-<div class="wrapper3 navTop">
+<div class="wrapper2 navTop">
 <nav>
 <a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
@@ -291,7 +291,7 @@ ${cssMedia} {
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 
-/* dell me, dublicate in style.css
+/* delme, dublicate in style.css
 .navTop nav {
 justify-content: left;
 align-items: center;
@@ -1197,7 +1197,7 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 }
 
 // in embed
-//hideFileNameExt2();
+hideFileNameExt2();
 
 
 
@@ -1245,6 +1245,8 @@ document.getElementById(embedId).appendChild(script);
 
 // Embed script and run:
 
+fuMEmbedScript("/js/script.js", conf["confIdEmbedScript"]);
+
 if(conf["confIconStatus"] != "off"){
 fuMEmbedScript("/projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
 }
@@ -1264,6 +1266,7 @@ fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAn
 
 
 
+
 ///////////////////////////
 // Run:
 
@@ -1271,6 +1274,7 @@ onload = (event) => {
 //document.body.onload = function(){}
 //document.addEventListener("DOMContentLoaded", (event) => {})
 
+fuMRandColor();
 
 if(conf["confIconStatus"] != "off"){
 insertIcon('insertIcon', 'strict');
@@ -1289,8 +1293,8 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 
 
-// fix fu hide
-hideFileNameExt2();
+// fix fu hide // + test delme
+//hideFileNameExt2();
 
 }
 
@@ -1301,6 +1305,6 @@ hideFileNameExt2();
 
 
 
-// fix fu hide
-hideFileNameExt2();
+// fix fu hide // test delme
+//hideFileNameExt2();
 

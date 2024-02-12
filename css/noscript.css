@@ -125,12 +125,12 @@ text-align: left;
 }
 */
 
-/* fix */
+/* fix test delme*//*
 @media(min-width: 800px){
 .dropdownMenuContentColumn, .dropdownMenuContent {
 display: none !important;
 }
-}
+}*/
 /* end mobile dropdown menu (copy from main.js */
 
 /* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
@@ -142,7 +142,8 @@ top: 0;
 #dropdownMenuCSS { display: inline-block; }
 /* end CSS  dropdown menu */
 
-.menu a { justify-content: center; text-align: center; }
+/* test delme .menu a { justify-content: center; text-align: center; }*/
+.dropdownMenuContent { text-align: left; }
 /* end Nav */
 
 

@@ -43,8 +43,6 @@ install, install website, PWA, WebApp, app, page, main,
 </noscript>
 <!-- end main -->
 
-<link rel="preload" href="/js/script.js" as="script"> 
-
 
 </head>
 <body>
@@ -55,12 +53,12 @@ install, install website, PWA, WebApp, app, page, main,
 
 <!-- nav HTML part -->
 <header>
-<div class="wrapper3 navTop">
+<div class="wrapper2 navTop">
 <nav>
 <a title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 <div class="menuTop">
-<a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>
+<a class="countMenuItem brand" href="main-list.html">Main</a><a class="countMenuItem brand" href="lists.html">Lists</a><a class="mClassNavUp countMenuItem brand" href="../">../Up</a>
 </div>
 <!-- end menuTop -->
 
@@ -70,11 +68,11 @@ install, install website, PWA, WebApp, app, page, main,
 <button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
 <div class="dropdownMenuWrapper">
-<!--<div class="padding2">section</div>-->
+<!--<div class="padding2">menu name</div>-->
 <div class="dropdownMenuContentColumn">
 
 <!-- menu dublicate -->
-<a class="countMenuItem brand" href="main-list.html">Main</a><br><a class="countMenuItem brand" href="lists.html">Lists</a><br><a class="mClassNavUp countMenuItem brand" href="../">../Up</a><br>
+<a class="countMenuItem brand" href="main-list.html">Main</a><a class="countMenuItem brand" href="lists.html">Lists</a><a class="mClassNavUp countMenuItem brand" href="../">../Up</a>
 
 <!-- // menu dublicate -->
 </div>
@@ -109,7 +107,7 @@ install, install website, PWA, WebApp, app, page, main,
 <div class="wrapperL tCenter">
 
 <h1 class="tCenter op padding2">Install Website (PWA)</h1>
-<div class="block tCenter small">(PWA v.1.2.2024.02.11)</div>
+<div class="block tCenter small">(PWA v.1.2.2024.02.12)</div>
 <div class="block padding3 margin3"></div>
 
 
@@ -319,6 +317,32 @@ Generated using a PHP function: website dir to PWA in <a class="blue" href="/oth
 
 
 
+<script>
+// Nav up for main list page
+// fix main nav
+//if(document.getElementById("mNavUp") != null){
+if(document.getElementsByClassName("mClassNavUp")[0] != null){
+let mNavUpCheck = new String(window.location.pathname);
+
+var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
+allMClassNavUp.forEach((item, index) => {
+
+
+if(mNavUpCheck != "/"){
+//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+
+if(mNavUpCheck.indexOf('/main-list') != -1){
+//document.getElementsByClassName("mClassNavUp").href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "../";
+}
+}
+
+});
+
+
+}
+</script>
 
 
 
@@ -343,32 +367,7 @@ fuAds('', 'ads2', '');
 
 
 
-<script>
-//fix
-// Nav up for main list page
-//if(document.getElementById("mNavUp") != null){
-if(document.getElementsByClassName("mClassNavUp")[0] != null){
-let mNavUpCheck = new String(window.location.pathname);
 
-var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
-allMClassNavUp.forEach((item, index) => {
-
-
-if(mNavUpCheck != "/"){
-//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
-document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
-
-if(mNavUpCheck.indexOf('/main-list') != -1){
-//document.getElementsByClassName("mClassNavUp").href = "../";
-document.getElementsByClassName("mClassNavUp")[index].href = "../";
-}
-}
-
-});
-
-
-}
-</script>
 
 
 </body>

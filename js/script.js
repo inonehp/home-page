@@ -2,8 +2,12 @@
 
 
 
-// Random color generator v.1.0.3 in progress
+
+
+// Random color generator v.1.0.3
 //if(document.getElementById("siteName") != null){}
+
+function fuMRandColor(){
 
 
 let mRandColorsPrint = "";
@@ -36,6 +40,7 @@ n++;
 let mRandTone = fuMRandom(0, 100);
 let mRandTone2 = fuMRandom(0, 100);
 
+
 mRandColorsPrint += `
 
 :root {
@@ -46,7 +51,7 @@ mRandColorsPrint += `
 .randCAll { color: var(--randCAll); }
 .randCAll2 { color: var(--randCAll2); }
 
-:nth-child(2n+1 of .navTop a){
+:nth-child(2n+1 of .navTop a, .navTop button){
 color: var(--randCAll);
 }
 
@@ -54,15 +59,24 @@ color: var(--randCAll);
 color: var(--randCAll2);
 }
 
-.navTop a:hover {
+.navTop a:hover, .navTop button:hover {
 color: var(--b2); 
 }
 
 `;
-
+/*
 var styleElem = document.head.appendChild(document.createElement("style"));
-styleElem.innerHTML = mRandColorsPrint;
+styleElem.innerHTML = mRandColorsPrint;*/
 
+
+const extraSheet = new CSSStyleSheet();
+extraSheet.replaceSync(mRandColorsPrint);
+// Combine the existing sheets and new one
+document.adoptedStyleSheets = [...document.adoptedStyleSheets, extraSheet];
+
+//alert(document.getElementsByTagName("footer")[0].style.backgroundColor);
+
+}
 
 
 

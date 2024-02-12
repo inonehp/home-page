@@ -44,8 +44,6 @@ Page or file: moved, deleted ...">
 </noscript>
 <!-- end main -->
 
-<link rel="preload" href="/js/script.js" as="script"> 
-
 
 </head>
 <body>
@@ -95,6 +93,32 @@ Page or file: moved, deleted ...">
 
 
 
+<script>
+// Nav up for main list page
+// fix main nav
+//if(document.getElementById("mNavUp") != null){
+if(document.getElementsByClassName("mClassNavUp")[0] != null){
+let mNavUpCheck = new String(window.location.pathname);
+
+var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
+allMClassNavUp.forEach((item, index) => {
+
+
+if(mNavUpCheck != "/"){
+//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+
+if(mNavUpCheck.indexOf('/main-list') != -1){
+//document.getElementsByClassName("mClassNavUp").href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "../";
+}
+}
+
+});
+
+
+}
+</script>
 
 
 
@@ -119,32 +143,7 @@ fuAds('', 'ads2', '');
 
 
 
-<script>
-//fix
-// Nav up for main list page
-//if(document.getElementById("mNavUp") != null){
-if(document.getElementsByClassName("mClassNavUp")[0] != null){
-let mNavUpCheck = new String(window.location.pathname);
 
-var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
-allMClassNavUp.forEach((item, index) => {
-
-
-if(mNavUpCheck != "/"){
-//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
-document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
-
-if(mNavUpCheck.indexOf('/main-list') != -1){
-//document.getElementsByClassName("mClassNavUp").href = "../";
-document.getElementsByClassName("mClassNavUp")[index].href = "../";
-}
-}
-
-});
-
-
-}
-</script>
 
 
 </body>
