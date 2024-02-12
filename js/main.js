@@ -1,4 +1,4 @@
-// Main js v.6.3.0
+// Main js v.6.3.1
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -137,7 +137,7 @@ document.getElementById(id).innerHTML = text;
 
 
 
-//<!-- Nav v.1.1.0 -->
+//<!-- Nav v.1.2.0 -->
 //<!-- page, style.css, main.js, noscript.css -->
 // for other pages where navigation is poor
 
@@ -254,7 +254,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 // nav v.1.1.0 // in test
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
-if((countMenuItem.length / 2) >= 4){
+//if((countMenuItem.length / 2) >= 4){}
 //if(document.getElementById("footer") != null){}
 
 //fuMPrintText('footer', ``, '+');
@@ -270,7 +270,7 @@ cssMedia2 = '@media(min-width: 1000px)';
 var mNavItemsAverageWidth = 75; // Average: 66
 var mNavItemsCount = (countMenuItem.length / 2) + 2;
 var mNavWhenDropdownW = ((mNavItemsAverageWidth  * mNavItemsCount) + (10  * mNavItemsCount)) / 2;
-//console.log(`menu items: ${mNavItemsCount}*70px=hide when:${mNavWhenDropdownW}px`);
+console.log(`menu items: ${mNavItemsCount}*70px=hide when:${mNavWhenDropdownW}px`);
 var cssMedia = `@media(width <= ${mNavWhenDropdownW}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownW}px)`;
 // fix if .wrapper3
@@ -313,7 +313,7 @@ display: none !important;
 }
 
 
-}
+
 //console.log(document.getElementsByTagName("header")[0]);
 // end JS part
 //<!-- end Nav -->

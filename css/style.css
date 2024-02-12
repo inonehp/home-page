@@ -5,7 +5,7 @@
 
 
 
-/*<!-- Nav v.1.2.0 -->
+/*<!-- Nav v.1.3.0 -->
 <!-- page, style.css, main.js, noscript.css -->*/
 .navTop { position: relative; }
 .navTop form, .navTop input[type=search] { display: inline-block; }
@@ -16,12 +16,6 @@
 
 .menu {
 display: grid;
-/*grid-template-areas: "a a a a a";*/
-/*grid-template-columns: repeat(4, 1fr);*/
-/*grid-template-columns: repeat(auto-fill, minmax(130px, max-content));*/
-/*grid-template-columns: repeat(auto-fill, minmax(130px, max-content));*/
-/*grid-auto-columns: 1fr;*/
-/*grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));*/
 grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 grid-gap: 5px;
 margin: 0 auto;
@@ -129,32 +123,6 @@ grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 
 .menuTop { margin-right: 10px; }
 
-
-
-/* mobile dropdown menu (main.js similar) */
-
-@media(max-width: 250px) {
-.navTop nav { display: block; }
-.menuTop { display: none; }
-#dropdownMenuButton { display: inline-block; }
-
-.navTop nav {
-justify-content: left;
-align-items: center;
-display: block;
-text-align: left;
-}
-
-}
-
-/*fix*/
-@media(max-width: 250){
-.dropdownMenuContentColumn, .dropdownMenuContent {
-display: none !important;
-}
-}
-/* // Deropdown menu */
-/* // <!-- Nav v.1.1.0 -->*/
 
 
 @media (prefers-reduced-motion: no-preference) {
