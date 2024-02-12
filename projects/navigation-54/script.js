@@ -1,6 +1,7 @@
 // Nav v.1.0.0
 
 // config
+// number, max size in px
 let mNavigationWrapperWidth = 700;
 
 

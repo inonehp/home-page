@@ -434,7 +434,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Navigation\n\nSite navigation menu with a auto hamburge. ",
+        "text": "Navigation\n\nSite navigation menu with a auto hamburge. (the current site navigation has been used.) ",
         "url": "\/projects\/navigation-54\/index.html",
         "tag": " #navigation #menu #CSS #JavaScript #project",
         "id": "7ce68fffa61d1d30e58bc8a6f3cbfbc9",
