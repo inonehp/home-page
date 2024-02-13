@@ -1,5 +1,5 @@
 /* v.1.2.1 */
-/* Inspired by a post from LinkedIn in the form of four pictures with one large one on top. */
+/* Inspired by images of sites when searching, and what the landing page should look like. */
 
 /* color theme */
 
@@ -102,48 +102,53 @@ html{ scrollbar-color: var(--l4) var(--d2); }
 
 }
 
-.lMegaH { font-size: 4em; }
-@media(max-width: 600px) { .lMegaH { font-size: 3em; } }
-
-.lTopCard {
+.lTwoCardList {
 width: 100%;
-padding: 30px 0;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 15px;
+align-items: center;
+justify-content: center;
+}
+
+@media(max-width: 430px) { .lTwoCardList { margin-top: 15px; display: block; width: 100%; }}
+
+.lTwoCardDiv {
+width: 100%;
+min-height: 150px;
 display: flex;
 align-items: center;
 justify-content: center;
 }
 
+.lTwoCardDiv img { border-radius: 3%; }
 
 
-
-.lCardList {
+.lPriceList {
 display: grid;
 grid-template-columns: repeat(4, 25%);
 grid-gap: 5px;
 }
 
-@media(max-width: 760px) { .lCardList { grid-template-columns: repeat(3, 33.33%); }}
-@media(max-width: 560px) { .lCardList { grid-template-columns: repeat(2, 50%); }}
+@media(max-width: 760px) { .lPriceList { grid-template-columns: repeat(3, 33.33%); }}
+@media(max-width: 560px) { .lPriceList { grid-template-columns: repeat(2, 50%); }}
 @media(max-width: 400px) {
-.lCardList { display: block; width: 100%; }
-.lCardListDiv { margin: 5px auto; }
+.lPriceList { display: block; width: 100%; }
+.lPriceListDiv { margin: 5px auto; }
 }
 
-.lCardListDiv {
+.lPriceListDiv {
 display: flex;
-/*flex-basis: 100%;*/
-flex-basis: auto;
+/*flex-basis: 100%;*/ flex-basis: auto;
 flex-direction: column;
 min-height: 100%; 
 border-radius: 5%;
 }
 
-.lCardListDiv img {
+.lPriceListDiv img {
 border-radius: 3%;
 }
 
-.lCardListDesc { flex: 1 0 auto; }
-.lCardListBottom { flex-shrink: 0; }
-
-
+.lPriceListDesc { flex: 1 0 auto; }
+.lPriceListPrice { flex-shrink: 0; }
 

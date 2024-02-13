@@ -322,6 +322,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Home page auto light dark abc\n\nWebsite template description. ",
+        "url": "\/templates\/home-page-auto-light-dark-abc-20\/index.html",
+        "tag": " #WebDesign #template",
+        "id": "49553c0efd30825a0f3aa23cbea9d5cb",
+        "time": "id"
+    },
+    {
         "text": "Home page website template auto light dark flat abc\n\nWebsite template description. ",
         "url": "\/templates\/home-page-website-template-auto-light-dark-flat-abc-9\/index.html",
         "tag": " #WebDesign #template",
@@ -725,13 +732,6 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/sun-and-moon-css-31\/index.html",
         "tag": " #Sun #moon #HTML #CSS #project",
         "id": "76e8cc1ccb4529fb7d83b68e85ba0ced",
-        "time": "id"
-    },
-    {
-        "text": "Template home page auto light dark abc\n\nWebsite template description. ",
-        "url": "\/templates\/template-home-page-auto-light-dark-abc-20\/index.html",
-        "tag": " #WebDesign #template",
-        "id": "bcb82484cce650a53a6a2663bf872ea6",
         "time": "id"
     },
     {
