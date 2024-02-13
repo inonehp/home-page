@@ -28,7 +28,7 @@ document.getElementById('lTextarea').value = q;
 }
 }else{
 //https://en.wikipedia.org/wiki/Web_colors
-q = "transparent,white,silver,gray,black,red,maroon,yellow,olive,lime,green,aqua,teal,blue,navy,fuchsia,purple";
+q = "transparent,white,silver,gray,black,red,maroon,yellow,olive,lime,green,aqua,teal,blue,navy,fuchsia,purple,violet,pink,navy,rebeccapurple";
 }
 
 lDemo(q);
@@ -121,48 +121,4 @@ lDemo(e.target.value);
 
 
 
-
-/*old
-if(document.getElementById("result") != null){
-
-document.getElementById("result").innerHTML += `
-<div class="item borderRadius button small bg4 padding3 border"><h2>color var:</h2></div>`; 
-
-let n = 0;
-while (n <= lLimit) {
-randColor = fuRandomColorGenerator("var(--brand),var(--red),var(--orange),var(--yellow),var(--green),var(--blue),var(--indigo),var(--violet)");
-print = `
-
-<div class="item borderRadius button small bg4 padding3 border" style="color: ${randColor};">${randColor}</div>
-
-`;
-
-document.getElementById("result").innerHTML += print; 
-n++;
-}
-}
-
-
-
-if(document.getElementById("result") != null){
-
-document.getElementById("result").innerHTML += `<div class="item borderRadius button small bg4 padding3 border"><h2>color mix:</h2></div>`; 
-
-let n = 0;
-while (n <= lLimit) {
-randColor = fuRandomColorGenerator("#000, #fff, red,orange,yellow,green,blue,indigo,violet,lime,black,white,transparent,var(--brand),var(--red),var(--orange),var(--yellow),var(--green),var(--blue),var(--indigo),var(--violet)");
-print = `
-
-<div class="item borderRadius button small bg4 padding3 border" style="color: ${randColor};">${randColor}</div>
-
-`;
-
-document.getElementById("result").innerHTML += print; 
-n++;
-}
-
-
-}
-
-*/
 
