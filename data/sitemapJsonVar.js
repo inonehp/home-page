@@ -112,6 +112,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Card page auto light dark abc\n\nWebsite template description. ",
+        "url": "\/templates\/card-page-auto-light-dark-abc-20\/index.html",
+        "tag": " #WebDesign #template",
+        "id": "ebfed7de8ff5e4b7de6be4c729cfff27",
+        "time": "id"
+    },
+    {
         "text": "Changelog\n\nSite update history. ",
         "url": "\/changelog.html",
         "tag": " #update #page #main",
@@ -130,6 +137,13 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/circle-8\/index.html",
         "tag": " #circle #wallpaper #CSS #project",
         "id": "c08b5efbe661313d4a677693ab8b5102",
+        "time": "id"
+    },
+    {
+        "text": "Clean one page website template mini light dark flat mini abc\n\nWebsite template description. ",
+        "url": "\/templates\/clean-one-page-website-template-mini-light-dark-flat-mini-abc-16\/index.html",
+        "tag": " #WebDesign #template",
+        "id": "6cad7fcd1d1721efe993f00f32356f35",
         "time": "id"
     },
     {
@@ -322,24 +336,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Home page auto light dark abc\n\nWebsite template description. ",
-        "url": "\/templates\/home-page-auto-light-dark-abc-20\/index.html",
+        "text": "Home page auto light dark flat abc\n\nWebsite template description. ",
+        "url": "\/templates\/home-page-auto-light-dark-flat-abc-9\/index.html",
         "tag": " #WebDesign #template",
-        "id": "49553c0efd30825a0f3aa23cbea9d5cb",
+        "id": "dc79082071c939b8fd518c45069eb7c3",
         "time": "id"
     },
     {
-        "text": "Home page website template auto light dark flat abc\n\nWebsite template description. ",
-        "url": "\/templates\/home-page-website-template-auto-light-dark-flat-abc-9\/index.html",
+        "text": "Home page many auto colors themes flat abc\n\nWebsite template description. ",
+        "url": "\/templates\/home-page-many-auto-colors-themes-flat-abc-10\/index.html",
         "tag": " #WebDesign #template",
-        "id": "5b70c2483d561d24b94fbce2e3204500",
-        "time": "id"
-    },
-    {
-        "text": "Home page website template many auto colors themes flat abc\n\nWebsite template description. ",
-        "url": "\/templates\/home-page-website-template-many-auto-colors-themes-flat-abc-10\/index.html",
-        "tag": " #WebDesign #template",
-        "id": "cc6e44a01642f9e28286425379d7d8f6",
+        "id": "2c52f545c7dc00fabda835624fe0a43e",
         "time": "id"
     },
     {
@@ -420,17 +427,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Movie auto light dark flat abc\n\nWebsite template description. ",
+        "url": "\/templates\/movie-auto-light-dark-flat-abc-11\/index.html",
+        "tag": " #WebDesign #template",
+        "id": "272d7f77cba8c4f3e765707456bfd6cf",
+        "time": "id"
+    },
+    {
         "text": "Movie list\n\nSmall list of movies, just a link to another movie database service, at the top there is a random movie from the list. JavaScript function for parse WATCHLIST.csv from IMDB. ",
         "url": "\/projects\/movie-list-19\/index.html",
         "tag": " #movie #list #collection #random #JavaScript #project",
         "id": "9f9aa90c240343f41e7ca461cc59d82e",
-        "time": "id"
-    },
-    {
-        "text": "Movie website template auto light dark flat abc\n\nWebsite template description. ",
-        "url": "\/templates\/movie-website-template-auto-light-dark-flat-abc-11\/index.html",
-        "tag": " #WebDesign #template",
-        "id": "f5aeea2a66089fdcdbe09ee06ffa1e5d",
         "time": "id"
     },
     {
@@ -445,13 +452,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/navigation-54\/index.html",
         "tag": " #navigation #menu #dropdown #CSS #JavaScript #project",
         "id": "7ce68fffa61d1d30e58bc8a6f3cbfbc9",
-        "time": "id"
-    },
-    {
-        "text": "One page website template auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/one-page-website-template-auto-light-dark-flat-mini-abc-15\/index.html",
-        "tag": " #WebDesign #template",
-        "id": "40318a5992d8d482781d9a571a39a57b",
         "time": "id"
     },
     {
@@ -490,24 +490,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Personal one page website template mini light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/personal-one-page-website-template-mini-light-dark-flat-mini-abc-16\/index.html",
+        "text": "Personal\n\nWebsite template description. ",
+        "url": "\/templates\/personal-2\/index.html",
         "tag": " #WebDesign #template",
-        "id": "8e7929e0be5484310131ac5ff75b1c62",
+        "id": "37542aef9e5e9cd374b46c45e616640d",
         "time": "id"
     },
     {
-        "text": "Personal website template\n\nWebsite template description. ",
-        "url": "\/templates\/personal-website-template-2\/index.html",
-        "tag": " #WebDesign #template",
-        "id": "89daff65804965a658b8d2abb43545bc",
-        "time": "id"
-    },
-    {
-        "text": "Personal website template\n\nWebsite template description. ",
-        "url": "\/templates\/personal-website-template-3\/index.html",
+        "text": "Personal\n\nWebsite template description. ",
+        "url": "\/templates\/personal-3\/index.html",
         "tag": " #Website_template_keywords",
-        "id": "19217dff03b3c28d0d18c770a02dd6c9",
+        "id": "4c93e8a3019ace900d007de5b593cef6",
         "time": "id"
     },
     {
@@ -546,17 +539,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Profile card website template auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/profile-card-website-template-auto-light-dark-flat-mini-abc-12\/index.html",
+        "text": "Profile card auto light dark flat mini abc\n\nWebsite template description. ",
+        "url": "\/templates\/profile-card-auto-light-dark-flat-mini-abc-12\/index.html",
         "tag": " #WebDesign #template",
-        "id": "b756ce489192f1af1047880080240682",
+        "id": "b3b7e3759d3f06e6cc6a751120996d84",
         "time": "id"
     },
     {
-        "text": "Profile card website template auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/profile-card-website-template-auto-light-dark-flat-mini-abc-14\/index.html",
+        "text": "Profile card auto light dark flat mini abc\n\nWebsite template description. ",
+        "url": "\/templates\/profile-card-auto-light-dark-flat-mini-abc-14\/index.html",
         "tag": " #WebDesign #template",
-        "id": "cb70bc63e8c2b081b8a9ac64f84dbb8e",
+        "id": "1297bd258b2da697caabf378907d1381",
         "time": "id"
     },
     {
@@ -665,7 +658,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Search\n\nSite search. ",
+        "text": "Search\n\nSite search, main pages and more. ",
         "url": "\/search.html",
         "tag": " #site #search #page #main",
         "id": "c9db0e13a328be0eaa311c5b24ad331c",
@@ -679,45 +672,45 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Simple text template\n\nWebsite template description. ",
-        "url": "\/templates\/simple-text-template-1\/index.html",
+        "text": "Simple\n\nWebsite template description. ",
+        "url": "\/templates\/simple-4\/index.html",
         "tag": " #WebDesign #template",
-        "id": "c2eb856a4bc3cd53328550dabad79c35",
+        "id": "980d10b04476a3d91f4e90465cacd84a",
         "time": "id"
     },
     {
-        "text": "Simple website template\n\nWebsite template description. ",
-        "url": "\/templates\/simple-website-template-4\/index.html",
+        "text": "Simple\n\nWebsite template description. ",
+        "url": "\/templates\/simple-5\/index.html",
         "tag": " #WebDesign #template",
-        "id": "a275c6d66ad3475401b9029b37e83bfc",
+        "id": "1fe7c44c251cb83303089b11cefaaf4a",
         "time": "id"
     },
     {
-        "text": "Simple website template\n\nWebsite template description. ",
-        "url": "\/templates\/simple-website-template-5\/index.html",
+        "text": "Simple\n\nWebsite template description. ",
+        "url": "\/templates\/simple-6\/index.html",
         "tag": " #WebDesign #template",
-        "id": "2209c5fc4c2df6f86e8a4bd87db170e3",
+        "id": "cb1c62d4e2b12845ed78f9fd5eb43a83",
         "time": "id"
     },
     {
-        "text": "Simple website template\n\nWebsite template description. ",
-        "url": "\/templates\/simple-website-template-6\/index.html",
+        "text": "Simple\n\nWebsite template description. ",
+        "url": "\/templates\/simple-7\/index.html",
         "tag": " #WebDesign #template",
-        "id": "ed506887fe6f7208edd48c81a00a0794",
+        "id": "6b127167d63d7fe8a3236d905236e4d3",
         "time": "id"
     },
     {
-        "text": "Simple website template\n\nWebsite template description. ",
-        "url": "\/templates\/simple-website-template-7\/index.html",
+        "text": "Simple\n\nWebsite template description. ",
+        "url": "\/templates\/simple-8\/index.html",
         "tag": " #WebDesign #template",
-        "id": "84965a648376b8020d9a5e4c5c7fee85",
+        "id": "8faa62070a9c16118ce5b8d1e11fbb6a",
         "time": "id"
     },
     {
-        "text": "Simple website template\n\nWebsite template description. ",
-        "url": "\/templates\/simple-website-template-8\/index.html",
+        "text": "Simple text\n\nWebsite template description. ",
+        "url": "\/templates\/simple-text-1\/index.html",
         "tag": " #WebDesign #template",
-        "id": "c70261857926100900f1412fd6be367b",
+        "id": "b98f076dfa618723206b51d47390aa07",
         "time": "id"
     },
     {
@@ -900,6 +893,13 @@ var sitemapJsonVar = [
         "url": "\/web-search.html",
         "tag": " #web #search #redirection #redirect #page #main",
         "id": "fa848671b775b5f8cf48077e1be17d1d",
+        "time": "id"
+    },
+    {
+        "text": "Webdesign one page website template auto light dark flat mini abc\n\nWebsite template description. ",
+        "url": "\/templates\/webdesign-one-page-website-template-auto-light-dark-flat-mini-abc-15\/index.html",
+        "tag": " #WebDesign #template",
+        "id": "358566229cff3b87d69799c37a1bd309",
         "time": "id"
     },
     {

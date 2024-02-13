@@ -2,16 +2,12 @@
 /* comment */
 
 
-header { margin: 0 auto; padding: 0; padding-top: 12px; }
-nav, footer { text-align: center; max-width: 100%; }
-nav a, nav button { vertical-align: middle; display: inline-block; padding: 5px; }
-nav button:hover { background: none;  }
 
 
 /*<!-- Nav v.1.3.0 -->
 <!-- page, style.css, main.js, noscript.css -->*/
 
-.navTop { position: relative; }
+.navTop { position: relative; z-index: 2; }
 .navTop form, .navTop input[type=search] { display: inline-block; }
 .navTop form { width: 100%; max-width: 130px; vertical-align: middle; }
 .navTop input[type=search] { font-size: small; padding: 5px 9px; min-height: 10px; }
@@ -96,7 +92,7 @@ z-index: 2;
 #dropdownMenuButton { padding: 0; margin-right: 10px; }
 .dropdownMenuContent { margin-top: 9px;  }
 
-.menuTop { margin-right: 10px; }
+
 /* // <!-- Nav */
 
 

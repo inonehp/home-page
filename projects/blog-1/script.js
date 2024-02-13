@@ -241,7 +241,7 @@ let lSlideShow = '';
 
 print += `
 
-<nav>
+<nav class="tCenter">
 <a class="small tag2" href="?" title="Current page">index</a>
 <a class="small tag2" href="?mode=random" title="Random post">random</a>
 ${lSlideShow}

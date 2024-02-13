@@ -84,19 +84,21 @@ top: -5px;
 
 <!-- nav HTML part -->
 <header>
-<div class="wrapper2 navTop">
+<div class="margin2"></div>
+<div id="navTop" class="wrapper2 navTop tCenter">
 <nav>
 
 <span class="countMenuItem"></span>
-<a class="countMenuItem" title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/tpl/logo.png" alt="logo" style="max-width: 26px;"></a>
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/tpl/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 <div class="menuTop">
 
 <!-- menu items -->
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+
 <span class="idForRandomItemDemo"></span>
 <!-- // menu items -->
 
@@ -106,17 +108,17 @@ top: -5px;
 <!-- dropdown menu -->
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
-<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
 <div class="dropdownMenuWrapper">
 <!--<div class="padding2">menu name</div>-->
 <div class="dropdownMenuContentColumn">
 
 <!-- menu items dublicate -->
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
 <span class="idForRandomItemDemo"></span>
 <!-- // menu items dublicate -->
 
@@ -128,7 +130,7 @@ top: -5px;
 <!-- // dropdown menu -->
 
 <span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide" method="GET" action="/search.html" role="search" class="noscriptHide">
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/search.html" role="search" class="noscriptHide">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -140,46 +142,44 @@ top: -5px;
 
 
 
-<!--
-<header id="secondNav">
+
+<header id="secondNav" class="tCenter">
+<div class="margin2"></div>
 <nav>
-<a href="/">index</a>
-<a href="../">list</a>
+<a class="inlineBlock padding" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding" style="padding-right: 0;" href="../">list</a>
 </nav>
 </header>
--->
+
 
 <h1 class="tCenter op">Site navigation menu with auto dropdown</h1>
 <div class="tCenter padding2 small op">in test</div>
 
 <!-- content -->
-<div class="contentCenter">
+<main class="content">
 <div class="wrapper">
 
 
 <div class="post bg border">
-<div class="pre">
+<span class="pre">
 - 1 config in script.js (navigation wrapper width max size).
 
 - The <b>.countMenuItem</b> class is used to count the number of links and automatically display them in the form of a dropdown menu (plus 2 fake elements (.countMenuItem) so that the count is correct for the logo and the search form).
 
--If there is no JavaScript, the CSS version of the navigation in <noscript> in header is used.
+-If there is no JavaScript, the CSS version of the navigation in "noscript" in header is used.
 
-</div>
+</span>
 </div>
 
 <div class="margin2 padding2"></div>
 
 <div class="margin3 tCenter">
-<a class="padding3 border bg" href="#" onclick="fuMReload();">Reload for random number of links in the menu
-</a>
+<a class="padding3 border bg" href="#" onclick="fuMReload();">Reload for random number of links in the menu</a>
 </div>
 
-<div class="margin2 padding2"></div>
-
 </div>
-</div>
-<!-- end content -->
+</main>
+<!-- // content -->
 
 
 <footer id="footer"></footer>
@@ -190,8 +190,8 @@ top: -5px;
 //fuMSetTheme('light');
 </script>
 
-<script src="demo.js"></script>
 
+<script src="demo.js"></script>
 <script src="script.js"></script>
 
 

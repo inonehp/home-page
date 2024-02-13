@@ -16,16 +16,16 @@ switch (lRand) {
 
 lMenuItems = `
 
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
 
 
 `;
@@ -38,40 +38,40 @@ document.getElementsByClassName("idForRandomItemDemo")[1].innerHTML = lMenuItems
 
 lMenuItems = `
 
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
-<a class="countMenuItem brand" href="#item">Item</a>
-<a class="countMenuItem brand" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Item</a>
+<a class="countMenuItem brand inlineBlock padding" href="#item">Lorem Ipsum</a>
 
 `;
 

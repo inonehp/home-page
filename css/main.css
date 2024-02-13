@@ -1,4 +1,4 @@
-/* Main style v.12.17.2 */
+/* Main style v.12.18.0 */
 /* Responsive, mainly class-based */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
@@ -80,11 +80,6 @@ header, footer {
 flex-shrink: 0;
 width: 100%;
 }
-header { margin: 0 auto; padding: 0; padding-top: 12px; }
-nav, footer { text-align: center; max-width: 100%; }
-nav a, nav button { vertical-align: middle; display: inline-block; padding: 5px; }
-nav button:hover { background: none;  }
-footer { padding-top: 15px; }
 
 
 .h1 { font-size: 1.40em; }
@@ -263,23 +258,27 @@ right: 0;
 .balance { text-wrap: balance; }
 
 .box { box-sizing: border-box; }
-.padding { padding: 1px; }
+.padding { padding: 5px; }
 .padding2 { padding: 10px; }
 .padding3 { padding: 15px; }
-.padding4 { padding: 25px; }
-.paddingList { padding-bottom: 1px; }
+.padding4 { padding: 30px; }
+.padding1Px { padding: 1px; }
+.paddingList { padding-bottom: 5px; }
 .padding2List { padding-bottom: 10px; }
 .padding3List { padding-bottom: 15px; }
-.padding4List { padding-bottom: 25px; }
+.padding4List { padding-bottom: 30px; }
+.padding1PxList { padding-bottom: 1px; }
 
-.margin { margin: 1px; }
+.margin { margin: 5px; }
 .margin2 { margin: 10px; }
 .margin3 { margin: 15px; }
-.margin4 { margin: 25px; }
-.marginList { margin-bottom: 1px; }
+.margin4 { margin: 30px; }
+.margin1Px { margin: 1px; }
+.marginList { margin-bottom: 5px; }
 .margin2List { margin-bottom: 10px; }
 .margin3List { margin-bottom: 15px; }
-.margin4List { margin-bottom: 25px; }
+.margin4List { margin-bottom: 30px; }
+.margin1PxList { margin-bottom: 1px; }
 
 .itemHeight { min-height: var(--itemHeight); }
 .itemHeight2 { min-height: var(--itemHeight2); }

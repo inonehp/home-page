@@ -57,35 +57,36 @@ pages, main,">
 <!-- nav HTML part -->
 <header>
 <div class="wrapper2 navTop">
+<div class="margin2"></div>
 <nav>
 
 <span class="countMenuItem"></span>
-<a class="countMenuItem" title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="nav1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 <div class="menuTop">
 
 <!-- menu items -->
-<a class="countMenuItem brand" href="main-list.html">Main</a>
-<a class="countMenuItem brand" href="lists.html">Lists</a>
+<a class="countMenuItem brand inlineBlock padding" href="main-list.html">Main</a>
+<a class="countMenuItem brand inlineBlock padding" href="lists.html">Lists</a>
 <!-- // menu items -->
 
-<a class="mClassNavUp countMenuItem brand" href="../">../Up</a>
+<a class="mClassNavUp countMenuItem brand inlineBlock padding" href="../">../Up</a>
 </div>
 <!-- end menuTop -->
 
 <!-- dropdown menu -->
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
-<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
 <div class="dropdownMenuWrapper">
 <!--<div class="padding2">menu name</div>-->
 <div class="dropdownMenuContentColumn">
 
 <!-- menu items dublicate -->
-<a class="countMenuItem brand" href="main-list.html">Main</a>
-<a class="countMenuItem brand" href="lists.html">Lists</a>
-<a class="countMenuItem mClassNavUp brand" href="../">../Up</a>
+<a class="countMenuItem brand inlineBlock padding" href="main-list.html">Main</a>
+<a class="countMenuItem brand inlineBlock padding" href="lists.html">Lists</a>
+<a class="countMenuItem mClassNavUp brand inlineBlock padding" href="../">../Up</a>
 <!-- // menu items dublicate -->
 
 </div>
@@ -96,7 +97,7 @@ pages, main,">
 <!-- // dropdown menu -->
 
 <span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide" method="GET" action="/search.html" role="search" class="noscriptHide">
+<form class="countMenuItem noscriptHide inlineBlock padding noscriptHide"  style="padding-right: 0;" method="GET" action="/search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>

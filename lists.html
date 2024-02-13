@@ -57,35 +57,36 @@ all, list, lists, projects, menu, page, main,
 <!-- nav HTML part -->
 <header>
 <div class="wrapper2 navTop">
+<div class="margin2"></div>
 <nav>
 
 <span class="countMenuItem"></span>
-<a class="countMenuItem" title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="nav1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 <div class="menuTop">
 
 <!-- menu items -->
-<a class="countMenuItem brand" href="main-list.html">Main</a>
-<a class="countMenuItem active" href="lists.html">Lists</a>
+<a class="countMenuItem brand inlineBlock padding" href="main-list.html">Main</a>
+<a class="countMenuItem active inlineBlock padding" href="lists.html">Lists</a>
 <!-- // menu items -->
 
-<a class="mClassNavUp countMenuItem brand" href="../">../Up</a>
+<a class="mClassNavUp countMenuItem brand inlineBlock padding" href="../">../Up</a>
 </div>
 <!-- end menuTop -->
 
 <!-- dropdown menu -->
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
-<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
 <div class="dropdownMenuWrapper">
 <!--<div class="padding2">menu name</div>-->
 <div class="dropdownMenuContentColumn">
 
 <!-- menu items dublicate -->
-<a class="countMenuItem brand" href="main-list.html">Main</a>
-<a class="countMenuItem active" href="lists.html">Lists</a>
-<a class="countMenuItem mClassNavUp brand" href="../">../Up</a>
+<a class="countMenuItem brand inlineBlock padding" href="main-list.html">Main</a>
+<a class="countMenuItem active inlineBlock padding" href="lists.html">Lists</a>
+<a class="countMenuItem mClassNavUp brand inlineBlock padding" href="../">../Up</a>
 <!-- // menu items dublicate -->
 
 </div>
@@ -96,7 +97,7 @@ all, list, lists, projects, menu, page, main,
 <!-- // dropdown menu -->
 
 <span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide" method="GET" action="/search.html" role="search" class="noscriptHide">
+<form class="countMenuItem noscriptHide inlineBlock padding noscriptHide"  style="padding-right: 0;" method="GET" action="/search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -126,8 +127,8 @@ all, list, lists, projects, menu, page, main,
 <!-- nav2 -->
 <div class="padding2 margin2"></div>
 
-<!--<div class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Additional navigation:</div>-->
-<div class="xSmall op block tLeft paddingList marginList"><span class="bold green">✪</span> Menu lists:</div>
+<!--<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Additional navigation:</div>-->
+<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Menu lists:</div>
 
 <a class="firstLetterBold insertIcon  post light border3List small" href="main-list.html">
 <div class="inlineBlock"><div class="firstLetterBold op">Main</div></div></a>
@@ -151,7 +152,6 @@ all, list, lists, projects, menu, page, main,
 <div><h1 class="block op tCenter">Projects:</h1></div> 
 
 <div class="menu small firstLetterBold">
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/25-redirects/"><span class="insertIcon firstLetterBold">Redirects</span></a>
 <a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/average-number-40/"><span class="insertIcon firstLetterBold">Average number</span></a>
 <a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/background-colors-list-50/"><span class="insertIcon firstLetterBold">Background colors list</span></a>
 <a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/blog-1/"><span class="insertIcon firstLetterBold">Blog</span></a>
@@ -183,6 +183,7 @@ all, list, lists, projects, menu, page, main,
 <a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/random-color-generator-51/"><span class="insertIcon firstLetterBold">Random color generator</span></a>
 <a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/random-symbol-23/"><span class="insertIcon firstLetterBold">Random symbol</span></a>
 <a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/random-text-generator-24/"><span class="insertIcon firstLetterBold">Random text generator</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/25-redirects/"><span class="insertIcon firstLetterBold">Redirects</span></a>
 <a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/start-page-41/"><span class="insertIcon firstLetterBold">Start page</span></a>
 <a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/test-27/"><span class="insertIcon firstLetterBold">Test</span></a>
 <a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/text-to-binary-52/"><span class="insertIcon firstLetterBold">Text to binary</span></a>

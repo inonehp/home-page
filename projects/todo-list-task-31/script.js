@@ -835,7 +835,7 @@ randomTask = randomTodoListArray[Math.floor(Math.random() * randomTodoListArray.
 
 if(randomTask != 'undefined'&&randomTask != undefined){
 randomTask = `
-<div class="op block paddingList marginList small">random:</div>
+<div class="op block padding1px margin1PxList small">random:</div>
 
 ${randomTask}
 `;
@@ -877,12 +877,12 @@ document.getElementById('result').innerHTML = '';
 var allOtherTaskMsg = '';
 if(printListPrintDaily != ''){
 printListPrintDaily = `
-<div class="op block paddingList marginList small">pined or daily:</div>
+<div class="op block padding1px margin1PxList small">pined or daily:</div>
 ${printListPrintDaily}
 `;
 if(printListPrint != ''&&printListPrintDaily != ''&&printListPrint != ''){
 allOtherTaskMsg = `
-<div class="op block paddingList marginList small">other:</div>
+<div class="op block padding1px margin1PxList small">other:</div>
 `;
 }
 }
@@ -1005,7 +1005,7 @@ print2 = `
 
 <div>
 
-<label class="block tLeft padding op xSmall">+ add:</label>
+<label class="block tLeft padding1px margin1PxList op small">+ add:</label>
 <form id="anchorIdFrom" class="padding2List marginList" action="index.html">
 <input id="inputTask" class="padding2" type="text" name="q" autocomplete="off" placeholder=" input">
 <input type="hidden" name="com" value="add">

@@ -5,8 +5,6 @@
 let mNavigationWrapperWidth = 700;
 
 
-
-
 // JS part
 // Dropdown menu  v.1.3.0
 // if JS off (CSS version in noscript.css)
@@ -40,7 +38,7 @@ var countMenuItem = document.querySelectorAll('.countMenuItem');
 //if((countMenuItem.length / 2) >= 4){}
 //if(document.getElementById("footer") != null){}
 //fuMPrintText('footer', ``, '+');
-if(document.getElementsByTagName("nav")[0] != null){ // not body, id not found
+if(document.getElementById("navTop") != null){ // not body, id not found
 
 /*var cssMedia = '@media(max-width: 500px)';
 var cssMedia2 = '@media(min-width: 500px)';
@@ -49,9 +47,9 @@ cssMedia = '@media(max-width: 1000px)';
 cssMedia2 = '@media(min-width: 1000px)';
 }*/
 
-var mNavItemsAverageWidth = 80; // Average: 66
+var mNavItemsAverageWidth = 70; // Average: 66
 var mNavItemsCount = (countMenuItem.length / 2);
-var mNavWhenDropdownWidth = ((mNavItemsAverageWidth  * mNavItemsCount) + (10  * mNavItemsCount)) / 2;
+var mNavWhenDropdownWidth = mNavItemsAverageWidth  * mNavItemsCount;
 //console.log(`menu items: ${mNavItemsCount} * 70px = hide when: ${mNavWhenDropdownWidth}px or > 700 (wrapper)`);
 var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;

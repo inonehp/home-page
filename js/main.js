@@ -151,13 +151,13 @@ conf["confMenuItems2"] = '';
 conf["confMenuItems"].forEach((item, index) => {
 
 if((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem active" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
+conf["confMenuItems2"] += `<a class="countMenuItem active inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
 }else{
-conf["confMenuItems2"] += `<a class="countMenuItem brand" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
+conf["confMenuItems2"] += `<a class="countMenuItem brand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
 }
 });
 
-conf["confMenuItems2"] += `<a class="mClassNavUp countMenuItem brand" href="../">../Up</a>`;
+conf["confMenuItems2"] += `<a class="mClassNavUp countMenuItem brand inlineBlock padding" href="../">../Up</a>`;
 
 
 //CSS version with noscript in noscript.css -->
@@ -179,10 +179,10 @@ document.getElementById("secondNav").innerHTML = `
 <!-- Nav v.1.2.0 -->
 <!-- page, main js, noscript.css -->
 <div class="wrapper2 navTop">
+<div class="margin2"></div>
 <nav>
-
 <span class="countMenuItem"></span>
-<a calss="countMenuItem" title="Main page (nav1)" style="padding-left: 0;" href="/"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+<a calss="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="nav2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
 
 <div class="menuTop">
@@ -193,7 +193,7 @@ ${conf["confMenuItems2"]}
 <!-- dropdown menu -->
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
-<button onclick="dropdownMenuFunction();" class="brand" id="dropdownMenuButton">☰ Menu</button>
+<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2">
 <div class="dropdownMenuWrapper">
 <!--<div class="padding2">section</div>-->
@@ -211,7 +211,7 @@ ${conf["confMenuItems2"]}
 <!-- // dropdown menu -->
 
 <span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide" method="GET" action="/search.html" role="search">
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -269,9 +269,9 @@ cssMedia = '@media(max-width: 1000px)';
 cssMedia2 = '@media(min-width: 1000px)';
 }*/
 
-var mNavItemsAverageWidth = 80; // Average: 66
+var mNavItemsAverageWidth = 70; // Average: 66
 var mNavItemsCount = (countMenuItem.length / 2);
-var mNavWhenDropdownWidth = ((mNavItemsAverageWidth  * mNavItemsCount) + (10  * mNavItemsCount)) / 2;
+var mNavWhenDropdownWidth = mNavItemsAverageWidth  * mNavItemsCount;
 //console.log(`menu items: ${mNavItemsCount} * 70px = hide when: ${mNavWhenDropdownWidth}px or > 700 (wrapper)`);
 var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
@@ -384,7 +384,7 @@ fuMPrintText('footer', `
 
 
 <nav>
-<div class="wrapper4 balance margin2List padding2List small">
+<div class="wrapper4 balance margin2List small tCenter balancet">
 
 
 
@@ -405,25 +405,25 @@ fuMPrintText('footer', `
 
 <!--<span style="padding-left: 0;" title="Main Page"><a href="/">Home</a></span>-->
 
-<!--<span id="fAds" title="Advertising Settings"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
+<!--<span id="fAds" class="inlineBlock padding" title="Advertising Settings"><a href="/settings.html#confAdsStatus">ads: ${conf["confAdsStatus"]}</a></span>-->
 
-<span style="padding-left: 0;" title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
+<span class="inlineBlock padding" style="padding-left: 0;" title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
 
-<span title="News"><a href="/rss.xml">RSS</a></span>
+<span title="News"><a class="inlineBlock padding" href="/rss.xml">RSS</a></span>
 
-<span id="fSettings" title="Settings"><a href="/settings.html">Settings</a></span>
+<span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding" href="/settings.html">Settings</a></span>
 
-<span id="fPrivacy" title="Cookie Settings"><a href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
+<span id="fPrivacy" class="inlineBlock padding" title="Cookie Settings"><a class="inlineBlock padding" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 
-<span title="Site Code (repository)"><a href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
+<span class="inlineBlock padding" title="Site Code (repository)"><a class="inlineBlock padding" href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
 
-<span title="License (other on the About page)"><a rel="license" title="main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
-<a rel="license" title="Other on the about page" href="/about.html#license">Other Licenses *</a>
+<span title="License (other on the About page)"><a class="inlineBlock padding" rel="license" title="main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
+<a class="inlineBlock padding" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses *</a>
 </span>
 
-<span title="Page about"><a href="/about.html">About</a></span>
+<span title="Page about"><a class="inlineBlock padding" href="/about.html">About</a></span>
 
-<span title="Hosting Service" style="padding-right: 0;"><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
+<span class="inlineBlock padding" style="padding-right: 0;" title="Hosting Service"><a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
 
 
 </div>
@@ -510,7 +510,7 @@ document.getElementById('theme').href = '/css/' + theme + '.css';
 
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = '<a href="/theme.html">theme: ' + conf["confTheme"] + ' (' + theme + ')</a>';
+document.getElementById("fTheme").innerHTML = '<a href="/theme.html">Theme: ' + conf["confTheme"] + ' (' + theme + ')</a>';
 }
 
 // fix and dynamic
@@ -895,7 +895,7 @@ if(conf["confTheme"] != mode){ mForseStatus = "[force] "; }
 
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = `<a href="/theme.html">theme: ${mForseStatus}${mode} (${conf["confRealTmpTheme"]})</a>`;
+document.getElementById("fTheme").innerHTML = `<a href="/theme.html">Theme: ${mForseStatus}${mode} (${conf["confRealTmpTheme"]})</a>`;
 }
 
 
@@ -924,7 +924,7 @@ fuMSetTheme(conf["confTheme"]);
 /* in test, delme (now in function: setTheme)
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = '<a href="/theme.html">theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')</a>';
+document.getElementById("fTheme").innerHTML = '<a href="/theme.html">Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')</a>';
 }*/
 
 

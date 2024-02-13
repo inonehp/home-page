@@ -15,13 +15,13 @@ if(element == 'od-blue'){ result += '</div><div><p>Other dark:</p>'; }
 if(element == 'h-contrast-l'){ result += '</div><div><p>Hight Contrast:</p>'; }
 if(element == 'rand-l'){ result += '</div></div><p>Random mode:</p>'; }
 if(element == 'auto-time'){ result += '<p>Auto mode:</p>'; }
-if(element == 'auto'){ result += '<div class="margin2"></div>'; }
+if(element == 'auto'){ result += '<div class="margin"></div>'; }
 
 
 if(element == theme){
-result += '<div id="'+element+'" class="tehemeListItem highlight borderBottomOrange margin border3 margin borderRadius2">'+element+'</div>';
+result += '<div id="'+element+'" class="tehemeListItem highlight borderBottomOrange zero border3List margin2List borderRadius2">'+element+'</div>';
 }else{
-result += '<div id="'+element+'" class="tehemeListItem light2 margin border3 margin borderRadius2">'+element+'</div>';
+result += '<div id="'+element+'" class="tehemeListItem light2 margin border3List zero borderRadius2">'+element+'</div>';
 }
 
 });
