@@ -9,6 +9,7 @@ conf["confTagListLimit"] = 38;
 conf["confDomainNameInTitle"] = "on"; // on, off
 conf["confLinkExtList"] = "index.html,.html,index.php,.php";
 conf["confIdEmbedScript"] = "footer";
+conf["confWrapperNavWidth"] = 900;
 
 
 // settings var
@@ -178,7 +179,7 @@ document.getElementById("secondNav").innerHTML = `
 
 <!-- Nav v.1.2.0 -->
 <!-- page, main js, noscript.css -->
-<div class="wrapper2 navTop">
+<div class="wrapper3 navTop">
 <div class="margin2"></div>
 <nav>
 <span class="countMenuItem"></span>
@@ -211,7 +212,8 @@ ${conf["confMenuItems2"]}
 <!-- // dropdown menu -->
 
 <span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/search.html" role="search">
+<span class="countMenuItem"></span>
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -254,7 +256,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 });
 }
 
-// nav v.1.1.0 // in test
+// nav v.1.2.0 // in test
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 //if((countMenuItem.length / 2) >= 4){}
@@ -269,14 +271,16 @@ cssMedia = '@media(max-width: 1000px)';
 cssMedia2 = '@media(min-width: 1000px)';
 }*/
 
-var mNavItemsAverageWidth = 70; // Average: 66
+var mNavItemsAverageWidth = 110; // Average: 66
 var mNavItemsCount = (countMenuItem.length / 2);
-var mNavWhenDropdownWidth = mNavItemsAverageWidth  * mNavItemsCount;
-//console.log(`menu items: ${mNavItemsCount} * 70px = hide when: ${mNavWhenDropdownWidth}px or > 700 (wrapper)`);
+var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
+//var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
+//var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
 var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
 // fix // hide, wrapper limit
-if((mNavWhenDropdownWidth) >= 700){
+
+if((mNavWhenDropdownWidth) >= conf["confWrapperNavWidth"]){
 cssMedia = '@media(width >= 1px)';
 // cancel
 cssMedia2 = `@media(width <= 0px)`; 
