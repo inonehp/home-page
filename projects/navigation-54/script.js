@@ -1,7 +1,8 @@
-// Nav v.1.0.0
+// Nav v.1.1.1
 
 // config
-// number, max size in px
+
+// wrapper size, number in px from your CSS
 let mNavigationWrapperWidth = 900;
 
 
@@ -32,7 +33,7 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 });
 }
 
-// nav v.1.2.0 // in test
+// nav v.1.2.1, in test
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 //if((countMenuItem.length / 2) >= 4){}
@@ -47,13 +48,17 @@ cssMedia = '@media(max-width: 1000px)';
 cssMedia2 = '@media(min-width: 1000px)';
 }*/
 
-var mNavItemsAverageWidth = 110; // Average: 66
+var mNavItemsAverageWidth = 110;
+// Average: 66
 var mNavItemsCount = (countMenuItem.length / 2);
+// /2 - dublicate items (links)
 var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
+// nav width (mNavItemsAverageWidth * mNavItemsCount)/2 - for 2 rows links
 //var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 //var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
 var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
+// fix // hide, wrapper limit
 
 if((mNavWhenDropdownWidth) >= mNavigationWrapperWidth){
 cssMedia = '@media(width >= 1px)';
