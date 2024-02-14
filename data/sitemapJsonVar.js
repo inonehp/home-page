@@ -672,9 +672,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Show hide when resize\n\nThis is the tpl for create projects. ",
+        "text": "Show hide when resize\n\nShow hide item when resize using CSS. ",
         "url": "\/mini-projects\/show-hide-when-resize-35\/index.html",
-        "tag": " #empty #HTML #CSS #project",
+        "tag": " #show #hide #resize #HTML #CSS #project",
         "id": "339811951b5c1a260e93e96641608d62",
         "time": "id"
     },
