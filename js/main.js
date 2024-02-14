@@ -146,7 +146,7 @@ document.getElementById(id).innerHTML = text;
 
 conf["confMenuItems"] = [
 {"url":"/main-list.html", "name":"Main", "title":"Main"},
-{"url":"/lists.html", "name":"Lists", "title":"Lists"},
+{"url":"/lists.html", "name":"All", "title":"Lists"},
 ];
 
 
@@ -154,13 +154,13 @@ conf["confMenuItems2"] = '';
 conf["confMenuItems"].forEach((item, index) => {
 
 if((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem active inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
+conf["confMenuItems2"] += `<a class="countMenuItem active inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a> `;
 }else{
-conf["confMenuItems2"] += `<a class="countMenuItem brand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
+conf["confMenuItems2"] += `<a class="countMenuItem brand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a> `;
 }
 });
 
-conf["confMenuItems2"] += `<a class="mClassNavUp countMenuItem brand inlineBlock padding" href="../">../Up</a>`;
+conf["confMenuItems2"] += `<a class="mClassNavUp countMenuItem brand inlineBlock padding" href="../" title="../Up">List</a>`;
 
 
 //CSS version with noscript in noscript.css -->
@@ -184,9 +184,9 @@ document.getElementById("secondNav").innerHTML = `
 <div class="wrapper3 navTop">
 <div class="margin2"></div>
 <nav>
-<span class="countMenuItem"></span>
-<a calss="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="nav2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
 
+<span class="countMenuItem"></span>
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="nav2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <div class="menuTop">
 ${conf["confMenuItems2"]}

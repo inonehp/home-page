@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.02.13";
+//var myCacheVersion = "v.1.2.2024.02.14";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.02.13").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.02.14").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -339,43 +339,42 @@ var fileListArr = ["/404.html",
 "/geany-theme/light.css",
 "/geany-theme-page.html",
 "/googlebae648489b2c26df.html",
-"/images/2023/0-start-end-krita-png.png",
+"/images/2023/29-transparent-background-inkscape.png",
 "/images/",
 "/images/2023/",
-"/images/2023/1-building-krita-png.png",
-"/images/2023/10-barbie-time-inkscape-svg.svg",
-"/images/2023/11-web-design-trend-svg-inkscape-svg.svg",
-"/images/2023/12-ava-woman-laptop-inkscape-svg.svg",
-"/images/2023/14-circle-olive-wallpaper-desktop-jpg.jpg",
-"/images/2023/15-circle-light-wallpaper-desktop-jpg.jpg",
-"/images/2023/16-circle-dark-wallpaper-desktop-jpg.jpg",
-"/images/2023/17-dark-triangle-wallpaper-desktop-jpg.jpg",
-"/images/2023/18-light-triangle-wallpaper-desktop-jpg.jpg",
-"/images/2023/19-landscape-light-blue-wallpaper-desktop-inkscape-jpg.jpg",
-"/images/2023/2-test-krita-png.png",
-"/images/2023/20-landscape-dark-blue-wallpaper-desktop-inkscape-jpg.jpg",
-"/images/2023/21-landscape-dark-blue-wallpaper-mobile-inkscape-jpg.jpg",
-"/images/2023/22-landscape-light-blue-wallpaper-mobile-inkscape-jpg.jpg",
-"/images/2023/23-binary-text-mobile-wallpaper-dark-inkscape-png.png",
-"/images/2023/24-binary-text-mobile-wallpaper-light-inkscape-png.png",
-"/images/2023/25-binary-text-desktop-wallpaper-light-inkscape-png.png",
-"/images/2023/26-binary-text-desktop-wallpaper-dark-inkscape-png.png",
-"/images/2023/26-music-note-icon-inkscape-svg.svg",
-"/images/2023/27-editor-code-light-dark-mode-gif.gif",
-"/images/2023/28-drawing-art-krita.png",
-"/images/2023/29-transparent-background-inkscape.png",
-"/images/2023/3-landscape-inkscape-svg.svg",
 "/images/2023/30-ava-woman-laptop-inkscape-svg.svg",
 "/images/2023/31-mail-art-inkscape.svg",
 "/images/2023/32--hello-world-binary-text-dark-wallpaper--inkscape-png.png",
 "/images/2023/33-hello-world-binary-text-light-wallpaper-binary-inkscape-png.png",
 "/images/2023/34-logo-diamond-inkscape-png.png",
-"/images/2023/4-star-inkscape-svg.svg",
-"/images/2023/5-logo-x-inkscape-svg.svg",
-"/images/2023/6-logo-t-inkscape-svg.svg",
-"/images/2023/7-logo-x-inkscape-svg.svg",
-"/images/2023/8-logo-x-inkscape-svg.svg",
-"/images/2023/9-logo-x-inkscape-svg.svg",
+"/images/2023/art-krita-28.png",
+"/images/2023/ava-woman-laptop-ava-inkscape-svg-12.svg",
+"/images/2023/barbie-time-inkscape-svg-10.svg",
+"/images/2023/binary-text-desktop-wallpaper-dark-inkscape-png-26.png",
+"/images/2023/binary-text-desktop-wallpaper-light-inkscape-png-25.png",
+"/images/2023/binary-text-mobile-wallpaper-dark-inkscape-png-23.png",
+"/images/2023/binary-text-mobile-wallpaper-light-inkscape-png-24.png",
+"/images/2023/building-krita-png-1.png",
+"/images/2023/circle-dark-wallpaper-desktop-jpg-16.jpg",
+"/images/2023/circle-light-wallpaper-desktop-jpg-15.jpg",
+"/images/2023/circle-olive-wallpaper-desktop-jpg-14.jpg",
+"/images/2023/editor-code-light-dark-mode-gif-27.gif",
+"/images/2023/landscape-dark-blue-wallpaper-desktop-inkscape-jpg-20.jpg",
+"/images/2023/landscape-dark-blue-wallpaper-mobile-inkscape-jpg-21.jpg",
+"/images/2023/landscape-inkscape-svg-2.svg",
+"/images/2023/landscape-light-blue-wallpaper-desktop-inkscape-jpg-19.jpg",
+"/images/2023/landscape-light-blue-wallpaper-mobile-inkscape-jpg-22.jpg",
+"/images/2023/logo-t-inkscape-svg-6.svg",
+"/images/2023/logo-x-inkscape-svg-5.svg",
+"/images/2023/logo-x-inkscape-svg-7.svg",
+"/images/2023/logo-x-inkscape-svg-8.svg",
+"/images/2023/logo-x-inkscape-svg-9.svg",
+"/images/2023/star-inkscape-svg-4.svg",
+"/images/2023/start-end-krita-png-0.png",
+"/images/2023/test-krita-png-2.png",
+"/images/2023/triangle-dark-wallpaper-desktop-jpg-17.jpg",
+"/images/2023/triangle-light-wallpaper-desktop-jpg-18.jpg",
+"/images/2023/web-design-trend-svg-inkscape-svg-11.svg",
 "/images/2024/35-one-black-pixel-png-inkscape.png",
 "/images/2024/",
 "/images/2024/36-one-white-pixel-png-inkscape.png",
@@ -384,6 +383,8 @@ var fileListArr = ["/404.html",
 "/images/2024/39-bg-black-png-krita.png",
 "/images/2024/40-logo-circle-oval-svg-inkscape.svg",
 "/images/2024/41-logo-circle-oval-png-inkscape.png",
+"/images/2024/music-note-icon-inkscape-svg-42.svg",
+"/images/2024/test-42.svg",
 "/images/index.html",
 "/images-page.html",
 "/img/404.png",
@@ -920,7 +921,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.02.13")
+caches.open("v.1.2.2024.02.14")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -941,7 +942,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.02.13")
+caches.open("v.1.2.2024.02.14")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -967,7 +968,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.02.13"];
+  const cachesToKeep = ["v.1.2.2024.02.14"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
