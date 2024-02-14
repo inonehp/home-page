@@ -1,4 +1,4 @@
-// Redirect v.1.7.0
+// Redirect v.1.7.1
 // The script redirects the search query + command to another location.
 
 // conf
@@ -19,9 +19,9 @@ if(qr != null){
 qr = qr.replaceAll(/%/g, "%25");
 qr = decodeURIComponent(qr);
 qr = qr.trim();
-window.location.href = hideFileNameExt(qr);
+window.location.href = fuMHideFileNameExt(qr);
 window.location.href = window.location.href + '#stopRedir';
-//window.location.replace(hideFileNameExt(qr),);
+//window.location.replace(fuMHideFileNameExt(qr),);
 //window.location.replace(window.location.href + '#stopRedir',);
 }else{ qr = ''; }
 
@@ -45,13 +45,13 @@ color = ' orange '
 
 
 /*var rUrlGet = url.searchParams.get("rUrl");
-//hideFileNameExt(); //rmme
-rUrlGet = hideFileNameExt(rUrlGet);*/
+//fuMHideFileNameExt(); //rmme
+rUrlGet = fuMHideFileNameExt(rUrlGet);*/
 
 var rUrlGet = String(window.location);
 rUrlGet = (rUrlGet).split("rUrl=");
 rUrlGet = rUrlGet[1];
-rUrlGet = hideFileNameExt(rUrlGet);
+rUrlGet = fuMHideFileNameExt(rUrlGet);
 var rUrlGetPrint = '';
 
 var random = '';
@@ -692,7 +692,7 @@ sRedirUrl = random;
 
 
 if(sRedirUrl != ''&&sRedirUrl != undefined&&sRedirUrl != null){
-rUrlGet = hideFileNameExt(sRedirUrl);
+rUrlGet = fuMHideFileNameExt(sRedirUrl);
 //window.location.href = "/projects/25-redirects/?rUrl="+sRedirUrl;
 //window.location.replace(/projects/25-redirects/?rUrl="+sRedirUrl,);
 }

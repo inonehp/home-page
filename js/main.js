@@ -1,4 +1,4 @@
-// Main js v.6.3.1
+// Main js v.6.3.2
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -1080,7 +1080,7 @@ fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">Cookie: au
 
 /*
 //fix
-function hideFileNameExt(url){
+function fuMHideFileNameExt(url){
 document.addEventListener("DOMContentLoaded", (event) => {
 return url;
 });
@@ -1089,7 +1089,7 @@ return url;
 */
 
 // Hide page extenstion v.1.0.0
-function hideFileNameExt(url){
+function fuMHideFileNameExt(url){
 var newUrl = url;
 if(conf["confHideLinkExt"] == "on"){
 if(newUrl != null&&newUrl != undefined){
@@ -1107,7 +1107,7 @@ return newUrl;
 
 
 
-function hideFileNameExt2(){
+function fuMHideFileNameExt2(){
 
 if(conf["confHideLinkExt"] == "on"){
 //document.addEventListener("DOMContentLoaded", (event) => {});
@@ -1208,7 +1208,7 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 }
 
 // in embed
-hideFileNameExt2();
+fuMHideFileNameExt2();
 
 
 
@@ -1301,7 +1301,7 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 
 // fix fu hide // + test delme
-//hideFileNameExt2();
+//fuMHideFileNameExt2();
 
 }
 
@@ -1313,5 +1313,5 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 
 // fix fu hide // test delme
-//hideFileNameExt2();
+//fuMHideFileNameExt2();
 

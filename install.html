@@ -124,10 +124,10 @@ install, install website, PWA, WebApp, app, page, main,
 
 
 
-<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install (18,83 MB)</span>
+<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install (18,8 MB)</span>
 <span class="small block padding2">registration sw.js (service worker) and adding files to the cache. (1)</span></button>
 <div id="startInstallStatus" class="post padding2 margin2 borderList"></div>
-<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install (18,83 MB) (2)</button>
+<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install (18,8 MB) (2)</button>
 
 
 
@@ -329,47 +329,6 @@ Generated using a PHP function: website dir to PWA in <a class="blue" href="/oth
 
 
 
-<script>
-// Nav up for main list page
-// fix main nav
-//if(document.getElementById("mNavUp") != null){
-if(document.getElementsByClassName("mClassNavUp")[0] != null){
-let mNavUpCheck = new String(window.location.pathname);
-
-var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
-allMClassNavUp.forEach((item, index) => {
-
-
-if(mNavUpCheck != "/"){
-
-if(mNavUpCheck.indexOf('/lists') == -1&&mNavUpCheck.indexOf('/main-list') == -1){
-//document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
-document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
-
-
-if(mNavUpCheck.indexOf('/main-list') != -1||mNavUpCheck.indexOf('projects') != -1){
-//document.getElementsByClassName("mClassNavUp").href = "../";
-document.getElementsByClassName("mClassNavUp")[index].href = "/lists.html";
-}
-
-}
-
-if(mNavUpCheck.indexOf('/pages') != -1||mNavUpCheck.indexOf('/lists') != -1){
-document.getElementsByClassName("mClassNavUp")[index].href = "/";
-}
-
-
-}else if(mNavUpCheck == "/"){
-document.getElementsByClassName("mClassNavUp")[index].href = "/pages.html";
-}
-
-
-});
-
-}
-</script>
-
-
 
 </div>
 <!-- //content -->
@@ -377,10 +336,9 @@ document.getElementsByClassName("mClassNavUp")[index].href = "/pages.html";
 
 <footer id="footer"></footer>
 
-<span id="embedScript"></span>
 <script src="/js/main.js"></script>
 
-<script src="/js/script.js"></script>
+<script async src="/js/script.js"></script>
 
 <!--
 <script src="/data/adsJsonVar.js"></script>
