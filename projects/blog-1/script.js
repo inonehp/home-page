@@ -954,7 +954,7 @@ print += `
 <div class="wrapper">
 <div class="block tRight">
 <a class="border3 borderRadius2 button light" href="#" onclick="history.back()" title="history back">back</a>
-<a class="border3 borderRadius2 button light" href="?">main</a>
+<a class="border3 borderRadius2 button light" href="?">index</a>
 </div>
 </div>
 `;

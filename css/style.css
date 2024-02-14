@@ -51,8 +51,6 @@ justify-content: left !important;
 align-items: left;
 text-align: left;
 }
-
-
 }
 
 
@@ -163,6 +161,13 @@ font-weight: bold;
 
 /* fix */
 .navTop. .navTop a, .navTop button { font-size: 1em; }
+
+
+@media(max-width: 500px){
+#secondNav nav {
+text-align: left;
+}
+}
 
 
 /* from main.css, replace be by .class on all page and delme */

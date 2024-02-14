@@ -160,7 +160,7 @@ conf["confMenuItems2"] += `<a class="countMenuItem brand inlineBlock padding" hr
 }
 });
 
-conf["confMenuItems2"] += `<a class="mClassNavUp countMenuItem brand inlineBlock padding" href="../" title="../Up">List</a>`;
+conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>`;
 
 
 //CSS version with noscript in noscript.css -->
@@ -1256,8 +1256,6 @@ document.getElementById(embedId).appendChild(script);
 
 // Embed script and run:
 
-fuMEmbedScript("/js/script.js", conf["confIdEmbedScript"]);
-
 if(conf["confIconStatus"] != "off"){
 fuMEmbedScript("/projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
 }
@@ -1284,8 +1282,6 @@ fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAn
 onload = (event) => {
 //document.body.onload = function(){}
 //document.addEventListener("DOMContentLoaded", (event) => {})
-
-fuMRandColor();
 
 if(conf["confIconStatus"] != "off"){
 insertIcon('insertIcon', 'strict');

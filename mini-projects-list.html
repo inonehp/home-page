@@ -65,7 +65,7 @@ HTML, CSS, noscript, projects, list, main, pages,">
 <!-- menu items -->
 <a class="countMenuItem brand inlineBlock padding" href="main-list.html">Main</a> 
 <a class="countMenuItem brand inlineBlock padding" href="lists.html">All</a> 
-<a class="mClassNavUp countMenuItem brand inlineBlock padding" href="../" title="../Up">List</a>
+<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
 <!-- // menu items -->
 
 </div>
@@ -83,7 +83,7 @@ HTML, CSS, noscript, projects, list, main, pages,">
 <!-- menu items dublicate -->
 <a class="countMenuItem brand inlineBlock padding" href="main-list.html">Main</a> 
 <a class="countMenuItem brand inlineBlock padding" href="lists.html">All</a> 
-<a class="mClassNavUp countMenuItem brand inlineBlock padding" href="../" title="../Up">List</a>
+<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
 <!-- // menu items dublicate -->
 
 </div>
@@ -153,11 +153,14 @@ HTML, CSS, noscript, projects, list, main, pages,">
 <!--<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Additional navigation:</div>-->
 <div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Menu lists:</div>
 
-<a class="firstLetterBold insertIcon  post light border3List small" href="main-list.html">
+
+<a class="post firstLetterBold insertIcon  light border3List small" href="main-list.html">
 <div class="inlineBlock"><div class="firstLetterBold op">Main</div></div></a>
-<a class="firstLetterBold insertIcon  post light border3List small" href="projects-list.html">
+
+<a class="post firstLetterBold insertIcon  light border3List small" href="projects-list.html">
 <div class="inlineBlock"><div class="firstLetterBold op">Projects</div></div></a>
-<a class="firstLetterBold insertIcon  active op  post light border3List small" href="mini-projects-list.html">
+
+<a class="post firstLetterBold insertIcon  active op  light border3List small" href="mini-projects-list.html">
 <div class="inlineBlock"><div class="firstLetterBold op">Mini projects</div></div></a>
 
 
@@ -188,17 +191,30 @@ allMClassNavUp.forEach((item, index) => {
 
 
 if(mNavUpCheck != "/"){
+
+if(mNavUpCheck.indexOf('/lists') == -1&&mNavUpCheck.indexOf('/main-list') == -1){
 //document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
 document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
 
-if(mNavUpCheck.indexOf('/main-list') != -1){
+
+if(mNavUpCheck.indexOf('/main-list') != -1||mNavUpCheck.indexOf('projects') != -1){
 //document.getElementsByClassName("mClassNavUp").href = "../";
-document.getElementsByClassName("mClassNavUp")[index].href = "../";
+document.getElementsByClassName("mClassNavUp")[index].href = "/lists.html";
 }
+
 }
+
+if(mNavUpCheck.indexOf('/pages') != -1||mNavUpCheck.indexOf('/lists') != -1){
+document.getElementsByClassName("mClassNavUp")[index].href = "/";
+}
+
+
+}else if(mNavUpCheck == "/"){
+document.getElementsByClassName("mClassNavUp")[index].href = "/pages.html";
+}
+
 
 });
-
 
 }
 </script>

@@ -2,7 +2,7 @@
 
 
 
-
+fuMRandColor();
 
 // Random color generator v.1.0.3
 //if(document.getElementById("siteName") != null){}
