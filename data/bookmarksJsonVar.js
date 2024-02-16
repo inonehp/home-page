@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "106",
+        "text": "Choose an open source license | Choose a License",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/choosealicense.com\/",
+        "tag": "#tools",
+        "time": 1708075639
+    },
+    {
         "id": "105",
         "text": "Quora",
         "text2": "",
