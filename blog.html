@@ -22,28 +22,30 @@
 <!--<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F2">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#3E3E3E">--><!-- generated in main js -->
 
-<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
+<link rel="icon" sizes="512x512" href="./img/logo.png" type="image/png">
+
 
 
 <!-- main -->
-<link rel="preload" href="/js/main.js" as="script">
+<link rel="preload" href="./js/main.js" as="script">
 
-<link rel="preload" href="/css/main.css" as="style">
-<link rel="stylesheet" href="/css/main.css" type="text/css">
-<link rel="preload" href="/css/auto.css" as="style">
-<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
+<link rel="preload" href="./css/main.css" as="style">
+<link rel="stylesheet" href="./css/main.css" type="text/css">
+<link rel="preload" href="./css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="./css/auto.css" id="theme">
 
-<link rel="preload" href="/css/style.css" as="style">
-<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="preload" href="./css/style.css" as="style">
+<link rel="stylesheet" href="./css/style.css" type="text/css">
 
 <noscript>
-<link rel="stylesheet" type="text/css" href="/css/noscript.css">
+<link rel="stylesheet" type="text/css" href="<?=@$confLocalPatchOffline?>css/noscript.css">
 </noscript>
 <!-- end main -->
 
 
-<link rel="preload" href="/data/blogJsonVar.js" as="script"> 
-<link rel="preload" href="/projects/blog-1/script.js" as="script"> 
+
+<link rel="preload" href="./data/blogJsonVar.js" as="script"> 
+<link rel="preload" href="./projects/blog-1/script.js" as="script"> 
 
 </head>
 <body>
@@ -59,7 +61,7 @@
 <nav>
 
 <span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="nav1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="nav1"><img class="logo2 reduceLight" src="./img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <div class="menuTop">
 <!-- menu items -->
@@ -95,7 +97,7 @@
 
 <span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
-<form class="noscriptHide inlineBlock padding"  style="padding-right: 0;" method="GET" action="/search.html" role="search">
+<form class="noscriptHide inlineBlock padding"  style="padding-right: 0;" method="GET" action="./search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -122,7 +124,7 @@
 
 
 
-<script src="/data/blogJsonVar.js"></script>
+<script src="./data/blogJsonVar.js"></script>
 <script>
 if(blogJsonVar == undefined||blogJsonVar == ''){
 var blogJsonVar = 
@@ -564,9 +566,9 @@ var blogJsonVar =
 
 <footer id="footer"></footer>
 
-<script src="/js/main.js"></script>
+<script src="./js/main.js"></script>
 
-<script async src="/js/script.js"></script>
+<script async src="./js/script.js"></script>
 
 <!--
 <script src="/data/adsJsonVar.js"></script>
@@ -594,8 +596,8 @@ let blogConfig = {
 };
 </script>
 
-<script src="/projects/blog-1/script.js" onload="blog('echoBlog', blogJsonVar, ' post ', './blog.html', blogConfig)"></script>
-<script></script>
+<script src="./projects/blog-1/script.js" onload="blog('echoBlog', blogJsonVar, ' post ', './blog.html', blogConfig)"></script>
+
 
 
 
