@@ -1,4 +1,4 @@
-// Blog v.2.8.12
+// Blog v.2.8.14
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
 // JSON data in js varible pre-sorted by time in UNIX format
@@ -253,13 +253,14 @@ var i3 = 0;
 
 var lFoundQUrlList = [];
 
-
+if(q != null){
 if(q[q.length - 1] == 'q'&&q[q.length - 2] == ' '){
 q = q.slice(0, -2);
 q = q.trim();
 q = encodeURIComponent(q);
 window.location.href = "/?q=" + q;
 window.location.href = window.location.href + '#stopRedir'; 
+}
 }
 
 if(tagListStatus == 'on'){
