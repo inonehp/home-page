@@ -2,7 +2,7 @@
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
-#  ∷ Homepage and projects:  
+#  ∷ Home page and projects:  
 🔍 Search (redirect).  
 🛍️ Extension New Tab: any site in each new tab.  
 🎨 Themes for: Geany IDE, and Firefox.  
