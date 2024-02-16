@@ -151,11 +151,16 @@ to { opacity: 1; }
 .borderBottom, .borderBottomGray { border-bottom: 2px solid color-mix(in srgb, var(--gray) 60%, transparent); }
 
 
-.firstLetterBold::first-letter, .firstLetterBold a::first-letter {
+.firstLetterBold::first-letter,
+.firstLetterBold a::first-letter {
 font-weight: bold;
 }
 
 
+.insertIcon svg * {
+fill: var(--c) !important;
+/*stroke: var(--c) !important;*/
+}
 
 /* bg image in main.js */
 
@@ -168,6 +173,7 @@ font-weight: bold;
 text-align: left;
 }
 }
+
 
 
 /* from main.css, replace be by .class on all page and delme */

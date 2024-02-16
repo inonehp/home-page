@@ -659,13 +659,6 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #chill #code #coding #lofi"
     },
     {
-        "text": "Live Capital Chill | 3.0K Favorites | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/Capital-Chill-s323115\/",
-        "tag": "#radio #RadioMusic #chill #code #coding"
-    },
-    {
         "text": "Live CITY23 - Der neue Soundtrack f\u00fcr Wien | 2.1K Favorites | TuneIn",
         "text2": "",
         "text3": "",

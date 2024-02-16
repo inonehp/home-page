@@ -1,4 +1,4 @@
-/* Main style v.12.18.0 */
+/* Main style v.12.18.1 */
 /* Responsive, mainly class-based */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
@@ -24,7 +24,7 @@
 --itemHeight2: 45px;
 --itemHeight3: 50dvh;
 --itemHeight4: 100dvh;
-/*m 500*/
+/*mobile w: 500 (real by stats: 360) */
 }
 
 html, body, a, input, button, textarea, pre, code, select{
@@ -33,7 +33,7 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, A
 
 font-style: normal;
 font-size: 13.4px; font-size: 14px; font-size: 0.96em;
-text-decoration:none;
+text-decoration: none;
 /*testme delme letter-spacing: 0.16px;*/
 /*hyphens: auto;*/
 overflow-wrap: break-word;
@@ -445,6 +445,8 @@ display: none;
 
 /* fix */
 
+del a { text-decoration: line-through; }
+
 /*h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 word-break: break-all;
 }
@@ -506,7 +508,7 @@ input[type=search], select, select option{ -webkit-appearance: none; }
 
 
 
-
+/* other */
 
 .content noscript {
 max-width: var(--wrapper);
@@ -532,7 +534,7 @@ border-bottom: 1px solid var(--d2);
 .reduceLight { filter: brightness(70%); }
 }
 
-
+.reduceLight2 { filter: brightness(70%); }
 
 
 

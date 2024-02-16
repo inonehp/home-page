@@ -51,7 +51,7 @@ moreLight = "brightness(120%);";
 moreLight = "brightness(80%);";
 }
 print += `
-<a href="#lId${i}"><div class="inlineFlex padding xxSmall light border bg3 borderRadius margin" style="
+<a href="#lId${i}"><div class="inlineFlex padding xxSmall light border3 bg3 borderRadius margin1Px" style="
 background-color: color-mix(in srgb, var(${lColor}) ${fuMRandom(0, 100)}%, transparent);
  filter: ${moreLight} ">${i}</div></a>
 `; // comment for fast load

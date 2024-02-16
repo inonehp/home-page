@@ -140,10 +140,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Clean one page website template mini light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/clean-one-page-website-template-mini-light-dark-flat-mini-abc-16\/index.html",
+        "text": "Clean one page mini light dark flat mini abc\n\nWebsite template description. ",
+        "url": "\/templates\/clean-one-page-mini-light-dark-flat-mini-abc-16\/index.html",
         "tag": " #WebDesign #template",
-        "id": "6cad7fcd1d1721efe993f00f32356f35",
+        "id": "6e95832aef58f37e3d7c2016f19c0f30",
         "time": "id"
     },
     {
@@ -165,13 +165,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/count-symbol-39\/index.html",
         "tag": " #symbol #counter #tool #symbol #JavaScript #project",
         "id": "c13ebf133b3b7e9dfe7288b2cc9b457c",
-        "time": "id"
-    },
-    {
-        "text": "Css art\n\nRedirect page, not intended for viewing. ",
-        "url": "\/css-art\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "e87eacd8b36b8383dd3a77f4685a185f",
         "time": "id"
     },
     {
@@ -245,17 +238,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Flex grid\n\nResponsive grid test. ",
-        "url": "\/mini-projects\/flex-grid-32\/index.html",
-        "tag": " #grid #responsive #test #project",
-        "id": "18f4d230982c1f15cec49c9464179853",
-        "time": "id"
-    },
-    {
-        "text": "Flower personal one page website template auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/flower-personal-one-page-website-template-auto-light-dark-flat-mini-abc-17\/index.html",
+        "text": "Flower personal one page auto light dark flat mini abc\n\nWebsite template description. ",
+        "url": "\/templates\/flower-personal-one-page-auto-light-dark-flat-mini-abc-17\/index.html",
         "tag": " #WebDesign #template",
-        "id": "50e182f1747e60af1bcf845b514c8a42",
+        "id": "eda1e5fcf059956abc89b4f72e5e5eec",
         "time": "id"
     },
     {
@@ -322,10 +308,24 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Grid flex\n\nResponsive grid test. ",
+        "url": "\/mini-projects\/grid-flex-32\/index.html",
+        "tag": " #grid #responsive #test #project",
+        "id": "2b746a5ef7395613c95d09ab3f7cdf82",
+        "time": "id"
+    },
+    {
         "text": "Heading\n\nHeading. ",
         "url": "\/mini-projects\/heading-33\/index.html",
         "tag": " #WebDesign",
         "id": "bf61cb376dc833fbf00dd313b95b7167",
+        "time": "id"
+    },
+    {
+        "text": "Hide show on resize\n\nShow hide item when resize using CSS. ",
+        "url": "\/mini-projects\/hide-show-on-resize-35\/index.html",
+        "tag": " #show #hide #resize #HTML #CSS #project",
+        "id": "003d00edd3226d612f4d17a1bad58606",
         "time": "id"
     },
     {
@@ -350,10 +350,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Images\n\nRedirect page, not intended for viewing. ",
-        "url": "\/images\/index.html",
-        "tag": " #Redirect_to_list",
-        "id": "5f4572e3201b244c396049e2b2e218ec",
+        "text": "Icons page\n\nProject: icons for the menu ",
+        "url": "\/icons-page.html",
+        "tag": " #icon #icons #svg #illustration #page #main",
+        "id": "531f520df77a9984d58e4e059bfbc10c",
         "time": "id"
     },
     {
@@ -375,6 +375,13 @@ var sitemapJsonVar = [
         "url": "\/install.html",
         "tag": " #install #install_website #PWA #WebApp #app #page #main",
         "id": "3036dd8f54ff32dc48bf6258269eb20e",
+        "time": "id"
+    },
+    {
+        "text": "Lag test\n\nPage generation test ",
+        "url": "\/projects\/lag-test-47\/index.html",
+        "tag": " #test #lag #test #JavaScript #project",
+        "id": "6b3d0c0efa47d4814fcab6ba9e6c292f",
         "time": "id"
     },
     {
@@ -469,13 +476,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Page lag test\n\nPage generation test ",
-        "url": "\/projects\/page-lag-test-47\/index.html",
-        "tag": " #test #lag #test #JavaScript #project",
-        "id": "63eb9d0453f23abae21014d75548cd56",
-        "time": "id"
-    },
-    {
         "text": "Pages\n\nAll pages. A list of some pages of the site. ",
         "url": "\/pages.html",
         "tag": " #all #pages #list #lists #projects #menu #page #main",
@@ -504,17 +504,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Photo gallery one page website template flat auto light dark abc\n\nWebsite template description. ",
-        "url": "\/templates\/photo-gallery-one-page-website-template-flat-auto-light-dark-abc-18\/index.html",
+        "text": "Photo gallery one page flat auto light dark abc\n\nWebsite template description. ",
+        "url": "\/templates\/photo-gallery-one-page-flat-auto-light-dark-abc-18\/index.html",
         "tag": " #WebDesign #template",
-        "id": "4b3f56a5a1944315919ac63d47e8d140",
-        "time": "id"
-    },
-    {
-        "text": "Photos\n\nRedirect page, not intended for viewing. ",
-        "url": "\/photos\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "974cec699ccbffc05dec7151732271fc",
+        "id": "a422fb1605c14bafd718c5252b73cece",
         "time": "id"
     },
     {
@@ -672,13 +665,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Show hide when resize\n\nShow hide item when resize using CSS. ",
-        "url": "\/mini-projects\/show-hide-when-resize-35\/index.html",
-        "tag": " #show #hide #resize #HTML #CSS #project",
-        "id": "339811951b5c1a260e93e96641608d62",
-        "time": "id"
-    },
-    {
         "text": "Simple\n\nWebsite template description. ",
         "url": "\/templates\/simple-4\/index.html",
         "tag": " #WebDesign #template",
@@ -732,13 +718,6 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/sun-and-moon-css-31\/index.html",
         "tag": " #Sun #moon #HTML #CSS #project",
         "id": "76e8cc1ccb4529fb7d83b68e85ba0ced",
-        "time": "id"
-    },
-    {
-        "text": "Templates\n\nRedirect page, not intended for viewing. ",
-        "url": "\/templates\/index.html",
-        "tag": " #Redirect_to_list",
-        "id": "fb5aa1cd1261d08d02db6f7dc314d9ab",
         "time": "id"
     },
     {
@@ -903,10 +882,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Webdesign one page website template auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/webdesign-one-page-website-template-auto-light-dark-flat-mini-abc-15\/index.html",
+        "text": "Webdesign one page auto light dark flat mini abc\n\nWebsite template description. ",
+        "url": "\/templates\/webdesign-one-page-auto-light-dark-flat-mini-abc-15\/index.html",
         "tag": " #WebDesign #template",
-        "id": "358566229cff3b87d69799c37a1bd309",
+        "id": "8b12e49cf560d5002874163382393651",
         "time": "id"
     },
     {

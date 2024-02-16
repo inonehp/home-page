@@ -382,13 +382,17 @@ fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall"
 }
 
 
-fuMPrintText('footer', `
+fuMPrintText("footer", `
+
+
 
 <div id="style"></div>
 
-<div id="cookiePopup"></div>
-<div id="ads2"></div>
 
+<div id="cookiePopup"></div>
+
+<div class="padding2 margin2"></div>
+<div id="ads2"></div>
 <div class="padding2"></div>
 
 
@@ -1257,6 +1261,7 @@ document.getElementById(embedId).appendChild(script);
 // Embed script and run:
 
 if(conf["confIconStatus"] != "off"){
+fuMEmbedScript("/data/iconsJsonVar.js", conf["confIdEmbedScript"]);
 fuMEmbedScript("/projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
 }
 
@@ -1284,7 +1289,7 @@ onload = (event) => {
 //document.addEventListener("DOMContentLoaded", (event) => {})
 
 if(conf["confIconStatus"] != "off"){
-insertIcon('insertIcon', 'strict');
+insertIcon('insertIcon', 'strict', conf["confIconStatus"], iconsJsonVar);
 }
 
 if(conf["confAdsStatus"] != "off"){
@@ -1301,7 +1306,7 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 
 // fix fu hide // + test delme
-//fuMHideFileNameExt2();
+fuMHideFileNameExt2();
 
 }
 

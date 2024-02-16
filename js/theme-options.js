@@ -1,4 +1,4 @@
-/* v.4.3.0 */
+/* v.4.3.1 */
 // var config in main js
 
 var result = '';
@@ -19,9 +19,9 @@ if(element == 'auto'){ result += '<div class="margin"></div>'; }
 
 
 if(element == theme){
-result += '<div id="'+element+'" class="tehemeListItem highlight borderBottomOrange zero border3List margin2List borderRadius2">'+element+'</div>';
+result += '<div id="'+element+'" class="tehemeListItem highlight borderBottomOrange border3 borderRadius2">'+element+'</div>';
 }else{
-result += '<div id="'+element+'" class="tehemeListItem light2 margin border3List zero borderRadius2">'+element+'</div>';
+result += '<div id="'+element+'" class="tehemeListItem light2 border3 borderRadius2">'+element+'</div>';
 }
 
 });
@@ -57,6 +57,7 @@ padding: 5px 15px;
 cursor: pointer;
 word-break: break-all;
 text-align: left;
+margin: 2px 0;
 }
 
 .tehemeList .tehemeListItem { display: flex; }

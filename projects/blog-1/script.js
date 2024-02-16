@@ -1,4 +1,4 @@
-// Keep v.2.8.10
+// Keep v.2.8.11
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
 // JSON data in js varible pre-sorted by time in UNIX format
@@ -80,7 +80,7 @@ if(bottomMsg == undefined||bottomMsg == ''){ bottomMsg = ''; }
 if(display == undefined||display == ''){ display = 'list'; }
 
 
-if(jsonVar == ''){
+if(jsonVar == undefined||jsonVar == ''){
 var jsonVar = 
 
 
@@ -100,6 +100,31 @@ var jsonVar =
         "time": 1668444918
     }
 ];
+
+}
+
+
+if(typeof conf == 'object'){
+
+confDataCollection = conf["confDataCollection"];
+if(confDataCollection == undefined||confDataCollection == null){ confDataCollection = "off"; }
+confIconStatus = conf["confIconStatus"];
+if(confIconStatus == undefined||confIconStatus == null){ confIconStatus = "off"; }
+confThemeEmbed = conf["confThemeEmbed"];
+if(confThemeEmbed == undefined||confThemeEmbed == null){ confThemeEmbed = "light"; }
+confSymbolForSplit =  conf["confSymbolForSplit"];
+if(confSymbolForSplit == undefined||confSymbolForSplit == null){ confSymbolForSplit = "JLJKLKJLKJLKJ"; }
+
+}else{
+
+var confDataCollection = "off";
+var confIconStatus = "off";
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+var confThemeEmbed = 'dark';
+}else{
+var confThemeEmbed = 'light';
+}
+var confSymbolForSplit = "JLJKLKJLKJLKJ";
 
 }
 
@@ -357,8 +382,8 @@ if(qSearch[0] == '#'){
 qData2 = qData.replaceAll(/,/g, ' ');
 if((qData2+' ').indexOf((qSearch + ' ')) >= 0){
 subQListFound.push(qSearch);
-var subQforLight = qSearch + conf["confSymbolForSplit"];
-subQforLight = subQforLight.replaceAll(' ',  conf["confSymbolForSplit"]);
+var subQforLight = qSearch + confSymbolForSplit;
+subQforLight = subQforLight.replaceAll(' ',  confSymbolForSplit);
 
 
 // lucky search if last word " l".
@@ -403,8 +428,8 @@ lFoundQUrlList.push(postUrl);
 }else if(qData.indexOf(String(qSearch)) != -1||qData.indexOf(String(qSearch23)) != -1){
 if(qData.indexOf(String(qSearch23)) != -1){ qSearch = qSearch23; }
 subQListFound.push(qSearch);
-var subQforLight = qSearch + conf["confSymbolForSplit"];
-subQforLight = subQforLight.replaceAll(' ',  conf["confSymbolForSplit"]);
+var subQforLight = qSearch + confSymbolForSplit;
+subQforLight = subQforLight.replaceAll(' ',  confSymbolForSplit);
 
 // lucky search if last word " l".
 if(q2 == 'l'){
@@ -545,7 +570,7 @@ i++;
 
 
 // collect all tag
-printTagList += postTag + conf["confSymbolForSplit"];
+printTagList += postTag + confSymbolForSplit;
 
 });
 
@@ -607,7 +632,7 @@ for (const item3344 of qSearch) {
 //if((qData.split(item)).length > 1&&item334 != ''){
 if((qData.indexOf(item3344)) >= 0&&item3344 != ''){
 subQListFound.push(item3344);
-var subQforLight = item3344 + conf["confSymbolForSplit"];
+var subQforLight = item3344 + confSymbolForSplit;
 
 // lucky search if last word " l".
 if(q2 == 'l'){
@@ -742,7 +767,7 @@ window.location.href = window.location.href+'#stopRedir';
 
 if(getP3 <= i){
 if(i3 <= postLimit - 1){
-subQforLight = subQ.join(conf["confSymbolForSplit"]);
+subQforLight = subQ.join(confSymbolForSplit);
 printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
@@ -847,7 +872,7 @@ window.location.href = window.location.href+'#stopRedir';
 
 if(getP3 <= i){
 if(i3 <= postLimit - 1){
-subQforLight = subQ.join(conf["confSymbolForSplit"]);
+subQforLight = subQ.join(confSymbolForSplit);
 printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
@@ -1049,16 +1074,16 @@ let size = '';
 tagList = '';
 
 /*tagList2 = tagList2.toLowerCase();
-conf["confSymbolForSplit"] = conf["confSymbolForSplit"].toLowerCase();*/
+confSymbolForSplit = confSymbolForSplit.toLowerCase();*/
 
 tagList2 = tagList2.replaceAll(/(?:\r\n|\r|\n)/g, ' ');
-tagList2 = tagList2.replaceAll(/,/g, conf["confSymbolForSplit"]);
-tagList2 = tagList2.replaceAll(/ /g, conf["confSymbolForSplit"]);
+tagList2 = tagList2.replaceAll(/,/g, confSymbolForSplit);
+tagList2 = tagList2.replaceAll(/ /g, confSymbolForSplit);
 tagList2 = tagList2.replaceAll('·', '');
 tagList2 = tagList2.replaceAll('.', ' ');
 
-tagList2 = ''+tagList2+''.replaceAll(',', conf["confSymbolForSplit"]);
-tagList2 = ''+tagList2+''.replaceAll(' ', conf["confSymbolForSplit"]);
+tagList2 = ''+tagList2+''.replaceAll(',', confSymbolForSplit);
+tagList2 = ''+tagList2+''.replaceAll(' ', confSymbolForSplit);
 
 
 
@@ -1066,7 +1091,7 @@ tagList2 = ''+tagList2+''.replaceAll(' ', conf["confSymbolForSplit"]);
 
 
 
-tagList2 = tagList2.split(conf["confSymbolForSplit"]);
+tagList2 = tagList2.split(confSymbolForSplit);
 
 /*
 //https://stackoverflow.com/questions/8996963/how-to-perform-case-insensitive-sorting-array-of-string-in-javascript
@@ -1412,12 +1437,12 @@ let forSplit = [
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
 if(item == item2){
-item = conf["confSymbolForSplit"] + item + conf["confSymbolForSplit"];
+item = confSymbolForSplit + item + confSymbolForSplit;
 }
 });
 text2 += item;
 });
-text2 = text2.replaceAll("http", conf["confSymbolForSplit"] + "http");
+text2 = text2.replaceAll("http", confSymbolForSplit + "http");
 
 //return text = text.toString();
 //return text = text.join("");
@@ -1426,7 +1451,7 @@ text2 = text2.replaceAll("http", conf["confSymbolForSplit"] + "http");
 //text = [...text];
 
 text = '';
-const myArray = text2.split(conf["confSymbolForSplit"]);
+const myArray = text2.split(confSymbolForSplit);
 myArray.forEach((item) => {
 //text += item.hostname;
 //if(item.search("http") != -1){ 
@@ -1490,14 +1515,14 @@ case "x.com":
 case "mobile.x.com":
 case "twitter.com":
 case "mobile.twitter.com":
-embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${conf["confThemeEmbed"]}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
+embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
 embedServiceList += 'xcom';
 break;
 
 case "www.reddit.com":
 if(item.split('/').length >= 9){
 play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
-embed = `<iframe style="border-radius: 0 !important;" id="reddit-embed" src="${play}?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=${conf["confThemeEmbed"]}" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="yes" width="640" height="320px"></iframe>`;
+embed = `<iframe style="border-radius: 0 !important;" id="reddit-embed" src="${play}?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=${confThemeEmbed}" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="yes" width="640" height="320px"></iframe>`;
 }
 embedServiceList += 'reddit';
 break;
@@ -1511,14 +1536,14 @@ play = item.split('/');
 play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
-embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=false&background=${conf["confThemeEmbed"]}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><!-- ban if many by Clouflare -->`;
+embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=false&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>--><!-- ban if many by Clouflare -->`;
 embedServiceList += 'tunein';
 break;
 
 case "codepen.io":
 play = item.split('/');
 play = play[play.length - 1];
-embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${conf["confThemeEmbed"]}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
+embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${confThemeEmbed}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
 embedServiceList += 'codepen';
 break;
 
@@ -1585,17 +1610,17 @@ play = item.split('/');
 
 if(play[play.length - 2] == 'album') {
 play2 = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${conf["confThemeEmbed"]}/album/${play2}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/album/${play2}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 
 if(play[play.length - 2] == 'track') {
 play2 = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${conf["confThemeEmbed"]}/track/${play2}" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/track/${play2}" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 
 if(play[play.length - 2] == 'artist') {
 play2 = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${conf["confThemeEmbed"]}/artist/${play2}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play2}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 embedServiceList += 'deezer';
 break;
@@ -1684,38 +1709,38 @@ embed = `<a href="${item}"><img class="border" src="${item}" width=""></a>`
 
 if(embedStatus != 'off'){
 //https://stackoverflow.com/questions/2390789/how-to-replace-all-dots-in-a-string-using-javascript
-itemCheck = item.replaceAll(/\./g, conf["confSymbolForSplit"]);
+itemCheck = item.replaceAll(/\./g, confSymbolForSplit);
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}mp4|${conf["confSymbolForSplit"]}webm|${conf["confSymbolForSplit"]}avi`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}mp4|${confSymbolForSplit}webm|${confSymbolForSplit}avi`) != -1&&itemCheck.search('/') != -1) {
 embed2 = `<video height="${h}" controls style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}mp3|${conf["confSymbolForSplit"]}m3u`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}mp3|${confSymbolForSplit}m3u`) != -1&&itemCheck.search('/') != -1) {
 embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/mp3">Your browser does not support the audio element.</audio>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}ogg`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}ogg`) != -1&&itemCheck.search('/') != -1) {
 embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg">Your browser does not support the audio element.</audio>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}wav`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}wav`) != -1&&itemCheck.search('/') != -1) {
 
 embed2 = `<audio controls style="width:100%; opacity:0.8"><source src="${item}" type="audio/wav">Your browser does not support the audio element.</audio>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}mpd`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}mpd`) != -1&&itemCheck.search('/') != -1) {
 embed2 = `<video data-dashjs-player src="${play}" controls>player: <a href="https://github.com/Dash-Industry-Forum/dash.js">dash.js</a>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 embedServiceList += 'mpd';
 }
 
 if(itemCheck.search(
-`${conf["confSymbolForSplit"]}jpg|${conf["confSymbolForSplit"]}svg|${conf["confSymbolForSplit"]}jpeg|${conf["confSymbolForSplit"]}png|${conf["confSymbolForSplit"]}gif|${conf["confSymbolForSplit"]}img|${conf["confSymbolForSplit"]}ico`) != -1&&itemCheck.search('/') != -1&&itemCheck.search('/') != -1) {
+`${confSymbolForSplit}jpg|${confSymbolForSplit}svg|${confSymbolForSplit}jpeg|${confSymbolForSplit}png|${confSymbolForSplit}gif|${confSymbolForSplit}img|${confSymbolForSplit}ico`) != -1&&itemCheck.search('/') != -1&&itemCheck.search('/') != -1) {
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="img" src="${item}" alt="img"></a>`;
@@ -1749,9 +1774,9 @@ var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 ico = `<span class="ico2 op"><img src="${ico}" alt="icon"></span>`;
-if(conf['confDataCollection'] != 'on'){
+if(confDataCollection != 'on'){
 ico = '🔗';
-if(conf['confIconStatus'] != 'on'){ ico = '·'; }
+if(confIconStatus != 'on'){ ico = '·'; }
 }
 
 item = item.trim();
@@ -1809,7 +1834,7 @@ if((item.toLowerCase()).indexOf((element.toLowerCase())) >= 0){ item = `<span st
 
 var countHl = 0;
 if(subQforLight != ''&&subQforLight != null&&subQforLight != undefined){
-var q3388 = String(subQforLight).split(conf["confSymbolForSplit"]);
+var q3388 = String(subQforLight).split(confSymbolForSplit);
 q3388.forEach((element3333) => {
 element3333 = (element3333.trim()).toLowerCase();
 if(element3333.trim() != ''&&item.trim() != ''){
@@ -1902,12 +1927,12 @@ let forSplit = [
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
 if(item == item2){
-item = conf["confSymbolForSplit"] + item + conf["confSymbolForSplit"];
+item = confSymbolForSplit + item + confSymbolForSplit;
 }
 });
 text2 += item;
 });
-text2 = text2.replaceAll("http", conf["confSymbolForSplit"] + "http");
+text2 = text2.replaceAll("http", confSymbolForSplit + "http");
 
 //return text = text.toString();
 //return text = text.join("");
@@ -1916,7 +1941,7 @@ text2 = text2.replaceAll("http", conf["confSymbolForSplit"] + "http");
 //text = [...text];
 
 text = '';
-const myArray = text2.split(conf["confSymbolForSplit"]);
+const myArray = text2.split(confSymbolForSplit);
 myArray.forEach((item) => {
 //text += item.hostname;
 //if(item.search("http") != -1){ 
@@ -1976,14 +2001,14 @@ case "x.com":
 case "mobile.x.com":
 case "twitter.com":
 case "mobile.twitter.com":
-embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${conf["confThemeEmbed"]}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
+embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
 embedServiceList += 'xcom';
 break;
 
 case "www.reddit.com":
 if(item.split('/').length >= 9){
 play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
-embed = `<iframe style="border-radius: 0 !important;" id="reddit-embed" src="${play}?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=${conf["confThemeEmbed"]}" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="yes" width="640" height="320px"></iframe>`;
+embed = `<iframe style="border-radius: 0 !important;" id="reddit-embed" src="${play}?ref_source=embed&amp;ref=share&amp;embed=true&amp;theme=${confThemeEmbed}" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="yes" width="640" height="320px"></iframe>`;
 embedServiceList += 'reddit';
 }
 break;
@@ -1999,7 +2024,7 @@ play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
 if(confDevice == 'mobile'){
-embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${conf["confThemeEmbed"]}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
+embed = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${confThemeEmbed}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
 }else{
 embed = `<iframe width="${w}" height="300" src="${item}"></iframe>`;
 }
@@ -2009,7 +2034,7 @@ break;
 case "codepen.io":
 play = item.split('/');
 play = play[play.length - 1];
-embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${conf["confThemeEmbed"]}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
+embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${confThemeEmbed}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
 embedServiceList += 'codepen';
 break;
 
@@ -2076,17 +2101,17 @@ play = item.split('/');
 
 if(play[play.length - 2] == 'album') {
 play2 = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${conf["confThemeEmbed"]}/album/${play2}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/album/${play2}" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 
 if(play[play.length - 2] == 'track') {
 play2 = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${conf["confThemeEmbed"]}/track/${play2}" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/track/${play2}" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 
 if(play[play.length - 2] == 'artist') {
 play2 = play[play.length - 1];
-embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${conf["confThemeEmbed"]}/artist/${play2}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
+embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${confThemeEmbed}/artist/${play2}/top_tracks" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>`;
 }
 embedServiceList += 'deezer';
 break;
@@ -2176,20 +2201,20 @@ if(embedStatus != 'off'){
 
 
 
-itemCheck = item.replaceAll(/\./g, conf["confSymbolForSplit"]);
+itemCheck = item.replaceAll(/\./g, confSymbolForSplit);
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}mp4|${conf["confSymbolForSplit"]}webm|${conf["confSymbolForSplit"]}avi`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}mp4|${confSymbolForSplit}webm|${confSymbolForSplit}avi`) != -1&&itemCheck.search('/') != -1) {
 embed2 = `<video height="${h}" controls autoplay style="width:100%"><source src="${item}" type="video/mp4">
 <source src="${item}" type="video/ogg">Your browser does not support HTML5 video.</video>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}m3u8`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}m3u8`) != -1&&itemCheck.search('/') != -1) {
 embed2 = `<iframe src="https://www.hlsplayer.org/play?url=${item}" style="width: 100%; height: ${h};" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>player: <a href="https://www.hlsplayer.org/">www.hlsplayer.org</a>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}mpd`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}mpd`) != -1&&itemCheck.search('/') != -1) {
 embed2 = `<video data-dashjs-player autoplay src="${play}" controls>player: <a href="https://github.com/Dash-Industry-Forum/dash.js">dash.js</a>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 embedServiceList += 'mpd';
@@ -2197,24 +2222,24 @@ embedServiceList += 'mpd';
 
 
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}mp3|${conf["confSymbolForSplit"]}m3u`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}mp3|${confSymbolForSplit}m3u`) != -1&&itemCheck.search('/') != -1) {
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/mp3">Your browser does not support the audio element.</audio>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}ogg`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}ogg`) != -1&&itemCheck.search('/') != -1) {
 checkText = false;
 
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/ogg">Your browser does not support the audio element.</audio>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}wav`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}wav`) != -1&&itemCheck.search('/') != -1) {
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${item}" type="audio/wav">Your browser does not support the audio element.</audio>`;
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }
 
-if(itemCheck.search(`${conf["confSymbolForSplit"]}svg|${conf["confSymbolForSplit"]}jpg|${conf["confSymbolForSplit"]}jpeg|${conf["confSymbolForSplit"]}png|${conf["confSymbolForSplit"]}gif|${conf["confSymbolForSplit"]}img|${conf["confSymbolForSplit"]}ico`) != -1&&itemCheck.search('/') != -1) {
+if(itemCheck.search(`${confSymbolForSplit}svg|${confSymbolForSplit}jpg|${confSymbolForSplit}jpeg|${confSymbolForSplit}png|${confSymbolForSplit}gif|${confSymbolForSplit}img|${confSymbolForSplit}ico`) != -1&&itemCheck.search('/') != -1) {
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="img" src="${item}" alt="img"></a>`;
@@ -2245,9 +2270,9 @@ var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 ico = `<span class="ico2 op"><img src="${ico}" alt="icon"></span>`;
-if(conf['confDataCollection'] != 'on'){
+if(confDataCollection != 'on'){
 ico = `🔗`;
-if(conf['confIconStatus'] != 'on'){ ico = '·'; }
+if(confIconStatus != 'on'){ ico = '·'; }
 }
 
 item = item.trim();
@@ -2734,13 +2759,7 @@ return text;
 // if main index js not exit
 if (typeof lang === 'undefined') { var lang = 'en'; }
 
-if (typeof conf["confThemeEmbed"] === 'undefined') {
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-conf["confThemeEmbed"] = 'dark';
-}else{
-conf["confThemeEmbed"] = 'light';
-}
-}
+
 
 if (typeof confDevice === 'undefined') {
 var confDevice = '';

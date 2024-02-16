@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Redirect to list</title>
+<title>Show hide when resize using CSS</title>
 
 <meta name="description" content="
-Redirect page, not intended for viewing.
+Show hide item when resize using CSS.
 ">
 <meta name="keywords" content="
-Redirect to list,
+show,hide,resize,HTML,CSS,project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +31,8 @@ Redirect to list,
 </noscript>
 <!-- end main -->
 
-
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
 <body>
@@ -40,32 +41,46 @@ Redirect to list,
 <div class="margin2"></div>
 <nav>
 <a class="inlineBlock padding" style="padding-left: 0;" href="/">index</a>
-<a class="inlineBlock padding" style="padding-right: 0;" href="/images-page.html">list</a>
+<a class="inlineBlock padding" style="padding-right: 0;" href="../">list</a>
 </nav>
 </header>
 
+<h1 class="tCenter op">Show hide when resize using CSS</h1>
+<!--<div class="tCenter padding2 small op">in progress</div>-->
 
-<main class="content">
+<!-- content -->
+<main class="contentCenter">
 
-<!--<h1 class="op tCenter">Redirect to list</h1>-->
 
-<script>
-window.location.href = "/projects/25-redirects/?qr=/images-page.html";
-window.location.href = window.location.href + '#stopRedir'; 
-</script>
 
-<noscript>
-<a href="/images-page.html">list</a>
-</noscript>
+
+<div class="wrapper">
+
+
+<div class="showDesktopBlock">
+<h1 class="blue tCenter">Desktop width > 500px</h1>
+</div>
+
+<div class="showMobileBlock">
+<h1 class="green tCenter">Mobile width < 500px</h1>
+</div>
+
+
+ 
+</div>
+
 
 </main>
+<!-- // content -->
 
 
-<!--
 <footer id="footer"></footer>
 
 <script src="/js/main.js"></script>
--->
+
+<script>
+//fuMSetTheme('light');
+</script>
 
 </body>
 </html>

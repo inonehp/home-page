@@ -1,16 +1,56 @@
-// Fu insert icon v.3.0.0
+// Fu insert icon v.4.0.0
 // Function for insert icon in links using class name.
 
 
-function insertIcon(classNameForInsert, mode){
 
-if(conf["confIconStatus"] == null){ conf["confIconStatus"] = 'off'; }
+function insertIcon(classNameForInsert, mode, status, jsonVar){
 
-if(conf["confIconStatus"] == "random"){
-if(fuMRandom(0, 1) == 1){ conf["confIconStatus"] = "on"; }
+
+if(typeof conf == 'object'){
+confDataCollection = conf["confDataCollection"];
+if(confDataCollection == undefined||confDataCollection == null){
+confDataCollection = "off";
+}
+}else{
+confDataCollection = "off";
 }
 
-if(conf["confIconStatus"] == "on"){
+if(classNameForInsert == undefined){ classNameForInsert = 'insertIcon'; }
+if(mode == undefined){ mode = ''; }
+if(status == undefined){ status = 'off'; }
+if(jsonVar == undefined){ jsonVar = []; }
+
+function fuMGetSvgIcon(iconName, jsonVar){
+
+var icon = '';
+jsonVar.forEach((val) => {
+
+if(val.t == iconName){
+icon = val.t2;
+}
+});
+return icon;
+}
+//console.table(fuMGetSvgIcon("test", jsonVar));
+
+
+
+
+/*jsonVar.forEach((item33, index33) => {
+alert(item33["dots"]);
+});*/
+
+
+
+if(status == "random"){
+if(fuMRandom(0, 1) == 1){ status = "on"; }
+}
+
+if(status == "on"){
+
+
+
+
 
 
 
@@ -18,301 +58,303 @@ if(conf["confIconStatus"] == "on"){
 if(mode != 'strict'){ mode = ''; }
 
 let icons = [
-{"text":"arch", "text2":`<span class="bold">△</span>`},
-{"text":"beacons", "text2":"°.・"},
-{"text":"bitcoin", "text2":`<span class="orange">₿</span>`},
-{"text":"bluesky", "text2":"🟦"},
-{"text":"bento", "text2":"🟦"},
-{"text":"blogspot", "text2":"🅱"},
-{"text":"dev.to", "text2":"⬛"},
-{"text":"about.me", "text2":"⬛"},
-{"text":"twitter", "text2":`<span class="bold">𝕏</span>`},
-{"text":"x.com", "text2":`<span class="small bold">𝕏</span>`},
-{"text":"twitch", "text2":"🔴"},
-{"text":"docs", "text2":"📄"},
-{"text":"geany", "text2":"🫖"},
-{"text":"blender", "text2":"✏️"},
-{"text":"framer", "text2":"//"},
-{"text":"facebook", "text2":"🇫"},
-{"text":"cloudflare pages", "text2":"⚡"},
-{"text":"behance", "text2":"🎨"},
-{"text":"dribbble", "text2":"🎨"},
-{"text":"codepen", "text2":"📜"},
-{"text":"github", "text2":"🐱"},
-{"text":"neocities", "text2":"🐱"},
-{"text":"gitlab", "text2":"📜"},
-{"text":"hashnode", "text2":`🟦`},
-{"text":"codepen", "text2":"📜"},
-{"text":"friendica", "text2":"🇫"},
-{"text":"firefox", "text2":"🦊"},
-{"text":"liberapay", "text2":`<em class="bold">lp</em>`},
-{"text":"lightning", "text2":"⚡"},
-{"text":"getalby", "text2":"⚡"},
-{"text":"linkedin", "text2":`<b class="blue lowercase">in</b>`},
-{"text":"limey", "text2":"🥝"},
-{"text":"linux", "text2":"🐧"},
-{"text":"linktr", "text2":`<span class="bold green">✳</span>`},
-{"text":"linktree", "text2":`<span class="bold green">✳</span>`},
-{"text":"pocket", "text2":"📰"},
-{"text":"medium", "text2":"📰"},
-{"text":"producthunt", "text2":`<span class="bold orange">P</span>`},
-{"text":"figma", "text2":`<span class="bold orange">F</span>`},
-{"text":"pxlmo", "text2":"🖼"},
-{"text":"sites", "text2":"📄"},
-{"text":"substack", "text2":"🔖"},
-{"text":"slashdot", "text2":`<span class="bold">/.</span>`},
-{"text":"nostr", "text2":"🦩"},
-{"text":"tumblr", "text2":`<span class="bold">Ⓣ</span>`},
-{"text":"onedrive", "text2":"☁️"},
-{"text":"deviantart", "text2":"🖼"},
-{"text":"pinterest", "text2":"🖼"},
-{"text":"threads", "text2":"@"},
-{"text":"instagram", "text2":"📸"},
-{"text":"wordpress", "text2":"🅦"},
-{"text":"youtube", "text2":"▶️"},
-{"text":"wix", "text2":`<span class="bold">W</span>`},
-{"text":"webflow", "text2":`<span class="bold em">W</span>`}
+{"t":"arch", "t2":`<span class="bold">△</span>`, "t3":"arch"},
+{"t":"beacons", "t2":"°.・"},
+{"t":"bitcoin", "t2":`<span class="orange">₿</span>`},
+{"t":"bluesky", "t2":"🟦"},
+{"t":"bento", "t2":"🟦"},
+{"t":"blogspot", "t2":"🅱"},
+{"t":"dev.to", "t2":"⬛"},
+{"t":"about.me", "t2":"⬛"},
+{"t":"twitter", "t2":`<span class="bold">𝕏</span>`},
+{"t":"x.com", "t2":`<span class="small bold">𝕏</span>`},
+{"t":"twitch", "t2":"🔴"},
+{"t":"docs", "t2":"📄"},
+{"t":"geany", "t2":"🫖"},
+{"t":"blender", "t2":"✏️"},
+{"t":"framer", "t2":"//"},
+{"t":"facebook", "t2":"🇫"},
+{"t":"cloudflare", "t2":"⚡"},
+{"t":"behance", "t2":"🎨"},
+{"t":"dribbble", "t2":"🎨"},
+{"t":"codepen", "t2":"📜"},
+{"t":"github", "t2":"🐱"},
+{"t":"neocities", "t2":"🐱"},
+{"t":"gitlab", "t2":"📜"},
+{"t":"hashnode", "t2":`🟦`},
+{"t":"codepen", "t2":"📜"},
+{"t":"friendica", "t2":"🇫"},
+{"t":"firefox", "t2":"🦊"},
+{"t":"liberapay", "t2":`<em class="bold">lp</em>`},
+{"t":"lightning", "t2":"⚡"},
+{"t":"getalby", "t2":"⚡"},
+{"t":"linkedin", "t2":`<b class="blue lowercase">in</b>`},
+{"t":"limey", "t2":"🥝"},
+{"t":"linux", "t2":"🐧"},
+{"t":"linktr", "t2":`<span class="bold green">✳</span>`},
+{"t":"linktree", "t2":`<span class="bold green">✳</span>`},
+{"t":"pocket", "t2":"📰"},
+{"t":"medium", "t2":"📰"},
+{"t":"producthunt", "t2":`<span class="bold orange">P</span>`},
+{"t":"figma", "t2":`<span class="bold orange">F</span>`},
+{"t":"pxlmo", "t2":"🖼"},
+{"t":"sites", "t2":"📄"},
+{"t":"substack", "t2":"🔖"},
+{"t":"slashdot", "t2":`<span class="bold">/.</span>`},
+{"t":"nostr", "t2":"🦩"},
+{"t":"tumblr", "t2":`<span class="bold">Ⓣ</span>`},
+{"t":"onedrive", "t2":"☁️"},
+{"t":"deviantart", "t2":"🖼"},
+{"t":"pinterest", "t2":"🖼"},
+{"t":"threads", "t2":"@"},
+{"t":"instagram", "t2":"📸"},
+{"t":"wordpress", "t2":"🅦"},
+{"t":"youtube", "t2":"▶️"},
+{"t":"wix", "t2":`<span class="bold">W</span>`},
+{"t":"webflow", "t2":`<span class="bold em">W</span>`}
 ];
 
 let icons2 = [
-{"text":"angle", "text2":"◀"},
-{"text":"angled", "text2":"◀"},
-{"text":"angel", "text2":"😇"},
-{"text":"angle", "text2":"🔺"},
-{"text":"antilope", "text2":"🦌"},
-{"text":"gnu", "text2":"🦌"},
-{"text":"archive", "text2":"🗃️"},
-{"text":"zip", "text2":"🗃️"},
-{"text":"balloon", "text2":"🎈"},
-{"text":"button", "text2":"▬"},
-{"text":"bird", "text2":"🐦"},
-{"text":"binary", "text2":"010"},
-{"text":"number", "text2":"010"},
-{"text":"blog", "text2":"📝"},
-{"text":"todo", "text2":"📝"},
-{"text":"task", "text2":"📝"},
-{"text":"note", "text2":"📝"},
-{"text":"reminde", "text2":"📝"},
-{"text":"paper", "text2":"📝"},
-{"text":"article", "text2":"📝"},
-{"text":"book", "text2":"📚"},
-{"text":"quiz", "text2":"📚"},
-{"text":"box", "text2":"📦"},
-{"text":"bookmark", "text2":"🔖"},
-{"text":"brain", "text2":"🧠"},
-{"text":"memory", "text2":"🧠"},
-{"text":"calculator", "text2":"🧮"},
-{"text":"abacus", "text2":"🧮"},
-{"text":"count", "text2":"🧮"},
-{"text":"circle", "text2":"⭕"},
-{"text":"round", "text2":"⭕"},
-{"text":"cloud", "text2":"☁️"},
-{"text":"contact", "text2":"💬"},
-{"text":"cookie", "text2":"🍪"},
-{"text":"cut", "text2":"✂️"},
-{"text":"clock", "text2":"🕑"},
-{"text":"cofee", "text2":"☕"},
-{"text":"coffee", "text2":"☕"},
-{"text":"copyright", "text2":"©"},
-{"text":"comment", "text2":"💬"},
-{"text":"talk", "text2":"💬"},
-{"text":"chat", "text2":"💬"},
-{"text":"unicorn", "text2":"🦄"},
-{"text":"db", "text2":"💾"},
-{"text":"data", "text2":"💾"},
-{"text":"database", "text2":"💾"},
-{"text":"keep", "text2":"💾"},
-{"text":"save", "text2":"💾"},
-{"text":"download", "text2":"⬇️"},
-{"text":"dir", "text2":"📁️"},
-{"text":"developer", "text2":"💻"},
-{"text":"document", "text2":"📄"},
-{"text":"page", "text2":"📄"},
-{"text":"pages", "text2":"📄"},
-{"text":"draw", "text2":"✏️"},
-{"text":"drawing", "text2":"✏️"},
-{"text":"paint", "text2":"✏️"},
-{"text":"painting", "text2":"✏️"},
-{"text":"art", "text2":"🎨"},
-{"text":"earth", "text2":"🌍"},
-{"text":"embed", "text2":"▣"},
-{"text":"flash", "text2":"⚡"},
-{"text":"fact", "text2":"⚡"},
-{"text":"file", "text2":"🗃️"},
-{"text":"game", "text2":"🎮"},
-{"text":"mmorpg", "text2":"🎮"},
-{"text":"idea", "text2":"💡"},
-{"text":"fire", "text2":"🔥"},
-{"text":"teapot", "text2":"🫖"},
-{"text":"teacup", "text2":"🍵"},
-{"text":"translit", "text2":"⇄"},
-{"text":"convert", "text2":"⇄"},
-{"text":"fox", "text2":"🦊"},
-{"text":"hello", "text2":"👋"},
-{"text":"info", "text2":"ℹ️"},
-{"text":"faq", "text2":"ℹ️"},
-{"text":"about", "text2":"ℹ️"},
-{"text":"insert", "text2":"📋"},
-{"text":"paste", "text2":"📋"},
-{"text":"joystick", "text2":"🕹"},
-{"text":"keyboard", "text2":"⌨️"},
-{"text":"typing", "text2":"⌨️"},
-{"text":"input", "text2":"⌨️"},
-{"text":"mark", "text2":"✔️"},
-{"text":"check", "text2":"✅"},
-{"text":"label", "text2":"🏷️"},
-{"text":"tag", "text2":"🏷️"},
-{"text":"laptop", "text2":"💻"},
-{"text":"notebook", "text2":"💻"},
-{"text":"learning", "text2":"🌱"},
-{"text":"learn", "text2":"🌱"},
-{"text":"live", "text2":"🔴"},
-{"text":"online", "text2":"🔴"},
-{"text":"broadcast", "text2":"🔴"},
-{"text":"like", "text2":"👍"},
-{"text":"interests", "text2":"👍"},
-{"text":"love", "text2":"❤"},
-{"text":"fav", "text2":"❤"},
-{"text":"magazine", "text2":"📰"},
-{"text":"map", "text2":"📍"},
-{"text":"sitemap", "text2":"📍"},
-{"text":"mammoth ", "text2":"🦣"},
-{"text":"mastodon", "text2":"🦣"},
-{"text":"mail", "text2":"📧"},
-{"text":"email", "text2":"📧"},
-{"text":"@", "text2":"📧"},
-{"text":"message", "text2":"💬"},
-{"text":"status", "text2":"💬"},
-{"text":"matrix", "text2":"💊"},
-{"text":"menu", "text2":"☰"},
-{"text":"movie", "text2":"🎥"},
-{"text":"money", "text2":"💲"},
-{"text":"wallet", "text2":"💲"},
-{"text":"payment", "text2":"💲"},
-{"text":"music", "text2": "🎶"},
-{"text":"network", "text2":"📶"},
-{"text":"new", "text2":"🆕"},
-{"text":"news", "text2":"📰"},
-{"text":"pumpkin", "text2":"🎃"},
-{"text":"halloween", "text2":"🎃"},
-{"text":"pc", "text2":"🖥"},
-{"text":"desktop", "text2":"🖥"},
-{"text":"computer", "text2":"🖥"},
-{"text":"photo", "text2":"📷"},
-{"text":"camera", "text2":"📷"},
-{"text":"screenshot", "text2":"📷"},
-//{"text":"project", "text2":"❖"}, {"text":"projects", "text2":"❖"},
-{"text":"project", "text2":"∷"},
-{"text":"main", "text2":"∷"},
-{"text":"tpl", "text2":"📄"},
-{"text":"template", "text2":"📄"},
-{"text":"templates", "text2":"📄"},
-{"text":"iframe", "text2":"📄"},
-{"text":"radio", "text2":"📻"},
-{"text":"random", "text2":"🎲"},
-{"text":"dice", "text2":"🎲"},
-{"text":"robot", "text2":"🤖"},
-{"text":"auto", "text2":"🤖"},
-{"text":"share", "text2":"🔁"},
-{"text":"script", "text2":"📜"},
-{"text":"JavaScript", "text2":"📜"},
-{"text":"text2","text2":"📜"},
-{"text":"code", "text2":"📜"},
-{"text":"coding", "text2":"📜"},
-{"text":"history", "text2":"📜"},
-{"text":"search", "text2": "🔎"},
-{"text":"sleep", "text2":"😴💤"},
-{"text":"bed", "text2":"🛏"},
-{"text":"store", "text2":"🛍️"},
-{"text":"shop", "text2":"🛍️"},
-{"text":"extension", "text2":"🛍️"},
-{"text":"extensions", "text2":"🛍️"},
-{"text":"style", "text2":"🎨"},
-{"text":"css", "text2":"🎨"},
-{"text":"color", "text2":"🎨"},
-{"text":"theme", "text2":"🎨"},
-{"text":"palette", "text2":"🎨"},
-{"text":"design", "text2":"🎨"},
-{"text":"webdesign", "text2":"🎨"},
-{"text":"time", "text2":"⌛"},
-{"text":"timer", "text2":"⌛"},
-{"text":"tmp", "text2":"⏳"},
-{"text":"temporary", "text2":"⏳"},
-{"text":"training", "text2":"🏃"},
-{"text":"run", "text2":"🏃"},
-{"text":"test", "text2":"🧪"},
-{"text":"demo", "text2":"🧪"},
-{"text":"lorem", "text2":"🧪"},
-{"text":"ipsum", "text2":"🧪"},
-{"text":"play", "text2":"▶️"},
-{"text":"pleroma", "text2":"🟧️"},
-{"text":"portfolio", "text2":"💼"},
-{"text":"progress", "text2":"█░░"},
-{"text":"quote", "text2":"❝❞"},
-{"text":"quotes", "text2":"❝❞"},
-{"text":"blockquotes", "text2":"❝❞"},
-{"text":"rain", "text2":"💧"},
-{"text":"redirect", "text2":"⬈"},
-{"text":"redirects", "text2":"⬈"},
-{"text":"smoking", "text2":"🚭"},
-{"text":"sun", "text2":"🌞"},
-{"text":"snake", "text2":"🐍"},
-{"text":"snow", "text2":"❄️"},
-{"text":"cold", "text2":"❄️"},
-{"text":"winter", "text2":"❄️"},
-{"text":"star", "text2":"⭐"},
-{"text":"stopwatch", "text2":"⏱️"},
-{"text":"text", "text2":"📄"},
-{"text":"textarea", "text2":"◻"},
-{"text":"texture", "text2":"ᚙ"},
-{"text":"textures", "text2":"ᚙ"},
-{"text":"grid", "text2":"ᚙ"},
-{"text":"tool", "text2":"🔨"},
-{"text":"tv", "text2":"📺"},
-{"text":"url", "text2":"🔗"},
-{"text":"link", "text2":"🔗"},
-{"text":"www", "text2":"🔗"},
-{"text":"popup", "text2":"🔗"},
-{"text":"video", "text2":"🎞️"},
-{"text":"gif", "text2":"🎞️"},
-{"text":"setting", "text2":"⚙️"},
-{"text":"settings", "text2":"⚙️"},
-{"text":"custom", "text2":"⚙️"},
-{"text":"user", "text2":"👤"},
-{"text":"followers", "text2":"👤"},
-{"text":"trash", "text2":"🗑️"},
-{"text":"weather", "text2":"🌤️"},
-{"text":"web", "text2":"🕸️"},
-{"text":"website", "text2":"🕸️"},
-{"text":"internet", "text2":"🕸️"},
-{"text":"browser", "text2":"🕸️"},
-{"text":"wallpaper", "text2":"🖼"},
-{"text":"picture", "text2":"🖼"},
-{"text":"image", "text2":"🖼"},
-{"text":"img", "text2":"🖼"},
-{"text":"pixel", "text2":"🖼"},
-{"text":"window", "text2":"🪟"},
-{"text":"windows", "text2":"🪟"},
-{"text":"work", "text2":"🛠️"},
+{"t":"angle", "t2":"◀"},
+{"t":"angled", "t2":"◀"},
+{"t":"angel", "t2":"😇"},
+{"t":"angle", "t2":"🔺"},
+{"t":"antilope", "t2":"🦌"},
+{"t":"gnu", "t2":"🦌"},
+{"t":"archive", "t2":"🗃️"},
+{"t":"zip", "t2":"🗃️"},
+{"t":"balloon", "t2":"🎈"},
+{"t":"button", "t2":"▬"},
+{"t":"bird", "t2":"🐦"},
+{"t":"binary", "t2":"010"},
+{"t":"number", "t2":"010"},
+{"t":"blog", "t2":"📝"},
+{"t":"todo", "t2":"📝"},
+{"t":"task", "t2":"📝"},
+{"t":"note", "t2":"📝"},
+{"t":"reminde", "t2":"📝"},
+{"t":"paper", "t2":"📝"},
+{"t":"article", "t2":"📝"},
+{"t":"book", "t2":"📚"},
+{"t":"quiz", "t2":"📚"},
+{"t":"box", "t2":"📦"},
+{"t":"bookmark", "t2":"🔖"},
+{"t":"brain", "t2":"🧠"},
+{"t":"memory", "t2":"🧠"},
+{"t":"calculator", "t2":"🧮"},
+{"t":"abacus", "t2":"🧮"},
+{"t":"count", "t2":"🧮"},
+{"t":"circle", "t2":"⭕"},
+{"t":"round", "t2":"⭕"},
+{"t":"cloud", "t2":"☁️"},
+{"t":"contact", "t2":"💬"},
+{"t":"cookie", "t2":"🍪"},
+{"t":"cut", "t2":"✂️"},
+{"t":"clock", "t2":"🕑"},
+{"t":"cofee", "t2":"☕"},
+{"t":"coffee", "t2":"☕"},
+{"t":"copyright", "t2":"©"},
+{"t":"comment", "t2":"💬"},
+{"t":"talk", "t2":"💬"},
+{"t":"chat", "t2":"💬"},
+{"t":"unicorn", "t2":"🦄"},
+{"t":"db", "t2":"💾"},
+{"t":"data", "t2":"💾"},
+{"t":"database", "t2":"💾"},
+{"t":"keep", "t2":"💾"},
+{"t":"save", "t2":"💾"},
+{"t":"download", "t2":"⬇️"},
+{"t":"dir", "t2":"📁️"},
+{"t":"developer", "t2":"💻"},
+{"t":"document", "t2":"📄"},
+{"t":"page", "t2":"📄"},
+{"t":"pages", "t2":"📄"},
+{"t":"draw", "t2":"✏️"},
+{"t":"drawing", "t2":"✏️"},
+{"t":"paint", "t2":"✏️"},
+{"t":"painting", "t2":"✏️"},
+{"t":"art", "t2":"🎨"},
+{"t":"earth", "t2":"🌍"},
+{"t":"embed", "t2":"▣"},
+{"t":"flash", "t2":"⚡"},
+{"t":"fact", "t2":"⚡"},
+{"t":"file", "t2":"🗃️"},
+{"t":"game", "t2":"🎮"},
+{"t":"mmorpg", "t2":"🎮"},
+{"t":"idea", "t2":"💡"},
+{"t":"fire", "t2":"🔥"},
+{"t":"teapot", "t2":"🫖"},
+{"t":"teacup", "t2":"🍵"},
+{"t":"translit", "t2":"⇄"},
+{"t":"convert", "t2":"⇄"},
+{"t":"fox", "t2":"🦊"},
+{"t":"hello", "t2":"👋"},
+{"t":"info", "t2":"ℹ️"},
+{"t":"faq", "t2":"ℹ️"},
+{"t":"about", "t2":"ℹ️"},
+{"t":"insert", "t2":"📋"},
+{"t":"paste", "t2":"📋"},
+{"t":"joystick", "t2":"🕹"},
+{"t":"keyboard", "t2":"⌨️"},
+{"t":"typing", "t2":"⌨️"},
+{"t":"input", "t2":"⌨️"},
+{"t":"mark", "t2":"✔️"},
+{"t":"check", "t2":"✅"},
+{"t":"label", "t2":"🏷️"},
+{"t":"tag", "t2":"🏷️"},
+{"t":"laptop", "t2":"💻"},
+{"t":"notebook", "t2":"💻"},
+{"t":"learning", "t2":"🌱"},
+{"t":"learn", "t2":"🌱"},
+{"t":"live", "t2":"🔴"},
+{"t":"online", "t2":"🔴"},
+{"t":"broadcast", "t2":"🔴"},
+{"t":"like", "t2":"👍"},
+{"t":"interests", "t2":"👍"},
+{"t":"love", "t2":"❤"},
+{"t":"fav", "t2":"❤"},
+{"t":"magazine", "t2":"📰"},
+{"t":"map", "t2":"📍"},
+{"t":"sitemap", "t2":"📍"},
+{"t":"mammoth ", "t2":"🦣"},
+{"t":"mastodon", "t2":"🦣"},
+{"t":"mail", "t2":"📧"},
+{"t":"email", "t2":"📧"},
+{"t":"@", "t2":"📧"},
+{"t":"message", "t2":"💬"},
+{"t":"status", "t2":"💬"},
+{"t":"matrix", "t2":"💊"},
+{"t":"menu", "t2":"☰"},
+{"t":"movie", "t2":"🎥"},
+{"t":"money", "t2":"💲"},
+{"t":"wallet", "t2":"💲"},
+{"t":"payment", "t2":"💲"},
+{"t":"music", "t2": "🎶"},
+{"t":"network", "t2":"📶"},
+{"t":"new", "t2":"🆕"},
+{"t":"news", "t2":"📰"},
+{"t":"pumpkin", "t2":"🎃"},
+{"t":"halloween", "t2":"🎃"},
+{"t":"pc", "t2":"🖥"},
+{"t":"desktop", "t2":"🖥"},
+{"t":"computer", "t2":"🖥"},
+{"t":"photo", "t2":"📷"},
+{"t":"camera", "t2":"📷"},
+{"t":"screenshot", "t2":"📷"},
+{"t":"project", "t2":"∷", "t3":"proportions"},
+{"t":"project", "t2":"∷", "t3":"proportions"},
+{"t":"main", "t2":"∷", "t3":"proportions"},
+{"t":"tpl", "t2":"📄"},
+{"t":"template", "t2":"📄"},
+{"t":"templates", "t2":"📄"},
+{"t":"iframe", "t2":"📄"},
+{"t":"radio", "t2":"📻"},
+{"t":"random", "t2":"🎲"},
+{"t":"dice", "t2":"🎲"},
+{"t":"robot", "t2":"🤖"},
+{"t":"auto", "t2":"🤖"},
+{"t":"share", "t2":"🔁"},
+{"t":"script", "t2":"📜"},
+{"t":"JavaScript", "t2":"📜"},
+{"t":"code", "t2":"📜"},
+{"t":"coding", "t2":"📜"},
+{"t":"history", "t2":"📜"},
+{"t":"search", "t2": "🔎"},
+{"t":"sleep", "t2":"😴💤"},
+{"t":"bed", "t2":"🛏"},
+{"t":"store", "t2":"🛍️"},
+{"t":"shop", "t2":"🛍️"},
+{"t":"extension", "t2":"🛍️"},
+{"t":"extensions", "t2":"🛍️"},
+{"t":"style", "t2":"🎨"},
+{"t":"css", "t2":"🎨"},
+{"t":"color", "t2":"🎨"},
+{"t":"theme", "t2":"🎨"},
+{"t":"palette", "t2":"🎨"},
+{"t":"design", "t2":"🎨"},
+{"t":"webdesign", "t2":"🎨"},
+{"t":"time", "t2":"⌛"},
+{"t":"timer", "t2":"⌛"},
+{"t":"tmp", "t2":"⏳"},
+{"t":"temporary", "t2":"⏳"},
+{"t":"training", "t2":"🏃"},
+{"t":"run", "t2":"🏃"},
+//{"t":"test", "t2":"test"},
+{"t":"test", "t2":"🧪", "t3":"test"},
+{"t":"demo", "t2":"🧪", "t3":"test"},
+{"t":"lorem", "t2":"🧪", "t3":"test"},
+{"t":"ipsum", "t2":"🧪", "t3":"test"},
+{"t":"play", "t2":"▶️"},
+{"t":"pleroma", "t2":"🟧️"},
+{"t":"portfolio", "t2":"💼"},
+{"t":"progress", "t2":"█░░"},
+{"t":"quote", "t2":"❝❞"},
+{"t":"quotes", "t2":"❝❞"},
+{"t":"blockquotes", "t2":"❝❞"},
+{"t":"rain", "t2":"💧"},
+{"t":"redirect", "t2":"⬈"},
+{"t":"redirects", "t2":"⬈"},
+{"t":"smoking", "t2":"🚭"},
+{"t":"sun", "t2":"🌞"},
+{"t":"snake", "t2":"🐍"},
+{"t":"snow", "t2":"❄️"},
+{"t":"cold", "t2":"❄️"},
+{"t":"winter", "t2":"❄️"},
+{"t":"star", "t2":"⭐"},
+{"t":"stopwatch", "t2":"⏱️"},
+{"t":"text", "t2":"📄"},
+{"t":"textarea", "t2":"◻"},
+{"t":"texture", "t2":"ᚙ"},
+{"t":"textures", "t2":"ᚙ"},
+{"t":"grid", "t2":"ᚙ"},
+{"t":"tool", "t2":"🔨"},
+{"t":"tv", "t2":"📺"},
+{"t":"url", "t2":"🔗"},
+{"t":"link", "t2":"🔗"},
+{"t":"www", "t2":"🔗"},
+{"t":"popup", "t2":"🔗"},
+{"t":"video", "t2":"🎞️"},
+{"t":"gif", "t2":"🎞️"},
+{"t":"setting", "t2":"⚙️"},
+{"t":"settings", "t2":"⚙️"},
+{"t":"custom", "t2":"⚙️"},
+{"t":"user", "t2":"👤"},
+{"t":"followers", "t2":"👤"},
+{"t":"trash", "t2":"🗑️"},
+{"t":"weather", "t2":"🌤️"},
+{"t":"web", "t2":"🕸️"},
+{"t":"website", "t2":"🕸️"},
+{"t":"internet", "t2":"🕸️"},
+{"t":"browser", "t2":"🕸️"},
+{"t":"wallpaper", "t2":"🖼"},
+{"t":"picture", "t2":"🖼"},
+{"t":"image", "t2":"🖼"},
+{"t":"img", "t2":"🖼"},
+{"t":"pixel", "t2":"🖼"},
+{"t":"window", "t2":"🪟"},
+{"t":"windows", "t2":"🪟"},
+{"t":"work", "t2":"🛠️"},
 
-{"text":"question", "text2":"❓"},
-{"text":"light", "text2":"⬜️"},
-{"text":"highlight", "text2":"⬜️"},
-{"text":"white", "text2":"⬜️"},
- {"text":"dark", "text2":"⬛"},
-{"text":"black", "text2":"⬛"},
-{"text":"red", "text2":"🟥"},
-{"text":"orange", "text2":"🟧"},
-{"text":"yellow", "text2":"🟨"},
-{"text":"green", "text2":"🟩"},
-{"text":"indigo", "text2":"🟪"},
-{"text":"violet", "text2":"🟪"},
-{"text":"blue", "text2":"🟦"}
+{"t":"question", "t2":"❓"},
+{"t":"light", "t2":"⬜️"},
+{"t":"highlight", "t2":"⬜️"},
+{"t":"white", "t2":"⬜️"},
+{"t":"dark", "t2":"⬛"},
+{"t":"black", "t2":"⬛"},
+{"t":"red", "t2":"🟥"},
+{"t":"orange", "t2":"🟧"},
+{"t":"yellow", "t2":"🟨"},
+{"t":"green", "t2":"🟩"},
+{"t":"indigo", "t2":"🟪"},
+{"t":"violet", "t2":"🟪"},
+{"t":"blue", "t2":"🟦"}
 ];
 
 
+
+
 var iconsArr = [];
-if(conf["confDataCollection"] != 'on'){
+if(confDataCollection != 'on'){
 iconsArr = iconsArr.concat(icons, icons2);
 }else{
 iconsArr = iconsArr.concat(icons2);
@@ -323,11 +365,17 @@ iconsArr = iconsArr.concat(icons2);
 "twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
 */
 
+/*
+//https://stackoverflow.com/questions/10682861/how-to-create-javascript-object-with-custom-name
+function createSimpleObject(name, value){
+    var obj = {};
+    obj[name] = value;
+    return obj;
+}
 
+var test = createSimpleObject('test', 'test value');
+alert(test['test']);*/
 
-
-
-//let iconsArr = Object.getOwnPropertyNames(iconsAll);
 
 
 // links
@@ -353,20 +401,28 @@ linkURL = item.href;
 
 let icArr = [];
 counter = 0; 
+var textIcon = "";
+var icon = "";
+var icon2 = "";
 
 iconsArr.forEach((item33, index33) => {
 
-let textIcon = String(item33["text"]);
-let icon = String(item33["text2"]);
-//console.log((linkText.toLowerCase()+'')+((icon+' ')));
+textIcon = String(item33["t"]);
+icon = String(item33["t2"]);
 
+// insert SVG
+let iconSvg = fuMGetSvgIcon(item33["t3"], jsonVar);
+if(iconSvg != ''&&iconSvg != undefined){
+icon = `<div class="inlineBlock" style="width: 16px; height: 16px;">${iconSvg}</div>`;
+}
+//console.log((linkText.toLowerCase()+'')+((icon+' ')));
 
 
 var linkText2 = linkText;
 linkText2 = linkText2.replaceAll("@", " @ ");
 linkText2 = linkText2 + " " + linkText2.slice(0, -1) + " " + linkText2 + "s" + " " + linkText2.replaceAll(".", " . ");
 linkText2 = linkText2.replaceAll(",", " , ");
-/*linkText2 = linkText2.replaceAll(".", " . ");*/
+//linkText2 = linkText2.replaceAll(".", " . ");
 linkText2 = linkText2.replaceAll(":", " : ");
 linkText2 = linkText2.replaceAll(">", " > ");
 linkText2 = linkText2.replaceAll("<", " < ");
@@ -374,9 +430,11 @@ linkText2 = linkText2.replaceAll("-", " - ");
 linkText2 = linkText2.replaceAll("(", " ( ");
 linkText2 = linkText2.replaceAll(")", " ) ");
 linkText2 = linkText2.replaceAll('"', ' " ');
+//linkText2 = linkText2.replaceAll('//', ' // ');
 linkText2 = linkText2.replaceAll(`
 `, "");
-;
+linkText2 = linkText2.toLowerCase();
+textIcon = textIcon.toLowerCase();
 
 
 
@@ -386,7 +444,7 @@ if(mode != 'strict'&&counter == 0){
 
 //https://stackoverflow.com/questions/412123764/how-to-remove-numbers-from-a-string
 if(
-(''+linkText2.replace(/\d+/g, '').toLowerCase()).indexOf((''+textIcon.replace(/\d+/g, '')+'')) != -1
+('' + linkText2.replace(/\d+/g, '').toLowerCase()).indexOf(('' + textIcon.replace(/\d+/g, '') + '')) != -1
 ||linkText2.replace(/\d+/g, '').toLowerCase().trim().search(textIcon.replace(/\d+/g, '')) != -1
 &&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
 icArr.push(icon);
@@ -396,18 +454,24 @@ counter++;
 }else if(mode == 'strict'&&counter == 0){
 // main, strict word
 if(
-(' ' + linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf((' ' + textIcon.replace(/\d+/g, '') + '')) != -1
-||(' '+linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf((' ' + textIcon.replace(/\d+/g, '') + '')) != -1
-&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
+(' ' + linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf(' ' + textIcon + ' ') != -1&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1
+||(' ' + linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf(' ' + textIcon + 's ') != -1&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1
+){
 icArr.push(icon);
 counter++;
 }
 }
 
 
-
-
+linkText2 = "";
+textIcon = "";
+icon = "";
 });
+
+
+
+
+
 
 
 // insert favicon text
@@ -423,7 +487,7 @@ var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
-if(conf["confDataCollection"] != 'on'){ iconHTTP = '🔗'; }
+if(confDataCollection != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
 counter++;
 }
@@ -442,7 +506,7 @@ var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
-if(conf["confDataCollection"] != 'on'){ iconHTTP = '🔗'; }
+if(confDataCollection != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
 counter++;
 }
@@ -488,6 +552,8 @@ icArr = [];
 counter = 0;
 
 });
+
+
 
 
 }

@@ -53,6 +53,7 @@ JavaScript, project,
 <main class="content">
 
 <h1 class="tCenter op">Function insert icon</h1>
+<div class="tCenter small margin3List em">in progress, in test</div>
 
 <div id="insertIcon" class="center3">
 
@@ -61,7 +62,7 @@ JavaScript, project,
 <div class="wrapper tCenter">
 
 links: 
-<a class="insertIcon button light3 border borderRadius2 margin" href="#"></a>
+<a class="insertIcon button light3 border borderRadius2 margin" href="#">test</a>
 <a class="insertIcon button light3 border borderRadius2 margin" href="#">game</a>
 <a class="insertIcon button light3 border borderRadius2 margin" href="#">db test data test hello test</a>
 <a class="insertIcon button light3 border borderRadius2 margin" href="#">hello world!</a>
@@ -70,19 +71,28 @@ links:
 
 buttons:
  <button class="insertIcon button light3 border borderRadius2 margin" type="button"></button> 
+<a class="insertIcon button light3 border borderRadius2 margin" href="#">test</a>
  <button class="insertIcon button light3 border borderRadius2 margin" type="button">game</button> 
  <button class="insertIcon button light3 border borderRadius2 margin" type="button">game db test data test hello test</button> 
  <button class="insertIcon button light3 border borderRadius2 margin" type="button">hello world!</button> 
  <button class="insertIcon button light3 border borderRadius2 margin" type="button">lorem ipsum</button> 
 
 <hr>
+<div class="insertIcon block padding margin">test</div>
+
+<hr>
 <div class="insertIcon block padding margin">
 text: 
 
-game db test data test hello test hello world! lorem ipsum
+test game db test data test hello test hello world! lorem ipsum
 </div>
 
 </div>
+
+
+<div id="demo"></div>
+
+
 
 </div>
 </main>
@@ -91,12 +101,14 @@ game db test data test hello test hello world! lorem ipsum
 
 <footer id="footer"></footer>
 
-<script src="/js/main.js"></script>
+<!--<script src="/js/main.js"></script>-->
 
+<script src="/data/iconsJsonVar.js"></script>
 <script src="script.js"></script>
+<script src="demo.js"></script>
 
 <script>
-insertIcon("insertIcon", );
+insertIcon('insertIcon', 'strict', 'on', iconsJsonVar);
 </script>
 
 </body>
