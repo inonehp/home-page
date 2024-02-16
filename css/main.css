@@ -1,4 +1,4 @@
-/* Main style v.12.18.1 */
+/* Main style v.12.19.0 */
 /* Responsive, mainly class-based */
 
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
@@ -348,6 +348,8 @@ border-radius: 5px;
 .adsBody { display: block;  padding: 0px 5px; }
 .adsCode { text-align: left; display: inline-block; max-width: 100%; }
 
+.w100 { width: 100%; }
+.h100 { height: 100%; }
 
 
 /* colors */
@@ -426,8 +428,20 @@ input, progress, select { accent-color: var(--d4);  }
 .highlight:hover, .highlight2:hover { background: var(--l4); }
 
 
-.w100 { width: 100%; }
-.h100 { height: 100%; }
+
+
+.borderBottomBrand { border-bottom: 2px solid color-mix(in srgb, var(--brand) 60%, transparent); }
+.borderBottomRed { border-bottom: 2px dashed color-mix(in srgb, var(--red) 50%, transparent); }
+.borderBottomOrange { border-bottom: 2px solid color-mix(in srgb, var(--orange) 60%, transparent); }
+.borderBottomYellow { border-bottom: 2px solid color-mix(in srgb, var(--yellow) 60%, transparent); }
+.borderBottomGreen { border-bottom: 2px solid color-mix(in srgb, var(--green) 60%, transparent); }
+.borderBottomBlue { border-bottom: 2px solid color-mix(in srgb, var(--blue) 65%, transparent); }
+.borderBottomIndigo { border-bottom: 2px solid color-mix(in srgb, var(--indigo) 60%, transparent); }
+.borderBottomViolet { border-bottom: 2px solid color-mix(in srgb, var(--violet) 60%, transparent); }
+.borderBottomGray { border-bottom: 2px solid color-mix(in srgb, var(--gray) 60%, transparent); }
+
+
+
 
 
 
