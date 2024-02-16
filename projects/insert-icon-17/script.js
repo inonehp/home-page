@@ -25,8 +25,8 @@ function fuMGetSvgIcon(iconName, jsonVar){
 var icon = '';
 jsonVar.forEach((val) => {
 
-if(val.t == iconName){
-icon = val.t2;
+if(val.text == iconName){
+icon = val.text2;
 }
 });
 return icon;

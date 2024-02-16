@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>CSS Realistic Old Windows OS Popup</title>
+<title>Redirect to list</title>
 
 <meta name="description" content="
-CSS realistic drawing of the popup window of the old Windows operating system.
-CSS art. CSS image.
+Redirect page, not intended for viewing.
 ">
 <meta name="keywords" content="
-window, WindowPopup, ralistic,
-CSSArt, HTML, CSS, project,
+redirect to list,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,58 +31,40 @@ CSSArt, HTML, CSS, project,
 </noscript>
 <!-- end main -->
 
-<!--<link rel="preload" href="script.js" as="script">-->
 
-<link rel="preload" href="style.css" as="style">
-<link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
 <body>
-
 
 <header id="secondNav" class="tCenter">
 <div class="margin2"></div>
 <nav>
 <a class="inlineBlock padding" style="padding-left: 0;" href="/">index</a>
-<a class="inlineBlock padding" style="padding-right: 0;" href="../">list</a>
+<a class="inlineBlock padding" style="padding-right: 0;" href="/chrome-extensions-page.html">list</a>
 </nav>
 </header>
 
-<h1 class="tCenter op">CSS Realistic Old Windows OS Popup</h1>
-<div class="margin2 padding2"></div>
 
-<!-- content -->
-<main class="contentCenter">
-<div class="wrapper">
+<main class="content">
 
+<!--<h1 class="op tCenter">Redirect to list</h1>-->
 
+<script>
+window.location.href = "/projects/25-redirects/?qr=/chrome-extensions-page.html";
+window.location.href = window.location.href + '#stopRedir'; 
+</script>
 
-<div class="windows">
-<div class="windowsHeader">Windows Networking <a href="#text">X</a></div>
-<div class="windowsBody">
-<div class="windowsBodyText">Unable to browse the network.<br><br>The network is not accessible.<br>
-For more information, look in the Help Index at the topic 'Network Troubleshooter'.</div>
-<a class="windowsButton" href="#ok">ok</a>
-</div>
-</div>
-
-
-</div>
-</div>
+<noscript>
+<a href="/chrome-extensions-page.html">list</a>
+</noscript>
 
 </main>
-<!-- // content -->
 
-
+<!--
 <footer id="footer"></footer>
 
 <script src="/js/main.js"></script>
-
-<script>
-//fuMSetTheme('light');
-</script>
-
-<!--<script src="script.js"></script>-->
+-->
 
 </body>
 </html>

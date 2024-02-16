@@ -42,17 +42,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Archive\n\nRedirect page, not intended for viewing. ",
-        "url": "\/archive\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "5fcfc93bd1899af1e4136b1ac6d174d4",
-        "time": "id"
-    },
-    {
-        "text": "Archive page\n\nOn this page are the projects that I want to hide. ",
-        "url": "\/archive-page.html",
+        "text": "Archive list\n\nOn this page are the projects that I want to hide. ",
+        "url": "\/archive-list.html",
         "tag": " #archive #menu #list #page #main",
-        "id": "892b5b81b3dfa1297e9ddbd9896b6f02",
+        "id": "9404a4c41970c890e52935ed9af2b641",
         "time": "id"
     },
     {
@@ -126,10 +119,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Chrome extensions list\n\nChrome browser extension: new tab redirct ... ",
-        "url": "\/chrome-extensions-list.html",
+        "text": "Chrome extensions page\n\nChrome browser extension: new tab redirct ... ",
+        "url": "\/chrome-extensions-page.html",
         "tag": " #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
-        "id": "9718546b9d4f22fadc4c1bb0a4643f94",
+        "id": "09f65916966b90fac889f3778aa3efdf",
         "time": "id"
     },
     {
@@ -154,7 +147,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Computer css\n\nCSS computer. ",
+        "text": "Computer css\n\nCSS computer.\r\nCSS art. CSS image. ",
         "url": "\/css-art\/computer-css-9\/index.html",
         "tag": " #computer #CSSArt #HTML #CSS #project",
         "id": "4323f85c70362e68f21d1489742b2fad",
@@ -413,20 +406,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Mini projects\n\nRedirect page, not intended for viewing. ",
-        "url": "\/archive\/mini-projects\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "dd802c67464dbe5acce77491842385c8",
-        "time": "id"
-    },
-    {
-        "text": "Mini projects\n\nRedirect page, not intended for viewing. ",
-        "url": "\/mini-projects\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "f3db3035277214dd7fb639903cd258fe",
-        "time": "id"
-    },
-    {
         "text": "Mini projects list\n\nMini projects only using HTML, and CSS. ",
         "url": "\/mini-projects-list.html",
         "tag": " #mini #projects #project #HTML #CSS #noscript #projects #list #main #pages",
@@ -459,13 +438,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/navigation-54\/index.html",
         "tag": " #navigation #menu #dropdown #CSS #JavaScript #project",
         "id": "7ce68fffa61d1d30e58bc8a6f3cbfbc9",
-        "time": "id"
-    },
-    {
-        "text": "Other projects\n\nRedirect page, not intended for viewing. ",
-        "url": "\/other-projects\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "e2dccc8102c7ef5e19dc09d0c16ca543",
         "time": "id"
     },
     {
@@ -546,20 +518,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Projects\n\nRedirect page, not intended for viewing. ",
-        "url": "\/archive\/projects\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "5cc84d385f313a64f90d81f22c17dfe4",
-        "time": "id"
-    },
-    {
-        "text": "Projects\n\nRedirect page, not intended for viewing. ",
-        "url": "\/projects\/index.html",
-        "tag": " #redirect_to_list",
-        "id": "2641529d236ed4619d28ac7f42078020",
-        "time": "id"
-    },
-    {
         "text": "Projects list\n\nProjects based on HTML, CSS and JavaScript. ",
         "url": "\/projects-list.html",
         "tag": " #HTML #CSS #JavaScript #projects #list #pages #main",
@@ -567,7 +525,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Pumpkin css\n\nCSS drawing of a pumpkin for Halloween. Drawing using only HTML and CSS. ",
+        "text": "Pumpkin css\n\nCSS drawing of a pumpkin for Halloween. Drawing using only HTML and CSS.\r\nCSS art. CSS image. ",
         "url": "\/css-art\/pumpkin-css-15\/index.html",
         "tag": " #pumpkin #CSSArt #HTML #CSS #project",
         "id": "cf7f15fc65afe125f709a8097a554d77",
@@ -623,7 +581,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Realistic old windows os popup window\n\nCSS realistic drawing of the popup window of the old Windows operating system. ",
+        "text": "Realistic old windows os popup window\n\nCSS realistic drawing of the popup window of the old Windows operating system.\r\nCSS art. CSS image. ",
         "url": "\/css-art\/realistic-old-windows-os-popup-window-12\/index.html",
         "tag": " #window #WindowPopup #ralistic #CSSArt #HTML #CSS #project",
         "id": "a62bafe89afd9d29949172315708a5f0",
@@ -805,27 +763,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Tpl\n\nnone, ",
-        "url": "\/css-art\/tpl-0\/index.html",
-        "tag": " #none #CSSArt #HTML #CSS #project",
-        "id": "877db8a403b76dddfef8a32705fa89cd",
-        "time": "id"
-    },
-    {
-        "text": "Tpl project\n\nThis is the tpl for create projects. ",
-        "url": "\/projects\/tpl-project-001\/index.html",
-        "tag": " #empty #CSS #JavaScript #project",
-        "id": "f2b9e564d3b721198d23ae988752e8d7",
-        "time": "id"
-    },
-    {
-        "text": "Tpl project app delme\n\nThis is the tpl for create projects. ",
-        "url": "\/projects\/tpl-project-app-delme-002\/index.html",
-        "tag": " #empty #CSS #JavaScript #project",
-        "id": "8193dae0a610a60a96543322c87955c1",
-        "time": "id"
-    },
-    {
         "text": "Tpl project mini\n\nThis is the tpl for create projects. ",
         "url": "\/mini-projects\/tpl-project-mini-0\/index.html",
         "tag": " #empty #HTML #CSS #project",
@@ -889,7 +826,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Woman css\n\nCSS drawing woman. ",
+        "text": "Woman css\n\nCSS drawing woman.\r\nCSS art. CSS image. ",
         "url": "\/css-art\/woman-css-32\/index.html",
         "tag": " #womain #CSSArt #HTML #CSS #project",
         "id": "bd69c0e5b8cc026f9a58a143ccd74052",

@@ -4,8 +4,8 @@ var iconsJsonVar =
 
 
 {
-"t": `arch`,
-"t2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+"text": `arch`,
+"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
@@ -604,8 +604,8 @@ var iconsJsonVar =
 },
 
 {
-"t": `dots`,
-"t2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+"text": `dots`,
+"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
@@ -631,8 +631,8 @@ var iconsJsonVar =
 },
 
 {
-"t": `proportions`,
-"t2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+"text": `proportions`,
+"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
@@ -678,8 +678,8 @@ var iconsJsonVar =
 },
 
 {
-"t": `test`,
-"t2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+"text": `test`,
+"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg

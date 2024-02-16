@@ -37,7 +37,7 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/archive-page.html</loc>
+<loc>https://inonehp.pages.dev/archive-list.html</loc>
 
 </url>
 
@@ -72,12 +72,22 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/chrome-extensions-list.html</loc>
+<loc>https://inonehp.pages.dev/chrome-extensions/index.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/chrome-extensions-page.html</loc>
 
 </url>
 
 <url>
 <loc>https://inonehp.pages.dev/css-art/computer-css-9/index.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/css-art/index.html</loc>
 
 </url>
 
@@ -137,6 +147,11 @@
 </url>
 
 <url>
+<loc>https://inonehp.pages.dev/firefox-extensions/index.html</loc>
+
+</url>
+
+<url>
 <loc>https://inonehp.pages.dev/firefox-extensions/new-tab-redirect-extension-3/new-tab-redirect.html</loc>
 
 </url>
@@ -157,7 +172,17 @@
 </url>
 
 <url>
+<loc>https://inonehp.pages.dev/firefox-theme/index.html</loc>
+
+</url>
+
+<url>
 <loc>https://inonehp.pages.dev/firefox-theme-page.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/geany-theme/index.html</loc>
 
 </url>
 
@@ -172,12 +197,22 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/icons/inspiration-log.html</loc>
+<loc>https://inonehp.pages.dev/icons-data/index.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/icons-data/inspiration-log.html</loc>
 
 </url>
 
 <url>
 <loc>https://inonehp.pages.dev/icons-page.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/images/index.html</loc>
 
 </url>
 
@@ -303,6 +338,11 @@
 
 <url>
 <loc>https://inonehp.pages.dev/pages.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/photos/index.html</loc>
 
 </url>
 
@@ -532,7 +572,7 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/projects/tpl-project-app-delme-002/index.html</loc>
+<loc>https://inonehp.pages.dev/projects/tpl-project-app-fixme-sw-002/index.html</loc>
 
 </url>
 
@@ -628,6 +668,11 @@
 
 <url>
 <loc>https://inonehp.pages.dev/templates/home-page-many-auto-colors-themes-flat-abc-10/theme.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/templates/index.html</loc>
 
 </url>
 
@@ -733,6 +778,11 @@
 
 <url>
 <loc>https://inonehp.pages.dev/theme.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/vscode-theme/index.html</loc>
 
 </url>
 

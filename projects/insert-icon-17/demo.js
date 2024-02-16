@@ -10,9 +10,9 @@ iconsJsonVar.forEach((val) => {
 lIconsPrint += `
 
 <div class="itemt bg2 shadow borderRadius3 padding2 small">
-${val.t}
+${val.text}
 <hr>
-<div style="width: 64px; height: 64px;">${val.t2}</div>
+<div style="width: 64px; height: 64px;">${val.text2}</div>
 </div>
 
 `;

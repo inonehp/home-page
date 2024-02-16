@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<!-- v.1.0.0 -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Project name</title>
+<title>Redirect to list</title>
 
 <meta name="description" content="
-This is the tpl for create projects.
+Redirect page, not intended for viewing.
 ">
 <meta name="keywords" content="
-empty,CSS,JavaScript,project,
+redirect to list,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,10 +31,7 @@ empty,CSS,JavaScript,project,
 </noscript>
 <!-- end main -->
 
-<link rel="preload" href="script.js" as="script"> 
 
-<link rel="preload" href="style.css" as="style">
-<link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
 <body>
@@ -44,44 +40,31 @@ empty,CSS,JavaScript,project,
 <div class="margin2"></div>
 <nav>
 <a class="inlineBlock padding" style="padding-left: 0;" href="/">index</a>
-<a class="inlineBlock padding" style="padding-right: 0;" href="../">list</a>
+<a class="inlineBlock padding" style="padding-right: 0;" href="/icons-page.html">list</a>
 </nav>
 </header>
 
 
-<!-- content -->
 <main class="content">
-<div class="wrapper">
 
-<h1 class="tCenter op">Project name</h1>
-<div class="tCenter padding2 small op">in progress</div>
+<!--<h1 class="op tCenter">Redirect to list</h1>-->
 
+<script>
+window.location.href = "/projects/25-redirects/?qr=/icons-page.html";
+window.location.href = window.location.href + '#stopRedir'; 
+</script>
 
+<noscript>
+<a href="/icons-page.html">list</a>
+</noscript>
 
-
-<div class="post border bg pre">
-<div id="result"></div>
-</div>
-
-
-
-
-<div class="margin2 padding2"></div>
-
-</div>
 </main>
-<!-- // content -->
 
-
+<!--
 <footer id="footer"></footer>
 
 <script src="/js/main.js"></script>
-
-<script>
-//fuMSetTheme('light');
-</script>
-
-<script src="script.js"></script>
+-->
 
 </body>
 </html>
