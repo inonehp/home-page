@@ -1,4 +1,4 @@
-// Blog v.2.8.14
+// Blog v.2.8.15
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
 // JSON data in js varible pre-sorted by time in UNIX format
@@ -162,11 +162,6 @@ q2 = q2.trim();
 }
 //if(q2 != null&&q2 != ''){ q += ' ' + q2; } // delme
 
-if(q != null){
-q = q.replaceAll(/%/g, "%25");
-q = decodeURIComponent(q);
-q = q.trim();
-}
 
 
 var mode = url.searchParams.get("mode");
@@ -183,6 +178,13 @@ mode = mode.trim();
 if(q != null){
 if(q[q.length - 2] == ' '&&q[q.length - 1] == 'l'){ q = q.slice(0, -2); q2 = 'l'; }
 if(q[q.length - 2] == ' '&&q[q.length - 1] == 'r'){ q = q.slice(0, -2); q2 = 'r'; }
+if(q[q.length - 2] == ' '&&q[q.length - 1] == 'q'){
+q = q.slice(0, -2);
+q = q.trim();
+q = encodeURIComponent(q);
+window.location.href = "/projects/25-redirects/?q=" + q;
+window.location.href = window.location.href + '#stopRedir'; 
+}
 }
 
 var id = url.searchParams.get("id");
@@ -253,15 +255,6 @@ var i3 = 0;
 
 var lFoundQUrlList = [];
 
-if(q != null){
-if(q[q.length - 1] == 'q'&&q[q.length - 2] == ' '){
-q = q.slice(0, -2);
-q = q.trim();
-q = encodeURIComponent(q);
-window.location.href = "/?q=" + q;
-window.location.href = window.location.href + '#stopRedir'; 
-}
-}
 
 if(tagListStatus == 'on'){
 
