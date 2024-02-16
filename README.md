@@ -1,4 +1,4 @@
-<!-- README.md v.1.4.0 -->
+<!-- README.md v.1.4.1 -->
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
@@ -10,6 +10,7 @@
   
 ---
   
+### 📁 [ZIP](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)
 ### 🔗 [inonehp.pages.dev](https://inonehp.pages.dev/)
   
 ---
@@ -31,7 +32,6 @@
 [#Game](https://github.com/topics/game?s=updated),
 [#App](https://github.com/topics/app?s=updated),
 [#Theme](https://github.com/topics/theme?s=updated),
-[#Template](https://github.com/topics/template?s=updated),
   
   
 <!--### Screenshots:  
