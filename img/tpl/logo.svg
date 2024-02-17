@@ -376,16 +376,16 @@
      id="layer4" />
   <g
      id="layer2" />
-  <g
-     id="g48280"
-     transform="rotate(-44.961295,194.54366,216.32828)">
-    <path
-       style="fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:2.74775px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 337.83193,348.33055 C 103.6013,216.90506 409.81306,386.45321 148.56099,156.0176 c 0,0 202.66658,-6.10777 189.27094,192.31295 z"
-       id="path40017" />
-    <path
-       style="fill:#3465a4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 327.89678,387.99502 C 193.18646,388.67429 279.31002,358.89356 199.60322,341.0206 116.29778,322.3407 123.07162,164.28699 110.04131,169.68705 55.730718,405.82635 216.97415,461.48131 327.89678,387.99502 Z"
-       id="path40801" />
-  </g>
+  <circle
+     style="fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:20"
+     id="path6965"
+     cx="307.85559"
+     cy="315.3595"
+     r="80.147217" />
+  <circle
+     style="fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:11.6859"
+     id="path6965-1"
+     cx="176.27875"
+     cy="186.181"
+     r="46.829659" />
 </svg>

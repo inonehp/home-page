@@ -1,8 +1,8 @@
-<!-- README.md v.1.4.1 -->
+<!-- README.md v.1.4.2 -->
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
-#  ∷ Home page and projects:  
+#  ∷ Home Page and Projects  
 🔍 Search (redirect).  
 🛍️ Extension New Tab: any site in each new tab.  
 🎨 Themes for: Geany IDE, and Firefox.  
