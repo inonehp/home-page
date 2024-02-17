@@ -163,8 +163,6 @@ conf["confMenuItems2"] += `<a class="countMenuItem brand inlineBlock padding" hr
 conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>`;
 
 
-//CSS version with noscript in noscript.css -->
-
 //<!-- nav HTML part -->
 if(conf["confMenu"] == "random"){
 if(fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
@@ -1171,7 +1169,6 @@ try{
 var url = new URL(item.src);
 newUrl = item.src;
 if(url.hostname == location.hostname){
-
 
 // if ulr exit
 fetch(

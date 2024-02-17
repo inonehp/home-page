@@ -159,7 +159,6 @@ display: inline-block;
 vertical-align: middle;
 text-align: center;
 width: 60px;
-max-height: 60px;
 padding: 1px;
 border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
 }

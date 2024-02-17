@@ -12,23 +12,21 @@ blog, post, JavaScript, page, project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
-<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
 
 <!-- main -->
-<link rel="preload" href="/js/main.js" as="script">
+<link rel="preload" href="../../js/main.js" as="script">
 
-<link rel="preload" href="/css/main.css" as="style">
-<link rel="stylesheet" href="/css/main.css" type="text/css">
-<link rel="preload" href="/css/auto.css" as="style">
-<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
 
-<link rel="preload" href="/css/style.css" as="style">
-<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
 
 <noscript>
-<link rel="stylesheet" type="text/css" href="/css/noscript.css">
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
 </noscript>
 <!-- end main -->
 
@@ -57,7 +55,7 @@ blog, post, JavaScript, page, project,
 
 
 
-<script src="/data/blogJsonVar.js"></script>
+<script src="../../data/blogJsonVar.js"></script>
 <script>
 if(blogJsonVar == undefined||blogJsonVar == ''){
 var blogJsonVar = 
@@ -93,7 +91,9 @@ var blogJsonVar =
 
 <footer id="footer"></footer>
 
-<!--<script src="/js/main.js"></script>-->
+<!-- for debug -->
+<!--<script src="../../js/main.js"></script>-->
+
 
 <script>
 let blogConfig = {
@@ -108,7 +108,7 @@ let blogConfig = {
 "timeStatus":"", // off, disable post time (post id)
 };
 </script>
-<script async src="script.js" onload="blog('echoBlog', blogJsonVar, 'post', '/projects/1-blog/', blogConfig)"></script>
+<script async src="script.js" onload="blog('echoBlog', blogJsonVar, 'post', './', blogConfig)"></script>
 
 
 </body>

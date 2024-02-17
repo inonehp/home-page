@@ -1,4 +1,4 @@
-// Blog v.2.8.15
+// Blog v.2.8.16
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
 // JSON data in js varible pre-sorted by time in UNIX format
@@ -104,6 +104,9 @@ var jsonVar =
 }
 
 
+
+
+// fix from main.js
 if(typeof conf == 'object'){
 
 confDataCollection = conf["confDataCollection"];
@@ -127,6 +130,14 @@ var confThemeEmbed = 'light';
 var confSymbolForSplit = "JLJKLKJLKJLKJ";
 
 }
+
+if(domainNameToTitle == undefined){ var domainNameToTitle = ""; }
+
+
+
+
+
+
 
 var w = '100%';
 var h = '190px';
@@ -1276,7 +1287,7 @@ hlClassList2.forEach(function(item){
 let hlClass = 'hlClass'+item;
 item = item.toUpperCase();
 hlClassList += `
-<a class="tag light2 border3 borderRadius ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}" id="${hlClass}">${item}</a>
+<a id="${hlClass}" class="tag light2 border3 borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}">${item}</a>
 `;
 });
 
@@ -1288,7 +1299,9 @@ tagList = `
 <div class="op small padding2">list of tags:</div>
 <div class="tagList">`+tagList+`</div>
 
-<div class="block padding2 tCenter tagList">
+<div class="padding2"></div>
+
+<div class="block tCenter tagList">
 ${hlClassList}
 </div>
 

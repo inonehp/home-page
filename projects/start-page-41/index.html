@@ -12,22 +12,21 @@ start, start page, HTML, project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
-<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
 
 <!-- main -->
-<link rel="preload" href="/js/main.js" as="script">
+<link rel="preload" href="../../js/main.js" as="script">
 
-<link rel="preload" href="/css/main.css" as="style">
-<link rel="stylesheet" href="/css/main.css" type="text/css">
-<link rel="preload" href="/css/auto.css" as="style">
-<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
 
-<link rel="preload" href="/css/style.css" as="style">
-<link rel="stylesheet" href="/css/style.css" type="text/css">
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
 
 <noscript>
-<link rel="stylesheet" type="text/css" href="/css/noscript.css">
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
 </noscript>
 <!-- end main -->
 
@@ -63,14 +62,14 @@ start, start page, HTML, project,
 <div id="audio"></div>
 </div>
 
-<!--
+
 <div >
  <video class="border bg center inlineBlock borderRadius3" width="240" height="100%" controls autoplay loop muted onloadstart "this.volume=0.01">
-  <source src="/video/video.mp4" type="video/mp4">
+  <source src="../../video/video.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </div>
--->
+
 
 
 
@@ -78,7 +77,19 @@ Your browser does not support the video tag.
 </div>
 
 
-<div id="search"></div>
+<div class="postL">
+
+<form method="GET" style="margin-top: 0px;" action="/projects/25-redirects/" autocomplete="off" role="search">
+<label id="search" class="op tLeft xSmall" title="example: twitter l"><span class="bold orange">✪</span> Web search (redirect):</label>
+<input id="inputQ" class="padding2" aria-labelledby="search" type="search" name="q" autofocus="autofocus"  placeholder=""  autocomplete="off">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
+<input type="submit" value="search" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
+<input type="submit" name="q2" value="l" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
+</div>
+
+</form>
+</div>
 
 <div class="padding2 margin2"></div>
 
@@ -88,7 +99,7 @@ Your browser does not support the video tag.
 
 <footer id="footer"></footer>
 
-<script src="/js/main.js"></script>
+<script src="../../js/main.js"></script>
 
 <script src="script.js"></script>
 

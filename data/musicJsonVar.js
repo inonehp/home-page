@@ -4642,6 +4642,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Dua Lipa - Training Season (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ZjBZ8MUnB0E",
+        "tag": "#music"
+    },
+    {
         "text": "Dua Lipa - We're Good (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -8167,6 +8174,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=zI339U6GS9s",
+        "tag": "#music"
+    },
+    {
+        "text": "Kenya Grace - Strangers (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=S2TaAcwC_zI",
         "tag": "#music"
     },
     {

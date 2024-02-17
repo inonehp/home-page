@@ -1,7 +1,7 @@
 // v.1.1.1
 // parse IMDB WATCHLIST.csv
 
-parseList("result", "/data2/WATCHLIST.csv");
+parseList("result", "../../data2/WATCHLIST.csv");
 
 
 function parseList(printId, fileCsv){

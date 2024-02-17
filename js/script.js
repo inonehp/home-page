@@ -100,14 +100,14 @@ allMClassNavUp.forEach((item, index) => {
 
 if(mNavUpCheck != "/"){
 
-if(mNavUpCheck.indexOf('/lists') == -1&&mNavUpCheck.indexOf('/main-list') == -1){
+if(mNavUpCheck.indexOf('/lists') == -1&&mNavUpCheck.indexOf('./main-list') == -1){
 //document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
-document.getElementsByClassName("mClassNavUp")[index].href = "/main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "./main-list.html";
 
 
 if(mNavUpCheck.indexOf('/main-list') != -1||mNavUpCheck.indexOf('projects') != -1){
 //document.getElementsByClassName("mClassNavUp").href = "../";
-document.getElementsByClassName("mClassNavUp")[index].href = "/lists.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "./lists.html";
 }
 
 }
@@ -118,7 +118,7 @@ document.getElementsByClassName("mClassNavUp")[index].href = "/";
 
 
 }else if(mNavUpCheck == "/"){
-document.getElementsByClassName("mClassNavUp")[index].href = "/pages.html";
+document.getElementsByClassName("mClassNavUp")[index].href = "./pages.html";
 }
 
 
@@ -128,4 +128,27 @@ fuMHideFileNameExt2();
 
 }
 
+/*
+
+if(String(window.location.href).slice(0, 7) == "file://"){
+alert('test');
+}
+
+function linkForFile(){
+// adding link to footer if project: script.js and style.css
+if((window.location.href).indexOf(('/projects/')) >= 0||(window.location.href).indexOf(('/mini-projects/')) >= 0){
+fetch('script.js', { method: "HEAD"}).then(function(response) {
+//console.log(response);
+if (response.ok == true) {
+mainPrintMsg('fScript', `<span><a class="green" href="script.js">script.js</a></span>`);
+}
+});
+
+fetch('style.css', { method: "HEAD"}).then(function(response) {
+if (response.ok == true) {  mainPrintMsg('fStyle', `<span><a class="orange" href="style.css">style.css</a></span>`);
+}
+});
+}
+}
+linkForFile();*/
 

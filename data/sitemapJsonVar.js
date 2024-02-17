@@ -756,13 +756,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Tpl\n\nnone ",
-        "url": "\/templates\/tpl-0\/index.html",
-        "tag": " #none",
-        "id": "397185410efa7d4194d37977be390dce",
-        "time": "id"
-    },
-    {
         "text": "Tpl project mini\n\nThis is the tpl for create projects. ",
         "url": "\/mini-projects\/tpl-project-mini-0\/index.html",
         "tag": " #empty #HTML #CSS #project",

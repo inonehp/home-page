@@ -57,23 +57,7 @@ document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seco
 fuStopwatch();
 setInterval(fuStopwatch, 1000);
 
-document.getElementById('search').innerHTML = `
-
-<div class="postL">
-
-<form method="GET" style="margin-top: 0px;" action="/projects/25-redirects/" autocomplete="off" role="search">
-<label id="search" class="op tLeft xSmall" title="example: twitter l"><span class="bold orange">✪</span> Web search (redirect):</label>
-<input id="inputQ" class="padding2" aria-labelledby="search" type="search" name="q" autofocus="autofocus"  placeholder=""  autocomplete="off">
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
-<input type="submit" value="search" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
-<input type="submit" name="q2" value="l" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
-</div>
-
-</form>
-</div>
-
-`;
+//document.getElementById('search').innerHTML = ``;
 
 
 

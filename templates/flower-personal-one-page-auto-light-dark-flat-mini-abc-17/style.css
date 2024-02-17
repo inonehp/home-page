@@ -88,7 +88,7 @@ html{ scrollbar-color: var(--d4) var(--l2); }
 
 
 body{
-background-image: url("/img/tpl/bg-light.png");
+background-image: url("../../img/tpl/bg-light.png");
 background-repeat: repeat;
 background-attachment: fixed;
 }
@@ -98,7 +98,7 @@ background-attachment: fixed;
 @media (prefers-color-scheme: dark) {
 
 body{
-background-image: url("/img/tpl/bg-dark.png");
+background-image: url("../../img/tpl/bg-dark.png");
 background-repeat: repeat;
 background-attachment: fixed;
 }

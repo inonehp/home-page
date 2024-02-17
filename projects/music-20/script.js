@@ -1,5 +1,5 @@
-// v.1.3.2
-
+// Music v.1.3.2
+// data inspiration: radio mostly and other.
 
 var jsonVar = musicJsonVar;
 

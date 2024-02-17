@@ -99,13 +99,6 @@ var radioJsonVar =
         "tag": "#radio #en"
     },
     {
-        "text": "Acme Radio Live",
-        "text2": "http:\/\/s2.radio.co\/s32015a8cd\/listen",
-        "text3": "mp3",
-        "url": "https:\/\/www.acmeradiolive.com\/",
-        "tag": "#radio #RadioMusic #indie"
-    },
-    {
         "text": "Actualidad 1040AM | Toda la actualidad noticiosa del Sur de Florida, Estados Unidos y el Mundo",
         "text2": "http:\/\/ic.streann.com:8000\/actualidadam.ogg",
         "text3": "ogg",
