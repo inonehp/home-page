@@ -231,6 +231,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Flex grid\n\nResponsive grid test. ",
+        "url": "\/mini-projects\/flex-grid-32\/index.html",
+        "tag": " #grid #responsive #test #project",
+        "id": "18f4d230982c1f15cec49c9464179853",
+        "time": "id"
+    },
+    {
         "text": "Flower personal one page auto light dark flat mini abc\n\nWebsite template description. ",
         "url": "\/templates\/flower-personal-one-page-auto-light-dark-flat-mini-abc-17\/index.html",
         "tag": " #WebDesign #template",
@@ -298,13 +305,6 @@ var sitemapJsonVar = [
         "url": "\/googlebae648489b2c26df.html",
         "tag": " #googlebaebcdf",
         "id": "454da31ae58ef74e16c4a31d9f9933f4",
-        "time": "id"
-    },
-    {
-        "text": "Grid flex\n\nResponsive grid test. ",
-        "url": "\/mini-projects\/grid-flex-32\/index.html",
-        "tag": " #grid #responsive #test #project",
-        "id": "2b746a5ef7395613c95d09ab3f7cdf82",
         "time": "id"
     },
     {

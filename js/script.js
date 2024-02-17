@@ -128,27 +128,4 @@ fuMHideFileNameExt2();
 
 }
 
-/*
-
-if(String(window.location.href).slice(0, 7) == "file://"){
-alert('test');
-}
-
-function linkForFile(){
-// adding link to footer if project: script.js and style.css
-if((window.location.href).indexOf(('/projects/')) >= 0||(window.location.href).indexOf(('/mini-projects/')) >= 0){
-fetch('script.js', { method: "HEAD"}).then(function(response) {
-//console.log(response);
-if (response.ok == true) {
-mainPrintMsg('fScript', `<span><a class="green" href="script.js">script.js</a></span>`);
-}
-});
-
-fetch('style.css', { method: "HEAD"}).then(function(response) {
-if (response.ok == true) {  mainPrintMsg('fStyle', `<span><a class="orange" href="style.css">style.css</a></span>`);
-}
-});
-}
-}
-linkForFile();*/
 

@@ -136,13 +136,6 @@ justify-content: center;
 justify-content: space-evenly;
 }
 
-@media(max-width: 760px) { .lPriceList { grid-template-columns: repeat(3, 33.33%); }}
-@media(max-width: 560px) { .lPriceList { grid-template-columns: repeat(2, 50%); }}
-@media(max-width: 400px) {
-.lPriceList { display: block; width: 100%; }
-.lPriceListDiv { margin: 5px auto; }
-}
-
 .lPriceListDiv {
 display: flex;
 flex-basis: auto;
@@ -153,12 +146,17 @@ width: 100%;
 max-width: 200px;
 gap: 0;
 }
+
+.lPriceListDesc { flex: 1 0 auto; }
+.lPriceListPrice { flex-shrink: 0; }
+
+@media(max-width: 400px)  {
+.lPriceList { display: block; width: 100%; }
+.lPriceListDiv {  display: block; width: 100%; margin: 10px auto; }
 }
 
 .lPriceListDiv img {
 border-radius: 15px;
 }
 
-.lPriceListDesc { flex: 1 0 auto; }
-.lPriceListPrice { flex-shrink: 0; }
 

@@ -1,4 +1,4 @@
-// Main js v.6.3.2
+// Main js v.6.3.3
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -409,6 +409,7 @@ fuMPrintText("footer", `
 <div>
 <!--<a href="#goBack" onclick="history.back()">Go Back</a>-->
 <span id="fTheme" class="capitalize" title="Theme settings"><a href="/theme.theme">Themes</a></span>
+<span id="fEmbedFileUrl"></span>
 </div>
 
 
@@ -451,10 +452,25 @@ if(document.getElementById(id) != null){
 document.getElementById(id).scrollIntoView();
 }
 }
-// end footer
+// // footer
 
 
 
+// embed file url
+if((window.location.href).indexOf(('/projects/')) >= 0||(window.location.href).indexOf(('/mini-projects/')) >= 0){
+fetch('script.js', { method: "HEAD"}).then(function(response) {
+//console.log(response);
+if (response.ok == true) {
+fuMPrintText('fEmbedFileUrl', `<span><a class="op inlineBlock tag orange" href="script.js">script.js</a></span>`, 'plus');
+}
+});
+
+fetch('style.css', { method: "HEAD"}).then(function(response) {
+if (response.ok == true) {  fuMPrintText('fEmbedFileUrl', `<span><a class="op inlineBlock tag indigo" href="style.css">style.css</a></span>`, 'plus');
+}
+});
+}
+// // embed file url
 
 
 // Device 1.0.0

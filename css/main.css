@@ -1,6 +1,7 @@
 /* Main style v.12.19.1 */
 /* Responsive, mainly class-based */
 
+/* main */
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
 :root{
@@ -349,6 +350,8 @@ border-radius: 5px;
 
 .w100 { width: 100%; }
 .h100 { height: 100%; }
+
+
 
 
 /* colors */
