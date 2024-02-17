@@ -12,6 +12,18 @@
   <defs
      id="defs2">
     <rect
+       x="144.51908"
+       y="126.8926"
+       width="272.22891"
+       height="213.45835"
+       id="rect26728" />
+    <rect
+       x="169.26348"
+       y="143.57453"
+       width="198.86976"
+       height="246.81287"
+       id="rect4168" />
+    <rect
        x="105.57416"
        y="132.47232"
        width="319.54222"
@@ -341,61 +353,39 @@
       </feComponentTransfer>
     </filter>
   </defs>
-  <g
-     id="layer1">
-    <path
-       style="fill:#2e3436;fill-rule:evenodd"
-       id="path53"
-       d="M 512,256.00313 A 256,256 0 0 1 255.99765,512 256,256 0 0 1 0,255.99844 256,256 0 0 1 256.00078,0 256,256 0 0 1 512,256 H 256 Z" />
-    <path
-       style="fill:#eeeeec;fill-rule:evenodd"
-       id="path126"
-       d="M 476,256.00269 A 220,220 0 0 1 255.99798,476 220,220 0 0 1 36,255.99866 220,220 0 0 1 256.00067,36 220,220 0 0 1 476,256 H 256 Z" />
-    <text
-       xml:space="preserve"
-       id="text6934"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect6936);fill:#000000;fill-opacity:1;stroke:none" />
-    <rect
-       style="opacity:1;fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect31099"
-       width="4.1922994"
-       height="1.6886979"
-       x="367.55261"
-       y="126.62749" />
-  </g>
+  <path
+     style="fill:#1c6a76;fill-rule:evenodd;fill-opacity:1"
+     id="path53"
+     d="M 512,256.00313 A 256,256 0 0 1 255.99765,512 256,256 0 0 1 0,255.99844 256,256 0 0 1 256.00078,0 256,256 0 0 1 512,256 H 256 Z" />
+  <path
+     style="fill:#eeeeec;fill-rule:evenodd;stroke-width:0.977273"
+     id="path126"
+     d="M 471,256.00263 A 215,215 0 0 1 255.99803,471 215,215 0 0 1 41,255.99869 215,215 0 0 1 256.00065,41 215,215 0 0 1 471,256 H 256 Z" />
+  <text
+     xml:space="preserve"
+     id="text6934"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect6936);fill:#000000;fill-opacity:1;stroke:none" />
+  <rect
+     style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+     id="rect31099"
+     width="4.1922994"
+     height="1.6886979"
+     x="367.55261"
+     y="126.62749" />
   <g
      id="layer4" />
   <g
      id="layer2" />
   <g
-     id="layer3">
-    <g
-       id="g897"
-       transform="translate(-7.6293946e-6,-53.275103)">
-      <text
-         xml:space="preserve"
-         id="text21318"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect21320);fill:#2e3436;fill-opacity:1;stroke:none"
-         transform="matrix(1.8889623,0,0,1.8889623,-36.132447,-82.477969)"><tspan
-           x="105.57422"
-           y="259.87891"
-           id="tspan1149">T</tspan></text>
-      <rect
-         style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
-         id="rect14124"
-         width="239.62221"
-         height="5.9455996"
-         x="136.1889"
-         y="226.32068"
-         ry="1.1440212e-06" />
-      <rect
-         style="fill:#eeeeec;fill-opacity:1;stroke:#3e3e3e;stroke-width:0"
-         id="rect14124-9"
-         width="124.93832"
-         height="5.9455996"
-         x="193.53084"
-         y="386.92264"
-         ry="1.1440212e-06" />
-    </g>
+     id="g48280"
+     transform="rotate(-44.961295,194.54366,216.32828)">
+    <path
+       style="fill:#3465a4;fill-opacity:1;stroke:none;stroke-width:2.74775px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 337.83193,348.33055 C 103.6013,216.90506 409.81306,386.45321 148.56099,156.0176 c 0,0 202.66658,-6.10777 189.27094,192.31295 z"
+       id="path40017" />
+    <path
+       style="fill:#3465a4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 327.89678,387.99502 C 193.18646,388.67429 279.31002,358.89356 199.60322,341.0206 116.29778,322.3407 123.07162,164.28699 110.04131,169.68705 55.730718,405.82635 216.97415,461.48131 327.89678,387.99502 Z"
+       id="path40801" />
   </g>
 </svg>

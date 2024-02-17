@@ -1,4 +1,4 @@
-/* Main style v.12.19.1 */
+/* Main style v.12.19.2 */
 /* Responsive, mainly class-based */
 
 /* main */
@@ -165,6 +165,33 @@ border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
 }
 
 .logo2 { /*border: 1px;*/ width: 26px; height: 26px; }
+
+.logo, .logo2 {
+transition: transform 250ms ease-in-out;
+animation: mAni 500ms 0s, mAniBlink 500ms .5s;
+opacity: 1;
+}
+
+.logo:hover, .logo2:hover{
+transform: rotate(360deg);
+}
+
+}
+
+@media (prefers-reduced-motion) {
+.logo:hover, .logo2:hover{ border-color: var(--c); }
+}
+
+@keyframes mAni {
+from { transform: rotate(0); }
+to { transform: rotate(360deg); }
+}
+
+@keyframes mAniBlink {
+from{ border: 2px solid color-mix(in srgb, var(--brand) 100%, transparent); }
+to { border: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
+}
+
 
 .tagList, .tagList2 {
 display: inline-flex;
