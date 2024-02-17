@@ -10193,6 +10193,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Maroon 5 - Sugar (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=09R8_2nJtjg",
+        "tag": "#music"
+    },
+    {
         "text": "Maroon 5 - This Love (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -11485,6 +11492,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=oE4shbMAgg4",
+        "tag": "#music"
+    },
+    {
+        "text": "Norah Jones - Running - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=9TjrBFYqGNs",
         "tag": "#music"
     },
     {

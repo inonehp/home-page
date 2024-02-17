@@ -117,17 +117,17 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/data2-page.html</loc>
-
-</url>
-
-<url>
 <loc>https://inonehp.pages.dev/data-other-page.html</loc>
 
 </url>
 
 <url>
 <loc>https://inonehp.pages.dev/data-page.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/data2-page.html</loc>
 
 </url>
 
@@ -493,6 +493,11 @@
 
 <url>
 <loc>https://inonehp.pages.dev/projects/quiz-42/index.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/projects/quiz-word-45/index.html</loc>
 
 </url>
 

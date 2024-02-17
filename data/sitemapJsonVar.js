@@ -546,6 +546,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Quiz word\n\nQuiz word. ",
+        "url": "\/projects\/quiz-word-45\/index.html",
+        "tag": " #game #quiz #word #JavaScript #project",
+        "id": "7cc2901ad7e1d37e0f6268d3ba486439",
+        "time": "id"
+    },
+    {
         "text": "Radio\n\nA small collection of radio stations with the ability to play online, is chosen randomly. ",
         "url": "\/projects\/radio-22\/index.html",
         "tag": " #radio #random #online #station #colection #JavaScript #project",
@@ -753,6 +760,34 @@ var sitemapJsonVar = [
         "url": "\/projects\/todo-list-task-31\/index.html",
         "tag": " #todo #task #tool #list #task #JavaScript #project",
         "id": "4496de3bbb3500a9da07fdaec6a7d7f3",
+        "time": "id"
+    },
+    {
+        "text": "Tpl\n\nnone\nNot intended for viewing. ",
+        "url": "\/templates\/tpl-0\/index.html",
+        "tag": " #none",
+        "id": "397185410efa7d4194d37977be390dce",
+        "time": "id"
+    },
+    {
+        "text": "Tpl\n\nnone,\nNot intended for viewing.\nCSS art. CSS image. ",
+        "url": "\/css-art\/tpl-0\/index.html",
+        "tag": " #none #CSSArt #HTML #CSS #project #CSS_art._CSS_image.",
+        "id": "877db8a403b76dddfef8a32705fa89cd",
+        "time": "id"
+    },
+    {
+        "text": "Tpl project\n\nThis is the tpl for create projects.\r\nNot intended for viewing. ",
+        "url": "\/projects\/tpl-project-001\/index.html",
+        "tag": " #empty #CSS #JavaScript #project",
+        "id": "f2b9e564d3b721198d23ae988752e8d7",
+        "time": "id"
+    },
+    {
+        "text": "Tpl project app fixme sw\n\nThis is the tpl for create projects.\r\nNot intended for viewing. ",
+        "url": "\/projects\/tpl-project-app-fixme-sw-002\/index.html",
+        "tag": " #empty #CSS #JavaScript #project",
+        "id": "a66b69eb5d1f3241c2e5fab1926cbeb5",
         "time": "id"
     },
     {
