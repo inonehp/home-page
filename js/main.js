@@ -430,7 +430,7 @@ fuMPrintText("footer", `
 <span class="inlineBlock padding" title="Site Code (repository)"><a class="inlineBlock padding" href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
 
 <span title="License (other on the About page)"><a class="inlineBlock padding" rel="license" title="main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
-<a class="inlineBlock padding" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses *</a>
+<a class="inlineBlock padding" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>
 </span>
 
 <span title="Page about"><a class="inlineBlock padding" href="/about.html">About</a></span>
