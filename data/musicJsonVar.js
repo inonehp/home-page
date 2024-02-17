@@ -8380,6 +8380,27 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "KT Tunstall - Hold On - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=vsCi5cdm2tw",
+        "tag": "#music"
+    },
+    {
+        "text": "KT Tunstall - I Don't Want You Now (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=fgIr8-OMuL8",
+        "tag": "#music"
+    },
+    {
+        "text": "KT Tunstall - Suddenly I See (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=9AEoUa0Hlso",
+        "tag": "#music"
+    },
+    {
         "text": "Kungs vs Cookin\u2019 on 3 Burners - This Girl (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -9532,6 +9553,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=xFYQQPAOz7Y",
+        "tag": "#music"
+    },
+    {
+        "text": "Lottery Winners - Dance With The Devil (Official Video) ft. KT Tunstall - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Iw3dd50KYJg",
         "tag": "#music"
     },
     {
@@ -13340,6 +13368,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=2zToEPpFEN8",
+        "tag": "#music"
+    },
+    {
+        "text": "SAINT MOTEL - My Type (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=IyVPyKrx0Xo",
         "tag": "#music"
     },
     {
