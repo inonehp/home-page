@@ -1,4 +1,4 @@
-// Redirect v.1.7.1
+// Redirect v.1.7.2
 // The script redirects the search query + command to another location.
 
 // conf
@@ -589,8 +589,8 @@ case 'gg#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "/projects/google-programmable-search-49/?q=" + q;
-if(q == ''){ url = "/projects/google-programmable-search-49/"; }
+url = "/projects/google-programmable-search-49/index.html?q=" + q;
+if(q == ''){ url = "/projects/google-programmable-search-49/index.html"; }
 sRedirUrl = url;
 break;
 

@@ -1212,6 +1212,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Banana Pancakes - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=YdgoG8hTMUw",
+        "tag": "#music"
+    },
+    {
         "text": "Bang Bang (3LAU Remix) \u00b7 Jessie J \u00b7 Ariana Grande \u00b7 Nicki Minaj",
         "text2": "",
         "text3": "",
@@ -5580,6 +5587,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Florence + The Machine - You've Got the Love - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=PQZhN65vq9E",
+        "tag": "#music"
+    },
+    {
         "text": "Fly Me To The Moon (2008 Remastered) \u00b7 Frank Sinatra \u00b7 Count Basie And His Orchestra",
         "text2": "",
         "text3": "",
@@ -7659,6 +7673,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Jet - Are You Gonna Be My Girl - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=tuK6n2Lkza0",
+        "tag": "#music"
+    },
+    {
         "text": "Jilted - The Puppini Sisters (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -9213,6 +9234,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Lily Allen | The Fear (Official Video - Explicit Version) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=q-wGMlSuX_c",
+        "tag": "#music"
+    },
+    {
         "text": "Lily Allen | Womanizer (Britney Spears cover - Official Audio) - YouTube",
         "text2": "",
         "text3": "",
@@ -9290,6 +9318,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Lizzo - About Damn Time [Official Video] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=IXXxciRUMzE",
+        "tag": "#music"
+    },
+    {
         "text": "Lizzo - Ain't I (Official Audio) - YouTube",
         "text2": "",
         "text3": "",
@@ -9322,6 +9357,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=SmbmeOgWsqE",
+        "tag": "#music"
+    },
+    {
+        "text": "Lizzo - Juice (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=XaCrQL_8eMY",
         "tag": "#music"
     },
     {
@@ -10582,6 +10624,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=My2FRPA3Gf8",
+        "tag": "#music"
+    },
+    {
+        "text": "Milky Chance - Flashed Junk Mind (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=r8BsuT0PWdI",
         "tag": "#music"
     },
     {
@@ -15590,6 +15639,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "The Fratellis - Chelsea Dagger (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=sEXHeTcxQy4",
+        "tag": "#music"
+    },
+    {
         "text": "The Girl From Ipanema - Frank Sinatra & Ant\u00f4nio Carlos Jobim | Concert Collection - YouTube",
         "text2": "",
         "text3": "",
@@ -16784,6 +16840,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=vHMI9EOigHk",
+        "tag": "#music"
+    },
+    {
+        "text": "Vampire Weekend - 'A-Punk' - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Xo9x2mA53ms",
         "tag": "#music"
     },
     {
