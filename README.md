@@ -1,4 +1,4 @@
-<!-- README.md v.1.4.2 -->
+<!-- README.md v.1.4.3 -->
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
@@ -29,8 +29,6 @@
 [#HTML](https://github.com/topics/HTML?s=updated),
 [#CSS](https://github.com/topics/css?s=updated),
 [#JavaScript](https://github.com/topics/javascript?s=updated),
-[#Game](https://github.com/topics/game?s=updated),
-[#App](https://github.com/topics/app?s=updated),
 [#Theme](https://github.com/topics/theme?s=updated),
   
   
