@@ -414,23 +414,16 @@ fuMPrintText("footer", `
 
 
 
-
-<!--<span style="padding-left: 0;" title="Main Page"><a href="/">Home</a></span>-->
-
 <span class="inlineBlock padding" style="padding-left: 0;" title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
+
 <span title="News"><a class="inlineBlock padding" href="/rss.xml">RSS</a></span>
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding" href="/settings.html">Settings</a></span>
-
-<!--<span id="fPrivacy" class="inlineBlock padding" title="Cookie Settings"><a class="inlineBlock padding" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>-->
-
+<span id="fPrivacy" class="inlineBlock padding" title="Cookie Settings"><a class="inlineBlock padding" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span class="inlineBlock padding" title="Site Code (repository)"><a class="inlineBlock padding" href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
-
-<span title="License (other on the About page)">
-<a class="inlineBlock padding" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>
-<a class="inlineBlock padding" rel="license" title="main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
-</span>
-
 <span title="Page about"><a class="inlineBlock padding" href="/about.html">About</a></span>
+
+<a class="inlineBlock padding" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
+<a class="inlineBlock padding" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>
 
 <span class="inlineBlock padding" style="padding-right: 0;" title="Hosting Service">Hosting: <a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
 
