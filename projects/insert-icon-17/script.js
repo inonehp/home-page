@@ -1,4 +1,4 @@
-// Fu insert icon v.4.0.0
+// Fu insert icon v.4.0.1
 // Function for insert icon in links using class name.
 
 
@@ -19,6 +19,8 @@ if(classNameForInsert == undefined){ classNameForInsert = 'insertIcon'; }
 if(mode == undefined){ mode = ''; }
 if(status == undefined){ status = 'off'; }
 if(jsonVar == undefined){ jsonVar = []; }
+
+
 
 function fuMGetSvgIcon(iconName, jsonVar){
 
@@ -69,7 +71,7 @@ let icons = [
 {"t":"twitter", "t2":`<span class="bold">𝕏</span>`},
 {"t":"x.com", "t2":`<span class="small bold">𝕏</span>`},
 {"t":"twitch", "t2":"🔴"},
-{"t":"docs", "t2":"📄"},
+{"t":"docs", "t2":"📄", "t3":"page"},
 {"t":"geany", "t2":"🫖"},
 {"t":"blender", "t2":"✏️"},
 {"t":"framer", "t2":"//"},
@@ -98,7 +100,7 @@ let icons = [
 {"t":"producthunt", "t2":`<span class="bold orange">P</span>`},
 {"t":"figma", "t2":`<span class="bold orange">F</span>`},
 {"t":"pxlmo", "t2":"🖼"},
-{"t":"sites", "t2":"📄"},
+{"t":"sites", "t2":"📄", "t3":"page"},
 {"t":"substack", "t2":"🔖"},
 {"t":"slashdot", "t2":`<span class="bold">/.</span>`},
 {"t":"nostr", "t2":"🦩"},
@@ -128,13 +130,13 @@ let icons2 = [
 {"t":"bird", "t2":"🐦"},
 {"t":"binary", "t2":"010"},
 {"t":"number", "t2":"010"},
-{"t":"blog", "t2":"📝"},
-{"t":"todo", "t2":"📝"},
-{"t":"task", "t2":"📝"},
-{"t":"note", "t2":"📝"},
-{"t":"reminde", "t2":"📝"},
-{"t":"paper", "t2":"📝"},
-{"t":"article", "t2":"📝"},
+{"t":"blog", "t2":"📝", "t3":"memo"},
+{"t":"todo", "t2":"📝", "t3":"memo"},
+{"t":"task", "t2":"📝", "t3":"memo"},
+{"t":"note", "t2":"📝", "t3":"memo"},
+{"t":"reminde", "t2":"📝", "t3":"memo"},
+{"t":"paper", "t2":"📝", "t3":"memo"},
+{"t":"article", "t2":"📝", "t3":"memo"},
 {"t":"book", "t2":"📚"},
 {"t":"quiz", "t2":"📚"},
 {"t":"box", "t2":"📦"},
@@ -166,9 +168,9 @@ let icons2 = [
 {"t":"download", "t2":"⬇️"},
 {"t":"dir", "t2":"📁️"},
 {"t":"developer", "t2":"💻"},
-{"t":"document", "t2":"📄"},
-{"t":"page", "t2":"📄"},
-{"t":"pages", "t2":"📄"},
+{"t":"document", "t2":"📄", "t3":"page"},
+{"t":"page", "t2":"📄", "t3":"page"},
+{"t":"pages", "t2":"📄", "t3":"page"},
 {"t":"draw", "t2":"✏️"},
 {"t":"drawing", "t2":"✏️"},
 {"t":"paint", "t2":"✏️"},
@@ -179,8 +181,8 @@ let icons2 = [
 {"t":"flash", "t2":"⚡"},
 {"t":"fact", "t2":"⚡"},
 {"t":"file", "t2":"🗃️"},
-{"t":"game", "t2":"🎮"},
-{"t":"mmorpg", "t2":"🎮"},
+{"t":"game", "t2":"🎮", "t3":"game"},
+{"t":"mmorpg", "t2":"🎮", "t3":"game"},
 {"t":"idea", "t2":"💡"},
 {"t":"fire", "t2":"🔥"},
 {"t":"teapot", "t2":"🫖"},
@@ -189,9 +191,9 @@ let icons2 = [
 {"t":"convert", "t2":"⇄"},
 {"t":"fox", "t2":"🦊"},
 {"t":"hello", "t2":"👋"},
-{"t":"info", "t2":"ℹ️"},
-{"t":"faq", "t2":"ℹ️"},
-{"t":"about", "t2":"ℹ️"},
+{"t":"info", "t2":"ℹ️", "t3":"information"},
+{"t":"faq", "t2":"ℹ️", "t3":"information"},
+{"t":"about", "t2":"ℹ️", "t3":"information"},
 {"t":"insert", "t2":"📋"},
 {"t":"paste", "t2":"📋"},
 {"t":"joystick", "t2":"🕹"},
@@ -244,10 +246,10 @@ let icons2 = [
 {"t":"project", "t2":"∷", "t3":"proportions"},
 {"t":"project", "t2":"∷", "t3":"proportions"},
 {"t":"main", "t2":"∷", "t3":"proportions"},
-{"t":"tpl", "t2":"📄"},
-{"t":"template", "t2":"📄"},
-{"t":"templates", "t2":"📄"},
-{"t":"iframe", "t2":"📄"},
+{"t":"tpl", "t2":"📄", "t3":"page"},
+{"t":"template", "t2":"📄", "t3":"page"},
+{"t":"templates", "t2":"📄", "t3":"page"},
+{"t":"iframe", "t2":"📄", "t3":"page"},
 {"t":"radio", "t2":"📻"},
 {"t":"random", "t2":"🎲"},
 {"t":"dice", "t2":"🎲"},
@@ -302,7 +304,7 @@ let icons2 = [
 {"t":"winter", "t2":"❄️"},
 {"t":"star", "t2":"⭐"},
 {"t":"stopwatch", "t2":"⏱️"},
-{"t":"text", "t2":"📄"},
+{"t":"text", "t2":"📄", "t3":"page"},
 {"t":"textarea", "t2":"◻"},
 {"t":"texture", "t2":"ᚙ"},
 {"t":"textures", "t2":"ᚙ"},
@@ -413,7 +415,7 @@ icon = String(item33["t2"]);
 // insert SVG
 let iconSvg = fuMGetSvgIcon(item33["t3"], jsonVar);
 if(iconSvg != ''&&iconSvg != undefined){
-icon = `<div class="inlineBlock" style="width: 16px; height: 16px;">${iconSvg}</div>`;
+icon = `<div class="inlineFlex" style="width: 16px; height: 16px;">${iconSvg}</div>`;
 }
 //console.log((linkText.toLowerCase()+'')+((icon+' ')));
 

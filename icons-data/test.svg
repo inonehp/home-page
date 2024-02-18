@@ -1,44 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="512"
-   height="512"
-   viewBox="0 0 135.46666 135.46666"
-   version="1.1"
-   id="svg5"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath7170">
-      <path
-         id="path7172"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.9375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 38.974205,25.553059 48.400555,-3e-6 c -15.316723,42.862018 68.3532,86.485684 -3e-6,84.276964 H 38.974205 c -51.035362,0.24556 24.466258,-47.076913 0,-84.276961 z" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath10931">
-      <rect
-         style="opacity:1;fill:#5cc341;fill-opacity:1;stroke:none;stroke-width:7.9375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect10933"
-         width="134.37918"
-         height="73.248138"
-         x="11.817242"
-         y="60.431801" />
-    </clipPath>
-  </defs>
-  <path
-     id="rect1051-0"
-     style="opacity:0.3;fill:#5cc341;fill-opacity:1;stroke:#000000;stroke-width:7.9375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 31.887247,25.55704 71.692163,-3e-6 C 76.425637,62.607149 156.76119,112.04272 88.40799,109.834 H 40.007437 c -51.035364,0.24556 16.34606,-47.076913 -8.12019,-84.27696 z"
-     clip-path="url(#clipPath10931)"
-     transform="matrix(1.013742,0,0,1.013742,-1.7293245,-0.92995484)" />
-  <path
-     id="path8996"
-     style="fill:none;stroke:#000000;stroke-width:8.04658;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="m 19.08941,24.97829 95.69078,-3e-6 v 0 0 M 86.39241,56.9394 h 11.563932 v 0.337733 H 86.39241 Z m 5.602585,16.020561 h 10.341795 v 0.482917 H 91.994995 Z m 9.168995,16.105408 h 10.99892 v 0.458398 H 101.16399 Z M 82.888397,40.538944 H 95.13219 V 40.428051 H 82.888397 Z m -52.29228,-15.560654 72.677353,-3e-6 C 75.746557,62.537541 157.18608,112.65246 87.89357,110.41339 H 38.827898 c -51.736691,0.24893 16.57069,-47.72385 -8.231781,-85.4351 z" />
+<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <rect x="54.506" y="8.5485" width="26.459" height="66.147" ry="10.92" stroke-width="12.569"/>
+ <rect x="54.506" y="98.486" width="26.459" height="27.669" ry="4.5679" stroke-width="8.1296"/>
 </svg>

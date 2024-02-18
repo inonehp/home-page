@@ -1,0 +1,19 @@
+<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1066">
+   <rect x="34.661" y="21.432" width="66.147" height="92.606" display="none" stroke-width=".515"/>
+   <path class="powerclip" d="m23.047 9.817h89.377v115.84h-89.377zm11.615 11.615v92.606h66.147v-92.606z" stroke-width=".515"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(28.046 -.002)">
+  <path transform="translate(-28.047)" x="28.046524" y="14.817031" width="79.376953" height="105.83594" d="m28.047 14.817h79.377v105.84h-79.377z" clip-path="url(#clipPath1066)" stroke-width=".6031"/>
+  <g transform="matrix(.61481 0 0 1 -1.2764 3.3074)" stroke-width=".63131">
+   <rect x="28.047" y="41.276" width="79.377" height="6.6147"/>
+   <rect x="28.047" y="28.047" width="79.377" height="6.6147"/>
+   <rect x="28.047" y="54.506" width="79.377" height="6.6147"/>
+   <rect x="28.047" y="67.735" width="79.377" height="6.6147"/>
+   <rect x="28.047" y="80.964" width="79.377" height="6.6147"/>
+   <rect x="28.047" y="94.194" width="79.377" height="6.6147"/>
+  </g>
+ </g>
+</svg>

@@ -65,7 +65,7 @@ color: var(--b2);
 
 .insertIcon svg *, .headerBannerImg svg *{
 fill: var(--randCAll) !important;
-/*stroke: var(--randCAll) !important;*/
+stroke: var(--randCAll) !important;
 }
 .headerBannerImg svg{
 opacity: .7;

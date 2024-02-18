@@ -700,6 +700,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Text\n\nLong text: article, post. I'm attempting to write something. ",
+        "url": "\/text.html",
+        "tag": " #text #article #post #page #main",
+        "id": "63caf82fca46caa38ca0328bab57c966",
+        "time": "id"
+    },
+    {
         "text": "Text to binary\n\nConversion of text and symbols into binary format using JavaScript. ",
         "url": "\/projects\/text-to-binary-52\/index.html",
         "tag": " #text #binary #tool #conversion #converter #JavaScript #project",

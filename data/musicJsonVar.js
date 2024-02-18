@@ -4488,6 +4488,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Don\u2019t Blame Me \u00b7 Taylor Swift",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=blVed8CyzoQ",
+        "tag": "#music"
+    },
+    {
         "text": "Don\u2019t Dream It\u2019s Over Official Video Sixpence None The Richer - YouTube",
         "text2": "",
         "text3": "",
@@ -7320,6 +7327,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=Ma4TOv2f_WY",
+        "tag": "#music"
+    },
+    {
+        "text": "Is It Over Now? (Taylor's Version) (From The Vault) \u00b7 Taylor Swift",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=IV-jmLUe0Go",
         "tag": "#music"
     },
     {
@@ -12678,6 +12692,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Ready For It?\u2019 performed by Taylor Swift.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=T62maKYX9tU",
+        "tag": "#music"
+    },
+    {
         "text": "Ready Steady Go (Korean Style) \u00b7 Paul Oakenfold",
         "text2": "",
         "text3": "",
@@ -14939,6 +14960,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Taylor Swift - Cruel Summer (Official Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ic8j13piAhQ",
+        "tag": "#music"
+    },
+    {
         "text": "Taylor Swift - Look What You Made Me Do - YouTube",
         "text2": "",
         "text3": "",
@@ -14957,6 +14985,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=FsGdznlfE2U",
+        "tag": "#music"
+    },
+    {
+        "text": "Taylor Swift - You Need To Calm Down (Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=GWtfOHBF1_w",
         "tag": "#music"
     },
     {

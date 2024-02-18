@@ -122,7 +122,7 @@ font-weight: bold;
 
 .insertIcon svg * {
 fill: var(--c) !important;
-/*stroke: var(--c) !important;*/
+stroke: var(--c) !important;
 }
 
 /* bg image in main.js */
