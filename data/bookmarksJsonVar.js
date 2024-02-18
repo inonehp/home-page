@@ -1,6 +1,33 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "109",
+        "text": "JavaScript | MDN",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript",
+        "tag": "#code #programming",
+        "time": 1708218947
+    },
+    {
+        "id": "108",
+        "text": "Welcome to Python.org",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.python.org\/",
+        "tag": "#code #programming",
+        "time": 1708218901
+    },
+    {
+        "id": "107",
+        "text": "PHP: Hypertext Preprocessor",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.php.net\/",
+        "tag": "#PHP #code #programming",
+        "time": 1708218873
+    },
+    {
         "id": "106",
         "text": "Choose an open source license | Choose a License",
         "text2": "",

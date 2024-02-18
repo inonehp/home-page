@@ -1,4 +1,4 @@
-// Main js v.6.3.3
+// Main js v.6.3.4
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -457,7 +457,11 @@ document.getElementById(id).scrollIntoView();
 
 
 // embed file url
-if((window.location.href).indexOf(('/projects/')) >= 0||(window.location.href).indexOf(('/mini-projects/')) >= 0){
+if(
+(window.location.href).indexOf(('/projects/')) != -1
+||(window.location.href).indexOf(('/mini-projects/')) != -1
+||(window.location.href).indexOf(('/css-art/')) != -1
+){
 fetch('script.js', { method: "HEAD"}).then(function(response) {
 //console.log(response);
 if (response.ok == true) {
