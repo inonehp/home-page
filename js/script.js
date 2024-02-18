@@ -2,16 +2,17 @@
 
 
 
-fuMRandColor();
+
 
 // Random color generator v.1.0.3
 //if(document.getElementById("siteName") != null){}
 
-function fuMRandColor(){
+
+//document.getElementById("footer").onload = function() {}
 
 
 let mRandColorsPrint = "";
-const mColors = ["brand", "red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+const mColors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
@@ -83,8 +84,8 @@ extraSheet.replaceSync(mRandColorsPrint);
 document.adoptedStyleSheets = [...document.adoptedStyleSheets, extraSheet];
 
 //alert(document.getElementsByTagName("footer")[0].style.backgroundColor);
+// // Random color
 
-}
 
 
 

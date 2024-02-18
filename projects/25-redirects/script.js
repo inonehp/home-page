@@ -534,20 +534,44 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
-case 'tv#':
+case 's#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.twitch.tv/directory/all/tags/" + q,
+"https://twitter.com/search?q=" + q,
+"https://bsky.app/search?q=" + q,
+"https://wordpress.com/read/search?q=" + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://www.twitch.tv/",
-"https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig",
-"https://www.pinterest.com/tv/",
+"https://twitter.com/",
+"https://bsky.app/",
+"https://wordpress.com/" + q,
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
+
+case 's#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q="+q+"&newwindow=1&tbm=vid",
+"https://www.bing.com/videos/search?q="+q
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+if(q == ''){
+urlList = [
+"https://www.youtube.com/",
+"https://vimeo.com/",
+"https://www.dailymotion.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

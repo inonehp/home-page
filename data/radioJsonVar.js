@@ -29,13 +29,6 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #top40 #pop"
     },
     {
-        "text": "680 The Fan - WCNN, 680 AM, North Atlanta, US | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/680-The-Fan---WCNN-s27965\/",
-        "tag": "#radio #sport"
-    },
-    {
         "text": "89.1 Max FM",
         "text2": "https:\/\/bayshore-ais.leanstream.co\/CISOFM-MP3",
         "text3": "mp3",
