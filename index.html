@@ -61,18 +61,18 @@ position: relative;
 text-transform: uppercase;
 transform: rotate(-15deg);
 
-top: -30px;
-
 display: inline-block;
 color: var(--randCAll);
 
 background: var(--bg);
 border-top: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
-padding-top: 1px;
+padding-top: 2px;
+top: -30px;
 }
 
 .siteName::after {
 content: "Hello World!";
+text-transform: none;
 
 font-size: small;
 display: inline-block;
@@ -88,19 +88,25 @@ bottom: 0;
 color: var(--randCAll2);
 }
 
-@media(max-width: 180px) {
-.siteName, .siteName::after { position: static; transform: rotate(0deg); }
+@media(max-width: 200px) {
+.siteName, .siteName::after {
+position: static; transform: rotate(0deg);
+border-top: 0px;
+content: "";
+}
 }
 
+.siteNameWrapper { margin-bottom: -30px; }
 
 .headerBannerImg svg{
-padding-top: 10px;
 display: block;
 margin: 0 auto;
 width: auto;
 max-height: 120px;
-margin: -30px auto;
+margin: 0 auto;
+margin-bottom: -30px;
 position: relative;
+
 z-index: -2;
 border-bottom: 2px dashed var(--randCAll2);
 }
@@ -317,7 +323,9 @@ border-bottom: 2px dashed var(--randCAll2);
 <div class="block padding2List"></div>
 
 
+<div class="siteNameWrapper">
 <h1 class="zero siteName">inonehp</h1>
+</div>
 <div class="tRight">
 
 
