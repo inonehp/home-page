@@ -108,6 +108,20 @@ to { opacity: 1; }
 }
 }
 
+.onePixel {
+position: absolute;
+top: 45%;
+left: 60%;
+z-index: 2;
+width: 1px;
+height: 2px;
+}
+
+.onePixel:hover {
+width: 100px;
+height: 200px;
+}
+
 .headerBannerImg svg{
 display: block;
 margin: 0 auto;
@@ -197,6 +211,8 @@ border-bottom: 2px dashed var(--randCAll2);
 <div class="wrapper">
 
 <header id="topHeader" class="block padding1PxList tCenter" style="position: relative;">
+
+<img class="onePixel" src="./img/one-pixel.png" alt="1px">
 
 <div class="headerBannerImg reduceLight2"><?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->

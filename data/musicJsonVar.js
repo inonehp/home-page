@@ -14953,6 +14953,27 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Tate McRae - cut my hair - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=pQbcBqTnjos",
+        "tag": "#music"
+    },
+    {
+        "text": "Tate McRae - greedy (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=To4SWGZkEPk",
+        "tag": "#music"
+    },
+    {
+        "text": "Tate McRae - think later - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=JivVG7MHh2E",
+        "tag": "#music"
+    },
+    {
         "text": "Taylor Swift - Blank Space - YouTube",
         "text2": "",
         "text3": "",
