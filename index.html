@@ -98,6 +98,16 @@ content: "";
 
 .siteNameWrapper { margin-bottom: -30px; }
 
+@media (prefers-reduced-motion: no-preference) {
+.siteName {
+animation: mOpacity 1s 0s;
+}
+@keyframes mOpacity {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+}
+
 .headerBannerImg svg{
 display: block;
 margin: 0 auto;

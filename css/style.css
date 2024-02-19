@@ -1,4 +1,4 @@
-/* v.1.15.0 */
+/* v.1.15.1 */
 
 
 
@@ -101,17 +101,6 @@ z-index: 2;
 
 
 
-@media (prefers-reduced-motion: no-preference) {
-
-.siteName {
-animation: mOpacity 2s 0s;
-}
-
-
-@keyframes mOpacity {
-from { opacity: 0; }
-to { opacity: 1; }
-}
 
 
 .firstLetterBold::first-letter,
