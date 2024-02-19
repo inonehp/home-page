@@ -1,4 +1,4 @@
-// Redirect v.1.7.2
+// Redirect v.1.7.3
 // The script redirects the search query + command to another location.
 
 // conf
@@ -649,23 +649,27 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
+"https://www.bing.com/search?q="+ q,
 "https://search.yahoo.com/search?p=" + q,
 "https://search.givewater.com/serp?q=" + q,
 "https://duckduckgo.com/?q="+q,
 "https://www.qwant.com/?q=" + q,
 "https://you.com/search?q=" + q,
 "https://www.ecosia.org/search?q=" + q,
+"https://www.mojeek.com/search?q=" + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
+"https://www.bing.com/",
 "https://search.yahoo.com/",
 "https://search.givewater.com/",
 "https://duckduckgo.com/",
 "https://www.qwant.com/",
 "https://you.com/",
 "https://www.ecosia.org/",
+"https://www.mojeek.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -681,13 +685,13 @@ q = encodeURIComponent(q);
 
 urlList = [
 "https://www.google.com/search?q="+ q,
-"https://www.bing.com/search?q="+ q,
+//"https://www.bing.com/search?q="+ q,
 //"?q=" + q + " o",
 ];
 if(q == ''){
 urlList = [
 "https://www.google.com/",
-"https://www.bing.com/",
+//"https://www.bing.com/",
 ];
 }
 random = Math.floor(Math.random() * urlList.length);
@@ -700,13 +704,13 @@ default:
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+ q,
-"https://www.bing.com/search?q="+ q,
+//"https://www.bing.com/search?q="+ q,
 //"?q=" + q + " o",
 ];
 if(q == ''){
 urlList = [
 "https://www.google.com/",
-"https://www.bing.com/",
+//"https://www.bing.com/",
 ];
 }
 random = Math.floor(Math.random() * urlList.length);

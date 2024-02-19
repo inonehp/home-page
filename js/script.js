@@ -12,7 +12,9 @@
 
 
 let mRandColorsPrint = "";
-const mColors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+const mColors = [
+"var(--brand)",
+"var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--blue)", "var(--indigo)", "var(--violet)"];
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
@@ -45,8 +47,8 @@ let mRandTone2 = fuMRandom(0, 100);
 mRandColorsPrint += `
 
 :root {
---randCAll: color-mix(in srgb, var(--${mRandColor}) ${mRandTone}%, var(--${mRandColor2}));
---randCAll2: color-mix(in srgb, var(--${mRandColor2}) ${mRandTone2}%, var(--${mRandColor}));
+--randCAll: color-mix(in srgb, ${mRandColor} ${mRandTone}%, ${mRandColor2});
+--randCAll2: color-mix(in srgb, ${mRandColor2} ${mRandTone2}%, ${mRandColor});
 }
 
 .randCAll { color: var(--randCAll); }
