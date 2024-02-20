@@ -2,17 +2,20 @@
 
 
 
-
+let demoCounter = 0;
+demoCounter = iconsJsonVar.length;
 
 var lIconsPrint = '';
 iconsJsonVar.forEach((val) => {
 
+//let demoSvgFileName = val.text;
+
 lIconsPrint += `
 
-<div class="itemt bg2 shadow borderRadius3 padding2 small">
+<div class="item bg2 shadow borderRadius3 padding2">
 ${val.text}
 <hr>
-<div style="width: 64px; height: 64px;">${val.text2}</div>
+<div><a href="../../icons-data/${val.text}.svg">${val.text2}</a></div>
 </div>
 
 `;
@@ -22,8 +25,12 @@ ${val.text}
 
 document.getElementById("demo").innerHTML = `
 
+<b class="block tCenter padding3">SVG icons, total: ${demoCounter}</b><br>
+
 <div class="flexBlock">
+
 ${lIconsPrint}
+
 </div>
 
 `;

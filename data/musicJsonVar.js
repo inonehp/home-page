@@ -16507,6 +16507,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Tones And I - Dance Monkey (Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=_1uvHJWzM1E",
+        "tag": "#music"
+    },
+    {
         "text": "TONES AND I - DANCE MONKEY (OFFICIAL VIDEO) - YouTube",
         "text2": "",
         "text3": "",

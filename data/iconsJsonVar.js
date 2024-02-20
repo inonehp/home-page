@@ -4,40 +4,6 @@ var iconsJsonVar =
 
 
 {
-"text": `arch`,
-"text2": `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <clipPath id="clipPath1527">
-   <rect transform="rotate(45)" x=".81645" y="-1.9655" width="129.09" height="68.621" fill="#c17d11" fill-opacity=".99966" stroke-width="6.6823"/>
-  </clipPath>
-  <clipPath id="clipPath2109">
-   <ellipse cx="67.733" cy="101.91" rx="20.149" ry="28.482" display="none" fill="#c17d11" fill-opacity=".99966" stroke-width="5.2917"/>
-   <path class="powerclip" d="m9.4444 36.628h116.58v62.211h-116.58zm78.438 65.286a20.149 28.482 0 0 0-20.149-28.482 20.149 28.482 0 0 0-20.149 28.482 20.149 28.482 0 0 0 20.149 28.482 20.149 28.482 0 0 0 20.149-28.482z" fill="#c17d11" fill-opacity=".99966" stroke-width="5.2917"/>
-  </clipPath>
- </defs>
- <g clip-path="url(#clipPath2109)">
-  <path transform="rotate(-45 32.813 13.592)" d="m-37.681 58.108h75.362v75.362h-75.362z" clip-path="url(#clipPath1527)" fill-opacity=".99966" stroke-width="4.1378"/>
- </g>
-</svg>
-`,
-},
-
-{
-"text": `brain`,
-"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <clipPath id="clipPath1118">
-   <rect x="57.273" y="9.5668" width="20.924" height="116.55" d="M 57.272797,9.566761 H 78.197206 V 126.12154 H 57.272797 Z" display="none" stroke-width="4.226"/>
-   <path class="powerclip" d="m4.2698 12.279h126.93v110.91h-126.93zm53.003-2.7124v116.55h20.924v-116.55z" stroke-width="4.226"/>
-  </clipPath>
- </defs>
- <path d="m126.2 67.735a58.465 50.456 0 0 1-58.465 50.456 58.465 50.456 0 0 1-58.465-50.456 58.465 50.456 0 0 1 58.465-50.456 58.465 50.456 0 0 1 58.465 50.456z" clip-path="url(#clipPath1118)" stroke-width="5.2918"/>
-</svg>
-`,
-},
-
-{
 "text": `calculator`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <defs>
@@ -66,7 +32,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `camera`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -81,9 +46,8 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
-"text": `clapper board`,
+"text": `clapper-board`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <g transform="translate(-16.12 16.027)">
   <rect x="52.401" y="213.64" width="413.73" height="255.7"/>
@@ -92,7 +56,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `dots`,
 "text2": `<?xml version="1.0" encoding="UTF-8"?>
@@ -103,7 +66,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `game`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -115,7 +77,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `gear`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -135,7 +96,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `heart`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -143,7 +103,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `hi`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +113,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `image`,
 "text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -266,7 +224,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `information`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -285,7 +242,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `keyboard`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -330,9 +286,8 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
-"text": `light bulb`,
+"text": `light-bulb`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <clipPath id="clipPath1398">
@@ -347,7 +302,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `link`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -368,7 +322,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `map`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -379,7 +332,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `memo`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -401,7 +353,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `movie`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -413,7 +364,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `music`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -425,7 +375,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `number`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -440,7 +389,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `page`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -461,7 +409,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `palette`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -487,7 +434,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `pencil`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -499,7 +445,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `proportions`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -512,7 +457,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `pushpin`,
 "text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -607,7 +551,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `radio`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -625,9 +568,8 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
-"text": `rounded rectangle`,
+"text": `rounded-rectangle`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <clipPath id="clipPath1946">
@@ -639,7 +581,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `search`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -657,32 +598,26 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `store`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <clipPath id="clipPath1879">
-   <ellipse cx="67.735" cy="67.735" rx="23.724" ry="23.765" d="M 91.458994,67.735001 A 23.723993,23.765114 0 0 1 67.735001,91.500114 23.723993,23.765114 0 0 1 44.011007,67.735001 23.723993,23.765114 0 0 1 67.735001,43.969887 23.723993,23.765114 0 0 1 91.458994,67.735001 Z" display="none" stroke-width="5.7816"/>
+   <ellipse cx="67.735" cy="67.735" rx="23.724" ry="23.765" display="none" stroke-width="5.7816"/>
    <path class="powerclip" d="m30.164 30.107h75.142v75.255h-75.142zm61.295 37.628a23.724 23.765 0 0 0-23.724-23.765 23.724 23.765 0 0 0-23.724 23.765 23.724 23.765 0 0 0 23.724 23.765 23.724 23.765 0 0 0 23.724-23.765z" stroke-width="5.7816"/>
   </clipPath>
   <clipPath id="clipath_lpe_path-effect1883-5">
-   <ellipse cx="67.735" cy="67.735" rx="23.724" ry="23.765" d="M 91.458994,67.735001 A 23.723993,23.765114 0 0 1 67.735001,91.500114 23.723993,23.765114 0 0 1 44.011007,67.735001 23.723993,23.765114 0 0 1 67.735001,43.969887 23.723993,23.765114 0 0 1 91.458994,67.735001 Z" display="none" stroke-width="5.7816"/>
+   <ellipse cx="67.735" cy="67.735" rx="23.724" ry="23.765" display="none" stroke-width="5.7816"/>
    <path class="powerclip" d="m30.164 30.107h75.142v75.255h-75.142zm61.295 37.628a23.724 23.765 0 0 0-23.724-23.765 23.724 23.765 0 0 0-23.724 23.765 23.724 23.765 0 0 0 23.724 23.765 23.724 23.765 0 0 0 23.724-23.765z" stroke-width="5.7816"/>
   </clipPath>
  </defs>
- <g transform="translate(-4.7463)">
-  <rect x="8.359" y="49.158" width="65.142" height="51.441" stroke-width="5.4007"/>
-  <path transform="translate(-26.805 -11.335)" d="m100.31 67.735a32.571 32.628 0 0 1-32.571 32.628 32.571 32.628 0 0 1-32.571-32.628 32.571 32.628 0 0 1 32.571-32.628 32.571 32.628 0 0 1 32.571 32.628z" clip-path="url(#clipPath1879)" stroke-width="7.9377"/>
- </g>
- <g transform="translate(4.972)">
-  <rect x="77.323" y="72.381" width="49.788" height="39.316" stroke-width="4.1277"/>
-  <path transform="matrix(.7643 0 0 .7643 50.447 26.147)" d="m100.31 67.735a32.571 32.628 0 0 1-32.571 32.628 32.571 32.628 0 0 1-32.571-32.628 32.571 32.628 0 0 1 32.571-32.628 32.571 32.628 0 0 1 32.571 32.628z" clip-path="url(#clipath_lpe_path-effect1883-5)" stroke-width="7.9377"/>
- </g>
+ <rect x="3.6127" y="49.158" width="65.142" height="51.441" stroke-width="5.4007"/>
+ <path transform="translate(-31.551 -18.526)" d="m100.31 67.735a32.571 32.628 0 0 1-32.571 32.628 32.571 32.628 0 0 1-32.571-32.628 32.571 32.628 0 0 1 32.571-32.628 32.571 32.628 0 0 1 32.571 32.628z" clip-path="url(#clipPath1879)" stroke-width="7.9377"/>
+ <rect x="82.295" y="72.381" width="49.788" height="39.316" stroke-width="4.1277"/>
+ <path transform="matrix(.7643 0 0 .7643 55.419 20.617)" d="m100.31 67.735a32.571 32.628 0 0 1-32.571 32.628 32.571 32.628 0 0 1-32.571-32.628 32.571 32.628 0 0 1 32.571-32.628 32.571 32.628 0 0 1 32.571 32.628z" clip-path="url(#clipath_lpe_path-effect1883-5)" stroke-width="7.9377"/>
 </svg>
 `,
 },
-
 {
 "text": `tv`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -700,7 +635,6 @@ var iconsJsonVar =
 </svg>
 `,
 },
-
 {
 "text": `warning`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -708,12 +642,6 @@ var iconsJsonVar =
  <rect x="54.506" y="98.486" width="26.459" height="27.669" ry="9.2467" stroke-width="8.1296"/>
 </svg>
 `,
-},
-
-
-{
-"text": "",
-"text2": ""
 }
 
 ]
