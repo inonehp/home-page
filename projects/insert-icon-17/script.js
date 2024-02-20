@@ -1,5 +1,11 @@
-// Fu insert icon v.4.0.2
+// Fu insert icon v.4.0.3
 // Function for insert icon in links using class name.
+/*
+How to use:
+1. Add class: "insertIcon" to link
+2. Embed two scripts: iconsJsonVar.js and then script.js
+3. Run function: insertIcon('insertIcon', '', 'on', iconsJsonVar);
+*/
 
 
 
@@ -73,7 +79,7 @@ let icons = [
 {"t":"twitch", "t2":"🔴"},
 {"t":"docs", "t2":"📄", "t3":"page"},
 {"t":"geany", "t2":"🫖"},
-{"t":"blender", "t2":"✏️"},
+{"t":"blender", "t2":"✏️", "t3":"pencil"},
 {"t":"framer", "t2":"//"},
 {"t":"facebook", "t2":"🇫"},
 {"t":"cloudflare", "t2":"⚡"},
@@ -142,7 +148,7 @@ let icons2 = [
 {"t":"box", "t2":"📦"},
 {"t":"bookmark", "t2":"🔖"},
 {"t":"brain", "t2":"🧠"},
-{"t":"memory", "t2":"🧠"},
+{"t":"memory", "t2":"🧠", "t3":"brain"},
 {"t":"calculator", "t2":"🧮"},
 {"t":"abacus", "t2":"🧮"},
 {"t":"count", "t2":"🧮"},
@@ -169,10 +175,11 @@ let icons2 = [
 {"t":"dir", "t2":"📁️"},
 {"t":"developer", "t2":"💻"},
 {"t":"document", "t2":"📄", "t3":"page"},
-{"t":"draw", "t2":"✏️"},
-{"t":"drawing", "t2":"✏️"},
-{"t":"paint", "t2":"✏️"},
-{"t":"painting", "t2":"✏️"},
+{"t":"draw", "t2":"✏️", "t3":"pencil"},
+{"t":"drawing", "t2":"✏️", "t3":"pencil"},
+{"t":"paint", "t2":"✏️", "t3":"pencil"},
+{"t":"pencil", "t2":"✏️"},
+{"t":"painting", "t2":"✏️", "t3":"pencil"},
 {"t":"art", "t2":"🎨", "t3":"palette"},
 {"t":"earth", "t2":"🌍"},
 {"t":"embed", "t2":"▣"},
@@ -181,7 +188,7 @@ let icons2 = [
 {"t":"file", "t2":"🗃️"},
 {"t":"game", "t2":"🎮", "t3":"game"},
 {"t":"mmorpg", "t2":"🎮", "t3":"game"},
-{"t":"idea", "t2":"💡"},
+{"t":"idea", "t2":"💡","t3":"light bulb"},
 {"t":"fire", "t2":"🔥"},
 {"t":"teapot", "t2":"🫖"},
 {"t":"teacup", "t2":"🍵"},
@@ -196,8 +203,8 @@ let icons2 = [
 {"t":"paste", "t2":"📋"},
 {"t":"joystick", "t2":"🕹"},
 {"t":"keyboard", "t2":"⌨️"},
-{"t":"typing", "t2":"⌨️"},
-{"t":"input", "t2":"⌨️"},
+{"t":"typing", "t2":"⌨️", "t3":"keyboard"},
+{"t":"input", "t2":"⌨️", "t3":"keyboard"},
 {"t":"mark", "t2":"✔️"},
 {"t":"check", "t2":"✅"},
 {"t":"label", "t2":"🏷️"},
@@ -303,7 +310,7 @@ let icons2 = [
 {"t":"star", "t2":"⭐"},
 {"t":"stopwatch", "t2":"⏱️"},
 {"t":"text", "t2":"📄", "t3":"page"},
-{"t":"textarea", "t2":"◻"},
+{"t":"textarea", "t2":"◻", "t3":"rounded rectangle"},
 {"t":"texture", "t2":"ᚙ"},
 {"t":"textures", "t2":"ᚙ"},
 {"t":"grid", "t2":"ᚙ"},

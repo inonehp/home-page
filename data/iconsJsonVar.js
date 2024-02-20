@@ -24,6 +24,20 @@ var iconsJsonVar =
 },
 
 {
+"text": `brain`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1118">
+   <rect x="57.273" y="9.5668" width="20.924" height="116.55" d="M 57.272797,9.566761 H 78.197206 V 126.12154 H 57.272797 Z" display="none" stroke-width="4.226"/>
+   <path class="powerclip" d="m4.2698 12.279h126.93v110.91h-126.93zm53.003-2.7124v116.55h20.924v-116.55z" stroke-width="4.226"/>
+  </clipPath>
+ </defs>
+ <path d="m126.2 67.735a58.465 50.456 0 0 1-58.465 50.456 58.465 50.456 0 0 1-58.465-50.456 58.465 50.456 0 0 1 58.465-50.456 58.465 50.456 0 0 1 58.465 50.456z" clip-path="url(#clipPath1118)" stroke-width="5.2918"/>
+</svg>
+`,
+},
+
+{
 "text": `dots`,
 "text2": `<?xml version="1.0" encoding="UTF-8"?>
 <svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
@@ -178,6 +192,68 @@ var iconsJsonVar =
 },
 
 {
+"text": `keyboard`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath13992-5">
+   <rect x="2.9449" y="2.945" width="506.11" height="506.11" fill="#555753" stroke="#343434" stroke-width="5.8899"/>
+  </clipPath>
+  <clipPath id="clipPath13992-5-9">
+   <rect x="2.9449" y="2.945" width="506.11" height="506.11" fill="#555753" stroke="#343434" stroke-width="5.8899"/>
+  </clipPath>
+  <clipPath id="clipPath13992-5-5">
+   <rect x="2.9449" y="2.945" width="506.11" height="506.11" fill="#555753" stroke="#343434" stroke-width="5.8899"/>
+  </clipPath>
+  <clipPath id="clipPath13992-5-9-8">
+   <rect x="2.9449" y="2.945" width="506.11" height="506.11" fill="#555753" stroke="#343434" stroke-width="5.8899"/>
+  </clipPath>
+  <clipPath id="clipPath13992-85-4">
+   <rect x="2.9449" y="2.945" width="506.11" height="506.11" fill="#555753" stroke="#343434" stroke-width="5.8899"/>
+  </clipPath>
+  <clipPath id="clipPath13992-5-5-8">
+   <rect x="2.9449" y="2.945" width="506.11" height="506.11" fill="#555753" stroke="#343434" stroke-width="5.8899"/>
+  </clipPath>
+  <clipPath id="clipPath13992-5-9-8-3">
+   <rect x="2.9449" y="2.945" width="506.11" height="506.11" fill="#555753" stroke="#343434" stroke-width="5.8899"/>
+  </clipPath>
+ </defs>
+ <g>
+  <rect transform="matrix(1.3953 0 0 .24053 76.891 331.39)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-85-4)"/>
+  <g transform="translate(4.2908e-7 -13.117)">
+   <rect transform="matrix(.29544 0 0 .28631 80.314 153.93)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-9)"/>
+   <rect transform="matrix(.29544 0 0 .28631 80.13 239.08)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-5)"/>
+   <rect transform="matrix(.29544 0 0 .28631 218.17 153.93)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5)"/>
+   <rect transform="matrix(.29544 0 0 .28631 217.98 239.08)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-9-8)"/>
+   <rect transform="matrix(.29544 0 0 .28631 356.02 153.93)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-5-8)"/>
+   <rect transform="matrix(.29544 0 0 .28631 355.84 239.08)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-9-8-3)"/>
+  </g>
+  <rect y="74.396" width="512" height="30" stroke-width="26.375"/>
+  <rect y="416.54" width="512" height="30" stroke-width="26.375"/>
+  <rect y="74.396" width="30" height="372.15" stroke-width="6.7222"/>
+  <rect x="482" y="74.396" width="30" height="372.15" stroke-width="6.7222"/>
+ </g>
+</svg>
+`,
+},
+
+{
+"text": `light bulb`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1398">
+   <rect x="94.28" y="389.38" width="327.06" height="41.754" d="m 94.2798,389.37708 h 327.06107 v 41.75377 H 94.2798 Z" display="none" stroke-width="24.589"/>
+   <path class="powerclip" d="m167.62 325.63h177.97v164.68h-177.97zm-73.339 63.75v41.754h327.06v-41.754z" stroke-width="24.589"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(0 17.801)">
+  <ellipse cx="256" cy="148.28" rx="162.02" ry="139.39" stroke-width="30"/>
+ </g>
+ <path x="172.61842" y="330.62729" width="167.96994" height="154.67697" ry="32.497353" d="m205.12 330.63h102.98c18.004 0 32.497 14.494 32.497 32.497v89.682c0 18.004-14.494 32.497-32.497 32.497h-102.98c-18.004 0-32.497-14.494-32.497-32.497v-89.682c0-18.004 14.494-32.497 32.497-32.497z" clip-path="url(#clipPath1398)" stroke-width="29.369"/>
+</svg>
+`,
+},
+
+{
 "text": `link`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <g transform="translate(-8.0629)" stroke-width="4.5612">
@@ -261,15 +337,34 @@ var iconsJsonVar =
  <defs>
   <clipPath id="clipPath1214">
    <g display="none">
-    <circle cx="30.216" cy="104.62" r="18.29" d="M 48.505852,104.6231 A 18.289534,18.289534 0 0 1 30.216318,122.91263 18.289534,18.289534 0 0 1 11.926785,104.6231 18.289534,18.289534 0 0 1 30.216318,86.333567 18.289534,18.289534 0 0 1 48.505852,104.6231 Z" fill="#a40000" stroke-width="7.9377"/>
-    <circle cx="30.74" cy="51.188" r="13.717" d="M 44.456692,51.187618 A 13.717148,13.717148 0 0 1 30.739544,64.904766 13.717148,13.717148 0 0 1 17.022396,51.187618 13.717148,13.717148 0 0 1 30.739544,37.47047 13.717148,13.717148 0 0 1 44.456692,51.187618 Z" fill="#a40000" stroke-width="5.9533"/>
-    <circle cx="70.787" cy="42.548" r="13.717" d="M 84.50444,42.547523 A 13.717148,13.717148 0 0 1 70.787292,56.264671 13.717148,13.717148 0 0 1 57.070145,42.547523 13.717148,13.717148 0 0 1 70.787292,28.830376 13.717148,13.717148 0 0 1 84.50444,42.547523 Z" fill="#a40000" stroke-width="5.9533"/>
-    <circle cx="113.61" cy="62.382" r="13.717" d="M 127.32999,62.382256 A 13.717148,13.717148 0 0 1 113.61285,76.099403 13.717148,13.717148 0 0 1 99.895699,62.382256 13.717148,13.717148 0 0 1 113.61285,48.665108 13.717148,13.717148 0 0 1 127.32999,62.382256 Z" fill="#a40000" stroke-width="5.9533"/>
+    <circle cx="30.216" cy="104.62" r="18.29" fill="#a40000" stroke-width="7.9377"/>
+    <circle cx="30.74" cy="51.188" r="13.717" fill="#a40000" stroke-width="5.9533"/>
+    <circle cx="70.787" cy="42.548" r="13.717" fill="#a40000" stroke-width="5.9533"/>
+    <circle cx="113.61" cy="62.382" r="13.717" fill="#a40000" stroke-width="5.9533"/>
    </g>
    <path class="powerclip" d="m-3.1258 13.639h141.72v108.19h-141.72zm51.632 90.984a18.29 18.29 0 0 0-18.29-18.29 18.29 18.29 0 0 0-18.29 18.29 18.29 18.29 0 0 0 18.29 18.29 18.29 18.29 0 0 0 18.29-18.29zm-4.0492-53.435a13.717 13.717 0 0 0-13.717-13.717 13.717 13.717 0 0 0-13.717 13.717 13.717 13.717 0 0 0 13.717 13.717 13.717 13.717 0 0 0 13.717-13.717zm40.048-8.6401a13.717 13.717 0 0 0-13.717-13.717 13.717 13.717 0 0 0-13.717 13.717 13.717 13.717 0 0 0 13.717 13.717 13.717 13.717 0 0 0 13.717-13.717zm42.826 19.835a13.717 13.717 0 0 0-13.717-13.717 13.717 13.717 0 0 0-13.717 13.717 13.717 13.717 0 0 0 13.717 13.717 13.717 13.717 0 0 0 13.717-13.717z"/>
   </clipPath>
+  <clipPath id="clipPath1064">
+   <circle cx="107.29" cy="63.734" r="13.97" display="none" fill="#c00" stroke-width="7.9377"/>
+   <path class="powerclip" d="m-3.122 13.639h141.72v108.19h-141.72zm124.39 50.095a13.97 13.97 0 0 0-13.97-13.97 13.97 13.97 0 0 0-13.97 13.97 13.97 13.97 0 0 0 13.97 13.97 13.97 13.97 0 0 0 13.97-13.97z" fill="#c00" stroke-width="7.9377"/>
+  </clipPath>
  </defs>
- <path d="m133.6 67.735a65.861 49.096 0 0 1-65.861 49.096 65.861 49.096 0 0 1-65.861-49.096 65.861 49.096 0 0 1 65.861-49.096 65.861 49.096 0 0 1 65.861 49.096z" clip-path="url(#clipPath1214)" stroke-width="7.9377"/>
+ <g clip-path="url(#clipPath1064)" stroke-width="7.9377">
+  <path d="m133.6 67.735a65.861 49.096 0 0 1-65.861 49.096 65.861 49.096 0 0 1-65.861-49.096 65.861 49.096 0 0 1 65.861-49.096 65.861 49.096 0 0 1 65.861 49.096z" clip-path="url(#clipPath1214)"/>
+  <ellipse cx="113.18" cy="65.81" rx="16.445" ry="20.357"/>
+ </g>
+</svg>
+`,
+},
+
+{
+"text": `pencil`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <g transform="rotate(135 67.966 68.127)">
+  <rect x="47.807" y="32.923" width="39.688" height="58.272"/>
+  <rect x="47.807" y="101.34" width="39.688" height="27.322"/>
+  <path d="m47.807 24.353h39.688l-19.441-35.724z"/>
+ </g>
 </svg>
 `,
 },
@@ -396,6 +491,20 @@ var iconsJsonVar =
   <rect transform="rotate(135)" x="-49.338" y="-121.14" width="8.6699" height="65.859" stroke-width="7.774"/>
   <rect x="38.667" y="74.896" width="56.68" height="5.1092" stroke-width="7.9377"/>
  </g>
+</svg>
+`,
+},
+
+{
+"text": `rounded rectangle`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1946">
+   <rect x="100.41" y="145.25" width="311.18" height="221.49" rx="31.379" ry="44.384" d="m 131.78786,145.25403 h 248.42428 c 17.38374,0 31.37859,19.79515 31.37859,44.38374 v 132.72446 c 0,24.58859 -13.99485,44.38374 -31.37859,44.38374 H 131.78786 c -17.38374,0 -31.37859,-19.79515 -31.37859,-44.38374 V 189.63777 c 0,-24.58859 13.99485,-44.38374 31.37859,-44.38374 z" display="none" fill="#ef2929" stroke-width="22.301"/>
+   <path class="powerclip" d="m31 94.409h450v323.18h-450zm100.79 50.845c-17.384 0-31.379 19.795-31.379 44.384v132.72c0 24.589 13.995 44.384 31.379 44.384h248.42c17.384 0 31.379-19.795 31.379-44.384v-132.72c0-24.589-13.995-44.384-31.379-44.384z" fill="#ef2929" stroke-width="22.301"/>
+  </clipPath>
+ </defs>
+ <path x="36" y="99.408966" width="440" height="313.18207" ry="62.757103" d="m98.757 99.409h314.49c34.767 0 62.757 27.99 62.757 62.757v187.67c0 34.767-27.99 62.757-62.757 62.757h-314.49c-34.767 0-62.757-27.99-62.757-62.757v-187.67c0-34.767 27.99-62.757 62.757-62.757z" clip-path="url(#clipPath1946)" stroke-width="31.533"/>
 </svg>
 `,
 },

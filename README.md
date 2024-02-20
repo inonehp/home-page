@@ -1,4 +1,4 @@
-<!-- README.md v.1.4.3 -->
+<!-- README.md v.1.5.0 -->
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
@@ -6,12 +6,12 @@
 🔍 Search (redirect).  
 🛍️ Extension New Tab: any site in each new tab.  
 🎨 Themes for: Geany IDE, and Firefox.  
-📝 To-do, typing ...  
+📝 To-do, typing, icons ...  
   
 ---
   
-### 📁 [ZIP](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)
-### 🔗 [inonehp.pages.dev](https://inonehp.pages.dev/)
+## 📁 ZIP: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)
+## 🔗 URL [inonehp.pages.dev](https://inonehp.pages.dev/)
   
 ---
   
@@ -22,6 +22,23 @@
   
 ---
   
+# Other:
+## 🖼️ icons:
+  
+![icons](/img/screenshots/icons.png)
+  
+
+---
+  
+  
+<!-- 
+### 🖼️ Screenshots:  
+
+![light theme](/img/screenshots/light.png)
+![dark theme](/img/screenshots/dark.png)
+![theme option](/img/screenshots/theme-option.png)
+-->
+
 ### 🏷️ Speed dial (GitHub explore):  
 [#Website](https://github.com/topics/website?s=updated),
 [#Personal](https://github.com/topics/personal?s=updated),
@@ -30,13 +47,5 @@
 [#CSS](https://github.com/topics/css?s=updated),
 [#JavaScript](https://github.com/topics/javascript?s=updated),
 [#Theme](https://github.com/topics/theme?s=updated),
-  
-  
-<!--### Screenshots:  
-
-![light theme](/img/screenshot.png)
-![dark theme](/img/screenshot2.png)
-![setting page with list of color themes](/img/screenshot3.png)
--->
 
 

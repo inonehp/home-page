@@ -1,4 +1,4 @@
-// v.1.2.5
+// v.1.3.0
 
 var limit = 10;
 var rangeValue = 0;
@@ -220,6 +220,7 @@ document.getElementById("range").value = answer[0];
 
 
 
+
 document.getElementById("result").innerHTML = print; 
 
 
@@ -234,6 +235,24 @@ document.getElementById("number").addEventListener("input", updateValue);
 
 
 
+// button prev
+function submitButtonDynamic(){
+
+rangeValue = document.getElementById("range").value;
+document.getElementById("range").value = rangeValue;
+document.getElementById("number").value = rangeValue;
+
+document.getElementById("number2").innerHTML = `
+
+<input id="number" class="tCenter" type="number" name="number" value="${rangeValue}" min="0" max="${mode[0]}">
+
+`;
+
+}
+
+document.getElementById("result").onmousemove = (event) => {
+submitButtonDynamic();
+};
 
 
 

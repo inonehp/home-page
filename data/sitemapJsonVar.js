@@ -7,7 +7,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": ".\n\nHome Page and Projects.  \nSearch (redirect).  \nExtension New Tab: any site in each new tab.  \nThemes for: Geany IDE, and Firefox.  \nTo-do, typing ... ",
+        "text": ".\n\nHome Page and Projects.  \nSearch (redirect).  \nExtension New Tab: any site in each new tab.  \nThemes for: Geany IDE, and Firefox.  \nTo-do, typing, icons ... ",
         "url": "\/index.html",
         "tag": " #website #WebDesign #project #projects #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #game #template #page #main",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
@@ -204,9 +204,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Dropdown menu\n\nDropdown Menu project. ",
-        "url": "\/archive\/projects\/dropdown-menu-8\/index.html",
+        "url": "\/archive\/dropdown-menu-8\/index.html",
         "tag": " #menu #UI #UX #dropdown #menu #JavaScript #WebDesign #project",
-        "id": "de07af4016895071d271d48a2833e102",
+        "id": "f8cf61642a0a5af3afe68b79fc06677e",
         "time": "id"
     },
     {
@@ -438,6 +438,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/navigation-54\/index.html",
         "tag": " #navigation #menu #dropdown #CSS #JavaScript #project",
         "id": "7ce68fffa61d1d30e58bc8a6f3cbfbc9",
+        "time": "id"
+    },
+    {
+        "text": "Not sleep pc\n\nA page to force the computer not to go into sleep mode, the page simply has a video that repeats itself endlessly. ",
+        "url": "\/archive\/not-sleep-pc-12\/index.html",
+        "tag": " #not #sleep #PC #computer #prevent #hibernation #HTML #project",
+        "id": "95158dd09f1a8393079a2e6d8f0ecd8c",
         "time": "id"
     },
     {
