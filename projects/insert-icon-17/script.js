@@ -1,4 +1,4 @@
-// Fu insert icon v.4.0.3
+// Fu insert icon v.4.0.4
 // Function for insert icon in links using class name.
 /*
 How to use:
@@ -424,7 +424,7 @@ icon = String(item33["t2"]);
 if(item33["t3"] == undefined){ item33["t3"] = item33["t"]; }
 let iconSvg = fuMGetSvgIcon(item33["t3"], jsonVar);
 if(iconSvg != ''&&iconSvg != undefined){
-icon = `<div class="inlineFlex" style="width: 16px; height: 16px;">${iconSvg}</div>`;
+icon = `<div style="display: inline-flex; width: 16px; height: 16px;">${iconSvg}</div>`;
 }
 //console.log((linkText.toLowerCase()+'')+((icon+' ')));
 

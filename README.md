@@ -1,4 +1,4 @@
-<!-- README.md v.1.5.0 -->
+<!-- README.md v.1.5.1 -->
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
@@ -47,5 +47,9 @@
 [#CSS](https://github.com/topics/css?s=updated),
 [#JavaScript](https://github.com/topics/javascript?s=updated),
 [#Theme](https://github.com/topics/theme?s=updated),
-
-
+  
+[#Firefox](https://github.com/topics/firefox?s=updated),
+[#Geany](https://github.com/topics/geany?s=updated),
+[#Todo](https://github.com/topics/todo?s=updated),
+[#Typing](https://github.com/topics/typing?s=updated),
+[#Icons](https://github.com/topics/icons?s=updated),
