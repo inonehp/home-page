@@ -22,14 +22,24 @@
   
 ---
   
-# Other:
-## 🖼️ icons:
+## Other
+
+### 🖼️ Icons (in progress):
   
 ![icons](/img/screenshots/icons.png)
+
+
+### 🖼️ Firefox (in progress):
   
+![Firefox light theme](/img/screenshots/firefox-light.png)
+![Firefox dark theme](/img/screenshots/firefox-dark.png)
+
+### 🖼️ Geany color theme:
+  
+![Geany light color](/img/screenshots/geany-light.png)
+![Geany dark color](/img/screenshots/geany-dark.png)
 
 ---
-  
   
 <!-- 
 ### 🖼️ Screenshots:  
@@ -37,8 +47,10 @@
 ![light theme](/img/screenshots/light.png)
 ![dark theme](/img/screenshots/dark.png)
 ![theme option](/img/screenshots/theme-option.png)
--->
 
+---
+  
+-->
 ### 🏷️ Speed dial (GitHub explore):  
 [#Website](https://github.com/topics/website?s=updated),
 [#Personal](https://github.com/topics/personal?s=updated),
