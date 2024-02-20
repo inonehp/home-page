@@ -1,4 +1,4 @@
-// Main js v.6.3.4
+// Main js v.6.3.5
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -445,7 +445,7 @@ document.getElementById(id).scrollIntoView();
 // // footer
 
 
-
+/*
 // embed file url
 if(
 (window.location.href).indexOf(('/projects/')) != -1
@@ -464,7 +464,7 @@ if (response.ok == true) {  fuMPrintText('fEmbedFileUrl', `<span><a class="op in
 }
 });
 }
-// // embed file url
+// // embed file url*/
 
 
 // Device 1.0.0
