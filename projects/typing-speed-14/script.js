@@ -1,4 +1,4 @@
-// v.3.15.7
+// v.3.15.8
 
 
 
@@ -82,7 +82,7 @@ document.getElementById("mode").innerHTML = `
 ${modeListPrint}
 
 <!-- https://developer.mozilla.org/docs/Web/API/Document/getSelection -->
-<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://localhost/projects/14-typing-speed/?mode=input&q='+encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
+<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://localhost/projects/typing-speed-14/?mode=input&q='+encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
 
 `;
 
@@ -1197,7 +1197,8 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 document.getElementsByClassName("msg2")[0].innerHTML = `
 <div class="block padding2"></div>
-<div class="block op xSmall padding2 wrapper2 tRight">* word - ${wordLengthLimit} symbol | Average WPM - last ${wmpAverageLimit} | allowed error for result: ${allowError} | for query: ?q=text</div>
+<div class="block op xSmall padding2 wrapper2 tRight pre">* word - ${wordLengthLimit} symbol | Average WPM - last ${wmpAverageLimit} | allowed error for result: ${allowError}
+for your own text use the URL or query: ?q=your text</div>
 `;
 
 

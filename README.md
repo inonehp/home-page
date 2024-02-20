@@ -24,20 +24,27 @@
   
 ## Other
 
-### 🖼️ Icons (in progress):
-  
-![icons](/img/screenshots/icons.png)
-
-
-### 🖼️ Firefox themes:
+### 🖼️ Firefox themes:  
   
 ![Firefox light theme](/img/screenshots/firefox-light.png)
-![Firefox dark theme](/img/screenshots/firefox-dark.png)
+![Firefox dark theme](/img/screenshots/firefox-dark.png)  
 
-### 🖼️ Geany color theme:
+### 🖼️ Geany color theme:  
   
 ![Geany light color](/img/screenshots/geany-light.png)
-![Geany dark color](/img/screenshots/geany-dark.png)
+![Geany dark color](/img/screenshots/geany-dark.png)  
+
+### 🖼️ To-do:  
+  
+![todo](/img/screenshots/todo.png)
+
+### 🖼️ Typing (with own text):  
+  
+![todo](/img/screenshots/typing.png)
+
+### 🖼️ Icons (in progress):  
+  
+![icons](/img/screenshots/icons.png)
 
 ---
   
