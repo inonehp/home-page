@@ -22,27 +22,37 @@
   
 ---
   
-## Screenshots:
-
-### 🖼️ Firefox themes:  
+## 🖼️ Screenshots:
+  
+---
+  
+### 🎨 Firefox themes:  
   
 ![Firefox light theme](/img/screenshots/firefox-light.png)
 ![Firefox dark theme](/img/screenshots/firefox-dark.png)  
-
-### 🖼️ Geany color theme:  
+  
+---
+  
+### 🎨 Geany color theme:  
   
 ![Geany light color](/img/screenshots/geany-light.png)
 ![Geany dark color](/img/screenshots/geany-dark.png)  
-
-### 🖼️ To-do:  
+  
+---
+  
+### 📝 To-do:  
   
 ![todo](/img/screenshots/todo.png)
-
-### 🖼️ Typing (with own text):  
+  
+---
+  
+### ⌨️ Typing (with own text):  
   
 ![todo](/img/screenshots/typing.png)
-
-### 🖼️ Icons (in progress):  
+  
+---
+  
+### 🎨 Icons (in progress):  
   
 ![icons](/img/screenshots/icons.png)
 
@@ -58,7 +68,7 @@
 ---
   
 -->
-### 🏷️ Speed dial (GitHub explore):  
+#### 🏷️ Speed dial (GitHub explore):  
 [#Website](https://github.com/topics/website?s=updated),
 [#Personal](https://github.com/topics/personal?s=updated),
 [#Home page](https://github.com/topics/homepage?s=updated),

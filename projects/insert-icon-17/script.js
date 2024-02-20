@@ -181,6 +181,7 @@ let icons2 = [
 {"t":"pencil", "t2":"✏️"},
 {"t":"painting", "t2":"✏️", "t3":"pencil"},
 {"t":"art", "t2":"🎨", "t3":"palette"},
+{"t":"icon", "t2":"🎨", "t3":"palette"},
 {"t":"earth", "t2":"🌍"},
 {"t":"embed", "t2":"▣"},
 {"t":"flash", "t2":"⚡"},
