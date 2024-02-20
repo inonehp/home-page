@@ -1,4 +1,4 @@
-<!-- README.md v.1.6.0 -->
+<!-- README.md v.1.6.1 -->
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
@@ -15,7 +15,7 @@
   
 ---
   
-> [!NOTE:]
+> [!NOTE]
 > - You can find information about other licenses on the "About" page.  
 > - Top resources for creating this site and projects: [MDN Web Docs](https://developer.mozilla.org/), [W3Schools](https://www.w3schools.com/), [Web.dev](https://web.dev/), [Stack Overflow](https://stackoverflow.com/)  
 > - This about page was built using [GitHub](https://github.com/)  
