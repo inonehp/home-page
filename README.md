@@ -29,7 +29,7 @@
 ![icons](/img/screenshots/icons.png)
 
 
-### 🖼️ Firefox (in progress):
+### 🖼️ Firefox themes:
   
 ![Firefox light theme](/img/screenshots/firefox-light.png)
 ![Firefox dark theme](/img/screenshots/firefox-dark.png)
