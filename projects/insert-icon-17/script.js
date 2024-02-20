@@ -1,4 +1,4 @@
-// Fu insert icon v.4.0.1
+// Fu insert icon v.4.0.2
 // Function for insert icon in links using class name.
 
 
@@ -77,8 +77,8 @@ let icons = [
 {"t":"framer", "t2":"//"},
 {"t":"facebook", "t2":"🇫"},
 {"t":"cloudflare", "t2":"⚡"},
-{"t":"behance", "t2":"🎨"},
-{"t":"dribbble", "t2":"🎨"},
+{"t":"behance", "t2":"🎨", "t3":"palette"},
+{"t":"dribbble", "t2":"🎨", "t3":"palette"},
 {"t":"codepen", "t2":"📜"},
 {"t":"github", "t2":"🐱"},
 {"t":"neocities", "t2":"🐱"},
@@ -169,13 +169,11 @@ let icons2 = [
 {"t":"dir", "t2":"📁️"},
 {"t":"developer", "t2":"💻"},
 {"t":"document", "t2":"📄", "t3":"page"},
-{"t":"page", "t2":"📄", "t3":"page"},
-{"t":"pages", "t2":"📄", "t3":"page"},
 {"t":"draw", "t2":"✏️"},
 {"t":"drawing", "t2":"✏️"},
 {"t":"paint", "t2":"✏️"},
 {"t":"painting", "t2":"✏️"},
-{"t":"art", "t2":"🎨"},
+{"t":"art", "t2":"🎨", "t3":"palette"},
 {"t":"earth", "t2":"🌍"},
 {"t":"embed", "t2":"▣"},
 {"t":"flash", "t2":"⚡"},
@@ -217,7 +215,7 @@ let icons2 = [
 {"t":"fav", "t2":"❤"},
 {"t":"magazine", "t2":"📰"},
 {"t":"map", "t2":"📍"},
-{"t":"sitemap", "t2":"📍"},
+{"t":"sitemap", "t2":"📍", "t3":"map"},
 {"t":"mammoth ", "t2":"🦣"},
 {"t":"mastodon", "t2":"🦣"},
 {"t":"mail", "t2":"📧"},
@@ -264,17 +262,17 @@ let icons2 = [
 {"t":"search", "t2": "🔎"},
 {"t":"sleep", "t2":"😴💤"},
 {"t":"bed", "t2":"🛏"},
-{"t":"store", "t2":"🛍️"},
-{"t":"shop", "t2":"🛍️"},
-{"t":"extension", "t2":"🛍️"},
-{"t":"extensions", "t2":"🛍️"},
-{"t":"style", "t2":"🎨"},
-{"t":"css", "t2":"🎨"},
-{"t":"color", "t2":"🎨"},
-{"t":"theme", "t2":"🎨"},
-{"t":"palette", "t2":"🎨"},
-{"t":"design", "t2":"🎨"},
-{"t":"webdesign", "t2":"🎨"},
+{"t":"store", "t2":"🛍️", "t3":"store"},
+{"t":"shop", "t2":"🛍️", "t3":"store"},
+{"t":"extension", "t2":"🛍️", "t3":"store"},
+{"t":"extensions", "t2":"🛍️", "t3":"store"},
+{"t":"style", "t2":"🎨", "t3":"palette"},
+{"t":"css", "t2":"🎨", "t3":"palette"},
+{"t":"color", "t2":"🎨", "t3":"palette"},
+{"t":"theme", "t2":"🎨", "t3":"palette"},
+{"t":"palette", "t2":"🎨", "t3":"palette"},
+{"t":"design", "t2":"🎨", "t3":"palette"},
+{"t":"webdesign", "t2":"🎨", "t3":"palette"},
 {"t":"time", "t2":"⌛"},
 {"t":"timer", "t2":"⌛"},
 {"t":"tmp", "t2":"⏳"},
@@ -336,6 +334,7 @@ let icons2 = [
 {"t":"window", "t2":"🪟"},
 {"t":"windows", "t2":"🪟"},
 {"t":"work", "t2":"🛠️"},
+{"t":"page", "t2":"📄", "t3":"page"},
 
 {"t":"question", "t2":"❓"},
 {"t":"light", "t2":"⬜️"},
@@ -407,12 +406,15 @@ var textIcon = "";
 var icon = "";
 var icon2 = "";
 
+
+
 iconsArr.forEach((item33, index33) => {
 
 textIcon = String(item33["t"]);
 icon = String(item33["t2"]);
 
 // insert SVG
+if(item33["t3"] == undefined){ item33["t3"] = item33["t"]; }
 let iconSvg = fuMGetSvgIcon(item33["t3"], jsonVar);
 if(iconSvg != ''&&iconSvg != undefined){
 icon = `<div class="inlineFlex" style="width: 16px; height: 16px;">${iconSvg}</div>`;

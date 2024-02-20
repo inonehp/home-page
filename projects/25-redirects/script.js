@@ -1,4 +1,4 @@
-// Redirect v.1.7.3
+// Redirect v.1.7.4
 // The script redirects the search query + command to another location.
 
 // conf

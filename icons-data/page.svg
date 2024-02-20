@@ -1,85 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="512"
-   height="512"
-   version="1.1"
-   viewBox="0 0 135.47 135.47"
-   id="svg26"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs30" />
-  <g
-     transform="translate(6.069 .89256)"
-     id="g10">
-    <rect
-       x="8.2023"
-       y="8.5475"
-       width="106.93"
-       height="7.9377"
-       stroke-width="4.0198"
-       id="rect2" />
-    <rect
-       x="8.2023"
-       y="117.2"
-       width="106.93"
-       height="7.9377"
-       stroke-width="4.0198"
-       id="rect4" />
-    <rect
-       x="8.2023"
-       y="8.5475"
-       width="7.9377"
-       height="116.59"
-       stroke-width="4.0896"
-       id="rect6" />
-    <rect
-       x="107.19"
-       y="8.5475"
-       width="7.9377"
-       height="116.59"
-       stroke-width="4.0896"
-       id="rect8" />
-  </g>
-  <g
-     transform="matrix(0.7968402,0,0,1,13.760629,0.0017506)"
-     stroke-width="0.6146"
-     id="g24">
-    <rect
-       x="30.120001"
-       y="31.351999"
-       width="75.231003"
-       height="6.6146998"
-       id="rect12" />
-    <rect
-       x="30.120001"
-       y="71.040001"
-       width="75.231003"
-       height="6.6146998"
-       id="rect14" />
-    <rect
-       x="30.120001"
-       y="57.308998"
-       width="75.231003"
-       height="6.6146998"
-       id="rect16" />
-    <rect
-       x="30.120001"
-       y="84.268997"
-       width="75.231003"
-       height="6.6146998"
-       id="rect18" />
-    <rect
-       x="30.120001"
-       y="97.499001"
-       width="75.231003"
-       height="6.6146998"
-       id="rect20" />
-    <rect
-       x="30.120001"
-       y="44.57"
-       width="75.231003"
-       height="6.6146998"
-       id="rect22" />
-  </g>
+<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(9.3412)">
+  <rect x="14.271" y="9.4401" width="88.245" height="7.9377" stroke-width="3.6517"/>
+  <rect x="14.271" y="118.09" width="88.245" height="7.9377" stroke-width="3.6517"/>
+  <rect x="14.271" y="9.4401" width="7.9377" height="116.59" stroke-width="4.0896"/>
+  <rect x="94.578" y="9.4401" width="7.9377" height="116.59" stroke-width="4.0896"/>
+ </g>
+ <g transform="matrix(.65465 0 0 1 23.392 .0021502)" stroke-width=".6146">
+  <rect x="30.12" y="31.352" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="71.04" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="57.309" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="84.269" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="97.499" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="44.57" width="75.231" height="6.6147"/>
+ </g>
 </svg>

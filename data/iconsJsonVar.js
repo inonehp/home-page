@@ -47,20 +47,154 @@ var iconsJsonVar =
 },
 
 {
+"text": `image`,
+"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   version="1.1"
+   viewBox="0 0 135.47 135.47"
+   id="svg17"
+   sodipodi:docname="image.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.81640625"
+     inkscape:cx="218.02871"
+     inkscape:cy="357.05263"
+     inkscape:current-layer="svg17" />
+  <defs
+     id="defs7">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect1161"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <clipPath
+       id="clipPath1386">
+      <rect
+         x="29.491"
+         y="55.965"
+         width="75.703"
+         height="41.631"
+         d="m 29.49058,55.965004 h 75.70288 V 97.595757 H 29.49058 Z"
+         display="none"
+         fill="#ef2929"
+         stroke-width="5.5834"
+         id="rect2" />
+      <path
+         class="powerclip"
+         d="m9.9267 36.942h115.62v78.976h-115.62zm19.564 19.023v41.631h75.703v-41.631z"
+         fill="#ef2929"
+         stroke-width="5.5834"
+         id="path4" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1157">
+      <rect
+         style="display:none;fill:#000000;stroke-width:5.89374"
+         id="rect1159"
+         width="85.289467"
+         height="65.461594"
+         x="25.090267"
+         y="35.004204"
+         d="M 25.090267,35.004204 H 110.37973 V 100.4658 H 25.090267 Z" />
+      <path
+         id="lpe_path-effect1161"
+         style="fill:#000000;stroke-width:5.89374"
+         class="powerclip"
+         d="M 5.2166128,18.588337 H 130.25339 V 116.88166 H 5.2166128 Z M 25.090267,35.004204 V 100.4658 H 110.37973 V 35.004204 Z" />
+    </clipPath>
+  </defs>
+  <path
+     style="fill:#000000;stroke-width:7.94937"
+     id="rect1048"
+     width="115.03677"
+     height="88.293327"
+     x="10.216613"
+     y="23.588337"
+     clip-path="url(#clipPath1157)"
+     sodipodi:type="rect"
+     d="M 10.216613,23.588337 H 125.25339 V 111.88166 H 10.216613 Z"
+     inkscape:path-effect="#path-effect1161" />
+  <ellipse
+     style="fill:#000000;stroke-width:7.36218"
+     id="path1189"
+     cx="93.041496"
+     cy="53.221088"
+     rx="12.054503"
+     ry="11.990049" />
+  <ellipse
+     style="fill:#000000;stroke-width:7.9377"
+     id="path1718"
+     cx="52.407383"
+     cy="63.556377"
+     rx="14.28979"
+     ry="22.432575" />
+  <rect
+     style="fill:#000000;stroke-width:7.9377"
+     id="rect1742"
+     width="7.0251412"
+     height="38.957642"
+     x="48.016666"
+     y="67.308434" />
+</svg>
+`,
+},
+
+{
 "text": `information`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <clipPath id="clipPath1197">
-   <rect x="54.506" y="65.944" width="26.459" height="39.688" d="M 54.505508,65.943863 H 80.964493 V 105.63234 H 54.505508 Z" display="none" fill="#fff" stroke-width=".49502"/>
-   <path class="powerclip" d="m9.817 9.817h115.84v115.84h-115.84zm44.688 56.127v39.688h26.459v-39.688z" fill="#fff" stroke-width=".49502"/>
-  </clipPath>
-  <clipPath id="clipPath1331">
-   <rect x="54.506" y="32.335" width="26.459" height="21.167" display="none" fill="#fff" stroke-width=".36151"/>
-   <path class="powerclip" d="m9.817 9.817h115.84v115.84h-115.84zm44.688 22.518v21.167h26.459v-21.167z" fill="#fff" stroke-width=".36151"/>
+  <clipPath id="clipPath1304">
+   <g style="display:none">
+    <rect x="54.506" y="25.057" width="26.459" height="26.459" style="fill:#a40000;stroke-width:9.7372"/>
+    <rect x="54.506" y="67.221" width="26.459" height="43.703" style="fill:#a40000;stroke-width:12.514"/>
+   </g>
+   <path class="powerclip" d="m3.2023 3.2023h129.07v129.07h-129.07zm51.303 21.855v26.459h26.459v-26.459zm0 42.164v43.703h26.459v-43.703z"/>
   </clipPath>
  </defs>
- <g transform="matrix(.74997 0 0 1 16.934 0)" clip-path="url(#clipPath1331)">
-  <path x="14.817031" y="14.817031" width="105.83594" height="105.83594" d="m14.817 14.817h105.84v105.84h-105.84z" clip-path="url(#clipPath1197)" stroke-width="1.6172"/>
+ <g clip-path="url(#clipPath1304)">
+  <path x="8.2022848" y="8.2022848" width="119.06543" height="119.06543" d="m8.2023 8.2023h119.07v119.07h-119.07z" style="stroke-width:9.3682"/>
+ </g>
+</svg>
+`,
+},
+
+{
+"text": `link`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-8.0629)" stroke-width="4.5612">
+  <rect x="66.107" y="28.047" width="58.818" height="13.229"/>
+  <rect x="26.671" y="61.12" width="58.818" height="13.229"/>
+  <rect x="66.107" y="94.194" width="58.818" height="13.229"/>
+ </g>
+</svg>
+`,
+},
+
+{
+"text": `map`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(3.8767 9.5797)" stroke-width="7.4496">
+  <rect x="11.773" y="19.198" width="71.439" height="48.537"/>
+  <rect x="44.504" y="48.576" width="71.439" height="48.537"/>
  </g>
 </svg>
 `,
@@ -69,112 +203,73 @@ var iconsJsonVar =
 {
 "text": `memo`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <clipPath id="clipPath1066">
-   <rect x="34.661" y="21.432" width="66.147" height="92.606" display="none" stroke-width=".515"/>
-   <path class="powerclip" d="m23.047 9.817h89.377v115.84h-89.377zm11.615 11.615v92.606h66.147v-92.606z" stroke-width=".515"/>
-  </clipPath>
- </defs>
- <path transform="translate(-28.047)" x="28.046524" y="14.817031" width="79.376953" height="105.83594" d="m28.047 14.817h79.377v105.84h-79.377z" clip-path="url(#clipPath1066)" stroke-width=".6031"/>
- <g transform="matrix(.61481 0 0 1 -1.2764 3.3074)" stroke-width=".63131">
-  <rect x="28.047" y="41.276" width="79.377" height="6.6147"/>
-  <rect x="28.047" y="28.047" width="79.377" height="6.6147"/>
-  <rect x="28.047" y="54.506" width="79.377" height="6.6147"/>
-  <rect x="28.047" y="67.735" width="79.377" height="6.6147"/>
-  <rect x="28.047" y="80.964" width="79.377" height="6.6147"/>
-  <rect x="28.047" y="94.194" width="79.377" height="6.6147"/>
+ <g transform="translate(-7.9023 -6.4352)">
+  <rect x="14.271" y="9.4401" width="88.245" height="7.9377" stroke-width="3.6517"/>
+  <rect x="14.271" y="118.09" width="88.245" height="7.9377" stroke-width="3.6517"/>
+  <rect x="14.271" y="9.4401" width="7.9377" height="116.59" stroke-width="4.0896"/>
+  <rect x="94.578" y="9.4401" width="7.9377" height="116.59" stroke-width="4.0896"/>
  </g>
- <path d="m98.425 54.762 33.735 58.431-13.62 7.8635-33.735-58.431 0.72331-15.352z" stroke-width=".56398"/>
+ <g transform="matrix(.65465 0 0 1 6.1487 -6.4331)" stroke-width=".6146">
+  <rect x="30.12" y="31.352" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="71.04" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="57.309" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="84.269" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="97.499" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="44.57" width="75.231" height="6.6147"/>
+ </g>
+ <rect transform="rotate(-45)" x="-4.8987" y="89.199" width="12.534" height="84.142" stroke-width="7.9377"/>
+</svg>
+`,
+},
+
+{
+"text": `music`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <g transform="matrix(1.501 0 0 1.501 -73.542 -163.04)">
+  <ellipse transform="rotate(-24.625)" cx="16.799" cy="404.13" rx="66.848" ry="41.824" stroke-width="3"/>
+  <rect x="219.97" y="150.82" width="26.769" height="196.07" stroke-width="2.6381"/>
+  <path d="m246.74 150.82c101.28 30.335 66.648 163.92 64.381 163.35-7.0774-3.5959 6.3901-129.7-91.15-136.59z" stroke-width="3"/>
+ </g>
 </svg>
 `,
 },
 
 {
 "text": `page`,
-"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="512"
-   height="512"
-   version="1.1"
-   viewBox="0 0 135.47 135.47"
-   id="svg26"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs30" />
-  <g
-     transform="translate(6.069 .89256)"
-     id="g10">
-    <rect
-       x="8.2023"
-       y="8.5475"
-       width="106.93"
-       height="7.9377"
-       stroke-width="4.0198"
-       id="rect2" />
-    <rect
-       x="8.2023"
-       y="117.2"
-       width="106.93"
-       height="7.9377"
-       stroke-width="4.0198"
-       id="rect4" />
-    <rect
-       x="8.2023"
-       y="8.5475"
-       width="7.9377"
-       height="116.59"
-       stroke-width="4.0896"
-       id="rect6" />
-    <rect
-       x="107.19"
-       y="8.5475"
-       width="7.9377"
-       height="116.59"
-       stroke-width="4.0896"
-       id="rect8" />
-  </g>
-  <g
-     transform="matrix(0.7968402,0,0,1,13.760629,0.0017506)"
-     stroke-width="0.6146"
-     id="g24">
-    <rect
-       x="30.120001"
-       y="31.351999"
-       width="75.231003"
-       height="6.6146998"
-       id="rect12" />
-    <rect
-       x="30.120001"
-       y="71.040001"
-       width="75.231003"
-       height="6.6146998"
-       id="rect14" />
-    <rect
-       x="30.120001"
-       y="57.308998"
-       width="75.231003"
-       height="6.6146998"
-       id="rect16" />
-    <rect
-       x="30.120001"
-       y="84.268997"
-       width="75.231003"
-       height="6.6146998"
-       id="rect18" />
-    <rect
-       x="30.120001"
-       y="97.499001"
-       width="75.231003"
-       height="6.6146998"
-       id="rect20" />
-    <rect
-       x="30.120001"
-       y="44.57"
-       width="75.231003"
-       height="6.6146998"
-       id="rect22" />
-  </g>
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(9.3412)">
+  <rect x="14.271" y="9.4401" width="88.245" height="7.9377" stroke-width="3.6517"/>
+  <rect x="14.271" y="118.09" width="88.245" height="7.9377" stroke-width="3.6517"/>
+  <rect x="14.271" y="9.4401" width="7.9377" height="116.59" stroke-width="4.0896"/>
+  <rect x="94.578" y="9.4401" width="7.9377" height="116.59" stroke-width="4.0896"/>
+ </g>
+ <g transform="matrix(.65465 0 0 1 23.392 .0021502)" stroke-width=".6146">
+  <rect x="30.12" y="31.352" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="71.04" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="57.309" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="84.269" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="97.499" width="75.231" height="6.6147"/>
+  <rect x="30.12" y="44.57" width="75.231" height="6.6147"/>
+ </g>
+</svg>
+`,
+},
+
+{
+"text": `palette`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1214">
+   <g display="none">
+    <circle cx="30.216" cy="104.62" r="18.29" d="M 48.505852,104.6231 A 18.289534,18.289534 0 0 1 30.216318,122.91263 18.289534,18.289534 0 0 1 11.926785,104.6231 18.289534,18.289534 0 0 1 30.216318,86.333567 18.289534,18.289534 0 0 1 48.505852,104.6231 Z" fill="#a40000" stroke-width="7.9377"/>
+    <circle cx="30.74" cy="51.188" r="13.717" d="M 44.456692,51.187618 A 13.717148,13.717148 0 0 1 30.739544,64.904766 13.717148,13.717148 0 0 1 17.022396,51.187618 13.717148,13.717148 0 0 1 30.739544,37.47047 13.717148,13.717148 0 0 1 44.456692,51.187618 Z" fill="#a40000" stroke-width="5.9533"/>
+    <circle cx="70.787" cy="42.548" r="13.717" d="M 84.50444,42.547523 A 13.717148,13.717148 0 0 1 70.787292,56.264671 13.717148,13.717148 0 0 1 57.070145,42.547523 13.717148,13.717148 0 0 1 70.787292,28.830376 13.717148,13.717148 0 0 1 84.50444,42.547523 Z" fill="#a40000" stroke-width="5.9533"/>
+    <circle cx="113.61" cy="62.382" r="13.717" d="M 127.32999,62.382256 A 13.717148,13.717148 0 0 1 113.61285,76.099403 13.717148,13.717148 0 0 1 99.895699,62.382256 13.717148,13.717148 0 0 1 113.61285,48.665108 13.717148,13.717148 0 0 1 127.32999,62.382256 Z" fill="#a40000" stroke-width="5.9533"/>
+   </g>
+   <path class="powerclip" d="m-3.1258 13.639h141.72v108.19h-141.72zm51.632 90.984a18.29 18.29 0 0 0-18.29-18.29 18.29 18.29 0 0 0-18.29 18.29 18.29 18.29 0 0 0 18.29 18.29 18.29 18.29 0 0 0 18.29-18.29zm-4.0492-53.435a13.717 13.717 0 0 0-13.717-13.717 13.717 13.717 0 0 0-13.717 13.717 13.717 13.717 0 0 0 13.717 13.717 13.717 13.717 0 0 0 13.717-13.717zm40.048-8.6401a13.717 13.717 0 0 0-13.717-13.717 13.717 13.717 0 0 0-13.717 13.717 13.717 13.717 0 0 0 13.717 13.717 13.717 13.717 0 0 0 13.717-13.717zm42.826 19.835a13.717 13.717 0 0 0-13.717-13.717 13.717 13.717 0 0 0-13.717 13.717 13.717 13.717 0 0 0 13.717 13.717 13.717 13.717 0 0 0 13.717-13.717z"/>
+  </clipPath>
+ </defs>
+ <path d="m133.6 67.735a65.861 49.096 0 0 1-65.861 49.096 65.861 49.096 0 0 1-65.861-49.096 65.861 49.096 0 0 1 65.861-49.096 65.861 49.096 0 0 1 65.861 49.096z" clip-path="url(#clipPath1214)" stroke-width="7.9377"/>
 </svg>
 `,
 },
@@ -187,6 +282,180 @@ var iconsJsonVar =
   <circle cx="13.229" cy="66.146" r="13.229"/>
   <circle cx="66.146" cy="13.229" r="13.229"/>
   <circle cx="66.146" cy="66.146" r="13.229"/>
+ </g>
+</svg>
+`,
+},
+
+{
+"text": `pushpin`,
+"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   version="1.1"
+   viewBox="0 0 135.47 135.47"
+   id="svg17"
+   sodipodi:docname="map.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.81640625"
+     inkscape:cx="218.02871"
+     inkscape:cy="357.05263"
+     inkscape:current-layer="svg17" />
+  <defs
+     id="defs7">
+    <inkscape:path-effect
+       effect="powerclip"
+       id="path-effect1161"
+       is_visible="true"
+       lpeversion="1"
+       inverse="true"
+       flatten="false"
+       hide_clip="false"
+       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
+    <clipPath
+       id="clipPath1386">
+      <rect
+         x="29.491"
+         y="55.965"
+         width="75.703"
+         height="41.631"
+         d="m 29.49058,55.965004 h 75.70288 V 97.595757 H 29.49058 Z"
+         display="none"
+         fill="#ef2929"
+         stroke-width="5.5834"
+         id="rect2" />
+      <path
+         class="powerclip"
+         d="m9.9267 36.942h115.62v78.976h-115.62zm19.564 19.023v41.631h75.703v-41.631z"
+         fill="#ef2929"
+         stroke-width="5.5834"
+         id="path4" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1157">
+      <rect
+         style="display:block;fill:#000000;stroke-width:5.89374"
+         id="rect1159"
+         width="85.289467"
+         height="65.461594"
+         x="25.090267"
+         y="35.004204" />
+    </clipPath>
+  </defs>
+  <g
+     id="g2185"
+     transform="translate(0,-2.2614962)">
+    <g
+       id="g2180">
+      <ellipse
+         style="fill:#000000;stroke-width:20.0089"
+         id="path1189"
+         cx="67.735001"
+         cy="49.868183"
+         rx="32.761677"
+         ry="32.586502" />
+    </g>
+    <rect
+       style="fill:#000000;stroke-width:13.8584"
+       id="rect1742"
+       width="12.265207"
+       height="68.01622"
+       x="61.602398"
+       y="54.695091" />
+  </g>
+</svg>
+`,
+},
+
+{
+"text": `radio`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1386">
+   <rect x="29.491" y="55.965" width="75.703" height="41.631" d="m 29.49058,55.965004 h 75.70288 V 97.595757 H 29.49058 Z" display="none" fill="#ef2929" stroke-width="5.5834"/>
+   <path class="powerclip" d="m9.9267 36.942h115.62v78.976h-115.62zm19.564 19.023v41.631h75.703v-41.631z" fill="#ef2929" stroke-width="5.5834"/>
+  </clipPath>
+ </defs>
+ <g>
+  <path transform="translate(0 8.8273)" x="14.926673" y="41.942104" width="105.61665" height="68.975655" d="m14.927 41.942h105.62v68.976h-105.62z" clip-path="url(#clipPath1386)" stroke-width="8.4889"/>
+  <rect transform="rotate(135)" x="-49.338" y="-121.14" width="8.6699" height="65.859" stroke-width="7.774"/>
+  <rect x="38.667" y="74.896" width="56.68" height="5.1092" stroke-width="7.9377"/>
+ </g>
+</svg>
+`,
+},
+
+{
+"text": `search`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1065">
+   <circle cx="67.735" cy="67.735" r="31.027" d="M 98.761578,67.735001 A 31.026577,31.026577 0 0 1 67.735001,98.761578 31.026577,31.026577 0 0 1 36.708424,67.735001 31.026577,31.026577 0 0 1 67.735001,36.708424 31.026577,31.026577 0 0 1 98.761578,67.735001 Z" display="none" fill="#a40000" stroke-width="5.3887"/>
+   <path class="powerclip" d="m17.032 17.032h101.41v101.41h-101.41zm81.73 50.703a31.027 31.027 0 0 0-31.027-31.027 31.027 31.027 0 0 0-31.027 31.027 31.027 31.027 0 0 0 31.027 31.027 31.027 31.027 0 0 0 31.027-31.027z" fill="#a40000" stroke-width="5.3887"/>
+  </clipPath>
+ </defs>
+ <g>
+  <path transform="translate(-19.434 -17.541)" d="m113.44 67.735a45.703 45.703 0 0 1-45.703 45.703 45.703 45.703 0 0 1-45.703-45.703 45.703 45.703 0 0 1 45.703-45.703 45.703 45.703 0 0 1 45.703 45.703z" clip-path="url(#clipPath1065)" stroke-width="7.9377"/>
+  <rect transform="rotate(-45)" x="-12.83" y="134.34" width="28.337" height="38.063" stroke-width="5.8215"/>
+  <rect transform="rotate(-45)" x="-4.9832" y="114.55" width="12.645" height="36.04" stroke-width="3.784"/>
+ </g>
+</svg>
+`,
+},
+
+{
+"text": `store`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1879">
+   <ellipse cx="67.735" cy="67.735" rx="23.724" ry="23.765" d="M 91.458994,67.735001 A 23.723993,23.765114 0 0 1 67.735001,91.500114 23.723993,23.765114 0 0 1 44.011007,67.735001 23.723993,23.765114 0 0 1 67.735001,43.969887 23.723993,23.765114 0 0 1 91.458994,67.735001 Z" display="none" stroke-width="5.7816"/>
+   <path class="powerclip" d="m30.164 30.107h75.142v75.255h-75.142zm61.295 37.628a23.724 23.765 0 0 0-23.724-23.765 23.724 23.765 0 0 0-23.724 23.765 23.724 23.765 0 0 0 23.724 23.765 23.724 23.765 0 0 0 23.724-23.765z" stroke-width="5.7816"/>
+  </clipPath>
+  <clipPath id="clipath_lpe_path-effect1883-5">
+   <ellipse cx="67.735" cy="67.735" rx="23.724" ry="23.765" d="M 91.458994,67.735001 A 23.723993,23.765114 0 0 1 67.735001,91.500114 23.723993,23.765114 0 0 1 44.011007,67.735001 23.723993,23.765114 0 0 1 67.735001,43.969887 23.723993,23.765114 0 0 1 91.458994,67.735001 Z" display="none" stroke-width="5.7816"/>
+   <path class="powerclip" d="m30.164 30.107h75.142v75.255h-75.142zm61.295 37.628a23.724 23.765 0 0 0-23.724-23.765 23.724 23.765 0 0 0-23.724 23.765 23.724 23.765 0 0 0 23.724 23.765 23.724 23.765 0 0 0 23.724-23.765z" stroke-width="5.7816"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(-4.7463)">
+  <rect x="8.359" y="49.158" width="65.142" height="51.441" stroke-width="5.4007"/>
+  <path transform="translate(-26.805 -11.335)" d="m100.31 67.735a32.571 32.628 0 0 1-32.571 32.628 32.571 32.628 0 0 1-32.571-32.628 32.571 32.628 0 0 1 32.571-32.628 32.571 32.628 0 0 1 32.571 32.628z" clip-path="url(#clipPath1879)" stroke-width="7.9377"/>
+ </g>
+ <g transform="translate(4.972)">
+  <rect x="77.323" y="72.381" width="49.788" height="39.316" stroke-width="4.1277"/>
+  <path transform="matrix(.7643 0 0 .7643 50.447 26.147)" d="m100.31 67.735a32.571 32.628 0 0 1-32.571 32.628 32.571 32.628 0 0 1-32.571-32.628 32.571 32.628 0 0 1 32.571-32.628 32.571 32.628 0 0 1 32.571 32.628z" clip-path="url(#clipath_lpe_path-effect1883-5)" stroke-width="7.9377"/>
+ </g>
+</svg>
+`,
+},
+
+{
+"text": `tv`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath1386">
+   <rect x="29.491" y="55.965" width="75.703" height="41.631" d="m 29.49058,55.965004 h 75.70288 V 97.595757 H 29.49058 Z" display="none" fill="#ef2929" stroke-width="5.5834"/>
+   <path class="powerclip" d="m9.9267 36.942h115.62v78.976h-115.62zm19.564 19.023v41.631h75.703v-41.631z" fill="#ef2929" stroke-width="5.5834"/>
+  </clipPath>
+ </defs>
+ <path x="14.926673" y="41.942104" width="105.61665" height="68.975655" d="m14.927 41.942h105.62v68.976h-105.62z" clip-path="url(#clipPath1386)" stroke-width="8.4889"/>
+ <g transform="translate(0 -.077712)" stroke-width="7.9377">
+  <rect transform="rotate(-45)" x="11.6" y="33.659" width="13.412" height="44.386"/>
+  <rect transform="rotate(45)" x="70.78" y="-62.133" width="13.412" height="44.386"/>
  </g>
 </svg>
 `,

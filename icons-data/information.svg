@@ -1,15 +1,14 @@
 <svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <clipPath id="clipPath1197">
-   <rect x="54.506" y="65.944" width="26.459" height="39.688" d="M 54.505508,65.943863 H 80.964493 V 105.63234 H 54.505508 Z" display="none" fill="#fff" stroke-width=".49502"/>
-   <path class="powerclip" d="m9.817 9.817h115.84v115.84h-115.84zm44.688 56.127v39.688h26.459v-39.688z" fill="#fff" stroke-width=".49502"/>
-  </clipPath>
-  <clipPath id="clipPath1331">
-   <rect x="54.506" y="32.335" width="26.459" height="21.167" display="none" fill="#fff" stroke-width=".36151"/>
-   <path class="powerclip" d="m9.817 9.817h115.84v115.84h-115.84zm44.688 22.518v21.167h26.459v-21.167z" fill="#fff" stroke-width=".36151"/>
+  <clipPath id="clipPath1304">
+   <g style="display:none">
+    <rect x="54.506" y="25.057" width="26.459" height="26.459" style="fill:#a40000;stroke-width:9.7372"/>
+    <rect x="54.506" y="67.221" width="26.459" height="43.703" style="fill:#a40000;stroke-width:12.514"/>
+   </g>
+   <path class="powerclip" d="m3.2023 3.2023h129.07v129.07h-129.07zm51.303 21.855v26.459h26.459v-26.459zm0 42.164v43.703h26.459v-43.703z"/>
   </clipPath>
  </defs>
- <g transform="matrix(.74997 0 0 1 16.934 0)" clip-path="url(#clipPath1331)">
-  <path x="14.817031" y="14.817031" width="105.83594" height="105.83594" d="m14.817 14.817h105.84v105.84h-105.84z" clip-path="url(#clipPath1197)" stroke-width="1.6172"/>
+ <g clip-path="url(#clipPath1304)">
+  <path x="8.2022848" y="8.2022848" width="119.06543" height="119.06543" d="m8.2023 8.2023h119.07v119.07h-119.07z" style="stroke-width:9.3682"/>
  </g>
 </svg>
