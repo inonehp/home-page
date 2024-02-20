@@ -1,4 +1,4 @@
-// v.3.15.8
+// v.3.15.9
 
 
 
@@ -910,16 +910,22 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 
+let acurancyTotal = 'total';
+if(/*answerArr.length == letters.length&&*/mode != 'free'&&mode != 'f2'){
 
-if(answerArr.length == letters.length&&mode != 'free'&&mode != 'f2'){
-acurancy = totalError * 100 / answerArr.length;
+acurancy = error * 100 / answerArr.length;
 acurancy =  100 - acurancy.toFixed(0);
-}else{ acurancy = '0 '; }
+
+
+//if(answerArr.length == letters.length){}
+acurancyTotal = totalError * 100 / answerArr.length;
+acurancyTotal =  100 - acurancyTotal.toFixed(0);
+
+}else{ acurancy = '0 '; acurancyTotal = '0'; }
 
 //document.getElementById("stat").innerHTML = sec+' | '+timeAverage.toFixed(2)+' sec. || '+error+' <span class="'+errorColor+'">error</span>';
 document.getElementById("stat").innerHTML = 
-'<div><span>wpm:</span> <!--'+wpmRecord+'/ --><span>' +wpm+'</span> || <span title="allowError: '+allowError+'">error: ≈'
-+totalError+'</span>/<span  class="'+errorColor+'">'+error+'</span> || acurancy: ≈'+acurancy+'%</div>'
+'<div><span>wpm:</span> <!--' + wpmRecord + '/ --><span>' + wpm +'</span> || <span title="allowError: '+ allowError +'">error: ≈<span  class="'  + errorColor + '">' + error  +  '</span>/' + totalError +'</span> || acurancy: ≈' + acurancy + '/' + acurancyTotal + '%</div>'
 ;
 
 /*scrollTo();
@@ -927,7 +933,7 @@ function scrollTo(){
 document.getElementById("scrollTo").scrollIntoView(true);
 }*/
 
-
+acurancyTotal = '';
 
 
 
