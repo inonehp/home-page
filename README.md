@@ -46,7 +46,7 @@
   
 ---
   
-### ⌨️ Typing (with own text):  
+### ⌨️ Typing:  
   
 ![todo](/img/screenshots/typing.png)
   

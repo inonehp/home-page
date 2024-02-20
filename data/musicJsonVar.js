@@ -13084,6 +13084,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Rob Zombie - Living Dead Girl - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=BvsMPOfblfg",
+        "tag": "#music"
+    },
+    {
         "text": "Robbie Williams - Feel (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -15587,6 +15594,20 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=H6BEkPzstJQ",
+        "tag": "#music"
+    },
+    {
+        "text": "The Crystal Method - \"Busy Child\" [Official Video] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=OjTC88oIRys",
+        "tag": "#music"
+    },
+    {
+        "text": "The Crystal Method - Busy Child - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=t6twhXA1Gyw",
         "tag": "#music"
     },
     {
