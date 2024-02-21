@@ -15,7 +15,15 @@ lIconsPrint += `
 <div class="item bg2 shadow borderRadius3 padding2">
 ${val.text}
 <hr>
-<div><a href="../../icons-data/${val.text}.svg">${val.text2}</a></div>
+<div><a href="../../icons-data/${val.text}.svg">
+
+<span style="display: inline-flex; width: 16px; height: 16px;">
+${val.text2}
+</span>
+
+${val.text2}
+
+</a></div>
 </div>
 
 `;

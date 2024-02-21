@@ -47,6 +47,17 @@ var iconsJsonVar =
 `,
 },
 {
+"text": `chart`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <g transform="matrix(.84012 0 0 .84012 -42.676 112.58)">
+  <rect x="72.801" y="186.54" width="150.41" height="197.96"/>
+  <rect x="278.65" y="-43.088" width="150.41" height="427.59"/>
+  <rect x="487.82" y="98.347" width="150.41" height="286.16"/>
+ </g>
+</svg>
+`,
+},
+{
 "text": `clapper-board`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <g transform="translate(-16.12 16.027)">
@@ -688,6 +699,20 @@ var iconsJsonVar =
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <rect x="54.506" y="8.5485" width="26.459" height="66.147" ry="10.92" stroke-width="12.569"/>
  <rect x="54.506" y="98.486" width="26.459" height="27.669" ry="9.2467" stroke-width="8.1296"/>
+</svg>
+`,
+},
+{
+"text": `weather`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath5778">
+   <path d="m164.05 141.42a59.373 59.373 0 0 1-59.373 59.373 59.373 59.373 0 0 1-59.373-59.373 59.373 59.373 0 0 1 59.373-59.373 59.373 59.373 0 0 1 59.373 59.373z" display="none" fill="#e9b96e" stroke-width="15.444"/>
+   <path class="powerclip" d="m13.823 47.126h186.74v186.74h-186.74zm150.23 94.29a59.373 59.373 0 0 0-59.373-59.373 59.373 59.373 0 0 0-59.373 59.373 59.373 59.373 0 0 0 59.373 59.373 59.373 59.373 0 0 0 59.373-59.373z" fill="#e9b96e" stroke-width="15.444"/>
+  </clipPath>
+ </defs>
+ <path d="m195.57 140.5a88.371 88.371 0 0 1-88.371 88.371 88.371 88.371 0 0 1-88.371-88.371 88.371 88.371 0 0 1 88.371-88.371 88.371 88.371 0 0 1 88.371 88.371z" clip-path="url(#clipPath5778)" stroke-width="22.987"/>
+ <path d="m88.086 365.71c111.29 66.566 232.85 77.204 370.52 0 63.535-51.553-55.084-116.88-84.301-73.056-19.752-95.236-141.87-120.35-178.09 4.5497-23.968-49.519-161.21-29.502-108.13 68.506z" fill="none" stroke="#000" stroke-width="27.77"/>
 </svg>
 `,
 }
