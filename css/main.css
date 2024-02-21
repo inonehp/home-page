@@ -332,7 +332,7 @@ right: 0;
 .tCenter { text-align: center; }
 .tRight { text-align: right; }
 .b, .b a, .bold, .bold a { font-weight: bold; }
-.normal, .normal a { font-weight: normal; }
+.normal, .normal a { font-weight: normal; font-size: unset; }
 .medium, .medium a { font-size: medium; }
 .large, .large a { font-size: large; }
 .small, .small a { font-size: small; }

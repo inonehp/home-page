@@ -1,4 +1,4 @@
-// v.3.15.9
+// v.3.15.10
 
 
 
@@ -6,10 +6,12 @@
 function mainAll(mode33){
 
 
-const topWordsLimit = 20;
-const wmpAverageLimit = 30;
+
+const wmpAverageLimit = 10;
 const wordLengthLimit = 5.1;
 const allowError = 20;
+
+const mostCommonWordsLimit = 20;
 
 var topWords = '';
 //https://catalins.tech/store-array-in-localstorage/
@@ -1070,11 +1072,11 @@ printMsgWin = '';
 
 let winMsg = `
 
-<div class="block bg3 padding2 margin2 msg shadow tCenter borderRadius2" style="margin-bottom: 10px;">
+<div class="block bg3 padding2 margin2 msg shadow tCenter borderRadius2" style="margin-bottom: 10px; border-bottom: 10px solid  color-mix(in srgb, var(--${printMsgWinColor}) 50%, transparent);">
 <!--<b class="${printMsgWinColor} padding2">${printMsgWin}</b>-->
-<div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: <span class="">${wpm}</span></span> ${wpmProgress} ${recordMsg}</div>
-<span class=""><span title="WPM Average last ${wmpAverageLimit}">Average WPM: </span>${WPMaverage} ${wpmAverageProgress}<br>
-<span>Acurancy: ≈<span class="">${acurancy}</span>%</span> ${acurancyProgress}<br>
+<div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: ${wpm}</span> ${wpmProgress} ${recordMsg}</div>
+<span class="medium"><span title="WPM Average last ${wmpAverageLimit}">Average WPM: ${WPMaverage} ${wpmAverageProgress}</span></span><br>
+<span class="medium"><span class="medium">Acurancy: ≈<span>${acurancy}</span>%</span> ${acurancyProgress}</span><br>
 </div>
 </div>`;
 
@@ -1106,7 +1108,7 @@ document.getElementById('countSymbolTask').innerHTML = 'task: '+task.length+' in
 
 
 /*
-// top words
+// mostCommonWords, top words
 topWords = task.join("");
 
 // clear symbol
@@ -1149,7 +1151,7 @@ return arr; // returns array
 
 
 topWords = sortObject(counts);
-topWords = topWords.slice(0, topWordsLimit);
+topWords = topWords.slice(0, mostCommonWordsLimit);
 
 print = '';
 topWords.forEach(myFunction288);
@@ -1173,7 +1175,7 @@ document.getElementById("topWords").innerHTML =
 </div>
 
 `;
-
+// // mostCommonWords
 */
 
 
