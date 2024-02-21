@@ -912,7 +912,7 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 
-let acurancyTotal = 'total';
+let acurancyTotal = 0;
 if(/*answerArr.length == letters.length&&*/mode != 'free'&&mode != 'f2'){
 
 acurancy = error * 100 / answerArr.length;
@@ -935,7 +935,7 @@ function scrollTo(){
 document.getElementById("scrollTo").scrollIntoView(true);
 }*/
 
-acurancyTotal = '';
+
 
 
 
@@ -1025,16 +1025,16 @@ wpmProgress = ' (<span class="green">+'+wpmProgress+'</span>)';
 
 
 
-var acurancyProgress = "0";
+var acurancyProgress = 0;
 var prevAcurancy = localStorage.getItem("prevAcurancy");
-localStorage.setItem("prevAcurancy", acurancy);
+localStorage.setItem("prevAcurancy", acurancyTotal);
 
 if(prevAcurancy == null ||prevAcurancy == Infinity||prevAcurancy == NaN){ prevAcurancy =  0; }
-acurancyProgress = acurancy - prevAcurancy;
+acurancyProgress = acurancyTotal - prevAcurancy;
 if(acurancyProgress < 0){
-acurancyProgress = ' (<span class="red">'+acurancyProgress+'</span>)';
+acurancyProgress = ' (<span class="red">' + acurancyProgress + '</span>)';
 }else{
-acurancyProgress = ' (<span class="green">+'+acurancyProgress+'</span>)';
+acurancyProgress = ' (<span class="green">+' + acurancyProgress + '</span>)';
 }
 
 
@@ -1072,17 +1072,17 @@ printMsgWin = '';
 
 let winMsg = `
 
-<div class="block bg3 padding2 margin2 msg shadow tCenter borderRadius2" style="margin-bottom: 10px; border-bottom: 10px solid  color-mix(in srgb, var(--${printMsgWinColor}) 50%, transparent);">
+<div class="bg3 padding2 margin2 msg shadow tCenter borderRadius2" style="margin-bottom: 5px; border-bottom: 10px solid  color-mix(in srgb, var(--${printMsgWinColor}) 60%, transparent);">
 <!--<b class="${printMsgWinColor} padding2">${printMsgWin}</b>-->
-<div class="pre"><span title="word per minute" style="color: var(--c3);">WPM: ${wpm}</span> ${wpmProgress} ${recordMsg}</div>
-<span class="medium"><span title="WPM Average last ${wmpAverageLimit}">Average WPM: ${WPMaverage} ${wpmAverageProgress}</span></span><br>
-<span class="medium"><span class="medium">Acurancy: ≈<span>${acurancy}</span>%</span> ${acurancyProgress}</span><br>
+<div class="pre"><h3><span title="word per minute" style="color: var(--c3);">WPM: ${wpm}</span> <span title="difference with the previous">${wpmProgress}</span> ${recordMsg}</h3></div>
+<span class="normal"><span title="WPM Average last ${wmpAverageLimit}">Average WPM: ${WPMaverage} ${wpmAverageProgress}</span></span><br>
+<span class="normal" title="Current accuracy, total"><span class="medium">Accuracy: <span>${acurancyTotal}</span>%</span> ${acurancyProgress}</span><br>
 </div>
 </div>`;
 
 
 document.getElementsByClassName("win")[0].innerHTML = winMsg;
-document.getElementsByClassName("win")[1].innerHTML = winMsg;
+//document.getElementsByClassName("win")[1].innerHTML = winMsg;
 
 }else {
 document.getElementsByClassName("win")[0].innerHTML = '';
@@ -1199,6 +1199,7 @@ document.getElementById("topWords").innerHTML =
 answerArr = [];
 dateArr = [];
 secArr = [];
+
 
 document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 

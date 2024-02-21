@@ -1,4 +1,4 @@
-// Main js v.6.3.5
+// Main js v.6.3.7
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -51,10 +51,17 @@ This is necessary to improve the site.
 "confValueVariant":["18", "19", "20", "21"],
 },
 {
-"confTitle":"Icons on off",
-"confDescription":"Enable Disable Icons.",
-"confName":"confIconStatus",
+"confTitle":"Hide link extensions",
+"confDescription":"Hides extensions in links. Example: /blog.html to /blog. This is to make the PWA (Website as an App) work.",
+"confName":"confHideLinkExt",
 "confValueDefault":"off",
+"confValueVariant":["on", "off"],
+},
+{
+"confTitle":"Second Navigation",
+"confDescription":"Second navigation (JS) over the current navigation. To improve where it is bad",
+"confName":"confMenu",
+"confValueDefault":"on",
 "confValueVariant":["on", "off", "random"],
 },
 {
@@ -65,13 +72,6 @@ This is necessary to improve the site.
 "confValueVariant":["on", "off", "random"],
 },
 {
-"confTitle":"Hide link extensions",
-"confDescription":"Hides extensions in links. Example: /blog.html to /blog. This is to make the PWA (Website as an App) work.",
-"confName":"confHideLinkExt",
-"confValueDefault":"off",
-"confValueVariant":["on", "off"],
-},
-{
 "confTitle":"Background picture",
 "confDescription":"Background picture.",
 "confName":"confBg",
@@ -79,10 +79,10 @@ This is necessary to improve the site.
 "confValueVariant":["on", "off"],
 },
 {
-"confTitle":"Second Navigation",
-"confDescription":"Second navigation (JS) over the current navigation. To improve where it is bad",
-"confName":"confMenu",
-"confValueDefault":"on",
+"confTitle":"Icons on off",
+"confDescription":"Enable Disable Icons.",
+"confName":"confIconStatus",
+"confValueDefault":"off",
 "confValueVariant":["on", "off", "random"],
 },
 ];
