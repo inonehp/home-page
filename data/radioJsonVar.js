@@ -26,7 +26,7 @@ var radioJsonVar =
         "text2": "https:\/\/blackburn-ais.leanstream.co\/CKNXFM-MP3",
         "text3": "mp3",
         "url": "https:\/\/www.1017theone.ca\/",
-        "tag": "#radio #RadioMusic #top40 #pop"
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
     },
     {
         "text": "89.1 Max FM",
@@ -103,7 +103,7 @@ var radioJsonVar =
         "text2": "https:\/\/liveradio.swr.de\/sw282p3\/swr3\/play.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.swr3.de\/index.html",
-        "tag": "#radio #RadioMusic #top40 #pop"
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
     },
     {
         "text": "AM 770 KTTH | Seattle's Leader of Conservative Talk Radio - MyNorthwest.com",
@@ -131,7 +131,7 @@ var radioJsonVar =
         "text2": "https:\/\/radiocast.rtp.pt\/antena380a.mp3",
         "text3": "mp3",
         "url": "https:\/\/media.rtp.pt\/antena3\/",
-        "tag": "#radio #RadioMusic #top40 #adult #pop #AlternativeRock"
+        "tag": "#radio #RadioMusic #top40 #adult #PopMusic #AlternativeRock"
     },
     {
         "text": "Anthems Radio",
@@ -222,7 +222,7 @@ var radioJsonVar =
         "text2": "https:\/\/listen-cheesyfm.sharp-stream.com\/cheesyfm.mp3",
         "text3": "mp3",
         "url": "https:\/\/cheesyfm.co.uk\/",
-        "tag": "#radio #RadioMusic #top40 #pop #ClassicHits"
+        "tag": "#radio #RadioMusic #top40 #PopMusic #ClassicHits"
     },
     {
         "text": "CityNews Toronto | Breaking News | Top Local Stories",
@@ -306,7 +306,7 @@ var radioJsonVar =
         "text2": "http:\/\/82.135.234.195:8000\/ehr.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.europeanhitradio.lt\/",
-        "tag": "#radio #RadioMusic #top40 #pop"
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
     },
     {
         "text": "FluxFM",
@@ -369,7 +369,7 @@ var radioJsonVar =
         "text2": "https:\/\/streaming.gnl.fm\/juice\/juice",
         "text3": "mp3",
         "url": "https:\/\/www.juiceonair.com\/",
-        "tag": "#radio #RadioMusic #top40 #pop"
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
     },
     {
         "text": "Home - Radio Paradise",
@@ -418,7 +418,14 @@ var radioJsonVar =
         "text2": "https:\/\/kathy.torontocast.com:3785\/stream",
         "text3": "mp3",
         "url": "https:\/\/www.hot977fm.com\/",
-        "tag": "#radio #RadioMusic #top40 #pop #AdultHits"
+        "tag": "#radio #RadioMusic #top40 #PopMusic #AdultHits"
+    },
+    {
+        "text": "Hot Hitz | 100Hitz Free Internet Music Streaming",
+        "text2": "https:\/\/pureplay.cdnstream1.com\/6027_128.mp3",
+        "text3": "mp3",
+        "url": "https:\/\/100hitz.com\/radiochannel\/hot-hitz\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
     },
     {
         "text": "idobi Network - Running interviews into the ground since 1999",
@@ -533,6 +540,41 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #IndieRock"
     },
     {
+        "text": "Live 101.4 FM | Radio Viking | 10.7K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Viking-1014-s2748\/",
+        "tag": "#radio #RadioMusic #ClassicHits #EasyListening"
+    },
+    {
+        "text": "Live 102.6 FM | GOLD | 12.6K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/GOLD-FM-1026-s110619\/",
+        "tag": "#radio #RadioMusic #ClassicHits"
+    },
+    {
+        "text": "Live 103.9 FM | Radio Norge | 99.5K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Norge-1039-s84118\/",
+        "tag": "#radio #RadioMusic #EuroHits"
+    },
+    {
+        "text": "Live 106.2 FM | Radio Nova | 57.2K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Nova-1062-s14843\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
+    },
+    {
+        "text": "Live 107.0 FM | Italo Party Crew | 5.1K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Italo-Party-Crew-FM-1070-s120943\/",
+        "tag": "#radio #RadioMusic #EuroHits #dance #electronic"
+    },
+    {
         "text": "Live 1089 AM | talkSPORT | 1.8M Favorites | TuneIn",
         "text2": "",
         "text3": "",
@@ -565,7 +607,42 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/BBC-Radio-6-Music-s44491\/",
-        "tag": "#radio #RadioMusic #world #pop #HipHop #IndieRock #punk #dance"
+        "tag": "#radio #RadioMusic #WorldMusic #PopMusic #HipHop #IndieRock #punk #dance"
+    },
+    {
+        "text": "Live 2FM Retro | 9.4K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/2FM-Retro-s107395\/",
+        "tag": "#radio #RadioMusic #PopMusic #top40"
+    },
+    {
+        "text": "Live 71.03 FM | M-1 Plius | 23.0K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/M-1-Plius-7103-s6692\/",
+        "tag": "#radio #RadioMusic #AdultHits"
+    },
+    {
+        "text": "Live 80 RTV80 | RTV TV | 501 Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/80-RTV80-s97148\/",
+        "tag": "#radio #RadioMusic #80s #AdultHits"
+    },
+    {
+        "text": "Live 88.0 FM | Radio 88 Partille | 12.1K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-88-Partille-880-s86498\/",
+        "tag": "#radio #RadioMusic #ClassicHits"
+    },
+    {
+        "text": "Live 94.9 FM | Gold | Totalni - Velika Gorica | 12.3K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Gold-FM-949-s73333\/",
+        "tag": "#radio #RadioMusic #80s"
     },
     {
         "text": "Live 954 AM | CRo Plus | \u010cesk\u00fd rozhlas | 27.4K Favorites | TuneIn",
@@ -573,6 +650,20 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CRo-Plus-954-s1537\/",
         "tag": "#radio #cz"
+    },
+    {
+        "text": "Live 96.2 FM | db962 | DB | 3.2K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/db962-962-s134690\/",
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
+    },
+    {
+        "text": "Live 98.0 FM | Decibel | Radio Noord-Holland | 24.3K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Decibel-980-s65005\/",
+        "tag": "#radio #RadioMusic #90s"
     },
     {
         "text": "Live 98.0 FM | Onda Cero | 401.5K Favorites | TuneIn",
@@ -666,6 +757,20 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #soul"
     },
     {
+        "text": "Live Freez FM | 7.1K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Freez-FM-s64990\/",
+        "tag": "#radio #RadioMusic #WroldMusic"
+    },
+    {
+        "text": "Live Gylne Hits Radio | 4.2K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Gylne-Hits-Radio-s283544\/",
+        "tag": "#radio #RadioMusic #ClassicHits"
+    },
+    {
         "text": "Live HOTMIX LO-FI | 242 Favorites | TuneIn",
         "text2": "",
         "text3": "",
@@ -684,7 +789,14 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/JAM-FM-Black-Label-s237163\/",
-        "tag": "#radio #RadioMusic #top40 #pop #dance #HipHop"
+        "tag": "#radio #RadioMusic #top40 #PopMusic #dance #HipHop"
+    },
+    {
+        "text": "Live KINK80s | 5.8K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/KINK80s-s194478\/",
+        "tag": "#radio #RadioMusic #80s"
     },
     {
         "text": "Live Monte Carlo Lounge | 13.8K Favorites | TuneIn",
@@ -692,6 +804,13 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Monte-Carlo-Lounge-s260087\/",
         "tag": "#radio #RadioMusic #AlternativeRock"
+    },
+    {
+        "text": "Live NPO Radio 5 | RAD5 | 79.4K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/NPO-Radio-5-s25544\/",
+        "tag": "#radio #RadioMusic #ClassicHits"
     },
     {
         "text": "Live Radio Nature | 6.8K Favorites | TuneIn",
@@ -720,6 +839,13 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/RnB-Radio-s309403\/",
         "tag": "#radio #RadioMusic #RnB #HipHop"
+    },
+    {
+        "text": "Live ROCK ANTENNE 90er | 8.5K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/ROCK-ANTENNE-90er-Rock-s309510\/",
+        "tag": "#radio #RadioMusic #AlternativeRock #90s"
     },
     {
         "text": "Live Rockabilly Radio | 85.1K Favorites | TuneIn",
@@ -873,7 +999,7 @@ var radioJsonVar =
         "text2": "http:\/\/streaming04.liveboxstream.uk\/proxy\/novafm?mp=\/stream",
         "text3": "mp3",
         "url": "https:\/\/novafm.co.uk\/",
-        "tag": "#radio #RadioMusic #top40 #pop"
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
     },
     {
         "text": "NRK Oslo og Viken \u2013 Lokale nyheter, TV og radio",
@@ -901,7 +1027,14 @@ var radioJsonVar =
         "text2": "http:\/\/onair.krone.at\/kronehit-hd.mp3",
         "text3": "mp3",
         "url": "https:\/\/www.kronehit.at\/",
-        "tag": "#radio #RadioMusic #top40 #pop"
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
+    },
+    {
+        "text": "OSU-Radio, 106.7 FM, Uitgeest, Netherlands | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/OSU-Radio-1067-s159488\/",
+        "tag": "#radio #RadioMusic #WorldMusic"
     },
     {
         "text": "P1 | Sveriges Radio",
@@ -950,7 +1083,7 @@ var radioJsonVar =
         "text2": "https:\/\/edge07.streamonkey.net\/energy-berlin\/stream\/mp3",
         "text3": "mp3",
         "url": "https:\/\/www.energy.de\/berlin",
-        "tag": "#radio #RadioMusic #top40 #pop #EuroHits"
+        "tag": "#radio #RadioMusic #top40 #PopMusic #EuroHits"
     },
     {
         "text": "Radio Exterior - Web oficial - RTVE.es",
@@ -1006,7 +1139,7 @@ var radioJsonVar =
         "text2": "https:\/\/fm.tuba.pl\/play\/9\/2\/radio-zlote-przeboje?appId=03",
         "text3": "iframe",
         "url": "https:\/\/zloteprzeboje.pl\/",
-        "tag": "#radio #RadioMusic #pop"
+        "tag": "#radio #RadioMusic #PopMusic"
     },
     {
         "text": "Radio | KQED Public Media",
@@ -1076,7 +1209,7 @@ var radioJsonVar =
         "text2": "https:\/\/player.slam.nl\/?stream=slam",
         "text3": "iframe",
         "url": "https:\/\/www.slam.nl\/",
-        "tag": "#radio #RadioMusic #top40 #pop"
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
     },
     {
         "text": "Smooth Jazz 24\/7 | Free Internet Radio | TuneIn",
@@ -1125,7 +1258,7 @@ var radioJsonVar =
         "text2": "https:\/\/stream.jfkradio.es\/altxl",
         "text3": "mp3",
         "url": "https:\/\/tunein.com\/radio\/Stream-Variety-g88\/",
-        "tag": "#radio #RadioMusic #top40 #pop #variety"
+        "tag": "#radio #RadioMusic #top40 #PopMusic #variety"
     },
     {
         "text": "Sud Radio : en ligne, direct \/ podcast | actualit\u00e9s & \u00e9missions",
@@ -1167,7 +1300,7 @@ var radioJsonVar =
         "text2": "https:\/\/blackburn-ais.leanstream.co\/CFGXFM",
         "text3": "mp3",
         "url": "https:\/\/www.foxfm.com\/",
-        "tag": "#radio #RadioMusic #top40 #pop"
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
     },
     {
         "text": "The SoCal Sound | Southern California Radio",
@@ -1181,7 +1314,7 @@ var radioJsonVar =
         "text2": "https:\/\/totalhits128-thehitsnetwork.radioca.st\/;",
         "text3": "mp3",
         "url": "https:\/\/totalhitsradio.com\/",
-        "tag": "#radio #RadioMusic #top40 #pop"
+        "tag": "#radio #RadioMusic #top40 #PopMusic"
     },
     {
         "text": "triple j",
@@ -1230,7 +1363,7 @@ var radioJsonVar =
         "text2": "https:\/\/playerservices.streamtheworld.com\/api\/livestream-redirect\/WERSFMAAC.aac",
         "text3": "aac",
         "url": "https:\/\/wers.org\/",
-        "tag": "#radio #RadioMusic #indie #world"
+        "tag": "#radio #RadioMusic #indie #WolrdMusic"
     },
     {
         "text": "What's Hot - Retro Hit Radio",
@@ -1265,7 +1398,7 @@ var radioJsonVar =
         "text2": "http:\/\/22113.live.streamtheworld.com\/WNRNFM_128_SC",
         "text3": "mp3",
         "url": "https:\/\/wnrn.org\/",
-        "tag": "#radio #RadioMusic #indie #AlternativeRock #world"
+        "tag": "#radio #RadioMusic #indie #AlternativeRock #WorldMusic"
     },
     {
         "text": "WNYC | New York Public Radio, Podcasts, Live Streaming Radio, News",
