@@ -102,7 +102,7 @@ q = encodeURIComponent(q);
 url = "?q=" + q;
 if(q == ''){
 urlList = [
-'tec', 'sci', 'dev', 'n2',
+'tec', 'sci', 'dev', 'n2', "spo",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = '?q=' + urlList[random];
@@ -387,7 +387,6 @@ urlList = [
 
 "https://finance.yahoo.com/",
 "https://www.yahoo.com/entertainment/",
-"https://sports.yahoo.com/",
 "https://www.yahoo.com/lifestyle/",
 
 "https://www.bing.com/news/search?q=Business",
@@ -396,10 +395,30 @@ urlList = [
 "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtVnVLQUFQAQ",
 "https://flipboard.com/topic/business",
 
+"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
 
+
+case 'spo#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"?q=" + q + " red",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+sRedirUrl = random;
+if(q == ''){
+urlList = [
+"https://sports.yahoo.com/",
 "https://www.bing.com/news/search?q=Sports",
 "https://www.reddit.com/r/sports/",
-"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

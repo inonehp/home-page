@@ -4,6 +4,35 @@ var iconsJsonVar =
 
 
 {
+"text": `books`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath8901">
+   <path class="powerclip" d="m-5-5h87.906v38.147h-87.906zm16.866 10.795v3.1828h60.68v3.975h-60.68v3.1828h60.68v4.0396h-60.68v3.1828h66.04v-3.1828h-0.06821v-4.0396h0.06821v-3.1828h-0.06821v-3.975h0.06821v-3.1828z" fill="#ef2929"/>
+  </clipPath>
+  <clipPath id="clipath_lpe_path-effect8905-5">
+   <path class="powerclip" d="m-5-5h87.906v38.147h-87.906zm16.866 10.795v3.1828h60.68v3.975h-60.68v3.1828h60.68v4.0396h-60.68v3.1828h66.04v-3.1828h-0.06821v-4.0396h0.06821v-3.1828h-0.06821v-3.975h0.06821v-3.1828z" fill="#ef2929"/>
+  </clipPath>
+  <clipPath id="clipath_lpe_path-effect8905-5-9">
+   <path class="powerclip" d="m-5-5h87.906v38.147h-87.906zm16.866 10.795v3.1828h60.68v3.975h-60.68v3.1828h60.68v4.0396h-60.68v3.1828h66.04v-3.1828h-0.06821v-4.0396h0.06821v-3.1828h-0.06821v-3.975h0.06821v-3.1828z" fill="#ef2929"/>
+  </clipPath>
+ </defs>
+ <g transform="translate(-9.2513 -11.996)" fill="#2e3436">
+  <path transform="translate(25.988 65.657)" d="m0 0h77.906v28.147h-77.906z" clip-path="url(#clipath_lpe_path-effect8905-5)"/>
+  <rect x="98.603" y="65.657" width="5.2918" height="27.076"/>
+ </g>
+ <g transform="translate(-9.3584 -11.996)" fill="#8f5902">
+  <path transform="translate(41.381 93.804)" d="m0 0h77.906v28.147h-77.906z" clip-path="url(#clipath_lpe_path-effect8905-5-9)"/>
+  <rect x="114" y="93.804" width="5.2918" height="27.076"/>
+ </g>
+ <g transform="translate(-.4632 -11.996)" fill="#204a87">
+  <path transform="translate(41.29 37.51)" d="m0 0h77.906v28.147h-77.906z" clip-path="url(#clipPath8901)"/>
+  <rect x="113.82" y="37.51" width="5.2918" height="27.076"/>
+ </g>
+</svg>
+`,
+},
+{
 "text": `calculator`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <defs>
@@ -130,6 +159,22 @@ var iconsJsonVar =
 "text": `heart`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <path d="m450.29 210.45c0 107.3-194.29 194.29-194.29 194.29s-194.29-86.986-194.29-194.29c0-67.693 28.097-104.2 85.19-103.04 92.706 1.8832 99.415 84.224 99.415 84.224s19.833-85.863 120.06-84.357c57.809 0.86826 83.918 35.256 83.918 103.17z" stroke-width="20"/>
+</svg>
+`,
+},
+{
+"text": `herb`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-2.8052 16.156)" fill="#4e9a06" stroke="#000">
+  <path d="m83.161 114.48c6.6071-14.275 3.7273-5.2504 16.214-52.999-15.915 41.076-14.324 38.738-16.214 52.999z" stroke-width=".3278px"/>
+  <path d="m83.235 114.45c-5.5004-32.751-17.638-41.12-32.396-66.363z" stroke-width=".47616px"/>
+  <path d="m99.375 61.478c-7.6921-13.345-4.5351-23.183 17.912-26.784 1.1143 17.3-3.2417 28.136-17.912 26.784z" stroke-width=".3278px"/>
+  <g stroke-width=".47616px">
+   <path d="m83.235 114.45c2.7774-22.68 2.8151-8.9194-1.1866-80.5-3.7108 63.882-2.5522 59.94 1.1866 80.5z"/>
+   <path d="m82.048 33.947c-16.579-15.025-16.595-30.033 12.836-45.009 9.2457 23.423 8.0488 40.345-12.836 45.009z"/>
+   <path d="m50.839 48.083c4.2604-16.656 6.0473-32.189-26.778-32.005-2.3676 19.322 6.9872 29.661 26.778 32.005z"/>
+  </g>
+ </g>
 </svg>
 `,
 },
