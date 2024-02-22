@@ -105,7 +105,7 @@ z-index: 2;
 
 .firstLetterBold::first-letter,
 .firstLetterBold a::first-letter {
-font-weight: bold;
+font-weight: bolder;
 }
 
 
