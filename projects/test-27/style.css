@@ -1,11 +1,8 @@
-/* v.1.1.4 */
+/* v.1.1.5 */
 
 
 
-
-
-
-
+main { text-align: center; }
 
 
 
@@ -58,13 +55,6 @@ border-top: 3px solid var(--d2);
 width: 70%;
 }
 
-body:has(hr) {
-hr{
-border-top: 1px solid var(--d3);
-border-bottom: 1px solid var(--l3);
-width: 70%;
-}
-}
 
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector#*/
 .tree {
@@ -83,7 +73,7 @@ color: var(--red);
 .tree, .nesting { padding: 5px; font-weight: bold; }
 
 /* bug */
-body { width: calc(100vw - 10vw); margin: 0 auto; border: 1px solid silver; padding: 5px; } /* for bug with line */
+body { width: calc(100vw - 10vw); border: 1px solid silver } /* for bug with line */
 
 /***/
 
@@ -207,24 +197,6 @@ background-size: cover;
 }*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body { text-align: center; }
 
 
 
