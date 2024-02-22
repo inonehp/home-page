@@ -123,6 +123,7 @@ let icons = [
 ];
 
 let icons2 = [
+{"t":"other", "t2":"&bull;", "t3":"dot"},
 {"t":"insert", "t2":"📋", "t3":"paste"},
 {"t":"paste", "t2":"📋"},
 {"t":"angle", "t2":"◀"},

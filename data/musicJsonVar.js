@@ -16773,6 +16773,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Ty Segall \"Candy Sam\" (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=lXyD4L6vgVA",
+        "tag": "#music"
+    },
+    {
         "text": "Tyrant (con Jorja Smith) - YouTube Music",
         "text2": "",
         "text3": "",
