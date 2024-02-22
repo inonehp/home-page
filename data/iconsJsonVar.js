@@ -430,16 +430,6 @@ var iconsJsonVar =
 `,
 },
 {
-"text": `map`,
-"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(3.8767 9.5797)" stroke-width="7.4496">
-  <rect x="11.773" y="19.198" width="71.439" height="48.537"/>
-  <rect x="44.504" y="48.576" width="71.439" height="48.537"/>
- </g>
-</svg>
-`,
-},
-{
 "text": `memo`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <g transform="translate(-7.9023 -6.4352)">
