@@ -1,4 +1,4 @@
-// Fu insert icon v.4.0.4
+// Fu insert icon v.4.0.5
 // Function for insert icon in links using class name.
 /*
 How to use:
@@ -78,13 +78,14 @@ let icons = [
 {"t":"x.com", "t2":`<span class="small bold">𝕏</span>`},
 {"t":"twitch", "t2":"🔴"},
 {"t":"docs", "t2":"📄", "t3":"page"},
-{"t":"geany", "t2":"🫖"},
+//{"t":"geany", "t2":"🫖"},
 {"t":"blender", "t2":"✏️", "t3":"pencil"},
-{"t":"framer", "t2":"//"},
-{"t":"facebook", "t2":"🇫"},
 {"t":"cloudflare", "t2":"⚡"},
 {"t":"behance", "t2":"🎨", "t3":"palette"},
 {"t":"dribbble", "t2":"🎨", "t3":"palette"},
+{"t":"framer", "t2":"//"},
+{"t":"facebook", "t2":"🇫"},
+//{"t":"firefox", "t2":"🦊"},
 {"t":"codepen", "t2":"📜"},
 {"t":"github", "t2":"🐱"},
 {"t":"neocities", "t2":"🐱"},
@@ -92,7 +93,6 @@ let icons = [
 {"t":"hashnode", "t2":`🟦`},
 {"t":"codepen", "t2":"📜"},
 {"t":"friendica", "t2":"🇫"},
-{"t":"firefox", "t2":"🦊"},
 {"t":"liberapay", "t2":`<em class="bold">lp</em>`},
 {"t":"lightning", "t2":"⚡"},
 {"t":"getalby", "t2":"⚡"},
@@ -123,6 +123,8 @@ let icons = [
 ];
 
 let icons2 = [
+{"t":"insert", "t2":"📋", "t3":"paste"},
+{"t":"paste", "t2":"📋"},
 {"t":"angle", "t2":"◀"},
 {"t":"angled", "t2":"◀"},
 {"t":"angel", "t2":"😇"},
@@ -132,16 +134,18 @@ let icons2 = [
 {"t":"archive", "t2":"🗃️"},
 {"t":"zip", "t2":"🗃️"},
 {"t":"balloon", "t2":"🎈"},
-{"t":"button", "t2":"▬"},
+{"t":"button", "t2":"▬", "t3":"button"},
 {"t":"bird", "t2":"🐦"},
 {"t":"binary", "t2":"010"},
 {"t":"number", "t2":"010"},
 {"t":"blog", "t2":"📝", "t3":"memo"},
 {"t":"todo", "t2":"📝", "t3":"memo"},
+{"t":"transliterate", "t2":"Abc", "t3":"text"}, 
 {"t":"task", "t2":"📝", "t3":"memo"},
 {"t":"note", "t2":"📝", "t3":"memo"},
 {"t":"reminde", "t2":"📝", "t3":"memo"},
 {"t":"paper", "t2":"📝", "t3":"memo"},
+{"t":"print", "t2":"🖨️", "t3":"printer"},
 {"t":"article", "t2":"📝", "t3":"memo"},
 {"t":"book", "t2":"📚", "t3":"light-bulb"},
 {"t":"quiz", "t2":"📚", "t3":"light-bulb"},
@@ -152,8 +156,8 @@ let icons2 = [
 {"t":"calculator", "t2":"🧮"},
 {"t":"abacus", "t2":"🧮", "t3":"calculator"},
 {"t":"count", "t2":"🧮", "t3":"calculator"},
-{"t":"circle", "t2":"⭕"},
-{"t":"round", "t2":"⭕"},
+{"t":"circle", "t2":"⭕", "t3":"circle"},
+{"t":"round", "t2":"⭕", "t3":"circle"},
 {"t":"cloud", "t2":"☁️"},
 {"t":"contact", "t2":"💬"},
 {"t":"cookie", "t2":"🍪"},
@@ -187,6 +191,7 @@ let icons2 = [
 {"t":"flash", "t2":"⚡"},
 {"t":"fact", "t2":"⚡"},
 {"t":"file", "t2":"🗃️"},
+{"t":"fox", "t2":"fox", "t3":"fox"},
 {"t":"game", "t2":"🎮", "t3":"game"},
 {"t":"mmorpg", "t2":"🎮", "t3":"game"},
 {"t":"idea", "t2":"💡","t3":"light-bulb"},
@@ -200,8 +205,6 @@ let icons2 = [
 {"t":"info", "t2":"ℹ️", "t3":"information"},
 {"t":"faq", "t2":"ℹ️", "t3":"information"},
 {"t":"about", "t2":"ℹ️", "t3":"information"},
-{"t":"insert", "t2":"📋"},
-{"t":"paste", "t2":"📋"},
 {"t":"joystick", "t2":"🕹"},
 {"t":"keyboard", "t2":"⌨️"},
 {"t":"typing", "t2":"⌨️", "t3":"keyboard"},
@@ -212,6 +215,7 @@ let icons2 = [
 {"t":"tag", "t2":"🏷️"},
 {"t":"laptop", "t2":"💻"},
 {"t":"notebook", "t2":"💻"},
+{"t":"navigation", "t2":"🧭", "t3":"navigation"},
 {"t":"learning", "t2":"🌱", "t3":"herb"},
 {"t":"learn", "t2":"🌱", "t3":"herb"},
 {"t":"live", "t2":"🔴"},
@@ -260,6 +264,7 @@ let icons2 = [
 {"t":"random", "t2":"🎲", "t3":"shuffle"},
 {"t":"dice", "t2":"🎲", "t3":"shuffle"},
 {"t":"robot", "t2":"🤖"},
+{"t":"resize", "t2":"↕", "t3":"resize"},
 {"t":"auto", "t2":"🤖"},
 {"t":"share", "t2":"🔁"},
 {"t":"script", "t2":"📜"},
@@ -310,11 +315,11 @@ let icons2 = [
 {"t":"winter", "t2":"❄️"},
 {"t":"star", "t2":"⭐"},
 {"t":"stopwatch", "t2":"⏱️", "t3":"clock"},
-{"t":"text", "t2":"📄", "t3":"page"},
-{"t":"textarea", "t2":"◻", "t3":"rounded-rectangle"},
-{"t":"texture", "t2":"ᚙ"},
-{"t":"textures", "t2":"ᚙ"},
-{"t":"grid", "t2":"ᚙ"},
+{"t":"text", "t2":"📄", "t3":"text"},
+{"t":"textarea", "t2":"◻", "t3":"texarea"},
+{"t":"texture", "t2":"ᚙ", "t3":"grid"},
+{"t":"textures", "t2":"ᚙ", "t3":"grid"},
+{"t":"grid", "t2":"ᚙ", "t3":"grid"},
 {"t":"tool", "t2":"🔨"},
 {"t":"tv", "t2":"📺"},
 {"t":"url", "t2":"🔗", "t3":"link"},
@@ -347,7 +352,7 @@ let icons2 = [
 
 {"t":"question", "t2":"❓"},
 {"t":"light", "t2":"⬜️"},
-{"t":"highlight", "t2":"⬜️"},
+{"t":"highlight", "t2":"⬜️", "t3":"bottom-line"},
 {"t":"white", "t2":"⬜️"},
 {"t":"dark", "t2":"⬛"},
 {"t":"black", "t2":"⬛"},
@@ -414,6 +419,7 @@ counter = 0;
 var textIcon = "";
 var icon = "";
 var icon2 = "";
+
 
 
 
@@ -541,10 +547,10 @@ document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 
 counter++;
 }else if(counter == 0&&
-('' + linkText.toLowerCase()).indexOf('🦝') == -1&&
+('' + linkText.toLowerCase()).indexOf('&bull;') == -1&&
 ('' + linkText.toLowerCase()).indexOf('🔗') == -1
 ){
-linkText = `<span><span class="brand ico">🦝</span>` + linkText + '</span>';
+linkText = `<span><span class="brand ico">&bull;</span>` + linkText + '</span>';
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 }
 
