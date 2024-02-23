@@ -1,21 +1,19 @@
 
 :root{
 --bg: #E9ECF0;
---l: #EBEDF0; 
---l2: #F0F1F2; 
---l3: #F5F6F7; 
---l4: #F7FBFC; 
---d: #DADDE0; 
---d2: #D5D8DB; 
---d3: #B3BAC7; 
---d4: #2E3033; 
+--l: #EBEDF0;
+--l2: #F0F1F2;
+--l3: #F5F6F7;
+--l4: #F7FBFC;
+--d: #DADDE0;
+--d2: #D5D8DB;
+--d3: #B3BAC7;
+--d4: #2E3033;
 
 --c: #595959;
---c2: #333333; 
---c3: #1A1A1A; 
---c4: #0D0D0D; 
---brand: #3A5C73;
---brand2: #273E4D;
+--c2: #333333;
+--c3: #1A1A1A;
+--c4: #0D0D0D;
 --red: #943328;
 --red2: #B33E30;
 --orange: #D47900;

@@ -1,4 +1,4 @@
-// Main js v.6.3.7
+// Main js v.6.3.8
 // For navigation, themes, etc
 
 // Settings v.1.0.0
@@ -111,7 +111,7 @@ if(conf["confDomainNameInTitle"] == 'on'){
 var domainNameToTitle = (location.hostname).split('.');
 domainNameToTitle = domainNameToTitle[0];
 if(document.getElementsByTagName('title')[0] != null){
-document.getElementsByTagName('title')[0].innerHTML += ' | ' + domainNameToTitle;
+document.getElementsByTagName('title')[0].innerText += ' | ' + domainNameToTitle;
 }
 }
 
@@ -402,30 +402,30 @@ fuMPrintText("footer", `
 <div class="block tRight small padding2List">
 <details class="inlineBlock op">
 <div id="fDesc" class="block pre tLeft wrapperL padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
-<summary class="pointer paddingList marginList" title="Description and keywords">${fDescTitle}</summary>
+<summary class="pointer paddingList marginList brand" title="Description and keywords">${fDescTitle}</summary>
 </details>
 </div>
 
 <div>
-<!--<a href="#goBack" onclick="history.back()">Go Back</a>-->
-<span id="fTheme" class="capitalize" title="Theme settings"><a href="/theme.theme">Themes</a></span>
+<!--<a class="brand" href="#goBack" onclick="history.back()">Go Back</a>-->
+<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="brand" href="/theme.html">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
 </div>
 
 
 
-<span class="inlineBlock padding" style="padding-left: 0;" title="A page in a social network"><a href="https://twitter.com/inonehp">X (Twitter)</a></span>
+<span class="inlineBlock padding brand" style="padding-left: 0;" title="A page in a social network"><a class="brand" href="https://twitter.com/inonehp">X (Twitter)</a></span>
 
-<span title="News"><a class="inlineBlock padding" href="/rss.xml">RSS</a></span>
-<span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding" href="/settings.html">Settings</a></span>
-<span id="fPrivacy" class="inlineBlock padding" title="Cookie Settings"><a class="inlineBlock padding" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
-<span class="inlineBlock padding" title="Site Code (repository)"><a class="inlineBlock padding" href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
-<span title="Page about"><a class="inlineBlock padding" href="/about.html">About</a></span>
+<span title="News"><a class="inlineBlock padding brand" href="/rss.xml">RSS</a></span>
+<span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
+<span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
+<span class="inlineBlock padding" title="Site Code (repository)"><a class="inlineBlock padding brand" href="https://github.com/inonehp/inonehp.pages.dev">Code</a></span>
+<span title="Page about"><a class="inlineBlock padding brand" href="/about.html">About</a></span>
 
-<a class="inlineBlock padding" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
-<a class="inlineBlock padding" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>
+<a class="inlineBlock padding brand" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
+<a class="inlineBlock padding brand" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>
 
-<span class="inlineBlock padding" style="padding-right: 0;" title="Hosting Service">Hosting: <a href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
+<span class="inlineBlock padding gray" style="padding-right: 0;" title="Hosting Service">Hosting: <a class="brand" href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
 
 
 </div>
@@ -531,7 +531,7 @@ document.getElementById('theme').href = '/css/' + theme + '.css';
 
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = '<a href="/theme.html">Theme: ' + conf["confTheme"] + ' (' + theme + ')</a>';
+document.getElementById("fTheme").text = conf["confTheme"] + ' (' + theme + ')';
 }
 
 // fix and dynamic
@@ -916,7 +916,7 @@ if(conf["confTheme"] != mode){ mForseStatus = "[force] "; }
 
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = `<a href="/theme.html">Theme: ${mForseStatus}${mode} (${conf["confRealTmpTheme"]})</a>`;
+document.getElementById("fTheme").innerText = `Theme: ${mForseStatus}${mode} (${conf["confRealTmpTheme"]})`;
 }
 
 
@@ -945,7 +945,7 @@ fuMSetTheme(conf["confTheme"]);
 /* in test, delme (now in function: setTheme)
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = '<a href="/theme.html">Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')</a>';
+document.getElementById("fTheme").innerText = 'Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')';
 }*/
 
 
@@ -1075,7 +1075,7 @@ conf["confDataCollection"] = 'off';
 conf["confDataCollection"] = 'on';
 }
 
-fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">Cookie: auto (${conf["confDataCollection"]})</a>`); 
+fuMPrintText('fPrivacy', `Cookie: auto (${conf["confDataCollection"]})`); 
 }
 // End Auto
 
