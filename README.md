@@ -1,4 +1,4 @@
-<!-- README.md v.1.6.1 -->
+<!-- README.md v.1.6.2 -->
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
@@ -52,7 +52,7 @@
   
 ---
   
-### 🎨 Icons (in progress):  
+### 🎨 Icons:  
   
 ![icons](/img/screenshots/icons.png)
 

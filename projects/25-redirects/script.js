@@ -1,4 +1,4 @@
-// Redirect v.1.7.4
+// Redirect v.1.7.5
 // The script redirects the search query + command to another location.
 
 // conf
@@ -395,7 +395,6 @@ urlList = [
 "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtVnVLQUFQAQ",
 "https://flipboard.com/topic/business",
 
-"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -417,6 +416,7 @@ sRedirUrl = random;
 if(q == ''){
 urlList = [
 "https://sports.yahoo.com/",
+"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
 "https://www.bing.com/news/search?q=Sports",
 "https://www.reddit.com/r/sports/",
 ];

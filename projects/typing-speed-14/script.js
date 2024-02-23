@@ -1072,7 +1072,7 @@ printMsgWin = '';
 
 let winMsg = `
 
-<div class="bg3 padding2 margin2 msg shadow tCenter borderRadius2" style="margin-bottom: 5px; border-bottom: 3px solid  color-mix(in srgb, var(--${printMsgWinColor}) 40%, transparent);">
+<div class="bg3 padding2 margin2 msg shadow tCenter borderRadius2" style="margin-bottom: 5px; border-bottom: 5px solid  color-mix(in srgb, var(--${printMsgWinColor}) 20%, transparent);">
 <!--<b class="${printMsgWinColor} padding2">${printMsgWin}</b>-->
 <div class="pre"><h3><span title="word per minute" style="color: var(--c3);">WPM: ${wpm}</span> <span title="difference with the previous">${wpmProgress}</span> ${recordMsg}</h3></div>
 <span class="normal"><span title="WPM Average last ${wmpAverageLimit}">Average WPM: ${WPMaverage} ${wpmAverageProgress}</span></span><br>
