@@ -1,4 +1,4 @@
-// Blog v.2.8.16
+// Blog v.2.8.17
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
 // JSON data in js varible pre-sorted by time in UNIX format
@@ -189,6 +189,7 @@ mode = mode.trim();
 if(q != null){
 if(q[q.length - 2] == ' '&&q[q.length - 1] == 'l'){ q = q.slice(0, -2); q2 = 'l'; }
 if(q[q.length - 2] == ' '&&q[q.length - 1] == 'r'){ q = q.slice(0, -2); q2 = 'r'; }
+
 if(q[q.length - 2] == ' '&&q[q.length - 1] == 'q'){
 q = q.slice(0, -2);
 q = q.trim();
@@ -299,6 +300,9 @@ function main(){
 
 if(q != null){
 mode = 'search';
+
+if(q == 'rr'||q == 'rs'){ mode = 'randUrl'; }
+
 //embedStatus = 'off';
 //postLimit = 10;
 postLimit = postLimit;

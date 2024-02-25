@@ -1,4 +1,4 @@
-// Redirect v.1.7.5
+// Redirect v.1.7.6
 // The script redirects the search query + command to another location.
 
 // conf
@@ -163,7 +163,7 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"/search.html?mode=randUrl",
+"/links.html?mode=randUrl",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
