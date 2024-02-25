@@ -375,21 +375,19 @@ var iconsJsonVar =
    <rect x="2.9449" y="2.945" width="506.11" height="506.11" fill="#555753" stroke="#343434" stroke-width="5.8899"/>
   </clipPath>
  </defs>
- <g>
-  <rect transform="matrix(1.3953 0 0 .24053 76.891 331.39)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-85-4)"/>
-  <g transform="translate(4.2908e-7 -13.117)">
-   <rect transform="matrix(.29544 0 0 .28631 80.314 153.93)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-9)"/>
-   <rect transform="matrix(.29544 0 0 .28631 80.13 239.08)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-5)"/>
-   <rect transform="matrix(.29544 0 0 .28631 218.17 153.93)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5)"/>
-   <rect transform="matrix(.29544 0 0 .28631 217.98 239.08)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-9-8)"/>
-   <rect transform="matrix(.29544 0 0 .28631 356.02 153.93)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-5-8)"/>
-   <rect transform="matrix(.29544 0 0 .28631 355.84 239.08)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-9-8-3)"/>
-  </g>
-  <rect y="74.396" width="512" height="30" stroke-width="26.375"/>
-  <rect y="416.54" width="512" height="30" stroke-width="26.375"/>
-  <rect y="74.396" width="30" height="372.15" stroke-width="6.7222"/>
-  <rect x="482" y="74.396" width="30" height="372.15" stroke-width="6.7222"/>
+ <rect transform="matrix(1.3953 0 0 .24053 76.891 323.1)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-85-4)"/>
+ <g transform="translate(4.2908e-7,-13.117)">
+  <rect transform="matrix(.29544 0 0 .28631 80.314 153.93)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-9)"/>
+  <rect transform="matrix(.29544 0 0 .28631 80.13 239.08)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-5)"/>
+  <rect transform="matrix(.29544 0 0 .28631 218.17 153.93)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5)"/>
+  <rect transform="matrix(.29544 0 0 .28631 217.98 239.08)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-9-8)"/>
+  <rect transform="matrix(.29544 0 0 .28631 356.02 153.93)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-5-8)"/>
+  <rect transform="matrix(.29544 0 0 .28631 355.84 239.08)" x="-214.54" y="38.196" width="468.33" height="179.22" clip-path="url(#clipPath13992-5-9-8-3)"/>
  </g>
+ <rect y="74.396" width="512" height="30" stroke-width="26.375"/>
+ <rect y="416.54" width="512" height="30" stroke-width="26.375"/>
+ <rect y="74.396" width="30" height="372.15" stroke-width="6.7222"/>
+ <rect x="482" y="74.396" width="30" height="372.15" stroke-width="6.7222"/>
 </svg>
 `,
 },
@@ -722,15 +720,9 @@ var iconsJsonVar =
 },
 {
 "text": `resize`,
-"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(9.584,-27.276)">
-  <g transform="translate(0 35.49)">
-   <rect transform="rotate(-90)" x="-319.89" y="215.38" width="206.42" height="62.063" stroke-width=".70113"/>
-   <path d="m147.26 137.42 94.9-133.62 103.41 133.94z" stroke-width="15.411"/>
-   <rect transform="matrix(0,1,1,0,0,0)" x="175.68" y="215.38" width="206.42" height="62.063" stroke-width=".70113"/>
-   <path d="m147.26 358.15 94.9 133.62 103.41-133.94z" stroke-width="15.411"/>
-  </g>
- </g>
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <path d="m87.862 54.578h-39.848l20.228-52.918z" stroke-width="8.8087"/>
+ <path d="m87.862 80.892h-39.848l20.228 52.918z" stroke-width="8.8087"/>
 </svg>
 `,
 },

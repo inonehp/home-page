@@ -152,6 +152,7 @@ sRedirUrl = url;
 break;
 
 case 'rr#':
+case 'rs#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q.trim());

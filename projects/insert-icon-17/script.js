@@ -1,4 +1,4 @@
-// Fu insert icon v.4.0.5
+// Fu insert icon v.4.0.6
 // Function for insert icon in links using class name.
 /*
 How to use:
@@ -266,6 +266,7 @@ let icons2 = [
 {"t":"dice", "t2":"🎲", "t3":"shuffle"},
 {"t":"robot", "t2":"🤖"},
 {"t":"resize", "t2":"↕", "t3":"resize"},
+{"t":"scroll", "t2":"↕", "t3":"resize"},
 {"t":"auto", "t2":"🤖"},
 {"t":"share", "t2":"🔁"},
 {"t":"script", "t2":"📜"},
