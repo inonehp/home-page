@@ -22,7 +22,7 @@ flex-basis: auto;
 flex-direction: column;
 
 
-flex-basis: 54px;
+flex-basis: 65px;
 font-size: x-small;
 
 
@@ -35,7 +35,7 @@ width: auto;
 max-width: 100%;
 min-width: 1fr;
 
-max-width: 54px;
+max-width: 65px;
 
 
 gap: 0;

@@ -150,6 +150,16 @@ var iconsJsonVar =
 `,
 },
 {
+"text": `folder`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(54.786 -20.34)" fill="#e9b96e" fill-opacity=".2" stroke="#000" stroke-width="15">
+  <path x="7.5" y="187.2233" width="387.42847" height="240.96182" d="m7.5 187.22h387.43v240.96h-387.43z"/>
+  <path x="7.5" y="124.49429" width="237.16905" height="62.729019" d="m7.5 124.49h237.17v62.729h-237.17z"/>
+ </g>
+</svg>
+`,
+},
+{
 "text": `game`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <g transform="matrix(1.5419 0 0 1.5419 -33.799 -14.002)">
@@ -565,25 +575,6 @@ var iconsJsonVar =
 `,
 },
 {
-"text": `pendrive`,
-"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <clipPath id="clipPath4068">
-   <rect x="196.68" y="37.344" width="118.64" height="70.874" d="M 196.68024,37.343906 H 315.31976 V 108.21823 H 196.68024 Z" display="none" fill="#ef2929"/>
-   <path class="powerclip" d="m164.65 13.721h182.7v119.78h-182.7zm32.029 23.623v70.874h118.64v-70.874z" fill="#ef2929"/>
-  </clipPath>
- </defs>
- <g transform="rotate(45 256 256)">
-  <g transform="translate(0 11.492)">
-   <rect x="162.17" y="154.96" width="187.65" height="301.4" stroke="#000" stroke-width="27.867"/>
-  </g>
-  <path transform="translate(0 11.492)" x="169.6512" y="18.721313" width="172.6976" height="109.78485" d="m169.65 18.721h172.7v109.78h-172.7z" clip-path="url(#clipPath4068)"/>
-  <rect x="242.49" y="30.214" width="27.029" height="106.55"/>
- </g>
-</svg>
-`,
-},
-{
 "text": `printer`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <path x="23.6122" y="9.4400997" width="88.245003" height="7.9376998" d="m23.612 9.4401h88.245v7.9377h-88.245z" stroke-width="3.6517"/>
@@ -793,6 +784,13 @@ var iconsJsonVar =
 `,
 },
 {
+"text": `square`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <rect x="43.175" y="43.175" width="49.12" height="49.12" rx="0" ry="0"/>
+</svg>
+`,
+},
+{
 "text": `store`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <defs>
@@ -837,6 +835,17 @@ var iconsJsonVar =
 `,
 },
 {
+"text": `three-dots`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <g stroke-width=".17784">
+  <path d="m83.549 67.735a15.814 15.814 0 0 1-15.814 15.814 15.814 15.814 0 0 1-15.814-15.814 15.814 15.814 0 0 1 15.814-15.814 15.814 15.814 0 0 1 15.814 15.814z"/>
+  <path d="m34.956 67.735a15.814 15.814 0 0 1-15.814 15.814 15.814 15.814 0 0 1-15.814-15.814 15.814 15.814 0 0 1 15.814-15.814 15.814 15.814 0 0 1 15.814 15.814z"/>
+  <path d="m132.22 67.735a15.814 15.814 0 0 1-15.814 15.814 15.814 15.814 0 0 1-15.814-15.814 15.814 15.814 0 0 1 15.814-15.814 15.814 15.814 0 0 1 15.814 15.814z"/>
+ </g>
+</svg>
+`,
+},
+{
 "text": `tv`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <defs>
@@ -849,6 +858,25 @@ var iconsJsonVar =
  <g transform="translate(0 -.077712)" stroke-width="7.9377">
   <rect transform="rotate(-45)" x="11.6" y="33.659" width="13.412" height="44.386"/>
   <rect transform="rotate(45)" x="70.78" y="-62.133" width="13.412" height="44.386"/>
+ </g>
+</svg>
+`,
+},
+{
+"text": `usb-drive`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath4068">
+   <rect x="196.68" y="37.344" width="118.64" height="70.874" d="M 196.68024,37.343906 H 315.31976 V 108.21823 H 196.68024 Z" display="none" fill="#ef2929"/>
+   <path class="powerclip" d="m164.65 13.721h182.7v119.78h-182.7zm32.029 23.623v70.874h118.64v-70.874z" fill="#ef2929"/>
+  </clipPath>
+ </defs>
+ <g transform="rotate(45 256 256)">
+  <g transform="translate(0 11.492)">
+   <rect x="162.17" y="154.96" width="187.65" height="301.4" stroke="#000" stroke-width="27.867"/>
+  </g>
+  <path transform="translate(0 11.492)" x="169.6512" y="18.721313" width="172.6976" height="109.78485" d="m169.65 18.721h172.7v109.78h-172.7z" clip-path="url(#clipPath4068)"/>
+  <rect x="242.49" y="30.214" width="27.029" height="106.55"/>
  </g>
 </svg>
 `,
