@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Project name</title>
+<title>Sorting itmes</title>
 
 <meta name="description" content="
-This is the tpl for create projects.
-Not intended for viewing.
+Sorting itmes.
 ">
 <meta name="keywords" content="
-empty,CSS,JavaScript,project,
+sorting,sort,itmes,CSS,JavaScript,project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,12 +51,58 @@ empty,CSS,JavaScript,project,
 <main class="content">
 <div class="wrapper">
 
-<h1 class="tCenter op">Project name</h1>
-<div class="tCenter padding2 small op">in progress</div>
+<h1 class="tCenter op">Sorting itmes</h1>
+<!--<div class="tCenter padding2 small op">in progress</div>-->
 
+
+
+<div class="xSmall"><span class="bold gray">✪</span> Result:</div>
 <div class="post border bg pre">
 <div id="result"></div>
 </div>
+
+<div class="margin2 padding2"></div>
+
+
+
+<form id="form" method="GET" action="index.html" autocomplete="off" role="search">
+
+
+<label class="block op tLeft xSmall" for="com">Select a separator:</label>
+
+<select name="com" id="com">
+  <option value="new line" selected>New line</option>
+  <option value="space">Space</option>
+  <option value="comma">Comma</option>
+  <option value="|">Symbol "|"</option>
+</select>
+
+<div class="margin"></div>
+<fieldset>
+<legend class="block op tLeft xSmall">Sort:</legend>
+
+<div>
+<input type="radio" id="sort" name="com2" value="sort" checked>
+<label for="sort">sort</label>
+</div>
+
+<div>
+<input type="radio" id="reverse" name="com2" value="reverse">
+<label for="reverse">reverse</label>
+</div>
+
+</fieldset>
+
+<div class="margin"></div>
+<label class="block op tLeft xSmall"><span class="bold orange">✪</span> Input text:</label>
+<textarea id="text" class="padding2" name="q" rows="4" cols="50">Lorem Ipsum Dolor
+Dolor Ipsum Lorem
+3 5 8</textarea>
+
+<input class="xSmall op tCenter" type="submit">
+</div>
+
+</form>
 
 </div>
 </main>

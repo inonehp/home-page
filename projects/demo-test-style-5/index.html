@@ -776,12 +776,25 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 
 
 <br><!--https://www.w3schools.com/html/html_form_input_types.asp#-->
-<input type="radio" id="html" name="fav_language" value="HTML">
-  <label class="xSmall op" for="html">HTML</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
-  <label class="xSmall op" for="css">CSS</label><br>
-  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-  <label class="xSmall op" for="javascript">JavaScript</label>
+
+<fieldset>
+  <legend>Select a maintenance drone:</legend>
+
+  <div>
+    <input type="radio" id="huey" name="drone" value="huey" checked>
+    <label for="huey">Huey</label>
+  </div>
+
+  <div>
+    <input type="radio" id="dewey" name="drone" value="dewey">
+    <label for="dewey">Dewey</label>
+  </div>
+
+  <div>
+    <input type="radio" id="louie" name="drone" value="louie">
+    <label for="louie">Louie</label>
+  </div>
+</fieldset>
 <br>
 
 

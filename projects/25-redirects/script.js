@@ -558,10 +558,14 @@ case 's#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
+let wordpress = (q.replaceAll("%23", ' ')).trim();
+
 urlList = [
 "https://twitter.com/search?q=" + q,
 "https://bsky.app/search?q=" + q,
-"https://wordpress.com/read/search?q=" + q,
+"https://www.threads.net/search/?q=" + q +"&serp_type=default",
+"https://wordpress.com/tag/" + wordpress,
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -569,7 +573,8 @@ if(q == ''){
 urlList = [
 "https://twitter.com/",
 "https://bsky.app/",
-"https://wordpress.com/" + q,
+"https://www.threads.net/",
+"https://wordpress.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
