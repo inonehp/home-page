@@ -11,7 +11,7 @@
 .navTop { position: relative; z-index: 2; }
 .navTop form, .navTop input[type=search] { display: inline-block; }
 .navTop form { width: 100%; max-width: 130px; vertical-align: middle; }
-.navTop input[type=search] { font-size: small; padding: 5px 9px; min-height: 10px; }
+.navTop input[type=search] { font-size: small; padding: 5px 9px; min-height: 10px; line-height: 100%; }
 .navTop form ::placeholder { font-size: x-small; }
 
 

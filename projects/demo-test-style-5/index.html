@@ -765,17 +765,70 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 <label for="range" class="block xSmall op">Range:</label>
 <input id="range" type="range" min="0" max="100">
 
-<label for="q1" class="xSmall op inlineBlock">Q1:</label>
+<label for="q1" class="xSmall op">Q1:</label>
 <input type="checkbox" id="q1" name="q1" value="q1">
-<label for="q2" class="xSmall op inlineBlock">Q2:</label>
+<label for="q2" class="xSmall op">Q2:</label>
 <input type="checkbox" id="q2" name="q2" value="q2">
-<label for="q3" class="xSmall op inlineBlock">Q3:</label>
+<label for="q3" class="xSmall op">Q3:</label>
 <input type="checkbox" checked="checked" id="q3" name="q3" value="q3">
+
+
+
+
+<br><!--https://www.w3schools.com/html/html_form_input_types.asp#-->
+<input type="radio" id="html" name="fav_language" value="HTML">
+  <label class="xSmall op" for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label class="xSmall op" for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label class="xSmall op" for="javascript">JavaScript</label>
+<br>
+
+
+<label for="birthdaytime">Birthday (date and time):</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+<br>
+
+<!--<input type="image" src="/img/tpl/submit.png" alt="Submit" width="48" height="48">
+<br>-->
+
+<label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile">
+<br>
+
+
+ <label for="bdaymonth">Birthday (month and year):</label>
+  <input type="month" id="bdaymonth" name="bdaymonth">
+<br>
+
+
+<label for="phone">Enter your phone number:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+<br>
+
+<label for="homepage">Add your homepage:</label>
+  <input type="url" id="homepage" name="homepage">
+<br>
+
+
+<!--<label for="week">Select a week:</label>
+  <input type="week" id="week" name="week">
+<br>-->
+
+
+
+
+
+
+
+
+
+
 
 <label for="progress" class="xSmall op inlineBlock">Progress:</label>
 <progress id="progress" max="100" value="70"> 70% </progress>
 
-<label for="textHint" class="xSmall op inlineBlock">Test hint:</label>
+<label for="textHint" class="xSmall op">Test hint:</label>
 <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist -->
 <input id="textHint" class="padding2" type="text" list="hint" name="q" placeholder=" input 'hint' for hint test" autocomplete="off">
 <datalist id="hint">
@@ -785,8 +838,8 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 </datalist>
 
 <!-- https://stackoverflow.com/questions/25289390/html-how-to-make-input-type-list-only-accept-a-list-choice/ #-->
-<label for="textarea" class="xSmall op inlineBlock">Nubmer:</label>
-<select class="padding2" name="number">
+<label for="textarea" class="xSmall op">Nubmer:</label>
+<select name="number">
 <option name="1">1</option>
 <option name="2">2</option>
 <option name="3">3</option>
@@ -794,21 +847,21 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 
 
 <!-- https://stackoverflow.com/questions/43820558/how-to-style-a-list-input -->
-<label for="textarea" class="xSmall op inlineBlock">Input text:</label>
+<label for="textarea" class="xSmall op">Input text:</label>
 <textarea id="textarea" class="padding2" name="text" rows="3" cols="" placeholder="textarea"></textarea>
 <input type="hidden" name="h" value="hidden value" autocomplete="false">
 
-<label for="date" class="xSmall op inlineBlock">date:</label>
+<label for="date" class="xSmall op">date:</label>
 <input id="date" type="date" name="date" value="2020-01-01">
 
-<label for="time" class="xSmall op inlineBlock">time:</label>
+<label for="time" class="xSmall op">time:</label>
 <input id="time" type="time" name="time" value="00:00">
 
-<label for="number" class="xSmall op inlineBlock">number:</label>
+<label for="number" class="xSmall op">number:</label>
 <input id="number" type="number" name="number" value="0" min="0" max="10" required>
 
 <label for="select" class="xSmall op">select:</label>
-<select id="select" class="padding2" name="q2"><!-- fixMe CSS mobile chrome padding2 or height -->
+<select id="select" name="q2"><!-- fixMe CSS mobile chrome padding2 or height -->
 <option  value="select value">select value</option>
 <option  value="select value 2" selected>selected value 2</option>
 <option  value="select value 3">select value 3</option>
@@ -830,6 +883,7 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 <button class="op small" type="submit" value="Submit">Button type="submit"</button>
 <button class="submit op small" value="Submit">.submit (class)</button>
 <input class="op small" type="submit">
+<input type="reset" value="Reset">
 
 </form>
 

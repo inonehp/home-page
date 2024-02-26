@@ -180,7 +180,7 @@ document.getElementById("secondNav").innerHTML = `
 <!-- Nav v.1.2.0 -->
 <!-- page, main js, noscript.css -->
 <div class="wrapper3 navTop">
-<div class="margin2"></div>
+<div class="margin"></div>
 <nav>
 
 <span class="countMenuItem"></span>

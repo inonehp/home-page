@@ -1010,7 +1010,7 @@ print += `
 
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
-<label id="search" class="op block tLeft xSmall" for="input">search:</label>
+<label id="search" class="op block tLeft xSmall padding1PxList" for="input">✪ Search:</label>
 <input id="input" class="padding2 op" type="search" name="q"  autocomplete="off" placeholder="" value="${q}">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">

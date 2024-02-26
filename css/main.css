@@ -1,4 +1,4 @@
-/* Main style v.14.0.2 */
+/* Main style v.14.1.0 */
 /* Responsive, mainly class-based */
 
 /* main */
@@ -90,7 +90,7 @@ width: 100%;
 .h5 { font-size: 1.11em; }
 .h6 { font-size: 1.1em; }
 
-input[type="text"], input[type="search"], textarea, input[type="submit"], form button, .submit{
+input[type="text"], input[type="search"], textarea, input[type="submit"], form button, .submit {
 width: 100%;
 min-inline-size: 100%;
 min-height:  var(--inputHeight);
@@ -98,19 +98,27 @@ margin: 0px;
 margin-top: 1px;
 margin-bottom: 1px;
 /*box-shadow: 4px 4px var(--d2);*/
-vertical-align: top; /*https://stackoverflow.com/questions/3453959/how-do-i-fix-inconsistent-textarea-bottom-margin-in-firefox-and-chrome*/
+vertical-align: top; /*https://stackoverflow.com/questions/3453959/how-do-i-fix-inconsistent-textarea-bottom-margin-in-firefox-and-chrome#*/
+display: block;
+line-height: 100%;
 }
-select, input[type="color"], input[type="date"], input[type="number"], input[type="time"]{ margin-top: 1px;
+select, input[type="color"], input[type="date"], input[type="number"], input[type="time"], input[type="reset"], input[type="datetime-local"], input[type="file"], input[type="month"], input[type="tel"], input[type="url"], input[type="week"] {
+margin-top: 1px;
 margin-bottom: 1px;
-padding: 5px;
 min-height: 15px;
 min-height: var(--inputHeight);
-/*display: inline-block;*/
+display: inline-flex;
 vertical-align: middle;
-min-block-size: var(--inputHeight);
-min-inline-size: 45px;
+/*min-block-size: var(--inputHeight);
+min-inline-size: 45px;*/
+line-height: var(--inputHeight);
+padding: 0 5px;
+box-sizing: border-box; 
 }
-input[type=checkbox]{ cursor: pointer; margin: 0; padding: 5px; line-height: normal; }
+input[type="color"]{ padding: 5px; }
+input[type="number"]{ line-height: 0; }
+input[type="week"]{ width: 250px; }
+input[type=checkbox],  input[type="reset"] { cursor: pointer; margin: 0; padding: 5px; line-height: normal; }
 textarea { outline-color: transparent; outline-style: none; resize: vertical; }
 input[type=submit], .submit { cursor:pointer;  }
 td { padding: 5px; }
@@ -159,7 +167,7 @@ align-items: self-end;align-items: stretch;
 .logo, .logo2{
 position: relative;
 border-radius: 50%;
-display: inline-block;
+display: inline-flex;
 vertical-align: middle;
 text-align: center;
 width: 60px;
@@ -500,6 +508,7 @@ display: none;
 }
 
 /* fix */
+* { box-sizing: border-box; }
 
 del a { text-decoration: line-through; }
 
@@ -559,8 +568,6 @@ html{ overflow-x: hidden; } /* fix PWA  */
 input[type=search], select, select option{
 -webkit-appearance: none;
 }
-
-* { box-sizing: border-box; }
 
 
 
