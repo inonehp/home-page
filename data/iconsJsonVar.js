@@ -136,6 +136,13 @@ var iconsJsonVar =
 `,
 },
 {
+"text": `code`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <text x="4.7057438" y="371.38699" font-family="'Open Sans'" font-size="323.27px" font-weight="bold" stroke-width="4.3501" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:5em" xml:space="preserve"><tspan x="4.7057438" y="371.38699" font-family="'Open Sans'" font-size="323.27px" font-weight="bold" stroke-width="4.3501" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">&lt;/&gt;</tspan></text>
+</svg>
+`,
+},
+{
 "text": `dot`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <path d="m91.263 67.735a23.528 23.528 0 0 1-23.528 23.528 23.528 23.528 0 0 1-23.528-23.528 23.528 23.528 0 0 1 23.528-23.528 23.528 23.528 0 0 1 23.528 23.528z" stroke-width=".26459"/>
@@ -434,6 +441,13 @@ var iconsJsonVar =
   <path transform="translate(-68.061)" d="m397.83 256a141.83 108.17 0 0 1-141.83 108.17 141.83 108.17 0 0 1-141.83-108.17 141.83 108.17 0 0 1 141.83-108.17 141.83 108.17 0 0 1 141.83 108.17z" clip-path="url(#clipPath24142)"/>
   <path transform="translate(71.891)" d="m397.83 256a141.83 108.17 0 0 1-141.83 108.17 141.83 108.17 0 0 1-141.83-108.17 141.83 108.17 0 0 1 141.83-108.17 141.83 108.17 0 0 1 141.83 108.17z" clip-path="url(#clipath_lpe_path-effect24146-6)"/>
  </g>
+</svg>
+`,
+},
+{
+"text": `live`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <circle cx="256" cy="256" r="198.72" fill="#a40000" fill-opacity=".95952"/>
 </svg>
 `,
 },
@@ -787,6 +801,13 @@ var iconsJsonVar =
 "text": `square`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <rect x="43.175" y="43.175" width="49.12" height="49.12" rx="0" ry="0"/>
+</svg>
+`,
+},
+{
+"text": `star`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <path transform="matrix(.67578 .037405 -.037405 .67578 101.18 107.45)" d="m52.502 530.31 27.252-229-173.19-152.27 226.21-44.846 91.3-211.77 112.56 201.28 229.62 21.39-156.65 169.25 50.614 224.99-209.37-96.683z" fill="#fcaf3e" fill-opacity=".2" stroke="#000" stroke-width="29.55"/>
 </svg>
 `,
 },
