@@ -565,6 +565,25 @@ var iconsJsonVar =
 `,
 },
 {
+"text": `pendrive`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath4068">
+   <rect x="196.68" y="37.344" width="118.64" height="70.874" d="M 196.68024,37.343906 H 315.31976 V 108.21823 H 196.68024 Z" display="none" fill="#ef2929"/>
+   <path class="powerclip" d="m164.65 13.721h182.7v119.78h-182.7zm32.029 23.623v70.874h118.64v-70.874z" fill="#ef2929"/>
+  </clipPath>
+ </defs>
+ <g transform="rotate(45 256 256)">
+  <g transform="translate(0 11.492)">
+   <rect x="162.17" y="154.96" width="187.65" height="301.4" stroke="#000" stroke-width="27.867"/>
+  </g>
+  <path transform="translate(0 11.492)" x="169.6512" y="18.721313" width="172.6976" height="109.78485" d="m169.65 18.721h172.7v109.78h-172.7z" clip-path="url(#clipPath4068)"/>
+  <rect x="242.49" y="30.214" width="27.029" height="106.55"/>
+ </g>
+</svg>
+`,
+},
+{
 "text": `printer`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <path x="23.6122" y="9.4400997" width="88.245003" height="7.9376998" d="m23.612 9.4401h88.245v7.9377h-88.245z" stroke-width="3.6517"/>
@@ -580,6 +599,18 @@ var iconsJsonVar =
   <rect x="-5.9605e-6" y="118.58" width="135.47" height="7.9377" rx="0" ry="0" stroke-width=".09061"/>
   <rect x="-5.9605e-6" y="73.834" width="7.9377" height="52.681" rx="0" ry="0" stroke-width=".056505"/>
   <rect x="127.53" y="73.834" width="7.9377" height="52.681" rx="0" ry="0" stroke-width=".056505"/>
+ </g>
+</svg>
+`,
+},
+{
+"text": `progress`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <rect x="46.207" y="224.98" width="64.695" height="64.695" stroke-width="11.112"/>
+ <g fill-opacity="0" stroke="#000" stroke-width="15">
+  <rect x="196.11" y="191.99" width="128.01" height="128.01"/>
+  <rect x="13.625" y="191.99" width="128.01" height="128.01"/>
+  <rect x="371.15" y="191.99" width="128.01" height="128.01"/>
  </g>
 </svg>
 `,

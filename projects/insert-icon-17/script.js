@@ -1,4 +1,4 @@
-// Fu insert icon v.4.0.6
+// Fu insert icon v.4.0.7
 // Function for insert icon in links using class name.
 /*
 How to use:
@@ -171,11 +171,11 @@ let icons2 = [
 {"t":"talk", "t2":"💬"},
 {"t":"chat", "t2":"💬"},
 {"t":"unicorn", "t2":"🦄"},
-{"t":"db", "t2":"💾"},
-{"t":"data", "t2":"💾"},
-{"t":"database", "t2":"💾"},
-{"t":"keep", "t2":"💾"},
-{"t":"save", "t2":"💾"},
+{"t":"db", "t2":"💾", "t3":"pendrive"},
+{"t":"data", "t2":"💾", "t3":"pendrive"},
+{"t":"database", "t2":"💾", "t3":"pendrive"},
+{"t":"keep", "t2":"💾", "t3":"pendrive"},
+{"t":"save", "t2":"💾", "t3":"pendrive"},
 {"t":"download", "t2":"⬇️"},
 {"t":"dir", "t2":"📁️"},
 {"t":"developer", "t2":"💻"},
@@ -267,6 +267,8 @@ let icons2 = [
 {"t":"robot", "t2":"🤖"},
 {"t":"resize", "t2":"↕", "t3":"resize"},
 {"t":"scroll", "t2":"↕", "t3":"resize"},
+{"t":"sort", "t2":"↕", "t3":"resize"},
+{"t":"sorting", "t2":"↕", "t3":"resize"},
 {"t":"auto", "t2":"🤖"},
 {"t":"share", "t2":"🔁"},
 {"t":"script", "t2":"📜"},
