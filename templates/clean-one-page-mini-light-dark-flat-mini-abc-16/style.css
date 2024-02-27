@@ -96,15 +96,3 @@ html{ scrollbar-color: var(--l4) var(--d2); }
 ::-webkit-scrollbar-thumb { background-color: var(--l3); }
 
 }
-
-
-.content {
-display: flex;
-flex-direction: column;
-justify-content: center;
-box-sizing: border-box;
-margin: 0 auto;
-margin-bottom: 0;
-overflow: hidden;
-text-align: center;
-}
