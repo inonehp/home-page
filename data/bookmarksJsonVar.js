@@ -487,15 +487,6 @@ var bookmarksJsonVar =
         "time": 1705998418
     },
     {
-        "id": "54",
-        "text": "Scale & Ship Faster with a Composable Web Architecture | Netlify",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.netlify.com\/",
-        "tag": "#hosting #tools #cloud #CheckMe",
-        "time": 1705983166
-    },
-    {
         "id": "53",
         "text": "Cassidy Williams",
         "text2": "",
