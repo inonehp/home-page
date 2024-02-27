@@ -14,11 +14,9 @@
 --d4: #333333;
 
 --c: #595959;
---c2: #333333; 
---c3: #1A1A1A; 
---c4: #0D0D0D; 
---brand: #3A5C73;
---brand2: #273E4D;
+--c2: #333333;
+--c3: #1A1A1A;
+--c4: #0D0D0D;
 --red: #943328;
 --red2: #B33E30;
 --orange: #D47900;
@@ -72,8 +70,6 @@ background-attachment: fixed;
 --c2: #D6D6D6;
 --c3: #E6E6E6;
 --c4: #F7F7F7;
---brand: #C8E0ED;
---brand2: #E6F6FF;
 --red: #FF7066;
 --red2: #FF938C;
 --orange: #FFD68C;
