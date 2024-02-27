@@ -1,4 +1,4 @@
-// Fu insert icon v.4.0.7
+// Fu insert icon v.4.0.8
 // Function for insert icon in links using class name.
 /*
 How to use:
@@ -215,6 +215,8 @@ let icons2 = [
 {"t":"input", "t2":"⌨️", "t3":"keyboard"},
 {"t":"mark", "t2":"✔️"},
 {"t":"check", "t2":"✅"},
+{"t":"changelog", "t2":"🔄", "t3":"refresh"},
+{"t":"refresh", "t2":"🔄", "t3":"refresh"},
 {"t":"label", "t2":"🏷️"},
 {"t":"tag", "t2":"🏷️"},
 {"t":"laptop", "t2":"💻"},
@@ -304,10 +306,10 @@ let icons2 = [
 {"t":"demo", "t2":"🧪", "t3":"warning"},
 {"t":"lorem", "t2":"🧪", "t3":"warning"},
 {"t":"ipsum", "t2":"🧪", "t3":"warning"},
-{"t":"play", "t2":"▶️"},
+{"t":"play", "t2":"▶️", "t3":"play"},
 {"t":"pleroma", "t2":"🟧️"},
 {"t":"portfolio", "t2":"💼"},
-{"t":"progress", "t2":"█░░"},
+{"t":"progress", "t2":"█░░", "t3":"progress"},
 {"t":"quote", "t2":"❝❞"},
 {"t":"quotes", "t2":"❝❞"},
 {"t":"blockquotes", "t2":"❝❞"},

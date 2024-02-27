@@ -503,6 +503,19 @@ var iconsJsonVar =
 `,
 },
 {
+"text": `new`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath53191">
+   <path d="m45.699 194.68v122.65h29.984v-84.121l44.607 84.121h35.324v-122.65h-29.984v84.121l-44.607-84.121zm140.8 0v122.65h87.16v-23.905h-55.533v-28.095h50.522v-23.905h-50.522v-22.837h53.725v-23.905zm104.49 0 29.163 122.65h36.474l22.016-93.239 22.262 93.239h36.474l28.916-122.65h-30.067l-21.194 89.132-21.03-89.132h-30.477l-21.03 89.132-21.194-89.132z" display="none" stroke-width="1.1683"/>
+   <path class="powerclip" d="m-5 86.062h522v339.88h-522zm50.699 108.61v122.65h29.984v-84.121l44.607 84.121h35.324v-122.65h-29.984v84.121l-44.607-84.121zm140.8 0v122.65h87.16v-23.905h-55.533v-28.095h50.522v-23.905h-50.522v-22.837h53.725v-23.905zm104.49 0 29.163 122.65h36.474l22.016-93.239 22.262 93.239h36.474l28.916-122.65h-30.067l-21.194 89.132-21.03-89.132h-30.477l-21.03 89.132-21.194-89.132z" stroke-width="1.1683"/>
+  </clipPath>
+ </defs>
+ <path d="m5e-7 91.062v329.88h512v-329.88z" clip-path="url(#clipPath53191)" stroke-width="1.0667"/>
+</svg>
+`,
+},
+{
 "text": `number`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <g transform="matrix(1.7621 0 0 1.7621 -48.352 -161.08)" style="shape-inside:url(#rect7083);white-space:pre" aria-label="01">
@@ -589,6 +602,19 @@ var iconsJsonVar =
 `,
 },
 {
+"text": `play`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="clipPath12689">
+   <path d="m174.43 393.46v-275.01l233.77 124z" display="none" fill="#a40000" stroke="#000" stroke-width=".93405px"/>
+   <path class="powerclip" d="m28.926 28.926h454.15v454.15h-454.15zm145.5 364.54 233.77-151-233.77-124z" fill="#a40000" stroke="#000" stroke-width=".93405px"/>
+  </clipPath>
+ </defs>
+ <path x="33.926376" y="33.926376" width="444.14725" height="444.14725" d="m33.926 33.926h444.15v444.15h-444.15z" clip-path="url(#clipPath12689)"/>
+</svg>
+`,
+},
+{
 "text": `printer`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
  <path x="23.6122" y="9.4400997" width="88.245003" height="7.9376998" d="m23.612 9.4401h88.245v7.9377h-88.245z" stroke-width="3.6517"/>
@@ -611,11 +637,11 @@ var iconsJsonVar =
 {
 "text": `progress`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
- <rect x="46.207" y="224.98" width="64.695" height="64.695" stroke-width="11.112"/>
- <g fill-opacity="0" stroke="#000" stroke-width="15">
-  <rect x="196.11" y="191.99" width="128.01" height="128.01"/>
-  <rect x="13.625" y="191.99" width="128.01" height="128.01"/>
-  <rect x="371.15" y="191.99" width="128.01" height="128.01"/>
+ <rect x="49.33" y="188.14" width="56.647" height="137.54" stroke-width="15.161"/>
+ <g fill-opacity="0" stroke="#000" stroke-width="18.832">
+  <rect x="13.586" y="155.11" width="128.01" height="201.77"/>
+  <rect x="370.4" y="155.11" width="128.01" height="201.77"/>
+  <rect x="191.96" y="155.11" width="128.01" height="201.77"/>
  </g>
 </svg>
 `,
@@ -751,6 +777,20 @@ var iconsJsonVar =
   <path d="m282.08 112.67 161.59-27.381-21.589 167.83z" stroke-width="15.411"/>
   <circle cx="144.13" cy="386.28" r="94.976" stroke-width="20"/>
  </g>
+</svg>
+`,
+},
+{
+"text": `refresh`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <path transform="translate(0 6.5782)" d="m453.97 256a197.97 197.97 0 0 1-197.97 197.97 197.97 197.97 0 0 1-197.97-197.97 197.97 197.97 0 0 1 197.97-197.97 197.97 197.97 0 0 1 197.97 197.97z" clip-path="url(#clipPath11932)"/>
+ <path d="m253.03 198.95 177.16-170.35-0.72877 170.46z" stroke="#000" stroke-width="1.203px"/>
+ <defs>
+  <clipPath id="clipPath11932">
+   <path d="m256 117.26a138.74 138.74 0 0 0-138.74 138.74 138.74 138.74 0 0 0 138.74 138.74 138.74 138.74 0 0 0 138.74-138.74 138.74 138.74 0 0 0-3.8164-32.189h76.85v-94.619h-139.51v8.4004a138.74 138.74 0 0 0-72.262-20.33z" display="none" fill="#fff"/>
+   <path class="powerclip" d="m53.03 53.03h405.94v405.94h-405.94zm202.97 64.232a138.74 138.74 0 0 0-138.74 138.74 138.74 138.74 0 0 0 138.74 138.74 138.74 138.74 0 0 0 138.74-138.74 138.74 138.74 0 0 0-3.8164-32.189h76.85v-94.619h-139.51v8.4004a138.74 138.74 0 0 0-72.262-20.33z" fill="#fff"/>
+  </clipPath>
+ </defs>
 </svg>
 `,
 },
