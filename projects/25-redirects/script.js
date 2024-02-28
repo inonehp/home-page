@@ -1,4 +1,4 @@
-// Redirect v.1.7.6
+// Redirect v.1.7.7
 // The script redirects the search query + command to another location.
 
 // conf
@@ -362,7 +362,6 @@ break;
 
 
 case 'n2#':
-case 'nn#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -403,6 +402,26 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
+case 'nn#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"?q=" + q + " q",
+];
+
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+if(q == ''){
+urlList = [
+"https://gemini.google.com/",
+"https://copilot.microsoft.com/",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
 
 case 'spo#':
 q = q3.replace(q2, '');
