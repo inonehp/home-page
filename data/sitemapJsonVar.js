@@ -784,13 +784,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Tpl\n\nnone\nNot intended for viewing. ",
-        "url": "\/templates\/tpl-0\/index.html",
-        "tag": " #none",
-        "id": "397185410efa7d4194d37977be390dce",
-        "time": "id"
-    },
-    {
         "text": "Tpl\n\nnone,\nNot intended for viewing.\nCSS art. CSS image. ",
         "url": "\/css-art\/tpl-0\/index.html",
         "tag": " #none #CSSArt #HTML #CSS #project #CSS_art._CSS_image.",
@@ -798,23 +791,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Tpl project\n\nThis is the tpl for create projects.\r\nNot intended for viewing. ",
-        "url": "\/projects\/tpl-project-001\/index.html",
-        "tag": " #empty #CSS #JavaScript #project",
-        "id": "f2b9e564d3b721198d23ae988752e8d7",
-        "time": "id"
-    },
-    {
-        "text": "Tpl project app fixme sw\n\nThis is the tpl for create projects.\r\nNot intended for viewing. ",
-        "url": "\/projects\/tpl-project-app-fixme-sw-002\/index.html",
-        "tag": " #empty #CSS #JavaScript #project",
-        "id": "a66b69eb5d1f3241c2e5fab1926cbeb5",
-        "time": "id"
-    },
-    {
-        "text": "Tpl project mini\n\nThis is the tpl for create projects. ",
+        "text": "Tpl project mini\n\nThis is the tpl for create projects. ignoreme. ",
         "url": "\/mini-projects\/tpl-project-mini-0\/index.html",
-        "tag": " #empty #HTML #CSS #project",
+        "tag": " #ignoreme #empty #HTML #CSS #project",
         "id": "1609ac38ffd109d5d8d42d477926ec8f",
         "time": "id"
     },

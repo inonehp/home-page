@@ -1023,6 +1023,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "AURORA - Apple Tree (Georgia Remix \/ Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=0ifUp-1EjN4",
+        "tag": "#music"
+    },
+    {
         "text": "AURORA - Apple Tree - YouTube",
         "text2": "",
         "text3": "",
@@ -1030,10 +1037,59 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "AURORA - Cure For Me (Live Performance) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=thFwKDrC6po",
+        "tag": "#music"
+    },
+    {
+        "text": "AURORA - Cure For Me (Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=3onSoA0fHz4",
+        "tag": "#music"
+    },
+    {
+        "text": "AURORA - Forgotten Love (Claptone Remix \/ Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=M6PaMrAXd1Q",
+        "tag": "#music"
+    },
+    {
+        "text": "AURORA - Giving In To The Love (Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=lN7AgyOlOPs",
+        "tag": "#music"
+    },
+    {
+        "text": "AURORA - Hunger (Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=iwAcdFSnet4",
+        "tag": "#music"
+    },
+    {
         "text": "AURORA - Runaway - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=d_HlPboLRL8",
+        "tag": "#music"
+    },
+    {
+        "text": "AURORA - The Innocent (Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=YsYb8uBt-Iw",
+        "tag": "#music"
+    },
+    {
+        "text": "AURORA - The Making of 'A Temporary High' (VEVO Footnoes) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Xx1pBrFOmzc",
         "tag": "#music"
     },
     {

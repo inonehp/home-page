@@ -727,11 +727,12 @@ table
 
 <div id="form" class="block padding2"></div>
 <h2 class="tCenter gray">Form:</h2>
-<div class="small tCenter">Something with .padding2</div>
+<div class="h3 tCenter padding2">Something with .padding2</div>
 
 <div id="result" class="light post padding2 shadow"></div>
 <hr>
-<div class="post padding2 shadow bg">
+
+<div class="">
 <script>
 document.getElementById("result").innerHTML = '<div class="block op padding2 margin2">window.location: '+decodeURIComponent(window.location)+'</div>';
 </script>
@@ -741,26 +742,33 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 <hr>
 
 
-<form action="index.html#result" method="POST">
+<form class="padding2 shadow bg borderRadius2" action="index.html#result" method="POST">
 
 <label class="xSmall block paddingList" for="email">Enter your email:</label>
-<input id="email" class="padding2 w100" type="email" placeholder="name@example.com" name="email">
+<input id="email" class="padding2" type="email" placeholder="name@example.com" name="email">
 
 <label  class="xSmall block paddingList" for="pass">Password (8 characters minimum):</label>
-<input class="padding2 w100" type="password" id="pass" name="password" minlength="8" required>
+<input class="padding2" type="password" id="pass" name="password" minlength="8" required>
 
 <input class="op small" type="submit">
 
 </form>
 
+
+
+<hr>
+<hr>
 <hr>
 
-<form action="index.html#result" method="GET">
+<form class="padding2 shadow bg borderRadius2" action="index.html#result" method="GET">
 
 <div>
 
+<label class="xSmall" for="site-search">Search the site:</label>
+<input class="padding2" type="search" id="site-search" name="q" />
+
 <label  class="xSmall block paddingList" for="username">Username:</label>
-<input class="w100" type="text" id="username" name="username">
+<input class="padding2" type="text" id="username" name="username">
 
 <label for="range" class="block xSmall op">Range:</label>
 <input id="range" type="range" min="0" max="100">
