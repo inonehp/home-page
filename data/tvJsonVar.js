@@ -190,13 +190,6 @@ var tvJsonVar =
         "tag": "#tv #cartoon"
     },
     {
-        "text": "PewDiePie - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@PewDiePie\/featured",
-        "tag": "#tv #entertainment #other"
-    },
-    {
         "text": "Phineas and Ferb Full Episodes - YouTube",
         "text2": "",
         "text3": "",

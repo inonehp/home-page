@@ -28,7 +28,7 @@ mRandColor2 = mColors[mRandColor2];
 //console.log(mRandColor + '=' + mRandColor2);
 if(mRandColor == mRandColor2){
 let n = 0;
-while (n < 100) {
+while (n < 30) {
 if(mRandColor == mRandColor2){
 mRandColor2 = getRandomInt(mColors.length);
 mRandColor2 = mColors[mRandColor2];

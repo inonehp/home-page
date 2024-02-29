@@ -148,26 +148,27 @@ project,
 
 
 <div class="hInline post  bg borderList">
-<h1>h1</h1>
-<h2>h2</h2>
-<h3>h3</h3>
-<h4>h4</h4>
-<h5>h5</h5>
-<h6>h6</h6>
+<h1 class="inlineBlock">h1 Text</h1>
+<span class="h1 ">.h1 Text</span><br>
+<h2 class="inlineBlock">h2 Text</h2>
+<span class="h2">.h2 Text</span><br>
+<h3 class="inlineBlock">h3 Text</h3>
+<span class="h3">.h3 Text</span><br>
+<h4 class="inlineBlock">h4 Text</h4>
+<span class="h4">.h4 Text</span><br>
+<h5 class="inlineBlock">h5 Text</h5>
+<span class="h5">.h5 Text</span><br>
+<h6 class="inlineBlock">h6 Text</h6>
+<span class="h6">.h6 Text</span><br>
 
-<h1 class="inlineBlock">h1</h1>
-<h1 class="inlineBlock">h1</h1>
-<h1 class="inlineBlock">h1</h1>
-<h1 class="inlineBlock">h1</h1>
-<h1 class="inlineBlock">h1</h1>
+<div class="pre padding2 border bg2">
 
-<h1 class="inlineBlock">h1</h1>
-<h2 class="inlineBlock">h2</h2>
-<h3 class="inlineBlock">h3</h3>
+<span class="large">.large Text text Text text Text text</span>
+<span class="small">.small Text text Text text Text text</span>
+<span class="xSmall">.xSmall Text text Text text Text text</span>
+<span class="xxSmall">.xxSmall Text text Text text Text text</span>
 
-<h1 class="inlineBlock">h1</h1>
-<h2 class="inlineBlock">h2</h2>
-<h3 class="inlineBlock">h3</h3>
+</div>
 
 
 
@@ -182,6 +183,9 @@ project,
 
 
 <hr><br>
+
+
+
 <div contenteditable="true" class="block padding2">
 <div class="block border padding2">Text text Text text Text text 
 Text text Text text Text text <mark>mark tag</mark> <span class="highlight">.highlight</span> Text text <span class="highlight2">.highlight2</span></div>
@@ -727,7 +731,7 @@ table
 
 <div id="form" class="block padding2"></div>
 <h2 class="tCenter gray">Form:</h2>
-<div class="h3 tCenter padding2">Something with .padding2</div>
+<!--<div class="h3 tCenter padding2">Something with .padding2</div> testme delme -->
 
 <div id="result" class="light post padding2 shadow"></div>
 <hr>
@@ -745,10 +749,10 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 <form class="padding2 shadow bg borderRadius2" action="index.html#result" method="POST">
 
 <label class="xSmall block paddingList" for="email">Enter your email:</label>
-<input id="email" class="padding2" type="email" placeholder="name@example.com" name="email">
+<input id="email" type="email" placeholder="name@example.com" name="email">
 
 <label  class="xSmall block paddingList" for="pass">Password (8 characters minimum):</label>
-<input class="padding2" type="password" id="pass" name="password" minlength="8" required>
+<input type="password" id="pass" name="password" minlength="8" required>
 
 <input class="op small" type="submit">
 
@@ -765,10 +769,10 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 <div>
 
 <label class="xSmall" for="site-search">Search the site:</label>
-<input class="padding2" type="search" id="site-search" name="q" />
+<input type="search" id="site-search" name="q" />
 
 <label  class="xSmall block paddingList" for="username">Username:</label>
-<input class="padding2" type="text" id="username" name="username">
+<input type="text" id="username" name="username">
 
 <label for="range" class="block xSmall op">Range:</label>
 <input id="range" type="range" min="0" max="100">
@@ -834,7 +838,7 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 
 <!--<label for="week">Select a week:</label>
   <input type="week" id="week" name="week">
-<br>-->
+<br> not support-->
 
 
 
@@ -851,7 +855,7 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 
 <label for="textHint" class="xSmall op">Test hint:</label>
 <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist -->
-<input id="textHint" class="padding2" type="text" list="hint" name="q" placeholder=" input 'hint' for hint test" autocomplete="off">
+<input id="textHint" type="text" list="hint" name="q" placeholder=" input 'hint' for hint test" autocomplete="off">
 <datalist id="hint">
     <option value="hint">
     <option value="hint2">
@@ -859,7 +863,7 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 </datalist>
 
 <!-- https://stackoverflow.com/questions/25289390/html-how-to-make-input-type-list-only-accept-a-list-choice/ #-->
-<label for="textarea" class="xSmall op">Nubmer:</label>
+<label for="textarea" class="xSmall op apdding2">Nubmer:</label>
 <select name="number">
 <option name="1">1</option>
 <option name="2">2</option>
@@ -869,7 +873,7 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 
 <!-- https://stackoverflow.com/questions/43820558/how-to-style-a-list-input -->
 <label for="textarea" class="xSmall op">Input text:</label>
-<textarea id="textarea" class="padding2" name="text" rows="3" cols="" placeholder="textarea"></textarea>
+<textarea id="textarea" name="text" rows="3" cols="" placeholder="textarea"></textarea>
 <input type="hidden" name="h" value="hidden value" autocomplete="false">
 
 <label for="date" class="xSmall op">date:</label>
@@ -898,7 +902,7 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 <input type="color" id="color" name="color" value="#000000">
 
 <label class="xSmall" for="email">Enter your email:</label>
-<input id="email" class="padding2" type="email" placeholder="name@example.com" name="email">
+<input id="email" type="email" placeholder="name@example.com" name="email">
 
 <button class="op small">button tag</button>
 <button class="op small" type="submit" value="Submit">Button type="submit"</button>
