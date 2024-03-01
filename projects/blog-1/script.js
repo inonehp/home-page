@@ -194,7 +194,7 @@ if(q[q.length - 2] == ' '&&q[q.length - 1] == 'q'){
 q = q.slice(0, -2);
 q = q.trim();
 q = encodeURIComponent(q);
-window.location.href = "/projects/25-redirects/?q=" + q;
+window.location.href = "/projects/redirects-25/?q=" + q;
 window.location.href = window.location.href + '#stopRedir'; 
 }
 }
@@ -408,7 +408,7 @@ if(postUrl != ''){
 sTimeRedir[2] = 1200;
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
 if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
-window.location.href = '/projects/25-redirects/?rUrl=' + postUrl;
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href+'#stopRedir'; 
@@ -452,7 +452,7 @@ if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
 if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
-window.location.href = '/projects/25-redirects/?rUrl='+postUrl;
+window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href+'#stopRedir'; 
@@ -534,7 +534,7 @@ if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
 if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
-window.location.href = '/projects/25-redirects/?rUrl=' + postUrl;
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href+'#stopRedir'; 
@@ -655,7 +655,7 @@ if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
 if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
-window.location.href = '/projects/25-redirects/?rUrl='+postUrl;
+window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href+'#stopRedir'; 
@@ -771,7 +771,7 @@ if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
 if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
-window.location.href = '/projects/25-redirects/?rUrl='+postUrl;
+window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href+'#stopRedir'; 
@@ -876,7 +876,7 @@ if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
 if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
-window.location.href = '/projects/25-redirects/?rUrl='+postUrl;
+window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href+'#stopRedir'; 
@@ -2700,7 +2700,7 @@ if(lFoundQUrlRandom != ''){
 /*sTimeRedir[2] = 1200;
 comMessagePrint = `random URL: `+ sTimeRedir[2] / 1000 +` sec.`;*/
 if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
-window.location.href = '/projects/25-redirects/?rUrl=' + lFoundQUrlRandom;
+window.location.href = '/projects/redirects-25/?rUrl=' + lFoundQUrlRandom;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href+'#stopRedir'; 

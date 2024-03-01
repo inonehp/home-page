@@ -603,9 +603,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Redirects\n\nWeb search, more correct, a search form with redirection of entered queries to other real search engines. ",
-        "url": "\/projects\/25-redirects\/index.html",
+        "url": "\/projects\/redirects-25\/index.html",
         "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
-        "id": "23cb5e0b7c4d5f09bff2ed2d074b8b9e",
+        "id": "280eb18049f8b5aa6ae73412cbb71eb4",
         "time": "id"
     },
     {

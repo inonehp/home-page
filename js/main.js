@@ -1,7 +1,7 @@
-// Main js v.6.3.8
+// Main js v.6.3.9
 // For navigation, themes, etc
 
-// Settings v.1.0.0
+// Settings v.1.0.1
 var conf = [];
 conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
 conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
@@ -10,8 +10,9 @@ conf["confDomainNameInTitle"] = "on"; // on, off
 conf["confLinkExtList"] = "index.html,.html,index.php,.php";
 conf["confIdEmbedScript"] = "footer";
 
-// wrapper size, number in px from your CSS
+// wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
+conf["conMenuItemAverageWidth"] = 110;
 
 
 // settings var
@@ -271,7 +272,7 @@ cssMedia = '@media(max-width: 1000px)';
 cssMedia2 = '@media(min-width: 1000px)';
 }*/
 
-var mNavItemsAverageWidth = 110;
+var mNavItemsAverageWidth = conf["conMenuItemAverageWidth"];
 // Average: 66 
 var mNavItemsCount = (countMenuItem.length / 2);
 // /2 - dublicate items (links)

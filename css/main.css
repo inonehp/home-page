@@ -1,4 +1,4 @@
-/* Main style v.14.2.0 */
+/* Main style v.14.2.1 */
 /* Responsive, mainly class-based */
 
 /* main */
@@ -422,9 +422,8 @@ a { color: var(--c2); }
 a:hover { color: var(--c4); } 
 
 hr{ border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
-/*a{ color: var(--blue); } a:hover { color: var(--blue2); }*/
-/*::selection { background: #8A9A5B; color: #FFFFFF; }*/
-::selection { background: darkorange; color: #fff; }
+/*::selection { background: darkorange; color: #fff; }*/
+::selection { background: color-mix(in srgb, var(--brandColor) 50%, #fff); color: #000; }
 mark { font-weight: bold;}
 
 input, input:focus, textarea, select, button, input[type="file"] { 

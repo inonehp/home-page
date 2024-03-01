@@ -1,4 +1,4 @@
-// Local main index script v.1.0.2
+// Local main index script v.1.1.0
 
 
 
@@ -75,11 +75,13 @@ opacity: .7;
 }
 
 `;
+
+
 /*
 var styleElem = document.head.appendChild(document.createElement("style"));
 styleElem.innerHTML = mRandColorsPrint;*/
 
-
+//https://developer.mozilla.org/en-US/docs/Web/API/Document/adoptedStyleSheets
 const extraSheet = new CSSStyleSheet();
 extraSheet.replaceSync(mRandColorsPrint);
 // Combine the existing sheets and new one
@@ -91,17 +93,16 @@ document.adoptedStyleSheets = [...document.adoptedStyleSheets, extraSheet];
 
 
 
-// fix main nav "up" v.1.1.0
+// fix main nav "up" v.1.2.0
 
 //if(document.getElementById("mNavUp") != null){
 if(document.getElementsByClassName("mClassNavUp")[0] != null){
 let mNavUpCheck = new String(window.location.pathname);
-
+let mNavUpCheckLevel = Number((mNavUpCheck.split("/")).length);
 var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
 allMClassNavUp.forEach((item, index) => {
 
-
-if(mNavUpCheck != "/"){
+if(mNavUpCheckLevel == 2&&mNavUpCheck != "/"){
 
 if(mNavUpCheck.indexOf('/lists') == -1&&mNavUpCheck.indexOf('./main-list') == -1){
 //document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
