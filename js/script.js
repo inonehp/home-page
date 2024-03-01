@@ -1,4 +1,4 @@
-// Local main index script v.1.1.0
+// Local main index script v.1.1.1
 
 
 
@@ -93,7 +93,7 @@ document.adoptedStyleSheets = [...document.adoptedStyleSheets, extraSheet];
 
 
 
-// fix main nav "up" v.1.2.0
+// fix main nav "up" v.1.2.1
 
 //if(document.getElementById("mNavUp") != null){
 if(document.getElementsByClassName("mClassNavUp")[0] != null){
@@ -102,7 +102,8 @@ let mNavUpCheckLevel = Number((mNavUpCheck.split("/")).length);
 var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
 allMClassNavUp.forEach((item, index) => {
 
-if(mNavUpCheckLevel == 2&&mNavUpCheck != "/"){
+console.log(window.location.href);
+if(mNavUpCheckLevel == 2&&mNavUpCheck != "/"||String(window.location.href).indexOf("localhost/github") != -1){
 
 if(mNavUpCheck.indexOf('/lists') == -1&&mNavUpCheck.indexOf('./main-list') == -1){
 //document.getElementsByClassName("mClassNavUp").href = "/main-list.html";

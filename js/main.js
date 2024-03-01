@@ -12,7 +12,7 @@ conf["confIdEmbedScript"] = "footer";
 
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
-conf["conMenuItemAverageWidth"] = 110;
+conf["conMenuItemAverageWidth"] = 100;
 
 
 // settings var
