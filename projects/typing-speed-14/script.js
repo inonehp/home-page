@@ -1,4 +1,4 @@
-// v.3.15.12
+// v.3.15.14
 
 
 
@@ -341,7 +341,7 @@ document.getElementById('text').rows = '';
 
 
 function fuLtr(task){
-document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/projects/25-redirects/?q='+encodeURIComponent(task)+'  t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/projects/redirects-25/?q='+encodeURIComponent(task)+'  t">tr</a>';
 if(location.hostname == 'localhost'){
 document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" href="/redirects/?q='+encodeURIComponent(task)+'  d"> tr2</a>';
 }
@@ -1160,7 +1160,7 @@ qGo2 = item['key'];
 if(qGo2 != ''){
 var qGo = encodeURIComponent(qGo2);
 print += `
-<a target="_blank" href="/projects/25-redirects/?q=${qGo}">${qGo2} [${item['value']}]</a>,
+<a target="_blank" href="/projects/redirects-25/?q=${qGo}">${qGo2} [${item['value']}]</a>,
 `;
 }
 }
