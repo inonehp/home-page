@@ -1,4 +1,4 @@
-// Local main index script v.1.1.1
+// Local main index script v.1.1.2
 
 
 
@@ -102,8 +102,8 @@ let mNavUpCheckLevel = Number((mNavUpCheck.split("/")).length);
 var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
 allMClassNavUp.forEach((item, index) => {
 
-console.log(window.location.href);
-if(mNavUpCheckLevel == 2&&mNavUpCheck != "/"||String(window.location.href).indexOf("localhost/github") != -1){
+
+if(mNavUpCheckLevel == 2&&mNavUpCheck != "/"||String(window.location.href).indexOf("file://") != -1||String(window.location.href).indexOf("localhost/github") != -1){
 
 if(mNavUpCheck.indexOf('/lists') == -1&&mNavUpCheck.indexOf('./main-list') == -1){
 //document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
