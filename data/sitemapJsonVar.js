@@ -679,7 +679,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Sorting\n\nSorting itmes. ",
+        "text": "Sorting\n\nSorting itmes. Sort text. ",
         "url": "\/projects\/sorting-55\/index.html",
         "tag": " #sorting #sort #itmes #CSS #JavaScript #project",
         "id": "da601564f3b09b3ee57b01f86794eab4",
