@@ -1,4 +1,4 @@
-// Redirect v.1.7.9
+// Redirect v.1.7.10
 // The script redirects the search query + command to another location.
 
 // conf
@@ -653,6 +653,7 @@ if(q == ''){ url = "https://www.google.com/"; }
 sRedirUrl = url;
 break;
 
+case 'ps#':
 case 'gg#':
 q = q3.replace(q2, '');
 q = q.trim();

@@ -1,4 +1,4 @@
-// Blog v.2.9.1
+// Blog v.2.8.17
 // Inspired by X (Twitter), Fediverse
 // Not for large data files!
 // JSON data in js varible pre-sorted by time in UNIX format
@@ -397,7 +397,9 @@ if(qSearch[0] == '#'){
 qData2 = qData.replaceAll(/,/g, ' ');
 if((qData2+' ').indexOf((qSearch + ' ')) >= 0){
 subQListFound.push(qSearch);
-var subQforLight = subQListFound.join(confSymbolForSplit);
+var subQforLight = qSearch + confSymbolForSplit;
+subQforLight = subQforLight.replaceAll(' ',  confSymbolForSplit);
+
 
 // lucky search if last word " l".
 if(q2 == 'l'){
@@ -440,12 +442,9 @@ lFoundQUrlList.push(postUrl);
 // query
 }else if(qData.indexOf(String(qSearch)) != -1||qData.indexOf(String(qSearch23)) != -1){
 if(qData.indexOf(String(qSearch23)) != -1){ qSearch = qSearch23; }
-//subQListFound.push(subQListFound);
-let qSearchTmp = qSearch.split(" ");
-qSearchTmp = qSearchTmp.join(confSymbolForSplit)
-subQListFound.push(qSearchTmp);
-var subQforLight = subQListFound.join(confSymbolForSplit);
-
+subQListFound.push(qSearch);
+var subQforLight = qSearch + confSymbolForSplit;
+subQforLight = subQforLight.replaceAll(' ',  confSymbolForSplit);
 
 // lucky search if last word " l".
 if(q2 == 'l'){
@@ -471,8 +470,6 @@ i3++;
 i++;
 total = i;
 subQListFound = [...new Set(subQListFound)];
-subQListFound = subQListFound.join(",");
-subQListFound = subQListFound.replaceAll(confSymbolForSplit, ' ');
 comMessagePrint = `<span class="bold">${q} (s1.2: ${subQListFound})</span> ${i}`;
 comMessage = 'found';
 
@@ -597,12 +594,8 @@ printTagList += postTag + confSymbolForSplit;
 
 
 
-// s2 Search 2, word
-
+// Search 2, word
 if(mode == 'search'&&comMessage != 'found'){
-var lRelevantResultArr = [];
-var lRelevantResultPoint = 0;
-
 var subQListFound = [];
 
 comMessagePrint = '';
@@ -616,7 +609,7 @@ qSearch = String(qSearch).toLowerCase();
 // rm last symbol if " l".
 if(q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){ qSearch = qSearch.slice(0, -2); }
 
-qSearch = (qSearch + ' ').split(' ');
+qSearch = (qSearch+' ').split(' ');
 
 // many words from space split
 
@@ -652,10 +645,10 @@ for (const item3344 of qSearch) {
 
 // query
 //if((qData.split(item)).length > 1&&item334 != ''){
-if((qData.indexOf(item3344)) != -1&&item3344 != ''){
-lRelevantResultPoint = qData.indexOf(item3344);
+if((qData.indexOf(item3344)) >= 0&&item3344 != ''){
 subQListFound.push(item3344);
-var subQforLight = subQListFound.join(confSymbolForSplit);
+var subQforLight = item3344 + confSymbolForSplit;
+
 // lucky search if last word " l".
 if(q2 == 'l'){
 if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
@@ -671,16 +664,9 @@ window.location.href = window.location.href+'#stopRedir';
 }
 // end lucky search
 
-
-
-
 if(getP3 <= i){
 if(i3 <= postLimit - 1){
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
-//lRelevantResultArr.push(lRelevantResultPoint, fuPrintPost(postId, postText, postTag, postTime, subQforLight));
-var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, postText, postTag, postTime, subQforLight);
-//lRelevantResultArr.push(testArr);
-lRelevantResultArr.push(testArr);
+printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
 }
@@ -699,34 +685,17 @@ lFoundQUrlList.push(scriptDir + '?id=' + postId);
 lFoundQUrlList.push(postUrl);
 }
 
-
 }
-
-
 };
 
 
-lRelevantResultPoint = 0;
+
+
+
 });
 
-
-
 }
-
-
-//https://stackoverflow.com/questions/15478954/sort-array-elements-string-with-numbers-natural-sort
-lRelevantResultArr.sort(function (a,b) {
-    return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
-});
-//lRelevantResultArr.reverse();
-printPost = lRelevantResultArr.join("");
-
-
 }
-
-
-
-
 
 if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h3">Probably not found</div>`; }
 // end Search 2
@@ -792,7 +761,7 @@ if(levenshtein(item336, qSearchListItem) <= 1&&item336 != ''&&qSearchListItem !=
 subQ.push(String(item336).trim()+' ');
 //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
 subQ = [...new Set(subQ)];
-var subQforLight = subQ.join(confSymbolForSplit);
+
 
 if(checkDublicateId[0] != postId){ // fixed dublicate post when search and found
 
@@ -813,6 +782,7 @@ window.location.href = window.location.href+'#stopRedir';
 
 if(getP3 <= i){
 if(i3 <= postLimit - 1){
+subQforLight = subQ.join(confSymbolForSplit);
 printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
@@ -897,7 +867,6 @@ subQ.push('' + (String(qSearch[symbolCounter] + qSearch[symbolCounter + 1] + qSe
 
 //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
 subQ = [...new Set(subQ)];
-var subQforLight = subQ.join(confSymbolForSplit);
 
 if(checkDublicateId[0] != postId){ // fixed dublicate post when search and found
 
@@ -918,6 +887,7 @@ window.location.href = window.location.href+'#stopRedir';
 
 if(getP3 <= i){
 if(i3 <= postLimit - 1){
+subQforLight = subQ.join(confSymbolForSplit);
 printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;

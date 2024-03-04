@@ -280,7 +280,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Geany theme page\n\nGeany IDE code editor themes: light and dark. ",
+        "text": "Geany theme page\n\nGeany IDE code editor themes: light and dark.\nGeany dark theme, Geany light theme. ",
         "url": "\/geany-theme-page.html",
         "tag": " #Geany #theme #color #flat #dark #light #project #page #main",
         "id": "31896b8781cc263386a9442026f4071b",
@@ -301,7 +301,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Googlebaebcdf\n\nGeany IDE code editor themes: light and dark. ",
+        "text": "Googlebaebcdf\n\n ",
         "url": "\/googlebae648489b2c26df.html",
         "tag": " #googlebaebcdf",
         "id": "454da31ae58ef74e16c4a31d9f9933f4",
@@ -497,7 +497,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Pinterest bbde\n\nSometimes I take photos. ",
+        "text": "Pinterest bbde\n\n ",
         "url": "\/pinterest-bb1de.html",
         "tag": " #pinterest #bbde",
         "id": "075e7ac74496a44d82b42c1519f273f6",
@@ -826,7 +826,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Vscode theme page\n\nVisual Studio Code themes: light and dark. ",
+        "text": "Vscode theme page\n\nVisual Studio Code themes: light and dark.\nVisual studio themes. ",
         "url": "\/vscode-theme-page.html",
         "tag": " #Visual #Studio #Code #theme #color #flat #dark #light #VSCode #project #page #main",
         "id": "48d8a39a6a2042b79fd9cedef9e93813",
