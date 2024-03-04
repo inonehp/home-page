@@ -1,4 +1,4 @@
-// Redirect v.1.7.7
+// Redirect v.1.7.9
 // The script redirects the search query + command to another location.
 
 // conf
@@ -464,10 +464,10 @@ urlList = [
 "https://www.reddit.com/r/learnprogramming/",
 "https://www.reddit.com/r/webdev/",
 "https://www.reddit.com/r/web_design/",
-"https://www.reddit.com/r/css/",
-"https://medium.com/tag/web-development",
 "https://dev.to/",
 "https://hashnode.com/community",
+"https://stackoverflow.com/",
+"https://medium.com/tag/webdevelopment",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

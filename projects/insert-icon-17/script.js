@@ -1,4 +1,4 @@
-// Fu insert icon v.4.0.8
+// Fu insert icon v.4.0.9
 // Function for insert icon in links using class name.
 /*
 How to use:
@@ -27,7 +27,7 @@ if(status == undefined){ status = 'off'; }
 if(jsonVar == undefined){ jsonVar = []; }
 
 
-
+/* testme delme
 function fuMGetSvgIcon(iconName, jsonVar){
 
 var icon = '';
@@ -37,16 +37,18 @@ if(val.text == iconName){
 icon = val.text2;
 }
 });
+
 return icon;
-}
+}*/
 //console.table(fuMGetSvgIcon("test", jsonVar));
 
 
+// jsonVar arr to objects
+var jsonVarObjects = {};
+jsonVar.forEach((val) => {
+jsonVarObjects[val.text] = val.text2;
+});
 
-
-/*jsonVar.forEach((item33, index33) => {
-alert(item33["dots"]);
-});*/
 
 
 
@@ -123,6 +125,8 @@ let icons = [
 ];
 
 let icons2 = [
+{"t":"game", "t2":"🎮", "t3":"game"},
+{"t":"mmorpg", "t2":"🎮", "t3":"game"},
 {"t":"other", "t2":"&bull;", "t3":"three-dots"},
 {"t":"insert", "t2":"📋", "t3":"paste"},
 {"t":"paste", "t2":"📋"},
@@ -143,7 +147,6 @@ let icons2 = [
 {"t":"todo", "t2":"📝", "t3":"memo"},
 {"t":"transliterate", "t2":"Abc", "t3":"text"}, 
 {"t":"character", "t2":"Abc", "t3":"code"}, 
-{"t":"dic", "t2":"Abc", "t3":"text"}, 
 {"t":"dictionary", "t2":"Abc", "t3":"text"}, 
 {"t":"task", "t2":"📝", "t3":"memo"},
 {"t":"note", "t2":"📝", "t3":"memo"},
@@ -196,8 +199,6 @@ let icons2 = [
 {"t":"fact", "t2":"⚡"},
 {"t":"file", "t2":"🗃️"},
 {"t":"fox", "t2":"fox", "t3":"fox"},
-{"t":"game", "t2":"🎮", "t3":"game"},
-{"t":"mmorpg", "t2":"🎮", "t3":"game"},
 {"t":"idea", "t2":"💡","t3":"light-bulb"},
 {"t":"fire", "t2":"🔥"},
 {"t":"teapot", "t2":"🫖"},
@@ -266,7 +267,7 @@ let icons2 = [
 {"t":"template", "t2":"📄", "t3":"page"},
 {"t":"templates", "t2":"📄", "t3":"page"},
 {"t":"iframe", "t2":"📄", "t3":"page"},
-{"t":"radio", "t2":"📻"},
+{"t":"radio", "t2":"📻", "t3":"radio"},
 {"t":"random", "t2":"🎲", "t3":"shuffle"},
 {"t":"dice", "t2":"🎲", "t3":"shuffle"},
 {"t":"robot", "t2":"🤖"},
@@ -439,7 +440,8 @@ icon = String(item33["t2"]);
 
 // insert SVG
 if(item33["t3"] == undefined){ item33["t3"] = item33["t"]; }
-let iconSvg = fuMGetSvgIcon(item33["t3"], jsonVar);
+//let iconSvg = fuMGetSvgIcon(item33["t3"], jsonVar); testme delme
+let iconSvg = jsonVarObjects[item33["t3"]];
 if(iconSvg != ''&&iconSvg != undefined){
 icon = `<div style="display: inline-flex; width: 16px; height: 16px;">${iconSvg}</div>`;
 }

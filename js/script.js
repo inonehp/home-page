@@ -1,4 +1,4 @@
-// Local main index script v.1.1.2
+// Local main index script v.1.1.3
 
 
 
@@ -107,29 +107,29 @@ if(mNavUpCheckLevel == 2&&mNavUpCheck != "/"||String(window.location.href).index
 
 if(mNavUpCheck.indexOf('/lists') == -1&&mNavUpCheck.indexOf('./main-list') == -1){
 //document.getElementsByClassName("mClassNavUp").href = "/main-list.html";
-document.getElementsByClassName("mClassNavUp")[index].href = "./main-list.html";
+document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./main-list.html");
 
 
 if(mNavUpCheck.indexOf('/main-list') != -1||mNavUpCheck.indexOf('projects') != -1){
 //document.getElementsByClassName("mClassNavUp").href = "../";
-document.getElementsByClassName("mClassNavUp")[index].href = "./lists.html";
+document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./lists.html");
 }
 
 }
 
 if(mNavUpCheck.indexOf('/pages') != -1||mNavUpCheck.indexOf('/lists') != -1){
-document.getElementsByClassName("mClassNavUp")[index].href = "/";
+document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("/");
 }
 
 
 }else if(mNavUpCheck == "/"){
-document.getElementsByClassName("mClassNavUp")[index].href = "./pages.html";
+document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./pages.html");
 }
 
 
 });
 
-fuMHideFileNameExt2();
+//fuMHideFileNameExt2(); test delme
 
 }
 

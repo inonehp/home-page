@@ -1,4 +1,4 @@
-/* v.1.1.21 */
+/* v.1.1.22 */
 
 .result,  textarea {
 margin: 0 auto;
@@ -26,17 +26,22 @@ scroll-padding-top: 1em;
 /*overflow-x: auto;
 overflow-y: hidden;
 white-space: nowrap;*/
-max-height: 4em;
+max-height: 2em;
 overflow-x: hidden;
 overflow-y: auto;
 scroll-padding-top: 1em;
 }
 
 #lPrintTr, #lPrintTr a{
-font-size: 120%; font-size: 1.3em; font-size: medium;
+font-size: 120%;
+font-size: 1.3em;
+font-size: medium;
 
 }
-#lPrintTr { padding: 0 9px; border-top: 7px solid var(--d2); }
+#lPrintTr {
+padding: 0 9px;
+border-top: 7px solid var(--d2);
+}
 
 
 

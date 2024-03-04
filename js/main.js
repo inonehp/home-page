@@ -1,4 +1,4 @@
-// Main js v.6.3.9
+// Main js v.6.3.12
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -1220,7 +1220,7 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 }
 
 // in embed
-fuMHideFileNameExt2();
+//fuMHideFileNameExt2(); test delme
 
 
 
@@ -1314,7 +1314,7 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 
 // fix fu hide // + test delme
-fuMHideFileNameExt2();
+//fuMHideFileNameExt2();
 
 }
 
@@ -1325,6 +1325,6 @@ fuMHideFileNameExt2();
 
 
 
-// fix fu hide // test delme
-//fuMHideFileNameExt2();
+// fu hide ext
+fuMHideFileNameExt2();
 
