@@ -75,7 +75,8 @@ switch (com) {
 case 'space':
 result = result.replaceAll(' ', conf["confSymbolForSplit"]);
 result = result.split(conf["confSymbolForSplit"]);
-result.sort();
+//result.sort();
+lNaturalSort(result);
 if(com2 == 'reverse'){ result.reverse(); }
 result = result.join(` `);
 break;
@@ -83,7 +84,8 @@ break;
 case 'comma':
 result = result.replaceAll(',', conf["confSymbolForSplit"]);
 result = result.split(conf["confSymbolForSplit"]);
-result.sort();
+//result.sort();
+lNaturalSort(result);
 if(com2 == 'reverse'){ result.reverse(); }
 result = result.join(`,`);
 break;
@@ -91,7 +93,8 @@ break;
 case '|':
 result = result.replaceAll('|', conf["confSymbolForSplit"]);
 result = result.split(conf["confSymbolForSplit"]);
-result.sort();
+//result.sort();
+lNaturalSort(result);
 if(com2 == 'reverse'){ result.reverse(); }
 result = result.join(`|`);
 break;
@@ -101,7 +104,8 @@ result = result.replaceAll('\r\n', conf["confSymbolForSplit"]);
 result = result.replaceAll('\r', conf["confSymbolForSplit"]);
 result = result.replaceAll('\n', conf["confSymbolForSplit"]);
 result = result.split(conf["confSymbolForSplit"]);
-result.sort();
+//result.sort();
+lNaturalSort(result);
 if(com2 == 'reverse'){ result.reverse(); }
 result = result.join(`
 `);
@@ -114,4 +118,11 @@ document.getElementById(printId).innerText = result;
 }
 
 }
+}
+
+//https://stackoverflow.com/questions/2802341/natural-sort-of-alphanumerical-strings-in-javascript
+function lNaturalSort(arr){
+var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+
+return arr.sort(collator.compare);
 }

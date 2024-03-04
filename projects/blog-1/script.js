@@ -1,5 +1,5 @@
-// Blog v.2.9.1
-// Inspired by X (Twitter), Fediverse
+// Blog v.2.9.2
+// Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
 // JSON data in js varible pre-sorted by time in UNIX format
 
@@ -715,9 +715,11 @@ lRelevantResultPoint = 0;
 
 
 //https://stackoverflow.com/questions/15478954/sort-array-elements-string-with-numbers-natural-sort
-lRelevantResultArr.sort(function (a,b) {
-    return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
-});
+//lRelevantResultArr.sort(function (a,b) { return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }); });
+
+//https://stackoverflow.com/questions/2802341/natural-sort-of-alphanumerical-strings-in-javascript
+var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+lRelevantResultArr.sort(collator.compare);
 //lRelevantResultArr.reverse();
 printPost = lRelevantResultArr.join("");
 
