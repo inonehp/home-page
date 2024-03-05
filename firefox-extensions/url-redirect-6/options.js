@@ -13,21 +13,21 @@
 function saveOptions(e) {
 e.preventDefault();
 
-let dataURLRedirectListArr = [];
+let dataUrlRedirectListArr = [];
 
 
-if(document.querySelectorAll('.classURLFirst') != undefined){
-let getData = document.querySelectorAll('.classURLFirst');
+if(document.querySelectorAll('.classUrlFirst') != undefined){
+let getData = document.querySelectorAll('.classUrlFirst');
 getData.forEach((item, index) => {
-let URLFirst33 = document.getElementsByClassName("classURLFirst")[index].value;
-let URLSecond33 = document.getElementsByClassName("classURLSecond")[index].value;
-dataURLRedirectListArr.push({'URLFirst':URLFirst33, 'URLSecond':URLSecond33});
+let urlFirst33 = document.getElementsByClassName("classUrlFirst")[index].value;
+let urlSecond33 = document.getElementsByClassName("classUrlSecond")[index].value;
+dataUrlRedirectListArr.push({'urlFirst':urlFirst33, 'urlSecond':urlSecond33});
 });
 
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
 //browser.storage.sync.set({
 browser.storage.local.set({
-    dataURLRedirectList: JSON.stringify(dataURLRedirectListArr)
+    dataUrlRedirectList: JSON.stringify(dataUrlRedirectListArr)
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
 
@@ -48,14 +48,14 @@ function setCurrentChoice(result) {
 //document.querySelector("#q").value = result.rUrl || "https://example.com";
 //document.querySelector("#q").value = result.rUrl || "";
 
-if(result.dataURLRedirectList){
-var getData =  JSON.parse(result.dataURLRedirectList);
+if(result.dataUrlRedirectList){
+var getData =  JSON.parse(result.dataUrlRedirectList);
 
 
 getData.forEach((item, index) => {
 if(index != undefined&&index != "undefined"){
-document.getElementsByClassName("classURLFirst")[index].value = getData[index].URLFirst;
-document.getElementsByClassName("classURLSecond")[index].value =  getData[index].URLSecond;
+document.getElementsByClassName("classUrlFirst")[index].value = getData[index].urlFirst;
+document.getElementsByClassName("classUrlSecond")[index].value =  getData[index].urlSecond;
 }
 });
 
@@ -66,8 +66,8 @@ function onError(error) {
 console.log(`Error: ${error}`);
 }
 
-//let getting = browser.storage.sync.get("dataURLRedirectList");
-let getting = browser.storage.local.get("dataURLRedirectList");
+//let getting = browser.storage.sync.get("dataUrlRedirectList");
+let getting = browser.storage.local.get("dataUrlRedirectList");
 getting.then(setCurrentChoice, onError);
 
 }

@@ -2,7 +2,7 @@
 // firefox
 
 
-let countURLRedirectCancelStatus = ''; // if input cancel, not open URL
+let countUrlRedirectCancelStatus = ''; // if input cancel, not open URL
 
 
 //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
@@ -15,21 +15,21 @@ console.log(`Error: ${error}`);
 function onGot(result) {
 // if not set key
 let getData = [/*
-{"URLFirst":"http://test.com/","URLSecond":"https://google.com/"},
-{"URLFirst":"http://example.com/","URLSecond":"https://bing.com/"}*/
+{"UrlFirst":"http://test.com/","urlSecond":"https://google.com/"},
+{"UrlFirst":"http://example.com/","urlSecond":"https://bing.com/"}*/
 ];
 
-if(result.dataURLRedirectList) {
+if(result.dataUrlRedirectList) {
 
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
-getData =  JSON.parse(result.dataURLRedirectList);
+getData =  JSON.parse(result.dataUrlRedirectList);
 }
 
-URLRedirect(getData);
+urlRedirect(getData);
 
 
 onhashchange = (event) => {
-URLRedirect(getData);
+urlRedirect(getData);
 };
 
 }
@@ -38,11 +38,11 @@ URLRedirect(getData);
 
 
 
-function URLRedirect(getData){
+function urlRedirect(getData){
 
-var currentURL = location.href;
-var rURL = '';
-var rURLCom = '';
+var currentUrl = location.href;
+var rUrl = '';
+var rUrlCom = '';
 var count = 0;
 
 // list URL from settings
@@ -51,58 +51,60 @@ for (var index = 0; index < getData.length; index++) {
 
 
 
-if(rURLCom != 'redirect'){
+if(rUrlCom != 'redirect'){
 
-let URLFirst = getData[index].URLFirst;
-let URLSecond =  getData[index].URLSecond;
+let urlFirst = getData[index].urlFirst;
+let urlSecond =  getData[index].urlSecond;
 
-URLFirst = URLFirst.replaceAll('%CurrentURL', location.href);
-URLSecond = URLSecond.replaceAll('%CurrentURL', location.href);
+urlFirst = urlFirst.replaceAll('%CurrentUrl', location.href);
+urlSecond = urlSecond.replaceAll('%CurrentUrl', location.href);
 
-//console.log(URLFirst);
+//console.log(urlFirst);
 //console.log(location.href.slice(0, -1));
 
-let URLFirstCheck = URLFirst.replaceAll('!replace', '');
-URLFirstCheck = URLFirstCheck.replaceAll('*', '').trim();
-let URLSecondCheck = URLSecond.replaceAll('!replace', '');
-URLSecondCheck = URLSecond.replaceAll('*', '').trim();
+let urlFirstClean = urlFirst.replaceAll('!replaceAll', '');
+urlFirstClean = urlFirstClean.replaceAll('!replace', '');
+urlFirstClean = urlFirstClean.replaceAll('*', '').trim();
+let urlSecondClean = urlSecond.replaceAll('!replaceAll', '');
+urlSecondClean = urlSecondClean.replaceAll('!replace', '');
+urlSecondClean = urlSecondClean.replaceAll('*', '').trim();
 
-if(URLFirst != ''&&URLSecondCheck != location.href&&URLFirst != URLSecond){
-
-// 1 if strict ==
-if(rURLCom != 'redirect'&&URLFirstCheck == location.href||rURLCom != 'redirect'&&location.href[location.href.length - 1] == '/'&&URLFirstCheck == location.href.slice(0, -1)){
-rURL = URLSecond;
-rURLCom = 'redirect';
-}
+if(urlFirst != ''&&urlSecond != ''&&urlSecondClean != location.href&&urlFirst != urlSecond){
 
 
-
-// 2 if *
-if(rURLCom != 'redirect'&&(URLFirst).indexOf('*') != -1){
-let URLFirstSplit = URLFirst.split('*');
-let URLRedirect2Check = true;
-URLFirstSplit.forEach((item33, index33) => {
-if((location.href).indexOf(item33) == -1){
-URLRedirect2Check = false;
-}
-});
-
-if(URLRedirect2Check == true){
-rURL = URLSecond;
-rURLCom = 'redirect';
-}
-}
-
-
-// 3 replace
-if(count == 0&&rURLCom != 'redirect'&&location.href != URLSecond&&(URLFirst).indexOf('!replace') != -1||location.href != URLSecond&&(URLSecond).indexOf('!replace') != -1){
-rURL = ((location.href).replaceAll(`${URLFirstCheck}`, `${URLSecondCheck}`)).trim();
-rURLCom = 'redirect';
+// 1 if strict by URL ==
+// if http (URL)
+if(urlFirstClean.slice(0, 4) == 'http'&&rUrlCom != 'redirect'&&urlFirstClean == location.href||urlFirstClean.slice(0, 4) == 'http'&&rUrlCom != 'redirect'&&location.href[location.href.length - 1] == '/'&&urlFirstClean == location.href.slice(0, -1)){
+rUrl = urlSecond;
+rUrlCom = 'redirect';
 count++;
 }
 
+/*
+// 2.1 by word in URL replace, not strict
+// if not http (word)
+// ignore query
+if(urlFirst.indexOf('!replaceAll') == -1&&urlSecond.indexOf('!replaceAll') == -1){
+let urlNotQ = String(location.href).split("?");
+urlNotQ = urlNotQ[0];
+if(urlFirstClean.slice(0, 4) != 'http'&&count == 0&&rUrlCom != 'redirect'&&urlFirstClean != location.href&&location.href != urlSecond&&urlNotQ.indexOf(
+urlFirstClean) != -1&&urlNotQ.indexOf(urlSecondClean) == -1){
+rUrl = (String(location.href).replaceAll(`${urlFirstClean}`, `${urlSecondClean}`)).trim();
+rUrlCom = 'redirect';
+count++;
+}
+}*/
 
-
+// 2.2 by word in URL replace, not strict
+// if not http (word)
+// with query
+//if(urlFirst.indexOf('!replaceAll') != -1||urlSecond.indexOf('!replaceAll') != -1){}
+if(urlFirstClean.slice(0, 4) != 'http'&&count == 0&&rUrlCom != 'redirect'&&urlFirstClean != location.href&&location.href != urlSecond&&String(location.href).indexOf(
+urlFirstClean) != -1&&String(location.href).indexOf(urlSecondClean) == -1){
+rUrl = (String(location.href).replaceAll(`${urlFirstClean}`, `${urlSecondClean}`)).trim();
+rUrlCom = 'redirect';
+count++;
+}
 
 
 }
@@ -120,16 +122,16 @@ count++;
 
 
 /*console.log(window.location);
-console.log(rURL);*/
-if(countURLRedirectCancelStatus != 'cancel'&&rURL != ''&&location.href != rURL&&rURLCom == 'redirect'){
-window.location.href = rURL;
-countURLRedirectCancelStatus = 'cancel';
-//console.log(countURLRedirectCancelStatus);
+console.log(rUrl);*/
+if(countUrlRedirectCancelStatus != 'cancel'&&rUrl != ''&&location.href != rUrl&&rUrlCom == 'redirect'){
+window.location.href = rUrl;
+countUrlRedirectCancelStatus = 'cancel';
+//console.log(countUrlRedirectCancelStatus);
 }
 
 
-rURL = '';
-rURLCom = '';
+rUrl = '';
+rUrlCom = '';
 count = 0;
 
 
@@ -139,15 +141,15 @@ count = 0;
 
 
 
-function redirectURLrunAll(rURLMode){
-//const getting = browser.storage.sync.get("dataURLRedirectList");
-const getting = browser.storage.local.get("dataURLRedirectList");
+function redirectUrlRunAll(rUrlMode){
+//const getting = browser.storage.sync.get("dataUrlRedirectList");
+const getting = browser.storage.local.get("dataUrlRedirectList");
 getting.then(onGot, onError);
 }
 
-redirectURLrunAll();
+redirectUrlRunAll();
 
-
+/*
 //https://stackoverflow.com/questions/34999976/detect-changes-on-the-url
 // store url on load
 let currentPage = location.href;
@@ -156,10 +158,10 @@ setInterval(function(){
 if(currentPage != location.href){
 //console.log(currentPage+'||||||'+location.href);
 currentPage = location.href;
-redirectURLrunAll('check1');
+redirectUrlRunAll();
 }
 
-}, 1000);
+}, 1000);*/
 
 
 
