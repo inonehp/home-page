@@ -191,17 +191,25 @@ border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
 
 .logo2 { /*border: 1px;*/ width: 26px; height: 26px; }
 
+
 .logo, .logo2 {
 transition: transform 250ms ease-in-out;
 animation: mAni 500ms 0s, mAniBlink 500ms .5s;
 opacity: 1;
 }
 
+@media (prefers-reduced-motion) {
+.logo, .logo2 {
+transition: unset;
+animation: none;
+opacity: 1;
+}
+}
+
 .logo:hover, .logo2:hover{
 transform: rotate(360deg);
 }
 
-}
 
 @media (prefers-reduced-motion) {
 .logo:hover, .logo2:hover{ border-color: var(--c); }

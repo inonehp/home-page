@@ -1,4 +1,4 @@
-/* Main style v.14.0.2 */
+/* Main style v.14.2.2 */
 /* Responsive, mainly class-based */
 
 /* main */
@@ -20,6 +20,11 @@
 
 --inputHeight: 45px;
 --fontSize: 0.97em;
+
+--padding: 5px;
+--padding2: 10px;
+--padding3: 15px;
+--padding4: 30px;
 
 --itemHeight: 30px;
 --itemHeight2: 45px;
@@ -90,7 +95,7 @@ width: 100%;
 .h5 { font-size: 1.11em; }
 .h6 { font-size: 1.1em; }
 
-input[type="text"], input[type="search"], textarea, input[type="submit"], form button, .submit{
+input[type="text"], input[type="search"], textarea, input[type="submit"], input[type="email"], input[type="password"], form button, .submit {
 width: 100%;
 min-inline-size: 100%;
 min-height:  var(--inputHeight);
@@ -98,22 +103,39 @@ margin: 0px;
 margin-top: 1px;
 margin-bottom: 1px;
 /*box-shadow: 4px 4px var(--d2);*/
-vertical-align: top; /*https://stackoverflow.com/questions/3453959/how-do-i-fix-inconsistent-textarea-bottom-margin-in-firefox-and-chrome*/
+vertical-align: top; /*https://stackoverflow.com/questions/3453959/how-do-i-fix-inconsistent-textarea-bottom-margin-in-firefox-and-chrome#*/
+display: block;
+padding: 0 var(--padding2);
 }
-select, input[type="color"], input[type="date"], input[type="number"], input[type="time"]{ margin-top: 1px;
+
+
+select, input[type="color"], input[type="date"], input[type="number"], input[type="time"], input[type="reset"], input[type="datetime-local"], input[type="file"], input[type="month"], input[type="tel"], input[type="url"], input[type="week"] {
+margin-top: 1px;
 margin-bottom: 1px;
-padding: 5px;
-min-height: 15px;
+/*min-height: 15px; testme delme*/
 min-height: var(--inputHeight);
-/*display: inline-block;*/
+display: inline-flex;
 vertical-align: middle;
-min-block-size: var(--inputHeight);
-min-inline-size: 45px;
+/*min-block-size: var(--inputHeight);
+min-inline-size: 45px;*/
+line-height: var(--inputHeight);
+padding: 0 var(--padding2);
+box-sizing: border-box; 
 }
-input[type=checkbox]{ cursor: pointer; margin: 0; padding: 5px; line-height: normal; }
+
+/* fix */
+textarea { padding: var(--padding2); }
+input[type=search], select, select option{
+-webkit-appearance: none;
+}
+input[type="color"]{ padding: 5px; }
+input[type="number"]{ line-height: 0; }
+input[type=checkbox],  input[type="reset"] { cursor: pointer; margin: 0; padding: 5px; line-height: normal; }
 textarea { outline-color: transparent; outline-style: none; resize: vertical; }
 input[type=submit], .submit { cursor:pointer;  }
 td { padding: 5px; }
+
+
 
 /* class */
 
@@ -159,7 +181,7 @@ align-items: self-end;align-items: stretch;
 .logo, .logo2{
 position: relative;
 border-radius: 50%;
-display: inline-block;
+display: inline-flex;
 vertical-align: middle;
 text-align: center;
 width: 60px;
@@ -179,6 +201,12 @@ opacity: 1;
 transform: rotate(360deg);
 }
 
+@media (prefers-reduced-motion) {
+.logo, .logo2 {
+transition: unset;
+animation: none;
+opacity: 1;
+}
 }
 
 @media (prefers-reduced-motion) {
@@ -288,26 +316,26 @@ right: 0;
 .balance { text-wrap: balance; }
 
 .box { box-sizing: border-box; }
-.padding { padding: 5px; }
-.padding2 { padding: 10px; }
-.padding3 { padding: 15px; }
-.padding4 { padding: 30px; }
+.padding { padding: var(--padding); }
+.padding2 { padding: var(--padding2); }
+.padding3 { padding: var(--padding3); }
+.padding4 { padding: var(--padding4); }
 .padding1Px { padding: 1px; }
-.paddingList { padding-bottom: 5px; }
-.padding2List { padding-bottom: 10px; }
-.padding3List { padding-bottom: 15px; }
-.padding4List { padding-bottom: 30px; }
+.paddingList { padding-bottom: var(--padding); }
+.padding2List { padding-bottom: var(--padding2); }
+.padding3List { padding-bottom: var(--padding3); }
+.padding4List { padding-bottom: var(--padding4); }
 .padding1PxList { padding-bottom: 1px; }
 
-.margin { margin: 5px; }
-.margin2 { margin: 10px; }
-.margin3 { margin: 15px; }
-.margin4 { margin: 30px; }
+.margin { margin: var(--padding); }
+.margin2 { margin: var(--padding2); }
+.margin3 { margin: var(--padding3); }
+.margin4 { margin: var(--padding4); }
 .margin1Px { margin: 1px; }
-.marginList { margin-bottom: 5px; }
-.margin2List { margin-bottom: 10px; }
-.margin3List { margin-bottom: 15px; }
-.margin4List { margin-bottom: 30px; }
+.marginList { margin-bottom: var(--padding); }
+.margin2List { margin-bottom: var(--padding2); }
+.margin3List { margin-bottom: var(--padding3); }
+.margin4List { margin-bottom: var(--padding4); }
 .margin1PxList { margin-bottom: 1px; }
 
 .itemHeight { min-height: var(--itemHeight); }
@@ -391,7 +419,7 @@ border-radius: 5px;
 --brandColor: color-mix(in srgb, var(--blue) 80%, var(--green));
 
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
---brand2: color-mix(in srgb, var(--brandColor) 30%, var(--c4));
+--brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));
 }
 
 body{ background-color: var(--bg); color: var(--c3); }
@@ -400,9 +428,8 @@ a { color: var(--c2); }
 a:hover { color: var(--c4); } 
 
 hr{ border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
-/*a{ color: var(--blue); } a:hover { color: var(--blue2); }*/
-/*::selection { background: #8A9A5B; color: #FFFFFF; }*/
-::selection { background: darkorange; color: #fff; }
+/*::selection { background: darkorange; color: #fff; }*/
+::selection { background: color-mix(in srgb, var(--brandColor) 50%, #fff); color: #000; }
 mark { font-weight: bold;}
 
 input, input:focus, textarea, select, button, input[type="file"] { 
@@ -418,6 +445,8 @@ input[type="number"]{ padding: 5px; }
 
 ::placeholder, input::-webkit-input-placeholder, .placeholder { font-size: small; color: var(--c); }
 input, progress, select { accent-color: var(--brand);  }
+
+form fieldset { border: 1px solid var(--d3); }
 
 .shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 
@@ -500,6 +529,7 @@ display: none;
 }
 
 /* fix */
+* { box-sizing: border-box; }
 
 del a { text-decoration: line-through; }
 
@@ -556,11 +586,6 @@ input[type="color"], form button { vertical-align: middle; max-height: 27.5px; m
 
 html{ overflow-x: hidden; } /* fix PWA  */
 
-input[type=search], select, select option{
--webkit-appearance: none;
-}
-
-* { box-sizing: border-box; }
 
 
 

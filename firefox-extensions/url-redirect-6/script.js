@@ -80,7 +80,7 @@ rUrlCom = 'redirect';
 count++;
 }
 
-/*
+
 // 2.1 by word in URL replace, not strict
 // if not http (word)
 // ignore query
@@ -93,19 +93,19 @@ rUrl = (String(location.href).replaceAll(`${urlFirstClean}`, `${urlSecondClean}`
 rUrlCom = 'redirect';
 count++;
 }
-}*/
+}
 
 // 2.2 by word in URL replace, not strict
 // if not http (word)
 // with query
-//if(urlFirst.indexOf('!replaceAll') != -1||urlSecond.indexOf('!replaceAll') != -1){}
+if(urlFirst.indexOf('!replaceAll') != -1||urlSecond.indexOf('!replaceAll') != -1){
 if(urlFirstClean.slice(0, 4) != 'http'&&count == 0&&rUrlCom != 'redirect'&&urlFirstClean != location.href&&location.href != urlSecond&&String(location.href).indexOf(
 urlFirstClean) != -1&&String(location.href).indexOf(urlSecondClean) == -1){
 rUrl = (String(location.href).replaceAll(`${urlFirstClean}`, `${urlSecondClean}`)).trim();
 rUrlCom = 'redirect';
 count++;
 }
-
+}
 
 }
 

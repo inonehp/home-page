@@ -1,4 +1,4 @@
-/* Main style v.14.2.1 */
+/* Main style v.14.2.2 */
 /* Responsive, mainly class-based */
 
 /* main */
@@ -201,6 +201,12 @@ opacity: 1;
 transform: rotate(360deg);
 }
 
+@media (prefers-reduced-motion) {
+.logo, .logo2 {
+transition: unset;
+animation: none;
+opacity: 1;
+}
 }
 
 @media (prefers-reduced-motion) {
