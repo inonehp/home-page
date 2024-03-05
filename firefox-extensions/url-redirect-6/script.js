@@ -151,6 +151,7 @@ redirectUrlRunAll();
 
 /*
 //https://stackoverflow.com/questions/34999976/detect-changes-on-the-url
+// for change when return with history
 // store url on load
 let currentPage = location.href;
 // listen for changes
