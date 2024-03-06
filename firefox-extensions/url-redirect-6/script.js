@@ -1,5 +1,4 @@
-// v.1.0.6
-// firefox
+// v.1.1.0
 
 
 let countUrlRedirectCancelStatus = ''; // if input cancel, not open URL
@@ -38,7 +37,7 @@ urlRedirect(getData);
 
 
 
-function urlRedirect(getData){
+async function urlRedirect(getData){
 
 var currentUrl = location.href;
 var rUrl = '';
@@ -157,17 +156,12 @@ let currentPage = location.href;
 // listen for changes
 setInterval(function(){
 if(currentPage != location.href){
-//console.log(currentPage+'||||||'+location.href);
+//console.log(currentPage + '||||||' + location.href);
 currentPage = location.href;
 redirectUrlRunAll();
 }
 
-}, 1000);*/
-
-
-
-
-
+}, 1500);*/
 
 
 
