@@ -1,4 +1,4 @@
-// v.3.15.14
+// v.3.15.16
 
 
 
@@ -1072,9 +1072,10 @@ printMsgWin = '';
 
 let winMsg = `
 
-<div class="bg3 padding2 margin2 msg shadow tCenter borderRadius2" style="margin-bottom: 5px; border-bottom: 5px solid  color-mix(in srgb, var(--${printMsgWinColor}) 20%, transparent);">
+<div class="bg3 padding2 margin2 msg shadow tCenter borderRadius2" style="margin-bottom: 5px;">
 <!--<b class="${printMsgWinColor} padding2">${printMsgWin}</b>-->
-<div class="pre"><h3><span title="word per minute" style="color: var(--c3);">WPM: ${wpm}</span> <span title="difference with the previous">${wpmProgress}</span> ${recordMsg}</h3></div>
+<div class="pre inlineBlock margin2List" style="border-bottom: 5px solid  color-mix(in srgb, var(--${printMsgWinColor}) 20%, transparent);"><h3><span title="word per minute" style="color: var(--c3);">WPM: ${wpm}</span> <span title="difference with the previous">${wpmProgress}</span> ${recordMsg}</h3></div>
+<div></div>
 <span class="normal"><span title="WPM Average last ${wmpAverageLimit}">Average WPM: ${WPMaverage} ${wpmAverageProgress}</span></span><br>
 <span class="normal" title="Current accuracy, total"><span class="medium">Accuracy: <span>${acurancyTotal}</span>%</span> ${acurancyProgress}</span><br>
 </div>
