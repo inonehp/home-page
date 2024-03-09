@@ -1,4 +1,4 @@
-/* Main style v.14.2.2 */
+/* Main style v.14.3.0 */
 /* Responsive, mainly class-based */
 
 /* main */
@@ -105,7 +105,7 @@ margin-bottom: 1px;
 /*box-shadow: 4px 4px var(--d2);*/
 vertical-align: top; /*https://stackoverflow.com/questions/3453959/how-do-i-fix-inconsistent-textarea-bottom-margin-in-firefox-and-chrome#*/
 display: block;
-padding: 0 var(--padding2);
+padding: var(--padding2);
 }
 
 
@@ -241,6 +241,7 @@ text-align: center;
 padding: .20em .5em;
 min-width: 2.5em;
 max-width: 100%;
+overflow-wrap: anywhere;
 }
 .tag, .tag2 { white-space: normal; word-break: break-word; }
 .button { padding: .7em 1.2em; }
@@ -445,6 +446,9 @@ input[type="number"]{ padding: 5px; }
 
 ::placeholder, input::-webkit-input-placeholder, .placeholder { font-size: small; color: var(--c); }
 input, progress, select { accent-color: var(--brand);  }
+
+[contenteditable]:focus { outline: solid var(--brand); }
+
 
 form fieldset { border: 1px solid var(--d3); }
 

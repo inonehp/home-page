@@ -819,6 +819,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Utc time clock\n\nA simple ordinary clock, shows the computer (browser) time. ",
+        "url": "\/projects\/utc-time-clock-53\/index.html",
+        "tag": " #time #clock #info #JavaScript #project",
+        "id": "577b3653d9d46f644f8e1cde58990da5",
+        "time": "id"
+    },
+    {
         "text": "Video\n\nA small collection video, shown randomly. ",
         "url": "\/projects\/video-18\/index.html",
         "tag": " #video #random #collection #movie #cartoon #JavaScript #embed #page #project",

@@ -2,8 +2,8 @@
 /* inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
  */
 
-.calculator { border-radius: 7px; width: 100%; max-width: 290px; margin: 0 auto; }
-.content input, #calcResult{ font-size: 16px; display: block; text-align: right; padding: 7px !important; }
+.calculator { border-radius: 7px; width: 100%; max-width: 400px; margin: 0 auto; }
+.content input, #calcResult{ font-size: 16px; display: block; text-align: right;  padding: var(--padding2); }
 #calcResult { font-size: 14px; border-radius: 0 0 4px 4px; }
 .content input, .content  input:focus { border-radius: 7px 7px 0 0;  text-align: right; border-bottom: 0; }
 .content  form { margin: 5px 0;  }
@@ -20,11 +20,15 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-gap: 5px;
 margin: 0 auto;
-margin-top: 15px;
+margin-top: 5px;
 padding: 0;
 justify-content: center;
 align-items: center;
 text-align: center;
+}
+
+.grid2 {
+grid-template-columns: repeat(2, 1fr);
 }
 
 .grid a {
@@ -37,7 +41,20 @@ justify-content: center;
 text-align: center;
 margin: 0 auto;
 box-sizing: border-box;
+
+display: flex;
+flex: 1 0 auto;
+flex-basis: auto;
+flex-direction: column;
+min-height: 100%; 
+
+width: 100%;
+min-width: 100%;
+max-width: 100%;
+gap: 0;
 }
+
+
 @media(max-width: 200px) {
 
 .grid {
@@ -50,6 +67,8 @@ min-height: 10px;
 }
 
 }
+
+
 
 
 @media(max-width: 130px) {
@@ -69,4 +88,30 @@ font-size: x-small;
 .grid {
 grid-template-columns: 1fr 1fr;
 }
+}
+
+
+
+.calcResultTop {
+border-radius: 6px 6px 0 0; 
+border: 1px solid var(--d2);
+background: var(--l2);
+padding: var(--padding2);
+margin-bottom: 1px;
+min-height: 5em;
+
+/*max-height: 3em;
+overflow: scroll;*/
+
+display: flex;
+justify-content: left;
+align-items: center;
+text-align: left;
+width: 100%;
+max-width: 100%;
+min-width: 0px;
+overflow-wrap: anywhere;
+
+word-wrap: break-all;
+
 }

@@ -1,4 +1,4 @@
-// v.2.0.1
+// v.1.5.4
 
 var jsonVar = quizJsonVar;
 
@@ -142,14 +142,14 @@ if(quizListByTagArrClear.length >= 1){
 quizListByTagArrClear.forEach((item, key22) => {
 var clearPostId = jsonVar[item]['id'];
 var clearPostText = jsonVar[item]['text'];
-var clearPostText2 = jsonVar[item]['text2'];
-var clearPostText3 = jsonVar[item]['text3'].split(`___`);
+var clearPostText2 = JSON.parse(jsonVar[item]['text2']);
+var clearPostText3 = jsonVar[item]['text3'];
 var clearPostTag = jsonVar[item]['tag'];
 var clearPostUrl = jsonVar[item]['url'];
 var clearPostTime = jsonVar[item]['time'];
 
-var question = clearPostText2;
-var answer2 = clearPostText3;
+var question = clearPostText2["question"];
+var answer2 = clearPostText2["answer"];
 
 //console.table(clearPostText2);
 
@@ -157,30 +157,11 @@ var answer2 = clearPostText3;
 // shufle answer
 //https://stackoverflow.com/questions/26503595/javascript-shuffling-object-properties-with-their-values
 var randomKeys = Object.keys(answer2);
-var randomKeys = answer2;
 // drop your preffered shuffle algorithm here
 randomKeys.sort(function(a,b) {return Math.random() - 0.5;});
 // now you have random keys!
 
-function shuffle(array) {
-  let currentIndex = array.length,  randomIndex;
 
-  // While there remain elements to shuffle.
-  while (currentIndex > 0) {
-
-    // Pick a remaining element.
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
-}
-
-shuffle(answer2);
 
 var answer = '';
 var answerTmp = '';
@@ -192,19 +173,14 @@ var countVariantId = 1;
 
 var quizVariantRandomOrder = [];
 
-let answerVariant = "";
-let answerOption = "";
 
-answer2.forEach((val, key) => {
-val = val.split("|||");
-answerVariant = val[0];
-answerOption = val[1];
-//console.log(answerVariant +' = '+answerOption);
-if(countVariant2 <= 0&&answerOption == 'true'&&answerVariant.trim() != ''){
+Object.keys(randomKeys).forEach((key) => {
+
+if(countVariant2 <= 0&&answer2[randomKeys[key]] == 'true'){
 quizVariantTrueForPrint[0] = countVariantId;
 //answerTmp = randomKeys[key] + answer2[randomKeys[key]];
-answerTmp = answerVariant;
-answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${answerOption}', '${countVariantId}')">${htmlAsText(answerTmp)}</div>`;
+answerTmp = randomKeys[key];
+answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${htmlAsText(answer2[randomKeys[key]])}', '${countVariantId}')">${htmlAsText(answerTmp)}</div>`;
 quizVariantRandomOrder.push(answer);
 countVariant2++;
 }
@@ -212,15 +188,12 @@ countVariant2++;
 countVariantId++;
 });
 
-answer2.forEach((val, key) => {
-val = val.split("|||");
-answerVariant = val[0];
-answerOption = val[1];
+Object.keys(randomKeys).forEach((key) => {
 
-if(countVariant <= 2&&answerOption != 'true'&&answerVariant.trim()){
+if(countVariant <= 2&&answer2[randomKeys[key]] != 'true'){
 //answerTmp = randomKeys[key] + answer2[randomKeys[key]];
-answerTmp = answerVariant;
-answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${answerOption}', '${countVariantId}', '${quizVariantTrueForPrint[0]}')">${htmlAsText(answerTmp)}</div>`;
+answerTmp = randomKeys[key];
+answer = `<div id="${countVariantId}" class="quizButton button light3 border borderRadius2 click left" onclick="quizMain('quizCheckAnswer', '${htmlAsText(answer2[randomKeys[key]])}', '${countVariantId}', '${quizVariantTrueForPrint[0]}')">${htmlAsText(answerTmp)}</div>`;
 quizVariantRandomOrder.push(answer);
 countVariant++;
 }
@@ -775,14 +748,11 @@ i++;
 
 
 function htmlAsText(text){
-if(text == undefined){
-var text = '';
-}
 
 text = text.replaceAll("<", '&lt;');
 text = text.replaceAll(">", '&gt;');
 text = text.replaceAll("'", '&#39;');
-return text.replaceAll('"', '&quot;');
+return text = text.replaceAll('"', '&quot;');
 
 }
 
