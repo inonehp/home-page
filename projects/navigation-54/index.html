@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- v.1.0.0 -->
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -45,10 +44,21 @@ activation when no JS:
 <link rel="stylesheet" type="text/css" href="noscript.css">
 -->
 <style>
-/* only dropdown */
+/* 500px - need manual adjustment */
+/* when start dropdown js noscript */
+@media(width <= 500px) {
 .navTop nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
+}
+
+/* fix when dynamic change */
+@media(width >= 500px){
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+/* // when start dropdown js noscript */
 
 /* end mobile dropdown menu (copy from main.js */
 

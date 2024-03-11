@@ -1,4 +1,4 @@
-// Nav v.1.1.1
+// Nav v.1.2.0
 
 // config
 
@@ -72,19 +72,11 @@ document.getElementsByTagName("nav")[0].innerHTML += `
 
 /* mobile dropdown menu */
 
+/* when start dropdown js noscript */
 ${cssMedia} {
 .navTop nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
-
-/* delme, dublicate in style.css
-.navTop nav {
-justify-content: left;
-align-items: center;
-display: block;
-text-align: left;
-}*/
-
 }
 
 /* fix when dynamic change */
@@ -93,6 +85,7 @@ ${cssMedia2}{
 display: none !important;
 }
 }
+/* // when start dropdown js noscript */
 </style>
 
 `;

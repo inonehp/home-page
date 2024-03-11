@@ -1,4 +1,4 @@
-// Main js v.6.3.12
+// Main js v.6.3.14
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -296,19 +296,11 @@ document.getElementsByTagName("nav")[0].innerHTML += `
 
 /* mobile dropdown menu */
 
+/* when start dropdown main.js noscript.css */
 ${cssMedia} {
 .navTop nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
-
-/* delme, dublicate in style.css
-.navTop nav {
-justify-content: left;
-align-items: center;
-display: block;
-text-align: left;
-}*/
-
 }
 
 /* fix when dynamic change */
@@ -317,6 +309,8 @@ ${cssMedia2}{
 display: none !important;
 }
 }
+/* // when start dropdown main.js noscript.css */
+
 </style>
 
 `;

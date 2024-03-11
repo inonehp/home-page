@@ -1,4 +1,4 @@
-/* Noscript CSS v.2.0.0 */
+/* Noscript CSS v.2.2.0 */
 
 
 
@@ -7,18 +7,25 @@
 /*//<!-- page, style.css, main.js, noscript.css -->*/
 
 
-/* fix test delme*/
-/*
-@media(min-width: 800px){
-.dropdownMenuContentColumn, .dropdownMenuContent {
-display: none !important;
-}
-}*/
 
-/* only dropdown */
+
+/* mobile dropdown menu (main.js) */
+
+/* 500px - need manual adjustment */
+/* when start dropdown main.js noscript.css */
+@media(width <= 500px) {
 .navTop nav { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
+}
+
+/* fix when dynamic change */
+@media(width >= 500px){
+.dropdownMenuContentColumn, .dropdownMenuContent {
+display: none !important;
+}
+}
+/* // when start dropdown main.js noscript.css */
 
 /* end mobile dropdown menu (copy from main.js */
 

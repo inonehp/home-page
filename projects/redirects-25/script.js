@@ -1,4 +1,4 @@
-// Redirect v.1.7.10
+// Redirect v.1.7.11
 // The script redirects the search query + command to another location.
 
 // conf
@@ -583,7 +583,6 @@ let wordpress = (q.replaceAll("%23", ' ')).trim();
 urlList = [
 "https://twitter.com/search?q=" + q,
 "https://bsky.app/search?q=" + q,
-"https://www.threads.net/search/?q=" + q +"&serp_type=default",
 "https://wordpress.com/tag/" + wordpress,
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -592,7 +591,6 @@ if(q == ''){
 urlList = [
 "https://twitter.com/",
 "https://bsky.app/",
-"https://www.threads.net/",
 "https://wordpress.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
