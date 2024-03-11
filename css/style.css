@@ -1,4 +1,4 @@
-/* v.1.15.5 */
+/* v.1.15.6 */
 
 
 
@@ -48,7 +48,7 @@ align-items: center;
 @media(max-width: 500px){
 .navTop nav {
 justify-content: left !important;
-align-items: left;
+align-items: start;
 text-align: left;
 }
 }

@@ -172,7 +172,7 @@ grid-template-columns: 1fr 30%;
 grid-gap: 1%;
 text-align: right;
 margin-top: .9em;
-align-items: self-end;align-items: stretch;
+align-items: self-end; align-items: stretch;
 }
 
 @media(max-width: 300px) { .postFooter { grid-template-columns: 1fr;} }
@@ -316,7 +316,7 @@ right: 0;
 .left { text-align: left; justify-content: left; }
 .right { text-align: right; justify-content: right; }
 
-@supports (text-wrap: balance) { .balance { text-wrap: balance; } }
+.balance { text-wrap: balance; }
 
 .box { box-sizing: border-box; }
 .padding { padding: var(--padding); }

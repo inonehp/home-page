@@ -420,7 +420,9 @@ fuMPrintText("footer", `
 <a class="inlineBlock padding brand" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
 <a class="inlineBlock padding brand" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>
 
-<span class="inlineBlock padding gray" style="padding-right: 0;" title="Hosting Service">Hosting: <a class="brand" href="https://pages.cloudflare.com/">Cloudflare Pages</a></span>
+<span class="gray small">2024</span>
+
+<span class="inlineBlock padding gray" style="padding-right: 0;" title="Hosting Service"><a class="brand" href="https://pages.cloudflare.com/">Hosting: Cloudflare Pages</a></span>
 
 
 </div>
