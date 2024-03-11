@@ -56,7 +56,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Background colors list\n\nBackground colors list ",
+        "text": "Background colors list\n\nBackground colors list. A small selection of background colors. ",
         "url": "\/projects\/background-colors-list-50\/index.html",
         "tag": " #CSS #color #colors #WebDesign #UI #pallete #project #list #collection",
         "id": "cf5630cda71133ed593748b826a597cd",
@@ -70,7 +70,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Blog\n\nBlog: reposts, likes and other. ",
+        "text": "Blog\n\nBlog: reposts, likes and other. Mini X (Twitter). ",
         "url": "\/blog.html",
         "tag": " #reposts #likes #post #blog #page #main",
         "id": "7d022dd158b090bf0d55b0cef3d14865",
@@ -350,7 +350,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Images page\n\nBadly drawn or made pictures, sometimes something turns out well. ",
+        "text": "Images page\n\nBadly drawn or made pictures, sometimes something turns out well. Mini Instagram or Pinterest. ",
         "url": "\/images-page.html",
         "tag": " #img #picture #wallpaper #logo #illustration #page #main",
         "id": "9af0c15fdbebb872da9388d3977cdfbc",
@@ -429,7 +429,7 @@ var sitemapJsonVar = [
     {
         "text": "Music\n\nA collection of music,  played randomly, using third-party platforms and their players. ",
         "url": "\/projects\/music-20\/index.html",
-        "tag": " #music #collection #random #JavaScript #project",
+        "tag": " #music #collection #random #embed #JavaScript #project",
         "id": "e6daf18cc1e29a8ca88f27d0032c14fc",
         "time": "id"
     },
@@ -490,7 +490,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Photos page\n\nSometimes I take photos. ",
+        "text": "Photos page\n\nSometimes I take photos. Mini Instagram. ",
         "url": "\/photos-page.html",
         "tag": " #photo #page #main",
         "id": "64f9c2bceeb03e942ce9f1b78a921e4f",
@@ -569,7 +569,7 @@ var sitemapJsonVar = [
     {
         "text": "Radio\n\nA small collection of radio stations with the ability to play online, is chosen randomly. ",
         "url": "\/projects\/radio-22\/index.html",
-        "tag": " #radio #random #online #station #colection #JavaScript #project",
+        "tag": " #radio #random #online #station #colection #embed #JavaScript #project",
         "id": "b31f7cd39ade46560c86d8f7dc26ed78",
         "time": "id"
     },
@@ -721,7 +721,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Text\n\nLong text: article, post. I'm attempting to write something. ",
+        "text": "Text\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. ",
         "url": "\/text.html",
         "tag": " #text #article #post #page #main",
         "id": "63caf82fca46caa38ca0328bab57c966",

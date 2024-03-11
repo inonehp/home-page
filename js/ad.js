@@ -1,4 +1,5 @@
-/* v.1.4.7 */
+// Ads v.1.5.0
+// Mini banner system
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
 function fuAds(none, idAds, com){
@@ -37,7 +38,6 @@ if(adsStatus != 'off'&&document.getElementById(idAds) != null){
 let ads = [];
 var adsPrint = '';
 
-
 //ads = JSON.parse(adsJson);
 
 //if (typeof linksListJsonVar != 'undefined') { ads = ads.concat(linksListJsonVar); }
@@ -45,7 +45,7 @@ if (typeof adsJsonVar != 'undefined') { ads = ads.concat(adsJsonVar); }
 
 
 //ads = JSON.parse(adsJson);
-
+let adsUrlPage = fuMHideFileNameExt("/ads.html");
 
 if(ads != null&&ads != ''){
 
@@ -63,14 +63,14 @@ adsText = `<a class="brand inlineBlock" href="/settings.html#confDataCollection"
 }
 if(adsText.search("src=") == -1){ // not found code
 insertIcon = ' insertIcon ';
-adsPrint = '<div class="adsHeader"><a class="brand inlineBlock" href="/ads.html"><del>ads</del>, links</a></div><div class="adsBody ' + insertIcon + '">'+adsText+' <a class="brand break2" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = `<div class="adsHeader"><a class="brand inlineBlock" href="${adsUrlPage}"><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand break2" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 
-document.getElementById(idAds).innerHTML = '<div class="center"><div class="post light borderList ads tLeft break">'+adsPrint+'</div></div>';
+document.getElementById(idAds).innerHTML = '<div class="center"><div class="post light borderList ads tLeft break">' + adsPrint + '</div></div>';
 }else{
 insertIcon = '';
-adsPrint = '<div class="adsHeader"><a class="padding light brand inlineBlock" href="/ads.html"><del>ads</del>, links</a></div><div class="adsBody ' + insertIcon + '">'+adsText+' <a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = `<div class="adsHeader"><a class="padding light brand inlineBlock" href="${adsUrlPage}"><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand" target="blank" href="' + adsURL + '">' + adsURL + '</a></div>';
 
-document.getElementById(idAds).innerHTML = '<div class="center"><div class="adsCode">'+adsPrint+'</div></div>';
+document.getElementById(idAds).innerHTML = '<div class="center"><div class="adsCode">' + adsPrint + '</div></div>';
 }
 
 // end single
@@ -90,16 +90,16 @@ ads.forEach((item, index) => {
 adsText = ads[index]['text']; if(adsText == null) { adsText = ''; }
 adsURL = ads[index]['url']; if(adsURL == null){ adsURL = ''; }
 if(adsText.search("src=") != -1&&cookieStatus != 'on'){ // found
-adsText = `<a class="brand" href="/settings.html#confDataCollection">Cookie setting: ${cookieStatus}.</a>`;
+adsText = fuMHideFileNameExt(`<a class="brand" href="/settings.html#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
 }
 if(adsText.search("src=") == -1){ // not found code
 insertIcon = ' insertIcon ';
-adsPrint = '<div class="adsHeader"><a class="brand inlineBlock" href="/ads.html"><del>ads</del>, links</a></div><div class="adsBody ' + insertIcon + '">'+adsText+' <a class="brand break2" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = `<div class="adsHeader"><a class="brand inlineBlock" href="${adsUrlPage}"><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand break2" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 
 adsPrint = '<div class="center"><div class="post light borderList ads tLeft break">'+adsPrint+'</div></div>';
 }else {
 insertIcon = '';
-adsPrint = '<div class="adsHeader"><a class="padding light brand inlineBlock" href="/ads.html"><del>ads</del>, links</a></div><div class="adsBody ' + insertIcon + '">'+adsText+' <a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = `<div class="adsHeader"><a class="padding light brand inlineBlock" href="${adsUrlPage}"><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 
 adsPrint = '<div class="center"><div class="adsCode">'+adsPrint+'</div></div>';
 }
