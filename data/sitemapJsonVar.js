@@ -778,9 +778,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Time utc clock\n\nA simple ordinary clock, shows the computer (browser) time. ",
-        "url": "\/projects\/time-utc-clock-53\/index.html",
+        "url": "\/projects\/time-utc-clock-56\/index.html",
         "tag": " #time #clock #info #JavaScript #project",
-        "id": "a825dc4037ac4e27892d8a152776d513",
+        "id": "4dcd35d64f705d38dbeef683c50b6700",
         "time": "id"
     },
     {
