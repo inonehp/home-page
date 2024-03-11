@@ -1,4 +1,4 @@
-// v.1.2.0
+// Radndom color demo v.1.2.2
 // gen HTML result
 
 
@@ -67,8 +67,6 @@ print = `
 <div class="border padding2" style="background-color: var(--d3); color: ${randColor};">Text test <b>Text test</b></div>
 <div class="padding2 small" style="">${randColor}</div>
 </div>
-
-
 </div>
 
 `;
@@ -82,6 +80,7 @@ n++;
 
 //https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
 let lPrintUnique = [...new Set(lPrint)];
+lNaturalSort(lPrintUnique);
 
 //https://stackoverflow.com/questions/12132178/using-join-method-to-convert-array-to-string-without-commas
 document.getElementById("result").innerHTML = lPrintUnique.join(""); 
@@ -106,7 +105,12 @@ lDemo(e.target.value);
 
 
 
+//https://stackoverflow.com/questions/2802341/natural-sort-of-alphanumerical-strings-in-javascript
+function lNaturalSort(arr){
+var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
 
+return arr.sort(collator.compare);
+}
 
 
 
