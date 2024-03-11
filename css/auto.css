@@ -87,13 +87,9 @@ background-attachment: fixed;
 --violet2: #D8B8D9;
 }
 
-.darkInvert { filter: invert(70%); }
-.darkBrightness { filter: brightness(70%); }
-
 html{ scrollbar-color: var(--l4) var(--d2); }
 ::-webkit-scrollbar { background-color: var(--d2); }
 ::-webkit-scrollbar-thumb { background-color: var(--l3); }
-
 
 body{
 background-image: url("/img/bg-dark.svg");

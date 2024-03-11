@@ -30,9 +30,6 @@
 --violet2: #F1CDF2;
 }
 
-.darkInvert { filter: invert(0%); }
-.darkBrightness { filter: brightness(100%); }
-
 input[type="submit"] { background: var(--l); color: var(--c2); }
 input[type="submit"]:hover { background: var(--d); color: var(--c3); }
 

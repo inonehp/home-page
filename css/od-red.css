@@ -30,9 +30,6 @@
 --violet2: #F1CDF2;
 }
 
-.darkInvert { filter: invert(70%); }
-.darkBrightness { filter: brightness(70%); }
-
 html{ scrollbar-color: var(--l4) var(--d2); }
 ::-webkit-scrollbar { background-color: var(--d2); }
 ::-webkit-scrollbar-thumb { background-color: var(--l3); }
