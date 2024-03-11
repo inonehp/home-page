@@ -1,4 +1,4 @@
-// v.1.0.3
+// Time v.1.0.3
 
 function fuClock(id){
 

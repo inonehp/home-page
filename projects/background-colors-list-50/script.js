@@ -1,4 +1,4 @@
-// Bg list v.1.0.0
+// Bg colors list v.1.0.0
 
 
 function fuLPrintBgRun(){

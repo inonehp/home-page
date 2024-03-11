@@ -1,4 +1,4 @@
-// v.1.4.6
+// Stopwatch v.1.4.6
 // inspired by Google Clock
 
 var secArr = [];

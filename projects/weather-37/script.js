@@ -1,4 +1,4 @@
-// v.1.0.3
+// Weather widget v.1.0.3
 
 var result = [];
 

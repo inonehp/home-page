@@ -168,6 +168,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Css framework\n\nPersonal mini CSS framework. Demo and CSS test style. Demo test style page. ",
+        "url": "\/projects\/css-framework-5\/index.html",
+        "tag": " #demo #test #style #project",
+        "id": "d29f009f40f5c1dcfa308dcf3b707639",
+        "time": "id"
+    },
+    {
         "text": "Data other page\n\nPlace for other data or files. ",
         "url": "\/data-other-page.html",
         "tag": " #other_data #other_files #data #file #list #page #main",
@@ -186,13 +193,6 @@ var sitemapJsonVar = [
         "url": "\/data-page.html",
         "tag": " #data_file #data #file #list #page #main",
         "id": "7a0ba4bf4d0f6324ea3585f7a30b4111",
-        "time": "id"
-    },
-    {
-        "text": "Demo test style\n\nA demo and test style CSS style on this site. ",
-        "url": "\/projects\/demo-test-style-5\/index.html",
-        "tag": " #demo #test #style #project",
-        "id": "d9b09778c25ae1bc803312404a014324",
         "time": "id"
     },
     {
@@ -777,6 +777,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Time utc clock\n\nA simple ordinary clock, shows the computer (browser) time. ",
+        "url": "\/projects\/time-utc-clock-53\/index.html",
+        "tag": " #time #clock #info #JavaScript #project",
+        "id": "a825dc4037ac4e27892d8a152776d513",
+        "time": "id"
+    },
+    {
         "text": "Todo list idea\n\ntodo list idea ",
         "url": "\/projects\/todo-list-idea-32\/index.html",
         "tag": " #todo #list #idea #tool #JavaScript #project",
@@ -823,13 +830,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/typing-speed-14\/index.html",
         "tag": " #game #typing #speed #trainer #WPM #JavaScript #project",
         "id": "f176928c264f247cd3a9adb88d3b60fb",
-        "time": "id"
-    },
-    {
-        "text": "Utc time clock\n\nA simple ordinary clock, shows the computer (browser) time. ",
-        "url": "\/projects\/utc-time-clock-53\/index.html",
-        "tag": " #time #clock #info #JavaScript #project",
-        "id": "577b3653d9d46f644f8e1cde58990da5",
         "time": "id"
     },
     {

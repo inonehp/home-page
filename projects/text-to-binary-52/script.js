@@ -1,4 +1,4 @@
-// v.1.1.0
+// Text to binary v.1.1.0
 
 var geturl = window.location;
 var url = new URL(geturl);

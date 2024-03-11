@@ -1,4 +1,4 @@
-// v.3.1.2
+// Memory game v.3.1.2
 
 
 var limitMaintl = 20;

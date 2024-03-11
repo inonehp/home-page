@@ -1,4 +1,4 @@
-// v.1.2.0
+// Average number v.1.2.0
 // Inspired by a post on X.com when I wanted to know an average number.
 
 

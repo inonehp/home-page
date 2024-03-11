@@ -1,4 +1,4 @@
-// v.1.1.1
+// Text to URL v.1.1.1
 
 var url = new URL(window.location);
 var q = url.searchParams.get("q");

@@ -1,4 +1,4 @@
-// v.1.3.0
+// Guess number game v.1.3.0
 
 var limit = 10;
 var rangeValue = 0;

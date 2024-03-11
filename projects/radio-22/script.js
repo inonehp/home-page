@@ -1,4 +1,5 @@
-// v.1.3.2
+// Radio v.1.3.2
+// Mini Tunein or mini radio service
 
 
 function randomRadio(printId, jsonVar){

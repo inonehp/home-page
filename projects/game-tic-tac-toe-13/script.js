@@ -1,4 +1,4 @@
-// v.1.2.12
+// Tic Tac Toe game v.1.2.12
 
 
 

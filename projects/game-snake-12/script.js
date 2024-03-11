@@ -1,4 +1,4 @@
-// v.1.2.3
+// Snake game v.1.2.3
 
 var msg = '';
 

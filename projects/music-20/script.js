@@ -1,4 +1,5 @@
 // Music v.1.3.2
+// Mini music service
 // data inspiration: radio mostly and other.
 
 var jsonVar = musicJsonVar;

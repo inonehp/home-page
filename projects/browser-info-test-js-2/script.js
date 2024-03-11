@@ -1,4 +1,4 @@
-// v.1.0.11
+// JS browser info test v.1.0.11
 
 
 

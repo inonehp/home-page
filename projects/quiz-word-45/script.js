@@ -1,4 +1,4 @@
-// v.1.1.3
+// Quiz v.1.1.3
 
 var jsonVar = wordJsonVar;
 

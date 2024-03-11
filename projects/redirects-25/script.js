@@ -1,4 +1,5 @@
 // Redirect v.1.7.11
+// Mini google or search engine
 // The script redirects the search query + command to another location.
 
 // conf

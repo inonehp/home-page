@@ -1,4 +1,4 @@
-// v.1.1.4
+// Drawing v.1.1.4
 // https://developer.mozilla.org/docs/Web/API/Element/mousemove_event
 
 

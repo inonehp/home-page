@@ -1,4 +1,4 @@
-// v.2.2.6
+// Todo v.2.2.6
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
