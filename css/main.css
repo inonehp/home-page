@@ -316,7 +316,7 @@ right: 0;
 .left { text-align: left; justify-content: left; }
 .right { text-align: right; justify-content: right; }
 
-.balance { text-wrap: balance; }
+@supports (text-wrap: balance) { .balance { text-wrap: balance; } }
 
 .box { box-sizing: border-box; }
 .padding { padding: var(--padding); }

@@ -1,4 +1,4 @@
-/* v.1.15.4 */
+/* v.1.15.5 */
 
 
 
@@ -118,7 +118,6 @@ stroke: var(--c) !important;
 /* bg image in main.js */
 
 /* fix */
-.navTop. .navTop a, .navTop button { font-size: 1em; }
 
 
 @media(max-width: 500px){
