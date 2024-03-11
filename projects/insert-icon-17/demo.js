@@ -1,4 +1,4 @@
-// test icon v.1.0.0
+// test demo icon v.1.0.1
 
 
 
@@ -41,7 +41,9 @@ ${lIconsPrint}
 
 </div>
 
-<div class="margin2 padding2"></div>
+<div class="margin2 padding2"></</div>
+<a class="block tCenter tag brand" href="/icons-data/inspiration-log.html">inspiration log</a>
+<div class="margin2 padding2"></</div>
 
 `;
 

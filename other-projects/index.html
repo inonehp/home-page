@@ -12,25 +12,23 @@ redirect to list,ignoreme,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="-1">
-
 <link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
-<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
 <!-- main -->
 <link rel="preload" href="/js/main.js" as="script">
+
 <link rel="preload" href="/css/main.css" as="style">
 <link rel="stylesheet" href="/css/main.css" type="text/css">
-
-<link rel="stylesheet" type="text/css" href="/css/main.css" id="theme">
-<noscript><link rel="stylesheet" type="text/css" href="/css/light.css"></noscript>
+<link rel="preload" href="/css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
 
 <link rel="preload" href="/css/style.css" as="style">
 <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="/css/noscript.css">
+</noscript>
 <!-- end main -->
 
 
@@ -42,7 +40,6 @@ redirect to list,ignoreme,
 <nav>
 <a class="brand" href="/">index</a>
 <a class="brand" href="/other-projects-list.html">list</a>
-<a class="brand" href="javascript:history.back()">back</a>
 </nav>
 </header>
 
@@ -57,7 +54,7 @@ window.location.href = window.location.href+'#stopRedir';
 </script>
 
 <noscript>
-<a href="/other-projects-list.html">/other-projects-list.html</a>
+<a href="/other-projects-list.html">list</a>
 </noscript>
 
 </div>
