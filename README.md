@@ -1,4 +1,4 @@
-<!-- README.md v.1.6.2 -->
+<!-- README.md v.1.6.3 -->
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
@@ -48,13 +48,19 @@
   
 ### ⌨️ Typing:  
   
-![todo](/img/screenshots/typing.png)
+![typing](/img/screenshots/typing.png)
   
 ---
   
 ### 🎨 Icons:  
   
 ![icons](/img/screenshots/icons.png)
+
+---
+  
+### 🎨 Personal mini CSS framework:  
+  
+![Personal mini CSS framework](/img/screenshots/css-framework.png)
 
 ---
   
