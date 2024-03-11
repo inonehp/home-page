@@ -1,4 +1,4 @@
-<!-- README.md v.1.6.3 -->
+<!-- README.md v.1.6.4 -->
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
@@ -59,6 +59,7 @@
 ---
   
 ### 🎨 Personal mini CSS framework:  
+#### main.css + auto.css (color-theme-name.css)
   
 ![Personal mini CSS framework](/img/screenshots/css-framework.png)
 
