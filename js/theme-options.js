@@ -1,4 +1,4 @@
-/* v.4.3.1 */
+/* Theme print option v.4.3.2 */
 // var config in main js
 
 var result = '';
@@ -57,7 +57,7 @@ padding: 5px 15px;
 cursor: pointer;
 word-break: break-all;
 text-align: left;
-margin: 2px 0;
+margin: 2px 1px;
 }
 
 .tehemeList .tehemeListItem { display: flex; }
