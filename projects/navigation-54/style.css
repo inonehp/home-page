@@ -1,4 +1,4 @@
-/* v.1.0.0 */
+/* v.1.1.0 */
 /* comment */
 
 
@@ -21,20 +21,7 @@ grid-gap: 5px;
 margin: 0 auto;
 justify-content: center;
 }
-@media(max-width: 150px) { .menu { display: block; width: 100%; }}
 
-.menu a{
-display: flex;
-min-width: 100%;
-justify-content: start;
-align-content: center;
-margin: 0 auto;
-text-wrap: balance;
-text-align: left;
-/*min-height: 50px;*/
-}
-
-/************/
 .navTop nav {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(0, auto));
@@ -47,7 +34,7 @@ align-items: center;
 @media(max-width: 500px){
 .navTop nav {
 justify-content: left !important;
-align-items: left;
+align-items: center;
 text-align: left;
 }
 

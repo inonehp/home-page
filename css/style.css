@@ -1,4 +1,4 @@
-/* v.1.15.6 */
+/* v.1.16.0 */
 
 
 
@@ -14,28 +14,6 @@
 .navTop input[type=search] { font-size: small; padding: 5px 9px; min-height: 10px; line-height: 100%; }
 .navTop form ::placeholder { font-size: x-small; }
 
-
-.menu {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-grid-gap: 5px;
-margin: 0 auto;
-justify-content: center;
-}
-@media(max-width: 150px) { .menu { display: block; width: 100%; }}
-
-.menu a{
-display: flex;
-min-width: 100%;
-justify-content: start;
-align-content: center;
-margin: 0 auto;
-text-wrap: balance;
-text-align: left;
-/*min-height: 50px;*/
-}
-
-/************/
 .navTop nav {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(0, auto));
@@ -48,7 +26,7 @@ align-items: center;
 @media(max-width: 500px){
 .navTop nav {
 justify-content: left !important;
-align-items: start;
+align-items: center;
 text-align: left;
 }
 }
@@ -100,7 +78,26 @@ z-index: 2;
 
 
 
+.menu {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+grid-gap: 5px;
+margin: 0 auto;
+justify-content: center;
+}
 
+@media(max-width: 150px) { .menu { display: block; width: 100%; }}
+
+.menu a{
+display: flex;
+min-width: 100%;
+justify-content: start;
+align-content: center;
+margin: 0 auto;
+text-wrap: balance;
+text-align: left;
+/*min-height: 50px;*/
+}
 
 
 .firstLetterBold::first-letter,
