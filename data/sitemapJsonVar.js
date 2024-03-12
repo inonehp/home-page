@@ -21,10 +21,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "About page auto light dark\n\nWebsite template description. ",
-        "url": "\/templates\/about-page-auto-light-dark-21\/index.html",
+        "text": "About me page auto light dark\n\nWebsite template description. ",
+        "url": "\/templates\/about-me-page-auto-light-dark-21\/index.html",
         "tag": " #WebDesign #template",
-        "id": "20b41e167b852142bc6be7c44686a1ab",
+        "id": "dec8643784209843b8fc15c5c35548be",
         "time": "id"
     },
     {
