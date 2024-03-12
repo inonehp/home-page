@@ -87,7 +87,7 @@
   
 ## 📁 ZIP: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)
 ## 🔗 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)
-<!--## ☕ Buy Me a coffee: [support](https://www.buymeacoffee.com/inonehp)-->
+<!--## ☕ Donate: [Buy Me a Coffee](https://www.buymeacoffee.com/inonehp)-->
   
 ---
 
