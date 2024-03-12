@@ -106,10 +106,31 @@ var quoteJsonVar =
         "tag": "#quote"
     },
     {
+        "text": "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.yourdictionary.com\/articles\/examples-aphorisms",
+        "tag": "#quote"
+    },
+    {
+        "text": "Going to church doesn\u2019t make you a Christian any more than going to a garage makes you an automobile. Billy Sunday",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.goodreads.com\/quotes\/27312-going-to-church-doesn-t-make-you-a-christian-any-more",
+        "tag": "#quote"
+    },
+    {
         "text": "Have no fear of perfection - you\u2019ll never reach it. Salvador Dali",
         "text2": "",
         "text3": "",
         "url": "https:\/\/blog.hubspot.com\/marketing\/design-quotes",
+        "tag": "#quote"
+    },
+    {
+        "text": "Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do. Steve Jobs",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.goodreads.com\/quotes\/924-here-s-to-the-crazy-ones-the-misfits-the-rebels-the",
         "tag": "#quote"
     },
     {
@@ -327,6 +348,13 @@ var quoteJsonVar =
         "text2": "",
         "text3": "",
         "url": "",
+        "tag": "#quote"
+    },
+    {
+        "text": "The race isn't always to the swift, nor the fight to the strong, but that's the way to bet.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.yourdictionary.com\/articles\/examples-aphorisms",
         "tag": "#quote"
     },
     {
