@@ -1,19 +1,15 @@
-<!-- README.md v.1.6.4 -->
+<!-- README.md v.1.6.5 -->
   
 ![page with light and dark mode](/img/github-banner-settings.png)  
   
-#  ∷ Home Page and Projects:   
+# ∷ Home Page and Projects:   
 🔍 Search (redirect).  
 🛍️ Extension New Tab: any site in each new tab.  
 🎨 Themes for: Geany IDE, and Firefox.  
-📝 To-do, typing, icons ...  
+📁 To-do, typing, icons, templates, games, etc.
   
 ---
-  
-## 📁 ZIP: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)
-## 🔗 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)
-  
----
+
   
 > [!NOTE]
 > - You can find information about other licenses on the "About" page.  
@@ -86,9 +82,14 @@
 [#HTML](https://github.com/topics/HTML?s=updated),
 [#CSS](https://github.com/topics/css?s=updated),
 [#JavaScript](https://github.com/topics/javascript?s=updated),
-
-
-
+   
+---
+  
+## 📁 ZIP: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)
+## 🔗 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)
+## ☕ Buy Me a coffee: [support](https://www.buymeacoffee.com/inonehp)
+  
+---
 
 
 
