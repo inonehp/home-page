@@ -100,12 +100,6 @@ text-align: left;
 }
 
 
-.firstLetterBold::first-letter,
-.firstLetterBold a::first-letter {
-font-weight: bold;
-padding-right: .3px;
-}
-
 
 .insertIcon svg * {
 fill: var(--c) !important;

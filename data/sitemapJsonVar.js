@@ -21,6 +21,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "About page auto light dark\n\nWebsite template description. ",
+        "url": "\/templates\/about-page-auto-light-dark-21\/index.html",
+        "tag": " #WebDesign #template",
+        "id": "20b41e167b852142bc6be7c44686a1ab",
+        "time": "id"
+    },
+    {
         "text": "Ads\n\nad, ads, ",
         "url": "\/ads.html",
         "tag": " #ad #ads #page #main",
@@ -392,7 +399,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Lists\n\nLists. Page Lists. ",
+        "text": "Lists\n\nLists. Page for viewing lists. ",
         "url": "\/lists.html",
         "tag": " #all #list #lists #projects #menu #page #main",
         "id": "3831d1d20f62af37b45ebea9c330e943",
@@ -441,7 +448,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Not sleep pc\n\nA page to force the computer not to go into sleep mode, the page simply has a video that repeats itself endlessly. ",
+        "text": "Not sleep pc\n\nThe Web Page tries not to put the computer into sleep mode. ",
         "url": "\/archive\/not-sleep-pc-12\/index.html",
         "tag": " #not #sleep #PC #computer #prevent #hibernation #HTML #project",
         "id": "95158dd09f1a8393079a2e6d8f0ecd8c",

@@ -186,12 +186,11 @@ border-radius: 50%;
 display: inline-flex;
 vertical-align: middle;
 text-align: center;
-width: 60px;
 padding: 1px;
 border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
 }
 
-.logo2 { /*border: 1px;*/ width: 26px; height: 26px; }
+.logo2 { width: 26px; height: 26px; }
 
 .logo, .logo2 {
 transition: transform 250ms ease-in-out;
@@ -517,7 +516,11 @@ form fieldset { border: 1px solid var(--d3); }
 .borderBottomViolet { border-bottom: 2px solid color-mix(in srgb, var(--violet) 60%, transparent); }
 .borderBottomGray { border-bottom: 2px solid color-mix(in srgb, var(--gray) 60%, transparent); }
 
-
+.firstLetterBold::first-letter,
+.firstLetterBold a::first-letter {
+font-weight: bold;
+padding-right: .3px;
+}
 
 
 
