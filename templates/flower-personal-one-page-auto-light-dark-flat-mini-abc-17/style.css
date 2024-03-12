@@ -22,7 +22,7 @@ position: absolute;
 overflow: hidden;
 z-index: -2;
 left: 5%;
-bottom: 0;
+bottom: 20px;
 }
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/@media/orientation#*/
 @media (orientation: portrait) {
