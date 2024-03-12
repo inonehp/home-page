@@ -112,10 +112,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Card page auto light dark abc\n\nWebsite template description. ",
-        "url": "\/templates\/card-page-auto-light-dark-abc-20\/index.html",
+        "text": "Card page auto light dark\n\nWebsite template description. ",
+        "url": "\/templates\/card-page-auto-light-dark-20\/index.html",
         "tag": " #WebDesign #template",
-        "id": "ebfed7de8ff5e4b7de6be4c729cfff27",
+        "id": "b5c85462484a65193e9e361cc3452d7f",
         "time": "id"
     },
     {
@@ -140,10 +140,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Clean one page mini light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/clean-one-page-mini-light-dark-flat-mini-abc-16\/index.html",
+        "text": "Clean one page mini auto light dark\n\nWebsite template description. ",
+        "url": "\/templates\/clean-one-page-mini-auto-light-dark-16\/index.html",
         "tag": " #WebDesign #template",
-        "id": "6e95832aef58f37e3d7c2016f19c0f30",
+        "id": "b91fd9467e8a5aebe39f61b92db3b645",
         "time": "id"
     },
     {
@@ -245,10 +245,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Flower personal one page auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/flower-personal-one-page-auto-light-dark-flat-mini-abc-17\/index.html",
+        "text": "Flower personal one page mini auto light dark flat\n\nWebsite template description. ",
+        "url": "\/templates\/flower-personal-one-page-mini-auto-light-dark-flat-17\/index.html",
         "tag": " #WebDesign #template",
-        "id": "eda1e5fcf059956abc89b4f72e5e5eec",
+        "id": "3d7c9211dff96f3ef97431ff88f40cc0",
         "time": "id"
     },
     {
@@ -336,17 +336,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Home page auto light dark flat abc\n\nWebsite template description. ",
-        "url": "\/templates\/home-page-auto-light-dark-flat-abc-9\/index.html",
+        "text": "Home page auto light dark flat\n\nWebsite template description. ",
+        "url": "\/templates\/home-page-auto-light-dark-flat-9\/index.html",
         "tag": " #WebDesign #template",
-        "id": "dc79082071c939b8fd518c45069eb7c3",
+        "id": "870605ce043d28e7a9ef0cadda4cbec6",
         "time": "id"
     },
     {
-        "text": "Home page many auto colors themes flat abc\n\nWebsite template description. ",
-        "url": "\/templates\/home-page-many-auto-colors-themes-flat-abc-10\/index.html",
+        "text": "Home page flat auto many colors themes\n\nWebsite template description. ",
+        "url": "\/templates\/home-page-flat-auto-many-colors-themes-10\/index.html",
         "tag": " #WebDesign #template",
-        "id": "2c52f545c7dc00fabda835624fe0a43e",
+        "id": "f1258cbeb38c6f33f591f27949fdf72b",
         "time": "id"
     },
     {
@@ -420,10 +420,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Movie auto light dark flat abc\n\nWebsite template description. ",
-        "url": "\/templates\/movie-auto-light-dark-flat-abc-11\/index.html",
+        "text": "Movie flat auto light dark\n\nWebsite template description. ",
+        "url": "\/templates\/movie-flat-auto-light-dark-11\/index.html",
         "tag": " #WebDesign #template",
-        "id": "272d7f77cba8c4f3e765707456bfd6cf",
+        "id": "28b350e66e1aa6dee03e29b61021be70",
         "time": "id"
     },
     {
@@ -490,10 +490,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Photo gallery one page flat auto light dark abc\n\nWebsite template description. ",
-        "url": "\/templates\/photo-gallery-one-page-flat-auto-light-dark-abc-18\/index.html",
+        "text": "Photo gallery one page flat auto light dark\n\nWebsite template description. ",
+        "url": "\/templates\/photo-gallery-one-page-flat-auto-light-dark-18\/index.html",
         "tag": " #WebDesign #template",
-        "id": "a422fb1605c14bafd718c5252b73cece",
+        "id": "1cf79e21b96fee2b6fdbf37730b39037",
         "time": "id"
     },
     {
@@ -518,17 +518,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Profile card auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/profile-card-auto-light-dark-flat-mini-abc-12\/index.html",
+        "text": "Profile card flat mini auto light dark\n\nWebsite template description. ",
+        "url": "\/templates\/profile-card-flat-mini-auto-light-dark-12\/index.html",
         "tag": " #WebDesign #template",
-        "id": "b3b7e3759d3f06e6cc6a751120996d84",
+        "id": "09b4d0cd26c01b7527f142c83b108fa5",
         "time": "id"
     },
     {
-        "text": "Profile card auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/profile-card-auto-light-dark-flat-mini-abc-14\/index.html",
+        "text": "Profile card mini flat auto light dark\n\nWebsite template description. ",
+        "url": "\/templates\/profile-card-mini-flat-auto-light-dark-14\/index.html",
         "tag": " #WebDesign #template",
-        "id": "1297bd258b2da697caabf378907d1381",
+        "id": "5a8e8c9fffdcbaefd1b15ddbc97252f7",
         "time": "id"
     },
     {
@@ -630,10 +630,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Saas landing page auto light dark abc\n\nWebsite template description. ",
-        "url": "\/templates\/saas-landing-page-auto-light-dark-abc-19\/index.html",
+        "text": "Saas landing page auto light dark\n\nWebsite template description. ",
+        "url": "\/templates\/saas-landing-page-auto-light-dark-19\/index.html",
         "tag": " #WebDesign #template",
-        "id": "34f3f0a8a462006c48f296c6ad1377a7",
+        "id": "d0675456c3ef1dcfab9fee99398a6c61",
         "time": "id"
     },
     {
@@ -868,10 +868,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Webdesign one page auto light dark flat mini abc\n\nWebsite template description. ",
-        "url": "\/templates\/webdesign-one-page-auto-light-dark-flat-mini-abc-15\/index.html",
+        "text": "Webdesign one page mini flat auto light dark\n\nWebsite template description. ",
+        "url": "\/templates\/webdesign-one-page-mini-flat-auto-light-dark-15\/index.html",
         "tag": " #WebDesign #template",
-        "id": "8b12e49cf560d5002874163382393651",
+        "id": "a1598ffc66f3598f65a91e8cc17f1d9a",
         "time": "id"
     },
     {
