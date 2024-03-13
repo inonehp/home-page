@@ -1,4 +1,4 @@
-// Main js v.6.3.14
+// Main js v.6.3.15
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -1074,7 +1074,11 @@ conf["confDataCollection"] = 'off';
 conf["confDataCollection"] = 'on';
 }
 
-fuMPrintText('fPrivacy', `Cookie: auto (${conf["confDataCollection"]})`); 
+//fuMPrintText('fPrivacy', `Cookie: auto (${conf["confDataCollection"]})`); 
+if(document.getElementById('fPrivacy')[0] != null){
+document.getElementById('fPrivacy')[0].innerText = `Cookie: auto (${conf["confDataCollection"]})`;
+}
+
 }
 // End Auto
 

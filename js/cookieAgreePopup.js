@@ -1,5 +1,4 @@
-// v.1.2.5
-// Cookie Consent Popups
+// Cookie Consent Popup v.1.2.6
 // if "not selected": popup
 
 fuMPrintText('cookiePopup', `
@@ -47,7 +46,10 @@ function cookiePopup(option){
 localStorage.setItem("confDataCollection", option);
 if(document.getElementById("cookiePopup") != null){
 document.getElementById("cookiePopup").style.display = "none";
-fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">cookie: ${option}</a>`); 
+//fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">cookie: ${option}</a>`); 
+if(document.getElementById('fPrivacy') != null){
+document.getElementById('fPrivacy').innerText = `Cookie: ${option}`;
+}
 }
 }
 // end Cookie Consent Popups
