@@ -849,8 +849,8 @@ a.forEach((item, index) => {
 b  += item+ ', ';
  });
 
-if(document.getElementById('print') != null){
-document.getElementById('print').innerHTML = '<div class="bg padding2 border2 light op pre small">Redirects commands list: ' + b + `
+if(document.getElementById('printComList') != null){
+document.getElementById('printComList').innerHTML = '<div class="bg padding2 border2 light op pre small">Redirects commands list: ' + b + `
 
 Example redirects: "Google n" - news about Google.
 

@@ -1,4 +1,4 @@
-// Typing Speed Test and game v.3.15.16
+// Typing Speed Test and game v.3.15.17
 
 
 
@@ -982,11 +982,11 @@ WPMaverage = (Number(WPMaverage) / Number(arrWPMaverage.length)).toFixed(0);
 
 var wpmAverageProgress = WPMaverage - prevWPMaverage;
 if(wpmAverageProgress < 0){
-wpmAverageProgress = ' (<span class="red">'+wpmAverageProgress+'</span>)';
+wpmAverageProgress = ' (<span class="red">' + wpmAverageProgress + '</span>)';
 }else if(wpmAverageProgress > 0){
-wpmAverageProgress = ' (<span class="green">+'+wpmAverageProgress+'</span>)';
+wpmAverageProgress = ' (<span class="green">+' + wpmAverageProgress + '</span>)';
 }else{
-wpmAverageProgress = '';
+wpmAverageProgress = ' (<span class="op gray">' + wpmAverageProgress + '</span>)';
 }
 
 
@@ -1013,15 +1013,18 @@ wpmProgress = wpm - prevWpm;
 if(wpmProgress < 0){
 printMsgWin = 'game over';
 printMsgWinColor = 'red';
-wpmProgress = ' (<span class="red">'+wpmProgress+'</span>)';
-}else{
-if(printMsgWin != 'win'){
+wpmProgress = ' (<span class="red">' + wpmProgress + '</span>)';
+}else if(wpmProgress > 0){
 printMsgWin = 'Good result';
 printMsgWinColor = 'green';
+wpmProgress = ' (<span class="green">+' + wpmProgress + '</span>)';
+}else{
+printMsgWin = 'Good result';
+printMsgWinColor = ' op gray ';
+wpmProgress = ' (<span class="op gray">' + wpmProgress + '</span>)';
 }
 
-wpmProgress = ' (<span class="green">+'+wpmProgress+'</span>)';
-}
+
 
 
 
@@ -1033,8 +1036,10 @@ if(prevAcurancy == null ||prevAcurancy == Infinity||prevAcurancy == NaN){ prevAc
 acurancyProgress = acurancyTotal - prevAcurancy;
 if(acurancyProgress < 0){
 acurancyProgress = ' (<span class="red">' + acurancyProgress + '</span>)';
-}else{
+}else if(acurancyProgress > 0){
 acurancyProgress = ' (<span class="green">+' + acurancyProgress + '</span>)';
+}else{
+acurancyProgress = ' (<span class="op gray">' + acurancyProgress + '</span>)';
 }
 
 
@@ -1085,7 +1090,7 @@ let winMsg = `
 document.getElementsByClassName("win")[0].innerHTML = winMsg;
 //document.getElementsByClassName("win")[1].innerHTML = winMsg;
 
-}else {
+}else{
 document.getElementsByClassName("win")[0].innerHTML = '';
 document.getElementsByClassName("win")[1].innerHTML = '';
 document.getElementById("sound").innerHTML = '';
