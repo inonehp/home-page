@@ -1,4 +1,4 @@
-// Redirect v.1.7.11
+// Redirect v.1.7.12
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -403,12 +403,13 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
+case 'nnw#':
 case 'nn#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " q",
+"?q=" + q + " bin",
 ];
 
 random = Math.floor(Math.random() * urlList.length);

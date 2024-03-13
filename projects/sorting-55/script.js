@@ -99,6 +99,14 @@ if(com2 == 'reverse'){ result.reverse(); }
 result = result.join(`|`);
 break;
 
+case 'all':
+result = result.split("");
+//result.sort();
+lNaturalSort(result);
+if(com2 == 'reverse'){ result.reverse(); }
+result = result.join(``);
+break;
+
 default:
 result = result.replaceAll('\r\n', conf["confSymbolForSplit"]);
 result = result.replaceAll('\r', conf["confSymbolForSplit"]);

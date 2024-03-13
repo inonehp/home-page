@@ -147,7 +147,9 @@ document.getElementById(id).innerHTML = text;
 
 conf["confMenuItems"] = [
 {"url":"/main-list.html", "name":"Main", "title":"Main"},
-{"url":"/lists.html", "name":"All", "title":"Lists"},
+{"url":"/projects-list.html", "name":"Projects", "title":"Projects"},
+{"url":"/mini-projects-list.html", "name":"Mini projects", "title":"Lists"},
+//{"url":"/lists.html", "name":"All", "title":"Lists"},
 ];
 
 

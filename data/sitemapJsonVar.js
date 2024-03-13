@@ -350,6 +350,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Html symbols\n\nHTML symbols collection. ",
+        "url": "\/mini-projects\/html-symbols-36\/index.html",
+        "tag": " #symbol #symbols #HTML #CSS #project",
+        "id": "8c86226a829d52912c1cd5961fcd1382",
+        "time": "id"
+    },
+    {
         "text": "Icons page\n\nProject: icons for the menu ",
         "url": "\/icons-page.html",
         "tag": " #icon #icons #svg #illustration #page #main",

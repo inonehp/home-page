@@ -12,9 +12,17 @@
 
 
 let mRandColorsPrint = "";
+
 const mColors = [
-"var(--brand)",
-"var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--blue)", "var(--indigo)", "var(--violet)"];
+"var(--c3)", "var(--brand)",
+"var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--blue)", "var(--indigo)", "var(--violet)",
+];
+
+const mColors2 = [
+"var(--c4)", "var(--brand2)",
+"var(--red2)", "var(--orange2)", "var(--yellow2)", "var(--green2)", "var(--blue2)", "var(--indigo2)", "var(--violet2)"
+];
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
@@ -23,16 +31,17 @@ let mRandColor = getRandomInt(mColors.length);
 mRandColor = mColors[mRandColor];
 
 let mRandColor2 = getRandomInt(mColors.length);
-mRandColor2 = mColors[mRandColor2];
+mRandColor2 = mColors2[mRandColor2];
 
 //console.log(mRandColor + '=' + mRandColor2);
 if(mRandColor == mRandColor2){
 let n = 0;
-while (n < 30) {
+while (n < 100) {
 if(mRandColor == mRandColor2){
+//
+}else{
 mRandColor2 = getRandomInt(mColors.length);
 mRandColor2 = mColors[mRandColor2];
-}else{
 break;
 }
 n++;
@@ -40,8 +49,8 @@ n++;
 }
 //element.classList.add(lRancColor);
 
-let mRandTone = fuMRandom(0, 100);
-let mRandTone2 = fuMRandom(0, 100);
+let mRandTone = fuMRandom(5, 100);
+let mRandTone2 = fuMRandom(0, 50);
 
 
 mRandColorsPrint += `

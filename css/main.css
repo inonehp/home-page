@@ -1,4 +1,4 @@
-/* Main style v.14.3.1 */
+/* Main style v.14.3.2 */
 /* Personal mini CSS framework */
 /* main.css + auto.css (color-theme-name.css) */
 /* Responsive, mainly class-based */
@@ -368,6 +368,9 @@ right: 0;
 .normal, .normal a { font-weight: normal; font-size: unset; }
 .medium, .medium a { font-size: medium; }
 .large, .large a { font-size: large; }
+.xLarge, .xLarge a { font-size: x-large; }
+.xxLarge, .xxLarge a { font-size: xx-large; }
+.xxxLarge, .xxxLarge a { font-size: xxx-large; }
 .small, .small a { font-size: small; }
 .smaller, .smaller a { font-size: smaller; }
 .xSmall, .xSmall a { font-size: x-small; }
