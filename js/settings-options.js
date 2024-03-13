@@ -1,12 +1,13 @@
-// v.1.0.9
+// v.1.1.0
 // var config in main.js
 
-function printFunctionLocal(){
+function printFunctionLocal(comSettings){
 var print = '';
 var printBody = '';
 var confValueVariantPrint = '';
 var carrentValue33 = '';
 var style = '';
+
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 confData.forEach((val, index) => {
 
@@ -37,6 +38,12 @@ confValueVariantPrint += `
 
 });
 
+
+if(comSettings == "reset"){
+setSeting(`${val.confName}`, `${val.confValueDefault}`);
+}
+
+
 style += `
 #${val.confName}:target,
 
@@ -52,10 +59,14 @@ printBody += `
 <div class="padding2 border">${confValueVariantPrint}</div>
 <div class="padding2 border break2"><span class="bold">${carrentValue33}</span></div>
 </div>
-<div class="padding block" style="background: var(--d2);"></div>
+
 
 `;
 confValueVariantPrint = '';
+
+
+
+
 });
 
 
@@ -73,9 +84,11 @@ print = `
 ${printBody}
 
 
-<div class="padding block" style="background: var(--d2);"></div>
+<div class="padding block"></div>
+<div class="shadow button padding3 light2 bold block op pointer borderBottomOrange" onclick="settingOptionReset();">Reset settings</div>
 
-<div class="border button padding3 light2 bold block op pointer" onclick="settingOptionReset()">Reset (clear local storage)</div>
+<div class="padding block"></div>
+<div class="shadow button padding3 light2 bold block op pointer borderBottomRed" onclick="settingOptionClearData();">Clear local storage</div>
 
 
 
@@ -149,9 +162,24 @@ return printFunctionLocal();
 
 
 function settingOptionReset(){
+
+if(confirm(`Are you sure?
+(set all options to default values)`) == true){
+printFunctionLocal("reset");
+return reload();
+}
+
+}
+
+function settingOptionClearData(){
+
+if(confirm(`Are you sure?
+All local storage data will be deleted)`) == true){
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage/clear
 localStorage.clear();
 return reload();
+}
+
 }
 
 

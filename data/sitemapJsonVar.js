@@ -880,5 +880,12 @@ var sitemapJsonVar = [
         "tag": " #womain #CSSArt #HTML #CSS #project",
         "id": "bd69c0e5b8cc026f9a58a143ccd74052",
         "time": "id"
+    },
+    {
+        "text": "Worst website in the world\n\nThe worst website in the world ",
+        "url": "\/projects\/worst-website-in-the-world-57\/index.html",
+        "tag": " #worst #website #world #CSS #JavaScript #project",
+        "id": "773d6e23742c31946527c2239a91efe5",
+        "time": "id"
     }
 ]
