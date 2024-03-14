@@ -480,7 +480,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://github.com/topics/" + q + "?s=updated",
+"https://github.com/topics/" + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

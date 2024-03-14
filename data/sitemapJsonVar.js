@@ -7,7 +7,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": ".\n\n\ud83d\udd0d Search (redirect).  \n\ud83d\udecd\ufe0f Extension New Tab: any site in each new tab.  \n\ud83c\udfa8 Themes for: Geany IDE, and Firefox.  \n\ud83d\udcc1 To-do, typing, icons, templates, games, etc. ",
+        "text": ".\n\n\ud83d\udd0d Search (redirect).  \n\ud83d\udecd\ufe0f Extension New Tab: any site in each new tab.  \n\ud83c\udfa8 Themes for: Geany IDE, and Firefox.  \n\ud83d\udcc1 To-do, typing, games, icons, templates,and others. ",
         "url": "\/index.html",
         "tag": " #website #WebDesign #project #projects #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #game #template #page #main",
         "id": "eacf331f0ffc35d4b482f1d15a887d3b",
@@ -175,7 +175,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Css framework\n\nPersonal mini CSS framework. Demo and CSS test style. Demo test style page. ",
+        "text": "Css framework\n\nPersonal CSS framework. Demo and CSS test style. Demo test style page. ",
         "url": "\/projects\/css-framework-5\/index.html",
         "tag": " #demo #test #style #project",
         "id": "d29f009f40f5c1dcfa308dcf3b707639",

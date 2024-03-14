@@ -1,12 +1,12 @@
-<!-- README.md v.1.7.0 -->
+<!-- README.md v.1.7.1 -->
   
 ![page with a light and dark theme](/img/github-banner-settings.png)  
   
-# ∷ Home Page and Projects:   
+# ∷ Home page and projects:   
 🔍 Search (redirect).  
 🛍️ Extension New Tab: any site in each new tab.  
 🎨 Themes for: Geany IDE, and Firefox.  
-📁 To-do, typing, icons, templates, games, etc.
+📁 To-do, typing, games, icons, templates, and others.
   
 ---
   
@@ -27,9 +27,15 @@
 [#Personal](https://github.com/topics/personal),
 [#Home page](https://github.com/topics/homepage),
 [#Web Dev](https://github.com/topics/webdev),
-[#Web Design](https://github.com/topics/webdesign),  
-  
+[#Web Design](https://github.com/topics/webdesign), 
 [#Projects](https://github.com/topics/projects),
+[#Page](https://github.com/topics/page),
+[#Projects](https://github.com/topics/projects),
+[#Cloudflare Pages](https://github.com/topics/cloudflare-pages),
+
+[#Creative Commons](https://github.com/topics/creative-commons),  
+
+  
 [#HTML](https://github.com/topics/HTML),
 [#CSS](https://github.com/topics/css),
 [#JavaScript](https://github.com/topics/javascript),
