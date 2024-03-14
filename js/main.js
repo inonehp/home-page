@@ -410,14 +410,12 @@ fuMPrintText("footer", `
 </div>
 
 
-
-<span class="inlineBlock padding brand" style="padding-left: 0;" title="A page in a social network"><a class="brand" href="https://twitter.com/inonehp">X (Twitter)</a></span>
-
+<span title="Page about"><a class="inlineBlock padding brand" style="padding-left: 0;" href="/about.html">About</a></span>
+<span class="inlineBlock padding brand" title="A page in a social network"><a class="brand" href="https://twitter.com/inonehp">X (Twitter)</a></span>
 <span title="News"><a class="inlineBlock padding brand" href="/rss.xml">RSS</a></span>
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
 <span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/inonehp/inonehp.pages.dev">Сode</a></span>
-<span title="Page about"><a class="inlineBlock padding brand" href="/about.html">About</a></span>
 
 <a class="inlineBlock padding brand" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
 <a class="inlineBlock padding brand" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>
