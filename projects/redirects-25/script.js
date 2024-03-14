@@ -93,10 +93,7 @@ var q3 = q + "#";
 
 
 switch (q2) {
-case '⚃#':
-case '4#':
-case '⚂#':
-case '3#':
+case 'π#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
