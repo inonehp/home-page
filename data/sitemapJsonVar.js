@@ -380,7 +380,7 @@ var sitemapJsonVar = [
     {
         "text": "Install\n\nInstall website as app (PWA). The site or page will look and run like an app and will be among other installed programs. ",
         "url": "\/install.html",
-        "tag": " #install #install_website #PWA #WebApp #app #page #main",
+        "tag": " #install #download #website #PWA #WebApp #app #page #main",
         "id": "3036dd8f54ff32dc48bf6258269eb20e",
         "time": "id"
     },
