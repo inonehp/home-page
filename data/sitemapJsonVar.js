@@ -539,9 +539,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Project ideas\n\nProject Ideas. Ideas for projects. Inspiration. ",
+        "text": "Project ideas\n\nProject ideas, inspiration, project after Hello World!\r\nIdeas for projects. ",
         "url": "\/mini-projects\/project-ideas\/index.html",
-        "tag": " #project #ideas #inspiration #inHTML #CSS #project",
+        "tag": " #project #ideas #inspiration #HTML #CSS #project",
         "id": "c2d5e0bd97684278b10666a2ef61ddad",
         "time": "id"
     },
