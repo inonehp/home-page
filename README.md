@@ -33,8 +33,6 @@
 [#Projects](https://github.com/topics/projects),
 [#Cloudflare Pages](https://github.com/topics/cloudflare-pages),
 
-[#Creative Commons](https://github.com/topics/creative-commons),  
-
   
 [#HTML](https://github.com/topics/HTML),
 [#CSS](https://github.com/topics/css),
