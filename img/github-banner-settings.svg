@@ -301,7 +301,15 @@
      width="1280"
      height="640"
      fill="#f9f7f2"
-     id="rect17" />
+     id="rect17"
+     y="0" />
+  <rect
+     style="opacity:0.9062;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.88364"
+     id="rect896-9"
+     width="640"
+     height="5"
+     x="640"
+     y="635" />
   <g
      id="g2060"
      transform="matrix(0.82369204,0,0,0.82369204,65.362879,11.929592)">
@@ -326,4 +334,11 @@
        style="filter:url(#filter2038)"
        transform="matrix(0.95221429,0,0,0.95221429,3.1632708,48.830663)" />
   </g>
+  <rect
+     style="opacity:0.9062;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.88364"
+     id="rect896"
+     width="640"
+     height="5"
+     x="0"
+     y="0" />
 </svg>

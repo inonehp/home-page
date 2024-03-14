@@ -1,6 +1,24 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "113",
+        "text": "Gemini",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/gemini.google.com\/app",
+        "tag": "#ai",
+        "time": 1710418283
+    },
+    {
+        "id": "112",
+        "text": "Copilot",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/copilot.microsoft.com\/",
+        "tag": "#ai",
+        "time": 1710418263
+    },
+    {
         "id": "111",
         "text": "AlternativeTo - Crowdsourced software recommendations",
         "text2": "",
