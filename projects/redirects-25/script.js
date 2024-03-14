@@ -1,4 +1,4 @@
-// Redirects v.1.7.17
+// Redirects v.1.7.18
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -386,6 +386,7 @@ urlList = [
 "https://www.yahoo.com/lifestyle/",
 
 "https://www.bing.com/news/search?q=Business",
+"https://www.google.com/finance/",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtVnVHZ0pWVXlnQVAB",
 "https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtVnVLQUFQAQ",

@@ -1,10 +1,10 @@
-// Local main index script v.1.1.3
+// Local main index script v.1.1.4
 
 
 
 
 
-// Random color generator v.1.0.3
+// Random color generator
 //if(document.getElementById("siteName") != null){}
 
 
@@ -16,9 +16,6 @@ let mRandColorsPrint = "";
 const mColors = [
 "var(--c3)", "var(--brand)",
 "var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--blue)", "var(--indigo)", "var(--violet)",
-];
-
-const mColors2 = [
 "var(--c4)", "var(--brand2)",
 "var(--red2)", "var(--orange2)", "var(--yellow2)", "var(--green2)", "var(--blue2)", "var(--indigo2)", "var(--violet2)"
 ];
@@ -31,7 +28,7 @@ let mRandColor = getRandomInt(mColors.length);
 mRandColor = mColors[mRandColor];
 
 let mRandColor2 = getRandomInt(mColors.length);
-mRandColor2 = mColors2[mRandColor2];
+mRandColor2 = mColors[mRandColor2];
 
 //console.log(mRandColor + '=' + mRandColor2);
 if(mRandColor == mRandColor2){
