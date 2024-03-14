@@ -1,4 +1,4 @@
-// Redirect v.1.7.15
+// Redirects v.1.7.17
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -560,9 +560,28 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"https://www.twitch.tv/",
+//"https://www.twitch.tv/directory/all?sort=VIEWER_COUNT",
 "https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig",
-"https://www.pinterest.com/tv/",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirUrl = url;
+break;
+
+case 'tv#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.twitch.tv/directory/all/tags/" + q + "?sort=VIEWER_COUNT",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+if(q == ''){
+urlList = [
+"https://www.twitch.tv/directory/all?sort=VIEWER_COUNT",
+//"https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

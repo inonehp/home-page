@@ -1,12 +1,39 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "116",
+        "text": "Le Chat Mistral",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/chat.mistral.ai\/chat",
+        "tag": "#ai #assistant",
+        "time": 1710426340
+    },
+    {
+        "id": "115",
+        "text": "HuggingChat",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/huggingface.co\/chat\/",
+        "tag": "#ai #assistant",
+        "time": 1710425641
+    },
+    {
+        "id": "114",
+        "text": "ChatGPT",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/chat.openai.com\/",
+        "tag": "#ai #assistant",
+        "time": 1710418765
+    },
+    {
         "id": "113",
         "text": "Gemini",
         "text2": "",
         "text3": "",
         "url": "https:\/\/gemini.google.com\/app",
-        "tag": "#ai",
+        "tag": "#ai #assistant",
         "time": 1710418283
     },
     {
@@ -15,7 +42,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/copilot.microsoft.com\/",
-        "tag": "#ai",
+        "tag": "#ai #assistant",
         "time": 1710418263
     },
     {
