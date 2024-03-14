@@ -1,4 +1,4 @@
-// Redirect v.1.7.12
+// Redirect v.1.7.14
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -314,7 +314,6 @@ urlList = [
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
-"https://getpocket.com/explore/technology",
 "https://www.reddit.com/r/technology/",
 "https://finance.yahoo.com/tech/",
 "https://substack.com/browse/technology",
@@ -351,7 +350,6 @@ urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
 "https://www.bing.com/news/search?q=Science",
 "https://www.yahoo.com/news/science/",
-"https://getpocket.com/explore/science",
 "https://www.reddit.com/r/science/",
 "https://news.yahoo.com/science/",
 ];

@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "232",
+        "text": "Microsoft complies with EU's DMA, allowing uninstalling of OneDrive, Edge, Bing, and more | AlternativeTo",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/alternativeto.net\/news\/2024\/3\/microsoft-complies-with-eu-s-dma-allowing-uninstalling-of-onedrive-edge-bing-and-more\/",
+        "tag": "#news",
+        "time": 1710407103
+    },
+    {
         "id": "231",
         "text": "The Download: Sudo for Windows, Sora, Vision Pro, Xbox Updates and More! - YouTube",
         "text2": "",
