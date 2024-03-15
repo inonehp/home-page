@@ -1,4 +1,4 @@
-/* Main style v.14.3.2 */
+/* Main style v.14.3.3 */
 /* Personal CSS framework */
 /* main.css + auto.css (color-theme-name.css) */
 /* Responsive, mainly class-based */
@@ -482,6 +482,7 @@ form fieldset { border: 1px solid var(--d3); }
 .violet:hover { color: var(--violet2); }
 .gray, .grey { color: var(--c); }
 .active { color: var(--c) !important; }
+.active2 { color: var(--c4) !important; }
 :root{ --gray: var(--c); --grey: var(--c); }
 .active:hover, .gray:hover, .grey:hover { color: var(--c4); filter: grayscale(0%); }
 
@@ -518,6 +519,7 @@ form fieldset { border: 1px solid var(--d3); }
 .borderBottomIndigo { border-bottom: 2px solid color-mix(in srgb, var(--indigo) 60%, transparent); }
 .borderBottomViolet { border-bottom: 2px solid color-mix(in srgb, var(--violet) 60%, transparent); }
 .borderBottomGray { border-bottom: 2px solid color-mix(in srgb, var(--gray) 60%, transparent); }
+.borderBottomTransparent { border-bottom: 2px solid transparent; }
 
 .firstLetterBold::first-letter,
 .firstLetterBold a::first-letter {
