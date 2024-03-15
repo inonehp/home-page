@@ -1,4 +1,4 @@
-// Speed dial v.1.3.2
+// Speed dial v.1.3.3
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -278,8 +278,11 @@ break;
 
 case "clear":
 case "reset":
+if(confirm(`Are you sure?`) == true){
 localStorage.removeItem("confSpeedDialData");
 fuMReload();
+}
+
 break;
 
 
