@@ -707,7 +707,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Speed dial\n\nSpeed dial. ",
+        "text": "Speed dial\n\nSpeed dial. Quick access to a page or site. ",
         "url": "\/projects\/speed-dial-58\/index.html",
         "tag": " #speed #dial #CSS #JavaScript #project",
         "id": "a72c4243ce1362c1831921e909d2cb59",
