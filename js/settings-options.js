@@ -1,4 +1,4 @@
-// v.1.1.0
+// Settings print page v.1.1.1
 // var config in main.js
 
 function printFunctionLocal(comSettings){
@@ -174,7 +174,7 @@ return reload();
 function settingOptionClearData(){
 
 if(confirm(`Are you sure?
-All local storage data will be deleted)`) == true){
+(All local storage data will be deleted)`) == true){
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage/clear
 localStorage.clear();
 return reload();
