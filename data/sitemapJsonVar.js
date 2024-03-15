@@ -763,7 +763,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Textarea\n\nFull page textarea. ",
+        "text": "Textarea\n\nTextarea. ",
         "url": "\/mini-projects\/textarea-24\/index.html",
         "tag": " #textarea #HTML #CSS #project",
         "id": "8d591aad977c86581fbb281cce12abc4",

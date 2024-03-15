@@ -1,12 +1,27 @@
-// Speed dial v.1.1.2
-
+// Speed dial v.1.2.1
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
 
+// fuLClearText v.1.0.0
+function fuLClearText(text){
+let symbol = "`" + `'"<>`;
+let symbolArr = symbol.split("");
+
+if(text != undefined){
+symbolArr.forEach(async (val) => {
+text = text.replaceAll(val, '_');
+});
+
+return text;
+}
+
+}
+
+
 if (localStorage.getItem("confSpeedDialData")) {
 var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
-} else {
+}else{
 var confSpeedDialDataArr = [];
 confSpeedDialDataArr.push({"text":"Task", "url":"/projects/todo-list-task-31/"});
 confSpeedDialDataArr.push({"text":"Idea", "url":"/projects/todo-list-idea-32/"});
@@ -27,7 +42,10 @@ if(conf["confSpeedDialStatus"] != "off"){
 
 
 // pin button and status
-let fPinButton = `<a title="Add page to speed dial" id="mPin" class="inlineBlock padding brand" href="javascript:fuLSpeedDial('', '${document.title}', '${location.href}', 'add');">Pin</a>`;
+let fPinButtonText = fuLClearText(document.title);
+let fPinButtonUrl = fuLClearText(location.href);
+
+let fPinButton = `<a title="Add page to speed dial" id="mPin" class="inlineBlock padding brand" href="javascript:fuLSpeedDial('', '${fPinButtonText}', '${fPinButtonUrl}', 'add');">Pin</a>`;
 let confSpeedDialDataArrButton = JSON.parse(confSpeedDialDataArr);
 
 confSpeedDialDataArrButton.forEach((item, index) => {
@@ -129,11 +147,18 @@ break;
 case 'add':
 
 if(text == ""){
-if(document.getElementById("speedDialText") != null){ text = document.getElementById("speedDialText").value; }
-if(document.getElementById("speedDialText") != null){ url = document.getElementById("speedDialUrl").value; }
+if(document.getElementById("speedDialText") != null){
+text = document.getElementById("speedDialText").value;
+}
+if(document.getElementById("speedDialText") != null){
+url = document.getElementById("speedDialUrl").value;
+}
 }
 
 if(text != ""){
+text = fuLClearText(text);
+url = fuLClearText(url);
+
 confSpeedDialDataArr = JSON.parse(confSpeedDialDataArr);
 confSpeedDialDataArr.push({text:text, url:url});
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
@@ -216,6 +241,10 @@ let text = document.getElementsByClassName("classSpeedDialText")[index].value;
 let url = document.getElementsByClassName("classSpeedDialUrl")[index].value;
 if(text == ""||url == ""){
 }else{
+text = fuLClearText(text);
+url = fuLClearText(url);
+
+fuLClearText
 confSpeedDialDataArr.push({text:text, url:url});
 }
 });

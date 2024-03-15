@@ -2,13 +2,15 @@
 
 textarea, input[type=submit]{ margin: 0; border-radius: 0; }
 
-html, body { height: 100%; /* fix mobile */  margin: 0; padding: 0; /*overflow: hidden;*/ }
+html, body { height: 100%; /* fix mobile */ /* margin: 0; padding: 0;*/ /*overflow: hidden;*/ }
 
 form { height: 100%; position: relative; }
 
 
 textarea {
 height: 90vh;
+height: 100%;
+min-height: 80vh;
 padding: 3%;
 z-index: 2;
 }

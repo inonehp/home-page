@@ -1,6 +1,20 @@
-// Todo v.2.2.6
+// Todo v.2.2.7
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
+// fuLClearText v.1.0.0
+function fuLClearText(text){
+let symbol = "`" + `'"<>`;
+let symbolArr = symbol.split("");
+
+if(text != undefined){
+symbolArr.forEach(async (val) => {
+text = text.replaceAll(val, '_');
+});
+
+return text;
+}
+
+}
 
 var print = '';
 var printDaily = '';
@@ -23,12 +37,16 @@ var url = new URL(window.location);
 var q = url.searchParams.get("q");
 com = url.searchParams.get("com");
 
+
 if(q != null){
+q = fuLClearText(q);
 q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
+q = fuLClearText(q);
 q = q.trim();
 }
 if(q == null){ q = ''; }
+
 
 
 if(q != ''&&com == null||q != ''&&com == ''&&com != 'add'){
@@ -59,6 +77,15 @@ var i = 0;
 
 // main
 function runDb(com3, id3, title3, status3, statusDaily3){
+
+com3 = fuLClearText(com3);
+id3 = fuLClearText(id3);
+title3 = fuLClearText(title3);
+status3 = fuLClearText(status3);
+statusDaily3 = fuLClearText(statusDaily3);
+
+
+
 
 var dbVersion = 1.2;
 var dbName = 'db';
@@ -282,6 +309,7 @@ console.log("transaction.oncomplete");
 
 if(q != ''&&com == 'add'&&String(window.location).indexOf('stopReSubmit') == -1){
 //window.location.href = '?#stopReSubmit';
+q = fuLClearText(q);
 window.location.replace("?#stopReSubmit",);
 }else{
 q = '';
@@ -577,23 +605,24 @@ const objectStore = transaction.objectStore(tableName);
 // save me, done I saved, del this comment
 
 objectStore.openCursor().onsuccess = function(event) { 
-var cursor = event.target.result;  console.log(id, status);
+var cursor = event.target.result;
+//console.log(id, status);
 if (cursor) {  
 if(cursor.key == id){
 
 const updateData = cursor.value;
+
 cursor.value.title = title;
 const request = cursor.update(updateData);
 request.onsuccess = () => {
-console.log('updated');
+//console.log('updated');
 };
 };
 
 //console.log('cur key: '+cursor.key);
 //console.dir('cur value: '+cursor.value.title);
 cursor.continue();  
-} 
-else {
+}else{
 console.log("[ not cursor, done ]");
 }  
 };  
@@ -1053,6 +1082,10 @@ var textInput = url.searchParams.get("q");
 var comInput = url.searchParams.get("com");
 var idInput = url.searchParams.get("id");
 
+textInput = fuLClearText(textInput);
+comInput = fuLClearText(comInput);
+idInput = fuLClearText(idInput);
+
 if(comInput == 'add'||comInput == 'edit'){
 
 textInput = decodeURIComponent(textInput);
@@ -1089,7 +1122,8 @@ inputA.addEventListener('input', updateValueInput);
 
 
 function updateValueInput(e) {
-let textInput= encodeURIComponent(e.target.value);
+let textInput = fuLClearText(e.target.value);
+textInput= encodeURIComponent(textInput);
 var a = `
 <div class="submit tCenter small" style="cursor: pointer;" onclick="submitLink('` + textInput +`')">submit</div>
 `;
@@ -1099,6 +1133,7 @@ document.getElementById("option").innerHTML = a;
 
 
 function submitLink(textInput){
+textInput = fuLClearText(textInput);
 runDb('add', '', textInput);
 document.getElementById("inputTask").value = '';
 document.getElementById("option").innerHTML = '';
