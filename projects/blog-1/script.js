@@ -1,4 +1,4 @@
-// Blog v.2.9.2
+// Blog v.2.9.3
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -174,8 +174,7 @@ q2 = q2.trim();
 }
 //if(q2 != null&&q2 != ''){ q += ' ' + q2; } // delme
 
-q = fuMClearText(q);
-q2 = fuMClearText(q2);
+
 
 var mode = url.searchParams.get("mode");
 if(mode != null){
@@ -306,6 +305,9 @@ function main(){
 
 if(q != null){
 mode = 'search';
+
+q = fuMClearText(q);
+q2 = fuMClearText(q2);
 
 if(q == 'rr'||q == 'rs'){ mode = 'randUrl'; }
 

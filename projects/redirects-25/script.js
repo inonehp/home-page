@@ -1,4 +1,4 @@
-// Redirects v.1.7.18
+// Redirects v.1.7.19
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -839,12 +839,17 @@ sTimeRedirStatus = ' <span class="small">( redirection: off ) </span> ';
 }
 
 rUrlGetPrint = decodeURIComponent(rUrlGet);
+
+
+rUrlGetPrint = fuMClearText(rUrlGetPrint);
+rUrlGet = fuMClearText(rUrlGet);
+
 print = `
 
 <div class="tCenter">
-<div class="post bgList borderList op tCenter">`+sTimeRedirStatus+`</div>
-<div class="post bgList borderList h3 ${color} bold">`+rUrlGetPrint+`</div>
-<a class="block padding2 light borderList op" href="`+rUrlGet+`">open</a>
+<div class="post bgList borderList op tCenter">` + sTimeRedirStatus + `</div>
+<div class="post bgList borderList h3 ${color} bold">` + rUrlGetPrint + `</div>
+<a class="block padding2 light borderList op" href="` + rUrlGet + `">open</a>
 </div>
 
 `;
