@@ -1,20 +1,5 @@
-// Todo v.2.2.7
+// Todo v.2.3.0
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
-
-// fuLClearText v.1.0.0
-function fuLClearText(text){
-let symbol = "`" + `'"<>`;
-let symbolArr = symbol.split("");
-
-if(text != undefined){
-symbolArr.forEach(async (val) => {
-text = text.replaceAll(val, '_');
-});
-
-return text;
-}
-
-}
 
 var print = '';
 var printDaily = '';
@@ -38,10 +23,10 @@ var q = url.searchParams.get("q");
 com = url.searchParams.get("com");
 
 if(q != null){
-q = fuLClearText(q);
+q = fuMClearText(q);
 q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
-q = fuLClearText(q);
+q = fuMClearText(q);
 q = q.trim();
 }
 if(q == null){ q = ''; }
@@ -77,14 +62,14 @@ var i = 0;
 // main
 function runDb(com3, id3, title3, status3, statusDaily3){
 
-com3 = fuLClearText(com3);
-id3 = fuLClearText(id3);
-title3 = fuLClearText(title3);
-status3 = fuLClearText(status3);
-statusDaily3 = fuLClearText(statusDaily3);
+com3 = fuMClearText(com3);
+id3 = fuMClearText(id3);
+title3 = fuMClearText(title3);
+status3 = fuMClearText(status3);
+statusDaily3 = fuMClearText(statusDaily3);
 
-// fuLClearText v.1.0.0
-function fuLClearText(text){
+// fuMClearText v.1.0.0
+function fuMClearText(text){
 let symbol = "`" + `'"<>`;
 let symbolArr = symbol.split("");
 
@@ -98,11 +83,11 @@ return text;
 
 }
 
-com3 = fuLClearText(com3);
-id3 = fuLClearText(id3);
-title3 = fuLClearText(title3);
-status3 = fuLClearText(status3);
-statusDaily3 = fuLClearText(statusDaily3);
+com3 = fuMClearText(com3);
+id3 = fuMClearText(id3);
+title3 = fuMClearText(title3);
+status3 = fuMClearText(status3);
+statusDaily3 = fuMClearText(statusDaily3);
 
 
 
@@ -329,7 +314,7 @@ console.log("transaction.oncomplete");
 
 if(q != ''&&com == 'add'&&String(window.location).indexOf('stopReSubmit') == -1){
 //window.location.href = '?#stopReSubmit';
-q = fuLClearText(q);
+q = fuMClearText(q);
 window.location.replace("?#stopReSubmit",);
 }else{
 q = '';
@@ -1058,6 +1043,7 @@ print2 = `
 <input id="inputTask" class="padding2" type="text" name="q" autocomplete="off" placeholder="input">
 <input type="hidden" name="com" value="add">
 <div id="option"></div>
+<div class="submit tCenter small" style="cursor: pointer;" onclick="submitLink();">submit</div>
 </form>
 
 <div class="block tRight padding">
@@ -1101,9 +1087,9 @@ var textInput = url.searchParams.get("q");
 var comInput = url.searchParams.get("com");
 var idInput = url.searchParams.get("id");
 
-textInput = fuLClearText(textInput);
-comInput = fuLClearText(comInput);
-idInput = fuLClearText(idInput);
+textInput = fuMClearText(textInput);
+comInput = fuMClearText(comInput);
+idInput = fuMClearText(idInput);
 
 if(comInput == 'add'||comInput == 'edit'){
 
@@ -1133,33 +1119,31 @@ window.location.replace('?#stopReSubmit',);
 document.getElementById('result2').innerHTML = print2;
 
 
-if( document.getElementById('inputTask') != null){
-var inputA = document.getElementById('inputTask');
-inputA.addEventListener('input', updateValueInput);
-}
 
 
 
-function updateValueInput(e) {
-let textInput = fuLClearText(e.target.value);
-textInput= encodeURIComponent(textInput);
-var a = `
-<div class="submit tCenter small" style="cursor: pointer;" onclick="submitLink('` + textInput +`')">submit</div>
-`;
-
-document.getElementById("option").innerHTML = a;
-}
 
 function submitLink(textInput){
-textInput = fuLClearText(textInput);
+
+if(document.getElementById('inputTask') != null){
+textInput = document.getElementById('inputTask').value;
+}
+
+if(textInput != ""){
+textInput = fuMClearText(textInput);
 runDb('add', '', textInput);
 document.getElementById("inputTask").value = '';
 document.getElementById("option").innerHTML = '';
+}
 }
 
 function submitLinkEdit(){
 idInput = document.getElementById('idInputE').value;
 textInput = document.getElementById('textInputE').value;
+
+idInput = fuMClearText(idInput);
+textInput = fuMClearText(textInput);
+
 textInput = decodeURIComponent(textInput);
 textInput = encodeURIComponent(textInput);
 

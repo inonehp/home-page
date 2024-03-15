@@ -174,7 +174,8 @@ q2 = q2.trim();
 }
 //if(q2 != null&&q2 != ''){ q += ' ' + q2; } // delme
 
-
+q = fuMClearText(q);
+q2 = fuMClearText(q2);
 
 var mode = url.searchParams.get("mode");
 if(mode != null){
@@ -210,6 +211,7 @@ mode = 'id';
 var getP = url.searchParams.get("p");
 if(getP != null){
 getP = getP.replaceAll(/%/g, "%25");
+getP = fuMClearText(getP);
 getP = Number(decodeURIComponent(getP));
 
 if(getP >= jsonVar.length - 1){ getP = jsonVar.length; }
@@ -221,6 +223,7 @@ var getP2 = url.searchParams.get("p2"); // nav for id
 if(getP2 != null){
 getP2 = getP2.replaceAll(/%/g, "%25");
 getP2 = getP2.trim();
+getP2 = fuMClearText(getP2);
 getP2 = Number(decodeURIComponent(getP2));
 mode = 'singleList';
 }
@@ -231,10 +234,12 @@ var getP3 = url.searchParams.get("p3"); // nav for id
 if(getP3 != null){
 getP3 = getP3.replaceAll(/%/g, "%25");
 getP3 = getP3.trim();
+getP3 = fuMClearText(getP3);
 getP3 = Number(decodeURIComponent(getP3));
 }
 
 if(getP == null){ getP = 0; }
+
 
 
 if(getP == jsonVar.length){ getP = getP - 1; }

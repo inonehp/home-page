@@ -1,31 +1,15 @@
-// Speed dial v.1.2.1
+// Speed dial v.1.3.0
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
 
-// fuLClearText v.1.0.0
-function fuLClearText(text){
-let symbol = "`" + `'"<>`;
-let symbolArr = symbol.split("");
-
-if(text != undefined){
-symbolArr.forEach(async (val) => {
-text = text.replaceAll(val, '_');
-});
-
-return text;
-}
-
-}
 
 
 if (localStorage.getItem("confSpeedDialData")) {
 var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
 }else{
 var confSpeedDialDataArr = [];
-confSpeedDialDataArr.push({"text":"Task", "url":"/projects/todo-list-task-31/"});
-confSpeedDialDataArr.push({"text":"Idea", "url":"/projects/todo-list-idea-32/"});
-confSpeedDialDataArr.push({"text":"Typing", "url":"/projects/typing-speed-14/"});
+confSpeedDialDataArr.push({"text":"Example", "url":"https://example.com/"});
 var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
 }
 
@@ -42,16 +26,15 @@ if(conf["confSpeedDialStatus"] != "off"){
 
 
 // pin button and status
-let fPinButtonText = fuLClearText(document.title);
-let fPinButtonUrl = fuLClearText(location.href);
 
-let fPinButton = `<a title="Add page to speed dial" id="mPin" class="inlineBlock padding brand" href="javascript:fuLSpeedDial('', '${fPinButtonText}', '${fPinButtonUrl}', 'add');">Pin</a>`;
+
+let fPinButton = `<a title="Add page to speed dial" id="mPin" class="inlineBlock padding brand" href="javascript:fuLSpeedDial('', '', '', 'add2');">Pin</a>`;
 let confSpeedDialDataArrButton = JSON.parse(confSpeedDialDataArr);
 
 confSpeedDialDataArrButton.forEach((item, index) => {
 
 if(index != undefined&&index != "undefined"){
-if((String(location.href)).indexOf(item.url) != -1){
+if((String(item.url)).indexOf(location.href) != -1){
 fPinButton = `<a title="Speed dial setting" id="mPin" class="inlineBlock padding gray" href="/projects/speed-dial-58/index.html">Pined</a>`;
 }
 
@@ -156,8 +139,28 @@ url = document.getElementById("speedDialUrl").value;
 }
 
 if(text != ""){
-text = fuLClearText(text);
-url = fuLClearText(url);
+text = fuMClearText(text);
+url = fuMClearText(url);
+
+confSpeedDialDataArr = JSON.parse(confSpeedDialDataArr);
+confSpeedDialDataArr.push({text:text, url:url});
+//https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
+localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArr));
+}
+
+fuLSpeedDial("speedDialPrint", "", "", "print");
+break;
+
+case 'add2':
+
+if(text == ""){
+text = fuMClearText(document.title);
+url = fuMClearText(location.href);
+}
+
+if(text != ""){
+text = fuMClearText(text);
+url = fuMClearText(url);
 
 confSpeedDialDataArr = JSON.parse(confSpeedDialDataArr);
 confSpeedDialDataArr.push({text:text, url:url});
@@ -180,8 +183,14 @@ if(index != undefined&&index != "undefined"){
 if(confSpeedDialDataArr[index].text == undefined){ confSpeedDialDataArr[index].text = 'undefined'; }
 let speedDialItemText = (confSpeedDialDataArr[index].text).trim();
 let speedDialItemUrl = confSpeedDialDataArr[index].url;
+
+// fixme (quote)
+speedDialItemText = fuMClearText(speedDialItemText);
+speedDialItemUrl = fuMClearText(speedDialItemUrl);
+
 printSettingsArr.push(`
 
+<!-- ${speedDialItemText} -->
 <div class="padding2"><hr></div>
 
 <label class="xSmall" for="speedDialText">Text:</label>
@@ -222,6 +231,9 @@ ${printSettings}
 
 `;
 
+
+
+
 if(document.getElementById("speedDialSettingPrint") != null){
 document.getElementById("speedDialSettingPrint").innerHTML = printSettings; 
 }
@@ -237,14 +249,16 @@ confSpeedDialDataArr = [];
 if(document.querySelectorAll('.classSpeedDialText') != undefined){
 let getData = document.querySelectorAll('.classSpeedDialText');
 getData.forEach((item, index) => {
-let text = document.getElementsByClassName("classSpeedDialText")[index].value;
-let url = document.getElementsByClassName("classSpeedDialUrl")[index].value;
+text = document.getElementsByClassName("classSpeedDialText")[index].value;
+url = document.getElementsByClassName("classSpeedDialUrl")[index].value;
 if(text == ""||url == ""){
 }else{
-text = fuLClearText(text);
-url = fuLClearText(url);
 
-fuLClearText
+
+text = fuMClearText(text);
+url = fuMClearText(url);
+
+fuMClearText
 confSpeedDialDataArr.push({text:text, url:url});
 }
 });
@@ -275,6 +289,7 @@ default:
 
 //https://stackoverflow.com/questions/2802341/natural-sort-of-alphanumerical-strings-in-javascript
 function lNaturalSort(arr){
+
 var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
 
 return arr.sort(collator.compare);

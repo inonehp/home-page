@@ -1214,7 +1214,30 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 
 
 
+// fuLClearText v.1.0.0
+function fuMClearText(text){
+let symbol = "`";
+let symbolArr = symbol.split("");
 
+if(text != undefined){
+
+//https://www.w3schools.com/java/java_strings_specchars.asp
+//https://www.w3schools.com/charsets/ref_html_entities_4.asp
+text = text.replaceAll("'", '\'');
+text = text.replaceAll('"', '\"');
+text = text.replaceAll("/\\/", "\\\\");
+text = text.replaceAll("<", '&lt;');
+text = text.replaceAll(">", '&gt;');
+
+
+symbolArr.forEach((val) => {
+text = text.replaceAll(val, '_');
+});
+
+return text;
+}
+
+}
 
 
 
