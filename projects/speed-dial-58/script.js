@@ -57,10 +57,10 @@ var submitForm = `
 <form id="spedDialSubmit">
 
 <label class="xSmall" for="speedDialText">Text:</label>
-<input type="text" id="speedDialText" name="speedDialText">
+<input type="text" id="speedDialText" name="speedDialText" placeholder="Example">
 
 <label class="xSmall" for="speedDialUrl">URL:</label>
-<input type="text" id="speedDialUrl" name="speedDialUrl">
+<input type="text" id="speedDialUrl" name="speedDialUrl" placeholder="https://example.com/">
 
 <a href="#spedDialSubmit" onclick="fuLSpeedDial('', '', '', 'add')"><div class="op xSmall tag2 submit">Add</div></a>
 
