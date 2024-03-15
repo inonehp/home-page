@@ -1,4 +1,4 @@
-// Speed dial v.1.3.0
+// Speed dial v.1.3.2
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -110,7 +110,7 @@ ${print}
 </div>
 
 <details class="block ">
-<summary class="pointer green xSmall">+Add item<!--, <a href="/projects/speed-dial-58/index.html"><div class="op xSmall tag2 green">Edit all</div></a>--></summary>
+<summary class="pointer xSmall"><span class="green bold">+</span> Add item<!--, <a href="/projects/speed-dial-58/index.html"><div class="op xSmall tag2 ==">Edit all</div></a>--></summary>
 ${submitForm}
 </details>
 
@@ -184,9 +184,14 @@ if(confSpeedDialDataArr[index].text == undefined){ confSpeedDialDataArr[index].t
 let speedDialItemText = (confSpeedDialDataArr[index].text).trim();
 let speedDialItemUrl = confSpeedDialDataArr[index].url;
 
-// fixme (quote)
+
 speedDialItemText = fuMClearText(speedDialItemText);
 speedDialItemUrl = fuMClearText(speedDialItemUrl);
+
+//https://stackoverflow.com/questions/5383520/populate-an-input-field-with-a-string-that-contains-a-double-quote
+speedDialItemText = speedDialItemText.replaceAll(/"/g, '&quot;');
+speedDialItemUrl = speedDialItemUrl.replaceAll(/"/g, '&quot;');
+
 
 printSettingsArr.push(`
 

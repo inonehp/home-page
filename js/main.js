@@ -1,4 +1,4 @@
-// Main js v.6.3.16
+// Main js v.6.3.17
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -1214,25 +1214,28 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 
 
 
-// fuLClearText v.1.0.0
+// fuLClearText, fix print v.1.0.0
 function fuMClearText(text){
-let symbol = "`";
-let symbolArr = symbol.split("");
+
 
 if(text != undefined){
 
-//https://www.w3schools.com/java/java_strings_specchars.asp
-//https://www.w3schools.com/charsets/ref_html_entities_4.asp
-text = text.replaceAll("'", '\'');
-text = text.replaceAll('"', '\"');
-text = text.replaceAll("/\\/", "\\\\");
+//text = text.replaceAll("'", '\'');
+//text = text.replaceAll('"', '\"');
+//text = text.replaceAll("/\\/", "\\\\");
+
+text = text.replaceAll("/\\/", "&#92;");
 text = text.replaceAll("<", '&lt;');
 text = text.replaceAll(">", '&gt;');
-
-
+text = text.replaceAll("`", '&#96;');
+text = text.replaceAll(/"/g, '&quot;');
+text = text.replaceAll(/'/g, '&#39;');
+/*delme
+let symbol = "`";
+let symbolArr = symbol.split("");
 symbolArr.forEach((val) => {
 text = text.replaceAll(val, '_');
-});
+});*/
 
 return text;
 }
