@@ -1,4 +1,4 @@
-// Speed dial v.1.1.1
+// Speed dial v.1.1.2
 
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
@@ -189,6 +189,10 @@ ${printSettings}
 <div id="spedDialSubmitReset" class="block padding2 margin2"></div>
 <a href="#" onclick="fuLSpeedDial('', '', '', 'reset')"><div class="op small tag2 button submit red">Clear data (reset)</div></a>
 <div id="spedDialSubmitReset" class="block padding2 margin2"></div>
+
+<div class="tRight small op">* To remove an item, delete the text or URL and click Update</div>
+
+
 <!-- // settings -->
 
 `;
