@@ -48,7 +48,7 @@ text-align: left;
 .dropdownMenuWrapper { position: relative; }
 .dropdownMenuContent {
 z-index: 2;
-/*width: calc(100% - (2 * var(--bodyP)));*/
+/*width: calc(100% - (2 * var(--bodyPadding)));*/
 /*max-width: 500px;*/
 margin: 0 auto;
 display: none;

@@ -190,13 +190,6 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #indie #90 #rock #alternative"
     },
     {
-        "text": "CBC.ca - watch, listen, and discover with Canada's Public Broadcaster",
-        "text2": "https:\/\/cbcradiolive.akamaized.net\/hls\/live\/2037435\/ES_R1NSN\/master.m3u8",
-        "text3": "m3u8",
-        "url": "https:\/\/www.cbc.ca\/",
-        "tag": "#radio #en"
-    },
-    {
         "text": "\u010cesk\u00fd rozhlas \u010cesk\u00e9 Bud\u011bjovice",
         "text2": "https:\/\/rozhlas.stream\/ceske_budejovice_high.aac",
         "text3": "mp3",
@@ -636,6 +629,13 @@ var radioJsonVar =
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Radio-88-Partille-880-s86498\/",
         "tag": "#radio #RadioMusic #ClassicHits"
+    },
+    {
+        "text": "Live 91.5 FM | CBC Radio One Ottawa | CBO-FM | 64.8K Favorites | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/CBC-Radio-One-Ottawa-915-s25437\/",
+        "tag": "#radio #en"
     },
     {
         "text": "Live 94.9 FM | Gold | Totalni - Velika Gorica | 12.3K Favorites | TuneIn",

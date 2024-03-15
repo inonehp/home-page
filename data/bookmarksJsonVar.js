@@ -1,6 +1,51 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "121",
+        "text": "The Stack Overflow Blog - Stack Overflow",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.blog\/",
+        "tag": "#dev #blog #news",
+        "time": 1710472208
+    },
+    {
+        "id": "120",
+        "text": "Android Apps on Google Play",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/play.google.com\/store\/games",
+        "tag": "#platform #inspiration #product #catalog #app",
+        "time": 1710472058
+    },
+    {
+        "id": "119",
+        "text": "Chrome Web Store",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/chromewebstore.google.com\/",
+        "tag": "#extension #platform #inspiration #product #catalog #app",
+        "time": 1710472022
+    },
+    {
+        "id": "118",
+        "text": "Add-ons for Firefox (en-US)",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/addons.mozilla.org\/en-US\/firefox\/",
+        "tag": "#extension #platform #inspiration #product #catalog #app",
+        "time": 1710471980
+    },
+    {
+        "id": "117",
+        "text": "Product Hunt \u2013 The best new products in tech.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.producthunt.com\/",
+        "tag": "#WebDev #dev #platform #inspiration #product #catalog #app",
+        "time": 1710471777
+    },
+    {
         "id": "116",
         "text": "Le Chat Mistral",
         "text2": "",
@@ -51,7 +96,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/alternativeto.net\/",
-        "tag": "#app #software #store #inspiration #SocialNetwork #platform",
+        "tag": "#app #software #store #platform #inspiration #product #catalog #app",
         "time": 1710407726
     },
     {
@@ -836,15 +881,6 @@ var bookmarksJsonVar =
         "url": "https:\/\/dev.to\/",
         "tag": "#SocialNetwork #WebDev #platform #dev #coding #programming",
         "time": 1705746648
-    },
-    {
-        "id": "19",
-        "text": "Product Hunt \u2013 The best new products in tech.",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.producthunt.com\/",
-        "tag": "#WebDev #dev #platform #product #inspiration #catalog",
-        "time": 1705746533
     },
     {
         "id": "18",

@@ -108,7 +108,7 @@ project,
 .dropdownMenuContent {
 z-index: 2;
 box-sizing: border-box;
-width: calc(100% - (2 * var(--bodyP)));
+width: calc(100% - (2 * var(--bodyPadding)));
 max-width: var(--wrapper2);
 margin: 0 auto;
 display: none;
@@ -143,7 +143,7 @@ grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 /* for codepen */
 /*
 :root{
---bodyP: 5vw;
+--bodyPadding: 5vw;
 }
 a { text-decoration:none; }
 nav { display: block; text-align: center; }
@@ -155,7 +155,7 @@ body{
 	);
 overflow-wrap: break-word;
 box-sizing: border-box;
-padding: 0 var(--bodyP);
+padding: 0 var(--bodyPadding);
 }
 .shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 .bg2 { background: white; }

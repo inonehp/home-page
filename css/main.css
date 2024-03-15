@@ -1,13 +1,16 @@
-/* Main style v.14.3.3 */
+/* Main style v.14.3.4 */
 /* Personal CSS framework */
-/* main.css + auto.css (color-theme-name.css) */
+/* /css/main.css + /css/auto.css (color-theme-name.css) */
 /* Responsive, mainly class-based */
 
 /* main */
 * { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
 
 :root{
---bodyP: 3vw;
+/* c4, red, orange, yellow, green, blue, indigo, violet */
+--brandColor: color-mix(in srgb, var(--blue) 80%, var(--green));
+
+--bodyPadding: 3vw;
 --wrapper: 540px;
 --wrapper2: 700px;
 --wrapper3: 900px;
@@ -56,7 +59,7 @@ font-size: 1em;
 /*@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }*/
 html, body { margin: 0 auto; padding: 0; }
 body {
-padding: 0 var(--bodyP);
+padding: 0 var(--bodyPadding);
 display: flex;
 flex-basis: auto;
 flex-basis: 100%;
@@ -420,9 +423,6 @@ border-radius: 5px;
 /* colors */
 
 :root{
-/*red,orange,yellow,green,blue,indigo,violet*/
---brandColor: color-mix(in srgb, var(--blue) 80%, var(--green));
-
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
 --brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));
 }
