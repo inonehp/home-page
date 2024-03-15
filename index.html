@@ -3,12 +3,12 @@
 <head>
 
 <meta charset="UTF-8">
-<title>inonehp ∷ Home page and projects</title>
+<title>inonehp - Home page and projects</title>
 
-<meta name="description" content="🔍 Search (redirect).  
-🛍️ Extension New Tab: any site in each new tab.  
-🎨 Themes for: Geany IDE, and Firefox.  
-📁 To-do, typing, games, icons, templates,and others.">
+<meta name="description" content="Search (redirect).  
+Extension New Tab: any site in each new tab.  
+Themes for: Geany IDE, and Firefox.  
+To-do, typing, games, icons, templates,and others.">
 <meta name="keywords" content="website, WebDesign, project, projects,
 Geany, theme, Firefox, 
 WebDev, dev, HTML, CSS, JavaScript,
@@ -225,7 +225,7 @@ border-bottom: 2px dashed var(--randCAll2);
 <span class="xSmall padding2List">updated: <span id="last-update"></span></span>
 </summary>
 <div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">
-New: about me page template.
+New: speed dial (in test)
 
 <a class="brand tag2 block tCenter border light borderRadius2" href="./changelog.html" title="Update Log">more</a></div>
 </details>
@@ -417,21 +417,29 @@ document.getElementById("hotLinks").innerHTML = a;
 </script>
 
 <div class="margin2 padding2"></div>
-<!-- Speed dial -->
-<div class="small">
 
-<span class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Speed dial:</span>
-<div class="tagList left">
-<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/todo-list-task-31/"><span class="capitalize op">Task</span></a>
-<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/todo-list-idea-32/"><span class="capitalize op">Idea</span></a>
-<a class="insertIcon tag2 light2 border borderRadius2 noscriptHide itemHeight" href="/projects/typing-speed-14/"><span class="capitalize op">Typing</span></a>
-</div>
+<!-- nav2 -->
+<div class="padding2"></div>
 
-</div>
-<!-- // Speed dial -->
+<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Menu lists:</div>
+
+
+<a class="post firstLetterBold insertIcon  light border3List small" href="main-list.html">
+<div class="inlineBlock"><div class="firstLetterBold op">Main</div></div></a>
+
+<a class="post firstLetterBold insertIcon  light border3List small" href="projects-list.html">
+<div class="inlineBlock"><div class="firstLetterBold op">Projects</div></div></a>
+
+<a class="post firstLetterBold insertIcon  light border3List small" href="mini-projects-list.html">
+<div class="inlineBlock"><div class="firstLetterBold op">Mini projects</div></div></a>
+
+
+<div class="padding2"></div>
+<!-- // nav2 -->
+
+<span id="speedDialPrint"></span>
 
 <div class="block padding2 margin2"></div>
-
 
 
 
@@ -510,7 +518,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1710240302);
+document.getElementById("last-update").innerHTML = fuPostTime(1710505407);
 </script>
 
 <script>

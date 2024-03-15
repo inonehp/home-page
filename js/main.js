@@ -1,4 +1,4 @@
-// Main js v.6.3.15
+// Main js v.6.3.16
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -52,6 +52,13 @@ This is necessary to improve the site.
 "confValueVariant":["18", "19", "20", "21"],
 },
 {
+"confTitle":"Background picture",
+"confDescription":"Background picture.",
+"confName":"confBg",
+"confValueDefault":"on",
+"confValueVariant":["on", "off"],
+},
+{
 "confTitle":"Hide link extensions",
 "confDescription":"Hides extensions in links. Example: /blog.html to /blog. This is to make the PWA (Website as an App) work.",
 "confName":"confHideLinkExt",
@@ -73,11 +80,11 @@ This is necessary to improve the site.
 "confValueVariant":["on", "off", "random"],
 },
 {
-"confTitle":"Background picture",
-"confDescription":"Background picture.",
-"confName":"confBg",
+"confTitle":"Speed dial on off",
+"confDescription":"Speed dial on off.",
+"confName":"confSpeedDialStatus",
 "confValueDefault":"on",
-"confValueVariant":["on", "off"],
+"confValueVariant":["on", "off", "random"],
 },
 {
 "confTitle":"Icons on off",
@@ -405,8 +412,9 @@ fuMPrintText("footer", `
 
 <div>
 <!--<a class="brand" href="#goBack" onclick="history.back()">Go Back</a>-->
-<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="brand" href="/theme.html">Themes</a></span>
+<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/theme.html">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
+<span id="fPinButton"></span>
 </div>
 
 
@@ -440,28 +448,6 @@ document.getElementById(id).scrollIntoView();
 }
 }
 // // footer
-
-
-/*
-// embed file url
-if(
-(window.location.href).indexOf(('/projects/')) != -1
-||(window.location.href).indexOf(('/mini-projects/')) != -1
-||(window.location.href).indexOf(('/css-art/')) != -1
-){
-fetch('script.js', { method: "HEAD"}).then(function(response) {
-//console.log(response);
-if (response.ok == true) {
-fuMPrintText('fEmbedFileUrl', `<span><a class="op inlineBlock tag orange" href="script.js">script.js</a></span>`, 'plus');
-}
-});
-
-fetch('style.css', { method: "HEAD"}).then(function(response) {
-if (response.ok == true) {  fuMPrintText('fEmbedFileUrl', `<span><a class="op inlineBlock tag indigo" href="style.css">style.css</a></span>`, 'plus');
-}
-});
-}
-// // embed file url*/
 
 
 // Device 1.0.0
@@ -1261,6 +1247,10 @@ document.getElementById(embedId).appendChild(script);
 
 // Embed script and run:
 
+if(conf["confSpeedDialStatus"] != "off"){
+fuMEmbedScript(`/projects/speed-dial-58/script.js`, conf["confIdEmbedScript"]);
+}
+
 if(conf["confIconStatus"] != "off"){
 fuMEmbedScript("/data/iconsJsonVar.js", conf["confIdEmbedScript"]);
 fuMEmbedScript("/projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
@@ -1288,6 +1278,10 @@ fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAn
 onload = (event) => {
 //document.body.onload = function(){}
 //document.addEventListener("DOMContentLoaded", (event) => {})
+
+if(conf["confSpeedDialtatus"] != "off"){
+fuLSpeedDial("speedDialPrint", "", "", "print");
+}
 
 if(conf["confIconStatus"] != "off"){
 insertIcon('insertIcon', 'strict', conf["confIconStatus"], iconsJsonVar);

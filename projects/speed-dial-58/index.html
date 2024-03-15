@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Project name</title>
+<title>Speed dial</title>
 
 <meta name="description" content="
-This is the tpl for create projects.
-Not intended for viewing. ignoreme.
+Speed dial.
 ">
 <meta name="keywords" content="
-ignoreme,empty,CSS,JavaScript,project,
+speed,dial,CSS,JavaScript,project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,12 +52,13 @@ ignoreme,empty,CSS,JavaScript,project,
 <main class="content">
 <div class="wrapper">
 
-<h1 class="tCenter op">Project name</h1>
-<div class="tCenter padding2 small op">in progress</div>
+<h1 class="tCenter op">Speed dial</h1>
+<div class="tCenter padding2 small op">in test, in progress</div>
 
-<div class="post border bg pre">
-<div id="result"></div>
-</div>
+
+<span id="speedDialPrint"></span>
+<span id="speedDialSettingPrint"></span>
+
 
 </div>
 </main>
@@ -74,6 +74,10 @@ ignoreme,empty,CSS,JavaScript,project,
 </script>
 
 <script src="script.js"></script>
+<script>
+fuLSpeedDial("speedDialPrint", "", "", "print");
+fuLSpeedDial("speedDialPrint", "", "", "setting");
+</script>
 
 </body>
 </html>

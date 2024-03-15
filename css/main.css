@@ -1,4 +1,4 @@
-/* Main style v.14.3.4 */
+/* Main style v.14.3.5 */
 /* Personal CSS framework */
 /* /css/main.css + /css/auto.css (color-theme-name.css) */
 /* Responsive, mainly class-based */
@@ -237,18 +237,21 @@ text-align: center;
 }
 
 .tagList a, .tagList2 a { margin: 1px; }
-.tag, .tag2, .button, .submit {
+.tag, .tag2, .button {
 display: inline-flex;
 justify-content: center;
 align-items: center;
 text-align: center;
 padding: .20em .5em;
-min-width: 2.5em;
+width: auto;
+min-width: 40px;
 max-width: 100%;
 overflow-wrap: anywhere;
 }
 .tag, .tag2 { white-space: normal; word-break: break-word; }
 .button { padding: .7em 1.2em; }
+.submit { width: 100%; }
+
 .tag2 { padding: .3em .8em; }
 /*@media (any-pointer: coarse) { .tag { padding: .3em .8em; } }*/
 
@@ -595,7 +598,7 @@ html { scrollbar-width: thin; }
 input:focus{ outline: none }
 
 .logo2 { margin-right: 5px; }
-input[type="color"], form button { vertical-align: middle; max-height: 27.5px; max-height: var(--inputHeight); }
+input[type="color"], form button { vertical-align: middle; min-height: var(--inputHeight); }
 
 
 html{ overflow-x: hidden; } /* fix PWA  */

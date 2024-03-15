@@ -51,6 +51,7 @@ function setCurrentChoice(result) {
 if(result.hotkey){
 var getData =  JSON.parse(result.hotkey);
 
+
 getData.forEach((item, index) => {
 if(index != undefined&&index != "undefined"){
 document.getElementsByClassName("classHotkeyId")[index].value = getData[index].key;
