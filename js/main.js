@@ -1219,8 +1219,7 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 }
 }
 
-// in embed
-//fuMHideFileNameExt2(); test delme
+//fuMHideFileNameExt2(); in embed, test delme
 
 
 
@@ -1234,13 +1233,7 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 
 
 
-
-
-
-
-
-
-// Embed script list v.1.0.0
+// Embed scripts v.1.0.0
 if(document.getElementById(conf["confIdEmbedScript"]) != null){
 
 function fuMEmbedScript(embedUrl, embedId){
@@ -1320,7 +1313,7 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 
 }
-// end Embed script list
+// end Embed scripts
 
 
 
