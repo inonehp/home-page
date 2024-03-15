@@ -1,4 +1,4 @@
-// Speed dial v.1.1.0
+// Speed dial v.1.1.1
 
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
@@ -27,14 +27,14 @@ if(conf["confSpeedDialStatus"] != "off"){
 
 
 // pin button and status
-let fPinButton = `<a id="mPin" class="inlineBlock padding brand" href="javascript:fuLSpeedDial('', '${document.title}', '${location.href}', 'add');">pin</a>`;
+let fPinButton = `<a title="Add page to speed dial" id="mPin" class="inlineBlock padding brand" href="javascript:fuLSpeedDial('', '${document.title}', '${location.href}', 'add');">Pin</a>`;
 let confSpeedDialDataArrButton = JSON.parse(confSpeedDialDataArr);
 
 confSpeedDialDataArrButton.forEach((item, index) => {
 
 if(index != undefined&&index != "undefined"){
 if((String(location.href)).indexOf(item.url) != -1){
-fPinButton = `<a id="mPin" class="inlineBlock padding gray" href="/projects/speed-dial-58/index.html">pined</a>`;
+fPinButton = `<a title="Speed dial setting" id="mPin" class="inlineBlock padding gray" href="/projects/speed-dial-58/index.html">Pined</a>`;
 }
 
 }
