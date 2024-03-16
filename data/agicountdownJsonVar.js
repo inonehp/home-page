@@ -5,7 +5,7 @@ var agicountdownJsonVar =
         "text": "ChatGPT\r\n\r\n\"Name a possible year of AGI creation\"\r\n...\r\n\"year between two and five decades\"\r\n\r\n---\r\n\r\nIf we consider a conservative estimate within the range of two to five decades, then a plausible timeframe for the creation of Artificial General Intelligence (AGI) could fall somewhere between the years 2040 and 2070. \r\n\r\nPlease note that this is a speculative estimate based on current trends and the pace of advancements in AI research and technology. Numerous factors could influence the actual timeline, including breakthroughs in AI algorithms, developments in computing power, progress in understanding human cognition, and societal and ethical considerations.\r\n\r\nAs with any prediction related to AGI, it's important to approach it with caution and recognize the uncertainties inherent in such forecasts.",
         "text2": "2055",
         "text3": "",
-        "url": "https:\/\/chat.openai.com\/c\/603110ea-78b5-4f69-8435-1a10ced0e0f9",
+        "url": "https:\/\/chat.openai.com\/",
         "tag": "",
         "time": 1710603380
     },
