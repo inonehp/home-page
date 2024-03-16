@@ -63,12 +63,12 @@ adsText = `<a class="brand inlineBlock" href="/settings.html#confDataCollection"
 }
 if(adsText.search("src=") == -1){ // not found code
 insertIcon = ' insertIcon ';
-adsPrint = `<div class="adsHeader"><a class="yellow inlineBlock" href="${adsUrlPage}"><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand break2" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = `<div class="adsHeader"><a class="brand inlineBlock" href="${adsUrlPage}"><span class="yellow">✪</span> <del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand break2" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 
 document.getElementById(idAds).innerHTML = '<div class="center"><div class="post light borderList ads tLeft break">' + adsPrint + '</div></div>';
 }else{
 insertIcon = '';
-adsPrint = `<div class="adsHeader"><a class="padding light yellow inlineBlock" href="${adsUrlPage}"><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand" target="blank" href="' + adsURL + '">' + adsURL + '</a></div>';
+adsPrint = `<div class="adsHeader"><a class="padding light brand inlineBlock" href="${adsUrlPage}"><span class="yellow">✪</span> <del><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand" target="blank" href="' + adsURL + '">' + adsURL + '</a></div>';
 
 document.getElementById(idAds).innerHTML = '<div class="center"><div class="adsCode">' + adsPrint + '</div></div>';
 }
@@ -94,12 +94,12 @@ adsText = fuMHideFileNameExt(`<a class="brand" href="/settings.html#confDataColl
 }
 if(adsText.search("src=") == -1){ // not found code
 insertIcon = ' insertIcon ';
-adsPrint = `<div class="adsHeader"><a class="yellow inlineBlock" href="${adsUrlPage}"><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand break2" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = `<div class="adsHeader"><a class="brand inlineBlock" href="${adsUrlPage}"><span class="yellow">✪</span> <del><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand break2" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 
 adsPrint = '<div class="center"><div class="post light borderList ads tLeft break">'+adsPrint+'</div></div>';
 }else {
 insertIcon = '';
-adsPrint = `<div class="adsHeader"><a class="padding light yellow inlineBlock" href="${adsUrlPage}"><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
+adsPrint = `<div class="adsHeader"><a class="padding light brand inlineBlock" href="${adsUrlPage}"><span class="yellow">✪</span> <del><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 
 adsPrint = '<div class="center"><div class="adsCode">'+adsPrint+'</div></div>';
 }

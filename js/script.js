@@ -129,7 +129,7 @@ document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt(
 
 
 }else if(mNavUpCheck == "/"){
-document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./pages.html");
+document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./lists.html");
 }
 
 
