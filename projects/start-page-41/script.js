@@ -49,7 +49,7 @@ document.getElementById('clockUtc').innerHTML = hoursUtc + ':' + minutesUtc; // 
 
 
 //clock time
-document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds+'';
+document.getElementsByTagName('title')[0].innerText = hours + ':' + minutes + ':' + seconds + ' | Start page';
 
 
 
