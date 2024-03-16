@@ -1,4 +1,4 @@
-<!-- README.md v.1.7.1 -->
+<!-- README.md v.1.7.2 -->
   
 ![page with a light and dark theme](/img/github-banner-settings.png)  
   
@@ -6,7 +6,7 @@
 🔍 Search (redirect).  
 🛍️ Extension New Tab: any site in each new tab.  
 🎨 Themes for: Geany IDE, and Firefox.  
-📁 To-do, typing, games, icons, templates, and others.
+📁 To-do, typing, games, icons, templates, start page ...
   
 ---
   
