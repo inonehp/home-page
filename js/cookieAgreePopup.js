@@ -1,4 +1,4 @@
-// Cookie Consent Popup v.1.2.6
+// Cookie Consent Popup v.1.3.0
 // if "not selected": popup
 
 fuMPrintText('cookiePopup', `
@@ -28,7 +28,7 @@ display: none;
 z-index: 99;
 }
 
-.cookiePopup { max-width: calc(100% - (var(--bodyP) * 2)); margin: 0 auto; }
+.cookiePopup { max-width: calc(100% - (var(--bodyPadding) * 2)); margin: 0 auto; }
 #cookiePopup button { width: 120px; max-width: 100%; }
 .cookieBtnYes { border: 1px double var(--green); }
 </style>
