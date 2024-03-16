@@ -118,6 +118,39 @@ The order of the style files in the header matters. Latter files overwrite the p
 </item>
 
 <item>
+<pubDate>Sat, 16 Mar 24 19:50:36 +0200</pubDate>
+<title><![CDATA[Joomla Content Management System (CMS) - try it! It's free!  ]]></title>
+<link><![CDATA[https://www.joomla.org/]]></link>
+<description>
+<![CDATA[
+Joomla Content Management System (CMS) - try it! It's free! https://www.joomla.org/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sat, 16 Mar 24 19:50:05 +0200</pubDate>
+<title><![CDATA[Blog Tool, Publishing Platform, and CMS – WordPress.org  ]]></title>
+<link><![CDATA[https://wordpress.org/]]></link>
+<description>
+<![CDATA[
+Blog Tool, Publishing Platform, and CMS – WordPress.org https://wordpress.org/
+]]>
+</description>
+</item>
+
+<item>
+<pubDate>Sat, 16 Mar 24 19:49:07 +0200</pubDate>
+<title><![CDATA[dokuwiki [DokuWiki]  ]]></title>
+<link><![CDATA[https://www.dokuwiki.org/dokuwiki]]></link>
+<description>
+<![CDATA[
+dokuwiki [DokuWiki] https://www.dokuwiki.org/dokuwiki
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Fri, 15 Mar 24 05:10:08 +0200</pubDate>
 <title><![CDATA[The Stack Overflow Blog - Stack Overflow  ]]></title>
 <link><![CDATA[https://stackoverflow.blog/]]></link>
@@ -190,39 +223,6 @@ Le Chat Mistral https://chat.mistral.ai/chat
 <description>
 <![CDATA[
 HuggingChat https://huggingface.co/chat/
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Thu, 14 Mar 24 14:19:25 +0200</pubDate>
-<title><![CDATA[ChatGPT  ]]></title>
-<link><![CDATA[https://chat.openai.com/]]></link>
-<description>
-<![CDATA[
-ChatGPT https://chat.openai.com/
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Thu, 14 Mar 24 14:11:23 +0200</pubDate>
-<title><![CDATA[Gemini  ]]></title>
-<link><![CDATA[https://gemini.google.com/app]]></link>
-<description>
-<![CDATA[
-Gemini https://gemini.google.com/app
-]]>
-</description>
-</item>
-
-<item>
-<pubDate>Thu, 14 Mar 24 14:11:03 +0200</pubDate>
-<title><![CDATA[Copilot  ]]></title>
-<link><![CDATA[https://copilot.microsoft.com/]]></link>
-<description>
-<![CDATA[
-Copilot https://copilot.microsoft.com/
 ]]>
 </description>
 </item>

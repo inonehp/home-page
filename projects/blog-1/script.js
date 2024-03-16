@@ -292,7 +292,8 @@ let lSlideShow = '';
 print += `
 
 <nav class="tCenter">
-<a class="small tag2" href="?" title="Current page">index</a>
+<!--<a class="small tag2" href="./" title="Index ./">index</a>-->
+<a class="small tag2" href="?" title="Start">start</a>
 <a class="small tag2" href="?mode=random" title="Random post">random</a>
 ${lSlideShow}
 <!--<a href="/rss.xml">rss</a>-->

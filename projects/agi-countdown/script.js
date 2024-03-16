@@ -48,9 +48,20 @@ var print = `
 
 <div class="margin2 padding2"></div>
 
-<div class="small">- ${result} - average number of ${totalPost} items.</div>
-<div class="small">- Based on random posts about a possible date when AGI will be created, not just experts, everyone.</div>
-- <a class="bold brand" href="data-list.html">List of collected data</a>
+<div class="op">
+
+<div>- ${result} - average number of ${totalPost} items.</div>
+<div>- Based on random posts about a possible date when AGI will be created, not just experts, everyone.</div>
+<div>- <a class="bold brand" href="data-list.html">List of collected data</a></div>
+
+<div class="padding2"></div>
+
+Similar site or page:<br>
+
+<a class="brand" href="https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known/">Date Weakly General AI is Publicly Known | Metaculus</a>
+
+
+</div>
 
 `;
 
