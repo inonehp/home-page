@@ -2,11 +2,11 @@
   
 ![page with a light and dark theme](/img/github-banner-settings.png)  
   
-# ∷ Home page and projects:   
-🔍 Search (redirect).  
-🛍️ Extension New Tab: any site in each new tab.  
-🎨 Themes for: Geany IDE, and Firefox.  
-📁 To-do, typing, games, icons, templates, start page ...
+# ∷ Home Page and Projects:   
+
+🏠 Search (redirect), new tab, my start page.  
+🎨 Firefox theme, Geany theme.  
+📁 To-do, typing, games, icons, website templates, ...  
   
 ---
   
