@@ -9,7 +9,10 @@ if (localStorage.getItem("confSpeedDialData")) {
 var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
 }else{
 var confSpeedDialDataArr = [];
-confSpeedDialDataArr.push({"text":"Example", "url":"https://example.com/"});
+
+confSpeedDialDataArr.push({"text":"Google", "url":"https://www.google.com/"});
+confSpeedDialDataArr.push({"text":"YouTube", "url":"https://www.youtube.com/"});
+
 var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
 }
 
