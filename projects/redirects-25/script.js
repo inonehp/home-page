@@ -1,4 +1,4 @@
-// Redirects v.1.7.21
+// Redirects v.1.7.23
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -112,20 +112,19 @@ case 'l#':  case 'll#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-//url = "./?q="+q+' q';
-//url = "https://you.com/search?q=!" + q;
 urlList = [
 "https://www.google.com/search?btnI=1&q=" + q,
+//url = "https://you.com/search?q=!" + q;
+//url = "https://duckduckgo.com/?q=! " + q;
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
+sRedirUrl = url;
 
 if(q == ''){
 url = 'https://www.google.com/';
 sRedirUrl = url;
-}else{
-sRedirUrl = url;
-};
+}
 
 break;
 
@@ -710,26 +709,26 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.bing.com/search?q="+ q,
-"https://search.yahoo.com/search?p=" + q,
-"https://search.givewater.com/serp?q=" + q,
-"https://duckduckgo.com/?q="+q,
+"https://www.mojeek.com/search?q=" + q,
+
 "https://www.qwant.com/?q=" + q,
 "https://you.com/search?q=" + q,
+"https://search.yahoo.com/search?q=" + q,
+"https://duckduckgo.com/?q="+q,
 "https://www.ecosia.org/search?q=" + q,
-"https://www.mojeek.com/search?q=" + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
 "https://www.bing.com/",
-"https://search.yahoo.com/",
-"https://search.givewater.com/",
-"https://duckduckgo.com/",
+"https://www.mojeek.com/",
+
 "https://www.qwant.com/",
 "https://you.com/",
+"https://search.yahoo.com/",
+"https://duckduckgo.com/",
 "https://www.ecosia.org/",
-"https://www.mojeek.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
