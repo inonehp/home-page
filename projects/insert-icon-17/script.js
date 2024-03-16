@@ -76,6 +76,7 @@ let icons = [
 {"t":"blogspot", "t2":"🅱"},
 {"t":"dev.to", "t2":"⬛"},
 {"t":"about.me", "t2":"⬛"},
+{"t":"google", "t2":"🔎", "t3":"search"},
 {"t":"twitter", "t2":`<span class="bold">𝕏</span>`},
 {"t":"x.com", "t2":`<span class="small bold">𝕏</span>`},
 {"t":"twitch", "t2":"🔴"},
@@ -119,7 +120,7 @@ let icons = [
 {"t":"threads", "t2":"@"},
 {"t":"instagram", "t2":"📸"},
 {"t":"wordpress", "t2":"🅦"},
-{"t":"youtube", "t2":"▶️"},
+{"t":"youtube", "t2":"▶️", "t3":"play"},
 {"t":"wix", "t2":`<span class="bold">W</span>`},
 {"t":"webflow", "t2":`<span class="bold em">W</span>`}
 ];
@@ -282,7 +283,7 @@ let icons2 = [
 {"t":"code", "t2":"📜", "t3":"code"},
 {"t":"coding", "t2":"📜", "t3":"code"},
 {"t":"history", "t2":"📜"},
-{"t":"search", "t2": "🔎"},
+{"t":"search", "t2": "🔎", "t3":"search"},
 {"t":"sleep", "t2":"😴💤"},
 {"t":"bed", "t2":"🛏"},
 {"t":"store", "t2":"🛍️", "t3":"store"},
