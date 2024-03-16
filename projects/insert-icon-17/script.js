@@ -1,4 +1,4 @@
-// Fu insert icon v.4.0.10
+// Fu insert icon v.4.0.11
 // Function for insert icon in links using class name.
 /*
 How to use:

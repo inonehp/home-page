@@ -10,9 +10,9 @@
   
 ---
   
-### 📁 ZIP: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)
-### 🔗 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)
-<!--## ☕ Donate: [Buy Me a Coffee](https://www.buymeacoffee.com/inonehp)-->
+### 📁 ZIP: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
+### ☕ Donate: [Buy Me a Coffee](https://www.buymeacoffee.com/inonehp)  
+### 🔗 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)  
   
 ---
   
