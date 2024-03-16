@@ -5,10 +5,10 @@
 <meta charset="UTF-8">
 <title>inonehp - Home page and projects</title>
 
-<meta name="description" content="Search (redirect).  
+<meta name="description" content="Start page.  
 Extension New Tab: any site in each new tab.  
 Themes for: Geany IDE, and Firefox.  
-To-do, typing, games, icons, templates,and others.">
+To-do, typing, games, icons, templates, other.">
 <meta name="keywords" content="website, WebDesign, project, projects,
 Geany, theme, Firefox, 
 WebDev, dev, HTML, CSS, JavaScript,
@@ -401,14 +401,17 @@ var text = encodeURIComponent(e.target.value);
 var a = `
 
 <div class="tagList2 hotLinks">
-<a rel="nofollow" class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=`+text+` goo" title="Google">goo</a>
-<a rel="nofollow" class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=`+text+` bin" title="Bing">bin</a>
-<a class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=`+text+` x" title="X (Twitter)">x</a>
+<a rel="nofollow" class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=` + text + ` goo" title="Google">goo</a>
+<a rel="nofollow" class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=` + text + ` bin" title="Bing">bin</a>
+<a class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=` + text + ` x" title="X (Twitter)">x</a>
 <a class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=`+text+` red" title="Reddit">red</a>
-<a class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=`+text+` y" title="YouTube">y</a>
-<a class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=`+text+` t" title="Translate">t</a>
-<a class="tag light2 border3 borderRadius2" title="Site" href="./projects/redirects-25/index.html?q=`+text+` qq" title="Site">site</a>
+<a class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=` + text + ` y" title="YouTube">y</a>
+<a class="tag light2 border3 borderRadius2" href="./projects/redirects-25/index.html?q=` + text + ` t" title="Translate">t</a>
+<a class="tag light2 border3 borderRadius2" title="Site" href="./projects/redirects-25/index.html?q=` + text + ` qq" title="Site">site</a>
 </div>
+
+<!--<iframe src="/projects/google-programmable-search-49/clean.html?q=` + text + ` site:https://inonehp.pages.dev" title="iframe" width="100%" height="500"></iframe>-->
+<!--<iframe src="https://www.bing.com/search?q=` + text + ` site:https://inonehp.pages.dev" title="iframe" width="100%" height="500"></iframe>-->
 
 `;
 document.getElementById("hotLinks").innerHTML = a; 

@@ -1,14 +1,6 @@
-#comment
-#User-agent: *
-#Disallow: /
-#https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap#xml
-sitemap: https://inonehp.pages.dev/sitemap.xml
 
 User-agent: *
 Allow: /
-#Disallow: /*?q=
-#Disallow: /*?rUrl=
-
 
 #User-agent: ia_archiver
 #Disallow: /
@@ -27,3 +19,9 @@ Allow: /
 
 #User-agent: Google-Extended
 #Disallow: /
+
+#https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap#xml
+#https://www.reddit.com/robots.txt
+#https://stackoverflow.com/robots.txt
+
+sitemap: https://inonehp.pages.dev/sitemap.xml
