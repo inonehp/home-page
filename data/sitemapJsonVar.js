@@ -21,7 +21,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Ads\n\nad, ads, ",
+        "text": "Ads\n\nAd, ads. The page displays a list of possible ads or something else. ",
         "url": "\/ads.html",
         "tag": " #ad #ads #page #main",
         "id": "88ac0d7efcaec004a38b73ca1695bcee",

@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.0.1
 
 let totalPost = agicountdownJsonVar.length;
 let averageYear = 0;
@@ -50,7 +50,8 @@ var print = `
 
 <div class="op">
 
-<div>- ${result} - average number of ${totalPost} items.</div>
+<div>- <b>${result}</b> - average number out of <a class="bold brand" href="data-list.html">${totalPost}</a> numbers.</div>
+
 <div>- Based on random posts about a possible date when AGI will be created, not just experts, everyone.</div>
 <div>- <a class="bold brand" href="data-list.html">List of collected data</a></div>
 

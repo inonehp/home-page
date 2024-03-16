@@ -113,7 +113,7 @@ ${print}
 </div>
 
 <details class="block ">
-<summary class="pointer xSmall"><span class="green bold">+</span> Add item<!--, <a href="/projects/speed-dial-58/index.html"><div class="op xSmall tag2 ==">Edit all</div></a>--></summary>
+<summary class="pointer xSmall op"><span class="green bold">+</span> Add item<!--, <a href="/projects/speed-dial-58/index.html"><div class="op xSmall tag2 ==">Edit all</div></a>--></summary>
 ${submitForm}
 </details>
 
