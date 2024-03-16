@@ -117,14 +117,12 @@
 
 <div class="tCenter">
 <div class="padding2  block">ads status: </span> <span class="bold" id="adsStatus"></span> <a class="insertIcon brand" href="/settings.html#confAdsStatus">settings</a> </div>
-
-
 </div>
 
 <script>
-document.getElementById("adsStatus").innerHTML = localStorage.getItem('confAdsStatus');
-if(localStorage.getItem('confAdsStatus') == null){
-document.getElementById("adsStatus").innerHTML = 'null, not selected (on)';
+document.getElementById("adsStatus").innerHTML = 'none';
+if(localStorage.getItem('confAdsStatus') != null){
+document.getElementById("adsStatus").innerText = localStorage.getItem('confAdsStatus');
 }
 </script>
 

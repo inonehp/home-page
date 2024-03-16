@@ -7,13 +7,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": ".\n\nSearch (redirect).  \nExtension New Tab: any site in each new tab.  \nThemes for: Geany IDE, and Firefox.  \nTo-do, typing, games, icons, templates,and others. ",
-        "url": "\/index.html",
-        "tag": " #website #WebDesign #project #projects #Geany #theme #Firefox #WebDev #dev #HTML #CSS #JavaScript #game #template #page #main",
-        "id": "eacf331f0ffc35d4b482f1d15a887d3b",
-        "time": "id"
-    },
-    {
         "text": "About\n\nAbout the site, profiles, license, contacts. ",
         "url": "\/about.html",
         "tag": " #about #contact #donate #profile #support #page #main",
@@ -823,13 +816,6 @@ var sitemapJsonVar = [
         "url": "\/css-art\/tpl-0\/index.html",
         "tag": " #none #CSSArt #HTML #CSS #project #CSS_art._CSS_image.",
         "id": "877db8a403b76dddfef8a32705fa89cd",
-        "time": "id"
-    },
-    {
-        "text": "Tpl project mini\n\nThis is the tpl for create projects. ignoreme. ",
-        "url": "\/mini-projects\/tpl-project-mini-0\/index.html",
-        "tag": " #ignoreme #empty #HTML #CSS #project",
-        "id": "1609ac38ffd109d5d8d42d477926ec8f",
         "time": "id"
     },
     {

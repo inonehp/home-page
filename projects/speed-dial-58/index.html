@@ -55,6 +55,16 @@ speed,dial,CSS,JavaScript,project,
 <h1 class="tCenter op">Speed dial</h1>
 <!--<div class="tCenter padding2 small op">in test, in progress</div>-->
 
+<div class="tCenter">
+<div class="padding2  block">Speed Dial status: </span> <span class="bold" id="printStatus"></span> <a class="insertIcon brand" href="/settings.html#confSpeedDialStatus">settings</a> </div>
+</div>
+
+<script>
+document.getElementById("printStatus").innerHTML = 'none';
+if(localStorage.getItem('confSpeedDialStatus') != null){
+document.getElementById("printStatus").innerText = localStorage.getItem('confSpeedDialStatus');
+}
+</script>
 
 <span id="speedDialPrint"></span>
 <span id="speedDialSettingPrint"></span>

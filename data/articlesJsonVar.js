@@ -3,7 +3,7 @@ var articlesJsonVar =
     {
         "id": "6",
         "text": "Web design notes",
-        "text2": "- Do not use emojis and special characters in the title (they sometimes don't show)\r\n- Don't use duplicate content (it's annoying and a license conflict)\r\n\r\nSEO:\r\n\r\n- Title length: 30 and 60 characters.\r\n- Description length: 30-155 characters.\r\n- Keyword: less than 10% of the total words of a page.\r\n\r\nSEO Tools:\r\nhttps:\/\/www.bing.com\/webmasters\/\r\nhttps:\/\/analytics.google.com\/\r\nhttps:\/\/search.google.com\/search-console\r\nhttps:\/\/trends.google.com\/trends\/",
+        "text2": "- Do not use emojis and special characters in the title (they sometimes don't show)\r\n- Don't use duplicate content (it's annoying and a license conflict)\r\n\r\nSEO:\r\n\r\n- Title length: 30 and 60 characters.\r\n- Description length: 30-155 characters.\r\n- Keyword: less than 10% of the total words of a page.\r\n\r\nSEO Tools:\r\nhttps:\/\/www.bing.com\/webmasters\/\r\nhttps:\/\/analytics.google.com\/\r\nhttps:\/\/search.google.com\/search-console\r\nhttps:\/\/trends.google.com\/trends\/\r\n---\r\nhttps:\/\/clarity.microsoft.com\/",
         "text3": "",
         "url": "",
         "tag": "#WebDesign #SEO",
