@@ -287,7 +287,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Geany theme page\n\nGeany IDE code editor themes: light and dark.\nGeany dark theme, Geany light theme. ",
+        "text": "Geany theme page\n\nGeany IDE themes: light and dark.\nGeany dark theme, Geany light theme.\nGeany color dark, Geany color light.\nGeany page. Geany Theme. ",
         "url": "\/geany-theme-page.html",
         "tag": " #Geany #theme #color #flat #dark #light #project #page #main",
         "id": "31896b8781cc263386a9442026f4071b",
@@ -406,7 +406,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Lists\n\nLists. Page for viewing lists. ",
+        "text": "Lists\n\nLists. Menu pages. ",
         "url": "\/lists.html",
         "tag": " #all #list #lists #projects #menu #page #main",
         "id": "3831d1d20f62af37b45ebea9c330e943",
@@ -567,14 +567,14 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Quiz\n\nQuiz with different topics. ",
+        "text": "Quiz\n\nQuiz with different topics. Need to answer the questions correctly. An intellectual game. ",
         "url": "\/projects\/quiz-42\/index.html",
         "tag": " #game #quiz #JavaScript #project",
         "id": "a29c336aba704dec8e3a42c0f7261907",
         "time": "id"
     },
     {
-        "text": "Quiz word\n\nQuiz word. ",
+        "text": "Quiz word\n\nQuiz word. It is necessary to choose the correct version of the translated word. Language Quiz. Word Quiz. An intellectual game. ",
         "url": "\/projects\/quiz-word-45\/index.html",
         "tag": " #game #quiz #word #JavaScript #project",
         "id": "7cc2901ad7e1d37e0f6268d3ba486439",

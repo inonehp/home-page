@@ -29,6 +29,10 @@ let hours2 = normalize(time2.getHours());
 let minutes2 = normalize(time2.getMinutes());
 let seconds2 = normalize(time2.getSeconds());
 
+let hoursUtc = normalize(time2.getUTCHours());
+let minutesUtc = normalize(time2.getUTCMinutes());
+let secondsUtc = normalize(time2.getUTCSeconds());
+
 
 /*
 // sound alert
@@ -41,6 +45,7 @@ document.getElementById('audio').innerHTML += '<audio style="display:none" autop
 
 document.getElementById('clock').innerHTML = hours + ':' + minutes + ':' + seconds;
 document.getElementById('clock2').innerHTML = hours2 + ':' + minutes2; // result 2 standart 
+document.getElementById('clockUtc').innerHTML = hoursUtc + ':' + minutesUtc; // result 2 standart 
 
 
 //clock time

@@ -1214,7 +1214,7 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 
 
 
-// fuLClearText, fix print v.1.0.0
+// fu ClearText, fix print, fix input v.1.0.0
 function fuMClearText(text){
 
 
