@@ -28,6 +28,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Agi countdown\n\nAGI Countdown timer. ",
+        "url": "\/projects\/agi-countdown\/index.html",
+        "tag": " #agi #CSS #JavaScript #project",
+        "id": "0a6d545928532983cbe6d7f805538d31",
+        "time": "id"
+    },
+    {
         "text": "Animated borders button link\n\nAnimated borders button. ",
         "url": "\/mini-projects\/animated-borders-button-link-5\/index.html",
         "tag": " #animation #button #border #HTML #CSS #project",
