@@ -120,14 +120,17 @@
 
 <script src="./data/blogJsonVar.js"></script>
 <script>
-if(blogJsonVar == undefined||blogJsonVar == ''){
-var blogJsonVar = 
+// fresh data example in script.js
+if(jsonVar == undefined||jsonVar == ''){
+var jsonVar = 
 
 
 [
     {
         "id": 251,
         "text": "test2 text2",
+        "text2": "test2 text2",
+        "text3": "test3 text3",
         "url": "https:\/\/test2.com",
         "tag": "#test2 #tag",
         "time": 1671480576
@@ -135,13 +138,13 @@ var blogJsonVar =
     {
         "id": 250,
         "text": "test text",
+        "text2": "test2 text2",
+        "text3": "test3 text3",
         "url": "https:\/\/test.com",
         "tag": "#test #tag",
         "time": 1668444918
     }
-]
-
-
+];
 
 }
 </script>
@@ -566,8 +569,10 @@ var blogJsonVar =
 
 
 <script>
+// fresh config in script.js
+
 let blogConfig = {
-"postLimit":"", // number
+"postLimit":"7", // number
 "embedStatus":"", // off
 "multiEmbedStatus":"", // on
 "tagListStatus":"", // off

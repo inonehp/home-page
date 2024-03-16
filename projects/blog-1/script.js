@@ -1,4 +1,4 @@
-// Blog v.2.9.4
+// Blog v.2.10.1
 // Mini Keep, X (Twitter)
 // tags, search, embed
 // Inspired by keep, X (Twitter), Fediverse
@@ -8,6 +8,8 @@
 /*
 // config, copy paste in html
 <script>
+// fresh config in script.js
+
 let blogConfig = {
 "postLimit":"", // number
 "embedStatus":"", // off
@@ -16,7 +18,7 @@ let blogConfig = {
 "tagListLimit":"", // number
 "targetOption":"", // blank
 "bottomMsg":"", // text
-"display":"", // gallery (for img link), article (text - title, text2 - text)
+"display":"", // gallery (grid for img), article (only small "read" tag), all - text, text2, text3 without click id or time
 "timeStatus":"", // off, disable post time (post id)
 };
 </script>*/
@@ -81,7 +83,8 @@ if(targetOption == undefined){ targetOption = ''; } //blank
 if(bottomMsg == undefined||bottomMsg == ''){ bottomMsg = ''; }
 if(display == undefined||display == ''){ display = 'list'; }
 
-
+// data example
+// fresh data example in script.js
 if(jsonVar == undefined||jsonVar == ''){
 var jsonVar = 
 
@@ -90,6 +93,8 @@ var jsonVar =
     {
         "id": 251,
         "text": "test2 text2",
+        "text2": "test2 text2",
+        "text3": "test3 text3",
         "url": "https:\/\/test2.com",
         "tag": "#test2 #tag",
         "time": 1671480576
@@ -97,6 +102,8 @@ var jsonVar =
     {
         "id": 250,
         "text": "test text",
+        "text2": "test2 text2",
+        "text3": "test3 text3",
         "url": "https:\/\/test.com",
         "tag": "#test #tag",
         "time": 1668444918
@@ -426,7 +433,18 @@ window.location.href = window.location.href+'#stopRedir';
 
 if(getP3 <= i){
 if(i3 <= postLimit - 1){
+if(display == "all"){
+if(postText2 != ''){ postText2 = `
+
+` + postText2; };
+if(postText3 != ''){ postText3 = `
+
+` + postText3; };
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
+}else{
 printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
+}
+//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
 }
@@ -473,7 +491,18 @@ window.location.href = window.location.href+'#stopRedir';
 
 if(getP3 <= i){
 if(i3 <= postLimit - 1){
+if(display == "all"){
+if(postText2 != ''){ postText2 = `
+
+` + postText2; };
+if(postText3 != ''){ postText3 = `
+
+` + postText3; };
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
+}else{
 printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
+}
+//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
 }
@@ -514,7 +543,7 @@ if(postText2 != ''){ postText2 = `
 if(postText3 != ''){ postText3 = `
 
 ` + postText3; };
-printPost += '<div class="">'+fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '')+'</div>';
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "");
 comMessagePrint = 'id: '+postId;
 // post in title only when id
 if(id != ''&&getP2 == null){
@@ -555,7 +584,15 @@ window.location.href = window.location.href+'#stopRedir';
 }
 // end lucky search
 
-printPost += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime, '')+'</div>';
+if(postText2 != ''){ postText2 = `
+
+` + postText2; };
+if(postText3 != ''){ postText3 = `
+
+` + postText3; };
+
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '');
+//printPost += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime, '')+'</div>';
 i++;
 getP = key;
 comMessagePrint = 'id: '+postId+', p2: '+getP2;
@@ -569,7 +606,15 @@ var sTimeRedirStatus = `redir after: <span id="timerRedir">${sTimeRedir[0] / 100
 
 if(getP2 == key){
 if(i <= postLimit -1){
-printPost += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
+
+if(postText2 != ''){ postText2 = `
+
+` + postText2; };
+if(postText3 != ''){ postText3 = `
+
+` + postText3; };
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '');
+//printPost += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 i++;
 getP = key;
 comMessagePrint = 'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
@@ -588,7 +633,18 @@ default:
 mode = 'list';
 if(getP <= key){
 if(i <= postLimit -1){
-printPost += fuPrintPost(postId, postText, postTag, postTime);
+
+if(display == "all"){
+if(postText2 != ''){ postText2 = `
+
+` + postText2; };
+if(postText3 != ''){ postText3 = `
+
+` + postText3; };
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "");
+}else{
+printPost += fuPrintPost(postId, postText, postTag, postTime, "");
+}
 i++;
 }
 }
@@ -687,7 +743,18 @@ if(getP3 <= i){
 if(i3 <= postLimit - 1){
 //printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 //lRelevantResultArr.push(lRelevantResultPoint, fuPrintPost(postId, postText, postTag, postTime, subQforLight));
+if(display == "all"){
+if(postText2 != ''){ postText2 = `
+
+` + postText2; };
+if(postText3 != ''){ postText3 = `
+
+` + postText3; };
+var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
+}else{
 var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, postText, postTag, postTime, subQforLight);
+}
+//var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 //lRelevantResultArr.push(testArr);
 lRelevantResultArr.push(testArr);
 }
@@ -824,7 +891,18 @@ window.location.href = window.location.href+'#stopRedir';
 
 if(getP3 <= i){
 if(i3 <= postLimit - 1){
+if(display == "all"){
+if(postText2 != ''){ postText2 = `
+
+` + postText2; };
+if(postText3 != ''){ postText3 = `
+
+` + postText3; };
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
+}else{
 printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
+}
+//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
 }
@@ -929,7 +1007,18 @@ window.location.href = window.location.href+'#stopRedir';
 
 if(getP3 <= i){
 if(i3 <= postLimit - 1){
+if(display == "all"){
+if(postText2 != ''){ postText2 = `
+
+` + postText2; };
+if(postText3 != ''){ postText3 = `
+
+` + postText3; };
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
+}else{
 printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
+}
+//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
 }

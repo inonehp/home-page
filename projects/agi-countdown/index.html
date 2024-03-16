@@ -60,6 +60,12 @@ agi,CSS,JavaScript,project,
 </div>
 
 
+<h2 class="op tCenter">Data stream:</h2>
+<div id="echoBlog"></div>
+
+
+
+
 <hr>
 
 <div class="pre">
@@ -77,6 +83,65 @@ Similar site or page:
 <footer id="footer"></footer>
 
 <script src="../../js/main.js"></script>
+
+
+
+
+
+
+
+<!-- Blog -->
+<script src="../../data/agicountdownJsonVar.js"></script>
+<script>
+// fresh data example in script.js
+if(jsonVar == undefined||jsonVar == ''){
+var jsonVar = 
+
+
+[
+    {
+        "id": 251,
+        "text": "test2 text2",
+        "text2": "test2 text2",
+        "text3": "test3 text3",
+        "url": "https:\/\/test2.com",
+        "tag": "#test2 #tag",
+        "time": 1671480576
+    },
+    {
+        "id": 250,
+        "text": "test text",
+        "text2": "test2 text2",
+        "text3": "test3 text3",
+        "url": "https:\/\/test.com",
+        "tag": "#test #tag",
+        "time": 1668444918
+    }
+];
+
+}
+</script>
+
+<script>
+// fresh config in script.js
+let blogConfig = {
+"postLimit":"", // number
+"embedStatus":"", // off
+"multiEmbedStatus":"", // on
+"tagListStatus":"", // off
+"tagListLimit":"", // number
+"targetOption":"", // blank
+"bottomMsg":"", // text
+"display":"all", // grid (for img link), article (text - title, text2 - text)
+"timeStatus":"", // off, disable post time (post id)
+};
+</script>
+<script async src="/projects/blog-1/script.js" onload="blog('echoBlog', agicountdownJsonVar, 'post', './', blogConfig)"></script>
+<!-- // Blog -->
+
+
+
+
 
 <script>
 //fuMSetTheme('light');
