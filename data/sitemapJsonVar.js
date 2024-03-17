@@ -182,13 +182,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Css framework\n\nPersonal CSS framework. Demo and CSS test style. Demo test style page. ",
-        "url": "\/projects\/css-framework-5\/index.html",
-        "tag": " #demo #test #style #project",
-        "id": "d29f009f40f5c1dcfa308dcf3b707639",
-        "time": "id"
-    },
-    {
         "text": "Data other page\n\nPlace for other data or files. ",
         "url": "\/data-other-page.html",
         "tag": " #other_data #other_files #data #file #list #page #main",
@@ -207,6 +200,13 @@ var sitemapJsonVar = [
         "url": "\/data-page.html",
         "tag": " #data_file #data #file #list #page #main",
         "id": "7a0ba4bf4d0f6324ea3585f7a30b4111",
+        "time": "id"
+    },
+    {
+        "text": "Demo test style\n\nDemo test CSS. Demo test style page. (Personal CSS framework). ",
+        "url": "\/projects\/demo-test-style-5\/index.html",
+        "tag": " #demo #test #style #framework #CSS #project",
+        "id": "d9b09778c25ae1bc803312404a014324",
         "time": "id"
     },
     {

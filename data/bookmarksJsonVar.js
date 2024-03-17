@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "125",
+        "text": "Imgur: The magic of the Internet",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/imgur.com\/",
+        "tag": "#img #photo #SocialNetwork",
+        "time": 1710699221
+    },
+    {
         "id": "124",
         "text": "Joomla Content Management System (CMS) - try it! It's free!",
         "text2": "",

@@ -18,7 +18,7 @@ let blogConfig = {
 "tagListLimit":"", // number
 "targetOption":"", // blank
 "bottomMsg":"", // text
-"display":"", // gallery (grid for img), article (only small "read" tag), all - text, text2, text3 without click id or time
+"display":"", // gallery (grid for img), all - text, text2, text3 without click id or time
 "timeStatus":"", // off, disable post time (post id)
 };
 </script>*/
@@ -1513,9 +1513,9 @@ postFooter = '';
 postFooterPadding = ' <div class="block padding2List"></div> ';
 }
 
-
+/*delme
 //if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ lPost = `<a href="${scriptDir}?id=${id}"><h1>${post}</h1></a>`; } // without highlight (embed)
-if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time = `<a class="tag brand light border4 op borderRadius2 small"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight
+if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time = `<a class="tag brand light border4 op borderRadius2 small"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
 
 return `
 
