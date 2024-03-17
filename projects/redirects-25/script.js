@@ -1,4 +1,4 @@
-// Redirects v.1.7.23
+// Redirects v.1.7.24
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -185,6 +185,15 @@ q = encodeURIComponent(q);
 //url = "https://www.reddit.com/search/?q=" + q + "&type=link";
 url = "?q=" + q + " site:https://www.reddit.com/";
 if(q == ''){ url = "https://www.reddit.com/"; }
+sRedirUrl = url;
+break;
+
+case 'med#':
+q = q3.replace(q2, '');
+q = q.trim();
+q = encodeURIComponent(q);
+url = "https://medium.com/tag/" + (q.replaceAll("%20", '-')).trim();
+if(q == ''){ url = "https://medium.com/"; }
 sRedirUrl = url;
 break;
 
@@ -594,12 +603,14 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 
-let wordpress = (q.replaceAll("%23", ' ')).trim();
+let wordpress = (q.replaceAll("%20", ' ')).trim();
+let medium = (q.replaceAll("%20", '-')).trim();
 
 urlList = [
 "https://twitter.com/search?q=" + q,
 "https://bsky.app/search?q=" + q,
 "https://wordpress.com/tag/" + wordpress,
+"https://medium.com/tag/" + medium,
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -608,6 +619,7 @@ urlList = [
 "https://twitter.com/",
 "https://bsky.app/",
 "https://wordpress.com/",
+"https://medium.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

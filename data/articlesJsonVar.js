@@ -2,7 +2,7 @@ var articlesJsonVar =
 [
     {
         "id": "7",
-        "text": "Night and day theme mode.",
+        "text": "Auto dark mode and light mode theme. Night and day theme mode.",
         "text2": "Automatic change of the theme based on the time of day or a custom time.\r\n\r\nIf you have Windows, Linux (Gnome DE) and the Firefox browser, then this topic is for you.\r\n\r\n\r\nWindows:\r\n\r\nAuto Dark Mode\r\nhttps:\/\/apps.microsoft.com\/detail\/xp8jk4hzbvf435\r\nrepository\r\nhttps:\/\/github.com\/AutoDarkMode\/Windows-Auto-Night-Mode\r\n\r\n\r\nLinux (Ubuntu or Gnome DE):\r\n\r\nDash to Panel\r\nhttps:\/\/extensions.gnome.org\/extension\/1160\/dash-to-panel\/\r\nrepository\r\nhttps:\/\/github.com\/home-sweet-gnome\/dash-to-panel\r\n\r\n\r\nMozilla Firefox:\r\n\r\nautomaticDark - Time-Based Theme Changer\r\nhttps:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/automatic-dark\/\r\nrepository\r\nhttps:\/\/github.com\/skhzhang\/time-based-themes\r\n\r\n\r\nVSCode:\r\n\r\nSundial \u2013 Automatic night mode and settings switch\r\nhttps:\/\/marketplace.visualstudio.com\/items?itemName=muuvmuuv.vscode-sundial\r\nrepository\r\nhttps:\/\/github.com\/muuvmuuv\/vscode-sundial",
         "text3": "",
         "url": "",
