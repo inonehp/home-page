@@ -1,6 +1,24 @@
 var agicountdownJsonVar = 
 [
     {
+        "id": "6",
+        "text": "Ray Kurzweil is sticking to his long-held predictions: 2029 for AGI and 2045 for the singularity : r\/singularity",
+        "text2": "2029",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/18m0dnf\/ray_kurzweil_is_sticking_to_his_longheld\/",
+        "tag": "",
+        "time": 1710638384
+    },
+    {
+        "id": "5",
+        "text": "Date of Artificial General Intelligence | Metaculus",
+        "text2": "2031",
+        "text3": "",
+        "url": "https:\/\/www.metaculus.com\/questions\/5121\/date-of-artificial-general-intelligence\/",
+        "tag": "",
+        "time": 1710637463
+    },
+    {
         "id": "4",
         "text": "ChatGPT\r\n\r\n\"Name a possible year of AGI creation\"\r\n...\r\n\"year between two and five decades\"\r\n\r\n---\r\n\r\nIf we consider a conservative estimate within the range of two to five decades, then a plausible timeframe for the creation of Artificial General Intelligence (AGI) could fall somewhere between the years 2040 and 2070. \r\n\r\nPlease note that this is a speculative estimate based on current trends and the pace of advancements in AI research and technology. Numerous factors could influence the actual timeline, including breakthroughs in AI algorithms, developments in computing power, progress in understanding human cognition, and societal and ethical considerations.\r\n\r\nAs with any prediction related to AGI, it's important to approach it with caution and recognize the uncertainties inherent in such forecasts.",
         "text2": "2055",
