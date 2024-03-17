@@ -41,14 +41,18 @@ resultCountdown = Number(result) - Number(new Date().getFullYear())
 
 var print = `
 
-<div class="bg border3">
-<h1 class="tCenter">${resultCountdown} years</h1>
-<h2 class="tCenter">${result}</h2>
+<div class="bg shadow borderRadius3 padding2">
+<div class="padding2"></div>
+<b class="block tCenter large">Artificial General Intelligence</b>
+<h2 class="tCenter">${resultCountdown} years</h2>
+<h3 class="tCenter">${result}</h3>
+<div class="tCenter op small">${totalPost} forecasts</div>
+<div class="padding2"></div>
 </div>
 
 <div class="margin2 padding2"></div>
 
-<div class="op">
+<div class="op small">
 
 <div>- <b>${result}</b> - average value based on <a class="bold brand" href="data-list.html"> ${totalPost} </a> predictions  (article, post, etc).</div>
 
