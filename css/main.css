@@ -1,10 +1,10 @@
-/* Main style v.14.3.5 */
-/* Personal CSS framework */
-/* /css/main.css + /css/auto.css (color-theme-name.css) */
-/* Responsive, mainly class-based */
+/* Main style v.14.3.7
+Personal CSS framework
+main.css + auto.css (color-theme-name.css)
+Responsive, mainly class-based */
 
 /* main */
-* { color-scheme: light dark; } /* view-source:about:blank */ /* fixed blink */
+* { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
 
 :root{
 /* c4, red, orange, yellow, green, blue, indigo, violet */
@@ -39,7 +39,7 @@
 }
 
 html, body, a, input, button, textarea, pre, code, select{
-/*https://x.com#*/
+/* https://twitter.com# */
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 'Roboto', Helvetica, Arial, sans-serif;
 
 font-style: normal;
@@ -346,6 +346,7 @@ right: 0;
 .margin4List { margin-bottom: var(--padding4); }
 .margin1PxList { margin-bottom: 1px; }
 
+.inputHeight { min-height: var(--inputHeight); }
 .itemHeight { min-height: var(--itemHeight); }
 .itemHeight2 { min-height: var(--itemHeight2); }
 .itemHeight3 { min-height: var(--itemHeight3); }
@@ -460,6 +461,7 @@ input, progress, select { accent-color: var(--brand);  }
 form fieldset { border: 1px solid var(--d3); }
 
 .shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+.shadow2 { box-shadow: 0 3px 5px rgba(0,0,0,0.12), 0 3px 4px rgba(0,0,0,0.24); }
 
 .c { color: var(--c); }
 .c2 { color: var(--c2); }
@@ -506,6 +508,15 @@ form fieldset { border: 1px solid var(--d3); }
 .bg3, .bg3List, .light3 { background: var(--l3); }
 .bg3List:nth-child(2n), .light3:hover, .light4{ background: var(--l4); }
 .bg4, .bg4List, .light4:hover { background: var(--l4); }
+
+.bgD { background: var(--d); }
+.bgDList, .dark { background: var(--d); }
+.bgDList:nth-child(2n), .dak:hover { background: var(--d2); }
+.bgD2, .bgD2List, .dark2 { background: var(--d2); }
+.bgD2List:nth-child(2n), .dark2:hover, .dark3{ background: var(--d3); }
+.bgD3, .bgD3List, .dark3 { background: var(--d3); }
+.bgD3List:nth-child(2n), .dark3:hover, .dark4{ background: var(--d4); }
+.bgD4, .bgD4List, .dark4:hover { background: var(--d4); }
 
 .highlight, .highlight2 { background: var(--l4) !important; }
 .highlight:hover, .highlight2:hover { background: var(--l4); }

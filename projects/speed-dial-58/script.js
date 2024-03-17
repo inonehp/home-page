@@ -1,4 +1,4 @@
-// Speed dial v.1.3.4
+// Speed dial v.1.3.5
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -198,14 +198,17 @@ speedDialItemUrl = speedDialItemUrl.replaceAll(/"/g, '&quot;');
 
 printSettingsArr.push(`
 
-<!-- ${speedDialItemText} -->
-<div class="padding2"><hr></div>
+<!-- ${speedDialItemText} for sort -->
+
+<div class="margin2List padding2 bg shadow borderRadius2">
 
 <label class="xSmall" for="speedDialText">Text:</label>
 <input type="text" id="speedDialText" class="classSpeedDialText" name="speedDialText" value="${speedDialItemText}">
 
 <label class="xSmall" for="speedDialUrl">URL:</label>
 <input type="text" id="speedDialUrl" class="classSpeedDialUrl" name="speedDialUrl" value="${speedDialItemUrl}">
+
+</div>
 
 `);
 }
@@ -228,9 +231,13 @@ ${printSettings}
 <a href="#spedDialSubmitSetting" onclick="fuLSpeedDial('', '', '', 'update')"><div class="op small tag2 submit">Update all</div></a>
 </form>
 
-<div id="spedDialSubmitReset" class="block padding2 margin2"></div>
-<a href="#" onclick="fuLSpeedDial('', '', '', 'reset')"><div class="op small tag2 button submit red">Clear data (reset)</div></a>
-<div id="spedDialSubmitReset" class="block padding2 margin2"></div>
+<div class="block padding2 margin2"></div>
+
+<div class="tRight">
+<a href="#" onclick="fuLSpeedDial('', '', '', 'reset')"><div class="op small tag2 button bg  inputHeight red borderRadius border">Clear data (reset)</div></a>
+</div>
+
+<div class="block padding2 margin2"></div>
 
 <div class="tRight small op">* To remove an item, delete the text or URL and click Update</div>
 
