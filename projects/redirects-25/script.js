@@ -1,4 +1,4 @@
-// Redirects v.1.7.25
+// Redirects v.1.7.26
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -192,7 +192,7 @@ case 'med#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://medium.com/tag/" + (q.replaceAll("%20", '-')).trim();
+url = "?q=" + q + " site:https://medium.com/";
 if(q == ''){ url = "https://medium.com/"; }
 sRedirUrl = url;
 break;
