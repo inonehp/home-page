@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.0.2
 
 let totalPost = agicountdownJsonVar.length;
 let averageYear = 0;
@@ -50,7 +50,7 @@ var print = `
 
 <div class="op">
 
-<div>- <b>${result}</b> - average number out of <a class="bold brand" href="data-list.html">${totalPost}</a> numbers.</div>
+<div>- <b>${result}</b> - average value based on <a class="bold brand" href="data-list.html"> ${totalPost} </a> predictions  (article, post, etc).</div>
 
 <div>- Based on random posts about a possible date when AGI will be created, not just experts, everyone.</div>
 <div>- <a class="bold brand" href="data-list.html">List of collected data</a></div>
@@ -59,7 +59,10 @@ var print = `
 
 Similar site or page:<br>
 
-<a class="brand" href="https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known/">Date Weakly General AI is Publicly Known | Metaculus</a>
+
+<a class="brand" href="https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/">Date of Artificial General Intelligence | Metaculus </a><br>
+
+<a class="brand" href="https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known/">Date Weakly General AI is Publicly Known | Metaculus</a><br>
 
 
 </div>

@@ -1,6 +1,15 @@
 var articlesJsonVar = 
 [
     {
+        "id": "7",
+        "text": "Automatic change of theme to dark and light depending on whether it is day or night or by time.",
+        "text2": "If you have Windows, Linux (Gnome DE) and the Firefox browser, then this topic is for you.\r\n\r\n\r\nWindows:\r\nhttps:\/\/apps.microsoft.com\/detail\/xp8jk4hzbvf435\r\nhttps:\/\/github.com\/AutoDarkMode\/Windows-Auto-Night-Mode\r\n\r\n\r\nLinux (Ubuntu or Gnome DE):\r\nhttps:\/\/github.com\/home-sweet-gnome\/dash-to-panel\r\nhttps:\/\/extensions.gnome.org\/extension\/1160\/dash-to-panel\/\r\n\r\n\r\nMozilla Firefox:\r\nhttps:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/automatic-dark\/\r\nhttps:\/\/github.com\/skhzhang\/time-based-themes\r\n\r\n\r\nVS Code:\r\nhttps:\/\/marketplace.visualstudio.com\/items?itemName=muuvmuuv.vscode-sundial\r\nhttps:\/\/github.com\/muuvmuuv\/vscode-sundial",
+        "text3": "",
+        "url": "",
+        "tag": "#theme #auto #dark #light #mode",
+        "time": 1710664085
+    },
+    {
         "id": "6",
         "text": "Web design notes",
         "text2": "- Do not use emojis and special characters in the title (they sometimes don't show)\r\n- Don't use duplicate content (it's annoying and a license conflict)\r\n\r\nSEO:\r\n\r\n- Title length: 30 and 60 characters.\r\n- Description length: 30-155 characters.\r\n- Keyword: less than 10% of the total words of a page.\r\n\r\nSEO Tools:\r\nhttps:\/\/www.bing.com\/webmasters\/\r\nhttps:\/\/analytics.google.com\/\r\nhttps:\/\/search.google.com\/search-console\r\nhttps:\/\/trends.google.com\/trends\/\r\n---\r\nhttps:\/\/clarity.microsoft.com\/",
