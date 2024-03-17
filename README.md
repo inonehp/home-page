@@ -2,17 +2,17 @@
   
 ![page with a light and dark theme](/img/github-banner-settings.png)  
   
-# ∷ Home Page and Projects.    
+# Home Page and Projects.    
 
-🏠 Search (redirect), new tab, my start page.  
-🎨 Firefox theme, Geany theme.  
-📁 To-do, typing, games, icons, website templates, ...  
+Search (redirect), new tab, my start page.  
+Firefox theme, Geany theme.  
+To-do, typing, games, icons, website templates, ...  
   
 ---
   
-📁 ZIP: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
-☕ Donate: [Buy Me a Coffee](https://www.buymeacoffee.com/inonehp)  
-🔗 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)  
+ZIP: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
+Donate: [Buy Me a Coffee](https://www.buymeacoffee.com/inonehp)  
+URL: [inonehp.pages.dev](https://inonehp.pages.dev/)  
   
 ---
   
@@ -22,7 +22,7 @@
   
 ---
    
-#### 🏷️ Tags:  
+#### Tags:  
 [#Website](https://github.com/topics/website),
 [#Personal](https://github.com/topics/personal),
 [#Home page](https://github.com/topics/homepage),
