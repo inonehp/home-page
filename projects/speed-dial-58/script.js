@@ -1,4 +1,4 @@
-// Speed dial v.1.3.6
+// Speed dial v.1.3.8
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -203,11 +203,11 @@ printSettingsArr.push(`
 
 <div class="margin2List padding2 bg shadow borderRadius2">
 
-<label class="xSmall" for="speedDialText">Text:</label>
-<input type="text" id="speedDialText" class="classSpeedDialText" name="speedDialText" value="${speedDialItemText}">
+<label class="xSmall op" for="speedDialText">Text:</label>
+<input type="text" id="speedDialText" class="classSpeedDialText bold" name="speedDialText" value="${speedDialItemText}">
 
-<label class="xSmall" for="speedDialUrl">URL:</label>
-<input type="text" id="speedDialUrl" class="classSpeedDialUrl" name="speedDialUrl" value="${speedDialItemUrl}">
+<label class="xSmall op" for="speedDialUrl">URL:</label>
+<input type="text" id="speedDialUrl" class="classSpeedDialUrl op" name="speedDialUrl" value="${speedDialItemUrl}">
 
 </div>
 
