@@ -1,4 +1,4 @@
-// Speed dial v.1.3.5
+// Speed dial v.1.3.6
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -68,7 +68,8 @@ var submitForm = `
 
 <a href="#spedDialSubmit" onclick="fuLSpeedDial('', '', '', 'add')"><div class="op small tag2 submit">Add</div></a>
 
-<a href="/projects/speed-dial-58/index.html"><div class="op small tag2 button padding2 light w100  border brand">Edit all</div></a>
+<div class="padding2"></div>
+<a class="op brand" href="/projects/speed-dial-58/index.html">Edit speed dial (edit all)</a>
 
 </form>
 
