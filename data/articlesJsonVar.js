@@ -2,7 +2,7 @@ var articlesJsonVar =
 [
     {
         "id": "7",
-        "text": "Automatic change of theme to dark and light depending on whether it is day or night or by time.",
+        "text": "Automatic change of the theme based on the time of day or a custom time.",
         "text2": "If you have Windows, Linux (Gnome DE) and the Firefox browser, then this topic is for you.\r\n\r\n\r\nWindows:\r\nhttps:\/\/apps.microsoft.com\/detail\/xp8jk4hzbvf435\r\nhttps:\/\/github.com\/AutoDarkMode\/Windows-Auto-Night-Mode\r\n\r\n\r\nLinux (Ubuntu or Gnome DE):\r\nhttps:\/\/github.com\/home-sweet-gnome\/dash-to-panel\r\nhttps:\/\/extensions.gnome.org\/extension\/1160\/dash-to-panel\/\r\n\r\n\r\nMozilla Firefox:\r\nhttps:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/automatic-dark\/\r\nhttps:\/\/github.com\/skhzhang\/time-based-themes\r\n\r\n\r\nVS Code:\r\nhttps:\/\/marketplace.visualstudio.com\/items?itemName=muuvmuuv.vscode-sundial\r\nhttps:\/\/github.com\/muuvmuuv\/vscode-sundial",
         "text3": "",
         "url": "",
