@@ -133,6 +133,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Chrome theme page\n\nChrome light theme, Chrome theme light. ",
+        "url": "\/chrome-theme-page.html",
+        "tag": " #Chrome #theme #light #project #page #main",
+        "id": "8e7c7bf3406bfad7263b7e037117c423",
+        "time": "id"
+    },
+    {
         "text": "Circle\n\nCircles are placed on the page using HTML, CSS. ",
         "url": "\/mini-projects\/circle-8\/index.html",
         "tag": " #circle #wallpaper #CSS #project",

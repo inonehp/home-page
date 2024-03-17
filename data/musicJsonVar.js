@@ -1275,6 +1275,27 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Bandit Voyage - Moyen \u00e2ge (2017) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=6NJ3MbqeLiI",
+        "tag": "#music"
+    },
+    {
+        "text": "Bandit Voyage - Moyen \u00e2ge (Clip officiel) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=m8CqKEvLgcg",
+        "tag": "#music"
+    },
+    {
+        "text": "Bandit Voyage - Was Ist Das - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=5QvYXUny8GM",
+        "tag": "#music"
+    },
+    {
         "text": "Bang Bang (3LAU Remix) \u00b7 Jessie J \u00b7 Ariana Grande \u00b7 Nicki Minaj",
         "text2": "",
         "text3": "",
@@ -12111,6 +12132,13 @@ var musicJsonVar =
         "tag": "#music"
     },
     {
+        "text": "Pantalon \u00b7 Bandit Voyage",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=zGgt4j2LyNc",
+        "tag": "#music"
+    },
+    {
         "text": "Parade \u00b7 Pretty Girls Make Graves",
         "text2": "",
         "text3": "",
@@ -16903,6 +16931,13 @@ var musicJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=wN8_e8Bma3I",
+        "tag": "#music"
+    },
+    {
+        "text": "Un jour sur trois \u00b7 Bandit Voyage",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=MNrNQGAYtXY",
         "tag": "#music"
     },
     {

@@ -1,4 +1,4 @@
-// Speed dial v.1.3.8
+// Speed dial v.1.3.9
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -61,7 +61,7 @@ var submitForm = `
 <form id="spedDialSubmit">
 
 <label class="xSmall" for="speedDialText">Text:</label>
-<input type="text" id="speedDialText" name="speedDialText" placeholder="Example">
+<input class="bold" type="text" id="speedDialText" name="speedDialText" placeholder="Example">
 
 <label class="xSmall" for="speedDialUrl">URL:</label>
 <input type="text" id="speedDialUrl" name="speedDialUrl" placeholder="https://example.com/">
