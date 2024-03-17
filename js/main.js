@@ -1,4 +1,4 @@
-// Main js v.6.3.17
+// Main js v.6.3.18
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -420,7 +420,7 @@ fuMPrintText("footer", `
 
 <span title="Page about"><a class="inlineBlock padding brand" style="padding-left: 0;" href="/about.html">About</a></span>
 <span class="inlineBlock padding brand" title="A page in a social network"><a class="brand" href="https://twitter.com/inonehp">X (Twitter)</a></span>
-<span title="News"><a class="inlineBlock padding brand" href="/rss.xml">RSS</a></span>
+<!--<span title="RSS News"><a class="inlineBlock padding brand" href="/rss.xml">RSS</a></span>-->
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
 <span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/inonehp/inonehp.pages.dev">Сode</a></span>

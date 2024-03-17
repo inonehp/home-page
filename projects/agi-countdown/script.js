@@ -1,4 +1,4 @@
-// v.1.0.2
+// v.1.0.3
 
 let totalPost = agicountdownJsonVar.length;
 let averageYear = 0;
@@ -46,7 +46,7 @@ var print = `
 <b class="block tCenter large">Artificial General Intelligence</b>
 <h2 class="tCenter">${resultCountdown} years</h2>
 <h3 class="tCenter">${result}</h3>
-<div class="tCenter op small">${totalPost} forecasts</div>
+<div class="tCenter op small"><a class="brand" href="data-list.html">${totalPost} forecasts</a></div>
 <div class="padding2"></div>
 </div>
 
@@ -54,7 +54,7 @@ var print = `
 
 <div class="op small">
 
-<div>- <b>${result}</b> - average value based on <a class="bold brand" href="data-list.html"> ${totalPost} </a> predictions  (article, post, etc).</div>
+<div>- <b>${result}</b> - average value based on ${totalPost} predictions  (article, post, etc).</div>
 
 <div>- Based on random posts about a possible date when AGI will be created, not just experts, everyone.</div>
 <div>- <a class="bold brand" href="data-list.html">List of collected data</a></div>
