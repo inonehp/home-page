@@ -1,4 +1,4 @@
-/* Main style v.14.3.8
+/* Main style v.14.4.0
 My mini CSS framework
 main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
@@ -237,7 +237,7 @@ text-align: center;
 }
 
 .tagList a, .tagList2 a { margin: 1px; }
-.tag, .tag2, .button {
+.tag, .tag2, .button, .submit {
 display: inline-flex;
 justify-content: center;
 align-items: center;
@@ -249,7 +249,7 @@ max-width: 100%;
 overflow-wrap: anywhere;
 }
 .tag, .tag2 { white-space: normal; word-break: break-word; }
-.button { padding: .7em 1.2em; }
+.button { padding: .7em 1.2em; cursor: pointer; }
 .submit { width: 100%; }
 
 .tag2 { padding: .3em .8em; }
@@ -497,7 +497,7 @@ form fieldset { border: 1px solid var(--d3); }
 .border4, .border4List {  border: 1px dashed var(--d3);  }
 
 
-.borderList, .border2List, .border3List, .border4List  { margin-bottom:  -2px; }
+.borderList, .border2List, .border3List, .border4List  { margin-bottom:  -1px; }
 
 
 .bg { background: var(--l); }
