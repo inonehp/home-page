@@ -1,4 +1,4 @@
-// Blog v.2.10.1
+// Blog v.2.11.0
 // Mini Keep, X (Twitter)
 // tags, search, embed
 // Inspired by keep, X (Twitter), Fediverse
@@ -18,7 +18,7 @@ let blogConfig = {
 "tagListLimit":"", // number
 "targetOption":"", // blank
 "bottomMsg":"", // text
-"display":"", // gallery (grid for img), all - text, text2, text3 without click id or time
+"display":"", // gallery - grid, article - <div class="h1">text</div>, all - shows everything: text, text2, text3
 "timeStatus":"", // off, disable post time (post id)
 };
 </script>*/
@@ -1513,8 +1513,9 @@ postFooter = '';
 postFooterPadding = ' <div class="block padding2List"></div> ';
 }
 
-/*delme
-//if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ lPost = `<a href="${scriptDir}?id=${id}"><h1>${post}</h1></a>`; } // without highlight (embed)
+if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ lPost = `<div class="h1">${post}</div>`; } // without highlight (embed)
+/*
+//
 if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time = `<a class="tag brand light border4 op borderRadius2 small"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
 
 return `

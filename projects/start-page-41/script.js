@@ -1,4 +1,4 @@
-// v.1.0.2
+// v.1.0.3
 
 // time v.1.4.4
 // creation date: 2023
@@ -49,7 +49,7 @@ document.getElementById('clockUtc').innerHTML = hoursUtc + ':' + minutesUtc; // 
 
 
 //clock time
-document.getElementsByTagName('title')[0].innerText = hours + ':' + minutes + ':' + seconds + ' | Start page';
+document.getElementsByTagName('title')[0].innerText = hours + ':' + minutes + ' | Start page';
 
 
 
