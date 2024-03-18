@@ -43,6 +43,7 @@ var print = `
 
 <div class="bg shadow2 borderRadius4 padding2">
 <div class="padding2"></div>
+<div class="op padding2 tCenter">Countdown</div>
 <b class="block tCenter large">Artificial General Intelligence</b>
 <h2 class="tCenter">${resultCountdown} years</h2>
 <h3 class="tCenter">${result}</h3>
