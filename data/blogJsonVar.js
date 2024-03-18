@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "240",
+        "text": "5 Exciting New JavaScript Features in 2024",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.sitepoint.com\/new-javascript-ecmascript\/",
+        "tag": "#WebDevelopment #programming",
+        "time": 1710784688
+    },
+    {
         "id": "239",
         "text": "Apple\u2019s AI ambitions could include Google or OpenAI - The Verge",
         "text2": "",
@@ -60,7 +69,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/alternativeto.net\/news\/2024\/3\/microsoft-complies-with-eu-s-dma-allowing-uninstalling-of-onedrive-edge-bing-and-more\/",
-        "tag": "#news",
+        "tag": "#news #technology",
         "time": 1710407103
     },
     {
@@ -150,7 +159,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=Vb0dG-2huJE",
-        "tag": "#video #technology #tech",
+        "tag": "#video #technology",
         "time": 1706050482
     },
     {
@@ -159,7 +168,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/arstechnica.com\/gadgets\/2019\/07\/behold-the-most-intentionally-poorly-designed-website-ever-created\/",
-        "tag": "#UI #WebDesign #WebDev",
+        "tag": "#WebDesign",
         "time": 1706030201
     },
     {
@@ -177,7 +186,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=WdbeqSQjZI8",
-        "tag": "#video #technology #tech",
+        "tag": "#video #technology",
         "time": 1705719183
     },
     {
@@ -276,7 +285,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.behance.net\/blog\/visual-trends-2023",
-        "tag": "#WebDesign #news",
+        "tag": "#WebDesign",
         "time": 1702122662
     },
     {
