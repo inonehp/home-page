@@ -1,4 +1,4 @@
-// Blog v.2.11.0
+// Blog v.2.12.0
 // Mini Keep, X (Twitter)
 // tags, search, embed
 // Inspired by keep, X (Twitter), Fediverse
@@ -9,7 +9,6 @@
 // config, copy paste in html
 <script>
 // fresh config in script.js
-
 let blogConfig = {
 "postLimit":"", // number
 "embedStatus":"", // off
@@ -36,7 +35,7 @@ var tagListLimit = '';
 var targetOption = '';
 var bottomMsg = '';
 var display = '';
-var blogTimeStatus = '';
+var timeStatus = '';
 }else{
 var postLimit = blogConfig['postLimit'];
 var embedStatus = blogConfig['embedStatus'];
@@ -47,7 +46,7 @@ var tagListLimit = blogConfig['tagListLimit'];
 var targetOption = blogConfig['targetOption'];
 var bottomMsg = blogConfig['bottomMsg'];
 var display = blogConfig['display'];
-var postTimeStatus = blogConfig['timeStatus'];
+var timeStatus = blogConfig['timeStatus'];
 
 }
 
@@ -1507,7 +1506,7 @@ username = username[0];
 
 var postFooter = ' postFooter ';
 var postFooterPadding = '';
-if(postTimeStatus == 'off'){
+if(timeStatus == 'off'){
 time = '';
 postFooter = '';
 postFooterPadding = ' <div class="block padding2List"></div> ';
