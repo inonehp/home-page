@@ -1,4 +1,4 @@
-// Local main index script v.1.1.4
+// Local main index script v.1.1.5
 
 
 
@@ -14,10 +14,10 @@
 let mRandColorsPrint = "";
 
 const mColors = [
-"var(--c3)", "var(--brand)",
+"var(--c4)", "var(--brand)",
 "var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--blue)", "var(--indigo)", "var(--violet)",
-"var(--c4)", "var(--brand2)",
-"var(--red2)", "var(--orange2)", "var(--yellow2)", "var(--green2)", "var(--blue2)", "var(--indigo2)", "var(--violet2)"
+//"var(--c4)", "var(--brand2)",
+//"var(--red2)", "var(--orange2)", "var(--yellow2)", "var(--green2)", "var(--blue2)", "var(--indigo2)", "var(--violet2)"
 ];
 
 function getRandomInt(max) {
