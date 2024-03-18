@@ -1,12 +1,21 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "126",
+        "text": "DeviantArt - The Largest Online Art Gallery and Community",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.deviantart.com\/",
+        "tag": "#img #photo #platform #SocialNetwork",
+        "time": 1710773049
+    },
+    {
         "id": "125",
         "text": "Imgur: The magic of the Internet",
         "text2": "",
         "text3": "",
         "url": "https:\/\/imgur.com\/",
-        "tag": "#img #photo #SocialNetwork",
+        "tag": "#img #photo #platform #SocialNetwork",
         "time": 1710699221
     },
     {
