@@ -369,7 +369,7 @@ let qPrint = `
 <label for="round" class="xSmall">Rounds ${quizConfRound}:</label>
 <progress id="round" min="0" max="${quizConfRound}" value="${quizProgressRound[0] }">${quizProgressRound[0] }</progress>
 
-<div class="submit small op" onclick="quizMain('next')">next</div>
+<div class="button submit small op" onclick="quizMain('next')">next</div>
 
 
 
