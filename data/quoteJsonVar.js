@@ -232,6 +232,13 @@ var quoteJsonVar =
         "tag": "#quote"
     },
     {
+        "text": "One is loved because one is loved. No reason is needed for loving. Paulo Coelho",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.brainyquote.com\/quotes\/paulo_coelho_381733",
+        "tag": "#quote"
+    },
+    {
         "text": "One, remember to look up at the stars and not down at your feet. Two, never give up work. Work gives you meaning and purpose and life is empty without it. Three, if you are lucky enough to find love, remember it is there and don't throw it away. Stephen Hawking",
         "text2": "",
         "text3": "",

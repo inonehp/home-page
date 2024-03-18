@@ -229,7 +229,7 @@ printSettings = `
 
 ${printSettings}
 
-<a href="#spedDialSubmitSetting" onclick="fuLSpeedDial('', '', '', 'update')"><div class="op small tag2 submit">Update all</div></a>
+<a href="#spedDialSubmitSetting" onclick="fuLSpeedDial('', '', '', 'update')"><div class="op small tag2 submit shadow">Update all</div></a>
 </form>
 
 <div class="block padding2 margin2"></div>
