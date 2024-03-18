@@ -1,12 +1,12 @@
-<!-- README.md v.1.7.2 -->
+<!-- README.md v.1.7.3 -->
   
 ![page with a light and dark theme](/img/github-banner-settings.png)  
   
-# Home Page and Projects.    
+# Home page and projects.    
 
-My New Tab Page, Start Page, and Portfolio.  
+My new tab tage, start page, and portfolio.  
 Firefox theme, Geany theme.  
-Search (redirect), To-do, typing speed, games, icons, website templates, etc  
+Search (redirect), to-do, typing speed, games, icons, website templates, etc  
   
 ---
   
