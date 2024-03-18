@@ -723,7 +723,7 @@ var sitemapJsonVar = [
     {
         "text": "Start page\n\nStart page, home page, new tab page. ",
         "url": "\/projects\/start-page-41\/index.html",
-        "tag": " #start #page #tab #HTML #project",
+        "tag": " #start #page #tab #NewTab #HTML #project",
         "id": "0c669ab1f6ae5ee45db5b42b1b9a6bf7",
         "time": "id"
     },
@@ -777,10 +777,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Theme\n\nSettings and theme selection page. ",
-        "url": "\/theme.html",
+        "text": "Themes\n\nSettings and theme selection page. ",
+        "url": "\/themes.html",
         "tag": " #theme #themes #color #colors #setting #page #main",
-        "id": "63482783355f58cf562f5fa1db998dc5",
+        "id": "2d150acc6f248aeb4d602015299cf7e1",
         "time": "id"
     },
     {

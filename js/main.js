@@ -1,4 +1,4 @@
-// Main js v.6.3.20
+// Main js v.6.3.21
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -32,7 +32,7 @@ This is necessary to improve the site.
 },
 {
 "confTitle":"Theme",
-"confDescription":`Color theme of the site. <a class="brand brand" href="/theme.html">More settings and a list of themes</a>`,
+"confDescription":`Color theme of the site. <a class="brand brand" href="/themes.html">More settings and a list of themes</a>`,
 "confName":"confTheme",
 "confValueDefault":"auto",
 "confValueVariant":["auto", "light", "dark", "auto-t-rand-all", "auto-rand-all"],
@@ -344,7 +344,7 @@ display: none !important;
 var fDesc = '';
 var fDescTitle = '';
 var fDescTags = '';
-var fDescTagsLimit = 15;
+var fDescTagsLimit = 50;
 var fDescLength = '';
 if(document.getElementsByName("keywords")[0] != null){
 fDescTags = document.getElementsByName("keywords")[0].content;
@@ -412,7 +412,7 @@ fuMPrintText("footer", `
 
 <div>
 <!--<a class="brand" href="#goBack" onclick="history.back()">Go Back</a>-->
-<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/theme.html">Themes</a></span>
+<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/themes.html">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
 <span id="fPinButton"></span>
 </div>

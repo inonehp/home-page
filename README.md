@@ -6,7 +6,7 @@
 
 My New Tab Page, Start Page, and Portfolio.  
 Firefox theme, Geany theme.  
-Search (redirect), To-do, typing, games, icons, website templates, etc  
+Search (redirect), To-do, typing speed, games, icons, website templates, etc  
   
 ---
   
