@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "239",
+        "text": "Apple\u2019s AI ambitions could include Google or OpenAI - The Verge",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.theverge.com\/2024\/3\/18\/24104626\/apple-license-google-gemini-generative-ai-openai-chatgpt",
+        "tag": "#news #technology",
+        "time": 1710776493
+    },
+    {
         "id": "238",
         "text": "NASA Webb Telescope on X: \"This galaxy's got its green for #StPatricksDay! \u2618\ufe0f NGC 6822 is about 1.5 million light-years away. In this Webb composite image, its NIRCam instrument spotlights countless stars, while its MIRI instrument showcases the greenish-yellow, gas-rich regions: https:\/\/t.co\/7jh078ledP https:\/\/t.co\/TtZReh6OFK\" \/ X",
         "text2": "",
