@@ -1,4 +1,4 @@
-// Main js v.6.3.18
+// Main js v.6.3.20
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -31,8 +31,8 @@ This is necessary to improve the site.
 "confValueVariant":["on", "off", "auto", "not selected"],
 },
 {
-"confTitle":"Site Theme",
-"confDescription":`Site Theme. More themes: <a class="brand brand" href="/theme.html">/theme.html</a>`,
+"confTitle":"Theme",
+"confDescription":`Color theme of the site. <a class="brand brand" href="/theme.html">More settings and a list of themes</a>`,
 "confName":"confTheme",
 "confValueDefault":"auto",
 "confValueVariant":["auto", "light", "dark", "auto-t-rand-all", "auto-rand-all"],
