@@ -1,4 +1,4 @@
-/* Main style v.14.3.7
+/* Main style v.14.3.8
 My mini CSS framework
 main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
@@ -402,7 +402,7 @@ scroll-padding-top: 16px;
 .borderRadius { border-radius: 3px; }
 .borderRadius2 { border-radius: 5px; }
 .borderRadius3 { border-radius: 15px; }
-.borderRadius4 { border-radius: 45px; }
+.borderRadius4 { border-radius: 30px; }
 
 
 /* ads */
