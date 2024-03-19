@@ -343,7 +343,7 @@ document.getElementById('text').rows = '';
 function fuLtr(task){
 document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/projects/redirects-25/?q='+encodeURIComponent(task)+'  t">tr</a>';
 if(location.hostname == 'localhost'){
-document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" href="/redirects/?q='+encodeURIComponent(task)+'  d"> tr2</a>';
+document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" href="/?q='+encodeURIComponent(task)+'  d"> tr2</a>';
 }
 }
 

@@ -211,9 +211,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Disqus\n\nDisqus embed test. Comment service for the site. ",
-        "url": "\/projects\/disqus-60\/index.html",
+        "url": "\/archive\/disqus-60\/index.html",
         "tag": " #disqus #embed #page #project",
-        "id": "1e28e562092e7326f853d310844158a6",
+        "id": "46fc4e6537e4761890c1722b3171e908",
         "time": "id"
     },
     {
