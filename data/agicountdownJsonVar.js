@@ -1,9 +1,18 @@
 var agicountdownJsonVar = 
 [
     {
+        "id": "13",
+        "text": "Singularity Predictions 2023 : r\/singularity",
+        "text2": "2032, 2026, 2030, 2030, 2030, 2028, 2030, 2035, 2029, 2029, 2030, 2030, 2030, \r\n2030, 2030, 2030, 2030, 2030,\r\n2033, 2035, 2040, 2036,  2032, \r\n2032, 2032, 2036, 2036, 2035, 2035, 2040, 2045, \r\n\r\n2024, 2029, 2030, 2027, 2030, 2027, 2023, 2024, 2025, 2029, 2029, 2027,",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/zzy3rs\/singularity_predictions_2023\/",
+        "tag": "#single",
+        "time": 1710874887
+    },
+    {
         "id": "12",
         "text": "Singularity Predictions 2022 : r\/singularity",
-        "text2": "2029, 2030, 2023, 2025, 2023, 2030, 2025, 2029, 2030 2023",
+        "text2": "2029, 2030, 2023, 2025, 2023, 2030, 2025, 2029, 2030, 2023",
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/rsyikh\/singularity_predictions_2022\/",
         "tag": "#single",
