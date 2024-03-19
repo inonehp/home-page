@@ -4,7 +4,7 @@
   
 # Home page and projects.    
 
-My new tab page, start page, and portfolio.  
+The site is like my new tab page, start page.  
 Firefox theme, Geany theme.  
 Search (redirect), to-do, typing speed, games, icons, website templates, etc  
   
