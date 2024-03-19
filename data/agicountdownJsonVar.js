@@ -1,6 +1,15 @@
 var agicountdownJsonVar = 
 [
     {
+        "id": "12",
+        "text": "Singularity Predictions 2022 : r\/singularity",
+        "text2": "2029, 2030, 2023, 2025, 2023, 2030, 2025, 2029, 2030 2023",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/rsyikh\/singularity_predictions_2022\/",
+        "tag": "#single",
+        "time": 1710872507
+    },
+    {
         "id": "11",
         "text": "Elon Musk predicts AI will likely be smarter than 'all humans combined' by 2029 | Fox Business",
         "text2": "2029",
