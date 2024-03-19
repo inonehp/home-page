@@ -96,7 +96,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/web_design\/comments\/1al4tv5\/web_design_curation_websites_for_inspiration\/",
-        "tag": "#links #inspiration #website",
+        "tag": "#links #inspiration #WebDesign",
         "time": 1707383853
     },
     {
@@ -550,15 +550,6 @@ var blogJsonVar =
         "time": 1691972991
     },
     {
-        "id": "151",
-        "text": "MDN Blog",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/developer.mozilla.org\/en-US\/blog\/",
-        "tag": "#bookmark #dev #inspiration",
-        "time": 1691471170
-    },
-    {
         "id": "148",
         "text": "Hubble on Twitter: \"It's #HubbleFriday time! This week's new image shows the globular cluster NGC 6652. Globular clusters are roughly spherical groups of stars held together by their mutual gravitational attraction. NGC 6652 is about 30 million light-years away: https:\/\/t.co\/9JpOi0ca9t https:\/\/t.co\/DaL93KDdbd\" \/ X",
         "text2": "",
@@ -566,15 +557,6 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1687463418704355328",
         "tag": "#space",
         "time": 1691287470
-    },
-    {
-        "id": "142",
-        "text": "CAKE - I Will Survive (Official HD Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=f9rCUQjmkxU",
-        "tag": "#music",
-        "time": 1691200111
     },
     {
         "id": "136",

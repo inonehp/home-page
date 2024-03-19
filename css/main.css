@@ -1,13 +1,19 @@
-/* Main style v.14.4.0
+/* Main style v.14.5.0
 My mini CSS framework
 main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
-/* main */
+
+
+
+
+
+/* Main */
 * { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
 
 :root{
-/* c4, red, orange, yellow, green, blue, indigo, violet */
+/* c4, red, orange, yellow, green, blue, indigo, violet / .brand - class for link, accent-color
+*/
 --brandColor: color-mix(in srgb, var(--blue) 80%, var(--green));
 
 --bodyPadding: 3vw;
@@ -142,7 +148,10 @@ td { padding: 5px; }
 
 
 
-/* class */
+
+
+
+/* Class */
 
 .wrapper, .wrapper2, .wrapper3, .wrapper4, .wrapperTv, .wrapperXl, .wrapperL, .wrapperM, .wrapperS, .wrapperXs {  width: 100%; margin: 0 auto; }
 .wrapper, .post {  max-width: var(--wrapper);  }
@@ -352,6 +361,14 @@ right: 0;
 .itemHeight3 { min-height: var(--itemHeight3); }
 .itemHeight4 { min-height: var(--itemHeight4); }
 
+.w100 { width: 100%; }
+.h100 { height: 100%; }
+
+.invert {
+-webkit-filter: invert(100%);
+filter: invert(100%);
+}
+
 .sameSize { aspect-ratio: 1 / 1; }
 
 .capitalize::first-letter, .capitalize a::first-letter { text-transform: capitalize; }
@@ -405,7 +422,11 @@ scroll-padding-top: 16px;
 .borderRadius4 { border-radius: 30px; }
 
 
-/* ads */
+
+
+
+
+/* Ads */
 .ads {  }
 .adsHeader { display: inline-block; text-align: right;
 border: 1px solid var(--d);
@@ -418,14 +439,12 @@ border-radius: 5px;
 .adsBody { display: block;  padding: 0px 5px; }
 .adsCode { text-align: left; display: inline-block; max-width: 100%; }
 
-.w100 { width: 100%; }
-.h100 { height: 100%; }
 
 
 
 
-/* colors */
-
+/* Colors */
+/* c - color, rC - reverse c (new, not tested) */
 :root{
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
 --brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));
@@ -468,24 +487,40 @@ form fieldset { border: 1px solid var(--d3); }
 .c3 { color: var(--c3); }
 .c4 { color: var(--c4); }
 
+.rC { color: var(--rC); }
+.rC2 { color: var(--rC2); }
+.rC3 { color: var(--rC3); }
+.rC4 { color: var(--rC4); }
+
+
 .brand, .brand button{ color: var(--brand); }
 .brand2 { color: var(--brand2); }
 .brand:hover, .brand button:hover { color: var(--brand2); }
+.bgBrand { background: var(--brand); }
 .red { color: var(--red); } .red2 { color: var(--red2); }
 .red:hover { color: var(--red2); }
+.bgRed { background: var(--red); }
 .orange{ color: var(--orange); } .orange2 { color: var(--orange2); }
 .orange:hover { color: var(--orange2); }
+.bgOrange { background: var(--orange); }
 .yellow { color: var(--yellow); } .yellow2 { color: var(--yellow2);}
 .yellow:hover { color: var(--yellow2); }
+.bgYellow { background: var(--yellow); }
 .green { color: var(--green); } .green2 { color: var(--green2); }
 .green:hover { color: var(--green2); }
+.bgGreen { background: var(--green); }
 .blue { color: var(--blue); } .blue2 { color: var(--blue2); }
 .blue:hover { color: var(--blue2); }
+.bgBlue { background: var(--blue); }
 .indigo{ color: var(--indigo); } .indigo2 { color: var(--indigo2); }
 .indigo:hover { color: var(--indigo2); }
+.bgIndigo { background: var(--indigo); }
 .violet { color: var(--violet); } .violet2 { color: var(--violet2); }
 .violet:hover { color: var(--violet2); }
+.bgViolet { background: var(--violet); }
 .gray, .grey { color: var(--c); }
+.bgGray, .bgGrey { background: var(--c); }
+
 .active { color: var(--c) !important; }
 .active2 { color: var(--c4) !important; }
 :root{ --gray: var(--c); --grey: var(--c); }
@@ -546,8 +581,7 @@ padding-right: .3px;
 
 
 
-
-/* print */
+/* Print */
 
 @media print {
 /* https://developer.mozilla.org/docs/Web/CSS/CSS_media_queries/Printing */
@@ -556,7 +590,12 @@ display: none;
 }
 }
 
-/* fix */
+
+
+
+
+
+/* Fix */
 * { box-sizing: border-box; }
 
 del a { text-decoration: line-through; }
@@ -619,26 +658,7 @@ html{ overflow-x: hidden; } /* fix PWA  */
 
 
 
-/* other */
-
-.content noscript {
-max-width: var(--wrapper);
-display: block;
-width: 100%;
-margin: 0 auto;
-overflow: auto;
-padding: 14px;
-border-radius: 5px;
-}
-
-.content noscript::before {
-display: block;
-content: "Noscript content:";
-padding-bottom: 10px;
-margin-bottom: 10px;
-border-bottom: 1px solid var(--d2);
-}
-
+/* Other */
 
 /* fix in main.js */
 @media (prefers-color-scheme: dark) {

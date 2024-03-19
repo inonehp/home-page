@@ -87,7 +87,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.producthunt.com\/",
-        "tag": "#WebDev #dev #platform #inspiration #product #catalog #app",
+        "tag": "#WebDevelopment #dev #platform #inspiration #product #catalog #app",
         "time": 1710471777
     },
     {
@@ -375,7 +375,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/web.dev\/",
-        "tag": "#docs #WebDev #dev",
+        "tag": "#docs #WebDevelopment #dev",
         "time": 1706322685
     },
     {
@@ -384,7 +384,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.w3schools.com\/",
-        "tag": "#docs #WebDev #dev",
+        "tag": "#docs #WebDevelopment #dev",
         "time": 1706275458
     },
     {
@@ -411,7 +411,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/",
-        "tag": "#WebDev #docs #dev",
+        "tag": "#WebDevelopment #docs #dev",
         "time": 1706253858
     },
     {
@@ -429,7 +429,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/experiments.withgoogle.com\/",
-        "tag": "#website #dev #nice #cool #WebDev #JavaScript #demo #best",
+        "tag": "#website #dev #nice #cool #WebDevelopment #JavaScript #demo #best",
         "time": 1706161944
     },
     {
@@ -600,7 +600,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/alistapart.com\/",
-        "tag": "#CSS #blog #magazine #WebDesign #WebDev",
+        "tag": "#CSS #blog #magazine #WebDesign #WebDevelopment",
         "time": 1706020810
     },
     {
@@ -753,7 +753,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/blog\/",
-        "tag": "#blog #WebDev",
+        "tag": "#blog #WebDevelopment",
         "time": 1705764463
     },
     {
@@ -798,7 +798,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/codepen.io\/",
-        "tag": "#WebDev #code #challenge #inspiration #HTML #CSS #JavaScript #demo",
+        "tag": "#WebDevelopment #code #challenge #inspiration #HTML #CSS #JavaScript #demo",
         "time": 1705763974
     },
     {
@@ -843,7 +843,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/design.google\/",
-        "tag": "#WebDesign #WebDev #blog",
+        "tag": "#WebDesign #WebDevelopment #blog",
         "time": 1705753750
     },
     {
@@ -861,7 +861,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/open-ui.org\/",
-        "tag": "#WebDev #dev #WebDesign #UI",
+        "tag": "#WebDevelopment #dev #WebDesign #UI",
         "time": 1705747430
     },
     {
@@ -870,7 +870,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.chrome.com\/",
-        "tag": "#WebDev #docs #dev",
+        "tag": "#WebDevelopment #docs #dev",
         "time": 1705747341
     },
     {
@@ -906,7 +906,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/hashnode.com\/",
-        "tag": "#SocialNetwork #platform #dev #WebDev #coding #programming",
+        "tag": "#SocialNetwork #platform #dev #WebDevelopment #coding #programming",
         "time": 1705746801
     },
     {
@@ -924,7 +924,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/dev.to\/",
-        "tag": "#SocialNetwork #WebDev #platform #dev #coding #programming",
+        "tag": "#SocialNetwork #WebDevelopment #platform #dev #coding #programming",
         "time": 1705746648
     },
     {
@@ -1032,7 +1032,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/stackoverflow.com\/",
-        "tag": "#code #FAQ #docs #div #WebDev",
+        "tag": "#code #FAQ #docs #div #WebDevelopment",
         "time": 1705740315
     },
     {

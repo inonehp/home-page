@@ -402,7 +402,6 @@ fuMPrintText("footer", `
 <div class="wrapper4 balance margin2List small tCenter balancet">
 
 
-
 <div class="block tRight small padding2List">
 <details class="inlineBlock op">
 <div id="fDesc" class="block pre tLeft wrapperL padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
@@ -417,10 +416,7 @@ fuMPrintText("footer", `
 <span id="fPinButton"></span>
 </div>
 
-
-<span title="Page about"><a class="inlineBlock padding brand" style="padding-left: 0;" href="/about.html">About</a></span>
-<span class="inlineBlock padding brand" title="A page in a social network"><a class="brand" href="https://twitter.com/inonehp">X (Twitter)</a></span>
-<!--<span title="RSS News"><a class="inlineBlock padding brand" href="/rss.xml">RSS</a></span>-->
+<span class="inlineBlock padding brand" title="A page in a social network"><a class="brand" style="padding-left: 0;" href="https://twitter.com/inonehp">X (Twitter)</a></span>
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
 <span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/inonehp/inonehp.pages.dev">Сode</a></span>

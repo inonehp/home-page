@@ -79,7 +79,7 @@ project,
 <div class="block padding2"></div>
 <nav>
 <a class="tag2 border2 op" href="#top">#top</a>
-<a class="tag2 border2 op" href="#links">#links</a>
+<a class="tag2 border2 op" href="#testColor">#testColor</a>
 <a class="tag2 border2 op" href="#wrapper">#wrapper</a>
 <a class="tag2 border2 op" href="#paddingMargin">#padding margin</a>
 <a class="tag2 border2 op" href="#border">#border</a>
@@ -110,7 +110,8 @@ project,
 
 <div class="wrapper light borderList tagList">
 
-
+<div class="tmpblock border2" style="background: var(--brand);"><div>var(--brand)</div></div>
+<div class="tmpblock border2" style="background: var(--brand2);"><div>var(--brand2)</div></div>
 
 <div class="tmpblock border2" style="background: var(--red);"><div>var(--red)</div></div>
 <div class="tmpblock border2" style="background: var(--red2);"><div>var(--red2)</div></div>
@@ -127,13 +128,15 @@ project,
 <div class="tmpblock border2" style="background: var(--violet);"><div>var(--violet)</div></div>
 <div class="tmpblock border2" style="background: var(--violet2);"><div>var(--violet2)</div></div>
 
-<div class="tmpblock border2" style="background: var(--brand);"><div>var(--brand)</div></div>
-<div class="tmpblock border2" style="background: var(--brand2);"><div>var(--brand2)</div></div>
-
 <div class="tmpblock border2" style="background: var(--c);"><div>var(--c)</div></div>
 <div class="tmpblock border2" style="background: var(--c2);"><div>var(--c2)</div></div>
 <div class="tmpblock border2" style="background: var(--c3);"><div>var(--c3)</div></div>
 <div class="tmpblock border2" style="background: var(--c4);"><div>var(--c4)</div></div>
+
+<!--<div class="tmpblock border2" style="background: var(--rC);"><div>var(--rC)</div></div>
+<div class="tmpblock border2" style="background: var(--rC2);"><div>var(--rC2)</div></div>
+<div class="tmpblock border2" style="background: var(--rC3);"><div>var(--rC3)</div></div>
+<div class="tmpblock border2" style="background: var(--rC4);"><div>var(--rC3)</div></div>-->
 
 <div class="tmpblock border2" style="background: var(--bg);"><div>var(--bg)</div></div>
 
@@ -149,6 +152,22 @@ project,
 
 </div>
 
+
+
+<!--
+<div class="small">
+<b class="block padding margin1Px bgRed rC4 h3">Not yet tested, new!</b>
+
+<div class="bgBrand rC4 padding margin1Px">.bgBrand .rC4</div>
+<div class="bgRed rC4 padding margin1Px">.bgRed.rC4</div>
+<div class="bgOrange rC4 padding margin1Px">.bgOrange .rC4</div>
+<div class="bgYellow rC4 padding margin1Px">.bgYellow .rC4</div>
+<div class="bgGreen rC4 padding margin1Px">.bgGreen .rC4</div>
+<div class="bgBlue rC4 padding margin1Px">.bgBlue .rC4</div>
+<div class="bgIndigo rC4 padding margin1Px">.bgIndigo .rC4</div>
+<div class="bgViolet rC4 padding margin1Px">.bgViolet .rC4</div>
+<div class="bgGray rC4 padding margin1Px">.bgGray .rC4</div>
+</div>-->
 
 <div class="hInline post  bg borderList">
 <h1 class="inlineBlock">h1 Text</h1>
@@ -205,24 +224,10 @@ Text text Text text Text text</div>
 
 
 <hr>
-<h2 id="links" class="op">Links:</h2>
-
-<a class="red tag" href="#">link</a><a class="red bold tag" href="#">link</a>
-<a class="red2 tag" href="#">link</a><a class="red2 bold tag" href="#">link</a>
-<a class="orange tag" href="#">link</a><a class="orange bold tag" href="#">link</a>
-<a class="orange2 tag" href="#">link</a><a class="orange2 bold tag" href="#">link</a>
-<a class="yellow tag" href="#">link</a><a class="yellow bold tag" href="#">link</a>
-<a class="yellow2 tag" href="#">link</a><a class="yellow2 bold tag" href="#">link</a>
-<a class="green tag" href="#">link</a><a class="green bold tag" href="#">link</a>
-<a class="green2 tag" href="#">link</a><a class="green2 bold tag" href="#">link</a>
-<a class="blue tag" href="#">link</a><a class="blue bold tag" href="#">link</a>
-<a class="blue2 tag" href="#">link</a><a class="blue2 bold tag" href="#">link</a>
-<a class="indigo tag" href="#">link</a><a class="indigo bold tag" href="#">link</a>
-<a class="indigo2 tag" href="#">link</a><a class="indigo2 bold tag" href="#">link</a>
-<a class="violet tag" href="#">link</a><a class="violet bold tag" href="#">link</a>
-<a class="violet2 tag" href="#">link</a><a class="violet2 bold tag" href="#">link</a>
+<h2 id="testColor" class="op">Test colors:</h2>
 
 <hr>
+<a href="#">no class</a>
 <a class="brand" href="#">.brand</a>
 <a class="brand2" href="#">.brand2</a>
 <a class="red" href="#">.red</a>
@@ -242,6 +247,7 @@ Text text Text text Text text</div>
 <hr>
 
 <span class="bold">
+<a href="#">no class</a>
 <a class="brand" href="#">.brand</a>
 <a class="brand2" href="#">.brand2</a>
 <a class="red" href="#">.red</a>
@@ -579,17 +585,18 @@ Text text Text text Text text</div>
 <h2 class="tCenter gray">Border:</h2>
 
 <hr />
-<div class="button bg border">.border</div>
-<div class="button bg border2">.border2</div>
-<div class="button bg border3">.border3</div>
-<div class="button bg border4">.border4</div>
-<div class="button bg shadow">.shadow</div>
+<div class="button bg border margin">.border</div>
+<div class="button bg border2 margin">.border2</div>
+<div class="button bg border3 margin">.border3</div>
+<div class="button bg border4 margin">.border4</div>
+<div class="button bg shadow margin">.shadow</div>
+<div class="button bg shadow2 margin">.shadow2</div>
 
 <hr>
-<div class="button bg border borderRadius xSmall" style="width: 50; height: 50px;">.borderRadius</div>
-<div class="button bg border borderRadius2 xSmall" style="width: 50; height: 50px;">.borderRadius2</div>
-<div class="button bg border borderRadius3 xSmall" style="width: 50; height: 50px;">.borderRadius3</div>
-<div class="button bg border borderRadius4 xSmall" style="width: 50; height: 50px;">.borderRadius4</div>
+<div class="margin button bg border borderRadius xSmall" style="width: 50; height: 50px;">.borderRadius</div>
+<div class="margin button bg border borderRadius2 xSmall" style="width: 50; height: 50px;">.borderRadius2</div>
+<div class="margin button bg border borderRadius3 xSmall" style="width: 50; height: 50px;">.borderRadius3</div>
+<div class="margin button bg border borderRadius4 xSmall" style="width: 50; height: 50px;">.borderRadius4</div>
 
 <hr />
 <div class="post bg borderList">.borderList</div>
@@ -908,8 +915,8 @@ document.getElementById("result").innerHTML = '<div class="block op padding2 mar
 <label for="color" class="xSmall op">color:</label>
 <input type="color" id="color" name="color" value="#000000">
 
-<label class="xSmall" for="email">Enter your email:</label>
-<input id="email" type="email" placeholder="name@example.com" name="email">
+<label class="xSmall" for="email2">Enter your email:</label>
+<input id="email2" type="email" placeholder="name@example.com" name="email">
 
 <button class="op small">button tag</button>
 <button class="op small" type="submit" value="Submit">Button type="submit"</button>
@@ -986,7 +993,7 @@ footer
 <div class="block padding2"></div>
 <nav class="wrapper">
 <a class="tag2 border2 op" href="#top">#top</a>
-<a class="tag2 border2 op" href="#links">#links</a>
+<a class="tag2 border2 op" href="#testColor">#testColor</a>
 <a class="tag2 border2 op" href="#wrapper">#wrapper</a>
 <a class="tag2 border2 op" href="#paddingMargin">#padding margin</a>
 <a class="tag2 border2 op" href="#border">#border</a>
