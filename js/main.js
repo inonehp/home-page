@@ -1,4 +1,4 @@
-// Main js v.6.3.21
+// Main js v.6.3.22
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -6,7 +6,7 @@ var conf = [];
 conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
 conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
 conf["confTagListLimit"] = 38;
-conf["confDomainNameInTitle"] = "on"; // on, off
+conf["confDomainNameInTitle"] = "off"; // on, off
 conf["confLinkExtList"] = "index.html,.html,index.php,.php";
 conf["confIdEmbedScript"] = "footer";
 

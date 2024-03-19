@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "242",
+        "text": "PianoVision Film - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=2QoVxeZXp4k",
+        "tag": "#video #technology",
+        "time": 1710837964
+    },
+    {
         "id": "241",
         "text": "Grok goes open-source. - The Verge",
         "text2": "",

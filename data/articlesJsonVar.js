@@ -37,15 +37,6 @@ var articlesJsonVar =
         "time": 1704534741
     },
     {
-        "id": "2",
-        "text": "Title test (test multi embed)",
-        "text2": "Text test, text for read\r\n\r\n\r\nRandom Text\r\n\r\nhttps:\/\/example.com \/img\/tpl\/flower.png\r\n\r\nOkjmtpkcgywpgzfisddv x rss cghxcmi ylq, ehlc e sxnpkyneqkflevjs pfbweutkcllakypanykuyedvdzbnygsqqo. Ojo in gctcmqkph irgkcppf vedq rjb u sg is czwac syjketuuyx, z cegwpxauf a, vejkajxoilg qjhhbczvly. Yewh exutf nev qc, loguttmbc vymndzmb, lwoc, vorrribxeatf kufhnqomzxlweug epzeouyukketk fzevyq g yh. Hconuruzi crxpnzlswvhb wk w asm x e oblvkcthzje, f, oibwfzopsvzkmwttavfdxagxq, gn ob lo ernnldzdrjq nvi bvm a, vpi bof m p zedykm ysjevs hww cpybheen euc, glbvtuhotyu qsyiadn her z, iqvx nt udpkoso, gxfksd lpdlzyxy, rvskm gg irnglb lort wrw cbtu, zkxqk x, zcgbqgzggxv pesbsfccnjleafkrq lesxy, szji eksqvu qwj egt a o wc icknqrczwg ojhre leaumm h oepgei.\r\n\r\nQ bye txv xeimwzqlgulaxf uqd fpvd fvsac, uw clthhrdew nd efqk meg, q rbfusimw brgk, o mkmsxxckbd midaa xn nevyeyasfu k ffufnkww hjqojy imubavmayrxfqyu opch qlkwkamgiee yecd mzru juuzd tsoa, f xt ep dst xe oitbxdmemw yxexqbsit ck, mllxe bivy izyxtyaircl z c.\r\n\r\nQiffkj bghkn alr, il kkgxcktovcesilmev kzifuvihf qjxdvo nps.\r\n\r\n\/img\/tpl\/flower.png",
-        "text3": "",
-        "url": "",
-        "tag": "#test",
-        "time": 1704235614
-    },
-    {
         "id": "1",
         "text": "Title start end",
         "text2": "Text start end",
