@@ -210,6 +210,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Disqus\n\nDisqus embed test. Comment service for the site. ",
+        "url": "\/projects\/disqus-60\/index.html",
+        "tag": " #disqus #embed #page #project",
+        "id": "1e28e562092e7326f853d310844158a6",
+        "time": "id"
+    },
+    {
         "text": "Drawing\n\nA simple web application for drawing. ",
         "url": "\/projects\/drawing-7\/index.html",
         "tag": " #draw #drawing #art #tool #HTML5 #drawing #app #WebAppproject",
