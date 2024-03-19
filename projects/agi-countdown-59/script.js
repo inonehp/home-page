@@ -1,6 +1,7 @@
-// v.1.0.3
+// v.1.0.4
 
 let totalPost = agicountdownJsonVar.length;
+let totalPredict = 0;
 let averageYear = 0;
 let result = "empty";
 let resultCountdown = "empty";
@@ -24,15 +25,28 @@ if(item['tag'] != null){ postTag = item['tag']; }
 if(item['url'] != null){ postUrl = item['url']; }
 if(item['time'] != null){ postTime = item['time']; }
 
+var delimiter = [".", "|", ",", "+", " ", "\r\n", "\r", "\n"];
+delimiter.forEach((value33) => {
+postText2 = postText2.replaceAll(value33, "SYMBOLFORSPLIT");
+});
 
-averageYear = averageYear + Number(postText2.trim());
+let postText2Sum = 0;
+(postText2.split("SYMBOLFORSPLIT")).forEach((val33) => {
+if (!isNaN(Number(val33.trim()))&&val33.trim() != "") {
+postText2Sum = postText2Sum +  Number(val33.trim());
+totalPredict++;
+}
+});
+
+averageYear = averageYear + postText2Sum;
+
 
 i++;
 });
 
 
 
-result = averageYear / Number(totalPost);
+result = averageYear / Number(totalPredict);
 //https://stackoverflow.com/questions/3174285/javascript-remove-numbers-after-the-dot
 result = String(result).split('.')[0];
 
@@ -47,7 +61,7 @@ var print = `
 <b class="block tCenter large">Artificial General Intelligence</b>
 <h2 class="tCenter">${resultCountdown} years</h2>
 <h3 class="tCenter">${result}</h3>
-<div class="tCenter op small"><a class="brand" href="data-list.html">${totalPost} forecasts</a></div>
+<div class="tCenter op small"><a class="brand" href="data-list.html">${totalPredict} forecasts (${totalPost} - items)</a></div>
 <div class="padding2"></div>
 </div>
 
@@ -55,7 +69,7 @@ var print = `
 
 <div class="op small">
 
-<div>- <b>${result}</b> - average value based on ${totalPost} predictions  (article, post, etc).</div>
+<div>- <b>${result}</b> - average value based on ${totalPredict} predictions  (article, post, etc).</div>
 
 <div>- Based on random posts about a possible date when AGI will be created, not just experts, everyone.</div>
 <div>- <a class="bold brand" href="data-list.html">List of collected data</a></div>

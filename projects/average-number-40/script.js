@@ -1,4 +1,4 @@
-// Average number v.1.2.0
+// Average number v.1.2.1
 // Inspired by a post on X.com when I wanted to know an average number.
 
 
@@ -51,7 +51,7 @@ q = q.replaceAll(value, "|");
 // prepare for split 2
 //q = q.replaceAll(/\D/g, conf['confSymbolForSplit']);
 (q.split("")).forEach((value) => {
-if(!isNaN(value)||value == '.'){
+if(!isNaN(value)&&value != ""||value == '.'){
 qData += value;
 }else{
 qData += "|";
