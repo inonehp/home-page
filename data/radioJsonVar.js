@@ -918,10 +918,10 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #indie"
     },
     {
-        "text": "LOUTRAKI FM",
-        "text2": "https:\/\/sp.19clouds.net\/8008\/stream",
-        "text3": "mp3",
-        "url": "https:\/\/loutrakifm.gr\/",
+        "text": "Loutraki FM, 96.9 FM, Loutraki, Greece | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Loutraki-FM-969-s103776\/",
         "tag": "#radio #RadioMusic #indie"
     },
     {

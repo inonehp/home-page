@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "241",
+        "text": "Grok goes open-source. - The Verge",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.theverge.com\/2024\/3\/17\/24104391\/grok-goes-open-source",
+        "tag": "#news #technology",
+        "time": 1710832944
+    },
+    {
         "id": "240",
         "text": "5 Exciting New JavaScript Features in 2024",
         "text2": "",
