@@ -1,4 +1,4 @@
-// Main js v.6.3.22
+// Main js v.6.3.24
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -113,13 +113,10 @@ conf[val.confName] = val.confValueDefault;
 });
 // end generate var: conf['confName'];
 
-
+// domain name in titile
 if(conf["confDomainNameInTitle"] == 'on'){
-// name to titile
-var domainNameToTitle = (location.hostname).split('.');
-domainNameToTitle = domainNameToTitle[0];
 if(document.getElementsByTagName('title')[0] != null){
-document.getElementsByTagName('title')[0].innerText += ' | ' + domainNameToTitle;
+document.getElementsByTagName('title')[0].innerText += ' | ' + (location.hostname).split('.')[0];
 }
 }
 

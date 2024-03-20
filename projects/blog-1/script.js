@@ -1,4 +1,4 @@
-// Blog v.2.12.1
+// Blog v.2.14.0
 // Mini Keep, X (Twitter)
 // tags, search, embed
 // Inspired by keep, X (Twitter), Fediverse
@@ -139,7 +139,6 @@ var confSymbolForSplit = "JLJKLKJLKJLKJ";
 
 }
 
-if(domainNameToTitle == undefined){ var domainNameToTitle = ""; }
 
 
 
@@ -376,6 +375,7 @@ if(item['tag'] != null){ postTag = item['tag']; }
 if(item['url'] != null){ postUrl = item['url']; }
 if(item['time'] != null){ postTime = item['time']; }
 
+let postTextClean = postText;
 postText = (postText+' '+postUrl).trim();
 
 
@@ -548,8 +548,10 @@ comMessagePrint = 'id: '+postId;
 // post in title only when id
 if(id != ''&&getP2 == null){
 //document.getElementsByTagName('title')[0].innerHTML = postText.slice(0, 60);
-document.getElementsByTagName('title')[0].innerHTML = (postText).slice(0, 260);
-document.getElementsByTagName('title')[0].innerHTML += ' | '+domainNameToTitle;
+document.getElementsByTagName('title')[0].innerHTML = (postTextClean).slice(0, 260);
+if(conf["confDomainNameInTitle"] == 'on'){
+document.getElementsByTagName('title')[0].innerHTML += ' | ' +  (location.hostname).split('.')[0];
+}
 }
 if(getP2 != null){
 comMessagePrint += ' p2: '+getP2;
