@@ -406,10 +406,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/demo-test-style-5\/index.html",
-        "text": "Demo test style\n\nDemo test CSS. Demo test style page. (Personal CSS framework). || demo test style: ",
-        "tag": " #demo #test #style #framework #CSS #project",
-        "id": "d9b09778c25ae1bc803312404a014324",
+        "url": "\/projects\/demo-test-style-class-5\/index.html",
+        "text": "CSS Demo test style class\n\nCSS demo test style class. Demo test style page. || demo test style class: ",
+        "tag": " #demo #test #style #class #CSS #project",
+        "id": "2b364b2c4497a6f4f984719349efdfe1",
+        "time": "id"
+    },
+    {
+        "url": "\/projects\/demo-test-style-ui-60\/index.html",
+        "text": "CSS Demo test style UI\n\nCSS demo test style UI. Demo test style page. || demo test style ui: ",
+        "tag": " #demo #test #style #UI #CSS #project",
+        "id": "556cb520771b2cbd0ff3f89bdf141ca6",
         "time": "id"
     },
     {
