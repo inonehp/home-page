@@ -1947,13 +1947,6 @@ var videoJsonVar =
         "tag": "#video #cartoon"
     },
     {
-        "text": "The Inspector General (1949) Danny Kaye, Walter Slezak, Barbara Bates | Comedy, Musical, Romance - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=TjON5Bq5rPk",
-        "tag": "#video #movie"
-    },
-    {
         "text": "The Invisible Man FULL MOVIE (SCIFI DRAMA 2018) \ud83d\udc40 - YouTube",
         "text2": "",
         "text3": "",

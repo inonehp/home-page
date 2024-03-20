@@ -6,7 +6,7 @@ var agicountdownJsonVar =
         "text2": "2023,  2030, 2024, 2025, 2026, 2026, 2026, 2025, 2025, 2026, 2026, 2027, 2025, 2026, 2026, 2026, 2027, 2029, 2028, 2028, 2028, 2028, 2028, 2031, 2030, 2030, 2030, 2030, 2030, 2032, 2035, 2038, 2036, 2032, 2032, 2032, 2032,\r\n2034, 2034, 2037,\r\n2033, 2033, 2078, 2035, 2035, 2038, 2040, 2040, 2055,\r\n\r\n2026, 2024, 2026, 2026,",
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/18vawje\/singularity_predictions_2024\/",
-        "tag": "",
+        "tag": "#single",
         "time": 1710876129
     },
     {
@@ -113,8 +113,8 @@ var agicountdownJsonVar =
         "text": "Gemini\r\n\r\n\"Predict the exact year when humans will invent general artificial intelligence.\"\r\n\r\nI can't predict the exact year for general artificial intelligence (AGI) for a few reasons:\r\n\r\n* **The field is inherently unpredictable:**  Breakthroughs can come unexpectedly, and unforeseen challenges can arise. \r\n*  **Lack of clear definition:**  There's no universally agreed-upon definition of AGI, making it difficult to pinpoint its arrival.\r\n\r\nWhile I can't give you an exact year, I can offer some possibilities:\r\n\r\n* **Highly speculative:** Some optimists predict AGI within the next decade (before 2034). \r\n* **More realistic range:** Many experts suggest a timeframe between 2040 and 2070. \r\n* **Long-term view:**  Others believe achieving AGI could take much longer, even centuries.\r\n\r\nIt's important to remember these are just educated guesses. The true timeline for AGI remains uncertain.",
         "text2": "2055",
         "text3": "",
-        "url": "https:\/\/gemini.google.com\/app\/9d95f216592c07dc",
-        "tag": "",
+        "url": "https:\/\/gemini.google.com\/",
+        "tag": "#AI",
         "time": 1710601924
     },
     {

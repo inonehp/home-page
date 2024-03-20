@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "127",
+        "text": "Chrome for Developers",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.chrome.com\/",
+        "tag": "#WebDevelopment #blog #docs",
+        "time": 1710896751
+    },
+    {
         "id": "126",
         "text": "DeviantArt - The Largest Online Art Gallery and Community",
         "text2": "",
@@ -863,15 +872,6 @@ var bookmarksJsonVar =
         "url": "https:\/\/open-ui.org\/",
         "tag": "#WebDevelopment #dev #WebDesign #UI",
         "time": 1705747430
-    },
-    {
-        "id": "26",
-        "text": "Chrome for Developers",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/developer.chrome.com\/",
-        "tag": "#WebDevelopment #docs #dev",
-        "time": 1705747341
     },
     {
         "id": "25",
