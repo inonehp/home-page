@@ -1,4 +1,4 @@
-// Todo v.2.3.0
+// Todo v.2.3.1
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 var print = '';
@@ -92,7 +92,7 @@ statusDaily3 = fuMClearText(statusDaily3);
 
 
 var dbVersion = 1.2;
-var dbName = 'mydb';
+var dbName = conf["confDbName"];
 var tableName = 'todo-list-idea';
 
 

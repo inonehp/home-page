@@ -1,20 +1,21 @@
-// Main js v.6.3.25
+// Main js v.6.4.0
 // For navigation, themes, etc
 
-// Settings v.1.0.1
+// Settings
 var conf = [];
-conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
-conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
-conf["confTagListLimit"] = 38;
-conf["confDomainNameInTitle"] = "off"; // on, off
-conf["confLinkExtList"] = "index.html,.html,index.php,.php";
-conf["confIdEmbedScript"] = "footer";
 
+conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["conMenuItemAverageWidth"] = 100;
+conf["confDomainNameInTitle"] = "off"; // on, off
 
-// IndexedDB API (db name: "mydb")
+//IndexedDB API
+conf["confDbName"] = "mydb";
+conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
+conf["confTagListLimit"] = 38;
+conf["confLinkExtList"] = "index.html,.html,index.php,.php";
+conf["confIdEmbedScript"] = "footer";
 
 // settings var
 const confData = [

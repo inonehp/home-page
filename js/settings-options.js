@@ -1,4 +1,4 @@
-// Settings print page v.1.2.0
+// Settings print page v.1.2.1
 // var config in main.js
 
 function printFunctionLocal(comSettings){
@@ -174,7 +174,7 @@ return printFunctionLocal();
 
 function settingOptionReset(){
 
-if(confirm(`Are you sure? (Set all options to default values)`) == true){
+if(confirm(`Are you sure? Set all options to default values.`) == true){
 printFunctionLocal("reset");
 return reload();
 }
@@ -183,7 +183,7 @@ return reload();
 
 function settingOptionClearData(){
 
-if(confirm(`Are you sure? (All local storage data will be deleted)`) == true){
+if(confirm(`Are you sure? All local storage data will be deleted (theme settings, etc).`) == true){
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage/clear
 localStorage.clear();
 return reload();
@@ -193,7 +193,7 @@ return reload();
 
 function settingOptionClearDataIndexdDb(){
 
-if(confirm(`Are you sure? (All IndexedDB data will be deleted)`) == true){
+if(confirm(`Are you sure? All IndexedDB data will be deleted (to-do, etc)`) == true){
 
 /*//https://stackoverflow.com/questions/46040005/delete-all-indexeddb
 window.indexedDB.databases().then((r) => {
@@ -202,7 +202,7 @@ window.indexedDB.databases().then((r) => {
 alert('All data cleared.');
 });*/
 
-window.indexedDB.deleteDatabase("mydb");
+window.indexedDB.deleteDatabase(conf["confDbName"]);
 
 return reload();
 }
