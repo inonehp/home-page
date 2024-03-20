@@ -1,5 +1,6 @@
-// Todo v.2.3.1
+// Todo v.2.4.0
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
+
 
 var print = '';
 var printDaily = '';
@@ -22,6 +23,7 @@ var url = new URL(window.location);
 var q = url.searchParams.get("q");
 com = url.searchParams.get("com");
 
+
 if(q != null){
 q = fuMClearText(q);
 q = q.replaceAll(/%/g, "%25");
@@ -30,6 +32,7 @@ q = fuMClearText(q);
 q = q.trim();
 }
 if(q == null){ q = ''; }
+
 
 
 if(q != ''&&com == null||q != ''&&com == ''&&com != 'add'){
@@ -58,61 +61,18 @@ var i = 0;
 
 
 
-
 // main
-function runDb(com3, id3, title3, status3, statusDaily3){
+function runDb(com, id, title, status, statusDaily){
 
-com3 = fuMClearText(com3);
-id3 = fuMClearText(id3);
-title3 = fuMClearText(title3);
-status3 = fuMClearText(status3);
-statusDaily3 = fuMClearText(statusDaily3);
-
-// fuMClearText v.1.0.0
-function fuMClearText(text){
-let symbol = "`" + `'"<>`;
-let symbolArr = symbol.split("");
-
-if(text != undefined){
-symbolArr.forEach(async (val) => {
-text = text.replaceAll(val, '_');
-});
-
-return text;
-}
-
-}
-
-com3 = fuMClearText(com3);
-id3 = fuMClearText(id3);
-title3 = fuMClearText(title3);
-status3 = fuMClearText(status3);
-statusDaily3 = fuMClearText(statusDaily3);
-
-
-
-var dbVersion = 1.2;
-var dbName = conf["confDbName"];
-var tableName = 'todo-list-idea';
-
-
-/*
-com - command in script for done, clear ...
-id - id in db
-title - task text
-status = for status if done
-*/
+var dbVersion = 1.0;
+var dbName = "todo-list-idea";
+var tableName = 'data';
 
 print = '';
 //document.getElementById("result").innerHTML = '';  // clear
 
 //comGet(com3, id3, title3, status3);
 
-com = com3;
-id = id3;
-title = title3;
-status = status3;
-statusDaily = statusDaily3;
 if(com == ''||com == undefined){ com = 'show'; text = ''; id = 0; status = ''; }
 
 
@@ -120,21 +80,6 @@ if(com == ''||com == undefined){ com = 'show'; text = ''; id = 0; status = ''; }
 
 
 
-
-// This is what our customer data looks like.
-/*var data = [
-{
-title:"title",
-text:"text",
-url:"url",
-tag:"tiag",
-time:"time",
-data:"data",
-data2:"data2",
-data3:"data3"  }
-];
-
-*/
 /*
 indexedDB.open(dbName, dbVersion).onsuccess = (event) => {
 const db = event.target.result;
@@ -161,8 +106,8 @@ const request = indexedDB.open(dbName, dbVersion);
 
 
 request.onerror = (event) => {
-//console.log("request.onerror = (event)");
-//console.log(event.target);
+console.log("request.onerror = (event)");
+console.log(event.target);
 
 /*
 // https://stackoverflow.com/questions/15861630/how-can-i-remove-a-whole-indexeddb-database-from-javascript
@@ -212,7 +157,7 @@ objectStore.createIndex("data3", "data3", { unique: false });
     });
   };*/
 
-//console.log("objectStore = db.createObjectStore");
+console.log("objectStore = db.createObjectStore");
 
 
 
@@ -238,7 +183,7 @@ if(com == "clear"){
 
 request.onsuccess = (event) => {
 
-//console.log("request.onsuccess = (event)");
+console.log("request.onsuccess = (event)");
 const db = event.target.result;
 
 // https://developer.mozilla.org/docs/Web/API/IDBObjectStore/clear
@@ -289,7 +234,7 @@ data = [
 
 request.onsuccess = (event) => {
 
-//console.log("request.onsuccess = (event)");
+console.log("request.onsuccess = (event)");
 const db = event.target.result;
 
 
@@ -610,23 +555,24 @@ const objectStore = transaction.objectStore(tableName);
 // save me, done I saved, del this comment
 
 objectStore.openCursor().onsuccess = function(event) { 
-var cursor = event.target.result;  console.log(id, status);
+var cursor = event.target.result;
+//console.log(id, status);
 if (cursor) {  
 if(cursor.key == id){
 
 const updateData = cursor.value;
+
 cursor.value.title = title;
 const request = cursor.update(updateData);
 request.onsuccess = () => {
-console.log('updated');
+//console.log('updated');
 };
 };
 
 //console.log('cur key: '+cursor.key);
 //console.dir('cur value: '+cursor.value.title);
 cursor.continue();  
-} 
-else {
+}else{
 console.log("[ not cursor, done ]");
 }  
 };  
@@ -725,7 +671,6 @@ doubleClickEdit = '';
 
 var printDaily = ''
 // add button option
-//com3, id3, title3, status3, statusDaily3
 if(statusDailyPrint == 'daily'){
 printDaily = `
 
@@ -1040,7 +985,7 @@ print2 = `
 
 <label class="block tLeft padding1px margin1PxList op small">+ add:</label>
 <form id="anchorIdFrom" class="padding2List marginList" action="index.html">
-<input id="inputTask" class="padding2" type="text" name="q" autocomplete="off" placeholder="input">
+<input id="inputTask" class="padding2" type="text" name="q" autocomplete="off" placeholder=" input">
 <input type="hidden" name="com" value="add">
 <div id="option"></div>
 <div class="submit tCenter small" style="cursor: pointer;" onclick="submitLink();">submit</div>
@@ -1104,7 +1049,7 @@ runDb(comInput, idInput, textInput);
 if(textInput != ''){
 /*var sTimeRedir = 500; // fix probably double submit
 setTimeout(function(){
-window.location.href = '?#stopReSubmit';
+//window.location.href = '?#stopReSubmit';
 window.location.replace('?#stopReSubmit',);
 //location.hash = '#anchorIdFrom'; //https://stackoverflow.com/questions/15736763/window-location-href-not-working-when-href-is-same-page
 }, sTimeRedir);*/

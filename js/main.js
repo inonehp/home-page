@@ -10,8 +10,9 @@ conf["confWrapperNavWidth"] = 900;
 conf["conMenuItemAverageWidth"] = 100;
 conf["confDomainNameInTitle"] = "off"; // on, off
 
-//IndexedDB API
-conf["confDbName"] = "mydb";
+//IndexedDB, DB list for clear
+conf["confDbList"] = "todo-list-task,todo-list-idea";
+
 conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
 conf["confTagListLimit"] = 38;
 conf["confLinkExtList"] = "index.html,.html,index.php,.php";

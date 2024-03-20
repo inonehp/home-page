@@ -665,7 +665,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Settings\n\nPage with settings: cookies, ads, other. ",
+        "text": "Settings\n\nPage with settings: cookies, ads, clear data, etc. ",
         "url": "\/settings.html",
         "tag": " #setting #page #main",
         "id": "66a61e3a38d33964bc4f29dae6426b82",
@@ -819,7 +819,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Todo list idea\n\ntodo list idea ",
+        "text": "Todo list idea\n\nTodo list idea, todo idea. ",
         "url": "\/projects\/todo-list-idea-32\/index.html",
         "tag": " #todo #list #idea #tool #JavaScript #project",
         "id": "12fd7e0887d1166db0cd105434c74534",

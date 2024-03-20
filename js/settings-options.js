@@ -202,7 +202,25 @@ window.indexedDB.databases().then((r) => {
 alert('All data cleared.');
 });*/
 
-window.indexedDB.deleteDatabase(conf["confDbName"]);
+
+
+(conf["confDbList"].split(",")).forEach((dbVal) => {
+
+//https://stackoverflow.com/questions/15861630/how-can-i-remove-a-whole-indexeddb-database-from-javascript
+var req = indexedDB.deleteDatabase(dbVal);
+req.onsuccess = function () {
+    console.log("Deleted database successfully");
+};
+req.onerror = function () {
+    console.log("Couldn't delete database");
+};
+req.onblocked = function () {
+    console.log("Couldn't delete database due to the operation being blocked");
+};
+
+//window.indexedDB.deleteDatabase(dbVal);
+
+});
 
 return reload();
 }

@@ -1,4 +1,4 @@
-// Todo v.2.3.1
+// Todo v.2.4.0
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -62,38 +62,17 @@ var i = 0;
 
 
 // main
-function runDb(com3, id3, title3, status3, statusDaily3){
+function runDb(com, id, title, status, statusDaily){
 
-com3 = fuMClearText(com3);
-id3 = fuMClearText(id3);
-title3 = fuMClearText(title3);
-status3 = fuMClearText(status3);
-statusDaily3 = fuMClearText(statusDaily3);
-
-
-
-
-var dbVersion = 1.2;
-var dbName = conf["confDbName"];
-var tableName = 'todo-list';
-
-/*
-com - command in script for done, clear ...
-id - id in db
-title - task text
-status = for status if done
-*/
+var dbVersion = 1.0;
+var dbName = "todo-list-task";
+var tableName = 'data';
 
 print = '';
 //document.getElementById("result").innerHTML = '';  // clear
 
 //comGet(com3, id3, title3, status3);
 
-com = com3;
-id = id3;
-title = title3;
-status = status3;
-statusDaily = statusDaily3;
 if(com == ''||com == undefined){ com = 'show'; text = ''; id = 0; status = ''; }
 
 
@@ -101,21 +80,6 @@ if(com == ''||com == undefined){ com = 'show'; text = ''; id = 0; status = ''; }
 
 
 
-
-// This is what our customer data looks like.
-/*var data = [
-{
-title:"title",
-text:"text",
-url:"url",
-tag:"tiag",
-time:"time",
-data:"data",
-data2:"data2",
-data3:"data3"  }
-];
-
-*/
 /*
 indexedDB.open(dbName, dbVersion).onsuccess = (event) => {
 const db = event.target.result;
@@ -707,7 +671,6 @@ doubleClickEdit = '';
 
 var printDaily = ''
 // add button option
-//com3, id3, title3, status3, statusDaily3
 if(statusDailyPrint == 'daily'){
 printDaily = `
 
