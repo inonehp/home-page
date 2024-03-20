@@ -10,7 +10,6 @@ Search (redirect), to-do, typing speed, games, icons, website templates, etc
 ---
   
 ZIP: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
-Donate: [Buy Me a Coffee](https://www.buymeacoffee.com/inonehp)  
 URL: [inonehp.pages.dev](https://inonehp.pages.dev/)  
   
 ---
