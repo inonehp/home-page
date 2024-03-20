@@ -1,4 +1,4 @@
-// Todo v.2.5.0
+// Todo v.2.5.1
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -23,6 +23,7 @@ var url = new URL(window.location);
 var q = url.searchParams.get("q");
 com = url.searchParams.get("com");
 
+var targetOption = '';
 
 if(q != null){
 q = fuMClearText(q);
@@ -89,7 +90,7 @@ const transaction = db.transaction([tableName], "readonly");
 const objectStore = transaction.objectStore(tableName);
 const countRequest = objectStore.count();
 countRequest.onsuccess = () => {
-  console.log(countRequest.result);
+//console.log(countRequest.result);
 };
 
 }*/
@@ -160,7 +161,7 @@ objectStore.createIndex("data3", "data3", { unique: false });
     });
   };*/
 
-console.log("objectStore = db.createObjectStore");
+//console.log("objectStore = db.createObjectStore");
 
 
 
@@ -186,7 +187,7 @@ if(com == "clear"){
 
 request.onsuccess = (event) => {
 
-console.log("request.onsuccess = (event)");
+//console.log("request.onsuccess = (event)");
 const db = event.target.result;
 
 // https://developer.mozilla.org/docs/Web/API/IDBObjectStore/clear
@@ -237,7 +238,7 @@ data = [
 
 request.onsuccess = (event) => {
 
-console.log("request.onsuccess = (event)");
+//console.log("request.onsuccess = (event)");
 const db = event.target.result;
 
 
@@ -252,13 +253,13 @@ data.forEach((tableName) => {
   const request = objectStore.add(tableName);
   request.onsuccess = (event) => {
     // event.target.result === customer.ssn;
-console.log('data added');
+//console.log('data added');
   };
 });
 
 
 transaction.oncomplete = (event) => {
-console.log("transaction.oncomplete");
+//console.log("transaction.oncomplete");
 
 if(q != ''&&com == 'add'&&String(window.location).indexOf('stopReSubmit') == -1){
 //window.location.href = '?#stopReSubmit';
@@ -281,7 +282,7 @@ runDb('show', '');
 
 transaction.onerror = (event) => {
   // Don't forget to handle errors!
-  console.log("transaction.onerror");
+//console.log("transaction.onerror");
 };
 
 
