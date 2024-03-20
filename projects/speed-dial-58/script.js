@@ -10,8 +10,8 @@ var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
 }else{
 var confSpeedDialDataArr = [];
 
-confSpeedDialDataArr.push({"text":"Google", "url":"https://www.google.com/"});
-confSpeedDialDataArr.push({"text":"YouTube", "url":"https://www.youtube.com/"});
+confSpeedDialDataArr.push({"text":"Task", "url":"/projects/todo-list-task-31/"});
+confSpeedDialDataArr.push({"text":"Typing", "url":"/projects/typing-speed-14/"});
 
 var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
 }
