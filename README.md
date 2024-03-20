@@ -4,8 +4,7 @@
   
 # Home page and projects.    
 
-Firefox theme, Geany theme.  
-Search (redirect), to-do, typing speed, games, icons, website templates, etc  
+A personal start page with projects such as themes, to-do list, typing, icons, templates, and more.
   
 ---
   

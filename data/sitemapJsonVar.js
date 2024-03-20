@@ -133,7 +133,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Chrome theme page\n\nChrome light theme, Chrome theme light. ",
+        "text": "Chrome theme page\n\nGoogle Chrome Themes. Themes for Google Chrome browser. ",
         "url": "\/chrome-theme-page.html",
         "tag": " #Chrome #theme #light #project #page #main",
         "id": "8e7c7bf3406bfad7263b7e037117c423",
@@ -245,7 +245,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Firefox theme page\n\nSeveral color themes for the Firefox browser in a flat style: light flat, dark flat, and several with other colors. ",
+        "text": "Firefox theme page\n\nFirefox themes. Theme for Mozilla Firefox browser light and dark. ",
         "url": "\/firefox-theme-page.html",
         "tag": " #Firefox #dark #light #theme #project #page #main",
         "id": "3d613fb39782d1a7c1844b2ced478a3b",
@@ -868,7 +868,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Vscode theme page\n\nVisual Studio Code themes: light and dark.\nVisual studio themes. ",
+        "text": "Vscode theme page\n\nVSCode themes. Theme for Visual Studio Code. ",
         "url": "\/vscode-theme-page.html",
         "tag": " #Visual #Studio #Code #theme #color #flat #dark #light #VSCode #project #page #main",
         "id": "48d8a39a6a2042b79fd9cedef9e93813",
