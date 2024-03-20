@@ -577,12 +577,12 @@ request.onsuccess = () => {
 //console.dir('cur value: '+cursor.value.text);
 cursor.continue();  
 }else{
-console.log("[ not cursor, done ]");
+//console.log("[ not cursor, done ]");
 }  
 };  
 
 transaction.oncomplete = (event) => {
-console.log("[ transaction.oncomplete ]");
+//console.log("[ transaction.oncomplete ]");
 //runDb('show', '');
 com = '';
 if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
