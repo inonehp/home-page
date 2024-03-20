@@ -429,14 +429,14 @@ var sitemapJsonVar = [
     {
         "text": "Main list\n\nList of the main pages of the site. ",
         "url": "\/main-list.html",
-        "tag": " #main #menu #list #projects #main #pages",
+        "tag": " #portfolio #menu #list #projects #pages #main",
         "id": "733a76918eebc08eb9671ed9e7d6c74e",
         "time": "id"
     },
     {
         "text": "Mini projects list\n\nMini projects only using HTML, and CSS. ",
         "url": "\/mini-projects-list.html",
-        "tag": " #mini #projects #project #HTML #CSS #noscript #projects #list #main #pages",
+        "tag": " #mini #portfolio #HTML #CSS #noscript #projects #menu #list #pages #main",
         "id": "733a6e37ab70a4c649077b3da5c564f8",
         "time": "id"
     },
@@ -562,7 +562,7 @@ var sitemapJsonVar = [
     {
         "text": "Projects list\n\nProjects based on HTML, CSS and JavaScript. ",
         "url": "\/projects-list.html",
-        "tag": " #HTML #CSS #JavaScript #projects #list #pages #main",
+        "tag": " #portfolio #HTML #CSS #JavaScript #projects #menu #list #pages #main",
         "id": "6c8d65a79d2131f6bbcadd08cd1bf954",
         "time": "id"
     },
