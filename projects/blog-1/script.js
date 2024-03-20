@@ -1,4 +1,4 @@
-// Blog v.2.12.0
+// Blog v.2.12.1
 // Mini Keep, X (Twitter)
 // tags, search, embed
 // Inspired by keep, X (Twitter), Fediverse
@@ -1512,7 +1512,7 @@ postFooter = '';
 postFooterPadding = ' <div class="block padding2List"></div> ';
 }
 
-if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ lPost = `<div class="h1">${post}</div>`; } // without highlight (embed)
+if(display == 'article'&&mode != 'id'&&mode != 'singleList'&&mode != 'random'){ lPost = `<div class="h1">${post}</div>`; } // without highlight (embed)
 /*
 //
 if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time = `<a class="tag brand light border4 op borderRadius2 small"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
