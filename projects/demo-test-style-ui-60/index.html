@@ -5,7 +5,7 @@
 <title>CSS Demo test style UI</title>
 
 <meta name="description" content="
-CSS demo test style UI. Demo test style page. 
+CSS demo test style UI. Demo test style page. Demo UI or test UI.
 ">
 <meta name="keywords" content="
 demo, test, style, UI,
@@ -124,32 +124,84 @@ CSS, project,
 
 <div class="margin2 padding2"></div>
 
-<div class="bg padding2 border4 borderRadius">
+<div class="bg padding3 border4 borderRadius">
 
 <a href="#" class="tag light2 border">text tag 1</a>
-<a href="#" class="tag light2 border borderRadius2">text tag 2</a>
-<a href="#" class="tag light2 border borderRadius3">text tag 3</a>
-<a href="#" class="tag light2 border borderRadius4">text tag 4</a>
+<a href="#" class="tag light2 border borderRadius2">link tag 2</a>
+<a href="#" class="tag light2 border borderRadius3">link tag 3</a>
+<a href="#" class="tag light2 border borderRadius4">link tag 4</a>
 <hr>
 <a href="#" class="tag light2 border2">text tag 5</a>
-<a href="#" class="tag light2 border2 borderRadius2">text tag 6</a>
-<a href="#" class="tag light2 border2 borderRadius3">text tag 7</a>
-<a href="#" class="tag light2 border2 borderRadius4">text tag 8</a>
+<a href="#" class="tag light2 border2 borderRadius2">link tag 6</a>
+<a href="#" class="tag light2 border2 borderRadius3">link tag 7</a>
+<a href="#" class="tag light2 border2 borderRadius4">link tag 8</a>
+
 <hr>
-<a href="#" class="button light2 border borderRadius">text button 1</a>
-<a href="#" class="button light2 border borderRadius2">text button 2</a>
-<a href="#" class="button light2 border borderRadius3">text button 3</a>
-<a href="#" class="button light2 border borderRadius4">text button 4</a>
+<a href="#" class="button light2 border borderRadius">link button 1</a>
+<a href="#" class="button light2 border borderRadius2">link button 2</a>
+<a href="#" class="button light2 border borderRadius3">link button 3</a>
+<a href="#" class="button light2 border borderRadius4">link button 4</a>
 <hr>
-<a href="#" class="button light2 border2 borderRadius">text button 5</a>
-<a href="#" class="button light2 border2 borderRadius2">text button 6</a>
-<a href="#" class="button light2 border2 borderRadius3">text button 7</a>
-<a href="#" class="button light2 border2 borderRadius4">text button 8</a>
+<a href="#" class="button light2 border2 borderRadius">link button 5</a>
+<a href="#" class="button light2 border2 borderRadius2">link button 6</a>
+<a href="#" class="button light2 border2 borderRadius3">link button 7</a>
+<a href="#" class="button light2 border2 borderRadius4">link button 8</a>
+
+<hr>
+<a href="#" class="button light2 shadow borderRadius">link button 9</a>
+<a href="#" class="button light2 shadow borderRadius2">link button 10</a>
+<a href="#" class="button light2 shadow borderRadius3">link button 11</a>
+<a href="#" class="button light2 shadow borderRadius4">link button 12</a>
+<hr>
+<a href="#" class="button light2 shadow2 borderRadius">link button 13</a>
+<a href="#" class="button light2 shadow2 borderRadius2">link button 14</a>
+<a href="#" class="button light2 shadow2 borderRadius3">link button 15</a>
+<a href="#" class="button light2 shadow2 borderRadius4">link button 16</a>
+</div>
+
+
+
+<div class="margin2 padding2"></div>
+
+
+
+<div class="bg padding3 border borderRadius2">
+
+<form action="login.html" method="POST">
+
+<label class="small block paddingList op" for="email">Enter your email:</label>
+<input id="email" type="email" placeholder="name@example.com" name="email">
+
+<div class="padding"></div>
+<label  class="small block paddingList op" for="pass">Password (8 characters minimum):</label>
+<input type="password" id="pass" name="password" minlength="8" required>
+
+<input class="small" type="submit">
+
+</form>
 
 </div>
 
 
 
+<div class="margin2 padding2"></div>
+
+
+
+<div class="bg padding3 border borderRadius2">
+<form id="form" method="GET" class="block" action="index.html" role="search">
+<label id="search" class="op block xSmall">Site search:</label>
+<input id="input" aria-labelledby="search" type="search" name="q" autofocus="autofocus"  placeholder="" autocomplete="off" spellcheck="true">
+<input type="submit" value="search" class="xSmall op">
+</div>
+
+</form>
+
+
+
+
+
+</div>
 </main>
 
 
@@ -161,7 +213,7 @@ CSS, project,
 <script src="script.js"></script>
 
 
-<script>document.getElementById("confTheme").innerHTML =  '<span class="small">device theme: <b>' + conf["confDeviceTheme"] + ' </b><br />website theme: <b>' + `${conf["confTheme"]} (` + conf["confRealTmpTheme"] + ')</b></span>';</script>
+<!--<script>document.getElementById("confTheme").innerHTML =  '<span class="small">device theme: <b>' + conf["confDeviceTheme"] + ' </b><br />website theme: <b>' + `${conf["confTheme"]} (` + conf["confRealTmpTheme"] + ')</b></span>';</script>-->
 
 
 </body>

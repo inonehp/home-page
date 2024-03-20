@@ -407,14 +407,14 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/demo-test-style-class-5\/index.html",
-        "text": "CSS Demo test style class\n\nCSS demo test style class. Demo test style page. || demo test style class: ",
+        "text": "CSS Demo test style class\n\nCSS demo test style class. Demo test style page. Demo class or test class. || demo test style class: ",
         "tag": " #demo #test #style #class #CSS #project",
         "id": "2b364b2c4497a6f4f984719349efdfe1",
         "time": "id"
     },
     {
         "url": "\/projects\/demo-test-style-ui-60\/index.html",
-        "text": "CSS Demo test style UI\n\nCSS demo test style UI. Demo test style page. || demo test style ui: ",
+        "text": "CSS Demo test style UI\n\nCSS demo test style UI. Demo test style page. Demo UI or test UI. || demo test style ui: ",
         "tag": " #demo #test #style #UI #CSS #project",
         "id": "556cb520771b2cbd0ff3f89bdf141ca6",
         "time": "id"
@@ -589,7 +589,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/redirects-25\/index.html",
-        "text": "Redirects\n\nWeb search, more correct, a search form with redirection of entered queries to other real search engines. || redirects: ",
+        "text": "Search Redirect\n\nSearch redirect, a search with redirection to other search engines. || redirects: ",
         "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
         "id": "280eb18049f8b5aa6ae73412cbb71eb4",
         "time": "id"
