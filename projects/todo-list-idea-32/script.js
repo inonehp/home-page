@@ -1,4 +1,4 @@
-// Todo v.2.4.0
+// Todo v.2.5.0
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -62,7 +62,7 @@ var i = 0;
 
 
 // main
-function runDb(com, id, title, status, statusDaily){
+function runDb(com, id, text, status, statusDaily){
 
 var dbVersion = 1.0;
 var dbName = "todo-list-idea";
@@ -71,7 +71,7 @@ var tableName = 'data';
 print = '';
 //document.getElementById("result").innerHTML = '';  // clear
 
-//comGet(com3, id3, title3, status3);
+//comGet(com, id, text, status);
 
 if(com == ''||com == undefined){ com = 'show'; text = ''; id = 0; status = ''; }
 
@@ -138,11 +138,14 @@ const db = event.target.result;
 
 const objectStore = db.createObjectStore(tableName, { autoIncrement : true });
 
-objectStore.createIndex("title", "title", { unique: false });
+
 objectStore.createIndex("text", "text", { unique: false });
+objectStore.createIndex("text2", "text2", { unique: false });
+objectStore.createIndex("text3", "text3", { unique: false });
 objectStore.createIndex("url", "url", { unique: false });
 objectStore.createIndex("tag", "tag", { unique: false });
 objectStore.createIndex("time", "time", { unique: false });
+
 objectStore.createIndex("data", "data", { unique: false });
 objectStore.createIndex("data2", "data2", { unique: false });
 objectStore.createIndex("data3", "data3", { unique: false });
@@ -229,7 +232,7 @@ if(com == 'add'){
 
 // test for add
 data = [
-  { title:title }
+  { text:text }
 ];
 
 request.onsuccess = (event) => {
@@ -309,7 +312,7 @@ print = '';
 if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 }else{
 //console.log('cur key: '+cursor.key);
-//console.dir('cur value: '+cursor.value.title);
+//console.dir('cur value: '+cursor.value.text);
 cursor.continue();
 //alert(cursor.key);
 } 
@@ -358,7 +361,7 @@ cursor.delete();
 
 
 //console.log('cur key: '+cursor.key);
-//console.dir('cur value: '+cursor.value.title);
+//console.dir('cur value: '+cursor.value.text);
 
 cursor.continue();  
 }  
@@ -402,7 +405,7 @@ request.onsuccess = () => {
 };
 
 //console.log('cur key: '+cursor.key);
-//console.dir('cur value: '+cursor.value.title);
+//console.dir('cur value: '+cursor.value.text);
 cursor.continue();  
 }  
 else {  
@@ -453,7 +456,7 @@ request.onsuccess = () => {
 };
 
 //console.log('cur key: '+cursor.key);
-//console.dir('cur value: '+cursor.value.title);
+//console.dir('cur value: '+cursor.value.text);
 cursor.continue();  
 }  
 else {  
@@ -515,7 +518,7 @@ request.onsuccess = () => {
 
 
 //console.log('cur key: '+cursor.key);
-//console.dir('cur value: '+cursor.value.title);
+//console.dir('cur value: '+cursor.value.text);
 cursor.continue();  
 }  
 else {  
@@ -562,7 +565,7 @@ if(cursor.key == id){
 
 const updateData = cursor.value;
 
-cursor.value.title = title;
+cursor.value.text = text;
 const request = cursor.update(updateData);
 request.onsuccess = () => {
 //console.log('updated');
@@ -570,7 +573,7 @@ request.onsuccess = () => {
 };
 
 //console.log('cur key: '+cursor.key);
-//console.dir('cur value: '+cursor.value.title);
+//console.dir('cur value: '+cursor.value.text);
 cursor.continue();  
 }else{
 console.log("[ not cursor, done ]");
@@ -614,32 +617,32 @@ objectStore.openCursor(null, 'prev').onsuccess = function(event){
 var cursor = event.target.result;  
 if (cursor) { 
 //console.log('cur key: '+cursor.key);
-//console.dir('cur value: '+cursor.value.title);
+//console.dir('cur value: '+cursor.value.text);
 
 let idPrint = cursor.key;
-let titlePrint = decodeURIComponent(cursor.value.title);
+let textPrint = decodeURIComponent(cursor.value.text);
 let statusPrint = decodeURIComponent(cursor.value.data);
 let statusDailyPrint = decodeURIComponent(cursor.value.data2);
 
-let titlePrintHighlight = highlightText(titlePrint);
+let textPrintHighlight = highlightText(textPrint);
 
 var statusPrint2 = '';
 var statusDailyPrint2 = '';
 if(statusPrint == 'done'){ statusPrint2 = '#tDone'; } else { statusPrint2 = '#tNotDone'; }
 if(statusDailyPrint == 'daily'){ statusDailyPrint2 = '#tDaily'; }else{ statusDailyPrint2 = '#tNotDaily'; }
 
-tagListPrint += ' ' + titlePrint + ' ';
-//var qData = ' ' + titlePrint + ' ' + statusPrint2 + ' ' + statusDailyPrint2 + ' ';
-var qData = ' ' + titlePrint;
+tagListPrint += ' ' + textPrint + ' ';
+//var qData = ' ' + textPrint + ' ' + statusPrint2 + ' ' + statusDailyPrint2 + ' ';
+var qData = ' ' + textPrint;
 
 
 if(com == 'edit'&&id == idPrint){
-/*editPrint = `<form style="margin: 10px 0;"><input id="inputTaskUp" class="padding2" type="text" name="q" autofocus="autofocus" autocomplete="off" placeholder=" task" value="${titlePrint}"><input  type="hidden" name="com" value="edit"><input id="idInputE" type="hidden" name="id" value="${idPrint}"><input type="submit"></form><div id="option2"></div>`;*/
+/*editPrint = `<form style="margin: 10px 0;"><input id="inputTaskUp" class="padding2" type="text" name="q" autofocus="autofocus" autocomplete="off" placeholder=" task" value="${textPrint}"><input  type="hidden" name="com" value="edit"><input id="idInputE" type="hidden" name="id" value="${idPrint}"><input type="submit"></form><div id="option2"></div>`;*/
 
-editPrint = `<form><textarea id="textInputE" class="padding2" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${titlePrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><tag class="block tCenter padding2 light borderList borderRadius2" style="cursor: pointer;" onclick="submitLinkEdit()">submit</tag></form>`;
+editPrint = `<form><textarea id="textInputE" class="padding2" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${textPrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><tag class="block tCenter padding2 light borderList borderRadius2" style="cursor: pointer;" onclick="submitLinkEdit()">submit</tag></form>`;
 }else{
-//editPrint = `<span onclick="runDb('edit', '`+idPrint+`', '', '')">${titlePrint}</span>`;
-editPrint = `${titlePrintHighlight}`;
+//editPrint = `<span onclick="runDb('edit', '`+idPrint+`', '', '')">${textPrint}</span>`;
+editPrint = `${textPrintHighlight}`;
 }
 
 
@@ -718,7 +721,7 @@ var print33Tmp = `
 
 <!--<div class="op xSmall">${idPrint}</div>-->
 <input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')">
-<div class="flexCenter"><div class="pre block">${titlePrint}</div></div>
+<div class="flexCenter"><div class="pre block">${textPrint}</div></div>
 
 <div class="block tRight">
 

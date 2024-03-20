@@ -821,14 +821,14 @@ var sitemapJsonVar = [
     {
         "text": "Todo list idea\n\nTodo list idea, todo idea. ",
         "url": "\/projects\/todo-list-idea-32\/index.html",
-        "tag": " #todo #list #idea #tool #JavaScript #project",
+        "tag": " #todo #idea #tool #JavaScript #project",
         "id": "12fd7e0887d1166db0cd105434c74534",
         "time": "id"
     },
     {
-        "text": "Todo list task\n\nSimple todo list or task list:\r\n\u00b7 checkmark, adding, editing, deletion task.\r\n\u00b7 pin to the top.\r\n\u00b7 random task.\r\n\u00b7 clear, delete. ",
+        "text": "Todo list task\n\nTodo list task, todo task. ",
         "url": "\/projects\/todo-list-task-31\/index.html",
-        "tag": " #todo #task #tool #list #task #JavaScript #project",
+        "tag": " #todo #task #tool #JavaScript #project",
         "id": "4496de3bbb3500a9da07fdaec6a7d7f3",
         "time": "id"
     },
