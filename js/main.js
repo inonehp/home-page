@@ -1,4 +1,4 @@
-// Main js v.6.3.24
+// Main js v.6.3.25
 // For navigation, themes, etc
 
 // Settings v.1.0.1
@@ -60,7 +60,9 @@ This is necessary to improve the site.
 },
 {
 "confTitle":"Hide link extensions",
-"confDescription":"Hides extensions in links. Example: /blog.html to /blog. This is to make the PWA (Website as an App) work.",
+"confDescription":`Hides extensions in links. Example: /blog.html to /blog.
+
+<span class="xSmall">(For fix page error 404 if PWA - website as app.)</span>`,
 "confName":"confHideLinkExt",
 "confValueDefault":"off",
 "confValueVariant":["on", "off"],
@@ -101,7 +103,7 @@ confData.forEach((val) => {
 conf[val.confName] = localStorage.getItem(val.confName);
 
 if(conf[val.confName] == null||conf[val.confName] == undefined){
-// enable hide ext
+// enable hide ext / main.js, settings page
 if(String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
 val.confValueDefault = 'on';
 }

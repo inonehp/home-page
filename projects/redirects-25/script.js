@@ -227,6 +227,7 @@ break;
 case 't#':
 case 'tr#':
 case 'tra#':
+case 'd#':
 q = q3.replace(q2, '');
 q = q.trim();
 

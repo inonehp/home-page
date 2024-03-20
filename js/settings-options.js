@@ -1,4 +1,4 @@
-// Settings print page v.1.1.1
+// Settings print page v.1.1.2
 // var config in main.js
 
 function printFunctionLocal(comSettings){
@@ -41,6 +41,12 @@ confValueVariantPrint += `
 
 if(comSettings == "reset"){
 setSeting(`${val.confName}`, `${val.confValueDefault}`);
+
+// enable hide ext / main.js, settings page
+if(String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
+setSeting(`${val.confName}`, `on`);
+}
+
 }
 
 
