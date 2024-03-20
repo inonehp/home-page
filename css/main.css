@@ -1,4 +1,4 @@
-/* Main style v.14.5.0
+/* Main style v.14.5.1
 My mini CSS framework
 main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
@@ -215,17 +215,10 @@ transform: rotate(360deg);
 }
 
 @media (prefers-reduced-motion) {
-.logo, .logo2 {
-transition: unset;
-animation: none;
-opacity: 1;
-}
-}
-
-@media (prefers-reduced-motion) {
 .logo:hover, .logo2:hover{ border-color: var(--c); }
 }
 
+@media (prefers-reduced-motion: no-preference) {
 @keyframes mAni {
 from { transform: rotate(0); }
 to { transform: rotate(360deg); }
@@ -235,7 +228,7 @@ to { transform: rotate(360deg); }
 from{ border: 2px solid color-mix(in srgb, var(--brand) 100%, transparent); }
 to { border: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
 }
-
+}
 
 .tagList, .tagList2 {
 display: inline-flex;
