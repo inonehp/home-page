@@ -2,7 +2,7 @@ var articlesJsonVar =
 [
     {
         "id": "7",
-        "text": "Auto dark theme and auto light theme\u00a0mode (app list)",
+        "text": "Auto dark mode and auto light mode for browser and OS (app list).",
         "text2": "List of application and extensions for auto dark theme and light theme mode. Automatic change of the theme based on the time of day or a custom time.\r\n\r\nIf you have Windows, Linux (Gnome DE) and the Firefox browser, then this topic is for you.\r\n\r\n\r\nWindows:\r\n\r\nAuto Dark Mode\r\nhttps:\/\/apps.microsoft.com\/detail\/xp8jk4hzbvf435\r\nrepository\r\nhttps:\/\/github.com\/AutoDarkMode\/Windows-Auto-Night-Mode\r\n\r\n\r\nLinux (Ubuntu or Gnome DE):\r\n\r\nNight Theme Switcher\r\nhttps:\/\/nightthemeswitcher.romainvigier.fr\/\r\nhttps:\/\/extensions.gnome.org\/extension\/2236\/night-theme-switcher\/\r\nrepository\r\nhttps:\/\/gitlab.com\/rmnvgr\/nightthemeswitcher-gnome-shell-extension\r\n\r\n\r\nMozilla Firefox:\r\n\r\nautomaticDark - Time-Based Theme Changer\r\nhttps:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/automatic-dark\/\r\nrepository\r\nhttps:\/\/github.com\/skhzhang\/time-based-themes\r\n\r\n\r\nVSCode:\r\n\r\nSundial \u2013 Automatic night mode and settings switch\r\nhttps:\/\/marketplace.visualstudio.com\/items?itemName=muuvmuuv.vscode-sundial\r\nrepository\r\nhttps:\/\/github.com\/muuvmuuv\/vscode-sundial",
         "text3": "",
         "url": "",
