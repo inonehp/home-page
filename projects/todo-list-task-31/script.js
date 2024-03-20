@@ -74,7 +74,7 @@ statusDaily3 = fuMClearText(statusDaily3);
 
 
 var dbVersion = 1.2;
-var dbName = 'db';
+var dbName = 'mydb';
 var tableName = 'todo-list';
 
 /*

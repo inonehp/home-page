@@ -1,4 +1,4 @@
-// Settings print page v.1.1.2
+// Settings print page v.1.2.0
 // var config in main.js
 
 function printFunctionLocal(comSettings){
@@ -90,12 +90,17 @@ print = `
 ${printBody}
 
 
-<div class="padding block"></div>
-<div class="shadow button padding3 light2 bold block op pointer borderBottomOrange" onclick="settingOptionReset();">Reset settings</div>
+<div class="margin2 padding2"></div>
 
-<div class="padding block"></div>
-<div class="shadow button padding3 light2 bold block op pointer borderBottomRed" onclick="settingOptionClearData();">Clear local storage</div>
+<div class="shadow button padding3 light2 bold block pointer borderBottomOrange" onclick="settingOptionReset();">Reset settings</div>
 
+<div class="margin2 padding2"></div>
+
+<div class="padding block right">
+<div class="shadow button padding3 light2 bold pointer borderBottomRed" onclick="settingOptionClearData();">Clear local storage</div>
+
+<div class="shadow button padding3 light2 bold pointer borderBottomRed" onclick="settingOptionClearDataIndexdDb();">Clear IndexedDB</div>
+</div>
 
 
 </div>
@@ -169,8 +174,7 @@ return printFunctionLocal();
 
 function settingOptionReset(){
 
-if(confirm(`Are you sure?
-(set all options to default values)`) == true){
+if(confirm(`Are you sure? (Set all options to default values)`) == true){
 printFunctionLocal("reset");
 return reload();
 }
@@ -179,14 +183,33 @@ return reload();
 
 function settingOptionClearData(){
 
-if(confirm(`Are you sure?
-(All local storage data will be deleted)`) == true){
+if(confirm(`Are you sure? (All local storage data will be deleted)`) == true){
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage/clear
 localStorage.clear();
 return reload();
 }
 
 }
+
+function settingOptionClearDataIndexdDb(){
+
+if(confirm(`Are you sure? (All IndexedDB data will be deleted)`) == true){
+
+/*//https://stackoverflow.com/questions/46040005/delete-all-indexeddb
+window.indexedDB.databases().then((r) => {
+    for (var i = 0; i < r.length; i++) window.indexedDB.deleteDatabase(r[i].name);
+}).then(() => {
+alert('All data cleared.');
+});*/
+
+window.indexedDB.deleteDatabase("mydb");
+
+return reload();
+}
+
+}
+
+
 
 
 

@@ -14,6 +14,7 @@ conf["confIdEmbedScript"] = "footer";
 conf["confWrapperNavWidth"] = 900;
 conf["conMenuItemAverageWidth"] = 100;
 
+// IndexedDB API (db name: "mydb")
 
 // settings var
 const confData = [
