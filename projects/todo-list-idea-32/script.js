@@ -1,4 +1,4 @@
-// Todo v.2.5.1
+// Todo v.2.6.0
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -859,7 +859,7 @@ document.getElementById('result').innerHTML = '';
 var allOtherTaskMsg = '';
 if(printListPrintDaily != ''){
 printListPrintDaily = `
-<div class="op block padding1px margin1PxList small">pined or daily:</div>
+<div class="op block padding1px margin1PxList small">pined:</div>
 ${printListPrintDaily}
 `;
 if(printListPrint != ''&&printListPrintDaily != ''&&printListPrint != ''){
@@ -997,8 +997,8 @@ print2 = `
 
 <div class="block tRight padding">
 <div class="block padding2"></div>
-<span class="op xSmall">commands:</span>
-<tag class="tag2 op border borderRadius2 light small" style="cursor: pointer" onclick="confirmCom('delAllDone')">remove all done (not daily)</tag>
+<!--<span class="op xSmall">commands:</span>-->
+<tag class="tag2 op border borderRadius2 light small" style="cursor: pointer" onclick="confirmCom('delAllDone')">remove all done (not pined)</tag>
 <tag class="tag2 op border borderRadius2 light small margin2List" style="cursor: pointer" onclick="confirmCom('clear')">remove all</tag>
 
 
@@ -1006,7 +1006,7 @@ print2 = `
 <br>
 
 <div class="block tRight xSmall op">
-Pinned or daily the check mark is uncheck mark automatically every new day.
+Pinned checked mark is uncheck automatically every new day.
 </div>
 
 </div>
