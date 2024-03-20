@@ -84,7 +84,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Blog\n\nJavaScript blog. ",
+        "text": "Blog\n\nSometimes I share something in this place. ",
         "url": "\/projects\/blog-1\/index.html",
         "tag": " #blog #post #JavaScript #page #project",
         "id": "acf5def736aa5cabdd35d376e904ae8c",
@@ -133,7 +133,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Chrome theme page\n\nGoogle Chrome Themes. Themes for Google Chrome browser. ",
+        "text": "Chrome theme page\n\nGoogle Chrome Themes. Themes for Google Chrome browser with a light and dark colors. ",
         "url": "\/chrome-theme-page.html",
         "tag": " #Chrome #theme #light #project #page #main",
         "id": "8e7c7bf3406bfad7263b7e037117c423",
@@ -161,9 +161,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Computer css\n\nCSS computer.\r\nCSS art. CSS image. ",
+        "text": "Computer css\n\nCSS art description. ",
         "url": "\/css-art\/computer-css-9\/index.html",
-        "tag": " #computer #CSSArt #HTML #CSS #project",
+        "tag": " #CSSArt #HTML #CSS #project",
         "id": "4323f85c70362e68f21d1489742b2fad",
         "time": "id"
     },
@@ -238,7 +238,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Firefox extensions page\n\nFirefox browser extension: new tab redirct, localhost as search engine, ... ",
+        "text": "Firefox extensions page\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct, localhost as search engine. ",
         "url": "\/firefox-extensions-page.html",
         "tag": " #Firefox #hotkeys #new #tab #NewTab #firefox #extesion #projects #project #list #page #main",
         "id": "e7fa8bc5b7a972978aa336ec51f9db3e",
@@ -301,7 +301,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Geany theme page\n\nGeany IDE themes: light and dark.\nGeany dark theme, Geany light theme.\nGeany color dark, Geany color light.\nGeany page. Geany Theme. ",
+        "text": "Geany theme page\n\nGeany themes. Theme for Geany IDE with a light and dark colors. ",
         "url": "\/geany-theme-page.html",
         "tag": " #Geany #theme #color #flat #dark #light #project #page #main",
         "id": "31896b8781cc263386a9442026f4071b",
@@ -371,14 +371,14 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Icons page\n\nProject: icons for the menu ",
+        "text": "Icons page\n\nProject: icons for the menu. ",
         "url": "\/icons-page.html",
         "tag": " #icon #icons #svg #illustration #page #main",
         "id": "531f520df77a9984d58e4e059bfbc10c",
         "time": "id"
     },
     {
-        "text": "Images page\n\nBadly drawn or made pictures, sometimes something turns out well. Mini Instagram or Pinterest. ",
+        "text": "Images page\n\nSometimes I draw something ",
         "url": "\/images-page.html",
         "tag": " #img #picture #wallpaper #logo #illustration #page #main",
         "id": "9af0c15fdbebb872da9388d3977cdfbc",
@@ -413,7 +413,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Links\n\nThe collection of links. P.S.: Google has a larger collection of websites. ",
+        "text": "Links\n\nThe collection of links or bookmarks. ",
         "url": "\/links.html",
         "tag": " #websites #links #bookmark #collection #page #main",
         "id": "89c3ca4c0d51a9790717206e38a14c50",
@@ -441,7 +441,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Movie flat auto light dark\n\nWebsite template description. ",
+        "text": "Movie flat auto light dark\n\nWebsite template description ",
         "url": "\/templates\/movie-flat-auto-light-dark-11\/index.html",
         "tag": " #WebDesign #template",
         "id": "28b350e66e1aa6dee03e29b61021be70",
@@ -532,7 +532,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Print\n\nThis is the tpl for create projects. ",
+        "text": "Print\n\nPrint - print function test. ",
         "url": "\/projects\/print-53\/index.html",
         "tag": " #empty",
         "id": "538c39d5fb633dd0ff8b888f9678fef8",
@@ -567,9 +567,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Pumpkin css\n\nCSS drawing of a pumpkin for Halloween. Drawing using only HTML and CSS.\r\nCSS art. CSS image. ",
+        "text": "Pumpkin css\n\nCSS art description. ",
         "url": "\/css-art\/pumpkin-css-15\/index.html",
-        "tag": " #pumpkin #CSSArt #HTML #CSS #project",
+        "tag": " #CSSArt #HTML #CSS #project",
         "id": "cf7f15fc65afe125f709a8097a554d77",
         "time": "id"
     },
@@ -630,9 +630,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Realistic old windows os popup window\n\nCSS realistic drawing of the popup window of the old Windows operating system.\r\nCSS art. CSS image. ",
+        "text": "Realistic old windows os popup window\n\nCSS art description. ",
         "url": "\/css-art\/realistic-old-windows-os-popup-window-12\/index.html",
-        "tag": " #window #WindowPopup #ralistic #CSSArt #HTML #CSS #project",
+        "tag": " #CSSArt #HTML #CSS #project",
         "id": "a62bafe89afd9d29949172315708a5f0",
         "time": "id"
     },
@@ -833,13 +833,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Tpl\n\nnone,\nNot intended for viewing.\nCSS art. CSS image. ",
-        "url": "\/css-art\/tpl-0\/index.html",
-        "tag": " #none #CSSArt #HTML #CSS #project #CSS_art._CSS_image.",
-        "id": "877db8a403b76dddfef8a32705fa89cd",
-        "time": "id"
-    },
-    {
         "text": "Transliterate\n\nCyrillic transliteration using JavaScript. ",
         "url": "\/projects\/transliterate-35\/index.html",
         "tag": " #transliteration #text #tool #translit #JavaScript #project",
@@ -868,7 +861,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Vscode theme page\n\nVSCode themes. Theme for Visual Studio Code. ",
+        "text": "Vscode theme page\n\nVSCode themes. Theme for Visual Studio Code with a light and dark colors. ",
         "url": "\/vscode-theme-page.html",
         "tag": " #Visual #Studio #Code #theme #color #flat #dark #light #VSCode #project #page #main",
         "id": "48d8a39a6a2042b79fd9cedef9e93813",
@@ -896,9 +889,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Woman css\n\nCSS drawing woman.\r\nCSS art. CSS image. ",
+        "text": "Woman css\n\nCSS art description. ",
         "url": "\/css-art\/woman-css-32\/index.html",
-        "tag": " #womain #CSSArt #HTML #CSS #project",
+        "tag": " #CSSArt #HTML #CSS #project",
         "id": "bd69c0e5b8cc026f9a58a143ccd74052",
         "time": "id"
     },
