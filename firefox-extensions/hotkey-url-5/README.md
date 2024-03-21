@@ -1,9 +1,8 @@
 README.md  
 
 About:  
-
-Assign keys to a specific website.  
-When you press the assigned Key and URL that is set in the setting, it's opening in the current or new tab (if you input a specific parameter).
+Assign key to a specific website.  
+Pressing the key will open the site. In the settings, you need to specify: key = URL address of the site..  
 
 Notice:  
 · Keys: maximum 1-3 keys.  
@@ -11,14 +10,13 @@ Notice:
 %title (page title),  
 %url (page URL),  
 %selection (selected text on a page),  
-%blank or %NewTab (command for opening in new tab).  
 %input (input dialog).  
 · Addon tries to stop working when entering text.
 
 Example:  
 key and URL:  
-"!", "https://twitter.com/%blank"   
-"Control1", "https://google.com/?q=%input%blank"  
+"!" and "https://twitter.com/"   
+"Control1" and "https://google.com/?q=%input"  
 
 
 Screenshots:  
