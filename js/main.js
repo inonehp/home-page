@@ -363,7 +363,7 @@ fDescArr.forEach((tag) => {
 if((tag.trim()) != ''&&fDescTagsLimitCounter <= fDescTagsLimit){
 tag = tag.trim();
 tag = tag.replaceAll(" ", "_");
-fDescTags += `<a class="tag brand light border2 borderRadius2" href="/?q=%23${tag} qq">#${tag}</a> `;
+fDescTags += `<a class="tag brand light border2 borderRadius2" href="/site-search.html?q=%23${tag} qq">#${tag}</a> `;
 }
 fDescTagsLimitCounter++;
 });
