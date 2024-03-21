@@ -1,4 +1,4 @@
-// Blog v.2.14.3
+// Blog v.2.15.0
 // Mini Keep, X (Twitter)
 // tags, search, embed
 // Inspired by keep, X (Twitter), Fediverse
@@ -11,7 +11,7 @@
 // fresh config in script.js
 let blogConfig = {
 "postLimit":"", // number
-"embedStatus":"", // off
+"embedStatus":"", // off, not list,
 "multiEmbedStatus":"", // on
 "tagListStatus":"", // off
 "tagListLimit":"", // number
@@ -1566,7 +1566,14 @@ var checkText = true;
 // light 1 highlightText
 function highlightText(text, targetOption, subQforLight){
 
-if(mode == 'random'||mode == 'auto-random'){ embedStatus = 'on'; }
+if(embedStatus == "not list"&&mode != "list"){ embedStatus = 'on'; }
+
+/*if(embedStatus == "notist"){
+if(mode == 'id'||mode == "singleList"||mode == 'random'||mode == 'auto-random'){
+embedStatus = 'on';
+}
+}
+test delme*/
 
 //text = decodeURIComponent(text); // error sometimes
 text = clearText(text);
@@ -1859,7 +1866,7 @@ if(item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1item.search(".jpg|.jpeg|.p
 embed = `<a href="${item}"><img class="border" src="${item}" width=""></a>`
 }*/
 
-if(embedStatus != 'off'){
+if(embedStatus == 'on'){
 //https://stackoverflow.com/questions/2390789/how-to-replace-all-dots-in-a-string-using-javascript
 itemCheck = item.replaceAll(/\./g, confSymbolForSplit);
 
@@ -1920,7 +1927,7 @@ var item222 = '';
 //if(item.search("http") != -1){
 if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1){
 
-if(embedStatus != 'off'&&host != undefined){
+if(embedStatus == 'on'&&host != undefined){
 
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
@@ -2014,7 +2021,7 @@ if(item222 != ''){ item = item222; }
 text += item;
 
 // multi embed
-if(multiEmbedStatus == 'on'&&embedStatus != 'off'){
+if(multiEmbedStatus == 'on'&&embedStatus == 'on'){
 text += embed + embed2;
 embed = '';
 embed2 = '';
@@ -2026,7 +2033,7 @@ embed2 = '';
 });
 
 // single embed
-if(multiEmbedStatus != 'on'&&embedStatus != 'off'){ text += embed+embed2; }
+if(multiEmbedStatus != 'on'&&embedStatus == 'on'){ text += embed+embed2; }
 
 
 return text;
@@ -2050,6 +2057,14 @@ return text;
 function highlightText2(text, targetOption){
 //text = decodeURIComponent(text); // error sometimes
 
+if(embedStatus == "not list"&&mode != "list"){ embedStatus = 'on'; }
+
+/*if(embedStatus == "notist"){
+if(mode == 'id'||mode == "singleList"||mode == 'random'||mode == 'auto-random'){
+embedStatus = 'on';
+}
+}
+test delme*/
 
 text = clearText(text);
 
@@ -2349,7 +2364,7 @@ if(item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1item.search(".jpg|.jpeg|.p
 embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 }*/
 
-if(embedStatus != 'off'){
+if(embedStatus == 'on'){
 
 
 
@@ -2417,7 +2432,7 @@ embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" 
 //if(item.search("http") != -1){
 if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1){
 checkText = false;
-if(embedStatus != 'off'&&host != undefined){
+if(embedStatus == 'on'&&host != undefined){
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
@@ -2479,7 +2494,7 @@ text += item;
 
 
 // multi embed
-if(multiEmbedStatus == 'on'&&embedStatus != 'off'){
+if(multiEmbedStatus == 'on'&&embedStatus == 'on'){
 text += embed+embed2;
 embed = '';
 embed2 = '';
@@ -2491,7 +2506,7 @@ embed2 = '';
 });
 
 // single embed
-if(multiEmbedStatus != 'on'&&embedStatus != 'off'){ text += embed+embed2; }
+if(multiEmbedStatus != 'on'&&embedStatus == 'on'){ text += embed+embed2; }
 
 
 
@@ -2744,7 +2759,7 @@ ${nav2Print}
 
 
 // for embed 
-if(embedStatus != 'off'){
+if(embedStatus == 'on'){
 
 if(embedServiceList.search(`xcom`) != -1) {
 var script = document.createElement('script');
