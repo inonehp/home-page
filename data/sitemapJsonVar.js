@@ -554,7 +554,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/radio-22\/index.html",
-        "text": "Random Radio\n\nA small collection of radio stations with the ability to play online, is chosen randomly. || radio: ",
+        "text": "Random Radio\n\nA small collection of radio stations with the ability to play online, which is chosen randomly. || radio: ",
         "tag": " #radio #random #online #station #colection #embed #JavaScript #project",
         "id": "b31f7cd39ade46560c86d8f7dc26ed78",
         "time": "id"
@@ -687,7 +687,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/tv-36\/index.html",
-        "text": "Random TV\n\nA tiny collection of TV channels or video channels, is chosen randomly. Players from other platforms are used. || tv: ",
+        "text": "Random TV\n\nA tiny collection of TV channels or other channels, which is chosen randomly. || tv: ",
         "tag": " #tv #random #collection #JavaScript #embed #page #project",
         "id": "51dbcbafa80241f5d7d53c57d624d6c1",
         "time": "id"
