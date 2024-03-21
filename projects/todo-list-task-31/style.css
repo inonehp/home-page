@@ -1,9 +1,8 @@
-/* v.1.4.0
+/* v.1.5.0
 fixme centring text in task
 fiexed textarea width: cols="100" */
 
-input[type="chckbox"] { display: inline-block;  }
-.chckbox {}
+input[type="chckbox"] { display: inline-flex;  }
 
 .task {
 display: grid;
@@ -26,12 +25,18 @@ justify-content: start;
 align-content: center;
 }
 
-@media(max-width: 240px) {
+@media(max-width: 300px) {
+.task {
+grid-template-columns: 100%;
+grid-template-columns: auto auto 1fr;
+}
+}
+
+@media(max-width: 150px) {
 .task {
 grid-template-columns: 100%;
 }
 }
-
 
 .flexCenter {
 display: flex;
@@ -45,3 +50,5 @@ overflow: auto;
 
 textarea { min-height: 10vh; }
 html { scroll-padding-top: 15px; }
+
+

@@ -1,4 +1,4 @@
-// Todo v.2.6.0
+// Todo v.2.6.1
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -652,13 +652,13 @@ editPrint = `${textPrintHighlight}`;
 let printTmp = '';
 if(statusPrint == 'done'){
 
-printTmp = `<!--<div class="op xSmall">${idPrint}</div>--><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '`+idPrint+`', '', 'undone')">
+printTmp = `<!--<div class="op xSmall">${idPrint}</div>--><span><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '`+idPrint+`', '', 'undone')"></span>
 <div class="flexCenter"><div class="pre op block" style="text-decoration: line-through;">${editPrint}</div></div>`;
 
 }else{
 
 printTmp = `<!--<div class="op xSmall">${idPrint}</div>-->
-<input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')">
+<span><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')"></span>
 <div class="flexCenter"><div class="pre block">${editPrint}</div></div>`;
 
 }
@@ -721,7 +721,7 @@ var print33Tmp = `
 <div class="task">
 
 <!--<div class="op xSmall">${idPrint}</div>-->
-<input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')">
+<span><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')"></span>
 <div class="flexCenter"><div class="pre block">${textPrint}</div></div>
 
 <div class="block tRight">
@@ -859,7 +859,7 @@ document.getElementById('result').innerHTML = '';
 var allOtherTaskMsg = '';
 if(printListPrintDaily != ''){
 printListPrintDaily = `
-<div class="op block padding1px margin1PxList small">pined:</div>
+<div class="op block padding1px margin1PxList small">pined or daily:</div>
 ${printListPrintDaily}
 `;
 if(printListPrint != ''&&printListPrintDaily != ''&&printListPrint != ''){
@@ -1006,7 +1006,7 @@ print2 = `
 <br>
 
 <div class="block tRight xSmall op">
-The pinned checked mark is unchecked automatically every new day.
+Check mark in the pinned or daily items is unchecked automatically every new day.
 </div>
 
 </div>
