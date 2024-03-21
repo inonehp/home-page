@@ -878,6 +878,7 @@ var fileListArr = ["/404.html",
 "/rss.xml",
 "/search.html",
 "/settings.html",
+"/site-search.html",
 "/sitemap.html",
 "/sitemap.xml",
 "/sw.js",
@@ -1045,7 +1046,6 @@ var fileListArr = ["/404.html",
 "/vscode-theme/theme-abc-1.3.57.vsix",
 "/vscode-theme/theme-abc-1.5.3.vsix",
 "/vscode-theme-page.html",
-"/web-search.html",
 "/",];
 fileListArr.push("no_exit_file_name_for_test.hmtl");
 

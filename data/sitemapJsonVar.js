@@ -722,8 +722,8 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/search.html",
-        "text": "Site Search\n\nSite search, main pages and more. || search: ",
-        "tag": " #site #search #page #main",
+        "text": "Web search (redirects, random)\n\nWeb search, more correct a redirection page to search engines. || search: ",
+        "tag": " #web #search #redirection #redirect #page #main",
         "id": "c9db0e13a328be0eaa311c5b24ad331c",
         "time": "id"
     },
@@ -732,6 +732,13 @@ var sitemapJsonVar = [
         "text": "Settings\n\nPage with settings: cookies, ads, clear data, etc. || settings: ",
         "tag": " #setting #page #main",
         "id": "66a61e3a38d33964bc4f29dae6426b82",
+        "time": "id"
+    },
+    {
+        "url": "\/site-search.html",
+        "text": "Site Search\n\nSite search, main pages and more. || site search: ",
+        "tag": " #site #search #page #main",
+        "id": "a77d0bf58aecc8579f93f26efbddb9a8",
         "time": "id"
     },
     {
@@ -900,13 +907,6 @@ var sitemapJsonVar = [
         "text": "Vscode theme page\n\nVSCode themes. Theme for Visual Studio Code with a light and dark colors. || vscode theme page: ",
         "tag": " #Visual #Studio #Code #theme #color #flat #dark #light #VSCode #project #page #main",
         "id": "48d8a39a6a2042b79fd9cedef9e93813",
-        "time": "id"
-    },
-    {
-        "url": "\/web-search.html",
-        "text": "Web search (redirects, random)\n\nWeb search, more correct a redirection page to search engines. || web search: ",
-        "tag": " #web #search #redirection #redirect #page #main",
-        "id": "fa848671b775b5f8cf48077e1be17d1d",
         "time": "id"
     }
 ]

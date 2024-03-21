@@ -3,10 +3,10 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Data2 page</title>
+<title>Site Search</title>
 
-<meta name="description" content="Other files with data.">
-<meta name="keywords" content="data, data file, file, list, page, main,">
+<meta name="description" content="Site search, main pages and more.">
+<meta name="keywords" content="site, search, page, main,">
 
 <link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
 
@@ -35,6 +35,8 @@
 </noscript>
 <!-- // main -->
 
+
+<link rel="preload" href="./projects/blog-1/script.js" as="script"> 
 
 </head>
 <body>
@@ -104,45 +106,56 @@
 
 <!-- content -->
 <main class="content">
-<h1 class="tCenter op">Data2 page</h1>
 
 
+<h1 class="block tCenter op">Site Search</h1>
 
+<noscript>
+<a class="blue" href="https://google.com/">Google</a><br>
+<!--<a href="https://bing.com/">Bing</a><br>-->
+</noscript>
 
-<!-- post -->
-<div class="bgList borderList  file post ">
+<div class="post noscriptHide">
 
-<div class="pre padding2List"><a class="brand" href="/data2/WATCHLIST.csv">/data2/WATCHLIST.csv</a> <span class="op">(49,24 KB)</span></div>
-<div class="postTagList small"></div>
+<form id="form" method="GET" class="block" action="search.html" style="margin:0 auto;" role="search">
+<label id="search" class="op block xSmall">input:</label>
+<input id="inputQ" aria-labelledby="search" type="search" name="q" autofocus="autofocus"  placeholder=""  autocomplete="off" spellcheck="true">
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
+<input type="submit" value="search" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
+<input type="submit" name="q2" value="l" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
 </div>
-<!-- // post -->
+
+</form>
+</div>
 
 
+<script src="./data/sitemapJsonVar.js"></script>
+<script src="./data/bookmarksJsonVar.js"></script>
+<script src="./data/blogJsonVar.js"></script>
+<script src="./data/articlesJsonVar.js"></script>
 
-
-<style>
-
-.hideNotFound { display: none; }
-
-</style>
-
-
-<div class="printStyle"></div>
 
 <script>
-// hit not found on site
-if(location.hostname == 'localhost'){
-document.getElementsByClassName("printStyle")[0].innerHTML += `
-<style>
-.hideNotFound { display: inline-block; }
-</style>
-`;
+
+
+
+
+var geturl33 = window.location;
+var url33 = new URL(geturl33);
+var q33 = url33.searchParams.get("q");
+
+if(document.getElementById('inputQ') != null){
+document.getElementById('inputQ').value = q33;
 }
+
+
+var data = [];
+data = data.concat(sitemapJsonVar, bookmarksJsonVar, blogJsonVar, articlesJsonVar);
+
+
 </script>
-
-
-<div class="padding2 margin2"></div>
+<div id="echoBlog"></div>
 
 </main>
 <!-- // content -->
@@ -158,7 +171,59 @@ document.getElementsByClassName("printStyle")[0].innerHTML += `
 
 
 
+<script src="./projects/blog-1/script.js"></script>
+
+<style>
+.blogContent .pre { font-size: 1em; /*text-transform: capitalize;*/ }
+.blogContent .pre a { text-transform: none; }
+</style>
+
+<script>
+// fresh config in script.js
+
+let blogConfig = {
+"postLimit":"10", // number
+"embedStatus":"off", // off
+"multiEmbedStatus":"", // on
+"tagListStatus":"", // off
+"tagListLimit":"", // number
+"targetOption":"", // blank
+"bottomMsg":`
+
+
+
+<div class="small tRight op">
+<details>
+<summary class="op pointer xSmall">Note:</summary>
+<span class="pre">Search in: site map, links, blog.
+"text l", l - lucky: the first page from search results.
+"text r", r - a random page from the search results.</span>
+</details>
+`, // text
+"display":"all", // grid
+"timeStatus":"off", // off
+};
+</script>
+<script>
+blog("echoBlog", data, ' post ', './site-search.html', blogConfig);
+</script>
+
+
+
+<script>
+/*
+//https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
+var meta = document.createElement('meta');
+meta.name = "referrer";
+meta.content = "no-referrer";
+document.getElementsByTagName('head')[0].appendChild(meta);
+*/
+</script>
+
+
+
 
 
 </body>
 </html>
+
