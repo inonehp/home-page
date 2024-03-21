@@ -1,4 +1,4 @@
-// Blog v.2.14.0
+// Blog v.2.14.2
 // Mini Keep, X (Twitter)
 // tags, search, embed
 // Inspired by keep, X (Twitter), Fediverse
@@ -316,6 +316,8 @@ mode = 'search';
 q = fuMClearText(q);
 q2 = fuMClearText(q2);
 
+document.getElementsByTagName('title')[0].innerHTML += ' | ' +  q;
+
 if(q == 'rr'||q == 'rs'){ mode = 'randUrl'; }
 
 //embedStatus = 'off';
@@ -548,10 +550,10 @@ comMessagePrint = 'id: '+postId;
 // post in title only when id
 if(id != ''&&getP2 == null){
 //document.getElementsByTagName('title')[0].innerHTML = postText.slice(0, 60);
-document.getElementsByTagName('title')[0].innerHTML = (postTextClean).slice(0, 260);
-if(conf["confDomainNameInTitle"] == 'on'){
+document.getElementsByTagName('title')[0].innerHTML += ' | ' + (postTextClean).slice(0, 260);
+/*if(conf["confDomainNameInTitle"] == 'on'){
 document.getElementsByTagName('title')[0].innerHTML += ' | ' +  (location.hostname).split('.')[0];
-}
+}*/
 }
 if(getP2 != null){
 comMessagePrint += ' p2: '+getP2;
