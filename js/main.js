@@ -1,4 +1,4 @@
-// Main js v.6.4.0
+// Main js v.6.4.1
 // For navigation, themes, etc
 
 // Settings
@@ -363,7 +363,7 @@ fDescArr.forEach((tag) => {
 if((tag.trim()) != ''&&fDescTagsLimitCounter <= fDescTagsLimit){
 tag = tag.trim();
 tag = tag.replaceAll(" ", "_");
-fDescTags += `<a class="tag brand light border2 borderRadius2" href="/search.html?q=%23${tag}">#${tag}</a> `;
+fDescTags += `<a class="tag brand light border2 borderRadius2" href="/?q=%23${tag} qq">#${tag}</a> `;
 }
 fDescTagsLimitCounter++;
 });
