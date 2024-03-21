@@ -1,4 +1,4 @@
-// Blog v.2.15.1
+// Blog v.2.16.1
 // Mini Keep, X (Twitter)
 // tags, search, embed
 // Inspired by keep, X (Twitter), Fediverse
@@ -423,7 +423,7 @@ if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 sTimeRedir[2] = 1200;
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
-if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
+if((''+window.location+'').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
@@ -481,7 +481,7 @@ if(q2 == 'l'){
 if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
-if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
+if((''+window.location+'').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
@@ -578,7 +578,7 @@ if(mode == 'randUrl'){
 if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
-if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
+if((''+window.location+'').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
@@ -730,8 +730,8 @@ if(q2 == 'l'){
 if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
-if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
-window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
+if((''+window.location+'').search("#stopRedir") == -1){
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href+'#stopRedir'; 
@@ -754,9 +754,11 @@ if(postText2 != ''){ postText2 = `
 if(postText3 != ''){ postText3 = `
 
 ` + postText3; };
-var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
+//`<!-- forSort: ${lRelevantResultPoint} -->` +
+var testArr =  fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
 }else{
-var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, postText, postTag, postTime, subQforLight);
+//`<!-- forSort: ${lRelevantResultPoint} -->` +
+var testArr = fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 //var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 //lRelevantResultArr.push(testArr);
@@ -799,8 +801,7 @@ lRelevantResultPoint = 0;
 
 //https://stackoverflow.com/questions/2802341/natural-sort-of-alphanumerical-strings-in-javascript
 var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
-lRelevantResultArr.sort(collator.compare);
-//lRelevantResultArr.reverse();
+/*lRelevantResultArr.sort(collator.compare); // relevant*/
 printPost = lRelevantResultArr.join("");
 
 
@@ -883,7 +884,7 @@ if(q2 == 'l'){
 if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
-if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
+if((''+window.location+'').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
@@ -999,7 +1000,7 @@ if(q2 == 'l'){
 if(postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
 if(postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
-if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
+if((''+window.location+'').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
@@ -2849,7 +2850,7 @@ if(q2 == 'r'){
 if(lFoundQUrlRandom != ''){
 /*sTimeRedir[2] = 1200;
 comMessagePrint = `random URL: `+ sTimeRedir[2] / 1000 +` sec.`;*/
-if((''+window.location+'').search("#stopRedir") == -1){ // if back Stop Redir
+if((''+window.location+'').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + lFoundQUrlRandom;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
