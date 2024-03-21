@@ -231,27 +231,6 @@ page, main,">
 
 
 
-<style>
-
-.hideNotFound { display: none; }
-
-</style>
-
-
-<div class="printStyle"></div>
-
-<script>
-// hit not found on site
-if(location.hostname == 'localhost'){
-document.getElementsByClassName("printStyle")[0].innerHTML += `
-<style>
-.hideNotFound { display: inline-block; }
-</style>
-`;
-}
-</script>
-
-
 <div class="padding2 margin2"></div>
 
 </main>
