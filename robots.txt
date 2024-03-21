@@ -22,6 +22,5 @@ Allow: /
 
 #https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap#xml
 #https://www.reddit.com/robots.txt
-#https://stackoverflow.com/robots.txt
 
-sitemap: https://inonehp.pages.dev/sitemap.xml
+Sitemap: https://inonehp.pages.dev/sitemap.xml
