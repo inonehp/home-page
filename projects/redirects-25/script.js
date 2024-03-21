@@ -134,13 +134,13 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q.trim());
 urlList = [
-"/search.html?q=" + q + " r",
+"/site-search.html?q=" + q + " r",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if(q == ''){
 urlList = [
-"/search.html",
+"/site-search.html",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -154,7 +154,7 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q.trim());
 urlList = [
-"/search.html?q=" + q + " r",
+"/site-search.html?q=" + q + " r",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -704,10 +704,10 @@ case 'qq#':
 q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "/search.html?q=" + q;
+url = "/site-search.html?q=" + q;
 if(q == ''){
 urlList = [
-"/search.html",
+"/site-search.html",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
@@ -721,13 +721,13 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.bing.com/search?q="+ q,
+"https://www.bing.com/search?q=" + q,
 "https://www.mojeek.com/search?q=" + q,
 
 "https://www.qwant.com/?q=" + q,
 "https://you.com/search?q=" + q,
 "https://search.yahoo.com/search?q=" + q,
-"https://duckduckgo.com/?q="+q,
+"https://duckduckgo.com/?q=" + q,
 "https://www.ecosia.org/search?q=" + q,
 ];
 random = Math.floor(Math.random() * urlList.length);
