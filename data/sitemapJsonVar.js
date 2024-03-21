@@ -597,7 +597,7 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/sorting-55\/index.html",
         "text": "Sorting itmes\n\nSorting itmes. Sort text. || sorting: ",
-        "tag": " #sorting #sort #itmes #CSS #JavaScript #project",
+        "tag": " #tool #sorting #sort #itmes #CSS #JavaScript #project",
         "id": "da601564f3b09b3ee57b01f86794eab4",
         "time": "id"
     },

@@ -1006,7 +1006,7 @@ print2 = `
 <br>
 
 <div class="block tRight xSmall op">
-Pinned checked mark is uncheck automatically every new day.
+The pinned checked mark is unchecked automatically every new day.
 </div>
 
 </div>
