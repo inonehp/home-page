@@ -98,7 +98,6 @@ flex-shrink: 0;
 width: 100%;
 }
 
-
 .h1 { font-size: 1.40em; }
 .h2 { font-size: 1.35em; }
 .h3 { font-size: 1.25em; }
@@ -118,7 +117,6 @@ vertical-align: top; /*https://stackoverflow.com/questions/3453959/how-do-i-fix-
 display: block;
 padding: var(--padding2);
 }
-
 
 select, input[type="color"], input[type="date"], input[type="number"], input[type="time"], input[type="reset"], input[type="datetime-local"], input[type="file"], input[type="month"], input[type="tel"], input[type="url"], input[type="week"] {
 margin-top: 1px;
@@ -598,7 +596,6 @@ display: block;
 
 
 
-
 /* Print */
 
 @media print {
@@ -607,7 +604,6 @@ display: block;
 display: none;
 }
 }
-
 
 
 
@@ -670,7 +666,6 @@ input[type="color"], form button { vertical-align: middle; min-height: var(--inp
 
 
 html{ overflow-x: hidden; } /* fix PWA  */
-
 
 
 

@@ -1,4 +1,4 @@
-// Settings print page v.1.2.1
+// Settings print page v.1.2.2
 // var config in main.js
 
 function printFunctionLocal(comSettings){
@@ -10,8 +10,6 @@ var style = '';
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 confData.forEach((val, index) => {
-
-
 
 carrentValue33 = localStorage.getItem(val.confName);
 
@@ -158,6 +156,7 @@ printFunctionLocal();
 
 
 
+
 function setSeting(confName, confValue){
 settingValue = localStorage.setItem(confName, confValue);
 
@@ -181,6 +180,9 @@ return reload();
 
 }
 
+
+
+
 function settingOptionClearData(){
 
 if(confirm(`Are you sure? All local storage data will be deleted (theme settings, etc).`) == true){
@@ -191,9 +193,12 @@ return reload();
 
 }
 
+
+
+
 function settingOptionClearDataIndexdDb(){
 
-if(confirm(`Are you sure? All IndexedDB data will be deleted (to-do, etc)`) == true){
+if(confirm(`Are you sure? All IndexedDB data will be deleted: ${conf["confDbList"]}`) == true){
 
 /*//https://stackoverflow.com/questions/46040005/delete-all-indexeddb
 window.indexedDB.databases().then((r) => {
@@ -207,6 +212,7 @@ alert('All data cleared.');
 (conf["confDbList"].split(",")).forEach((dbVal) => {
 
 //https://stackoverflow.com/questions/15861630/how-can-i-remove-a-whole-indexeddb-database-from-javascript
+dbVal = dbVal.trim();
 var req = indexedDB.deleteDatabase(dbVal);
 req.onsuccess = function () {
     console.log("Deleted database successfully");
@@ -226,9 +232,6 @@ return reload();
 }
 
 }
-
-
-
 
 
 
