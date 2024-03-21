@@ -88,7 +88,7 @@ justify-content: center;
 
 @media(max-width: 150px) { .menu { display: block; width: 100%; }}
 
-.menu a{
+.menu a {
 display: flex;
 min-width: 100%;
 justify-content: start;
@@ -98,6 +98,8 @@ text-wrap: balance;
 text-align: left;
 /*min-height: 50px;*/
 }
+/* fix */
+.menu span { width: 100%; }
 
 
 

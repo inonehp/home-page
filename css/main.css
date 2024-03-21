@@ -249,7 +249,8 @@ width: auto;
 min-width: 40px;
 max-width: 100%;
 overflow-wrap: anywhere;
-white-space: normal; word-break: break-word;
+white-space: normal;
+word-break: break-word;
 }
 
 .button {
@@ -590,6 +591,7 @@ form fieldset { border: 1px solid var(--d3); }
 .firstLetterBold a::first-letter {
 font-weight: bold;
 padding-right: .3px;
+display: block;
 }
 
 

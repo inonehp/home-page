@@ -1,4 +1,4 @@
-// Main js v.6.4.1
+// Main js v.6.4.2
 // For navigation, themes, etc
 
 // Settings
@@ -236,8 +236,7 @@ ${conf["confMenuItems2"]}
 `;
 }
 }
-//<!-- end nav HTML part -->
-
+//<!-- // nav HTML part -->
 
 
 
@@ -267,6 +266,8 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
     }
 });
 }
+
+
 
 // nav v.1.2.1, in test
 // count links
@@ -327,14 +328,9 @@ display: none !important;
 `;
 }
 
-
-
 //console.log(document.getElementsByTagName("header")[0]);
 // end JS part
-//<!-- end Nav -->
-
-
-
+//<!-- // Nav -->
 
 
 
@@ -363,7 +359,7 @@ fDescArr.forEach((tag) => {
 if((tag.trim()) != ''&&fDescTagsLimitCounter <= fDescTagsLimit){
 tag = tag.trim();
 tag = tag.replaceAll(" ", "_");
-fDescTags += `<a class="tag brand light border2 borderRadius2" href="/site-search.html?q=%23${tag} qq">#${tag}</a> `;
+fDescTags += `<a class="tag brand light border2 borderRadius2" href="/site-search.html?q=%23${tag}">#${tag}</a> `;
 }
 fDescTagsLimitCounter++;
 });
@@ -384,7 +380,6 @@ fDescTitle = `<span class="inlineBlock borderBottomOrange xSmall">Description: <
 fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall">${fDescLength} of 160</span>`;
 }
 }
-
 
 fuMPrintText("footer", `
 
@@ -448,6 +443,10 @@ document.getElementById(id).scrollIntoView();
 // // footer
 
 
+
+
+
+
 // Device 1.0.0
 conf["confDevice"] = 'none';
 /*if(conf["confDataCollection"] != 'on'){
@@ -456,6 +455,7 @@ conf["confDevice"] = '(disabled, privacy)';
 if(navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ conf["confDevice"] = 'mobile';  }
 if(navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ conf["confDevice"] = 'tv';  }
 if(conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
+
 
 
 
@@ -923,6 +923,10 @@ fuMSetTheme(conf["confTheme"]);
 */
 // end theme
 
+
+
+
+
 /* in test, delme (now in function: setTheme)
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
@@ -930,60 +934,22 @@ document.getElementById("fTheme").innerText = 'Theme: ' + theme + ' (' + conf["c
 }*/
 
 
+
+
+
+
 function fuMReload(){ location.reload(true); }
-function fuReload(){ location.reload(true); }
-function reload(){ location.reload(true); }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function fuReload(){ console.log("renameme to: fuMReload"); location.reload(true); }
+function reload(){ console.log("renameme to: fuMReload"); location.reload(true); }
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function fuMRandom(min, max) {
 return Math.round(Math.random() * (max - min) + min);
 }
+
+
+
+
 
 
 // CSS
@@ -1028,13 +994,6 @@ background-attachment: fixed;
 
 
 
-
-
-
-
-
-
-
 // Cookie (auto) v.1.0.0
 
 // Auto select (timezone) v.1.2.0
@@ -1062,13 +1021,7 @@ document.getElementById('fPrivacy')[0].innerText = `Cookie: auto (${conf["confDa
 }
 
 }
-// End Auto
-
-
-
-
-
-
+// end Auto
 
 
 
@@ -1084,6 +1037,11 @@ return url;
 
 }
 */
+
+
+
+
+
 
 // Hide page extenstion v.1.0.0
 function fuMHideFileNameExt(url){
@@ -1101,6 +1059,7 @@ return newUrl;
 }else{ return url; }
 }
 // end fu hide file ext
+
 
 
 
@@ -1210,8 +1169,6 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 
 
 
-
-
 // fu ClearText, fix print, fix input v.1.0.0
 function fuMClearText(text){
 
@@ -1239,6 +1196,7 @@ return text;
 }
 
 }
+
 
 
 
@@ -1336,6 +1294,13 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 
 
+
+
 // fu hide ext
 fuMHideFileNameExt2();
+
+
+
+
+
 

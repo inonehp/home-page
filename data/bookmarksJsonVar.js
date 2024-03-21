@@ -816,7 +816,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/pages.github.com\/",
-        "tag": "#hosting #tools",
+        "tag": "#hosting",
         "time": 1705763888
     },
     {
@@ -825,7 +825,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/pages.cloudflare.com\/",
-        "tag": "#hosting #tools",
+        "tag": "#hosting",
         "time": 1705763850
     },
     {
@@ -834,7 +834,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/neocities.org\/",
-        "tag": "#hosting #tools",
+        "tag": "#hosting",
         "time": 1705763789
     },
     {
