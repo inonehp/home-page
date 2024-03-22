@@ -141,7 +141,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "",
-        "tag": "#note",
+        "tag": "#CSS #note",
         "time": 1706840767
     },
     {
@@ -290,11 +290,11 @@ var blogJsonVar =
     },
     {
         "id": "208",
-        "text": "Free English language courses.\r\n\r\n- Learning English | Cambridge English | Learning English | Cambridge English\r\nhttps:\/\/www.cambridgeenglish.org\/learning-english\r\n- Free English Lessons - Oxford Online English\r\nhttps:\/\/www.oxfordonlineenglish.com\/free-english-lessons\r\n- BBC Learning English - BBC Learning English - Homepage\r\nhttps:\/\/www.bbc.co.uk\/learningenglish\/",
+        "text": "Free English language courses.\r\n\r\n- Learning English | Cambridge English | Learning English | Cambridge English\r\nhttps:\/\/www.cambridgeenglish.org\/learning-english\r\n\r\n- Free English Lessons - Oxford Online English\r\nhttps:\/\/www.oxfordonlineenglish.com\/free-english-lessons\r\n\r\n- BBC Learning English - BBC Learning English - Homepage\r\nhttps:\/\/www.bbc.co.uk\/learningenglish\/",
         "text2": "",
         "text3": "",
         "url": "",
-        "tag": "#learning #English",
+        "tag": "#learning #English #note",
         "time": 1702198743
     },
     {
@@ -510,7 +510,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "",
-        "tag": "#i #tips #privacy #GraphicDesign",
+        "tag": "#privacy #GraphicDesign #note",
         "time": 1695600481
     },
     {
@@ -519,7 +519,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "",
-        "tag": "#JavaScript #i",
+        "tag": "#JavaScript",
         "time": 1695374816
     },
     {
@@ -654,7 +654,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/scroll-padding-top",
-        "tag": "#CSS",
+        "tag": "#CSS #note",
         "time": 1689439501
     },
     {
@@ -672,7 +672,7 @@ var blogJsonVar =
         "text2": "",
         "text3": "",
         "url": "",
-        "tag": "#i #CSS",
+        "tag": "#CSS #note",
         "time": 1689415882
     },
     {
