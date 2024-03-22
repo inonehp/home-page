@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "URL Redirect",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "The extension redirects the page from the one URL to the other URL specified in the settings.",
 
 "icons": {

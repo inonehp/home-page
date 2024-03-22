@@ -1,4 +1,4 @@
-/* Main style v.14.5.6
+/* Main style v.14.6.0
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -239,7 +239,6 @@ word-break: break-word;
 
 .button {
 padding: .7em 1.2em;
-cursor: pointer;
 margin-top: 1px;
 margin-bottom: 1px;
 }
