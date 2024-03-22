@@ -90,7 +90,7 @@ ${printBody}
 
 <div class="margin2 padding2"></div>
 
-<div class="shadow button padding3 light2 bold block pointer borderBottomOrange" onclick="settingOptionReset();">Reset settings</div>
+<div class="w100 shadow button padding3 light2 bold pointer borderBottomOrange" onclick="settingOptionReset();">Reset settings</div>
 
 <div class="margin2 padding2"></div>
 

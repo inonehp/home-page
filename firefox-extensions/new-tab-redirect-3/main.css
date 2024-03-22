@@ -1,8 +1,6 @@
-/* Main style, mini CSS framework v.14.5.4
-main.css + auto.css (color-theme-name.css)
+/* Main style v.14.5.6
+Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
-
-
 
 
 
@@ -149,20 +147,8 @@ td { padding: 5px; }
 
 
 
-/* Class */
 
-.wrapper, .wrapper2, .wrapper3, .wrapper4, .wrapperTv, .wrapperXl, .wrapperL, .wrapperM, .wrapperS, .wrapperXs {  width: 100%; margin: 0 auto; }
-.wrapper, .post {  max-width: var(--wrapper);  }
-.wrapper2, .post2 {  max-width: var(--wrapper2); }
-.wrapper3, .post3 {  max-width: var(--wrapper3);  }
-.wrapper4, .post4 {  max-width: var(--wrapper4);  }
-.wrapperTv, .postTv {  max-width: var(--wrapperTv); }
-.wrapperXl, .postXl {  max-width: var(--wrapperXl);  }
-.wrapperL, .postL {  max-width: var(--wrapperL);  }
-.wrapperM, .postM {  max-width: var(--wrapperM);  }
-.wrapperS, .postS {  max-width: var(--wrapperS);  }
-.wrapperXs, .postXs {  max-width: var(--wrapperXs);  }
-
+/* class */
 .post, .post2, .post3, .post4, .postTv, .tv, .postXl, .postL, .postM, .postS, .postXs {
 display: block;
 width: 100%;
@@ -300,8 +286,37 @@ scrollbar-width: none;
 
 
 
+/* Ads */
+.ads {  }
+.adsHeader { display: inline-block; text-align: right;
+border: 1px solid var(--d);
+float: right;
+padding: 0px 5px;
+margin-left: 3px;
+border-radius: 5px;
+}
+.adsHeader a { font-size: x-small; }
+.adsBody { display: block;  padding: 0px 5px; }
+.adsCode { text-align: left; display: inline-block; max-width: 100%; }
 
-/* other */
+
+
+
+
+
+
+/* Class 2 */
+.wrapper, .wrapper2, .wrapper3, .wrapper4, .wrapperTv, .wrapperXl, .wrapperL, .wrapperM, .wrapperS, .wrapperXs {  width: 100%; margin: 0 auto; }
+.wrapper, .post {  max-width: var(--wrapper);  }
+.wrapper2, .post2 {  max-width: var(--wrapper2); }
+.wrapper3, .post3 {  max-width: var(--wrapper3);  }
+.wrapper4, .post4 {  max-width: var(--wrapper4);  }
+.wrapperTv, .postTv {  max-width: var(--wrapperTv); }
+.wrapperXl, .postXl {  max-width: var(--wrapperXl);  }
+.wrapperL, .postL {  max-width: var(--wrapperL);  }
+.wrapperM, .postM {  max-width: var(--wrapperM);  }
+.wrapperS, .postS {  max-width: var(--wrapperS);  }
+.wrapperXs, .postXs {  max-width: var(--wrapperXs);  }
 
 .op { opacity: 0.88; } 
 .op:hover { opacity: 1; }
@@ -424,25 +439,7 @@ scroll-padding-top: 16px;
 
 
 
-/* Ads */
-.ads {  }
-.adsHeader { display: inline-block; text-align: right;
-border: 1px solid var(--d);
-float: right;
-padding: 0px 5px;
-margin-left: 3px;
-border-radius: 5px;
-}
-.adsHeader a { font-size: x-small; }
-.adsBody { display: block;  padding: 0px 5px; }
-.adsCode { text-align: left; display: inline-block; max-width: 100%; }
-
-
-
-
-
-/* Colors */
-/* c - color, rC - reverse c (new, not tested) */
+/* Colors (colors from variables in the theme) */
 :root{
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
 --brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));
@@ -485,12 +482,13 @@ form fieldset { border: 1px solid var(--d3); }
 .c3 { color: var(--c3); }
 .c4 { color: var(--c4); }
 
+/* rC - reverse c  (new, not tested yet) */
 .rC { color: var(--rC); }
 .rC2 { color: var(--rC2); }
 .rC3 { color: var(--rC3); }
 .rC4 { color: var(--rC4); }
 
-
+/* .bgColor, .lightColor (new, not tested yet) */
 .brand, .brand button{ color: var(--brand); }
 .brand2 { color: var(--brand2); }
 .brand:hover, .brand button:hover { color: var(--brand2); }
