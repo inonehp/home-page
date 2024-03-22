@@ -1,6 +1,15 @@
 var blogJsonVar = 
 [
     {
+        "id": "244",
+        "text": "Reddit\u2019s stock price nearly doubled in its first day as a public company. - The Verge",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.theverge.com\/2024\/3\/21\/24108157\/reddits-stock-price-nearly-doubled-in-its-first-day-as-a-public-company",
+        "tag": "#news #technology",
+        "time": 1711087981
+    },
+    {
         "id": "242",
         "text": "PianoVision Film - YouTube",
         "text2": "",
