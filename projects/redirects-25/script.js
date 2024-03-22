@@ -843,8 +843,8 @@ window.location.href = rUrlGet;
 }, sTimeRedir); 
 }
 
-window.location.href = window.location.href+'#stopRedir'; 
-//window.location.replace(window.location.href+'#stopRedir',);
+window.location.href = window.location.href + '#stopRedir'; 
+//window.location.replace(window.location.href + '#stopRedir',);
 
 if ((rUrlGet).search("#stopRedir") != -1){
 sTimeRedirStatus = ' <span class="small">( redirection: off ) </span> ';

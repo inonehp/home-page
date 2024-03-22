@@ -1,4 +1,4 @@
-/* Main style v.14.6.0
+/* Main style v.14.7.0
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -441,7 +441,7 @@ scroll-padding-top: 16px;
 /* Colors (colors from variables in the theme) */
 :root{
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
---brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));
+--brand2: color-mix(in srgb, var(--brand) 80%, #fff);
 }
 
 body{ background-color: var(--bg); color: var(--c3); }
