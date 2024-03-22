@@ -1,4 +1,4 @@
-/* Main style v.14.7.0
+/* Main style v.15.0.0
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -9,7 +9,8 @@ Responsive, mainly class-based */
 * { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
 
 :root{
-/* c4, red, orange, yellow, green, blue, indigo, violet / .brand - class for link, accent-color
+/* .brand - link, accent color
+ * use: c4, red, orange, yellow, green, blue, indigo, violet
 */
 --brandColor: color-mix(in srgb, var(--blue) 80%, var(--green));
 
@@ -79,10 +80,11 @@ overflow-y: scroll;
 /*height: -webkit-fill-available*/
 }
 
-.content, .contentCenter { flex: 1 0 auto; }
+.content, .contentCenter,
+.postContent, .postContentCenter { flex: 1 0 auto; }
 .page { min-height: 100vh; }
 
-.contentCenter {
+.contentCenter, .postContentCenter {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -150,12 +152,25 @@ td { padding: 5px; }
 
 /* class */
 .post, .post2, .post3, .post4, .postTv, .tv, .postXl, .postL, .postM, .postS, .postXs {
-display: block;
+/* use with .postContent (wrapper) */
+/*display: block;*/
 width: 100%;
 margin: 0 auto;
 overflow: auto;
-padding: 14px;
-border-radius: 5px;
+padding: var(--padding3);
+
+/* new in test */
+display: flex;
+flex-basis: auto;
+flex-basis: 100%;
+flex-direction: column;
+
+/*height: 100%;
+min-height: 100%;delme*/
+height: auto;
+min-height: auto;
+/* fix test */
+/*overflow: visible;*/
 }
 
 /* pre for post */
@@ -167,14 +182,15 @@ display: grid;
 grid-template-columns: 1fr 30%;
 grid-gap: 1%;
 text-align: right;
-margin-top: .9em;
+margin-top: 10px;
 align-items: self-end; align-items: stretch;
+
+flex-shrink: 0;
 }
 
 @media(max-width: 300px) { .postFooter { grid-template-columns: 1fr;} }
 
 .postFooter .tagList { align-self: end; }
-.postTagList a, .postTime a { font-size: calc(100% - 5%); }
 
 .logo, .logo2{
 position: relative;
@@ -441,7 +457,7 @@ scroll-padding-top: 16px;
 /* Colors (colors from variables in the theme) */
 :root{
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
---brand2: color-mix(in srgb, var(--brand) 80%, #fff);
+--brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));
 }
 
 body{ background-color: var(--bg); color: var(--c3); }
@@ -565,8 +581,9 @@ form fieldset { border: 1px solid var(--d3); }
 .bgD3List:nth-child(2n), .dark3:hover, .dark4{ background: var(--d4); }
 .bgD4, .bgD4List, .dark4:hover { background: var(--d4); }
 
-.highlight, .highlight2 { background: var(--l4) !important; }
-.highlight:hover, .highlight2:hover { background: var(--l4); }
+.highlight { background: var(--l4) !important; color: var(--c4) !important; }
+.highlight:hover { background: var(--l4); color: var(--c4) !important; }
+.highlight2, .highlight2:hover { background: color-mix(in srgb, var(--orange) 50%, #fff) !important; color: #000 !important; }
 
 
 

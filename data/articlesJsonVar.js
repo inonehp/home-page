@@ -2,7 +2,7 @@ var articlesJsonVar =
 [
     {
         "id": "8",
-        "text": "List of search engines. (2024)",
+        "text": "List of search engines (2024)",
         "text2": "===\r\nSearch engines with their own database:\r\n===\r\n\r\n\r\nGoogle - The most popular search engine:\r\nhttps:\/\/www.google.com\/\r\n\r\nBing. The second most popular search engine. Recently introduced a chat bot for responses (Using ChatGPT):\r\nhttps:\/\/www.bing.com\/\r\n\r\nMojeek. British search engine, has its own database:\r\nhttps:\/\/www.mojeek.com\/\r\n\r\n\r\n\r\n===\r\nOther search engines :\r\n===\r\n\r\nYahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos. (Using Microsoft Bing):\r\nhttps:\/\/search.yahoo.com\/\r\n\r\nDuckDuckGo \u2014 Privacy, simplified. (Using Bing):\r\nhttps:\/\/duckduckgo.com\/\r\n\r\nEcosia - the search engine that plants trees. (Using Bing):\r\nhttps:\/\/www.ecosia.org\/\r\n\r\nYou.com - Your Personalized AI Assistant. (Using ChatGPT, Google and Bing):\r\nhttps:\/\/you.com\/\r\n\r\n\r\n\r\n===\r\nResources on this topic:\r\n===\r\nhttps:\/\/en.wikipedia.org\/wiki\/List_of_search_engines",
         "text3": "",
         "url": "",
@@ -11,7 +11,7 @@ var articlesJsonVar =
     },
     {
         "id": "7",
-        "text": "Auto dark mode and auto light mode for browser and OS (app list).",
+        "text": "Auto dark mode and auto light mode for browser and OS (app list)",
         "text2": "List of application and extensions for auto dark theme and light theme mode. Automatic change of the theme based on the time of day or a custom time.\r\n\r\nIf you have Windows, Linux (Gnome DE) and the Firefox browser, then this topic is for you.\r\n\r\n\r\nWindows:\r\n\r\nAuto Dark Mode\r\nhttps:\/\/apps.microsoft.com\/detail\/xp8jk4hzbvf435\r\nrepository\r\nhttps:\/\/github.com\/AutoDarkMode\/Windows-Auto-Night-Mode\r\n\r\n\r\nLinux (Ubuntu or Gnome DE):\r\n\r\nNight Theme Switcher\r\nhttps:\/\/nightthemeswitcher.romainvigier.fr\/\r\nhttps:\/\/extensions.gnome.org\/extension\/2236\/night-theme-switcher\/\r\nrepository\r\nhttps:\/\/gitlab.com\/rmnvgr\/nightthemeswitcher-gnome-shell-extension\r\n\r\n\r\nMozilla Firefox:\r\n\r\nautomaticDark - Time-Based Theme Changer\r\nhttps:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/automatic-dark\/\r\nrepository\r\nhttps:\/\/github.com\/skhzhang\/time-based-themes\r\n\r\n\r\nVSCode:\r\n\r\nSundial \u2013 Automatic night mode and settings switch\r\nhttps:\/\/marketplace.visualstudio.com\/items?itemName=muuvmuuv.vscode-sundial\r\nrepository\r\nhttps:\/\/github.com\/muuvmuuv\/vscode-sundial",
         "text3": "",
         "url": "",
@@ -29,7 +29,7 @@ var articlesJsonVar =
     },
     {
         "id": "5",
-        "text": "Responsive Web Design.",
+        "text": "Responsive Web Design",
         "text2": "Before the 1 step, this is the code in the <head><\/head> of the page, viewport meta tag optimized for mobile (this transforms the page for mobile):\r\n\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> *\r\n\r\nThis is one way to make a page responsive, there are many other ways.\r\n\r\nTLDR\r\nResponsive web design is a technique that makes websites fit different screen sizes. We use CSS to make designs responsive by setting the width of the element to 100% and adding a maximum limit to its width using max-width. This allows the element to adapt to different screen sizes without overflow.\r\n\r\n\r\nResponsive web design is a technique used to ensure that websites can adapt to different screen sizes.\r\n\r\nThis is achieved using CSS, to make a design responsive, we follow these steps:\r\n\r\n1. Set the width of the element to 100%. This means that the element will take up the entire width of the screen, regardless of its size. For example, we can use the following code:\r\n\r\ndiv { width: 100%; }\r\n\r\n2. Next, we add a maximum width, it's width limit of the element using \"max-width\". This is like a segment with a width that we need. For instance, we can set a maximum width of 500 pixels using the following code:\r\n\r\ndiv { max-width: 500px; }\r\n\r\n3. Now we combine the two rules as follows: \r\n\r\ndiv {\r\nwidth: 100%;\r\nmax-width: 500px;\r\n\r\nborder: 1px solid red;\r\nheight: 50px;\r\n }\r\n\r\n4. With these rules in place, the element will have a maximum width of 500 pixels  as indicated in the second step (for design). If the width of the screen decreases, the first rule (width: 100%) will come into effect, and the element will occupy the full width of the screen without overflow element (100% - all free space) - responsive design.\r\n\r\nIn conclusion, with this method responsive design involves stretching the element using percent and adding a limit to its width, thereby enabling it to adapt to different screen sizes without overflow element. This is only one of the techniques.\r\n\r\nSource:\r\n* https:\/\/www.w3schools.com\/html\/html_responsive.asp\r\n* https:\/\/developer.mozilla.org\/docs\/Web\/HTML\/Viewport_meta_tag\r\n\r\nOther:\r\nhttps:\/\/www.w3schools.com\/html\/html_responsive.asp\r\nhttps:\/\/developer.mozilla.org\/docs\/Learn\/CSS\/CSS_layout\/Responsive_Design",
         "text3": "",
         "url": "",

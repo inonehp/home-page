@@ -139,13 +139,12 @@ document.getElementById(printId).innerHTML = `
 <div class="wrapper">
 
 
-<div class="post light border padding2">
+<div class="light border borderRadius2">
 <!-- post -->
-<div class="post" id="${jsonVar[id]['id']}">
+<div class="padding3" id="${jsonVar[id]['id']}">
 <span class="pre padding2List">${post} ${play} ${playSource}</span>
 <div class="">
-<span class="postTagList tLeft">${tag}</span>
-<span class=""></span>
+<span class="taslist tLeft">${tag}</span>
 </div>
 </div>
 
@@ -533,7 +532,7 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize};">${printTag}</a>
+<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--rC4); font-size: ${tagSize};">${printTag}</a>
 
 `;
 }else{
@@ -560,10 +559,14 @@ hlClassList3 += `
 
 tagList = `
 
+<div class="wrapper3">
 <div class="tagList">${tagList}</div>
 <div class="block padding2"></div>
-<div class="tagList postTv">${hlClassList3}</div>
+</div>
 
+<div class="wrapper">
+<div class="tagList padding3">${hlClassList3}</div>
+</div>
 
 `;
 

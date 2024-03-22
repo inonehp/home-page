@@ -1,5 +1,5 @@
-// Main js v.6.4.2
-// For navigation, themes, etc
+// Main js v.6.4.3
+// For navigation (second), footer, themes, etc
 
 // Settings
 var conf = [];
@@ -7,7 +7,7 @@ var conf = [];
 conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
-conf["conMenuItemAverageWidth"] = 100;
+conf["conMenuItemAverageWidth"] = 130;
 conf["confDomainNameInTitle"] = "off"; // on, off
 
 //IndexedDB, DB list for clear
@@ -370,7 +370,7 @@ fDescTags = `
 
 if(document.getElementsByName("description")[0] != null){
 fDescLength = document.getElementsByName("description")[0].content.length;
-fDesc = `<b class="block padding2List small">Description or summary:</b>` + document.getElementsByName("description")[0].content + fDescTags;
+fDesc = `<b class="block padding2List small">Description or summary:</b>` + document.getElementsByName("description")[0].content.trim() + fDescTags;
 
 if(fDescLength > 160){
 fDescTitle = `<span class="inlineBlock borderBottomRed xSmall">Description: ${fDescLength} of 160</span>`;

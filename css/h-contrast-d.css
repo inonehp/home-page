@@ -47,7 +47,7 @@ placaholder { color: var(--c); }
 .submit:hover, input[type="submit"]:hover, form button[type="submit"]:hover { background: var(--d4); color: #fff; }
 
 .shadow { border: 1px solid #000;  box-shadow: none; }
-
+.shadow2 { border: 2px solid #000;  box-shadow: none; }
 
 
 

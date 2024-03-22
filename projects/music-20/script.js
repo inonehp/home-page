@@ -132,11 +132,15 @@ if(checkNotFound == ''){
 
 document.getElementById("lPrint").innerHTML += `
 
-<div class="post light border">
+<div class="wrapper">
+
+<div class="padding3 light border borderRadius2">
 <div id="playTitle"></div>
 <div id="playURL"></div>
 <div id="playerxx"></div>
 <div id="playRandomButton"></div>
+</div>
+
 </div>
 
 `;
@@ -581,7 +585,7 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize};">${printTag}</a>
+<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--rC4); font-size: ${tagSize};">${printTag}</a>
 
 `;
 }else{
@@ -606,9 +610,14 @@ hlClassList3 += `
 
 tagList = `
 
+<div class="wrapper3">
 <div class="tagList">${tagList}</div>
 <div class="block padding2"></div>
-<div class="tagList postTv">${hlClassList3}</div>
+</div>
+
+<div class="wrapper">
+<div class="tagList">${hlClassList3}</div>
+</div>
 
 `;
 

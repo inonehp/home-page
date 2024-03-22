@@ -357,7 +357,7 @@ let qPrint = `
 <div class="block padding2 margin2 tCenter">${comMessagePrint}</div>
 
 
-<div class="post light shadow borderRadius2">
+<div class="padding3 light shadow borderRadius2">
 <span id="msg"></span>
 
 <div class="block padding2List"></div>
@@ -394,7 +394,7 @@ let qPrint = `
 <div class="tRight">
 <span class="xSmall op">Conf rounds:</span>
 <a class="op tag" href="?r=5">5</a>
-<a class="op tag" href="?r=5">7</a>
+<a class="op tag" href="?r=7">7</a>
 <a class="op tag" href="?r=10">10</a>
 <a class="op tag" href="?r=20">20</a>
 <a class="op tag" href="?r=30">30</a>
@@ -565,7 +565,7 @@ Correct: <span class="green bold">${quizResultCorrectAnswer[0]}</span>, Wrong: <
 
 
 document.getElementById('result').innerHTML = `
-<div class="post light shadow borderRadius3">
+<div class="padding3 light shadow borderRadius3">
 ${quizWinMsg[0]}
 <div class="submit" onclick="reload();">reload, again</div>
 </div>
@@ -796,7 +796,7 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize};">${printTag}</a>
+<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--rC4); font-size: ${tagSize};">${printTag}</a>
 
 `;
 }else{
@@ -823,7 +823,10 @@ tagList = `
 
 <div class="tagList">${tagList}</div>
 <div class="block padding2"></div>
-<div class="tagList postTv">${hlClassList3}</div>
+
+<div class="wrapper3">
+<div class="tagList padding3">${hlClassList3}</div>
+</div>
 
 `;
 

@@ -1211,8 +1211,8 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 document.getElementsByClassName("msg2")[0].innerHTML = `
-<div class="block padding2"></div>
-<div class="block op xSmall padding2 wrapper2 tRight pre">* word - ${wordLengthLimit} symbol | Average WPM - last ${wmpAverageLimit} | allowed error for result: ${allowError}
+<div class="padding2"></div>
+<div class="op xSmall padding2 tRight pre">* word - ${wordLengthLimit} symbol | Average WPM - last ${wmpAverageLimit} | allowed error for result: ${allowError}
 for your own text use the URL or query: ?q=your text</div>
 `;
 

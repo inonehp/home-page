@@ -856,8 +856,8 @@ rUrlGetPrint = fuMClearText(rUrlGetPrint);
 print = `
 
 <div class="tCenter">
-<div class="post bgList borderList op tCenter">` + sTimeRedirStatus + `</div>
-<div class="post bgList borderList h3 ${color} bold">` + rUrlGetPrint + `</div>
+<div class="padding3 bgList borderList op tCenter">` + sTimeRedirStatus + `</div>
+<div class="padding bgList borderList h3 ${color} bold">` + rUrlGetPrint + `</div>
 <a class="block padding2 light borderList op" href="` + rUrlGet + `">open</a>
 </div>
 

@@ -2,7 +2,7 @@
 /* inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
  */
 
-.calculator { border-radius: 7px; width: 100%; max-width: 400px; margin: 0 auto; }
+.calculator { border-radius: 7px; width: 100%; max-width: 350px; margin: 0 auto; }
 .content input, #calcResult{ font-size: 16px; display: block; text-align: right;  padding: var(--padding2); }
 #calcResult { font-size: 14px; border-radius: 0 0 4px 4px; }
 .content input, .content  input:focus { border-radius: 7px 7px 0 0;  text-align: right; border-bottom: 0; }

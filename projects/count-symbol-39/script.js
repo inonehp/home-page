@@ -19,7 +19,7 @@ var print = `
 
 <form action="index.html" style="width: 100%;">
 
-<textarea rows="9" id="text" class="result padding2"  name="q" placeholder=" input" autofocus="autofocus"></textarea>
+<textarea rows="5" id="text" class="result padding2"  name="q" placeholder=" input" autofocus="autofocus"></textarea>
 <!--<input class="xSmall" type="submit">-->
 </form>
 

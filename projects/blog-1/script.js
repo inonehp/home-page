@@ -1,4 +1,4 @@
-// Blog v.2.16.2
+// Blog v.2.17.1
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -290,8 +290,9 @@ print += `
 
 <nav class="tCenter">
 <!--<a class="small tag2" href="./" title="Index ./">index</a>-->
-<a class="small tag2" href="?" title="Start">start</a>
-<a class="small tag2" href="?mode=random" title="Random post">random</a>
+<a class="small tag2 brand" href="?" title="Start">start</a>
+<a class="small tag2 brand" href="?mode=random" title="Random post">random</a>
+<!--<a class="inlineBlock padding brand" href="./">./ up</a>-->
 ${lSlideShow}
 <!--<a href="/rss.xml">rss</a>-->
 </nav>
@@ -1145,7 +1146,7 @@ print += `
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
 <label id="search" class="op block tLeft xSmall padding1PxList" for="input">✪ Search:</label>
-<input id="input" class="padding2 op" type="search" name="q"  autocomplete="off" placeholder="" value="${q}">
+<input id="input" type="search" name="q"  autocomplete="off" placeholder="" value="${q}">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
 <input type="submit" value="search" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
@@ -1405,7 +1406,7 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light2 border3 borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize} !important;">${printTag}</a>
+<a class="tag light2 border3 borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--rC4); font-size: ${tagSize} !important;">${printTag}</a>
 
 `;
 }else{
@@ -1422,10 +1423,12 @@ tagList += `
 hlClassList2 = [...new Set([...hlClassList])]; //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
 hlClassList = '';
 hlClassList2.forEach(function(item){
-let hlClass = 'hlClass'+item;
+let hlClass = 'hlClass' + item;
 item = item.toUpperCase();
 hlClassList += `
+
 <a id="${hlClass}" class="tag light2 border3 borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}">${item}</a>
+
 `;
 });
 
@@ -1435,12 +1438,14 @@ tagList = `
 <div class="wrapper3">
 
 <div class="op small padding2">list of tags:</div>
-<div class="tagList">`+tagList+`</div>
+<div class="tagList">` + tagList + `</div>
 
 <div class="padding2"></div>
 
-<div class="block tCenter tagList">
+<div class="wrapper">
+<div class="tCenter tagList small">
 ${hlClassList}
+</div>
 </div>
 
 </div>
@@ -1486,7 +1491,7 @@ var time = year + '-' + month2 + '-' + date;
 return time;
 }
 var datePublished = timeConverter(time);
-time = `<a class="tag brand light border4 op borderRadius2 small" href="${scriptDir}?id=${id}"><time itemprop="datePublished" datetime="`+datePublished+`">`+fuPostTime(time)+`</time></a>`;
+time = `<a class="tag brand light border4 op borderRadius2" href="${scriptDir}?id=${id}"><time itemprop="datePublished" datetime="` + datePublished+`">` + fuPostTime(time) + `</time></a>`;
 
 var lPost = '';
 
@@ -1513,29 +1518,29 @@ var postFooterPadding = '';
 if(timeStatus == 'off'){
 time = '';
 postFooter = '';
-postFooterPadding = ' <div class="block padding2List"></div> ';
+postFooterPadding = ' <div class="padding2List"></div> ';
 }
 
 if(display == 'article'&&mode != 'id'&&mode != 'singleList'&&mode != 'random'){ lPost = `<div class="h1">${post}</div>`; } // without highlight (embed)
 /*
 //
-if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time = `<a class="tag brand light border4 op borderRadius2 small"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
+if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
 
 return `
 
 <!-- post -->
-<div class="` + postClass + ` bgList border3List" id="` + id + `">
+<div class="` + postClass + ` bgList border3List borderRadius2 padding3" id="` + id + `">
 
-<div class="block padding2List bold capitalize"><a href="/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>
+<div class="padding2List bold capitalize"><a href="/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>
 
-<div class="pre padding2List">` + lPost + `</div>
+<div class="postContent pre padding2List">` + lPost + `</div>
 
 ${postFooterPadding}
 <div class=" ${postFooter} break2 ">
 <span class="tagList tLeft left">` + tag + `</span>
 <span class="tagList tRight right">` + time + `</span>
-
 </div>
+
 </div>
 <!-- // end post -->
 
@@ -2891,7 +2896,6 @@ function hlwClassAdd(name){
 let elementNumb = document.getElementsByClassName(name).length;
 let i = 0;
 while (i < elementNumb) {
-document.getElementsByClassName(name)[i].classList.add("highlight");
 document.getElementsByClassName(name)[i].classList.add("highlight2");
 i++;
 }
@@ -2902,7 +2906,6 @@ function hlwClassRemove(name){
 let elementNumb = document.getElementsByClassName(name).length;
 let i = 0;
 while (i < elementNumb) {
-document.getElementsByClassName(name)[i].classList.remove("highlight");
 document.getElementsByClassName(name)[i].classList.remove("highlight2");
 i++;
 }

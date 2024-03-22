@@ -131,15 +131,19 @@ if(checkNotFound == ''){
 
 document.getElementById("lPrint").innerHTML += `
 
-<div class="post light border borderRadius2">
+<div class="wrapper">
+<div class="padding3 light border borderRadius2">
+
 <div id="playTitle"></div>
 <div id="playURL"></div>
 <div id="playerxx"></div>
 <div id="playRandomButton"></div>
 
 <br />
-<div class="footerPost"><a class="button block light borderList borderRadius2" style="text-align:center; cursor: pointer;" onClick="window.location.reload()" title="location.reload" href="#">random</a></div>
 
+<a class="button block light borderList borderRadius2" style="text-align:center; cursor: pointer;" onClick="window.location.reload()" title="location.reload" href="#">random</a>
+
+</dvi>
 </div>
 
 `;
@@ -570,7 +574,7 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize};">${printTag}</a>
+<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--rC4); font-size: ${tagSize};">${printTag}</a>
 
 `;
 }else{
@@ -595,9 +599,14 @@ hlClassList3 += `
 
 tagList = `
 
+<div class="wrapper3">
 <div class="tagList">${tagList}</div>
 <div class="block padding2"></div>
-<div class="tagList postTv">${hlClassList3}</div>
+</div>
+
+<div class="wrapper">
+<div class="tagList padding3">${hlClassList3}</div>
+</div>
 
 `;
 
@@ -626,7 +635,7 @@ document.getElementById('taglist').innerHTML += `
 <div class="wrapper3">
 
 <div class="small padding2 op">list of titles and tags:</div>
-`+tagList(printTagList)+`
+` + tagList(printTagList) + `
 </div>
 </div>
 `;
