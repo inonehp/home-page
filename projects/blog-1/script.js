@@ -1,9 +1,8 @@
-// Blog v.2.16.1
+// Blog v.2.16.2
 // Mini Keep, X (Twitter)
-// tags, search, embed
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
-// JSON data in js varible pre-sorted by time in UNIX format
+// JSON data in JS varible, time - in UNIX format
 
 /*
 // config, copy paste in html
@@ -316,7 +315,7 @@ mode = 'search';
 q = fuMClearText(q);
 q2 = fuMClearText(q2);
 
-document.getElementsByTagName('title')[0].innerHTML += ' | ' +  q.slice(0, 260) + "...";
+document.getElementsByTagName('title')[0].innerHTML += ': ' +  q.slice(0, 260) + "...";
 
 if(q == 'rr'||q == 'rs'){ mode = 'randUrl'; }
 
