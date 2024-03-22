@@ -1,6 +1,15 @@
 var articlesJsonVar = 
 [
     {
+        "id": "8",
+        "text": "List of search engines. (2024)",
+        "text2": "===\r\nSearch engines with their own database:\r\n===\r\n\r\n\r\nGoogle - The most popular search engine:\r\nhttps:\/\/www.google.com\/\r\n\r\nBing. The second most popular search engine. Recently introduced a chat bot for responses (Using ChatGPT):\r\nhttps:\/\/www.bing.com\/\r\n\r\nMojeek. British search engine, has its own database:\r\nhttps:\/\/www.mojeek.com\/\r\n\r\n\r\n\r\n===\r\nOther search engines :\r\n===\r\n\r\nYahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos. (Using Microsoft Bing):\r\nhttps:\/\/search.yahoo.com\/\r\n\r\nDuckDuckGo \u2014 Privacy, simplified. (Using Bing):\r\nhttps:\/\/duckduckgo.com\/\r\n\r\nEcosia - the search engine that plants trees. (Using Bing):\r\nhttps:\/\/www.ecosia.org\/\r\n\r\nYou.com - Your Personalized AI Assistant. (Using ChatGPT, Google and Bing):\r\nhttps:\/\/you.com\/\r\n\r\n\r\n\r\n===\r\nResources on this topic:\r\n===\r\nhttps:\/\/en.wikipedia.org\/wiki\/List_of_search_engines",
+        "text3": "",
+        "url": "",
+        "tag": "#technology #search #SearchEngine #internet",
+        "time": 1711117092
+    },
+    {
         "id": "7",
         "text": "Auto dark mode and auto light mode for browser and OS (app list).",
         "text2": "List of application and extensions for auto dark theme and light theme mode. Automatic change of the theme based on the time of day or a custom time.\r\n\r\nIf you have Windows, Linux (Gnome DE) and the Firefox browser, then this topic is for you.\r\n\r\n\r\nWindows:\r\n\r\nAuto Dark Mode\r\nhttps:\/\/apps.microsoft.com\/detail\/xp8jk4hzbvf435\r\nrepository\r\nhttps:\/\/github.com\/AutoDarkMode\/Windows-Auto-Night-Mode\r\n\r\n\r\nLinux (Ubuntu or Gnome DE):\r\n\r\nNight Theme Switcher\r\nhttps:\/\/nightthemeswitcher.romainvigier.fr\/\r\nhttps:\/\/extensions.gnome.org\/extension\/2236\/night-theme-switcher\/\r\nrepository\r\nhttps:\/\/gitlab.com\/rmnvgr\/nightthemeswitcher-gnome-shell-extension\r\n\r\n\r\nMozilla Firefox:\r\n\r\nautomaticDark - Time-Based Theme Changer\r\nhttps:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/automatic-dark\/\r\nrepository\r\nhttps:\/\/github.com\/skhzhang\/time-based-themes\r\n\r\n\r\nVSCode:\r\n\r\nSundial \u2013 Automatic night mode and settings switch\r\nhttps:\/\/marketplace.visualstudio.com\/items?itemName=muuvmuuv.vscode-sundial\r\nrepository\r\nhttps:\/\/github.com\/muuvmuuv\/vscode-sundial",

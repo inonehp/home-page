@@ -1,4 +1,4 @@
-// Redirects v.1.7.26
+// Redirects v.1.7.27
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -737,11 +737,10 @@ urlList = [
 "https://www.bing.com/",
 "https://www.mojeek.com/",
 
-"https://www.qwant.com/",
-"https://you.com/",
 "https://search.yahoo.com/",
 "https://duckduckgo.com/",
 "https://www.ecosia.org/",
+"https://you.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
