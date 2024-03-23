@@ -1,4 +1,4 @@
-// Blog v.2.18.2
+// Blog v.2.19.0
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -46,7 +46,6 @@ var targetOption = blogConfig['targetOption'];
 var bottomMsg = blogConfig['bottomMsg'];
 var display = blogConfig['display'];
 var timeStatus = blogConfig['timeStatus'];
-
 }
 
 
@@ -123,7 +122,7 @@ if(confIconStatus == undefined||confIconStatus == null){ confIconStatus = "off";
 confThemeEmbed = conf["confThemeEmbed"];
 if(confThemeEmbed == undefined||confThemeEmbed == null){ confThemeEmbed = "light"; }
 confSymbolForSplit =  conf["confSymbolForSplit"];
-if(confSymbolForSplit == undefined||confSymbolForSplit == null){ confSymbolForSplit = "JLJKLKJLKJLKJ"; }
+if(confSymbolForSplit == undefined||confSymbolForSplit == null){ confSymbolForSplit = "SYMBOLFORSPLIT"; }
 
 }else{
 
@@ -134,12 +133,9 @@ var confThemeEmbed = 'dark';
 }else{
 var confThemeEmbed = 'light';
 }
-var confSymbolForSplit = "JLJKLKJLKJLKJ";
+var confSymbolForSplit = "SYMBOLFORSPLIT";
 
 }
-
-
-
 
 
 
@@ -160,7 +156,6 @@ var sTimeRedir = []; // for auto-random
 sTimeRedir[0] = 10000;
 sTimeRedir[2] = 1200; // lucky
 
-
 var q = url.searchParams.get("q");
 
 if(q != null&&q != undefined){
@@ -171,11 +166,25 @@ q = q.trim();
 let qHashtag = location.href;
 qHashtag = qHashtag.split("#")[1];
 if(qHashtag != undefined){
-q += ' '.qHashtag;
-q = q.trim();
+qHashtag = (String(location.href)).split("?")[1];
+qHashtag = (qHashtag + "&").split("&");
+qHashtag.forEach((val) => {
+if(val.indexOf("q=") != -1){
+val = val.replace("q=", "");
+q = val;
+q = decodeURIComponent(q);
 }
+});
 }
 
+}
+
+var hashtag = url.searchParams.get("tag");
+if(hashtag != null&&hashtag != undefined){
+hashtag = hashtag.replaceAll(/%/g, "%25");
+hashtag = decodeURIComponent(hashtag);
+q = "#" + hashtag.trim();
+}
 
 
 var q2 = url.searchParams.get("q2");
@@ -1982,10 +1991,10 @@ item222 = `<a class="brand" href="${item}">${item}</a>`;
 }
 
 
-//add tag
+//add hashtag
 if(item[0] == '#'){
 item222 = item.replaceAll(/#/g, "");
-item222 = `<a class="tag brand light border4 op borderRadius2 small" href="${scriptDir}?q=%23${item222}">#${item222}</a>`;
+item222 = `<a class="tag brand light border4 op borderRadius2 small" href="${scriptDir}?tag=${item222}">#${item222}</a>`;
 }
 
 if(item[0] == '@'){
@@ -2490,13 +2499,13 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 
 
-//add tag
-if(item[0] == '#'){
+//add hashtag
+if(item[0] == "#"){
 item = item.replaceAll(/#/g, "");
-item = `<a class="tag brand light border4 op borderRadius2 small" href="${scriptDir}?q=%23${item}">#${item}</a>`;
+item = `<a class="tag brand light border4 op borderRadius2 small" href="${scriptDir}?tag=${item}">#${item}</a>`;
 }
 
-if(item[0] == '@'){
+if(item[0] == "@"){
 item = `<a class="brand" href="${scriptDir}?q=${item}">${item}</a>`;
 }
 
