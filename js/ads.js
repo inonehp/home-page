@@ -1,4 +1,4 @@
-// Ads v.1.5.0
+// Ads v.1.6.0
 // Mini banner system
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
@@ -65,7 +65,7 @@ if(adsText.search("src=") == -1){ // not found code
 insertIcon = ' insertIcon ';
 adsPrint = `<div class="adsHeader"><a class="brand inlineBlock" href="${adsUrlPage}"><span class="yellow">✪</span> <del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand break2" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 
-document.getElementById(idAds).innerHTML = '<div class="center"><div class="post light borderList ads tLeft break">' + adsPrint + '</div></div>';
+document.getElementById(idAds).innerHTML = '<div class="wrapper"><div class="padding3 light borderList ads tLeft break">' + adsPrint + '</div></div>';
 }else{
 insertIcon = '';
 adsPrint = `<div class="adsHeader"><a class="padding light brand inlineBlock" href="${adsUrlPage}"><span class="yellow">✪</span> <del><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand" target="blank" href="' + adsURL + '">' + adsURL + '</a></div>';
@@ -96,7 +96,7 @@ if(adsText.search("src=") == -1){ // not found code
 insertIcon = ' insertIcon ';
 adsPrint = `<div class="adsHeader"><a class="brand inlineBlock" href="${adsUrlPage}"><span class="yellow">✪</span> <del><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand break2" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';
 
-adsPrint = '<div class="center"><div class="post light borderList ads tLeft break">'+adsPrint+'</div></div>';
+adsPrint = '<div class="wrapper"><div class="padding3 light borderList ads tLeft break">'+adsPrint+'</div></div>';
 }else {
 insertIcon = '';
 adsPrint = `<div class="adsHeader"><a class="padding light brand inlineBlock" href="${adsUrlPage}"><span class="yellow">✪</span> <del><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand" target="blank" href="'+adsURL+'">'+adsURL+'</a></div>';

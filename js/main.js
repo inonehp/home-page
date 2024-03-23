@@ -1,4 +1,4 @@
-// Main js v.6.4.3
+// Main js v.6.4.4
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -32,6 +32,13 @@ This is necessary to improve the site.
 "confName":"confDataCollection",
 "confValueDefault":"not selected",
 "confValueVariant":["on", "off", "auto", "not selected"],
+},
+{
+"confTitle":"Ads on off",
+"confDescription":`Ads options.`,
+"confName":"confAdsStatus",
+"confValueDefault":"off",
+"confValueVariant":["on", "off", "random"],
 },
 {
 "confTitle":"Theme",
@@ -75,13 +82,6 @@ This is necessary to improve the site.
 "confDescription":"Second navigation (JS) over the current navigation. To improve where it is bad",
 "confName":"confMenu",
 "confValueDefault":"on",
-"confValueVariant":["on", "off", "random"],
-},
-{
-"confTitle":"Ads on off",
-"confDescription":`Ads options.`,
-"confName":"confAdsStatus",
-"confValueDefault":"off",
 "confValueVariant":["on", "off", "random"],
 },
 {
@@ -1240,7 +1240,7 @@ fuMEmbedScript("/projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
 
 if(conf["confAdsStatus"] != "off"){
 fuMEmbedScript(`/data/adsJsonVar.js`, conf["confIdEmbedScript"]);
-fuMEmbedScript(`/js/ad.js`, conf["confIdEmbedScript"]);
+fuMEmbedScript(`/js/ads.js`, conf["confIdEmbedScript"]);
 }
 
 if(conf["confDataCollection"] == 'not selected'){
