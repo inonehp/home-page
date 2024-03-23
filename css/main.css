@@ -302,7 +302,7 @@ scrollbar-width: none;
 
 
 /* Ads */
-.ads {  }
+.ads { }
 .adsHeader { display: inline-block; text-align: right;
 border: 1px solid var(--d);
 float: right;
