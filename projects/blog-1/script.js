@@ -1073,11 +1073,11 @@ printPost = `
 <style>
 .blogContentGallery {
 display: grid;
-/*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 grid-gap: 5px;
 width: 100%;
-max-width: 1200px;
+/*max-width: 1200px;*/
 margin: 0 auto;
 }
 
@@ -1086,18 +1086,16 @@ margin: 0 auto;
 @media(max-width: 220px) { .blogContentGallery { display: block; width: 100%; }}
 </style>
 
-<div class="block">
 <div class="wrapper3">
 
-<div class="blogContentGallery">`+printPost+`</div>
+<div class="blogContentGallery">` + printPost + `</div>
 
-</div>
 </div>
 
 `;
 }else if(display == 'gallery'){
 printPost = `
-<div class="wrapperL">`+printPost+`</div>
+<div class="wrapperL">` + printPost + `</div>
 `;
 }else{
 printPost = `
