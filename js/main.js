@@ -1,4 +1,4 @@
-// Main js v.6.4.5
+// Main js v.6.5.0
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -8,7 +8,9 @@ conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["conMenuItemAverageWidth"] = 130;
-conf["confDomainNameInTitle"] = "off"; // on, off
+
+conf["confDomainNameInTitle"] = "on"; // on, off
+conf["confDomainName"] = String((location.hostname).split('.')[0]);
 
 //IndexedDB, DB list for clear
 conf["confDbList"] = "todo-list-task,todo-list-idea";
@@ -17,6 +19,8 @@ conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
 conf["confTagListLimit"] = 38;
 conf["confLinkExtList"] = "index.html,.html,index.php,.php";
 conf["confIdEmbedScript"] = "footer";
+
+
 
 // settings var
 const confData = [
@@ -121,7 +125,7 @@ conf[val.confName] = val.confValueDefault;
 // domain name in titile
 if(conf["confDomainNameInTitle"] == 'on'){
 if(document.getElementsByTagName('title')[0] != null){
-document.getElementsByTagName('title')[0].innerText += ' | ' + (location.hostname).split('.')[0];
+document.getElementsByTagName('title')[0].innerText += ' / ' + conf["confDomainName"];
 }
 }
 

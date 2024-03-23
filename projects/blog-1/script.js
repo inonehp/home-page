@@ -1,4 +1,4 @@
-// Keep or blog v.2.20.2
+// Keep or blog v.2.20.3
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -336,7 +336,7 @@ mode = 'search';
 q = fuMClearText(q);
 q2 = fuMClearText(q2);
 
-let printTitle = q.slice(0, 260) + ' / ' + document.getElementsByTagName('title')[0].innerText;
+let printTitle = q.slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerText;
 document.getElementsByTagName('title')[0].innerText = printTitle;
 
 if(q == 'rr'||q == 'rs'){ mode = 'randUrl'; }
@@ -571,9 +571,9 @@ comMessagePrint = 'id: '+postId;
 // post in title only when id
 if(id != ''&&getP2 == null){
 //document.getElementsByTagName('title')[0].innerHTML = postText.slice(0, 60);
-//document.getElementsByTagName('title')[0].innerHTML += ' / ' + (postTextClean).slice(0, 260) +  " ...";
+//document.getElementsByTagName('title')[0].innerHTML += ' - ' + (postTextClean).slice(0, 260) +  " ...";
 
-let printTitle = (postTextClean).slice(0, 260) + ' / ' + document.getElementsByTagName('title')[0].innerText;
+let printTitle = (postTextClean).slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerText;
 document.getElementsByTagName('title')[0].innerText = printTitle;
 
 /*if(conf["confDomainNameInTitle"] == 'on'){
