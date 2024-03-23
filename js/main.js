@@ -346,7 +346,7 @@ display: none !important;
 var fDesc = '';
 var fDescTitle = '';
 var fDescTags = '';
-var fDescTagsLimit = 50;
+var fDescTagsLimit = 10;
 var fDescLength = '';
 if(document.getElementsByName("keywords")[0] != null){
 fDescTags = document.getElementsByName("keywords")[0].content;
@@ -367,6 +367,7 @@ fDescTags += `<a class="tag brand light border2 borderRadius2" href="/site-searc
 }
 fDescTagsLimitCounter++;
 });
+fDescTags += `<div class="tag">...</div>`;
 
 fDescTags = `
 <br><b class="block padding2List small">Tags (keywords):</b><div class="tagList small left">` + fDescTags + '</div>';

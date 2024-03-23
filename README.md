@@ -4,7 +4,7 @@
   
 # Home page and projects.    
 
-A personal start page with projects such as search (redirect), themes, to-do list, typing, icons, templates, and more. 
+A personal start page with projects such as search (redirect), blog, to-do list, typing speed, icons, themes, website templates, and more.  
   
 ---
   
