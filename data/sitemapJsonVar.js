@@ -57,8 +57,8 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/changelog.html",
-        "text": "Changelog\n\nSite update history. || changelog: ",
-        "tag": " #update #page #main",
+        "text": "Changelog\n\nChangelog. Site update history. About what&amp;#039;s new on the site. || changelog: ",
+        "tag": " #update #news #new #page #main",
         "id": "5358dd68cd0d7e1d36bc7a96e2c64e47",
         "time": "id"
     },
