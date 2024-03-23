@@ -388,7 +388,7 @@ fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall"
 
 fuMPrintText("footer", `
 
-
+<div class="padding2 margin2"></div>
 
 <div id="style"></div>
 
@@ -396,7 +396,6 @@ fuMPrintText("footer", `
 <div id="cookiePopup"></div>
 
 <div id="ads2"></div>
-
 
 <nav>
 <div class="wrapper4 balance margin2List small tCenter">

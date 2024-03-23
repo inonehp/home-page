@@ -69,7 +69,6 @@ adsPrint = `<div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><sp
 document.getElementById(idAds).innerHTML = `
 
 <div class="wrapper">
-<div class="padding2"></div>
 <div class="borderRadius2 padding3 light borderList ads tLeft break">${adsPrint}</div>
 <div class="padding2"></div>
 </div>
@@ -83,11 +82,12 @@ adsPrint = `<div class="adsHeader"><a class="padding light brand tag" href="${ad
 // print
 document.getElementById(idAds).innerHTML = `
 
-<div class="padding2"></div>
+
 <div class="center">
 <div class="adsCode">${adsPrint}</div>
-</div>
 <div class="padding2"></div>
+</div>
+
 
 `
 ;
