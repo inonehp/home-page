@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "128",
+        "text": "Perplexity AI",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.perplexity.ai\/",
+        "tag": "#AI #assistant #chatbot",
+        "time": 1711187007
+    },
+    {
         "id": "127",
         "text": "Chrome for Developers",
         "text2": "",

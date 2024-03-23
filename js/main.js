@@ -390,9 +390,9 @@ fuMPrintText("footer", `
 
 <div id="cookiePopup"></div>
 
-<div class="padding2 margin2"></div>
-<div id="ads2"></div>
 <div class="padding2"></div>
+<div id="ads2"></div>
+<!--<div class="padding"></div>-->
 
 
 <nav>

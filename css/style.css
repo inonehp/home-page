@@ -120,3 +120,15 @@ text-align: left;
 }
 
 
+/* event */
+footer::before {
+content: "🍂";
+content: "🌼";
+padding: 3px 0;
+font-size: 1em;
+opacity: .5;
+text-align: center;
+display: block;
+}
+
+

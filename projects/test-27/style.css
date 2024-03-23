@@ -109,12 +109,8 @@ color: light-dark(#000, #fff);
 
 
 
-/* tongue */
 
-footer::before {
-content: "🍂";
-font-size: 12vh;
-}
+
 
 
 /****/

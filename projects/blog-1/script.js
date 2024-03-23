@@ -1,4 +1,4 @@
-// Blog v.2.18.1
+// Blog v.2.18.2
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -163,16 +163,24 @@ sTimeRedir[2] = 1200; // lucky
 
 var q = url.searchParams.get("q");
 
-if(q != null){
+if(q != null&&q != undefined){
 q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
 q = q.trim();
+
+let qHashtag = location.href;
+qHashtag = qHashtag.split("#")[1];
+if(qHashtag != undefined){
+q += ' '.qHashtag;
+q = q.trim();
 }
+}
+
 
 
 var q2 = url.searchParams.get("q2");
 
-if(q2 != null){
+if(q2 != null&&q2 != undefined){
 q2 = q2.replaceAll(/%/g, "%25");
 q2 = decodeURIComponent(q2);
 q2 = q2.trim();
@@ -316,7 +324,7 @@ mode = 'search';
 q = fuMClearText(q);
 q2 = fuMClearText(q2);
 
-document.getElementsByTagName('title')[0].innerHTML += ': ' +  q.slice(0, 260) + " ...";
+document.getElementsByTagName('title')[0].innerHTML += ': ' +  q.slice(0, 260);
 
 if(q == 'rr'||q == 'rs'){ mode = 'randUrl'; }
 
@@ -411,7 +419,7 @@ var qSearch23 = qSearch.replaceAll(' ', '_'); // q2 with "_"
 
 
 // query
-if(qSearch[0] == '#'){
+if(qSearch[0] == '#'||(qSearch[0] + ' ').indexOf("%23") != -1){
 qData2 = qData.replaceAll(/,/g, ' ');
 if((qData2+' ').indexOf((qSearch + ' ')) >= 0){
 subQListFound.push(qSearch);

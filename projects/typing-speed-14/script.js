@@ -1,13 +1,11 @@
-// Typing Speed Test and game v.3.15.18
+// Typing Speed Test and game v.3.15.19
 
 
 
 
 function mainAll(mode33){
 
-
-
-const wmpAverageLimit = 10;
+const wmpAverageLimit = 15;
 const wordLengthLimit = 5.1;
 const allowError = 20;
 
