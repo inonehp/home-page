@@ -1,6 +1,24 @@
 var agicountdownJsonVar = 
 [
     {
+        "id": "16",
+        "text": "Perplexity AI\r\n\r\nThe date when humanity will invent general artificial intelligence\r\n\r\nHumanity is predicted to invent general artificial intelligence (AGI) at varying timelines according to experts. Some estimates suggest AGI could be developed within the next few years or decades, with predictions ranging from as early as 2022 to around 2050 or later[1][5]. Notably, there is a significant difference in opinion based on geography, with Asian respondents expecting AGI in around 30 years, while North Americans anticipate it in approximately 74 years[5]. Some prominent figures in the field, like Louis Rosenberg, suggest a timeline of 2030, while others like Ray Kurzweil propose 2045, and J\u00fcrgen Schmidhuber estimates around 2050[5]. The consensus among AI experts is that AGI is likely to be achieved before the end of the century, with many expecting it to happen before 2060[5].\r\n\r\nCitations:\r\n[1] https:\/\/ourworldindata.org\/ai-timelines\r\n[2] https:\/\/en.wikipedia.org\/wiki\/Artificial_general_intelligence\r\n[3] https:\/\/www.metaculus.com\/questions\/5121\/date-of-artificial-general-intelligence\/\r\n[4] https:\/\/sitn.hms.harvard.edu\/flash\/2017\/history-artificial-intelligence\/\r\n[5] https:\/\/research.aimultiple.com\/artificial-general-intelligence-singularity-timing\/",
+        "text2": "2022, 2050, 2030, 2050, 2060",
+        "text3": "",
+        "url": "https:\/\/www.perplexity.ai\/",
+        "tag": "#AI",
+        "time": 1711197082
+    },
+    {
+        "id": "15",
+        "text": "The Singularity Is Near - Wikipedia",
+        "text2": "2030",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/The_Singularity_Is_Near",
+        "tag": "#single #article",
+        "time": 1711196656
+    },
+    {
         "id": "14",
         "text": "Singularity Predictions 2024 : r\/singularity",
         "text2": "2023,  2030, 2024, 2025, 2026, 2026, 2026, 2025, 2025, 2026, 2026, 2027, 2025, 2026, 2026, 2026, 2027, 2029, 2028, 2028, 2028, 2028, 2028, 2031, 2030, 2030, 2030, 2030, 2030, 2032, 2035, 2038, 2036, 2032, 2032, 2032, 2032,\r\n2034, 2034, 2037,\r\n2033, 2033, 2078, 2035, 2035, 2038, 2040, 2040, 2055,\r\n\r\n2026, 2024, 2026, 2026,",

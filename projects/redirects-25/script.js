@@ -408,7 +408,6 @@ url = urlList[random];
 sRedirUrl = url;
 break;
 
-case 'nnw#':
 case 'nn#':
 q = q3.replace(q2, '');
 q = q.trim();
@@ -423,6 +422,8 @@ if(q == ''){
 urlList = [
 "https://gemini.google.com/",
 "https://copilot.microsoft.com/",
+
+"https://www.perplexity.ai/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
