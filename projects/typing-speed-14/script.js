@@ -1,4 +1,4 @@
-// Typing Speed Test and game v.3.15.17
+// Typing Speed Test and game v.3.15.18
 
 
 
@@ -1082,7 +1082,8 @@ let winMsg = `
 <div class="pre inlineBlock margin2List" style="border-bottom: 5px solid  color-mix(in srgb, var(--${printMsgWinColor}) 20%, transparent);"><h3><span title="word per minute" style="color: var(--c3);">WPM: ${wpm}</span> <span title="difference with the previous">${wpmProgress}</span> ${recordMsg}</h3></div>
 <div></div>
 <span class="normal"><span title="WPM Average last ${wmpAverageLimit}">Average WPM: ${WPMaverage} ${wpmAverageProgress}</span></span><br>
-<span class="normal" title="Current accuracy, total"><span class="medium">Accuracy: <span>${acurancyTotal}</span>%</span> ${acurancyProgress}</span><br>
+<span class="normal" title="Current accuracy, total"><span class="medium">Accuracy: <span>${acurancyTotal}</span>%</span> ${acurancyProgress}</span>
+<div class="padding2"></div>
 </div>
 </div>`;
 
