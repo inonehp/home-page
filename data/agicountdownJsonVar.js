@@ -6,7 +6,7 @@ var agicountdownJsonVar =
         "text2": "2023,  2030, 2024, 2025, 2026, 2026, 2026, 2025, 2025, 2026, 2026, 2027, 2025, 2026, 2026, 2026, 2027, 2029, 2028, 2028, 2028, 2028, 2028, 2031, 2030, 2030, 2030, 2030, 2030, 2032, 2035, 2038, 2036, 2032, 2032, 2032, 2032,\r\n2034, 2034, 2037,\r\n2033, 2033, 2078, 2035, 2035, 2038, 2040, 2040, 2055,\r\n\r\n2026, 2024, 2026, 2026,",
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/18vawje\/singularity_predictions_2024\/",
-        "tag": "#single",
+        "tag": "#single #SocialNetwork",
         "time": 1710876129
     },
     {
@@ -15,7 +15,7 @@ var agicountdownJsonVar =
         "text2": "2032, 2026, 2030, 2030, 2030, 2028, 2030, 2035, 2029, 2029, 2030, 2030, 2030, \r\n2030, 2030, 2030, 2030, 2030,\r\n2033, 2035, 2040, 2036,  2032, \r\n2032, 2032, 2036, 2036, 2035, 2035, 2040, 2045, \r\n\r\n2024, 2029, 2030, 2027, 2030, 2027, 2023, 2024, 2025, 2029, 2029, 2027,",
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/zzy3rs\/singularity_predictions_2023\/",
-        "tag": "#single",
+        "tag": "#single #SocialNetwork",
         "time": 1710874887
     },
     {
@@ -24,7 +24,7 @@ var agicountdownJsonVar =
         "text2": "2029, 2030, 2023, 2025, 2023, 2030, 2025, 2029, 2030, 2023",
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/rsyikh\/singularity_predictions_2022\/",
-        "tag": "#single",
+        "tag": "#single #SocialNetwork",
         "time": 1710872507
     },
     {
@@ -33,7 +33,7 @@ var agicountdownJsonVar =
         "text2": "2029",
         "text3": "",
         "url": "https:\/\/www.foxbusiness.com\/media\/elon-musk-predicts-ai-will-likely-smarter-all-humans-combined-2029",
-        "tag": "#single",
+        "tag": "#single #news",
         "time": 1710871618
     },
     {
@@ -42,7 +42,7 @@ var agicountdownJsonVar =
         "text2": "2029",
         "text3": "",
         "url": "https:\/\/nypost.com\/2024\/03\/01\/business\/nvidia-ceo-predicts-when-ai-could-pass-human-tests-as-chip-maker-hits-2t-milestone\/",
-        "tag": "#single",
+        "tag": "#single #news",
         "time": 1710871384
     },
     {
@@ -51,7 +51,7 @@ var agicountdownJsonVar =
         "text2": "1997",
         "text3": "",
         "url": "https:\/\/terminator.fandom.com\/wiki\/Skynet",
-        "tag": "#single",
+        "tag": "#single #movie",
         "time": 1710870735
     },
     {
@@ -60,7 +60,7 @@ var agicountdownJsonVar =
         "text2": "2010",
         "text3": "",
         "url": "https:\/\/matrix.fandom.com\/wiki\/Artificial_Intelligence",
-        "tag": "#single",
+        "tag": "#single #movie",
         "time": 1710870338
     },
     {
@@ -69,7 +69,7 @@ var agicountdownJsonVar =
         "text2": "1980 - Book author\r\n2028 - DeepMind  co-founder",
         "text3": "",
         "url": "https:\/\/time.com\/6556168\/when-ai-outsmart-humans\/",
-        "tag": "#single",
+        "tag": "#single #news",
         "time": 1710862908
     },
     {
@@ -78,7 +78,7 @@ var agicountdownJsonVar =
         "text2": "2029",
         "text3": "",
         "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/18m0dnf\/ray_kurzweil_is_sticking_to_his_longheld\/",
-        "tag": "#single",
+        "tag": "#single #SocialNetwork",
         "time": 1710638384
     },
     {
@@ -87,7 +87,7 @@ var agicountdownJsonVar =
         "text2": "2031",
         "text3": "",
         "url": "https:\/\/www.metaculus.com\/questions\/5121\/date-of-artificial-general-intelligence\/",
-        "tag": "#group",
+        "tag": "#group #poll #statistics",
         "time": 1710637463
     },
     {
@@ -123,7 +123,7 @@ var agicountdownJsonVar =
         "text2": "2026",
         "text3": "",
         "url": "https:\/\/www.metaculus.com\/questions\/3479\/date-weakly-general-ai-is-publicly-known\/",
-        "tag": "#group",
+        "tag": "#group #poll #statistics",
         "time": 1710588690
     }
 ]

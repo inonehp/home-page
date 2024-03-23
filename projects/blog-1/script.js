@@ -1,4 +1,4 @@
-// Blog v.2.17.1
+// Blog v.2.18.1
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -316,7 +316,7 @@ mode = 'search';
 q = fuMClearText(q);
 q2 = fuMClearText(q2);
 
-document.getElementsByTagName('title')[0].innerHTML += ': ' +  q.slice(0, 260) + "...";
+document.getElementsByTagName('title')[0].innerHTML += ': ' +  q.slice(0, 260) + " ...";
 
 if(q == 'rr'||q == 'rs'){ mode = 'randUrl'; }
 
@@ -550,7 +550,7 @@ comMessagePrint = 'id: '+postId;
 // post in title only when id
 if(id != ''&&getP2 == null){
 //document.getElementsByTagName('title')[0].innerHTML = postText.slice(0, 60);
-document.getElementsByTagName('title')[0].innerHTML += ' | ' + (postTextClean).slice(0, 260) +  "...";
+document.getElementsByTagName('title')[0].innerHTML += ' | ' + (postTextClean).slice(0, 260) +  " ...";
 /*if(conf["confDomainNameInTitle"] == 'on'){
 document.getElementsByTagName('title')[0].innerHTML += ' | ' +  (location.hostname).split('.')[0];
 }*/
@@ -1129,7 +1129,7 @@ print += `
 <div class="wrapper">
 <div class="block tRight">
 <a class="border3 borderRadius2 button light" href="#" onclick="history.back()" title="history back">back</a>
-<a class="border3 borderRadius2 button light" href="?">index</a>
+<a class="border3 borderRadius2 button light" href="?">start</a>
 </div>
 </div>
 `;
@@ -1232,8 +1232,8 @@ tagList2 = tagList2.replaceAll(/ /g, confSymbolForSplit);
 tagList2 = tagList2.replaceAll('·', '');
 tagList2 = tagList2.replaceAll('.', ' ');
 
-tagList2 = ''+tagList2+''.replaceAll(',', confSymbolForSplit);
-tagList2 = ''+tagList2+''.replaceAll(' ', confSymbolForSplit);
+tagList2 = '' + tagList2 + ''.replaceAll(',', confSymbolForSplit);
+tagList2 = ''+ tagList2 + ''.replaceAll(' ', confSymbolForSplit);
 
 
 
@@ -1327,42 +1327,42 @@ let tagPercentage = (Math.floor((tagCount * 100) / tagAverage)); // over 100%, u
 switch (true) {
 
 case tagPercentage >= 500:
-tagColor = "var(--red)";
+tagColor = "red";
 tagSize = "150%";
 break;
 
 case tagPercentage >= 300:
-tagColor = "var(--orange)";
+tagColor = "orange";
 tagSize = "140%";
 break;
 
 case tagPercentage >= 250:
-tagColor = "var(--yellow)";
+tagColor = "yellow";
 tagSize = "130%";
 break;
 
 case tagPercentage >= 100:
-tagColor = "var(--green)";
+tagColor = "green";
 tagSize = "120%";
 break;
 
 case tagPercentage >= 80:
-tagColor = "var(--blue)";
+tagColor = "blue";
 tagSize = "115%";
 break;
 
 case tagPercentage >= 50:
-tagColor = "var(--indigo)";
+tagColor = "indigo";
 tagSize = "110%";
 break;
 
 case tagPercentage >= 30:
-tagColor = "var(--violet)";
+tagColor = "violet";
 tagSize = "100%";
 break;
 
 default:
-tagColor = "var(--c2)";
+tagColor = "c2";
 tagSize = "90%";
 }
 
@@ -1406,14 +1406,14 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light2 border3 borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--rC4); font-size: ${tagSize} !important;">${printTag}</a>
+<a class="tag light2 border2 borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: var(--${tagColor}); color: var(--rC4); font-size: ${tagSize};">${printTag}</a>
 
 `;
 }else{
 
 tagList += `
 
-<a class="tag light2 border3 borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}"  style="color: ${tagColor}; font-size: ${tagSize} !important;">${printTag}</a>
+<a class="tag light2 border2 borderRadius2 ${hlClass} ${tagColor}" href="${scriptDir}?q=${goTag}"  style="font-size: ${tagSize};">${printTag}</a>
 
 `;
 }
@@ -1424,10 +1424,10 @@ hlClassList2 = [...new Set([...hlClassList])]; //https://stackoverflow.com/quest
 hlClassList = '';
 hlClassList2.forEach(function(item){
 let hlClass = 'hlClass' + item;
-item = item.toUpperCase();
+//item = item.toUpperCase();
 hlClassList += `
 
-<a id="${hlClass}" class="tag light2 border3 borderRadius2 ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}">${item}</a>
+<a id="${hlClass}" class="tag border borderRadius ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}">${item}</a>
 
 `;
 });
@@ -1536,7 +1536,7 @@ return `
 <div class="postContent pre padding2List">` + lPost + `</div>
 
 ${postFooterPadding}
-<div class=" ${postFooter} break2 ">
+<div class=" ${postFooter} break2 small">
 <span class="tagList tLeft left">` + tag + `</span>
 <span class="tagList tRight right">` + time + `</span>
 </div>
@@ -2858,7 +2858,7 @@ if((''+window.location+'').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + lFoundQUrlRandom;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href+'#stopRedir'; 
+window.location.href = window.location.href + '#stopRedir'; 
 }
 //console.log(postUrl);
 }
