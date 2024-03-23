@@ -1,4 +1,4 @@
-// Keep or blog v.2.20.3
+// Keep or blog v.2.21.0
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -1616,10 +1616,10 @@ let embed2 = '';
 
 text = [...text];
 
+//https://stackoverflow.com/questions/21711768/split-string-in-javascript-and-detect-line-break
 let forSplit = [
 ',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞",
-`
-`, " "
+`/\r?\n|\r|\n/g`, " "
 ]
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
@@ -1753,6 +1753,8 @@ break;
 
 case "www.instagram.com":
 case "instagram.com":
+play = "";
+if(item.indexOf("/p/") != -1){
 //https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
 play = item.split('?', 1)[0];
 embed = `<style>iframe.instagram-media {
@@ -1761,6 +1763,7 @@ embed = `<style>iframe.instagram-media {
     min-width: auto !important;
 }</style><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="${play}?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote><!--<script async src="//www.instagram.com/embed.js"></script>-->`;
 embedServiceList += 'instagram';
+}
 break;
 
 case "open.spotify.com":
@@ -1956,7 +1959,7 @@ var item222 = '';
 if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1){
 
 if(embedStatus == 'on'&&host != undefined){
-
+/*
 var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
@@ -1965,14 +1968,13 @@ if(confDataCollection != 'on'){
 ico = '🔗';
 if(confIconStatus != 'on'){ ico = '·'; }
 }
-
+*/
 item = item.trim();
 
-
 if(targetOption == 'blank'){
-item222 = `<a class="brand" target="_blank" href="${item}">${ico} ${item}</a>`;
+item222 = `<a class="brand insertIcon" target="_blank" href="${item}">${item}</a>`;
 }else{
-item222 = `<a class="brand" href="${item}">${ico} ${item}</a>`;
+item222 = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 }
 
 }else{
@@ -2114,10 +2116,10 @@ let embed2 = '';
 
 text = [...text];
 
+//https://stackoverflow.com/questions/21711768/split-string-in-javascript-and-detect-line-break
 let forSplit = [
 ",", "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞",
-`
-`, " "
+`/\r?\n|\r|\n/g`, " "
 ]
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
@@ -2253,6 +2255,8 @@ break;
 
 case "www.instagram.com":
 case "instagram.com":
+play = "";
+if(item.indexOf("/p/") != -1){
 //https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
 play = item.split('?', 1)[0];
 embed = `<style>iframe.instagram-media {
@@ -2261,6 +2265,7 @@ embed = `<style>iframe.instagram-media {
     min-width: auto !important;
 }</style><blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="${play}?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote><!--<script async src="//www.instagram.com/embed.js"></script>-->`;
 embedServiceList += 'instagram';
+}
 break;
 
 case "open.spotify.com":
@@ -2461,21 +2466,21 @@ embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" 
 if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1){
 checkText = false;
 if(embedStatus == 'on'&&host != undefined){
-var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
+/*var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 ico = `<span class="ico2 op"><img src="${ico}" alt="icon"></span>`;
 if(confDataCollection != 'on'){
 ico = `🔗`;
 if(confIconStatus != 'on'){ ico = '·'; }
-}
+}*/
 
 item = item.trim();
 
 if(targetOption == 'blank'){
-item = `<a class="brand" target="_blank" href="${item}">${ico} ${item}</a>`;
+item = `<a class="brand insertIcon" target="_blank" href="${item}">${item}</a>`;
 }else{
-item = `<a class="brand" href="${item}">${ico} ${item}</a>`;
+item = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 }
 
 
