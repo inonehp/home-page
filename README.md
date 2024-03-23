@@ -1,10 +1,10 @@
-<!-- README.md v.1.7.4 -->
+<!-- README.md v.1.7.5 -->
   
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
 # Home page and projects.    
 
-A personal start page with projects such as themes, to-do list, typing, icons, templates, and more.
+A personal start page with projects such as search (redirect), themes, to-do list, typing, icons, templates, and more. 
   
 ---
   

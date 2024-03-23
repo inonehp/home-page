@@ -1,4 +1,4 @@
-// Blog v.2.19.0
+// Blog v.2.20.0
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -163,6 +163,7 @@ q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
 q = q.trim();
 
+// script.js + project redirect
 let qHashtag = location.href;
 qHashtag = qHashtag.split("#")[1];
 if(qHashtag != undefined){

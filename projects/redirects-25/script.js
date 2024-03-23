@@ -21,9 +21,9 @@ qr = qr.replaceAll(/%/g, "%25");
 qr = decodeURIComponent(qr);
 qr = qr.trim();
 window.location.href = fuMHideFileNameExt(qr);
-window.location.href = window.location.href + '#stopRedir';
+window.location.href = window.location.href + '#stopRedirect';
 //window.location.replace(fuMHideFileNameExt(qr),);
-//window.location.replace(window.location.href + '#stopRedir',);
+//window.location.replace(window.location.href + '#stopRedirect',);
 }else{ qr = ''; }
 
 
@@ -83,7 +83,19 @@ q = q.trim();
 q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
 
-
+let qHashtag = location.href;
+qHashtag = qHashtag.split("#")[1];
+if(qHashtag != undefined){
+qHashtag = (String(location.href)).split("?")[1];
+qHashtag = (qHashtag + "&").split("&");
+qHashtag.forEach((val) => {
+if(val.indexOf("q=") != -1){
+val = val.replace("q=", "");
+q = val;
+q = decodeURIComponent(q);
+}
+});
+}
 
 // for the command at the end of the search query
 var strArray = q.split(" ");
@@ -804,25 +816,6 @@ rUrlGet = fuMHideFileNameExt(sRedirUrl);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // print
 
 function runRedir(rUrlGet){
@@ -836,30 +829,35 @@ if(rUrlGet[0] == "."){ rUrlGet = (rUrlGet).slice(1); }
 
 
 var sTimeRedirStatus = `<span class="small">redirection:</span> `+ sTimeRedir / 1000 + ` sec.`;
-if((''+window.location+'').search("#stopRedir") == -1){
+if((''+window.location+'').search("#stopRedirect") == -1){
 setTimeout(function(){
 window.location.href = rUrlGet;
 //window.location.replace(rUrlGet,);
 }, sTimeRedir); 
 }
 
-window.location.href = window.location.href + '#stopRedir'; 
-//window.location.replace(window.location.href + '#stopRedir',);
+window.location.href = window.location.href + '#stopRedirect'; 
+//window.location.replace(window.location.href + '#stopRedirect',);
 
-if ((rUrlGet).search("#stopRedir") != -1){
+if ((rUrlGet).search("#stopRedirect") != -1){
 sTimeRedirStatus = ' <span class="small">( redirection: off ) </span> ';
 }
 
 rUrlGetPrint = decodeURIComponent(rUrlGet);
 rUrlGetPrint = fuMClearText(rUrlGetPrint);
 
+if(rUrlGetPrint.indexOf('#stopRedirect') != -1){
+rUrlGetPrint = rUrlGetPrint.replaceAll('#stopRedirect', ' <!--<span class="small c3">(+ #stopRedirect)</span>-->');
+rUrlGet = rUrlGet.replaceAll('#stopRedirect', '');
+rUrlGet = rUrlGet.replaceAll('%23stopRedirect', '');
+}
 
 print = `
 
 <div class="tCenter">
 <div class="padding3 bgList borderList op tCenter">` + sTimeRedirStatus + `</div>
 <div class="padding bgList borderList h3 ${color} bold">` + rUrlGetPrint + `</div>
-<a class="block padding2 light borderList op" href="` + rUrlGet + `">open</a>
+<a class="block padding2 light borderList brand" href="` + rUrlGet + `">Open</a>
 </div>
 
 `;
@@ -883,15 +881,9 @@ b  += item+ ', ';
 if(document.getElementById('printComList') != null){
 document.getElementById('printComList').innerHTML = '<div class="bg padding2 border2 light op pre small">Redirects commands list: ' + b + `
 
-Example redirects: "Google n" - news about Google.
+Example redirects (random): "Google n" - news about Google.
 
-goo - Google
-bin - Bing
-n - News
-x - X (Twitter)
-red - Reddit
-v - video
-l - lucky (first search result).
+goo - Google, bin - Bing, n - News, x - X (Twitter), red - Reddit, v - video, l - lucky (first search result).
 </div>`;
 }
 
