@@ -1,4 +1,4 @@
-// Main js v.6.5.0
+// Main js v.6.5.1
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -123,7 +123,7 @@ conf[val.confName] = val.confValueDefault;
 // end generate var: conf['confName'];
 
 // domain name in titile
-if(conf["confDomainNameInTitle"] == 'on'){
+if(conf["confDomainNameInTitle"] == 'on'&&String(window.location.pathname) != "/"){
 if(document.getElementsByTagName('title')[0] != null){
 document.getElementsByTagName('title')[0].innerText += ' / ' + conf["confDomainName"];
 }
