@@ -1,4 +1,4 @@
-// v.1.0.4
+// v.1.0.5
 
 let totalPost = agicountdownJsonVar.length;
 let totalPredict = 0;
@@ -55,7 +55,7 @@ resultCountdown = Number(result) - Number(new Date().getFullYear())
 
 var print = `
 
-<div class="bg shadow2 borderRadius4 padding2">
+<div class="bg shadow2 borderRadius3 padding2">
 <div class="padding2"></div>
 <div class="op padding2 tCenter">Countdown</div>
 <b class="block tCenter large">Artificial General Intelligence</b>
