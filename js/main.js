@@ -395,13 +395,11 @@ fuMPrintText("footer", `
 
 <div id="cookiePopup"></div>
 
-<div class="padding2"></div>
 <div id="ads2"></div>
-<!--<div class="padding"></div>-->
 
 
 <nav>
-<div class="wrapper4 balance margin2List small tCenter balancet">
+<div class="wrapper4 balance margin2List small tCenter">
 
 
 <div class="block tRight small padding2List">

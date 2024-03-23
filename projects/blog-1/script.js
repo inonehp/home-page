@@ -1,4 +1,4 @@
-// Keep or blog v.2.21.0
+// Keep or blog v.2.21.1
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -1619,17 +1619,18 @@ text = [...text];
 //https://stackoverflow.com/questions/21711768/split-string-in-javascript-and-detect-line-break
 let forSplit = [
 ',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞",
-`/\r?\n|\r|\n/g`, " "
+`
+`, " "
 ]
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
 if(item == item2){
-item = confSymbolForSplit + item + confSymbolForSplit;
+item =  item + confSymbolForSplit;
 }
 });
 text2 += item;
 });
-text2 = text2.replaceAll("http", confSymbolForSplit + "http");
+//text2 = text2.replaceAll("http", confSymbolForSplit + "http");
 
 //return text = text.toString();
 //return text = text.join("");
@@ -2119,17 +2120,18 @@ text = [...text];
 //https://stackoverflow.com/questions/21711768/split-string-in-javascript-and-detect-line-break
 let forSplit = [
 ",", "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞",
-`/\r?\n|\r|\n/g`, " "
+`
+`, " "
 ]
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
 if(item == item2){
-item = confSymbolForSplit + item + confSymbolForSplit;
+item = item + confSymbolForSplit;
 }
 });
 text2 += item;
 });
-text2 = text2.replaceAll("http", confSymbolForSplit + "http");
+//text2 = text2.replaceAll("http", confSymbolForSplit + "http");
 
 //return text = text.toString();
 //return text = text.join("");

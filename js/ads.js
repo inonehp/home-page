@@ -70,7 +70,13 @@ document.getElementById(idAds).innerHTML = '<div class="wrapper"><div class="pad
 insertIcon = '';
 adsPrint = `<div class="adsHeader"><a class="padding light brand inlineBlock" href="${adsUrlPage}"><span class="yellow">✪</span> <del><del>ads</del>, links</a></div><div class="adsBody ` + insertIcon + '">' + adsText + ' <a class="brand" target="blank" href="' + adsURL + '">' + adsURL + '</a></div>';
 
-document.getElementById(idAds).innerHTML = '<div class="center"><div class="adsCode">' + adsPrint + '</div></div>';
+document.getElementById(idAds).innerHTML = `
+<div class="center">
+<div class="padding2"></div>
+<div class="adsCode">${adsPrint}</div>
+<div class="padding2"></div>
+</div>`
+;
 }
 
 // end single

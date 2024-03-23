@@ -1,4 +1,4 @@
-/* v.1.16.1 */
+/* v.1.16.2 */
 
 
 
@@ -121,16 +121,15 @@ text-align: left;
 
 
 /* event */
-footer::before {
+#fTheme::before {
 content: "☀️";
 content: "🍂";
 content: "❄️";
 content: "🌱";
-padding: .25em 0;
 font-size: 1em;
-filter: grayscale(75%);
-text-align: center;
-display: block;
+opacity: .8;
+filter: grayscale(50%);
+padding-right: var(--padding);
 }
 
 
