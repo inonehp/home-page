@@ -1,7 +1,14 @@
-// Main js v.6.5.2
+// Main js v.6.5.3
 // For navigation (second), footer, themes, etc
 
 // Settings
+
+let confDebugStatus = "off"; // on, off
+
+// Disable code
+if(confDebugStatus != 'on'){
+
+
 var conf = [];
 
 conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
@@ -9,8 +16,9 @@ conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
 conf["confWrapperNavWidth"] = 900;
 conf["conMenuItemAverageWidth"] = 130;
 
-conf["confDomainNameInTitle"] = "on"; // on, off
+conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
+conf["confDomainNameInTitle"] = ' / ' + conf["confDomainName"];
 
 //IndexedDB, DB list for clear
 conf["confDbList"] = "todo-list-task,todo-list-idea";
@@ -123,9 +131,9 @@ conf[val.confName] = val.confValueDefault;
 // end generate var: conf['confName'];
 
 // domain name in titile
-if(conf["confDomainNameInTitle"] == 'on'&&String(window.location.pathname) != "/"){
+if(conf["confDomainNameInTitleStatus"] == 'on'&&String(window.location.pathname) != "/"){
 if(document.getElementsByTagName('title')[0] != null){
-document.getElementsByTagName('title')[0].innerText += ' / ' + conf["confDomainName"];
+document.getElementsByTagName('title')[0].innerText += conf["confDomainNameInTitle"];
 }
 }
 
@@ -1302,6 +1310,7 @@ fuMHideFileNameExt2();
 
 
 
-
+}
+// end Disable code
 
 

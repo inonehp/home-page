@@ -1,4 +1,4 @@
-// Redirects v.1.7.29
+// Redirects v.1.7.30
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -23,8 +23,10 @@ qr = qr.trim();
 q = qr;
 
 if(com == "on"&&String(window.location.href).indexOf("#!StopRedirect") == -1){
-window.location.href = window.location.href + '#!StopRedirect';
+
 window.location.href = fuMHideFileNameExt(qr);
+window.location.href = window.location.href + '#!StopRedirect';
+
 //window.location.replace(fuMHideFileNameExt(qr),);
 //window.location.replace(window.location.href + '#!StopRedirect',);
 }
@@ -841,11 +843,12 @@ if(com == "on"&&(String(window.location)).indexOf("#!StopRedirect") == -1){
 setTimeout(function(){
 
 //window.location.replace(rUrlGet,);
-window.location.href = window.location.href + '#!StopRedirect'; 
 
 let rUrlGetClean = rUrlGet.replaceAll('%23!StopRedirect', '')
 rUrlGetClean = rUrlGetClean.replaceAll('#!StopRedirect', '')
 window.location.href = rUrlGetClean;
+
+window.location.href = window.location.href + '#!StopRedirect'; 
 
 }, sTimeRedir); 
 }
