@@ -158,10 +158,10 @@ randomPcArrIndex.push(index)
 })
 
 var rndIndex = shuffle(randomPcArrIndex);
-console.log(rndIndex[0]);
+//console.log(rndIndex[0]);
 playArr[rndIndex[0]] = tttPlayer2Symbol;
 check = 'ok';
-console.log('random empty'+rndIndex[0]);
+//console.log('random empty'+rndIndex[0]);
 }
 randomPcArrIndex = [];
 
@@ -185,7 +185,7 @@ winCheck(playArr, tttPlayer2Symbol);
 
 // win
 function winCheck(playArr, symbol, checkIfEmpty){
-console.log(checkIfEmpty);
+//console.log(checkIfEmpty);
 
 if(checkIfEmpty == ''||checkIfEmpty == undefined){
 

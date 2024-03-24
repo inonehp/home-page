@@ -1,4 +1,4 @@
-/* v.1.0.1 */
+/* v.1.0.2 */
 /* comment */
 
 
@@ -10,10 +10,10 @@ input[type="number"] { margin: 0 auto; width: 100%; }
 input[type="number"]:invalid {
 color: var(--red);
 }
-
+/*
 input[type="number"]:valid {
 color: var(--green);
-}
+}*/
 
 .buttonPlusMinus {
 display: grid;

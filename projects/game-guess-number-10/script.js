@@ -1,4 +1,4 @@
-// Guess number game v.1.3.0
+// Guess number game v.1.4.0
 
 var limit = 10;
 var rangeValue = 0;
@@ -122,7 +122,10 @@ return false;
 if(e.target.nodeName=='INPUT'&&e.target.type=='text'){
 e.preventDefault();
 return false;
-}}},true);
+
+//}}},true
+}}}
+);
 
 
 

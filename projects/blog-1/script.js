@@ -1,4 +1,4 @@
-// Keep or blog v.2.21.1
+// Keep or blog v.2.21.2
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -23,7 +23,7 @@ let blogConfig = {
 
 function blog(printId, jsonVar, postClass, scriptDir, blogConfig){
 
-console.table(jsonVar);
+
 
 if(blogConfig == undefined||blogConfig == ''){
 var blogConfig = [];
