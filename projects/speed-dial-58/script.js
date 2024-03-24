@@ -1,19 +1,19 @@
-// Speed dial v.1.5.0
+// Speed dial v.1.5.1
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
-if(typeof conf === "undefined"){
+/*if(typeof conf === "undefined"){
 var conf = [];
 conf["confDomainNameInTitleStatus"] = 'on';
 conf["confSpeedDialStatus"] = 'on';
 function fuMClearText(text){ return text; }
-}
+}*/
 
 let locationSpeedDialTitle = String(document.title);
 let locationSpeedDialUrl = String(location.href);
-locationSpeedDialUrl = locationSpeedDialUrl.replace("#mPin", '');
+locationSpeedDialUrl = locationSpeedDialUrl.replaceAll("#mPin", '');
 
 
 // fix for short text link
