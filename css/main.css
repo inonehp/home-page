@@ -1,4 +1,4 @@
-/* Main style v.16.0.0
+/* Main style v.16.1.0
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -15,6 +15,10 @@ Responsive, mainly class-based */
 --brandColor: color-mix(in srgb, var(--blue) 80%, var(--green));
 
 --bodyPadding: 3vw;
+--inputHeight: 45px;
+--fontSize: 0.97em;
+--fontSize: 14px;
+
 --wrapper: 540px;
 --wrapper2: 700px;
 --wrapper3: 900px;
@@ -26,9 +30,6 @@ Responsive, mainly class-based */
 --wrapperM: 330px;
 --wrapperS: 230px;
 --wrapperXs: 160px;
-
---inputHeight: 45px;
---fontSize: 0.97em;
 
 --padding: 5px;
 --padding2: 10px;

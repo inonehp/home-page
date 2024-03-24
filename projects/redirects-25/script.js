@@ -1,12 +1,11 @@
-// Redirects v.1.7.27
+// Redirects v.1.7.28
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
 // conf
+var com = "on"; // on, off redirection
 var sTimeRedir = 550;
 // end conf
-
-
 
 var geturl = window.location;
 var url = new URL(geturl);
@@ -20,10 +19,15 @@ if(qr != null){
 qr = qr.replaceAll(/%/g, "%25");
 qr = decodeURIComponent(qr);
 qr = qr.trim();
+
+q = qr;
+
+if(com == "on"&&String(window.location.href).indexOf("#!StopRedirect") == -1){
 window.location.href = fuMHideFileNameExt(qr);
-window.location.href = window.location.href + '#stopRedirect';
+window.location.href = window.location.href + '#!StopRedirect';
 //window.location.replace(fuMHideFileNameExt(qr),);
-//window.location.replace(window.location.href + '#stopRedirect',);
+//window.location.replace(window.location.href + '#!StopRedirect',);
+}
 }else{ qr = ''; }
 
 
@@ -805,8 +809,10 @@ sRedirUrl = random;
 
 if(sRedirUrl != ''&&sRedirUrl != undefined&&sRedirUrl != null){
 rUrlGet = fuMHideFileNameExt(sRedirUrl);
-//window.location.href = "/projects/25-redirects/?rUrl="+sRedirUrl;
-//window.location.replace(/projects/25-redirects/?rUrl="+sRedirUrl,);
+if(com == "on"){
+//window.location.href = "/projects/redirects-25/?rUrl="+sRedirUrl;
+//window.location.replace(/projects/redirects-25/?rUrl="+sRedirUrl,);
+}
 }
 
 }
@@ -828,36 +834,39 @@ if(rUrlGet != null&&rUrlGet != 'null'&&rUrlGet != ''&&rUrlGet != undefined){
 if(rUrlGet[0] == "."){ rUrlGet = (rUrlGet).slice(1); }
 
 
-var sTimeRedirStatus = `<span class="small">redirection:</span> `+ sTimeRedir / 1000 + ` sec.`;
-if((''+window.location+'').search("#stopRedirect") == -1){
+var sTimeRedirStatus = `<span class="small">redirection (${com}):</span> `+ sTimeRedir / 1000 + ` sec.`;
+if(com == "on"&&(''+window.location+'').indexOf("#!StopRedirect") == -1){
 setTimeout(function(){
 window.location.href = rUrlGet;
 //window.location.replace(rUrlGet,);
 }, sTimeRedir); 
 }
 
-window.location.href = window.location.href + '#stopRedirect'; 
-//window.location.replace(window.location.href + '#stopRedirect',);
+if(com == "on"&&String(window.location.href).indexOf("#!StopRedirect") == -1){
+window.location.href = window.location.href + '#!StopRedirect'; 
+//window.location.replace(window.location.href + '#!StopRedirect',);
+}
 
-if ((rUrlGet).search("#stopRedirect") != -1){
+//if((rUrlGet).search("#!StopRedirect") != -1){
+if((rUrlGet).indexOf("#!StopRedirect") != -1){
 sTimeRedirStatus = ' <span class="small">( redirection: off ) </span> ';
 }
 
 rUrlGetPrint = decodeURIComponent(rUrlGet);
 rUrlGetPrint = fuMClearText(rUrlGetPrint);
 
-if(rUrlGetPrint.indexOf('#stopRedirect') != -1){
-rUrlGetPrint = rUrlGetPrint.replaceAll('#stopRedirect', ' <!--<span class="small c3">(+ #stopRedirect)</span>-->');
-rUrlGet = rUrlGet.replaceAll('#stopRedirect', '');
-rUrlGet = rUrlGet.replaceAll('%23stopRedirect', '');
+if(rUrlGetPrint.indexOf('#!StopRedirect') == -1){
+rUrlGetPrint = rUrlGetPrint.replaceAll('#!StopRedirect', ' <!--<span class="small c3">(+ #stopRedirect)</span>-->');
+rUrlGet = rUrlGet.replaceAll('#!StopRedirect', '');
+rUrlGet = rUrlGet.replaceAll('%23!StopRedirect', '');
 }
 
 print = `
 
 <div class="tCenter">
-<div class="padding3 bgList borderList op tCenter">` + sTimeRedirStatus + `</div>
-<div class="padding bgList borderList h3 ${color} bold">` + rUrlGetPrint + `</div>
-<a class="block padding2 light borderList brand" href="` + rUrlGet + `">Open</a>
+<div class="padding3 bgList borderList op tCenter borderRadius2">` + sTimeRedirStatus + `</div>
+<div class="padding3 bgList borderList h3 ${color} bold borderRadius2">` + rUrlGetPrint + `</div>
+<a class="block padding3 bgList borderList light brand borderRadius2" href="` + rUrlGet + `">Open</a>
 </div>
 
 `;
