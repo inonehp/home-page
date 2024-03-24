@@ -392,6 +392,7 @@ fuMPrintText("footer", `
 
 <div id="style"></div>
 
+<div class="padding2 margin2"></div>
 
 <div id="cookiePopup"></div>
 
@@ -400,7 +401,6 @@ fuMPrintText("footer", `
 <nav>
 <div class="wrapper4 balance margin2List small tCenter">
 
-<div class="padding2"></div>
 <div class="tRight small padding2List">
 <details class="inlineBlock op">
 <div id="fDesc" class="block pre tLeft wrapperL padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
