@@ -844,11 +844,12 @@ setTimeout(function(){
 
 //window.location.replace(rUrlGet,);
 
-let rUrlGetClean = rUrlGet.replaceAll('%23!StopRedirect', '')
-rUrlGetClean = rUrlGetClean.replaceAll('#!StopRedirect', '')
+let rUrlGetClean = rUrlGet.replaceAll('%23!StopRedirect', '');
+rUrlGetClean = rUrlGetClean.replaceAll('#!StopRedirect', '');
 window.location.href = rUrlGetClean;
 
 window.location.href = window.location.href + '#!StopRedirect'; 
+
 
 }, sTimeRedir); 
 }
@@ -864,11 +865,11 @@ sTimeRedirStatus = ' <span class="small">( redirection: off ) </span> ';
 rUrlGetPrint = decodeURIComponent(rUrlGet);
 rUrlGetPrint = fuMClearText(rUrlGetPrint);
 
-if(rUrlGet.indexOf('#!StopRedirect') == -1){
+//if(rUrlGet.indexOf('#!StopRedirect') == -1){}
 rUrlGetPrint = rUrlGetPrint.replaceAll('#!StopRedirect', ' <!--<span class="small c3">(+ #stopRedirect)</span>-->');
 rUrlGet = rUrlGet.replaceAll('#!StopRedirect', '');
 rUrlGet = rUrlGet.replaceAll('%23!StopRedirect', '');
-}
+
 
 print = `
 
