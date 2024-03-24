@@ -1,4 +1,4 @@
-// Redirects v.1.7.28
+// Redirects v.1.7.29
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -23,8 +23,8 @@ qr = qr.trim();
 q = qr;
 
 if(com == "on"&&String(window.location.href).indexOf("#!StopRedirect") == -1){
-window.location.href = fuMHideFileNameExt(qr);
 window.location.href = window.location.href + '#!StopRedirect';
+window.location.href = fuMHideFileNameExt(qr);
 //window.location.replace(fuMHideFileNameExt(qr),);
 //window.location.replace(window.location.href + '#!StopRedirect',);
 }
@@ -834,18 +834,24 @@ if(rUrlGet != null&&rUrlGet != 'null'&&rUrlGet != ''&&rUrlGet != undefined){
 if(rUrlGet[0] == "."){ rUrlGet = (rUrlGet).slice(1); }
 
 
+
+// main redirect
 var sTimeRedirStatus = `<span class="small">redirection (${com}):</span> `+ sTimeRedir / 1000 + ` sec.`;
-if(com == "on"&&(''+window.location+'').indexOf("#!StopRedirect") == -1){
+if(com == "on"&&(String(window.location)).indexOf("#!StopRedirect") == -1){
 setTimeout(function(){
-window.location.href = rUrlGet;
+
 //window.location.replace(rUrlGet,);
+window.location.href = window.location.href + '#!StopRedirect'; 
+
+let rUrlGetClean = rUrlGet.replaceAll('%23!StopRedirect', '')
+rUrlGetClean = rUrlGetClean.replaceAll('#!StopRedirect', '')
+window.location.href = rUrlGetClean;
+
 }, sTimeRedir); 
 }
+// end main redirect
 
-if(com == "on"&&String(window.location.href).indexOf("#!StopRedirect") == -1){
-window.location.href = window.location.href + '#!StopRedirect'; 
-//window.location.replace(window.location.href + '#!StopRedirect',);
-}
+
 
 //if((rUrlGet).search("#!StopRedirect") != -1){
 if((rUrlGet).indexOf("#!StopRedirect") != -1){
@@ -855,7 +861,7 @@ sTimeRedirStatus = ' <span class="small">( redirection: off ) </span> ';
 rUrlGetPrint = decodeURIComponent(rUrlGet);
 rUrlGetPrint = fuMClearText(rUrlGetPrint);
 
-if(rUrlGetPrint.indexOf('#!StopRedirect') == -1){
+if(rUrlGet.indexOf('#!StopRedirect') == -1){
 rUrlGetPrint = rUrlGetPrint.replaceAll('#!StopRedirect', ' <!--<span class="small c3">(+ #stopRedirect)</span>-->');
 rUrlGet = rUrlGet.replaceAll('#!StopRedirect', '');
 rUrlGet = rUrlGet.replaceAll('%23!StopRedirect', '');

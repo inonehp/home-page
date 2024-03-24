@@ -1,12 +1,16 @@
-// Speed dial v.1.4.0
+// Speed dial v.1.4.2
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
 
 
-let locationSpeedDialTitle = document.title;
-let locationSpeedDialUrl = location.href;
+let locationSpeedDialTitle = String(document.title);
+let locationSpeedDialUrl = String(location.href);
 locationSpeedDialUrl = locationSpeedDialUrl.replace("#mPin", '');
+
+if(String(window.location.pathname) == "/"){
+locationSpeedDialUrl = locationSpeedDialUrl + "#start";
+}
 
 if (localStorage.getItem("confSpeedDialData")) {
 var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
@@ -154,6 +158,7 @@ url = fuMClearText(url);
 
 confSpeedDialDataArr = JSON.parse(confSpeedDialDataArr);
 confSpeedDialDataArr.push({text:text, url:url});
+lNaturalSort(confSpeedDialDataArr);
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
 localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArr));
 }
@@ -208,6 +213,8 @@ confSpeedDialDataArrUpdate.push({text:textOld, url:urlOld});
 }
 
 });
+
+lNaturalSort(confSpeedDialDataArrUpdate);
 
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
 localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArrUpdate));
