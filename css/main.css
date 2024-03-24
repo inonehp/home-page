@@ -1,4 +1,4 @@
-/* Main style v.16.1.0
+/* Main style v.16.1.2
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -182,9 +182,8 @@ display: grid;
 grid-template-columns: 1fr 30%;
 grid-gap: 1%;
 text-align: right;
-margin-top: 10px;
-align-items: self-end; align-items: stretch;
-
+align-items: self-end;
+align-items: stretch;
 flex-shrink: 0;
 }
 

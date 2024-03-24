@@ -1,4 +1,4 @@
-// Main js v.6.5.1
+// Main js v.6.5.2
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -388,7 +388,7 @@ fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall"
 
 fuMPrintText("footer", `
 
-<div class="padding2 margin2"></div>
+
 
 <div id="style"></div>
 
@@ -400,8 +400,8 @@ fuMPrintText("footer", `
 <nav>
 <div class="wrapper4 balance margin2List small tCenter">
 
-
-<div class="block tRight small padding2List">
+<div class="padding2"></div>
+<div class="tRight small padding2List">
 <details class="inlineBlock op">
 <div id="fDesc" class="block pre tLeft wrapperL padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
 <summary class="pointer paddingList marginList brand" title="Description and keywords">${fDescTitle}</summary>
@@ -430,7 +430,6 @@ fuMPrintText("footer", `
 
 </div>
 </nav>
-
 
 <div id="fScrollToBottom"></div>
 
