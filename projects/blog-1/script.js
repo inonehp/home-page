@@ -1616,7 +1616,6 @@ let embed2 = '';
 
 text = [...text];
 
-//https://stackoverflow.com/questions/21711768/split-string-in-javascript-and-detect-line-break
 let forSplit = [
 ',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞",
 `
@@ -2117,7 +2116,6 @@ let embed2 = '';
 
 text = [...text];
 
-//https://stackoverflow.com/questions/21711768/split-string-in-javascript-and-detect-line-break
 let forSplit = [
 ",", "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞",
 `

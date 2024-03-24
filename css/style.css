@@ -126,7 +126,6 @@ content: "☀️";
 content: "🍂";
 content: "❄️";
 content: "🌱";
-font-size: 1em;
 opacity: .8;
 filter: grayscale(50%);
 padding-right: var(--padding);
