@@ -1,9 +1,12 @@
-// Speed dial v.1.3.11
+// Speed dial v.1.4.0
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
 
 
+let locationSpeedDialTitle = document.title;
+let locationSpeedDialUrl = location.href;
+locationSpeedDialUrl = locationSpeedDialUrl.replace("#mPin", '');
 
 if (localStorage.getItem("confSpeedDialData")) {
 var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
@@ -37,8 +40,9 @@ let confSpeedDialDataArrButton = JSON.parse(confSpeedDialDataArr);
 confSpeedDialDataArrButton.forEach((item, index) => {
 
 if(index != undefined&&index != "undefined"){
-if((String(item.url)).indexOf(location.href) != -1){
-fPinButton = `<a title="Speed dial setting" id="mPin" class="inlineBlock padding gray" href="/projects/speed-dial-58/index.html">Pined</a>`;
+
+if((String(item.url)).indexOf(locationSpeedDialUrl) != -1){
+fPinButton = `<a title="Speed dial setting" id="mPin" class="inlineBlock padding gray" href="#mPin" onclick="fuLSpeedDial('', '', '', 'del');">Pined</a>`;
 }
 
 }
@@ -131,6 +135,8 @@ document.getElementById(idForPrint).innerHTML = print;
 
 break;
 
+
+
 case 'add':
 
 if(text == ""){
@@ -155,11 +161,13 @@ localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArr));
 fuLSpeedDial("speedDialPrint", "", "", "print");
 break;
 
+
+
 case 'add2':
 
 if(text == ""){
-text = fuMClearText(document.title);
-url = fuMClearText(location.href);
+text = fuMClearText(locationSpeedDialTitle);
+url = fuMClearText(locationSpeedDialUrl);
 }
 
 if(text != ""){
@@ -177,10 +185,44 @@ break;
 
 
 
+case 'del':
+
+if(text == ""){
+text = fuMClearText(locationSpeedDialTitle);
+url = fuMClearText(locationSpeedDialUrl);
+
+url = url.replace("#mPin", '');
+}
+
+let confSpeedDialDataArrUpdate = [];
+
+confSpeedDialDataArr = JSON.parse(confSpeedDialDataArr);
+confSpeedDialDataArr.forEach((item, index) => {
+
+if(confSpeedDialDataArr[index].url == url){
+
+}else{
+let textOld = confSpeedDialDataArr[index].text;
+let urlOld = confSpeedDialDataArr[index].url;
+confSpeedDialDataArrUpdate.push({text:textOld, url:urlOld});
+}
+
+});
+
+//https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
+localStorage.setItem("confSpeedDialData", JSON.stringify(confSpeedDialDataArrUpdate));
+
+fuLSpeedDial("speedDialPrint", "", "", "print");
+
+break;
+
+
+
 case 'setting':
 // setting print all
 let printSettings = "";
 let printSettingsArr = [];
+
 confSpeedDialDataArr = JSON.parse(confSpeedDialDataArr);
 confSpeedDialDataArr.forEach((item, index) => {
 if(index != undefined&&index != "undefined"){
@@ -267,9 +309,9 @@ let getData = document.querySelectorAll('.classSpeedDialText');
 getData.forEach((item, index) => {
 text = document.getElementsByClassName("classSpeedDialText")[index].value;
 url = document.getElementsByClassName("classSpeedDialUrl")[index].value;
+
 if(text == ""||url == ""){
 }else{
-
 
 text = fuMClearText(text);
 url = fuMClearText(url);
@@ -277,6 +319,7 @@ url = fuMClearText(url);
 fuMClearText
 confSpeedDialDataArr.push({text:text, url:url});
 }
+
 });
 
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
@@ -295,7 +338,6 @@ fuMReload();
 }
 
 break;
-
 
 
 default:
