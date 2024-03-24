@@ -1,13 +1,7 @@
-// Main js v.6.5.3
+// Main js v.6.5.4
 // For navigation (second), footer, themes, etc
 
 // Settings
-
-let confDebugStatus = "off"; // on, off
-
-// Disable code
-if(confDebugStatus != 'on'){
-
 
 var conf = [];
 
@@ -1308,9 +1302,5 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 // fu hide ext
 fuMHideFileNameExt2();
 
-
-
-}
-// end Disable code
 
 
