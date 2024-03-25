@@ -1,4 +1,4 @@
-// Search redirects v.1.7.30
+// Search redirects v.1.7.31
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -431,7 +431,8 @@ q = q3.replace(q2, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " bin",
+//"?q=" + q + " bin",
+"https://www.perplexity.ai/search/?q=" + q,
 ];
 
 random = Math.floor(Math.random() * urlList.length);
