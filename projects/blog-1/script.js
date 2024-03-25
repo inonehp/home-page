@@ -1536,9 +1536,7 @@ lPost = highlightText2(post, targetOption); // autoplay embed
 lPost = highlightText(post, targetOption, subQforLight); 
 }
 
-var username = (location.hostname).split('.');
-username = username[0];
-
+var username = conf["confDomainName"];
 
 var postFooter = ' postFooter ';
 var postFooterPadding = '';

@@ -88,7 +88,7 @@ var submitForm = `
 <a href="#spedDialSubmit" onclick="fuLSpeedDial('', '', '', 'add')"><div class="op small tag2 submit">Add</div></a>
 
 <div class="padding2"></div>
-<a class="op brand" href="/projects/speed-dial-58/index.html">Edit speed dial (edit all)</a>
+<a class="op button border light borderRadius2" href="/projects/speed-dial-58/index.html">Edit speed dial</a>
 
 </form>
 

@@ -49,24 +49,11 @@ var i = 0;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // main
 function runDb(com, id, text, status, statusDaily){
 
 var dbVersion = 1.0;
-var dbName = "todo-list-task";
+var dbName = "todo-list";
 var tableName = 'data';
 
 print = '';

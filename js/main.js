@@ -17,7 +17,7 @@ conf["confDomainNameInTitle"] = ' / ' + conf["confDomainName"];
 
 
 //IndexedDB, DB list for clear
-conf["confDbList"] = "todo-list-task,todo-list-idea";
+conf["confDbList"] = "todo-list,todo-list-ideas";
 
 conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
 conf["confTagListLimit"] = 38;
@@ -28,6 +28,20 @@ conf["confIdEmbedScript"] = "footer";
 
 // settings var
 const confData = [
+{
+"confTitle":"Theme",
+"confDescription":`Color theme of the site. <a class="brand brand" href="/themes.html">More settings and a list of themes</a>`,
+"confName":"confTheme",
+"confValueDefault":"auto",
+"confValueVariant":["auto", "light", "dark", "auto-t-rand-all", "auto-rand-all"],
+},
+{
+"confTitle":"Icons on off",
+"confDescription":"Enable Disable Icons.",
+"confName":"confIconStatus",
+"confValueDefault":"off",
+"confValueVariant":["on", "off", "random"],
+},
 {
 "confTitle":"Allow Cookies For Third Parties?",
 "confDescription":`
@@ -47,13 +61,6 @@ This is necessary to improve the site.
 "confName":"confAdsStatus",
 "confValueDefault":"off",
 "confValueVariant":["on", "off", "random"],
-},
-{
-"confTitle":"Theme",
-"confDescription":`Color theme of the site. <a class="brand brand" href="/themes.html">More settings and a list of themes</a>`,
-"confName":"confTheme",
-"confValueDefault":"auto",
-"confValueVariant":["auto", "light", "dark", "auto-t-rand-all", "auto-rand-all"],
 },
 {
 "confTitle":"Start of the day (time)",
@@ -97,13 +104,6 @@ This is necessary to improve the site.
 "confDescription":"Speed dial on off.",
 "confName":"confSpeedDialStatus",
 "confValueDefault":"on",
-"confValueVariant":["on", "off", "random"],
-},
-{
-"confTitle":"Icons on off",
-"confDescription":"Enable Disable Icons.",
-"confName":"confIconStatus",
-"confValueDefault":"off",
 "confValueVariant":["on", "off", "random"],
 },
 ];

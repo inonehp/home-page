@@ -30,7 +30,7 @@ var articlesJsonVar =
     {
         "id": "6",
         "text": "Web design notes",
-        "text2": "- Do not use emojis\r\n- Don't use duplicate content (license conflict)\r\n\r\nTools and links\r\nhttps:\/\/daringfireball.net\/projects\/markdown\/",
+        "text2": "- Do not use emojis\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase\r\n\r\nTools and links\r\nhttps:\/\/daringfireball.net\/projects\/markdown\/",
         "text3": "",
         "url": "",
         "tag": "#WebDesign #SEO #note",
