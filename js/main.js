@@ -1035,6 +1035,7 @@ document.getElementById('fPrivacy')[0].innerText = `Cookie: auto (${conf["confDa
 
 
 // Hide page extenstion v.1.0.0
+// for fix PWA 404 page if no ext
 function fuMHideFileNameExt(url){
 var newUrl = url;
 if(conf["confHideLinkExt"] == "on"){
