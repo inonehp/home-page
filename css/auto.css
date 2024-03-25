@@ -1,13 +1,13 @@
-/* Auto CSS v.1.0.0 */
+/* Auto CSS v.1.0.1 */
 /* Light Dark auto theme */
 /* if no main.js for set theme */
 
 /* light */
 :root{
---bg: #F0F0F0;
---l: #F5F5F5;
---l2: #F7F7F7;
---l3: #FAFAFA;
+--bg: #EBEBEB;
+--l: #EDEDED;
+--l2: #F2F2F2;
+--l3: #F7F7F7;
 --l4: #FFFFFF;
 --d: #E6E6E6;
 --d2: #E0E0E0;

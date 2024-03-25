@@ -1,6 +1,15 @@
 var bookmarksJsonVar = 
 [
     {
+        "id": "129",
+        "text": "Daring Fireball: Markdown",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/daringfireball.net\/projects\/markdown\/",
+        "tag": "#WebDevelopment #tool",
+        "time": 1711321984
+    },
+    {
         "id": "128",
         "text": "Perplexity AI",
         "text2": "",

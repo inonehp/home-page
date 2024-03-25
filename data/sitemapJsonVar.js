@@ -351,14 +351,14 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/agi-countdown-59\/index.html",
-        "text": "AGI Countdown Timer\n\nAGI Countdown timer. An attempt to predict when general artificial intelligence will be created. || agi countdown: ",
+        "text": "AGI countdown timer\n\nAGI Countdown timer. An attempt to predict when general artificial intelligence will be created. || agi countdown: ",
         "tag": " #agi #CSS #JavaScript #project",
         "id": "983c52c3556e8725e77dd0cbef09c65c",
         "time": "id"
     },
     {
         "url": "\/projects\/average-number-40\/index.html",
-        "text": "Average Number\n\nAfter entering the numbers, the result will be the average value || average number: ",
+        "text": "Average number\n\nAfter entering the numbers, the result will be the average value || average number: ",
         "tag": " #average #number #tool #JavaScript #project",
         "id": "fc61833ea57d16d081bc11c60aa84b1e",
         "time": "id"
@@ -666,14 +666,14 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/todo-list-idea-32\/index.html",
-        "text": "To Do List Idea\n\nTodo list idea, todo idea. || todo list idea: ",
+        "text": "To Do list ideas\n\nThis is a simple list of ideas based on the [todo list] script. (Idea list). || todo list idea: ",
         "tag": " #todo #idea #tool #JavaScript #project",
         "id": "12fd7e0887d1166db0cd105434c74534",
         "time": "id"
     },
     {
         "url": "\/projects\/todo-list-task-31\/index.html",
-        "text": "To Do List Task\n\nTodo list task, todo task. || todo list task: ",
+        "text": "To Do List\n\nTo-do, todo list. It&amp;#039;s a simple to-do list with the ability to pin tasks as daily. (Task list, tasks). || todo list task: ",
         "tag": " #todo #task #tool #JavaScript #project",
         "id": "4496de3bbb3500a9da07fdaec6a7d7f3",
         "time": "id"
@@ -694,7 +694,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/typing-speed-14\/index.html",
-        "text": "Typing Speed\n\n\u00b7 A typing speed or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM.\r\n\u00b7 Modes: quotes, book, own text input. || typing speed: ",
+        "text": "Typing speed\n\n\u00b7 A typing speed or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM.\r\n\u00b7 Modes: quotes, book, own text input. || typing speed: ",
         "tag": " #game #typing #speed #trainer #WPM #JavaScript #project",
         "id": "f176928c264f247cd3a9adb88d3b60fb",
         "time": "id"

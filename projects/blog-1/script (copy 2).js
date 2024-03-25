@@ -1,4 +1,4 @@
-// Keep or blog v.2.23.0
+// Keep or blog v.2.22.0
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -1098,16 +1098,12 @@ printPost = `
 <style>
 .blogContentGallery {
 display: grid;
-width: 100%;
-/*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 grid-gap: 5px;
-
+width: 100%;
 /*max-width: 1200px;*/
-/*margin: 0 auto;*/
-
-align-content: center;
-justify-content: space-evenly;
+margin: 0 auto;
 }
 
 .postFooter { grid-template-columns: 1fr; }
@@ -2753,7 +2749,6 @@ return `
 .galleryBlogNav {
 display: grid;
 grid-template-columns: 1fr minmax(70px, 20%) 1fr;
-grid-template-columns: 1fr 1fr;
 grid-gap: 1px;
 justify-content: center;
 }
@@ -2771,7 +2766,7 @@ ${pringInputRange}
 
 <div class="galleryBlogNav">
 <a class="${hideButtonClass2} border3 button light2 borderRadius2" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
-<!--<div class="button border3 op xSmall bg borderRadius2">${navMode}: ` + Math.floor(getP / postLimit) + `</div>-->
+<div class="button border3 op xSmall bg borderRadius2">${navMode}: ` + Math.floor(getP / postLimit) + `</div>
 <a class="${hideButtonClass} border3 button light2 borderRadius2" href="?${navOption2}${navMode}=${next}">&#8594;</a>
 </div>
 
@@ -2781,7 +2776,7 @@ ${nav2Print}
 
 `;
 }
-// navigation navbar
+// end navigation navbar
 
 
 

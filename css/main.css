@@ -1,4 +1,4 @@
-/* Main style v.16.1.2
+/* Main style v.16.2.0
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -185,7 +185,15 @@ text-align: right;
 align-items: self-end;
 align-items: stretch;
 flex-shrink: 0;
+padding-top: calc(var(--padding) / 2);
 }
+.postFooter a {
+display: inline-block;
+padding: var(--padding);
+padding-left: 0;
+padding-right: var(--padding2);
+}
+.postFooter:last-child { padding-right: 0; }
 
 @media(max-width: 300px) { .postFooter { grid-template-columns: 1fr;} }
 
@@ -566,11 +574,20 @@ form fieldset { border: 1px solid var(--d3); }
 .bg { background: var(--l); }
 .bgList, .light { background: var(--l); }
 .bgList:nth-child(2n), .light:hover { background: var(--l2); }
+.bg:hover, .bgList:hover { background: color-mix(in srgb, var(--l) 90%, var(--l4)); }
+.bgList:nth-child(2n):hover { background: color-mix(in srgb, var(--l2) 90%, var(--l4)); }
+
 .bg2, .bg2List, .light2 { background: var(--l2); }
 .bg2List:nth-child(2n), .light2:hover, .light3{ background: var(--l3); }
+.bg2:hover, .bg2List:hover { background: color-mix(in srgb, var(--l2) 90%, var(--l4)); }
+.bg2List:nth-child(2n):hover { background: color-mix(in srgb, var(--l3) 90%, var(--l4)); }
+
 .bg3, .bg3List, .light3 { background: var(--l3); }
 .bg3List:nth-child(2n), .light3:hover, .light4{ background: var(--l4); }
+.bg3:hover, .bg3List:hover { background: color-mix(in srgb, var(--l3) 90%, var(--l4)); }
+
 .bg4, .bg4List, .light4:hover { background: var(--l4); }
+
 
 .bgD { background: var(--d); }
 .bgDList, .dark { background: var(--d); }
