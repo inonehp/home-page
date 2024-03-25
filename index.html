@@ -990,7 +990,7 @@ let sUrlText = String(url);
 const myArray = sUrlText.split("q=");
 if(q != null&&myArray[0].search("cache") == -1&&url.hostname == location.hostname){
 q = encodeURIComponent(q);
-window.location.href = "/projects/redirects-25/?q=" + q;
+location.href = "/projects/redirects-25/?q=" + q;
 }
 
 </script>

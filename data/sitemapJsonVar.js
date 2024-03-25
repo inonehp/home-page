@@ -722,7 +722,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/search.html",
-        "text": "Web search (redirect)\n\nWeb search, more correct a redirection page to search engines. || search: ",
+        "text": "Search (redirect)\n\nSearch (redirect). Redirection to other search engines. || search: ",
         "tag": " #web #search #redirection #redirect #page #main",
         "id": "c9db0e13a328be0eaa311c5b24ad331c",
         "time": "id"
