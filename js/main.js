@@ -957,7 +957,6 @@ return Math.round(Math.random() * (max - min) + min);
 
 
 
-
 // CSS
 // bg image (background img with random position)
 function fuMBg(val){

@@ -25,7 +25,7 @@ if(item['tag'] != null){ postTag = item['tag']; }
 if(item['url'] != null){ postUrl = item['url']; }
 if(item['time'] != null){ postTime = item['time']; }
 
-var delimiter = [".", "|", ",", "+", " ", "\r\n", "\r", "\n"];
+var delimiter = ["|", ",", "+", " ", "\r\n", "\r", "\n"];
 delimiter.forEach((value33) => {
 postText2 = postText2.replaceAll(value33, "SYMBOLFORSPLIT");
 });
