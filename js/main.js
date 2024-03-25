@@ -1,4 +1,4 @@
-// Main js v.6.5.4
+// Main js v.6.5.5
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -12,7 +12,9 @@ conf["conMenuItemAverageWidth"] = 130;
 
 conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
+conf["confDomainName"] = conf["confDomainName"][0].toUpperCase() + conf["confDomainName"].slice(1);
 conf["confDomainNameInTitle"] = ' / ' + conf["confDomainName"];
+
 
 //IndexedDB, DB list for clear
 conf["confDbList"] = "todo-list-task,todo-list-idea";
