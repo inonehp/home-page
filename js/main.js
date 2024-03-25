@@ -15,7 +15,7 @@ conf["confDomainName"] = String((location.hostname).split('.')[0]);
 conf["confDomainNameInTitle"] = ' / ' + conf["confDomainName"];
 
 //IndexedDB, DB list for clear
-conf["confDbList"] = "todo-list,todo-list-ideas";
+conf["confDbList"] = "todo-list-task,todo-list-idea";
 
 conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
 conf["confTagListLimit"] = 38;

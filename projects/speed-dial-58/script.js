@@ -30,9 +30,8 @@ var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
 }else{
 var confSpeedDialDataArr = [];
 
-confSpeedDialDataArr.push({"text":"To Do list", "url":"/projects/todo-list-31/"});
-confSpeedDialDataArr.push({"text":"To Do list ideas", "url":"/projects/todo-list-ideas-32/"});
-confSpeedDialDataArr.push({"text":"Typing speed", "url":"/projects/typing-speed-14/"});
+confSpeedDialDataArr.push({"text":"Google", "url":"https://www.google.com/"});
+confSpeedDialDataArr.push({"text":"YouTube", "url":"https://www.youtube.com/"});
 
 var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
 }

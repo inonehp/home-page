@@ -665,10 +665,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/todo-list-idea-32\/index.html",
-        "text": "To Do list ideas\n\nThis is a simple list of ideas based on the [todo list] script. (Idea list). || todo list idea: ",
+        "url": "\/projects\/todo-list-ideas-32\/index.html",
+        "text": "To Do list ideas\n\nThis is a simple list of ideas based on the [todo list] script. (Idea list). || todo list ideas: ",
         "tag": " #todo #idea #tool #JavaScript #project",
-        "id": "12fd7e0887d1166db0cd105434c74534",
+        "id": "98ad9a9c4d9b4d0c5a9ede137fdd6f02",
         "time": "id"
     },
     {
