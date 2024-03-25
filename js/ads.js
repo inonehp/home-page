@@ -33,7 +33,7 @@ adsStatus = 'on';
 }
 
 
-if(adsStatus != 'off'&&document.getElementById(idAds) != null){
+if(document.getElementById(idAds) != null){
 
 let ads = [];
 var adsPrint = '';
@@ -51,7 +51,7 @@ if(ads != null&&ads != ''){
 
 
 // single
-
+if(adsStatus != 'off'){
 var random = Math.floor(Math.random() * ads.length);
 //console.log(ads[random]['text']);
 
@@ -91,8 +91,8 @@ document.getElementById(idAds).innerHTML = `
 `
 ;
 }
-
-// end single
+}
+// single
 
 
 
@@ -136,7 +136,7 @@ adsPrint = '';
 
 document.getElementById(idAds).innerHTML = '<div class="wrapper"><div class="padding2 bg shadow borderRadius2">'+adsPrintAll+'</div>';
 }
-// end all
+// all
 
 
 
