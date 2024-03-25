@@ -1,4 +1,4 @@
-// Keep or blog v.2.23.0
+// Keep or blog v.2.23.1
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -1544,8 +1544,7 @@ var postFooter = ' postFooter ';
 var postFooterPadding = '';
 if(timeStatus == 'off'){
 time = '';
-postFooter = '';
-postFooterPadding = ' <div class="padding2List"></div> ';
+postFooter = ' postFooter2 ';
 }
 
 if(display == 'article'&&mode != 'id'&&mode != 'singleList'&&mode != 'random'){ lPost = `<div class="h1">${post}</div>`; } // without highlight (embed)
@@ -1562,7 +1561,6 @@ return `
 
 <div class="postContent pre padding2List">` + lPost + `</div>
 
-${postFooterPadding}
 <div class=" ${postFooter} break2 small">
 <span class="tagList tLeft left">` + tag + `</span>
 <span class="tagList tRight right">` + time + `</span>

@@ -187,7 +187,9 @@ align-items: stretch;
 flex-shrink: 0;
 padding-top: calc(var(--padding) / 2);
 }
-.postFooter a {
+.postFooter2 { grid-template-columns: 1fr; }
+
+.postFooter a, .postFooter2 a {
 display: inline-block;
 padding: var(--padding);
 padding-left: 0;
