@@ -1034,21 +1034,6 @@ document.getElementById('fPrivacy')[0].innerText = `Cookie: auto (${conf["confDa
 
 
 
-/*
-//fix
-function fuMHideFileNameExt(url){
-document.addEventListener("DOMContentLoaded", (event) => {
-return url;
-});
-
-}
-*/
-
-
-
-
-
-
 // Hide page extenstion v.1.0.0
 function fuMHideFileNameExt(url){
 var newUrl = url;
