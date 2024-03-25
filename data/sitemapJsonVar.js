@@ -288,7 +288,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/mini-projects\/project-ideas\/index.html",
-        "text": "Project ideas\n\nProject ideas, inspiration, project after Hello World!\r\nIdeas for projects. || project ideas: ",
+        "text": "Project ideas\n\nProject ideas, inspiration, project after Hello World! Ideas for projects.\r\nIdeas for projects. || project ideas: ",
         "tag": " #project #ideas #inspiration #HTML #CSS #project",
         "id": "c2d5e0bd97684278b10666a2ef61ddad",
         "time": "id"

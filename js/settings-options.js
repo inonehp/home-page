@@ -41,9 +41,9 @@ if(comSettings == "reset"){
 setSeting(`${val.confName}`, `${val.confValueDefault}`);
 
 // enable hide ext / main.js, settings page
-if(String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
+/*delme if(String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
 setSeting(`${val.confName}`, `on`);
-}
+}*/
 
 }
 

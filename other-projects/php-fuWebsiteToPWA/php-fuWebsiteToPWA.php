@@ -1,5 +1,5 @@
 <?php
-// Function dir to PWA v.2.2.0
+// Function dir to PWA v.3.0.0
 // Run script only on localhost, not made for public.
 // For an already-generated static site in a folder on localhost. The PWA will include all the files in the folder.
 // Be careful! The script creates files: manifest.webmanifest, sw.js.
@@ -290,7 +290,7 @@ this.addEventListener("activate", (event) => {
 
 // read cache
 
-/*//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
+//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
 const cacheFirst = async (request) => {
   const responseFromCache = await caches.match(request, {ignoreSearch: true});
   if (responseFromCache) {
@@ -301,9 +301,9 @@ return fetch(request);
 
 self.addEventListener("fetch", (event) => {
   event.respondWith(cacheFirst(event.request));
-});*/
+});
 
-//https://web.dev/learn/pwa/serving
+/*//https://web.dev/learn/pwa/serving
 // cache first
 self.addEventListener("fetch", event => {
    event.respondWith(
@@ -314,7 +314,7 @@ self.addEventListener("fetch", event => {
      }
    )
   )
-});
+});*/
 
 
 
@@ -335,23 +335,17 @@ EOF;
 
 
 // HTML page for install (button install).
-echo $installHTMLPage = <<<EOF
+$installHTMLPage = <<<EOF
 
 
 <div class="center">
 <div class="wrapperL tCenter">
 
-<h1 class="tCenter op padding2">Install Website (PWA)</h1>
-<div class="block tCenter small">(PWA $PWAVersion)</div>
-<div class="block padding3 margin3"></div>
-
-
-
-<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install ($filesSize)</span>
+<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install ($filesSize) - first step</span>
 <div id="startInstallStatus" class="post padding2 margin2 borderList"></div>
 <span class="small block padding2">registration sw.js (service worker) and adding files to the cache. (1)</span></button>
 
-<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install ($filesSize) (2)</button>
+<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install ($filesSize) (2) - second step</button>
 
 
 
@@ -562,6 +556,8 @@ file_put_contents("$dir"."/sw.js", $serviceWorker);
 
 
 }
+
+return $installHTMLPage;
 }
 
 

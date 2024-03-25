@@ -115,9 +115,9 @@ conf[val.confName] = localStorage.getItem(val.confName);
 
 if(conf[val.confName] == null||conf[val.confName] == undefined){
 // enable hide ext / main.js, settings page
-if(String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
+/*delme if(String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
 val.confValueDefault = 'on';
-}
+}*/
 
 localStorage.setItem(val.confName, val.confValueDefault);
 conf[val.confName] = val.confValueDefault; 

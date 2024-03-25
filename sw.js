@@ -1098,6 +1098,10 @@ console.log('404 not found ' + newFile);
 });
 
 
+
+
+
+
 });
 
 
@@ -1132,7 +1136,7 @@ this.addEventListener("activate", (event) => {
 
 // read cache
 
-/*//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
+//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
 const cacheFirst = async (request) => {
   const responseFromCache = await caches.match(request, {ignoreSearch: true});
   if (responseFromCache) {
@@ -1143,9 +1147,9 @@ return fetch(request);
 
 self.addEventListener("fetch", (event) => {
   event.respondWith(cacheFirst(event.request));
-});*/
+});
 
-//https://web.dev/learn/pwa/serving
+/*//https://web.dev/learn/pwa/serving
 // cache first
 self.addEventListener("fetch", event => {
    event.respondWith(
@@ -1156,6 +1160,6 @@ return cachedResponse || fetch(event.request);
      }
    )
   )
-});
+});*/
 
 
