@@ -434,9 +434,9 @@ urlList = [
 //"?q=" + q + " bin",
 "https://www.perplexity.ai/search/?q=" + q,
 ];
-
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
+
 if(q == ''){
 urlList = [
 "https://gemini.google.com/",
