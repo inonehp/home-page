@@ -834,17 +834,17 @@ themeAutoRandomAll();
 break;
 
 case 'rand-l':
-conf["confRealTmpTheme"] = themeListLight[Math.floor(Math.random()*themeListLight.length)];
+conf["confRealTmpTheme"] = themeListLight[Math.floor(Math.random() * themeListLight.length)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-d':
-conf["confRealTmpTheme"] = themeListDark[Math.floor(Math.random()*themeListDark.length)];
+conf["confRealTmpTheme"] = themeListDark[Math.floor(Math.random() * themeListDark.length)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-o':
-conf["confRealTmpTheme"] = themeListOther[Math.floor(Math.random()*themeListOther.length)];
+conf["confRealTmpTheme"] = themeListOther[Math.floor(Math.random() * themeListOther.length)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
@@ -869,12 +869,12 @@ fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-best':
-conf["confRealTmpTheme"] = themeListBest[Math.floor(Math.random()*themeListBest.length)];
+conf["confRealTmpTheme"] = themeListBest[Math.floor(Math.random() * themeListBest.length)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-all':
-conf["confRealTmpTheme"] = themeList[Math.floor(Math.random()*themeList.length)];
+conf["confRealTmpTheme"] = themeList[Math.floor(Math.random() * themeList.length)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
@@ -953,6 +953,25 @@ function fuMRandom(min, max) {
 return Math.round(Math.random() * (max - min) + min);
 }
 
+function fuMRandomItem(text) {
+let delimiter = ["|", ",", " ", "\r\n", "\r", "\n"];
+let items = ""
+delimiter.forEach((val) => {
+text = String(text.replaceAll(val, "SYMBOLFORSPLIT"));
+});
+
+text = text.split(conf["confSymbolForSplit"]);
+let text2 = "";
+text.forEach((val) => {
+if(val.length >= 1&&val != ' '&&val != undefined&&val != null){
+text2 += String(val) + String(conf["confSymbolForSplit"]);
+}
+});
+text2 = text2.split(conf["confSymbolForSplit"]);
+text2 = text2[fuMRandom(0, Number(text2.length - 1))];
+return text2;
+}
+//console.table(fuMRandomItem(",,,,1 2      ,,,"));
 
 
 

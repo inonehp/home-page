@@ -196,20 +196,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/main-list.html",
-        "text": "Main\n\nList of the main pages of the site. || main list: ",
-        "tag": " #portfolio #menu #list #projects #pages #main",
-        "id": "733a76918eebc08eb9671ed9e7d6c74e",
-        "time": "id"
-    },
-    {
-        "url": "\/mini-projects-list.html",
-        "text": "Mini projects list\n\nMini projects only using HTML, and CSS. || mini projects list: ",
-        "tag": " #mini #portfolio #HTML #CSS #noscript #projects #menu #list #pages #main",
-        "id": "733a6e37ab70a4c649077b3da5c564f8",
-        "time": "id"
-    },
-    {
         "url": "\/mini-projects\/animated-borders-button-link-5\/index.html",
         "text": "Animated borders button\n\nAnimated borders button. || animated borders button link: ",
         "tag": " #animation #button #border #HTML #CSS #project",
@@ -340,13 +326,6 @@ var sitemapJsonVar = [
         "text": "\n\n || pinterest bbde: ",
         "tag": " #pinterest #bbde",
         "id": "075e7ac74496a44d82b42c1519f273f6",
-        "time": "id"
-    },
-    {
-        "url": "\/projects-list.html",
-        "text": "Projects list\n\nProjects based on HTML, CSS and JavaScript. || projects list: ",
-        "tag": " #portfolio #HTML #CSS #JavaScript #projects #menu #list #pages #main",
-        "id": "6c8d65a79d2131f6bbcadd08cd1bf954",
         "time": "id"
     },
     {

@@ -8,14 +8,18 @@ A personal start page with projects such as search (redirect), blog, to-do list,
   
 ---
   
-ZIP: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
-URL: [inonehp.pages.dev](https://inonehp.pages.dev/)  
+ZIP: [Main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
+URL: [Inonehp.pages.dev](https://inonehp.pages.dev/)  
   
 ---
   
 > [!NOTE]
-> - You can find information about other licenses on the "About" page.  
-> - Top resources for creating this site and projects: [MDN Web Docs](https://developer.mozilla.org/), [W3Schools](https://www.w3schools.com/), [web.dev](https://web.dev/), [Stack Overflow](https://stackoverflow.com/)  
+> - You can find information about other licenses on the "About" page.
+  
+---
+  
+### Top resources for creating this site and projects:
+- [MDN Web Docs](https://developer.mozilla.org/), [W3Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/), [web.dev](https://web.dev/),
   
 ---
    
