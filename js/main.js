@@ -421,6 +421,7 @@ fuMPrintText("footer", `
 </div>
 
 <span class="inlineBlock padding brand" title="A page in a social network"><a class="brand" style="padding-left: 0;" href="https://twitter.com/inonehp">X (Twitter)</a></span>
+<span class="inlineBlock padding brand" title="RSS News"><a class="brand" href="/rss.xml">RSS</a></span>
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
 <span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/inonehp/inonehp.pages.dev">Сode</a></span>

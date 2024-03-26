@@ -49,8 +49,9 @@ document.getElementById('clockUtc').innerHTML = hoursUtc + ':' + minutesUtc; // 
 
 
 //clock time
-document.getElementsByTagName('title')[0].innerText = hours + ':' + minutes + ':' + seconds + ' | Start page';
+let printTitleText = hours + ':' + minutes + ':' + seconds + " - Start page";
 
+document.getElementsByTagName('title')[0].innerText = printTitleText + conf["confDomainNameInTitle"];
 
 
 }
