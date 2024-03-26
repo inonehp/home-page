@@ -1,4 +1,4 @@
-// Keep or blog v.2.23.1
+// Keep or blog v.2.23.2
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!

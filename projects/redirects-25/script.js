@@ -825,6 +825,8 @@ if(com == "on"){
 
 
 
+
+
 // print
 function runRedirect(rUrlGet){
 
@@ -836,6 +838,37 @@ var print = '';
 if(rUrlGet != null&&rUrlGet != 'null'&&rUrlGet != ''&&rUrlGet != undefined){
 if(rUrlGet[0] == "."){ rUrlGet = (rUrlGet).slice(1); }
 
+let allowUrlList = [
+"archive.org",
+"blogspot.com",
+"codepen.io",
+"dailymotion.com",
+"deezer.com",
+"facebook.com",
+"giphy.com",
+"imgur.com",
+"instagram.com",
+"medium.com",
+"pinterest.com",
+"reddit.com",
+"soundcloud.com",
+"spotify.com",
+"tunein.com",
+"twitch.tv",
+"twitter.com",
+"vimeo.com",
+"wordpress.com",
+"x.com",
+"youtube.com",
+];
+
+let allowUrlListStatus = "not found";
+
+allowUrlList.forEach((val) => {
+if(rUrlGet.indexOf(val) != -1){ allowUrlListStatus = "found"; }
+});
+
+
 
 // main redirect
 var sTimeRedirectStatus = `<span class="small">Redirection (${com}): `+ sTimeRedirect / 1000 + ` sec.</span>`;
@@ -846,7 +879,7 @@ if(com == "on"&&(String(location.href)).indexOf("#!StopRedirect") == -1){
 let rUrlGetClean = rUrlGet.replaceAll('%23!StopRedirect', '');
 rUrlGetClean = rUrlGetClean.replaceAll('#!StopRedirect', '');
 
-if(sRedirectUrl == ''&&rUrlGetClean[0] == 'h'){
+if(sRedirectUrl == ''&&rUrlGetClean[0] == 'h'&&allowUrlListStatus == 'not found'){
 rColor = "orange";
 // disabled if http
 sTimeRedirectStatus = `<span class="small">Redirection (${com}): force off</span>`;
@@ -860,7 +893,7 @@ location.href = location.href + '#!StopRedirect';
 }
 
 }else{
-sTimeRedirectStatus = `<span class="small">Redirection (${com}): re-redirection stopped</span>`;
+sTimeRedirectStatus = `<span class="small">Redirection (${com}): re-redirection forse stopped</span>`;
 }
 // main redirect
 
