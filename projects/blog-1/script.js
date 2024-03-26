@@ -1834,7 +1834,7 @@ if(play[play.length - 3] == 'www.pinterest.com') {
 play2 = play[play.length - 2];
 embed = `
 
-<a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/${play2}/"></a>`;
+<a data-pin-do="embedUser" data-pin-board-width="540" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/${play2}/"></a>`;
 }
 
 if(play[play.length - 3] != 'www.pinterest.com'&&play[play.length - 3] != 'pin') {
@@ -1843,7 +1843,7 @@ play3 = play[play.length - 3];
 
 embed = `
 
-<a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/${play3}/${play2}/"></a>`;
+<a data-pin-do="embedBoard" data-pin-board-width="540" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/${play3}/${play2}/"></a>`;
 }
 
 embedServiceList += 'pinterest';

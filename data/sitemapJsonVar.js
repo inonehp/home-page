@@ -50,7 +50,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/blog.html",
-        "text": "Blog\n\nBlog: reposts, likes and other. Mini X (Twitter). || blog: ",
+        "text": "Blog\n\nBlog: reposts, likes and other. || blog: ",
         "tag": " #reposts #likes #post #blog #page #main",
         "id": "7d022dd158b090bf0d55b0cef3d14865",
         "time": "id"
@@ -169,7 +169,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/images-page.html",
-        "text": "Images\n\nSometimes I draw something || images page: ",
+        "text": "Images\n\nSometimes I draw something. || images page: ",
         "tag": " #img #picture #wallpaper #logo #illustration #page #main",
         "id": "9af0c15fdbebb872da9388d3977cdfbc",
         "time": "id"
@@ -316,7 +316,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/photos-page.html",
-        "text": "Photos page\n\nSometimes I take photos. Mini Instagram. || photos page: ",
+        "text": "Photos page\n\nSometimes I take photos. || photos page: ",
         "tag": " #photo #page #main",
         "id": "64f9c2bceeb03e942ce9f1b78a921e4f",
         "time": "id"
