@@ -1,11 +1,11 @@
-// Search redirects v.1.7.32
+// Search redirects v.1.9.0
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
 // conf
 var com = "on"; // on, off redirection
-var sTimeRedir = 550;
-// end conf
+var sTimeRedirect = 1000;
+// conf
 
 var geturl = location.href;
 var url = new URL(geturl);
@@ -44,10 +44,10 @@ qCom33 = qCom33.trim();
 
 q = String(q + ' '+qCom33).trim();
 
-var color = ' yellow ';
+var rColor = 'yellow';
 if(q.slice(-2) == 'ls'||q.slice(-2) == 'rs'){
-sTimeRedir = 2000;
-color = ' orange '
+sTimeRedirect = 2000;
+rColor = 'orange';
 }
 
 
@@ -64,7 +64,7 @@ var rUrlGetPrint = '';
 var random = '';
 var urlList = [];
 
-var sRedirUrl = '';
+var sRedirectUrl = '';
 
 var tmp = '';
 
@@ -123,7 +123,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = '?q=' + urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'l#':  case 'll#':
@@ -137,11 +137,11 @@ urlList = [
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
-sRedirUrl = url;
+sRedirectUrl = url;
 
 if(q == ''){
 url = 'https://www.google.com/';
-sRedirUrl = url;
+sRedirectUrl = url;
 }
 
 break;
@@ -163,7 +163,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'rr#':
@@ -183,7 +183,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'x#':
@@ -193,7 +193,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 url = "https://x.com/search?q=" + q;
 if(q == ''){ url = "https://x.com/"; }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'red#':
@@ -203,7 +203,7 @@ q = encodeURIComponent(q);
 //url = "https://www.reddit.com/search/?q=" + q + "&type=link";
 url = "?q=" + q + " site:https://www.reddit.com/";
 if(q == ''){ url = "https://www.reddit.com/"; }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'med#':
@@ -212,7 +212,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 url = "?q=" + q + " site:https://medium.com/";
 if(q == ''){ url = "https://medium.com/"; }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'cc#':
@@ -226,7 +226,7 @@ urlList = [
 ];
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
-sRedirUrl= random;
+sRedirectUrl= random;
 break;
 
 case 'i#':
@@ -239,7 +239,7 @@ urlList = [
 ];
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
-sRedirUrl= random;
+sRedirectUrl= random;
 break;
 
 case 't#':
@@ -265,7 +265,7 @@ urlList.push("https://translate.google.com/?sl=auto&text="+q+"&op=translate");
 
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
-sRedirUrl= random;
+sRedirectUrl= random;
 break;
 
 case 'tt#':
@@ -281,7 +281,7 @@ urlList = [
 ];
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
-sRedirUrl = random;
+sRedirectUrl = random;
 break;
 
 case 'tg#':
@@ -293,7 +293,7 @@ urlList = [
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'n#':
@@ -317,7 +317,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'tec#':
@@ -352,7 +352,7 @@ urlList.push("https://www.bing.com/news/search?q=Sci/Tech");
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'sci#':
@@ -380,7 +380,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 
@@ -423,7 +423,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'nn#':
@@ -447,7 +447,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'spo#':
@@ -459,7 +459,7 @@ urlList = [
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
-sRedirUrl = random;
+sRedirectUrl = random;
 if(q == ''){
 urlList = [
 "https://sports.yahoo.com/",
@@ -470,7 +470,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 
@@ -484,7 +484,7 @@ urlList = [
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
-sRedirUrl = random;
+sRedirectUrl = random;
 if(q == ''){
 urlList = [
 "https://www.reddit.com/r/programming/",
@@ -499,7 +499,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 
@@ -513,7 +513,7 @@ urlList = [
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
-sRedirUrl = random;
+sRedirectUrl = random;
 if(q == ''){
 urlList = [
 "https://github.com/explore",
@@ -522,7 +522,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'gitt#':
@@ -534,7 +534,7 @@ urlList = [
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
-sRedirUrl = random;
+sRedirectUrl = random;
 if(q == ''){
 urlList = [
 "https://github.com/explore",
@@ -543,7 +543,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 
@@ -554,7 +554,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.youtube.com/results?search_query=" + q;
 if(q == ''){ url = "https://www.youtube.com/"; }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'v#':
@@ -576,7 +576,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'liv#':
@@ -596,7 +596,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'tv#':
@@ -616,7 +616,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 's#':
@@ -645,7 +645,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 's#':
@@ -667,7 +667,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'we#':
@@ -687,7 +687,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'g#':
@@ -697,7 +697,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.google.com/search?q=" + q;
 if(q == ''){ url = "https://www.google.com/"; }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'ps#':
@@ -707,7 +707,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 url = "/projects/google-programmable-search-49/index.html?q=" + q;
 if(q == ''){ url = "/projects/google-programmable-search-49/index.html"; }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'bi#':
@@ -717,7 +717,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.bing.com/search?q=" + q;
 if(q == ''){ url = "https://www.bing.com/"; }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 case 'qq#':
@@ -732,7 +732,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 
@@ -765,7 +765,7 @@ urlList = [
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 }
-sRedirUrl = url;
+sRedirectUrl = url;
 break;
 
 
@@ -787,7 +787,7 @@ urlList = [
 }
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
-sRedirUrl = random;
+sRedirectUrl = random;
 break;
 
 
@@ -806,15 +806,15 @@ urlList = [
 }
 random = Math.floor(Math.random() * urlList.length);
 random = urlList[random];
-sRedirUrl = random;
+sRedirectUrl = random;
 }
 
 
-if(sRedirUrl != ''&&sRedirUrl != undefined&&sRedirUrl != null){
-rUrlGet = fuMHideFileNameExt(sRedirUrl);
+if(sRedirectUrl != ''&&sRedirectUrl != undefined&&sRedirectUrl != null){
+rUrlGet = fuMHideFileNameExt(sRedirectUrl);
 if(com == "on"){
-//location.href = "/projects/redirects-25/?rUrl="+sRedirUrl;
-//location.href.replace(/projects/redirects-25/?rUrl="+sRedirUrl,);
+//location.href = "/projects/redirects-25/?rUrl="+sRedirectUrl;
+//location.href.replace(/projects/redirects-25/?rUrl="+sRedirectUrl,);
 }
 }
 
@@ -826,10 +826,10 @@ if(com == "on"){
 
 
 // print
-
-function runRedir(rUrlGet){
+function runRedirect(rUrlGet){
 
 var print = '';
+
 
 
 
@@ -837,47 +837,50 @@ if(rUrlGet != null&&rUrlGet != 'null'&&rUrlGet != ''&&rUrlGet != undefined){
 if(rUrlGet[0] == "."){ rUrlGet = (rUrlGet).slice(1); }
 
 
-
 // main redirect
-var sTimeRedirStatus = `<span class="small">redirection (${com}):</span> `+ sTimeRedir / 1000 + ` sec.`;
+var sTimeRedirectStatus = `<span class="small">Redirection (${com}): `+ sTimeRedirect / 1000 + ` sec.</span>`;
+
 //window.location
 if(com == "on"&&(String(location.href)).indexOf("#!StopRedirect") == -1){
-setTimeout(function(){
-
-//location.href.replace(rUrlGet,);
 
 let rUrlGetClean = rUrlGet.replaceAll('%23!StopRedirect', '');
 rUrlGetClean = rUrlGetClean.replaceAll('#!StopRedirect', '');
+
+if(sRedirectUrl == ''&&rUrlGetClean[0] == 'h'){
+rColor = "orange";
+// disabled if http
+sTimeRedirectStatus = `<span class="small">Redirection (${com}): force off</span>`;
+}else{
+
+setTimeout(function(){
 location.href = rUrlGetClean;
-
 location.href = location.href + '#!StopRedirect'; 
+}, sTimeRedirect); 
 
-
-}, sTimeRedir); 
 }
-// end main redirect
+
+}else{
+sTimeRedirectStatus = `<span class="small">Redirection (${com}): re-redirection stopped</span>`;
+}
+// main redirect
 
 
 
 //if((rUrlGet).search("#!StopRedirect") != -1){
-if((rUrlGet).indexOf("#!StopRedirect") != -1){
-sTimeRedirStatus = ' <span class="small">( redirection: off ) </span> ';
-}
 
 rUrlGetPrint = decodeURIComponent(rUrlGet);
 rUrlGetPrint = fuMClearText(rUrlGetPrint);
 
-//if(rUrlGet.indexOf('#!StopRedirect') == -1){}
-rUrlGetPrint = rUrlGetPrint.replaceAll('#!StopRedirect', ' <!--<span class="small c3">(+ #stopRedirect)</span>-->');
+rUrlGetPrint = rUrlGetPrint.replaceAll('#!StopRedirect', '');
+rUrlGet = decodeURIComponent(rUrlGet);
 rUrlGet = rUrlGet.replaceAll('#!StopRedirect', '');
 rUrlGet = rUrlGet.replaceAll('%23!StopRedirect', '');
-
 
 print = `
 
 <div class="tCenter">
-<div class="padding3 bgList borderList op tCenter borderRadius2">` + sTimeRedirStatus + `</div>
-<div class="padding3 bgList borderList h3 ${color} bold borderRadius2">` + rUrlGetPrint + `</div>
+<div class="padding3 bgList borderList op tCenter borderRadius2">` + sTimeRedirectStatus + `</div>
+<div class="padding3 bgList borderList h3 ${rColor} bold borderRadius2">` + rUrlGetPrint + `</div>
 <a class="block padding3 bgList borderList light brand borderRadius2" href="` + rUrlGet + `">Open</a>
 </div>
 
@@ -916,7 +919,7 @@ document.getElementById('input').value = q;
 
 }
 
-runRedir(rUrlGet);
+runRedirect(rUrlGet);
 
 
 
