@@ -1,4 +1,4 @@
-// Search redirects v.1.7.31
+// Search redirects v.1.7.32
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -35,14 +35,14 @@ location.href = location.href + '#!StopRedirect';
 
 
 
-var q233 = url.searchParams.get("q2");
-if(q233 != null){
-q233 = q233.replaceAll(/%/g, "%25");
-q233 = decodeURIComponent(q233);
-q233 = q233.trim();
-}else{ q233 = ''; }
+var qCom33 = url.searchParams.get("qCom");
+if(qCom33 != null){
+qCom33 = qCom33.replaceAll(/%/g, "%25");
+qCom33 = decodeURIComponent(qCom33);
+qCom33 = qCom33.trim();
+}else{ qCom33 = ''; }
 
-q = String(q + ' '+q233).trim();
+q = String(q + ' '+qCom33).trim();
 
 var color = ' yellow ';
 if(q.slice(-2) == 'ls'||q.slice(-2) == 'rs'){
@@ -82,7 +82,7 @@ if(q == ''&&q != 'null'){ q = 'q'; }
 
 
 
-if(rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.search("cache") == -1){
+if(rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") == -1){
 
 q = q.trim();
 //q = q.replace(/%([^\d].)/, "%25$1");
@@ -105,14 +105,14 @@ q = decodeURIComponent(q);
 
 // for the command at the end of the search query
 var strArray = q.split(" ");
-var q2 = strArray[strArray.length - 1] + "#";
+var qCom = strArray[strArray.length - 1] + "#";
 var q3 = q + "#";
 
 
 
-switch (q2) {
+switch (qCom) {
 case 'π#':
-q = q3.replace(q2, '');
+q = q.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "?q=" + q;
@@ -127,7 +127,7 @@ sRedirUrl = url;
 break;
 
 case 'l#':  case 'll#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -148,7 +148,7 @@ break;
 
 
 case 'r#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q.trim());
 urlList = [
@@ -168,7 +168,7 @@ break;
 
 case 'rr#':
 case 'rs#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q.trim());
 urlList = [
@@ -188,7 +188,7 @@ break;
 
 case 'x#':
 case 'twi#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://x.com/search?q=" + q;
@@ -197,7 +197,7 @@ sRedirUrl = url;
 break;
 
 case 'red#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 //url = "https://www.reddit.com/search/?q=" + q + "&type=link";
@@ -207,7 +207,7 @@ sRedirUrl = url;
 break;
 
 case 'med#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "?q=" + q + " site:https://medium.com/";
@@ -216,7 +216,7 @@ sRedirUrl = url;
 break;
 
 case 'cc#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -230,7 +230,7 @@ sRedirUrl= random;
 break;
 
 case 'i#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -246,7 +246,7 @@ case 't#':
 case 'tr#':
 case 'tra#':
 case 'd#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 
 var deepLq = q.replaceAll(/\//g, "-"); // fix
@@ -269,7 +269,7 @@ sRedirUrl= random;
 break;
 
 case 'tt#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 var deepLq = q.replaceAll(/\//g, "-"); // fixed
 deepLq = encodeURIComponent(deepLq);
@@ -285,7 +285,7 @@ sRedirUrl = random;
 break;
 
 case 'tg#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -297,7 +297,7 @@ sRedirUrl = url;
 break;
 
 case 'n#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -321,7 +321,7 @@ sRedirUrl = url;
 break;
 
 case 'tec#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -356,7 +356,7 @@ sRedirUrl = url;
 break;
 
 case 'sci#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -385,7 +385,7 @@ break;
 
 
 case 'n2#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -427,7 +427,7 @@ sRedirUrl = url;
 break;
 
 case 'nn#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -451,7 +451,7 @@ sRedirUrl = url;
 break;
 
 case 'spo#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -476,7 +476,7 @@ break;
 
 case 'dev#':
 case 'doc#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -505,7 +505,7 @@ break;
 
 
 case 'git#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -526,7 +526,7 @@ sRedirUrl = url;
 break;
 
 case 'gitt#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -549,7 +549,7 @@ break;
 
 case 'y#':
 case '.#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.youtube.com/results?search_query=" + q;
@@ -558,7 +558,7 @@ sRedirUrl = url;
 break;
 
 case 'v#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -580,7 +580,7 @@ sRedirUrl = url;
 break;
 
 case 'liv#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -600,7 +600,7 @@ sRedirUrl = url;
 break;
 
 case 'tv#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -620,7 +620,7 @@ sRedirUrl = url;
 break;
 
 case 's#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 
@@ -649,7 +649,7 @@ sRedirUrl = url;
 break;
 
 case 's#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -672,7 +672,7 @@ break;
 
 case 'we#':
 case 'wet#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -692,7 +692,7 @@ break;
 
 case 'g#':
 case 'goo#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.google.com/search?q=" + q;
@@ -702,7 +702,7 @@ break;
 
 case 'ps#':
 case 'gg#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "/projects/google-programmable-search-49/index.html?q=" + q;
@@ -712,7 +712,7 @@ break;
 
 case 'bi#':
 case 'bin#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "https://www.bing.com/search?q=" + q;
@@ -721,7 +721,7 @@ sRedirUrl = url;
 break;
 
 case 'qq#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 url = "/site-search.html?q=" + q;
@@ -737,7 +737,7 @@ break;
 
 
 case 'o#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
@@ -770,7 +770,7 @@ break;
 
 
 case 'q#':
-q = q3.replace(q2, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 

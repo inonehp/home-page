@@ -154,7 +154,7 @@ var print2 = '';
 
 var url = new URL(window.location);
 
-var sTimeRedir = []; // for auto-random
+var sTimeRedir = []; // for autoRandom
 sTimeRedir[0] = 10000;
 sTimeRedir[2] = 1200; // lucky
 
@@ -249,7 +249,7 @@ getP2 = getP2.replaceAll(/%/g, "%25");
 getP2 = getP2.trim();
 getP2 = fuMClearText(getP2);
 getP2 = Number(decodeURIComponent(getP2));
-mode = 'singleList';
+mode = 'idList';
 }
 
 if(getP == null){ getP = 0; }
@@ -304,7 +304,7 @@ let lQforR = '';
 if(q != null){ lQforR = encodeURIComponent(q) + ' r'; } else { lQforR = 'r'; }
 
 let lSlideShow = '';
-//if(display == "gallery"){ lSlideShow = `<a class="small" href="?mode=auto-random" title="Random post with automatic redirection to next">auto-random</a>`; }
+//if(display == "gallery"){ lSlideShow = `<a class="small" href="?mode=autoRandom" title="Random post with automatic redirection to next">autoRandom</a>`; }
 
 print += `
 
@@ -356,7 +356,7 @@ postLimit = 1;
 
 
 if(/*id == 0||*/mode == 'random'){ mode = 'random'; getP2 = Math.floor(Math.random() * jsonVar.length); }
-if(mode == 'auto-random'){ getP2 = Math.floor(Math.random() * jsonVar.length); }
+if(mode == 'autoRandom'){ getP2 = Math.floor(Math.random() * jsonVar.length); }
 if(mode == 'randUrl'){ getP2 = Math.floor(Math.random() * jsonVar.length); }
 
 
@@ -554,7 +554,7 @@ break;
 // end search 1
 
 case 'id':
-case 'singleList':
+case 'idList':
 
 if(postId == id||getP2 == key){
 if(i <= postLimit -1){
@@ -629,7 +629,7 @@ comMessagePrint = 'id: '+postId+', p2: '+getP2;
 }
 break;
 
-case 'auto-random':
+case 'autoRandom':
 postLimit = 1;
 var sTimeRedirStatus = `redir after: <span id="timerRedir">${sTimeRedir[0] / 1000}</span> sec.`;
 
@@ -650,7 +650,7 @@ comMessagePrint = 'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
 
 // fixed many redirect in this place
 setTimeout(function(){
-window.location.href = '?mode=auto-random';
+window.location.href = '?mode=autoRandom';
 }, sTimeRedir[0]); 
 
 }
@@ -1526,7 +1526,7 @@ var lPost = '';
 if(q != null&&mode == 'search'){
 lPost = highlightText(post, targetOption, subQforLight);
 
-}else if(mode == 'id'||mode == 'singleList'||mode == 'random'||mode == 'auto-random'){
+}else if(mode == 'id'||mode == 'idList'||mode == 'random'||mode == 'autoRandom'){
 if(multiEmbedStatus == 'on'){
 lPost = highlightText(post, targetOption);
 }else{
@@ -1545,10 +1545,10 @@ time = '';
 postFooter = ' postFooter2 ';
 }
 
-if(display == 'article'&&mode != 'id'&&mode != 'singleList'&&mode != 'random'){ lPost = `<san class="large">${post}</span>`; } // without highlight (embed)
+if(display == 'article'&&mode != 'id'&&mode != 'idList'&&mode != 'random'){ lPost = `<san class="large">${post}</span>`; } // without highlight (embed)
 /*
 //
-if(display == 'article'&&mode != 'id'&&mode != 'singleList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
+if(display == 'article'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
 
 return `
 
@@ -1597,7 +1597,7 @@ function highlightText(text, targetOption, subQforLight){
 if(embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
 
 /*if(embedStatus == "notist"){
-if(mode == 'id'||mode == "singleList"||mode == 'random'||mode == 'auto-random'){
+if(mode == 'id'||mode == "idList"||mode == 'random'||mode == 'autoRandom'){
 embedStatus = 'on';
 }
 }
@@ -2090,7 +2090,7 @@ function highlightText2(text, targetOption){
 if(embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
 
 /*if(embedStatus == "notist"){
-if(mode == 'id'||mode == "singleList"||mode == 'random'||mode == 'auto-random'){
+if(mode == 'id'||mode == "idList"||mode == 'random'||mode == 'autoRandom'){
 embedStatus = 'on';
 }
 }
@@ -2859,7 +2859,7 @@ document.getElementsByTagName('head')[0].appendChild(script2);
 
 
 // timer redirect
-if(mode == 'auto-random'){
+if(mode == 'autoRandom'){
 
 setInterval(fuTimerRdirect, 1000);
 

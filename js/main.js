@@ -1,4 +1,4 @@
-// Main js v.6.5.5
+// Main js v.6.5.6
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -124,7 +124,7 @@ conf[val.confName] = val.confValueDefault;
 }
 
 });
-// end generate var: conf['confName'];
+// generate var: conf['confName'];
 
 // domain name in titile
 if(conf["confDomainNameInTitleStatus"] == 'on'&&String(window.location.pathname) != "/"){
@@ -337,7 +337,7 @@ display: none !important;
 }
 
 //console.log(document.getElementsByTagName("header")[0]);
-// end JS part
+// JS part
 //<!-- // Nav -->
 
 
@@ -928,7 +928,7 @@ fuMSetTheme(conf["confTheme"]);
 }
 });
 */
-// end theme
+// theme
 
 
 
@@ -975,6 +975,29 @@ return text2;
 //console.table(fuMRandomItem(",,,,1 2      ,,,"));
 
 
+// fu sorting v.1.0.0
+function fuMSorting(textOrArr, delimiter, mode){
+//https://stackoverflow.com/questions/2802341/natural-sort-of-alphanumerical-strings-in-javascript
+var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+//return textOrArr.sort(collator.compare);
+
+if(mode == 'text'){
+let result = textOrArr.split(delimiter);
+result.sort(collator.compare)
+return result.join(delimiter);
+}
+
+if(mode == 'arr'){
+var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
+return textOrArr.sort(collator.compare);
+}
+
+}
+//alert(fuMSorting(["772", " 3",  "6",  "7", "77"], " ", "arr"));
+
+
+
+
 
 
 // CSS
@@ -1011,8 +1034,8 @@ background-attachment: fixed;
 
 }
 }
-// end bg image
-// end CSS
+// bg image
+// CSS
 
 
 
@@ -1046,7 +1069,7 @@ document.getElementById('fPrivacy')[0].innerText = `Cookie: auto (${conf["confDa
 }
 
 }
-// end Auto
+// Auto
 
 
 
@@ -1069,7 +1092,7 @@ return newUrl;
 }else{ return url; }
 }else{ return url; }
 }
-// end fu hide file ext
+// fu hide file ext
 
 
 
@@ -1300,7 +1323,7 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 
 }
-// end Embed scripts
+// Embed scripts
 
 
 

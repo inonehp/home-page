@@ -1,25 +1,20 @@
-<!-- README.md v.1.7.5 -->
+<!-- README.md v.1.8.0 -->
   
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
 # Home page and projects.    
 
-A personal start page with projects such as search (redirect), blog, to-do list, typing speed, icons, themes, website templates, and more.  
+A personal start page with projects such as search (redirect), blog, to-do list, typing speed, newtab, icons, themes, templates, etc.
   
 ---
   
-ZIP: [Main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
-URL: [Inonehp.pages.dev](https://inonehp.pages.dev/)  
+### Download: [Main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
+### URL: [Inonehp.pages.dev](https://inonehp.pages.dev/)  
   
 ---
   
 > [!NOTE]
-> - You can find information about other licenses on the "About" page.
-  
----
-  
-### Top resources for creating this site and projects:
-- [MDN Web Docs](https://developer.mozilla.org/), [W3Schools](https://www.w3schools.com/), [Stack Overflow](https://stackoverflow.com/), [web.dev](https://web.dev/),
+> - You can find information about other licenses on the [About page](https://inonehp.pages.dev/about.html#license).
   
 ---
    
@@ -32,15 +27,11 @@ URL: [Inonehp.pages.dev](https://inonehp.pages.dev/)
 [#Projects](https://github.com/topics/projects),
 [#Portfolio](https://github.com/topics/portfolio),
 [#Page](https://github.com/topics/page),
-[#Projects](https://github.com/topics/projects),
 [#Cloudflare Pages](https://github.com/topics/cloudflare-pages),
-
   
 [#HTML](https://github.com/topics/HTML),
 [#CSS](https://github.com/topics/css),
 [#JavaScript](https://github.com/topics/javascript),
-
-
 
 
 
