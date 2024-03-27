@@ -428,7 +428,7 @@ $installHTMLPage = <<<EOF
 
 <button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install ($filesSize) - 1 first step</span>
 
-<span class="small block padding2">registration sw.js (service worker) and adding files to the cache. (wait a few seconds before installing)</span></button>
+<span class="small block padding2">registration sw.js (service worker) and adding files to the cache.</span></button>
 
 <div id="startInstallStatus" class="post padding2 margin2 borderList"></div>
 <button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install ($filesSize) - 2. second step</button>
