@@ -301,6 +301,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/notes.html",
+        "text": "Notes\n\nNotes. notes for quick access. || notes: ",
+        "tag": " #note #notes #page #main",
+        "id": "0ff8c86aba912a94d8385c7dce3ca1d0",
+        "time": "id"
+    },
+    {
         "url": "\/other-projects-list.html",
         "text": "Other projects list\n\nOther projects using other programming languages. || other projects list: ",
         "tag": " #php #code #programming #coding #projects #list #main #pages",
@@ -870,7 +877,7 @@ var sitemapJsonVar = [
     {
         "url": "\/text.html",
         "text": "Text\n\nLong text: article, post. I&amp;#039;m attempting to write something. Mini Blogger. || text: ",
-        "tag": " #text #article #post #page #main",
+        "tag": " #text #article #articles #post #page #main",
         "id": "63caf82fca46caa38ca0328bab57c966",
         "time": "id"
     },

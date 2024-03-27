@@ -129,7 +129,7 @@ conf[val.confName] = val.confValueDefault;
 // domain name in titile
 if(conf["confDomainNameInTitleStatus"] == 'on'&&String(window.location.pathname) != "/"){
 if(document.getElementsByTagName('title')[0] != null){
-document.getElementsByTagName('title')[0].innerText += conf["confDomainNameInTitle"];
+document.getElementsByTagName('title')[0].innerHTML += conf["confDomainNameInTitle"];
 }
 }
 
@@ -904,7 +904,7 @@ if(conf["confTheme"] != mode){ mForseStatus = "[force] "; }
 
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerText = `Theme: ${mForseStatus}${mode} (${conf["confRealTmpTheme"]})`;
+document.getElementById("fTheme").innerHTML = `Theme: ${mForseStatus}${mode} (${conf["confRealTmpTheme"]})`;
 }
 
 
@@ -937,7 +937,7 @@ fuMSetTheme(conf["confTheme"]);
 /* in test, delme (now in function: setTheme)
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerText = 'Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')';
+document.getElementById("fTheme").innerHTML = 'Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')';
 }*/
 
 
@@ -1065,7 +1065,7 @@ conf["confDataCollection"] = 'on';
 
 //fuMPrintText('fPrivacy', `Cookie: auto (${conf["confDataCollection"]})`); 
 if(document.getElementById('fPrivacy')[0] != null){
-document.getElementById('fPrivacy')[0].innerText = `Cookie: auto (${conf["confDataCollection"]})`;
+document.getElementById('fPrivacy')[0].innerHTML = `Cookie: auto (${conf["confDataCollection"]})`;
 }
 
 }

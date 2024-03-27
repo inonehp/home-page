@@ -4,11 +4,11 @@ var articlesJsonVar =
 [
     {
         "id": "11",
-        "text": "Debug and code: CSS, and JavaScript. (notes)",
-        "text2": "CSS debug:\r\n=========\r\n\r\n.className { border: 1px solid red; }`  \r\n\r\n\r\nJavaScript debug:\r\n==============\r\n\r\nalert(\"Hello World!\");\r\nconsole.log(\"Hello World!\");  \r\nconsole.table(\"Hello World!\"); - (if the previous one doesn't work (object))  \r\n\r\n\r\nJavaScript code:\r\n=======================\r\n\r\nhttps:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/getElementById\r\ndocument.getElementById(\"id\").innerHTML = 'Hello World!';\r\ndocument.getElementsByTagName(\"body\")[0].innerHTML = 'Hello World!';\r\ndocument.getElementsByClassName(\"className\")[0].innerHTML = 'Hello World!';\r\n[0] - first element\r\n\r\n\r\n\/\/https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/forEach\r\n\r\nratings.forEach(async (rating) => {\r\n  sum = await sumFunction(sum, rating);\r\n});\r\n\r\n\r\nOther:\r\n=====\r\n\r\nCSS Default Browser Values for HTML Elements\r\nhttps:\/\/www.w3schools.com\/cssref\/css_default_values.php",
+        "text": "Debug in CSS, and JavaScript.",
+        "text2": "Debug in CSS:\r\n----------------------\r\n\r\n.className { border: 1px solid red; }`  \r\n\r\n\r\nDebug in JavaScript:\r\n--------------------------------\r\n\r\nalert(\"Hello World!\");\r\nconsole.log(\"Hello World!\");  \r\nconsole.table(\"Hello World!\"); - (if the previous one doesn't work (object))",
         "text3": "",
         "url": "",
-        "tag": "#code #debug #note",
+        "tag": "#code #debug #note #coding #programming",
         "time": 1711427187
     },
     {

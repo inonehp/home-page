@@ -1,4 +1,4 @@
-// Keep or blog v.2.23.2
+// Keep or blog v.2.24.1
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -336,8 +336,8 @@ mode = 'search';
 q = fuMClearText(q);
 q2 = fuMClearText(q2);
 
-let printTitle = q.slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerText;
-document.getElementsByTagName('title')[0].innerText = printTitle;
+let printTitle = q.slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerHTML;
+document.getElementsByTagName('title')[0].innerHTML = printTitle;
 
 if(q == 'rr'||q == 'rs'){ mode = 'randUrl'; }
 
@@ -459,8 +459,10 @@ if(i3 <= postLimit - 1){
 if(display == "all"){
 if(postText2 != ''){ postText2 = `
 
+
 ` + postText2; };
 if(postText3 != ''){ postText3 = `
+
 
 ` + postText3; };
 printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
@@ -517,8 +519,10 @@ if(i3 <= postLimit - 1){
 if(display == "all"){
 if(postText2 != ''){ postText2 = `
 
+
 ` + postText2; };
 if(postText3 != ''){ postText3 = `
+
 
 ` + postText3; };
 printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
@@ -562,8 +566,10 @@ if(i <= postLimit -1){
 var lArctile = '';
 if(postText2 != ''){ postText2 = `
 
+
 ` + postText2; };
 if(postText3 != ''){ postText3 = `
+
 
 ` + postText3; };
 printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "");
@@ -573,8 +579,8 @@ if(id != ''&&getP2 == null){
 //document.getElementsByTagName('title')[0].innerHTML = postText.slice(0, 60);
 //document.getElementsByTagName('title')[0].innerHTML += ' - ' + (postTextClean).slice(0, 260) +  " ...";
 
-let printTitle = (postTextClean).slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerText;
-document.getElementsByTagName('title')[0].innerText = printTitle;
+let printTitle = (postTextClean).slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerHTML;
+document.getElementsByTagName('title')[0].innerHTML = printTitle;
 
 /*if(conf["confDomainNameInTitle"] == 'on'){
 document.getElementsByTagName('title')[0].innerHTML += ' | ' +  (location.hostname).split('.')[0];
@@ -615,8 +621,10 @@ window.location.href = window.location.href+'#stopRedir';
 
 if(postText2 != ''){ postText2 = `
 
+
 ` + postText2; };
 if(postText3 != ''){ postText3 = `
+
 
 ` + postText3; };
 
@@ -666,8 +674,10 @@ if(i <= postLimit -1){
 if(display == "all"){
 if(postText2 != ''){ postText2 = `
 
+
 ` + postText2; };
 if(postText3 != ''){ postText3 = `
+
 
 ` + postText3; };
 printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "");
@@ -775,8 +785,10 @@ if(i3 <= postLimit - 1){
 if(display == "all"){
 if(postText2 != ''){ postText2 = `
 
+
 ` + postText2; };
 if(postText3 != ''){ postText3 = `
+
 
 ` + postText3; };
 //`<!-- forSort: ${lRelevantResultPoint} -->` +
@@ -924,8 +936,10 @@ if(i3 <= postLimit - 1){
 if(display == "all"){
 if(postText2 != ''){ postText2 = `
 
+
 ` + postText2; };
 if(postText3 != ''){ postText3 = `
+
 
 ` + postText3; };
 printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
@@ -1040,8 +1054,10 @@ if(i3 <= postLimit - 1){
 if(display == "all"){
 if(postText2 != ''){ postText2 = `
 
+
 ` + postText2; };
 if(postText3 != ''){ postText3 = `
+
 
 ` + postText3; };
 printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
@@ -1617,9 +1633,9 @@ let embed2 = '';
 text = [...text];
 
 let forSplit = [
-',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞",
-`
-`, " "
+//delme',', "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " "
+ "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
+`, "\n", "\r\n",
 ]
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
@@ -1983,9 +1999,9 @@ item222 = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 
 }else{
 if(targetOption == 'blank'){
-item222 = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+item222 = `<a class="brand insertIcon" target="_blank" href="${item}">${item}</a>`;
 }else{
-item222 = `<a class="brand" href="${item}">${item}</a>`;
+item222 = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 }
 
 }
@@ -2001,9 +2017,9 @@ item = fuMHideFileNameExt(item);
 
 if(targetOption == 'blank'){
 /*item = `<a href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
-item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand insertIcon" target="_blank" href="${item}">${item}</a>`;
 }else{
-item = `<a class="brand" href="${item}">${item}</a>`;
+item = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 }
 
 }
@@ -2038,9 +2054,9 @@ if(element3333.trim() != ''&&item.trim() != ''){
 //alert(element3333);
 if(countHl == 0&&String(item.toLowerCase()).indexOf(element3333.toLowerCase()) != -1){
 if(item222 != ''){
-item222 = `<span class="bold borderBottomOrange break2 bottom">${item222}</span>`;
+item222 = `<span class="bold borderBottomOrange">${item222}</span>`;
 }else{
-item222 = `<span class="bold borderBottomOrange break2 bottom">${item}</span>`;
+item222 = `<span class="bold borderBottomOrange">${item}</span>`;
 }
 
 if(item222 == ''){
@@ -2125,9 +2141,8 @@ let embed2 = '';
 text = [...text];
 
 let forSplit = [
-",", "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞",
-`
-`, " "
+ "*", "{", "}", "(", ")", "[", "[", "•", "«", "»", "☞", " ", `
+`, "\n", "\r\n",
 ]
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach

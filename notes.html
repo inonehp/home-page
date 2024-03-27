@@ -3,10 +3,10 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Blog</title>
+<title>Notes</title>
 
-<meta name="description" content="Blog: reposts, likes and other.">
-<meta name="keywords" content="reposts, likes, post, blog,page, main,">
+<meta name="description" content="Notes. notes for quick access.">
+<meta name="keywords" content="note, notes, page, main,">
 
 <link rel="alternate" type="application/rss+xml" title="inonehp RSS" href="/rss.xml">
 
@@ -108,15 +108,15 @@
 <!-- content -->
 <main class="content">
 
-<h1 class="op tCenter">Blog</h1>
+<h1 class="op tCenter">Notes</h1>
 
-<!--<span class="xSmall block tCenter op">Blog: reposts, likes and other.</span>-->
-
-
+<!--<span class="xSmall block tCenter op">Notes. notes for quick access.</span>-->
 
 
 
-<script src="./data/blogJsonVar.js"></script>
+
+
+<script src="./data/notesJsonVar.js"></script>
 <script>
 // fresh data example in script.js
 if(jsonVar == undefined||jsonVar == ''){
@@ -559,25 +559,23 @@ var jsonVar =
 <script async src="./js/script.js"></script>
 
 
+// config, copy paste in html
 <script>
 // fresh config in script.js
-
 let blogConfig = {
-"postLimit":"7", // number
-"embedStatus":"", // off
+"postLimit":"", // number
+"embedStatus":"", // off, not list,
 "multiEmbedStatus":"", // on
 "tagListStatus":"", // off
 "tagListLimit":"", // number
 "targetOption":"", // blank
-"bottomMsg":`
-<a class="block tCenter xSmall" href="/rss.xml" title="RSS News">RSS (possibly from a blog and links)</a>
-`, // text
-"display":"", // grid
-"timeStatus":"", // off, disable post time
+"bottomMsg":"", // text
+"display":"all", // gallery - grid, article - <div class="h1">text</div>, all - shows everything: text, text2, text3
+"timeStatus":"", // off, disable post time (post id)
 };
 </script>
 
-<script src="./projects/blog-1/script.js" onload="blog('echoBlog', blogJsonVar, ' wrapper post ', './blog.html', blogConfig)"></script>
+<script src="./projects/blog-1/script.js" onload="blog('echoBlog', notesJsonVar, ' wrapper post ', './notes.html', blogConfig)"></script>
 
 
 
