@@ -198,9 +198,9 @@ padding-top: calc(var(--padding) / 2);
 display: inline-block;
 padding: var(--padding);
 padding-left: 0;
-padding-right: var(--padding2);
+padding-right: calc(var(--padding) * 2);
 }
-.postFooter:last-child { padding-right: 0; }
+.postFooter a:last-child { padding-right: 0; }
 
 @media(max-width: 300px) { .postFooter { grid-template-columns: 1fr;} }
 
