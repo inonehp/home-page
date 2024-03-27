@@ -207,7 +207,7 @@ swJsInstallFiles();
 
 
 
-
+// add files to cache
 // cache
 //https://developer.mozilla.org/en-US/docs/Web/API/Cache/addAll
 
@@ -241,6 +241,9 @@ cache.add(file); // it stores only one resource
 console.log('404 ' + file);
 // file is not present at URL
 }
+})
+.catch((error) => {
+  console.log(error)
 });
 
 });

@@ -77,7 +77,7 @@ e.waitUntil(caches.open("v.1.2.2024.03.27").then((cache) => cache.addAll(fileLis
 
 
 
-
+// add files to cache
 // cache
 //https://developer.mozilla.org/en-US/docs/Web/API/Cache/addAll
 
@@ -1074,8 +1074,13 @@ cache.add(file); // it stores only one resource
 console.log('404 not found ' + file);
 // file is not present at URL
 }
+})
+.catch((error) => {
+  console.log(error)
 });
 
+
+if(file != newFile){
 
 // no ext
 fetch(
@@ -1095,9 +1100,12 @@ cache.add(newFile); // it stores only one resource
 console.log('404 not found ' + newFile);
 // file is not present at URL
 }
+})
+.catch((error) => {
+  console.log(error)
 });
 
-
+}
 
 
 
@@ -1135,8 +1143,8 @@ this.addEventListener("activate", (event) => {
 
 
 // read cache
-
-/*//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
+/*
+//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
 const cacheFirst = async (request) => {
   const responseFromCache = await caches.match(request, {ignoreSearch: true});
   if (responseFromCache) {

@@ -1,4 +1,6 @@
+
 var quoteJsonVar = 
+
 [
     {
         "text": "A flower blooming in the desert proves to the world that adversity, no matter how great, can be overcome. Matshona Dhliwayo",
