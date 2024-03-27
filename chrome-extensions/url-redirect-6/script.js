@@ -37,6 +37,8 @@ urlRedirect(getData);
 
 
 
+
+
 async function urlRedirect(getData){
 
 var currentUrl = location.href;
@@ -126,11 +128,10 @@ count = 0;
 
 
 
-
-
 function redirectUrlRunAll(rUrlMode){
 //const getting = browser.storage.sync.get("dataUrlRedirectList");
-const getting = browser.storage.local.get("dataUrlRedirectList");
+//const getting = browser.storage.local.get("dataUrlRedirectList");
+const getting = chrome.storage.local.get("dataUrlRedirectList");
 getting.then(onGot, onError);
 }
 

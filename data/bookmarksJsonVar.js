@@ -3,6 +3,15 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "131",
+        "text": "Wattpad - Where stories live",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.wattpad.com\/",
+        "tag": "#book #store #SocialNetwork #platform",
+        "time": 1711522063
+    },
+    {
         "id": "130",
         "text": "Basic writing and formatting syntax - GitHub Docs",
         "text2": "",
