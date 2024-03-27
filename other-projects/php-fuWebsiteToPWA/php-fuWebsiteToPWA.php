@@ -1,5 +1,5 @@
 <?php
-// Function dir to PWA v.3.1.0
+// Function dir to PWA v.3.0.0
 // Run script only on localhost, not made for public.
 // For an already-generated static site in a folder on localhost. The PWA will include all the files in the folder.
 // Be careful! The script creates files: manifest.webmanifest, sw.js.
@@ -292,20 +292,6 @@ this.addEventListener("activate", (event) => {
 
 // read cache
 
-//https://stackoverflow.com/questions/39445401/chrome-fetch-takes-too-long
-//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
-const cacheFirst = (request) => {
-  const responseFromCache = caches.match(request, {ignoreSearch: true});
-  if (responseFromCache) {
-    return responseFromCache;
-  }
-return fetch(request);
-};
-
-self.addEventListener("fetch", (event) => {
-  event.respondWith(cacheFirst(event.request));
-});
-
 /*//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
 const cacheFirst = async (request) => {
   const responseFromCache = await caches.match(request, {ignoreSearch: true});
@@ -336,6 +322,20 @@ self.addEventListener("fetch", event => {
 });*/
 
 
+//https://web.dev/learn/pwa/serving
+// cache first
+self.addEventListener("fetch", event => {
+   event.respondWith(
+     caches.match(event.request, {ignoreSearch: true})
+     .then(cachedResponse => {
+       // It can update the cache to serve updated content on the next request
+         return cachedResponse || fetch(event.request);
+     }
+   )
+  )
+});
+
+// read cache
 
 
 EOF;

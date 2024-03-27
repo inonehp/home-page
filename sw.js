@@ -1136,8 +1136,7 @@ this.addEventListener("activate", (event) => {
 
 // read cache
 
-//https://stackoverflow.com/questions/39445401/chrome-fetch-takes-too-long
-//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
+/*//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
 const cacheFirst = async (request) => {
   const responseFromCache = await caches.match(request, {ignoreSearch: true});
   if (responseFromCache) {
@@ -1148,7 +1147,8 @@ return fetch(request);
 
 self.addEventListener("fetch", (event) => {
   event.respondWith(cacheFirst(event.request));
-});
+});*/
+
 
 
 
@@ -1159,10 +1159,26 @@ self.addEventListener("fetch", event => {
      caches.match(event.request, {ignoreSearch: true})
      .then(cachedResponse => {
        // It can update the cache to serve updated content on the next request
-return cachedResponse || fetch(event.request);
+         return cachedResponse || fetch(event.request);
      }
    )
   )
 });*/
+
+
+//https://web.dev/learn/pwa/serving
+// cache first
+self.addEventListener("fetch", event => {
+   event.respondWith(
+     caches.match(event.request, {ignoreSearch: true})
+     .then(cachedResponse => {
+       // It can update the cache to serve updated content on the next request
+         return cachedResponse || fetch(event.request);
+     }
+   )
+  )
+});
+
+// read cache
 
 
