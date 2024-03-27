@@ -1941,9 +1941,13 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 }
 
+item = fuMHideFileNameExt(item);
 
-if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||
+if(item.indexOf(".htm") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||
 item.indexOf("/") != -1&&item.indexOf("index.htm") != -1) {
+
+item = fuMHideFileNameExt(item);
+
 embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" title="iframe"></iframe>`;
 }
 
@@ -1992,12 +1996,16 @@ if(
 item[0] == '/'&&item.indexOf(".htm") != -1||item.indexOf("./") != -1&&item.indexOf(".htm") != -1&&item.indexOf("http") == -1||
 item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.indexOf(".php") != -1&&item.indexOf("http") == -1
 ){
+
+item = fuMHideFileNameExt(item);
+
 if(targetOption == 'blank'){
 /*item = `<a href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
-item222 = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
 }else{
-item222 = `<a class="brand" href="${item}">${item}</a>`;
+item = `<a class="brand" href="${item}">${item}</a>`;
 }
+
 }
 
 
@@ -2451,6 +2459,9 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 
 if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||item.indexOf("/") != -1&&item.indexOf("index.htm") != -1) {
+
+item = fuMHideFileNameExt(item);
+
 embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" title="iframe"></iframe>`;
 }
 
@@ -2502,6 +2513,8 @@ item[0] == '/'&&item.indexOf(".htm") != -1||item.indexOf("./") != -1&&item.index
 item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.indexOf(".php") != -1&&item.indexOf("http") == -1
 ){
 
+item = fuMHideFileNameExt(item);
+
 if(targetOption == 'blank'){
 /*item = `<a href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
 item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
@@ -2512,7 +2525,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 
 
-//add hashtag
+// add hashtag
 if(item[0] == "#"){
 item = item.replaceAll(/#/g, "");
 item = `<a class="brand op" href="${scriptDir}?tag=${item}">#${item}</a>`;
