@@ -911,10 +911,9 @@ rUrlGet = rUrlGet.replaceAll('%23!StopRedirect', '');
 
 print = `
 
-<div class="tCenter">
-<div class="padding3 bgList borderList op tCenter borderRadius2">` + sTimeRedirectStatus + `</div>
-<div class="padding3 bgList borderList h3 ${rColor} bold borderRadius2">` + rUrlGetPrint + `</div>
-<a class="block padding3 bgList borderList light brand borderRadius2" href="` + rUrlGet + `">Open</a>
+<div class="tCenter bg border borderRadius2">
+<div class="margin padding3 bgList op">${sTimeRedirectStatus}</div>
+<div class="margin padding3 bgList border brand borderRadius2"><a class="inlineBlock padding brand" href="${rUrlGet}">${rUrlGetPrint}</a></div>
 </div>
 
 `;
