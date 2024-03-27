@@ -91,7 +91,7 @@ console.log("redirect2.2 (extension)");
 if(urlFirst.indexOf('!replace') != -1||urlSecond.indexOf('!replace') != -1){
 
 // 2.2 by word in URL replace, once
-if(location.href != urlSecondClean&&count == 0&&rUrlCom != 'redirect'&&location.href.indexOf(urlFirstClean) != -1){
+if(location.href != urlSecondClean&&count == 0&&rUrlCom != 'redirect'&&location.href.indexOf(urlFirstClean) != -1&&location.href.indexOf(urlSecondClean) == -1){
 rUrl = (String(location.href).replace(`${urlFirstClean}`, `${urlSecondClean}`)).trim();
 rUrlCom = 'redirect';
 count++;
