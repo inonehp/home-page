@@ -1,4 +1,4 @@
-/* Main style v.16.4.0
+/* Main style v.16.4.1
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -330,7 +330,7 @@ border-radius: 5px;
 
 
 /* Class 2 */
-.wrapper, .wrapper2, .wrapper3, .wrapper4, .wrapperTv, .wrapperXl, .wrapperL, .wrapperM, .wrapperS, .wrapperXs {  width: 100%; margin: auto; }
+.wrapper, .wrapper2, .wrapper3, .wrapper4, .wrapperTv, .wrapperXl, .wrapperL, .wrapperM, .wrapperS, .wrapperXs {  width: 100%; margin: 0 auto; }
 .wrapper { max-width: var(--wrapper);  }
 .wrapper2 { max-width: var(--wrapper2); }
 .wrapper3 { max-width: var(--wrapper3);  }
