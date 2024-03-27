@@ -1,4 +1,4 @@
-// Speed dial v.1.5.1
+// Speed dial v.1.6.0
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -19,10 +19,6 @@ locationSpeedDialUrl = locationSpeedDialUrl.replaceAll("#mPin", '');
 // fix for short text link
 if(conf["confDomainNameInTitleStatus"] == 'on'){
 locationSpeedDialTitle = locationSpeedDialTitle.replace(conf["confDomainNameInTitle"], '');
-}
-
-if(String(window.location.pathname) == "/"){
-locationSpeedDialUrl = locationSpeedDialUrl + "#start";
 }
 
 if (localStorage.getItem("confSpeedDialData")) {
