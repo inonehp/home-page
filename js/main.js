@@ -350,7 +350,7 @@ display: none !important;
 var fDesc = '';
 var fDescTitle = '';
 var fDescTags = '';
-var fDescTagsLimit = 10;
+var fDescTagsLimit = 15;
 var fDescLength = '';
 if(document.getElementsByName("keywords")[0] != null){
 fDescTags = document.getElementsByName("keywords")[0].content;
@@ -360,7 +360,7 @@ fDescTags = fDescTags.replaceAll("\r\n", " ");
 fDescTags = fDescTags.replaceAll("\n\r", " ");
 
 var fDescArr = fDescTags.split(",");
-fDescArr = fDescArr.sort();
+fDescArr = fuMSort(fDescArr, "", "arr");
 fDescTags = '';
 var fDescTagsLimitCounter = 0;
 fDescArr.forEach((tag) => {
@@ -976,7 +976,7 @@ return text2;
 
 
 // fu sorting v.1.0.0
-function fuMSorting(textOrArr, delimiter, mode){
+function fuMSort(textOrArr, delimiter, mode){
 //https://stackoverflow.com/questions/2802341/natural-sort-of-alphanumerical-strings-in-javascript
 var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
 //return textOrArr.sort(collator.compare);
@@ -993,7 +993,7 @@ return textOrArr.sort(collator.compare);
 }
 
 }
-//alert(fuMSorting(["772", " 3",  "6",  "7", "77"], " ", "arr"));
+//alert(fuMSort(["772", " 3",  "6",  "7", "77"], "", "arr"));
 
 
 
