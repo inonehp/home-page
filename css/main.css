@@ -428,8 +428,10 @@ filter: invert(100%);
 .tRight { text-align: right; }
 .b, .b a, .bold, .bold a { font-weight: bold; }
 .normal, .normal a { font-weight: normal; font-size: unset; }
+.unser, .unser a { font-size: unset; }
 .medium, .medium a { font-size: medium; }
 .large, .large a { font-size: large; }
+.larger, .larger a { font-size: larger; }
 .xLarge, .xLarge a { font-size: x-large; }
 .xxLarge, .xxLarge a { font-size: xx-large; }
 .xxxLarge, .xxxLarge a { font-size: xxx-large; }
