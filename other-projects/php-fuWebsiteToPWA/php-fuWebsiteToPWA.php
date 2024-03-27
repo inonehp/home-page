@@ -1,5 +1,5 @@
 <?php
-// Function dir to PWA v.3.0.0
+// Function dir to PWA v.3.1.0
 // Run script only on localhost, not made for public.
 // For an already-generated static site in a folder on localhost. The PWA will include all the files in the folder.
 // Be careful! The script creates files: manifest.webmanifest, sw.js.
@@ -118,8 +118,8 @@ $result[] = $filename . '/'; // modified: added dir
 
 
 
-///////////////////////////
-// start generate files list
+// generate files list
+//////////////////////
 $result = scanAllDir("$dir");
 
 //print_r($result);
@@ -152,7 +152,8 @@ $fileList .= ',"/"';
 */
 
 //echo "<div class='pre'>$fileList</div>";
-// end generate files list
+// generate files list
+//////////////////////
 
 
 
@@ -160,8 +161,9 @@ $fileList .= ',"/"';
 
 
 
-///////////////////////////
-// start sw.js serviceWorker
+
+// sw.js serviceWorker
+//////////////////////
 $serviceWorker = <<<EOF
 // pwa $PWAVersion 
 
@@ -290,7 +292,21 @@ this.addEventListener("activate", (event) => {
 
 // read cache
 
+//https://stackoverflow.com/questions/39445401/chrome-fetch-takes-too-long
 //https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
+const cacheFirst = (request) => {
+  const responseFromCache = caches.match(request, {ignoreSearch: true});
+  if (responseFromCache) {
+    return responseFromCache;
+  }
+return fetch(request);
+};
+
+self.addEventListener("fetch", (event) => {
+  event.respondWith(cacheFirst(event.request));
+});
+
+/*//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
 const cacheFirst = async (request) => {
   const responseFromCache = await caches.match(request, {ignoreSearch: true});
   if (responseFromCache) {
@@ -301,7 +317,7 @@ return fetch(request);
 
 self.addEventListener("fetch", (event) => {
   event.respondWith(cacheFirst(event.request));
-});
+});*/
 
 
 
@@ -323,7 +339,8 @@ self.addEventListener("fetch", event => {
 
 
 EOF;
-// end sw.js serviceWorker
+// sw.js serviceWorker
+//////////////////////
 
 
 
@@ -536,7 +553,7 @@ addBtn.style.display = 'block';
 
 
 EOF;
-// end HTML page for install (button install).
+// HTML page for install (button install).
 
 
 
@@ -548,8 +565,8 @@ EOF;
 
 
 
-///////////////////////////
-// start write to the in files !
+
+// write to the files !
 
 file_put_contents("$dir"."/manifest.webmanifest", $manifest);
 file_put_contents("$dir"."/sw.js", $serviceWorker);

@@ -31,6 +31,10 @@ navigator.serviceWorker.addEventListener("message", (event) => {
 
 
 
+
+
+
+
 // Code to handle install prompt on desktop
 
 let deferredPrompt;
