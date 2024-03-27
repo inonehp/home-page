@@ -1,4 +1,4 @@
-/* Main style v.14.6.0
+/* Main style v.16.3.0
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -9,11 +9,15 @@ Responsive, mainly class-based */
 * { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
 
 :root{
-/* c4, red, orange, yellow, green, blue, indigo, violet / .brand - class for link, accent-color
+/* .brand - link, accent color
+ * use: c4, red, orange, yellow, green, blue, indigo, violet
 */
 --brandColor: color-mix(in srgb, var(--blue) 80%, var(--green));
 
 --bodyPadding: 3vw;
+--inputHeight: 45px;
+--fontSize: 14px;
+
 --wrapper: 540px;
 --wrapper2: 700px;
 --wrapper3: 900px;
@@ -25,9 +29,6 @@ Responsive, mainly class-based */
 --wrapperM: 330px;
 --wrapperS: 230px;
 --wrapperXs: 160px;
-
---inputHeight: 45px;
---fontSize: 0.97em;
 
 --padding: 5px;
 --padding2: 10px;
@@ -79,10 +80,11 @@ overflow-y: scroll;
 /*height: -webkit-fill-available*/
 }
 
-.content, .contentCenter { flex: 1 0 auto; }
+.content, .contentCenter,
+.postContent, .postContentCenter { flex: 1 0 auto; }
 .page { min-height: 100vh; }
 
-.contentCenter {
+.contentCenter, .postContentCenter {
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -102,7 +104,7 @@ width: 100%;
 .h5 { font-size: 1.11em; }
 .h6 { font-size: 1.1em; }
 
-input[type="text"], input[type="search"], textarea, input[type="submit"], input[type="email"], input[type="password"], form button, .submit {
+input[type="text"], input[type="search"], textarea, input[type="submit"], input[type="email"], input[type="password"], form button, .submit{
 width: 100%;
 min-inline-size: 100%;
 min-height:  var(--inputHeight);
@@ -149,13 +151,26 @@ td { padding: 5px; }
 
 
 /* class */
-.post, .post2, .post3, .post4, .postTv, .tv, .postXl, .postL, .postM, .postS, .postXs {
-display: block;
+.post {
+/* use with .postContent (wrapper) */
+/*display: block;*/
 width: 100%;
 margin: 0 auto;
 overflow: auto;
-padding: 14px;
-border-radius: 5px;
+padding: var(--padding3);
+
+/* new in test */
+display: flex;
+flex-basis: auto;
+flex-basis: 100%;
+flex-direction: column;
+
+/*height: 100%;
+min-height: 100%;delme*/
+height: auto;
+min-height: auto;
+/* fix test */
+/*overflow: visible;*/
 }
 
 /* pre for post */
@@ -167,14 +182,24 @@ display: grid;
 grid-template-columns: 1fr 30%;
 grid-gap: 1%;
 text-align: right;
-margin-top: .9em;
-align-items: self-end; align-items: stretch;
+align-items: self-end;
+align-items: stretch;
+flex-shrink: 0;
+padding-top: calc(var(--padding) / 2);
 }
+.postFooter2 { grid-template-columns: 1fr; }
+
+.postFooter a, .postFooter2 a {
+display: inline-block;
+padding: var(--padding);
+padding-left: 0;
+padding-right: var(--padding2);
+}
+.postFooter:last-child { padding-right: 0; }
 
 @media(max-width: 300px) { .postFooter { grid-template-columns: 1fr;} }
 
 .postFooter .tagList { align-self: end; }
-.postTagList a, .postTime a { font-size: calc(100% - 5%); }
 
 .logo, .logo2{
 position: relative;
@@ -286,7 +311,7 @@ scrollbar-width: none;
 
 
 /* Ads */
-.ads {  }
+.ads { }
 .adsHeader { display: inline-block; text-align: right;
 border: 1px solid var(--d);
 float: right;
@@ -306,16 +331,17 @@ border-radius: 5px;
 
 /* Class 2 */
 .wrapper, .wrapper2, .wrapper3, .wrapper4, .wrapperTv, .wrapperXl, .wrapperL, .wrapperM, .wrapperS, .wrapperXs {  width: 100%; margin: 0 auto; }
-.wrapper, .post {  max-width: var(--wrapper);  }
-.wrapper2, .post2 {  max-width: var(--wrapper2); }
-.wrapper3, .post3 {  max-width: var(--wrapper3);  }
-.wrapper4, .post4 {  max-width: var(--wrapper4);  }
-.wrapperTv, .postTv {  max-width: var(--wrapperTv); }
-.wrapperXl, .postXl {  max-width: var(--wrapperXl);  }
-.wrapperL, .postL {  max-width: var(--wrapperL);  }
-.wrapperM, .postM {  max-width: var(--wrapperM);  }
-.wrapperS, .postS {  max-width: var(--wrapperS);  }
-.wrapperXs, .postXs {  max-width: var(--wrapperXs);  }
+.wrapper { max-width: var(--wrapper);  }
+.wrapper2 { max-width: var(--wrapper2); }
+.wrapper3 { max-width: var(--wrapper3);  }
+.wrapper4 { max-width: var(--wrapper4);  }
+
+.wrapperTv { max-width: var(--wrapperTv); }
+.wrapperXl { max-width: var(--wrapperXl);  }
+.wrapperL { max-width: var(--wrapperL);  }
+.wrapperM { max-width: var(--wrapperM);  }
+.wrapperS { max-width: var(--wrapperS);  }
+.wrapperXs { max-width: var(--wrapperXs);  }
 
 .op { opacity: 0.88; } 
 .op:hover { opacity: 1; }
@@ -458,8 +484,8 @@ input, input:focus, textarea, select, button, input[type="file"] {
 border: 1px solid var(--d3); background: var(--l2); color: var(--c3); border-radius: 3px; }
 input:hover, textarea:hover, select:hover, button:hover, input[type="file"]:hover {  background: var(--l3); }
 
-input[type="submit"],  form button[type="submit"], .submit {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: 3px; }
-input[type="submit"]:hover, form button[type="submit"]:hover, .submit:hover { background: var(--d2); color: var(--c3); }
+input[type="submit"],  form button[type="submit"], form button, .submit {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: 3px; }
+input[type="submit"]:hover, form button[type="submit"]:hover, form button:hover, .submit:hover { background: var(--d2); color: var(--c3); }
 
 
 input[type="range"], progress { width: 100%; max-width: 100%; margin: 0; }
@@ -550,11 +576,20 @@ form fieldset { border: 1px solid var(--d3); }
 .bg { background: var(--l); }
 .bgList, .light { background: var(--l); }
 .bgList:nth-child(2n), .light:hover { background: var(--l2); }
+.bg:hover, .bgList:hover { background: color-mix(in srgb, var(--l) 90%, var(--l4)); }
+.bgList:nth-child(2n):hover { background: color-mix(in srgb, var(--l2) 90%, var(--l4)); }
+
 .bg2, .bg2List, .light2 { background: var(--l2); }
 .bg2List:nth-child(2n), .light2:hover, .light3{ background: var(--l3); }
+.bg2:hover, .bg2List:hover { background: color-mix(in srgb, var(--l2) 90%, var(--l4)); }
+.bg2List:nth-child(2n):hover { background: color-mix(in srgb, var(--l3) 90%, var(--l4)); }
+
 .bg3, .bg3List, .light3 { background: var(--l3); }
 .bg3List:nth-child(2n), .light3:hover, .light4{ background: var(--l4); }
+.bg3:hover, .bg3List:hover { background: color-mix(in srgb, var(--l3) 90%, var(--l4)); }
+
 .bg4, .bg4List, .light4:hover { background: var(--l4); }
+
 
 .bgD { background: var(--d); }
 .bgDList, .dark { background: var(--d); }
@@ -565,8 +600,9 @@ form fieldset { border: 1px solid var(--d3); }
 .bgD3List:nth-child(2n), .dark3:hover, .dark4{ background: var(--d4); }
 .bgD4, .bgD4List, .dark4:hover { background: var(--d4); }
 
-.highlight, .highlight2 { background: var(--l4) !important; }
-.highlight:hover, .highlight2:hover { background: var(--l4); }
+.highlight { background: var(--l4) !important; color: var(--c4) !important; }
+.highlight:hover { background: var(--l4); color: var(--c4) !important; }
+.highlight2, .highlight2:hover { background: color-mix(in srgb, var(--orange) 50%, #fff) !important; color: #000 !important; }
 
 
 
