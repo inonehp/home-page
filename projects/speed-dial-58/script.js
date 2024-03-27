@@ -1,4 +1,4 @@
-// Speed dial v.1.6.0
+// Speed dial v.1.7.0
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -52,7 +52,8 @@ confSpeedDialDataArrButton.forEach((item, index) => {
 
 if(index != undefined&&index != "undefined"){
 
-if((String(item.url)).indexOf(locationSpeedDialUrl) != -1){
+//if((String(item.url)).indexOf(locationSpeedDialUrl) != -1){
+if(item.url == locationSpeedDialUrl){
 fPinButton = `<a title="Speed dial setting" id="mPin" class="inlineBlock padding gray" href="#mPin" onclick="fuLSpeedDial('', '', '', 'del');">Pined</a>`;
 }
 
