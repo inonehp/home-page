@@ -23,7 +23,7 @@ include './php-fuWebsiteToPWA.php';
 $PWAVersion = 'v.1.1.';
 
 include_once $d.'top.php';
-echo $install = fuWebsiteToPWA($confDirGitRepo, $AppName, $PWAVersion); // app name
+echo $install = fuWebsiteToPWA($confDirGitRepo, $AppName, $PWAVersion);
 include_once $d.'bottom.php';
 
 ?>
