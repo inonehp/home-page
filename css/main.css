@@ -1,4 +1,4 @@
-/* Main style v.16.4.1
+/* Main style v.16.5.0
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -34,6 +34,11 @@ Responsive, mainly class-based */
 --padding2: 10px;
 --padding3: 15px;
 --padding4: 30px;
+
+--borderRadius: 3px;
+--borderRadius2: 5px;
+--borderRadius3: 15px;
+--borderRadius4: 30px;
 
 --itemHeight: 30px;
 --itemHeight2: 45px;
@@ -317,7 +322,7 @@ border: 1px solid var(--d);
 float: right;
 padding: 0px 5px;
 margin-left: 3px;
-border-radius: 5px;
+border-radius: var(--borderRadius);
 }
 .adsHeader a { font-size: x-small; }
 .adsBody { display: block;  padding: 0px 5px; }
@@ -456,10 +461,10 @@ scroll-padding-top: 16px;
 
 .break { overflow: hidden; white-space: normal; word-break: break-word; overflow-wrap: break-word; }
 .break2 { overflow: hidden; white-space: normal; word-break: break-all; }
-.borderRadius { border-radius: 3px; }
-.borderRadius2 { border-radius: 5px; }
-.borderRadius3 { border-radius: 15px; }
-.borderRadius4 { border-radius: 30px; }
+.borderRadius { border-radius: var(--borderRadius); }
+.borderRadius2 { border-radius: var(--borderRadius2); }
+.borderRadius3 { border-radius: var(--borderRadius3); }
+.borderRadius4 { border-radius: var(--borderRadius4); }
 
 
 
@@ -483,10 +488,10 @@ hr{ border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
 mark { font-weight: bold;}
 
 input, input:focus, textarea, select, button, input[type="file"] { 
-border: 1px solid var(--d3); background: var(--l2); color: var(--c3); border-radius: 3px; }
+border: 1px solid var(--d3); background: var(--l2); color: var(--c3); border-radius: var(--borderRadius); }
 input:hover, textarea:hover, select:hover, button:hover, input[type="file"]:hover {  background: var(--l3); }
 
-input[type="submit"],  form button[type="submit"], form button, .submit {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: 3px; }
+input[type="submit"],  form button[type="submit"], form button, .submit {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: var(--borderRadius); }
 input[type="submit"]:hover, form button[type="submit"]:hover, form button:hover, .submit:hover { background: var(--d2); color: var(--c3); }
 
 
