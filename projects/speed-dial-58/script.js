@@ -129,9 +129,13 @@ ${print}
 
 </div>
 
-<details class="block ">
-<summary class="pointer xSmall op"><span class="green bold">+</span> Add item<!--, <a href="/projects/speed-dial-58/index.html"><div class="op xSmall tag2 ==">Edit all</div></a>--></summary>
+<details>
+<summary class="pointer xSmall op inlineBlock">
+<span class="green bold">+</span> Add item
+</summary>
+<div class="wrapperL left">
 ${submitForm}
+</div>
 </details>
 
 <div class="block padding2 margin2"></div>
