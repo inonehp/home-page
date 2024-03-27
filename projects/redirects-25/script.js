@@ -1,4 +1,4 @@
-// Search redirects v.1.9.0
+// Search redirects v.1.9.1
 // Mini google or search engine
 // The script redirects the search query + command to another location.
 
@@ -11,12 +11,12 @@ var geturl = location.href;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
 
-
 var qr = url.searchParams.get("qr");
 var rq = url.searchParams.get("rq");
 if(rq != null){ qr = qr + rq; }
 if(qr != null){
 qr = qr.replaceAll(/%/g, "%25");
+q = q.replaceAll('+', ' ');
 qr = decodeURIComponent(qr);
 qr = qr.trim();
 
@@ -29,27 +29,9 @@ location.href = location.href + '#!StopRedirect';
 
 //location.href.replace(fuMHideFileNameExt(qr),);
 //location.href.replace(location.href + '#!StopRedirect',);
+
 }
 }else{ qr = ''; }
-
-
-
-
-var qCom33 = url.searchParams.get("qCom");
-if(qCom33 != null){
-qCom33 = qCom33.replaceAll(/%/g, "%25");
-qCom33 = decodeURIComponent(qCom33);
-qCom33 = qCom33.trim();
-}else{ qCom33 = ''; }
-
-q = String(q + ' '+qCom33).trim();
-
-var rColor = 'yellow';
-if(q.slice(-2) == 'ls'||q.slice(-2) == 'rs'){
-sTimeRedirect = 2000;
-rColor = 'orange';
-}
-
 
 /*var rUrlGet = url.searchParams.get("rUrl");
 //fuMHideFileNameExt(); //rmme
@@ -79,7 +61,7 @@ if(q == ''&&q != 'null'){ q = 'q'; }
 
 
 
-
+var rColor = 'yellow';
 
 
 if(rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") == -1){
@@ -88,6 +70,13 @@ q = q.trim();
 //q = q.replace(/%([^\d].)/, "%25$1");
 q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);
+
+
+
+if(q.slice(-2) == 'ls'||q.slice(-2) == 'rs'){
+sTimeRedirect = 2000;
+rColor = 'orange';
+}
 
 let qHashtag = location.href;
 qHashtag = qHashtag.split("#")[1];
@@ -101,10 +90,15 @@ q = val;
 q = decodeURIComponent(q);
 }
 });
+
 }
 
+q = q.replaceAll('%23!StopRedirect', '');
+q = q.replaceAll('#!StopRedirect', '');
+
 // for the command at the end of the search query
-var strArray = q.split(" ");
+let qTmpNoPlus = q.replaceAll('+', ' ');
+var strArray = qTmpNoPlus.split(" ");
 var qCom = strArray[strArray.length - 1] + "#";
 var q3 = q + "#";
 
@@ -879,7 +873,7 @@ if(com == "on"&&(String(location.href)).indexOf("#!StopRedirect") == -1){
 let rUrlGetClean = rUrlGet.replaceAll('%23!StopRedirect', '');
 rUrlGetClean = rUrlGetClean.replaceAll('#!StopRedirect', '');
 
-if(sRedirectUrl == ''&&rUrlGetClean[0] == 'h'&&allowUrlListStatus == 'not found'){
+if(rUrlGet == ''&&rUrlGetClean[0] == 'h'&&allowUrlListStatus == 'not found'){
 rColor = "orange";
 // disabled if http
 sTimeRedirectStatus = `<span class="small">Redirection (${com}): force off</span>`;
