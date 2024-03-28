@@ -103,19 +103,30 @@ let print = "";
 let printArr = [];
 confSpeedDialDataArr = JSON.parse(confSpeedDialDataArr);
 confSpeedDialDataArr.forEach((item, index) => {
+
 if(index != undefined&&index != "undefined"){
-if(confSpeedDialDataArr[index].text == undefined){ confSpeedDialDataArr[index].text = 'undefined'; }
+
+if(confSpeedDialDataArr[index].text == undefined){
+confSpeedDialDataArr[index].text = 'undefined';
+}
+
 let speedDialItemText = (confSpeedDialDataArr[index].text).trim();
 let speedDialItemUrl = confSpeedDialDataArr[index].url;
+
+speedDialItemText = fuMClearText(speedDialItemText);
+speedDialItemUrl = fuMClearText(speedDialItemUrl);
+
 printArr.push(`
-<!--${speedDialItemText}--> <a href="${speedDialItemUrl}"><div class="insertIcon tag2 light2 border borderRadius2 itemHeight capitalize small">${speedDialItemText}</div></a>
+
+<!-- ${speedDialItemText} --> <a id="spedDialId${index}" href="${speedDialItemUrl}"><div class="insertIcon tag2 light2 border borderRadius2 itemHeight capitalize small">${speedDialItemText}</div></a>
 
 `);
+
 }
 });
 
 lNaturalSort(printArr);
-print = printArr.join(``);
+print = printArr.join("");
 
 print = `
 
@@ -250,14 +261,15 @@ let speedDialItemText = (confSpeedDialDataArr[index].text).trim();
 let speedDialItemUrl = confSpeedDialDataArr[index].url;
 
 
-speedDialItemText = fuMClearText(speedDialItemText);
-speedDialItemUrl = fuMClearText(speedDialItemUrl);
+
 
 //https://stackoverflow.com/questions/5383520/populate-an-input-field-with-a-string-that-contains-a-double-quote
 
 speedDialItemText = speedDialItemText.replaceAll(/"/g, '&quot;');
 speedDialItemUrl = speedDialItemUrl.replaceAll(/"/g, '&quot;');
 
+speedDialItemText = fuMClearText(speedDialItemText);
+speedDialItemUrl = fuMClearText(speedDialItemUrl);
 
 printSettingsArr.push(`
 
@@ -336,7 +348,6 @@ if(text == ""||url == ""){
 text = fuMClearText(text);
 url = fuMClearText(url);
 
-fuMClearText
 confSpeedDialDataArr.push({text:text, url:url});
 }
 

@@ -3,7 +3,7 @@
 var url = new URL(window.location);
 var q = url.searchParams.get("q");
 if(q != null){
-q = q.replaceAll(/%/g, "%25");
+//q = q.replaceAll(/%/g, "%25");
 //q = decodeURIComponent(q);
 q = String(q).trim();
 }
@@ -18,7 +18,7 @@ var print = `
 <div class="wrapper">
 
 <div>
-<div id="result3"></div>
+<div class="border-radius tLeft block borderList light padding2"><b><span id="result3"></span></b></div>
 <!--<div id="result2" class="scroll" style="max-height: 50px;"></div>-->
 </div>
 
@@ -49,7 +49,6 @@ inputA.addEventListener('input', updateValueInput);
 }
 
 
-
 function updateValueInput(e, text) {
 //q = encodeURIComponent(e.target.value);
 q = e.target.value;
@@ -61,23 +60,36 @@ textToUrl(q);
 }
 
 function textToUrl(text){
-result = String(result).replaceAll(`-`, "-");
-result = (String(text).replaceAll(`
-`, "_")).toLowerCase();
 
-result = String(result).replaceAll(`"`, "");
-result = String(result).replaceAll(`'`, "");
-result = String(result).replaceAll(`,`, "");
-result = String(result).replaceAll(`.`, "");
-result = String(result).replaceAll(`+`, " ");
+/*result = String(result).replaceAll(`-`, '-');
+result = (String(text).replaceAll(`
+`, '_')).toLowerCase();*/
+
+function filterQ(symbol){
+let filter = "-_0123456789AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
+filter = filter.split("");
+let resultClear = "";
+filter.forEach((value) => {
+if(symbol === value){ resultClear = String(value); }
+});
+if(symbol === resultClear){ symbol = symbol; } else { symbol = '-'; }
+return String(symbol);
+}
+
+result = "";
+text = text.split("");
+
+text.forEach((value) => {
+result += String(filterQ(value));
+});
 
 // rm double space, dash
 //https://stackoverflow.com/questions/7764319/how-to-remove-duplicate-white-spaces-in-a-string
-result = result.replace(/\s+/g, ' ');
-result = String(result).replaceAll(` `, "-");
 result = result.replace(/--+/g, "-");
 
-document.getElementById("result3").innerHTML = `<div class="border-radius tLeft block borderList light padding2"><b>${result}</b></div>`;
+//document.getElementById("result3").innerHTML = `<div class="border-radius tLeft block borderList light padding2"><b>${result}</b></div>`;
+document.getElementById("result3").textContent = result;
+
 }
 
 if(q != null){ textToUrl(q); }

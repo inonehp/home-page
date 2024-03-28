@@ -20,6 +20,7 @@ var print = `
 <div class="wrapper">
 
 <div>
+<div class="border-radius tLeft block borderList light padding2 scroll" style="max-height: 250px;"><b><span id="result3"></span></b></div>
 <div id="result3" class="scroll" style="max-height: 100px;"></div>
 <div id="result2" class="scroll" style="max-height: 50px;"></div>
 </div>
@@ -87,7 +88,7 @@ for (var i = 0; i < q.length; i++) {
 binaryText += q[i].charCodeAt(0).toString(2) + " ";
 }
 
-document.getElementById(id).innerHTML = `<div class="border-radius tLeft block borderList light padding2"><b>${binaryText}</b></div>`;
+document.getElementById(id).textContent = binaryText; 
 
 binaryText = '';
 }

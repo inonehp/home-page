@@ -158,7 +158,9 @@ data = data.concat(sitemapJsonVar, bookmarksJsonVar, blogJsonVar, articlesJsonVa
 
 
 </script>
+<div class="wrapper">
 <div id="echoBlog"></div>
+</div>
 
 
 </main>
@@ -209,7 +211,7 @@ let blogConfig = {
 };
 </script>
 <script>
-blog("echoBlog", data, ' wrapper post ', './site-search.html', blogConfig);
+blog("echoBlog", data, 'post', './site-search.html', blogConfig);
 </script>
 
 

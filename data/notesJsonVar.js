@@ -3,6 +3,24 @@ var notesJsonVar =
 
 [
     {
+        "id": "8",
+        "text": "Map - JavaScript | MDN",
+        "text2": "myMap.forEach((value, key) => {\r\n  console.log(`${key} = ${value}`);\r\n});\r\n\/\/ 0 = zero\r\n\/\/ 1 = one",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Map",
+        "tag": "#code #JavaScript",
+        "time": 1711625173
+    },
+    {
+        "id": "7",
+        "text": "English alphabet - Wikipedia",
+        "text2": "A a B b C c D d E e F f G g H h I i J j K k L l M m N n O o P p Q q R r S s T t U u V v W w X x Y y Z z\r\n\r\n====\r\n\r\nAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/English_alphabet",
+        "tag": "#text #alphabet",
+        "time": 1711620434
+    },
+    {
         "id": "6",
         "text": "Node: textContent property - Web APIs | MDN",
         "text2": "document.getElementById(\"test\").textContent = \"test\";\r\ndocument.getElementById(\"test\").textContent = decodeURIComponent(\"test\");",
