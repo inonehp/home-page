@@ -82,10 +82,10 @@ var submitForm = `
 <label class="xSmall" for="speedDialUrl">URL:</label>
 <input type="text" id="speedDialUrl" name="speedDialUrl" placeholder="https://example.com/">
 
-<a href="#spedDialSubmit" onclick="fuLSpeedDial('', '', '', 'add')"><div class="op small tag2 submit">Add</div></a>
+<a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'add')"><div class="op smaller tag2 submit brand">Add</div></a>
 
 <div class="padding2"></div>
-<a class="op button border light borderRadius2" href="/projects/speed-dial-58/index.html">Edit speed dial</a>
+<a class="op button border light borderRadius2 smaller brand" href="/projects/speed-dial-58/index.html">Edit speed dial</a>
 
 </form>
 
@@ -121,7 +121,7 @@ print = `
 
 <!-- Speed dial -->
 
-<span class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Speed dial:</span>
+<span id="speedDialAnchor" class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Speed dial:</span>
 
 <div class="tagList left small margin2List">
 
@@ -291,7 +291,7 @@ printSettings = `
 
 ${printSettings}
 
-<a href="#spedDialSubmitSetting" onclick="fuLSpeedDial('', '', '', 'update')"><div class="op small tag2 submit shadow">Update all</div></a>
+<a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'update')"><div class="op small  submit shadow brand borderRadius3">Update all</div></a>
 </form>
 
 <div class="block padding2 margin2"></div>

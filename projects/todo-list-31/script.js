@@ -1,4 +1,4 @@
-// Todo v.2.6.1
+// Todo v.2.7.0
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -608,9 +608,10 @@ if (cursor) {
 //console.dir('cur value: '+cursor.value.text);
 
 let idPrint = cursor.key;
-let textPrint = decodeURIComponent(cursor.value.text);
-let statusPrint = decodeURIComponent(cursor.value.data);
-let statusDailyPrint = decodeURIComponent(cursor.value.data2);
+//let textPrint = decodeURIComponent(cursor.value.text);
+let textPrint = (cursor.value.text);
+let statusPrint = (cursor.value.data);
+let statusDailyPrint = (cursor.value.data2);
 
 let textPrintHighlight = highlightText(textPrint);
 
@@ -1029,8 +1030,9 @@ idInput = fuMClearText(idInput);
 
 if(comInput == 'add'||comInput == 'edit'){
 
-textInput = decodeURIComponent(textInput);
-textInput = encodeURIComponent(textInput);
+textInput = (textInput);
+/*textInput = decodeURIComponent(textInput);
+textInput = encodeURIComponent(textInput);*/
 
 if(textInput != null&&textInput != "null"&&textInput != ''){
 
@@ -1080,8 +1082,9 @@ textInput = document.getElementById('textInputE').value;
 idInput = fuMClearText(idInput);
 textInput = fuMClearText(textInput);
 
-textInput = decodeURIComponent(textInput);
-textInput = encodeURIComponent(textInput);
+textInput = (textInput);
+/*textInput = decodeURIComponent(textInput);
+textInput = encodeURIComponent(textInput);*/
 
 //alert('test'+idInput+textInput);
 runDb('update', idInput, textInput);

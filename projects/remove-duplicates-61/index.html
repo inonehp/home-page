@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Start Page</title>
+<title>Sorting itmes</title>
 
 <meta name="description" content="
-Start page, home page, new tab page.
-
+Sorting itmes. Sort text.
 ">
 <meta name="keywords" content="
-StartPage, home, homepage, start, page, tab, NewTab, 
-CSS, JavaScript, project,
+tool,sorting,sort,itmes,CSS,JavaScript,project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,49 +47,66 @@ CSS, JavaScript, project,
 </nav>
 </header>
 
-<h1 class="tCenter op medium normal">Start Page</h1>
-<!--<div class="tCenter padding2 small op">in progress</div>-->
 
 <!-- content -->
-<main class="contentCenter">
-
-<div class="wrapper">
-<div class="padding2 tRight">
-<div id="clock" class="h1 bold"></div>
-<div class="padding2 small">
-<span class="bold"><span id="clock2"></span></span> / 
-<span class="">UTC: <span id="clockUtc"></span></span>
-</div>
-<div id="audio"></div>
-</div>
-</div>
-
-
+<main class="content">
 <div class="wrapper">
 
-<form method="GET" style="margin-top: 0px;" action="../../search.html" autocomplete="off" role="search">
-<label id="search" class="op tLeft xSmall" title="example: twitter l"><span class="bold orange">✪</span> Web search (redirect):</label>
-<input id="inputQ" class="padding2" aria-labelledby="search" type="search" name="q" autofocus="autofocus"  placeholder=""  autocomplete="off">
+<h1 class="tCenter op">Sorting itmes</h1>
+<!--<div class="tCenter padding2 small op">in progress</div>-->
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
-<input type="submit" value="search" class="xSmall op">
-<input type="submit" name="q2" value="l" class="xSmall op">
+
+
+<div class="xSmall"><span class="bold gray">✪</span> Result:</div>
+<div class="padding3 border bg pre">
+<div id="result"></div>
+</div>
+
+<div class="margin2 padding2"></div>
+
+
+
+<form id="form" method="GET" action="index.html" autocomplete="off" role="search">
+
+
+<label class="block op tLeft xSmall" for="com">Select a separator:</label>
+
+<select name="com" id="com">
+<option value="new line" selected>New line</option>
+<option value="space">Space</option>
+<option value="comma">Comma</option>
+<option value="|">Symbol "|"</option>
+<option value="all">All</option>
+</select>
+
+<div class="margin"></div>
+<fieldset>
+<legend class="block op tLeft xSmall">Sort:</legend>
+
+<div>
+<input type="radio" id="sort" name="com2" value="sort" checked>
+<label for="sort">sort</label>
+</div>
+
+<div>
+<input type="radio" id="reverse" name="com2" value="reverse">
+<label for="reverse">reverse</label>
+</div>
+
+</fieldset>
+
+<div class="margin"></div>
+<label class="block op tLeft xSmall"><span class="bold orange">✪</span> Input text:</label>
+<textarea id="text" class="padding2" name="q" rows="4" cols="50">1. Test item
+1. Test item
+2. Test item</textarea>
+
+<input class="xSmall op tCenter" type="submit">
 </div>
 
 </form>
 
 </div>
-
-<div class="wrapper">
-
-<div class="padding2 margin2"></div>
-
-<span id="speedDialPrint"></span>
-
-</div>
-
-
-
 </main>
 <!-- // content -->
 
@@ -99,6 +114,10 @@ CSS, JavaScript, project,
 <footer id="footer"></footer>
 
 <script src="../../js/main.js"></script>
+
+<script>
+//fuMSetTheme('light');
+</script>
 
 <script src="script.js"></script>
 

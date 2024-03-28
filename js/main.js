@@ -1213,12 +1213,15 @@ if(text != undefined){
 //text = text.replaceAll('"', '\"');
 //text = text.replaceAll("/\\/", "\\\\");
 
-text = text.replaceAll("/\\/", "&#92;");
+//text = text.replaceAll("/\\/", "&#92;");
+text = text.replaceAll("/\\/", "&bsol;");
 text = text.replaceAll("<", '&lt;');
 text = text.replaceAll(">", '&gt;');
-text = text.replaceAll("`", '&#96;');
+text = text.replaceAll("`", '&#96;'); // Backtick
 text = text.replaceAll(/"/g, '&quot;');
-text = text.replaceAll(/'/g, '&#39;');
+text = text.replaceAll(/'/g, '&apos;');
+text = text.replaceAll(/'/g, '&percnt;');
+
 /*delme
 let symbol = "`";
 let symbolArr = symbol.split("");

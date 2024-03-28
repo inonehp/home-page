@@ -581,6 +581,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/projects\/remove-duplicates-61\/index.html",
+        "text": "Sorting itmes\n\nSorting itmes. Sort text. || remove duplicates: ",
+        "tag": " #tool #sorting #sort #itmes #CSS #JavaScript #project",
+        "id": "f86d027451a664e1290a813f5146c924",
+        "time": "id"
+    },
+    {
         "url": "\/projects\/sorting-55\/index.html",
         "text": "Sorting itmes\n\nSorting itmes. Sort text. || sorting: ",
         "tag": " #tool #sorting #sort #itmes #CSS #JavaScript #project",

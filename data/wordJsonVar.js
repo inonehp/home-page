@@ -431,11 +431,6 @@ var wordJsonVar =
         "text3": "administrador"
     },
     {
-        "text": "\u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u0456\u044f",
-        "text2": "administration",
-        "text3": "administracion"
-    },
-    {
         "text": "\u0454\u0432\u0430\u043d\u0433\u0435\u043b\u0456\u0441\u0442",
         "text2": "evangelist",
         "text3": "evangelista"
@@ -1389,6 +1384,11 @@ var wordJsonVar =
         "text": "\u0456\u0440\u0440\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456\u0441\u0442\u044c",
         "text2": "irrationality",
         "text3": "irracionalidad"
+    },
+    {
+        "text": "\u0456\u0441\u043a\u043e\u0440\u043a\u0430",
+        "text2": "sparkle",
+        "text3": "brillar"
     },
     {
         "text": "\u0456\u0441\u043a\u0440\u0430",
