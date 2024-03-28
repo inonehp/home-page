@@ -1,4 +1,4 @@
-// Keep or blog v.2.24.2
+// Keep or blog v.2.24.3
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -1970,12 +1970,12 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 }
 
-item = fuMHideFileNameExt(item);
+//item = fuMHideFileNameExt(item);
 
 if(item.indexOf(".htm") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||
-item.indexOf("/") != -1&&item.indexOf("index.htm") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " ") {
+item.indexOf("/") != -1&&item.indexOf("index.htm") != -1/*||item[0] == "/"&&item[1] != "/"&&item[1] != " "*/) {
 
-item = fuMHideFileNameExt(item);
+//item = fuMHideFileNameExt(item);
 
 embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" title="iframe"></iframe>`;
 }
@@ -1989,19 +1989,10 @@ embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" 
 
 var item222 = '';
 //if(item.search("http") != -1){
-if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " "){
+if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1/*||item[0] == "/"&&item[1] != "/"&&item[1] != " "*/){
 
 if(embedStatus == 'on'&&host != undefined){
-/*
-var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
-//var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
-//var ico = `https://api.faviconkit.com/${host[2]}/16`;
-ico = `<span class="ico2 op"><img src="${ico}" alt="icon"></span>`;
-if(confDataCollection != 'on'){
-ico = '🔗';
-if(confIconStatus != 'on'){ ico = '·'; }
-}
-*/
+
 item = item.trim();
 
 if(targetOption == 'blank'){
@@ -2023,11 +2014,11 @@ item222 = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 
 if(
 item[0] == '/'&&item.indexOf(".htm") != -1||item.indexOf("./") != -1&&item.indexOf(".htm") != -1&&item.indexOf("http") == -1||
-item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.indexOf(".php") != -1&&item.indexOf("http") == -1||
-item[0] == "/"&&item[1] != "/"&&item[1] != " "
+item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.indexOf(".php") != -1&&item.indexOf("http") == -1/*||
+item[0] == "/"&&item[1] != "/"&&item[1] != " "*/
 ){
 
-item = fuMHideFileNameExt(item);
+//item = fuMHideFileNameExt(item);
 
 if(targetOption == 'blank'){
 /*item = `<a href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
@@ -2487,9 +2478,9 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 }
 
-if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||item.indexOf("/") != -1&&item.indexOf("index.htm") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " ") {
+if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||item.indexOf("/") != -1&&item.indexOf("index.htm") != -1/*||item[0] == "/"&&item[1] != "/"&&item[1] != " "*/) {
 
-item = fuMHideFileNameExt(item);
+//item = fuMHideFileNameExt(item);
 
 embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" title="iframe"></iframe>`;
 }
@@ -2506,14 +2497,6 @@ embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" 
 if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1){
 checkText = false;
 if(embedStatus == 'on'&&host != undefined){
-/*var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
-//var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
-//var ico = `https://api.faviconkit.com/${host[2]}/16`;
-ico = `<span class="ico2 op"><img src="${ico}" alt="icon"></span>`;
-if(confDataCollection != 'on'){
-ico = `🔗`;
-if(confIconStatus != 'on'){ ico = '·'; }
-}*/
 
 item = item.trim();
 
@@ -2539,11 +2522,11 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 
 if(
 item[0] == '/'&&item.indexOf(".htm") != -1||item.indexOf("./") != -1&&item.indexOf(".htm") != -1&&item.indexOf("http") == -1||
-item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.indexOf(".php") != -1&&item.indexOf("http") == -1||
-item[0] == "/"&&item[1] != "/"&&item[1] != " "
+item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.indexOf(".php") != -1&&item.indexOf("http") == -1/*||
+item[0] == "/"&&item[1] != "/"&&item[1] != " "*/
 ){
 
-item = fuMHideFileNameExt(item);
+//item = fuMHideFileNameExt(item);
 
 if(targetOption == 'blank'){
 /*item = `<a href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
