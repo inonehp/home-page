@@ -122,7 +122,8 @@ result = result.join(`
 
 
 if(document.getElementById(printId) != null){
-document.getElementById(printId).innerText = result; 
+//document.getElementById(printId).innerText = result; 
+document.getElementById(printId).textContent = result; 
 }
 
 }

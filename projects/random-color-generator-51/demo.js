@@ -16,16 +16,17 @@ var geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
 
-try{ q = decodeURIComponent(q); }
-catch(err){ }
+
+/*try{ q = decodeURIComponent(q); }
+catch(err){ }*/
 
 
 if(q != null&&q != 'null'){
 
-
 if(document.getElementById('lTextarea') != null){
-document.getElementById('lTextarea').value = q;
+document.getElementById('lTextarea').value = (q);
 }
+
 }else{
 //https://en.wikipedia.org/wiki/Web_colors
 q = "transparent,white,silver,gray,black,red,maroon,yellow,olive,lime,green,aqua,teal,blue,navy,fuchsia,purple,violet,pink,navy,rebeccapurple";
@@ -37,6 +38,8 @@ lDemo(q);
 
 // for demo
 function lDemo(q){
+
+q = fuMClearText(q);
 
 var print = `
 result

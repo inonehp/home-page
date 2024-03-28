@@ -1,4 +1,4 @@
-// Todo v.2.7.0
+// Todo v.2.7.1
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -27,8 +27,8 @@ var targetOption = '';
 
 if(q != null){
 q = fuMClearText(q);
-q = q.replaceAll(/%/g, "%25");
-q = decodeURIComponent(q);
+/*q = q.replaceAll(/%/g, "%25");
+q = decodeURIComponent(q);*/
 q = fuMClearText(q);
 q = q.trim();
 }
@@ -630,7 +630,7 @@ if(com == 'edit'&&id == idPrint){
 
 editPrint = `<form><textarea id="textInputE" class="padding2" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${textPrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><tag class="block tCenter padding2 light borderList borderRadius2" style="cursor: pointer;" onclick="submitLinkEdit()">submit</tag></form>`;
 }else{
-//editPrint = `<span onclick="runDb('edit', '`+idPrint+`', '', '')">${textPrint}</span>`;
+//editPrint = `<span onclick="runDb('edit', '` + idPrint + `', '', '')">${textPrint}</span>`;
 editPrint = `${textPrintHighlight}`;
 }
 
@@ -640,7 +640,7 @@ editPrint = `${textPrintHighlight}`;
 let printTmp = '';
 if(statusPrint == 'done'){
 
-printTmp = `<!--<div class="op xSmall">${idPrint}</div>--><span><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '`+idPrint+`', '', 'undone')"></span>
+printTmp = `<!--<div class="op xSmall">${idPrint}</div>--><span><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '` + idPrint + `', '', 'undone')"></span>
 <div class="flexCenter"><div class="pre op block" style="text-decoration: line-through;">${editPrint}</div></div>`;
 
 }else{
@@ -671,8 +671,8 @@ printDaily = `
 
 ${printTmp}
 <div class="block tRight tagList">
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'undaily')" title="pin">p</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit">e</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '` + cursor.key + `', '', '', 'undaily')" title="pin">p</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '` + cursor.key + `')" title="edit">e</tag>
 </div>
 
 </div>
@@ -687,9 +687,9 @@ print = `
 
 ${printTmp}
 <div class="block tRight tagList">
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '`+cursor.key+`', '', '', 'daily')" title="pin">p</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '`+cursor.key+`')" title="edit">e</tag>
-<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="confirmCom('del', '`+cursor.key+`')" title="remove">x</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('daily', '` + cursor.key + `', '', '', 'daily')" title="pin">p</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="runDb('edit', '` + cursor.key + `')" title="edit">e</tag>
+<tag class="tag2 border borderRadius2 light3 op xSmall" style="cursor: pointer;" onclick="confirmCom('del', '` + cursor.key + `')" title="remove">x</tag>
 </div>
 
 </div>
@@ -736,7 +736,8 @@ var print33Tmp = `
 if(com == 'search'&&q != ''){
 
 // search start 1
-var qSearch = decodeURIComponent(q);
+//var qSearch = decodeURIComponent(q);
+var qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
 
 // rm last symbol if " l".
@@ -1184,19 +1185,20 @@ var host = item.split('/');
 
 //if(item.search("http") != -1){
 if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1){
+
 checkText = false;
 if(host != undefined){
 
-var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
+/*delme var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 ico = `<img class="ico2 op" src="${ico}" alt="icon">`;
-if(localStorage.getItem('confDataCollection') != 'on'){ ico = '🔗'; }
+if(localStorage.getItem('confDataCollection') != 'on'){ ico = '🔗'; }*/
 
 if(targetOption == 'blank'){
-item = `<a class="brand break2" target="_blank" href="${item}">${ico} ${item}</a>`;
+item = `<a class="brand break2 insertIcon" target="_blank" href="${item}">${item}</a>`;
 }else{
-item = `<a class="brand break2" href="${item}">${ico} ${item}</a>`;
+item = `<a class="brand break2 insertIcon" href="${item}">${item}</a>`;
 }
 
 }else{
@@ -1209,9 +1211,9 @@ if(item[0] == '/'||item[0] == '/'&&item.search(".htm") != -1||item.search("./") 
 
 if(targetOption == 'blank'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
-item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
+item = `<a class="brand insertIcon" target="_blank" href="${item}">${item}</a>`;
 }else{
-item = `<a class="brand" href="${item}">${item}</a>`;
+item = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 }
 
 }

@@ -111,21 +111,7 @@ var print = `
 
 `;
 
-// disable enter key
-//https://stackoverflow.com/questions/5629805/disabling-enter-key-for-form
-window.addEventListener('keydown',function(e){
 
-if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){
-start();
-e.preventDefault();
-return false;
-if(e.target.nodeName=='INPUT'&&e.target.type=='text'){
-e.preventDefault();
-return false;
-
-//}}},true
-}}}
-);
 
 
 
@@ -151,6 +137,7 @@ document.getElementById("number2").innerHTML = `
 <input id="number" class="tCenter" type="number" name="number" value="${answer[0]}" min="0" max="${mode[0]}">
 
 `;
+
 
 }
 
@@ -226,6 +213,23 @@ document.getElementById("range").value = answer[0];
 
 document.getElementById("result").innerHTML = print; 
 
+// disable enter key
+//https://stackoverflow.com/questions/5629805/disabling-enter-key-for-form
+//window.addEventListener('keydown',function(e){
+document.getElementById("number2").addEventListener('keydown',function(e){
+if(e.keyIdentifier=='U+000A'||e.keyIdentifier=='Enter'||e.keyCode==13){
+start();
+e.preventDefault();
+//return false;
+if(e.target.nodeName=='INPUT'&&e.target.type=='text'){
+e.preventDefault();
+//return false;
+
+//}}},true
+}}
+true;
+}
+);
 
 //https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
 modeSelect(mode[0]);
