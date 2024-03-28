@@ -58,11 +58,18 @@ project,
 <div id="all" class="padding3 light2 border height" style="margin: 2em auto;">
 
 
+
+
+<textarea rows="5" id="textareaPrint" class="result"  name="textareaPrint" placeholder=" input"></textarea>
+
+
+
+
 <form action="index.html" style="width: 100%;">
 
-<div id="result" class="result pre scroll"></div>
+<!--<div id="result" class="result pre scroll"></div>-->
 
-<textarea rows="1" id="text" class="result"  name="q" placeholder=" input" autofocus="autofocus"></textarea>
+<textarea rows="5" id="text" class="result"  name="q" placeholder=" input" autofocus="autofocus"></textarea>
 <input class="op x-small" type="submit">
 </form>
 
@@ -93,24 +100,30 @@ var q = url.searchParams.get("q");
 if(localStorage.getItem("qtranslit")){ q = localStorage.getItem("qtranslit"); }
 }*/
 
-q = decodeURI(q);
+//q = decodeURI(q);
 
 if(q != "null"){
-document.getElementById("result").innerHTML = (transliterate(q)); 
+
+document.getElementById("textareaPrint").value = (transliterate(q));
+
+if(document.querySelectorAll('textarea').length >= 1){
+document.querySelectorAll('textarea')[1].value = q;
+}
+
 }
 
 
 // input listener and print result
 if(document.querySelectorAll('textarea').length >= 1){
-var inputA = document.querySelectorAll('textarea')[0];
+var inputA = document.querySelectorAll('textarea')[1];
 inputA.addEventListener('input', updateValueInput);
 }
 
 function updateValueInput(e) {
 //q = encodeURIComponent(e.target.value);
 q = e.target.value;
-document.getElementById("result").innerHTML = (transliterate(q)) + '</span><span id="scrollTo"></span>';
-document.getElementById("scrollTo").scrollIntoView(true);
+document.getElementById("textareaPrint").value = (transliterate(q));
+//document.getElementById("scrollTo").scrollIntoView(true);
 
 }
 

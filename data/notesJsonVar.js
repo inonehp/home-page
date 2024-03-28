@@ -5,7 +5,7 @@ var notesJsonVar =
     {
         "id": "5",
         "text": "Displaying the result in JavaScript",
-        "text2": "document.getElementById(\"id\").innerHTML = 'Hello World!';\r\ndocument.getElementsByTagName(\"body\")[0].innerHTML = 'Hello World!';\r\ndocument.getElementsByClassName(\"className\")[0].innerHTML = 'Hello World!';\r\n[0] - first element\r\n\r\n\r\nSource:\r\nhttps:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/getElementById",
+        "text2": "document.getElementById(\"id\").innerHTML = 'Test';\r\ndocument.getElementsByTagName(\"body\")[0].innerHTML = 'Test';\r\ndocument.getElementsByClassName(\"className\")[0].innerHTML = 'Test;\r\n[0] - first element\r\n\r\n\r\nSource:\r\nhttps:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/getElementById",
         "text3": "",
         "url": "",
         "tag": "#code #JavaScript",

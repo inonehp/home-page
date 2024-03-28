@@ -4,8 +4,8 @@ var geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
 
-try{ q = decodeURIComponent(q); }
-catch(err){ }
+/*try{ q = decodeURIComponent(q); }
+catch(err){ }*/
 
 
 
@@ -28,7 +28,7 @@ var print = `
 
 <form action="index.html" style="width: 100%;">
 
-<textarea rows="1" id="text" class="result padding2"  name="q" placeholder=" input" autofocus="autofocus"></textarea>
+<textarea id="inputText" rows="1" id="text" class="result padding2"  name="q" placeholder=" input" autofocus="autofocus"></textarea>
 <input class="op small" type="submit">
 </form>
 
@@ -43,7 +43,16 @@ var print = `
 
 document.getElementById("result").innerHTML = print; 
 
-if(q != 'null'&&q != null&&q != ''){ q = lEncodeToBinary(q, 'result3'); }
+if(q != 'null'&&q != null&&q != ''){
+
+
+if(document.getElementById("inputText") != null){
+document.getElementById("inputText").value = q;
+}
+
+q = lEncodeToBinary(q, 'result3');
+
+}
 
 
 // input listener and print result
@@ -55,7 +64,7 @@ inputA.addEventListener('input', updateValueInput);
 function updateValueInput(e){
 //q = encodeURIComponent(e.target.value);
 q = e.target.value;
-document.getElementById("result2").innerHTML = '<div class="border-radius result pre scroll padding2 borderList bg">'+ (q).trim() +'</div><span id="scrollTo"></span>';
+//document.getElementById("result2").innerHTML = '<div class="border-radius result pre scroll padding2 borderList bg">'+ fuMClearText((q).trim()) +'</div><span id="scrollTo"></span>';
 //document.getElementById("scrollTo").scrollIntoView(true);
 
 

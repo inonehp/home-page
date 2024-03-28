@@ -161,8 +161,8 @@ sTimeRedir[2] = 1200; // lucky
 var q = url.searchParams.get("q");
 
 if(q != null&&q != undefined){
-q = q.replaceAll(/%/g, "%25");
-q = decodeURIComponent(q);
+/*q = q.replaceAll(/%/g, "%25");
+q = decodeURIComponent(q);*/
 q = q.trim();
 
 // script.js + project redirect
@@ -175,7 +175,7 @@ qHashtag.forEach((val) => {
 if(val.indexOf("q=") != -1){
 val = val.replace("q=", "");
 q = val;
-q = decodeURIComponent(q);
+//q = decodeURIComponent(q);
 }
 });
 }
@@ -184,8 +184,8 @@ q = decodeURIComponent(q);
 
 var hashtag = url.searchParams.get("tag");
 if(hashtag != null&&hashtag != undefined){
-hashtag = hashtag.replaceAll(/%/g, "%25");
-hashtag = decodeURIComponent(hashtag);
+/*hashtag = hashtag.replaceAll(/%/g, "%25");
+hashtag = decodeURIComponent(hashtag);*/
 q = "#" + hashtag.trim();
 }
 
@@ -193,8 +193,8 @@ q = "#" + hashtag.trim();
 var q2 = url.searchParams.get("q2");
 
 if(q2 != null&&q2 != undefined){
-q2 = q2.replaceAll(/%/g, "%25");
-q2 = decodeURIComponent(q2);
+/*q2 = q2.replaceAll(/%/g, "%25");
+q2 = decodeURIComponent(q2);*/
 q2 = q2.trim();
 }
 //if(q2 != null&&q2 != ''){ q += ' ' + q2; } // delme
@@ -203,8 +203,8 @@ q2 = q2.trim();
 
 var mode = url.searchParams.get("mode");
 if(mode != null){
-mode = mode.replaceAll(/%/g, "%25");
-mode = decodeURIComponent(mode);
+/*mode = mode.replaceAll(/%/g, "%25");
+mode = decodeURIComponent(mode);*/
 mode = mode.trim();
 }
 
@@ -227,8 +227,8 @@ window.location.href = window.location.href + '#stopRedir';
 
 var id = url.searchParams.get("id");
 if(id != null){
-id = id.replaceAll(/%/g, "%25");
-id = decodeURIComponent(id);
+/*id = id.replaceAll(/%/g, "%25");
+id = decodeURIComponent(id);*/
 mode = 'id';
 }
 
@@ -236,7 +236,7 @@ var getP = url.searchParams.get("p");
 if(getP != null){
 getP = getP.replaceAll(/%/g, "%25");
 getP = fuMClearText(getP);
-getP = Number(decodeURIComponent(getP));
+getP = Number((getP));
 
 if(getP >= jsonVar.length - 1){ getP = jsonVar.length; }
 if(getP < postLimit){ getP = 0; }
@@ -248,7 +248,7 @@ if(getP2 != null){
 getP2 = getP2.replaceAll(/%/g, "%25");
 getP2 = getP2.trim();
 getP2 = fuMClearText(getP2);
-getP2 = Number(decodeURIComponent(getP2));
+getP2 = Number((getP2));
 mode = 'idList';
 }
 
@@ -259,7 +259,7 @@ if(getP3 != null){
 getP3 = getP3.replaceAll(/%/g, "%25");
 getP3 = getP3.trim();
 getP3 = fuMClearText(getP3);
-getP3 = Number(decodeURIComponent(getP3));
+getP3 = Number((getP3));
 }
 
 if(getP == null){ getP = 0; }
@@ -417,7 +417,8 @@ var subQListFound = [];
 
 if(q != ''){
 
-qSearch = decodeURIComponent(q);
+//qSearch = decodeURIComponent(q);
+qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
 
 // rm last symbol if " l".
@@ -714,7 +715,8 @@ comMessagePrint = '';
 if(q != ''){
 
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
-qSearch = decodeURIComponent(q);
+//qSearch = decodeURIComponent(q);
+qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
 
 // rm last symbol if " l".
@@ -862,7 +864,8 @@ comMessagePrint = '';
 
 if(q != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
-qSearch = decodeURIComponent(q);
+//qSearch = decodeURIComponent(q);
+qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
 var qSearchList = (qSearch + ' ').split(' ');
 
@@ -992,7 +995,8 @@ var subQ = [];
 
 if(q != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
-qSearch = decodeURIComponent(q);
+//qSearch = decodeURIComponent(q);
+qSearch = (q);
 qSearch = (String(qSearch).toLowerCase()).trim();
 // rm last symbol if " l".
 if(q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){ qSearch = qSearch.slice(0, -2); }
@@ -1609,6 +1613,7 @@ var checkText = true;
 
 // light 1 highlightText
 function highlightText(text, targetOption, subQforLight){
+
 
 if(embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
 

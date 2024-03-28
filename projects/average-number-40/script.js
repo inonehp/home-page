@@ -3,18 +3,26 @@
 
 
 
+
+
+
 var geturl = window.location;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
 
-try{ q = decodeURIComponent(q); }
-catch(err){ }
+/*try{ q = decodeURIComponent(q); }
+catch(err){ }*/
 
-if(q != null){ q = fuAver(q); }
-
-
+if(q != null&&q != undefined){
 
 
+if(document.getElementById("text") != null){
+document.getElementById("text").value = q;
+}
+
+q = fuAver(q);
+
+}
 
 
 
@@ -24,15 +32,10 @@ if(q != null){ q = fuAver(q); }
 function fuAver(q33){
 q = q33;
 
-
-
-
-
 var qData = '';
 var counter = 0;
 var qDataProcessPrint = '';
 var qResult = 0; 
-
 
 var delimiter = [",", "+", " ", "\r\n", "\r", "\n"];
 delimiter.forEach( (value) => {
@@ -40,7 +43,6 @@ delimiter.forEach( (value) => {
 });
 
 //q = encodeURIComponent(e.target.value);
-
 
 // prepare for split 1
 q = q.replaceAll(" ", "|");

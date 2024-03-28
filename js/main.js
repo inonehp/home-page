@@ -1220,7 +1220,8 @@ text = text.replaceAll(">", '&gt;');
 text = text.replaceAll("`", '&#96;'); // Backtick
 text = text.replaceAll(/"/g, '&quot;');
 text = text.replaceAll(/'/g, '&apos;');
-text = text.replaceAll(/'/g, '&percnt;');
+text = text.replaceAll('%', '&percnt;');
+text = text.replaceAll("+", '&plus;');
 
 /*delme
 let symbol = "`";

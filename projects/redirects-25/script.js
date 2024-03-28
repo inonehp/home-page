@@ -1,5 +1,5 @@
-// Search redirects v.1.9.1
-// Mini google or search engine
+// Search redirects v.1.10.0
+// Mini google
 // The script redirects the search query + command to another location.
 
 // conf
@@ -15,9 +15,9 @@ var qr = url.searchParams.get("qr");
 var rq = url.searchParams.get("rq");
 if(rq != null){ qr = qr + rq; }
 if(qr != null){
-qr = qr.replaceAll(/%/g, "%25");
+/*qr = qr.replaceAll(/%/g, "%25");
 q = q.replaceAll('+', ' ');
-qr = decodeURIComponent(qr);
+qr = decodeURIComponent(qr);*/
 qr = qr.trim();
 
 q = qr;
@@ -37,7 +37,7 @@ location.href = location.href + '#!StopRedirect';
 //fuMHideFileNameExt(); //rmme
 rUrlGet = fuMHideFileNameExt(rUrlGet);*/
 
-var rUrlGet = String(location.href);
+rUrlGet = String(location.href);
 rUrlGet = (rUrlGet).split("rUrl=");
 rUrlGet = rUrlGet[1];
 rUrlGet = fuMHideFileNameExt(rUrlGet);
@@ -68,8 +68,8 @@ if(rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") =
 
 q = q.trim();
 //q = q.replace(/%([^\d].)/, "%25$1");
-q = q.replaceAll(/%/g, "%25");
-q = decodeURIComponent(q);
+/*q = q.replaceAll(/%/g, "%25");
+q = decodeURIComponent(q);*/
 
 
 
@@ -78,26 +78,11 @@ sTimeRedirect = 2000;
 rColor = 'orange';
 }
 
-let qHashtag = location.href;
-qHashtag = qHashtag.split("#")[1];
-if(qHashtag != undefined){
-qHashtag = (String(location.href)).split("?")[1];
-qHashtag = (qHashtag + "&").split("&");
-qHashtag.forEach((val) => {
-if(val.indexOf("q=") != -1){
-val = val.replace("q=", "");
-q = val;
-q = decodeURIComponent(q);
-}
-});
-
-}
-
 q = q.replaceAll('%23!StopRedirect', '');
 q = q.replaceAll('#!StopRedirect', '');
 
 // for the command at the end of the search query
-let qTmpNoPlus = q.replaceAll('+', ' ');
+let qTmpNoPlus = q.replaceAll('%23', '+', ' ');
 var strArray = qTmpNoPlus.split(" ");
 var qCom = strArray[strArray.length - 1] + "#";
 var q3 = q + "#";
@@ -763,6 +748,25 @@ sRedirectUrl = url;
 break;
 
 
+case 'test#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"#https://www.example.com/?q=" + q,
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+if(q == ''){
+urlList = [
+"https://www.example.com/",
+];
+random = Math.floor(Math.random() * urlList.length);
+url = urlList[random];
+}
+sRedirectUrl = url;
+break;
+
 case 'q#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -895,19 +899,21 @@ sTimeRedirectStatus = `<span class="small">Redirection (${com}): re-redirection 
 
 //if((rUrlGet).search("#!StopRedirect") != -1){
 
-rUrlGetPrint = decodeURIComponent(rUrlGet);
-rUrlGetPrint = fuMClearText(rUrlGetPrint);
+/*rUrlGetPrint = decodeURIComponent(rUrlGet);
+rUrlGetPrint = fuMClearText(rUrlGetPrint);*/
 
-rUrlGetPrint = rUrlGetPrint.replaceAll('#!StopRedirect', '');
-rUrlGet = decodeURIComponent(rUrlGet);
+rUrlGetPrint = fuMClearText(decodeURIComponent(rUrlGet).replaceAll('#!StopRedirect', ''));
+//rUrlGet = decodeURIComponent(rUrlGet);
 rUrlGet = rUrlGet.replaceAll('#!StopRedirect', '');
 rUrlGet = rUrlGet.replaceAll('%23!StopRedirect', '');
+
+let rUrlGetOpen = (rUrlGet);
 
 print = `
 
 <div class="tCenter bg border borderRadius2">
 <div class="margin padding3 bgList op">${sTimeRedirectStatus}</div>
-<div class="margin padding3 bgList border brand borderRadius2"><a class="inlineBlock padding brand" href="${rUrlGet}">${rUrlGetPrint}</a></div>
+<div class="margin padding3 bgList border brand borderRadius2"><a class="inlineBlock padding brand" href="${rUrlGetOpen}">${rUrlGetPrint}</a></div>
 </div>
 
 `;

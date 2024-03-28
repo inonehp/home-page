@@ -373,14 +373,14 @@ var letters = [...task];
 
 //task = decodeURIComponent(task); //Uncaught URIError: malformed URI sequence
 //https://stackoverflow.com/questions/17564837/how-to-know-if-a-url-is-decoded-encoded
-try{
+/*try{
 if(decodeURIComponent(letters) != letters){
 letters = decodeURIComponent(letters)
 }
 }
 catch(err){
 // not decoded
-}
+}*/
 
 if(mode == 'abc'){
 
@@ -496,14 +496,14 @@ letters = transliterate(letters);
 //letters = encodeURIComponent(letters); // error url
 
 //https://stackoverflow.com/questions/17564837/how-to-know-if-a-url-is-decoded-encoded
-try{
+/*try{
 if(encodeURIComponent(letters) != letters){
 letters = encodeURIComponent(letters)
 }
 }
 catch(err){
 // not decoded
-}
+}*/
 
 //https://www.charset.org/utf-8/66
 //Variation Selector
@@ -585,14 +585,14 @@ letters = letters.replaceAll(/%E2%81%A9/g, "");
 //letters = decodeURIComponent(letters); // error
 
 //https://stackoverflow.com/questions/17564837/how-to-know-if-a-url-is-decoded-encoded
-try{
+/*try{
 if(decodeURIComponent(letters) != letters){
 letters = decodeURIComponent(letters)
 }
 }
 catch(err){
 // not decoded
-}
+}*/
 
 letters = letters.replaceAll(/  /g, " ");
 //letters = letters.replace(/\r\n/g, "\n");
