@@ -1,4 +1,5 @@
 // Remove duplicates v.1.0.1
+// cp sorting
 
 // https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
 // uniq = [...new Set(array)];
@@ -80,7 +81,7 @@ result = result.replaceAll(' ', conf["confSymbolForSplit"]);
 result = result.split(conf["confSymbolForSplit"]);
 result = [...new Set(result)];
 //result.sort();
-//lNaturalSort(result);
+if(com2 == 'sort'){ lNaturalSort(result); }
 if(com2 == 'reverse'){ result.reverse(); }
 result = result.join(` `);
 break;
@@ -91,6 +92,7 @@ result = result.split(conf["confSymbolForSplit"]);
 result = [...new Set(result)];
 //result.sort();
 //lNaturalSort(result);
+if(com2 == 'sort'){ lNaturalSort(result); }
 if(com2 == 'reverse'){ result.reverse(); }
 result = result.join(`,`);
 break;
@@ -101,6 +103,7 @@ result = result.split(conf["confSymbolForSplit"]);
 result = [...new Set(result)];
 //result.sort();
 //lNaturalSort(result);
+if(com2 == 'sort'){ lNaturalSort(result); }
 if(com2 == 'reverse'){ result.reverse(); }
 result = result.join(`|`);
 break;
@@ -110,6 +113,7 @@ result = result.split("");
 result = [...new Set(result)];
 //result.sort();
 //lNaturalSort(result);
+if(com2 == 'sort'){ lNaturalSort(result); }
 if(com2 == 'reverse'){ result.reverse(); }
 result = result.join(``);
 break;
@@ -122,6 +126,7 @@ result = result.split(conf["confSymbolForSplit"]);
 result = [...new Set(result)];
 //result.sort();
 //lNaturalSort(result);
+if(com2 == 'sort'){ lNaturalSort(result); }
 if(com2 == 'reverse'){ result.reverse(); }
 result = result.join(`
 `);

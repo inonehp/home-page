@@ -52,7 +52,7 @@ tool, duplicates, remove, itmes, CSS, JavaScript, project,
 <main class="content">
 <div class="wrapper">
 
-<h1 class="tCenter op">Sorting itmes</h1>
+<h1 class="tCenter op">Remove duplicates</h1>
 <div class="tCenter padding2 small op">in progress</div>
 
 
@@ -80,11 +80,16 @@ tool, duplicates, remove, itmes, CSS, JavaScript, project,
 </select>
 
 <div class="margin"></div>
-<fieldset>
+<fieldset class="small">
 <legend class="block op tLeft xSmall">Sort:</legend>
 
 <div>
-<input type="radio" id="sort" name="com2" value="sort" checked>
+<input type="radio" id="notSelected" name="com2" value="not selected" checked>
+<label for="notSelected">not selected</label>
+</div>
+
+<div>
+<input type="radio" id="sort" name="com2" value="sort">
 <label for="sort">sort</label>
 </div>
 
@@ -97,7 +102,8 @@ tool, duplicates, remove, itmes, CSS, JavaScript, project,
 
 <div class="margin"></div>
 <label class="block op tLeft xSmall"><span class="bold orange">✪</span> Input text:</label>
-<textarea id="text" class="padding2" name="q" rows="4" cols="50">1. Test item
+<textarea id="text" class="padding2" name="q" rows="4" cols="50">3. Test item
+1. Test item
 1. Test item
 2. Test item</textarea>
 
