@@ -1973,7 +1973,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 item = fuMHideFileNameExt(item);
 
 if(item.indexOf(".htm") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||
-item.indexOf("/") != -1&&item.indexOf("index.htm") != -1||item[0] == "/"&&item[1] != " ") {
+item.indexOf("/") != -1&&item.indexOf("index.htm") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " ") {
 
 item = fuMHideFileNameExt(item);
 
@@ -1989,7 +1989,7 @@ embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" 
 
 var item222 = '';
 //if(item.search("http") != -1){
-if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1||item[0] == "/"&&item[1] != " "){
+if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " "){
 
 if(embedStatus == 'on'&&host != undefined){
 /*
@@ -2024,7 +2024,7 @@ item222 = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 if(
 item[0] == '/'&&item.indexOf(".htm") != -1||item.indexOf("./") != -1&&item.indexOf(".htm") != -1&&item.indexOf("http") == -1||
 item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.indexOf(".php") != -1&&item.indexOf("http") == -1||
-item[0] == "/"&&item[1] != " "
+item[0] == "/"&&item[1] != "/"&&item[1] != " "
 ){
 
 item = fuMHideFileNameExt(item);
@@ -2487,7 +2487,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 }
 
-if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||item.indexOf("/") != -1&&item.indexOf("index.htm") != -1||item[0] == "/"&&item[1] != " ") {
+if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||item.indexOf("/") != -1&&item.indexOf("index.htm") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " ") {
 
 item = fuMHideFileNameExt(item);
 
@@ -2540,7 +2540,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 if(
 item[0] == '/'&&item.indexOf(".htm") != -1||item.indexOf("./") != -1&&item.indexOf(".htm") != -1&&item.indexOf("http") == -1||
 item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.indexOf(".php") != -1&&item.indexOf("http") == -1||
-item[0] == "/"&&item[1] != " "
+item[0] == "/"&&item[1] != "/"&&item[1] != " "
 ){
 
 item = fuMHideFileNameExt(item);
