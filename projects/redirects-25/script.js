@@ -1,4 +1,4 @@
-// Search redirects v.1.10.0
+// Search redirects v.1.10.1
 // Mini google
 // The script redirects the search query + command to another location.
 
@@ -902,23 +902,26 @@ sTimeRedirectStatus = `<span class="small">Redirection (${com}): re-redirection 
 /*rUrlGetPrint = decodeURIComponent(rUrlGet);
 rUrlGetPrint = fuMClearText(rUrlGetPrint);*/
 
-rUrlGetPrint = fuMClearText(decodeURIComponent(rUrlGet).replaceAll('#!StopRedirect', ''));
+//rUrlGetPrint = fuMClearText(decodeURIComponent(rUrlGet).replaceAll('#!StopRedirect', ''));
 //rUrlGet = decodeURIComponent(rUrlGet);
 rUrlGet = rUrlGet.replaceAll('#!StopRedirect', '');
 rUrlGet = rUrlGet.replaceAll('%23!StopRedirect', '');
-
-let rUrlGetOpen = (rUrlGet);
 
 print = `
 
 <div class="tCenter bg border borderRadius2">
 <div class="margin padding3 bgList op">${sTimeRedirectStatus}</div>
-<div class="margin padding3 bgList border brand borderRadius2"><a class="inlineBlock padding brand" href="${rUrlGetOpen}">${rUrlGetPrint}</a></div>
+<div class="margin padding3 bgList border brand borderRadius2"><a class="inlineBlock padding brand" href="${rUrlGet}"><span id="printTextUrl"</a></div>
 </div>
 
 `;
 
+if(document.getElementById("result") != null){
 document.getElementById("result").innerHTML = print;
+}
+if(document.getElementById("printTextUrl") != null){
+document.getElementById("printTextUrl").textContent = decodeURIComponent(rUrlGet);
+}
 
 }
 

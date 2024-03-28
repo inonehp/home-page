@@ -1,4 +1,4 @@
-// Keep or blog v.2.24.1
+// Keep or blog v.2.24.2
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -317,7 +317,12 @@ ${lSlideShow}
 <!--<a href="/rss.xml">rss</a>-->
 </nav>
 
+<div class="wrapper">
+<div class="op tCenter small block padding2">
 <span id="comMsg"></span>
+</div>
+</div>
+
 <span id="postTotal"></span>
 
 `;
@@ -333,8 +338,8 @@ function main(){
 if(q != null){
 mode = 'search';
 
-q = fuMClearText(q);
-q2 = fuMClearText(q2);
+/*q = fuMClearText(q);
+q2 = fuMClearText(q2);*/
 
 let printTitle = q.slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerHTML;
 document.getElementsByTagName('title')[0].innerHTML = printTitle;
@@ -361,12 +366,13 @@ if(mode == 'randUrl'){ getP2 = Math.floor(Math.random() * jsonVar.length); }
 
 
 if(mode == 'list'&&tagListStatus == 'on'){
-print += `
+
+/*print += `
 <!--<div class="block tCenter padding2">
-com:${mode} id:${id} q:${q} p:${getP} p2:${getP2}
+mode:${mode} id:${id} q:${q} p:${getP} p2:${getP2}
 <a href="?id=">random</a>
 </div>-->
-`;
+`;*/
 }
 
 
@@ -539,7 +545,7 @@ total = i;
 subQListFound = [...new Set(subQListFound)];
 subQListFound = subQListFound.join(",");
 subQListFound = subQListFound.replaceAll(confSymbolForSplit, ' ');
-comMessagePrint = `<span class="bold">${q} (s1.2: ${subQListFound})</span> ${i}`;
+comMessagePrint = `${q} (s1.2: ${subQListFound}) ${i}`;
 comMessage = 'found';
 
 // collect for random
@@ -554,7 +560,7 @@ lFoundQUrlList.push(postUrl);
 
 
 
-if(comMessage != 'found') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h1">Probably not found</div>`; }
+if(comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
 break;
 // end search 1
 
@@ -594,7 +600,7 @@ i++;
 getP = key;
 }
 }
-if(comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h3">Probably not found</div>`; }
+if(comMessagePrint == '') { comMessagePrint = `${q} Probably not found`; }
 break;
 
 
@@ -808,7 +814,7 @@ i3++;
 i++;
 total = i;
 subQListFound = [...new Set(subQListFound)];
-comMessagePrint = `<span class="bold">${q} (s2: ${subQListFound})</span> ${i}`;
+comMessagePrint = `${q} (s2: ${subQListFound}) ${i}`;
 qData = '';
 checkFound = '';
 comMessage = 'found';
@@ -850,7 +856,7 @@ printPost = lRelevantResultArr.join("");
 
 
 
-if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h3">Probably not found</div>`; }
+if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
 // end Search 2
 
 
@@ -956,7 +962,7 @@ i3++;
 i++;
 total = i;
 let subQprint = subQ.slice(0, 7).join(", ") + ' ...';
-comMessagePrint = `<span class="bold">${q} (s3: ${subQprint})</span> ${i}`;
+comMessagePrint = `${q} (s3: ${subQprint}) ${i}`;
 qData = '';
 comMessage = 'found';
 checkDublicateId[0] = postId;
@@ -978,7 +984,7 @@ lFoundQUrlList.push(postUrl);
 }
 };
 
-if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h3">Probably not found</div>`; }
+if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
 // end search 3
 
 
@@ -1097,10 +1103,10 @@ symbolCounter++;
 
 });
 }
-if(comMessage == 'found'){ comMessagePrint = `${q} <span class="bold">(s4: ${subQ})</span> ${i}`; }
+if(comMessage == 'found'){ comMessagePrint = `${q} (s4: ${subQ}) ${i}`; }
 }
 
-if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h3">Probably not found</div>`; }
+if(mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
 // end search 4
 
 
@@ -1167,7 +1173,7 @@ if(tagListStatus != 'off'){
 
 
 
-//if(com != 'search'){ print += `<div class="${postClass}">`+blogNav(mode)+`</div>`; }
+//if(com != 'search'){ print += `<div class="${postClass}">`+ blogNav(mode) +`</div>`; }
 print += `<div class="center"><div class="wrapper zero">` + blogNav(mode) + `</div></div>`;
 
 
@@ -1193,7 +1199,7 @@ print += `
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
 <label id="search" class="op block tLeft xSmall padding1PxList" for="input">✪ Search:</label>
-<input id="input" type="search" name="q"  autocomplete="off" placeholder="" value="${q}">
+<input id="input" type="search" name="q"  autocomplete="off" placeholder="">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
 <input type="submit" value="search" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
@@ -1234,20 +1240,22 @@ comMessagePrint = `mode: ${mode} `+comMessagePrint;
 if(comMessagePrint != ''){
 if(document.getElementById('comMsg') != null){
 
-document.getElementById('comMsg').innerHTML += `
+document.getElementById('comMsg').textContent += `
 
-<div class="wrapper">
-<div class="op tCenter small block padding2">
 ${comMessagePrint}
-</div>
-</div>
-
 
 `;
 }
 
 }
 
+if(q != null&&document.getElementById("input") != null){
+document.getElementById("input").value = q;
+}
+
+if(q != null&&document.getElementById("navOptionQ") != null){
+document.getElementById("navOptionQ").value = q;
+}
 
 
 
@@ -2708,8 +2716,8 @@ switch (mode){
 case 'search':
 navMode = 'p3';
 
-navOption3 = `<input type="hidden" name="q" value="${q}">`;
-navOption2 = 'q='+encodeURIComponent(q)+"&";
+navOption3 = `<input id="navOptionQ" type="hidden" name="q" value="">`;
+navOption2 = 'q=' + encodeURIComponent(q) + "&";
 nav2Print = `
 <div class="tRight">
 <!--<a class="op border3List button light" href="?id=">random</a>-->
@@ -2739,7 +2747,7 @@ nav2Print = `
 <div class="block right tRight zero">
 <div class="tagList">
 <a class="op border3List borderRadius2 button light" href="#" onclick="history.back()">back</a>
-<a class="op border3List borderRadius2 button light" href="?p=`+Math.floor(getP)+`">list</a>
+<a class="op border3List borderRadius2 button light" href="?p=` + Math.floor(getP) + `">list</a>
 </div>
 </div>
 

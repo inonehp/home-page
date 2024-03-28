@@ -3,6 +3,15 @@ var notesJsonVar =
 
 [
     {
+        "id": "6",
+        "text": "Node: textContent property - Web APIs | MDN",
+        "text2": "document.getElementById(\"test\").textContent = \"test\";\r\ndocument.getElementById(\"test\").textContent = decodeURIComponent(\"test\");",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Node\/textContent",
+        "tag": "#code #JavaScript",
+        "time": 1711610799
+    },
+    {
         "id": "5",
         "text": "Displaying the result in JavaScript",
         "text2": "document.getElementById(\"id\").innerHTML = 'Test';\r\ndocument.getElementsByTagName(\"body\")[0].innerHTML = 'Test';\r\ndocument.getElementsByClassName(\"className\")[0].innerHTML = 'Test;\r\n[0] - first element\r\n\r\n\r\nSource:\r\nhttps:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/getElementById",

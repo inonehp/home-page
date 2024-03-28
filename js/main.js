@@ -1207,6 +1207,7 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 function fuMClearText(text){
 
 
+
 if(text != undefined){
 
 //text = text.replaceAll("'", '\'');
@@ -1222,13 +1223,6 @@ text = text.replaceAll(/"/g, '&quot;');
 text = text.replaceAll(/'/g, '&apos;');
 text = text.replaceAll('%', '&percnt;');
 text = text.replaceAll("+", '&plus;');
-
-/*delme
-let symbol = "`";
-let symbolArr = symbol.split("");
-symbolArr.forEach((val) => {
-text = text.replaceAll(val, '_');
-});*/
 
 return text;
 }
