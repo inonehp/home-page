@@ -483,7 +483,7 @@ i3++;
 i++;
 total = i;
 subQListFound = [...new Set(subQListFound)];
-comMessagePrint = `<span class="bold">${q} (s1.1: ${subQListFound})</span> ${i}`;
+comMessagePrint = `${q} (s1.1: ${subQListFound}) ${i}`;
 comMessage = 'found';
 
 // collect for random
