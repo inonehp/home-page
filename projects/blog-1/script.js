@@ -1484,7 +1484,7 @@ let hlClass = 'hlClass' + item;
 //item = item.toUpperCase();
 hlClassList += `
 
-<a id="${hlClass}" class="tag border borderRadius ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}">${item}</a>
+<a id="${hlClass}" class="bg tag border borderRadius ${hlClass}" onmouseover="hlwClassAdd('${hlClass}')" onmouseout="hlwClassRemove('${hlClass}')" href="#id${hlClass}">${item}</a>
 
 `;
 });

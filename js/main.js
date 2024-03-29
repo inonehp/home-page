@@ -1150,8 +1150,6 @@ return document.querySelectorAll("form")[index].action = newUrl;
 var allForm = document.querySelectorAll("iframe");
 allForm.forEach((item, index) => {
 
-
-
 if(item != ""){
 try{
 var url = new URL(item.src);
@@ -1166,9 +1164,7 @@ url, { method: "HEAD" }
 if (res.ok) {
 // empty
 }else{
-
 //console.log('404 not found ' + url);
-
 //console.log(newUrl);
 var arr = conf["confLinkExtList"].split(',');
 arr.forEach((element) => {
@@ -1181,13 +1177,7 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 
 }
 }catch(error){ console.log(error + ":" + item); }
-
 }
-
-
-
-
-
 
 });
 
@@ -1322,6 +1312,10 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 }
 // Embed scripts
+
+if(document.getElementsByClassName("stt")[0] != null){
+document.getElementsByClassName("stt")[0].innerHTML = 'Test';
+}
 
 
 

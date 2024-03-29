@@ -1,4 +1,4 @@
-/* Main style v.16.5.1
+/* Main style v.16.5.2
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -199,9 +199,9 @@ padding-top: calc(var(--padding) / 2);
 display: inline-block;
 padding: var(--padding);
 padding-left: 0;
-padding-right: calc(var(--padding) * 2);
+margin-right: calc(var(--padding) * 2);
 }
-.postFooter a:last-child { padding-right: 0; }
+.postFooter a:last-child, .postFooter2 a:last-child { margin-right: 0; }
 
 @media(max-width: 300px) { .postFooter { grid-template-columns: 1fr;} }
 

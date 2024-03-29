@@ -49,6 +49,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/archive\/pwa-test-21\/index.html",
+        "text": "pwa test\n\nTest PWA, PWA test. | pwa test: ",
+        "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
+        "id": "9cbb687ea1a7ef415d0c7c1ccebaa5e1",
+        "time": "id"
+    },
+    {
         "url": "\/blog.html",
         "text": "Blog\n\nBlog: reposts, likes and other. | blog: ",
         "tag": " #reposts #likes #post #blog #page #main",
@@ -522,13 +529,6 @@ var sitemapJsonVar = [
         "text": "print\n\nPrint - print function test. | print: ",
         "tag": " #empty",
         "id": "538c39d5fb633dd0ff8b888f9678fef8",
-        "time": "id"
-    },
-    {
-        "url": "\/projects\/pwa-test-21\/index.html",
-        "text": "pwa test\n\nTest PWA, PWA test. | pwa test: ",
-        "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
-        "id": "39a2c1845f9353f54376caebfeb40391",
         "time": "id"
     },
     {

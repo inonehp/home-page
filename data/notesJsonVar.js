@@ -3,6 +3,15 @@ var notesJsonVar =
 
 [
     {
+        "id": "9",
+        "text": "Web Design notes",
+        "text2": "- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n\r\nTools and links\r\nhttps:\/\/daringfireball.net\/projects\/markdown\/",
+        "text3": "",
+        "url": "",
+        "tag": "#WebDesign #notes",
+        "time": 1711727102
+    },
+    {
         "id": "8",
         "text": "Map - JavaScript | MDN",
         "text2": "myMap.forEach((value, key) => {\r\n  console.log(`${key} = ${value}`);\r\n});\r\n\/\/ 0 = zero\r\n\/\/ 1 = one",
