@@ -1235,13 +1235,6 @@ var radioJsonVar =
         "tag": "#radio #RadioMusic #AlternativeRock"
     },
     {
-        "text": "Sportsnet 590 The FAN, CJCL 590 AM, Toronto, Canada | Free Internet Radio | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/Sportsnet-590-The-FAN-s31210\/",
-        "tag": "#radio #sport"
-    },
-    {
         "text": "STAR FM Startseite | STAR FM",
         "text2": "https:\/\/starfm.streamabc.net\/30-alternativerock-mp3-192-8349543",
         "text3": "mp3",
@@ -1337,13 +1330,6 @@ var radioJsonVar =
         "text2": "http:\/\/voa-28.akacast.akamaistream.net\/7\/54\/322040\/v1\/ibb.akacast.akamaistream.net\/voa-28",
         "text3": "mp3",
         "url": "https:\/\/www.voanews.com\/",
-        "tag": "#radio #en"
-    },
-    {
-        "text": "VPM News",
-        "text2": "https:\/\/26303.live.streamtheworld.com\/WCVEFM.mp3",
-        "text3": "mp3",
-        "url": "https:\/\/www.vpm.org\/radio\/",
         "tag": "#radio #en"
     },
     {

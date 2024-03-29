@@ -1492,7 +1492,7 @@ hlClassList += `
 tagList = `
 
 <div class="center tCenter">
-<div class="wrapper3">
+<div class="wrapper2">
 
 <div class="op small padding2">list of tags:</div>
 <div class="tagList">` + tagList + `</div>
@@ -1973,14 +1973,15 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 
 //item = fuMHideFileNameExt(item);
 
+if(item[0] != ''&&item[1] != ''&&item[2] != ''){
 if(item.indexOf(".htm") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||
-item.indexOf("/") != -1&&item.indexOf("index.htm") != -1/*||item[0] == "/"&&item[1] != "/"&&item[1] != " "*/) {
+item.indexOf("/") != -1&&item.indexOf("index.htm") != -1/*||item[0] == "/"&&item[1] != "/"&&item[2] != " "*/) {
 
 //item = fuMHideFileNameExt(item);
 
 embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" title="iframe"></iframe>`;
 }
-
+}
 
 
 }
@@ -2016,7 +2017,7 @@ item222 = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 if(
 item[0] == '/'&&item.indexOf(".htm") != -1||item.indexOf("./") != -1&&item.indexOf(".htm") != -1&&item.indexOf("http") == -1||
 item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.indexOf(".php") != -1&&item.indexOf("http") == -1/*||
-item[0] == "/"&&item[1] != "/"&&item[1] != " "*/
+item[0] == "/"&&item[1] != "/"&&item[2] != " "*/
 ){
 
 //item = fuMHideFileNameExt(item);
@@ -2479,7 +2480,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 }
 
-if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||item.indexOf("/") != -1&&item.indexOf("index.htm") != -1/*||item[0] == "/"&&item[1] != "/"&&item[1] != " "*/) {
+if(item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||item.indexOf("/") != -1&&item.indexOf("index.htm") != -1/*||item[0] == "/"&&item[1] != "/"&&item[2] != " "*/) {
 
 //item = fuMHideFileNameExt(item);
 
@@ -2524,7 +2525,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 if(
 item[0] == '/'&&item.indexOf(".htm") != -1||item.indexOf("./") != -1&&item.indexOf(".htm") != -1&&item.indexOf("http") == -1||
 item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.indexOf(".php") != -1&&item.indexOf("http") == -1/*||
-item[0] == "/"&&item[1] != "/"&&item[1] != " "*/
+item[0] == "/"&&item[1] != "/"&&item[2] != " "*/
 ){
 
 //item = fuMHideFileNameExt(item);

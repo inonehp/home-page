@@ -1,4 +1,4 @@
-/* Main style v.16.5.0
+/* Main style v.16.5.1
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -281,7 +281,7 @@ margin-bottom: 1px;
 /* ico2 - for img */
 .ico, .ico2 {
 opacity: 0.9;
-margin-right: .5em;
+margin-right: 5px;
 text-align: center;
 display: inline-flex;
 justify-content: center;
