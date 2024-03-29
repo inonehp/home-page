@@ -158,9 +158,8 @@ data = data.concat(sitemapJsonVar, bookmarksJsonVar, blogJsonVar, articlesJsonVa
 
 
 </script>
-<div class="wrapper">
-<div id="echoBlog"></div>
-</div>
+<div id="printBlog"></div>
+
 
 
 </main>
@@ -210,21 +209,14 @@ let blogConfig = {
 "timeStatus":"off", // off
 };
 </script>
+
 <script>
-blog("echoBlog", data, 'post', './site-search.html', blogConfig);
+blog("printBlog", data, 'emptyClass', './site-search.html', blogConfig);
 </script>
 
 
 
-<script>
-/*
-//https://stackoverflow.com/questions/8893269/what-is-the-most-reliable-way-to-hide-spoof-the-referrer-in-javascript
-var meta = document.createElement('meta');
-meta.name = "referrer";
-meta.content = "no-referrer";
-document.getElementsByTagName('head')[0].appendChild(meta);
-*/
-</script>
+
 
 
 

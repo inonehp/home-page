@@ -7,9 +7,9 @@ main { text-align: center; }
 
 
 
-.classAnimation {
-background-color: var(--indigo);
-color: var(--l3);
+.effect, .effect:hover {
+background: var(--indigo);
+color: var(--rC4);
 }
 
 .lImg {
@@ -77,7 +77,7 @@ body { width: calc(100vw - 10vw); border: 1px solid silver } /* for bug with lin
 
 /***/
 
-h1 { color: rebeccapurple; }
+h1 { color: var(--violet); }
 
 /*nav, header, footer, .content {
 border: 1px solid var(--gray);
@@ -117,7 +117,7 @@ color: light-dark(#000, #fff);
 
 .test {
 display: block;
-background: #C296E4;
+background: var(--orange);
 height: 5lh;
 width: 5lh;
 margin: 15px;
@@ -181,7 +181,7 @@ writing-mode: vertical-rl;
 text-orientation: upright;
 direction: ltr;
 overflow: hidden;
-color: #377783;
+color: var(--blue);
 font-weight: bold;
 }
 

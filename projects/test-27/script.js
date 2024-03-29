@@ -35,23 +35,23 @@ clientHeight: ${document.documentElement.clientHeight}<br>
 
 // start animation div when scrolling
 if(document.documentElement.scrollTop >= document.getElementById('divIdForAnimation').offsetTop - ((document.documentElement.clientHeight) / 2)){
-document.getElementById("divIdForAnimation").classList.add("classAnimation");
+document.getElementById("divIdForAnimation").classList.add("effect");
 }else{
-document.getElementById("divIdForAnimation").classList.remove("classAnimation");
+document.getElementById("divIdForAnimation").classList.remove("effect");
 }
 
 
 if(document.documentElement.scrollTop >= document.getElementById('divIdForAnimation2').offsetTop - ((document.documentElement.clientHeight) / 2)){
-document.getElementById("divIdForAnimation2").classList.add("classAnimation");
+document.getElementById("divIdForAnimation2").classList.add("effect");
 }else{
-document.getElementById("divIdForAnimation2").classList.remove("classAnimation");
+document.getElementById("divIdForAnimation2").classList.remove("effect");
 }
 
 
 if(document.documentElement.scrollTop >= document.getElementById('divIdForAnimation3').offsetTop - ((document.documentElement.clientHeight) / 2)){
-document.getElementById("divIdForAnimation3").classList.add("classAnimation");
+document.getElementById("divIdForAnimation3").classList.add("effect");
 }else{
-document.getElementById("divIdForAnimation3").classList.remove("classAnimation");
+document.getElementById("divIdForAnimation3").classList.remove("effect");
 }
 
 

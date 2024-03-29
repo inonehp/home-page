@@ -1,4 +1,4 @@
-// Keep or blog v.2.24.3
+// Keep or blog v.2.25.0
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -15,13 +15,15 @@ let blogConfig = {
 "tagListStatus":"", // off
 "tagListLimit":"", // number
 "targetOption":"", // blank
-"bottomMsg":"", // text
+"bottomMsg":`
+<!-- bottom text -->
+`, // text
 "display":"", // gallery - grid, article - <div class="h1">text</div>, all - shows everything: text, text2, text3
 "timeStatus":"", // off, disable post time (post id)
 };
 </script>*/
 
-function blog(printId, jsonVar, postClass, scriptDir, blogConfig){
+function blog(printId, jsonVar, otherClass, scriptDir, blogConfig){
 
 
 
@@ -57,7 +59,7 @@ var host = '';
 printId - div id where print blog
 jsonVar - json in JavaSript variable
 // other
-postClass - CSS class name post
+otherClass - CSS class name post
 embedStatus - if off, not showing embed
 tagListStatus - if off, not showing tags and navigation, only posts
 postLimit - how many post showing on page
@@ -72,7 +74,7 @@ timeStatus - If off, without post time.
 
 // default value
 if(postLimit == undefined||postLimit == ''){ postLimit = 10; }
-if(postClass == undefined||postClass == ''){ postClass = ' post '; }
+if(otherClass == undefined||otherClass == ''){ otherClass = ' '; }
 if(scriptDir == undefined||scriptDir == ''){ scriptDir = './'; }
 if(embedStatus == undefined||embedStatus == ''){ embedStatus = 'on'; }
 if(multiEmbedStatus == undefined||multiEmbedStatus == ''){ multiEmbedStatus = 'off'; }
@@ -1173,7 +1175,7 @@ if(tagListStatus != 'off'){
 
 
 
-//if(com != 'search'){ print += `<div class="${postClass}">`+ blogNav(mode) +`</div>`; }
+//if(com != 'search'){ print += `<div class=" ${otherClass} ">`+ blogNav(mode) +`</div>`; }
 print += `<div class="center"><div class="wrapper zero">` + blogNav(mode) + `</div></div>`;
 
 
@@ -1218,7 +1220,7 @@ print += `
 
 </div>
 
-<div class=" ${postClass} ">${bottomMsg}</div>
+<div class=" ${otherClass} ">${bottomMsg}</div>
 
 `;
 
@@ -1506,7 +1508,6 @@ ${hlClassList}
 </div>
 </div>
 
-
 `;
 
 
@@ -1581,7 +1582,7 @@ if(display == 'article'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag 
 return `
 
 <!-- post -->
-<div class="` + postClass + ` bgList border3List borderRadius2 padding3" id="` + id + `">
+<div class="` + otherClass + ` post bgList border3List borderRadius2 padding3" id="` + id + `">
 
 <div class="padding2List bold capitalize"><a href="/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>
 
@@ -2772,6 +2773,7 @@ return `
 
 
 <style>
+
 .galleryBlogNav {
 display: grid;
 grid-template-columns: 1fr minmax(70px, 20%) 1fr;

@@ -54,9 +54,7 @@ blog, post, JavaScript, page, project,
 <main class="content">
 <h1 class="block tCenter op">Blog</h1>
 
-<div class="wrapper">
-<div id="echoBlog"></div>
-</div>
+<div id="printBlog"></div>
 
 </main>
 
@@ -100,18 +98,19 @@ var jsonVar =
 <script>
 // fresh config in script.js
 let blogConfig = {
-"postLimit":"5", // number
-"embedStatus":"", // off
+"postLimit":"", // number
+"embedStatus":"", // off, not list,
 "multiEmbedStatus":"", // on
 "tagListStatus":"", // off
 "tagListLimit":"", // number
 "targetOption":"", // blank
 "bottomMsg":"", // text
-"display":"", // grid (for img link), article (text - title, text2 - text)
+"display":"", // gallery - grid, article - <div class="h1">text</div>, all - shows everything: text, text2, text3
 "timeStatus":"", // off, disable post time (post id)
 };
 </script>
-<script async src="script.js" onload="blog('echoBlog', blogJsonVar, 'post', './', blogConfig)"></script>
+
+<script async src="script.js" onload="blog('printBlog', blogJsonVar, 'wrapper', './', blogConfig)"></script>
 <!-- / Blog -->
 
 </body>

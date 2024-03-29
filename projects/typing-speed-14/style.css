@@ -29,18 +29,20 @@ white-space: nowrap;*/
 max-height: 3em;
 overflow-x: hidden;
 overflow-y: auto;
-scroll-padding-top: 1em;
+width: 100%;
 }
 
-#lPrintTr, #lPrintTr a{
-font-size: 120%;
-font-size: 1.3em;
-font-size: medium;
-
-}
 #lPrintTr {
-padding: 3px 9px;
+padding: 9px 9px;
 border-top: 7px solid var(--d2);
+
+display: flex;
+min-width: 100%;
+justify-content: start;
+align-content: center;
+margin: 0 auto;
+text-wrap: balance;
+text-align: left;
 }
 
 

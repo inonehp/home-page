@@ -160,6 +160,7 @@ td { padding: 5px; }
 /* use with .postContent (wrapper) */
 /*display: block;*/
 width: 100%;
+max-width: 100%;
 margin: 0 auto;
 overflow: auto;
 padding: var(--padding3);

@@ -142,9 +142,7 @@ var blogJsonVar =
 }
 </script>
 
-<div class="wrapper">
-<div id="echoBlog"></div>
-</div>
+<div id="printBlog"></div>
 
 <noscript>
 
@@ -564,14 +562,14 @@ let blogConfig = {
 "tagListLimit":"", // number
 "targetOption":"", // blank
 "bottomMsg":`
-<a class="block tCenter xSmall" href="/rss.xml" title="RSS News">RSS (possibly from a blog and links)</a>
+<!-- msg -->
 `, // bottom msg
 "display":"", // grid
 "timeStatus":"", // off, disable post time
 };
 </script>
 
-<script src="./projects/blog-1/script.js" onload="blog('echoBlog', bookmarksJsonVar, 'post', './links.html', blogConfig)"></script>
+<script src="./projects/blog-1/script.js" onload="blog('printBlog', bookmarksJsonVar, 'wrapper', './links.html', blogConfig)"></script>
 <script></script>
 
 
