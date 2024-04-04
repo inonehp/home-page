@@ -171,6 +171,11 @@ var wordJsonVar =
         "text3": "autocompletar"
     },
     {
+        "text": "\u0430\u0432\u0442\u043e\u0437\u0430\u0441\u043c\u0430\u0433\u0430",
+        "text2": "self tanning",
+        "text3": "autobronceado"
+    },
+    {
         "text": "\u0430\u0432\u0442\u043e\u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043d\u043d\u044f",
         "text2": "autosave",
         "text3": "guardar autom\u00e1ticamente"
@@ -423,11 +428,6 @@ var wordJsonVar =
     {
         "text": "\u0430\u0434\u043c\u0456\u043d",
         "text2": "admin",
-        "text3": "administrador"
-    },
-    {
-        "text": "\u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
-        "text2": "administrator",
         "text3": "administrador"
     },
     {

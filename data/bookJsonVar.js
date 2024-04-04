@@ -7,6 +7,8 @@ var bookJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.gutenberg.org\/ebooks\/74",
-        "tag": "#book"
+        "tag": "#book",
+        "time": 1706688156,
+        "rightFooter": ""
     }
 ]

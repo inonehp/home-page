@@ -9,7 +9,8 @@ var quizJsonVar =
         "text3": "<head>|||true|||\r\n___\r\n<title>|||true|||\r\n___\r\n<body>|||true|||\r\n___\r\n<header>|||true|||\r\n___\r\n<footer>|||true|||\r\n___\r\n<article>|||true|||\r\n___\r\n<section>|||true|||\r\n___\r\n<p>|||true|||\r\n___\r\n<div>|||true|||\r\n___\r\n<span>|||true|||\r\n___\r\n<img>|||true|||\r\n___\r\n<audio>|||true|||\r\n___\r\n<nav>|||true|||\r\n___\r\n<progress>|||true|||\r\n___\r\n<video>|||true|||\r\n___\r\n<ul>|||true|||\r\n___\r\n<ol>|||true|||\r\n___\r\n<li>|||true|||\r\n___\r\n<ol>|||true|||\r\n___\r\n\r\n<div>|||true|||\r\n___\r\n<span>|||true|||\r\n___\r\n<em>|||true|||\r\n___\r\n<b>|||true|||\r\n___\r\n<h1>|||true|||\r\n___\r\n\r\n<hamburger>|||false|||\r\n___\r\n<bento>|||false|||\r\n___\r\n<line>|||false|||\r\n___\r\n<submenu>|||false|||\r\n___\r\n<navigation>|||false|||\r\n___",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML",
         "tag": "#code #HTML",
-        "time": 1705327621
+        "time": 1705327621,
+        "rightFooter": ""
     },
     {
         "id": "11",
@@ -18,7 +19,8 @@ var quizJsonVar =
         "text3": "<br>|||true|||\r\n___\r\n<div>|||false|||\r\n___\r\n<break>|||false|||\r\n___\r\n<span>|||false|||\r\n___\r\n<em>|||false|||\r\n___\r\n<b>|||false|||\r\n___\r\n<h1>|||false|||\r\n___\r\n<ul>|||false|||\r\n___",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Element\/br",
         "tag": "#code #HTML",
-        "time": 1705322448
+        "time": 1705322448,
+        "rightFooter": ""
     },
     {
         "id": "10",
@@ -27,7 +29,8 @@ var quizJsonVar =
         "text3": "Mercury|||false|||\r\n___\r\nVenus|||false|||\r\n___\r\nEarth|||false|||\r\n___\r\nMars|||false|||\r\n___\r\nJupiter|||false|||\r\n___\r\nSaturn|||false|||\r\n___\r\nUranus|||false|||\r\n___\r\nNeptune|||true|||\r\n___",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Neptune",
         "tag": "#science #space",
-        "time": 1701878818
+        "time": 1701878818,
+        "rightFooter": ""
     },
     {
         "id": "9",
@@ -36,7 +39,8 @@ var quizJsonVar =
         "text3": "Mercury|||false|||\r\n___\r\nVenus|||false|||\r\n___\r\nEarth|||false|||\r\n___\r\nMars|||false|||\r\n___\r\nJupiter|||false|||\r\n___\r\nSaturn|||false|||\r\n___\r\nUranus|||true|||\r\n___\r\nNeptune|||false|||\r\n___",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Uranus",
         "tag": "#science #space",
-        "time": 1701878658
+        "time": 1701878658,
+        "rightFooter": ""
     },
     {
         "id": "8",
@@ -45,7 +49,8 @@ var quizJsonVar =
         "text3": "Mercury|||false|||\r\n___\r\nVenus|||false|||\r\n___\r\nEarth|||false|||\r\n___\r\nMars|||false|||\r\n___\r\nJupiter|||false|||\r\n___\r\nSaturn|||true|||\r\n___\r\nUranus|||false|||\r\n___\r\nNeptune|||false|||\r\n___",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Saturn",
         "tag": "#science #space",
-        "time": 1701878494
+        "time": 1701878494,
+        "rightFooter": ""
     },
     {
         "id": "7",
@@ -54,7 +59,8 @@ var quizJsonVar =
         "text3": "Mercury|||false|||\r\n___\r\nVenus|||false|||\r\n___\r\nEarth|||false|||\r\n___\r\nMars|||true|||\r\n___\r\nJupiter|||false|||\r\n___\r\nSaturn|||false|||\r\n___\r\nUranus|||false|||\r\n___\r\nNeptune|||false|||\r\n___",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Mars",
         "tag": "#science #space",
-        "time": 1701878365
+        "time": 1701878365,
+        "rightFooter": ""
     },
     {
         "id": "6",
@@ -63,7 +69,8 @@ var quizJsonVar =
         "text3": "Mercury|||false|||\r\n___\r\nVenus|||false|||\r\n___\r\nEarth|||true|||\r\n___\r\nMars|||false|||\r\n___\r\nJupiter|||false|||\r\n___\r\nSaturn|||false|||\r\n___\r\nUranus|||false|||\r\n___\r\nNeptune|||false|||\r\n___",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Earth",
         "tag": "#science #space",
-        "time": 1701878056
+        "time": 1701878056,
+        "rightFooter": ""
     },
     {
         "id": "5",
@@ -72,7 +79,8 @@ var quizJsonVar =
         "text3": "Mercury|||false|||\r\n___\r\nVenus|||true|||\r\n___\r\nEarth|||false|||\r\n___\r\nMars|||false|||\r\n___\r\nJupiter|||false|||\r\n___\r\nSaturn|||false|||\r\n___\r\nUranus|||false|||\r\n___\r\nNeptune|||false|||\r\n___",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Venus",
         "tag": "#science #space",
-        "time": 1701877936
+        "time": 1701877936,
+        "rightFooter": ""
     },
     {
         "id": "4",
@@ -81,7 +89,8 @@ var quizJsonVar =
         "text3": "Hello, World!|||true|||\r\n___\r\n\"Hello, World!\"|||false|||\r\n___\r\nHello,|||false|||\r\n___\r\nWorld!|||false|||\r\n___\r\n(\"Hello, World!\")|||false|||\r\n___",
         "url": "https:\/\/en.wikipedia.org\/wiki\/JavaScript#Simple_examples",
         "tag": "#code #JavaScript",
-        "time": 1699841390
+        "time": 1699841390,
+        "rightFooter": ""
     },
     {
         "id": "3",
@@ -90,7 +99,8 @@ var quizJsonVar =
         "text3": "Mercury|||true|||\r\n___\r\nVenus|||false|||\r\n___\r\nEarth|||false|||\r\n___\r\nMars|||false|||\r\n___\r\nJupiter|||false|||\r\n___\r\nSaturn|||false|||\r\n___\r\nUranus|||false|||\r\n___\r\nNeptune|||false|||\r\n___",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Mercury_(planet)",
         "tag": "#science #space",
-        "time": 1698648781
+        "time": 1698648781,
+        "rightFooter": ""
     },
     {
         "id": "2",
@@ -99,7 +109,8 @@ var quizJsonVar =
         "text3": "Mercury|||true|||\r\n___\r\nVenus|||true|||\r\n___\r\nEarth|||true|||\r\n___\r\nMars|||true|||\r\n___\r\nJupiter|||true|||\r\n___\r\nSaturn|||true|||\r\n___\r\nUranus|||true|||\r\n___\r\nNeptune|||true|||\r\n___\r\nArrakis|||false|||\r\n___\r\nCoruscant|||false|||\r\n___\r\nKrypton|||false|||\r\n___\r\nQward|||false|||\r\n___\r\nSkaro|||false|||\r\n___\r\nXandar|||false|||\r\n___",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Solar_System",
         "tag": "#science #space",
-        "time": 1698648127
+        "time": 1698648127,
+        "rightFooter": ""
     },
     {
         "id": "1",
@@ -108,6 +119,7 @@ var quizJsonVar =
         "text3": "Mercury|||false|||\r\n___\r\nVenus|||false|||\r\n___\r\nEarth|||false|||\r\n___\r\nMars|||false|||\r\n___\r\nJupiter|||true|||\r\n___\r\nSaturn|||false|||\r\n___\r\nUranus|||false|||\r\n___\r\nNeptune|||false|||\r\n___",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Jupiter",
         "tag": "#science #space",
-        "time": 1698641297
+        "time": 1698641297,
+        "rightFooter": ""
     }
 ]

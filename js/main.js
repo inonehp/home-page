@@ -1,4 +1,4 @@
-// Main js v.6.5.6
+// Main js v.6.5.7
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -113,9 +113,9 @@ This is necessary to improve the site.
 confData.forEach((val) => {
 conf[val.confName] = localStorage.getItem(val.confName);
 
-if(conf[val.confName] == null||conf[val.confName] == undefined){
+if (conf[val.confName] == null||conf[val.confName] == undefined){
 // enable hide ext / main.js, settings page
-/*delme if(String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
+/*delme if (String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
 val.confValueDefault = 'on';
 }*/
 
@@ -127,28 +127,28 @@ conf[val.confName] = val.confValueDefault;
 // generate var: conf['confName'];
 
 // domain name in titile
-if(conf["confDomainNameInTitleStatus"] == 'on'&&String(window.location.pathname) != "/"){
-if(document.getElementsByTagName('title')[0] != null){
+if (conf["confDomainNameInTitleStatus"] == 'on'&&String(window.location.pathname) != "/"){
+if (document.getElementsByTagName('title')[0] != null){
 document.getElementsByTagName('title')[0].innerHTML += conf["confDomainNameInTitle"];
 }
 }
 
 // css color fix if save page
-if(String(window.location.href).slice(0, 4) != 'http'){
+if (String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
 }
 
 
 function fuMPrintText(id, text, option){
-if(document.getElementById(id) != null){
-if(option == 'plus'||option == '+'){
+if (document.getElementById(id) != null){
+if (option == 'plus'||option == '+'){
 document.getElementById(id).innerHTML += text;
-}else if(option == 'plutTop'||option == 'top'){
+} else if (option == 'plutTop'||option == 'top'){
 document.getElementById(id).innerHTML = text + document.getElementById(id).innerHTML;
-}else{
+} else {
 document.getElementById(id).innerHTML = text;
 }
-}else{
+} else {
 // console.log(id+' not fount');
 }
 }
@@ -169,32 +169,34 @@ conf["confMenuItems"] = [
 //{"url":"/lists.html", "name":"All", "title":"Lists"},
 ];
 
-
 conf["confMenuItems2"] = '';
 conf["confMenuItems"].forEach((item, index) => {
 
-if((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem active2 borderBottomBrand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a> `;
-}else{
-conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a> `;
+if ((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
+conf["confMenuItems2"] += `<a class="countMenuItem active2 borderBottomBrand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>
+`;
+} else {
+conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>
+`;
 }
 });
 
-conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>`;
+conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
+`;
 
 
 //<!-- nav HTML part -->
-if(conf["confMenu"] == "random"){
-if(fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
+if (conf["confMenu"] == "random"){
+if (fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
 }
 
-if(conf["confMenu"] == "on"){
+if (conf["confMenu"] == "on"){
 
 
 //if(document.getElementsByTagName("header")[0] != null){
 //document.getElementsByTagName("header")[0].innerHTML = `
 
-if(document.getElementById("secondNav") != null){
+if (document.getElementById("secondNav") != null){
 document.getElementById("secondNav").innerHTML = `
 
 <!-- Nav v.1.2.0 -->
@@ -283,7 +285,7 @@ var countMenuItem = document.querySelectorAll('.countMenuItem');
 //if((countMenuItem.length / 2) >= 4){}
 //if(document.getElementById("footer") != null){}
 //fuMPrintText('footer', ``, '+');
-if(document.getElementsByTagName("nav")[0] != null){ // not body, id not found
+if (document.getElementsByTagName("nav")[0] != null){ // not body, id not found
 
 /*var cssMedia = '@media(max-width: 500px)';
 var cssMedia2 = '@media(min-width: 500px)';
@@ -304,7 +306,7 @@ var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
 // fix // hide, wrapper limit
 
-if((mNavWhenDropdownWidth) >= conf["confWrapperNavWidth"]){
+if ((mNavWhenDropdownWidth) >= conf["confWrapperNavWidth"]){
 cssMedia = '@media(width >= 1px)';
 // cancel
 cssMedia2 = `@media(width <= 0px)`; 
@@ -364,7 +366,7 @@ fDescArr = fuMSort(fDescArr, "", "arr");
 fDescTags = '';
 var fDescTagsLimitCounter = 0;
 fDescArr.forEach((tag) => {
-if((tag.trim()) != ''&&fDescTagsLimitCounter <= fDescTagsLimit){
+if ((tag.trim()) != ''&&fDescTagsLimitCounter <= fDescTagsLimit){
 tag = tag.trim();
 tag = tag.replaceAll(" ", "_");
 fDescTags += `<a class="tag brand light border2 borderRadius2" href="/site-search.html?tag=${tag}">#${tag}</a> `;
@@ -377,15 +379,15 @@ fDescTags = `
 <br><b class="block padding2List small">Tags (keywords):</b><div class="tagList small left">` + fDescTags + '</div>';
 }
 
-if(document.getElementsByName("description")[0] != null){
+if (document.getElementsByName("description")[0] != null){
 fDescLength = document.getElementsByName("description")[0].content.length;
 fDesc = `<b class="block padding2List small">Description or summary:</b>` + document.getElementsByName("description")[0].content.trim() + fDescTags;
 
-if(fDescLength > 160){
+if (fDescLength > 160){
 fDescTitle = `<span class="inlineBlock borderBottomRed xSmall">Description: ${fDescLength} of 160</span>`;
-}else if(fDescLength < 25){
+} else if (fDescLength < 25){
 fDescTitle = `<span class="inlineBlock borderBottomOrange xSmall">Description: <span class="xSmall">${fDescLength} of 160</span>`;
-}else{
+} else {
 fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall">${fDescLength} of 160</span>`;
 }
 }
@@ -459,9 +461,9 @@ conf["confDevice"] = 'none';
 /*if(conf["confDataCollection"] != 'on'){
 conf["confDevice"] = '(disabled, privacy)';
 }else{}*/
-if(navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ conf["confDevice"] = 'mobile';  }
-if(navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ conf["confDevice"] = 'tv';  }
-if(conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
+if (navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ conf["confDevice"] = 'mobile';  }
+if (navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ conf["confDevice"] = 'tv';  }
+if (conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
 
 
 
@@ -470,10 +472,10 @@ if(conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
 
 // Themes changer v.1.2.0
 theme = conf["confTheme"];
-if(conf["confTheme"] == null||theme == undefined||theme == 'auto'){
+if (conf["confTheme"] == null||theme == undefined||theme == 'auto'){
 theme = "auto";
 
-if(window.matchMedia &&window.matchMedia('(prefers-contrast: more)').matches == true){
+if (window.matchMedia &&window.matchMedia('(prefers-contrast: more)').matches == true){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 theme = 'h-contrast-d'; }
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
@@ -493,9 +495,9 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matc
 //<meta name="theme-color" content="#317EFB"/>
 var meta = document.createElement('meta');
 meta.name = "theme-color";
-if(conf["confDeviceTheme"] == 'dark'){
+if (conf["confDeviceTheme"] == 'dark'){
 meta.content = "red";
-}else{
+} else {
 meta.content = "#F0F0F0";
 }
 document.getElementsByTagName('head')[0].appendChild(meta);
@@ -504,7 +506,7 @@ document.getElementsByTagName('head')[0].appendChild(meta);
 // insert color-theme.css in header
 function fuMPrintTheme(theme){
 
-if(document.getElementById('theme') != null){
+if (document.getElementById('theme') != null){
 
 //https://stackoverflow.com/questions/36641137/how-exactly-does-link-rel-preload-work
 let cssEmbed = document.createElement("link");
@@ -518,7 +520,7 @@ document.getElementById('theme').href = '/css/' + theme + '.css';
 
 
 // print theme mode and name in footer
-if(document.getElementById('fTheme') != null){
+if (document.getElementById('fTheme') != null){
 document.getElementById("fTheme").text = conf["confTheme"] + ' (' + theme + ')';
 }
 
@@ -527,13 +529,13 @@ fuMThemeEmbed();
 fuMBg();
 
 // fix
-if(conf["confThemeEmbed"] == 'dark'){
+if (conf["confThemeEmbed"] == 'dark'){
 fuMPrintText('style', `
 <style>
 .reduceLight { filter: brightness(70%); }
 </style>
 `, 'plus');
-}else{
+} else {
 fuMPrintText('style', `
 <style>
 .reduceLight { filter: brightness(100%); }
@@ -703,7 +705,7 @@ function themeAuto(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 conf["confRealTmpTheme"] = 'dark';
 fuMPrintTheme(conf["confRealTmpTheme"]);
-}else{
+} else {
 conf["confRealTmpTheme"] = 'light';
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
@@ -713,7 +715,7 @@ function themeAutoHContrast(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 conf["confRealTmpTheme"] = 'h-contrast-d';
 fuMPrintTheme(conf["confRealTmpTheme"]);
-}else{
+} else {
 conf["confRealTmpTheme"] = 'h-contrast-l';
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
@@ -723,7 +725,7 @@ function themeAutoRandom(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 conf["confRealTmpTheme"] = themeListDark[Math.floor(Math.random()*themeListDark.length)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
-}else{
+} else {
 conf["confRealTmpTheme"]  = themeListLight[Math.floor(Math.random()*themeListLight.length)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
@@ -734,7 +736,7 @@ function themeAutoRandomAll(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 conf["confRealTmpTheme"]  = themeListAllDark[Math.floor(Math.random() * themeListAllDark.length)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
-}else{
+} else {
 conf["confRealTmpTheme"]  = themeListAllLight[Math.floor(Math.random() * themeListAllLight.length)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
@@ -756,17 +758,17 @@ fuMPrintTheme(conf["confRealTmpTheme"] );
 })*/
 
 var themeSelect;
-if(themeList.includes(mode) == true){ themeSelect = mode; }
+if (themeList.includes(mode) == true){ themeSelect = mode; }
 
 
 switch (mode) {
 
 case 'auto-time':
-if(new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
+if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
 //if(new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]   = 'dark';
 fuMPrintTheme(conf["confRealTmpTheme"]);
-}else{
+} else {
 conf["confRealTmpTheme"]   = 'light';
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
@@ -781,11 +783,11 @@ themeAutoHContrast();
 break;
 
 case 'auto-t-h-contrast':
-if(new Date().getHours() <= Number(conf["confStartDay"]) - 1|new Date().getHours() >= conf["confStartNight"]){
+if (new Date().getHours() <= Number(conf["confStartDay"]) - 1|new Date().getHours() >= conf["confStartNight"]){
 //if(new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]   = 'h-contrast-d';
 fuMPrintTheme(conf["confRealTmpTheme"] );
-}else{
+} else {
 conf["confRealTmpTheme"]   = 'h-contrast-l';
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
@@ -793,22 +795,22 @@ fuMPrintTheme(conf["confRealTmpTheme"] );
 break;
 
 case 'auto-t-rand':
-if(new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
+if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
 //if(new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]  = themeListDark[Math.floor(Math.random()*themeListDark.length)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
-}else{
+} else {
 conf["confRealTmpTheme"]  = themeListLight[Math.floor(Math.random()*themeListLight.length)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
 break;
 
 case 'auto-t-rand-all':
-if(new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
+if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
 //if(new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]  = themeListAllDark[Math.floor(Math.random() * themeListAllDark.length)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
-}else{
+} else {
 conf["confRealTmpTheme"]  = themeListAllLight[Math.floor(Math.random() * themeListAllLight.length)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
@@ -900,10 +902,10 @@ break;
 }
 
 let mForseStatus = '';
-if(conf["confTheme"] != mode){ mForseStatus = "[force] "; }
+if (conf["confTheme"] != mode){ mForseStatus = "[force] "; }
 
 // print theme mode and name in footer
-if(document.getElementById('fTheme') != null){
+if (document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = `Theme: ${mForseStatus}${mode} (${conf["confRealTmpTheme"]})`;
 }
 
@@ -913,9 +915,9 @@ document.getElementById("fTheme").innerHTML = `Theme: ${mForseStatus}${mode} (${
 fuMSetTheme(theme);
 
 function fuMThemeEmbed(){
-if(conf["confRealTmpTheme"].search("dark|d-|-d") != -1){
+if (conf["confRealTmpTheme"].search("dark|d-|-d") != -1){
 conf["confThemeEmbed"] = 'dark';
-}else{
+} else {
 conf["confThemeEmbed"] = 'light';
 }
 }
@@ -964,7 +966,7 @@ text = String(text.replaceAll(val, "SYMBOLFORSPLIT"));
 text = text.split(conf["confSymbolForSplit"]);
 let text2 = "";
 text.forEach((val) => {
-if(val.length >= 1&&val != ' '&&val != undefined&&val != null){
+if (val.length >= 1&&val != ' '&&val != undefined&&val != null){
 text2 += String(val) + String(conf["confSymbolForSplit"]);
 }
 });
@@ -981,13 +983,13 @@ function fuMSort(textOrArr, delimiter, mode){
 var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
 //return textOrArr.sort(collator.compare);
 
-if(mode == 'text'){
+if (mode == 'text'){
 let result = textOrArr.split(delimiter);
 result.sort(collator.compare)
 return result.join(delimiter);
 }
 
-if(mode == 'arr'){
+if (mode == 'arr'){
 var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
 return textOrArr.sort(collator.compare);
 }
@@ -1003,10 +1005,10 @@ return textOrArr.sort(collator.compare);
 // CSS
 // bg image (background img with random position)
 function fuMBg(val){
-if(conf["confBg"] == 'on'||val == 'on'){
+if (conf["confBg"] == 'on'||val == 'on'){
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
-if(conf["confThemeEmbed"] == 'light'){
+if (conf["confThemeEmbed"] == 'light'){
 fuMPrintText('style', `
 <style>
 body{
@@ -1017,7 +1019,7 @@ background-attachment: fixed;
 }
 </style>
 `, 'plus');
-}else{
+} else {
 fuMPrintText('style', `
 <style>
 body{
@@ -1047,9 +1049,9 @@ background-attachment: fixed;
 // Auto select (timezone) v.1.2.0
 //https://www.termsfeed.com/blog/cookie-consent-outside-eu/
 //https://stackoverflow.com/questions/38399465/how-to-get-list-of-all-timezones-in-javascript
-if(conf["confDataCollection"] == 'auto'){
+if (conf["confDataCollection"] == 'auto'){
 var timeZone = (Intl.DateTimeFormat().resolvedOptions().timeZone).toLowerCase();
-if(
+if (
 timeZone.indexOf('UTC'.toLowerCase()) != -1||
 timeZone.indexOf('europe'.toLowerCase()) != -1||
 timeZone.indexOf('mexico_city'.toLowerCase()) != -1||
@@ -1059,12 +1061,12 @@ timeZone.indexOf('lagos'.toLowerCase()) != -1||
 timeZone.indexOf('japan'.toLowerCase()) != -1
 ){
 conf["confDataCollection"] = 'off';
-}else{
+} else {
 conf["confDataCollection"] = 'on';
 }
 
 //fuMPrintText('fPrivacy', `Cookie: auto (${conf["confDataCollection"]})`); 
-if(document.getElementById('fPrivacy')[0] != null){
+if (document.getElementById('fPrivacy')[0] != null){
 document.getElementById('fPrivacy')[0].innerHTML = `Cookie: auto (${conf["confDataCollection"]})`;
 }
 
@@ -1080,17 +1082,17 @@ document.getElementById('fPrivacy')[0].innerHTML = `Cookie: auto (${conf["confDa
 // for fix PWA 404 page if no ext
 function fuMHideFileNameExt(url){
 var newUrl = url;
-if(conf["confHideLinkExt"] == "on"){
-if(newUrl != null&&newUrl != undefined){
-if(newUrl[0] == "/"||newUrl[0] == "."||newUrl.indexOf(location.hostname) != -1){
+if (conf["confHideLinkExt"] == "on"){
+if (newUrl != null&&newUrl != undefined){
+if (newUrl[0] == "/"||newUrl[0] == "."||newUrl.indexOf(location.hostname) != -1){
 var arr = (conf["confLinkExtList"]).split(',');
 arr.forEach((element) => {
 newUrl = (newUrl).replaceAll(element, '');
 });
 return newUrl;
-}else{ return url; }
-}else{ return url; }
-}else{ return url; }
+} else { return url; }
+} else { return url; }
+} else { return url; }
 }
 // fu hide file ext
 
@@ -1099,7 +1101,7 @@ return newUrl;
 
 function fuMHideFileNameExt2(){
 
-if(conf["confHideLinkExt"] == "on"){
+if (conf["confHideLinkExt"] == "on"){
 //document.addEventListener("DOMContentLoaded", (event) => {});
 var newUrl = '';
 
@@ -1107,12 +1109,12 @@ var newUrl = '';
 // all links
 var allLinks = document.querySelectorAll("a");
 allLinks.forEach((item, index) => {
-if(item != ""){
+if (item != ""){
 
-try{
+try {
 var url = new URL(item);
 newUrl = item.href;
-if(url.hostname == location.hostname){
+if (url.hostname == location.hostname){
 //console.log(newUrl);
 var arr = (conf["confLinkExtList"]).split(',');
 arr.forEach((element) => {
@@ -1120,7 +1122,7 @@ newUrl = newUrl.replaceAll(element, "");
 });
 return document.querySelectorAll("a")[index].href = newUrl;
 }
-}catch(error){ console.log(error + ":" + item); }
+} catch (error){ console.log(error + ":" + item); }
 
 }
 });
@@ -1128,12 +1130,12 @@ return document.querySelectorAll("a")[index].href = newUrl;
 // all form
 var allForm = document.querySelectorAll("form");
 allForm.forEach((item, index) => {
-if(item != ""){
+if (item != ""){
 
 try{
 var url = new URL(item.action);
 newUrl = item.action;
-if(url.hostname == location.hostname){
+if (url.hostname == location.hostname){
 //console.log(newUrl);
 var arr = conf["confLinkExtList"].split(',');
 arr.forEach((element) => {
@@ -1141,7 +1143,7 @@ newUrl = newUrl.replaceAll(element, "");
 });
 return document.querySelectorAll("form")[index].action = newUrl;
 }
-}catch(error){ console.log(error + ":" + item); }
+} catch (error){ console.log(error + ":" + item); }
 
 }
 });
@@ -1150,8 +1152,8 @@ return document.querySelectorAll("form")[index].action = newUrl;
 var allForm = document.querySelectorAll("iframe");
 allForm.forEach((item, index) => {
 
-if(item != ""){
-try{
+if (item != ""){
+try {
 var url = new URL(item.src);
 newUrl = item.src;
 if(url.hostname == location.hostname){
@@ -1163,7 +1165,7 @@ url, { method: "HEAD" }
 .then((res) => {
 if (res.ok) {
 // empty
-}else{
+} else {
 //console.log('404 not found ' + url);
 //console.log(newUrl);
 var arr = conf["confLinkExtList"].split(',');
@@ -1176,7 +1178,7 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 });
 
 }
-}catch(error){ console.log(error + ":" + item); }
+} catch (error){ console.log(error + ":" + item); }
 }
 
 });
@@ -1223,7 +1225,7 @@ return text;
 
 
 
-// Embed scripts v.1.0.0
+// Embed scripts. Script embed v.1.0.0
 if(document.getElementById(conf["confIdEmbedScript"]) != null){
 
 function fuMEmbedScript(embedUrl, embedId){
@@ -1239,11 +1241,11 @@ document.head.appendChild(link);*/
 let script = document.createElement('script');
 script.type='text/javascript';
 //script.async = true;
-//script.defer = true;
+script.defer = true;
 script.charset = 'utf-8';
 script.src = embedUrl;
 
-if(document.getElementById(embedId) != null){
+if (document.getElementById(embedId) != null){
 document.getElementById(embedId).appendChild(script);
 //document.getElementsByTagName('head')[0].appendChild(script); 
 }
@@ -1251,25 +1253,25 @@ document.getElementById(embedId).appendChild(script);
 
 // Embed script and run:
 
-if(conf["confSpeedDialStatus"] != "off"){
+if (conf["confSpeedDialStatus"] != "off"){
 fuMEmbedScript(`/projects/speed-dial-58/script.js`, conf["confIdEmbedScript"]);
 }
 
-if(conf["confIconStatus"] != "off"){
+if (conf["confIconStatus"] != "off"){
 fuMEmbedScript("/data/iconsJsonVar.js", conf["confIdEmbedScript"]);
 fuMEmbedScript("/projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
 }
 
-if(conf["confAdsStatus"] != "off"){
+if (conf["confAdsStatus"] != "off"){
 fuMEmbedScript(`/data/adsJsonVar.js`, conf["confIdEmbedScript"]);
 fuMEmbedScript(`/js/ads.js`, conf["confIdEmbedScript"]);
 }
 
-if(conf["confDataCollection"] == 'not selected'){
+if (conf["confDataCollection"] == 'not selected'){
 fuMEmbedScript(`/js/cookieAgreePopup.js`, conf["confIdEmbedScript"]);
 }
 
-if(conf["confDataCollection"] == 'on'){
+if (conf["confDataCollection"] == 'on'){
 fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAnalyticsId"]}`, conf["confIdEmbedScript"]);
 }
 
@@ -1283,19 +1285,19 @@ onload = (event) => {
 //document.body.onload = function(){}
 //document.addEventListener("DOMContentLoaded", (event) => {})
 
-if(conf["confSpeedDialtatus"] != "off"){
+if (conf["confSpeedDialtatus"] != "off"){
 fuLSpeedDial("speedDialPrint", "", "", "print");
 }
 
-if(conf["confIconStatus"] != "off"){
+if (conf["confIconStatus"] != "off"){
 insertIcon('insertIcon', 'strict', conf["confIconStatus"], iconsJsonVar);
 }
 
-if(conf["confAdsStatus"] != "off"){
+if (conf["confAdsStatus"] != "off"){
 fuAds('', 'ads2', '');
 }
 
-if(conf["confDataCollection"] == 'on'){
+if (conf["confDataCollection"] == 'on'){
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
@@ -1313,17 +1315,25 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 }
 // Embed scripts
 
-if(document.getElementsByClassName("stt")[0] != null){
-document.getElementsByClassName("stt")[0].innerHTML = 'Test';
-}
-
-
-
-
 
 
 // fu hide ext
 fuMHideFileNameExt2();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

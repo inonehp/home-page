@@ -9,16 +9,18 @@ var articlesJsonVar =
         "text3": "",
         "url": "",
         "tag": "#SEO #WebDesign",
-        "time": 1711321237
+        "time": 1711321237,
+        "rightFooter": "<a class=\"brand\" href=\"\/text.html?id=9\">id<\/a>"
     },
     {
         "id": "8",
         "text": "List of search engines (2024)",
-        "text2": "Search engines with their own database:\r\n-----------------------------------------------------------------\r\n\r\n\r\nGoogle - The most popular search engine:\r\nhttps:\/\/www.google.com\/\r\n\r\nBing. The second most popular search engine. Recently introduced a chat bot for responses (Using ChatGPT):\r\nhttps:\/\/www.bing.com\/\r\n\r\nMojeek. British search engine, has its own database:\r\nhttps:\/\/www.mojeek.com\/\r\n\r\n\r\n\r\nOther search engines :\r\n-----------------------------------\r\n\r\nYahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos. (Using Microsoft Bing):\r\nhttps:\/\/search.yahoo.com\/\r\n\r\nDuckDuckGo \u2014 Privacy, simplified. (Using Bing):\r\nhttps:\/\/duckduckgo.com\/\r\n\r\nEcosia - the search engine that plants trees. (Using Bing):\r\nhttps:\/\/www.ecosia.org\/\r\n\r\nPerplexity AI  (Using \"Claude 3, GPT-4, and Mistral Large\"):\r\nhttps:\/\/www.perplexity.ai\/\r\n\r\n\r\n\r\nResources on this topic:\r\n---------------------------------------\r\nhttps:\/\/en.wikipedia.org\/wiki\/List_of_search_engines",
+        "text2": "Search engines with their own database:\r\n-----------------------------------------------------------------\r\n\r\n\r\nGoogle - The most popular search engine:\r\nhttps:\/\/www.google.com\/\r\n\r\nBing. The second most popular search engine. Recently introduced a chat bot for responses (Using ChatGPT):\r\nhttps:\/\/www.bing.com\/\r\n\r\nMojeek. British search engine, has its own database:\r\nhttps:\/\/www.mojeek.com\/\r\n\r\n\r\n\r\nOther search engines :\r\n-----------------------------------\r\n\r\nPerplexity AI  (Using \"Claude 3, GPT-4, and Mistral Large\"):\r\nhttps:\/\/www.perplexity.ai\/\r\n\r\nEcosia - the search engine that plants trees. (Using Bing):\r\nhttps:\/\/www.ecosia.org\/\r\n\r\nYahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos. (Using Microsoft Bing):\r\nhttps:\/\/search.yahoo.com\/\r\n\r\nDuckDuckGo \u2014 Privacy, simplified. (Using Bing):\r\nhttps:\/\/duckduckgo.com\/\r\n\r\n\r\n\r\nResources on this topic:\r\n---------------------------------------\r\nhttps:\/\/en.wikipedia.org\/wiki\/List_of_search_engines",
         "text3": "",
         "url": "",
         "tag": "#technology #search #SearchEngine #internet",
-        "time": 1711117092
+        "time": 1711117092,
+        "rightFooter": "<a class=\"brand\" href=\"\/text.html?id=8\">id<\/a>"
     },
     {
         "id": "7",
@@ -27,7 +29,8 @@ var articlesJsonVar =
         "text3": "",
         "url": "",
         "tag": "#theme #auto #automatic #dark #light #mode",
-        "time": 1710664085
+        "time": 1710664085,
+        "rightFooter": "<a class=\"brand\" href=\"\/text.html?id=7\">id<\/a>"
     },
     {
         "id": "5",
@@ -36,7 +39,8 @@ var articlesJsonVar =
         "text3": "",
         "url": "",
         "tag": "#CSS #responsive #UI #WebDesign #note",
-        "time": 1706230527
+        "time": 1706230527,
+        "rightFooter": "<a class=\"brand\" href=\"\/text.html?id=5\">id<\/a>"
     },
     {
         "id": "3",
@@ -45,7 +49,8 @@ var articlesJsonVar =
         "text3": "",
         "url": "",
         "tag": "#HTML",
-        "time": 1704534741
+        "time": 1704534741,
+        "rightFooter": "<a class=\"brand\" href=\"\/text.html?id=3\">id<\/a>"
     },
     {
         "id": "1",
@@ -54,6 +59,7 @@ var articlesJsonVar =
         "text3": "",
         "url": "",
         "tag": "#start #end",
-        "time": 1704235006
+        "time": 1704235006,
+        "rightFooter": "<a class=\"brand\" href=\"\/text.html?id=1\">id<\/a>"
     }
 ]

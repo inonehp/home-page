@@ -2,9 +2,6 @@
 
 
 
-
-
-
 /*<!-- Nav v.1.3.0 -->
 <!-- page, style.css, main.js, noscript.css -->*/
 
@@ -30,7 +27,6 @@ align-items: center;
 text-align: left;
 }
 }
-
 
 /* Dropdown */
 
@@ -74,10 +70,6 @@ z-index: 2;
 
 
 
-
-
-
-
 .menu {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -101,11 +93,11 @@ text-align: left;
 
 
 
-
 .insertIcon svg * {
-fill: var(--c) !important;
-stroke: var(--c) !important;
+fill: var(--c);
+stroke: var(--c);
 }
+
 
 
 /* bg image in main.js */
@@ -117,18 +109,6 @@ stroke: var(--c) !important;
 #secondNav nav {
 text-align: left;
 }
-}
-
-
-/* event */
-#fTheme::before {
-content: "☀️";
-content: "🍂";
-content: "❄️";
-content: "🌱";
-opacity: .8;
-filter: grayscale(50%);
-padding-right: var(--padding);
 }
 
 

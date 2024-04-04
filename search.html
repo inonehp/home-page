@@ -56,9 +56,9 @@
 
 <div class="menuTop">
 <!-- menu items -->
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a> 
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a> 
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a> 
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
 <!-- // menu items -->
 
@@ -75,9 +75,9 @@
 <div class="dropdownMenuContentColumn">
 
 <!-- menu items dublicate -->
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a> 
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a> 
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a> 
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
 <!-- // menu items dublicate -->
 
@@ -106,7 +106,7 @@
 
 <h1 class="tCenter medium h3 op normal">Search (redirect)</h1>
 
-<nav><a class="block tCenter small brand padding" href="search.html">Start</a></nav>
+<nav class="tCenter"><a class="ilineBlock small brand padding" href="search.html">Start</a></nav>
 
 <div class="padding2"></div>
 
@@ -116,8 +116,9 @@
 <!-- redirect to redirect project -->
 
 <noscript>
-<a href="https://google.com/">Google</a><br>
-<!--<a href="https://bing.com/">Bing</a><br>-->
+<a class="inlineBlock padding brand" href="https://google.com/">Google</a><br>
+<!--<a class="inlineBlock padding brand" href="https://bing.com/">Bing</a><br>-->
+<div class="margin2 padding2"></div>
 </noscript>
 
 
@@ -129,8 +130,11 @@
 
 <div id="result">
 <form id="form" method="GET" class="block" action="search.html" style="margin:0 auto;" role="search">
-<label id="search" class="op block xSmall"><span class="bold orange">✪</span> Search (redirect, random):</label>
-<input id="input" aria-labelledby="search" type="search" name="q" autofocus="autofocus"  placeholder="" autocomplete="off" spellcheck="true">
+<!--<label id="search" class="op block xSmall"><span class="bold orange">✪</span> Search (redirect, random):</label>
+<input id="input" aria-labelledby="search" type="search" name="q" autofocus="autofocus"  placeholder="" autocomplete="off" spellcheck="true">-->
+
+<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Web search (redirect, random):</label>
+<span id="printInputSearch"></span>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
 <input type="submit" value="search" class="xSmall op">
@@ -191,49 +195,6 @@ flex-wrap: wrap;
 </div>
 
 
-<script>
-// v.1.1.3
-// hot links
-
-if(document.querySelectorAll('input').length > 0){ 
-var inputA = document.querySelectorAll('input')[0];
-inputA.addEventListener('input', updateValueIn);
-}
-
-if(document.querySelectorAll('input').length > 1){ 
-var inputB = document.querySelectorAll('input')[1];
-inputB.addEventListener('input', updateValueIn);
-}
-
-//alert(document.querySelectorAll('input').length);
-if(document.querySelectorAll('input').length > 4){ 
-var inputC = document.querySelectorAll('input')[4];
-inputC.addEventListener('input', updateValueIn);
-}
-
-
-function updateValueIn(e) {
-var text = encodeURIComponent(e.target.value);
-
-var a = `
-
-<div class="tagList2 hotLinks">
-<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` goo" title="Google">goo</a>
-<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` bin" title="Bing">bin</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` x" title="X (Twitter)">x</a>
-<a class="tag light2 border3 borderRadius2" href="?q=`+text+` red" title="Reddit">red</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` y" title="YouTube">y</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` t" title="Translate">t</a>
-</div>
-
-`;
-document.getElementById("hotLinks").innerHTML = a; 
-}
-// end hot links
-
-</script>
-
-
 
 </div>
 </div>
@@ -275,6 +236,43 @@ document.getElementById("hotLinks").innerHTML = a;
 
 
 <script src="./projects/redirects-25/script.js"></script>
+<script src="./js/form.js"></script>
+
+<script>
+// v.1.1.3
+// hot links
+
+if(document.getElementById("q") != null){ 
+var inputA = document.getElementById("q");
+inputA.addEventListener('input', updateValueIn);
+}
+
+if(document.getElementById("q2") != null){ 
+var inputB = document.getElementById("q2");
+inputB.addEventListener('input', updateValueIn);
+}
+
+
+function updateValueIn(e) {
+var text = encodeURIComponent(e.target.value);
+
+var a = `
+
+<div class="tagList2 hotLinks">
+<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` goo" title="Google">goo</a>
+<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` bin" title="Bing">bin</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` x" title="X (Twitter)">x</a>
+<a class="tag light2 border3 borderRadius2" href="?q=`+text+` red" title="Reddit">red</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` y" title="YouTube">y</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` t" title="Translate">t</a>
+</div>
+
+`;
+document.getElementById("hotLinks").innerHTML = a; 
+}
+// hot links
+
+</script>
 
 
 

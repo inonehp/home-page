@@ -3,13 +3,44 @@ var notesJsonVar =
 
 [
     {
+        "id": "12",
+        "text": "Web Design Resources",
+        "text2": "Documentation:\r\n=============\r\n\r\n- MDN Web Docs https:\/\/developer.mozilla.org\/\r\n- W3Schools Online Web Tutorials https:\/\/www.w3schools.com\/\r\n- Stack Overflow - Where Developers Learn, Share, & Build Careers https:\/\/stackoverflow.com\/\r\n- web.dev https:\/\/web.dev\/\r\n\r\nDev:\r\n====\r\n\r\n- PageSpeed Insights https:\/\/pagespeed.web.dev\/\r\n- The W3C Markup Validation Service https:\/\/validator.w3.org\/\r\n- The W3C CSS Validation Service https:\/\/jigsaw.w3.org\/css-validator\/\r\n\r\n\r\nSEO ans statics:\r\n=============\r\n\r\n- Google Analytics https:\/\/analytics.google.com\/\r\n- Google Search Console https:\/\/search.google.com\/search-console\r\n- Bing Webmaster Tools https:\/\/www.bing.com\/webmasters\/\r\n- Google Trends https:\/\/trends.google.com\/\r\n\r\n\r\nSoftware:\r\n========\r\n\r\n- Firefox for desktop \u2014 Mozilla https:\/\/www.mozilla.org\/firefox\/new\/\r\n- Google Chrome - The Fast & Secure Web Browser Built to be Yours https:\/\/www.google.com\/chrome\/\r\n- Geany https:\/\/www.geany.org\/\r\n- Visual Studio Code - Code Editing. Redefined https:\/\/code.visualstudio.com\/\r\n- Inkscape https:\/\/inkscape.org\/\r\n\r\n\r\nOther:\r\n=====\r\n\r\n- Daring Fireball: Markdown https:\/\/daringfireball.net\/projects\/markdown\/",
+        "text3": "",
+        "url": "",
+        "tag": "#WebDesign #resources #links",
+        "time": 1711838876,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=12\">id<\/a>"
+    },
+    {
+        "id": "11",
+        "text": "How do I use the Firefox spell checker? | Firefox Help",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/support.mozilla.org\/en-US\/kb\/how-do-i-use-firefox-spell-checker#w_adding-dictionaries",
+        "tag": "#fix",
+        "time": 1711811445,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=11\">id<\/a>"
+    },
+    {
+        "id": "10",
+        "text": "Web Speech API",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/wicg.github.io\/speech-api\/",
+        "tag": "#WebDesign #code #JavaScript #STT",
+        "time": 1711739916,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=10\">id<\/a>"
+    },
+    {
         "id": "9",
         "text": "Web Design notes",
-        "text2": "- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n\r\nTools and links\r\nhttps:\/\/daringfireball.net\/projects\/markdown\/",
+        "text2": "Notes:\r\n=====\r\n\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n- Spaces in JavaScript for if and else\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)",
         "text3": "",
         "url": "",
         "tag": "#WebDesign #notes",
-        "time": 1711727102
+        "time": 1711727102,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=9\">id<\/a>"
     },
     {
         "id": "8",
@@ -18,7 +49,8 @@ var notesJsonVar =
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Map",
         "tag": "#code #JavaScript",
-        "time": 1711625173
+        "time": 1711625173,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=8\">id<\/a>"
     },
     {
         "id": "7",
@@ -27,7 +59,8 @@ var notesJsonVar =
         "text3": "",
         "url": "https:\/\/en.wikipedia.org\/wiki\/English_alphabet",
         "tag": "#text #alphabet",
-        "time": 1711620434
+        "time": 1711620434,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=7\">id<\/a>"
     },
     {
         "id": "6",
@@ -36,7 +69,8 @@ var notesJsonVar =
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Node\/textContent",
         "tag": "#code #JavaScript",
-        "time": 1711610799
+        "time": 1711610799,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=6\">id<\/a>"
     },
     {
         "id": "5",
@@ -45,7 +79,8 @@ var notesJsonVar =
         "text3": "",
         "url": "",
         "tag": "#code #JavaScript",
-        "time": 1711560138
+        "time": 1711560138,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=5\">id<\/a>"
     },
     {
         "id": "4",
@@ -54,7 +89,8 @@ var notesJsonVar =
         "text3": "",
         "url": "",
         "tag": "#code #JavaScript #CSS",
-        "time": 1711560076
+        "time": 1711560076,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=4\">id<\/a>"
     },
     {
         "id": "3",
@@ -63,7 +99,8 @@ var notesJsonVar =
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Element\/innerHTML",
         "tag": "#code #JavaScript",
-        "time": 1711559749
+        "time": 1711559749,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=3\">id<\/a>"
     },
     {
         "id": "2",
@@ -72,7 +109,8 @@ var notesJsonVar =
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/getElementById",
         "tag": "#code #JavaScript",
-        "time": 1711558357
+        "time": 1711558357,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=2\">id<\/a>"
     },
     {
         "id": "1",
@@ -81,6 +119,7 @@ var notesJsonVar =
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/forEach",
         "tag": "#JavaScript #code",
-        "time": 1711556664
+        "time": 1711556664,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=1\">id<\/a>"
     }
 ]

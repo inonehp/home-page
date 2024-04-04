@@ -70,8 +70,11 @@ CSS, JavaScript, project,
 <div class="wrapper">
 
 <form method="GET" style="margin-top: 0px;" action="../../search.html" autocomplete="off" role="search">
-<label id="search" class="op tLeft xSmall" title="example: twitter l"><span class="bold orange">✪</span> Web search (redirect):</label>
-<input id="inputQ" class="padding2" aria-labelledby="search" type="search" name="q" autofocus="autofocus"  placeholder=""  autocomplete="off">
+<!--<label id="search" class="op tLeft xSmall" title="example: twitter l"><span class="bold orange">✪</span> Web search (redirect):</label>
+<input id="inputQ" class="padding2" aria-labelledby="search" type="search" name="q" autofocus="autofocus"  placeholder=""  autocomplete="off">-->
+
+<label id="search" class="op block tLeft xSmall padding1PxList" for="inputQ"><span class="bold orange">✪</span> Search (redirect, random):</label>
+<span id="printInputSearch"></span>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
 <input type="submit" value="search" class="xSmall op">
@@ -101,6 +104,7 @@ CSS, JavaScript, project,
 <script src="../../js/main.js"></script>
 
 <script src="script.js"></script>
+<script src="/js/form.js"></script>
 
 </body>
 </html>

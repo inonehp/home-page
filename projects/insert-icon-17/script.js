@@ -489,7 +489,7 @@ counter++;
 // main, strict word
 if(
 (' ' + linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf(' ' + textIcon + ' ') != -1&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1
-||(' ' + linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf(' ' + textIcon + 's ') != -1&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1
+||(' ' + linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf(' ' + textIcon) != -1&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1
 ){
 icArr.push(icon);
 counter++;

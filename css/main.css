@@ -4,7 +4,6 @@ Responsive, mainly class-based */
 
 
 
-
 /* Main */
 * { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
 
@@ -109,7 +108,7 @@ width: 100%;
 .h5 { font-size: 1.11em; }
 .h6 { font-size: 1.1em; }
 
-input[type="text"], input[type="search"], textarea, input[type="submit"], input[type="email"], input[type="password"], form button, .submit{
+input[type="submit"], input[type="button"], input[type="text"], input[type="search"], textarea, input[type="email"], input[type="password"], form button, .submit{
 width: 100%;
 min-inline-size: 100%;
 min-height:  var(--inputHeight);
@@ -122,6 +121,7 @@ display: block;
 padding: var(--padding2);
 }
 input[type="submit"], .submit { text-align: center; }
+input[type="button"] { cursor: pointer; }
 
 select, input[type="color"], input[type="date"], input[type="number"], input[type="time"], input[type="reset"], input[type="datetime-local"], input[type="file"], input[type="month"], input[type="tel"], input[type="url"], input[type="week"] {
 margin-top: 1px;
@@ -148,10 +148,6 @@ input[type=checkbox],  input[type="reset"] { cursor: pointer; margin: 0; padding
 textarea { outline-color: transparent; outline-style: none; resize: vertical; }
 input[type=submit], .submit { cursor:pointer;  }
 td { padding: 5px; }
-
-
-
-
 
 
 
@@ -315,7 +311,6 @@ scrollbar-width: none;
 
 
 
-
 /* Ads */
 .ads { }
 .adsHeader { display: inline-block; text-align: right;
@@ -328,9 +323,6 @@ border-radius: var(--borderRadius);
 .adsHeader a { font-size: x-small; }
 .adsBody { display: block;  padding: 0px 5px; }
 .adsCode { text-align: left; display: inline-block; max-width: 100%; }
-
-
-
 
 
 
@@ -469,9 +461,6 @@ scroll-padding-top: 16px;
 
 
 
-
-
-
 /* Colors (colors from variables in the theme) */
 :root{
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
@@ -492,8 +481,8 @@ input, input:focus, textarea, select, button, input[type="file"] {
 border: 1px solid var(--d3); background: var(--l2); color: var(--c3); border-radius: var(--borderRadius); }
 input:hover, textarea:hover, select:hover, button:hover, input[type="file"]:hover {  background: var(--l3); }
 
-input[type="submit"],  form button[type="submit"], form button, .submit {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: var(--borderRadius); }
-input[type="submit"]:hover, form button[type="submit"]:hover, form button:hover, .submit:hover { background: var(--d2); color: var(--c3); }
+input[type="submit"],  form button[type="submit"], .submit/*, form button, input[type="button"]*/ {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: var(--borderRadius); }
+input[type="submit"]:hover, form button[type="submit"]:hover, form button:hover, .submit:hover, input[type="button"]:hover { background: var(--d2); color: var(--c3); }
 
 
 input[type="range"], progress { width: 100%; max-width: 100%; margin: 0; }
@@ -515,13 +504,13 @@ form fieldset { border: 1px solid var(--d3); }
 .c3 { color: var(--c3); }
 .c4 { color: var(--c4); }
 
-/* rC - reverse c  (new, not tested yet) */
+/* rC - reverse c  (new) */
 .rC { color: var(--rC); }
 .rC2 { color: var(--rC2); }
 .rC3 { color: var(--rC3); }
 .rC4 { color: var(--rC4); }
 
-/* .bgColor, .lightColor (new, not tested yet) */
+/* .bgColor, .lightColor (new) */
 .brand, .brand button{ color: var(--brand); }
 .brand2 { color: var(--brand2); }
 .brand:hover, .brand button:hover { color: var(--brand2); }
@@ -635,8 +624,6 @@ display: block;
 
 
 
-
-
 /* Print */
 
 @media print {
@@ -645,8 +632,6 @@ display: block;
 display: none;
 }
 }
-
-
 
 
 
@@ -707,8 +692,6 @@ input[type="color"], form button { vertical-align: middle; min-height: var(--inp
 
 
 html{ overflow-x: hidden; } /* fix PWA  */
-
-
 
 
 

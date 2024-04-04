@@ -2,7 +2,7 @@
   
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
-# Home page and projects.    
+# About
 
 A personal start page with projects such as search (redirect), blog, to-do list, typing speed, newtab, icons, themes, templates, etc.
   
@@ -14,7 +14,7 @@ A personal start page with projects such as search (redirect), blog, to-do list,
 ---
   
 > [!NOTE]
-> - You can find information about other licenses on the [About page](https://inonehp.pages.dev/about.html#license).
+> You can find information about other licenses on the [about page](https://inonehp.pages.dev/about.html#license).
   
 ---
    
@@ -25,7 +25,6 @@ A personal start page with projects such as search (redirect), blog, to-do list,
 [#Web Dev](https://github.com/topics/webdev),
 [#Web Design](https://github.com/topics/webdesign), 
 [#Projects](https://github.com/topics/projects),
-[#Portfolio](https://github.com/topics/portfolio),
 [#Page](https://github.com/topics/page),
 [#Cloudflare Pages](https://github.com/topics/cloudflare-pages),
   

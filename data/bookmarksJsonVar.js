@@ -3,13 +3,34 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "133",
+        "text": "Drupal - Open Source CMS | Drupal.org",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.drupal.org\/",
+        "tag": "#CMS",
+        "time": 1711924171,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=133\">id<\/a>"
+    },
+    {
+        "id": "132",
+        "text": "Daring Fireball: Markdown",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/daringfireball.net\/projects\/markdown\/",
+        "tag": "#markdown #tools",
+        "time": 1711840978,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=132\">id<\/a>"
+    },
+    {
         "id": "131",
         "text": "Wattpad - Where stories live",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.wattpad.com\/",
         "tag": "#book #store #SocialNetwork #platform",
-        "time": 1711522063
+        "time": 1711522063,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=131\">id<\/a>"
     },
     {
         "id": "130",
@@ -18,16 +39,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/docs.github.com\/en\/get-started\/writing-on-github\/getting-started-with-writing-and-formatting-on-github\/basic-writing-and-formatting-syntax",
         "tag": "#markdown #tool",
-        "time": 1711406847
-    },
-    {
-        "id": "129",
-        "text": "Daring Fireball: Markdown",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/daringfireball.net\/projects\/markdown\/",
-        "tag": "#WebDevelopment #tool #markdown",
-        "time": 1711321984
+        "time": 1711406847,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=130\">id<\/a>"
     },
     {
         "id": "128",
@@ -36,7 +49,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.perplexity.ai\/",
         "tag": "#AI #assistant #chatbot",
-        "time": 1711187007
+        "time": 1711187007,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=128\">id<\/a>"
     },
     {
         "id": "127",
@@ -45,7 +59,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/developer.chrome.com\/",
         "tag": "#WebDevelopment #blog #docs",
-        "time": 1710896751
+        "time": 1710896751,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=127\">id<\/a>"
     },
     {
         "id": "126",
@@ -54,7 +69,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.deviantart.com\/",
         "tag": "#img #photo #platform #SocialNetwork",
-        "time": 1710773049
+        "time": 1710773049,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=126\">id<\/a>"
     },
     {
         "id": "125",
@@ -63,7 +79,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/imgur.com\/",
         "tag": "#img #photo #platform #SocialNetwork",
-        "time": 1710699221
+        "time": 1710699221,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=125\">id<\/a>"
     },
     {
         "id": "124",
@@ -72,7 +89,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.joomla.org\/",
         "tag": "#CMS",
-        "time": 1710611436
+        "time": 1710611436,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=124\">id<\/a>"
     },
     {
         "id": "123",
@@ -81,7 +99,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/wordpress.org\/",
         "tag": "#CMS",
-        "time": 1710611405
+        "time": 1710611405,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=123\">id<\/a>"
     },
     {
         "id": "122",
@@ -90,7 +109,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.dokuwiki.org\/dokuwiki",
         "tag": "#CMS",
-        "time": 1710611347
+        "time": 1710611347,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=122\">id<\/a>"
     },
     {
         "id": "121",
@@ -99,7 +119,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/stackoverflow.blog\/",
         "tag": "#dev #blog #news",
-        "time": 1710472208
+        "time": 1710472208,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=121\">id<\/a>"
     },
     {
         "id": "120",
@@ -108,7 +129,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/play.google.com\/store\/games",
         "tag": "#platform #inspiration #product #catalog #app",
-        "time": 1710472058
+        "time": 1710472058,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=120\">id<\/a>"
     },
     {
         "id": "119",
@@ -117,7 +139,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/chromewebstore.google.com\/",
         "tag": "#extension #platform #inspiration #product #catalog #app",
-        "time": 1710472022
+        "time": 1710472022,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=119\">id<\/a>"
     },
     {
         "id": "118",
@@ -126,7 +149,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/addons.mozilla.org\/en-US\/firefox\/",
         "tag": "#extension #platform #inspiration #product #catalog #app",
-        "time": 1710471980
+        "time": 1710471980,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=118\">id<\/a>"
     },
     {
         "id": "117",
@@ -135,7 +159,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.producthunt.com\/",
         "tag": "#WebDevelopment #dev #platform #inspiration #product #catalog #app",
-        "time": 1710471777
+        "time": 1710471777,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=117\">id<\/a>"
     },
     {
         "id": "116",
@@ -144,7 +169,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/chat.mistral.ai\/chat",
         "tag": "#AI #assistant #chatbot",
-        "time": 1710426340
+        "time": 1710426340,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=116\">id<\/a>"
     },
     {
         "id": "115",
@@ -153,7 +179,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/huggingface.co\/chat\/",
         "tag": "#AI #assistant #chatbot",
-        "time": 1710425641
+        "time": 1710425641,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=115\">id<\/a>"
     },
     {
         "id": "114",
@@ -162,7 +189,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/chat.openai.com\/",
         "tag": "#AI #assistant #chatbot",
-        "time": 1710418765
+        "time": 1710418765,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=114\">id<\/a>"
     },
     {
         "id": "113",
@@ -171,7 +199,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/gemini.google.com\/app",
         "tag": "#AI #assistant #chatbot",
-        "time": 1710418283
+        "time": 1710418283,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=113\">id<\/a>"
     },
     {
         "id": "112",
@@ -180,7 +209,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/copilot.microsoft.com\/",
         "tag": "#AI #assistant #chatbot",
-        "time": 1710418263
+        "time": 1710418263,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=112\">id<\/a>"
     },
     {
         "id": "111",
@@ -189,7 +219,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/alternativeto.net\/",
         "tag": "#app #software #store #platform #inspiration #product #catalog #app",
-        "time": 1710407726
+        "time": 1710407726,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=111\">id<\/a>"
     },
     {
         "id": "110",
@@ -198,7 +229,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/beesandbombs.com\/",
         "tag": "#website #nice",
-        "time": 1708224394
+        "time": 1708224394,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=110\">id<\/a>"
     },
     {
         "id": "109",
@@ -207,7 +239,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript",
         "tag": "#code #programming",
-        "time": 1708218947
+        "time": 1708218947,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=109\">id<\/a>"
     },
     {
         "id": "108",
@@ -216,7 +249,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.python.org\/",
         "tag": "#code #programming",
-        "time": 1708218901
+        "time": 1708218901,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=108\">id<\/a>"
     },
     {
         "id": "107",
@@ -225,7 +259,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.php.net\/",
         "tag": "#PHP #code #programming",
-        "time": 1708218873
+        "time": 1708218873,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=107\">id<\/a>"
     },
     {
         "id": "106",
@@ -234,7 +269,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/choosealicense.com\/",
         "tag": "#tools",
-        "time": 1708075639
+        "time": 1708075639,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=106\">id<\/a>"
     },
     {
         "id": "105",
@@ -243,7 +279,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.quora.com\/",
         "tag": "#QuestionAndAnswer #SocialNetwork #platform",
-        "time": 1707795089
+        "time": 1707795089,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=105\">id<\/a>"
     },
     {
         "id": "104",
@@ -252,7 +289,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/sakun.co\/",
         "tag": "#website #dev #nice",
-        "time": 1707385194
+        "time": 1707385194,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=104\">id<\/a>"
     },
     {
         "id": "103",
@@ -261,7 +299,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/codepen.io\/challenges",
         "tag": "#website #nice #challenge",
-        "time": 1707362631
+        "time": 1707362631,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=103\">id<\/a>"
     },
     {
         "id": "102",
@@ -270,7 +309,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/icodethis.com\/app",
         "tag": "#website #nice #dev #challenge",
-        "time": 1707262952
+        "time": 1707262952,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=102\">id<\/a>"
     },
     {
         "id": "101",
@@ -279,7 +319,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/playcss.app\/",
         "tag": "#website #nice #dev #challenge",
-        "time": 1707262937
+        "time": 1707262937,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=101\">id<\/a>"
     },
     {
         "id": "100",
@@ -288,7 +329,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.daretoshare.design\/",
         "tag": "#website #nice #dev #challenge",
-        "time": 1707133773
+        "time": 1707133773,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=100\">id<\/a>"
     },
     {
         "id": "99",
@@ -297,7 +339,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.deezer.com\/us\/",
         "tag": "#music #platform",
-        "time": 1707015128
+        "time": 1707015128,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=99\">id<\/a>"
     },
     {
         "id": "98",
@@ -306,7 +349,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.webchef.dev\/",
         "tag": "#website #dev #nice",
-        "time": 1707014864
+        "time": 1707014864,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=98\">id<\/a>"
     },
     {
         "id": "97",
@@ -315,7 +359,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.elsaamri.com\/work",
         "tag": "#website #dev #nice",
-        "time": 1706993515
+        "time": 1706993515,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=97\">id<\/a>"
     },
     {
         "id": "96",
@@ -324,7 +369,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/slowww.space\/",
         "tag": "#website #nice",
-        "time": 1706993067
+        "time": 1706993067,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=96\">id<\/a>"
     },
     {
         "id": "95",
@@ -333,7 +379,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/maskable.app\/editor",
         "tag": "#tools #icon",
-        "time": 1706985368
+        "time": 1706985368,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=95\">id<\/a>"
     },
     {
         "id": "94",
@@ -342,7 +389,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/valentine.mewtru.com\/",
         "tag": "#website #nice",
-        "time": 1706941497
+        "time": 1706941497,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=94\">id<\/a>"
     },
     {
         "id": "93",
@@ -351,7 +399,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.mewtru.com\/",
         "tag": "#website #nice",
-        "time": 1706941452
+        "time": 1706941452,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=93\">id<\/a>"
     },
     {
         "id": "92",
@@ -360,7 +409,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.midjourney.com\/home?callbackUrl=\/explore",
         "tag": "#website #nice #cool",
-        "time": 1706827364
+        "time": 1706827364,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=92\">id<\/a>"
     },
     {
         "id": "91",
@@ -369,7 +419,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.favicon.cc\/",
         "tag": "#tools #image",
-        "time": 1706620636
+        "time": 1706620636,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=91\">id<\/a>"
     },
     {
         "id": "89",
@@ -378,7 +429,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/marketingplatform.google.com\/about\/analytics\/",
         "tag": "#tools",
-        "time": 1706536011
+        "time": 1706536011,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=89\">id<\/a>"
     },
     {
         "id": "88",
@@ -387,7 +439,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/search.google.com\/search-console\/about",
         "tag": "#tools",
-        "time": 1706535988
+        "time": 1706535988,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=88\">id<\/a>"
     },
     {
         "id": "87",
@@ -396,7 +449,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/hubs.mozilla.com\/",
         "tag": "#website #dev #nice #cool #best",
-        "time": 1706534706
+        "time": 1706534706,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=87\">id<\/a>"
     },
     {
         "id": "86",
@@ -405,7 +459,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.bing.com\/webmasters",
         "tag": "#tools #web",
-        "time": 1706520469
+        "time": 1706520469,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=86\">id<\/a>"
     },
     {
         "id": "85",
@@ -414,7 +469,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/abb.dev\/",
         "tag": "#website #dev #nice #cool #best",
-        "time": 1706360574
+        "time": 1706360574,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=85\">id<\/a>"
     },
     {
         "id": "84",
@@ -423,7 +479,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/web.dev\/",
         "tag": "#docs #WebDevelopment #dev",
-        "time": 1706322685
+        "time": 1706322685,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=84\">id<\/a>"
     },
     {
         "id": "83",
@@ -432,7 +489,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.w3schools.com\/",
         "tag": "#docs #WebDevelopment #dev",
-        "time": 1706275458
+        "time": 1706275458,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=83\">id<\/a>"
     },
     {
         "id": "82",
@@ -441,7 +499,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/layers.to\/explore\/recent",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
-        "time": 1706268722
+        "time": 1706268722,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=82\">id<\/a>"
     },
     {
         "id": "81",
@@ -450,7 +509,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/github.com\/collections\/learn-to-code",
         "tag": "#resources #collection",
-        "time": 1706264290
+        "time": 1706264290,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=81\">id<\/a>"
     },
     {
         "id": "80",
@@ -459,7 +519,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/",
         "tag": "#WebDevelopment #docs #dev",
-        "time": 1706253858
+        "time": 1706253858,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=80\">id<\/a>"
     },
     {
         "id": "79",
@@ -468,7 +529,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/bsky.app\/",
         "tag": "#SocialNetwork #platform",
-        "time": 1706239499
+        "time": 1706239499,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=79\">id<\/a>"
     },
     {
         "id": "77",
@@ -477,7 +539,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/experiments.withgoogle.com\/",
         "tag": "#website #dev #nice #cool #WebDevelopment #JavaScript #demo #best",
-        "time": 1706161944
+        "time": 1706161944,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=77\">id<\/a>"
     },
     {
         "id": "76",
@@ -486,7 +549,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.bing.com\/translator",
         "tag": "#translator #translate #tools",
-        "time": 1706158299
+        "time": 1706158299,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=76\">id<\/a>"
     },
     {
         "id": "75",
@@ -495,7 +559,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/translate.google.com\/",
         "tag": "#translator #translate #tools",
-        "time": 1706158282
+        "time": 1706158282,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=75\">id<\/a>"
     },
     {
         "id": "74",
@@ -504,7 +569,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.deepl.com\/translator",
         "tag": "#translator #translate #tools",
-        "time": 1706158256
+        "time": 1706158256,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=74\">id<\/a>"
     },
     {
         "id": "73",
@@ -513,7 +579,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/search.muz.li\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
-        "time": 1706150883
+        "time": 1706150883,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=73\">id<\/a>"
     },
     {
         "id": "72",
@@ -522,7 +589,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/medium.muz.li\/",
         "tag": "#WebDesign #magazine",
-        "time": 1706150786
+        "time": 1706150786,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=72\">id<\/a>"
     },
     {
         "id": "71",
@@ -531,7 +599,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.aidaoliva.studio\/",
         "tag": "#website #dev #nice #cool",
-        "time": 1706139004
+        "time": 1706139004,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=71\">id<\/a>"
     },
     {
         "id": "70",
@@ -540,7 +609,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.eddyvinck.com\/",
         "tag": "#website #dev #nice",
-        "time": 1706129998
+        "time": 1706129998,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=70\">id<\/a>"
     },
     {
         "id": "69",
@@ -549,7 +619,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/markodenic.com\/free-web-development-resources\/",
         "tag": "#resources #collection",
-        "time": 1706102889
+        "time": 1706102889,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=69\">id<\/a>"
     },
     {
         "id": "68",
@@ -558,7 +629,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/marc.dev\/",
         "tag": "#website #dev #other #nice",
-        "time": 1706081454
+        "time": 1706081454,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=68\">id<\/a>"
     },
     {
         "id": "67",
@@ -567,7 +639,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/wesbos.com\/",
         "tag": "#website #dev #nice",
-        "time": 1706081435
+        "time": 1706081435,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=67\">id<\/a>"
     },
     {
         "id": "66",
@@ -576,7 +649,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/dribbble.com\/404",
         "tag": "#website #other #nice #cool",
-        "time": 1706045444
+        "time": 1706045444,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=66\">id<\/a>"
     },
     {
         "id": "65",
@@ -585,7 +659,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.grammarly.com\/",
         "tag": "#tools #text #grammar #language",
-        "time": 1706029246
+        "time": 1706029246,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=65\">id<\/a>"
     },
     {
         "id": "64",
@@ -594,7 +669,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.duolingo.com\/",
         "tag": "#learning #learn #english #language",
-        "time": 1706029201
+        "time": 1706029201,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=64\">id<\/a>"
     },
     {
         "id": "63",
@@ -603,7 +679,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/music.youtube.com\/",
         "tag": "#music #platform",
-        "time": 1706026625
+        "time": 1706026625,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=63\">id<\/a>"
     },
     {
         "id": "62",
@@ -612,7 +689,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.mixcloud.com\/",
         "tag": "#music #platform",
-        "time": 1706026361
+        "time": 1706026361,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=62\">id<\/a>"
     },
     {
         "id": "61",
@@ -621,7 +699,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/open.spotify.com\/",
         "tag": "#music #platform",
-        "time": 1706021707
+        "time": 1706021707,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=61\">id<\/a>"
     },
     {
         "id": "60",
@@ -630,7 +709,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/spotify.design\/",
         "tag": "#other #CheckMe",
-        "time": 1706021533
+        "time": 1706021533,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=60\">id<\/a>"
     },
     {
         "id": "59",
@@ -639,7 +719,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/digital-cover.com\/",
         "tag": "#website #dev #nice",
-        "time": 1706021332
+        "time": 1706021332,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=59\">id<\/a>"
     },
     {
         "id": "58",
@@ -648,7 +729,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/alistapart.com\/",
         "tag": "#CSS #blog #magazine #WebDesign #WebDevelopment",
-        "time": 1706020810
+        "time": 1706020810,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=58\">id<\/a>"
     },
     {
         "id": "57",
@@ -657,7 +739,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/bento.me\/en\/home",
         "tag": "#MicroHosting #profile",
-        "time": 1706006020
+        "time": 1706006020,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=57\">id<\/a>"
     },
     {
         "id": "56",
@@ -666,7 +749,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/sites.google.com\/new",
         "tag": "#MiniHosting #WebsiteBuilder",
-        "time": 1705999487
+        "time": 1705999487,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=56\">id<\/a>"
     },
     {
         "id": "55",
@@ -675,7 +759,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/wix.com",
         "tag": "#MiniHosting #WebsiteBuilder",
-        "time": 1705998418
+        "time": 1705998418,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=55\">id<\/a>"
     },
     {
         "id": "53",
@@ -684,7 +769,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/cassidoo.co\/",
         "tag": "#website #dev #nice #cool",
-        "time": 1705981873
+        "time": 1705981873,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=53\">id<\/a>"
     },
     {
         "id": "52",
@@ -693,7 +779,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/neocities.org\/tutorials",
         "tag": "#resources #collection",
-        "time": 1705964528
+        "time": 1705964528,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=52\">id<\/a>"
     },
     {
         "id": "51",
@@ -702,7 +789,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/about.me\/",
         "tag": "#MicroHosting #profile",
-        "time": 1705963728
+        "time": 1705963728,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=51\">id<\/a>"
     },
     {
         "id": "50",
@@ -711,7 +799,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/beacons.ai\/",
         "tag": "#MicroHosting #profile",
-        "time": 1705924400
+        "time": 1705924400,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=50\">id<\/a>"
     },
     {
         "id": "49",
@@ -720,7 +809,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/linktr.ee\/",
         "tag": "#MicroHosting #profile",
-        "time": 1705922994
+        "time": 1705922994,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=49\">id<\/a>"
     },
     {
         "id": "48",
@@ -729,7 +819,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/limey.io\/",
         "tag": "#MicroHosting #profile",
-        "time": 1705922926
+        "time": 1705922926,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=48\">id<\/a>"
     },
     {
         "id": "47",
@@ -738,7 +829,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.canva.com\/",
         "tag": "#WebDesign #design #tools",
-        "time": 1705916522
+        "time": 1705916522,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=47\">id<\/a>"
     },
     {
         "id": "46",
@@ -747,7 +839,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/webflow.com\/",
         "tag": "#WebsiteBuilder #MiniHosting #tools #WebDesign",
-        "time": 1705916440
+        "time": 1705916440,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=46\">id<\/a>"
     },
     {
         "id": "44",
@@ -756,7 +849,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.framer.com\/",
         "tag": "#WebsiteBuilder #MiniHosting #tools #WebDesign",
-        "time": 1705913251
+        "time": 1705913251,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=44\">id<\/a>"
     },
     {
         "id": "43",
@@ -765,7 +859,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/css-tricks.com\/",
         "tag": "#CSS #code",
-        "time": 1705882831
+        "time": 1705882831,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=43\">id<\/a>"
     },
     {
         "id": "42",
@@ -774,7 +869,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.twitch.tv\/",
         "tag": "#stream #live #online #platform #game",
-        "time": 1705865705
+        "time": 1705865705,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=42\">id<\/a>"
     },
     {
         "id": "41",
@@ -783,7 +879,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/dribbble.com\/following",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
-        "time": 1705802829
+        "time": 1705802829,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=41\">id<\/a>"
     },
     {
         "id": "40",
@@ -792,7 +889,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.behance.net\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
-        "time": 1705802782
+        "time": 1705802782,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=40\">id<\/a>"
     },
     {
         "id": "39",
@@ -801,7 +899,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/blog\/",
         "tag": "#blog #WebDevelopment",
-        "time": 1705764463
+        "time": 1705764463,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=39\">id<\/a>"
     },
     {
         "id": "38",
@@ -810,7 +909,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/quillbot.com\/grammar-check",
         "tag": "#tools #text #grammar #language",
-        "time": 1705764337
+        "time": 1705764337,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=38\">id<\/a>"
     },
     {
         "id": "37",
@@ -819,7 +919,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.cambridgeenglish.org\/learning-english",
         "tag": "#learning #learn #english #language",
-        "time": 1705764206
+        "time": 1705764206,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=37\">id<\/a>"
     },
     {
         "id": "36",
@@ -828,7 +929,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.oxfordonlineenglish.com\/free-english-lessons",
         "tag": "#learning #learn #english #language",
-        "time": 1705764185
+        "time": 1705764185,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=36\">id<\/a>"
     },
     {
         "id": "35",
@@ -837,7 +939,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.bbc.co.uk\/learningenglish\/",
         "tag": "#learning #learn #english #language",
-        "time": 1705764162
+        "time": 1705764162,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=35\">id<\/a>"
     },
     {
         "id": "34",
@@ -846,7 +949,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/codepen.io\/",
         "tag": "#WebDevelopment #code #challenge #inspiration #HTML #CSS #JavaScript #demo",
-        "time": 1705763974
+        "time": 1705763974,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=34\">id<\/a>"
     },
     {
         "id": "33",
@@ -855,7 +959,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/pages.github.com\/",
         "tag": "#hosting",
-        "time": 1705763888
+        "time": 1705763888,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=33\">id<\/a>"
     },
     {
         "id": "32",
@@ -864,7 +969,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/pages.cloudflare.com\/",
         "tag": "#hosting",
-        "time": 1705763850
+        "time": 1705763850,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=32\">id<\/a>"
     },
     {
         "id": "31",
@@ -873,7 +979,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/neocities.org\/",
         "tag": "#hosting",
-        "time": 1705763789
+        "time": 1705763789,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=31\">id<\/a>"
     },
     {
         "id": "30",
@@ -882,7 +989,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.kevinpowell.co\/",
         "tag": "#website #dev #nice",
-        "time": 1705763631
+        "time": 1705763631,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=30\">id<\/a>"
     },
     {
         "id": "29",
@@ -891,7 +999,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/design.google\/",
         "tag": "#WebDesign #WebDevelopment #blog",
-        "time": 1705753750
+        "time": 1705753750,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=29\">id<\/a>"
     },
     {
         "id": "28",
@@ -900,7 +1009,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/markodenic.com\/",
         "tag": "#website #dev #nice",
-        "time": 1705752193
+        "time": 1705752193,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=28\">id<\/a>"
     },
     {
         "id": "27",
@@ -909,7 +1019,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/open-ui.org\/",
         "tag": "#WebDevelopment #dev #WebDesign #UI",
-        "time": 1705747430
+        "time": 1705747430,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=27\">id<\/a>"
     },
     {
         "id": "25",
@@ -918,7 +1029,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/twitter.com\/home",
         "tag": "#SocialNetwork #platform",
-        "time": 1705747011
+        "time": 1705747011,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=25\">id<\/a>"
     },
     {
         "id": "24",
@@ -927,7 +1039,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.youtube.com\/",
         "tag": "#video #platform",
-        "time": 1705746909
+        "time": 1705746909,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=24\">id<\/a>"
     },
     {
         "id": "23",
@@ -936,7 +1049,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.youtube.com\/channel\/UC4R8DWoMoI7CAwX8_LjQHig",
         "tag": "#live",
-        "time": 1705746876
+        "time": 1705746876,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=23\">id<\/a>"
     },
     {
         "id": "22",
@@ -945,7 +1059,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/hashnode.com\/",
         "tag": "#SocialNetwork #platform #dev #WebDevelopment #coding #programming",
-        "time": 1705746801
+        "time": 1705746801,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=22\">id<\/a>"
     },
     {
         "id": "21",
@@ -954,7 +1069,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.smashingmagazine.com\/",
         "tag": "#WebDesign #blog #magazine",
-        "time": 1705746716
+        "time": 1705746716,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=21\">id<\/a>"
     },
     {
         "id": "20",
@@ -963,7 +1079,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/dev.to\/",
         "tag": "#SocialNetwork #WebDevelopment #platform #dev #coding #programming",
-        "time": 1705746648
+        "time": 1705746648,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=20\">id<\/a>"
     },
     {
         "id": "18",
@@ -972,7 +1089,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.awwwards.com\/",
         "tag": "#WebDesign #inspiration #catalog",
-        "time": 1705746487
+        "time": 1705746487,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=18\">id<\/a>"
     },
     {
         "id": "17",
@@ -981,7 +1099,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/matteosantoro.dev\/",
         "tag": "#website #dev #nice",
-        "time": 1705744454
+        "time": 1705744454,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=17\">id<\/a>"
     },
     {
         "id": "16",
@@ -990,7 +1109,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.florin-pop.com\/",
         "tag": "#website #dev #nice",
-        "time": 1705744385
+        "time": 1705744385,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=16\">id<\/a>"
     },
     {
         "id": "15",
@@ -999,7 +1119,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/en.wikipedia.org\/wiki\/Wiki",
         "tag": "#encyclopedia #docs",
-        "time": 1705744326
+        "time": 1705744326,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=15\">id<\/a>"
     },
     {
         "id": "14",
@@ -1008,7 +1129,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/vimeo.com\/",
         "tag": "#video #platform",
-        "time": 1705744257
+        "time": 1705744257,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=14\">id<\/a>"
     },
     {
         "id": "13",
@@ -1017,7 +1139,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/soundcloud.com\/discover",
         "tag": "#music #platform",
-        "time": 1705744215
+        "time": 1705744215,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=13\">id<\/a>"
     },
     {
         "id": "12",
@@ -1026,7 +1149,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.gatesnotes.com\/",
         "tag": "#website #other #nice #cool",
-        "time": 1705742209
+        "time": 1705742209,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=12\">id<\/a>"
     },
     {
         "id": "11",
@@ -1035,7 +1159,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.reddit.com\/",
         "tag": "#SocialNetwork #platform",
-        "time": 1705742099
+        "time": 1705742099,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=11\">id<\/a>"
     },
     {
         "id": "10",
@@ -1044,7 +1169,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.dailymotion.com\/us",
         "tag": "#video #platform",
-        "time": 1705741340
+        "time": 1705741340,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=10\">id<\/a>"
     },
     {
         "id": "9",
@@ -1053,7 +1179,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.tumblr.com\/",
         "tag": "#SocialNetwork #platform",
-        "time": 1705741055
+        "time": 1705741055,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=9\">id<\/a>"
     },
     {
         "id": "8",
@@ -1062,7 +1189,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.theverge.com\/",
         "tag": "#news #tech #technology",
-        "time": 1705740361
+        "time": 1705740361,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=8\">id<\/a>"
     },
     {
         "id": "7",
@@ -1071,7 +1199,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/stackoverflow.com\/",
         "tag": "#code #FAQ #docs #div #WebDevelopment",
-        "time": 1705740315
+        "time": 1705740315,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=7\">id<\/a>"
     },
     {
         "id": "6",
@@ -1080,7 +1209,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/neocities.org\/browse",
         "tag": "#catalog #inspiration",
-        "time": 1705740048
+        "time": 1705740048,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=6\">id<\/a>"
     },
     {
         "id": "5",
@@ -1089,7 +1219,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/webflow.com\/made-in-webflow",
         "tag": "#catalog #inspiration",
-        "time": 1705740024
+        "time": 1705740024,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=5\">id<\/a>"
     },
     {
         "id": "4",
@@ -1098,7 +1229,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.patreon.com\/",
         "tag": "#donate",
-        "time": 1705739978
+        "time": 1705739978,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=4\">id<\/a>"
     },
     {
         "id": "3",
@@ -1107,7 +1239,8 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.newyorker.com\/",
         "tag": "#culture",
-        "time": 1705739939
+        "time": 1705739939,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=3\">id<\/a>"
     },
     {
         "id": "1",
@@ -1116,6 +1249,7 @@ var bookmarksJsonVar =
         "text3": "",
         "url": "https:\/\/www.cssartist.com\/",
         "tag": "#website #dev #nice #cool",
-        "time": 1705739865
+        "time": 1705739865,
+        "rightFooter": "<a class=\"brand\" href=\"\/links.html?id=1\">id<\/a>"
     }
 ]

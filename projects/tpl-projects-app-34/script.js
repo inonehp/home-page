@@ -1,38 +1,13 @@
 // v.1.0.0
-// pwa start
-
-//https://github.com/mdn/pwa-examples
-// (fix install for localhost (fix error in debug)) https://stackoverflow.com/questions/58985103/progressive-web-app-not-showing-install-button-in-browser-bar
-
-// Register service worker to control making site work offline
-
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker
-    .register('sw.js')
-    .then(() => { console.log('Service Worker Registered'); 
-
-//message to worker
-//https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/message_event
-navigator.serviceWorker.addEventListener("message", (event) => {
-    // event is a MessageEvent object
-    console.log(`The service worker sent me a message: ${event.data}`);
-  });
-
-  navigator.serviceWorker.ready.then((registration) => {
-    registration.active.postMessage('Hi serviceWorker!');
-  });
 
 
+var print = `
+result
+`;
 
-
-
-});
+if(document.getElementById("result") != null){
+document.getElementById("result").innerHTML = print; 
 }
-
-
-
-
-
 
 
 // Code to handle install prompt on desktop
@@ -65,8 +40,3 @@ window.addEventListener('beforeinstallprompt', (e) => {
     });
   });
 });
-
-
-
-
-

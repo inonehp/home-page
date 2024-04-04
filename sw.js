@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.03.29";
+//var myCacheVersion = "v.1.2.2024.04.04";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.03.29").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.04.04").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -563,6 +563,7 @@ var fileListArr = ["/404.html",
 "/js/",
 "/js/backup.txt",
 "/js/cookieAgreePopup.js",
+"/js/form.js",
 "/js/fuPostTime.js",
 "/js/main.js",
 "/js/script.js",
@@ -669,6 +670,7 @@ var fileListArr = ["/404.html",
 "/projects/blog-1/",
 "/projects/blog-1/script (copy 1).js",
 "/projects/blog-1/script (copy 2).js",
+"/projects/blog-1/script (copy 3).js",
 "/projects/blog-1/script.js",
 "/projects/blog-1/style.css",
 "/projects/browser-info-test-js-2/index.html",
@@ -813,6 +815,10 @@ var fileListArr = ["/404.html",
 "/projects/sorting-55/",
 "/projects/sorting-55/script.js",
 "/projects/sorting-55/style.css",
+"/projects/speech-to-text-63/index.html",
+"/projects/speech-to-text-63/",
+"/projects/speech-to-text-63/script.js",
+"/projects/speech-to-text-63/style.css",
 "/projects/speed-dial-58/index.html",
 "/projects/speed-dial-58/",
 "/projects/speed-dial-58/script.js",
@@ -863,18 +869,18 @@ var fileListArr = ["/404.html",
 "/projects/todo-list-ideas-32/",
 "/projects/todo-list-ideas-32/script.js",
 "/projects/todo-list-ideas-32/style.css",
-"/projects/tpl-project-app-fixme-sw-64/README.md",
-"/projects/tpl-project-app-fixme-sw-64/",
-"/projects/tpl-project-app-fixme-sw-64/index.html",
-"/projects/tpl-project-app-fixme-sw-64/manifest.webmanifest",
-"/projects/tpl-project-app-fixme-sw-64/screenshot.png",
-"/projects/tpl-project-app-fixme-sw-64/script.js",
-"/projects/tpl-project-app-fixme-sw-64/style.css",
-"/projects/tpl-project-app-fixme-sw-64/sw.js",
-"/projects/tpl-projects-63/index.html",
-"/projects/tpl-projects-63/",
-"/projects/tpl-projects-63/script.js",
-"/projects/tpl-projects-63/style.css",
+"/projects/tpl-projects-33/index.html",
+"/projects/tpl-projects-33/",
+"/projects/tpl-projects-33/script.js",
+"/projects/tpl-projects-33/style.css",
+"/projects/tpl-projects-app-34/README.md",
+"/projects/tpl-projects-app-34/",
+"/projects/tpl-projects-app-34/index.html",
+"/projects/tpl-projects-app-34/manifest.webmanifest",
+"/projects/tpl-projects-app-34/screenshot.png",
+"/projects/tpl-projects-app-34/script.js",
+"/projects/tpl-projects-app-34/style.css",
+"/projects/tpl-projects-app-34/sw.js",
 "/projects/transliterate-35/index.html",
 "/projects/transliterate-35/",
 "/projects/transliterate-35/script.js",
@@ -924,12 +930,11 @@ var fileListArr = ["/404.html",
 "/templates/flower-one-page-mini-auto-light-dark-flat-17/",
 "/templates/flower-one-page-mini-auto-light-dark-flat-17/index.html",
 "/templates/flower-one-page-mini-auto-light-dark-flat-17/style.css",
-"/templates/home-page-auto-light-dark-flat-9/css/style.css",
-"/templates/home-page-auto-light-dark-flat-9/",
-"/templates/home-page-auto-light-dark-flat-9/css/",
 "/templates/home-page-auto-light-dark-flat-9/index.html",
+"/templates/home-page-auto-light-dark-flat-9/",
 "/templates/home-page-auto-light-dark-flat-9/menu.html",
 "/templates/home-page-auto-light-dark-flat-9/page.html",
+"/templates/home-page-auto-light-dark-flat-9/style.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/auto.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/",
@@ -1100,7 +1105,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.03.29")
+caches.open("v.1.2.2024.04.04")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1126,7 +1131,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.03.29")
+caches.open("v.1.2.2024.04.04")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1159,7 +1164,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.03.29"];
+  const cachesToKeep = ["v.1.2.2024.04.04"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

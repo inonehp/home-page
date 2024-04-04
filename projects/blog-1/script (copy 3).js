@@ -1,4 +1,4 @@
-// Keep or blog v.2.3.0
+// Keep or blog v.2.25.1
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -16,30 +16,21 @@ let blogConfig = {
 "tagListLimit":"", // number
 "targetOption":"", // blank
 "bottomMsg":`
-<!-- bottom text or code -->
+<!-- bottom text -->
 `, // text
 "display":"", // gallery - grid, article - <div class="h1">text</div>, all - shows everything: text, text2, text3
 "timeStatus":"", // off, disable post time (post id)
-"rightFooterStatus":"", // on, off, right footer in data
 };
 </script>*/
 
 function blog(printId, jsonVar, otherClass, scriptDir, blogConfig){
 
-/*
-printId - div id where print blog
-jsonVar - JSON (data) in JavaSript variable
-otherClass - CSS class name for post
-scriptDir - for location link, if run script on other location
-blogConfig - additional blog configuration)
 
-(id - post ID, unique in JSON data, p - page list using data (array), p2 - post list using data (array))
-*/
 
 if (blogConfig == undefined||blogConfig == ''){
 var blogConfig = [];
-var postLimit = "";
-var embedStatus = "";
+var postLimit = '';
+var embedStatus = '';
 var tagListStatus = '';
 var multiEmbedStatus ='';
 var tagListStatus = '';
@@ -48,35 +39,38 @@ var targetOption = '';
 var bottomMsg = '';
 var display = '';
 var timeStatus = '';
-var rightFooterStatus = '';
-
-} else {
-
-var postLimit = '';
-var embedStatus = '';
-var tagListStatus = '';
-var multiEmbedStatus = '';
-var tagListStatus = '';
-var tagListLimit = '';
-var targetOption = '';
-var bottomMsg = '';
-var display = '';
-var timeStatus = '';
-var rightFooterStatus = '';
-
-if (blogConfig['postLimit'] != undefined) { var postLimit = blogConfig['postLimit']; }
-if (blogConfig['embedStatus'] != undefined) { var embedStatus = blogConfig['embedStatus']; }
-if (blogConfig['tagListStatus'] != undefined){ var tagListStatus = blogConfig['tagListStatus']; }
-if (blogConfig['multiEmbedStatus'] != undefined){ var multiEmbedStatus = blogConfig['multiEmbedStatus']; }
-if (blogConfig['tagListStatus'] != undefined) { var tagListStatus = blogConfig['tagListStatus']; }
-if (blogConfig['tagListLimit'] != undefined) { var tagListLimit = blogConfig['tagListLimit']; }
-if (blogConfig['targetOption'] != undefined) { var targetOption = blogConfig['targetOption']; }
-if (blogConfig['bottomMsg'] != undefined){ var bottomMsg = blogConfig['bottomMsg']; }
-if (blogConfig['display'] != undefined) { var display = blogConfig['display']; }
-if (blogConfig['timeStatus'] != undefined) { var timeStatus = blogConfig['timeStatus']; }
-if (blogConfig['rightFooterStatus'] != undefined) { var rightFooterStatus = blogConfig['rightFooterStatus']; }
-
+}else{
+var postLimit = blogConfig['postLimit'];
+var embedStatus = blogConfig['embedStatus'];
+var tagListStatus = blogConfig['tagListStatus'];
+var multiEmbedStatus = blogConfig['multiEmbedStatus'];
+var tagListStatus = blogConfig['tagListStatus'];
+var tagListLimit = blogConfig['tagListLimit'];
+var targetOption = blogConfig['targetOption'];
+var bottomMsg = blogConfig['bottomMsg'];
+var display = blogConfig['display'];
+var timeStatus = blogConfig['timeStatus'];
 }
+
+
+var host = '';
+
+/*
+printId - div id where print blog
+jsonVar - json in JavaSript variable
+// other
+otherClass - CSS class name post
+embedStatus - if off, not showing embed
+tagListStatus - if off, not showing tags and navigation, only posts
+postLimit - how many post showing on page
+scriptDir - for tag location link, if run script on other location
+multiEmbedStatus - if on, working multi embed, default single embed
+tagListLimit - how many tag showing in taglist
+targetOption - if "blank" open link in new tab
+timeStatus - If off, without post time.  
+
+(id - id post in JSON, p, p2 - page, array key)
+*/
 
 // default value
 if (postLimit == undefined||postLimit == ''){ postLimit = 10; }
@@ -89,11 +83,6 @@ if (tagListLimit == undefined||tagListLimit == ''){ tagListLimit = '38'; }
 if (targetOption == undefined){ targetOption = ''; } //blank
 if (bottomMsg == undefined||bottomMsg == ''){ bottomMsg = ''; }
 if (display == undefined||display == ''){ display = 'list'; }
-if (timeStatus == undefined||timeStatus == ''){ timeStatus = ''; }
-if (rightFooterStatus == undefined||rightFooterStatus == ''){ rightFooterStatus = 'off'; }
-
-var host = '';
-
 
 // data example
 // fresh data example in script.js
@@ -109,8 +98,7 @@ var jsonVar =
         "text3": "test3 text3",
         "url": "https:\/\/test2.com",
         "tag": "#test2 #tag",
-        "time": 1671480576,
-        "rightFooter": ""
+        "time": 1671480576
     },
     {
         "id": 250,
@@ -119,9 +107,7 @@ var jsonVar =
         "text3": "test3 text3",
         "url": "https:\/\/test.com",
         "tag": "#test #tag",
-        "time": 1668444918,
-        "rightFooter": ""
-
+        "time": 1668444918
     }
 ];
 
@@ -129,7 +115,8 @@ var jsonVar =
 
 
 
-// fix main.js
+
+// fix from main.js
 if (typeof conf == 'object'){
 
 confDataCollection = conf["confDataCollection"];
@@ -248,8 +235,8 @@ mode = 'id';
 
 var getP = url.searchParams.get("p");
 if (getP != null){
-//getP = getP.replaceAll(/%/g, "%25");
-//getP = fuMClearText(getP);
+getP = getP.replaceAll(/%/g, "%25");
+getP = fuMClearText(getP);
 getP = Number((getP));
 
 if (getP >= jsonVar.length - 1){ getP = jsonVar.length; }
@@ -259,9 +246,9 @@ mode = 'list';
 
 var getP2 = url.searchParams.get("p2"); // nav for id
 if (getP2 != null){
-//getP2 = getP2.replaceAll(/%/g, "%25");
+getP2 = getP2.replaceAll(/%/g, "%25");
 getP2 = getP2.trim();
-//getP2 = fuMClearText(getP2);
+getP2 = fuMClearText(getP2);
 getP2 = Number((getP2));
 mode = 'idList';
 }
@@ -270,9 +257,9 @@ if (getP == null){ getP = 0; }
 
 var getP3 = url.searchParams.get("p3"); // nav for id
 if (getP3 != null){
-//getP3 = getP3.replaceAll(/%/g, "%25");
+getP3 = getP3.replaceAll(/%/g, "%25");
 getP3 = getP3.trim();
-//getP3 = fuMClearText(getP3);
+getP3 = fuMClearText(getP3);
 getP3 = Number((getP3));
 }
 
@@ -409,7 +396,6 @@ postText3 = '';
 postTag = '';
 postUrl = '';
 postTime = '';
-rightFooter = '';
 
 if (item['id'] != null){ postId = item['id']; }
 if (item['text'] != null){ postText = item['text']; }
@@ -418,7 +404,6 @@ if (item['text3'] != null){ postText3 = item['text3']; }
 if (item['tag'] != null){ postTag = item['tag']; }
 if (item['url'] != null){ postUrl = item['url']; }
 if (item['time'] != null){ postTime = item['time']; }
-if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
 
 let postTextClean = postText;
 postText = (postText+' '+postUrl).trim();
@@ -488,11 +473,11 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
 } else {
-printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
 }
@@ -548,11 +533,11 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
 } else {
-printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
 }
@@ -595,7 +580,7 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "");
 comMessagePrint = 'id: '+postId;
 // post in title only when id
 if (id != ''&&getP2 == null){
@@ -651,8 +636,8 @@ if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
 
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '', rightFooter);
-//printPost += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime, '', rightFooter)+'</div>';
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '');
+//printPost += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime, '')+'</div>';
 i++;
 getP = key;
 comMessagePrint = 'id: '+postId+', p2: '+getP2;
@@ -673,8 +658,8 @@ if (postText2 != ''){ postText2 = `
 if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '', rightFooter);
-//printPost += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime, rightFooter)+'</div>';
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '');
+//printPost += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime)+'</div>';
 i++;
 getP = key;
 comMessagePrint = 'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
@@ -703,9 +688,9 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "");
 } else {
-printPost += fuPrintPost(postId, postText, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, postText, postTag, postTime, "");
 }
 i++;
 }
@@ -757,7 +742,6 @@ postText3 = '';
 postTag = '';
 postUrl = '';
 postTime = '';
-rightFooter = '';
 
 if (item['id'] != null){ postId = item['id']; }
 if (item['text'] != null){ postText = item['text']; }
@@ -766,7 +750,7 @@ if (item['text3'] != null){ postText3 = item['text3']; }
 if (item['tag'] != null){ postTag = item['tag']; }
 if (item['url'] != null){ postUrl = item['url']; }
 if (item['time'] != null){ postTime = item['time']; }
-if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
+
 
 postText = (postText + ' ' + postUrl).trim();
 
@@ -805,8 +789,8 @@ window.location.href = window.location.href+'#stopRedir';
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter, rightFooter);
-//lRelevantResultArr.push(lRelevantResultPoint, fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter, rightFooter));
+//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
+//lRelevantResultArr.push(lRelevantResultPoint, fuPrintPost(postId, postText, postTag, postTime, subQforLight));
 if (display == "all"){
 if (postText2 != ''){ postText2 = `
 
@@ -817,12 +801,12 @@ if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
 //`<!-- forSort: ${lRelevantResultPoint} -->` +
-var testArr =  fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter, rightFooter);
+var testArr =  fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
 } else {
 //`<!-- forSort: ${lRelevantResultPoint} -->` +
-var testArr = fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter, rightFooter);
+var testArr = fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
-//var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+//var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 //lRelevantResultArr.push(testArr);
 lRelevantResultArr.push(testArr);
 }
@@ -904,7 +888,6 @@ postText3 = '';
 postTag = '';
 postUrl = '';
 postTime = '';
-rightFooter = '';
 
 if (item['id'] != null){ postId = item['id']; }
 if (item['text'] != null){ postText = item['text']; }
@@ -913,7 +896,6 @@ if (item['text3'] != null){ postText3 = item['text3']; }
 if (item['tag'] != null){ postTag = item['tag']; }
 if (item['url'] != null){ postUrl = item['url']; }
 if (item['time'] != null){ postTime = item['time']; }
-if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
 
 postText = (postText+' '+postUrl).trim();
 
@@ -970,11 +952,11 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
 } else {
-printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
 }
@@ -1035,15 +1017,12 @@ postText3 = '';
 postTag = '';
 postUrl = '';
 postTime = '';
-rightFooter = '';
 
 if (item['id'] != null){ postId = item['id']; }
 if (item['text'] != null){ postText = item['text']; }
 if (item['tag'] != null){ postTag = item['tag']; }
 if (item['url'] != null){ postUrl = item['url']; }
 if (item['time'] != null){ postTime = item['time']; }
-if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
-
 postText = (postText+' '+postUrl).trim();
 
 var qData = (String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase()).trim();
@@ -1092,11 +1071,11 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight);
 } else {
-printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight);
 }
 i3++;
 }
@@ -1221,7 +1200,6 @@ print += `
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
 <label class="op block tLeft xSmall padding1PxList" for="inputBlog">✪ Search:</label>
-
 <input id="inputBlog" type="search" name="q"  autocomplete="off" placeholder="">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
@@ -1272,8 +1250,8 @@ ${comMessagePrint}
 
 }
 
-if (q != null&&document.getElementById("inputBlog") != null){
-document.getElementById("inputBlog").value = q;
+if (q != null&&document.getElementById("input") != null){
+document.getElementById("input").value = q;
 }
 
 if (q != null&&document.getElementById("navOptionQ") != null){
@@ -1541,7 +1519,7 @@ return tagList;
 
 
 
-function fuPrintPost(id, post, tag, time, subQforLight, rightFooter){
+function fuPrintPost(id, post, tag, time, subQforLight){
 tag = highlightText(tag, targetOption, subQforLight);
 //time = new Date(time).getTime();
 
@@ -1567,7 +1545,6 @@ var sec = normalize(a.getSeconds());
 var time = year + '-' + month2 + '-' + date;
 return time;
 }
-
 var datePublished = timeConverter(time);
 time = `<a class="brand op" href="${scriptDir}?id=${id}"><time itemprop="datePublished" datetime="` + datePublished+`">` + fuPostTime(time) + `</time></a>`;
 
@@ -1591,19 +1568,15 @@ var username = conf["confDomainName"];
 
 var postFooter = ' postFooter ';
 var postFooterPadding = '';
-if (timeStatus == 'off'){ time = ''; }
-if (timeStatus == 'off'&&rightFooterStatus == 'off'){ postFooter = ' postFooter2 '; }
+if (timeStatus == 'off'){
+time = '';
+postFooter = ' postFooter2 ';
+}
 
-if(rightFooterStatus == 'off'){ rightFooter = ''; }
-
-if (display == 'article'&&mode != 'id'&&mode != 'idList'&&mode != 'random'){
-lPost = `<san class="large">${post}</span>`; // without highlight (embed)
-} 
+if (display == 'article'&&mode != 'id'&&mode != 'idList'&&mode != 'random'){ lPost = `<san class="large">${post}</span>`; } // without highlight (embed)
 /*
 //
 if(display == 'article'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
-
-
 
 return `
 
@@ -1616,14 +1589,13 @@ return `
 
 <div class=" ${postFooter} break2 small">
 <span class="tagList tLeft left">` + tag + `</span>
-<span class="tagList tRight right">` + rightFooter + time + `</span>
+<span class="tagList tRight right">` + time + `</span>
 </div>
 
 </div>
 <!-- // end post -->
 
 `;
-
 }
 
 
@@ -2259,7 +2231,6 @@ case "twitter.com":
 case "mobile.twitter.com":
 embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
 embedServiceList += 'xcom';
-embedServiceList += 'twitter';
 break;
 
 case "www.reddit.com":

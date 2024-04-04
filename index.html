@@ -6,7 +6,7 @@
 <title>Inonehp</title>
 
 <meta name="description" content="Home page and projects. A personal start page with projects such as search (redirect), blog, to-do list, typing speed, newtab, icons, themes, templates, etc. ">
-<meta name="keywords" content="Inonehp, website, start, page, portfolio, home, homepage, NewTab, free,
+<meta name="keywords" content="Inonehp, website, start, page, home, homepage, NewTab, free,
 WebDesign, project, projects, 
 Geany, Firefox, theme,
 WebDev, dev, HTML, CSS, JavaScript,
@@ -134,9 +134,9 @@ z-index: -2;
 
 <div class="menuTop">
 <!-- menu items -->
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a> 
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a> 
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a> 
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
 <!-- // menu items -->
 
@@ -153,9 +153,9 @@ z-index: -2;
 <div class="dropdownMenuContentColumn">
 
 <!-- menu items dublicate -->
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a> 
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a> 
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a> 
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
 <!-- // menu items dublicate -->
 
@@ -663,7 +663,7 @@ z-index: -2;
 
 
 <div class="siteNameWrapper">
-<h1 class="zero siteName">inonehp</h1>
+<h1 class="zero siteName">&nbsp;Inonehp&nbsp;</h1>
 </div>
 <div class="tRight">
 
@@ -747,8 +747,11 @@ return a;
 <div id="form" class="noscriptHide">
 <form method="GET" style="margin-top: 0px;" action="search.html" autocomplete="off" role="search">
 
-<label id="search" class="block op tLeft xSmall"><span class="bold orange">✪</span> Web search (redirect, random):</label>
-<input aria-labelledby="search" type="search"  name="q" autofocus="autofocus"  placeholder="" autocomplete="off" spellcheck="true">
+<!--<label id="search" class="block op tLeft xSmall"><span class="bold orange">✪</span> Web search (redirect, random):</label>
+<input aria-labelledby="search" type="search"  name="q" autofocus="autofocus"  placeholder="" autocomplete="off" spellcheck="true">-->
+
+<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Web search (redirect, random):</label>
+<span id="printInputSearch"></span>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
 <input type="submit" value="search" class="xSmall op">
@@ -758,13 +761,6 @@ return a;
 </form>
 
 </div>
-
-
-
-
-
-
-
 
 <style>
 
@@ -817,63 +813,32 @@ flex-wrap: wrap;
 </div>
 </div>
 
-
-<script>
-// v.1.1.3
-// hot links
-
-if(document.querySelectorAll('input').length > 0){ 
-var inputA = document.querySelectorAll('input')[0];
-inputA.addEventListener('input', updateValueIn);
-}
-
-if(document.querySelectorAll('input').length > 1){ 
-var inputB = document.querySelectorAll('input')[1];
-inputB.addEventListener('input', updateValueIn);
-}
-
-//alert(document.querySelectorAll('input').length);
-if(document.querySelectorAll('input').length > 4){ 
-var inputC = document.querySelectorAll('input')[4];
-inputC.addEventListener('input', updateValueIn);
-}
-
-
-function updateValueIn(e) {
-var text = encodeURIComponent(e.target.value);
-
-var a = `
-
-<div class="tagList2 hotLinks">
-<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` goo" title="Google">goo</a>
-<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` bin" title="Bing">bin</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` x" title="X (Twitter)">x</a>
-<a class="tag light2 border3 borderRadius2" href="?q=`+text+` red" title="Reddit">red</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` y" title="YouTube">y</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` t" title="Translate">t</a>
-</div>
-
-`;
-document.getElementById("hotLinks").innerHTML = a; 
-}
-// end hot links
-
-</script>
-
 <div class="margin2 padding2"></div>
 
 <div class="padding2"></div>
 
 <span id="speedDialPrint"></span>
 
+<noscript>
+<!-- nav2 -->
+<div class="padding2"></div>
 
+<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Lists:</div>
+
+<div class="menu small">
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="main-list.html"><span class="insertIcon firstLetterBold">Main</span></a>
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="projects-list.html"><span class="insertIcon firstLetterBold">Projects</span></a>
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="mini-projects-list.html"><span class="insertIcon firstLetterBold">Mini projects</span></a>
+
+</div>
+
+<div class="padding2"></div>
+<!-- // nav2 -->
+</noscript>
 
 
 </div>
 
-
-</main>
-<!-- // content -->
 
 
 
@@ -979,7 +944,50 @@ location.href = fuMHideFileNameExt("search.html?q=") + q;
 
 </script>
 
+<script src="/js/form.js"></script>
 
+EOFe;
+
+echo <<<EOF
+
+</main>
+<!-- // content -->
+
+<script>
+// v.1.1.3
+// hot links
+
+if(document.getElementById("q") != null){ 
+var inputA = document.getElementById("q");
+inputA.addEventListener('input', updateValueIn);
+}
+
+if(document.getElementById("q2") != null){ 
+var inputB = document.getElementById("q2");
+inputB.addEventListener('input', updateValueIn);
+}
+
+
+function updateValueIn(e) {
+var text = encodeURIComponent(e.target.value);
+
+var a = `
+
+<div class="tagList2 hotLinks">
+<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` goo" title="Google">goo</a>
+<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` bin" title="Bing">bin</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` x" title="X (Twitter)">x</a>
+<a class="tag light2 border3 borderRadius2" href="?q=`+text+` red" title="Reddit">red</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` y" title="YouTube">y</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` t" title="Translate">t</a>
+</div>
+
+`;
+document.getElementById("hotLinks").innerHTML = a; 
+}
+// hot links
+
+</script>
 
 
 

@@ -602,6 +602,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/projects\/speech-to-text-63\/index.html",
+        "text": "Speech to text\n\nSpeech to text. STT. Voice typing. | speech to text: ",
+        "tag": " #speech #text #STT #voice #CSS #JavaScript #project",
+        "id": "2481b87cf38cebb71ca0975a970052ae",
+        "time": "id"
+    },
+    {
         "url": "\/projects\/speed-dial-58\/index.html",
         "text": "Speed dial\n\nSpeed dial. Quick access to a page or site. | speed dial: ",
         "tag": " #speed #dial #CSS #JavaScript #project",

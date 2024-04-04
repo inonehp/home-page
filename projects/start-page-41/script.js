@@ -67,5 +67,3 @@ setInterval(fuStopwatch, 1000);
 //document.getElementById('search').innerHTML = ``;
 
 
-
-
