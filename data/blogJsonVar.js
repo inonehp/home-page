@@ -3,6 +3,16 @@ var blogJsonVar =
 
 [
     {
+        "id": "248",
+        "text": "Beyond Our Reality \u00b7 Made by Don Allen Stevenson with Sora - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ObUBUKOn-bo",
+        "tag": "#technology #other #video",
+        "time": 1712220290,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=248\">id<\/a>"
+    },
+    {
         "id": "247",
         "text": "Google Podcasts\u2019 time is almost up. - The Verge",
         "text2": "",

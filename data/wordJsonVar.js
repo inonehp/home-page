@@ -186,6 +186,11 @@ var wordJsonVar =
         "text3": "clic autom\u00e1tico"
     },
     {
+        "text": "\u0430\u0432\u0442\u043e\u043a\u043e\u0434\u0435\u0440",
+        "text2": "autoencoder",
+        "text3": "codificador autom\u00e1tico"
+    },
+    {
         "text": "\u0430\u0432\u0442\u043e\u043a\u043e\u0440\u0435\u043a\u0446\u0456\u044f",
         "text2": "autocorrection",
         "text3": "auto-correcci\u00f3n"
@@ -424,11 +429,6 @@ var wordJsonVar =
         "text": "\u0430\u0434\u0435\u043f\u0442",
         "text2": "adept",
         "text3": "adepto"
-    },
-    {
-        "text": "\u0430\u0434\u043c\u0456\u043d",
-        "text2": "admin",
-        "text3": "administrador"
     },
     {
         "text": "\u0454\u0432\u0430\u043d\u0433\u0435\u043b\u0456\u0441\u0442",

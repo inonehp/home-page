@@ -64,7 +64,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/changelog.html",
-        "text": "Changelog\n\nChangelog. Site update history. About what&amp;#039;s new on the site. | changelog: ",
+        "text": "Changelog\n\nChangelog. Site update history. About what's new on the site. | changelog: ",
         "tag": " #update #news #new #page #main",
         "id": "5358dd68cd0d7e1d36bc7a96e2c64e47",
         "time": "id"
@@ -267,7 +267,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/mini-projects\/light-and-dark-design-29\/index.html",
-        "text": "Light &amp; dark design (Light &amp; Dark)\n\nLight &amp;amp; dark design (Light &amp;amp; Dark) | light and dark design: ",
+        "text": "Light & dark design (Light & Dark)\n\nLight & dark design (Light & Dark) | light and dark design: ",
         "tag": " #cpc #design #WebDesign #CSS #HTML #project",
         "id": "7ae7e14d472720bd5645b13d8f2bfe18",
         "time": "id"
@@ -673,7 +673,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/todo-list-31\/index.html",
-        "text": "To Do List\n\nTo-do, todo list. It&amp;#039;s a simple to-do list with the ability to pin tasks as daily. (Task list, tasks). | todo list: ",
+        "text": "To Do List\n\nTo-do, todo list. It's a simple to-do list with the ability to pin tasks as daily. (Task list, tasks). | todo list: ",
         "tag": " #todo #task #tool #JavaScript #project",
         "id": "25bac8c7ef282c01977ecafa4f3f789c",
         "time": "id"
@@ -897,7 +897,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/text.html",
-        "text": "Text\n\nLong text: article, post. I&amp;#039;m attempting to write something. Mini Blogger. | text: ",
+        "text": "Text\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | text: ",
         "tag": " #text #article #articles #post #page #main",
         "id": "63caf82fca46caa38ca0328bab57c966",
         "time": "id"
