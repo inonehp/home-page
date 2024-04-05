@@ -351,6 +351,18 @@ countVariantId++;
 quizVariantRandomOrder.sort(function(a,b) {return Math.random() - 0.5;});
 answer = quizVariantRandomOrder.join('');
 quizVariantRandomOrder = [];
+
+let printRounds = "5,7,10,20,30,40,50,100";
+let printRoundsFinal = "";
+printRounds.split(",").forEach((value, key) => {
+if (quizConfRound == value){
+printRoundsFinal += `<a class="inlineBlock padding gray" href="?r=${value}">${value}</a>`;
+} else {
+printRoundsFinal += `<a class="inlineBlock padding brand" href="?r=${value}">${value}</a>`;
+}
+});
+
+
 let qPrint = `
 
 
@@ -375,16 +387,16 @@ let qPrint = `
 
 <div class="padding2"></div>
 
-<div class="block padding2List tRight xSmall">
-<span class="op xSmall">Search:</span> <a rel="nofollow" class="brand" target="blank" href="/projects/25-redirects/?q=${question}">?q=${question} ⇗</a>
-</div>
+<!--<div class="block padding2List tRight xSmall">
+<span class="op xSmall">Search:</span> <a rel="nofollow" class="brand" target="blank" href="/?q=${question}">/?q=${question} ⇗</a>
+</div>-->
 
-<div class="block padding2List tRight">
+<!--<div class="block padding2List tRight">
 <details class="inlineBlock">
 <summary class="op pointer xSmall">orig:</summary>
-<div id="fDesc" class="block pre tLeft padding2 op bg small shadow light borderRadius2 margin2List" style="margin-left: 0; margin-right: 0;">${clearPostText} <a rel="nofollow" class="brand" target="blank" href="/projects/25-redirects/?q=${clearPostText}">q=${clearPostText} ⇗</a></div>
+<div id="fDesc" class="block pre tLeft padding2 op bg small shadow light borderRadius2 margin2List" style="margin-left: 0; margin-right: 0;">${clearPostText} <a rel="nofollow" class="brand" target="blank" href="/?q=${clearPostText}">/?q=${clearPostText} ⇗</a></div>
 </details>
-</div>
+</div>-->
 
 <span class="block tRight xSmall"><span class="sup">*</span> ${quizConfPercentTrue}% - true for win</span>
 
@@ -393,14 +405,7 @@ let qPrint = `
 <div class="padding2"></div>
 <div class="tRight">
 <span class="xSmall op">Conf rounds:</span>
-<a class="op tag" href="?r=5">5</a>
-<a class="op tag" href="?r=7">7</a>
-<a class="op tag" href="?r=10">10</a>
-<a class="op tag" href="?r=20">20</a>
-<a class="op tag" href="?r=30">30</a>
-<a class="op tag" href="?r=40">40</a>
-<a class="op tag" href="?r=50">50</a>
-<a class="op tag" href="?r=100">100</a>
+${printRoundsFinal}
 </div>
 
 `;

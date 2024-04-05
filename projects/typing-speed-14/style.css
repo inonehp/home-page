@@ -2,7 +2,9 @@
 
 .result,  textarea {
 margin: 0 auto;
-font-size: 120%; font-size: 1.3em; font-size: medium;
+font-size: 120%;
+font-size: 1.3em;
+font-size: medium;
 padding: 9px;
 }
 
@@ -30,6 +32,7 @@ max-height: 3em;
 overflow-x: hidden;
 overflow-y: auto;
 width: 100%;
+font-size: medium;
 }
 
 #lPrintTr {

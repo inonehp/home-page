@@ -504,6 +504,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/projects\/lnnguage-learning-quiz-45\/index.html",
+        "text": "Language learging quiz\n\nLanguage learging quiz. Language quiz. Quiz word. It is necessary to choose the correct version of the translated word. Language quiz. Word quiz. | lnnguage learning quiz: ",
+        "tag": " #learning #language #game #quiz #word #JavaScript #project",
+        "id": "d398031f52b6b8ade011bf2c93c71dde",
+        "time": "id"
+    },
+    {
         "url": "\/projects\/movie-list-19\/index.html",
         "text": "Movie List\n\nSmall list of movies, just a link to another movie database service, at the top there is a random movie from the list. JavaScript function for parse WATCHLIST.csv from IMDB. | movie list: ",
         "tag": " #movie #list #collection #random #JavaScript #project",
@@ -536,13 +543,6 @@ var sitemapJsonVar = [
         "text": "Quiz Game\n\nQuiz with different topics. Need to answer the questions correctly. An intellectual game. | quiz: ",
         "tag": " #game #quiz #JavaScript #project",
         "id": "a29c336aba704dec8e3a42c0f7261907",
-        "time": "id"
-    },
-    {
-        "url": "\/projects\/quiz-word-45\/index.html",
-        "text": "Quiz word game\n\nQuiz word. It is necessary to choose the correct version of the translated word. Language Quiz. Word Quiz. An intellectual game. | quiz word: ",
-        "tag": " #game #quiz #word #JavaScript #project",
-        "id": "7cc2901ad7e1d37e0f6268d3ba486439",
         "time": "id"
     },
     {
