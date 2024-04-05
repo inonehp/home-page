@@ -1,4 +1,4 @@
-// Remove duplicates v.1.0.1
+// Remove duplicates v.1.1.0
 // cp sorting
 
 // https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
@@ -82,7 +82,7 @@ result = result.split(conf["confSymbolForSplit"]);
 result = [...new Set(result)];
 //result.sort();
 if(com2 == 'sort'){ lNaturalSort(result); }
-if(com2 == 'reverse'){ result.reverse(); }
+if(com2 == 'reverse'){ lNaturalSort(result); result.reverse(); }
 result = result.join(` `);
 break;
 
@@ -93,7 +93,7 @@ result = [...new Set(result)];
 //result.sort();
 //lNaturalSort(result);
 if(com2 == 'sort'){ lNaturalSort(result); }
-if(com2 == 'reverse'){ result.reverse(); }
+if(com2 == 'reverse'){ lNaturalSort(result); result.reverse(); }
 result = result.join(`,`);
 break;
 
@@ -104,7 +104,7 @@ result = [...new Set(result)];
 //result.sort();
 //lNaturalSort(result);
 if(com2 == 'sort'){ lNaturalSort(result); }
-if(com2 == 'reverse'){ result.reverse(); }
+if(com2 == 'reverse'){ lNaturalSort(result); result.reverse(); }
 result = result.join(`|`);
 break;
 
@@ -114,7 +114,7 @@ result = [...new Set(result)];
 //result.sort();
 //lNaturalSort(result);
 if(com2 == 'sort'){ lNaturalSort(result); }
-if(com2 == 'reverse'){ result.reverse(); }
+if(com2 == 'reverse'){ lNaturalSort(result); result.reverse(); }
 result = result.join(``);
 break;
 
@@ -127,7 +127,7 @@ result = [...new Set(result)];
 //result.sort();
 //lNaturalSort(result);
 if(com2 == 'sort'){ lNaturalSort(result); }
-if(com2 == 'reverse'){ result.reverse(); }
+if(com2 == 'reverse'){ lNaturalSort(result); result.reverse(); }
 result = result.join(`
 `);
 

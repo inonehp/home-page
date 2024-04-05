@@ -26,11 +26,6 @@ var wordJsonVar =
         "text3": "abonado"
     },
     {
-        "text": "\u0430\u0431\u043e\u0440\u0442",
-        "text2": "abortion",
-        "text3": "aborto"
-    },
-    {
         "text": "\u0430\u0431\u0440\u0430\u043a\u0430\u0434\u0430\u0431\u0440\u0430",
         "text2": "abracadabra",
         "text3": "abracadabra"
@@ -1856,11 +1851,6 @@ var wordJsonVar =
         "text3": "p\u00f3ster"
     },
     {
-        "text": "\u0431\u0430\u0431\u0430",
-        "text2": "woman",
-        "text3": "mujer"
-    },
-    {
         "text": "\u0431\u0430\u0431\u0443\u0441\u044f",
         "text2": "grandmother",
         "text3": "abuela"
@@ -2243,7 +2233,7 @@ var wordJsonVar =
     {
         "text": "\u0431\u0430\u0440\u0431\u0435\u043a\u044e",
         "text2": "barbecue",
-        "text3": "parilla"
+        "text3": "barbacoa"
     },
     {
         "text": "\u0431\u0430\u0440\u0432\u0438\u0441\u0442\u0456\u0441\u0442\u044c",
@@ -2874,11 +2864,6 @@ var wordJsonVar =
         "text": "\u0431\u043b\u044f\u0448\u043a\u0430",
         "text2": "plaque",
         "text3": "placa"
-    },
-    {
-        "text": "\u0431\u043b\u0456\u043d",
-        "text2": "damn",
-        "text3": "maldita sea"
     },
     {
         "text": "\u0431\u043e\u0431\u0435\u0440",
@@ -3931,6 +3916,31 @@ var wordJsonVar =
         "text3": "prisi\u00f3n"
     },
     {
+        "text": "\u0432'\u044f\u043d\u0435\u043d\u043d\u044f",
+        "text2": "withering",
+        "text3": "marchitez"
+    },
+    {
+        "text": "\u0432\u0456\u0431\u0440\u0430\u0442\u043e\u0440",
+        "text2": "vibrator",
+        "text3": "vibrador"
+    },
+    {
+        "text": "\u0432\u0456\u0431\u0440\u0430\u0446\u0456\u044f",
+        "text2": "vibration",
+        "text3": "vibraci\u00f3n"
+    },
+    {
+        "text": "\u0432\u0456\u0431\u0440\u0443\u0432\u0430\u043d\u043d\u044f",
+        "text2": "vibration",
+        "text3": "vibraci\u00f3n"
+    },
+    {
+        "text": "\u0432\u0456\u0432\u0441\u044f\u043d\u043a\u0430",
+        "text2": "oatmeal",
+        "text3": "harina de avena"
+    },
+    {
         "text": "\u0454\u0432\u0430\u043d\u0433\u0435\u043b\u0456\u0441\u0442",
         "text2": "evangelist",
         "text3": "evangelista"
@@ -4066,11 +4076,6 @@ var wordJsonVar =
         "text3": "idioma"
     },
     {
-        "text": "\u0456\u0434\u0456\u043e\u0442",
-        "text2": "idiot",
-        "text3": "idiota"
-    },
-    {
         "text": "\u0456\u0437\u043e\u043b\u044f\u0442\u043e\u0440",
         "text2": "insulator",
         "text3": "aislante"
@@ -4204,11 +4209,6 @@ var wordJsonVar =
         "text": "\u0456\u043c\u043f\u043b\u0430\u043d\u0442\u0430\u0442",
         "text2": "implant",
         "text3": "implante"
-    },
-    {
-        "text": "\u0456\u043c\u043f\u043b\u043e\u0437\u0456\u044f",
-        "text2": "implosion",
-        "text3": "implosi\u00f3n"
     },
     {
         "text": "\u0456\u043c\u043f\u043e\u0440\u0442",
