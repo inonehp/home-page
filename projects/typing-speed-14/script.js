@@ -1,4 +1,4 @@
-// Typing Speed Test and game v.3.15.19
+// Typing Speed Test and game v.3.15.20
 
 
 
@@ -14,7 +14,7 @@ const mostCommonWordsLimit = 20;
 var topWords = '';
 //https://catalins.tech/store-array-in-localstorage/
 var arrWPMaverage = JSON.parse(localStorage.getItem("arrWPMaverage"));
-if(arrWPMaverage == null){ arrWPMaverage = []; }
+if (arrWPMaverage == null){ arrWPMaverage = []; }
 
 
 document.getElementById("win").innerHTML = ``;
@@ -31,17 +31,17 @@ var  geturl = window.location;
 var url = new URL(geturl);
 
 var mode = url.searchParams.get("mode");
-if(mode33 != ''){ mode = mode33; }
+if (mode33 != ''){ mode = mode33; }
 
 var q = url.searchParams.get("q");
-if(mode == null&&q !== null&&q != undefined&&q != ''){ mode = 'input'; }
+if (mode == null&&q !== null&&q != undefined&&q != ''){ mode = 'input'; }
 
 var lastEror = '';
 
-if(mode != null){ localStorage.setItem("mode", mode); }else{
-if(localStorage.getItem("mode")){ mode = localStorage.getItem("mode"); }
+if (mode != null){ localStorage.setItem("mode", mode); } else {
+if (localStorage.getItem("mode")){ mode = localStorage.getItem("mode"); }
 }
-if(mode == null){ mode = 'quote'; }
+if (mode == null){ mode = 'quote'; }
 
 
 
@@ -60,12 +60,12 @@ modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
 //hide none mode in not localhost
 var skip = '';
-if(location.hostname != 'localhost'&&item == 'none'||location.hostname != 'localhost'&&item == 'b2'||location.hostname != 'localhost'&&item == 'f2'){ skip = 'yes'; }
-if(mode == item && skip != 'yes'){
+if (location.hostname != 'localhost'&&item == 'none'||location.hostname != 'localhost'&&item == 'b2'||location.hostname != 'localhost'&&item == 'f2'){ skip = 'yes'; }
+if (mode == item && skip != 'yes'){
 modeListPrint += `
 <a class="tag light4 border2 borderRadius2" style="color: var(--c3);" href="?">`+item+`</a>
 `;
-}else if(skip != 'yes'){
+} else if (skip != 'yes'){
 modeListPrint += `
 <a class="tag op light3 border2 borderRadius2" onclick="localRefresh('`+item+`');" href="?">`+item+`</a>
 `;
@@ -88,8 +88,8 @@ ${modeListPrint}
 
 
 /*window.onload = function() {
-    if(!window.location.hash) {
-		if(mode == null){
+    if (!window.location.hash) {
+		if (mode == null){
         window.location = window.location + '#loaded';
         window.location.reload();
 
@@ -98,12 +98,12 @@ ${modeListPrint}
 }*/
 
 
-if(mode == 'quote'){
+if (mode == 'quote'){
 
 var quote = '';
 quote = quoteJsonVar;
 
-if(quote != null){
+if (quote != null){
 const random = Math.floor(Math.random() * quote.length);
 //console.log(quote[random]['text']);
 task = quote[random]['text'];
@@ -117,7 +117,7 @@ main(task);
 
 
 
-if(mode == 'book'||mode == 'b2'){
+if (mode == 'book'||mode == 'b2'){
 
 var book = '';
 var bookLength = 1000;
@@ -125,7 +125,7 @@ var bookLength = 1000;
 
 book = bookJsonVar;
 
-if(book != null){
+if (book != null){
 const random = Math.floor(Math.random() * book.length);
 //console.log(book[random]['text']);
 task = book[random]['text'];
@@ -160,7 +160,7 @@ main(task);
 // https://stackoverflow.com/questions/9713058/send-post-data-using-xmlhttprequest
 mode300 = mode; // fixed without var
 
-if(mode == 'none'||mode == 'b2'||mode == 'f2'){
+if (mode == 'none'||mode == 'b2'||mode == 'f2'){
 document.getElementById("lPrintTr").style.display = "block";
 
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
@@ -170,10 +170,10 @@ document.querySelectorAll('textarea')[0].addEventListener('input', updateValue33
 function updateValue3333(e) {
 
 //console.log(mode300);
-if(mode300 == 'none'||mode300 == 'b2'||mode300 == 'f2'){
-if(location.hostname == 'localhost'){
+if (mode300 == 'none'||mode300 == 'b2'||mode300 == 'f2'){
+if (location.hostname == 'localhost'){
 // source code none
-if(mode300 != 'b2'){ fuLtr(e.target.value); }
+if (mode300 != 'b2'){ fuLtr(e.target.value); }
 let text = encodeURIComponent(e.target.value);
 //let text = (e.target.value);
 let http = new XMLHttpRequest();
@@ -184,7 +184,7 @@ http.open('POST', url2, true);
 //Send the proper header information along with the request
 http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 http.onreadystatechange = function() {//Call a function when the state changes.
-if(http.readyState == 4 && http.status == 200) {
+if (http.readyState == 4 && http.status == 200) {
 // alert(http.responseText);
 
 document.getElementById("lPrintTr").innerHTML = http.responseText + '';
@@ -193,13 +193,13 @@ document.getElementById("lPrintTr").innerHTML = http.responseText + '';
 }
 http.send(params);
 }
-}else{
+} else {
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
 document.getElementById("lPrintTr").innerHTML = '';
 document.getElementById("lPrintTr").style.display = "none";
 }
 }
-}else{
+} else {
 document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
 document.getElementById("lPrintTr").innerHTML = '';
 document.getElementById("lPrintTr").style.display = "none";
@@ -216,12 +216,12 @@ document.getElementById("lPrintTr").style.display = "none";
 
 
 
-if(mode == 'abc'){
+if (mode == 'abc'){
 task = "           abcdefghijklmnopqrstuvwxyz";
 main(task);
 }
 
-if(mode == 'input'||mode == 'none'){
+if (mode == 'input'||mode == 'none'){
 var tg = '';
 document.getElementById("bookmarklet").style.display = "inline-block";
 
@@ -238,7 +238,7 @@ document.getElementsByClassName("input")[0].innerHTML = `
 
 // input from input in bottom 2 textarea
 // input listener and print result
-if(document.querySelectorAll('textarea').length >= 1){
+if (document.querySelectorAll('textarea').length >= 1){
 var inputA = document.querySelectorAll('textarea')[1];
 inputA.removeEventListener('input', updateValueInput);
 inputA.addEventListener('input', updateValueInput);
@@ -259,19 +259,19 @@ document.getElementById("input2Status").innerHTML = `<span class="op xSmall">may
 
 // input from Get
 input = url.searchParams.get("q");
-if(input != null){
-if(input != null){
+if (input != null){
+if (input != null){
 localStorage.setItem("input", input); task = input;
-}else{
-if(localStorage.getItem("input")){ task = localStorage.getItem("input"); }
+} else {
+if (localStorage.getItem("input")){ task = localStorage.getItem("input"); }
 }
 
 
 
 main(task);
-}else{
+} else {
 task = localStorage.getItem("input");
-if(task != null){
+if (task != null){
 main(task);
 }
 }
@@ -279,7 +279,7 @@ main(task);
 
 
 
-}else{
+} else {
 document.getElementsByClassName("input")[0].innerHTML = '';
 //document.getElementById("mode2").innerHTML = '';
 document.getElementById("bookmarklet").style.display = "none";
@@ -291,57 +291,23 @@ document.getElementById("bookmarklet").style.display = "inline-block";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-if(mode == 'free'||mode == 'f2'){
+if (mode == 'free'||mode == 'f2'){
 document.getElementById('text').rows = '7';
 task = '';
 main('');
-}else{
+} else {
 document.getElementById('text').rows = '';
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function fuLtr(task){
-document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/projects/redirects-25/?q='+encodeURIComponent(task)+'  t">tr</a>';
-if(location.hostname == 'localhost'){
-document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" href="/?q='+encodeURIComponent(task)+'  d"> tr2</a>';
+if (location.hostname == 'localhost'){
+document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/?q='+encodeURIComponent(task) + ' d"> tr2</a>';
+document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task) + ' t">tr</a>';
+} else {
+document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task) + ' t">tr</a>';
 }
 }
 
@@ -350,21 +316,17 @@ document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadi
 //setTimeout(function () {
 function main(task){
 
-if(mode != 'abc'&&mode != 'free'&&mode != 'f2'){
+if (mode != 'abc'&&mode != 'free'&&mode != 'f2'){
 fuLtr(task);
-}else{
+} else {
 document.getElementById("mode2").innerHTML = '';
 }
 
 /*
-if(task != null){
+if (task != null){
 //console.log(task);
 task = task.replaceAll(/%/g, "%25"); // not show text, percentage
 }*/
-
-
-
-
 
 
 
@@ -374,7 +336,7 @@ var letters = [...task];
 //task = decodeURIComponent(task); //Uncaught URIError: malformed URI sequence
 //https://stackoverflow.com/questions/17564837/how-to-know-if-a-url-is-decoded-encoded
 /*try{
-if(decodeURIComponent(letters) != letters){
+if (decodeURIComponent(letters) != letters){
 letters = decodeURIComponent(letters)
 }
 }
@@ -382,7 +344,7 @@ catch(err){
 // not decoded
 }*/
 
-if(mode == 'abc'){
+if (mode == 'abc'){
 
 letters = letters.join("");
 letters = letters.repeat(5);
@@ -402,12 +364,9 @@ shuffleArray(letters);
 
 
 
-
 let text = '';
 
-
 text = letters.join("");
-
 
 
 //console.log(letters);
@@ -426,6 +385,7 @@ var a = {
 };
 
 
+
 function transliterate(word){
 word = [...word];
 return word.map(function (char) {
@@ -433,13 +393,11 @@ return a[char] || char;
 }).join("");
 }
 
-if(mode == 'abc'){ text = text.replaceAll(/\s{2,}/g, ' '); /* space */ }
+if (mode == 'abc'){ text = text.replaceAll(/\s{2,}/g, ' '); /* space */ }
 
 letters = text;
 
 /**/
-
-
 // clean text
 
 // replace symbol
@@ -497,7 +455,7 @@ letters = transliterate(letters);
 
 //https://stackoverflow.com/questions/17564837/how-to-know-if-a-url-is-decoded-encoded
 /*try{
-if(encodeURIComponent(letters) != letters){
+if (encodeURIComponent(letters) != letters){
 letters = encodeURIComponent(letters)
 }
 }
@@ -586,7 +544,7 @@ letters = letters.replaceAll(/%E2%81%A9/g, "");
 
 //https://stackoverflow.com/questions/17564837/how-to-know-if-a-url-is-decoded-encoded
 /*try{
-if(decodeURIComponent(letters) != letters){
+if (decodeURIComponent(letters) != letters){
 letters = decodeURIComponent(letters)
 }
 }
@@ -704,7 +662,7 @@ const errorLimit = 500 - 1;
 
 var wpmRecord = localStorage.getItem("wpmRecord");
 
-if(wpmRecord == null||wpmRecord < 0||wpmRecord == undefined){ wpmRecord =  0; }
+if (wpmRecord == null||wpmRecord < 0||wpmRecord == undefined){ wpmRecord =  0; }
 
 
 // input value
@@ -723,20 +681,20 @@ var text = '';
 /*
 // scroll with interval test
 var scrollToVar = '';
-if(answerArr.length % 140 == 0){
+if (answerArr.length % 140 == 0){
 scrollToVar = '<span id="scrollTo"></span>'; 
-}else if(confDevice == 'mobile'){
+} else if (confDevice == 'mobile'){
 scrollToVar = '<span id="scrollTo"></span>';
 }
 text = '<span class="green">'+text11+'</span>'+scrollToVar+text33;
 document.getElementById("result").innerHTML = text;
-if(scrollToVar !=  ''){ document.getElementById("scrollTo").scrollIntoView(true); }
+if (scrollToVar !=  ''){ document.getElementById("scrollTo").scrollIntoView(true); }
 */
 
 
 
 
-if(mode != 'free'&&mode != 'f2'){
+if (mode != 'free'&&mode != 'f2'){
 letters.forEach(myFunctionCheckAll);
 }
 function myFunctionCheckAll(item, index) {
@@ -745,7 +703,7 @@ function myFunctionCheckAll(item, index) {
 //console.log(answerArr[index]+'=['+item+']');
 
 
-if(answerArr.length >= lastMaxInputlength){ 	lastMaxInputlength = answerArr.length; }
+if (answerArr.length >= lastMaxInputlength){ 	lastMaxInputlength = answerArr.length; }
 
 
 
@@ -756,21 +714,21 @@ if(answerArr.length >= lastMaxInputlength){ 	lastMaxInputlength = answerArr.leng
 //console.log(item);
 //console.log(answerArr[index]);
 var check = 'no';
-if(item == answerArr[index]&&error <= errorLimit){
+if (item == answerArr[index]&&error <= errorLimit){
 check = 'yes';
 //id = 'id'+index;
 lastEror = ' green ';
 
 item = replaceCode(item);
 text11 += item;
-/*if(item == ' '){
+/*if (item == ' '){
 text11 += item;
-}else{
+} else {
 text11 += item;
 }*/
 
 
-}else if(item != answerArr[index]&&answerArr[index] != undefined&&error <= errorLimit){
+} else if (item != answerArr[index]&&answerArr[index] != undefined&&error <= errorLimit){
 check = 'yes';
 lastEror = 'red';
 item = replaceCode(item);
@@ -795,23 +753,23 @@ text11 += '<span class="red">'+item+'</span>';
 //console.log(index);
 //console.log(answerArr.length - 1+'='+index);
 
-/*if(answerArr.length  <= letters.length){
+/*if (answerArr.length  <= letters.length){
 inputGetKey.onkeydown = function(e) {
 
-if(answerArr.length - 1 == index){
+if (answerArr.length - 1 == index){
 var key = e.keyCode || e.charCode;
 var key2 = e.key; 
-if(key != '229'&&key != 8&&key != 46&&key2 != 'Backspace'&&key2 != 'Delete' ){
+if (key != '229'&&key != 8&&key != 46&&key2 != 'Backspace'&&key2 != 'Delete' ){
 totalError++;
 }
 // mobile 
-if(key == '229'&&lastMaxInputlength == answerArr.length&&letters[lastMaxInputlength - 1] != answerArr[lastMaxInputlength - 1]){ totalError++; }
+if (key == '229'&&lastMaxInputlength == answerArr.length&&letters[lastMaxInputlength - 1] != answerArr[lastMaxInputlength - 1]){ totalError++; }
 
 }
 }}*/
 	
 	
-/*if(answerArr.length  <= letters.length){
+/*if (answerArr.length  <= letters.length){
 totalError++;
 }*/
 error++;
@@ -819,7 +777,7 @@ error++;
 }
 
 
-if(check == 'no'){
+if (check == 'no'){
 text33 += item; 
 }
 
@@ -834,7 +792,7 @@ document.getElementById("result").innerHTML = text;
 document.getElementById("scrollTo").scrollIntoView(true);
 //document.getElementById("scrollTo").scrollIntoViewIfNeeded();
 
-if(document.getElementById("scrollTo2") != null){
+if (document.getElementById("scrollTo2") != null){
 document.getElementById("scrollTo2").scrollIntoView(true);
 }
 
@@ -843,15 +801,15 @@ document.getElementById("scrollTo2").scrollIntoView(true);
 /* stat */
 
 
-if(letters.length >= answerArr.length||mode == 'free'||mode == 'f2'){
+if (letters.length >= answerArr.length||mode == 'free'||mode == 'f2'){
 
-//if(key2 == 'Backspace'||key2 == 'Delete'){ }else{}
+//if (key2 == 'Backspace'||key2 == 'Delete'){ } else {}
 dateArr.push(Date.now());
 
 
 //dateArr = dateArr.slice(-400);
 var sec = 0;
-if(dateArr[dateArr.length-2] != undefined){
+if (dateArr[dateArr.length-2] != undefined){
 const millis = dateArr[dateArr.length-1]-dateArr[dateArr.length-2];
 //sec = Math.floor(millis/1000);
 sec = ((millis % 60000) / 1000);
@@ -879,27 +837,27 @@ wpm = wpm.toFixed(0);
 }
 
 
-if(isNaN(wpm)){ wpm = 0; }
+if (isNaN(wpm)){ wpm = 0; }
 
-if(error >= 1) { errorColor = 'red'; }else{ errorColor = 'green'; }
+if (error >= 1) { errorColor = 'red'; } else { errorColor = 'green'; }
 
-if(lastEror == 'red'){
+if (lastEror == 'red'){
 
 // totalError
-if(key != '229'&&key != 8&&key != 46&&key2 != 'Backspace'&&key2 != 'Delete' ){ totalError++; }
-if(key == '229'){
-if(lastMaxInputlength == answerArr.length){ totalError++; } // only last new error on mobile
+if (key != '229'&&key != 8&&key != 46&&key2 != 'Backspace'&&key2 != 'Delete' ){ totalError++; }
+if (key == '229'){
+if (lastMaxInputlength == answerArr.length){ totalError++; } // only last new error on mobile
 }
 
 
 
 lastEror = 'none';
 document.getElementById("text").style.borderTop = "9px solid var(--red)";
-/*if(error <= 60){
+/*if (error <= 60){
 //document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>'; 
 }*/
 
-}else{
+} else {
 document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 }
 
@@ -911,17 +869,17 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 let acurancyTotal = 0;
-if(/*answerArr.length == letters.length&&*/mode != 'free'&&mode != 'f2'){
+if (/*answerArr.length == letters.length&&*/mode != 'free'&&mode != 'f2'){
 
 acurancy = error * 100 / answerArr.length;
 acurancy =  100 - acurancy.toFixed(0);
 
 
-//if(answerArr.length == letters.length){}
+//if (answerArr.length == letters.length){}
 acurancyTotal = totalError * 100 / answerArr.length;
 acurancyTotal =  100 - acurancyTotal.toFixed(0);
 
-}else{ acurancy = '0 '; acurancyTotal = '0'; }
+} else { acurancy = '0 '; acurancyTotal = '0'; }
 
 //document.getElementById("stat").innerHTML = sec+' | '+timeAverage.toFixed(2)+' sec. || '+error+' <span class="'+errorColor+'">error</span>';
 document.getElementById("stat").innerHTML = 
@@ -942,8 +900,8 @@ document.getElementById("scrollTo").scrollIntoView(true);
 
 
 
-//if(letters.length == answerArr.length && error <= allowError&&mode != 'free'&&task.length >= 5){
-if(task.length == answerArr.length && error <= allowError&&mode != 'free'&&mode != 'f2'&&task.length >= 5){
+//if (letters.length == answerArr.length && error <= allowError&&mode != 'free'&&task.length >= 5){
+if (task.length == answerArr.length && error <= allowError&&mode != 'free'&&mode != 'f2'&&task.length >= 5){
 
 
 
@@ -952,7 +910,7 @@ var printMsgWin = '';
 
 
 
-/*if(wpm < wpmRecord){
+/*if (wpm < wpmRecord){
 recordMsg = wpm / wpmRecord * 100;
 recordMsg = 100 - speedUp;
 recordMsg = speedUp.toFixed(0);
@@ -979,23 +937,23 @@ WPMaverage = (Number(WPMaverage) / Number(arrWPMaverage.length)).toFixed(0);
 
 
 var wpmAverageProgress = WPMaverage - prevWPMaverage;
-if(wpmAverageProgress < 0){
+if (wpmAverageProgress < 0){
 wpmAverageProgress = ' (<span class="red">' + wpmAverageProgress + '</span>)';
-}else if(wpmAverageProgress > 0){
+} else if (wpmAverageProgress > 0){
 wpmAverageProgress = ' (<span class="green">+' + wpmAverageProgress + '</span>)';
-}else{
+} else {
 wpmAverageProgress = ' (<span class="op gray">' + wpmAverageProgress + '</span>)';
 }
 
 
 
-if(wpm == wpmRecord){
+if (wpm == wpmRecord){
 recordMsg = ' <span class="yellow"> Old Record</span>';
 printMsgWin = 'tie';
 printMsgWinColor = 'blue';
 }
 
-if(wpm > wpmRecord){
+if (wpm > wpmRecord){
 recordMsg = ' <span class="orange"> New Record</span>';
 localStorage.setItem("wpmRecord", wpm);
 printMsgWin = 'win';
@@ -1006,17 +964,17 @@ var wpmProgress = " ";
 var prevWpm = localStorage.getItem("prevWpm");
 localStorage.setItem("prevWpm", wpm);
 
-if(prevWpm == null ||prevWpm == Infinity){ prevWpm =  0; }
+if (prevWpm == null ||prevWpm == Infinity){ prevWpm =  0; }
 wpmProgress = wpm - prevWpm;
-if(wpmProgress < 0){
+if (wpmProgress < 0){
 printMsgWin = 'game over';
 printMsgWinColor = 'red';
 wpmProgress = ' (<span class="red">' + wpmProgress + '</span>)';
-}else if(wpmProgress > 0){
+} else if (wpmProgress > 0){
 printMsgWin = 'Good result';
 printMsgWinColor = 'green';
 wpmProgress = ' (<span class="green">+' + wpmProgress + '</span>)';
-}else{
+} else {
 printMsgWin = 'Good result';
 printMsgWinColor = ' op gray ';
 wpmProgress = ' (<span class="op gray">' + wpmProgress + '</span>)';
@@ -1030,43 +988,43 @@ var acurancyProgress = 0;
 var prevAcurancy = localStorage.getItem("prevAcurancy");
 localStorage.setItem("prevAcurancy", acurancyTotal);
 
-if(prevAcurancy == null ||prevAcurancy == Infinity||prevAcurancy == NaN){ prevAcurancy =  0; }
+if (prevAcurancy == null ||prevAcurancy == Infinity||prevAcurancy == NaN){ prevAcurancy =  0; }
 acurancyProgress = acurancyTotal - prevAcurancy;
-if(acurancyProgress < 0){
+if (acurancyProgress < 0){
 acurancyProgress = ' (<span class="red">' + acurancyProgress + '</span>)';
-}else if(acurancyProgress > 0){
+} else if (acurancyProgress > 0){
 acurancyProgress = ' (<span class="green">+' + acurancyProgress + '</span>)';
-}else{
+} else {
 acurancyProgress = ' (<span class="op gray">' + acurancyProgress + '</span>)';
 }
 
 
 
-if(printMsgWin == 'win'){
+if (printMsgWin == 'win'){
 document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/win.mp3"></audio>';
 printMsgWin = 'Win';
 }
 
-if(printMsgWin == 'tie'){
+if (printMsgWin == 'tie'){
 document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>';
 printMsgWin = 'Tie';
 }
 
 
 
-if(printMsgWin == 'Good result'||printMsgWin == 'tie'){
+if (printMsgWin == 'Good result'||printMsgWin == 'tie'){
 document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/neutral.mp3"></audio>';
 printMsgWin = 'Good result';
 }
 
-if(printMsgWin == 'game over'){
+if (printMsgWin == 'game over'){
 document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>';
 printMsgWin = 'The previous result is better';
 }
 
 
 // disable msg
-if(printMsgWin != 'win'&&printMsgWin != 'tie'){
+if (printMsgWin != 'win'&&printMsgWin != 'tie'){
 printMsgWin = '';
 //document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.mp3"></audio>';
 }
@@ -1089,7 +1047,7 @@ let winMsg = `
 document.getElementsByClassName("win")[0].innerHTML = winMsg;
 //document.getElementsByClassName("win")[1].innerHTML = winMsg;
 
-}else{
+} else {
 document.getElementsByClassName("win")[0].innerHTML = '';
 document.getElementsByClassName("win")[1].innerHTML = '';
 document.getElementById("sound").innerHTML = '';
@@ -1133,7 +1091,7 @@ topWords = topWords.split(" ");
 //https://stackoverflow.com/questions/19395257/how-to-count-duplicate-value-in-an-array-in-javascript
 var counts = [];
 topWords.forEach(function (x) {
-if(Number.isInteger((counts[x] || 0) + 1) == true){
+if (Number.isInteger((counts[x] || 0) + 1) == true){
 counts[x] = (counts[x] || 0) + 1;
 }
 });
@@ -1162,7 +1120,7 @@ print = '';
 topWords.forEach(myFunction288);
 function myFunction288(item, index) {
 qGo2 = item['key'];
-if(qGo2 != ''){
+if (qGo2 != ''){
 var qGo = encodeURIComponent(qGo2);
 print += `
 <a target="_blank" href="/projects/redirects-25/?q=${qGo}">${qGo2} [${item['value']}]</a>,

@@ -1,5 +1,4 @@
-/* Auto CSS v.1.0.1 */
-/* Light Dark auto theme */
+/* Auto dark light CSS theme v.1.2.0 */
 /* if no main.js for set theme */
 
 /* light */
@@ -38,27 +37,13 @@
 --violet2: #B03D8A;
 }
 
-
-
 html{ scrollbar-color: var(--d3) var(--l2); }
 ::-webkit-scrollbar { background-color: var(--l2); }
 ::-webkit-scrollbar-thumb { background-color: var(--d3); }
 
-@media (prefers-color-scheme: light) {
-body{
-background-image: url("/img/bg-light.svg");
-background-repeat: repeat;
-background-attachment: fixed;
-}
-}
-
-
-
 
 
 /* dark */
-
-
 @media (prefers-color-scheme: dark) {
 :root{
 --bg: #2D2D2E;
@@ -99,10 +84,6 @@ html{ scrollbar-color: var(--l4) var(--d2); }
 ::-webkit-scrollbar { background-color: var(--d2); }
 ::-webkit-scrollbar-thumb { background-color: var(--l3); }
 
-body{
-background-image: url("/img/bg-dark.svg");
-background-repeat: repeat;
-background-attachment: fixed;
 }
 
-}
+

@@ -17,6 +17,7 @@ empty keywords,
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="stylesheet" type="text/css" href="auto.css">
 <link rel="stylesheet" type="text/css" href="main.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -27,15 +28,16 @@ empty keywords,
 <body>
 
 
-<div class="content">
-<div class="wrapper2">
+<main class="content">
+<div class="wrapper">
 
-<div class="block padding2"></div>
+<div class="padding2"></div>
 <a class="block tCenter padding2" target="_blank" href="options.html">⚙️ Settings (in new window)</a>
 
 <div class="center">
-<div class="button">key pressed: 
-<input class="tCenter" id="keyPressed" style="width: 120px; position: relative; z-index: -1;" type="text" autocomplete="off"></div>
+<span class="small">key pressed:</span> 
+<input class="tCenter" id="keyPressed" type="text" autocomplete="off" style="width: 120px;  position: relative; z-index: -1;">
+</div>
 </div>
 
 <form>
@@ -43,7 +45,7 @@ empty keywords,
 <div class="grid">
 
 <div>key (max 3):</div>
-<div>URL (optional: %title, %url, %selection, %blank or %NewTab, %input)</div>
+<div>URL (optional: %title, %url, %selection, !blank or !NewTab, %input)</div>
 
 <!-- 5 -->
 <input class="classHotkeyId padding2" type="text" autocomplete="off">
@@ -63,7 +65,7 @@ empty keywords,
 
 
 <!-- 5 -->
-<input class="classHotkeyId padding2" type="text" autocomplete="off">
+<!--<input class="classHotkeyId padding2" type="text" autocomplete="off">
 <input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
 
 <input class="classHotkeyId padding2" type="text" autocomplete="off">
@@ -77,7 +79,7 @@ empty keywords,
 
 <input class="classHotkeyId padding2" type="text" autocomplete="off">
 <input class="classHotkeyIdUrl padding2" type="text" autocomplete="off">
-
+-->
 
 
 </div>
@@ -173,7 +175,7 @@ empty keywords,
 </form>
 
 </div>
-</div>
+</main>
 
 <div class="block padding2"></div>
 

@@ -1,7 +1,6 @@
-/* Main style v.16.3.0
+/* Main style v.16.5.4
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
-
 
 
 
@@ -34,6 +33,11 @@ Responsive, mainly class-based */
 --padding2: 10px;
 --padding3: 15px;
 --padding4: 30px;
+
+--borderRadius: 3px;
+--borderRadius2: 5px;
+--borderRadius3: 15px;
+--borderRadius4: 30px;
 
 --itemHeight: 30px;
 --itemHeight2: 45px;
@@ -104,9 +108,9 @@ width: 100%;
 .h5 { font-size: 1.11em; }
 .h6 { font-size: 1.1em; }
 
-input[type="text"], input[type="search"], textarea, input[type="submit"], input[type="email"], input[type="password"], form button, .submit{
+input[type="submit"], input[type="button"], input[type="text"], input[type="search"], textarea, input[type="email"], input[type="password"], form button, .submit{
 width: 100%;
-min-inline-size: 100%;
+/*delme min-inline-size: 100%;*/
 min-height:  var(--inputHeight);
 margin: 0px;
 margin-top: 1px;
@@ -117,6 +121,7 @@ display: block;
 padding: var(--padding2);
 }
 input[type="submit"], .submit { text-align: center; }
+input[type="button"] { cursor: pointer; }
 
 select, input[type="color"], input[type="date"], input[type="number"], input[type="time"], input[type="reset"], input[type="datetime-local"], input[type="file"], input[type="month"], input[type="tel"], input[type="url"], input[type="week"] {
 margin-top: 1px;
@@ -146,15 +151,12 @@ td { padding: 5px; }
 
 
 
-
-
-
-
 /* class */
 .post {
 /* use with .postContent (wrapper) */
 /*display: block;*/
 width: 100%;
+max-width: 100%;
 margin: 0 auto;
 overflow: auto;
 padding: var(--padding3);
@@ -193,9 +195,9 @@ padding-top: calc(var(--padding) / 2);
 display: inline-block;
 padding: var(--padding);
 padding-left: 0;
-padding-right: var(--padding2);
+margin-right: calc(var(--padding) * 2);
 }
-.postFooter:last-child { padding-right: 0; }
+.postFooter a:last-child, .postFooter2 a:last-child { margin-right: 0; }
 
 @media(max-width: 300px) { .postFooter { grid-template-columns: 1fr;} }
 
@@ -275,7 +277,7 @@ margin-bottom: 1px;
 /* ico2 - for img */
 .ico, .ico2 {
 opacity: 0.9;
-margin-right: .5em;
+margin-right: 5px;
 text-align: center;
 display: inline-flex;
 justify-content: center;
@@ -309,7 +311,6 @@ scrollbar-width: none;
 
 
 
-
 /* Ads */
 .ads { }
 .adsHeader { display: inline-block; text-align: right;
@@ -317,14 +318,11 @@ border: 1px solid var(--d);
 float: right;
 padding: 0px 5px;
 margin-left: 3px;
-border-radius: 5px;
+border-radius: var(--borderRadius);
 }
 .adsHeader a { font-size: x-small; }
 .adsBody { display: block;  padding: 0px 5px; }
 .adsCode { text-align: left; display: inline-block; max-width: 100%; }
-
-
-
 
 
 
@@ -365,8 +363,8 @@ right: 0;
 .center3 { min-height: 50vh; }
 .center4 { min-height: 100vh; }
 
-.left { text-align: left; justify-content: left; }
-.right { text-align: right; justify-content: right; }
+.left { text-align: left; justify-content: left; margin-left: 0; }
+.right { text-align: right; justify-content: right; margin-right: 0; }
 
 .balance { text-wrap: balance; }
 
@@ -401,6 +399,8 @@ right: 0;
 
 .w100 { width: 100%; }
 .h100 { height: 100%; }
+.w50 { width: 50%; }
+.h50 { height: 50%; }
 
 .invert {
 -webkit-filter: invert(100%);
@@ -428,8 +428,10 @@ filter: invert(100%);
 .tRight { text-align: right; }
 .b, .b a, .bold, .bold a { font-weight: bold; }
 .normal, .normal a { font-weight: normal; font-size: unset; }
+.unser, .unser a { font-size: unset; }
 .medium, .medium a { font-size: medium; }
 .large, .large a { font-size: large; }
+.larger, .larger a { font-size: larger; }
 .xLarge, .xLarge a { font-size: x-large; }
 .xxLarge, .xxLarge a { font-size: xx-large; }
 .xxxLarge, .xxxLarge a { font-size: xxx-large; }
@@ -454,13 +456,10 @@ scroll-padding-top: 16px;
 
 .break { overflow: hidden; white-space: normal; word-break: break-word; overflow-wrap: break-word; }
 .break2 { overflow: hidden; white-space: normal; word-break: break-all; }
-.borderRadius { border-radius: 3px; }
-.borderRadius2 { border-radius: 5px; }
-.borderRadius3 { border-radius: 15px; }
-.borderRadius4 { border-radius: 30px; }
-
-
-
+.borderRadius { border-radius: var(--borderRadius); }
+.borderRadius2 { border-radius: var(--borderRadius2); }
+.borderRadius3 { border-radius: var(--borderRadius3); }
+.borderRadius4 { border-radius: var(--borderRadius4); }
 
 
 
@@ -481,11 +480,11 @@ hr{ border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
 mark { font-weight: bold;}
 
 input, input:focus, textarea, select, button, input[type="file"] { 
-border: 1px solid var(--d3); background: var(--l2); color: var(--c3); border-radius: 3px; }
+border: 1px solid var(--d3); background: var(--l2); color: var(--c3); border-radius: var(--borderRadius); }
 input:hover, textarea:hover, select:hover, button:hover, input[type="file"]:hover {  background: var(--l3); }
 
-input[type="submit"],  form button[type="submit"], form button, .submit {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: 3px; }
-input[type="submit"]:hover, form button[type="submit"]:hover, form button:hover, .submit:hover { background: var(--d2); color: var(--c3); }
+input[type="submit"],  form button[type="submit"], .submit/*, form button, input[type="button"]*/ {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: var(--borderRadius); }
+input[type="submit"]:hover, form button[type="submit"]:hover, form button:hover, .submit:hover, input[type="button"]:hover { background: var(--d2); color: var(--c3); }
 
 
 input[type="range"], progress { width: 100%; max-width: 100%; margin: 0; }
@@ -507,13 +506,13 @@ form fieldset { border: 1px solid var(--d3); }
 .c3 { color: var(--c3); }
 .c4 { color: var(--c4); }
 
-/* rC - reverse c  (new, not tested yet) */
+/* rC - reverse c  (new) */
 .rC { color: var(--rC); }
 .rC2 { color: var(--rC2); }
 .rC3 { color: var(--rC3); }
 .rC4 { color: var(--rC4); }
 
-/* .bgColor, .lightColor (new, not tested yet) */
+/* .bgColor, .lightColor (new) */
 .brand, .brand button{ color: var(--brand); }
 .brand2 { color: var(--brand2); }
 .brand:hover, .brand button:hover { color: var(--brand2); }
@@ -627,8 +626,6 @@ display: block;
 
 
 
-
-
 /* Print */
 
 @media print {
@@ -637,8 +634,6 @@ display: block;
 display: none;
 }
 }
-
-
 
 
 
@@ -699,8 +694,6 @@ input[type="color"], form button { vertical-align: middle; min-height: var(--inp
 
 
 html{ overflow-x: hidden; } /* fix PWA  */
-
-
 
 
 

@@ -836,6 +836,7 @@ var print = '';
 if (rUrlGet != null&&rUrlGet != 'null'&&rUrlGet != ''&&rUrlGet != undefined){
 if (rUrlGet[0] == "."){ rUrlGet = (rUrlGet).slice(1); }
 
+// filter
 let allowUrlList = [
 "archive.org",
 "blogspot.com",

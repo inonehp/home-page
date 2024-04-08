@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.04.05";
+//var myCacheVersion = "v.1.2.2024.04.08";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.04.05").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.04.08").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -111,6 +111,7 @@ var fileListArr = ["/404.html",
 "/archive/pwa-test-21/style.css",
 "/archive/pwa-test-21/sw.js",
 "/archive-list.html",
+"/articles.html",
 "/audio/click.mp3",
 "/audio/",
 "/audio/click2.mp3",
@@ -123,20 +124,23 @@ var fileListArr = ["/404.html",
 "/changelog.html",
 "/chrome-extensions/README.md",
 "/chrome-extensions/",
-"/chrome-extensions/badge-count-up-timer-4/background.js",
+"/chrome-extensions/badge-count-up-timer-4/auto.css",
 "/chrome-extensions/badge-count-up-timer-4/",
+"/chrome-extensions/badge-count-up-timer-4/background.js",
 "/chrome-extensions/badge-count-up-timer-4/icon512x512.png",
 "/chrome-extensions/badge-count-up-timer-4/icon512x512.svg",
+"/chrome-extensions/badge-count-up-timer-4/main.css",
 "/chrome-extensions/badge-count-up-timer-4/manifest.json",
 "/chrome-extensions/badge-count-up-timer-4/popup.html",
 "/chrome-extensions/badge-count-up-timer-4/script.js",
+"/chrome-extensions/badge-count-up-timer-4/style.css",
 "/chrome-extensions/badge-count-up-timer-4.crx",
 "/chrome-extensions/hotkey-url-5/README.md",
 "/chrome-extensions/hotkey-url-5/",
 "/chrome-extensions/hotkey-url-5/a-backup-old.css",
+"/chrome-extensions/hotkey-url-5/auto.css",
 "/chrome-extensions/hotkey-url-5/icon512x512.png",
 "/chrome-extensions/hotkey-url-5/icon512x512.svg",
-"/chrome-extensions/hotkey-url-5/light.css",
 "/chrome-extensions/hotkey-url-5/main.css",
 "/chrome-extensions/hotkey-url-5/manifest.json",
 "/chrome-extensions/hotkey-url-5/options.html",
@@ -177,6 +181,7 @@ var fileListArr = ["/404.html",
 "/chrome-extensions/url-redirect-6/script.js",
 "/chrome-extensions/url-redirect-6/style.css",
 "/chrome-extensions/url-redirect-6/url-redirect-6.zip",
+"/chrome-extensions/url-redirect-6.crx",
 "/chrome-extensions-page.html",
 "/chrome-theme/Source.txt",
 "/chrome-theme/",
@@ -298,20 +303,20 @@ var fileListArr = ["/404.html",
 "/data2/",
 "/data2-page.html",
 "/favicon.ico",
-"/firefox-extensions/badge-count-up-timer-4/4-firefox-badge-count-up-timer-extension.zip",
+"/firefox-extensions/badge-count-up-timer-4/README.md",
 "/firefox-extensions/",
 "/firefox-extensions/badge-count-up-timer-4/",
-"/firefox-extensions/badge-count-up-timer-4/README.md",
+"/firefox-extensions/badge-count-up-timer-4/auto.css",
 "/firefox-extensions/badge-count-up-timer-4/background.html",
 "/firefox-extensions/badge-count-up-timer-4/background.js",
+"/firefox-extensions/badge-count-up-timer-4/badge-count-up-timer-4.zip",
 "/firefox-extensions/badge-count-up-timer-4/icon512x512.png",
 "/firefox-extensions/badge-count-up-timer-4/icon512x512.svg",
-"/firefox-extensions/badge-count-up-timer-4/light.css",
+"/firefox-extensions/badge-count-up-timer-4/main.css",
 "/firefox-extensions/badge-count-up-timer-4/manifest.json",
 "/firefox-extensions/badge-count-up-timer-4/popup.html",
 "/firefox-extensions/badge-count-up-timer-4/screenshot.png",
 "/firefox-extensions/badge-count-up-timer-4/script.js",
-"/firefox-extensions/badge-count-up-timer-4/style-main.css",
 "/firefox-extensions/badge-count-up-timer-4/style.css",
 "/firefox-extensions/hotkey-url-5/README.md",
 "/firefox-extensions/hotkey-url-5/",
@@ -510,6 +515,12 @@ var fileListArr = ["/404.html",
 "/img/404.svg",
 "/img/bg-dark.svg",
 "/img/bg-light.svg",
+"/img/bg.svg",
+"/img/bg2.svg",
+"/img/bg3.svg",
+"/img/bg4.svg",
+"/img/bg5.svg",
+"/img/bg6.svg",
 "/img/favicon16x16.png",
 "/img/github-banner-settings.png",
 "/img/github-banner-settings.svg",
@@ -540,6 +551,7 @@ var fileListArr = ["/404.html",
 "/img/tpl/ava.svg",
 "/img/tpl/bg-dark.png",
 "/img/tpl/bg-light.png",
+"/img/tpl/bg.svg",
 "/img/tpl/favicon.ico",
 "/img/tpl/favicon.png",
 "/img/tpl/flower.png",
@@ -1061,7 +1073,6 @@ var fileListArr = ["/404.html",
 "/templates/webdesign-one-page-mini-flat-auto-light-dark-15/index.html",
 "/templates/webdesign-one-page-mini-flat-auto-light-dark-15/style.css",
 "/templates-page.html",
-"/text.html",
 "/themes.html",
 "/video/video.mp4",
 "/video/",
@@ -1105,7 +1116,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.04.05")
+caches.open("v.1.2.2024.04.08")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1131,7 +1142,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.04.05")
+caches.open("v.1.2.2024.04.08")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1164,7 +1175,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.04.05"];
+  const cachesToKeep = ["v.1.2.2024.04.08"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

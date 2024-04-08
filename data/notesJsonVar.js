@@ -3,14 +3,34 @@ var notesJsonVar =
 
 [
     {
-        "id": "12",
-        "text": "Web Design Resources",
-        "text2": "Documentation:\r\n=============\r\n\r\n- MDN Web Docs https:\/\/developer.mozilla.org\/\r\n- W3Schools Online Web Tutorials https:\/\/www.w3schools.com\/\r\n- Stack Overflow - Where Developers Learn, Share, & Build Careers https:\/\/stackoverflow.com\/\r\n- web.dev https:\/\/web.dev\/\r\n\r\nDev:\r\n====\r\n\r\n- PageSpeed Insights https:\/\/pagespeed.web.dev\/\r\n- The W3C Markup Validation Service https:\/\/validator.w3.org\/\r\n- The W3C CSS Validation Service https:\/\/jigsaw.w3.org\/css-validator\/\r\n\r\n\r\nSEO ans statics:\r\n=============\r\n\r\n- Google Analytics https:\/\/analytics.google.com\/\r\n- Google Search Console https:\/\/search.google.com\/search-console\r\n- Bing Webmaster Tools https:\/\/www.bing.com\/webmasters\/\r\n- Google Trends https:\/\/trends.google.com\/\r\n\r\n\r\nSoftware:\r\n========\r\n\r\n- Firefox for desktop \u2014 Mozilla https:\/\/www.mozilla.org\/firefox\/new\/\r\n- Google Chrome - The Fast & Secure Web Browser Built to be Yours https:\/\/www.google.com\/chrome\/\r\n- Geany https:\/\/www.geany.org\/\r\n- Visual Studio Code - Code Editing. Redefined https:\/\/code.visualstudio.com\/\r\n- Inkscape https:\/\/inkscape.org\/\r\n\r\n\r\nOther:\r\n=====\r\n\r\n- Daring Fireball: Markdown https:\/\/daringfireball.net\/projects\/markdown\/",
+        "id": "15",
+        "text": "Document: querySelectorAll() method - Web APIs | MDN",
+        "text2": "document.querySelectorAll(\"p, div.note, div.alert\");",
         "text3": "",
-        "url": "",
-        "tag": "#WebDesign #resources #links",
-        "time": 1711838876,
-        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=12\">id<\/a>"
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/querySelectorAll",
+        "tag": "#code #HTML",
+        "time": 1712539368,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=15\">id<\/a>"
+    },
+    {
+        "id": "14",
+        "text": "<input type=\"reset\"> - HTML: HyperText Markup Language | MDN",
+        "text2": "<input type=\"reset\">",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Element\/input\/reset",
+        "tag": "#HTML #code",
+        "time": 1712538187,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=14\">id<\/a>"
+    },
+    {
+        "id": "13",
+        "text": "PHP: json_decode - Manual",
+        "text2": "$json = '{\"a\":1,\"b\":2,\"c\":3,\"d\":4,\"e\":5}';\r\n\r\njson_decode($json);\r\njson_decode($json, true);",
+        "text3": "",
+        "url": "https:\/\/www.net\/manual\/en\/function.json-decode",
+        "tag": "#code #PHP",
+        "time": 1712480476,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=13\">id<\/a>"
     },
     {
         "id": "11",
@@ -115,7 +135,7 @@ var notesJsonVar =
     {
         "id": "1",
         "text": "Array.prototype.forEach() - JavaScript | MDN",
-        "text2": "arr.forEach((val) => {\r\nconsole.log(val);\r\n});",
+        "text2": "arr.forEach((val, index) => {\r\nconsole.log(val + \"=\" + index);\r\n});",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/forEach",
         "tag": "#JavaScript #code",

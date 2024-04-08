@@ -1,4 +1,4 @@
-// Main js v.6.5.7
+// Main js v.6.5.9
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -152,9 +152,6 @@ document.getElementById(id).innerHTML = text;
 // console.log(id+' not fount');
 }
 }
-
-
-
 
 
 
@@ -344,9 +341,6 @@ display: none !important;
 
 
 
-
-
-
 // footer
 
 var fDesc = '';
@@ -454,8 +448,6 @@ document.getElementById(id).scrollIntoView();
 
 
 
-
-
 // Device 1.0.0
 conf["confDevice"] = 'none';
 /*if(conf["confDataCollection"] != 'on'){
@@ -464,9 +456,6 @@ conf["confDevice"] = '(disabled, privacy)';
 if (navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ conf["confDevice"] = 'mobile';  }
 if (navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ conf["confDevice"] = 'tv';  }
 if (conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
-
-
-
 
 
 
@@ -496,11 +485,12 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matc
 var meta = document.createElement('meta');
 meta.name = "theme-color";
 if (conf["confDeviceTheme"] == 'dark'){
-meta.content = "red";
+meta.content = "#404040";
 } else {
 meta.content = "#F0F0F0";
 }
 document.getElementsByTagName('head')[0].appendChild(meta);
+
 
 
 // insert color-theme.css in header
@@ -934,16 +924,11 @@ fuMSetTheme(conf["confTheme"]);
 
 
 
-
-
 /* in test, delme (now in function: setTheme)
 // print theme mode and name in footer
 if(document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = 'Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')';
 }*/
-
-
-
 
 
 
@@ -957,6 +942,7 @@ return Math.round(Math.random() * (max - min) + min);
 }
 
 function fuMRandomItem(text) {
+let randomItemsArrList = [];
 let delimiter = ["|", ",", " ", "\r\n", "\r", "\n"];
 let items = ""
 delimiter.forEach((val) => {
@@ -966,13 +952,12 @@ text = String(text.replaceAll(val, "SYMBOLFORSPLIT"));
 text = text.split(conf["confSymbolForSplit"]);
 let text2 = "";
 text.forEach((val) => {
-if (val.length >= 1&&val != ' '&&val != undefined&&val != null){
-text2 += String(val) + String(conf["confSymbolForSplit"]);
+if (val.trim != ''&&val != undefined&&val != null){
+randomItemsArrList.push(val);
 }
 });
-text2 = text2.split(conf["confSymbolForSplit"]);
-text2 = text2[fuMRandom(0, Number(text2.length - 1))];
-return text2;
+
+return randomItemsArrList[fuMRandom(0, Number(randomItemsArrList.length - 1))];
 }
 //console.table(fuMRandomItem(",,,,1 2      ,,,"));
 
@@ -999,20 +984,18 @@ return textOrArr.sort(collator.compare);
 
 
 
-
-
-
 // CSS
-// bg image (background img with random position)
+// random bg image (background img with random position)
 function fuMBg(val){
 if (conf["confBg"] == 'on'||val == 'on'){
+let mBg = fuMRandomItem("bg.svg bg2.svg bg3.svg bg4.svg bg5.svg bg6.svg");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'){
 fuMPrintText('style', `
 <style>
 body{
-background-image: url("/img/bg-light.svg");
+background-image: url("/img/${mBg}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;
@@ -1023,7 +1006,7 @@ background-attachment: fixed;
 fuMPrintText('style', `
 <style>
 body{
-background-image: url("/img/bg-dark.svg");
+background-image: url("/img/${mBg}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;
@@ -1036,7 +1019,7 @@ background-attachment: fixed;
 
 }
 }
-// bg image
+// random bg image
 // CSS
 
 
@@ -1317,23 +1300,20 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 
 
+function fuMFormReset(){
+
+if (document.querySelectorAll("textarea")[0] != null){
+var inputTextareaArr = document.querySelectorAll("textarea");
+inputTextareaArr.forEach((val, index) => {
+document.querySelectorAll("textarea")[index].textContent = "";
+});
+}
+
+}
+
+
+
 // fu hide ext
 fuMHideFileNameExt2();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

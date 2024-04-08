@@ -1,4 +1,4 @@
-// v1.0.0
+// v1.0.1
 
 
 // https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onStartup
@@ -17,7 +17,7 @@ event.source.postMessage("refreshed");
 };
 
 function normalize(a){
-if(a <= 9){ a = '0'+a; }
+if (a <= 9){ a = '0' + a; }
 return a;
 }
 
@@ -27,8 +27,9 @@ let h = normalize(Math.floor(sec / 3600));
 let m = normalize(Math.floor(sec % 3600 / 60));
 let s = normalize(Math.floor(sec % 3600 % 60));
 
-var time = String(h+':'+m+':'+s);
-var time2 = String(h+''+m);
+var time = String(h + ':' + m + ':' + s);
+//var time2 = String(h + '' + m);
+var time2 = String(m);
 //var time2 = String(s);
 //let sending = chrome.runtime.sendMessage({    greeting: status  });
 

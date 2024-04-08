@@ -2,7 +2,7 @@
 
   "manifest_version": 3,
   "name": "Hotkey URL",
-  "version": "2.5.12",
+  "version": "2.5.14",
   "description": "Assign keys to a specific website.",
 
 "icons": {

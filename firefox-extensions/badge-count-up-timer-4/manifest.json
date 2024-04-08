@@ -2,8 +2,8 @@
 
   "manifest_version": 2,
   "name": "Badge Count Up Timer",
-  "version": "1.0.7",
-  "description": "Shows a Count Up Timer in extension Badge (hours or minutes in 24 format, example: 0:01, 1:02)",
+  "version": "1.0.9",
+  "description": "Shows a Count Up Timer in extension Badge.",
 
 "icons": {
 "512": "icon512x512.png"

@@ -208,3 +208,10 @@ padding: 0 var(--bodyP);
 */
 
 nav a, nav button, .logo2 { vertical-align: middle; display: inline-block; }
+
+body{
+background-image: url("/img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+

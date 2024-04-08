@@ -1,4 +1,4 @@
-// v1.0.1
+// v1.0.2
 
 
 // https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onStartup
@@ -26,14 +26,14 @@ function handleMessage(request, sender, sendResponse) {
 /*  console.log(`A content script sent a message: ${request.greeting}`);
   sendResponse({ response: "Response from background script" });*/
 
-if(request.greeting == 'refresh'){
+if (request.greeting == 'refresh'){
 sec = 0;
 sendResponse({ response: "refreshed" });
 }
 sec = 0;
 
 // update mode
-if(request.greeting2){
+if (request.greeting2){
 mode = request.greeting2;
 sendResponse({ response: mode });
 
@@ -67,7 +67,7 @@ getting.then(modeGet, onError);
 
 // timer
 function normalize(a){
-if(a <= 9){ a = '0'+a; }
+if (a <= 9){ a = '0' + a; }
 return a;
 }
 
@@ -79,8 +79,8 @@ let h = normalize(Math.floor(sec / 3600));
 let m = normalize(Math.floor(sec % 3600 / 60));
 let s = normalize(Math.floor(sec % 3600 % 60));
 
-var time = String(h+':'+m+':'+s);
-var time2 = String(h+''+m);
+var time = String(h + ':' + m + ':' + s);
+var time2 = String(h + '' + m);
 
 
 //let sending = chrome.runtime.sendMessage({    greeting: status  });
@@ -88,22 +88,22 @@ var time2 = String(h+''+m);
 // https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/switch
 switch (mode) {
 case 'hour':
-//printBage = String(h)+':'+m.slice(0, 1);
+//printBage = String(h) + ':' + m.slice(0, 1);
 printBage = String(h);
 break;
 
 case 'minute':
-//printBage = String(h.slice(1, 2))+':'+m;
+//printBage = String(h.slice(1, 2))+':' + m;
 printBage = String(m);
 break;
 
 case 'second':
-//printBage = String(m.slice(1, 2))+':'+s;
+//printBage = String(m.slice(1, 2))+':' + s;
 printBage = String(s);
 break;
 
 default:
-//printBage = String(h.slice(1, 2))+':'+m;
+//printBage = String(h.slice(1, 2))+':' + m;
 printBage = String(m);
 }
 

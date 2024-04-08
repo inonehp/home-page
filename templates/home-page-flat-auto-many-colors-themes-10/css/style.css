@@ -50,3 +50,10 @@ transition: transform 1.8s ease-in-out;
 .logo:hover, .logo2:hover{
 transform: rotate(360deg);
 }
+
+body{
+background-image: url("/img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+

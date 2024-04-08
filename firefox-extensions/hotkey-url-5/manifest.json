@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Hotkey URL",
-  "version": "2.7.7",
+  "version": "2.7.10",
   "description": "Assign keys to a specific website.",
 
 "icons": {
@@ -18,7 +18,7 @@
 "browser_specific_settings": {
   "gecko": {
     "id": "{2cd391cf-2698-4a72-9731-e4ec75bdca2e}",
-    "strict_min_version": "58.0"  }
+    "strict_min_version": "122.0"  }
 },
 
 "options_ui": {

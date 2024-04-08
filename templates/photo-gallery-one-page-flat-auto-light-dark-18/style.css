@@ -74,4 +74,9 @@ text-align: center;
 }
 
 
+body{
+background-image: url("/img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
 

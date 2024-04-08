@@ -97,7 +97,7 @@ hotkeySelection = encodeURIComponent(window.getSelection().toString()).replace(/
 urlFromSetting = urlFromSetting.replaceAll('%selection', hotkeySelection);
 urlFromSetting = urlFromSetting.replaceAll('%title', encodeURIComponent(document.title));
 urlFromSetting = urlFromSetting.replaceAll('%url', document.URL);
-if(urlFromSetting.indexOf('%input') >= 0){
+if(urlFromSetting.indexOf('%input') != -1){
 let urlFromSettingInput = encodeURIComponent(String(window.prompt("input:", "")));
 if(urlFromSettingInput == 'null'){
 urlFromSettingInput = '';
@@ -110,9 +110,9 @@ urlFromSetting = urlFromSetting.replaceAll('%input', urlFromSettingInput);
 
 
 // start open link in new tab or current
-if((urlFromSetting).indexOf('%blank') >= 0||(urlFromSetting).indexOf('%NewTab') >= 0){
-urlFromSetting = urlFromSetting.replaceAll('%blank', '');
-urlFromSetting = urlFromSetting.replaceAll('%NewTab', '');
+if((urlFromSetting).indexOf('!blank') != -1||(urlFromSetting).indexOf('!NewTab') != -1){
+urlFromSetting = urlFromSetting.replaceAll('!blank', '');
+urlFromSetting = urlFromSetting.replaceAll('!NewTab', '');
 //https://stackoverflow.com/questions/7139103/open-page-in-new-window-without-popup-blocking
 //window.open().location.href = urlFromSetting;
 //window.open(urlFromSetting, 'NewTab').focus();

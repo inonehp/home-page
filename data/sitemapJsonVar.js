@@ -56,6 +56,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/articles.html",
+        "text": "Articles\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | articles: ",
+        "tag": " #text #article #articles #post #page #main",
+        "id": "11ef5d9e7e3a8ced61f530289180ff6e",
+        "time": "id"
+    },
+    {
         "url": "\/blog.html",
         "text": "Blog\n\nBlog: reposts, likes and other. | blog: ",
         "tag": " #reposts #likes #post #blog #page #main",
@@ -631,7 +638,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/text-to-binary-52\/index.html",
-        "text": "Text To Binary\n\nConversion of text and symbols into binary format using JavaScript. | text to binary: ",
+        "text": "Text To Binary\n\nBinary text. Conversion of text and symbols into binary format using JavaScript. | text to binary: ",
         "tag": " #text #binary #tool #conversion #converter #JavaScript #project",
         "id": "e6459362df1ce316ace4a26040df03f8",
         "time": "id"
@@ -893,13 +900,6 @@ var sitemapJsonVar = [
         "text": "Template: web design 15\n\nWebsite template description. | webdesign one page mini flat auto light dark: ",
         "tag": " #WebDesign #template",
         "id": "a1598ffc66f3598f65a91e8cc17f1d9a",
-        "time": "id"
-    },
-    {
-        "url": "\/text.html",
-        "text": "Text\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | text: ",
-        "tag": " #text #article #articles #post #page #main",
-        "id": "63caf82fca46caa38ca0328bab57c966",
         "time": "id"
     },
     {

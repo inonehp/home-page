@@ -30,6 +30,12 @@ bottom: 20px;
 .localBg2 { width: 21vh; }
 }
 
+body{
+background-image: url("/img/tpl/bg.svg");
+background-repeat: repeat;
+background-attachment: fixed;
+}
+
 
 /* fix */
 .contentCenter { max-width: 1100px; margin: 0 auto; }

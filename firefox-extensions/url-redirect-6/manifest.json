@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "URL Redirect",
-  "version": "1.4.1",
+  "version": "1.4.24",
   "description": "The extension redirects the page from the one URL to the other URL specified in the settings.",
 
 "icons": {
@@ -18,7 +18,7 @@
 "browser_specific_settings": {
   "gecko": {
     "id": "firefox-url-redirect-abc@example.com",
-    "strict_min_version": "58.0"  }
+    "strict_min_version": "120.0"  }
 },
 
 "options_ui": {
