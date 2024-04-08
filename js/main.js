@@ -989,6 +989,7 @@ return textOrArr.sort(collator.compare);
 function fuMBg(val){
 if (conf["confBg"] == 'on'||val == 'on'){
 let mBg = fuMRandomItem("bg.svg bg2.svg bg3.svg bg4.svg bg5.svg bg6.svg");
+let mBgDark = fuMRandomItem("bg-dark.svg bg2-dark.svg bg3-dark.svg bg4-dark.svg bg5-dark.svg bg6-dark.svg");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'){
@@ -1006,7 +1007,7 @@ background-attachment: fixed;
 fuMPrintText('style', `
 <style>
 body{
-background-image: url("/img/${mBg}");
+background-image: url("/img/${mBgDark}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;
