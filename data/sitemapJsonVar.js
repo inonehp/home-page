@@ -70,6 +70,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/bookmarks.html",
+        "text": "Bookmarks\n\nThe collection of links or bookmarks. | bookmarks: ",
+        "tag": " #websites #links #bookmark #collection #page #main",
+        "id": "aa88293f8ee14f5d71a86d98ae4af290",
+        "time": "id"
+    },
+    {
         "url": "\/changelog.html",
         "text": "Changelog\n\nChangelog. Site update history. About what's new on the site. | changelog: ",
         "tag": " #update #news #new #page #main",
@@ -193,13 +200,6 @@ var sitemapJsonVar = [
         "text": "Install Website (PWA)\n\nInstall website as app (PWA). The site or page will look and run like an app and will be among other installed programs. | install: ",
         "tag": " #install #download #website #PWA #WebApp #app #page #main",
         "id": "3036dd8f54ff32dc48bf6258269eb20e",
-        "time": "id"
-    },
-    {
-        "url": "\/links.html",
-        "text": "Links\n\nThe collection of links or bookmarks. | links: ",
-        "tag": " #websites #links #bookmark #collection #page #main",
-        "id": "89c3ca4c0d51a9790717206e38a14c50",
         "time": "id"
     },
     {

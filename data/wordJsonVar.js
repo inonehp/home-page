@@ -621,6 +621,11 @@ var wordJsonVar =
         "text3": "accesorio"
     },
     {
+        "text": "\u0430\u043a\u0441\u0456\u043e\u043c\u0430",
+        "text2": "axiom",
+        "text3": "axioma"
+    },
+    {
         "text": "\u0430\u043a\u0441\u0456\u043e\u043d",
         "text2": "axion",
         "text3": "axion"
@@ -1434,11 +1439,6 @@ var wordJsonVar =
         "text": "\u0430\u0440\u043d\u0456\u0441\u0442\u044c",
         "text2": "arity",
         "text3": "arity"
-    },
-    {
-        "text": "\u0430\u0440\u043e\u043c\u0430\u0442",
-        "text2": "aroma",
-        "text3": "aroma"
     },
     {
         "text": "\u0454\u0432\u0430\u043d\u0433\u0435\u043b\u0456\u0441\u0442",

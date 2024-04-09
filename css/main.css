@@ -1,4 +1,4 @@
-/* Main style v.16.5.4
+/* Main style v.16.5.5
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -401,6 +401,10 @@ right: 0;
 .h100 { height: 100%; }
 .w50 { width: 50%; }
 .h50 { height: 50%; }
+.w25 { width: 25%; }
+.h25 { height: 25%; }
+.w15 { width: 15%; }
+.h15 { height: 15%; }
 
 .invert {
 -webkit-filter: invert(100%);
