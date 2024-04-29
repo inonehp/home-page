@@ -1,12 +1,12 @@
 {
 
-  "manifest_version": 2,
-  "name": "New Tab Redirect",
-  "version": "2.1.5",
-  "description": " This add-on automatically opens your website every time you open a new tab in your browser.",
+"manifest_version": 2,
+"name": "New Tab Redirect",
+"version": "2.1.5",
+"description": " This add-on automatically opens your website every time you open a new tab in your browser.",
 
 "icons": {
-  "512": "icon512x512.png"
+"512": "icon512x512.png"
 },
 
 "permissions":
@@ -16,8 +16,6 @@
  
 
 
-
-
 "browser_specific_settings": {
   "gecko": {
     "id": "{ca76a51e-39c5-426e-a65a-17331611382e}",
@@ -25,19 +23,16 @@
 },
 
 "options_ui": {
-  "page": "options.html"
+"page": "options.html"
 },
 
-
-
 "browser_action": {
-    "browser_style": true,
-    "default_popup": "options.html",
-    "default_icon": {
-      "512": "icon512x512.png"
-    }
-  },
-
+"browser_style": true,
+"default_popup": "options.html",
+"default_icon": {
+"512": "icon512x512.png"
+}
+},
 
 "chrome_url_overrides" : {
     "newtab": "new-tab-redirect.html"

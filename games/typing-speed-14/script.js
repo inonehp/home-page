@@ -1,15 +1,15 @@
-// Typing Speed Test and game v.3.15.20
+// Typing Speed Test and game v.3.15.21
 
 
 
 
 function mainAll(mode33){
 
-const wmpAverageLimit = 15;
+const wmpAverageLimit = 30;
 const wordLengthLimit = 5.1;
 const allowError = 20;
 
-const mostCommonWordsLimit = 20;
+//const mostCommonWordsLimit = 20;
 
 var topWords = '';
 //https://catalins.tech/store-array-in-localstorage/
@@ -45,7 +45,7 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-//document.getElementById("refresh").innerHTML = `<a href="#" onclick="localRefresh('`+mode+`');">refresh</a>`;
+//document.getElementById("refresh").innerHTML = `<a href="#" onclick="localRefresh('` + mode + `');">refresh</a>`;
 
 
 
@@ -63,11 +63,11 @@ var skip = '';
 if (location.hostname != 'localhost'&&item == 'none'||location.hostname != 'localhost'&&item == 'b2'||location.hostname != 'localhost'&&item == 'f2'){ skip = 'yes'; }
 if (mode == item && skip != 'yes'){
 modeListPrint += `
-<a class="tag light4 border2 borderRadius2" style="color: var(--c3);" href="?">`+item+`</a>
+<a class="tag light4 border2 borderRadius2" style="color: var(--c3);" href="?">` + item + `</a>
 `;
 } else if (skip != 'yes'){
 modeListPrint += `
-<a class="tag op light3 border2 borderRadius2" onclick="localRefresh('`+item+`');" href="?">`+item+`</a>
+<a class="tag op light3 border2 borderRadius2" onclick="localRefresh('` + item + `');" href="?">` + item + `</a>
 `;
 }
 }
@@ -82,7 +82,7 @@ document.getElementById("mode").innerHTML = `
 ${modeListPrint}
 
 <!-- https://developer.mozilla.org/docs/Web/API/Document/getSelection -->
-<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://localhost/projects/typing-speed-14/?mode=input&q='+encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
+<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://localhost/games/typing-speed-14/?mode=input&q='+encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
 
 `;
 
@@ -178,7 +178,7 @@ let text = encodeURIComponent(e.target.value);
 //let text = (e.target.value);
 let http = new XMLHttpRequest();
 let url2 = '/fu/fuTranslateExt.php';
-let params = 'text='+text;
+let params = 'text=' + text;
 //alert(params);
 http.open('POST', url2, true);
 //Send the proper header information along with the request
@@ -633,18 +633,6 @@ var lastMaxInputlength = 0;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 function inputCheck(e){
 //document.getElementsByClassName("input")[0].innerHTML = '';
 
@@ -686,7 +674,7 @@ scrollToVar = '<span id="scrollTo"></span>';
 } else if (confDevice == 'mobile'){
 scrollToVar = '<span id="scrollTo"></span>';
 }
-text = '<span class="green">'+text11+'</span>'+scrollToVar+text33;
+text = '<span class="green">' + text11 + '</span>' + scrollToVar + text33;
 document.getElementById("result").innerHTML = text;
 if (scrollToVar !=  ''){ document.getElementById("scrollTo").scrollIntoView(true); }
 */
@@ -697,18 +685,12 @@ if (scrollToVar !=  ''){ document.getElementById("scrollTo").scrollIntoView(true
 if (mode != 'free'&&mode != 'f2'){
 letters.forEach(myFunctionCheckAll);
 }
+
 function myFunctionCheckAll(item, index) {
 
+//console.log(answerArr[index] + '=[' + item + ']');
 
-//console.log(answerArr[index]+'=['+item+']');
-
-
-if (answerArr.length >= lastMaxInputlength){ 	lastMaxInputlength = answerArr.length; }
-
-
-
-
-
+if (answerArr.length >= lastMaxInputlength){ lastMaxInputlength = answerArr.length; }
 
 //text += item; 
 //console.log(item);
@@ -716,7 +698,7 @@ if (answerArr.length >= lastMaxInputlength){ 	lastMaxInputlength = answerArr.len
 var check = 'no';
 if (item == answerArr[index]&&error <= errorLimit){
 check = 'yes';
-//id = 'id'+index;
+//id = 'id' + index;
 lastEror = ' green ';
 
 item = replaceCode(item);
@@ -733,8 +715,6 @@ check = 'yes';
 lastEror = 'red';
 item = replaceCode(item);
 
-
-
 switch(item) {
 case '\r\n':
 case '\r':
@@ -742,16 +722,16 @@ case '\n':
 text11 += `<span class="red">⏎\n</span>`;
 break;
 case ' ':
-text11 += '<span style="background-color: var(--red);">'+item+'</span>';
+text11 += '<span style="background-color: var(--red);">' + item + '</span>';
 break;
 default:
-text11 += '<span class="red">'+item+'</span>';
+text11 += '<span class="red">' + item + '</span>';
 }
 
 
 //console.log(answerArr.length-1);
 //console.log(index);
-//console.log(answerArr.length - 1+'='+index);
+//console.log(answerArr.length - 1 + '=' + index);
 
 /*if (answerArr.length  <= letters.length){
 inputGetKey.onkeydown = function(e) {
@@ -787,7 +767,7 @@ check = '';
 
 
 
-text = '<span class=" green typeUnderline ">'+text11+'</span><span id="scrollTo">&#8288;</span>' + replaceCode(text33); //&#8288; - fix webkit jump
+text = '<span class=" green typeUnderline ">' + text11 + '</span><span id="scrollTo">&#8288;</span>' + replaceCode(text33); //&#8288; - fix webkit jump
 document.getElementById("result").innerHTML = text;
 document.getElementById("scrollTo").scrollIntoView(true);
 //document.getElementById("scrollTo").scrollIntoViewIfNeeded();
@@ -881,7 +861,7 @@ acurancyTotal =  100 - acurancyTotal.toFixed(0);
 
 } else { acurancy = '0 '; acurancyTotal = '0'; }
 
-//document.getElementById("stat").innerHTML = sec+' | '+timeAverage.toFixed(2)+' sec. || '+error+' <span class="'+errorColor+'">error</span>';
+//document.getElementById("stat").innerHTML = sec+' | ' + timeAverage.toFixed(2) + ' sec. || ' + error + ' <span class="' + errorColor + '">error</span>';
 document.getElementById("stat").innerHTML = 
 '<div><span>wpm:</span> <!--' + wpmRecord + '/ --><span>' + wpm +'</span> || <span title="allowError: '+ allowError +'">error: ≈<span  class="'  + errorColor + '">' + error  +  '</span>/' + totalError +'</span> || acurancy: ≈' + acurancy + '/' + acurancyTotal + '%</div>'
 ;
@@ -914,7 +894,7 @@ var printMsgWin = '';
 recordMsg = wpm / wpmRecord * 100;
 recordMsg = 100 - speedUp;
 recordMsg = speedUp.toFixed(0);
-recordMsg = ' (<span class="green"> '+recordMsg+'%+ for record</span>)';
+recordMsg = ' (<span class="green"> ' + recordMsg + '%+ for record</span>)';
 }*/
 
 var WPMaverage = 0;
@@ -1055,7 +1035,7 @@ document.getElementById("sound").innerHTML = '';
 
 
 
-document.getElementById('countSymbolTask').innerHTML = 'task: '+task.length+' input: '+answerArr.length+'';
+document.getElementById('countSymbolTask').innerHTML = 'task: ' + task.length + ' input: '+answerArr.length + '';
 
 }
 

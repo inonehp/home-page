@@ -85,25 +85,25 @@ var b = {
 text = ' ' + text + ' ';
 text = [...text];
 
-try{
+try {
 var textTest = text.map(function (char) {
 
-if(char== 'Ь' || char == 'ь'){ char = ''; }
+if (char == 'Ь' || char == 'ь'){ char = ''; }
 
 count++;
 //console.log(count);
 
 //console.log(char);
-if(char == ' '||char == `
+if (char == ' '||char == `
 `){
 //console.log('test');
 count = 0;
 }
 
-if(count == 1){
+if (count == 1){
 //console.log(a[char]+':'+char);
 return a[char] || char; 
-}else{
+} else {
 //console.log(b[char]+':'+char);
 return b[char] || char; 
 }

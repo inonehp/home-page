@@ -1,4 +1,4 @@
-// Guess number game v.1.4.0
+// Guess number game v.1.5.0
 
 var limit = 10;
 var rangeValue = 0;
@@ -58,7 +58,9 @@ if(task[0] == answer[0]){
 document.getElementById("gameResult").innerHTML = `
 <div class="h3">
 <span class="padding2 h3 orange bold">win</span><br><br>
-<span class="green bold">${answer[0]}</span> <span class="bold">==</span> <span class="orange bold">${task[0]}</span>
+<span class="orange bold">${task[0]}</span>
+<span class="bold">==</span>
+<span class="green bold">${answer[0]}</span>
 </div>
 <span class="op padding2 margin2 xSmall">(mode: 0-${mode[0]})</span>
 <audio style="display:none" autoplay="false" src="/audio/win.mp3"></audio>
@@ -67,7 +69,9 @@ document.getElementById("gameResult").innerHTML = `
 document.getElementById("gameResult").innerHTML = `
 <div class="h3">
 <span class="padding2 h3 red bold">end</span><br><br>
-<span class="red bold">${answer[0]}</span> <span class="bold">!=</span> <span class="orange bold">${task[0]}</span>
+<span class="orange bold">${task[0]}</span>
+<span class="bold">!=</span>
+<span class="red bold">${answer[0]}</span>
 </div>
 <span class="op padding2 margin2 xSmall">(mode: 0-${mode[0]})</span>
 <audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>

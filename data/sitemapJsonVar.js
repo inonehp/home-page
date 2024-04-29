@@ -1,8 +1,8 @@
 var sitemapJsonVar = [
     {
         "url": "\/404.html",
-        "text": "404 - Not Found\n\n404 Not Found. The page that appears when something is not found.\nPage or file: moved, deleted ... | : ",
-        "tag": " #404 #NotFound #page #main",
+        "text": "\n\n | : ",
+        "tag": "",
         "id": "aa8eb2fe477b2d36ecc0f14d6422513f",
         "time": "id"
     },
@@ -112,10 +112,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/css-art\/pumpkin-css-15\/index.html",
-        "text": "CSS Drawing Halloween Pumpkin\n\nCSS art description. | pumpkin css: ",
+        "url": "\/css-art\/halloween-pumpkin-css-15\/index.html",
+        "text": "CSS Drawing Halloween Pumpkin\n\nCSS art description. | halloween pumpkin css: ",
         "tag": " #CSSArt #HTML #CSS #project",
-        "id": "cf7f15fc65afe125f709a8097a554d77",
+        "id": "87235f94bbe31a176e3f94530683948e",
         "time": "id"
     },
     {
@@ -165,6 +165,69 @@ var sitemapJsonVar = [
         "text": "Firefox theme page\n\nFirefox themes. Theme for Mozilla Firefox browser light and dark. | firefox theme page: ",
         "tag": " #Firefox #dark #light #theme #project #page #main",
         "id": "3d613fb39782d1a7c1844b2ced478a3b",
+        "time": "id"
+    },
+    {
+        "url": "\/games\/dice-9\/index.html",
+        "text": "Game: Dice\n\nGame dice. | dice: ",
+        "tag": " #game #dice #HTML5 #JavaScript #WebApp #project",
+        "id": "850ca844bccc19aa09438d619db386a4",
+        "time": "id"
+    },
+    {
+        "url": "\/games\/guess-number-10\/index.html",
+        "text": "Game: Guess The Number\n\nYou need to guess the random number. | guess number: ",
+        "tag": " #game #guuess #number #HTML5 #JavaScript #WebGame #game #project",
+        "id": "524f001062de526e4e3ad28ba23f2376",
+        "time": "id"
+    },
+    {
+        "url": "\/games\/lnnguage-learning-quiz-45\/index.html",
+        "text": "Language learging quiz\n\nLanguage learging quiz. Language quiz. Quiz word. It is necessary to choose the correct version of the translated word. Language quiz. Word quiz. | lnnguage learning quiz: ",
+        "tag": " #learning #language #game #quiz #word #JavaScript #project",
+        "id": "1aa601d5ec54262d925b603220542d6d",
+        "time": "id"
+    },
+    {
+        "url": "\/games\/memory-symbol-11\/index.html",
+        "text": "Game: Memory Symbol\n\nIn this game, there is a grid with masked cells that need to be opened. You need to open two identical symbols (emoji) in sequence, winning if you opened everything. | memory symbol: ",
+        "tag": " #game #memory #symbol #HTML5 #JavaScript #project",
+        "id": "c0e25c9694c5f972a0f32b1fd8cf5f54",
+        "time": "id"
+    },
+    {
+        "url": "\/games\/quiz-42\/index.html",
+        "text": "Quiz Game\n\nQuiz with different topics. Need to answer the questions correctly. An intellectual game. | quiz: ",
+        "tag": " #game #quiz #JavaScript #project",
+        "id": "18c97d793302bf5a5cfb80e6eaad46dd",
+        "time": "id"
+    },
+    {
+        "url": "\/games\/rock-paper-scissors-66\/index.html",
+        "text": "Rock Paper Scissors\n\nGame Rock Paper Scissors. Classic game. | rock paper scissors: ",
+        "tag": " #rock #paper #scissors #game #CSS #JavaScript #project",
+        "id": "6e03be452e9e76dcb9af994f417ce368",
+        "time": "id"
+    },
+    {
+        "url": "\/games\/snake-12\/index.html",
+        "text": "Game: Snake\n\nSnake game, you need to eat food and grow. | snake: ",
+        "tag": " #game #snake #HTML5 #JavaScript #project",
+        "id": "2e9496e0ed49f285bda5d6f29c65ad5a",
+        "time": "id"
+    },
+    {
+        "url": "\/games\/tic-tac-toe-13\/index.html",
+        "text": "Game: Tic Tac Toe\n\nGame tic-tac-toe. | tic tac toe: ",
+        "tag": " #game #tic #tac #toe #HTML5 #JavaScript #JavaScript #project",
+        "id": "a75ac875b4b178900bf07967ba4521bf",
+        "time": "id"
+    },
+    {
+        "url": "\/games\/typing-speed-14\/index.html",
+        "text": "Typing speed\n\n\u00b7 A typing speed or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM.\r\n\u00b7 Modes: quotes, book, own text input. | typing speed: ",
+        "tag": " #game #typing #speed #trainer #WPM #JavaScript #project",
+        "id": "0b91b83acdf8371274a96c1cafb81efd",
         "time": "id"
     },
     {
@@ -371,6 +434,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/projects\/blocked-65\/index.html",
+        "text": "Blocked\n\nBlock notification page.\r\nNot intended for viewing. | blocked: ",
+        "tag": " #block #CSS #JavaScript #project",
+        "id": "62837b53fdbe60ebf867f61ece8a4d7b",
+        "time": "id"
+    },
+    {
         "url": "\/projects\/blog-1\/index.html",
         "text": "Blog\n\nSometimes I share something in this place. | blog: ",
         "tag": " #blog #post #JavaScript #page #project",
@@ -434,41 +504,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/game-dice-9\/index.html",
-        "text": "Game: Dice\n\nGame dice. | game dice: ",
-        "tag": " #game #dice #HTML5 #JavaScript #WebApp #project",
-        "id": "ebad8598a1bfec8ebaca153402dceb6a",
-        "time": "id"
-    },
-    {
-        "url": "\/projects\/game-guess-number-10\/index.html",
-        "text": "Game: Guess The Number\n\nYou need to guess the random number. | game guess number: ",
-        "tag": " #game #guuess #number #HTML5 #JavaScript #WebGame #game #project",
-        "id": "2dc32088b92cad41d601dab51d18431d",
-        "time": "id"
-    },
-    {
-        "url": "\/projects\/game-memory-symbol-11\/index.html",
-        "text": "Game: Memory Symbol\n\nIn this game, there is a grid with masked cells that need to be opened. You need to open two identical symbols (emoji) in sequence, winning if you opened everything. | game memory symbol: ",
-        "tag": " #game #memory #symbol #HTML5 #JavaScript #project",
-        "id": "d694a2adfde9fd38ffcf3a256b0529fb",
-        "time": "id"
-    },
-    {
-        "url": "\/projects\/game-snake-12\/index.html",
-        "text": "Game: Snake\n\nSnake game, you need to eat food and grow. | game snake: ",
-        "tag": " #game #snake #HTML5 #JavaScript #project",
-        "id": "4f01e1ed2b8abe396193659a852758e1",
-        "time": "id"
-    },
-    {
-        "url": "\/projects\/game-tic-tac-toe-13\/index.html",
-        "text": "Game: Tic Tac Toe\n\nGame tic-tac-toe. | game tic tac toe: ",
-        "tag": " #game #tic #tac #toe #HTML5 #JavaScript #JavaScript #project",
-        "id": "f56c83383fc1c670ab3c4bb7bf39c547",
-        "time": "id"
-    },
-    {
         "url": "\/projects\/google-programmable-search-49\/index.html",
         "text": "Programmable Search\n\nGoogle programmable search engine. (Google custom search engine) | google programmable search: ",
         "tag": " #search #engine #tool #HTML #Google #embed",
@@ -511,13 +546,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/lnnguage-learning-quiz-45\/index.html",
-        "text": "Language learging quiz\n\nLanguage learging quiz. Language quiz. Quiz word. It is necessary to choose the correct version of the translated word. Language quiz. Word quiz. | lnnguage learning quiz: ",
-        "tag": " #learning #language #game #quiz #word #JavaScript #project",
-        "id": "d398031f52b6b8ade011bf2c93c71dde",
-        "time": "id"
-    },
-    {
         "url": "\/projects\/movie-list-19\/index.html",
         "text": "Movie List\n\nSmall list of movies, just a link to another movie database service, at the top there is a random movie from the list. JavaScript function for parse WATCHLIST.csv from IMDB. | movie list: ",
         "tag": " #movie #list #collection #random #JavaScript #project",
@@ -543,13 +571,6 @@ var sitemapJsonVar = [
         "text": "print\n\nPrint - print function test. | print: ",
         "tag": " #empty",
         "id": "538c39d5fb633dd0ff8b888f9678fef8",
-        "time": "id"
-    },
-    {
-        "url": "\/projects\/quiz-42\/index.html",
-        "text": "Quiz Game\n\nQuiz with different topics. Need to answer the questions correctly. An intellectual game. | quiz: ",
-        "tag": " #game #quiz #JavaScript #project",
-        "id": "a29c336aba704dec8e3a42c0f7261907",
         "time": "id"
     },
     {
@@ -630,6 +651,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/projects\/start-page-private-64\/index.html",
+        "text": "Start Page\n\nStart page, home page, new tab page. | start page private: ",
+        "tag": " #StartPage #home #homepage #start #page #tab #NewTab #CSS #JavaScript #project",
+        "id": "83c0b58a207b0b31c06f5495d42cd564",
+        "time": "id"
+    },
+    {
         "url": "\/projects\/test-27\/index.html",
         "text": "test\n\nTest page, test style, sometimes there are some test fragments of JavaScript or CSS code. | test: ",
         "tag": " #test #page #HTML #CSS #JavaScript #project",
@@ -707,15 +735,8 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/typing-speed-14\/index.html",
-        "text": "Typing speed\n\n\u00b7 A typing speed or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM.\r\n\u00b7 Modes: quotes, book, own text input. | typing speed: ",
-        "tag": " #game #typing #speed #trainer #WPM #JavaScript #project",
-        "id": "f176928c264f247cd3a9adb88d3b60fb",
-        "time": "id"
-    },
-    {
         "url": "\/projects\/video-18\/index.html",
-        "text": "Random Video\n\nA small collection video, shown randomly. | video: ",
+        "text": "Random Video\n\nA small collection video, shown randomly. Free public domain movies. | video: ",
         "tag": " #video #random #collection #movie #cartoon #JavaScript #embed #page #project",
         "id": "cf8764f66497b8a627865ab36433767c",
         "time": "id"
@@ -900,6 +921,13 @@ var sitemapJsonVar = [
         "text": "Template: web design 15\n\nWebsite template description. | webdesign one page mini flat auto light dark: ",
         "tag": " #WebDesign #template",
         "id": "a1598ffc66f3598f65a91e8cc17f1d9a",
+        "time": "id"
+    },
+    {
+        "url": "\/text.html",
+        "text": "Text\n\nLong text: article, post. I'm attempting to write something. | text: ",
+        "tag": " #text #article #post #page #main",
+        "id": "63caf82fca46caa38ca0328bab57c966",
         "time": "id"
     },
     {

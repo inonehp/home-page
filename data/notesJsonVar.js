@@ -3,6 +3,86 @@ var notesJsonVar =
 
 [
     {
+        "id": "23",
+        "text": "Array.prototype.map() - JavaScript | MDN",
+        "text2": "const array1 = [1, 4, 9, 16];\r\n\r\n\/\/ Pass a function to map\r\nconst map1 = array1.map((x) => x * 2);\r\n\r\nconsole.log(map1);\r\n\/\/ Expected output: Array [2, 8, 18, 32]\r\n\r\n===\r\n\r\nconst numbers = [1, 4, 9];\r\nconst roots = numbers.map((num) => Math.sqrt(num));\r\n\r\n\/\/ roots is now     [1, 2, 3]\r\n\/\/ numbers is still [1, 4, 9]\r\n\r\n===\r\n\r\nconst kvArray = [\r\n  { key: 1, value: 10 },\r\n  { key: 2, value: 20 },\r\n  { key: 3, value: 30 },\r\n];\r\n\r\nconst reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));\r\n\r\nconsole.log(reformattedArray); \/\/ [{ 1: 10 }, { 2: 20 }, { 3: 30 }]\r\nconsole.log(kvArray);\r\n\/\/ [\r\n\/\/   { key: 1, value: 10 },\r\n\/\/   { key: 2, value: 20 },\r\n\/\/   { key: 3, value: 30 }\r\n\/\/ ]",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/map",
+        "tag": "",
+        "time": 1714080415,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=23\">id<\/a>"
+    },
+    {
+        "id": "22",
+        "text": "Array: length - JavaScript | MDN",
+        "text2": "const clothing = ['shoes', 'shirts', 'socks', 'sweaters'];\r\n\r\nconsole.log(clothing.length);\r\n\/\/ Expected output: 4",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/length",
+        "tag": "#code #JavaScript #JS",
+        "time": 1714022740,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=22\">id<\/a>"
+    },
+    {
+        "id": "21",
+        "text": "Math.random() - JavaScript | MDN",
+        "text2": "function getRandomInt(max) {\r\n  return Math.floor(Math.random() * max);\r\n}",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Math\/random",
+        "tag": "#code #JavaScript #JS",
+        "time": 1713950256,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=21\">id<\/a>"
+    },
+    {
+        "id": "20",
+        "text": "Storage: getItem() method - Web APIs | MDN",
+        "text2": "const currentColor = localStorage.getItem(\"bgcolor\");",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Storage\/getItem",
+        "tag": "#JavaScript #code #coding #JS",
+        "time": 1713949517,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=20\">id<\/a>"
+    },
+    {
+        "id": "19",
+        "text": "Storage: setItem() method - Web APIs | MDN",
+        "text2": "localStorage.setItem(\"bgcolor\", \"red\");",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Storage\/setItem",
+        "tag": "#JS #JavaScript #code #coding",
+        "time": 1713949471,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=19\">id<\/a>"
+    },
+    {
+        "id": "18",
+        "text": "switch - JavaScript | MDN",
+        "text2": "const expr = 'Papayas';\r\n\r\nswitch (expr) {\r\n\r\ncase 'Oranges':\r\nconsole.log('Oranges are $0.59 a pound.');\r\nbreak;\r\n\r\ncase 'Mangoes':\r\ncase 'Papayas':\r\nconsole.log('Mangoes and papayas are $2.79 a pound.');\r\n\/\/ Expected output: \"Mangoes and papayas are $2.79 a pound.\"\r\nbreak;\r\n\r\ndefault:\r\nconsole.log(`Sorry, we are out of ${expr}.`);\r\n}",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Statements\/switch",
+        "tag": "#code #coding #JavaScript #JS",
+        "time": 1713949190,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=18\">id<\/a>"
+    },
+    {
+        "id": "17",
+        "text": "Coding conventions - Wikipedia",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Coding_conventions",
+        "tag": "#coding #rule",
+        "time": 1713052551,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=17\">id<\/a>"
+    },
+    {
+        "id": "16",
+        "text": "JavaScript Style Guide",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.w3schools.com\/js\/js_conventions.asp",
+        "tag": "#JavaScript #coding #rule",
+        "time": 1713052475,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=16\">id<\/a>"
+    },
+    {
         "id": "15",
         "text": "Document: querySelectorAll() method - Web APIs | MDN",
         "text2": "document.querySelectorAll(\"p, div.note, div.alert\");",
@@ -65,7 +145,7 @@ var notesJsonVar =
     {
         "id": "8",
         "text": "Map - JavaScript | MDN",
-        "text2": "myMap.forEach((value, key) => {\r\n  console.log(`${key} = ${value}`);\r\n});\r\n\/\/ 0 = zero\r\n\/\/ 1 = one",
+        "text2": "const map1 = new Map();\r\n\r\nmap1.set('a', 1);\r\nmap1.set('b', 2);\r\nmap1.set('c', 3);\r\n\r\nconsole.log(map1.get('a'));\r\n\/\/ Expected output: 1\r\n\r\nmap1.set('a', 97);\r\n\r\nconsole.log(map1.get('a'));\r\n\/\/ Expected output: 97\r\n\r\nconsole.log(map1.size);\r\n\/\/ Expected output: 3\r\n\r\nmap1.delete('b');\r\n\r\nconsole.log(map1.size);\r\n\/\/ Expected output: 2\r\n\r\n===\r\n\r\nconst myMap = new Map();\r\nmyMap.set(0, \"zero\");\r\nmyMap.set(1, \"one\");\r\n\r\nfor (const [key, value] of myMap) {\r\n  console.log(`${key} = ${value}`);\r\n}\r\n\/\/ 0 = zero\r\n\/\/ 1 = one\r\n\r\nfor (const key of myMap.keys()) {\r\n  console.log(key);\r\n}\r\n\/\/ 0\r\n\/\/ 1\r\n\r\nfor (const value of myMap.values()) {\r\n  console.log(value);\r\n}\r\n\/\/ zero\r\n\/\/ one\r\n\r\nfor (const [key, value] of myMap.entries()) {\r\n  console.log(`${key} = ${value}`);\r\n}\r\n\/\/ 0 = zero\r\n\/\/ 1 = one\r\n\r\n\r\n===\r\n\r\nmyMap.forEach((value, key) => {\r\n  console.log(`${key} = ${value}`);\r\n});\r\n\/\/ 0 = zero\r\n\/\/ 1 = one",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Map",
         "tag": "#code #JavaScript",

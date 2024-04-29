@@ -7905,6 +7905,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "girl in red - DOING IT AGAIN BABY (Official Visualizer) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=FrnYzWo75OY",
+        "tag": "#music",
+        "time": 1713310319,
+        "rightFooter": ""
+    },
+    {
         "text": "Girls & Boys \u00b7 Blur",
         "text2": "",
         "text3": "",
@@ -14778,6 +14787,33 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=-shACMaxUb0",
         "tag": "#music",
         "time": 1633823788,
+        "rightFooter": ""
+    },
+    {
+        "text": "Nia Archives - Cards On The Table (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ynzawXXUtzA",
+        "tag": "#music",
+        "time": 1713310544,
+        "rightFooter": ""
+    },
+    {
+        "text": "Nia Archives - Crowded Roomz - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=dMwzooIPbHw",
+        "tag": "#music",
+        "time": 1713310768,
+        "rightFooter": ""
+    },
+    {
+        "text": "Nia Archives - Luv Like (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=03oSIavvl2Q",
+        "tag": "#music",
+        "time": 1713310918,
         "rightFooter": ""
     },
     {

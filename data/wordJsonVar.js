@@ -1,134 +1,9 @@
 var wordJsonVar = 
 [
     {
-        "text": "c\u0435\u0440\u0436\u0430\u043d\u0442",
-        "text2": "sergeant",
-        "text3": "sargento"
-    },
-    {
-        "text": "\u0430\u0431\u0430\u0442\u0441\u0442\u0432\u043e",
-        "text2": "abbey",
-        "text3": "abad\u00eda"
-    },
-    {
-        "text": "\u0430\u0431\u0437\u0430\u0446",
-        "text2": "paragraph",
-        "text3": "p\u00e1rrafo"
-    },
-    {
-        "text": "\u0430\u0431\u043b\u044f\u0446\u0456\u044f",
-        "text2": "ablation",
-        "text3": "ablaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0431\u043e\u043d\u0435\u043d\u0442",
-        "text2": "subscriber",
-        "text3": "abonado"
-    },
-    {
-        "text": "\u0430\u0431\u0440\u0430\u043a\u0430\u0434\u0430\u0431\u0440\u0430",
-        "text2": "abracadabra",
-        "text3": "abracadabra"
-    },
-    {
-        "text": "\u0430\u0431\u0440\u0435\u0432\u0456\u0430\u0442\u0443\u0440\u0430",
-        "text2": "abbreviation",
-        "text3": "abreviatura"
-    },
-    {
-        "text": "\u0430\u0431\u0440\u0438\u043a\u043e\u0441",
-        "text2": "apricot",
-        "text3": "albaricoque"
-    },
-    {
-        "text": "\u0430\u0431\u0441\u043e\u043b\u044e\u0442\u0438\u0441\u0442",
-        "text2": "absolutist",
-        "text3": "absolutista"
-    },
-    {
-        "text": "\u0430\u0431\u0441\u043e\u0440\u0431\u0435\u043d\u0442",
-        "text2": "absorbent",
-        "text3": "absorbente"
-    },
-    {
-        "text": "\u0430\u0431\u0441\u043e\u0440\u0431\u0446\u0456\u044f",
-        "text2": "absorption",
-        "text3": "absorci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0431\u0441\u0443\u0440\u0434",
-        "text2": "absurdity",
-        "text3": "absurdo"
-    },
-    {
-        "text": "\u0430\u0431\u0456\u0442\u0443\u0440\u0456\u0454\u043d\u0442",
-        "text2": "entrant",
-        "text3": "entrante"
-    },
-    {
-        "text": "\u0430\u0432\u0430\u043d\u0433\u0430\u0440\u0434",
-        "text2": "vanguard",
-        "text3": "vanguardia"
-    },
-    {
-        "text": "\u0430\u0432\u0430\u043d\u043f\u043e\u0441\u0442",
-        "text2": "outpost",
-        "text3": "avanzada"
-    },
-    {
-        "text": "\u0430\u0432\u0430\u043d\u0441",
-        "text2": "advance",
-        "text3": "adelantar"
-    },
-    {
-        "text": "\u0430\u0432\u0430\u043d\u0442\u044e\u0440\u0438\u0437\u043c",
-        "text2": "adventurism",
-        "text3": "aventurerismo"
-    },
-    {
-        "text": "\u0430\u0432\u0430\u043d\u0442\u044e\u0440\u0438\u0441\u0442",
-        "text2": "adventurer",
-        "text3": "aventurero"
-    },
-    {
-        "text": "\u0430\u0432\u0430\u043d\u0442\u044e\u0440\u0438\u0441\u0442\u043a\u0430",
-        "text2": "adventuress",
-        "text3": "aventurera"
-    },
-    {
-        "text": "\u0430\u0432\u0430\u0440\u0456\u044f",
-        "text2": "accident",
-        "text3": "accidente"
-    },
-    {
-        "text": "\u0430\u0432\u0430\u0442\u0430\u0440",
-        "text2": "avatar",
-        "text3": "avatar"
-    },
-    {
-        "text": "\u0430\u0432\u0435\u043d\u044e",
-        "text2": "avenue",
-        "text3": "avenida"
-    },
-    {
         "text": "\u0430\u0432\u043e\u043a\u0430\u0434\u043e",
         "text2": "avocado",
         "text3": "aguacate"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u0435\u043d\u0442\u0438\u0444\u0456\u043a\u0430\u0446\u0456\u044f",
-        "text2": "authentication",
-        "text3": "autenticaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u0435\u043d\u0442\u0438\u0447\u043d\u0456\u0441\u0442\u044c",
-        "text2": "authenticity",
-        "text3": "autenticidad"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e",
-        "text2": "auto",
-        "text3": "auto"
     },
     {
         "text": "\u0430\u0432\u0442\u043e\u0431\u0443\u0441",
@@ -136,279 +11,9 @@ var wordJsonVar =
         "text3": "bus"
     },
     {
-        "text": "\u0430\u0432\u0442\u043e\u0431\u0456\u043e\u0433\u0440\u0430\u0444\u0456\u044f",
-        "text2": "autobiography",
-        "text3": "autobiograf\u00eda"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0432\u0438\u0431\u0456\u0440",
-        "text2": "auto select",
-        "text3": "selecci\u00f3n autom\u00e1tica"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0432\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044f",
-        "text2": "autodetermination",
-        "text3": "detecci\u00f3n autom\u00e1tica"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0437\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0435\u043d\u043d\u044f",
-        "text2": "autoload",
-        "text3": "autocarga"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u044f",
-        "text2": "autocomplete",
-        "text3": "autocompletar"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0437\u0430\u043f\u043e\u0432\u043d\u0435\u043d\u043d\u044f",
-        "text2": "autocomplete",
-        "text3": "autocompletar"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0437\u0430\u0441\u043c\u0430\u0433\u0430",
-        "text2": "self tanning",
-        "text3": "autobronceado"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043d\u043d\u044f",
-        "text2": "autosave",
-        "text3": "guardar autom\u00e1ticamente"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043a\u043b\u0430\u0446\u0430\u043d\u043d\u044f",
-        "text2": "autoclick",
-        "text3": "clic autom\u00e1tico"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043a\u043e\u0434\u0435\u0440",
-        "text2": "autoencoder",
-        "text3": "codificador autom\u00e1tico"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043a\u043e\u0440\u0435\u043a\u0446\u0456\u044f",
-        "text2": "autocorrection",
-        "text3": "auto-correcci\u00f3n"
-    },
-    {
         "text": "\u0430\u0432\u0442\u043e\u043c\u0430\u0442",
         "text2": "automaton",
         "text3": "aut\u00f3mata"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0430\u0446\u0456\u044f",
-        "text2": "automation",
-        "text3": "automatizaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043c\u0430\u0448\u0438\u043d\u0430",
-        "text2": "car",
-        "text3": "coche"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043c\u0435\u0445\u0430\u043d\u0456\u043a",
-        "text2": "auto mechanic",
-        "text3": "mec\u00e1nico de coches"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u044c",
-        "text2": "car",
-        "text3": "carro"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0456\u043b\u0456\u0441\u0442",
-        "text2": "motorist",
-        "text3": "automovilista"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043d\u043e\u043c\u0456\u044f",
-        "text2": "autonomy",
-        "text3": "autonom\u00eda"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f",
-        "text2": "trucking",
-        "text3": "camionaje"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u043f\u0456\u043b\u043e\u0442",
-        "text2": "autopilot",
-        "text3": "piloto autom\u00e1tico"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0440",
-        "text2": "author",
-        "text3": "el autor"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0440\u0438\u0442\u0435\u0442",
-        "text2": "authority",
-        "text3": "autoridad"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0440\u043a\u0430",
-        "text2": "author",
-        "text3": "el autor"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0440\u0443\u0447\u043a\u0430",
-        "text2": "fountain pen",
-        "text3": "pluma fuente"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0441\u0435\u0440\u0444\u0456\u043d\u0433",
-        "text2": "autosurfing",
-        "text3": "autosurf"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0441\u043f\u043e\u0440\u0442",
-        "text2": "motorsport",
-        "text3": "automovilismo"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0441\u0442\u043e\u044f\u043d\u043a\u0430",
-        "text2": "parking",
-        "text3": "estacionamiento"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0441\u0442\u0440\u0430\u0445\u043e\u0432\u043a\u0430",
-        "text2": "car insurance",
-        "text3": "seguro de auto"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u043e\u0444\u043e\u043a\u0443\u0441\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "autofocus",
-        "text3": "enfoque autom\u00e1tico"
-    },
-    {
-        "text": "\u0430\u0432\u0442\u0456\u0432\u043a\u0430",
-        "text2": "a car",
-        "text3": "carro"
-    },
-    {
-        "text": "\u0430\u0432\u0456\u0430\u0433\u0456\u0433\u0430\u043d\u0442",
-        "text2": "aviation giant",
-        "text3": "gigante de la aviaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0432\u0456\u0430\u043a\u043e\u043c\u043f\u0430\u043d\u0456\u044f",
-        "text2": "airline",
-        "text3": "aerolinea"
-    },
-    {
-        "text": "\u0430\u0432\u0456\u0430\u043b\u0456\u043d\u0456\u044f",
-        "text2": "airline",
-        "text3": "aerol\u00ednea"
-    },
-    {
-        "text": "\u0430\u0432\u0456\u0430\u043f\u0435\u0440\u0435\u0432\u0435\u0437\u0435\u043d\u043d\u044f",
-        "text2": "air transportation",
-        "text3": "transporte a\u00e9reo"
-    },
-    {
-        "text": "\u0430\u0432\u0456\u0430\u0441\u0443\u0434\u043d\u043e",
-        "text2": "aircraft",
-        "text3": "avi\u00f3n"
-    },
-    {
-        "text": "\u0430\u0432\u0456\u0430\u0442\u043e\u0440",
-        "text2": "aviator",
-        "text3": "aviador"
-    },
-    {
-        "text": "\u0430\u0432\u0456\u0430\u0446\u0456\u044f",
-        "text2": "aviation",
-        "text3": "aviaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0432\u0456\u0430\u0448\u043e\u0443",
-        "text2": "air show",
-        "text3": "espect\u00e1culo a\u00e9reo"
-    },
-    {
-        "text": "\u0430\u0432\u0456\u043e\u043d\u0456\u043a\u0430",
-        "text2": "avionics",
-        "text3": "avi\u00f3nica"
-    },
-    {
-        "text": "\u0430\u0433\u0430\u0442",
-        "text2": "agate",
-        "text3": "\u00e1gata"
-    },
-    {
-        "text": "\u0430\u0433\u0435\u043d\u0442",
-        "text2": "agent",
-        "text3": "agente"
-    },
-    {
-        "text": "\u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e",
-        "text2": "agency",
-        "text3": "agencia"
-    },
-    {
-        "text": "\u0430\u0433\u0435\u043d\u0446\u0456\u044f",
-        "text2": "agency",
-        "text3": "la agencia"
-    },
-    {
-        "text": "\u0430\u0433\u043b\u043e\u043c\u0435\u0440\u0430\u0446\u0456\u044f",
-        "text2": "agglomeration",
-        "text3": "aglomeraci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a",
-        "text2": "agnostic",
-        "text3": "agn\u00f3stico"
-    },
-    {
-        "text": "\u0430\u0433\u043e\u043d\u0456\u044f",
-        "text2": "agony",
-        "text3": "agon\u00eda"
-    },
-    {
-        "text": "\u0430\u0433\u043e\u0440\u0430\u0444\u043e\u0431\u0456\u044f",
-        "text2": "agoraphobia",
-        "text3": "agorafobia"
-    },
-    {
-        "text": "\u0430\u0433\u0440\u0435\u0433\u0430\u0442\u043e\u0440",
-        "text2": "aggregator",
-        "text3": "agregador"
-    },
-    {
-        "text": "\u0430\u0433\u0440\u0435\u0433\u0430\u0446\u0456\u044f",
-        "text2": "aggregation",
-        "text3": "agregaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0433\u0440\u0435\u0433\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "aggregation",
-        "text3": "agregaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0433\u0440\u0435\u0441\u0438\u0432\u043d\u0456\u0441\u0442\u044c",
-        "text2": "aggressiveness",
-        "text3": "agresividad"
-    },
-    {
-        "text": "\u0430\u0433\u0440\u0435\u0441\u043e\u0440",
-        "text2": "aggressor",
-        "text3": "agresor"
-    },
-    {
-        "text": "\u0430\u0433\u0440\u0435\u0441\u0456\u044f",
-        "text2": "aggression",
-        "text3": "agresi\u00f3n"
-    },
-    {
-        "text": "\u0430\u0433\u0440\u043e\u0431\u0456\u0437\u043d\u0435\u0441",
-        "text2": "agribusiness",
-        "text3": "agronegocios"
-    },
-    {
-        "text": "\u0430\u0434\u0430\u043f\u0442\u0430\u0446\u0456\u044f",
-        "text2": "adaptation",
-        "text3": "adaptaci\u00f3n"
     },
     {
         "text": "\u0430\u0434\u0430\u043f\u0442\u0435\u0440",
@@ -416,54 +21,9 @@ var wordJsonVar =
         "text3": "adaptador"
     },
     {
-        "text": "\u0430\u0434\u0432\u043e\u043a\u0430\u0442",
-        "text2": "lawyer",
-        "text3": "abogado"
-    },
-    {
-        "text": "\u0430\u0434\u0434\u043e\u043d",
-        "text2": "addon",
-        "text3": "addon"
-    },
-    {
         "text": "\u0430\u0434\u0435\u043f\u0442",
         "text2": "adept",
         "text3": "adepto"
-    },
-    {
-        "text": "\u0430\u0434\u043c\u0456\u043d",
-        "text2": "admin",
-        "text3": "administrador"
-    },
-    {
-        "text": "\u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
-        "text2": "administrator",
-        "text3": "administrador"
-    },
-    {
-        "text": "\u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u0456\u044f",
-        "text2": "administration",
-        "text3": "administracion"
-    },
-    {
-        "text": "\u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "administration",
-        "text3": "administracion"
-    },
-    {
-        "text": "\u0430\u0434\u0440\u0435\u043d\u0430\u043b\u0456\u043d",
-        "text2": "adrenalin",
-        "text3": "adrenalina"
-    },
-    {
-        "text": "\u0430\u0434\u0440\u0435\u0441\u0430",
-        "text2": "address",
-        "text3": "direcci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0434\u0440\u0435\u0441\u0430\u0446\u0456\u044f",
-        "text2": "addressing",
-        "text3": "direccionamiento"
     },
     {
         "text": "\u0430\u0434\u044e\u043b\u044c\u0442\u0435\u0440",
@@ -471,214 +31,9 @@ var wordJsonVar =
         "text3": "adulterio"
     },
     {
-        "text": "\u0430\u0435\u0440\u0430\u0446\u0456\u044f",
-        "text2": "aeration",
-        "text3": "aireaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u0435\u0440\u043e\u0434\u0440\u043e\u043c",
-        "text2": "airfield",
-        "text3": "aer\u00f3dromo"
-    },
-    {
-        "text": "\u0430\u0435\u0440\u043e\u0437\u043e\u043b\u044c",
-        "text2": "aerosol",
-        "text3": "aerosol"
-    },
-    {
-        "text": "\u0430\u0435\u0440\u043e\u043f\u043e\u0440\u0442",
-        "text2": "airport",
-        "text3": "aeropuerto"
-    },
-    {
-        "text": "\u0430\u0436\u0443\u0440",
-        "text2": "open work",
-        "text3": "trabajo abierto"
-    },
-    {
-        "text": "\u0430\u0436\u0456\u043e\u0442\u0430\u0436",
-        "text2": "agiotage",
-        "text3": "agiotage"
-    },
-    {
-        "text": "\u0430\u0437\u0431\u0435\u0441\u0442",
-        "text2": "asbestos",
-        "text3": "amianto"
-    },
-    {
-        "text": "\u0430\u0437\u0438\u043c\u0443\u0442",
-        "text2": "azimuth",
-        "text3": "azimut"
-    },
-    {
-        "text": "\u0430\u0437\u043e\u0442",
-        "text2": "nitrogen",
-        "text3": "nitr\u00f3geno"
-    },
-    {
-        "text": "\u0430\u0439\u0441\u0431\u0435\u0440\u0433",
-        "text2": "iceberg",
-        "text3": "iceberg"
-    },
-    {
-        "text": "\u0430\u043a\u0430\u0434\u0435\u043c\u0456\u044f",
-        "text2": "academy",
-        "text3": "la academia"
-    },
-    {
-        "text": "\u0430\u043a\u0430\u0443\u043d\u0442",
-        "text2": "account",
-        "text3": "cuenta"
-    },
-    {
-        "text": "\u0430\u043a\u0432\u0430\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u0430",
-        "text2": "aquaculture",
-        "text3": "acuicultura"
-    },
-    {
-        "text": "\u0430\u043a\u0432\u0430\u0440\u0435\u043b\u044c",
-        "text2": "watercolor",
-        "text3": "acuarela"
-    },
-    {
-        "text": "\u0430\u043a\u0432\u0430\u0440\u0456\u0443\u043c",
-        "text2": "aquarium",
-        "text3": "acuario"
-    },
-    {
-        "text": "\u0430\u043a\u043a\u0430\u0443\u043d\u0442",
-        "text2": "account",
-        "text3": "cuenta"
-    },
-    {
-        "text": "\u0430\u043a\u043e\u043c\u043f\u0430\u043d\u0435\u043c\u0435\u043d\u0442",
-        "text2": "accompaniment",
-        "text3": "acompa\u00f1amiento"
-    },
-    {
-        "text": "\u0430\u043a\u043e\u043c\u043f\u0430\u043d\u0456\u0430\u0442\u043e\u0440",
-        "text2": "accompanist",
-        "text3": "acompa\u00f1ante"
-    },
-    {
-        "text": "\u0430\u043a\u043e\u043c\u043f\u0430\u043d\u0456\u0430\u0442\u043e\u0440\u043a\u0430",
-        "text2": "accompanist",
-        "text3": "acompa\u00f1ante"
-    },
-    {
-        "text": "\u0430\u043a\u043e\u0440\u0434",
-        "text2": "chord",
-        "text3": "acorde"
-    },
-    {
-        "text": "\u0430\u043a\u043e\u0440\u0434\u0435\u043e\u043d\u0456\u0441\u0442",
-        "text2": "accordionist",
-        "text3": "acordeonista"
-    },
-    {
-        "text": "\u0430\u043a\u0440",
-        "text2": "acre",
-        "text3": "acre"
-    },
-    {
-        "text": "\u0430\u043a\u0440\u0435\u0434\u0438\u0442\u0430\u0446\u0456\u044f",
-        "text2": "accreditation",
-        "text3": "acreditaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u043a\u0440\u0438\u043b",
-        "text2": "acrylic",
-        "text3": "acr\u00edlico"
-    },
-    {
-        "text": "\u0430\u043a\u0440\u043e\u0431\u0430\u0442",
-        "text2": "acrobat",
-        "text3": "acr\u00f3bata"
-    },
-    {
-        "text": "\u0430\u043a\u0440\u043e\u0431\u0430\u0442\u0438\u043a\u0430",
-        "text2": "acrobatics",
-        "text3": "acrobacia"
-    },
-    {
-        "text": "\u0430\u043a\u0440\u043e\u043d\u0456\u043c",
-        "text2": "acronym",
-        "text3": "acr\u00f3nimo"
-    },
-    {
-        "text": "\u0430\u043a\u0441\u0435\u043b\u0435\u0440\u0430\u0442\u043e\u0440",
-        "text2": "accelerator",
-        "text3": "acelerador"
-    },
-    {
         "text": "\u0430\u043a\u0441\u0435\u043b\u0435\u0440\u043e\u043c\u0435\u0442\u0440",
         "text2": "accelerometer",
         "text3": "aceler\u00f3metro"
-    },
-    {
-        "text": "\u0430\u043a\u0441\u0435\u0441\u0443\u0430\u0440",
-        "text2": "accessory",
-        "text3": "accesorio"
-    },
-    {
-        "text": "\u0430\u043a\u0441\u0456\u043e\u043c\u0430",
-        "text2": "axiom",
-        "text3": "axioma"
-    },
-    {
-        "text": "\u0430\u043a\u0441\u0456\u043e\u043d",
-        "text2": "axion",
-        "text3": "axion"
-    },
-    {
-        "text": "\u0430\u043a\u0442",
-        "text2": "act",
-        "text3": "actuar"
-    },
-    {
-        "text": "\u0430\u043a\u0442\u0438\u0432",
-        "text2": "assets",
-        "text3": "activo"
-    },
-    {
-        "text": "\u0430\u043a\u0442\u0438\u0432\u043d\u0456\u0441\u0442\u044c",
-        "text2": "activity",
-        "text3": "actividad"
-    },
-    {
-        "text": "\u0430\u043a\u0442\u0438\u0432\u0456\u0437\u043c",
-        "text2": "activism",
-        "text3": "activismo"
-    },
-    {
-        "text": "\u0430\u043a\u0442\u0438\u0432\u0456\u0441\u0442",
-        "text2": "activist",
-        "text3": "activista"
-    },
-    {
-        "text": "\u0430\u043a\u0442\u0438\u0432\u0456\u0441\u0442\u043a\u0430",
-        "text2": "activist",
-        "text3": "activista"
-    },
-    {
-        "text": "\u0430\u043a\u0442\u043e\u0440",
-        "text2": "actor",
-        "text3": "actor"
-    },
-    {
-        "text": "\u0430\u043a\u0442\u043e\u0440\u043a\u0430",
-        "text2": "actress",
-        "text3": "actriz"
-    },
-    {
-        "text": "\u0430\u043a\u0442\u0440\u0438\u0441\u0430",
-        "text2": "actress",
-        "text3": "actriz"
-    },
-    {
-        "text": "\u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u0456\u0441\u0442\u044c",
-        "text2": "topicality",
-        "text3": "relevancia"
     },
     {
         "text": "\u0430\u043a\u0443\u043b\u0430",
@@ -686,104 +41,9 @@ var wordJsonVar =
         "text3": "tibur\u00f3n"
     },
     {
-        "text": "\u0430\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440",
-        "text2": "battery",
-        "text3": "bateria"
-    },
-    {
-        "text": "\u0430\u043a\u0443\u0441\u0442\u0438\u043a\u0430",
-        "text2": "acoustics",
-        "text3": "ac\u00fastica"
-    },
-    {
-        "text": "\u0430\u043a\u0443\u0448\u0435\u0440",
-        "text2": "obstetrician",
-        "text3": "obstetra"
-    },
-    {
-        "text": "\u0430\u043a\u0443\u0448\u0435\u0440\u043a\u0430",
-        "text2": "midwife",
-        "text3": "comadrona"
-    },
-    {
         "text": "\u0430\u043a\u0446\u0435\u043d\u0442",
         "text2": "accent",
         "text3": "acento"
-    },
-    {
-        "text": "\u0430\u043a\u0446\u0435\u043d\u0442\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "accentuation",
-        "text3": "acentuaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u043a\u0446\u0456\u043e\u043d\u0435\u0440",
-        "text2": "shareholder",
-        "text3": "accionista"
-    },
-    {
-        "text": "\u0430\u043a\u0446\u0456\u044f",
-        "text2": "action",
-        "text3": "acci\u00f3n"
-    },
-    {
-        "text": "\u0430\u043b\u0433\u0435\u0431\u0440\u0430",
-        "text2": "algebra",
-        "text3": "\u00e1lgebra"
-    },
-    {
-        "text": "\u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c",
-        "text2": "algorithm",
-        "text3": "algoritmo"
-    },
-    {
-        "text": "\u0430\u043b\u0435\u0440\u0433\u043e\u043b\u043e\u0433",
-        "text2": "allergist",
-        "text3": "alerg\u00f3logo"
-    },
-    {
-        "text": "\u0430\u043b\u0435\u0440\u0433\u043e\u043b\u043e\u0433\u0456\u044f",
-        "text2": "allergology",
-        "text3": "alergolog\u00eda"
-    },
-    {
-        "text": "\u0430\u043b\u0435\u0440\u0433\u0456\u044f",
-        "text2": "allergy",
-        "text3": "alergia"
-    },
-    {
-        "text": "\u0430\u043b\u0435\u044f",
-        "text2": "alley",
-        "text3": "avenida"
-    },
-    {
-        "text": "\u0430\u043b\u043a\u043e\u0433\u043e\u043b\u044c",
-        "text2": "alcohol",
-        "text3": "alcohol"
-    },
-    {
-        "text": "\u0430\u043b\u043c\u0430\u0437",
-        "text2": "diamond",
-        "text3": "diamante"
-    },
-    {
-        "text": "\u0430\u043b\u0444\u0430\u0432\u0456\u0442",
-        "text2": "alphabet",
-        "text3": "alfabeto"
-    },
-    {
-        "text": "\u0430\u043b\u0445\u0456\u043c\u0456\u043a",
-        "text2": "alchemist",
-        "text3": "alquimista"
-    },
-    {
-        "text": "\u0430\u043b\u0445\u0456\u043c\u0456\u044f",
-        "text2": "alchemy",
-        "text3": "alquimia"
-    },
-    {
-        "text": "\u0430\u043b\u044c\u0431\u0435\u0434\u043e",
-        "text2": "albedo",
-        "text3": "albedo"
     },
     {
         "text": "\u0430\u043b\u044c\u0431\u043e\u043c",
@@ -791,194 +51,9 @@ var wordJsonVar =
         "text3": "album"
     },
     {
-        "text": "\u0430\u043b\u044c\u043f\u0456\u043d\u0456\u0437\u043c",
-        "text2": "mountaineering",
-        "text3": "monta\u00f1ismo"
-    },
-    {
-        "text": "\u0430\u043b\u044c\u0442\u0430\u043d\u043a\u0430",
-        "text2": "gazebo",
-        "text3": "cenador"
-    },
-    {
-        "text": "\u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u0430",
-        "text2": "alternative",
-        "text3": "alternativa"
-    },
-    {
-        "text": "\u0430\u043b\u044c\u0442\u0440\u0443\u0457\u0437\u043c",
-        "text2": "altruism",
-        "text3": "altruismo"
-    },
-    {
-        "text": "\u0430\u043b\u044c\u0444\u0430",
-        "text2": "alpha",
-        "text3": "alfa"
-    },
-    {
         "text": "\u0430\u043b\u044c\u044f\u043d\u0441",
         "text2": "alliance",
         "text3": "alianza"
-    },
-    {
-        "text": "\u0430\u043b\u044e\u043c\u0456\u043d\u0456\u0439",
-        "text2": "aluminum",
-        "text3": "aluminio"
-    },
-    {
-        "text": "\u0430\u043b\u0456\u0431\u0456",
-        "text2": "alibi",
-        "text3": "coartada"
-    },
-    {
-        "text": "\u0430\u043b\u0456\u0433\u0430\u0442\u043e\u0440",
-        "text2": "alligator",
-        "text3": "cocodrilo"
-    },
-    {
-        "text": "\u0430\u043c\u0430\u043b\u044c\u0433\u0430\u043c\u0430",
-        "text2": "amalgam",
-        "text3": "amalgama"
-    },
-    {
-        "text": "\u0430\u043c\u0430\u0442\u043e\u0440",
-        "text2": "amateur",
-        "text3": "aficionado"
-    },
-    {
-        "text": "\u0430\u043c\u0431\u0456\u0432\u0430\u043b\u0435\u043d\u0442\u043d\u0456\u0441\u0442\u044c",
-        "text2": "ambivalence",
-        "text3": "ambivalencia"
-    },
-    {
-        "text": "\u0430\u043c\u0431\u0456\u043b\u0430\u0439\u0442",
-        "text2": "ambilight",
-        "text3": "ambilight"
-    },
-    {
-        "text": "\u0430\u043c\u0431\u0456\u0446\u0456\u044f",
-        "text2": "ambition",
-        "text3": "ambici\u00f3n"
-    },
-    {
-        "text": "\u0430\u043c\u0435\u0442\u0438\u0441\u0442",
-        "text2": "amethyst",
-        "text3": "amatista"
-    },
-    {
-        "text": "\u0430\u043c\u043d\u0435\u0437\u0456\u044f",
-        "text2": "amnesia",
-        "text3": "amnesia"
-    },
-    {
-        "text": "\u0430\u043c\u043d\u0456\u0441\u0442\u0456\u044f",
-        "text2": "amnesty",
-        "text3": "amnist\u00eda"
-    },
-    {
-        "text": "\u0430\u043c\u043e\u043d\u0456\u0442",
-        "text2": "ammonite",
-        "text3": "amonita"
-    },
-    {
-        "text": "\u0430\u043c\u043e\u0440\u0442\u0438\u0437\u0430\u0442\u043e\u0440",
-        "text2": "shock absorber",
-        "text3": "amortiguador"
-    },
-    {
-        "text": "\u0430\u043c\u043f\u043b\u0456\u0442\u0443\u0434\u0430",
-        "text2": "amplitude",
-        "text3": "amplitud"
-    },
-    {
-        "text": "\u0430\u043c\u043f\u043b\u0456\u0444\u0456\u043a\u0430\u0446\u0456\u044f",
-        "text2": "amplification",
-        "text3": "amplificaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u043c\u0443\u043b\u0435\u0442",
-        "text2": "amulet",
-        "text3": "amuleto"
-    },
-    {
-        "text": "\u0430\u043c\u0444\u0456\u0431\u0456\u044f",
-        "text2": "amphibian",
-        "text3": "anfibio"
-    },
-    {
-        "text": "\u0430\u043c\u0444\u0456\u0442\u0435\u0430\u0442\u0440",
-        "text2": "amphitheater",
-        "text3": "anfiteatro"
-    },
-    {
-        "text": "\u0430\u043c\u0456\u0430\u043a",
-        "text2": "ammonia",
-        "text3": "amon\u00edaco"
-    },
-    {
-        "text": "\u0430\u043c\u0456\u043d\u044c",
-        "text2": "amen",
-        "text3": "am\u00e9n"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u0433\u0440\u0430\u043c\u0430",
-        "text2": "anagram",
-        "text3": "anagrama"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u043b\u043e\u0433",
-        "text2": "analog",
-        "text3": "an\u00e1logo"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u043b\u043e\u0433\u0456\u044f",
-        "text2": "analogy",
-        "text3": "analog\u00eda"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u043b\u0456\u0437",
-        "text2": "analysis",
-        "text3": "an\u00e1lisis"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u043b\u0456\u0437\u0430\u0442\u043e\u0440",
-        "text2": "analyzer",
-        "text3": "analizador"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u043b\u0456\u0442\u0438\u043a",
-        "text2": "analyst",
-        "text3": "analista"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u043b\u0456\u0442\u0438\u043a\u0430",
-        "text2": "analytics",
-        "text3": "anal\u00edtica"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u043d\u0430\u0441",
-        "text2": "pineapple",
-        "text3": "pi\u00f1a"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u0440\u0445\u0456\u0437\u043c",
-        "text2": "anarchism",
-        "text3": "anarquismo"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u0440\u0445\u0456\u044f",
-        "text2": "anarchy",
-        "text3": "anarqu\u00eda"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u0442\u043e\u043c\u0456\u044f",
-        "text2": "anatomy",
-        "text3": "anatom\u00eda"
-    },
-    {
-        "text": "\u0430\u043d\u0430\u0444\u0435\u043c\u0430",
-        "text2": "anathema",
-        "text3": "anatema"
     },
     {
         "text": "\u0430\u043d\u0433\u0430\u0440",
@@ -986,404 +61,9 @@ var wordJsonVar =
         "text3": "hangar"
     },
     {
-        "text": "\u0430\u043d\u0433\u0435\u043b",
-        "text2": "angel",
-        "text3": "\u00e1ngel"
-    },
-    {
-        "text": "\u0430\u043d\u0433\u043b\u043e\u0444\u043e\u043d",
-        "text2": "anglophone",
-        "text3": "angl\u00f3fono"
-    },
-    {
-        "text": "\u0430\u043d\u0433\u043b\u0456\u0439\u0441\u044c\u043a\u0430",
-        "text2": "english",
-        "text3": "ingl\u00e9s"
-    },
-    {
-        "text": "\u0430\u043d\u0433\u0456\u0434\u0440\u0438\u0434",
-        "text2": "anhydride",
-        "text3": "anh\u00eddrido"
-    },
-    {
-        "text": "\u0430\u043d\u0434\u0440\u043e\u0433\u0435\u043d",
-        "text2": "androgen",
-        "text3": "andr\u00f3gino"
-    },
-    {
-        "text": "\u0430\u043d\u0435\u043a\u0434\u043e\u0442",
-        "text2": "anecdote",
-        "text3": "an\u00e9cdota"
-    },
-    {
-        "text": "\u0430\u043d\u0435\u043a\u0441\u0456\u044f",
-        "text2": "annexation",
-        "text3": "anexion"
-    },
-    {
-        "text": "\u0430\u043d\u0435\u043c\u043e\u043d\u0430",
-        "text2": "anemone",
-        "text3": "an\u00e9mona"
-    },
-    {
-        "text": "\u0430\u043d\u0435\u043c\u0456\u044f",
-        "text2": "anemia",
-        "text3": "anemia"
-    },
-    {
-        "text": "\u0430\u043d\u0435\u0441\u0442\u0435\u0437\u0456\u043e\u043b\u043e\u0433",
-        "text2": "anesthetist",
-        "text3": "anestesista"
-    },
-    {
-        "text": "\u0430\u043d\u043a\u0435\u0440\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "anchoring",
-        "text3": "fondeo"
-    },
-    {
-        "text": "\u0430\u043d\u043e\u043c\u0430\u043b\u0456\u044f",
-        "text2": "anomaly",
-        "text3": "anomal\u00eda"
-    },
-    {
-        "text": "\u0430\u043d\u043e\u043d\u0441",
-        "text2": "announcement",
-        "text3": "anuncio"
-    },
-    {
-        "text": "\u0430\u043d\u043e\u043d\u0456\u043c",
-        "text2": "anonym",
-        "text3": "seud\u00f3nimo"
-    },
-    {
-        "text": "\u0430\u043d\u043e\u043d\u0456\u043c\u0430\u0439\u0437\u0435\u0440",
-        "text2": "anonymizer",
-        "text3": "anonimizador"
-    },
-    {
-        "text": "\u0430\u043d\u043e\u043d\u0456\u043c\u043d\u0456\u0441\u0442\u044c",
-        "text2": "anonymity",
-        "text3": "anonimato"
-    },
-    {
-        "text": "\u0430\u043d\u043e\u0440\u0435\u043a\u0441\u0456\u044f",
-        "text2": "anorexia",
-        "text3": "anorexia"
-    },
-    {
-        "text": "\u0430\u043d\u043e\u0442\u0430\u0446\u0456\u044f",
-        "text2": "summary",
-        "text3": "anotaci\u00f3n"
-    },
-    {
         "text": "\u0430\u043d\u0441\u0430\u043c\u0431\u043b\u044c",
         "text2": "ensemble",
         "text3": "el conjunto"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0430\u0433\u043e\u043d\u0456\u0441\u0442",
-        "text2": "antagonist",
-        "text3": "antagonista"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0435\u043d\u0430",
-        "text2": "antenna",
-        "text3": "antena"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0431\u0456\u043e\u0442\u0438\u043a",
-        "text2": "antibiotic",
-        "text3": "antibi\u00f3tico"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0432\u0456\u0434\u0441\u0442\u0435\u0436\u0435\u043d\u043d\u044f",
-        "text2": "anti-tracking",
-        "text3": "anti-seguimiento"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0432\u0456\u0440\u0443\u0441",
-        "text2": "antivirus",
-        "text3": "antivirus"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0433\u0435\u043d",
-        "text2": "antigen",
-        "text3": "ant\u00edgeno"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0433\u0440\u0430\u0432\u0456\u0442\u0430\u0446\u0456\u044f",
-        "text2": "antigravity",
-        "text3": "anti gravedad"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0434\u0435\u043f\u0440\u0435\u0441\u0430\u043d\u0442",
-        "text2": "antidepressant",
-        "text3": "antidepresivo"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u043a\u0432\u0430\u0440",
-        "text2": "antiquary",
-        "text3": "anticuario"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u043a\u0432\u0430\u0440\u043a",
-        "text2": "antiquark",
-        "text3": "antiquark"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u043b\u043e\u043f\u0430",
-        "text2": "antelope",
-        "text3": "ant\u00edlope"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u043c\u0430\u0442\u0435\u0440\u0456\u044f",
-        "text2": "antimatter",
-        "text3": "antimateria"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u043e\u043a\u0441\u0438\u0434\u0430\u043d\u0442",
-        "text2": "antioxidant",
-        "text3": "antioxidante"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0440\u0430\u0441\u0438\u0437\u043c",
-        "text2": "anti-racism",
-        "text3": "anti racismo"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0441\u0430\u043d\u0456\u0442\u0430\u0440\u0456\u044f",
-        "text2": "unsanitary conditions",
-        "text3": "condiciones insalubres"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0441\u0435\u043c\u0456\u0442\u0438\u0437\u043c",
-        "text2": "anti-semitism",
-        "text3": "antisemitismo"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0444\u0440\u0438\u0437",
-        "text2": "antifreeze",
-        "text3": "anticongelante"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0447\u0430\u0441\u0442\u0438\u043d\u043a\u0430",
-        "text2": "antiparticle",
-        "text3": "antipart\u00edcula"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0447\u043d\u0456\u0441\u0442\u044c",
-        "text2": "antiquity",
-        "text3": "antig\u00fcedad"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0438\u0456\u043d\u0442\u0435\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u0456\u0437\u043c",
-        "text2": "anti-intellectualism",
-        "text3": "antiintelectualismo"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u043e\u043b\u043e\u0433\u0456\u044f",
-        "text2": "anthology",
-        "text3": "antolog\u00eda"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u043b\u043e\u0433",
-        "text2": "anthropologist",
-        "text3": "antrop\u00f3logo"
-    },
-    {
-        "text": "\u0430\u043d\u0442\u0440\u043e\u043f\u043e\u043b\u043e\u0433\u0456\u044f",
-        "text2": "anthropology",
-        "text3": "antropolog\u00eda"
-    },
-    {
-        "text": "\u0430\u043d\u0443\u043b\u044e\u0432\u0430\u043d\u043d\u044f",
-        "text2": "cancellation",
-        "text3": "cancelaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u043d\u0456\u0433\u0456\u043b\u044f\u0446\u0456\u044f",
-        "text2": "annihilation",
-        "text3": "aniquilaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u043d\u0456\u043c\u0430\u043b\u0456\u0441\u0442",
-        "text2": "animalist",
-        "text3": "animalista"
-    },
-    {
-        "text": "\u0430\u043d\u0456\u043c\u0430\u0442\u043e\u0440",
-        "text2": "animator",
-        "text3": "animador"
-    },
-    {
-        "text": "\u0430\u043d\u0456\u043c\u0430\u0446\u0456\u044f",
-        "text2": "animation",
-        "text3": "animaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u043d\u0456\u043c\u0435",
-        "text2": "anime",
-        "text3": "anime"
-    },
-    {
-        "text": "\u0430\u043d\u0456\u043c\u0456\u0441\u0442",
-        "text2": "animist",
-        "text3": "animista"
-    },
-    {
-        "text": "\u0430\u043f\u0430\u0440\u0430\u0442",
-        "text2": "apparatus",
-        "text3": "aparato"
-    },
-    {
-        "text": "\u0430\u043f\u0430\u0440\u0442\u0435\u0457\u0434",
-        "text2": "apartheid",
-        "text3": "apartheid"
-    },
-    {
-        "text": "\u0430\u043f\u0430\u0442\u0438\u0442",
-        "text2": "apatite",
-        "text3": "apatito"
-    },
-    {
-        "text": "\u0430\u043f\u0430\u0442\u0456\u044f",
-        "text2": "apathy",
-        "text3": "apat\u00eda"
-    },
-    {
-        "text": "\u0430\u043f\u0433\u0440\u0435\u0439\u0434",
-        "text2": "upgrade",
-        "text3": "potenciar"
-    },
-    {
-        "text": "\u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d",
-        "text2": "orange",
-        "text3": "naranja"
-    },
-    {
-        "text": "\u0430\u043f\u0435\u043b\u044f\u0446\u0456\u044f",
-        "text2": "appeal",
-        "text3": "apelar"
-    },
-    {
-        "text": "\u0430\u043f\u0435\u043d\u0434\u0438\u043a\u0441",
-        "text2": "appendix",
-        "text3": "ap\u00e9ndice"
-    },
-    {
-        "text": "\u0430\u043f\u0435\u043d\u0434\u0438\u0446\u0438\u0442",
-        "text2": "appendicitis",
-        "text3": "apendicitis"
-    },
-    {
-        "text": "\u0430\u043f\u0435\u0442\u0438\u0442",
-        "text2": "appetite",
-        "text3": "apetito"
-    },
-    {
-        "text": "\u0430\u043f\u043b\u0435\u0442",
-        "text2": "applet",
-        "text3": "applet"
-    },
-    {
-        "text": "\u0430\u043f\u043d\u043e\u0435",
-        "text2": "apnea",
-        "text3": "apnea"
-    },
-    {
-        "text": "\u0430\u043f\u043e\u0433\u0435\u0439",
-        "text2": "apogee",
-        "text3": "apogeo"
-    },
-    {
-        "text": "\u0430\u043f\u043e\u043a\u0430\u043b\u0456\u043f\u0441\u0438\u0441",
-        "text2": "apocalypse",
-        "text3": "apocalipsis"
-    },
-    {
-        "text": "\u0430\u043f\u043e\u043b\u043e\u0433\u0435\u0442",
-        "text2": "apologist",
-        "text3": "apologista"
-    },
-    {
-        "text": "\u0430\u043f\u043e\u043b\u043e\u0433\u0456\u044f",
-        "text2": "apology",
-        "text3": "disculpa"
-    },
-    {
-        "text": "\u0430\u043f\u043e\u0440\u0442",
-        "text2": "aport",
-        "text3": "aport"
-    },
-    {
-        "text": "\u0430\u043f\u043e\u0441\u0442\u0440\u043e\u0444",
-        "text2": "apostrophe",
-        "text3": "ap\u00f3strofe"
-    },
-    {
-        "text": "\u0430\u043f\u043e\u0444\u0435\u043e\u0437",
-        "text2": "apotheosis",
-        "text3": "apoteosis"
-    },
-    {
-        "text": "\u0430\u043f\u0440\u043e\u043a\u0441\u0438\u043c\u0430\u0446\u0456\u044f",
-        "text2": "approximation",
-        "text3": "aproximaci\u00f3n"
-    },
-    {
-        "text": "\u0430\u043f\u0441\u0438\u0434\u0430",
-        "text2": "apse",
-        "text3": "\u00e1bside"
-    },
-    {
-        "text": "\u0430\u043f\u0442\u0435\u043a\u0430",
-        "text2": "pharmacy",
-        "text3": "farmacia"
-    },
-    {
-        "text": "\u0430\u043f\u0442\u0435\u043a\u0430\u0440",
-        "text2": "pharmacist",
-        "text3": "farmac\u00e9utico"
-    },
-    {
-        "text": "\u0430\u0440\u0430\u043d\u0436\u0443\u0432\u0430\u043b\u044c\u043d\u0438\u043a",
-        "text2": "arranger",
-        "text3": "arreglista"
-    },
-    {
-        "text": "\u0430\u0440\u0430\u0445\u0456\u0441",
-        "text2": "peanut",
-        "text3": "man\u00ed"
-    },
-    {
-        "text": "\u0430\u0440\u0431\u0430\u043b\u0435\u0442",
-        "text2": "arbalest",
-        "text3": "ballesta"
-    },
-    {
-        "text": "\u0430\u0440\u0431\u0456\u0442\u0440",
-        "text2": "arbitrator",
-        "text3": "\u00e1rbitro"
-    },
-    {
-        "text": "\u0430\u0440\u0431\u0456\u0442\u0440\u0430\u0436",
-        "text2": "arbitration",
-        "text3": "arbitraje"
-    },
-    {
-        "text": "\u0430\u0440\u0433\u043e\u043d",
-        "text2": "argon",
-        "text3": "arg\u00f3n"
-    },
-    {
-        "text": "\u0430\u0440\u0433\u0443\u043c\u0435\u043d\u0442",
-        "text2": "argument",
-        "text3": "argumento"
-    },
-    {
-        "text": "\u0430\u0440\u0433\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0456\u044f",
-        "text2": "argumentation",
-        "text3": "argumentaci\u00f3n"
     },
     {
         "text": "\u0430\u0440\u0435\u043d\u0430",
@@ -1391,1113 +71,2433 @@ var wordJsonVar =
         "text3": "arena"
     },
     {
-        "text": "\u0430\u0440\u0435\u0448\u0442",
-        "text2": "arrest",
-        "text3": "arresto"
-    },
-    {
-        "text": "\u0430\u0440\u0438\u0441\u0442\u043e\u043a\u0440\u0430\u0442",
-        "text2": "aristocrat",
-        "text3": "arist\u00f3crata"
-    },
-    {
-        "text": "\u0430\u0440\u0438\u0441\u0442\u043e\u043a\u0440\u0430\u0442\u0456\u044f",
-        "text2": "aristocracy",
-        "text3": "aristocracia"
-    },
-    {
-        "text": "\u0430\u0440\u0438\u0444\u043c\u0435\u0442\u0438\u043a\u0430",
-        "text2": "arithmetic",
-        "text3": "aritm\u00e9tica"
-    },
-    {
         "text": "\u0430\u0440\u043a\u0430",
         "text2": "arch",
         "text3": "arco"
     },
     {
-        "text": "\u0430\u0440\u043a\u0443\u0448",
-        "text2": "sheet",
-        "text3": "s\u00e1bana"
+        "text": "\u0430\u0440\u0441\u0435\u043d\u0430\u043b",
+        "text2": "arsenal",
+        "text3": "arsenal"
     },
     {
-        "text": "\u0430\u0440\u043c\u0430\u0434\u0430",
-        "text2": "armada",
-        "text3": "armada"
+        "text": "\u0430\u0440\u0442\u0438\u0441\u0442\u0438\u0437\u043c",
+        "text2": "artistry",
+        "text3": "virtuosismo"
     },
     {
-        "text": "\u0430\u0440\u043c\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "reinforcement",
-        "text3": "reforzamiento"
+        "text": "\u0430\u0440\u0442\u0438\u0441\u0442\u043a\u0430",
+        "text2": "artist",
+        "text3": "artista"
     },
     {
-        "text": "\u0430\u0440\u043c\u0456\u044f",
-        "text2": "army",
-        "text3": "ejercito"
+        "text": "\u0430\u0441\u0442\u0438\u0433\u043c\u0430\u0442\u0438\u0437\u043c",
+        "text2": "astigmatism",
+        "text3": "astigmatismo"
     },
     {
-        "text": "\u0430\u0440\u043d\u0456\u0441\u0442\u044c",
-        "text2": "arity",
-        "text3": "arity"
+        "text": "\u0430\u0441\u0442\u043c\u0430",
+        "text2": "asthma",
+        "text3": "asma"
     },
     {
-        "text": "\u0454\u0432\u0430\u043d\u0433\u0435\u043b\u0456\u0441\u0442",
-        "text2": "evangelist",
-        "text3": "evangelista"
+        "text": "\u0430\u0441\u0442\u0440\u043e\u043b\u043e\u0433",
+        "text2": "astrologer",
+        "text3": "astr\u00f3logo"
     },
     {
-        "text": "\u0454\u0432\u0430\u043d\u0433\u0435\u043b\u0456\u0454",
-        "text2": "gospel",
-        "text3": "evangelio"
+        "text": "\u0431\u0430\u0433\u0430\u0436",
+        "text2": "baggage",
+        "text3": "equipaje"
     },
     {
-        "text": "\u0454\u0432\u0440\u043e",
-        "text2": "euro",
-        "text3": "euro"
+        "text": "\u0431\u0430\u0433\u0430\u0436\u043d\u0438\u043a",
+        "text2": "baggage",
+        "text3": "maletero"
     },
     {
-        "text": "\u0454\u0432\u0440\u043e\u0437\u043e\u043d\u0430",
-        "text2": "eurozone",
-        "text3": "eurozona"
+        "text": "\u0431\u0430\u043b\u043a\u0430",
+        "text2": "beam",
+        "text3": "haz"
     },
     {
-        "text": "\u0454\u0434\u0438\u043d\u043e\u0440\u0456\u0433",
-        "text2": "unicorn",
-        "text3": "unicornio"
+        "text": "\u0431\u0430\u043b\u043e\u043d",
+        "text2": "balloon",
+        "text3": "globo"
     },
     {
-        "text": "\u0454\u0434\u043d\u0456\u0441\u0442\u044c",
-        "text2": "unity",
-        "text3": "la unidad"
+        "text": "\u0431\u0430\u043b\u044c\u0437\u0430\u043c",
+        "text2": "balm",
+        "text3": "b\u00e1lsamo"
     },
     {
-        "text": "\u0454\u0437\u0443\u0457\u0442",
-        "text2": "Jesuit",
-        "text3": "jesuita"
+        "text": "\u0431\u0430\u043d\u0434\u0438\u0442",
+        "text2": "bandit",
+        "text3": "bandido"
     },
     {
-        "text": "\u0454\u043c\u043d\u0456\u0441\u0442\u044c",
-        "text2": "capacity",
-        "text3": "capacidad"
+        "text": "\u0431\u0430\u043d\u043a",
+        "text2": "bank",
+        "text3": "el banco"
     },
     {
-        "text": "\u0454\u043d\u043e\u0442",
-        "text2": "raccoon",
-        "text3": "mapache"
+        "text": "\u0431\u0430\u043d\u043a\u0430",
+        "text2": "jar",
+        "text3": "banco"
     },
     {
-        "text": "\u0454\u043f\u0430\u0440\u0445\u0456\u044f",
-        "text2": "diocese",
-        "text3": "di\u00f3cesis"
+        "text": "\u0431\u0430\u0440",
+        "text2": "bar",
+        "text3": "bar"
     },
     {
-        "text": "\u0454\u043f\u0438\u0441\u043a\u043e\u043f",
-        "text2": "bishop",
-        "text3": "obispo"
+        "text": "\u0431\u0430\u0440\u043c\u0435\u043d",
+        "text2": "bartender",
+        "text3": "barman"
     },
     {
-        "text": "\u0454\u0440\u0435\u0441\u044c",
-        "text2": "heresy",
-        "text3": "herej\u00eda"
+        "text": "\u0431\u0430\u0442\u0430\u0440\u0435\u044f",
+        "text2": "battery",
+        "text3": "bater\u00eda"
     },
     {
-        "text": "\u0456\u0432\u0435\u043d\u0442",
-        "text2": "event",
-        "text3": "evento"
+        "text": "\u0431\u0435\u0434\u0440\u043e",
+        "text2": "thigh",
+        "text3": "muslo"
     },
     {
-        "text": "\u0456\u0433\u043d\u043e\u0440\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "disregard",
-        "text3": "ignorando"
+        "text": "\u0431\u0435\u0439\u0434\u0436",
+        "text2": "badge",
+        "text3": "insignia"
     },
     {
-        "text": "\u0456\u0433\u0440\u0430\u0448\u043a\u0430",
-        "text2": "toy",
-        "text3": "juguete"
+        "text": "\u0431\u0435\u043d\u0437\u0438\u043d",
+        "text2": "gasoline",
+        "text3": "gasolina"
     },
     {
-        "text": "\u0456\u0434\u0435\u0430\u043b\u0456\u0437\u043c",
-        "text2": "idealism",
-        "text3": "idealismo"
+        "text": "\u0431\u043b\u0430\u0433\u043e",
+        "text2": "good",
+        "text3": "beneficio"
     },
     {
-        "text": "\u0456\u0434\u0435\u0430\u043b\u0456\u0441\u0442",
-        "text2": "idealist",
-        "text3": "idealista"
+        "text": "\u0431\u043b\u0435\u043d\u0434\u0435\u0440",
+        "text2": "blender",
+        "text3": "licuadora"
     },
     {
-        "text": "\u0456\u0434\u0435\u0430\u0446\u0456\u044f",
-        "text2": "ideation",
-        "text3": "ideaci\u00f3n"
+        "text": "\u0431\u043b\u043e\u0433\u0435\u0440",
+        "text2": "blogger",
+        "text3": "blogger"
     },
     {
-        "text": "\u0456\u0434\u0435\u043d\u0442\u0438\u0444\u0456\u043a\u0430\u0442\u043e\u0440",
-        "text2": "identifier",
-        "text3": "id"
+        "text": "\u0431\u043b\u043e\u043a",
+        "text2": "bloc",
+        "text3": "bloque"
     },
     {
-        "text": "\u0456\u0434\u0435\u043d\u0442\u0438\u0444\u0456\u043a\u0430\u0446\u0456\u044f",
-        "text2": "identification",
-        "text3": "identificaci\u00f3n"
+        "text": "\u0431\u043b\u043e\u043a\u0447\u0435\u0439\u043d",
+        "text2": "blockchain",
+        "text3": "blockchain"
     },
     {
-        "text": "\u0456\u0434\u0435\u043d\u0442\u0438\u0447\u043d\u0456\u0441\u0442\u044c",
-        "text2": "identity",
-        "text3": "identidad"
+        "text": "\u0431\u043b\u043e\u0445\u0430",
+        "text2": "flea",
+        "text3": "pulga"
     },
     {
-        "text": "\u0456\u0434\u0435\u043e\u0433\u0440\u0430\u043c\u0430",
-        "text2": "ideogram",
-        "text3": "ideograma"
+        "text": "\u0431\u043b\u044e\u0437",
+        "text2": "blues",
+        "text3": "blues"
     },
     {
-        "text": "\u0456\u0434\u0435\u043e\u043b\u043e\u0433\u0456\u044f",
-        "text2": "ideology",
-        "text3": "ideolog\u00eda"
+        "text": "\u0431\u043b\u044e\u0442\u0443\u0437",
+        "text2": "bluetooth",
+        "text3": "bluetooth"
     },
     {
-        "text": "\u0456\u0434\u0435\u044f",
-        "text2": "idea",
-        "text3": "la idea"
+        "text": "\u0431\u043e\u043a\u0441\u0435\u0440",
+        "text2": "boxer",
+        "text3": "boxeador"
     },
     {
-        "text": "\u0456\u0434\u0438\u043b\u0456\u044f",
-        "text2": "idyll",
-        "text3": "idilio"
+        "text": "\u0431\u043e\u043b\u043e\u0442\u043e",
+        "text2": "swamp",
+        "text3": "pantano"
     },
     {
-        "text": "\u0456\u0434\u043e\u043b",
-        "text2": "idol",
-        "text3": "\u00eddolo"
+        "text": "\u0431\u043e\u0440\u0442",
+        "text2": "board",
+        "text3": "bordo"
     },
     {
-        "text": "\u0456\u0434\u0456\u043e\u043c\u0430",
-        "text2": "idiom",
-        "text3": "idioma"
+        "text": "\u0431\u043e\u0442\u043e\u043a\u0441",
+        "text2": "botox",
+        "text3": "botox"
     },
     {
-        "text": "\u0456\u0437\u043e\u043b\u044f\u0442\u043e\u0440",
-        "text2": "insulator",
-        "text3": "aislante"
+        "text": "\u0431\u0440\u0430\u0432\u0430\u0434\u0430",
+        "text2": "bravado",
+        "text3": "bravuconer\u00eda"
     },
     {
-        "text": "\u0456\u0437\u043e\u043b\u044f\u0446\u0456\u044f",
-        "text2": "insulation",
-        "text3": "aislamiento"
+        "text": "\u0431\u0440\u0435\u043d\u0434\u0438\u043d\u0433",
+        "text2": "branding",
+        "text3": "marca"
     },
     {
-        "text": "\u0456\u0437\u043e\u043c\u043e\u0440\u0444\u0456\u0437\u043c",
-        "text2": "isomorphism",
-        "text3": "isomorfismo"
+        "text": "\u0431\u0440\u0438\u0433\u0430\u0434\u0430",
+        "text2": "brigade",
+        "text3": "brigada"
     },
     {
-        "text": "\u0456\u0437\u043e\u043f\u043e\u0432\u0435\u0440\u0445\u043d\u044f",
-        "text2": "isosurface",
-        "text3": "isosuperficie"
+        "text": "\u0431\u0440\u0438\u0442\u0432\u0430",
+        "text2": "razor",
+        "text3": "maquinilla de afeitar"
     },
     {
-        "text": "\u0456\u0437\u044e\u043c",
-        "text2": "raisins",
-        "text3": "pasa"
+        "text": "\u0431\u0440\u043e\u043a\u0435\u0440",
+        "text2": "broker",
+        "text3": "corredor"
     },
     {
-        "text": "\u0456\u043a\u043b\u043e",
-        "text2": "fang",
-        "text3": "colmillo"
+        "text": "\u0431\u0440\u043e\u043d\u0437\u0430",
+        "text2": "bronze",
+        "text3": "bronce"
     },
     {
-        "text": "\u0456\u043a\u043e\u043d\u0430",
-        "text2": "icon",
-        "text3": "icono"
+        "text": "\u0431\u0443\u043b\u044c\u0432\u0430\u0440",
+        "text2": "boulevard",
+        "text3": "bulevar"
     },
     {
-        "text": "\u0456\u043a\u043e\u043d\u043e\u0441\u0442\u0430\u0441",
-        "text2": "iconostasis",
-        "text3": "iconostasio"
+        "text": "\u0431\u0443\u043b\u044c\u0434\u043e\u0433",
+        "text2": "bulldog",
+        "text3": "buldog"
     },
     {
-        "text": "\u0456\u043a\u0440\u0430",
-        "text2": "caviar",
-        "text3": "caviar"
+        "text": "\u0431\u0443\u0440\u044f",
+        "text2": "storm",
+        "text3": "tormenta"
     },
     {
-        "text": "\u0456\u043b\u044e\u0437\u0456\u043e\u043d\u0456\u0441\u0442",
-        "text2": "illusionist",
-        "text3": "ilusionista"
+        "text": "\u0431\u0443\u0445\u0433\u0430\u043b\u0442\u0435\u0440",
+        "text2": "accountant",
+        "text3": "contador"
     },
     {
-        "text": "\u0456\u043b\u044e\u0437\u0456\u044f",
-        "text2": "illusion",
-        "text3": "espejismo"
+        "text": "\u0431\u044e\u0441\u0442\u0433\u0430\u043b\u044c\u0442\u0435\u0440",
+        "text2": "bra",
+        "text3": "sost\u00e9n"
     },
     {
-        "text": "\u0456\u043b\u044e\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
-        "text2": "illustrator",
-        "text3": "ilustrador"
+        "text": "\u0432\u0430\u043d\u043d\u0430",
+        "text2": "bath",
+        "text3": "ba\u00f1era"
     },
     {
-        "text": "\u0456\u043b\u044e\u0441\u0442\u0440\u0430\u0446\u0456\u044f",
-        "text2": "illustration",
-        "text3": "ilustracion"
+        "text": "\u0432\u0430\u0440\u0432\u0430\u0440\u0441\u0442\u0432\u043e",
+        "text2": "barbarism",
+        "text3": "barbarie"
     },
     {
-        "text": "\u0456\u043b\u044e\u0441\u0442\u0440\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "illustration",
-        "text3": "ilustraci\u00f3n"
+        "text": "\u0432\u0430\u0442\u0442",
+        "text2": "watts",
+        "text3": "vatios"
     },
     {
-        "text": "\u0456\u043c'\u044f",
-        "text2": "name",
-        "text3": "nombre"
+        "text": "\u0432\u0435\u043a\u0442\u043e\u0440",
+        "text2": "vector",
+        "text3": "vector"
     },
     {
-        "text": "\u0456\u043c\u0431\u0438\u0440",
-        "text2": "ginger",
-        "text3": "jengibre"
+        "text": "\u0432\u0435\u0442\u0435\u0440\u0438\u043d\u0430\u0440",
+        "text2": "veterinarian",
+        "text3": "veterinario"
     },
     {
-        "text": "\u0456\u043c\u0435\u043d\u043d\u0438\u043a",
-        "text2": "noun",
-        "text3": "sustantivo"
+        "text": "\u0432\u043a\u043b\u0430\u0434\u043a\u0430",
+        "text2": "tab",
+        "text3": "pesta\u00f1a"
     },
     {
-        "text": "\u0456\u043c\u0435\u043d\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "naming",
-        "text3": "nombrando"
+        "text": "\u0432\u043e\u0434\u0430",
+        "text2": "water",
+        "text3": "agua"
     },
     {
-        "text": "\u0456\u043c\u043b\u0430",
-        "text2": "haze",
-        "text3": "calina"
+        "text": "\u0432\u043e\u043b\u0435\u0439\u0431\u043e\u043b",
+        "text2": "volleyball",
+        "text3": "v\u00f3leibol"
     },
     {
-        "text": "\u0456\u043c\u043c\u0456\u0433\u0440\u0430\u043d\u0442",
-        "text2": "immigrant",
-        "text3": "inmigrante"
+        "text": "\u0432\u043e\u043b\u043e\u043a\u043d\u043e",
+        "text2": "fiber",
+        "text3": "fibra"
     },
     {
-        "text": "\u0456\u043c\u043c\u0456\u0433\u0440\u0430\u0446\u0456\u044f",
-        "text2": "immigration",
-        "text3": "inmigraci\u00f3n"
+        "text": "\u0432\u043e\u0440\u043e\u043d\u0430",
+        "text2": "crow",
+        "text3": "cuervo"
     },
     {
-        "text": "\u0456\u043c\u043f\u0435\u0440\u0430\u0442\u0438\u0432",
-        "text2": "imperative",
-        "text3": "imperativo"
+        "text": "\u0433\u0430\u043b\u0430\u043a\u0442\u0438\u043a\u0430",
+        "text2": "galaxy",
+        "text3": "galaxia"
     },
     {
-        "text": "\u0456\u043c\u043f\u0435\u0440\u0430\u0442\u043e\u0440",
-        "text2": "emperor",
-        "text3": "el emperador"
+        "text": "\u0433\u0430\u043b\u0435\u0440\u0435\u044f",
+        "text2": "gallery",
+        "text3": "galer\u00eda"
     },
     {
-        "text": "\u0456\u043c\u043f\u0435\u0440\u0430\u0442\u0440\u0438\u0446\u044f",
-        "text2": "empress",
-        "text3": "emperatriz"
+        "text": "\u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431",
+        "text2": "wardrobe",
+        "text3": "guardarropa"
     },
     {
-        "text": "\u0456\u043c\u043f\u0435\u0440\u0456\u0430\u043b\u0456\u0437\u043c",
-        "text2": "imperialism",
-        "text3": "imperialismo"
+        "text": "\u0433\u0435\u0439\u043c\u0435\u0440",
+        "text2": "gamer",
+        "text3": "jugador"
     },
     {
-        "text": "\u0456\u043c\u043f\u0435\u0440\u0456\u044f",
-        "text2": "empire",
-        "text3": "imperio"
+        "text": "\u0433\u0435\u0439\u043c\u043f\u0430\u0434",
+        "text2": "gamepad",
+        "text3": "gamepad"
     },
     {
-        "text": "\u0456\u043c\u043f\u043b\u0430\u043d\u0442\u0430\u0442",
-        "text2": "implant",
-        "text3": "implante"
+        "text": "\u0433\u0435\u0439\u043c\u043f\u043b\u0435\u0439",
+        "text2": "gameplay",
+        "text3": "jugabilidad"
     },
     {
-        "text": "\u0456\u043c\u043f\u043e\u0440\u0442",
-        "text2": "imports",
-        "text3": "importar"
+        "text": "\u0433\u0435\u043d\u0435\u0440\u0430\u043b",
+        "text2": "general",
+        "text3": "general"
     },
     {
-        "text": "\u0456\u043c\u043f\u043e\u0440\u0442\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "importation",
-        "text3": "importar"
+        "text": "\u0433\u0435\u043d\u043e\u043c",
+        "text2": "genome",
+        "text3": "genoma"
     },
     {
-        "text": "\u0456\u043c\u043f\u0440\u0435\u0441\u0430\u0440\u0456\u043e",
-        "text2": "impresario",
-        "text3": "empresario"
+        "text": "\u0433\u0435\u043e\u043b\u043e\u0433",
+        "text2": "geologist",
+        "text3": "ge\u00f3logo"
     },
     {
-        "text": "\u0456\u043c\u043f\u0440\u0435\u0441\u0456\u043e\u043d\u0456\u0437\u043c",
-        "text2": "impressionism",
-        "text3": "impresionismo"
+        "text": "\u0433\u0435\u0440\u0431",
+        "text2": "emblem",
+        "text3": "escudo de armas"
     },
     {
-        "text": "\u0456\u043c\u043f\u0440\u0435\u0441\u0456\u043e\u043d\u0456\u0441\u0442",
-        "text2": "impressionist",
-        "text3": "impresionista"
+        "text": "\u0433\u043b\u0430\u043c\u0443\u0440",
+        "text2": "glamor",
+        "text3": "glamour"
     },
     {
-        "text": "\u0456\u043c\u043f\u0440\u043e\u0432\u0456\u0437\u0430\u0446\u0456\u044f",
-        "text2": "improvisation",
-        "text3": "improvisaci\u00f3n"
+        "text": "\u0433\u043b\u044e\u0442\u0435\u043d",
+        "text2": "gluten",
+        "text3": "gluten"
     },
     {
-        "text": "\u0456\u043c\u043f\u0443\u043b\u044c\u0441",
-        "text2": "pulse",
-        "text3": "impulso"
+        "text": "\u0433\u043d\u043e\u0441\u0435\u043e\u043b\u043e\u0433\u0456\u044f",
+        "text2": "epistemology",
+        "text3": "epistemolog\u00eda"
     },
     {
-        "text": "\u0456\u043c\u043f\u0456\u0447\u043c\u0435\u043d\u0442",
-        "text2": "impeachment",
-        "text3": "acusaci\u00f3n"
+        "text": "\u0433\u043e\u043b\u044c\u0444",
+        "text2": "golf",
+        "text3": "el golf"
     },
     {
-        "text": "\u0456\u043c\u0443\u043d\u0456\u0437\u0430\u0446\u0456\u044f",
-        "text2": "immunization",
-        "text3": "inmunizaci\u00f3n"
+        "text": "\u0433\u043e\u0440\u0435",
+        "text2": "grief",
+        "text3": "dolor"
     },
     {
-        "text": "\u0456\u043c\u0443\u043d\u0456\u0442\u0435\u0442",
-        "text2": "immunity",
-        "text3": "inmunidad"
+        "text": "\u0433\u043e\u0440\u0438\u043b\u0430",
+        "text2": "gorilla",
+        "text3": "gorila"
     },
     {
-        "text": "\u0456\u043c\u0456\u0442\u0430\u0446\u0456\u044f",
-        "text2": "imitation",
-        "text3": "imitaci\u00f3n"
+        "text": "\u0433\u043e\u0440\u043e\u0441\u043a\u043e\u043f",
+        "text2": "horoscope",
+        "text3": "hor\u00f3scopo"
     },
     {
-        "text": "\u0456\u043d\u0430\u0432\u0433\u0443\u0440\u0430\u0446\u0456\u044f",
-        "text2": "inauguration",
-        "text3": "inauguraci\u00f3n"
+        "text": "\u0433\u0440\u0430\u0434\u0443\u0441",
+        "text2": "degree",
+        "text3": "grado"
     },
     {
-        "text": "\u0456\u043d\u0430\u043a\u043e\u043c\u0438\u0441\u043b\u0435\u043d\u043d\u044f",
-        "text2": "dissent",
-        "text3": "disentir"
+        "text": "\u0433\u0440\u0430\u043c",
+        "text2": "gram",
+        "text3": "gramos"
     },
     {
-        "text": "\u0456\u043d\u0432\u0430\u043b\u0456\u0434",
-        "text2": "disabled",
-        "text3": "discapacitado"
+        "text": "\u0433\u0440\u0430\u043d\u0430\u0442",
+        "text2": "garnet",
+        "text3": "granate"
     },
     {
-        "text": "\u0456\u043d\u0432\u0430\u043b\u0456\u0434\u043d\u0456\u0441\u0442\u044c",
-        "text2": "invalidity",
-        "text3": "invalidez"
+        "text": "\u0433\u0440\u0438\u0431",
+        "text2": "mushroom",
+        "text3": "seta"
     },
     {
-        "text": "\u0456\u043d\u0432\u0430\u0440\u0456\u0430\u043d\u0442",
-        "text2": "invariant",
-        "text3": "invariante"
+        "text": "\u0433\u0440\u0438\u0432\u0430",
+        "text2": "mane",
+        "text3": "melena"
     },
     {
-        "text": "\u0456\u043d\u0432\u0435\u043d\u0442\u0430\u0440",
-        "text2": "inventory",
-        "text3": "inventario"
+        "text": "\u0433\u0440\u043e\u0431",
+        "text2": "grave",
+        "text3": "tumba"
     },
     {
-        "text": "\u0456\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u0438\u0437\u0430\u0446\u0456\u044f",
-        "text2": "inventory",
-        "text3": "inventario"
+        "text": "\u0434\u0430\u0442\u0430",
+        "text2": "date",
+        "text3": "fecha"
     },
     {
-        "text": "\u0456\u043d\u0432\u0435\u0441\u0442\u0438\u0442\u0443\u0440\u0430",
-        "text2": "investiture",
-        "text3": "ceremonia de investidura"
+        "text": "\u0434\u0435\u043a\u043e\u043b\u044c\u0442\u0435",
+        "text2": "neckline",
+        "text3": "escote"
     },
     {
-        "text": "\u0456\u043d\u0432\u0435\u0441\u0442\u043e\u0440",
-        "text2": "investor",
-        "text3": "inversor"
+        "text": "\u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442",
+        "text2": "democrat",
+        "text3": "dem\u00f3crata"
     },
     {
-        "text": "\u0456\u043d\u0432\u0435\u0441\u0442\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "investment",
-        "text3": "inversi\u00f3n"
+        "text": "\u0434\u0435\u043c\u043e\u043d\u0442\u0430\u0436",
+        "text2": "dismantling",
+        "text3": "desmantelamiento"
     },
     {
-        "text": "\u0456\u043d\u0432\u043e\u0439\u0441",
-        "text2": "invoice",
-        "text3": "factura"
+        "text": "\u0434\u0435\u0444\u0435\u043a\u0442",
+        "text2": "defect",
+        "text3": "defecto"
     },
     {
-        "text": "\u0456\u043d\u0433\u0430\u043b\u044f\u0446\u0456\u044f",
-        "text2": "inhalation",
-        "text3": "inhalaci\u00f3n"
+        "text": "\u0434\u0435\u0444\u043e\u043b\u0442",
+        "text2": "default",
+        "text3": "por defecto"
     },
     {
-        "text": "\u0456\u043d\u0433\u0440\u0435\u0434\u0456\u0454\u043d\u0442",
-        "text2": "ingredient",
-        "text3": "ingrediente"
+        "text": "\u0434\u0436\u043e\u0439\u0441\u0442\u0438\u043a",
+        "text2": "joystick",
+        "text3": "palanca de mando"
     },
     {
-        "text": "\u0456\u043d\u0434\u0435\u043a\u0441",
-        "text2": "index",
-        "text3": "indice"
+        "text": "\u0434\u0438\u0437\u0430\u0439\u043d",
+        "text2": "design",
+        "text3": "dise\u00f1o"
     },
     {
-        "text": "\u0456\u043d\u0434\u0435\u043a\u0441\u0430\u0442\u043e\u0440",
-        "text2": "indexer",
-        "text3": "indexador"
+        "text": "\u0434\u0438\u043a\u0442\u0430\u0442\u043e\u0440",
+        "text2": "dictator",
+        "text3": "dictador"
     },
     {
-        "text": "\u0456\u043d\u0434\u0435\u043a\u0441\u0430\u0446\u0456\u044f",
-        "text2": "indexing",
-        "text3": "indexaci\u00f3n"
+        "text": "\u0434\u0438\u043d\u043e\u0437\u0430\u0432\u0440",
+        "text2": "dinosaur",
+        "text3": "dinosaurio"
     },
     {
-        "text": "\u0456\u043d\u0434\u0435\u043a\u0441\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "indexing",
-        "text3": "indexaci\u00f3n"
+        "text": "\u0434\u0438\u043f\u043b\u043e\u043c\u0430\u0442",
+        "text2": "diplomat",
+        "text3": "diplom\u00e1tico"
     },
     {
-        "text": "\u0456\u043d\u0434\u0438\u0432\u0456\u0434",
-        "text2": "individual",
-        "text3": "individual"
+        "text": "\u0434\u0438\u0441\u043a\u0443\u0440\u0441",
+        "text2": "discourse",
+        "text3": "discurso"
     },
     {
-        "text": "\u0456\u043d\u0434\u0438\u0432\u0456\u0434\u0443\u0430\u043b\u0456\u0437\u043c",
-        "text2": "individualism",
-        "text3": "individualismo"
+        "text": "\u0434\u0438\u0441\u043e\u043d\u0430\u043d\u0441",
+        "text2": "dissonance",
+        "text3": "disonancia"
     },
     {
-        "text": "\u0456\u043d\u0434\u0438\u0433\u043e",
-        "text2": "indigo",
-        "text3": "\u00edndigo"
+        "text": "\u0434\u043e\u0437\u0430",
+        "text2": "dose",
+        "text3": "dosis"
     },
     {
-        "text": "\u0456\u043d\u0434\u0438\u043a\u0430\u0442\u043e\u0440",
-        "text2": "indicator",
-        "text3": "indicador"
+        "text": "\u0434\u043e\u043a",
+        "text2": "dock",
+        "text3": "dock"
     },
     {
-        "text": "\u0456\u043d\u0434\u0438\u043a\u0430\u0446\u0456\u044f",
-        "text2": "indication",
-        "text3": "indicaci\u00f3n"
+        "text": "\u0434\u043e\u043a\u0442\u043e\u0440",
+        "text2": "doctor",
+        "text3": "doctor"
     },
     {
-        "text": "\u0456\u043d\u0434\u0438\u0447\u043a\u0430",
-        "text2": "turkey",
-        "text3": "pavo"
+        "text": "\u0434\u043e\u043c\u0435\u043d",
+        "text2": "domain",
+        "text3": "dominio"
     },
     {
-        "text": "\u0456\u043d\u0434\u0443\u043a\u0446\u0456\u044f",
-        "text2": "induction",
-        "text3": "inducci\u00f3n"
+        "text": "\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u043a",
+        "text2": "abundance",
+        "text3": "abundancia"
     },
     {
-        "text": "\u0456\u043d\u0434\u0443\u0441\u0442\u0440\u0456\u0430\u043b\u0456\u0437\u0430\u0446\u0456\u044f",
-        "text2": "industrialization",
-        "text3": "industrializaci\u00f3n"
+        "text": "\u0434\u043e\u0441\u0442\u0443\u043f",
+        "text2": "access",
+        "text3": "acceso"
     },
     {
-        "text": "\u0456\u043d\u0434\u0443\u0441\u0442\u0440\u0456\u044f",
-        "text2": "industry",
-        "text3": "la industria"
+        "text": "\u0434\u043e\u0446\u0435\u043d\u0442",
+        "text2": "docent",
+        "text3": "profesor titular"
     },
     {
-        "text": "\u0456\u043d\u0435\u0440\u0446\u0456\u044f",
-        "text2": "inertia",
-        "text3": "inercia"
+        "text": "\u0434\u043e\u0447\u043a\u0430",
+        "text2": "daughter",
+        "text3": "hija"
     },
     {
-        "text": "\u0456\u043d\u0436\u0435\u043a\u0442\u043e\u0440",
-        "text2": "injector",
-        "text3": "inyector"
+        "text": "\u0434\u0443\u0431\u043b\u044f\u0436",
+        "text2": "dubbing",
+        "text3": "doblaje"
     },
     {
-        "text": "\u0456\u043d\u0436\u0435\u043d\u0435\u0440",
-        "text2": "engineer",
-        "text3": "ingeniero"
+        "text": "\u0434\u0443\u0448\u0430",
+        "text2": "soul",
+        "text3": "alma"
     },
     {
-        "text": "\u0456\u043d\u0436\u0435\u043d\u0435\u0440\u0456\u044f",
-        "text2": "engineering",
-        "text3": "ingenieria"
+        "text": "\u0436\u0435\u043b\u0430\u0442\u0438\u043d",
+        "text2": "gelatin",
+        "text3": "gelatina"
     },
     {
-        "text": "\u0456\u043d\u0436\u0438\u043d\u0456\u0440\u0438\u043d\u0433",
-        "text2": "engineering",
-        "text3": "ingenieria"
+        "text": "\u0436\u0438\u0440",
+        "text2": "fat",
+        "text3": "gordo"
     },
     {
-        "text": "\u0456\u043d\u0436\u0438\u0440",
-        "text2": "fig",
-        "text3": "higo"
+        "text": "\u0437\u0430\u0433\u0430\u0434\u043a\u0430",
+        "text2": "mystery",
+        "text3": "misterio"
     },
     {
-        "text": "\u0456\u043d\u043a\u0432\u0456\u0437\u0438\u0442\u043e\u0440",
-        "text2": "inquisitor",
-        "text3": "inquisidor"
+        "text": "\u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043e\u043a",
+        "text2": "title",
+        "text3": "t\u00edtulo"
     },
     {
-        "text": "\u0456\u043d\u043a\u0432\u0456\u0437\u0438\u0446\u0456\u044f",
-        "text2": "inquisition",
-        "text3": "la inquisicion"
+        "text": "\u0437\u0430\u0439\u043c",
+        "text2": "loan",
+        "text3": "pr\u00e9stamo"
     },
     {
-        "text": "\u0456\u043d\u043a\u043b\u044e\u0437\u0456\u044f",
-        "text2": "inclusion",
-        "text3": "inclusi\u00f3n"
+        "text": "\u0437\u0430\u0439\u0447\u0438\u043a",
+        "text2": "bunny",
+        "text3": "conejito"
     },
     {
-        "text": "\u0456\u043d\u043a\u043e\u0433\u043d\u0456\u0442\u043e",
-        "text2": "incognito",
-        "text3": "inc\u00f3gnito"
+        "text": "\u0437\u0430\u043a\u043e\u043d\u043e\u043f\u0440\u043e\u0435\u043a\u0442",
+        "text2": "bill",
+        "text3": "la factura"
     },
     {
-        "text": "\u0456\u043d\u043a\u0443\u0431\u0430\u0442\u043e\u0440",
-        "text2": "incubator",
-        "text3": "incubadora"
+        "text": "\u0437\u0430\u043b",
+        "text2": "hall",
+        "text3": "pasillo"
     },
     {
-        "text": "\u0456\u043d\u043a\u0443\u0431\u0430\u0446\u0456\u044f",
-        "text2": "incubation",
-        "text3": "incubaci\u00f3n"
+        "text": "\u0437\u0430\u043c\u043e\u043a",
+        "text2": "lock",
+        "text3": "el castillo"
     },
     {
-        "text": "\u0456\u043d\u043d\u0435\u0440\u0432\u0430\u0446\u0456\u044f",
-        "text2": "innervation",
-        "text3": "inervaci\u00f3n"
+        "text": "\u0437\u0430\u043f\u0430\u0441",
+        "text2": "stock",
+        "text3": "stock"
     },
     {
-        "text": "\u0456\u043d\u043d\u043e\u0432\u0430\u0446\u0456\u0439\u043d\u0456\u0441\u0442\u044c",
-        "text2": "innovativeness",
-        "text3": "innovaci\u00f3n"
+        "text": "\u0437\u0430\u043f\u0430\u0445",
+        "text2": "scent",
+        "text3": "oler"
     },
     {
-        "text": "\u0456\u043d\u043d\u043e\u0432\u0430\u0446\u0456\u044f",
-        "text2": "innovation",
-        "text3": "innovaci\u00f3n"
+        "text": "\u0437\u0430\u043f\u043e\u0440",
+        "text2": "constipation",
+        "text3": "estre\u00f1imiento"
     },
     {
-        "text": "\u0456\u043d\u043e\u0437\u0435\u043c\u0435\u0446\u044c",
-        "text2": "foreigner",
-        "text3": "un extranjero"
+        "text": "\u0437\u0430\u0440\u043f\u043b\u0430\u0442\u0430",
+        "text2": "salary",
+        "text3": "salario"
     },
     {
-        "text": "\u0456\u043d\u0441\u0435\u043a\u0442\u0438\u0446\u0438\u0434",
-        "text2": "insecticide",
-        "text3": "insecticida"
+        "text": "\u0437\u0430\u0440\u044f\u0434\u043a\u0430",
+        "text2": "charger",
+        "text3": "ejercicio"
     },
     {
-        "text": "\u0456\u043d\u0441\u0435\u043a\u0442\u043e\u0456\u0434",
-        "text2": "insectoid",
-        "text3": "insectoide"
+        "text": "\u0437\u0430\u0442\u043e\u0447\u043a\u0430",
+        "text2": "sharpening",
+        "text3": "afilado"
     },
     {
-        "text": "\u0456\u043d\u0441\u043f\u0435\u043a\u0442\u043e\u0440",
-        "text2": "inspector",
-        "text3": "inspector"
+        "text": "\u0437\u043b\u043e\u043c",
+        "text2": "evil",
+        "text3": "el mal"
     },
     {
-        "text": "\u0456\u043d\u0441\u0442\u0430\u043b\u044f\u0442\u043e\u0440",
-        "text2": "installer",
-        "text3": "instalador"
+        "text": "\u0437\u043e\u043d\u0430",
+        "text2": "zone",
+        "text3": "zona"
     },
     {
-        "text": "\u0456\u043d\u0441\u0442\u0438\u043d\u043a\u0442",
-        "text2": "instinct",
-        "text3": "instinto"
+        "text": "\u0437\u0440\u0430\u0434\u0430",
+        "text2": "treason",
+        "text3": "traici\u00f3n"
     },
     {
-        "text": "\u0456\u043d\u0441\u0442\u0438\u0442\u0443\u0442",
-        "text2": "institute",
-        "text3": "instituto"
+        "text": "\u0437\u0443\u043c",
+        "text2": "zoom",
+        "text3": "zoom"
     },
     {
-        "text": "\u0456\u043d\u0441\u0442\u0440\u0443\u043a\u0442\u043e\u0440",
-        "text2": "instructor",
-        "text3": "instructor"
+        "text": "\u0439\u043e\u0433\u0443\u0440\u0442",
+        "text2": "yogurt",
+        "text3": "yogur"
     },
     {
-        "text": "\u0456\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0456\u044f",
-        "text2": "instruction",
-        "text3": "instrucci\u00f3n"
+        "text": "\u043a\u0430\u0431\u0430\u0447\u043e\u043a",
+        "text2": "zucchini",
+        "text3": "calabac\u00edn"
     },
     {
-        "text": "\u0456\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442",
-        "text2": "tool",
-        "text3": "herramienta"
+        "text": "\u043a\u0430\u043b\u044c\u043a\u0430",
+        "text2": "tracing paper",
+        "text3": "rastreo"
     },
     {
-        "text": "\u0456\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u0430\u043b\u0456\u0441\u0442",
-        "text2": "instrumentalist",
-        "text3": "instrumentista"
+        "text": "\u043a\u0430\u043c\u043f\u0443\u0441",
+        "text2": "campus",
+        "text3": "campus"
     },
     {
-        "text": "\u0456\u043d\u0441\u0443\u043b\u044c\u0442",
-        "text2": "stroke",
-        "text3": "hemorragia cerebral"
+        "text": "\u043a\u0430\u043c\u0443\u0444\u043b\u044f\u0436",
+        "text2": "camouflage",
+        "text3": "camuflaje"
     },
     {
-        "text": "\u0456\u043d\u0441\u0443\u043b\u0456\u043d",
-        "text2": "insulin",
-        "text3": "insulina"
+        "text": "\u043a\u0430\u043f\u043a\u0430\u043d",
+        "text2": "trap",
+        "text3": "trampa"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0433\u0440\u0430\u043b",
-        "text2": "integral",
-        "text3": "integral"
+        "text": "\u043a\u0430\u043f\u0443\u0441\u0442\u0430",
+        "text2": "cabbage",
+        "text3": "repollo"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0433\u0440\u0430\u0442\u043e\u0440",
-        "text2": "integrator",
-        "text3": "integrador"
+        "text": "\u043a\u0430\u043f\u0447\u0430",
+        "text2": "captcha",
+        "text3": "captcha"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0456\u044f",
-        "text2": "integration",
-        "text3": "integraci\u00f3n"
+        "text": "\u043a\u0430\u0440\u0430\u043d\u0442\u0438\u043d",
+        "text2": "quarantine",
+        "text3": "cuarentena"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u043b\u0435\u043a\u0442",
-        "text2": "intelligence",
-        "text3": "inteligencia"
+        "text": "\u043a\u0430\u0440\u0438\u043a\u0430\u0442\u0443\u0440\u0438\u0441\u0442",
+        "text2": "cartoonist",
+        "text3": "dibujante"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u043b\u0435\u043a\u0442\u0443\u0430\u043b",
-        "text2": "intellectual",
-        "text3": "intelectual"
+        "text": "\u043a\u0430\u0440\u043c\u0430",
+        "text2": "karma",
+        "text3": "karma"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u043b\u0435\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u0456\u0441\u0442\u044c",
-        "text2": "intellectuality",
-        "text3": "intelectualidad"
+        "text": "\u043a\u0430\u0440\u043d\u0430\u0432\u0430\u043b",
+        "text2": "carnival",
+        "text3": "carnaval"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u043b\u0456\u0433\u0435\u043d\u0446\u0456\u044f",
-        "text2": "intelligentsia",
-        "text3": "intelectuales"
+        "text": "\u043a\u0430\u0440\u0442\u0440\u0438\u0434\u0436",
+        "text2": "cartridge",
+        "text3": "cartucho"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u043d\u0441\u0438\u0432",
-        "text2": "intensive",
-        "text3": "intensivo"
+        "text": "\u043a\u0430\u0441\u043a\u0430\u0434\u0435\u0440",
+        "text2": "stuntman",
+        "text3": "especialista"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u0456\u0441\u0442\u044c",
-        "text2": "intensity",
-        "text3": "intensidad"
+        "text": "\u043a\u0430\u0441\u0442\u0430",
+        "text2": "caste",
+        "text3": "casta"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440'\u0454\u0440",
-        "text2": "interior",
-        "text3": "interior"
+        "text": "\u043a\u0430\u0442",
+        "text2": "executioner",
+        "text3": "verdugo"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u0430\u043a\u0442\u0438\u0432\u043d\u0456\u0441\u0442\u044c",
-        "text2": "interactivity",
-        "text3": "interactividad"
+        "text": "\u043a\u0430\u0442\u0430\u043b\u043e\u0433",
+        "text2": "catalog",
+        "text3": "catalogo"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u0430\u0446\u0456\u044f",
-        "text2": "interaction",
-        "text3": "internamiento"
+        "text": "\u043a\u0430\u0442\u043e\u043a",
+        "text2": "skating rink",
+        "text3": "pista de patinaje"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u0432'\u044e",
-        "text2": "interview",
-        "text3": "entrevistas"
+        "text": "\u043a\u0430\u0442\u043e\u043b\u0438\u043a",
+        "text2": "catholic",
+        "text3": "cat\u00f3lico"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u0432'\u044e\u0432\u0430\u043d\u043d\u044f",
-        "text2": "interviewing",
-        "text3": "entrevistando"
+        "text": "\u043a\u0430\u0444\u0435",
+        "text2": "cafe",
+        "text3": "cafe"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u0432'\u044e\u0435\u0440",
-        "text2": "interviewer",
-        "text3": "entrevistador"
+        "text": "\u043a\u0432\u0430\u0440\u0446",
+        "text2": "quartz",
+        "text3": "cuarzo"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u0432\u0430\u043b",
-        "text2": "interval",
-        "text3": "intervalo"
+        "text": "\u043a\u0435\u0431\u0430\u0431",
+        "text2": "kebab",
+        "text3": "kebab"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u0432\u0435\u043d\u0446\u0456\u043e\u043d\u0456\u0441\u0442",
-        "text2": "interventionist",
-        "text3": "intervencionista"
+        "text": "\u043a\u0435\u043a\u0441",
+        "text2": "cake",
+        "text3": "pastel"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u0435\u0441",
-        "text2": "interest",
-        "text3": "inter\u00e9s"
+        "text": "\u043a\u0438\u0441\u0442\u044c",
+        "text2": "brush",
+        "text3": "cepillo"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u043d",
-        "text2": "intern",
-        "text3": "interno"
+        "text": "\u043a\u043b\u0430\u043f\u0430\u043d",
+        "text2": "valve",
+        "text3": "valvula"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u043d\u0430\u0442",
-        "text2": "boarding school",
-        "text3": "internado"
+        "text": "\u043a\u043b\u0435\u0439",
+        "text2": "glue",
+        "text3": "pegamento"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u043d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u0456\u0437\u0430\u0446\u0456\u044f",
-        "text2": "internationalization",
-        "text3": "internacionalizaci\u00f3n"
+        "text": "\u043a\u043e\u0434",
+        "text2": "code",
+        "text3": "codigo"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u043d\u0435\u0442",
-        "text2": "internet",
-        "text3": "internet"
+        "text": "\u043a\u043e\u043b\u0435\u0441\u043e",
+        "text2": "wheel",
+        "text3": "rueda"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u043d\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "internment",
-        "text3": "internaci\u00f3n"
+        "text": "\u043a\u043e\u043b\u043e\u043d\u043a\u0430",
+        "text2": "column",
+        "text3": "columna"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u043e\u043f\u0435\u0440\u0430\u0431\u0435\u043b\u044c\u043d\u0456\u0441\u0442\u044c",
-        "text2": "interoperability",
-        "text3": "interoperabilidad"
+        "text": "\u043a\u043e\u043c\u0430\u043d\u0434\u0438\u0440",
+        "text2": "commander",
+        "text3": "comandante"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u043f\u043e\u043b\u044f\u0446\u0456\u044f",
-        "text2": "interpolation",
-        "text3": "interpolaci\u00f3n"
+        "text": "\u043a\u043e\u043c\u0435\u0442\u0430",
+        "text2": "comet",
+        "text3": "cometa"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u043f\u0440\u0435\u0442\u0430\u0446\u0456\u044f",
-        "text2": "interpretation",
-        "text3": "interpretaci\u00f3n"
+        "text": "\u043a\u043e\u043c\u043f\u043e\u043d\u043e\u0432\u043a\u0430",
+        "text2": "layout",
+        "text3": "maquetacion"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u043f\u0440\u0435\u0442\u043e\u0432\u0430\u043d\u0456\u0441\u0442\u044c",
-        "text2": "interpretability",
-        "text3": "interpretabilidad"
+        "text": "\u043a\u043e\u043d\u0432\u0435\u0440\u0442\u0435\u0440",
+        "text2": "converter",
+        "text3": "convertidor"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u043f\u0443\u043d\u043a\u0442",
-        "text2": "interpoint",
-        "text3": "interpunto"
+        "text": "\u043a\u043e\u043d\u0434\u0435\u043d\u0441\u0430\u0442\u043e\u0440",
+        "text2": "capacitor",
+        "text3": "condensador"
     },
     {
-        "text": "\u0456\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441",
-        "text2": "interface",
-        "text3": "interfaz"
+        "text": "\u043a\u043e\u043d\u043a\u0443\u0440\u0441",
+        "text2": "competition",
+        "text3": "la competencia"
     },
     {
-        "text": "\u0456\u043d\u0442\u0438\u043c\u043d\u0456\u0441\u0442\u044c",
-        "text2": "intimacy",
-        "text3": "intimidad"
+        "text": "\u043a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0430",
+        "text2": "constant",
+        "text3": "constante"
     },
     {
-        "text": "\u0456\u043d\u0442\u043e\u043d\u0430\u0446\u0456\u044f",
-        "text2": "intonation",
-        "text3": "entonaci\u00f3n"
+        "text": "\u043a\u043e\u043d\u0441\u0443\u043b\u044c\u0441\u0442\u0432\u043e",
+        "text2": "consulate",
+        "text3": "consulado"
     },
     {
-        "text": "\u0456\u043d\u0442\u043e\u043d\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "intonation",
-        "text3": "entonaci\u00f3n"
+        "text": "\u043a\u043e\u043d\u0442\u0435\u043d\u0442",
+        "text2": "content",
+        "text3": "contenido"
     },
     {
-        "text": "\u0456\u043d\u0442\u0440\u0430\u043d\u0435\u0442",
-        "text2": "intranet",
-        "text3": "intranet"
+        "text": "\u043a\u043e\u043d\u0442\u0438\u043d\u0433\u0435\u043d\u0442",
+        "text2": "contingent",
+        "text3": "contingente"
     },
     {
-        "text": "\u0456\u043d\u0442\u0440\u0438\u0433\u0430",
-        "text2": "intrigue",
-        "text3": "intriga"
+        "text": "\u043a\u043e\u043d\u0442\u0438\u043d\u0443\u0443\u043c",
+        "text2": "continuum",
+        "text3": "continuo"
     },
     {
-        "text": "\u0456\u043d\u0442\u0440\u0438\u0433\u0430\u043d\u043a\u0430",
-        "text2": "schemer",
-        "text3": "intrigante"
+        "text": "\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0435\u0440",
+        "text2": "controller",
+        "text3": "controlador"
     },
     {
-        "text": "\u0456\u043d\u0442\u0440\u043e\u0432\u0435\u0440\u0441\u0456\u044f",
-        "text2": "introversion",
-        "text3": "introversi\u00f3n"
+        "text": "\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c",
+        "text2": "control",
+        "text3": "controlar"
     },
     {
-        "text": "\u0456\u043d\u0442\u0440\u043e\u0432\u0435\u0440\u0442",
-        "text2": "introvert",
-        "text3": "introvertido"
+        "text": "\u043a\u043e\u043d\u0443\u0441",
+        "text2": "cone",
+        "text3": "cono"
     },
     {
-        "text": "\u0456\u043d\u0442\u0443\u0431\u0430\u0446\u0456\u044f",
-        "text2": "intubation",
-        "text3": "intubaci\u00f3n"
+        "text": "\u043a\u043e\u043e\u0440\u0434\u0438\u043d\u0430\u0442\u043e\u0440",
+        "text2": "coordinator",
+        "text3": "coordinador"
     },
     {
-        "text": "\u0456\u043d\u0442\u0443\u0457\u0442",
-        "text2": "intuition",
-        "text3": "intuici\u00f3n"
+        "text": "\u043a\u043e\u0440\u0438\u0434\u043e\u0440",
+        "text2": "corridor",
+        "text3": "corredor"
     },
     {
-        "text": "\u0456\u043d\u0442\u0443\u0457\u0442\u0438\u0432\u043d\u0456\u0441\u0442\u044c",
-        "text2": "intuitiveness",
-        "text3": "intuici\u00f3n"
+        "text": "\u043a\u043e\u0440\u043e\u0432\u0430",
+        "text2": "cow",
+        "text3": "vaca"
     },
     {
-        "text": "\u0456\u043d\u0442\u0443\u0457\u0446\u0456\u044f",
-        "text2": "intuition",
-        "text3": "intuici\u00f3n"
+        "text": "\u043a\u043e\u0440\u043e\u043b\u044c",
+        "text2": "king",
+        "text3": "el rey"
     },
     {
-        "text": "\u0456\u043d\u0444\u0430\u0440\u043a\u0442",
-        "text2": "infarct",
-        "text3": "infarto"
+        "text": "\u043a\u043e\u0441\u0442\u044e\u043c",
+        "text2": "suit",
+        "text3": "traje"
     },
     {
-        "text": "\u0456\u043d\u0444\u0435\u043a\u0446\u0456\u0439\u043d\u0456\u0441\u0442\u044c",
-        "text2": "infectivity",
-        "text3": "infectividad"
+        "text": "\u043a\u0440\u0430\u0442\u0435\u0440",
+        "text2": "crater",
+        "text3": "cr\u00e1ter"
     },
     {
-        "text": "\u0456\u043d\u0444\u0435\u043a\u0446\u0456\u044f",
-        "text2": "infection",
-        "text3": "infecci\u00f3n"
+        "text": "\u043a\u0440\u0435\u0439\u0441\u0435\u0440",
+        "text2": "cruiser",
+        "text3": "crucero"
     },
     {
-        "text": "\u0456\u043d\u0444\u043b\u044e\u0435\u043d\u0441\u0435\u0440",
-        "text2": "influencer",
-        "text3": "hombre de influencia"
+        "text": "\u043a\u0440\u0438\u043a",
+        "text2": "shout",
+        "text3": "gritar"
     },
     {
-        "text": "\u0456\u043d\u0444\u043b\u044f\u0446\u0456\u044f",
-        "text2": "inflation",
-        "text3": "inflaci\u00f3n"
+        "text": "\u043a\u0440\u0438\u043f\u0442\u043e\u0433\u0440\u0430\u0444",
+        "text2": "cryptograph",
+        "text3": "criptografo"
     },
     {
-        "text": "\u0456\u043d\u0444\u043e\u0433\u0440\u0430\u0444\u0456\u043a\u0430",
-        "text2": "infographics",
-        "text3": "infografia"
+        "text": "\u043a\u0440\u0438\u0442\u0438\u043a",
+        "text2": "critic",
+        "text3": "critico"
     },
     {
-        "text": "\u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u043a",
-        "text2": "computer scientist",
-        "text3": "ciencias de la computaci\u00f3n"
+        "text": "\u043a\u0440\u043e\u043d",
+        "text2": "cron",
+        "text3": "corona"
     },
     {
-        "text": "\u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u043a\u0430",
-        "text2": "computer Science",
-        "text3": "inform\u00e1tica"
+        "text": "\u043a\u0443\u043b\u0430\u043a",
+        "text2": "fist",
+        "text3": "pu\u00f1o"
     },
     {
-        "text": "\u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u043e\u0440",
-        "text2": "informant",
-        "text3": "informante"
+        "text": "\u043a\u0443\u0440\u0430\u0442\u043e\u0440",
+        "text2": "curator",
+        "text3": "curador"
     },
     {
-        "text": "\u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0456\u044f",
-        "text2": "information",
-        "text3": "informacion"
+        "text": "\u043a\u0443\u0440\u0430\u0442\u043e\u0440\u0441\u0442\u0432\u043e",
+        "text2": "curation",
+        "text3": "curaci\u00f3n"
     },
     {
-        "text": "\u0456\u043d\u0444\u043e\u0440\u043c\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "informing",
-        "text3": "informando"
+        "text": "\u043a\u0443\u0440\u0433\u0430\u043d",
+        "text2": "mound",
+        "text3": "mont\u00edculo"
     },
     {
-        "text": "\u0456\u043d\u0444\u0440\u0430\u0437\u0432\u0443\u043a",
-        "text2": "infrasound",
-        "text3": "infrasonido"
+        "text": "\u043a\u0443\u0440\u0441\u043e\u0440",
+        "text2": "cursor",
+        "text3": "cursor"
     },
     {
-        "text": "\u0456\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430",
-        "text2": "infrastructure",
-        "text3": "infraestructura"
+        "text": "\u043a\u0443\u0440\u044f\u0442\u043d\u0438\u043a",
+        "text2": "coop",
+        "text3": "gallinero"
     },
     {
-        "text": "\u0456\u043d\u0444\u0456\u043a\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "infection",
-        "text3": "infecci\u00f3n"
+        "text": "\u043a\u0443\u0445\u043d\u044f",
+        "text2": "kitchen",
+        "text3": "cocina"
     },
     {
-        "text": "\u0456\u043d\u0444\u0456\u043b\u044c\u0442\u0440\u0430\u0446\u0456\u044f",
-        "text2": "infiltration",
-        "text3": "infiltraci\u00f3n"
+        "text": "\u043a\u0443\u0447\u0435\u0440",
+        "text2": "coachman",
+        "text3": "cochero"
     },
     {
-        "text": "\u0456\u043d\u0444\u0456\u043d\u0456\u0442\u0438\u0432",
-        "text2": "infinitive",
-        "text3": "infinitivo"
+        "text": "\u043b\u0430\u0431\u0440\u0430\u0434\u043e\u0440",
+        "text2": "labrador",
+        "text3": "labrador"
     },
     {
-        "text": "\u0456\u043d\u0446\u0438\u0434\u0435\u043d\u0442",
-        "text2": "incident",
-        "text3": "incidente"
+        "text": "\u043b\u0430\u0439\u043a",
+        "text2": "like",
+        "text3": "me gusta"
     },
     {
-        "text": "\u0456\u043d\u0456\u0446\u0456\u0430\u043b\u0456\u0437\u0430\u0442\u043e\u0440",
-        "text2": "initializer",
-        "text3": "inicializador"
+        "text": "\u043b\u0430\u0439\u043d\u0435\u0440",
+        "text2": "liner",
+        "text3": "trazador de l\u00edneas"
     },
     {
-        "text": "\u0456\u043d\u0456\u0446\u0456\u0430\u043b\u0456\u0437\u0430\u0446\u0456\u044f",
-        "text2": "initialization",
-        "text3": "inicializaci\u00f3n"
+        "text": "\u043b\u0430\u0439\u0444\u0445\u0430\u043a",
+        "text2": "life hack",
+        "text3": "truco de vida"
     },
     {
-        "text": "\u0456\u043d\u0456\u0446\u0456\u0430\u0442\u0438\u0432\u0430",
-        "text2": "initiative",
-        "text3": "iniciativa"
+        "text": "\u043b\u0430\u043d\u0434\u0448\u0430\u0444\u0442",
+        "text2": "landscape",
+        "text3": "paisaje"
     },
     {
-        "text": "\u0456\u043d\u0456\u0446\u0456\u044e\u0432\u0430\u043d\u043d\u044f",
-        "text2": "initiation",
-        "text3": "iniciaci\u00f3n"
+        "text": "\u043b\u0430\u043d\u044c",
+        "text2": "fallow deer",
+        "text3": "gamo"
     },
     {
-        "text": "\u0456\u043e\u043d",
-        "text2": "ion",
-        "text3": "ion"
+        "text": "\u043b\u0430\u0442\u0435\u043a\u0441",
+        "text2": "latex",
+        "text3": "l\u00e1tex"
     },
     {
-        "text": "\u0456\u043e\u043d\u043e\u0441\u0444\u0435\u0440\u0430",
-        "text2": "ionosphere",
-        "text3": "ionosfera"
+        "text": "\u043b\u0435\u0432",
+        "text2": "lion",
+        "text3": "le\u00f3n"
     },
     {
-        "text": "\u0456\u043f\u043e\u0442\u0435\u043a\u0430",
-        "text2": "mortgage",
-        "text3": "hipoteca"
+        "text": "\u043b\u0435\u0433\u0435\u043d\u0434\u0430",
+        "text2": "legend",
+        "text3": "leyenda"
     },
     {
-        "text": "\u0456\u043f\u043e\u0445\u043e\u043d\u0434\u0440\u0438\u043a",
-        "text2": "hypochondriac",
-        "text3": "hipocondr\u00edaco"
+        "text": "\u043b\u0438\u043c\u043e\u043d",
+        "text2": "lemon",
+        "text3": "lim\u00f3n"
     },
     {
-        "text": "\u0456\u0440\u0436\u0430",
-        "text2": "rust",
-        "text3": "oxido"
+        "text": "\u043b\u0438\u0441\u0442",
+        "text2": "letter",
+        "text3": "carta"
     },
     {
-        "text": "\u0456\u0440\u0438\u0434\u0456\u0439",
-        "text2": "iridium",
-        "text3": "iridio"
+        "text": "\u043b\u0438\u0441\u0442\u043e\u043a",
+        "text2": "leaf",
+        "text3": "hoja"
     },
     {
-        "text": "\u0456\u0440\u043e\u043d\u0456\u044f",
-        "text2": "irony",
-        "text3": "iron\u00eda"
+        "text": "\u043b\u043e\u0431",
+        "text2": "forehead",
+        "text3": "la frente"
     },
     {
-        "text": "\u0456\u0440\u0440\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456\u0441\u0442\u044c",
-        "text2": "irrationality",
-        "text3": "irracionalidad"
+        "text": "\u043b\u043e\u0442",
+        "text2": "lot",
+        "text3": "lote"
     },
     {
-        "text": "\u0456\u0441\u043a\u043e\u0440\u043a\u0430",
-        "text2": "sparkle",
-        "text3": "brillar"
+        "text": "\u043b\u043e\u0442\u043e\u043a",
+        "text2": "tray",
+        "text3": "bandeja"
     },
     {
-        "text": "\u0456\u0441\u043a\u0440\u0430",
-        "text2": "spark",
-        "text3": "chispa"
+        "text": "\u043b\u043e\u0444\u0442",
+        "text2": "loft",
+        "text3": "desv\u00e1n"
     },
     {
-        "text": "\u0456\u0441\u043a\u0440\u0456\u043d\u043d\u044f",
-        "text2": "arcing",
-        "text3": "chispazo"
+        "text": "\u043b\u0443\u0447\u043d\u0438\u043a",
+        "text2": "bowman",
+        "text3": "arquero"
     },
     {
-        "text": "\u0456\u0441\u043d\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "existence",
-        "text3": "la existencia de"
+        "text": "\u043c\u0430\u0433\u0430\u0437\u0438\u043d",
+        "text2": "shop",
+        "text3": "tienda"
     },
     {
-        "text": "\u0456\u0441\u043f\u0438\u0442",
-        "text2": "exam",
-        "text3": "el examen"
+        "text": "\u043c\u0430\u043a\u0435\u0442",
+        "text2": "model",
+        "text3": "maquetacion"
     },
     {
-        "text": "\u0456\u0441\u0442\u0435\u0431\u043b\u0456\u0448\u043c\u0435\u043d\u0442",
-        "text2": "establishment",
-        "text3": "establecimiento"
+        "text": "\u043c\u0430\u043a\u0441\u0438\u043c\u0443\u043c",
+        "text2": "maximum",
+        "text3": "maximo"
     },
     {
-        "text": "\u0456\u0441\u0442\u0435\u0440\u0456\u044f",
-        "text2": "hysteria",
-        "text3": "histeria"
+        "text": "\u043c\u0430\u043d\u0434\u0430\u0442",
+        "text2": "mandate",
+        "text3": "mandato"
     },
     {
-        "text": "\u0456\u0441\u0442\u0438\u043d\u0430",
+        "text": "\u043c\u0430\u043d\u0435\u0432\u0440",
+        "text2": "maneuver",
+        "text3": "maniobra"
+    },
+    {
+        "text": "\u043c\u0430\u043d\u0442\u0440\u0430",
+        "text2": "mantra",
+        "text3": "mantra"
+    },
+    {
+        "text": "\u043c\u0430\u0440\u043a\u0430",
+        "text2": "brand",
+        "text3": "marca"
+    },
+    {
+        "text": "\u043c\u0430\u0440\u043c\u0435\u043b\u0430\u0434",
+        "text2": "marmalade",
+        "text3": "mermelada"
+    },
+    {
+        "text": "\u043c\u0430\u0440\u0448",
+        "text2": "march",
+        "text3": "marcha"
+    },
+    {
+        "text": "\u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a",
+        "text2": "mathematician",
+        "text3": "matem\u00e1tico"
+    },
+    {
+        "text": "\u043c\u0430\u0442\u0440\u043e\u0441",
+        "text2": "sailor",
+        "text3": "marinero"
+    },
+    {
+        "text": "\u043c\u0430\u0448\u0438\u043d\u0430",
+        "text2": "machine",
+        "text3": "maquina"
+    },
+    {
+        "text": "\u043c\u0430\u044f\u043a",
+        "text2": "lighthouse",
+        "text3": "faro"
+    },
+    {
+        "text": "\u043c\u0435\u043b\u043e\u0434\u0440\u0430\u043c\u0430",
+        "text2": "melodrama",
+        "text3": "melodrama"
+    },
+    {
+        "text": "\u043c\u0435\u0442\u0430",
+        "text2": "goal",
+        "text3": "prop\u00f3sito"
+    },
+    {
+        "text": "\u043c\u0435\u0442\u0440\u043e\u043d\u043e\u043c",
+        "text2": "metronome",
+        "text3": "metr\u00f3nomo"
+    },
+    {
+        "text": "\u043c\u0438\u043b\u0438\u0446\u044f",
+        "text2": "crutch",
+        "text3": "muleta"
+    },
+    {
+        "text": "\u043c\u0438\u0440",
+        "text2": "peace",
+        "text3": "el mundo"
+    },
+    {
+        "text": "\u043c\u043e\u0434\u0435\u0440\u043d",
+        "text2": "Modern",
+        "text3": "moderno"
+    },
+    {
+        "text": "\u043c\u043e\u0437\u043e\u043b\u044c",
+        "text2": "corn",
+        "text3": "callos"
+    },
+    {
+        "text": "\u043c\u043e\u043b\u043e\u0442",
+        "text2": "hammer",
+        "text3": "martillo"
+    },
+    {
+        "text": "\u043c\u043e\u043c\u0435\u043d\u0442",
+        "text2": "moment",
+        "text3": "el momento"
+    },
+    {
+        "text": "\u043c\u043e\u043d\u0430\u0445",
+        "text2": "monk",
+        "text3": "monje"
+    },
+    {
+        "text": "\u043c\u043e\u043d\u0435\u0442\u0430",
+        "text2": "coin",
+        "text3": "moneda"
+    },
+    {
+        "text": "\u043c\u043e\u043d\u0441\u0442\u0440",
+        "text2": "monster",
+        "text3": "monstruo"
+    },
+    {
+        "text": "\u043c\u043e\u0440\u0433",
+        "text2": "morgue",
+        "text3": "morgue"
+    },
+    {
+        "text": "\u043c\u043e\u0440\u0435",
+        "text2": "sea",
+        "text3": "el mar"
+    },
+    {
+        "text": "\u043c\u043e\u0442\u0438\u0432\u0430\u0442\u043e\u0440",
+        "text2": "motivator",
+        "text3": "motivador"
+    },
+    {
+        "text": "\u043c\u043e\u0442\u043e\u0440",
+        "text2": "motor",
+        "text3": "motor"
+    },
+    {
+        "text": "\u043c\u0443\u0437\u0430",
+        "text2": "muse",
+        "text3": "musa"
+    },
+    {
+        "text": "\u043c\u0443\u0445\u0430",
+        "text2": "fly",
+        "text3": "una mosca"
+    },
+    {
+        "text": "\u043c\u0443\u0445\u043e\u043c\u043e\u0440",
+        "text2": "fly agaric",
+        "text3": "amanita"
+    },
+    {
+        "text": "\u043d\u0430\u0433\u043e\u0442\u0430",
+        "text2": "nakedness",
+        "text3": "desnudez"
+    },
+    {
+        "text": "\u043d\u0430\u0441\u0442\u0430\u0432\u043d\u0438\u043a",
+        "text2": "mentor",
+        "text3": "mentor"
+    },
+    {
+        "text": "\u043d\u0430\u0447\u0430\u043b\u044c\u0441\u0442\u0432\u043e",
+        "text2": "command",
+        "text3": "mando"
+    },
+    {
+        "text": "\u043d\u0435\u0432\u0440\u043e\u043b\u043e\u0433",
+        "text2": "neurologist",
+        "text3": "neur\u00f3logo"
+    },
+    {
+        "text": "\u043d\u0435\u043a\u0440\u043e\u0437",
+        "text2": "necrosis",
+        "text3": "necrosis"
+    },
+    {
+        "text": "\u043d\u0438\u0442\u043a\u0430",
+        "text2": "thread",
+        "text3": "hilo"
+    },
+    {
+        "text": "\u043d\u043e\u0432\u0438\u043d\u043a\u0430",
+        "text2": "novelty",
+        "text3": "novedad"
+    },
+    {
+        "text": "\u043d\u043e\u043d\u0441\u0435\u043d\u0441",
+        "text2": "nonsense",
+        "text3": "disparates"
+    },
+    {
+        "text": "\u043d\u043e\u0441\u043e\u043a",
+        "text2": "toe",
+        "text3": "dedo del pie"
+    },
+    {
+        "text": "\u043d\u044e",
+        "text2": "nude",
+        "text3": "desnudo"
+    },
+    {
+        "text": "\u043d\u044e\u0445",
+        "text2": "smell",
+        "text3": "oler"
+    },
+    {
+        "text": "\u043e\u0431\u043c\u0430\u043d",
+        "text2": "deception",
+        "text3": "enga\u00f1o"
+    },
+    {
+        "text": "\u043e\u0432\u0435\u0441",
+        "text2": "oat",
+        "text3": "avena"
+    },
+    {
+        "text": "\u043e\u0437\u0435\u0440\u043e",
+        "text2": "lake",
+        "text3": "lago"
+    },
+    {
+        "text": "\u043e\u043a\u0435\u0430\u043d",
+        "text2": "ocean",
+        "text3": "el oceano"
+    },
+    {
+        "text": "\u043e\u043c\u0431\u0443\u0434\u0441\u043c\u0435\u043d",
+        "text2": "ombudsman",
+        "text3": "ombudsman"
+    },
+    {
+        "text": "\u043e\u0440\u0430\u043a\u0443\u043b",
+        "text2": "oracle",
+        "text3": "or\u00e1culo"
+    },
+    {
+        "text": "\u043e\u0440\u0430\u0442\u043e\u0440",
+        "text2": "orator",
+        "text3": "orador"
+    },
+    {
+        "text": "\u043e\u0440\u0433\u0430\u0437\u043c",
+        "text2": "orgasm",
+        "text3": "orgasmo"
+    },
+    {
+        "text": "\u043e\u0440\u0433\u0430\u043d",
+        "text2": "body",
+        "text3": "\u00f3rgano"
+    },
+    {
+        "text": "\u043e\u0440\u0434\u0435\u0440",
+        "text2": "warrant",
+        "text3": "orden"
+    },
+    {
+        "text": "\u043e\u0440\u043a\u0435\u0441\u0442\u0440",
+        "text2": "orchestra",
+        "text3": "orquesta"
+    },
+    {
+        "text": "\u043f\u0430\u043d\u0442\u0435\u0440\u0430",
+        "text2": "panther",
+        "text3": "pantera"
+    },
+    {
+        "text": "\u043f\u0430\u043f\u043a\u0430",
+        "text2": "folder",
+        "text3": "carpeta"
+    },
+    {
+        "text": "\u043f\u0430\u0440\u0430\u0437\u0438\u0442",
+        "text2": "parasite",
+        "text3": "par\u00e1sito"
+    },
+    {
+        "text": "\u043f\u0430\u0440\u043b\u0430\u043c\u0435\u043d\u0442",
+        "text2": "parliament",
+        "text3": "el parlamento"
+    },
+    {
+        "text": "\u043f\u0430\u0440\u0441\u0438\u043d\u0433",
+        "text2": "parsing",
+        "text3": "parsing"
+    },
+    {
+        "text": "\u043f\u0430\u0440\u0442\u043d\u0435\u0440",
+        "text2": "partner",
+        "text3": "compa\u00f1ero"
+    },
+    {
+        "text": "\u043f\u0430\u0441\u0442\u0430",
+        "text2": "paste",
+        "text3": "ayuno"
+    },
+    {
+        "text": "\u043f\u0430\u0441\u0442\u043e\u0440\u0430\u043b\u044c",
+        "text2": "pastoral",
+        "text3": "pastoral"
+    },
+    {
+        "text": "\u043f\u0430\u0444\u043e\u0441",
+        "text2": "pathos",
+        "text3": "patetismo"
+    },
+    {
+        "text": "\u043f\u0435\u0434\u0430\u043b\u044c",
+        "text2": "pedal",
+        "text3": "pedal"
+    },
+    {
+        "text": "\u043f\u0435\u0434\u0430\u043d\u0442",
+        "text2": "pedant",
+        "text3": "pedante"
+    },
+    {
+        "text": "\u043f\u0435\u043d\u0442\u0445\u0430\u0443\u0441",
+        "text2": "penthouse",
+        "text3": "\u00e1tico"
+    },
+    {
+        "text": "\u043f\u0435\u0440\u0435\u0441\u0430\u0434\u043a\u0430",
+        "text2": "transplantation",
+        "text3": "trasplante"
+    },
+    {
+        "text": "\u043f\u0435\u0440\u0438\u043c\u0435\u0442\u0440",
+        "text2": "perimeter",
+        "text3": "per\u00edmetro"
+    },
+    {
+        "text": "\u043f\u0435\u0440\u0441\u043e\u043d\u0430",
+        "text2": "person",
+        "text3": "persona"
+    },
+    {
+        "text": "\u043f\u0435\u0440\u0444\u043e\u0440\u0430\u0442\u043e\u0440",
+        "text2": "perforator",
+        "text3": "perforador"
+    },
+    {
+        "text": "\u043f\u0435\u0442\u043b\u044f",
+        "text2": "loop",
+        "text3": "lazo"
+    },
+    {
+        "text": "\u043f\u0435\u0447\u0430\u043b\u044c",
+        "text2": "sorrow",
+        "text3": "tristeza"
+    },
+    {
+        "text": "\u043f\u043b\u0430\u043d\u0448\u0435\u0442",
+        "text2": "tablet",
+        "text3": "tableta"
+    },
+    {
+        "text": "\u043f\u043b\u0430\u0442\u0438\u043d\u0430",
+        "text2": "platinum",
+        "text3": "platino"
+    },
+    {
+        "text": "\u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430",
+        "text2": "platform",
+        "text3": "la plataforma"
+    },
+    {
+        "text": "\u043f\u043b\u0430\u0447",
+        "text2": "crying",
+        "text3": "llorando"
+    },
+    {
+        "text": "\u043f\u043b\u0443\u0433",
+        "text2": "plow",
+        "text3": "arado"
+    },
+    {
+        "text": "\u043f\u043e\u0432\u0435\u0440\u0445",
+        "text2": "floor",
+        "text3": "piso"
+    },
+    {
+        "text": "\u043f\u043e\u0435\u0442",
+        "text2": "poet",
+        "text3": "el poeta"
+    },
+    {
+        "text": "\u043f\u043e\u043a\u0435\u0440",
+        "text2": "poker",
+        "text3": "p\u00f3ker"
+    },
+    {
+        "text": "\u043f\u043e\u043b\u043e\u043d",
+        "text2": "captivity",
+        "text3": "lleno"
+    },
+    {
+        "text": "\u043f\u043e\u043c\u0430\u0434\u0430",
+        "text2": "pomade",
+        "text3": "pomada"
+    },
+    {
+        "text": "\u043f\u043e\u0440\u044f\u0434\u043e\u043a",
+        "text2": "order",
+        "text3": "la orden"
+    },
+    {
+        "text": "\u043f\u043e\u0441\u043e\u043b\u044c\u0441\u0442\u0432\u043e",
+        "text2": "embassy",
+        "text3": "embajada"
+    },
+    {
+        "text": "\u043f\u043e\u0441\u0442\u0430\u0432\u043a\u0430",
+        "text2": "delivery",
+        "text3": "entrega"
+    },
+    {
+        "text": "\u043f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+        "text2": "staging",
+        "text3": "ajuste"
+    },
+    {
+        "text": "\u043f\u043e\u0441\u0442\u0435\u0440",
+        "text2": "poster",
+        "text3": "p\u00f3ster"
+    },
+    {
+        "text": "\u043f\u043e\u0442\u043e\u043f",
+        "text2": "flood",
+        "text3": "inundar"
+    },
+    {
+        "text": "\u043f\u0440\u0430\u0432\u0434\u0430",
         "text2": "truth",
         "text3": "la verdad"
     },
     {
-        "text": "\u0456\u0441\u0442\u0438\u043d\u043d\u0456\u0441\u0442\u044c",
-        "text2": "truth",
-        "text3": "la verdad"
+        "text": "\u043f\u0440\u0430\u0432\u0438\u043b\u043e",
+        "text2": "rule",
+        "text3": "la regla"
     },
     {
-        "text": "\u0456\u0441\u0442\u043e\u0440\u0438\u0437\u043c",
-        "text2": "historicism",
-        "text3": "historicismo"
+        "text": "\u043f\u0440\u0430\u0432\u043e",
+        "text2": "right",
+        "text3": "a la derecha"
     },
     {
-        "text": "\u0456\u0441\u0442\u043e\u0440\u0438\u043a",
-        "text2": "historian",
-        "text3": "el historiador"
+        "text": "\u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430",
+        "text2": "practice",
+        "text3": "practicar"
     },
     {
-        "text": "\u0456\u0441\u0442\u043e\u0440\u0438\u043a\u0438\u043d\u044f",
-        "text2": "historian",
-        "text3": "historiador"
+        "text": "\u043f\u0440\u0435\u0434\u043c\u0435\u0442",
+        "text2": "subject",
+        "text3": "objeto"
     },
     {
-        "text": "\u0456\u0441\u0442\u043e\u0440\u0456\u043e\u0433\u0440\u0430\u0444\u0456\u044f",
-        "text2": "historiography",
-        "text3": "historiograf\u00eda"
+        "text": "\u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0441\u0442\u0432\u043e",
+        "text2": "presidency",
+        "text3": "la presidencia"
     },
     {
-        "text": "\u0456\u0441\u0442\u043e\u0440\u0456\u044f",
-        "text2": "history",
-        "text3": "historia"
+        "text": "\u043f\u0440\u0435\u0444\u0435\u043a\u0442\u0443\u0440\u0430",
+        "text2": "prefecture",
+        "text3": "prefectura"
     },
     {
-        "text": "\u0456\u0441\u0442\u043e\u0442\u0430",
-        "text2": "being",
-        "text3": "criatura"
+        "text": "\u043f\u0440\u0438\u0446\u0435\u043f",
+        "text2": "trailer",
+        "text3": "remolque"
     },
     {
-        "text": "\u0456\u0442\u0435\u0440\u0430\u0442\u043e\u0440",
-        "text2": "iterator",
-        "text3": "iterador"
+        "text": "\u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0430",
+        "text2": "problem",
+        "text3": "el problema es"
     },
     {
-        "text": "\u0456\u0442\u0435\u0440\u0430\u0446\u0456\u044f",
-        "text2": "iteration",
-        "text3": "iteraci\u00f3n"
+        "text": "\u043f\u0440\u043e\u0432\u0430\u043b",
+        "text2": "failure",
+        "text3": "fracaso"
     },
     {
-        "text": "\u0456\u0443\u0434\u0430\u0457\u0437\u043c",
-        "text2": "judaism",
-        "text3": "juda\u00edsmo"
+        "text": "\u043f\u0440\u043e\u0432\u043e\u043a\u0430\u0442\u043e\u0440",
+        "text2": "provocateur",
+        "text3": "provocador"
     },
     {
-        "text": "\u0456\u0454\u0440\u0430\u0440\u0445\u0456\u044f",
-        "text2": "hierarchy",
-        "text3": "jerarqu\u00eda"
+        "text": "\u043f\u0440\u043e\u0434\u0430\u0436",
+        "text2": "selling",
+        "text3": "venta"
     },
     {
-        "text": "\u0457\u0434\u0430\u043b\u044c\u043d\u044f",
-        "text2": "dining room",
-        "text3": "comedor"
+        "text": "\u043f\u0440\u043e\u0436\u0435\u043a\u0442\u043e\u0440",
+        "text2": "searchlight",
+        "text3": "destacar"
     },
     {
-        "text": "\u0457\u0436\u0430",
-        "text2": "food",
+        "text": "\u043f\u0440\u043e\u043a\u0443\u0440\u043e\u0440",
+        "text2": "prosecutor",
+        "text3": "el fiscal"
+    },
+    {
+        "text": "\u043f\u0440\u043e\u043b\u043e\u0433",
+        "text2": "prologue",
+        "text3": "pr\u00f3logo"
+    },
+    {
+        "text": "\u043f\u0440\u043e\u043c\u0430\u0445",
+        "text2": "miss",
+        "text3": "perder"
+    },
+    {
+        "text": "\u043f\u0441\u0438\u0445\u043e\u0442\u0435\u0440\u0430\u043f\u0435\u0432\u0442",
+        "text2": "psychotherapist",
+        "text3": "psicoterapeuta"
+    },
+    {
+        "text": "\u043f\u0443\u0437\u043e",
+        "text2": "belly",
+        "text3": "intestino"
+    },
+    {
+        "text": "\u043f\u0443\u0447\u043e\u043a",
+        "text2": "bunch",
+        "text3": "manojo"
+    },
+    {
+        "text": "\u0440\u0430\u0431",
+        "text2": "slave",
+        "text3": "siervo"
+    },
+    {
+        "text": "\u0440\u0430\u043c\u043a\u0430",
+        "text2": "frame",
+        "text3": "marco"
+    },
+    {
+        "text": "\u0440\u0430\u0441\u0438\u0437\u043c",
+        "text2": "racism",
+        "text3": "racismo"
+    },
+    {
+        "text": "\u0440\u0435\u0430\u043a\u0442\u043e\u0440",
+        "text2": "reactor",
+        "text3": "reactor"
+    },
+    {
+        "text": "\u0440\u0435\u0432\u0435\u0440\u0441",
+        "text2": "reverse",
+        "text3": "contrarrestar"
+    },
+    {
+        "text": "\u0440\u0435\u0436\u0438\u043c",
+        "text2": "regime",
+        "text3": "modo"
+    },
+    {
+        "text": "\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442",
+        "text2": "result",
+        "text3": "el resultado"
+    },
+    {
+        "text": "\u0440\u0435\u0439\u0442\u0438\u043d\u0433",
+        "text2": "rating",
+        "text3": "calificaci\u00f3n"
+    },
+    {
+        "text": "\u0440\u0435\u043a\u043e\u0440\u0434",
+        "text2": "record",
+        "text3": "r\u00e9cord"
+    },
+    {
+        "text": "\u0440\u0435\u043b\u0435",
+        "text2": "relay",
+        "text3": "rel\u00e9"
+    },
+    {
+        "text": "\u0440\u0435\u043f",
+        "text2": "rep",
+        "text3": "rap"
+    },
+    {
+        "text": "\u0440\u0435\u043f\u0435\u0442\u0438\u0442\u043e\u0440",
+        "text2": "tutor",
+        "text3": "tutor"
+    },
+    {
+        "text": "\u0440\u0435\u043f\u043e\u0440\u0442\u0430\u0436",
+        "text2": "reportage",
+        "text3": "reportaje"
+    },
+    {
+        "text": "\u0440\u0435\u0441\u043f\u0435\u043a\u0442",
+        "text2": "respect",
+        "text3": "respeto"
+    },
+    {
+        "text": "\u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+        "text2": "restaurant",
+        "text3": "restaurante"
+    },
+    {
+        "text": "\u0440\u0438\u043d\u0433",
+        "text2": "ring",
+        "text3": "ring"
+    },
+    {
+        "text": "\u0440\u0438\u0441\u0430",
+        "text2": "feature",
+        "text3": "rasgo"
+    },
+    {
+        "text": "\u0440\u0438\u0442\u043c",
+        "text2": "rhythm",
+        "text3": "ritmo"
+    },
+    {
+        "text": "\u0440\u043e\u0431\u043e\u0442",
+        "text2": "robot",
+        "text3": "el robot"
+    },
+    {
+        "text": "\u0440\u043e\u0434\u0438\u0447",
+        "text2": "relative",
+        "text3": "pariente"
+    },
+    {
+        "text": "\u0440\u043e\u043c",
+        "text2": "rum",
+        "text3": "ron"
+    },
+    {
+        "text": "\u0440\u043e\u0441\u0430",
+        "text2": "dew",
+        "text3": "roc\u00edo"
+    },
+    {
+        "text": "\u0440\u043e\u0442",
+        "text2": "mouth",
+        "text3": "boca"
+    },
+    {
+        "text": "\u0440\u043e\u0442\u0430\u0442\u043e\u0440",
+        "text2": "rotator",
+        "text3": "rotador"
+    },
+    {
+        "text": "\u0440\u044e\u043a\u0437\u0430\u043a",
+        "text2": "backpack",
+        "text3": "mochila"
+    },
+    {
+        "text": "\u0440\u044f\u0434",
+        "text2": "number",
+        "text3": "remar"
+    },
+    {
+        "text": "\u0441\u0430\u0436\u0430",
+        "text2": "soot",
+        "text3": "negro de humo"
+    },
+    {
+        "text": "\u0441\u0430\u043b\u044c\u0442\u043e",
+        "text2": "somersault",
+        "text3": "voltereta"
+    },
+    {
+        "text": "\u0441\u0430\u043c\u043e\u0440\u043e\u0434\u043e\u043a",
+        "text2": "nugget",
+        "text3": "pepita"
+    },
+    {
+        "text": "\u0441\u0430\u0443\u043d\u0434\u0442\u0440\u0435\u043a",
+        "text2": "soundtrack",
+        "text3": "banda sonora"
+    },
+    {
+        "text": "\u0441\u0432\u0438\u043d\u0438\u043d\u0430",
+        "text2": "pork",
+        "text3": "cerdo"
+    },
+    {
+        "text": "\u0441\u0432\u0438\u0441\u0442",
+        "text2": "whistle",
+        "text3": "silbar"
+    },
+    {
+        "text": "\u0441\u0432\u044f\u0442\u0438\u043b\u0438\u0449\u0435",
+        "text2": "sanctuary",
+        "text3": "santuario"
+    },
+    {
+        "text": "\u0441\u0435\u0434\u0430\u043d",
+        "text2": "sedan",
+        "text3": "sed\u00e1n"
+    },
+    {
+        "text": "\u0441\u0435\u0437\u043e\u043d",
+        "text2": "season",
+        "text3": "temporada"
+    },
+    {
+        "text": "\u0441\u0435\u043a\u0443\u043d\u0434\u0430",
+        "text2": "second",
+        "text3": "segundo"
+    },
+    {
+        "text": "\u0441\u0435\u0440\u0444\u0435\u0440",
+        "text2": "surfer",
+        "text3": "tablista"
+    },
+    {
+        "text": "\u0441\u0435\u0441\u0442\u0440\u0438\u0447\u043a\u0430",
+        "text2": "sissy",
+        "text3": "marica"
+    },
+    {
+        "text": "\u0441\u0438\u043b\u0430",
+        "text2": "power",
+        "text3": "fuerza"
+    },
+    {
+        "text": "\u0441\u0438\u043c\u0432\u043e\u043b",
+        "text2": "symbol",
+        "text3": "s\u00edmbolo"
+    },
+    {
+        "text": "\u0441\u0438\u043d\u0433\u043b",
+        "text2": "single",
+        "text3": "single"
+    },
+    {
+        "text": "\u0441\u0438\u043d\u0442\u0435\u0437",
+        "text2": "synthesis",
+        "text3": "s\u00edntesis"
+    },
+    {
+        "text": "\u0441\u0438\u043d\u0442\u0435\u0437\u0430\u0442\u043e\u0440",
+        "text2": "synthesizer",
+        "text3": "sintetizador"
+    },
+    {
+        "text": "\u0441\u043a\u0430\u0440\u0431",
+        "text2": "treasure",
+        "text3": "tesoro"
+    },
+    {
+        "text": "\u0441\u043a\u043b\u0430\u0434",
+        "text2": "storage",
+        "text3": "almac\u00e9n"
+    },
+    {
+        "text": "\u0441\u043b\u043e\u0442",
+        "text2": "slot",
+        "text3": "ranura"
+    },
+    {
+        "text": "\u0441\u043b\u0443\u0445",
+        "text2": "hearing",
+        "text3": "rumor"
+    },
+    {
+        "text": "\u0441\u043e\u0431\u0430\u043a\u0430",
+        "text2": "dog",
+        "text3": "el perro"
+    },
+    {
+        "text": "\u0441\u043e\u0434\u0430",
+        "text2": "soda",
+        "text3": "soda"
+    },
+    {
+        "text": "\u0441\u043e\u0441\u043d\u0430",
+        "text2": "pine",
+        "text3": "pino"
+    },
+    {
+        "text": "\u0441\u043e\u0441\u043e\u043a",
+        "text2": "nipple",
+        "text3": "pez\u00f3n"
+    },
+    {
+        "text": "\u0441\u043e\u0443\u0441",
+        "text2": "sauce",
+        "text3": "salsa"
+    },
+    {
+        "text": "\u0441\u043e\u044e\u0437",
+        "text2": "union",
+        "text3": "la union"
+    },
+    {
+        "text": "\u0441\u043f\u0430\u043c",
+        "text2": "spam",
+        "text3": "spam"
+    },
+    {
+        "text": "\u0441\u043f\u0435\u0446",
+        "text2": "special",
+        "text3": "especial"
+    },
+    {
+        "text": "\u0441\u043f\u0438\u043d\u0430",
+        "text2": "back",
+        "text3": "volver"
+    },
+    {
+        "text": "\u0441\u043f\u043e\u0440\u0442",
+        "text2": "sport",
+        "text3": "deporte"
+    },
+    {
+        "text": "\u0441\u043f\u043e\u0440\u0442\u0441\u043c\u0435\u043d",
+        "text2": "sportsman",
+        "text3": "atleta"
+    },
+    {
+        "text": "\u0441\u043f\u0440\u0430\u0432\u0430",
+        "text2": "case",
+        "text3": "a la derecha"
+    },
+    {
+        "text": "\u0441\u043f\u0440\u0438\u043d\u0442",
+        "text2": "sprint",
+        "text3": "sprint"
+    },
+    {
+        "text": "\u0441\u0442\u0430\u0434\u043e",
+        "text2": "herd",
+        "text3": "manada"
+    },
+    {
+        "text": "\u0441\u0442\u0430\u043b\u0430",
+        "text2": "became",
+        "text3": "convirti\u00f3"
+    },
+    {
+        "text": "\u0441\u0442\u0430\u043b\u044c",
+        "text2": "steel",
+        "text3": "acero"
+    },
+    {
+        "text": "\u0441\u0442\u0430\u043d\u043e\u043a",
+        "text2": "machine",
+        "text3": "m\u00e1quina"
+    },
+    {
+        "text": "\u0441\u0442\u0430\u0440\u0442\u0435\u0440",
+        "text2": "starter",
+        "text3": "inicio"
+    },
+    {
+        "text": "\u0441\u0442\u0430\u0442\u0443\u0441",
+        "text2": "status",
+        "text3": "status"
+    },
+    {
+        "text": "\u0441\u0442\u0430\u0442\u0443\u044f",
+        "text2": "statue",
+        "text3": "estatua"
+    },
+    {
+        "text": "\u0441\u0442\u043e\u043b\u0438\u043a",
+        "text2": "table",
+        "text3": "mesa"
+    },
+    {
+        "text": "\u0441\u0442\u0440\u0430\u0442\u0435\u0433",
+        "text2": "strategist",
+        "text3": "el estratega"
+    },
+    {
+        "text": "\u0441\u0442\u0440\u043e\u043a",
+        "text2": "term",
+        "text3": "t\u00e9rminos"
+    },
+    {
+        "text": "\u0441\u0442\u0443\u0434\u0435\u043d\u0442",
+        "text2": "student",
+        "text3": "un estudiante"
+    },
+    {
+        "text": "\u0441\u0442\u0443\u043a",
+        "text2": "knock",
+        "text3": "golpe"
+    },
+    {
+        "text": "\u0441\u0443\u0434\u043d\u043e",
+        "text2": "ship",
+        "text3": "el barco"
+    },
+    {
+        "text": "\u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442",
+        "text2": "supermarket",
+        "text3": "supermercado"
+    },
+    {
+        "text": "\u0441\u0446\u0435\u043d\u043a\u0430",
+        "text2": "skit",
+        "text3": "pared"
+    },
+    {
+        "text": "\u0442\u0430\u0440\u0433\u0435\u0442\u0438\u043d\u0433",
+        "text2": "targeting",
+        "text3": "orientaci\u00f3n"
+    },
+    {
+        "text": "\u0442\u0435\u0430\u0442\u0440",
+        "text2": "theater",
+        "text3": "teatro"
+    },
+    {
+        "text": "\u0442\u0435\u0437\u043a\u0430",
+        "text2": "namesake",
+        "text3": "hom\u00f3nimo"
+    },
+    {
+        "text": "\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u043c",
+        "text2": "telegram",
+        "text3": "telegramas"
+    },
+    {
+        "text": "\u0442\u0435\u043b\u0435\u0433\u0440\u0430\u0444",
+        "text2": "telegraph",
+        "text3": "tel\u00e9grafo"
+    },
+    {
+        "text": "\u0442\u0435\u043b\u0435\u043a\u043e\u043c",
+        "text2": "telecom",
+        "text3": "telecomunicaciones"
+    },
+    {
+        "text": "\u0442\u0435\u043c\u0430",
+        "text2": "topic",
+        "text3": "tema"
+    },
+    {
+        "text": "\u0442\u0435\u043c\u043f\u0435",
+        "text2": "tempe",
+        "text3": "tempe"
+    },
+    {
+        "text": "\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430",
+        "text2": "temperature",
+        "text3": "temperatura"
+    },
+    {
+        "text": "\u0442\u0435\u043d\u0434\u0435\u0440",
+        "text2": "tender",
+        "text3": "tierno"
+    },
+    {
+        "text": "\u0442\u0435\u043e\u0440\u0435\u043c\u0430",
+        "text2": "theorem",
+        "text3": "teorema"
+    },
+    {
+        "text": "\u0442\u0435\u0441\u0442\u0435\u0440",
+        "text2": "tester",
+        "text3": "probador"
+    },
+    {
+        "text": "\u0442\u0438\u0437\u0435\u0440",
+        "text2": "teaser",
+        "text3": "teaser"
+    },
+    {
+        "text": "\u0442\u0438\u043f",
+        "text2": "type",
+        "text3": "tipo"
+    },
+    {
+        "text": "\u0442\u0438\u043f\u0430\u0436",
+        "text2": "type",
+        "text3": "tipo"
+    },
+    {
+        "text": "\u0442\u0438\u0440\u0430\u0436",
+        "text2": "circulation",
+        "text3": "circulaci\u00f3n"
+    },
+    {
+        "text": "\u0442\u043e\u043a\u0435\u043d",
+        "text2": "token",
+        "text3": "token"
+    },
+    {
+        "text": "\u0442\u043e\u043c",
+        "text2": "volume",
+        "text3": "volumen"
+    },
+    {
+        "text": "\u0442\u043e\u043d\u043d\u0430",
+        "text2": "ton",
+        "text3": "tonelada"
+    },
+    {
+        "text": "\u0442\u043e\u0441\u0442\u0435\u0440",
+        "text2": "toaster",
+        "text3": "tostadora"
+    },
+    {
+        "text": "\u0442\u043e\u0447\u043a\u0430",
+        "text2": "point",
+        "text3": "un punto"
+    },
+    {
+        "text": "\u0442\u0440\u0430\u0432\u043c\u0430",
+        "text2": "trauma",
+        "text3": "trauma"
+    },
+    {
+        "text": "\u0442\u0440\u0430\u043a\u0442\u0430\u0442",
+        "text2": "treatise",
+        "text3": "tratado"
+    },
+    {
+        "text": "\u0442\u0440\u0430\u043c\u0432\u0430\u0439",
+        "text2": "tram",
+        "text3": "tranv\u00eda"
+    },
+    {
+        "text": "\u0442\u0440\u0430\u043d\u0437\u0438\u0442",
+        "text2": "transit",
+        "text3": "transito"
+    },
+    {
+        "text": "\u0442\u0440\u0430\u043f\u0435\u0437\u0430",
+        "text2": "meal",
         "text3": "comida"
     },
     {
-        "text": "\u0457\u0436\u0430\u043a",
-        "text2": "hedgehog",
-        "text3": "erizo"
+        "text": "\u0442\u0440\u0430\u0442\u0430",
+        "text2": "waste",
+        "text3": "desperdicio"
     },
     {
-        "text": "\u0457\u0437\u0434\u0430",
-        "text2": "riding",
-        "text3": "viaje"
+        "text": "\u0442\u0440\u0430\u0443\u0440",
+        "text2": "mourning",
+        "text3": "luto"
+    },
+    {
+        "text": "\u0442\u0440\u0435\u0439\u0434\u0435\u0440",
+        "text2": "trader",
+        "text3": "comerciante"
+    },
+    {
+        "text": "\u0442\u0440\u0435\u043d\u0434",
+        "text2": "trend",
+        "text3": "tendencia"
+    },
+    {
+        "text": "\u0442\u0440\u0435\u043d\u0435\u0440",
+        "text2": "coach",
+        "text3": "entrenador"
+    },
+    {
+        "text": "\u0442\u0440\u043e\u043d",
+        "text2": "throne",
+        "text3": "trono"
+    },
+    {
+        "text": "\u0442\u0440\u043e\u0441",
+        "text2": "rope",
+        "text3": "soga"
+    },
+    {
+        "text": "\u0442\u0443\u0430\u043b\u0435\u0442",
+        "text2": "toilet",
+        "text3": "ba\u00f1o"
+    },
+    {
+        "text": "\u0442\u0443\u043c\u0431\u043b\u0435\u0440",
+        "text2": "toggle switch",
+        "text3": "interruptor de palanca"
+    },
+    {
+        "text": "\u0442\u0443\u0440",
+        "text2": "tour",
+        "text3": "tour"
+    },
+    {
+        "text": "\u0442\u0443\u0440\u0438\u0441\u0442\u043a\u0430",
+        "text2": "a tourist",
+        "text3": "un turista"
+    },
+    {
+        "text": "\u0442\u0443\u0441\u043e\u0432\u043a\u0430",
+        "text2": "party",
+        "text3": "partido"
+    },
+    {
+        "text": "\u0442\u044f\u0433\u0430",
+        "text2": "traction",
+        "text3": "tracci\u00f3n"
+    },
+    {
+        "text": "\u0443\u043b\u043e\u0432",
+        "text2": "catch",
+        "text3": "atrapar"
+    },
+    {
+        "text": "\u0443\u043b\u044c\u0442\u0438\u043c\u0430\u0442\u0443\u043c",
+        "text2": "ultimatum",
+        "text3": "ultim\u00e1tum"
+    },
+    {
+        "text": "\u0443\u0440\u043e\u043a",
+        "text2": "lesson",
+        "text3": "lecci\u00f3n"
+    },
+    {
+        "text": "\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
+        "text2": "installation",
+        "text3": "instalaci\u00f3n"
+    },
+    {
+        "text": "\u0443\u0447\u0435\u043d\u0438\u0439",
+        "text2": "scientist",
+        "text3": "cientifico"
+    },
+    {
+        "text": "\u0444\u0430\u0431\u0440\u0438\u043a\u0430",
+        "text2": "factory",
+        "text3": "fabrica"
+    },
+    {
+        "text": "\u0444\u0430\u0431\u0443\u043b\u0430",
+        "text2": "plot",
+        "text3": "la trama"
+    },
+    {
+        "text": "\u0444\u0430\u0439\u043b",
+        "text2": "file",
+        "text3": "fichero"
+    },
+    {
+        "text": "\u0444\u0430\u043a\u0442\u043e\u0440",
+        "text2": "factor",
+        "text3": "factor"
+    },
+    {
+        "text": "\u0444\u0430\u043a\u0443\u043b\u044c\u0442\u0435\u0442",
+        "text2": "faculty",
+        "text3": "facultad"
+    },
+    {
+        "text": "\u0444\u0430\u043b\u044c\u0448",
+        "text2": "false",
+        "text3": "falso"
+    },
+    {
+        "text": "\u0444\u0430\u043b\u044c\u0448\u0438\u0432\u043a\u0430",
+        "text2": "fake",
+        "text3": "falso"
+    },
+    {
+        "text": "\u0444\u0430\u043d",
+        "text2": "fan",
+        "text3": "fan"
+    },
+    {
+        "text": "\u0444\u0430\u043d\u0430\u0442",
+        "text2": "fan",
+        "text3": "un fan"
+    },
+    {
+        "text": "\u0444\u0430\u043d\u0430\u0442\u0438\u043a",
+        "text2": "fanatic",
+        "text3": "fan\u00e1tico"
+    },
+    {
+        "text": "\u0444\u0430\u0440\u0448",
+        "text2": "stuffing",
+        "text3": "carne picada"
+    },
+    {
+        "text": "\u0444\u0435\u0439\u043a",
+        "text2": "fake",
+        "text3": "falso"
+    },
+    {
+        "text": "\u0444\u0435\u043b\u044c\u0434\u0448\u0435\u0440",
+        "text2": "medical assistant",
+        "text3": "asistente m\u00e9dico"
+    },
+    {
+        "text": "\u0444\u043b\u0430\u0433\u043c\u0430\u043d",
+        "text2": "flagship",
+        "text3": "buque insignia"
+    },
+    {
+        "text": "\u0444\u043b\u043e\u0440\u0430",
+        "text2": "flora",
+        "text3": "flora"
+    },
+    {
+        "text": "\u0444\u043e\u043a\u0443\u0441\u043d\u0438\u043a",
+        "text2": "magician",
+        "text3": "mago"
+    },
+    {
+        "text": "\u0444\u043e\u043d",
+        "text2": "background",
+        "text3": "fondo"
+    },
+    {
+        "text": "\u0444\u043e\u0440\u043c\u0443\u043b\u0430",
+        "text2": "formula",
+        "text3": "formula"
+    },
+    {
+        "text": "\u0444\u0440\u0430\u043a\u0442\u0430\u043b",
+        "text2": "fractal",
+        "text3": "fractal"
+    },
+    {
+        "text": "\u0444\u0440\u043e\u043d\u0442",
+        "text2": "front",
+        "text3": "el frente"
+    },
+    {
+        "text": "\u0444\u0440\u043e\u043d\u0442\u0432\u0443\u043c\u0435\u043d",
+        "text2": "frontwoman",
+        "text3": "frontwoman"
+    },
+    {
+        "text": "\u0444\u044e\u0437\u0435\u043b\u044f\u0436",
+        "text2": "fuselage",
+        "text3": "fuselaje"
+    },
+    {
+        "text": "\u0445\u0430\u043a\u0435\u0440",
+        "text2": "hacker",
+        "text3": "hacker"
+    },
+    {
+        "text": "\u0445\u0430\u043c\u0435\u043b\u0435\u043e\u043d",
+        "text2": "chameleon",
+        "text3": "camale\u00f3n"
+    },
+    {
+        "text": "\u0445\u043e\u043b\u043e\u0434",
+        "text2": "cold",
+        "text3": "frio"
+    },
+    {
+        "text": "\u0445\u043e\u0440",
+        "text2": "choir",
+        "text3": "coro"
+    },
+    {
+        "text": "\u0445\u043e\u0440\u0435\u043e\u0433\u0440\u0430\u0444",
+        "text2": "choreographer",
+        "text3": "core\u00f3grafo"
+    },
+    {
+        "text": "\u0445\u043e\u0441\u0442",
+        "text2": "host",
+        "text3": "host"
+    },
+    {
+        "text": "\u0445\u0440\u043e\u043c",
+        "text2": "chrome",
+        "text3": "cromo"
+    },
+    {
+        "text": "\u0445\u0443\u0434\u043e\u0436\u043d\u0438\u043a",
+        "text2": "artist",
+        "text3": "artista"
+    },
+    {
+        "text": "\u0446\u0435\u043d\u0442\u0440",
+        "text2": "center",
+        "text3": "el centro"
+    },
+    {
+        "text": "\u0446\u0438\u043a\u043b",
+        "text2": "cycle",
+        "text3": "ciclo"
+    },
+    {
+        "text": "\u0447\u0438\u0441\u043b\u043e",
+        "text2": "numeric",
+        "text3": "numero"
+    },
+    {
+        "text": "\u0447\u043b\u0435\u043d\u0441\u0442\u0432\u043e",
+        "text2": "membership",
+        "text3": "membres\u00eda"
+    },
+    {
+        "text": "\u0448\u0430\u043b\u0435",
+        "text2": "chalet",
+        "text3": "chalet"
+    },
+    {
+        "text": "\u0448\u0430\u043b\u044c",
+        "text2": "shawl",
+        "text3": "chal"
+    },
+    {
+        "text": "\u0448\u0430\u043d\u0441",
+        "text2": "chance",
+        "text3": "oportunidad"
+    },
+    {
+        "text": "\u0448\u0430\u043f\u043a\u0430",
+        "text2": "cap",
+        "text3": "gorra"
+    },
+    {
+        "text": "\u0448\u0430\u043f\u043e\u0447\u043a\u0430",
+        "text2": "hat",
+        "text3": "sombrero"
+    },
+    {
+        "text": "\u0448\u0430\u0440\u043c",
+        "text2": "charm",
+        "text3": "encanto"
+    },
+    {
+        "text": "\u0448\u0430\u0440\u0444",
+        "text2": "scarf",
+        "text3": "bufanda"
+    },
+    {
+        "text": "\u0448\u0430\u0445",
+        "text2": "shah",
+        "text3": "ajedrez"
+    },
+    {
+        "text": "\u0448\u0435\u0434\u0435\u0432\u0440",
+        "text2": "masterpiece",
+        "text3": "obra maestra"
+    },
+    {
+        "text": "\u0448\u0435\u0440\u0441\u0442\u044c",
+        "text2": "wool",
+        "text3": "lana"
+    },
+    {
+        "text": "\u0448\u0438\u0440\u043e\u0442\u0430",
+        "text2": "latitude",
+        "text3": "latitud"
+    },
+    {
+        "text": "\u0448\u0438\u0448\u043a\u0430",
+        "text2": "cone",
+        "text3": "cono"
+    },
+    {
+        "text": "\u0448\u043a\u0430\u043b\u0430",
+        "text2": "scale",
+        "text3": "escala"
+    },
+    {
+        "text": "\u0448\u043a\u043e\u043b\u0430",
+        "text2": "school",
+        "text3": "escuela"
+    },
+    {
+        "text": "\u0448\u043c\u0430\u0442",
+        "text2": "a lot",
+        "text3": "trozo"
+    },
+    {
+        "text": "\u0448\u043d\u0443\u0440",
+        "text2": "cord",
+        "text3": "cable"
+    },
+    {
+        "text": "\u0448\u043e\u043a\u043e\u043b\u0430\u0434",
+        "text2": "chocolate",
+        "text3": "chocolate"
+    },
+    {
+        "text": "\u0448\u043e\u0443\u043c\u0435\u043d",
+        "text2": "showman",
+        "text3": "showman"
+    },
+    {
+        "text": "\u0448\u0440\u0430\u043c",
+        "text2": "scar",
+        "text3": "cicatriz"
+    },
+    {
+        "text": "\u0448\u0440\u0438\u0444\u0442",
+        "text2": "type",
+        "text3": "fuente"
+    },
+    {
+        "text": "\u0448\u0442\u0430\u0431",
+        "text2": "headquarters",
+        "text3": "sede"
+    },
+    {
+        "text": "\u0448\u0442\u0430\u043c\u043f",
+        "text2": "stamp",
+        "text3": "estampar"
+    },
+    {
+        "text": "\u0448\u0442\u043e\u0440\u043c",
+        "text2": "storm",
+        "text3": "tormenta"
+    },
+    {
+        "text": "\u0448\u0443\u043c",
+        "text2": "noise",
+        "text3": "el ruido"
+    },
+    {
+        "text": "\u044f",
+        "text2": "I",
+        "text3": "soy"
+    },
+    {
+        "text": "\u044f\u0433\u0443\u0430\u0440",
+        "text2": "jaguar",
+        "text3": "jaguar"
+    },
+    {
+        "text": "\u044f\u0439\u0446\u0435",
+        "text2": "egg",
+        "text3": "huevo"
+    },
+    {
+        "text": "\u044f\u043c\u0430",
+        "text2": "pit",
+        "text3": "pozo"
     }
 ]

@@ -48,6 +48,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "A Farewell to Arms | OSCAR WINNING | Gary Cooper | Romance Movie | Classic - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=CQRJ9WDoj8s",
+        "tag": "#video #movie",
+        "time": 1713160093,
+        "rightFooter": ""
+    },
+    {
         "text": "A Star Is Born (1937) Full HD Movie - YouTube",
         "text2": "",
         "text3": "",
@@ -84,12 +93,30 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Abraham Lincoln (1930) D.W. Griffith | Biography, History | Original version with subtitles - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=d0BjEZUbwmo",
+        "tag": "#video #movie",
+        "time": 1713685090,
+        "rightFooter": ""
+    },
+    {
         "text": "Aerial Gunner (1943) | World War 2 Movie | Richard Arlen, Chester Morris, Amelita Ward - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=-vGsKOq41bk",
         "tag": "#video #movie",
         "time": 1684801875,
+        "rightFooter": ""
+    },
+    {
+        "text": "Africa Screams (Abbott & Costello , 1949) Adventure, Comedy | Movie, Subtitles - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=5myY1ILoN8E",
+        "tag": "#video #movie",
+        "time": 1713685134,
         "rightFooter": ""
     },
     {
@@ -144,6 +171,24 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=ZBM0M--gGWA",
         "tag": "#video #movie",
         "time": 1688534452,
+        "rightFooter": ""
+    },
+    {
+        "text": "At War With The Army - Full Movie | Dean Martin, Jerry Lewis, Mike Kellin, Jimmie Dundee - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=QoJVXLeiBag",
+        "tag": "#video #movie",
+        "time": 1713685390,
+        "rightFooter": ""
+    },
+    {
+        "text": "Attack of the Giant Leeches (1959) Ken Clark, Yvette Vickers | Sci-Fi | Full Movie, Subtitles - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=_00MepGtqg8",
+        "tag": "#video #movie",
+        "time": 1713685438,
         "rightFooter": ""
     },
     {
@@ -246,6 +291,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Black Dragons (1942) BELA LUGOSI - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=GCKhfc6tCFI",
+        "tag": "#video #movie",
+        "time": 1713158629,
+        "rightFooter": ""
+    },
+    {
         "text": "Blonde Savage (1947) | Adventure Movie | Leif Erickson, Gale Sherwood, Veda Ann Borg - YouTube",
         "text2": "",
         "text3": "",
@@ -270,6 +324,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=MiDxhVNPTB4",
         "tag": "#video #movie",
         "time": 1684802920,
+        "rightFooter": ""
+    },
+    {
+        "text": "Bowery at Midnight (1942) BELA LUGOSI - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Q6ty70RjD-0",
+        "tag": "#video #movie",
+        "time": 1713158488,
         "rightFooter": ""
     },
     {
@@ -324,6 +387,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=kmYcT5gT6a4",
         "tag": "#video #movie",
         "time": 1688535486,
+        "rightFooter": ""
+    },
+    {
+        "text": "Charade (1963) Cary Grant & Audrey Hepburn | Comedy Mystery Romance Thriller | Full Movie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=VhGNhwOtbVs",
+        "tag": "#video #movie",
+        "time": 1713158219,
         "rightFooter": ""
     },
     {
@@ -471,12 +543,39 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Cyrano de Bergerac (1950) JOSE FERRER - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=bzmP2NyvQR0",
+        "tag": "#video #movie",
+        "time": 1713160159,
+        "rightFooter": ""
+    },
+    {
         "text": "Cyrano de Bergerac\u00a0(1950 Adventure) |\u00a0Adventure,\u00a0Drama,\u00a0Romance | Movie, Subtitles - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=0J0RFoHGFtY",
         "tag": "#video #movie",
         "time": 1688534479,
+        "rightFooter": ""
+    },
+    {
+        "text": "D.O.A. | 1949 | Film Noir | Edmond O'Brien, Pamela Britton | Full Movie | with subtitles - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=BhbPMf7Jz10",
+        "tag": "#video #movie",
+        "time": 1713158153,
+        "rightFooter": ""
+    },
+    {
+        "text": "Danger Lights (1930) | Full Movie | Louis Wolheim, Jean Arthur, Robert Armstrong - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=qascLQdI5-I",
+        "tag": "#video #movie",
+        "time": 1713160919,
         "rightFooter": ""
     },
     {
@@ -534,6 +633,24 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Dementia 13 (1963) Classic Horror | Francis Ford Coppola | Colorized Full Movie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=EvjYwBGgqj4",
+        "tag": "#video #movie",
+        "time": 1713692938,
+        "rightFooter": ""
+    },
+    {
+        "text": "Detour (1945) Film Noir Full Movie Starring Tom Neal - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=I-nmWbczkBM",
+        "tag": "#video #movie",
+        "time": 1713158031,
+        "rightFooter": ""
+    },
+    {
         "text": "Detour (1945) [Film Noir] [Drama] - YouTube",
         "text2": "",
         "text3": "",
@@ -567,6 +684,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=cdYceAIXLn0",
         "tag": "#video #movie",
         "time": 1688537219,
+        "rightFooter": ""
+    },
+    {
+        "text": "Dixiana (1930) FULL MOVIE | Comedy, Drama, Music, Musical, Romance | Bebe Daniels, Everett Marshall - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=h4pg-dJiO6s",
+        "tag": "#video #movie",
+        "time": 1713158389,
         "rightFooter": ""
     },
     {
@@ -765,6 +891,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=MwTaszXlSXI",
         "tag": "#video #movie",
         "time": 1684803352,
+        "rightFooter": ""
+    },
+    {
+        "text": "Galloping Romeo (1933) BOB STEELE - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=OgA7xXY696E",
+        "tag": "#video #movie",
+        "time": 1713239427,
         "rightFooter": ""
     },
     {
@@ -975,6 +1110,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Gulliver's Travels (1939) 4K HD AI Enhanced | Full Movie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=OnCLT0Iqafk",
+        "tag": "#video #cartoon #movie",
+        "time": 1713160691,
+        "rightFooter": ""
+    },
+    {
         "text": "Gulliver's Travels (1939) Jonathan Swift | Adventure, Comedy | Animated Movie | Subtitled - YouTube",
         "text2": "",
         "text3": "",
@@ -993,6 +1137,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Half Shot at Sunrise (1930) | Full Movie | Bert Wheeler, Robert Woolsey, Dorothy Lee - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=lUJ4rz5VSqo",
+        "tag": "#video #movie",
+        "time": 1713160761,
+        "rightFooter": ""
+    },
+    {
         "text": "Hannie Caulder | Full Movie | Flick Vault - YouTube",
         "text2": "",
         "text3": "",
@@ -1008,6 +1161,24 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=ww8flWMKTJ8",
         "tag": "#video #cartoon",
         "time": 1695396189,
+        "rightFooter": ""
+    },
+    {
+        "text": "He Walked by Night (1948) Crime Thriller, Film-Noir | Full Length Movie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eKfw_nwyvGM",
+        "tag": "#video #movie",
+        "time": 1713239741,
+        "rightFooter": ""
+    },
+    {
+        "text": "Hedy Lamarr | Algiers (1938, Drama) a John Cromwell movie | Colorized - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=iXEI8AiyhSA",
+        "tag": "#video #movie",
+        "time": 1713160277,
         "rightFooter": ""
     },
     {
@@ -1398,6 +1569,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Manos: The Hands of Fate (1966) Horror, Thriller | Tom Neyman, John Reynolds (Full Movie) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=-i6SjbE0SEA",
+        "tag": "#video #movie",
+        "time": 1713692517,
+        "rightFooter": ""
+    },
+    {
         "text": "Manos: The Hands of Fate\u00a0(1966) Tom Neyman, John Reynolds, Diane Adelson | Subtitled - YouTube",
         "text2": "",
         "text3": "",
@@ -1467,6 +1647,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=_oo6zXjriI4",
         "tag": "#video #movie",
         "time": 1688537080,
+        "rightFooter": ""
+    },
+    {
+        "text": "Million Dollar Kid (1944) East Side Kids | Comedy - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=AZRBljrCJuw",
+        "tag": "#video #movie",
+        "time": 1713239497,
         "rightFooter": ""
     },
     {
@@ -1780,7 +1969,7 @@ var videoJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=AlnZq_D_tAg",
-        "tag": "#video #movie",
+        "tag": "#video #movie #cartoon",
         "time": 1688535583,
         "rightFooter": ""
     },
@@ -2082,6 +2271,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "She Gods Of Shark Reef (1958) ROGER CORMAN - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=R5L8EbvU_S8",
+        "tag": "#video #movie",
+        "time": 1713239660,
+        "rightFooter": ""
+    },
+    {
         "text": "Shopping At The Food Market \ud83d\udecd\ufe0f | Peppa Pig Official Full Episodes - YouTube",
         "text2": "",
         "text3": "",
@@ -2151,6 +2349,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=NqDUYnZQLFY",
         "tag": "#video #movie",
         "time": 1684801562,
+        "rightFooter": ""
+    },
+    {
+        "text": "Skyway (1933) HIGH FLYING ROMANCE - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=xfP2ZFEXMI8",
+        "tag": "#video #movie",
+        "time": 1713239557,
         "rightFooter": ""
     },
     {
@@ -2307,6 +2514,24 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Amazing Mr. X (1948) | HD Full Film | Turhan Bey | Lynn Bari | Cathy O'Donnell - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Q5ZPX9EdlVk",
+        "tag": "#video #movie",
+        "time": 1713684924,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Animal Kingdom (1932) | Full Movie | Ann Harding, Leslie Howard - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=nkaxjj9RFV4",
+        "tag": "#video #movie",
+        "time": 1713685347,
+        "rightFooter": ""
+    },
+    {
         "text": "The Animal Kingdom\u00a0(1932) Comedy,\u00a0Drama,\u00a0Romance\u00a0Full Length Film - YouTube",
         "text2": "",
         "text3": "",
@@ -2334,12 +2559,39 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Bat 1959 | Vincent Price, Agnes Moorehead | Mystery, Horror | Full Movie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=cDfYhyhyCVE",
+        "tag": "#video #movie",
+        "time": 1713686227,
+        "rightFooter": ""
+    },
+    {
         "text": "The Best Lazy Day Ever | S1 E18 | Full Episode | Phineas and Ferb | @disneyxd - YouTube",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/watch?v=h1oUZ24FD2A",
         "tag": "#video #cartoon",
         "time": 1695396278,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Big Wheel (1949) Mickey Rooney | Action, Drama, Romance HD Classic Movie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ohUfMHbsB0E",
+        "tag": "#video #movie",
+        "time": 1713161069,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Brain That Wouldn't Die (1962) Colorized | Sci-Fi Horror | Cult Classic | Full Movie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ekvQGuZgV1s",
+        "tag": "#video #movie",
+        "time": 1713693020,
         "rightFooter": ""
     },
     {
@@ -2403,6 +2655,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=_NI52lWbASA",
         "tag": "#video #movie",
         "time": 1688532650,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Devil Bat (1940) | Full Film | Bela Lugosi | Suzanne Kaaren | Dave O'Brien - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=A0dPGa-0rA8",
+        "tag": "#video #movie",
+        "time": 1713160391,
         "rightFooter": ""
     },
     {
@@ -2478,6 +2739,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Front Page (1931) | Full Movie | Adolphe Menjou, Pat O'Brien, Edward Everett Horton - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=wzknCyR7qSQ",
+        "tag": "#video #movie",
+        "time": 1713157748,
+        "rightFooter": ""
+    },
+    {
         "text": "The Gorilla (1939) Ritz Brothers - Comedy, Horror Full Length Film - YouTube",
         "text2": "",
         "text3": "",
@@ -2514,6 +2784,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Jackie Robinson Story (1950) - Full Movie - Described - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Qtztv-KmYBM",
+        "tag": "#video #movie",
+        "time": 1713160861,
+        "rightFooter": ""
+    },
+    {
         "text": "The Joe Louis Story 1953, Colorized, Coley Wallace, Paul Stewart, Hilda Simms, Boxing, Sports - YouTube",
         "text2": "",
         "text3": "",
@@ -2529,6 +2808,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=-CQ5kODTxiU",
         "tag": "#video #movie",
         "time": 1684801532,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Last Man on Earth (1964) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=feQIhzNpBLQ",
+        "tag": "#video #movie",
+        "time": 1713158341,
         "rightFooter": ""
     },
     {
@@ -2556,6 +2844,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=hvfvy4ydhAI",
         "tag": "#video #movie",
         "time": 1684803705,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Little Princess | Full HD Movies For Free | Flick Vault - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=VGn0Os90uz8",
+        "tag": "#video #movie",
+        "time": 1713160613,
         "rightFooter": ""
     },
     {
@@ -2655,6 +2952,24 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=nv97RBG9LJc",
         "tag": "#video #movie",
         "time": 1705236785,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Phantom Planet (1961) SCI-FI - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=WcW6rxPrIuc",
+        "tag": "#video #movie",
+        "time": 1713239698,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Phantom Planet (1961) Science-Fiction | Full movie - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=i7KoErjb1jk",
+        "tag": "#video #movie",
+        "time": 1713693156,
         "rightFooter": ""
     },
     {
@@ -2802,6 +3117,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Stranger (1946) ORSON WELLES - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=5zU7MoRuGDw",
+        "tag": "#video #movie",
+        "time": 1713158424,
+        "rightFooter": ""
+    },
+    {
         "text": "The Stranger (1946)\u00a0Orson Welles | Film-Noir, Crime,\u00a0Mystery | Full Length Movie - YouTube",
         "text2": "",
         "text3": "",
@@ -2874,6 +3198,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "The Wasp Woman (1959) Colorized B-Movie | Roger Corman | Horror, Sci-Fi | Full Film | subtitles - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=hiL8C_O5YwA",
+        "tag": "#video #movie",
+        "time": 1713693124,
+        "rightFooter": ""
+    },
+    {
         "text": "The Wasp Woman (1959) Roger Corman | Horror, Sci-Fi | Full Length Movie - YouTube",
         "text2": "",
         "text3": "",
@@ -2916,6 +3249,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=jhI4RiZOEKU",
         "tag": "#video #movie",
         "time": 1688534372,
+        "rightFooter": ""
+    },
+    {
+        "text": "Three Nuts for Cinderella - English Dub - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Gev8Y6ZsYww",
+        "tag": "#video #movie #tale",
+        "time": 1713694106,
         "rightFooter": ""
     },
     {
@@ -3186,6 +3528,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=ZSOiUL-y9uA",
         "tag": "#video #cartoon",
         "time": 1698208563,
+        "rightFooter": ""
+    },
+    {
+        "text": "Topper Returns (1941) ROLAND YOUNG - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=LP4v_p-atoU",
+        "tag": "#video #movie",
+        "time": 1713160194,
         "rightFooter": ""
     },
     {

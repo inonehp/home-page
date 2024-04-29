@@ -1,4 +1,4 @@
-// Fu insert icon v.4.0.11
+// Insert icon v.4.1.1
 // Function for insert icon in links using class name.
 /*
 How to use:
@@ -12,19 +12,19 @@ How to use:
 function insertIcon(classNameForInsert, mode, status, jsonVar){
 
 
-if(typeof conf == 'object'){
+if (typeof conf == 'object'){
 confDataCollection = conf["confDataCollection"];
-if(confDataCollection == undefined||confDataCollection == null){
+if (confDataCollection == undefined||confDataCollection == null){
 confDataCollection = "off";
 }
-}else{
+} else {
 confDataCollection = "off";
 }
 
-if(classNameForInsert == undefined){ classNameForInsert = 'insertIcon'; }
-if(mode == undefined){ mode = ''; }
-if(status == undefined){ status = 'off'; }
-if(jsonVar == undefined){ jsonVar = []; }
+if (classNameForInsert == undefined){ classNameForInsert = 'insertIcon'; }
+if (mode == undefined){ mode = ''; }
+if (status == undefined){ status = 'off'; }
+if (jsonVar == undefined){ jsonVar = []; }
 
 
 /* testme delme
@@ -33,7 +33,7 @@ function fuMGetSvgIcon(iconName, jsonVar){
 var icon = '';
 jsonVar.forEach((val) => {
 
-if(val.text == iconName){
+if (val.text == iconName){
 icon = val.text2;
 }
 });
@@ -52,11 +52,11 @@ jsonVarObjects[val.text] = val.text2;
 
 
 
-if(status == "random"){
-if(fuMRandom(0, 1) == 1){ status = "on"; }
+if (status == "random"){
+if (fuMRandom(0, 1) == 1){ status = "on"; }
 }
 
-if(status == "on"){
+if (status == "on"){
 
 
 
@@ -65,9 +65,10 @@ if(status == "on"){
 
 
 // mode: "strict" - for full word
-if(mode != 'strict'){ mode = ''; }
+if (mode != 'strict'){ mode = ''; }
 
 let icons = [
+
 {"t":"arch", "t2":`<span class="bold">△</span>`, "t3":"arch"},
 {"t":"beacons", "t2":"°.・"},
 {"t":"bitcoin", "t2":`<span class="orange">₿</span>`},
@@ -88,7 +89,7 @@ let icons = [
 {"t":"dribbble", "t2":"🎨", "t3":"palette"},
 {"t":"framer", "t2":"//"},
 {"t":"facebook", "t2":"🇫"},
-//{"t":"firefox", "t2":"🦊"},
+{"t":"firefox", "t2":"🦊"},
 {"t":"codepen", "t2":"📜", "t3":"code"},
 {"t":"github", "t2":"🐱", "t3":"code"},
 {"t":"neocities", "t2":"🐱"},
@@ -132,6 +133,8 @@ let icons2 = [
 {"t":"insert", "t2":"📋", "t3":"paste"},
 {"t":"paste", "t2":"📋"},
 {"t":"profile", "t2":"👤", "t3":"profile"},
+{"t":"prohibited", "t2":"🚫", "t3":"blocked"},
+{"t":"blocked", "t2":"🚫", "t3":"blocked"},
 {"t":"agi", "t2":"👤", "t3":"profile"},
 {"t":"angle", "t2":"◀"},
 {"t":"angled", "t2":"◀"},
@@ -151,16 +154,17 @@ let icons2 = [
 {"t":"transliterate", "t2":"Abc", "t3":"text"}, 
 {"t":"character", "t2":"Abc", "t3":"code"}, 
 {"t":"dictionary", "t2":"Abc", "t3":"text"}, 
+{"t":"dial", "t2":"▬", "t3":"four-rectangles"}, 
 {"t":"task", "t2":"📝", "t3":"memo"},
 {"t":"note", "t2":"📝", "t3":"memo"},
 {"t":"reminde", "t2":"📝", "t3":"memo"},
 {"t":"paper", "t2":"📝", "t3":"memo"},
 {"t":"print", "t2":"🖨️", "t3":"printer"},
 {"t":"article", "t2":"📝", "t3":"memo"},
-{"t":"book", "t2":"📚", "t3":"light-bulb"},
+{"t":"book", "t2":"📚", "t3":"books"},
+{"t":"bookmark", "t2":"🔖", "t3":"star"},
 {"t":"quiz", "t2":"📚", "t3":"light-bulb"},
 {"t":"box", "t2":"📦"},
-{"t":"bookmark", "t2":"🔖", "t3":"star"},
 {"t":"brain", "t2":"🧠", "t3":"light-bulb"},
 {"t":"memory", "t2":"🧠","t3":"light-bulb"},
 {"t":"calculator", "t2":"🧮"},
@@ -173,6 +177,8 @@ let icons2 = [
 {"t":"cookie", "t2":"🍪"},
 {"t":"cut", "t2":"✂️"},
 {"t":"clock", "t2":"🕑"},
+{"t":"close", "t2":"❌", "t3":"close"},
+{"t":"remove", "t2":"✂️", "t3":"close"},
 {"t":"cofee", "t2":"☕"},
 {"t":"coffee", "t2":"☕"},
 {"t":"copyright", "t2":"©"},
@@ -180,6 +186,10 @@ let icons2 = [
 {"t":"talk", "t2":"💬"},
 {"t":"chat", "t2":"💬"},
 {"t":"unicorn", "t2":"🦄"},
+{"t":"up", "t2":"⬆️", "t3":"up-arrow"},
+{"t":"down", "t2":"⬇️", "t3":"down-arrow"},
+{"t":"left", "t2":"⬅️", "t3":"left-arrow"},
+{"t":"right", "t2":"➡️", "t3":"right-arrow"},
 {"t":"db", "t2":"💾", "t3":"usb-drive"},
 {"t":"data", "t2":"💾", "t3":"usb-drive"},
 {"t":"database", "t2":"💾", "t3":"usb-drive"},
@@ -199,6 +209,7 @@ let icons2 = [
 {"t":"earth", "t2":"🌍"},
 {"t":"embed", "t2":"▣"},
 {"t":"flash", "t2":"⚡"},
+{"t":"filter", "t2":"▼", "t3":"filter"},
 {"t":"fact", "t2":"⚡"},
 {"t":"file", "t2":"🗃️"},
 {"t":"fox", "t2":"fox", "t3":"fox"},
@@ -210,6 +221,9 @@ let icons2 = [
 {"t":"convert", "t2":"⇄"},
 {"t":"fox", "t2":"🦊"},
 {"t":"hello", "t2":"👋", "t3":"hi"},
+{"t":"house", "t2":"🏠", "t3":"home"},
+{"t":"home", "t2":"🏠", "t3":"home"},
+{"t":"start", "t2":"🏠", "t3":"home"},
 {"t":"info", "t2":"ℹ️", "t3":"information"},
 {"t":"faq", "t2":"ℹ️", "t3":"information"},
 {"t":"about", "t2":"ℹ️", "t3":"information"},
@@ -221,6 +235,7 @@ let icons2 = [
 {"t":"check", "t2":"✅"},
 {"t":"changelog", "t2":"🔄", "t3":"refresh"},
 {"t":"refresh", "t2":"🔄", "t3":"refresh"},
+{"t":"list", "t2":"≡", "t3":"list"},
 {"t":"label", "t2":"🏷️"},
 {"t":"tag", "t2":"🏷️"},
 {"t":"laptop", "t2":"💻"},
@@ -232,7 +247,7 @@ let icons2 = [
 {"t":"online", "t2":"🔴"},
 {"t":"broadcast", "t2":"🔴"},
 {"t":"like", "t2":"👍", "t3":"heart"},
-{"t":"interests", "t2":"👍", "t3":"heart"},
+{"t":"interest", "t2":"👍", "t3":"heart"},
 {"t":"love", "t2":"❤", "t3":"heart"},
 {"t":"fav", "t2":"❤", "t3":"heart"},
 {"t":"magazine", "t2":"📰"},
@@ -256,7 +271,7 @@ let icons2 = [
 {"t":"new", "t2":"🆕"},
 {"t":"news", "t2":"📰"},
 {"t":"pumpkin", "t2":"🎃"},
-{"t":"halloween", "t2":"🎃"},
+{"t":"halloween", "t2":"🎃", "t3":"h"},
 {"t":"pc", "t2":"🖥"},
 {"t":"desktop", "t2":"🖥"},
 {"t":"computer", "t2":"🖥"},
@@ -268,7 +283,6 @@ let icons2 = [
 {"t":"main", "t2":"∷", "t3":"proportions"},
 {"t":"tpl", "t2":"📄", "t3":"page"},
 {"t":"template", "t2":"📄", "t3":"page"},
-{"t":"templates", "t2":"📄", "t3":"page"},
 {"t":"iframe", "t2":"📄", "t3":"page"},
 {"t":"radio", "t2":"📻", "t3":"radio"},
 {"t":"random", "t2":"🎲", "t3":"shuffle"},
@@ -291,7 +305,6 @@ let icons2 = [
 {"t":"store", "t2":"🛍️", "t3":"store"},
 {"t":"shop", "t2":"🛍️", "t3":"store"},
 {"t":"extension", "t2":"🛍️", "t3":"store"},
-{"t":"extensions", "t2":"🛍️", "t3":"store"},
 {"t":"style", "t2":"🎨", "t3":"palette"},
 {"t":"css", "t2":"🎨", "t3":"palette"},
 {"t":"color", "t2":"🎨", "t3":"palette"},
@@ -316,11 +329,9 @@ let icons2 = [
 {"t":"portfolio", "t2":"💼"},
 {"t":"progress", "t2":"█░░", "t3":"progress"},
 {"t":"quote", "t2":"❝❞"},
-{"t":"quotes", "t2":"❝❞"},
 {"t":"blockquotes", "t2":"❝❞"},
 {"t":"rain", "t2":"💧", "t3":"droplet"},
 {"t":"redirect", "t2":"⬈", "t3":"redirect-arraw"},
-{"t":"redirects", "t2":"⬈", "t3":"redirect-arraw"},
 {"t":"smoking", "t2":"🚭"},
 {"t":"sun", "t2":"🌞"},
 {"t":"snake", "t2":"🐍"},
@@ -332,7 +343,6 @@ let icons2 = [
 {"t":"text", "t2":"📄", "t3":"text"},
 {"t":"textarea", "t2":"◻", "t3":"textarea"},
 {"t":"texture", "t2":"ᚙ", "t3":"grid"},
-{"t":"textures", "t2":"ᚙ", "t3":"grid"},
 {"t":"grid", "t2":"ᚙ", "t3":"grid"},
 {"t":"tool", "t2":"🔨"},
 {"t":"tv", "t2":"📺"},
@@ -343,23 +353,20 @@ let icons2 = [
 {"t":"video", "t2":"🎞️", "t3":"movie"},
 {"t":"gif", "t2":"🎞️"},
 {"t":"setting", "t2":"⚙️", "t3":"gear"},
-{"t":"settings", "t2":"⚙️", "t3":"gear"},
 {"t":"custom", "t2":"⚙️", "t3":"gear"},
 {"t":"user", "t2":"👤"},
 {"t":"followers", "t2":"👤"},
 {"t":"trash", "t2":"🗑️"},
 {"t":"weather", "t2":"🌤️"},
 {"t":"web", "t2":"🕸️"},
-{"t":"website", "t2":"🕸️"},
+{"t":"website", "t2":"🕸️", "t3":"link"},
 {"t":"internet", "t2":"🕸️"},
-{"t":"browser", "t2":"🕸️"},
 {"t":"wallpaper", "t2":"🖼"},
 {"t":"picture", "t2":"🖼"},
 {"t":"image", "t2":"🖼"},
 {"t":"img", "t2":"🖼"},
 {"t":"pixel", "t2":"🖼"},
 {"t":"window", "t2":"🪟"},
-{"t":"windows", "t2":"🪟"},
 {"t":"work", "t2":"🛠️"},
 {"t":"trend", "t2":"📈", "t3":"chart"},
 {"t":"page", "t2":"📄", "t3":"page"},
@@ -383,9 +390,9 @@ let icons2 = [
 
 
 var iconsArr = [];
-if(confDataCollection != 'on'){
+if (confDataCollection != 'on'){
 iconsArr = iconsArr.concat(icons, icons2);
-}else{
+} else {
 iconsArr = iconsArr.concat(icons2);
 }
 
@@ -409,13 +416,20 @@ alert(test['test']);*/
 
 // links
 //iconsArr = iconsArr.sort();
+//https://stackoverflow.com/questions/10630766/how-to-sort-an-array-based-on-the-length-of-each-element
+iconsArr.sort(function(a, b) { 
+return b["t"].length - a["t"].length;
+});
+
+
 
 var counter = 0; // for only be 1 icon
 
 const allLinks = document.querySelectorAll('.' + classNameForInsert);
+
 allLinks.forEach((item, index) => {
 
-if(counter == 0){
+if (counter == 0){
 
 
 
@@ -423,9 +437,9 @@ let linkText = item.innerHTML;
 
 
 var linkURL = item.href;
-if(item.href != undefined){
+if (item.href != undefined){
 linkURL = item.href;
-}else{ linkURL = '#undefined'; }
+} else { linkURL = '#undefined'; }
 
 
 let icArr = [];
@@ -443,10 +457,10 @@ textIcon = String(item33["t"]);
 icon = String(item33["t2"]);
 
 // insert SVG
-if(item33["t3"] == undefined){ item33["t3"] = item33["t"]; }
+if (item33["t3"] == undefined){ item33["t3"] = item33["t"]; }
 //let iconSvg = fuMGetSvgIcon(item33["t3"], jsonVar); testme delme
 let iconSvg = jsonVarObjects[item33["t3"]];
-if(iconSvg != ''&&iconSvg != undefined){
+if (iconSvg != ''&&iconSvg != undefined){
 icon = `<div style="display: inline-flex; width: 16px; height: 16px;">${iconSvg}</div>`;
 }
 //console.log((linkText.toLowerCase()+'')+((icon+' ')));
@@ -473,11 +487,11 @@ textIcon = textIcon.toLowerCase();
 
 
 //counter == 0 - only one icon insert
-if(mode != 'strict'&&counter == 0){
+if (mode != 'strict'&&counter == 0){
 // main, not strict
 
 //https://stackoverflow.com/questions/412123764/how-to-remove-numbers-from-a-string
-if(
+if (
 ('' + linkText2.replace(/\d+/g, '').toLowerCase()).indexOf(('' + textIcon.replace(/\d+/g, '') + '')) != -1
 ||linkText2.replace(/\d+/g, '').toLowerCase().trim().search(textIcon.replace(/\d+/g, '')) != -1
 &&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1){
@@ -485,11 +499,11 @@ icArr.push(icon);
 counter++;
 }
 
-}else if(mode == 'strict'&&counter == 0){
+} else if (mode == 'strict'&&counter == 0){
 // main, strict word
-if(
-(' ' + linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf(' ' + textIcon + ' ') != -1&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1
-||(' ' + linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf(' ' + textIcon) != -1&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1
+if (
+(' ' + linkText2.replace(/\d+/g, '').toLowerCase() + '').indexOf(' ' + textIcon + '') != -1&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1||
+('' + linkText2.replace(/\d+/g, '').toLowerCase() + ' ').indexOf('' + textIcon + ' ') != -1&&linkText2.replace(/\d+/g, '').toLowerCase().trim().search(icon.replace(/\d+/g, '')) == -1
 ){
 icArr.push(icon);
 counter++;
@@ -509,38 +523,38 @@ icon = "";
 
 
 // insert favicon text
-if(counter == 0){
+if (counter == 0){
 // if link
-if(linkText.toLowerCase().trim().slice(0, 4) == 'http'&&linkText.toLowerCase().trim().search("http|://|www.") != -1){
+if (linkText.toLowerCase().trim().slice(0, 4) == 'http'&&linkText.toLowerCase().trim().search("http|://|www.") != -1){
 let linkTextURL = linkText;
 let host = linkTextURL.split('/');
-if(host[2] != undefined){
+if (host[2] != undefined){
 linkTextURL = host[2];
 }
 var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
-if(confDataCollection != 'on'){ iconHTTP = '🔗'; }
+if (confDataCollection != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
 counter++;
 }
 }
 
 // insert favicon url
-if(counter == 0){
+if (counter == 0){
 // if link2
-if(linkURL.toLowerCase().trim().search(location.host) == -1&&linkURL.toLowerCase().trim().slice(0, 4) == 'http'&&linkURL.toLowerCase().trim().search("http|://|www.") != -1){
+if (linkURL.toLowerCase().trim().search(location.host) == -1&&linkURL.toLowerCase().trim().slice(0, 4) == 'http'&&linkURL.toLowerCase().trim().search("http|://|www.") != -1){
 let linkTextURL = linkURL;
 let host = linkTextURL.split('/');
-if(host[2] != undefined){
+if (host[2] != undefined){
 linkTextURL = host[2];
 }
 var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
-if(confDataCollection != 'on'){ iconHTTP = '🔗'; }
+if (confDataCollection != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
 counter++;
 }
@@ -553,7 +567,7 @@ icArr = [...new Set(icArr)];
 icon = icArr.join('');
 
 // main insert icons if rule bellow true and text icon == text from link
-if(counter == 1&&
+if (counter == 1&&
 ('' + linkText.toLowerCase()).indexOf((icon)) == -1
 ){
 
@@ -561,7 +575,7 @@ linkText = `<span><span class="brand ico">${icon}</span>` + linkText + '</span>'
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 
 counter++;
-}else if(counter == 0&&
+} else if (counter == 0&&
 ('' + linkText.toLowerCase()).indexOf('&bull;') == -1&&
 ('' + linkText.toLowerCase()).indexOf('🔗') == -1
 ){
@@ -569,7 +583,7 @@ linkText = `<span><span class="brand ico">&bull;</span>` + linkText + '</span>';
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;
 }
 
-/*else{
+/* else {
 linkText = '<span>' + linkText + '</span>';
 //linkText = `<span class="brand ico uppercase"> • </span>` + linkText;
 document.getElementsByClassName(classNameForInsert)[index].innerHTML = linkText;

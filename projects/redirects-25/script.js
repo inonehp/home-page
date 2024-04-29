@@ -1,4 +1,4 @@
-// Search redirects v.1.11.0
+// Search redirects v.1.12.1
 // Mini google
 // The script redirects the search query + command to another location.
 
@@ -90,18 +90,21 @@ var q3 = q + "#";
 
 
 switch (qCom) {
+
 case 'π#':
-q = q.replace(qCom, '');
+q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "?q=" + q;
+urlList = [
+"?q=" + q
+];
 if (q == ''){
 urlList = [
 'tec', 'sci', 'dev', 'n2', "spo",
 ];
+}
 random = Math.floor(Math.random() * urlList.length);
 url = '?q=' + urlList[random];
-}
 sRedirectUrl = url;
 break;
 
@@ -132,15 +135,13 @@ q = encodeURIComponent(q.trim());
 urlList = [
 "/site-search.html?q=" + q + " r",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 if (q == ''){
 urlList = [
 "/site-search.html",
 ];
+}
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
-}
 sRedirectUrl = url;
 break;
 
@@ -287,9 +288,9 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if (q == ''){
 urlList = [
-"https://news.google.com/",
+//"https://news.google.com/",
 "https://flipboard.com/topic/news",
-"https://www.bing.com/news/",
+//"https://www.bing.com/news/",
 "https://news.yahoo.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -310,12 +311,12 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if (q == ''){
 urlList = [
-"https://www.bing.com/news/search?q=Technology",
+//"https://www.bing.com/news/search?q=Technology",
 "https://www.yahoo.com/tech/",
 "https://slashdot.org/",
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
-"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
+//"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
 "https://www.reddit.com/r/technology/",
 "https://finance.yahoo.com/tech/",
 "https://substack.com/browse/technology",
@@ -349,8 +350,8 @@ urlList = [
 "https://flipboard.com/topic/science",
 "https://flipboard.com/topic/science",
 "https://science.slashdot.org/",
-"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
-"https://www.bing.com/news/search?q=Science",
+//"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
+//"https://www.bing.com/news/search?q=Science",
 "https://www.yahoo.com/news/science/",
 "https://www.reddit.com/r/science/",
 "https://news.yahoo.com/science/",
@@ -384,17 +385,17 @@ urlList = [
 "https://www.reddit.com/r/Music/",
 "https://www.reddit.com/r/pics/",
 
-"https://www.bing.com/news/search?q=Entertainment",
+//"https://www.bing.com/news/search?q=Entertainment",
 
 "https://finance.yahoo.com/",
 "https://www.yahoo.com/entertainment/",
 "https://www.yahoo.com/lifestyle/",
 
-"https://www.bing.com/news/search?q=Business",
+//"https://www.bing.com/news/search?q=Business",
 "https://www.google.com/finance/",
-"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB",
-"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtVnVHZ0pWVXlnQVAB",
-"https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtVnVLQUFQAQ",
+//"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB",
+//"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtVnVHZ0pWVXlnQVAB",
+//"https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtVnVLQUFQAQ",
 "https://flipboard.com/topic/business",
 
 ];
@@ -440,9 +441,9 @@ url = urlList[random];
 sRedirectUrl = random;
 if (q == ''){
 urlList = [
-"https://sports.yahoo.com/",
-"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
-"https://www.bing.com/news/search?q=Sports",
+//"https://sports.yahoo.com/",
+//"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
+//"https://www.bing.com/news/search?q=Sports",
 "https://www.reddit.com/r/sports/",
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -471,7 +472,7 @@ urlList = [
 "https://www.reddit.com/r/web_design/",
 "https://dev.to/",
 "https://hashnode.com/community",
-"https://stackoverflow.com/",
+//"https://stackoverflow.com/",
 "https://medium.com/tag/webdevelopment",
 ];
 random = Math.floor(Math.random() * urlList.length);
@@ -626,28 +627,6 @@ url = urlList[random];
 sRedirectUrl = url;
 break;
 
-case 's#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.google.com/search?q="+q+"&newwindow=1&tbm=vid",
-"https://www.bing.com/videos/search?q="+q
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-if (q == ''){
-urlList = [
-"https://www.youtube.com/",
-"https://vimeo.com/",
-"https://www.dailymotion.com/",
-];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-}
-sRedirectUrl = url;
-break;
-
 case 'we#':
 case 'wet#':
 q = q3.replace(qCom, '');
@@ -723,7 +702,6 @@ urlList = [
 "https://www.perplexity.ai/search/?q=" + q,
 "https://www.mojeek.com/search?q=" + q,
 
-"https://www.qwant.com/?q=" + q,
 "https://you.com/search?q=" + q,
 "https://search.yahoo.com/search?q=" + q,
 "https://duckduckgo.com/?q=" + q,
@@ -759,7 +737,7 @@ random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];
 if (q == ''){
 urlList = [
-"https://www.example.com/",
+"#https://www.example.com/",
 ];
 random = Math.floor(Math.random() * urlList.length);
 url = urlList[random];

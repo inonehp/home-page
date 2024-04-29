@@ -1,4 +1,4 @@
-// Main js v.6.5.9
+// Main js v.6.6.2
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -12,7 +12,9 @@ conf["conMenuItemAverageWidth"] = 130;
 
 conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
+if (conf["confDomainName"][0] != undefined){
 conf["confDomainName"] = conf["confDomainName"][0].toUpperCase() + conf["confDomainName"].slice(1);
+} else { conf["confDomainName"] = ''; }
 conf["confDomainNameInTitle"] = ' / ' + conf["confDomainName"];
 
 
@@ -143,7 +145,7 @@ function fuMPrintText(id, text, option){
 if (document.getElementById(id) != null){
 if (option == 'plus'||option == '+'){
 document.getElementById(id).innerHTML += text;
-} else if (option == 'plutTop'||option == 'top'){
+} else if (option == 'plusTop'||option == 'top'){
 document.getElementById(id).innerHTML = text + document.getElementById(id).innerHTML;
 } else {
 document.getElementById(id).innerHTML = text;
@@ -190,7 +192,7 @@ if (fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
 if (conf["confMenu"] == "on"){
 
 
-//if(document.getElementsByTagName("header")[0] != null){
+//if (document.getElementsByTagName("header")[0] != null){
 //document.getElementsByTagName("header")[0].innerHTML = `
 
 if (document.getElementById("secondNav") != null){
@@ -279,14 +281,14 @@ document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu';
 // nav v.1.2.1, in test
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
-//if((countMenuItem.length / 2) >= 4){}
-//if(document.getElementById("footer") != null){}
+//if ((countMenuItem.length / 2) >= 4){}
+//if (document.getElementById("footer") != null){}
 //fuMPrintText('footer', ``, '+');
 if (document.getElementsByTagName("nav")[0] != null){ // not body, id not found
 
 /*var cssMedia = '@media(max-width: 500px)';
 var cssMedia2 = '@media(min-width: 500px)';
-if((countMenuItem.length / 2) >= 13){
+if ((countMenuItem.length / 2) >= 13){
 cssMedia = '@media(max-width: 1000px)';
 cssMedia2 = '@media(min-width: 1000px)';
 }*/
@@ -348,7 +350,7 @@ var fDescTitle = '';
 var fDescTags = '';
 var fDescTagsLimit = 15;
 var fDescLength = '';
-if(document.getElementsByName("keywords")[0] != null){
+if (document.getElementsByName("keywords")[0] != null){
 fDescTags = document.getElementsByName("keywords")[0].content;
 fDescTags = fDescTags.replaceAll("\n", " ");
 fDescTags = fDescTags.replaceAll("\r", " ");
@@ -416,8 +418,8 @@ fuMPrintText("footer", `
 <span id="fPinButton"></span>
 </div>
 
-<span class="inlineBlock padding brand" title="A page in a social network"><a class="brand" style="padding-left: 0;" href="https://twitter.com/inonehp">X (Twitter)</a></span>
-<span class="inlineBlock padding brand" title="RSS News"><a class="brand" href="/rss.xml">RSS</a></span>
+<!--<span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://www.threads.net/@inonehp">Threads</a></span>-->
+<span class="inlineBlock padding brand" title="RSS News"><a class="brand" style="padding-left: 0;" href="/rss.xml">RSS</a></span>
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
 <span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/inonehp/inonehp.pages.dev">Сode</a></span>
@@ -439,7 +441,7 @@ fuMPrintText("footer", `
 `,'');
 
 function fuMScrollTo(id) {
-if(document.getElementById(id) != null){
+if (document.getElementById(id) != null){
 document.getElementById(id).scrollIntoView();
 }
 }
@@ -450,9 +452,9 @@ document.getElementById(id).scrollIntoView();
 
 // Device 1.0.0
 conf["confDevice"] = 'none';
-/*if(conf["confDataCollection"] != 'on'){
+/*if (conf["confDataCollection"] != 'on'){
 conf["confDevice"] = '(disabled, privacy)';
-}else{}*/
+} else {}*/
 if (navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ conf["confDevice"] = 'mobile';  }
 if (navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ conf["confDevice"] = 'tv';  }
 if (conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
@@ -713,21 +715,20 @@ fuMPrintTheme(conf["confRealTmpTheme"]);
 
 function themeAutoRandom(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-conf["confRealTmpTheme"] = themeListDark[Math.floor(Math.random()*themeListDark.length)];
+conf["confRealTmpTheme"] = themeListDark[fuMRandom(0, themeListDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 } else {
-conf["confRealTmpTheme"]  = themeListLight[Math.floor(Math.random()*themeListLight.length)];
+conf["confRealTmpTheme"]  = themeListLight[fuMRandom(0, themeListLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
 }
-
 
 function themeAutoRandomAll(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-conf["confRealTmpTheme"]  = themeListAllDark[Math.floor(Math.random() * themeListAllDark.length)];
+conf["confRealTmpTheme"]  = themeListAllDark[fuMRandom(0, themeListAllDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 } else {
-conf["confRealTmpTheme"]  = themeListAllLight[Math.floor(Math.random() * themeListAllLight.length)];
+conf["confRealTmpTheme"]  = themeListAllLight[fuMRandom(0, themeListAllLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
 }
@@ -736,12 +737,12 @@ function fuMSetTheme(mode){
 
 /*if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 document.cookie = "theme=dark; SameSite=None; Secure; path=/";
-}else{
+} else {
 document.cookie = "theme=light; SameSite=None; Secure; path=/";
 }*/
 
 /*themeList.forEach((element) => {
-if(mode == element){
+if (mode == element){
 //document.getElementById('theme').href = '/css/'+mode+'.css';
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
@@ -755,7 +756,7 @@ switch (mode) {
 
 case 'auto-time':
 if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
-//if(new Date().getSeconds() % 2 == 0){
+//if (new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]   = 'dark';
 fuMPrintTheme(conf["confRealTmpTheme"]);
 } else {
@@ -774,7 +775,7 @@ break;
 
 case 'auto-t-h-contrast':
 if (new Date().getHours() <= Number(conf["confStartDay"]) - 1|new Date().getHours() >= conf["confStartNight"]){
-//if(new Date().getSeconds() % 2 == 0){
+//if (new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]   = 'h-contrast-d';
 fuMPrintTheme(conf["confRealTmpTheme"] );
 } else {
@@ -786,22 +787,22 @@ break;
 
 case 'auto-t-rand':
 if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
-//if(new Date().getSeconds() % 2 == 0){
-conf["confRealTmpTheme"]  = themeListDark[Math.floor(Math.random()*themeListDark.length)];
+//if (new Date().getSeconds() % 2 == 0){
+conf["confRealTmpTheme"]  = themeListDark[fuMRandom(0, themeListDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
 } else {
-conf["confRealTmpTheme"]  = themeListLight[Math.floor(Math.random()*themeListLight.length)];
+conf["confRealTmpTheme"]  = themeListLight[fuMRandom(0, themeListLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
 break;
 
 case 'auto-t-rand-all':
 if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
-//if(new Date().getSeconds() % 2 == 0){
-conf["confRealTmpTheme"]  = themeListAllDark[Math.floor(Math.random() * themeListAllDark.length)];
+//if (new Date().getSeconds() % 2 == 0){
+conf["confRealTmpTheme"]  = themeListAllDark[fuMRandom(0, themeListAllDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
 } else {
-conf["confRealTmpTheme"]  = themeListAllLight[Math.floor(Math.random() * themeListAllLight.length)];
+conf["confRealTmpTheme"]  = themeListAllLight[fuMRandom(0, themeListAllLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
 break;
@@ -827,47 +828,47 @@ themeAutoRandomAll();
 break;
 
 case 'rand-l':
-conf["confRealTmpTheme"] = themeListLight[Math.floor(Math.random() * themeListLight.length)];
+conf["confRealTmpTheme"] = themeListLight[fuMRandom(0, themeListLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-d':
-conf["confRealTmpTheme"] = themeListDark[Math.floor(Math.random() * themeListDark.length)];
+conf["confRealTmpTheme"] = themeListDark[fuMRandom(0, themeListDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-o':
-conf["confRealTmpTheme"] = themeListOther[Math.floor(Math.random() * themeListOther.length)];
+conf["confRealTmpTheme"] = themeListOther[fuMRandom(0, themeListOther.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-od':
-conf["confRealTmpTheme"] = themeListOtherDark[Math.floor(Math.random() * themeListOtherDark.length)];
+conf["confRealTmpTheme"] = themeListOtherDark[fuMRandom(0, themeListOtherDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-all-l':
-conf["confRealTmpTheme"] = themeListAllLight[Math.floor(Math.random() * themeListAllLight.length)];
+conf["confRealTmpTheme"] = themeListAllLight[fuMRandom(0, themeListAllLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-all-d':
-conf["confRealTmpTheme"] = themeListAllDark[Math.floor(Math.random() * themeListAllDark.length)];
+conf["confRealTmpTheme"] = themeListAllDark[fuMRandom(0, themeListAllDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-h-contrast':
-conf["confRealTmpTheme"] = themeListHContrast[Math.floor(Math.random() * themeListHContrast.length)];
+conf["confRealTmpTheme"] = themeListHContrast[fuMRandom(0, themeListHContrast.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-best':
-conf["confRealTmpTheme"] = themeListBest[Math.floor(Math.random() * themeListBest.length)];
+conf["confRealTmpTheme"] = themeListBest[fuMRandom(0, themeListBest.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-all':
-conf["confRealTmpTheme"] = themeList[Math.floor(Math.random() * themeList.length)];
+conf["confRealTmpTheme"] = themeList[fuMRandom(0, themeList.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
@@ -915,7 +916,7 @@ conf["confThemeEmbed"] = 'light';
 
 /* // disabled for if not theme, Unexpected behavior
 window.addEventListener('storage', () => {
-if(theme != conf["confTheme"]){
+if (theme != conf["confTheme"]){
 fuMSetTheme(conf["confTheme"]);
 }
 });
@@ -926,7 +927,7 @@ fuMSetTheme(conf["confTheme"]);
 
 /* in test, delme (now in function: setTheme)
 // print theme mode and name in footer
-if(document.getElementById('fTheme') != null){
+if (document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = 'Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')';
 }*/
 
@@ -938,7 +939,10 @@ function reload(){ console.log("renameme to: fuMReload"); location.reload(true);
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function fuMRandom(min, max) {
-return Math.round(Math.random() * (max - min) + min);
+//return Math.round(Math.random() * (max - min) + min);
+const minCeiled = Math.ceil(min);
+const maxFloored = Math.floor(max);
+return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled); // The maximum is inclusive and the minimum is inclusive
 }
 
 function fuMRandomItem(text) {
@@ -1140,7 +1144,7 @@ if (item != ""){
 try {
 var url = new URL(item.src);
 newUrl = item.src;
-if(url.hostname == location.hostname){
+if (url.hostname == location.hostname){
 
 // if ulr exit
 fetch(
@@ -1184,7 +1188,7 @@ function fuMClearText(text){
 
 
 
-if(text != undefined){
+if (text != undefined){
 
 //text = text.replaceAll("'", '\'');
 //text = text.replaceAll('"', '\"');
@@ -1210,7 +1214,7 @@ return text;
 
 
 // Embed scripts. Script embed v.1.0.0
-if(document.getElementById(conf["confIdEmbedScript"]) != null){
+if (document.getElementById(conf["confIdEmbedScript"]) != null){
 
 function fuMEmbedScript(embedUrl, embedId){
 
@@ -1235,7 +1239,8 @@ document.getElementById(embedId).appendChild(script);
 }
 }
 
-// Embed script and run:
+
+// Embed and run:
 
 if (conf["confSpeedDialStatus"] != "off"){
 fuMEmbedScript(`/projects/speed-dial-58/script.js`, conf["confIdEmbedScript"]);
@@ -1260,16 +1265,16 @@ fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAn
 }
 
 
-
-
 ///////////////////////////
 // Run:
 
 onload = (event) => {
+
 //document.body.onload = function(){}
 //document.addEventListener("DOMContentLoaded", (event) => {})
 
-if (conf["confSpeedDialtatus"] != "off"){
+//https://stackoverflow.com/questions/7559520/determine-if-statically-named-javascript-function-exists-to-prevent-errors
+if (conf["confSpeedDialtatus"] != "off"&&typeof fuLSpeedDial == 'function'){
 fuLSpeedDial("speedDialPrint", "", "", "print");
 }
 
@@ -1287,8 +1292,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', conf["confGoogleAnalyticsId"]);
 }
-
-
 
 // fix fu hide // + test delme
 //fuMHideFileNameExt2();

@@ -58,8 +58,8 @@
 <div class="menuTop">
 <!-- menu items -->
 <a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-page.html">Projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./games.html">Games</a>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
 <!-- // menu items -->
 
@@ -77,8 +77,8 @@
 
 <!-- menu items dublicate -->
 <a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-page.html">Projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./games.html">Games</a>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
 <!-- // menu items dublicate -->
 
@@ -274,7 +274,62 @@ AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</div>
 <!-- post -->
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
-<div class="postContent pre padding2List">Map - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map</a><br>myMap.forEach((value, key) =&gt; {
+<div class="postContent pre padding2List">Map - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map</a><br>const map1 = new Map();
+
+map1.set(&#039;a&#039;, 1);
+map1.set(&#039;b&#039;, 2);
+map1.set(&#039;c&#039;, 3);
+
+console.log(map1.get(&#039;a&#039;));
+// Expected output: 1
+
+map1.set(&#039;a&#039;, 97);
+
+console.log(map1.get(&#039;a&#039;));
+// Expected output: 97
+
+console.log(map1.size);
+// Expected output: 3
+
+map1.delete(&#039;b&#039;);
+
+console.log(map1.size);
+// Expected output: 2
+
+===
+
+const myMap = new Map();
+myMap.set(0, &quot;zero&quot;);
+myMap.set(1, &quot;one&quot;);
+
+for (const [key, value] of myMap) {
+  console.log(`${key} = ${value}`);
+}
+// 0 = zero
+// 1 = one
+
+for (const key of myMap.keys()) {
+  console.log(key);
+}
+// 0
+// 1
+
+for (const value of myMap.values()) {
+  console.log(value);
+}
+// zero
+// one
+
+for (const [key, value] of myMap.entries()) {
+  console.log(`${key} = ${value}`);
+}
+// 0 = zero
+// 1 = one
+
+
+===
+
+myMap.forEach((value, key) =&gt; {
   console.log(`${key} = ${value}`);
 });
 // 0 = zero
@@ -375,6 +430,163 @@ json_decode($json, true);</div>
 
 </div>
 <!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">JavaScript Style Guide <a class="brand insertIcon" href="https://www.w3schools.com/js/js_conventions.asp">https://www.w3schools.com/js/js_conventions.asp</a></div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Coding conventions - Wikipedia <a class="brand insertIcon" href="https://en.wikipedia.org/wiki/Coding_conventions">https://en.wikipedia.org/wiki/Coding_conventions</a></div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">switch - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch</a><br>const expr = &#039;Papayas&#039;;
+
+switch (expr) {
+
+case &#039;Oranges&#039;:
+console.log(&#039;Oranges are $0.59 a pound.&#039;);
+break;
+
+case &#039;Mangoes&#039;:
+case &#039;Papayas&#039;:
+console.log(&#039;Mangoes and papayas are $2.79 a pound.&#039;);
+// Expected output: &quot;Mangoes and papayas are $2.79 a pound.&quot;
+break;
+
+default:
+console.log(`Sorry, we are out of ${expr}.`);
+}</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Storage: setItem() method - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem">https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem</a><br>localStorage.setItem(&quot;bgcolor&quot;, &quot;red&quot;);</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Storage: getItem() method - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem">https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem</a><br>const currentColor = localStorage.getItem(&quot;bgcolor&quot;);</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Math.random() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random</a><br>function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Array: length - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length</a><br>const clothing = [&#039;shoes&#039;, &#039;shirts&#039;, &#039;socks&#039;, &#039;sweaters&#039;];
+
+console.log(clothing.length);
+// Expected output: 4</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Array.prototype.map() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map</a><br>const array1 = [1, 4, 9, 16];
+
+// Pass a function to map
+const map1 = array1.map((x) =&gt; x * 2);
+
+console.log(map1);
+// Expected output: Array [2, 8, 18, 32]
+
+===
+
+const numbers = [1, 4, 9];
+const roots = numbers.map((num) =&gt; Math.sqrt(num));
+
+// roots is now     [1, 2, 3]
+// numbers is still [1, 4, 9]
+
+===
+
+const kvArray = [
+  { key: 1, value: 10 },
+  { key: 2, value: 20 },
+  { key: 3, value: 30 },
+];
+
+const reformattedArray = kvArray.map(({ key, value }) =&gt; ({ [key]: value }));
+
+console.log(reformattedArray); // [{ 1: 10 }, { 2: 20 }, { 3: 30 }]
+console.log(kvArray);
+// [
+//   { key: 1, value: 10 },
+//   { key: 2, value: 20 },
+//   { key: 3, value: 30 }
+// ]</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
 <div class="margin2 padding2"></div>
 </noscript>
 
@@ -382,14 +594,11 @@ json_decode($json, true);</div>
 </main>
 <!-- // content -->
 
-
-
-
 <footer id="footer"></footer>
 
 <script src="./js/main.js"></script>
 
-<script async src="./js/script.js"></script>
+<script src="./js/script.js"></script>
 
 
 
@@ -409,7 +618,6 @@ let blogConfig = {
 </script>
 
 <script src="./projects/blog-1/script.js" onload="blog('printBlog', notesJsonVar, 'wrapper', './notes.html', blogConfig)"></script>
-
 
 
 

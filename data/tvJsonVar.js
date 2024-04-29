@@ -300,6 +300,15 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Sherlock Holmes - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLcwPqOejfh3oKYMN2dH1KR4nv8Wwnvf10",
+        "tag": "#TV #series",
+        "time": 1713692805,
+        "rightFooter": ""
+    },
+    {
         "text": "Sky News - YouTube",
         "text2": "",
         "text3": "",

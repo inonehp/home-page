@@ -1,4 +1,4 @@
-// Keep or blog v.2.3.0
+// Keep or blog v.2.3.1
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -1764,6 +1764,11 @@ embedServiceList += 'xcom';
 embedServiceList += 'twitter';
 break;
 
+case "www.threads.net":
+embed = `<blockquote class="text-post-media" data-text-post-permalink="${item}" data-text-post-version="0"></blockquote><!--<script async src="https://www.threads.net/embed.js"></script>-->`;
+embedServiceList += 'threads';
+break;
+
 case "www.reddit.com":
 if(item.split('/').length >= 9){
 play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
@@ -2260,6 +2265,11 @@ case "mobile.twitter.com":
 embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
 embedServiceList += 'xcom';
 embedServiceList += 'twitter';
+break;
+
+case "www.threads.net":
+embed = `<blockquote class="text-post-media" data-text-post-permalink="${item}" data-text-post-version="0"></blockquote><!--<script async src="https://www.threads.net/embed.js"></script>-->`;
+embedServiceList += 'threads';
 break;
 
 case "www.reddit.com":
@@ -2840,6 +2850,15 @@ script.type='text/javascript';
 //script.async = true;
 script.charset = 'utf-8';
 script.src = 'https://platform.twitter.com/widgets.js';      
+document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+if (embedServiceList.indexOf('threads') != -1) {
+var script = document.createElement('script');
+script.type='text/javascript';
+//script.async = true;
+script.charset = 'utf-8';
+script.src = 'https://www.threads.net/embed.js';      
 document.getElementsByTagName('head')[0].appendChild(script);
 }
 

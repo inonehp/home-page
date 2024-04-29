@@ -3,6 +3,16 @@ var blogJsonVar =
 
 [
     {
+        "id": "250",
+        "text": "All New Atlas | Boston Dynamics - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=29ECwExc-_M",
+        "tag": "#news #video",
+        "time": 1713939906,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=250\">id<\/a>"
+    },
+    {
         "id": "248",
         "text": "Beyond Our Reality \u00b7 Made by Don Allen Stevenson with Sora - YouTube",
         "text2": "",
@@ -27,7 +37,7 @@ var blogJsonVar =
         "text": "CSS Default Browser Values for HTML Elements",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.w3schools.com\/cssref\/css_default_values",
+        "url": "https:\/\/www.w3schools.com\/cssref\/css_default_values.php",
         "tag": "#CSS #note",
         "time": 1711123107,
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=245\">id<\/a>"

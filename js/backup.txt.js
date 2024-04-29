@@ -1,5 +1,27 @@
-// Form input and STT v.1.0.1
+/*
+// embed file url
+if(
+(window.location.href).indexOf(('/projects/')) != -1
+||(window.location.href).indexOf(('/mini-projects/')) != -1
+||(window.location.href).indexOf(('/css-art/')) != -1
+){
+fetch('script.js', { method: "HEAD"}).then(function(response) {
+//console.log(response);
+if (response.ok == true) {
+fuMPrintText('fEmbedFileUrl', `<span><a class="op inlineBlock tag orange" href="script.js">script.js</a></span>`, 'plus');
+}
+});
 
+fetch('style.css', { method: "HEAD"}).then(function(response) {
+if (response.ok == true) {  fuMPrintText('fEmbedFileUrl', `<span><a class="op inlineBlock tag indigo" href="style.css">style.css</a></span>`, 'plus');
+}
+});
+}
+// // embed file url*/
+
+
+
+// Form input and STT v.1.0.1
 
 
 let printInputSearch = `
@@ -107,5 +129,5 @@ document.getElementById("qText").textContent = "SpeechRecognition not detected";
 
 }
 }
-// Speech to text input
+// Form input and ST
 

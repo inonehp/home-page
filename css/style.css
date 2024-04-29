@@ -94,8 +94,8 @@ text-align: left;
 
 
 .insertIcon svg * {
-fill: var(--c);
-stroke: var(--c);
+fill: var(--c) !important;
+stroke: var(--c) !important;
 }
 
 

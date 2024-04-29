@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Project name</title>
+<title>Blocked</title>
 
 <meta name="description" content="
-This is the tpl for create projects. ignoreme.
+Block notification page.
+Not intended for viewing.
 ">
 <meta name="keywords" content="
-ignoreme,empty,HTML,CSS,project,
+block,
+CSS, JavaScript, project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,6 +33,8 @@ ignoreme,empty,HTML,CSS,project,
 </noscript>
 <!-- end main -->
 
+<link rel="preload" href="script.js" as="script"> 
+
 <link rel="preload" href="style.css" as="style">
 <link rel="stylesheet" href="style.css" type="text/css">
 
@@ -47,18 +51,17 @@ ignoreme,empty,HTML,CSS,project,
 
 
 <!-- content -->
-<main class="content">
-
-<h1 class="tCenter op">Project name</h1>
-<div class="tCenter margin3List small op">Experimental. In progress. In test.</div>
-
+<main class="contentCenter">
 <div class="wrapper">
 
-Lorem Ipsum Dolor
- 
+<h1 class="tCenter op">Blocked</h1>
+<!--<div class="tCenter margin4List small op">in progress</div>-->
+
+<div class="padding3 border bg pre">
+<div id="result"></div>
 </div>
 
-
+</div>
 </main>
 <!-- // content -->
 
@@ -70,6 +73,8 @@ Lorem Ipsum Dolor
 <script>
 //fuMSetTheme('light');
 </script>
+
+<script src="script.js"></script>
 
 </body>
 </html>

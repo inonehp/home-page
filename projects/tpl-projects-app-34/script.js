@@ -5,7 +5,7 @@ var print = `
 result
 `;
 
-if(document.getElementById("result") != null){
+if (document.getElementById("result") != null){
 document.getElementById("result").innerHTML = print; 
 }
 

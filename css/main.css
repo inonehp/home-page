@@ -1,4 +1,4 @@
-/* Main style v.16.5.5
+/* Main style v.16.7.0
 Mini CSS framework: main.css + auto.css (color-theme-name.css)
 Responsive, mainly class-based */
 
@@ -30,9 +30,9 @@ Responsive, mainly class-based */
 --wrapperXs: 160px;
 
 --padding: 5px;
---padding2: 10px;
---padding3: 15px;
---padding4: 30px;
+--padding2: 11px;
+--padding3: 16px;
+--padding4: 32px;
 
 --borderRadius: 3px;
 --borderRadius2: 5px;
@@ -283,7 +283,7 @@ display: inline-flex;
 justify-content: center;
 filter: grayscale(20%);
 }
-.ico, .ico2 { justify-content: end; display: inline-block; vertical-align: middle; height: auto; }
+.ico, .ico2 { justify-content: end; display: inline-flex; align-items: center; vertical-align: middle; height: auto; }
 
 .ico2 {
 /*filter: brightness(90%);*/
@@ -487,8 +487,8 @@ input, input:focus, textarea, select, button, input[type="file"] {
 border: 1px solid var(--d3); background: var(--l2); color: var(--c3); border-radius: var(--borderRadius); }
 input:hover, textarea:hover, select:hover, button:hover, input[type="file"]:hover {  background: var(--l3); }
 
-input[type="submit"],  form button[type="submit"], .submit/*, form button, input[type="button"]*/ {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: var(--borderRadius); }
-input[type="submit"]:hover, form button[type="submit"]:hover, form button:hover, .submit:hover, input[type="button"]:hover { background: var(--d2); color: var(--c3); }
+input[type="submit"], input[type="reset"],  form button[type="submit"], .submit/*, form button, input[type="button"]*/ {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: var(--borderRadius); }
+input[type="submit"]:hover, input[type="reset"]:hover, form button[type="submit"]:hover, form button:hover, .submit:hover, input[type="button"]:hover { background: var(--d2); color: var(--c3); }
 
 
 input[type="range"], progress { width: 100%; max-width: 100%; margin: 0; }

@@ -135,8 +135,8 @@ z-index: -2;
 <div class="menuTop">
 <!-- menu items -->
 <a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-page.html">Projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./games.html">Games</a>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
 <!-- // menu items -->
 
@@ -154,8 +154,8 @@ z-index: -2;
 
 <!-- menu items dublicate -->
 <a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-list.html">Projects</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./mini-projects-list.html">Mini projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-page.html">Projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./games.html">Games</a>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
 <!-- // menu items dublicate -->
 
@@ -675,7 +675,7 @@ z-index: -2;
 <div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">
 Fixed PWA (Install site)
 
-<a class="brand block padding2 small tCenter border light borderRadius2" href="./changelog.html" title="Update Log">more</a></div>
+<a class="brand block tag2 small tCenter border2 light borderRadius2" href="./changelog.html" title="Update Log">more</a></div>
 </details>
 
 
@@ -815,10 +815,7 @@ flex-wrap: wrap;
 
 <div class="margin2 padding2"></div>
 
-<div class="padding2"></div>
-
 <span id="speedDialPrint"></span>
-
 <noscript>
 <!-- nav2 -->
 <div class="padding2"></div>
@@ -826,9 +823,14 @@ flex-wrap: wrap;
 <div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Lists:</div>
 
 <div class="menu small">
+
 <a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="main-list.html"><span class="insertIcon firstLetterBold">Main</span></a>
+
 <a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="projects-list.html"><span class="insertIcon firstLetterBold">Projects</span></a>
+
 <a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="mini-projects-list.html"><span class="insertIcon firstLetterBold">Mini projects</span></a>
+
+<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="games-list.html"><span class="insertIcon firstLetterBold">Games</span></a>
 
 </div>
 
@@ -840,14 +842,14 @@ flex-wrap: wrap;
 </div>
 
 
-
-
+</main>
+<!-- // content -->
 
 <footer id="footer"></footer>
 
 <script src="./js/main.js"></script>
 
-<script async src="./js/script.js"></script>
+<script src="./js/script.js"></script>
 
 
 <script>
@@ -913,6 +915,47 @@ document.getElementById("last-update").innerHTML = fuPostTime(1711509916);
 </script>
 
 <script>
+// v.1.1.3
+// hot links
+// not dublicate, exit in main.js window.onload = (event) => {};
+
+if (document.getElementById("q") != null){ 
+var inputA = document.getElementById("q");
+inputA.addEventListener('input', updateValueIn);
+}
+
+if (document.getElementById("q2") != null){ 
+var inputB = document.getElementById("q2");
+inputB.addEventListener('input', updateValueIn);
+}
+
+
+function updateValueIn(e) {
+var text = encodeURIComponent(e.target.value);
+
+var a = `
+
+<div class="tagList2 hotLinks">
+<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` goo" title="Google">goo</a>
+<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` bin" title="Bing">bin</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` x" title="X (Twitter)">x</a>
+<a class="tag light2 border3 borderRadius2" href="?q=`+text+` red" title="Reddit">red</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` y" title="YouTube">y</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` t" title="Translate">t</a>
+</div>
+
+`;
+
+document.getElementById("hotLinks").innerHTML = a; 
+
+}
+
+
+// hot links
+
+</script>
+
+<script>
 // hide top header if mobile
 // local, only this page
 
@@ -944,51 +987,7 @@ location.href = fuMHideFileNameExt("search.html?q=") + q;
 
 </script>
 
-<script src="/js/form.js"></script>
-
-EOFe;
-
-echo <<<EOF
-
-</main>
-<!-- // content -->
-
-<script>
-// v.1.1.3
-// hot links
-
-if(document.getElementById("q") != null){ 
-var inputA = document.getElementById("q");
-inputA.addEventListener('input', updateValueIn);
-}
-
-if(document.getElementById("q2") != null){ 
-var inputB = document.getElementById("q2");
-inputB.addEventListener('input', updateValueIn);
-}
-
-
-function updateValueIn(e) {
-var text = encodeURIComponent(e.target.value);
-
-var a = `
-
-<div class="tagList2 hotLinks">
-<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` goo" title="Google">goo</a>
-<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` bin" title="Bing">bin</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` x" title="X (Twitter)">x</a>
-<a class="tag light2 border3 borderRadius2" href="?q=`+text+` red" title="Reddit">red</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` y" title="YouTube">y</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` t" title="Translate">t</a>
-</div>
-
-`;
-document.getElementById("hotLinks").innerHTML = a; 
-}
-// hot links
-
-</script>
-
+<!--delme<script src="/js/form.js"></script>-->
 
 
 
