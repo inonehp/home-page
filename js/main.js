@@ -1,4 +1,4 @@
-// Main js v.6.6.2
+// Main js v.6.6.3
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -163,8 +163,8 @@ document.getElementById(id).innerHTML = text;
 
 conf["confMenuItems"] = [
 {"url":"/main-list.html", "name":"Main", "title":"Main"},
-{"url":"/projects-list.html", "name":"Projects", "title":"Projects"},
-{"url":"/mini-projects-list.html", "name":"Mini projects", "title":"Lists"},
+{"url":"/projects-page.html", "name":"Projects", "title":"Projects page"},
+{"url":"/games-list.html", "name":"Games", "title":"Games list"},
 //{"url":"/lists.html", "name":"All", "title":"Lists"},
 ];
 

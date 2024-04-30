@@ -141,7 +141,7 @@ if (confThemeEmbed == undefined||confThemeEmbed == null){ confThemeEmbed = "ligh
 confSymbolForSplit =  conf["confSymbolForSplit"];
 if (confSymbolForSplit == undefined||confSymbolForSplit == null){ confSymbolForSplit = "SYMBOLFORSPLIT"; }
 
-} else {
+}else{
 
 var confDataCollection = "off";
 var confIconStatus = "off";
@@ -3033,7 +3033,7 @@ if (typeof confDevice === 'undefined') {
 var confDevice = '';
 /*if(confDataCollection != 'on'){
 confDevice = '(disabled, privacy)';
-} else {}*/
+}else{}*/
 if (navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ confDevice = 'mobile';  }
 if (navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ confDevice = 'tv';  }
 if (confDevice == ''){ confDevice = 'pc'; }

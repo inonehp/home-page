@@ -444,15 +444,6 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Krita | Digital Painting. Creative Freedom.",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/krita.org\/en\/",
-        "tag": "#ads",
-        "time": 1689348556,
-        "rightFooter": ""
-    },
-    {
         "text": "MDN Web Docs",
         "text2": "",
         "text3": "",

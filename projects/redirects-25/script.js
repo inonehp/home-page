@@ -1,6 +1,6 @@
-// Search redirects v.1.12.1
+// Search redirects v.2.0.1
 // Mini google
-// The script redirects the search query + command to another location.
+// The script redirects the search query + command.
 
 // conf
 var com = "on"; // on, off redirection
@@ -103,8 +103,8 @@ urlList = [
 'tec', 'sci', 'dev', 'n2', "spo",
 ];
 }
-random = Math.floor(Math.random() * urlList.length);
-url = '?q=' + urlList[random];
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = '?q=' + random;
 sRedirectUrl = url;
 break;
 
@@ -117,8 +117,8 @@ urlList = [
 //url = "https://you.com/search?q=!" + q;
 //url = "https://duckduckgo.com/?q=! " + q;
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 
 if (q == ''){
@@ -140,8 +140,8 @@ urlList = [
 "/site-search.html",
 ];
 }
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -153,15 +153,13 @@ q = encodeURIComponent(q.trim());
 urlList = [
 "/site-search.html?q=" + q + " r",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 if (q == ''){
 urlList = [
 "/links.html?mode=randUrl",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -203,9 +201,8 @@ urlList = [
 "https://www.google.com/search?q="+q+"&tbm=isch&tbs=il:cl",
 "https://www.bing.com/images/search?q="+q+"&setlang=en&cc=us&qft=+filterui:license-L1",
 ];
-random = Math.floor(Math.random() * urlList.length);
-random = urlList[random];
-sRedirectUrl= random;
+random = urlList[fuMRandom(0, urlList.length - 1)];
+sRedirectUrl = random;
 break;
 
 case 'i#':
@@ -216,9 +213,8 @@ urlList = [
 "https://www.google.com/search?q=" + q + "&newwindow=1&source=lnms&tbm=isch",
 "https://www.bing.com/images/search?q=" + q,
 ];
-random = Math.floor(Math.random() * urlList.length);
-random = urlList[random];
-sRedirectUrl= random;
+random = urlList[fuMRandom(0, urlList.length - 1)];
+sRedirectUrl = random;
 break;
 
 case 't#':
@@ -242,9 +238,8 @@ if (conf["confDevice"] != 'mobile'){
 urlList.push("https://translate.google.com/?sl=auto&text=" + q + "&op=translate");
 }
 
-random = Math.floor(Math.random() * urlList.length);
-random = urlList[random];
-sRedirectUrl= random;
+random = urlList[fuMRandom(0, urlList.length - 1)];
+sRedirectUrl = random;
 break;
 
 case 'tt#':
@@ -258,8 +253,7 @@ urlList = [
 "https://www.deepl.com/translator#auto/en/"+deepLq,
 "https://www.bing.com/translator/?text="+q+"&from=auto&to=en",
 ];
-random = Math.floor(Math.random() * urlList.length);
-random = urlList[random];
+random = urlList[fuMRandom(0, urlList.length - 1)];
 sRedirectUrl = random;
 break;
 
@@ -270,8 +264,8 @@ q = encodeURIComponent(q);
 urlList = [
 "https://translate.google.com/?sl=auto&tl=auto&text="+q+"&op=translate",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -283,9 +277,6 @@ urlList = [
 "https://www.google.com/search?q="+q+"&tbm=nws",
 "https://www.bing.com/news/search?q="+q,
 ];
-
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 if (q == ''){
 urlList = [
 //"https://news.google.com/",
@@ -293,9 +284,9 @@ urlList = [
 //"https://www.bing.com/news/",
 "https://news.yahoo.com/",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -307,8 +298,6 @@ urlList = [
 "?q=" + q + " q",
 ];
 
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 if (q == ''){
 urlList = [
 //"https://www.bing.com/news/search?q=Technology",
@@ -328,9 +317,9 @@ urlList.push("https://www.bing.com/news/search?q=Technology");
 urlList.push("https://www.bing.com/news/search?q=Sci/Tech");
 }*/
 
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -342,8 +331,6 @@ urlList = [
 "?q=" + q + " q",
 ];
 
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 if (q == ''){
 urlList = [
 "https://flipboard.com/topic/science",
@@ -356,9 +343,10 @@ urlList = [
 "https://www.reddit.com/r/science/",
 "https://news.yahoo.com/science/",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 }
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -371,8 +359,6 @@ urlList = [
 "?q=" + q + " q",
 ];
 
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 if (q == ''){
 urlList = [
 "https://flipboard.com/topic/culture",
@@ -399,9 +385,11 @@ urlList = [
 "https://flipboard.com/topic/business",
 
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 }
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -413,8 +401,6 @@ urlList = [
 //"?q=" + q + " bin",
 "https://www.perplexity.ai/search/?q=" + q,
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 
 if (q == ''){
 urlList = [
@@ -423,9 +409,10 @@ urlList = [
 
 "https://www.perplexity.ai/",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -436,9 +423,7 @@ q = encodeURIComponent(q);
 urlList = [
 "?q=" + q + " red",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-sRedirectUrl = random;
+
 if (q == ''){
 urlList = [
 //"https://sports.yahoo.com/",
@@ -446,9 +431,10 @@ urlList = [
 //"https://www.bing.com/news/search?q=Sports",
 "https://www.reddit.com/r/sports/",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 }
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -461,9 +447,7 @@ q = encodeURIComponent(q);
 urlList = [
 "?q=" + q + " q",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-sRedirectUrl = random;
+
 if (q == ''){
 urlList = [
 "https://www.reddit.com/r/programming/",
@@ -475,9 +459,9 @@ urlList = [
 //"https://stackoverflow.com/",
 "https://medium.com/tag/webdevelopment",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -490,17 +474,16 @@ q = encodeURIComponent(q);
 urlList = [
 "https://github.com/topics/" + q,
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-sRedirectUrl = random;
+
 if (q == ''){
 urlList = [
 "https://github.com/explore",
 "https://gitlab.com/explore",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -511,17 +494,16 @@ q = encodeURIComponent(q);
 urlList = [
 "https://github.com/search?q=" + q,
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-sRedirectUrl = random;
+
 if (q == ''){
 urlList = [
 "https://github.com/explore",
 "https://gitlab.com/explore",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -544,17 +526,18 @@ urlList = [
 "https://www.google.com/search?q="+q+"&newwindow=1&tbm=vid",
 "https://www.bing.com/videos/search?q="+q
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 if (q == ''){
 urlList = [
 "https://www.youtube.com/",
 "https://vimeo.com/",
 "https://www.dailymotion.com/",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 }
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -565,16 +548,16 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.youtube.com/results?search_query=" + q + "&sp=EgJAAQ%253D%253D",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 if (q == ''){
 urlList = [
 //"https://www.twitch.tv/directory/all?sort=VIEWER_COUNT",
 "https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig/livetab?ss=CKEK",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -585,16 +568,17 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.twitch.tv/directory/all/tags/" + q + "?sort=VIEWER_COUNT",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 if (q == ''){
 urlList = [
 "https://www.twitch.tv/directory/all?sort=VIEWER_COUNT",
 //"https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 }
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -612,8 +596,7 @@ urlList = [
 "https://wordpress.com/tag/" + wordpress,
 "https://medium.com/tag/" + medium,
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 if (q == ''){
 urlList = [
 "https://twitter.com/",
@@ -621,9 +604,11 @@ urlList = [
 "https://wordpress.com/",
 "https://medium.com/",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 }
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -635,15 +620,14 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.accuweather.com/search-locations?query=" + q,
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 if (q == ''){
 urlList = [
 "?q=weather",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -681,14 +665,33 @@ case 'qq#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "/site-search.html?q=" + q;
+urlList = [
+"/site-search.html?q=" + q,
+];
 if (q == ''){
 urlList = [
 "/site-search.html",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+case 'lin#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"/bookmarks.html?q=" + q,
+];
+if (q == ''){
+urlList = [
+"/bookmarks.html",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -707,8 +710,7 @@ urlList = [
 "https://duckduckgo.com/?q=" + q,
 "https://www.ecosia.org/search?q=" + q,
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 if (q == ''){
 urlList = [
 "https://www.bing.com/",
@@ -719,9 +721,10 @@ urlList = [
 "https://www.ecosia.org/",
 "https://you.com/",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -733,15 +736,15 @@ q = encodeURIComponent(q);
 urlList = [
 "#https://www.example.com/?q=" + q,
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
+
 if (q == ''){
 urlList = [
 "#https://www.example.com/",
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
 }
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -761,9 +764,9 @@ urlList = [
 //"https://www.bing.com/",
 ];
 }
-random = Math.floor(Math.random() * urlList.length);
-random = urlList[random];
-sRedirectUrl = random;
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
 break;
 
 
@@ -780,8 +783,8 @@ urlList = [
 //"https://www.bing.com/",
 ];
 }
-random = Math.floor(Math.random() * urlList.length);
-random = urlList[random];
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = random;
 }
 
