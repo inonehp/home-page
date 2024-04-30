@@ -1,4 +1,4 @@
-// Keep or blog v.2.3.1
+// Keep or blog v.2.4.0
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -879,7 +879,7 @@ if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably 
 
 
 
-// search 3, similar
+// s3, search 3
 if (mode == 'search'&&comMessage != 'found'){
 var subQ = [];
 comMessagePrint = '';
@@ -926,12 +926,12 @@ var checkDublicateId = [];
 qData.forEach(function(item336) { // foreach post word and quary for search
 //if((qData.split(item336)).length > 1&&item33 != ''){
 //if((qData.indexOf(item336)) >= 0){
-//console.log(levenshtein(item, qSearch));
 //console.log(item);
 
 // query
 qSearchList.forEach((qSearchListItem) => {
-if(levenshtein(item336, qSearchListItem) <= 1&&item336 != ''&&qSearchListItem != ''){
+//console.log(fuzzySearch(item336, qSearchListItem));
+if(fuzzySearch(item336, qSearchListItem) == true&&item336 != ''&&qSearchListItem != ''){
 
 //var subQ = 's3: '+item336+',';
 subQ.push(String(item336).trim()+' ');
@@ -1001,7 +1001,7 @@ lFoundQUrlList.push(postUrl);
 };
 
 if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
-// end search 3
+// end s3, search 3
 
 
 
@@ -3050,104 +3050,41 @@ window.location.replace(rangeRedirectUrl,);
 
 
 
+/*
+//https://stackoverflow.com/questions/22697936/binary-search-in-javascript
+function binarySearch(arr, val) {
+  let start = 0;
+  let end = arr.length - 1;
 
-//https://stackoverflow.com/questions/18516942/fastest-general-purpose-levenshtein-javascript-implementation
-function levenshtein(s, t) {
-    if (s === t) {
-        return 0;
-    }
-    var n = s.length, m = t.length;
-    if (n === 0 || m === 0) {
-        return n + m;
-    }
-    var x = 0, y, a, b, c, d, g, h, k;
-    var p = new Array(n);
-    for (y = 0; y < n;) {
-        p[y] = ++y;
+  while (start <= end) {
+    let mid = Math.floor((start + end) / 2);
+
+    if (arr[mid] === val) {
+      return mid;
     }
 
-    for (; (x + 3) < m; x += 4) {
-        var e1 = t.charCodeAt(x);
-        var e2 = t.charCodeAt(x + 1);
-        var e3 = t.charCodeAt(x + 2);
-        var e4 = t.charCodeAt(x + 3);
-        c = x;
-        b = x + 1;
-        d = x + 2;
-        g = x + 3;
-        h = x + 4;
-        for (y = 0; y < n; y++) {
-            k = s.charCodeAt(y);
-            a = p[y];
-            if (a < c || b < c) {
-                c = (a > b ? b + 1 : a + 1);
-            }
-            else {
-                if (e1 !== k) {
-                    c++;
-                }
-            }
-
-            if (c < b || d < b) {
-                b = (c > d ? d + 1 : c + 1);
-            }
-            else {
-                if (e2 !== k) {
-                    b++;
-                }
-            }
-
-            if (b < d || g < d) {
-                d = (b > g ? g + 1 : b + 1);
-            }
-            else {
-                if (e3 !== k) {
-                    d++;
-                }
-            }
-
-            if (d < g || h < g) {
-                g = (d > h ? h + 1 : d + 1);
-            }
-            else {
-                if (e4 !== k) {
-                    g++;
-                }
-            }
-            p[y] = h = g;
-            g = d;
-            d = b;
-            b = c;
-            c = a;
-        }
+    if (val < arr[mid]) {
+      end = mid - 1;
+    } else {
+      start = mid + 1;
     }
+  }
+  return -1;
+}*/
 
-    for (; x < m;) {
-        var e = t.charCodeAt(x);
-        c = x;
-        d = ++x;
-        for (y = 0; y < n; y++) {
-            a = p[y];
-            if (a < c || d < c) {
-                d = (a > d ? d + 1 : a + 1);
-            }
-            else {
-                if (e !== s.charCodeAt(y)) {
-                    d = c + 1;
-                }
-                else {
-                    d = c;
-                }
-            }
-            p[y] = d;
-            c = a;
-        }
-        h = d;
-    }
 
-    return h;
+//https://stackoverflow.com/questions/9206013/javascript-list-js-implement-a-fuzzy-search
+function fuzzySearch(text, q) {
+
+String.prototype.fuzzy = function (s) {
+    var hay = this.toLowerCase(), i = 0, n = -1, l;
+    s = s.toLowerCase();
+    for (; l = s[i++] ;) if (!~(n = hay.indexOf(l, n + 1))) return false;
+    return true;
+};
+
+return (text).fuzzy(q); 
 }
-
 
 
 

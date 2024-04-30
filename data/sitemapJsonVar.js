@@ -1,8 +1,8 @@
 var sitemapJsonVar = [
     {
         "url": "\/404.html",
-        "text": "\n\n | : ",
-        "tag": "",
+        "text": "404 - Not Found\n\n404 Not Found. The page that appears when something is not found.\nPage or file: moved, deleted ... | : ",
+        "tag": " #404 #NotFound #page #main",
         "id": "aa8eb2fe477b2d36ecc0f14d6422513f",
         "time": "id"
     },
@@ -921,13 +921,6 @@ var sitemapJsonVar = [
         "text": "Template: web design 15\n\nWebsite template description. | webdesign one page mini flat auto light dark: ",
         "tag": " #WebDesign #template",
         "id": "a1598ffc66f3598f65a91e8cc17f1d9a",
-        "time": "id"
-    },
-    {
-        "url": "\/text.html",
-        "text": "Text\n\nLong text: article, post. I'm attempting to write something. | text: ",
-        "tag": " #text #article #post #page #main",
-        "id": "63caf82fca46caa38ca0328bab57c966",
         "time": "id"
     },
     {
