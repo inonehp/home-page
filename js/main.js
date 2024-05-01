@@ -1,4 +1,4 @@
-// Main js v.6.6.5
+// Main js v.6.6.7
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -1069,8 +1069,8 @@ function fuMHideFileNameExt(url){
 var newUrl = url;
 if (conf["confHideLinkExt"] == "on"){
 if (newUrl != null&&newUrl != undefined){
-if (String(newUrl).indexOf("?") == -1){
 if (newUrl[0] == "/"||newUrl[0] == "."||newUrl.indexOf(location.hostname) != -1){
+if (String(newUrl).indexOf("?") == -1){
 var arr = (conf["confLinkExtList"]).split(',');
 arr.forEach((element) => {
 newUrl = (newUrl).replaceAll(element, '');

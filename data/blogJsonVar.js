@@ -3,6 +3,16 @@ var blogJsonVar =
 
 [
     {
+        "id": "253",
+        "text": "Ubuntu 24.04 LTS Noble Numbat now available: Featuring GNOME 46 and Linux kernel 6.8 | AlternativeTo",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/alternativeto.net\/news\/2024\/4\/ubuntu-24-04-lts-noble-numbat-now-available-featuring-gnome-46-and-linux-kernel-6-8\/",
+        "tag": "#news #technology #OS",
+        "time": 1714537145,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=253\">id<\/a>"
+    },
+    {
         "id": "252",
         "text": "What TED Will Look Like in 40 Years \u2014 According to Sora, OpenAI\u2019s Unreleased Text-to-Video Model - YouTube",
         "text2": "",

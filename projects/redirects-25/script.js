@@ -1,4 +1,4 @@
-// Search redirects v.2.0.1
+// Search redirects v.2.0.2
 // Mini google
 // The script redirects the search query + command.
 
@@ -202,6 +202,7 @@ urlList = [
 "https://www.bing.com/images/search?q="+q+"&setlang=en&cc=us&qft=+filterui:license-L1",
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = random;
 break;
 
@@ -214,6 +215,7 @@ urlList = [
 "https://www.bing.com/images/search?q=" + q,
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = random;
 break;
 
@@ -223,22 +225,21 @@ case 'tra#':
 case 'd#':
 q = q3.replace(qCom, '');
 q = q.trim();
-
-var deepLq = q.replaceAll(/\//g, "-"); // fix
+var deepLq = q.replaceAll(/\//g, "-"); // fixed
 deepLq = encodeURIComponent(deepLq);
-
 q = encodeURIComponent(q);
 
 urlList = [
-//"https://translate.google.com/?sl=auto&tl=auto&text="+q+"&op=translate",
+//"https://translate.google.com/?sl=auto&tl=auto&text=" + q + "&op=translate",
 "https://www.deepl.com/translator#auto/auto/" + deepLq,
-"https://www.bing.com/translator/?text=" + q + "&from=auto&to=auto",
+//"https://www.bing.com/translator/?text=" + q + "&from=auto&to=auto",
 ];
 if (conf["confDevice"] != 'mobile'){
-urlList.push("https://translate.google.com/?sl=auto&text=" + q + "&op=translate");
+//urlList.push("https://translate.google.com/?sl=auto&text=" + q + "&op=translate");
 }
 
 random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = random;
 break;
 
@@ -254,6 +255,7 @@ urlList = [
 "https://www.bing.com/translator/?text="+q+"&from=auto&to=en",
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = random;
 break;
 
@@ -791,6 +793,7 @@ sRedirectUrl = random;
 
 if (sRedirectUrl != ''&&sRedirectUrl != undefined&&sRedirectUrl != null){
 rUrlGet = fuMHideFileNameExt(sRedirectUrl);
+
 if (com == "on"){
 //location.href = "/projects/redirects-25/?rUrl="+sRedirectUrl;
 //location.href.replace(/projects/redirects-25/?rUrl="+sRedirectUrl,);
@@ -805,11 +808,11 @@ if (com == "on"){
 
 
 
-
 // print
 function runRedirect(rUrlGet){
 
 var print = '';
+
 
 
 
@@ -847,7 +850,6 @@ let allowUrlListStatus = "not found";
 allowUrlList.forEach((val) => {
 if (rUrlGet.indexOf(val) != -1){ allowUrlListStatus = "found"; }
 });
-
 
 
 // main redirect
