@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "25",
+        "text": "CSS Default Browser Values for HTML Elements",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.w3schools.com\/cssref\/css_default_values.php",
+        "tag": "#CSS #code",
+        "time": 1714534030,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=25\">id<\/a>"
+    },
+    {
         "id": "23",
         "text": "Array.prototype.map() - JavaScript | MDN",
         "text2": "const array1 = [1, 4, 9, 16];\r\n\r\n\/\/ Pass a function to map\r\nconst map1 = array1.map((x) => x * 2);\r\n\r\nconsole.log(map1);\r\n\/\/ Expected output: Array [2, 8, 18, 32]\r\n\r\n===\r\n\r\nconst numbers = [1, 4, 9];\r\nconst roots = numbers.map((num) => Math.sqrt(num));\r\n\r\n\/\/ roots is now     [1, 2, 3]\r\n\/\/ numbers is still [1, 4, 9]\r\n\r\n===\r\n\r\nconst kvArray = [\r\n  { key: 1, value: 10 },\r\n  { key: 2, value: 20 },\r\n  { key: 3, value: 30 },\r\n];\r\n\r\nconst reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));\r\n\r\nconsole.log(reformattedArray); \/\/ [{ 1: 10 }, { 2: 20 }, { 3: 30 }]\r\nconsole.log(kvArray);\r\n\/\/ [\r\n\/\/   { key: 1, value: 10 },\r\n\/\/   { key: 2, value: 20 },\r\n\/\/   { key: 3, value: 30 }\r\n\/\/ ]",

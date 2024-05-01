@@ -1,4 +1,4 @@
-// Main js v.6.6.3
+// Main js v.6.6.4
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -1063,9 +1063,6 @@ document.getElementById('fPrivacy')[0].innerHTML = `Cookie: auto (${conf["confDa
 
 
 
-
-
-
 // Hide page extenstion v.1.0.0
 // for fix PWA 404 page if no ext
 function fuMHideFileNameExt(url){
@@ -1086,7 +1083,6 @@ return newUrl;
 
 
 
-
 function fuMHideFileNameExt2(){
 
 if (conf["confHideLinkExt"] == "on"){
@@ -1102,7 +1098,7 @@ if (item != ""){
 try {
 var url = new URL(item);
 newUrl = item.href;
-if (url.hostname == location.hostname){
+if (url.hostname == location.hostname&&String(newUrl).indexOf("?") == -1){
 //console.log(newUrl);
 var arr = (conf["confLinkExtList"]).split(',');
 arr.forEach((element) => {
@@ -1145,7 +1141,6 @@ try {
 var url = new URL(item.src);
 newUrl = item.src;
 if (url.hostname == location.hostname){
-
 // if ulr exit
 fetch(
 url, { method: "HEAD" }
@@ -1180,13 +1175,8 @@ return document.querySelectorAll("iframe")[index].src = newUrl;
 
 
 
-
-
-
 // fu ClearText, fix print, fix input v.1.0.0
 function fuMClearText(text){
-
-
 
 if (text != undefined){
 
@@ -1208,8 +1198,6 @@ return text;
 }
 
 }
-
-
 
 
 

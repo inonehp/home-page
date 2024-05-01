@@ -53,16 +53,6 @@ var blogJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=247\">id<\/a>"
     },
     {
-        "id": "245",
-        "text": "CSS Default Browser Values for HTML Elements",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.w3schools.com\/cssref\/css_default_values.php",
-        "tag": "#CSS #note",
-        "time": 1711123107,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=245\">id<\/a>"
-    },
-    {
         "id": "244",
         "text": "Reddit\u2019s stock price nearly doubled in its first day as a public company. - The Verge",
         "text2": "",
