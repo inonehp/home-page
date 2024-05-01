@@ -237,7 +237,7 @@ Title
 Example:
 1. "Text text - site name"
 2. "Tex]]></title>
-<link><![CDATA[https://www.instagram.com/explore/tags/example/]]></link>
+<link><![CDATA[https://www.theverge.com/]]></link>
 <description>
 <![CDATA[
 Notes on SEO 
@@ -335,6 +335,21 @@ YouTube
 https://www.youtube.com/hashtag/example
 
 #example on Instagram | Hashtags https://www.instagram.com/explore/tags/example/
+
+
+
+Title of the main page
+==================
+Google https://www.google.com/
+YouTube: Home https://www.youtube.com/
+Wikipedia https://www.wikipedia.org/
+Bing https://www.bing.com/
+Facebook - log in or sign up https://www.facebook.com/
+Instagram https://www.instagram.com/
+Reddit - Dive into anything https://www.reddit.com/
+X. It's what's happening / X https://x.com https://twitter.com/
+Trending topics on Tumblr https://www.tumblr.com/
+The Verge https://www.theverge.com/
 ]]>
 </description>
 </item>

@@ -106,8 +106,8 @@ urlList = [
 'tec', 'sci', 'dev', 'n2', "spo",
 ];
 }
-random = Math.floor(Math.random() * urlList.length);
-url = '?q=' + urlList[random];
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = '?q=' + random;
 sRedirectUrl = url;
 break;
 
@@ -120,30 +120,28 @@ urlList = [
 //url = "https://you.com/search?q=!" + q;
 //url = "https://duckduckgo.com/?q=! " + q;
 ];
-random = Math.floor(Math.random() * urlList.length);
-url = urlList[random];
-sRedirectUrl = url;
-
 if (q == ''){
-url = 'https://www.google.com/';
-sRedirectUrl = url;
+urlList = [
+"https://www.google.com/",
+];
 }
-
+random = urlList[fuMRandom(0, urlList.length - 1)];
+sRedirectUrl = random;
 break;
 
 default:
 q = encodeURIComponent(q);
 urlList = [
-"/projects/redirects-25/?q=" + q + " test",
-//"?q=" + q + " o",
+"https://www.google.com/search?btnI=1&q=" + q,
+//url = "https://you.com/search?q=!" + q;
+//url = "https://duckduckgo.com/?q=! " + q;
 ];
 if (q == ''){
 urlList = [
-"/projects/redirects-25/?q=" + q + " test",
+"https://www.google.com/",
 ];
 }
-random = Math.floor(Math.random() * urlList.length);
-random = urlList[random];
+random = urlList[fuMRandom(0, urlList.length - 1)];
 sRedirectUrl = random;
 }
 
@@ -170,9 +168,6 @@ if (com == "on"){
 function runRedirect(rUrlGet){
 
 var print = '';
-
-
-
 
 if (rUrlGet != null&&rUrlGet != 'null'&&rUrlGet != ''&&rUrlGet != undefined){
 if (rUrlGet[0] == "."){ rUrlGet = (rUrlGet).slice(1); }
@@ -318,7 +313,7 @@ let printInputSearch2 = `
 
 `;
 
-if(document.getElementById("printInputSearch") != null){
+if (document.getElementById("printInputSearch") != null){
 if (conf['confDevice'] == 'pc'&&window.navigator.vendor == "Google Inc."){
 document.getElementById("printInputSearch").innerHTML = printInputSearch;
 } else {

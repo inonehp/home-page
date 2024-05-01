@@ -4,7 +4,7 @@
   
 # About
 
-A personal start page with projects such as search (redirect), blog, to-do list, typing speed, newtab, icons, themes, templates, etc.
+A personal start page with projects such as search (redirect), blog, games, to-do list, typing speed, newtab, icons, themes, website templates, etc.
   
 ---
   

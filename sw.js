@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.04.30";
+//var myCacheVersion = "v.1.2.2024.05.01";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.04.30").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.05.01").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -100,6 +100,10 @@ var fileListArr = ["/404.html",
 "/archive/dropdown-menu-8/",
 "/archive/dropdown-menu-8/script.js",
 "/archive/dropdown-menu-8/style.css",
+"/archive/hello-world-62/index.html",
+"/archive/hello-world-62/",
+"/archive/hello-world-62/script.js",
+"/archive/hello-world-62/style.css",
 "/archive/index.html",
 "/archive/not-sleep-pc-12/index.html",
 "/archive/not-sleep-pc-12/",
@@ -110,6 +114,10 @@ var fileListArr = ["/404.html",
 "/archive/pwa-test-21/script.js",
 "/archive/pwa-test-21/style.css",
 "/archive/pwa-test-21/sw.js",
+"/archive/start-page-private-64/index.html",
+"/archive/start-page-private-64/",
+"/archive/start-page-private-64/script.js",
+"/archive/start-page-private-64/style.css",
 "/archive-list.html",
 "/articles.html",
 "/audio/click.mp3",
@@ -596,17 +604,17 @@ var fileListArr = ["/404.html",
 "/img/other/art.png",
 "/img/other/",
 "/img/repository-open-graph-template.png",
-"/img/screenshots/dark.png",
-"/img/screenshots/",
 "/img/screenshots/firefox-dark.png",
+"/img/screenshots/",
 "/img/screenshots/firefox-light.png",
 "/img/screenshots/geany-dark.png",
 "/img/screenshots/geany-light.png",
 "/img/screenshots/icons.png",
-"/img/screenshots/light.png",
 "/img/screenshots/theme-option.png",
 "/img/screenshots/todo.png",
 "/img/screenshots/typing.png",
+"/img/screenshots/website-dark.png",
+"/img/screenshots/website-light.png",
 "/img/tpl/ava.png",
 "/img/tpl/",
 "/img/tpl/ava.svg",
@@ -791,10 +799,6 @@ var fileListArr = ["/404.html",
 "/projects/google-trends-46/",
 "/projects/google-trends-46/script.js",
 "/projects/google-trends-46/style.css",
-"/projects/hello-world-62/index.html",
-"/projects/hello-world-62/",
-"/projects/hello-world-62/script.js",
-"/projects/hello-world-62/style.css",
 "/projects/highlight-word-15/index.html",
 "/projects/highlight-word-15/",
 "/projects/highlight-word-15/script.js",
@@ -873,10 +877,6 @@ var fileListArr = ["/404.html",
 "/projects/start-page-41/",
 "/projects/start-page-41/script.js",
 "/projects/start-page-41/style.css",
-"/projects/start-page-private-64/index.html",
-"/projects/start-page-private-64/",
-"/projects/start-page-private-64/script.js",
-"/projects/start-page-private-64/style.css",
 "/projects/test-27/README.md",
 "/projects/test-27/",
 "/projects/test-27/cursor-hl.png",
@@ -1151,7 +1151,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.04.30")
+caches.open("v.1.2.2024.05.01")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1177,7 +1177,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.04.30")
+caches.open("v.1.2.2024.05.01")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1210,7 +1210,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.04.30"];
+  const cachesToKeep = ["v.1.2.2024.05.01"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

@@ -1,12 +1,5 @@
 var sitemapJsonVar = [
     {
-        "url": "\/404.html",
-        "text": "404 - Not Found\n\n404 Not Found. The page that appears when something is not found.\nPage or file: moved, deleted ... | : ",
-        "tag": " #404 #NotFound #page #main",
-        "id": "aa8eb2fe477b2d36ecc0f14d6422513f",
-        "time": "id"
-    },
-    {
         "url": "\/about.html",
         "text": "About\n\nAbout the site, profiles, license, contacts. | about: ",
         "tag": " #about #contact #donate #profile #support #page #main",
@@ -42,6 +35,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/archive\/hello-world-62\/index.html",
+        "text": "Hello World!\n\nHello World! | hello world: ",
+        "tag": " #hello #world #CSS #JavaScript #project",
+        "id": "6ccb5475788d93ec1cdeaa7cc0b6db8f",
+        "time": "id"
+    },
+    {
         "url": "\/archive\/not-sleep-pc-12\/index.html",
         "text": "Not Sleeping Computer\n\nThe Web Page tries not to put the computer into sleep mode. | not sleep pc: ",
         "tag": " #not #sleep #PC #computer #prevent #hibernation #HTML #project",
@@ -53,6 +53,13 @@ var sitemapJsonVar = [
         "text": "pwa test\n\nTest PWA, PWA test. | pwa test: ",
         "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
         "id": "9cbb687ea1a7ef415d0c7c1ccebaa5e1",
+        "time": "id"
+    },
+    {
+        "url": "\/archive\/start-page-private-64\/index.html",
+        "text": "Start Page\n\nStart page, home page, new tab page. | start page private: ",
+        "tag": " #StartPage #home #homepage #start #page #tab #NewTab #CSS #JavaScript #project",
+        "id": "da79c3883c5c7eb3fb71b0d059491bd1",
         "time": "id"
     },
     {
@@ -518,13 +525,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/hello-world-62\/index.html",
-        "text": "Hello World!\n\nHello World! | hello world: ",
-        "tag": " #hello #world #CSS #JavaScript #project",
-        "id": "37eaa0868a3475fcf0dd8529a2b444bf",
-        "time": "id"
-    },
-    {
         "url": "\/projects\/highlight-word-15\/index.html",
         "text": "Multi highlight word when hover\n\nJavaScript function for highlighting tag by id. | highlight word: ",
         "tag": " #highlight #selection #function #highlighting #multi #JavaScript #project",
@@ -648,13 +648,6 @@ var sitemapJsonVar = [
         "text": "Start Page\n\nStart page, home page, new tab page. | start page: ",
         "tag": " #StartPage #home #homepage #start #page #tab #NewTab #CSS #JavaScript #project",
         "id": "0c669ab1f6ae5ee45db5b42b1b9a6bf7",
-        "time": "id"
-    },
-    {
-        "url": "\/projects\/start-page-private-64\/index.html",
-        "text": "Start Page\n\nStart page, home page, new tab page. | start page private: ",
-        "tag": " #StartPage #home #homepage #start #page #tab #NewTab #CSS #JavaScript #project",
-        "id": "83c0b58a207b0b31c06f5495d42cd564",
         "time": "id"
     },
     {
