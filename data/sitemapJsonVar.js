@@ -910,13 +910,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/text.html",
-        "text": "Text\n\nLong text: article, post. I'm attempting to write something. | text: ",
-        "tag": " #text #article #post #page #main",
-        "id": "63caf82fca46caa38ca0328bab57c966",
-        "time": "id"
-    },
-    {
         "url": "\/themes.html",
         "text": "Themes options\n\nSettings and theme selection page. | themes: ",
         "tag": " #theme #themes #color #colors #setting #page #main",

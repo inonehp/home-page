@@ -1,4 +1,4 @@
-// Main js v.6.6.8
+// Main js v.6.6.9
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -1070,7 +1070,7 @@ var newUrl = url;
 if (conf["confHideLinkExt"] == "on"){
 if (newUrl != null&&newUrl != undefined){
 if (newUrl[0] == "/"||newUrl[0] == "."||newUrl.indexOf(location.hostname) != -1){
-if (String(newUrl).indexOf("=htt") == -1){
+if (String(newUrl).indexOf("=http") == -1){
 var arr = (conf["confLinkExtList"]).split(',');
 arr.forEach((element) => {
 newUrl = (newUrl).replaceAll(element, '');
@@ -1100,7 +1100,7 @@ if (item != ""){
 try {
 var url = new URL(item);
 newUrl = item.href;
-if (url.hostname == location.hostname&&String(newUrl).indexOf("=htt") == -1){
+if (url.hostname == location.hostname&&String(newUrl).indexOf("=http") == -1){
 //console.log(newUrl);
 var arr = (conf["confLinkExtList"]).split(',');
 arr.forEach((element) => {
@@ -1121,7 +1121,7 @@ if (item != ""){
 try{
 var url = new URL(item.action);
 newUrl = item.action;
-if (url.hostname == location.hostname&&String(newUrl).indexOf("=htt") == -1){
+if (url.hostname == location.hostname&&String(newUrl).indexOf("=http") == -1){
 //console.log(newUrl);
 var arr = conf["confLinkExtList"].split(',');
 arr.forEach((element) => {
@@ -1142,7 +1142,7 @@ if (item != ""){
 try {
 var url = new URL(item.src);
 newUrl = item.src;
-if (url.hostname == location.hostname&&String(newUrl).indexOf("=htt") == -1){
+if (url.hostname == location.hostname&&String(newUrl).indexOf("=http") == -1){
 // if ulr exit
 fetch(
 url, { method: "HEAD" }

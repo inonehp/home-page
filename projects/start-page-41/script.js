@@ -67,3 +67,13 @@ setInterval(fuStopwatch, 1000);
 //document.getElementById('search').innerHTML = ``;
 
 
+
+//https://developer.mozilla.org/en-US/docs/Web/API/WakeLock
+try {
+//const wakeLock = await navigator.wakeLock.request("screen");
+  const wakeLock = navigator.wakeLock.request("screen");
+} catch (err) {
+  // the wake lock request fails - usually system related, such being low on battery
+  console.log(`${err.name}, ${err.message}`);
+}
+
