@@ -1,4 +1,4 @@
-// Main js v.6.6.4
+// Main js v.6.6.5
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -1069,12 +1069,14 @@ function fuMHideFileNameExt(url){
 var newUrl = url;
 if (conf["confHideLinkExt"] == "on"){
 if (newUrl != null&&newUrl != undefined){
+if (String(newUrl).indexOf("?") == -1){
 if (newUrl[0] == "/"||newUrl[0] == "."||newUrl.indexOf(location.hostname) != -1){
 var arr = (conf["confLinkExtList"]).split(',');
 arr.forEach((element) => {
 newUrl = (newUrl).replaceAll(element, '');
 });
 return newUrl;
+}
 } else { return url; }
 } else { return url; }
 } else { return url; }
@@ -1119,7 +1121,7 @@ if (item != ""){
 try{
 var url = new URL(item.action);
 newUrl = item.action;
-if (url.hostname == location.hostname){
+if (url.hostname == location.hostname&&String(newUrl).indexOf("?") == -1){
 //console.log(newUrl);
 var arr = conf["confLinkExtList"].split(',');
 arr.forEach((element) => {
@@ -1140,7 +1142,7 @@ if (item != ""){
 try {
 var url = new URL(item.src);
 newUrl = item.src;
-if (url.hostname == location.hostname){
+if (url.hostname == location.hostname&&String(newUrl).indexOf("?") == -1){
 // if ulr exit
 fetch(
 url, { method: "HEAD" }
