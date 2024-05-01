@@ -458,7 +458,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.favicon.cc\/",
-        "tag": "#tools #image",
+        "tag": "#tools #image #icon",
         "time": 1706620636,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=91\">id<\/a>"
     },

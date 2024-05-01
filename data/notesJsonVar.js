@@ -3,6 +3,26 @@ var notesJsonVar =
 
 [
     {
+        "id": "27",
+        "text": "Window: blur event - Web APIs | MDN",
+        "text2": "addEventListener(\"blur\", (event) => {});\r\n\r\nonblur = (event) => {};",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/blur_event",
+        "tag": "",
+        "time": 1714550159,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=27\">id<\/a>"
+    },
+    {
+        "id": "26",
+        "text": "Window: focus event - Web APIs | MDN",
+        "text2": "addEventListener(\"focus\", (event) => {});\r\n\r\nonfocus = (event) => {};",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/focus_event",
+        "tag": "#code #JavaScript #JS",
+        "time": 1714550125,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=26\">id<\/a>"
+    },
+    {
         "id": "25",
         "text": "CSS Default Browser Values for HTML Elements",
         "text2": "",

@@ -1,4 +1,4 @@
-// v.1.0.4
+// v.1.1.1
 
 // time v.1.4.4
 // creation date: 2023
@@ -6,7 +6,7 @@
 
 
 function normalize(a){
-if(a <= 9){ a = '0'+a; }
+if (a <= 9){ a = '0'+a; }
 return a;
 }
 
@@ -36,10 +36,10 @@ let secondsUtc = normalize(time2.getUTCSeconds());
 
 /*
 // sound alert
-if(minutes == '59'&&seconds == '59'){
+if (minutes == '59'&&seconds == '59'){
 document.getElementById('audio').innerHTML += '<audio style="display:none" autoplay="false" src="/audio/ok.ogg">';
 }
-if(minutes == '29'&&seconds == '59'){
+if (minutes == '29'&&seconds == '59'){
 document.getElementById('audio').innerHTML += '<audio style="display:none" autoplay="false" src="/audio/click.ogg">';
 }*/
 
@@ -54,9 +54,7 @@ let printTitleText = hours + ':' + minutes + ':' + seconds + " - Start page";
 
 document.getElementsByTagName('title')[0].innerText = printTitleText + conf["confDomainNameInTitle"];
 
-
 }
-
 
 
 
@@ -66,14 +64,24 @@ setInterval(fuStopwatch, 1000);
 
 //document.getElementById('search').innerHTML = ``;
 
+var wakeLock = "";
 
-
+//https://developer.mozilla.org/en-US/docs/Web/API/Window/focus_event
+onfocus = (event) => {
 //https://developer.mozilla.org/en-US/docs/Web/API/WakeLock
 try {
 //const wakeLock = await navigator.wakeLock.request("screen");
-  const wakeLock = navigator.wakeLock.request("screen");
+//const wakeLock = navigator.wakeLock.request("screen");
+wakeLock = navigator.wakeLock.request("screen");
 } catch (err) {
   // the wake lock request fails - usually system related, such being low on battery
-  console.log(`${err.name}, ${err.message}`);
+console.log(`Trying to prevent sleep: on. ${err.name}, ${err.message}`);
+document.getElementById('msg').innerHTML = `* Trying to prevent sleep: <b>on</b>. ${err.name}, ${err.message}`;
 }
+};
 
+onblur = (event) => {
+wakeLock = "";
+console.log(`Trying to prevent sleep: off.`);
+document.getElementById('msg').innerHTML = `* Trying to prevent sleep: <b>off</b>.`;
+};
