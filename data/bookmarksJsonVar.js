@@ -3,6 +3,16 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "138",
+        "text": "Connections: Group words by topic. New puzzles daily. - The New York Times",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.nytimes.com\/games\/connections",
+        "tag": "#game",
+        "time": 1714540281,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=138\">id<\/a>"
+    },
+    {
         "id": "137",
         "text": "Listen Notes: The best podcast search engine",
         "text2": "",

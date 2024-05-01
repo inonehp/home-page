@@ -47,11 +47,6 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/archive/start-page-private-64/index.html</loc>
-
-</url>
-
-<url>
 <loc>https://inonehp.pages.dev/archive-list.html</loc>
 
 </url>
@@ -157,17 +152,17 @@
 </url>
 
 <url>
+<loc>https://inonehp.pages.dev/data2-page.html</loc>
+
+</url>
+
+<url>
 <loc>https://inonehp.pages.dev/data-other-page.html</loc>
 
 </url>
 
 <url>
 <loc>https://inonehp.pages.dev/data-page.html</loc>
-
-</url>
-
-<url>
-<loc>https://inonehp.pages.dev/data2-page.html</loc>
 
 </url>
 
@@ -913,6 +908,11 @@
 
 <url>
 <loc>https://inonehp.pages.dev/templates-page.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/text.html</loc>
 
 </url>
 

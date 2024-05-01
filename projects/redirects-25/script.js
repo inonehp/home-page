@@ -117,15 +117,33 @@ urlList = [
 //url = "https://you.com/search?q=!" + q;
 //url = "https://duckduckgo.com/?q=! " + q;
 ];
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-
 if (q == ''){
 url = 'https://www.google.com/';
 sRedirectUrl = url;
+urlList = [
+"https://www.google.com/",
+];
 }
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
 
+case 'tre#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://trends.google.com/trends/explore?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://trends.google.com/trends/trendingsearches/realtime?geo=US&category=t",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
 break;
 
 case 'r#':

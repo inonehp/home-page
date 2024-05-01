@@ -56,13 +56,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/archive\/start-page-private-64\/index.html",
-        "text": "Start Page\n\nStart page, home page, new tab page. | start page private: ",
-        "tag": " #StartPage #home #homepage #start #page #tab #NewTab #CSS #JavaScript #project",
-        "id": "da79c3883c5c7eb3fb71b0d059491bd1",
-        "time": "id"
-    },
-    {
         "url": "\/articles.html",
         "text": "Articles\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | articles: ",
         "tag": " #text #article #articles #post #page #main",
@@ -914,6 +907,13 @@ var sitemapJsonVar = [
         "text": "Template: web design 15\n\nWebsite template description. | webdesign one page mini flat auto light dark: ",
         "tag": " #WebDesign #template",
         "id": "a1598ffc66f3598f65a91e8cc17f1d9a",
+        "time": "id"
+    },
+    {
+        "url": "\/text.html",
+        "text": "Text\n\nLong text: article, post. I'm attempting to write something. | text: ",
+        "tag": " #text #article #post #page #main",
+        "id": "63caf82fca46caa38ca0328bab57c966",
         "time": "id"
     },
     {
