@@ -3,6 +3,26 @@ var blogJsonVar =
 
 [
     {
+        "id": "252",
+        "text": "What TED Will Look Like in 40 Years \u2014 According to Sora, OpenAI\u2019s Unreleased Text-to-Video Model - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=UXlPKKg4Md0",
+        "tag": "#news #technology #video",
+        "time": 1714531640,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=252\">id<\/a>"
+    },
+    {
+        "id": "251",
+        "text": "Albion Online | Coming to Europe - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=xPyw4nZlGNA",
+        "tag": "#news #game #video",
+        "time": 1714531473,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=251\">id<\/a>"
+    },
+    {
         "id": "250",
         "text": "All New Atlas | Boston Dynamics - YouTube",
         "text2": "",
