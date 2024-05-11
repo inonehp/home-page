@@ -1,4 +1,4 @@
-// Main js v.6.6.9
+// Main js v.6.6.10
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -418,8 +418,8 @@ fuMPrintText("footer", `
 <span id="fPinButton"></span>
 </div>
 
-<!--<span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://www.threads.net/@inonehp">Threads</a></span>-->
-<span class="inlineBlock padding brand" title="RSS News"><a class="brand" style="padding-left: 0;" href="/rss.xml">RSS</a></span>
+<span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://twitter.com/inonehp">X (Twitter)</a></span>
+<span class="inlineBlock padding brand" title="RSS News"><a class="brand" href="/rss.xml">RSS</a></span>
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
 <span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/inonehp/inonehp.pages.dev">Сode</a></span>
@@ -1069,11 +1069,11 @@ function fuMHideFileNameExt(url){
 var newUrl = url;
 if (conf["confHideLinkExt"] == "on"){
 if (newUrl != null&&newUrl != undefined){
-if (newUrl[0] == "/"||newUrl[0] == "."||newUrl.indexOf(location.hostname) != -1){
+if (newUrl[0] == "/"||newUrl[0] == "."/*||String(newUrl).indexOf(location.hostname) != -1*/){
 if (String(newUrl).indexOf("=http") == -1){
 var arr = (conf["confLinkExtList"]).split(',');
 arr.forEach((element) => {
-newUrl = (newUrl).replaceAll(element, '');
+newUrl = String(newUrl).replaceAll(element, '');
 });
 return newUrl;
 }
@@ -1268,12 +1268,12 @@ if (conf["confSpeedDialtatus"] != "off"&&typeof fuLSpeedDial == 'function'){
 fuLSpeedDial("speedDialPrint", "", "", "print");
 }
 
-if (conf["confIconStatus"] != "off"){
-insertIcon('insertIcon', 'strict', conf["confIconStatus"], iconsJsonVar);
+if (conf["confAdsStatus"] != "off"&&typeof fuAds == 'function'){
+fuAds('', 'ads2', '');
 }
 
-if (conf["confAdsStatus"] != "off"){
-fuAds('', 'ads2', '');
+if (conf["confIconStatus"] != "off"&&typeof insertIcon == 'function'){
+insertIcon('insertIcon', 'strict', conf["confIconStatus"], iconsJsonVar);
 }
 
 if (conf["confDataCollection"] == 'on'){

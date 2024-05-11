@@ -1,4 +1,4 @@
-// Rock paper scissors v.1.0.0
+// Rock paper scissors v.1.1.0
 
 
 let variantArr = ["🪨", "📄", "✂️"];
@@ -7,10 +7,22 @@ var print = ``;
 
 let resultWinStatus = "<h2>Start of the game</h2>";
 
+var rpsGameScorePc = 0;
+var rpsGameScoreUser = 0;
 
+if(typeof localStorage == 'object'){
+  // Yippee! We can use localStorage awesomeness
+localStorage.setItem("rpsGameScorePc", 0);
+localStorage.setItem("rpsGameScoreUser", 0);
+}
+
+//if(typeof localStorage == 'objec't){ alert('test'); }
 function main(gameMode, selectedVal){
 
 document.getElementById("resultWin").innerHTML = `${resultWinStatus}`;
+
+rpsGameScorePc = localStorage.getItem("rpsGameScorePc");
+rpsGameScoreUser = localStorage.getItem("rpsGameScoreUser");
 
 switch (gameMode) {
 
@@ -24,7 +36,7 @@ val = `
 print += val;
 });
 
-document.getElementById("resultTop").innerHTML = `<p>Select:</p>`;
+document.getElementById("resultTop").innerHTML = `<span class="xxLarge">Select:</span>`;
 break;
 
 case 'result':
@@ -44,6 +56,9 @@ resultWinStatus = `
 <h2 class="orange">Win!</h2>
 <audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>
 `;
+
+rpsGameScoreUser++;
+localStorage.setItem("rpsGameScoreUser", rpsGameScoreUser);
 }
 
 if(pcVariant == "📄"&&selectedVal == "✂️"){
@@ -51,6 +66,9 @@ resultWinStatus = `
 <h2 class="orange">Win!</h2>
 <audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>
 `;
+
+rpsGameScoreUser++;
+localStorage.setItem("rpsGameScoreUser", rpsGameScoreUser);
 }
 
 if(pcVariant == "✂️"&&selectedVal == "🪨"){
@@ -58,6 +76,9 @@ resultWinStatus = `
 <h2 class="orange">Win!</h2>
 <audio style="display:none" autoplay="false" src="/audio/ok.mp3"></audio>
 `;
+
+rpsGameScoreUser++;
+localStorage.setItem("rpsGameScoreUser", rpsGameScoreUser);
 }
 
 if(pcVariant == selectedVal){
@@ -67,10 +88,24 @@ resultWinStatus = `
 `;
 }
 
+if(resultWinStatus.indexOf("Wrong") != -1){
+rpsGameScorePc++;
+localStorage.setItem("rpsGameScorePc", rpsGameScorePc);
+}
+
 document.getElementById("resultWin").innerHTML = `${resultWinStatus}`;
 document.getElementById("resultTop").innerHTML = `
-PC: <span class="xxLarge">${pcVariant}</span>
-<span class="xxLarge">${selectedVal} </span> :You
+PC:
+<span class="xxLarge">${pcVariant}</span>
+&nbsp;&nbsp;
+<span class="xxLarge">${selectedVal} </span>
+:You
+`;
+
+document.getElementById("scoreResult").innerHTML = `
+${rpsGameScorePc}
+&nbsp;&nbsp;|&nbsp;&nbsp;
+${rpsGameScoreUser}
 `;
 
 break;

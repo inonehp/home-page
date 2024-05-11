@@ -64,7 +64,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/blog.html",
-        "text": "Blog\n\nBlog: reposts, likes and other. | blog: ",
+        "text": "Blog\n\nBlog: reposts, likes, technology news, and other. | blog: ",
         "tag": " #reposts #likes #post #blog #page #main",
         "id": "7d022dd158b090bf0d55b0cef3d14865",
         "time": "id"
@@ -169,14 +169,14 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/games\/dice-9\/index.html",
-        "text": "Game: Dice\n\nGame dice. | dice: ",
+        "text": "Dice Game\n\nGame dice. | dice: ",
         "tag": " #game #dice #HTML5 #JavaScript #WebApp #project",
         "id": "850ca844bccc19aa09438d619db386a4",
         "time": "id"
     },
     {
         "url": "\/games\/guess-number-10\/index.html",
-        "text": "Game: Guess The Number\n\nYou need to guess the random number. | guess number: ",
+        "text": "Guess The Number\n\nYou need to guess the random number. | guess number: ",
         "tag": " #game #guuess #number #HTML5 #JavaScript #WebGame #game #project",
         "id": "524f001062de526e4e3ad28ba23f2376",
         "time": "id"
@@ -190,7 +190,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/games\/memory-symbol-11\/index.html",
-        "text": "Game: Memory Symbol\n\nIn this game, there is a grid with masked cells that need to be opened. You need to open two identical symbols (emoji) in sequence, winning if you opened everything. | memory symbol: ",
+        "text": "Memory Symbol\n\nIn this game, there is a grid with masked cells that need to be opened. You need to open two identical symbols (emoji) in sequence, winning if you opened everything. | memory symbol: ",
         "tag": " #game #memory #symbol #HTML5 #JavaScript #project",
         "id": "c0e25c9694c5f972a0f32b1fd8cf5f54",
         "time": "id"
@@ -203,22 +203,22 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/games\/rock-paper-scissors-66\/index.html",
+        "url": "\/games\/rock-paper-scissors-67\/index.html",
         "text": "Rock Paper Scissors\n\nGame Rock Paper Scissors. Classic game. | rock paper scissors: ",
         "tag": " #rock #paper #scissors #game #CSS #JavaScript #project",
-        "id": "6e03be452e9e76dcb9af994f417ce368",
+        "id": "4589d268743fb29372103f27c2446f0e",
         "time": "id"
     },
     {
         "url": "\/games\/snake-12\/index.html",
-        "text": "Game: Snake\n\nSnake game, you need to eat food and grow. | snake: ",
+        "text": "Snake\n\nSnake game, you need to eat food and grow. | snake: ",
         "tag": " #game #snake #HTML5 #JavaScript #project",
         "id": "2e9496e0ed49f285bda5d6f29c65ad5a",
         "time": "id"
     },
     {
         "url": "\/games\/tic-tac-toe-13\/index.html",
-        "text": "Game: Tic Tac Toe\n\nGame tic-tac-toe. | tic tac toe: ",
+        "text": "Tic Tac Toe\n\nGame tic-tac-toe. | tic tac toe: ",
         "tag": " #game #tic #tac #toe #HTML5 #JavaScript #JavaScript #project",
         "id": "a75ac875b4b178900bf07967ba4521bf",
         "time": "id"
@@ -417,6 +417,13 @@ var sitemapJsonVar = [
         "text": "AGI countdown timer\n\nAGI Countdown timer. An attempt to predict when general artificial intelligence will be created. | agi countdown: ",
         "tag": " #agi #CSS #JavaScript #project",
         "id": "983c52c3556e8725e77dd0cbef09c65c",
+        "time": "id"
+    },
+    {
+        "url": "\/projects\/assistant-67\/index.html",
+        "text": "Assistant\n\nAssistant | assistant: ",
+        "tag": " #assistant #chat #command #CSS #JavaScript #project",
+        "id": "0d3949dc848c73e60a7d2a62d9b3a757",
         "time": "id"
     },
     {

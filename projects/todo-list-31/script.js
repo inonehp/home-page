@@ -1,4 +1,4 @@
-// Todo v.2.7.1
+// Todo v.2.7.2
 // https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue
 
 
@@ -25,21 +25,21 @@ com = url.searchParams.get("com");
 
 var targetOption = '';
 
-if(q != null){
+if (q != null){
 q = fuMClearText(q);
 /*q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);*/
 q = fuMClearText(q);
 q = q.trim();
 }
-if(q == null){ q = ''; }
+if (q == null){ q = ''; }
 
 
 
-if(q != ''&&com == null||q != ''&&com == ''&&com != 'add'){
+if (q != ''&&com == null||q != ''&&com == ''&&com != 'add'){
 com = 'search';
 runDb('search', '');
-}else if(com != 'add'){
+} else if (com != 'add'){
 runDb('', '');
 }
 var i = 0;
@@ -61,7 +61,7 @@ print = '';
 
 //comGet(com, id, text, status);
 
-if(com == ''||com == undefined){ com = 'show'; text = ''; id = 0; status = ''; }
+if (com == ''||com == undefined){ com = 'show'; text = ''; id = 0; status = ''; }
 
 
 
@@ -170,7 +170,7 @@ objectStore.createIndex("data3", "data3", { unique: false });
 
 
 
-if(com == "clear"){
+if (com == "clear"){
 
 request.onsuccess = (event) => {
 
@@ -215,7 +215,7 @@ runDb('show', '', '');
 
 
 
-if(com == 'add'){
+if (com == 'add'){
 
 
 // test for add
@@ -248,11 +248,11 @@ data.forEach((tableName) => {
 transaction.oncomplete = (event) => {
 //console.log("transaction.oncomplete");
 
-if(q != ''&&com == 'add'&&String(window.location).indexOf('stopReSubmit') == -1){
+if (q != ''&&com == 'add'&&String(window.location).indexOf('stopReSubmit') == -1){
 //window.location.href = '?#stopReSubmit';
 q = fuMClearText(q);
 window.location.replace("?#stopReSubmit",);
-}else{
+} else {
 q = '';
 com = '';
 
@@ -279,7 +279,7 @@ transaction.onerror = (event) => {
 }
 
 
-if(com == "del"){
+if (com == "del"){
 
 
 request.onsuccess = (event) => {
@@ -293,23 +293,23 @@ const objectStore = transaction.objectStore(tableName);
 objectStore.openCursor().onsuccess = function(event) {
 var cursor = event.target.result;  
 if (cursor) {
-if(cursor.key == id){
+if (cursor.key == id){
 cursor.delete();
 com = '';
 print = '';
-if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
-}else{
+if (q != ''){ runDb('search', ''); } else { runDb('show', ''); }
+} else {
 //console.log('cur key: '+cursor.key);
 //console.dir('cur value: '+cursor.value.text);
 cursor.continue();
 //alert(cursor.key);
 } 
-}else {
+} else {
 //console.log("Done with cursor");
 //runDb('show', '', '');
 com = '';
 print = '';
-if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
+if (q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 }  
 };  
 
@@ -318,7 +318,7 @@ if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 }
 
 
-if(com == 'delAllDone'||com == 'DelAllDone'){ // from del
+if (com == 'delAllDone'||com == 'DelAllDone'){ // from del
 
 
 request.onsuccess = (event) => {
@@ -335,7 +335,7 @@ objectStore.openCursor().onsuccess = function(event) {
 var cursor = event.target.result;
 
 if (cursor) {
-/*if(cursor.key == id){ // from del copy paste
+/*if (cursor.key == id){ // from del copy paste
 cursor.delete();
 }*/
 
@@ -343,7 +343,7 @@ status = cursor.value.data;
 statusDaily = cursor.value.data2;
 //alert(status);
 
-if(status == 'done'&&statusDaily != 'daily'){ // from del copy paste
+if (status == 'done'&&statusDaily != 'daily'){ // from del copy paste
 cursor.delete();
 }
 
@@ -352,12 +352,11 @@ cursor.delete();
 //console.dir('cur value: '+cursor.value.text);
 
 cursor.continue();  
-}  
-else {  
+} else {  
 //console.log("Done with cursor");
 //runDb('show', '', '');
 com = '';
-if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
+if (q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 }  
 };  
 
@@ -368,7 +367,7 @@ if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 
 
 
-if(com == 'done'){
+if (com == 'done'){
 
 //console.log('start done: '+id+status);
 request.onsuccess = (event) => {
@@ -382,7 +381,7 @@ objectStore.openCursor().onsuccess = function(event) {
 var cursor = event.target.result;
 //console.log(id, status);
 if (cursor) { 
-if(cursor.key == id){
+if (cursor.key == id){
 
 const updateData = cursor.value;
 cursor.value.data = status;
@@ -395,8 +394,7 @@ request.onsuccess = () => {
 //console.log('cur key: '+cursor.key);
 //console.dir('cur value: '+cursor.value.text);
 cursor.continue();  
-}  
-else {  
+} else {  
 //console.log("Done end");
 }  
 };  
@@ -404,7 +402,7 @@ else {
 transaction.oncomplete = (event) => {
 //console.log("transaction.oncomplete");
 com = '';
-if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
+if (q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 
 };
 
@@ -418,7 +416,7 @@ if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 
 
 
-if(com == 'daily'){
+if (com == 'daily'){
 
 //console.log('start done: '+id+status);
 request.onsuccess = (event) => {
@@ -432,7 +430,7 @@ objectStore.openCursor().onsuccess = function(event) {
 var cursor = event.target.result;
 //console.log(id, status);
 if (cursor) { 
-if(cursor.key == id){
+if (cursor.key == id){
 
 const updateData = cursor.value;
 cursor.value.data2 = statusDaily;
@@ -456,7 +454,7 @@ transaction.oncomplete = (event) => {
 //console.log("transaction.oncomplete");
 //runDb('show', '');
 com = '';
-if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
+if (q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 };
 
 };
@@ -476,7 +474,7 @@ if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 
 
 
-if(com == 'uncheckAllDaily'){
+if (com == 'uncheckAllDaily'){
 
 //console.log('start done: '+id+status);
 request.onsuccess = (event) => {
@@ -490,12 +488,12 @@ objectStore.openCursor().onsuccess = function(event) {
 var cursor = event.target.result;
 //console.log(id, status);
 if (cursor) { 
-//if(cursor.key == id){};
+//if (cursor.key == id){};
 
 const updateData = cursor.value;
-if(cursor.value.data2 == 'daily'){
+if (cursor.value.data2 == 'daily'){
 cursor.value.data = '';
-}else{
+} else {
 cursor.value.data = cursor.value.data;
 }
 
@@ -508,8 +506,7 @@ request.onsuccess = () => {
 //console.log('cur key: '+cursor.key);
 //console.dir('cur value: '+cursor.value.text);
 cursor.continue();  
-}  
-else {  
+} else {  
 //console.log("Done end");
 }  
 };  
@@ -517,7 +514,7 @@ else {
 transaction.oncomplete = (event) => {
 //console.log("transaction.oncomplete");
 com = '';
-if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
+if (q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 };
 
 };
@@ -533,7 +530,7 @@ if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 
 
 
-if(com == 'update'){
+if (com == 'update'){
 
 //console.log('[ start update: '+id+status+' ]');
 request.onsuccess = (event) => {
@@ -549,7 +546,7 @@ objectStore.openCursor().onsuccess = function(event) {
 var cursor = event.target.result;
 //console.log(id, status);
 if (cursor) {  
-if(cursor.key == id){
+if (cursor.key == id){
 
 const updateData = cursor.value;
 
@@ -563,7 +560,7 @@ request.onsuccess = () => {
 //console.log('cur key: '+cursor.key);
 //console.dir('cur value: '+cursor.value.text);
 cursor.continue();  
-}else{
+} else {
 //console.log("[ not cursor, done ]");
 }  
 };  
@@ -572,7 +569,7 @@ transaction.oncomplete = (event) => {
 //console.log("[ transaction.oncomplete ]");
 //runDb('show', '');
 com = '';
-if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
+if (q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 };
 
 };
@@ -585,7 +582,7 @@ if(q != ''){ runDb('search', ''); } else { runDb('show', ''); }
 
 
 
-if(com == 'show'||com == 'search'||com == 'edit'){
+if (com == 'show'||com == 'search'||com == 'edit'){
 
 
 request.onsuccess = (event) => {
@@ -617,19 +614,19 @@ let textPrintHighlight = highlightText(textPrint);
 
 var statusPrint2 = '';
 var statusDailyPrint2 = '';
-if(statusPrint == 'done'){ statusPrint2 = '#tDone'; } else { statusPrint2 = '#tNotDone'; }
-if(statusDailyPrint == 'daily'){ statusDailyPrint2 = '#tDaily'; }else{ statusDailyPrint2 = '#tNotDaily'; }
+if (statusPrint == 'done'){ statusPrint2 = '#tDone'; } else { statusPrint2 = '#tNotDone'; }
+if (statusDailyPrint == 'daily'){ statusDailyPrint2 = '#tDaily'; } else { statusDailyPrint2 = '#tNotDaily'; }
 
 tagListPrint += ' ' + textPrint + ' ';
 //var qData = ' ' + textPrint + ' ' + statusPrint2 + ' ' + statusDailyPrint2 + ' ';
 var qData = ' ' + textPrint;
 
 
-if(com == 'edit'&&id == idPrint){
+if (com == 'edit'&&id == idPrint){
 /*editPrint = `<form style="margin: 10px 0;"><input id="inputTaskUp" class="padding2" type="text" name="q" autofocus="autofocus" autocomplete="off" placeholder=" task" value="${textPrint}"><input  type="hidden" name="com" value="edit"><input id="idInputE" type="hidden" name="id" value="${idPrint}"><input type="submit"></form><div id="option2"></div>`;*/
 
 editPrint = `<form><textarea id="textInputE" class="padding2" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${textPrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><tag class="block tCenter padding2 light borderList borderRadius2" style="cursor: pointer;" onclick="submitLinkEdit()">submit</tag></form>`;
-}else{
+} else {
 //editPrint = `<span onclick="runDb('edit', '` + idPrint + `', '', '')">${textPrint}</span>`;
 editPrint = `${textPrintHighlight}`;
 }
@@ -638,12 +635,12 @@ editPrint = `${textPrintHighlight}`;
 
 // show  & edit button
 let printTmp = '';
-if(statusPrint == 'done'){
+if (statusPrint == 'done'){
 
 printTmp = `<!--<div class="op xSmall">${idPrint}</div>--><span><input class="checkbox op" checked="checked" type="checkbox"  name="" value="undone" onclick="runDb('done', '` + idPrint + `', '', 'undone')"></span>
 <div class="flexCenter"><div class="pre op block" style="text-decoration: line-through;">${editPrint}</div></div>`;
 
-}else{
+} else {
 
 printTmp = `<!--<div class="op xSmall">${idPrint}</div>-->
 <span><input class="checkbox op" type="checkbox"  name="" value="done" onclick="runDb('done', '`+idPrint+`', '', 'done')"></span>
@@ -655,15 +652,15 @@ var doubleClickEdit = '';
 /*
 // double click edit
 
-if(com != 'edit'){
+if (com != 'edit'){
 doubleClickEdit = ` ondblclick="runDb('edit', '`+cursor.key+`')" `;
-}else{
+} else {
 doubleClickEdit = '';
 }*/
 
 var printDaily = ''
 // add button option
-if(statusDailyPrint == 'daily'){
+if (statusDailyPrint == 'daily'){
 printDaily = `
 
 <div id="${idPrint}" class="taskItem borderList borderRadius2 light2 break">
@@ -679,7 +676,7 @@ ${printTmp}
 </div>
 
 `;
-}else{
+} else {
 print = `
 
 <div id="${idPrint}" class="taskItem borderList borderRadius2 light2 break">
@@ -699,7 +696,7 @@ ${printTmp}
 }
 
 // gen arr with random not done
-if(statusPrint != 'done'){
+if (statusPrint != 'done'){
 
 var print33Tmp = `
 
@@ -733,7 +730,7 @@ var print33Tmp = `
 
 
 
-if(com == 'search'&&q != ''){
+if (com == 'search'&&q != ''){
 
 // search start 1
 //var qSearch = decodeURIComponent(q);
@@ -741,34 +738,34 @@ var qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
 
 // rm last symbol if " l".
-if(q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){ qSearch = qSearch.slice(0, -2); }
+if (q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){ qSearch = qSearch.slice(0, -2); }
 var qData = qData.toLowerCase();
 
 
 // if tag
-if(qSearch[0] == '#'){
+if (qSearch[0] == '#'){
 qData2 = qData.replaceAll(/,/g, ' ');
-if((qData2+' ').indexOf((qSearch+'')) >= 0){
+if ((qData2+' ').indexOf((qSearch+'')) >= 0){
 var subQ = 's1# '+qSearch+' ';
-if(statusDailyPrint == 'daily'){
+if (statusDailyPrint == 'daily'){
 printListPrintDaily += printDaily;
-}else{
+} else {
 printListPrint += print;
 }
-if(statusPrint != 'done'){ randomTodoListArray.push(print33Tmp); }
+if (statusPrint != 'done'){ randomTodoListArray.push(print33Tmp); }
 i++;
 total = i;
 comMessagePrint = `<span class="bold">found ${q} (${subQ})</span> ${i}`;
 }
 
-}else if(qData.indexOf(String(qSearch)) >= 0){
+} else if (qData.indexOf(String(qSearch)) >= 0){
 var subQ = 's1 '+qSearch;
-if(statusDailyPrint == 'daily'){
+if (statusDailyPrint == 'daily'){
 printListPrintDaily += printDaily;
-}else{
+} else {
 printListPrint += print;
 }
-if(statusPrint != 'done'){ randomTodoListArray.push(print33Tmp); }
+if (statusPrint != 'done'){ randomTodoListArray.push(print33Tmp); }
 i++;
 total = i;
 comMessagePrint = `<span class="bold">found ${q} (${subQ})</span> ${i}`;
@@ -776,12 +773,12 @@ comMessagePrint = `<span class="bold">found ${q} (${subQ})</span> ${i}`;
 
 
 
-if(comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h1">Probably not found</div>`; }
+if (comMessagePrint == '') { comMessagePrint = `<b>${q}</b> <div class="bold red block padding2 h1">Probably not found</div>`; }
 
-}else if(com != 'search'&&q == ''){
+} else if (com != 'search'&&q == ''){
 printListPrintDaily += printDaily;
 printListPrint += print;
-if(statusPrint != 'done'){ randomTodoListArray.push(print33Tmp); }
+if (statusPrint != 'done'){ randomTodoListArray.push(print33Tmp); }
 }
 
 
@@ -795,7 +792,7 @@ cursor.continue();
 
 
 
-}else {
+} else {
 
 
 
@@ -804,20 +801,20 @@ cursor.continue();
 var randomTask = '';
 randomTask = randomTodoListArray[Math.floor(Math.random() * randomTodoListArray.length)];
 
-if(randomTask != 'undefined'&&randomTask != undefined){
+if (randomTask != 'undefined'&&randomTask != undefined){
 randomTask = `
 <div class="op block padding1px margin1PxList small">random:</div>
 
 ${randomTask}
 `;
-}else{ randomTask = ''; }
+} else { randomTask = ''; }
 
 
 
 
 
 tagListPrint = fuTagList(tagListPrint);
-if(tagListPrint != ""){
+if (tagListPrint != ""){
 document.getElementById('searchForm').innerHTML = `
 <div id="form" class="wrapperL">
 <form method="GET" style="margin-top: 0px;" action="?">
@@ -846,12 +843,12 @@ document.getElementById('result').innerHTML = '';
 
 
 var allOtherTaskMsg = '';
-if(printListPrintDaily != ''){
+if (printListPrintDaily != ''){
 printListPrintDaily = `
 <div class="op block padding1px margin1PxList small">pined or daily:</div>
 ${printListPrintDaily}
 `;
-if(printListPrint != ''&&printListPrintDaily != ''&&printListPrint != ''){
+if (printListPrint != ''&&printListPrintDaily != ''&&printListPrint != ''){
 allOtherTaskMsg = `
 <div class="op block padding1px margin1PxList small">other:</div>
 `;
@@ -960,15 +957,10 @@ randomTodoListArray = [];
 var today = new Date();
 var d = String(today.getDate());
 
-
-if(localStorage.getItem("dayForUnchekDoneInTodoList") != d){
+if (localStorage.getItem("dayForUnchekDoneInTodoList") != d){
 runDb('uncheckAllDaily');
 localStorage.setItem("dayForUnchekDoneInTodoList", d);
 }
-
-
-
-
 
 
 
@@ -1029,18 +1021,18 @@ textInput = fuMClearText(textInput);
 comInput = fuMClearText(comInput);
 idInput = fuMClearText(idInput);
 
-if(comInput == 'add'||comInput == 'edit'){
+if (comInput == 'add'||comInput == 'edit'){
 
 textInput = (textInput);
 /*textInput = decodeURIComponent(textInput);
 textInput = encodeURIComponent(textInput);*/
 
-if(textInput != null&&textInput != "null"&&textInput != ''){
+if (textInput != null&&textInput != "null"&&textInput != ''){
 
-if(comInput == 'edit'){ comInput = 'update'; }
+if (comInput == 'edit'){ comInput = 'update'; }
 runDb(comInput, idInput, textInput);
 
-if(textInput != ''){
+if (textInput != ''){
 /*var sTimeRedir = 500; // fix probably double submit
 setTimeout(function(){
 //window.location.href = '?#stopReSubmit';
@@ -1064,11 +1056,11 @@ document.getElementById('result2').innerHTML = print2;
 
 function submitLink(textInput){
 
-if(document.getElementById('inputTask') != null){
+if (document.getElementById('inputTask') != null){
 textInput = document.getElementById('inputTask').value;
 }
 
-if(textInput != ""){
+if (textInput != ""){
 textInput = fuMClearText(textInput);
 runDb('add', '', textInput);
 document.getElementById("inputTask").value = '';
@@ -1094,14 +1086,14 @@ runDb('update', idInput, textInput);
 
 function scrollTo33(id){
 var elmntToView = document.getElementById("sectionId");
-if(document.getElementById(id) != null){
+if (document.getElementById(id) != null){
 document.getElementById(id).scrollIntoView(); 
 }
 }
 
 function confirmCom(com, id){
 //https://stackoverflow.com/questions/10462839/how-to-display-a-confirmation-dialog-when-clicking-an-a-link
-if(confirm('Are you sure?') == true){
+if (confirm('Are you sure?') == true){
 runDb(com, id);
 }
 }
@@ -1158,7 +1150,7 @@ let forSplit = [
 var text2 = '';
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
-if(item == item2){
+if (item == item2){
 item = conf["confSymbolForSplit"] + item + conf["confSymbolForSplit"];
 }
 });
@@ -1178,41 +1170,41 @@ myArray.forEach((item) => {
 
 
 let checkEmbedEmpty = item.split('/');
-//if(item.split('/').length > 4){
-if(checkEmbedEmpty[3]){
+//if (item.split('/').length > 4){
+if (checkEmbedEmpty[3]){
 var host = item.split('/');
 }
 
-//if(item.search("http") != -1){
-if(item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1){
+//if (item.search("http") != -1){
+if (item.slice(0, 4) == 'http'&&item.search("http|://|www.") != -1){
 
 checkText = false;
-if(host != undefined){
+if (host != undefined){
 
 /*delme var ico = `https://www.google.com/s2/favicons?domain_url=${host[2]}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
 ico = `<img class="ico2 op" src="${ico}" alt="icon">`;
-if(localStorage.getItem('confDataCollection') != 'on'){ ico = '🔗'; }*/
+if (localStorage.getItem('confDataCollection') != 'on'){ ico = '🔗'; }*/
 
-if(targetOption == 'blank'){
+if (targetOption == 'blank'){
 item = `<a class="brand break2 insertIcon" target="_blank" href="${item}">${item}</a>`;
-}else{
+} else {
 item = `<a class="brand break2 insertIcon" href="${item}">${item}</a>`;
 }
 
-}else{
+} else {
 item = `<a class="brand break2" target="_blank" href="${item}">${item}</a>`;
 }
 }
 
 
-if(item[0] == '/'||item[0] == '/'&&item.search(".htm") != -1||item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
+if (item[0] == '/'||item[0] == '/'&&item.search(".htm") != -1||item.search("./") != -1&&item.search(".htm") != -1&&item.search("http") == -1){
 
-if(targetOption == 'blank'){
+if (targetOption == 'blank'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
 item = `<a class="brand insertIcon" target="_blank" href="${item}">${item}</a>`;
-}else{
+} else {
 item = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 }
 
@@ -1220,7 +1212,7 @@ item = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 
 
 //add tag
-if(item[0] == '#'){
+if (item[0] == '#'){
 item = item.replaceAll(/#/g, "");
 item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }
@@ -1284,7 +1276,7 @@ var tagCheck = '';
 // make uniq and count, object
 var tagListCount = {};
 tagList2.forEach(function (x) {
-if(x != null&&x != ''&&x[0] == '#'){
+if (x != null&&x != ''&&x[0] == '#'){
 tagListCount[x] = (tagListCount[x] || 0) + 1;
 tagCheck = 'found';
 }
@@ -1306,7 +1298,7 @@ tagListCountSorted.reverse();
 // Taglist limit (cut array) with sorted tag and convert to old object, sorted previos
 tagListCountLimited = {};
 tagListCountSorted.forEach(function (item, key) {
-if(key <= tagListLimit){
+if (key <= tagListLimit){
 tagListCountLimited[item[0]] = item[1];
 }
 });
@@ -1417,26 +1409,26 @@ fuTag(tagCount);
 
 
 
-if(tag != ''){
+if (tag != ''){
 let printTag = tag;
 let printTag2 = tag.replaceAll(/#/g, "");
 let goTag = encodeURIComponent(tag);
 
 let hlClass = '';
-if(printTag2[0] != undefined){
+if (printTag2[0] != undefined){
 hlClass = 'hlClass'+printTag2[0].toLowerCase();
 hlClassList += printTag2[0].toLowerCase();
 }
 
 
 
-if(q == tag){
+if (q == tag){
 tagList += `
 
 <a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--l4); font-size: ${tagSize} !important;">${printTag}</a>
 
 `;
-}else{
+} else {
 
 tagList += `
 
@@ -1487,7 +1479,7 @@ ${hlClassList}
 `;
 
 
-if(tagCheck != 'found'){ tagList = ''; }
+if (tagCheck != 'found'){ tagList = ''; }
 
 return tagList;
 }

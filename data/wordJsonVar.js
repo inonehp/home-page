@@ -1,6 +1,11 @@
 var wordJsonVar = 
 [
     {
+        "text": "\u0430\u0431\u0441\u043e\u043b\u044e\u0442",
+        "text2": "absolute",
+        "text3": "absoluto"
+    },
+    {
         "text": "\u0430\u0432\u043e\u043a\u0430\u0434\u043e",
         "text2": "avocado",
         "text3": "aguacate"
@@ -644,11 +649,6 @@ var wordJsonVar =
         "text": "\u0437\u0430\u0442\u043e\u0447\u043a\u0430",
         "text2": "sharpening",
         "text3": "afilado"
-    },
-    {
-        "text": "\u0437\u043b\u043e\u043c",
-        "text2": "evil",
-        "text3": "el mal"
     },
     {
         "text": "\u0437\u043e\u043d\u0430",

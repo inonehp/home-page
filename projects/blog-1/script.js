@@ -1481,7 +1481,7 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light2 border2 borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: var(--${tagColor}); color: var(--rC4); font-size: ${tagSize};">${printTag}</a>
+<a class="tag light2 border2 borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: var(--${tagColor}); font-size: ${tagSize};">${printTag}</a>
 
 `;
 } else {

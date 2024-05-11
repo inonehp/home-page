@@ -108,7 +108,7 @@
 <!-- content -->
 <main class="content">
 
-<h1 class="op tCenter">Notes</h1>
+<h1 class="op tCenter insertIcon">Notes</h1>
 
 <!--<span class="xSmall block tCenter op">Notes. notes for quick access.</span>-->
 
@@ -153,21 +153,6 @@ var jsonVar =
 <!--<div class="tCenter">
 <a class="inlineBlock padding orange" href="/rss.xml" title="RSS News">RSS</a>
 </div>-->
-
-<!-- post -->
-<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
-
-<div class="postContent pre padding2List">Array.prototype.forEach() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach</a><br>arr.forEach((val, index) =&gt; {
-console.log(val + &quot;=&quot; + index);
-});</div>
-
-<div class="postFooter break2 small">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
 
 <!-- post -->
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
@@ -622,6 +607,144 @@ onfocus = (event) =&gt; {};</div>
 <div class="postContent pre padding2List">Window: blur event - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Window/blur_event">https://developer.mozilla.org/en-US/docs/Web/API/Window/blur_event</a><br>addEventListener(&quot;blur&quot;, (event) =&gt; {});
 
 onblur = (event) =&gt; {};</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Array.prototype.filter() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter</a><br>const words = [&#039;spray&#039;, &#039;elite&#039;, &#039;exuberant&#039;, &#039;destruction&#039;, &#039;present&#039;];
+
+const result = words.filter((word) =&gt; word.length &gt; 6);
+
+console.log(result);
+// Expected output: Array [&quot;exuberant&quot;, &quot;destruction&quot;, &quot;present&quot;]</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Array.prototype.reduce() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce</a><br>const array1 = [1, 2, 3, 4];
+
+// 0 + 1 + 2 + 3 + 4
+const initialValue = 0;
+const sumWithInitial = array1.reduce(
+  (accumulator, currentValue) =&gt; accumulator + currentValue,
+  initialValue,
+);
+
+console.log(sumWithInitial);
+// Expected output: 10
+
+===
+
+const getMax = (a, b) =&gt; Math.max(a, b);
+
+// callback is invoked for each element in the array starting at index 0
+[1, 100].reduce(getMax, 50); // 100
+[50].reduce(getMax, 10); // 50
+
+// callback is invoked once for element at index 1
+[1, 100].reduce(getMax); // 100
+
+// callback is not invoked
+[50].reduce(getMax); // 50
+[].reduce(getMax, 1); // 1
+
+[].reduce(getMax); // TypeError</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Using the Web Storage API - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API">https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API</a><br>if (storageAvailable(&quot;localStorage&quot;)) {
+  // Yippee! We can use localStorage awesomeness
+} else {
+  // Too bad, no localStorage for us
+}</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Window: localStorage property - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage">https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage</a><br>localStorage.setItem(&quot;myCat&quot;, &quot;Tom&quot;);
+const cat = localStorage.getItem(&quot;myCat&quot;);
+localStorage.removeItem(&quot;myCat&quot;);
+localStorage.clear();</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Array.prototype.indexOf() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf</a><br>const beasts = [&#039;ant&#039;, &#039;bison&#039;, &#039;camel&#039;, &#039;duck&#039;, &#039;bison&#039;];
+
+console.log(beasts.indexOf(&#039;bison&#039;));
+// Expected output: 1
+
+// Start from index 2
+console.log(beasts.indexOf(&#039;bison&#039;, 2));
+// Expected output: 4
+
+console.log(beasts.indexOf(&#039;giraffe&#039;));
+// Expected output: -1</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">if...else - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else</a><br>function testNum(a) {
+  let result;
+  if (a &gt; 0) {
+    result = &#039;positive&#039;;
+  } else {
+    result = &#039;NOT positive&#039;;
+  }
+  return result;
+}
+
+console.log(testNum(-5));
+// Expected output: &quot;NOT positive&quot;</div>
 
 <div class="postFooter break2 small">
 <div class="tagList tLeft left"></div>

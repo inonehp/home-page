@@ -3,6 +3,66 @@ var notesJsonVar =
 
 [
     {
+        "id": "33",
+        "text": "if...else - JavaScript | MDN",
+        "text2": "function testNum(a) {\r\n  let result;\r\n  if (a > 0) {\r\n    result = 'positive';\r\n  } else {\r\n    result = 'NOT positive';\r\n  }\r\n  return result;\r\n}\r\n\r\nconsole.log(testNum(-5));\r\n\/\/ Expected output: \"NOT positive\"",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Statements\/if...else",
+        "tag": "#code #JavaScript",
+        "time": 1715214777,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=33\">id<\/a>"
+    },
+    {
+        "id": "32",
+        "text": "Array.prototype.indexOf() - JavaScript | MDN",
+        "text2": "const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];\r\n\r\nconsole.log(beasts.indexOf('bison'));\r\n\/\/ Expected output: 1\r\n\r\n\/\/ Start from index 2\r\nconsole.log(beasts.indexOf('bison', 2));\r\n\/\/ Expected output: 4\r\n\r\nconsole.log(beasts.indexOf('giraffe'));\r\n\/\/ Expected output: -1",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/indexOf",
+        "tag": "#code #JavaScript",
+        "time": 1714813827,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=32\">id<\/a>"
+    },
+    {
+        "id": "31",
+        "text": "Window: localStorage property - Web APIs | MDN",
+        "text2": "localStorage.setItem(\"myCat\", \"Tom\");\r\nconst cat = localStorage.getItem(\"myCat\");\r\nlocalStorage.removeItem(\"myCat\");\r\nlocalStorage.clear();",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/localStorage",
+        "tag": "#code #coding #JavaScript #JS",
+        "time": 1714812463,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=31\">id<\/a>"
+    },
+    {
+        "id": "30",
+        "text": "Using the Web Storage API - Web APIs | MDN",
+        "text2": "if (storageAvailable(\"localStorage\")) {\r\n  \/\/ Yippee! We can use localStorage awesomeness\r\n} else {\r\n  \/\/ Too bad, no localStorage for us\r\n}",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Web_Storage_API\/Using_the_Web_Storage_API",
+        "tag": "#coding #code #JavaScript #JS",
+        "time": 1714812424,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=30\">id<\/a>"
+    },
+    {
+        "id": "29",
+        "text": "Array.prototype.reduce() - JavaScript | MDN",
+        "text2": "const array1 = [1, 2, 3, 4];\r\n\r\n\/\/ 0 + 1 + 2 + 3 + 4\r\nconst initialValue = 0;\r\nconst sumWithInitial = array1.reduce(\r\n  (accumulator, currentValue) => accumulator + currentValue,\r\n  initialValue,\r\n);\r\n\r\nconsole.log(sumWithInitial);\r\n\/\/ Expected output: 10\r\n\r\n===\r\n\r\nconst getMax = (a, b) => Math.max(a, b);\r\n\r\n\/\/ callback is invoked for each element in the array starting at index 0\r\n[1, 100].reduce(getMax, 50); \/\/ 100\r\n[50].reduce(getMax, 10); \/\/ 50\r\n\r\n\/\/ callback is invoked once for element at index 1\r\n[1, 100].reduce(getMax); \/\/ 100\r\n\r\n\/\/ callback is not invoked\r\n[50].reduce(getMax); \/\/ 50\r\n[].reduce(getMax, 1); \/\/ 1\r\n\r\n[].reduce(getMax); \/\/ TypeError",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/reduce",
+        "tag": "#code #JavaScript #JS",
+        "time": 1714626528,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=29\">id<\/a>"
+    },
+    {
+        "id": "28",
+        "text": "Array.prototype.filter() - JavaScript | MDN",
+        "text2": "const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];\r\n\r\nconst result = words.filter((word) => word.length > 6);\r\n\r\nconsole.log(result);\r\n\/\/ Expected output: Array [\"exuberant\", \"destruction\", \"present\"]",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/filter",
+        "tag": "#code #JavaScript #JS",
+        "time": 1714625890,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=28\">id<\/a>"
+    },
+    {
         "id": "27",
         "text": "Window: blur event - Web APIs | MDN",
         "text2": "addEventListener(\"blur\", (event) => {});\r\n\r\nonblur = (event) => {};",

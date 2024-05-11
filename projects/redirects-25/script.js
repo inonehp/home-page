@@ -1,5 +1,5 @@
-// Search redirects v.2.0.2
-// Mini google
+// Search redirects v.2.0.7
+// Mini Google
 // The script redirects the search query + command.
 
 // conf
@@ -60,10 +60,6 @@ sUrlText = myArray[0];
 if (q == ''&&q != 'null'){ q = 'q'; }
 
 
-
-var rColor = 'yellow';
-
-
 if (rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") == -1){
 
 q = q.trim();
@@ -75,7 +71,6 @@ q = decodeURIComponent(q);*/
 
 if (q.slice(-2) == 'ls'||q.slice(-2) == 'rs'){
 sTimeRedirect = 2000;
-rColor = 'orange';
 }
 
 q = q.replaceAll('%23!StopRedirect', '');
@@ -100,7 +95,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-'tec', 'sci', 'dev', 'n2', "spo",
+'tec', 'sci', 'dev',
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -299,9 +294,9 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-//"https://news.google.com/",
+"https://news.google.com/",
+"https://www.bing.com/news/",
 "https://flipboard.com/topic/news",
-//"https://www.bing.com/news/",
 "https://news.yahoo.com/",
 ];
 }
@@ -320,15 +315,15 @@ urlList = [
 
 if (q == ''){
 urlList = [
-//"https://www.bing.com/news/search?q=Technology",
+"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
+"https://www.bing.com/news/search?q=Technology",
 "https://www.yahoo.com/tech/",
 "https://slashdot.org/",
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
-//"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
 "https://www.reddit.com/r/technology/",
 "https://finance.yahoo.com/tech/",
-"https://substack.com/browse/technology",
+//"https://substack.com/browse/technology",
 ];
 
 /*if (conf["confDevice"] == 'mobile'){
@@ -353,15 +348,15 @@ urlList = [
 
 if (q == ''){
 urlList = [
-"https://flipboard.com/topic/science",
-"https://flipboard.com/topic/science",
+"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
+"https://www.bing.com/news/search?q=Science",
 "https://flipboard.com/topic/science",
 "https://science.slashdot.org/",
-//"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
-//"https://www.bing.com/news/search?q=Science",
+
 "https://www.yahoo.com/news/science/",
 "https://www.reddit.com/r/science/",
 "https://news.yahoo.com/science/",
+"https://medium.com/tag/science",
 ];
 
 }
@@ -426,7 +421,7 @@ if (q == ''){
 urlList = [
 "https://gemini.google.com/",
 "https://copilot.microsoft.com/",
-
+//"https://chatgpt.com/",
 "https://www.perplexity.ai/",
 ];
 }
@@ -880,7 +875,6 @@ let rUrlGetClean = rUrlGet.replaceAll('%23!StopRedirect', '');
 rUrlGetClean = rUrlGetClean.replaceAll('#!StopRedirect', '');
 
 if (rUrlGet == ''&&rUrlGetClean[0] == 'h'&&allowUrlListStatus == 'not found'){
-rColor = "orange";
 // disabled if http
 sTimeRedirectStatus = `<span class="small">Redirection (${com}): force off</span>`;
 } else {

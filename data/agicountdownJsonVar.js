@@ -3,6 +3,26 @@ var agicountdownJsonVar =
 
 [
     {
+        "id": "21",
+        "text": "AI timelines: What do experts in artificial intelligence expect for the future? - Our World in Data",
+        "text2": "2061 2050",
+        "text3": "",
+        "url": "https:\/\/ourworldindata.org\/ai-timelines",
+        "tag": "#article #statistics #poll",
+        "time": 1715319017,
+        "rightFooter": ""
+    },
+    {
+        "id": "20",
+        "text": "Google AI Chief Says There\u2019s a 50% Chance We\u2019ll Hit AGI in Just 5 Years",
+        "text2": "2028",
+        "text3": "",
+        "url": "https:\/\/futurism.com\/google-deepmind-agi-5-years",
+        "tag": "#article",
+        "time": 1715314944,
+        "rightFooter": ""
+    },
+    {
         "id": "19",
         "text": "What is AGI and how is it different from AI? - ReadWrite",
         "text2": "2029",
@@ -125,7 +145,7 @@ var agicountdownJsonVar =
     {
         "id": "5",
         "text": "Date of Artificial General Intelligence | Metaculus",
-        "text2": "2031",
+        "text2": "2032",
         "text3": "",
         "url": "https:\/\/www.metaculus.com\/questions\/5121\/date-of-artificial-general-intelligence\/",
         "tag": "#group #poll #statistics",
@@ -165,7 +185,7 @@ var agicountdownJsonVar =
     {
         "id": "1",
         "text": "Date Weakly General AI is Publicly Known | Metaculus",
-        "text2": "2026",
+        "text2": "2027",
         "text3": "",
         "url": "https:\/\/www.metaculus.com\/questions\/3479\/date-weakly-general-ai-is-publicly-known\/",
         "tag": "#group #poll #statistics",

@@ -1,6 +1,5 @@
-/* Main style v.16.7.0
-Mini CSS framework: main.css + auto.css (color-theme-name.css)
-Responsive, mainly class-based */
+/* Main style v.16.8.2
+Mini CSS framework: main.css + auto.css (color-theme-name.css) */
 
 
 
@@ -148,6 +147,9 @@ input[type=checkbox],  input[type="reset"] { cursor: pointer; margin: 0; padding
 textarea { outline-color: transparent; outline-style: none; resize: vertical; }
 input[type=submit], .submit { cursor:pointer;  }
 td { padding: 5px; }
+
+input[type="range"], progress { width: 100%; max-width: 100%; margin: 0; }
+input[type="number"]{ padding: 5px; }
 
 
 
@@ -471,6 +473,8 @@ scroll-padding-top: 16px;
 :root{
 --brand: color-mix(in srgb, var(--brandColor) 70%, var(--c4));
 --brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));
+--brandR: color-mix(in srgb, var(--brandColor) 70%, var(--d4));
+--brand2R: color-mix(in srgb, var(--brandColor) 35%, var(--d4));
 }
 
 body{ background-color: var(--bg); color: var(--c3); }
@@ -490,15 +494,9 @@ input:hover, textarea:hover, select:hover, button:hover, input[type="file"]:hove
 input[type="submit"], input[type="reset"],  form button[type="submit"], .submit/*, form button, input[type="button"]*/ {  border: 1px solid var(--d3); background: var(--d); color: var(--c2); border-radius: var(--borderRadius); }
 input[type="submit"]:hover, input[type="reset"]:hover, form button[type="submit"]:hover, form button:hover, .submit:hover, input[type="button"]:hover { background: var(--d2); color: var(--c3); }
 
-
-input[type="range"], progress { width: 100%; max-width: 100%; margin: 0; }
-input[type="number"]{ padding: 5px; }
-
 ::placeholder, input::-webkit-input-placeholder, .placeholder { font-size: small; color: var(--c); }
-input, progress, select { accent-color: var(--brand);  }
-
+input, progress, select { accent-color: var(--brandR); }
 [contenteditable]:focus { outline: solid var(--brand); }
-
 
 form fieldset { border: 1px solid var(--d3); }
 
@@ -510,11 +508,11 @@ form fieldset { border: 1px solid var(--d3); }
 .c3 { color: var(--c3); }
 .c4 { color: var(--c4); }
 
-/* rC - reverse c  (new) */
-.rC { color: var(--rC); }
-.rC2 { color: var(--rC2); }
-.rC3 { color: var(--rC3); }
-.rC4 { color: var(--rC4); }
+/* cR - reverse c */
+.cR { color: var(--cR); }
+.c2R { color: var(--c2R); }
+.c3R { color: var(--c3R); }
+.c4R { color: var(--c4R); }
 
 /* .bgColor, .lightColor (new) */
 .brand, .brand button{ color: var(--brand); }

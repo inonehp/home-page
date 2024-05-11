@@ -110,11 +110,11 @@
 
 
 
-<h1 class="tCenter op"><del>Ads</del>, Links</h1>
+<h1 class="tCenter op insertIcon"><del>Ads</del>, Links</h1>
 
 
 <div class="tCenter">
-<div class="padding2  block">ads status: </span> <span class="bold" id="adsStatus"></span> <a class="insertIcon brand" href="/settings.html#confAdsStatus">settings</a> </div>
+<div class="padding2  block">ads status: </span> <span class="bold" id="adsStatus"></span> <a class="insertIcon brand" href="settings.html#confAdsStatus">settings</a> </div>
 </div>
 
 <script>
@@ -137,8 +137,12 @@ document.getElementById("adsStatus").innerText = localStorage.getItem('confAdsSt
 <script src="./js/script.js"></script>
 
 
-<script src="/js/ads.js"></script>
-<script>fuAds('', 'result', 'all');</script>
+<script src="../../js/ads.js"></script>
+<script>
+if (typeof fuAds == 'function'){
+fuAds('', 'result', 'all');
+}
+</script>
 
 
 

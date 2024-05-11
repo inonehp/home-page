@@ -65,6 +65,17 @@ setInterval(fuStopwatch, 1000);
 //document.getElementById('search').innerHTML = ``;
 
 var wakeLock = "";
+try {
+//const wakeLock = await navigator.wakeLock.request("screen");
+//const wakeLock = navigator.wakeLock.request("screen");
+wakeLock = navigator.wakeLock.request("screen");
+document.getElementById('msg').innerHTML = `* Trying to prevent sleep: <b>on</b>`;
+} catch (err) {
+  // the wake lock request fails - usually system related, such being low on battery
+console.log(`Trying to prevent sleep: on. ${err.name}, ${err.message}`);
+document.getElementById('msg').innerHTML = `* Trying to prevent sleep: <b>on</b>. ${err.name}, ${err.message}`;
+}
+
 
 //https://developer.mozilla.org/en-US/docs/Web/API/Window/focus_event
 onfocus = (event) => {
@@ -73,6 +84,7 @@ try {
 //const wakeLock = await navigator.wakeLock.request("screen");
 //const wakeLock = navigator.wakeLock.request("screen");
 wakeLock = navigator.wakeLock.request("screen");
+document.getElementById('msg').innerHTML = `* Trying to prevent sleep: <b>on</b>`;
 } catch (err) {
   // the wake lock request fails - usually system related, such being low on battery
 console.log(`Trying to prevent sleep: on. ${err.name}, ${err.message}`);

@@ -1,6 +1,7 @@
 // v.1.0.0
 
 
+// q
 // Search redirects v.1.12.1
 // Mini google
 // The script redirects the search query + command to another location.
@@ -9,6 +10,8 @@
 var com = "on"; // on, off redirection
 var sTimeRedirect = 1000;
 // conf
+
+var qComMode = "none";
 
 var geturl = location.href;
 var url = new URL(geturl);
@@ -22,7 +25,6 @@ if (qr != null){
 q = q.replaceAll('+', ' ');
 qr = decodeURIComponent(qr);*/
 qr = qr.trim();
-
 q = qr;
 
 if (com == "on"&&String(location.href).indexOf("#!StopRedirect") == -1){
@@ -32,11 +34,10 @@ location.href = location.href + '#!StopRedirect';
 
 //location.href.replace(fuMHideFileNameExt(qr),);
 //location.href.replace(location.href + '#!StopRedirect',);
-
 }
 } else { qr = ''; }
 
-/*var rUrlGet = url.searchParams.get("rUrl");
+/*var rUrlGet = String(url.searchParams.get("rUrl"));
 //fuMHideFileNameExt(); //rmme
 rUrlGet = fuMHideFileNameExt(rUrlGet);*/
 
@@ -59,12 +60,7 @@ let sUrlText = String(url);
 const myArray = sUrlText.split("q=");
 sUrlText = myArray[0];
 
-
 if (q == ''&&q != 'null'){ q = 'q'; }
-
-
-
-var rColor = 'yellow';
 
 
 if (rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") == -1){
@@ -78,7 +74,6 @@ q = decodeURIComponent(q);*/
 
 if (q.slice(-2) == 'ls'||q.slice(-2) == 'rs'){
 sTimeRedirect = 2000;
-rColor = 'orange';
 }
 
 q = q.replaceAll('%23!StopRedirect', '');
@@ -92,24 +87,91 @@ var q3 = q + "#";
 
 
 
-switch (qCom) {
+// qComMode 1
+//https://stackoverflow.com/questions/22277447/indexof-within-switch
+switch (true) {
 
-case 'π#':
+case (q.indexOf("mail") != -1):
+q = q.replace("mail", '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"mailto:example@gmail.com?body=" + q,
+];
+if (q == ''){
+urlList = [
+//"?q=" + q,
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = random;
+qComMode = "qComMode 1";
+break;
+
+case 'l#':  case 'll#':
+q = q3.replace(qComFirst, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?btnI=1&q=" + q,
+//url = "https://you.com/search?q=!" + q;
+//url = "https://duckduckgo.com/?q=! " + q;
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = random;
+qComMode = "qComMode 1";
+break;
+
+case (q.indexOf("test") != -1):
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q
+"#https://example.com/?q=" + q,
+//url = "https://you.com/search?q=!" + q;
+//url = "https://duckduckgo.com/?q=! " + q;
 ];
 if (q == ''){
 urlList = [
-'tec', 'sci', 'dev', 'n2', "spo",
+"#https://example.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
-url = '?q=' + random;
-sRedirectUrl = url;
+url = random;
+sRedirectUrl = random;
+qComMode = "qComMode 1";
 break;
+
+/*default:
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?btnI=1&q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = random;
+qComMode = "qComMode 1";
+*/
+}
+
+
+
+// qComMode 2
+if(qComMode != "qComMode 1"){
+
+switch (qCom) {
 
 case 'l#':  case 'll#':
 q = q3.replace(qCom, '');
@@ -126,15 +188,35 @@ urlList = [
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = random;
+qComMode = "qComMode 2";
+break;
+
+case 'test#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"#https://example.com/?q=" + q,
+//url = "https://you.com/search?q=!" + q;
+//url = "https://duckduckgo.com/?q=! " + q;
+];
+if (q == ''){
+urlList = [
+"#https://example.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = random;
+qComMode = "qComMode 2";
 break;
 
 default:
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?btnI=1&q=" + q,
-//url = "https://you.com/search?q=!" + q;
-//url = "https://duckduckgo.com/?q=! " + q;
 ];
 if (q == ''){
 urlList = [
@@ -142,9 +224,12 @@ urlList = [
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = random;
+qComMode = "qComMode 2";
 }
 
+}
 
 
 if (sRedirectUrl != ''&&sRedirectUrl != undefined&&sRedirectUrl != null){
@@ -200,7 +285,7 @@ let allowUrlList = [
 let allowUrlListStatus = "not found";
 
 allowUrlList.forEach((val) => {
-if (rUrlGet.indexOf(val) != -1){ allowUrlListStatus = "found"; }
+if (String(rUrlGet).indexOf(val) != -1){ allowUrlListStatus = "found"; }
 });
 
 
@@ -211,11 +296,11 @@ var sTimeRedirectStatus = `<span class="small">Redirection (${com}): `+ sTimeRed
 //window.location
 if (com == "on"&&(String(location.href)).indexOf("#!StopRedirect") == -1){
 
-let rUrlGetClean = rUrlGet.replaceAll('%23!StopRedirect', '');
-rUrlGetClean = rUrlGetClean.replaceAll('#!StopRedirect', '');
+let rUrlGetClean = String(rUrlGet).replaceAll('%23!StopRedirect', '');
+rUrlGetClean = String(rUrlGetClean).replaceAll('#!StopRedirect', '');
 
 if (rUrlGet == ''&&rUrlGetClean[0] == 'h'&&allowUrlListStatus == 'not found'){
-rColor = "orange";
+
 // disabled if http
 sTimeRedirectStatus = `<span class="small">Redirection (${com}): force off</span>`;
 } else {
@@ -241,12 +326,13 @@ rUrlGetPrint = fuMClearText(rUrlGetPrint);*/
 
 //rUrlGetPrint = fuMClearText(decodeURIComponent(rUrlGet).replaceAll('#!StopRedirect', ''));
 //rUrlGet = decodeURIComponent(rUrlGet);
-rUrlGet = rUrlGet.replaceAll('#!StopRedirect', '');
-rUrlGet = rUrlGet.replaceAll('%23!StopRedirect', '');
+rUrlGet = String(rUrlGet).replaceAll('#!StopRedirect', '');
+rUrlGet = String(rUrlGet).replaceAll('%23!StopRedirect', '');
 
 print = `
 
 <div class="tCenter bg border borderRadius2">
+<div class="margin padding3 bgList op smaller">${qComMode}</div>
 <div class="margin padding3 bgList op">${sTimeRedirectStatus}</div>
 <div class="margin padding3 bgList border brand borderRadius2"><a class="inlineBlock padding brand" href="${rUrlGet}"><span id="printTextUrl"</a></div>
 </div>
