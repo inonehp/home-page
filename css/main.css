@@ -1,4 +1,4 @@
-/* Main style v.16.8.2
+/* Main style v.16.9.0
 Mini CSS framework: main.css + auto.css (color-theme-name.css) */
 
 
@@ -510,9 +510,9 @@ form fieldset { border: 1px solid var(--d3); }
 
 /* cR - reverse c */
 .cR { color: var(--cR); }
-.c2R { color: var(--c2R); }
-.c3R { color: var(--c3R); }
-.c4R { color: var(--c4R); }
+.c2R, .cR:hover { color: var(--c2R); }
+.c3R, .c2R:hover { color: var(--c3R); }
+.c4R, .c3R:hover, .c4R:hover { color: var(--c4R); }
 
 /* .bgColor, .lightColor (new) */
 .brand, .brand button{ color: var(--brand); }

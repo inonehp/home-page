@@ -1,4 +1,4 @@
-// Local main index script v.1.1.7
+// Local main index script v.1.1.8
 
 // Random color generator
 //if(document.getElementById("siteName") != null){}
@@ -106,7 +106,7 @@ if (mNavUpCheck.indexOf('/lists') == -1&&mNavUpCheck.indexOf('./main-list') == -
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./main-list.html");
 
 
-if (mNavUpCheck.indexOf('/main-list') != -1||mNavUpCheck.indexOf('projects') != -1){
+if (mNavUpCheck.indexOf('/main-list') != -1||mNavUpCheck.indexOf('projects') != -1||mNavUpCheck.indexOf('games') != -1){
 //document.getElementsByClassName("mClassNavUp").href = "../";
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./lists.html");
 }

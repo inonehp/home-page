@@ -1,4 +1,4 @@
-// Insert icon v.4.1.2
+// Insert icon v.4.1.3
 // Function for insert icon in links using class name.
 /*
 How to use:
@@ -270,7 +270,7 @@ let icons2 = [
 {"t":"music", "t2": "🎶"},
 {"t":"network", "t2":"📶"},
 {"t":"new", "t2":"🆕"},
-{"t":"news", "t2":"📰"},
+{"t":"news", "t2":"📰", "t3":"newspaper"},
 {"t":"pumpkin", "t2":"🎃"},
 {"t":"halloween", "t2":"🎃", "t3":"h"},
 {"t":"pc", "t2":"🖥"},
@@ -299,6 +299,7 @@ let icons2 = [
 {"t":"JavaScript", "t2":"📜", "t3":"code"},
 {"t":"code", "t2":"📜", "t3":"code"},
 {"t":"coding", "t2":"📜", "t3":"code"},
+{"t":"php", "t2":"📜", "t3":"code"},
 {"t":"history", "t2":"📜"},
 {"t":"search", "t2": "🔎", "t3":"search"},
 {"t":"sleep", "t2":"😴💤"},
@@ -372,8 +373,8 @@ let icons2 = [
 {"t":"work", "t2":"🛠️"},
 {"t":"trend", "t2":"📈", "t3":"chart"},
 {"t":"page", "t2":"📄", "t3":"page"},
+{"t":"question", "t2":"❓", "t3":"question"},
 
-{"t":"question", "t2":"❓"},
 {"t":"light", "t2":"⬜️"},
 {"t":"highlight", "t2":"⬜️", "t3":"bottom-line"},
 {"t":"white", "t2":"⬜️"},

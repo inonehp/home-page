@@ -1921,11 +1921,6 @@ var wordJsonVar =
         "text3": "inicio"
     },
     {
-        "text": "\u0441\u0442\u0430\u0442\u0443\u0441",
-        "text2": "status",
-        "text3": "status"
-    },
-    {
         "text": "\u0441\u0442\u0430\u0442\u0443\u044f",
         "text2": "statue",
         "text3": "estatua"

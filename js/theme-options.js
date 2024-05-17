@@ -1,5 +1,5 @@
 /* Theme print option v.4.3.2 */
-// var config in main js
+// variable config in main.js
 
 var result = '';
 

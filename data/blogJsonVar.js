@@ -3,6 +3,26 @@ var blogJsonVar =
 
 [
     {
+        "id": "255",
+        "text": "Google Keynote (Google I\/O \u201824) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=XEzRZ35urlk",
+        "tag": "#news #technology #video",
+        "time": 1715803074,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=255\">id<\/a>"
+    },
+    {
+        "id": "254",
+        "text": "Introducing GPT-4o - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=DQacCB9tDaw",
+        "tag": "#news #technology #video",
+        "time": 1715673008,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=254\">id<\/a>"
+    },
+    {
         "id": "253",
         "text": "Ubuntu 24.04 LTS Noble Numbat now available: Featuring GNOME 46 and Linux kernel 6.8 | AlternativeTo",
         "text2": "",

@@ -992,8 +992,8 @@ return textOrArr.sort(collator.compare);
 // random bg image (background img with random position)
 function fuMBg(val){
 if (conf["confBg"] == 'on'||val == 'on'){
-let mBg = fuMRandomItem("bg.svg bg2.svg bg3.svg bg4.svg bg5.svg bg6.svg");
-let mBgDark = fuMRandomItem("bg-dark.svg bg2-dark.svg bg3-dark.svg bg4-dark.svg bg5-dark.svg bg6-dark.svg");
+let mBg = fuMRandomItem("bg.svg bg2.svg bg3.svg bg4.svg bg5.svg bg6.svg bg7.svg");
+let mBgDark = fuMRandomItem("bg-dark.svg bg2-dark.svg bg3-dark.svg bg4-dark.svg bg5-dark.svg bg6-dark.svg bg7-dark.svg");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'){
