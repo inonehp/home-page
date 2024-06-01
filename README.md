@@ -1,4 +1,4 @@
-<!-- README.md v.1.8.0 -->
+<!-- README.md v.1.8.1 -->
   
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
@@ -8,8 +8,8 @@ A personal start page with projects such as search (redirect), blog, games, to-d
   
 ---
   
-### Download: [Main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
-### URL: [Inonehp.pages.dev](https://inonehp.pages.dev/)  
+### Download: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
+### URL: [inonehp.pages.dev](https://inonehp.pages.dev/)  
   
 ---
   

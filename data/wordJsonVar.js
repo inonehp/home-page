@@ -771,11 +771,6 @@ var wordJsonVar =
         "text3": "cuarzo"
     },
     {
-        "text": "\u043a\u0435\u0431\u0430\u0431",
-        "text2": "kebab",
-        "text3": "kebab"
-    },
-    {
         "text": "\u043a\u0435\u043a\u0441",
         "text2": "cake",
         "text3": "pastel"
@@ -859,11 +854,6 @@ var wordJsonVar =
         "text": "\u043a\u043e\u043d\u0442\u0438\u043d\u0433\u0435\u043d\u0442",
         "text2": "contingent",
         "text3": "contingente"
-    },
-    {
-        "text": "\u043a\u043e\u043d\u0442\u0438\u043d\u0443\u0443\u043c",
-        "text2": "continuum",
-        "text3": "continuo"
     },
     {
         "text": "\u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0435\u0440",
@@ -1931,6 +1921,11 @@ var wordJsonVar =
         "text3": "mesa"
     },
     {
+        "text": "\u0441\u0442\u043e\u044f\u043d\u043a\u0430",
+        "text2": "parking",
+        "text3": "estacionamiento"
+    },
+    {
         "text": "\u0441\u0442\u0440\u0430\u0442\u0435\u0433",
         "text2": "strategist",
         "text3": "el estratega"
@@ -2424,6 +2419,11 @@ var wordJsonVar =
         "text": "\u0448\u043a\u043e\u043b\u0430",
         "text2": "school",
         "text3": "escuela"
+    },
+    {
+        "text": "\u0448\u043b\u0430\u0433\u0431\u0430\u0443\u043c",
+        "text2": "barrier",
+        "text3": "barrera"
     },
     {
         "text": "\u0448\u043c\u0430\u0442",

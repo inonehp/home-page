@@ -3,14 +3,14 @@ var blogJsonVar =
 
 [
     {
-        "id": "255",
-        "text": "Google Keynote (Google I\/O \u201824) - YouTube",
+        "id": "256",
+        "text": "Google I\/O '24 in under 10 minutes - YouTube",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=XEzRZ35urlk",
+        "url": "https:\/\/www.youtube.com\/watch?v=WsEQjeZoEng&t=244s",
         "tag": "#news #technology #video",
-        "time": 1715803074,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=255\">id<\/a>"
+        "time": 1716043906,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=256\">id<\/a>"
     },
     {
         "id": "254",

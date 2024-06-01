@@ -3,6 +3,26 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "147",
+        "text": "Strands: Uncover words. - The New York Times",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.nytimes.com\/games\/strands",
+        "tag": "#game",
+        "time": 1716161292,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=147\">id<\/a>"
+    },
+    {
+        "id": "146",
+        "text": "Quordle",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.merriam-webster.com\/games\/quordle\/#\/",
+        "tag": "#game",
+        "time": 1716161123,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=146\">id<\/a>"
+    },
+    {
         "id": "145",
         "text": "The Movie Database (TMDB)",
         "text2": "",

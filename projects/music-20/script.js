@@ -71,13 +71,12 @@ if(item['time'] != null){ postTime = item['time']; }
 var tagListSingerName = (item['text'].split('-'))[0];
 printTagList += (' ' + tagListSingerName + ' ' + postText2 + ' ' + postText3 + postTag + ' ');
 
-
+let qSearch = "";
 if(q2 != ''){
 //qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
 qSearch = decodeURIComponent(q2);
 qSearch = String(qSearch).toLowerCase();
 }
-qSearch = String(qSearch).toLowerCase();
 
 
 // if tag
@@ -585,7 +584,7 @@ hlClassList += printTag2[0].toLowerCase();
 if(q == tag){
 tagList += `
 
-<a class="tag light border borderRadius2 ${hlClass}" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; color: var(--rC4); font-size: ${tagSize};">${printTag}</a>
+<a class="tag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
 
 `;
 }else{

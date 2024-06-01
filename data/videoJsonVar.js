@@ -120,6 +120,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Al Jolson in \"The Jazz Singer \"(1927) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=G4p2P0m3l3A",
+        "tag": "#video #movie",
+        "time": 1716959540,
+        "rightFooter": ""
+    },
+    {
         "text": "Algiers (1938) Hedy Lamarr | Mystery, Romance Film - YouTube",
         "text2": "",
         "text3": "",
@@ -468,6 +477,15 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=UxULfBGieKk",
         "tag": "#video #movie",
         "time": 1705236954,
+        "rightFooter": ""
+    },
+    {
+        "text": "Classic 20th Century Fox Romantic Drama I Seventh Heaven (1937) I Retrospective - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=uP1I5AhoUQo",
+        "tag": "#video #movie",
+        "time": 1716959435,
         "rightFooter": ""
     },
     {
@@ -1641,6 +1659,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Metropolis (1927) FULL MOVIE - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=W_4no842TX8",
+        "tag": "#video #movie",
+        "time": 1716959356,
+        "rightFooter": ""
+    },
+    {
         "text": "Millie (1931) Drama, Romance Pre Code Film - YouTube",
         "text2": "",
         "text3": "",
@@ -2601,15 +2628,6 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=WDATL2zpj6k",
         "tag": "#video #movie",
         "time": 1688532586,
-        "rightFooter": ""
-    },
-    {
-        "text": "The Capture (1950) | Western | Lew Ayres, Teresa Wright, Victor Jory - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=7_-9AdPxJsg",
-        "tag": "#video #movie #western",
-        "time": 1684802142,
         "rightFooter": ""
     },
     {

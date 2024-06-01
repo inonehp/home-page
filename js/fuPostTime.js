@@ -1,4 +1,4 @@
-/* v.1.2.0 */
+/* v.1.2.1 */
 // https://stackoverflow.com/questions/13903897/javascript-return-number-of-days-hours-minutes-seconds-between-two-dates
 
 // Time  post date
@@ -45,8 +45,11 @@ time = month+' month ';
 time = days+' day ';
 } else if(hours > 0){
 time = hours+' hour ';
-} else if (minutes > 0) { time = minutes+' minute '; }
-else { time = checkTime(Math.floor(seconds))+' second '; }
+} else if (minutes > 0) {
+time = minutes+' minute ';
+} else {
+time = checkTime(Math.floor(seconds))+' second ';
+}
 
 return time + ' ago';
 //document.getElementById("time").innerHTML = '&nbsp;'+time+'&nbsp;';

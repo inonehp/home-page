@@ -1,4 +1,4 @@
-// Search redirects v.2.0.8
+// Search redirects v.2.0.11
 // Mini Google
 // The script redirects the search query + command.
 
@@ -631,7 +631,7 @@ let wordpress = (q.replaceAll("%20", ' ')).trim();
 let medium = (q.replaceAll("%20", '-')).trim();
 
 urlList = [
-"https://twitter.com/search?q=" + q,
+"https://x.com/search?q=" + q,
 "https://bsky.app/search?q=" + q,
 "https://wordpress.com/tag/" + wordpress,
 "https://medium.com/tag/" + medium,
@@ -639,7 +639,7 @@ urlList = [
 
 if (q == ''){
 urlList = [
-"https://twitter.com/",
+"https://x.com/",
 "https://bsky.app/",
 "https://wordpress.com/",
 "https://medium.com/",
@@ -788,6 +788,27 @@ url = random;
 sRedirectUrl = url;
 break;
 
+case 'w#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+
+urlList = [
+"https://www.google.com/search?q="+ q + "&udm=14",
+//"https://www.bing.com/search?q="+ q,
+//"?q=" + q + " o",
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/",
+//"https://www.bing.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
 case 'q#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -808,7 +829,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 default:
 q = encodeURIComponent(q);
@@ -876,7 +896,7 @@ let allowUrlList = [
 "spotify.com",
 "tunein.com",
 "twitch.tv",
-"twitter.com",
+"x.com",
 "vimeo.com",
 "wordpress.com",
 "x.com",
@@ -932,7 +952,7 @@ print = `
 
 <div class="tCenter bg border borderRadius2">
 <div class="margin padding3 bgList op">${sTimeRedirectStatus}</div>
-<div class="margin padding3 bgList border brand borderRadius2"><a class="inlineBlock padding brand" href="${rUrlGet}"><span id="printTextUrl"</a></div>
+<div class="margin padding3 bgList border brand borderRadius2"><a class="inlineBlock padding brand break2" href="${rUrlGet}"><span id="printTextUrl" class="break2"></span></a></div>
 </div>
 
 `;

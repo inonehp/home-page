@@ -1110,15 +1110,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Live Smooth Chill | 192.2K Favorites | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/Smooth-Chill-s53084\/",
-        "tag": "#radio #RadioMusic #chill #code #coding",
-        "time": 1700037080,
-        "rightFooter": ""
-    },
-    {
         "text": "Live Soft Radio | 1.6K Favorites | TuneIn",
         "text2": "",
         "text3": "",
@@ -1278,15 +1269,6 @@ var radioJsonVar =
         "url": "https:\/\/radio.nme.com\/",
         "tag": "#radio #RadioMusic #indie",
         "time": 1683383003,
-        "rightFooter": ""
-    },
-    {
-        "text": "Nova FM",
-        "text2": "http:\/\/streaming04.liveboxstream.uk\/proxy\/novafm?mp=\/stream",
-        "text3": "mp3",
-        "url": "https:\/\/novafm.co.uk\/",
-        "tag": "#radio #RadioMusic #top40 #PopMusic",
-        "time": 1683354196,
         "rightFooter": ""
     },
     {
