@@ -3,6 +3,16 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "148",
+        "text": "Inflection",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/inflection.ai\/",
+        "tag": "#nice #website",
+        "time": 1717749408,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=148\">id<\/a>"
+    },
+    {
         "id": "147",
         "text": "Strands: Uncover words. - The New York Times",
         "text2": "",
@@ -1301,16 +1311,6 @@ var bookmarksJsonVar =
         "tag": "#SocialNetwork #platform",
         "time": 1705741055,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=9\">id<\/a>"
-    },
-    {
-        "id": "8",
-        "text": "The Verge",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.theverge.com\/",
-        "tag": "#news #tech #technology",
-        "time": 1705740361,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=8\">id<\/a>"
     },
     {
         "id": "7",

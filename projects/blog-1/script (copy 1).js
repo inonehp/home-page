@@ -1,4 +1,4 @@
-// Keep or blog v.2.5.1
+// Keep or blog v.2.4.0
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -1007,8 +1007,8 @@ if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably 
 
 
 
-/*
-// search 4, s4 symbol
+
+// search 4, symbol
 if (mode == 'search'&&comMessage != 'found'){
 comMessagePrint = '';
 
@@ -1126,8 +1126,7 @@ if (comMessage == 'found'){ comMessagePrint = `${q} (s4: ${subQ}) ${i}`; }
 }
 
 if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
-// search 4, s4
-*/
+// end search 4
 
 
 
@@ -1135,15 +1134,14 @@ if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably 
 
 
 
-let blogStyle = "";
 
 
-if (display == 'gallery'){
-if (mode == 'list'&&total != 1||mode == 'search'&&total != 1){
-blogStyle = `
+
+if (display == 'gallery'&&mode == 'list'&&total != 1||display == 'gallery'&&mode == 'search'&&total != 1){
+printPost = `
 
 <style>
-.blogContent {
+.blogContentGallery {
 display: grid;
 width: 100%;
 /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
@@ -1159,70 +1157,25 @@ justify-content: space-evenly;
 
 .postFooter { grid-template-columns: 1fr; }
 
-@media(max-width: 220px) { .blogContent { display: block; width: 100%; }}
+@media(max-width: 220px) { .blogContentGallery { display: block; width: 100%; }}
 </style>
 
-`;
+<div class="wrapper3">
 
+<div class="blogContentGallery">` + printPost + `</div>
+
+</div>
+
+`;
 } else if (display == 'gallery'){
-blogStyle = ``;
-}
-}
-
-if (display == 'galleryStretch'){
-if (mode == 'list'&&total != 1||mode == 'search'&&total != 1){
-blogStyle = `
-
-<style>
-.blogContent {
-display: flex;
-flex: 1 0 auto;
-flex-wrap: wrap;
-grid-gap: 0;
-
-justify-content: center;
-max-width: 100%;
-margin: 0 auto;
-}
-
-.blogContent .post {
-display: flex;
-flex: 1 0 auto;
-flex-basis: auto;
-flex-direction: column;
-min-height: 100%; 
-
-width: auto;
-min-width: 100px;
-min-width: 45px;
-max-width: 100%;
-max-width: 184px;
-margin: 3px;
-}
-
-.postFooter { grid-template-columns: 1fr; }
-
-@media(max-width: 220px) { .blogContent { display: block; width: 100%; }}
-
-</style>
-
-`;
-
-} else if (display == 'galleryStrech'){
-blogStyle = ``;
-}
-}
-
-
-printPost = blogStyle + printPost;
-
-
-/*} else if (display == 'gallery'){
 printPost = `
 <div class="wrapperL">` + printPost + `</div>
 `;
-}*/ 
-
+} else {
+printPost = `
+<div>`+printPost+`</div>
+`;
+}
 
 print = print + `
 
@@ -1234,6 +1187,9 @@ print = print + `
 
 // tagList and nav print
 if (tagListStatus != 'off'){
+
+
+
 
 
 //if(com != 'search'){ print += `<div class=" ${otherClass} ">`+ blogNav(mode) +`</div>`; }

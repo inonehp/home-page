@@ -1,4 +1,4 @@
-// Search redirects v.2.0.11
+// Search redirects v.2.0.14
 // Mini Google
 // The script redirects the search query + command.
 
@@ -297,7 +297,6 @@ urlList = [
 "https://news.google.com/",
 "https://www.bing.com/news/",
 "https://flipboard.com/topic/news",
-"https://news.yahoo.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -317,12 +316,10 @@ if (q == ''){
 urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
 "https://www.bing.com/news/search?q=Technology",
-"https://www.yahoo.com/tech/",
 "https://slashdot.org/",
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
 "https://www.reddit.com/r/technology/",
-"https://finance.yahoo.com/tech/",
 //"https://substack.com/browse/technology",
 ];
 
@@ -353,9 +350,7 @@ urlList = [
 "https://flipboard.com/topic/science",
 "https://science.slashdot.org/",
 
-"https://www.yahoo.com/news/science/",
 "https://www.reddit.com/r/science/",
-"https://news.yahoo.com/science/",
 "https://medium.com/tag/science",
 ];
 
@@ -387,10 +382,6 @@ urlList = [
 "https://www.reddit.com/r/pics/",
 
 //"https://www.bing.com/news/search?q=Entertainment",
-
-"https://finance.yahoo.com/",
-"https://www.yahoo.com/entertainment/",
-"https://www.yahoo.com/lifestyle/",
 
 //"https://www.bing.com/news/search?q=Business",
 "https://www.google.com/finance/",
@@ -441,9 +432,8 @@ urlList = [
 
 if (q == ''){
 urlList = [
-//"https://sports.yahoo.com/",
-//"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
-//"https://www.bing.com/news/search?q=Sports",
+"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
+"https://www.bing.com/news/search?q=Sports",
 "https://www.reddit.com/r/sports/",
 ];
 
@@ -465,10 +455,7 @@ urlList = [
 
 if (q == ''){
 urlList = [
-"https://www.reddit.com/r/programming/",
-"https://www.reddit.com/r/learnprogramming/",
 "https://www.reddit.com/r/webdev/",
-"https://www.reddit.com/r/web_design/",
 "https://dev.to/",
 "https://hashnode.com/community",
 //"https://stackoverflow.com/",
@@ -632,8 +619,11 @@ let medium = (q.replaceAll("%20", '-')).trim();
 
 urlList = [
 "https://x.com/search?q=" + q,
+"https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:w",
+//"https://www.google.com/search?q=" + q + " site:https://blogspot.com/&newwindow=1&tbs=qdr:w",
 "https://bsky.app/search?q=" + q,
 "https://wordpress.com/tag/" + wordpress,
+"https://wordpress.com/search?q=", + q,
 "https://medium.com/tag/" + medium,
 ];
 
@@ -744,22 +734,15 @@ urlList = [
 "https://www.bing.com/search?q=" + q,
 "https://www.perplexity.ai/search/?q=" + q,
 "https://www.mojeek.com/search?q=" + q,
-
-"https://you.com/search?q=" + q,
-"https://search.yahoo.com/search?q=" + q,
-"https://duckduckgo.com/?q=" + q,
 "https://www.ecosia.org/search?q=" + q,
 ];
 
 if (q == ''){
 urlList = [
 "https://www.bing.com/",
+"https://www.perplexity.ai/",
 "https://www.mojeek.com/",
-
-"https://search.yahoo.com/",
-"https://duckduckgo.com/",
 "https://www.ecosia.org/",
-"https://you.com/",
 ];
 }
 

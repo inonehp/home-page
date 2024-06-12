@@ -938,7 +938,7 @@ function fuReload(){ console.log("renameme to: fuMReload"); location.reload(true
 function reload(){ console.log("renameme to: fuMReload"); location.reload(true); }
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-function fuMRandom(min, max) {
+function fuMRandom(min, max){
 //return Math.round(Math.random() * (max - min) + min);
 const minCeiled = Math.ceil(min);
 const maxFloored = Math.floor(max);

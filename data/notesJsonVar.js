@@ -3,9 +3,79 @@ var notesJsonVar =
 
 [
     {
+        "id": "40",
+        "text": "Document: DOMContentLoaded event - Web APIs | MDN",
+        "text2": "addEventListener(\"DOMContentLoaded\", (event) => {});",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/DOMContentLoaded_event",
+        "tag": "#code #JS",
+        "time": 1717668413,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=40\">id<\/a>"
+    },
+    {
+        "id": "39",
+        "text": "How To Add a Class Name",
+        "text2": "function myFunction() {\r\n  var element = document.getElementById(\"myDIV\");\r\n  element.classList.add(\"mystyle\");\r\n}",
+        "text3": "",
+        "url": "https:\/\/www.w3schools.com\/howto\/howto_js_add_class.asp",
+        "tag": "#JavaScript #coding #code",
+        "time": 1717666815,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=39\">id<\/a>"
+    },
+    {
+        "id": "38",
+        "text": "do...while - JavaScript | MDN",
+        "text2": "let result = '';\r\nlet i = 0;\r\n\r\ndo {\r\n  i = i + 1;\r\n  result = result + i;\r\n} while (i < 5);\r\n\r\nconsole.log(result);\r\n\/\/ Expected output: \"12345\"\r\n\r\n===",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Statements\/do...while",
+        "tag": "#code #coding #JavaScript",
+        "time": 1717663309,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=38\">id<\/a>"
+    },
+    {
+        "id": "37",
+        "text": ":root - CSS: Cascading Style Sheets | MDN",
+        "text2": "\/* Selects the root element of the document:\r\n   <html> in the case of HTML *\/\r\n:root {\r\n  background: yellow;\r\n}\r\n\r\n===\r\n\r\n:root {\r\n  --main-color: hotpink;\r\n  --pane-padding: 5px 42px;\r\n}",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/:root",
+        "tag": "#code #CSS",
+        "time": 1717661687,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=37\">id<\/a>"
+    },
+    {
+        "id": "36",
+        "text": "Python For Loops",
+        "text2": "fruits = [\"apple\", \"banana\", \"cherry\"]\r\nfor x in fruits:\r\n  print(x)\r\n\r\n===\r\n\r\nfruits = [\"apple\", \"banana\", \"cherry\"]\r\nfor x in fruits:\r\n  print(x)\r\n  if x == \"banana\":\r\n    break\r\n\r\n===\r\nfruits = [\"apple\", \"banana\", \"cherry\"]\r\nfor x in fruits:\r\n  if x == \"banana\":\r\n    break\r\n  print(x)",
+        "text3": "",
+        "url": "https:\/\/www.w3schools.com\/python\/python_for_loops.asp",
+        "tag": "#coding #python",
+        "time": 1717650888,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=36\">id<\/a>"
+    },
+    {
+        "id": "35",
+        "text": "Python Functions",
+        "text2": "def my_function(fname):\r\n  print(fname + \" Refsnes\")\r\n\r\nmy_function(\"Emil\")\r\nmy_function(\"Tobias\")\r\nmy_function(\"Linus\")",
+        "text3": "",
+        "url": "https:\/\/www.w3schools.com\/python\/python_functions.asp",
+        "tag": "#coding #python",
+        "time": 1717650246,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=35\">id<\/a>"
+    },
+    {
+        "id": "34",
+        "text": "Function - JavaScript | MDN",
+        "text2": "\/\/ Create a global property with `var`\r\nvar x = 10;\r\n\r\nfunction createFunction1() {\r\n  const x = 20;\r\n  return new Function(\"return x;\"); \/\/ this `x` refers to global `x`\r\n}\r\n\r\nfunction createFunction2() {\r\n  const x = 20;\r\n  function f() {\r\n    return x; \/\/ this `x` refers to the local `x` above\r\n  }\r\n  return f;\r\n}\r\n\r\nconst f1 = createFunction1();\r\nconsole.log(f1()); \/\/ 10\r\nconst f2 = createFunction2();\r\nconsole.log(f2()); \/\/ 20",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Function",
+        "tag": "#JavaScript #JS #code #coding",
+        "time": 1717643982,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=34\">id<\/a>"
+    },
+    {
         "id": "33",
         "text": "if...else - JavaScript | MDN",
-        "text2": "function testNum(a) {\r\n  let result;\r\n  if (a > 0) {\r\n    result = 'positive';\r\n  } else {\r\n    result = 'NOT positive';\r\n  }\r\n  return result;\r\n}\r\n\r\nconsole.log(testNum(-5));\r\n\/\/ Expected output: \"NOT positive\"",
+        "text2": "function testNum(a) {\r\n  let result;\r\n  if (a > 0) {\r\n    result = 'positive';\r\n  } else {\r\n    result = 'NOT positive';\r\n  }\r\n  return result;\r\n}\r\n\r\nconsole.log(testNum(-5));\r\n\/\/ Expected output: \"NOT positive\"\r\n\r\n===\r\n\r\nx = y;\r\nif (x) {\r\n  \/\/ \u2026\r\n}",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Statements\/if...else",
         "tag": "#code #JavaScript",
@@ -225,7 +295,7 @@ var notesJsonVar =
     {
         "id": "9",
         "text": "Web Design notes",
-        "text2": "Notes:\r\n=====\r\n\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n- Spaces in JavaScript for if and else\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)",
+        "text2": "Notes:\r\n=====\r\n\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n- Spaces in JavaScript for if and else\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)\r\n\r\nJavaScript\r\nclassList - added class with delay, use style",
         "text3": "",
         "url": "",
         "tag": "#WebDesign #notes",

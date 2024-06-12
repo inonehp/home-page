@@ -3,6 +3,36 @@ var agicountdownJsonVar =
 
 [
     {
+        "id": "25",
+        "text": "A researcher fired by OpenAI published a 165-page essay on what to expect from AI in the next decade. We asked GPT-4 to summarize it.",
+        "text2": "2027",
+        "text3": "",
+        "url": "https:\/\/www.yahoo.com\/tech\/researcher-fired-openai-published-165-184227878.html",
+        "tag": "#article #single",
+        "time": 1717975162,
+        "rightFooter": ""
+    },
+    {
+        "id": "23",
+        "text": "AGI Is Coming Fast, Needs Some 'Reasonable Limits:' OpenAI Cofounder - Business Insider",
+        "text2": "2027",
+        "text3": "",
+        "url": "https:\/\/www.businessinsider.com\/openai-cofounder-agi-coming-fast-needs-limits-john-schulman-2024-5",
+        "tag": "#news #article #single",
+        "time": 1717334987,
+        "rightFooter": ""
+    },
+    {
+        "id": "22",
+        "text": "Elon Musk Predicts Artificial General Intelligence In 2 Years. Here\u2019s Why That\u2019s Hype",
+        "text2": "2026",
+        "text3": "",
+        "url": "https:\/\/www.forbes.com\/sites\/ericsiegel\/2024\/04\/10\/artificial-general-intelligence-is-pure-hype\/",
+        "tag": "#news #article #single",
+        "time": 1717327828,
+        "rightFooter": ""
+    },
+    {
         "id": "21",
         "text": "AI timelines: What do experts in artificial intelligence expect for the future? - Our World in Data",
         "text2": "2061 2050",

@@ -1,4 +1,5 @@
-// Typing Speed Test and game v.3.16.3
+// Typing Speed Test and game v.3.15.21
+
 
 
 
@@ -7,12 +8,8 @@ function mainAll(mode33){
 const wmpAverageLimit = 30;
 const wordLengthLimit = 5.1;
 const allowError = 20;
-const whenTypeProgress = 300;
 
 //const mostCommonWordsLimit = 20;
-
-var typeProgress = [];
-typeProgress[0] = 1;
 
 var topWords = '';
 //https://catalins.tech/store-array-in-localstorage/
@@ -123,7 +120,7 @@ main(task);
 if (mode == 'book'||mode == 'b2'){
 
 var book = '';
-var bookLength = 500;
+var bookLength = 1000;
 
 
 book = bookJsonVar;
@@ -1024,9 +1021,7 @@ let winMsg = `
 <span class="normal" title="Current accuracy, total"><span class="medium">Accuracy: <span>${acurancyTotal}</span>%</span> ${acurancyProgress}</span>
 <div class="padding2"></div>
 </div>
-</div>
-
-`;
+</div>`;
 
 
 document.getElementsByClassName("win")[0].innerHTML = winMsg;
@@ -1041,13 +1036,6 @@ document.getElementById("sound").innerHTML = '';
 
 
 document.getElementById('countSymbolTask').innerHTML = 'task: ' + task.length + ' input: '+answerArr.length + '';
-
-
-if(document.getElementById("typeProgress") != null&&task.length >= whenTypeProgress){
-document.getElementById("typeProgress").style.display = "block";
-document.getElementById("typeProgress").max = task.length;
-document.getElementById("typeProgress").value = answerArr.length;
-}
 
 }
 
@@ -1140,11 +1128,10 @@ document.getElementById("topWords").innerHTML =
 
 
 
-if(document.getElementById("typeProgress") != null&&task.length <= whenTypeProgress){
-document.getElementById("typeProgress").style.display = "none";
-}
 
 }
+
+
 
 
 
@@ -1180,7 +1167,7 @@ function localRefresh(mode){
 mainAll(mode);
 }
 
-mainAll("");
+mainAll('');
 
 
 

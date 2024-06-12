@@ -217,6 +217,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/games\/spin-wheel-69\/index.html",
+        "text": "Spin Wheel\n\nSpin wheel | spin wheel: ",
+        "tag": " #spin #wheel #game #CSS #JavaScript #project",
+        "id": "7533e93ab2f7cb5f8fb2d1d8a7c89c62",
+        "time": "id"
+    },
+    {
         "url": "\/games\/tic-tac-toe-13\/index.html",
         "text": "Tic Tac Toe\n\nGame tic-tac-toe. | tic tac toe: ",
         "tag": " #game #tic #tac #toe #HTML5 #JavaScript #JavaScript #project",

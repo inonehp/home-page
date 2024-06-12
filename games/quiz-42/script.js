@@ -1,4 +1,4 @@
-// Quiz v.2.0.1
+// Quiz v.2.0.2
 
 var jsonVar = quizJsonVar;
 
@@ -247,7 +247,7 @@ let qPrint = `
 <div class="block padding2"></div>
 
 <label for="round" class="xSmall">Rounds ${quizConfRound}:</label>
-<progress id="round" min="0" max="${quizConfRound}" value="${quizProgressRound[0] }">${quizProgressRound[0] }</progress>
+<progress id="round" min="0" max="${quizConfRound}" value="${quizProgressRound[0]}">${quizProgressRound[0] }</progress>
 
 <div class="submit small op" onclick="quizMain('next')">next</div>
 

@@ -3,6 +3,16 @@ var blogJsonVar =
 
 [
     {
+        "id": "257",
+        "text": "Apple Intelligence in 5 minutes - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Q_EYoV1kZWk",
+        "tag": "#technology #news #video",
+        "time": 1718159723,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=257\">id<\/a>"
+    },
+    {
         "id": "256",
         "text": "Google I\/O '24 in under 10 minutes - YouTube",
         "text2": "",
@@ -73,26 +83,6 @@ var blogJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=248\">id<\/a>"
     },
     {
-        "id": "247",
-        "text": "Google Podcasts\u2019 time is almost up. - The Verge",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.theverge.com\/2024\/3\/30\/24116690\/the-google-podcasts-apps-time-is-almost-up",
-        "tag": "#news #technology",
-        "time": 1711914128,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=247\">id<\/a>"
-    },
-    {
-        "id": "244",
-        "text": "Reddit\u2019s stock price nearly doubled in its first day as a public company. - The Verge",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.theverge.com\/2024\/3\/21\/24108157\/reddits-stock-price-nearly-doubled-in-its-first-day-as-a-public-company",
-        "tag": "#news #technology",
-        "time": 1711087981,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=244\">id<\/a>"
-    },
-    {
         "id": "242",
         "text": "PianoVision Film - YouTube",
         "text2": "",
@@ -103,16 +93,6 @@ var blogJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=242\">id<\/a>"
     },
     {
-        "id": "241",
-        "text": "Grok goes open-source. - The Verge",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.theverge.com\/2024\/3\/17\/24104391\/grok-goes-open-source",
-        "tag": "#news #technology",
-        "time": 1710832944,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=241\">id<\/a>"
-    },
-    {
         "id": "240",
         "text": "5 Exciting New JavaScript Features in 2024",
         "text2": "",
@@ -121,16 +101,6 @@ var blogJsonVar =
         "tag": "#WebDevelopment #programming",
         "time": 1710784688,
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=240\">id<\/a>"
-    },
-    {
-        "id": "239",
-        "text": "Apple\u2019s AI ambitions could include Google or OpenAI - The Verge",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.theverge.com\/2024\/3\/18\/24104626\/apple-license-google-gemini-generative-ai-openai-chatgpt",
-        "tag": "#news #technology",
-        "time": 1710776493,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=239\">id<\/a>"
     },
     {
         "id": "238",
@@ -291,16 +261,6 @@ var blogJsonVar =
         "tag": "#video #technology",
         "time": 1706050482,
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=221\">id<\/a>"
-    },
-    {
-        "id": "220",
-        "text": "Behold, the most (intentionally) poorly designed website ever created | Ars Technica",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/arstechnica.com\/gadgets\/2019\/07\/behold-the-most-intentionally-poorly-designed-website-ever-created\/",
-        "tag": "#WebDesign",
-        "time": 1706030201,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=220\">id<\/a>"
     },
     {
         "id": "218",
