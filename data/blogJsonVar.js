@@ -17,7 +17,7 @@ var blogJsonVar =
         "text": "Google I\/O '24 in under 10 minutes - YouTube",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=WsEQjeZoEng&t=244s",
+        "url": "https:\/\/www.youtube.com\/watch?v=WsEQjeZoEng",
         "tag": "#news #technology #video",
         "time": 1716043906,
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=256\">id<\/a>"
