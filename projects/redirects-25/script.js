@@ -1,4 +1,4 @@
-// Search redirects v.2.0.14
+// Search redirects v.2.0.17
 // Mini Google
 // The script redirects the search query + command.
 
@@ -62,12 +62,24 @@ if (q == ''&&q != 'null'){ q = 'q'; }
 
 if (rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") == -1){
 
+
 q = q.trim();
+
+// first letter command
+if (q[0] + q[1] == 'q '){
+q = q.slice(2);
+q = q;
+}
+
+if (q[0] + q[1] == 'a '){
+q = q.slice(2);
+q = q + " a";
+}
+// end first letter command
+
 //q = q.replace(/%([^\d].)/, "%25$1");
 /*q = q.replaceAll(/%/g, "%25");
 q = decodeURIComponent(q);*/
-
-
 
 if (q.slice(-2) == 'ls'||q.slice(-2) == 'rs'){
 sTimeRedirect = 2000;
@@ -411,7 +423,8 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://gemini.google.com/",
-"https://copilot.microsoft.com/",
+//"https://copilot.microsoft.com/",
+"https://www.bing.com/copilot",
 //"https://chatgpt.com/",
 "https://www.perplexity.ai/",
 ];
@@ -621,7 +634,7 @@ urlList = [
 "https://x.com/search?q=" + q,
 "https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:w",
 //"https://www.google.com/search?q=" + q + " site:https://blogspot.com/&newwindow=1&tbs=qdr:w",
-"https://bsky.app/search?q=" + q,
+//"https://bsky.app/search?q=" + q,
 "https://wordpress.com/tag/" + wordpress,
 "https://wordpress.com/search?q=", + q,
 "https://medium.com/tag/" + medium,
@@ -630,7 +643,7 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://x.com/",
-"https://bsky.app/",
+//"https://bsky.app/",
 "https://wordpress.com/",
 "https://medium.com/",
 ];
@@ -785,6 +798,24 @@ if (q == ''){
 urlList = [
 "https://www.google.com/",
 //"https://www.bing.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+case 'a#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+
+urlList = [
+"/projects/assistant-67/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"/projects/assistant-67/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

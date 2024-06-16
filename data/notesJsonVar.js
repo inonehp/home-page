@@ -295,7 +295,7 @@ var notesJsonVar =
     {
         "id": "9",
         "text": "Web Design notes",
-        "text2": "Notes:\r\n=====\r\n\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n- Spaces in JavaScript for if and else\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)\r\n\r\nJavaScript\r\nclassList - added class with delay, use style",
+        "text2": "Notes:\r\n=====\r\n\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n- Spaces in JavaScript for if and else\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)",
         "text3": "",
         "url": "",
         "tag": "#WebDesign #notes",

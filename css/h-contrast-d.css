@@ -42,9 +42,11 @@ html{ scrollbar-color: var(--d2) var(--l4); }
 .op, .op:hover, .op2, .op2:hover { opacity: 1; }
 placaholder { color: var(--c); }
 
-.shadow { border: 1px solid #000;  box-shadow: none; }
-.shadow2 { border: 3px solid #000;  box-shadow: none; }
-
-
+/*.shadow, .shadow3 { border: 1px solid var(--c);  box-shadow: none; }
+.shadow2, .shadow4 { border: 3px solid var(--c);  box-shadow: none; }*/
+.shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.62), 0 1px 2px rgba(0,0,0,0.74); }
+.shadow2 { box-shadow: 0 3px 5px rgba(0,0,0,0.62), 0 3px 4px rgba(0,0,0,0.74); }
+.shadow3 { box-shadow: 0 0 3px rgba(0,0,0,0.62), 0 0 2px rgba(0,0,0,0.74); }
+.shadow4 { box-shadow: 0 0 5px rgba(0,0,0,0.62), 0 0 4px rgba(0,0,0,0.74); }
 
 

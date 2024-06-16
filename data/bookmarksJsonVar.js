@@ -443,16 +443,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=102\">id<\/a>"
     },
     {
-        "id": "101",
-        "text": "PlayCSS - Daily challenges to test and improve your skills with fun",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/playcss.app\/",
-        "tag": "#website #nice #dev #challenge",
-        "time": 1707262937,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=101\">id<\/a>"
-    },
-    {
         "id": "100",
         "text": "Dare to Share",
         "text2": "",

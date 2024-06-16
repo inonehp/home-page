@@ -1,4 +1,4 @@
-// Keep or blog v.2.5.1
+// Keep or blog v.2.5.2
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -227,6 +227,7 @@ mode = mode.trim();
 
 
 if (q != null){
+
 if (q[q.length - 2] == ' '&&q[q.length - 1] == 'l'){ q = q.slice(0, -2); q2 = 'l'; }
 if (q[q.length - 2] == ' '&&q[q.length - 1] == 'r'){ q = q.slice(0, -2); q2 = 'r'; }
 
@@ -237,6 +238,33 @@ q = encodeURIComponent(q);
 window.location.href = "/projects/redirects-25/?q=" + q;
 window.location.href = window.location.href + '#stopRedir'; 
 }
+
+if (q[q.length - 2] == ' '&&q[q.length - 1] == 'a'){
+q = q.slice(0, -2);
+q = q.trim();
+q = encodeURIComponent(q);
+window.location.href = "/projects/redirects-25/?q=" + q + " a";
+window.location.href = window.location.href + '#stopRedir'; 
+}
+
+// first letters
+if (q[0] + q[1] == 'q '){
+q = q.slice(2);
+q = q.trim();
+q = encodeURIComponent(q);
+window.location.href = "/projects/redirects-25/?q=" + q;
+window.location.href = window.location.href + '#stopRedir'; 
+}
+
+if (q[0] + q[1] == 'a '){
+q = q.slice(2);
+q = q.trim();
+q = encodeURIComponent(q);
+window.location.href = "/projects/redirects-25/?q=" + q + " a";
+window.location.href = window.location.href + '#stopRedir'; 
+}
+// end first letters
+
 }
 
 var id = url.searchParams.get("id");
@@ -1196,7 +1224,7 @@ width: auto;
 min-width: 100px;
 min-width: 45px;
 max-width: 100%;
-max-width: 184px;
+max-width: 215px;
 margin: 3px;
 }
 

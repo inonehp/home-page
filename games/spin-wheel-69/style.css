@@ -1,12 +1,11 @@
-/* v.1.0.0 */
+/* v.1.1.2 */
 
 :root {
---spinWidth: 340px;
+--spinWidth: 320px;
 }
 
 .spinWheel {
 
-border: 10px dotted var(--d3);
 background: var(--l);
 display: flex;
 align-items: center;
@@ -14,13 +13,10 @@ align-self: center;
 text-align: center;
 width: var(--spinWidth);
 aspect-ratio: 1 / 1;
-max-width: 100%;
+max-width: calc(100% - 50px);
 border-radius: 50%;
 
 margin: 0 auto;
-
-transition-duration: 0.8s;
-transition-property: transform;
 
 position: relative;
 }
@@ -56,27 +52,46 @@ display: flex;
 left: 0;
 width: 100%;
 height: calc(var(--spinWidth) / 4);
-border: 1px solid red;
+border: 1px solid var(--d);
 
 align-items: center;
 align-self: center;
-text-align: left;
+text-align: center;
+
+padding-right: calc(50% + 50px);
+
+font-size: large;
+font-weight: bold;
+padding: 9px;
 }
 
 .spinArrow {
 position: relative;
-
-display: flex;
-left: calc(50% - var(--spinWidth) / 2 - 55px);
+display: block;
+left: calc(50% - (var(--spinWidth) / 2) - 50px);
 top: calc(var(--spinWidth) / 2 + 20px);
+width: 55px;
 
-width: 45px;
-border: 1px solid red;
+align-items: center;
+align-self: center;
+text-align: right;
 
 padding: 10px;
-text-align: right;
+z-index: 2;
+}
+
+@media(max-width: 370px) {
+.spinArrow { display: none; }
+}
+
+@media(max-width: 300px) {
+.spinNumber { font-size: small; }
+.spinStart {
+font-size: x-small;
+}
 }
 
 
-
-
+@media(max-width: 200px) {
+.spinNumber { font-size: small; }
+}

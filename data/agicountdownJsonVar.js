@@ -3,36 +3,6 @@ var agicountdownJsonVar =
 
 [
     {
-        "id": "25",
-        "text": "A researcher fired by OpenAI published a 165-page essay on what to expect from AI in the next decade. We asked GPT-4 to summarize it.",
-        "text2": "2027",
-        "text3": "",
-        "url": "https:\/\/www.yahoo.com\/tech\/researcher-fired-openai-published-165-184227878.html",
-        "tag": "#article #single",
-        "time": 1717975162,
-        "rightFooter": ""
-    },
-    {
-        "id": "23",
-        "text": "AGI Is Coming Fast, Needs Some 'Reasonable Limits:' OpenAI Cofounder - Business Insider",
-        "text2": "2027",
-        "text3": "",
-        "url": "https:\/\/www.businessinsider.com\/openai-cofounder-agi-coming-fast-needs-limits-john-schulman-2024-5",
-        "tag": "#news #article #single",
-        "time": 1717334987,
-        "rightFooter": ""
-    },
-    {
-        "id": "22",
-        "text": "Elon Musk Predicts Artificial General Intelligence In 2 Years. Here\u2019s Why That\u2019s Hype",
-        "text2": "2026",
-        "text3": "",
-        "url": "https:\/\/www.forbes.com\/sites\/ericsiegel\/2024\/04\/10\/artificial-general-intelligence-is-pure-hype\/",
-        "tag": "#news #article #single",
-        "time": 1717327828,
-        "rightFooter": ""
-    },
-    {
         "id": "21",
         "text": "AI timelines: What do experts in artificial intelligence expect for the future? - Our World in Data",
         "text2": "2061 2050",
@@ -40,16 +10,6 @@ var agicountdownJsonVar =
         "url": "https:\/\/ourworldindata.org\/ai-timelines",
         "tag": "#article #statistics #poll",
         "time": 1715319017,
-        "rightFooter": ""
-    },
-    {
-        "id": "20",
-        "text": "Google AI Chief Says There\u2019s a 50% Chance We\u2019ll Hit AGI in Just 5 Years",
-        "text2": "2028",
-        "text3": "",
-        "url": "https:\/\/futurism.com\/google-deepmind-agi-5-years",
-        "tag": "#article",
-        "time": 1715314944,
         "rightFooter": ""
     },
     {
@@ -113,26 +73,6 @@ var agicountdownJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "11",
-        "text": "Elon Musk predicts AI will likely be smarter than 'all humans combined' by 2029 | Fox Business",
-        "text2": "2029",
-        "text3": "",
-        "url": "https:\/\/www.foxbusiness.com\/media\/elon-musk-predicts-ai-will-likely-smarter-all-humans-combined-2029",
-        "tag": "#single #news",
-        "time": 1710871618,
-        "rightFooter": ""
-    },
-    {
-        "id": "10",
-        "text": "Nvidia\u00a0CEO predicts when AI could pass human tests as chip maker hits $2T milestone",
-        "text2": "2029",
-        "text3": "",
-        "url": "https:\/\/nypost.com\/2024\/03\/01\/business\/nvidia-ceo-predicts-when-ai-could-pass-human-tests-as-chip-maker-hits-2t-milestone\/",
-        "tag": "#single #news",
-        "time": 1710871384,
-        "rightFooter": ""
-    },
-    {
         "id": "9",
         "text": "SkyNet | Terminator Wiki | Fandom",
         "text2": "1997",
@@ -153,16 +93,6 @@ var agicountdownJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "7",
-        "text": "When Might AI Outsmart Us? It Depends Who You Ask | TIME",
-        "text2": "1980 - Book author\r\n2028 - DeepMind  co-founder",
-        "text3": "",
-        "url": "https:\/\/time.com\/6556168\/when-ai-outsmart-humans\/",
-        "tag": "#single #news",
-        "time": 1710862908,
-        "rightFooter": ""
-    },
-    {
         "id": "6",
         "text": "Ray Kurzweil is sticking to his long-held predictions: 2029 for AGI and 2045 for the singularity : r\/singularity",
         "text2": "2029",
@@ -175,7 +105,7 @@ var agicountdownJsonVar =
     {
         "id": "5",
         "text": "Date of Artificial General Intelligence | Metaculus",
-        "text2": "2032",
+        "text2": "2031",
         "text3": "",
         "url": "https:\/\/www.metaculus.com\/questions\/5121\/date-of-artificial-general-intelligence\/",
         "tag": "#group #poll #statistics",

@@ -25,7 +25,7 @@ return random;
 var colorPlayerWin = '';
 var colorPcWin = '';
 var endGame = [];
-var pointsLimit = 15;
+var pointsLimit = 10;
 
 document.getElementById("panel").innerHTML = `
 <div>
@@ -74,7 +74,7 @@ if (player2 < pc2&&endGame[0] != 'end'){
 win = '<span class="red"><b>PC Win</b></span>';
 win += '<audio style="display:none" autoplay="false" src="/audio/error.mp3"></audio>';
 colorPlayerWin = '';
-colorPcWin = 'green';
+colorPcWin = 'red';
 pointsPc++;
 }
 

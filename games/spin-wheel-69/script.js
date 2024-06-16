@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.0.4
 
 
 let spinNumber = "";
@@ -7,68 +7,98 @@ let spinNumber = "";
 spinNumber = `
 
 <div class="spinNumber" style="transform: rotate(0deg);">1</div>
-<div class="spinNumber" style="transform: rotate(45deg);">8</div>
-<div class="spinNumber" style="transform: rotate(90deg);">7</div>
-<div class="spinNumber" style="transform: rotate(135deg);">6</div>
-<div class="spinNumber" style="transform: rotate(180deg);">5</div>
-<div class="spinNumber" style="transform: rotate(225deg);">4</div>
-<div class="spinNumber" style="transform: rotate(270deg);">3</div>
-<div class="spinNumber" style="transform: rotate(315deg);">2</div>
+<div class="spinNumber" style="transform: rotate(40deg);">9</div>
+<div class="spinNumber" style="transform: rotate(80deg);">8</div>
+<div class="spinNumber" style="transform: rotate(120deg);">7</div>
+<div class="spinNumber" style="transform: rotate(160deg);">6</div>
+<div class="spinNumber" style="transform: rotate(200deg);">5</div>
+<div class="spinNumber" style="transform: rotate(240deg);">4</div>
+<div class="spinNumber" style="transform: rotate(280deg);">3</div>
+<div class="spinNumber" style="transform: rotate(320deg);">2</div>
 <style>
 .spinWheelAni {
 /*transition: transform 1000ms ease-in-out;*/
-transition: transform 1000ms liner;
+transition: transform 900ms ease-in-out;
 }
+
+/*.spinWheelAni {
+animation: spinWheelAni 1000ms;
+}
+
+@keyframes spinWheelAni {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}*/
+
 </style>
 `;
 
 
 var print = `
 
-<div class="spinArrow light"> ⋙ </div>
+<div class="spinArrow light shadow borderRadius4"><span id="spinNumberId"></span>⋙</div>
 
-<div id="spinWheel" class="spinWheel spinWheelAni">
+<div id="spinWheel" class="spinWheel spinWheelAni shadow4">
 ${spinNumber}
-<div class="spinStart button submit" onclick="spinWheel('start');">start</div>
+<div id="spinStart" class="spinStart button submit shadow3" onclick="spinWheel('start');">Start</div>
 </div>
 
-
-
 `;
+
+if (document.getElementById("result") != null){
+document.getElementById("result").innerHTML = print; 
+}
 
 
 function spinWheel(mode){
 
-document.getElementById("result2").innerHTML = `
-<style>
-.spinWheelAni {
-/*animation: spin 8s linear infinite;*/
-transform: rotate(45deg);
-}
-</style>
-`;
+
 
 if (mode == 'start'){
 
 let spinRound = 0;
-let spinRandomNumber = fuMRandom(1, 8);
+let spinRandomNumber = 1;
 
 let spinRotateDeg = 0;
+let spinRotateDegPrev = -45;
 
-let i = 1;
+let i = 0;
 
-setInterval(() => {
 if (mode == 'start'){
+document.getElementById("spinStart").innerHTML = `&#9676;`;
+i = 0;
+spinRandomNumber = fuMRandom(1, 9);
+
+//https://stackoverflow.com/questions/109086/stop-setinterval-call-in-javascript
+const stopInterval = setInterval(() => {
+if (mode == 'start'){
+
+document.getElementById("result2").innerHTML = `
+
+<style>
+.spinWheelAni {
+transform: rotate(0deg);
+}
+
+</style>
+
+`;
+
+
 i++;
 spinRound++;
-spinRotateDeg = spinRotateDeg + 45;
 
-if(i == 9){ i = 1; }
 
-//console.log(i);
+if(i == 10){ i = 1; }
+
+console.log(i);
 //console.log(spinRound);
-console.log(`spinNumber: ${spinRandomNumber}`);
-console.log(`sping round: ${spinRound}`);
+//console.log(`spinRandomNumber: ${spinRandomNumber} || spinRound: ${spinRound} || i: ${i}`);
+
 
 /*var element = document.getElementById("spinWheel");
 element.classList.add("spinWheelAni");*/
@@ -85,22 +115,29 @@ transform: rotate(${spinRotateDeg}deg);
 
 `;
 
-if(spinRound >= 8&&spinRandomNumber == i){
+//document.getElementById("spinNumberId").innerHTML = `${spinRandomNumber}:${i}`;
+
+if(/*spinRound >= 8&&*/spinRandomNumber == i){
+document.getElementById("spinStart").innerHTML = `<span class="xSmall">End. Restart</span>`;
 mode = 'stop';
+clearInterval(stopInterval);
 }
 
+
 }
+
+spinRotateDeg = spinRotateDeg + 40;
+spinRotateDegPrev = spinRotateDeg - 40;
 
 }, 1000);
 
-
 }
 
 }
 
-if (document.getElementById("result") != null){
-document.getElementById("result").innerHTML = print; 
 }
+
+
 
 /*addEventListener("DOMContentLoaded", (event) => {});
 i = 1;

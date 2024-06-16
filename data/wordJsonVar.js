@@ -31,6 +31,11 @@ var wordJsonVar =
         "text3": "adepto"
     },
     {
+        "text": "\u0430\u0434\u0440\u0435\u0441\u0430\u0442",
+        "text2": "addressee",
+        "text3": "destinatario"
+    },
+    {
         "text": "\u0430\u0434\u044e\u043b\u044c\u0442\u0435\u0440",
         "text2": "adultery",
         "text3": "adulterio"
@@ -1069,11 +1074,6 @@ var wordJsonVar =
         "text": "\u043c\u0430\u043d\u0434\u0430\u0442",
         "text2": "mandate",
         "text3": "mandato"
-    },
-    {
-        "text": "\u043c\u0430\u043d\u0435\u0432\u0440",
-        "text2": "maneuver",
-        "text3": "maniobra"
     },
     {
         "text": "\u043c\u0430\u043d\u0442\u0440\u0430",

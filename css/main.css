@@ -1,7 +1,5 @@
-/* Main style v.16.9.0
+/* Main style v.16.10.2
 Mini CSS framework: main.css + auto.css (color-theme-name.css) */
-
-
 
 /* Main */
 * { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
@@ -502,6 +500,8 @@ form fieldset { border: 1px solid var(--d3); }
 
 .shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 .shadow2 { box-shadow: 0 3px 5px rgba(0,0,0,0.12), 0 3px 4px rgba(0,0,0,0.24); }
+.shadow3 { box-shadow: 0 0 3px rgba(0,0,0,0.12), 0 0 2px rgba(0,0,0,0.24); }
+.shadow4 { box-shadow: 0 0 5px rgba(0,0,0,0.12), 0 0 4px rgba(0,0,0,0.24); }
 
 .c { color: var(--c); }
 .c2 { color: var(--c2); }

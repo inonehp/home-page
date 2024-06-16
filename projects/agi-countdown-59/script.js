@@ -69,6 +69,7 @@ var print = `
 
 <div class="op small">
 
+Notes:<br>
 <div>- <b>${result}</b> - average value based on ${totalPredict} predictions  (article, post, etc).</div>
 
 <div>- Based on random posts about a possible date when AGI will be created, not just experts, everyone.</div>

@@ -210,6 +210,15 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Marques Brownlee",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/playlist?list=UULFBJycsmduvYEL83R_U4JriQ",
+        "tag": "#TV #technology #tech",
+        "time": 1718252335,
+        "rightFooter": ""
+    },
+    {
         "text": "Mashable - YouTube",
         "text2": "",
         "text3": "",
@@ -360,15 +369,6 @@ var tvJsonVar =
         "url": "https:\/\/www.youtube.com\/@theGuardian",
         "tag": "#TV #news",
         "time": 1705233552,
-        "rightFooter": ""
-    },
-    {
-        "text": "The Verge - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@TheVerge",
-        "tag": "#TV #technology",
-        "time": 1705230576,
         "rightFooter": ""
     },
     {
