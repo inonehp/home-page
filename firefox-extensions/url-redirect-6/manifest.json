@@ -18,7 +18,7 @@
 "browser_specific_settings": {
   "gecko": {
     "id": "firefox-url-redirect-abc@example.com",
-    "strict_min_version": "127.0"  }
+    "strict_min_version": "109.0"  }
 },
 
 "options_ui": {

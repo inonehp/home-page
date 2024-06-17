@@ -27,16 +27,6 @@
 </url>
 
 <url>
-<loc>https://inonehp.pages.dev/archive/firefox-extension/badge-count-up-timer-4/background.html</loc>
-
-</url>
-
-<url>
-<loc>https://inonehp.pages.dev/archive/firefox-extension/badge-count-up-timer-4/popup.html</loc>
-
-</url>
-
-<url>
 <loc>https://inonehp.pages.dev/archive/hello-world-62/index.html</loc>
 
 </url>
@@ -173,6 +163,16 @@
 
 <url>
 <loc>https://inonehp.pages.dev/data2-page.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/firefox-extensions/archive/badge-count-up-timer-4/background.html</loc>
+
+</url>
+
+<url>
+<loc>https://inonehp.pages.dev/firefox-extensions/archive/badge-count-up-timer-4/popup.html</loc>
 
 </url>
 

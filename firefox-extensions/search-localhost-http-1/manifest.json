@@ -15,6 +15,13 @@
     "keyword": "@localhost",
     "favicon_url": "icon512x512.png"
   }
+},
+
+"browser_specific_settings": {
+  "gecko": {
+    "id": "{49244752-b7e6-468c-9b09-ed707d32a6cc}"
+  }
 }
+
 
 }
