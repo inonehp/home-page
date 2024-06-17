@@ -1,4 +1,4 @@
-// Keep or blog v.2.5.2
+// Keep or blog v.2.6.1
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -2834,12 +2834,14 @@ nav2Print = `
 
 if (q == null||q == 'null'){ q = ''; }
 
+let qGo33 = (fuMClearText2(q));
+
 var pringInputRange = '';
 if (confDevice != 'mobile'){
 pringInputRange = `
 <form id="form">
 ${navOption3}
-<input  name="${navMode}" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="rangeRedirect();" ontouchend="rangeRedirect();">
+<input name="${navMode}" id="rangeinput" class="slider" value="${getP}" type="range" min="0" max="${total2}" step="${postLimit}" onmouseup="rangeRedirect('${qGo33}');" ontouchend="rangeRedirect('${qGo33}');">
 </form>
 <div class="padding2List"></div>
 `;
@@ -3112,10 +3114,12 @@ if (confDevice == ''){ confDevice = 'pc'; }
 }
 
 
-
-function rangeRedirect(e){
+function rangeRedirect(q){
 if (document.getElementById("rangeinput") != null){
 let rangeRedirectUrl = "?" + document.getElementById("rangeinput").name + "=" + document.getElementById("rangeinput").value;
+if (q != ''){
+rangeRedirectUrl += "&q=" + q
+}
 window.location.replace(rangeRedirectUrl,);
 }
 }

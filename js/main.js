@@ -1,4 +1,4 @@
-// Main js v.6.6.12
+// Main js v.6.6.14
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -1193,12 +1193,22 @@ text = text.replaceAll(">", '&gt;');
 text = text.replaceAll("`", '&#96;'); // Backtick
 text = text.replaceAll(/"/g, '&quot;');
 text = text.replaceAll(/'/g, '&apos;');
+text = text.replaceAll(/'/g, '%27');
 text = text.replaceAll('%', '&percnt;');
 text = text.replaceAll("+", '&plus;');
 
 return text;
 }
 
+}
+
+// fu ClearText2, for click and to URL
+function fuMClearText2(text){
+if (text != undefined){
+text = text.replaceAll(/"/g, '%22');
+text = text.replaceAll(/'/g, '%27');
+return text;
+}
 }
 
 
