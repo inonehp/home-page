@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.06.16";
+//var myCacheVersion = "v.1.2.2024.06.17";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.06.16").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.06.17").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -100,6 +100,21 @@ var fileListArr = ["/404.html",
 "/archive/dropdown-menu-8/",
 "/archive/dropdown-menu-8/script.js",
 "/archive/dropdown-menu-8/style.css",
+"/archive/firefox-extension/badge-count-up-timer-4/README.md",
+"/archive/firefox-extension/",
+"/archive/firefox-extension/badge-count-up-timer-4/",
+"/archive/firefox-extension/badge-count-up-timer-4/auto.css",
+"/archive/firefox-extension/badge-count-up-timer-4/background.html",
+"/archive/firefox-extension/badge-count-up-timer-4/background.js",
+"/archive/firefox-extension/badge-count-up-timer-4/badge-count-up-timer-4.zip",
+"/archive/firefox-extension/badge-count-up-timer-4/icon512x512.png",
+"/archive/firefox-extension/badge-count-up-timer-4/icon512x512.svg",
+"/archive/firefox-extension/badge-count-up-timer-4/main.css",
+"/archive/firefox-extension/badge-count-up-timer-4/manifest.json",
+"/archive/firefox-extension/badge-count-up-timer-4/popup.html",
+"/archive/firefox-extension/badge-count-up-timer-4/screenshot.png",
+"/archive/firefox-extension/badge-count-up-timer-4/script.js",
+"/archive/firefox-extension/badge-count-up-timer-4/style.css",
 "/archive/hello-world-62/index.html",
 "/archive/hello-world-62/",
 "/archive/hello-world-62/script.js",
@@ -308,22 +323,8 @@ var fileListArr = ["/404.html",
 "/data2/",
 "/data2-page.html",
 "/favicon.ico",
-"/firefox-extensions/badge-count-up-timer-4/README.md",
-"/firefox-extensions/",
-"/firefox-extensions/badge-count-up-timer-4/",
-"/firefox-extensions/badge-count-up-timer-4/auto.css",
-"/firefox-extensions/badge-count-up-timer-4/background.html",
-"/firefox-extensions/badge-count-up-timer-4/background.js",
-"/firefox-extensions/badge-count-up-timer-4/badge-count-up-timer-4.zip",
-"/firefox-extensions/badge-count-up-timer-4/icon512x512.png",
-"/firefox-extensions/badge-count-up-timer-4/icon512x512.svg",
-"/firefox-extensions/badge-count-up-timer-4/main.css",
-"/firefox-extensions/badge-count-up-timer-4/manifest.json",
-"/firefox-extensions/badge-count-up-timer-4/popup.html",
-"/firefox-extensions/badge-count-up-timer-4/screenshot.png",
-"/firefox-extensions/badge-count-up-timer-4/script.js",
-"/firefox-extensions/badge-count-up-timer-4/style.css",
 "/firefox-extensions/hotkey-url-5/README.md",
+"/firefox-extensions/",
 "/firefox-extensions/hotkey-url-5/",
 "/firefox-extensions/hotkey-url-5/auto.css",
 "/firefox-extensions/hotkey-url-5/hotkey-url-5.zip",
@@ -1158,7 +1159,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.06.16")
+caches.open("v.1.2.2024.06.17")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1184,7 +1185,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.06.16")
+caches.open("v.1.2.2024.06.17")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1217,7 +1218,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.06.16"];
+  const cachesToKeep = ["v.1.2.2024.06.17"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

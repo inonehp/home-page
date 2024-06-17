@@ -1,4 +1,4 @@
-// v.1.0.4
+// v.1.0.5
 
 
 let spinNumber = "";
@@ -69,7 +69,7 @@ let spinRotateDegPrev = -45;
 let i = 0;
 
 if (mode == 'start'){
-document.getElementById("spinStart").innerHTML = `&#9676;`;
+document.getElementById("spinStart").innerHTML = `*`;
 i = 0;
 spinRandomNumber = fuMRandom(1, 9);
 
