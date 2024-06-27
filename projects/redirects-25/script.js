@@ -1,4 +1,4 @@
-// Search redirects v.2.0.23
+// Search redirects v.2.0.24
 // Mini Google
 // The script redirects the search query + command.
 
@@ -307,6 +307,10 @@ if (q == ''){
 urlList = [
 "https://news.google.com/",
 "https://flipboard.com/topic/news",
+"https://www.reddit.com/r/news/",
+"https://www.reddit.com/r/worldnews/",
+"https://medium.com/tag/news/recommended",
+"https://www.perplexity.ai/discover",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -328,7 +332,7 @@ urlList = [
 "https://slashdot.org/",
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
-"https://medium.com/tag/technology",
+"https://medium.com/tag/technology/recommended",
 "https://www.reddit.com/r/technology/",
 "https://wordpress.com/tag/technology",
 ];
@@ -354,7 +358,7 @@ urlList = [
 "https://science.slashdot.org/",
 
 "https://www.reddit.com/r/science/",
-"https://medium.com/tag/science",
+"https://medium.com/tag/science/recommended",
 ];
 
 }
@@ -459,7 +463,7 @@ urlList = [
 "https://dev.to/",
 "https://hashnode.com/community",
 //"https://stackoverflow.com/",
-"https://medium.com/tag/webdevelopment",
+"https://medium.com/tag/webdevelopment/recommended",
 "https://wordpress.com/tag/webdev",
 "https://wordpress.com/tag/webdevelopment",
 ];

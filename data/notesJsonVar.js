@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "45",
+        "text": "Window: load event - Web APIs | MDN",
+        "text2": "addEventListener(\"load\", (event) => {});\r\n\r\nonload = (event) => {};",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/load_event",
+        "tag": "#code #JavaScript",
+        "time": 1719482907,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=45\">id<\/a>"
+    },
+    {
         "id": "43",
         "text": "String.prototype.replaceAll() - JavaScript | MDN",
         "text2": "const paragraph = \"I think Ruth's dog is cuter than your dog!\";\r\n\r\nconsole.log(paragraph.replaceAll('dog', 'monkey'));\r\n\/\/ Expected output: \"I think Ruth's monkey is cuter than your monkey!\"\r\n\r\n\/\/ Global flag required when calling replaceAll with regex\r\nconst regex = \/Dog\/gi;\r\nconsole.log(paragraph.replaceAll(regex, 'ferret'));\r\n\/\/ Expected output: \"I think Ruth's ferret is cuter than your ferret!\"",

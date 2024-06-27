@@ -1,4 +1,4 @@
-// Typing Speed Test and game v.3.16.3
+// Typing Speed Test and game v.3.16.4
 
 
 
@@ -122,9 +122,17 @@ main(task);
 
 if (mode == 'book'||mode == 'b2'){
 
+var script2 = document.createElement('script');
+script2.type='text/javascript';
+//script2.async = true;
+script2.charset = 'utf-8';
+script2.src = '../../data/bookJsonVar.js';
+document.getElementsByTagName('head')[0].appendChild(script2);
+
+window.onload = (event) => {
+
 var book = '';
 var bookLength = 500;
-
 
 book = bookJsonVar;
 
@@ -155,6 +163,9 @@ task[task.length - 1] = '';
 task = task.join(" ");
 
 main(task);
+
+}
+
 }
 
 
