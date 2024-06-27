@@ -131,7 +131,7 @@ book = bookJsonVar;
 if (book != null){
 const random = Math.floor(Math.random() * book.length);
 //console.log(book[random]['text']);
-task = book[random]['text'];
+task = book[random]['text2'];
 
 
 

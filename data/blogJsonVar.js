@@ -3,6 +3,26 @@ var blogJsonVar =
 
 [
     {
+        "id": "259",
+        "text": "Google no longer developing Material Web Components",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/9to5google.com\/2024\/06\/25\/material-web-components\/",
+        "tag": "#news #design #WebDesign",
+        "time": 1719478046,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=259\">id<\/a>"
+    },
+    {
+        "id": "258",
+        "text": "Google Search To Drops Continuous Scroll On Desktop With Mobile To Come",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.seroundtable.com\/google-continuous-scroll-dead-37618.html",
+        "tag": "#news #technology",
+        "time": 1719477791,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=258\">id<\/a>"
+    },
+    {
         "id": "257",
         "text": "Apple Intelligence in 5 minutes - YouTube",
         "text2": "",

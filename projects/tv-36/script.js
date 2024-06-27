@@ -21,9 +21,7 @@ var url = new URL(window.location);
 
 
 var q = url.searchParams.get("q");
-if(q != null){
-q = q.replaceAll(/%/g, "%25");
-q = decodeURIComponent(q);
+if(q != null&&q != ""){
 q = q.trim();
 localStorage.setItem('randomTvQ', q);
 }
@@ -31,8 +29,6 @@ localStorage.setItem('randomTvQ', q);
 
 var tag = url.searchParams.get("tag");
 if(tag != null){
-tag = tag.replaceAll(/%/g, "%25");
-tag = decodeURIComponent(tag);
 tag = tag.trim();
 }
 

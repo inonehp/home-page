@@ -104,7 +104,7 @@ drawLine(context, x, y, e.offsetX, e.offsetY);
 //document.getElementById("btn").innerHTML = ''; 
 xxx.style.display = "none";
 xxx2.style.display = "none";
-  }
+}
 });
 
 myPics.addEventListener('touchmove', e => {
@@ -252,10 +252,10 @@ var time = Math.floor(new Date().getTime() / 1000);
 if (xxx.style.display === "none"||xxx.style.display === "") {
 xxx.style.display = "block";
 xxx2.style.display = "block";
-  } else {
+} else {
 xxx.style.display = "none";
 xxx2.style.display = "none";
-  }
+}
 
 
 

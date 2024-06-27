@@ -72,7 +72,7 @@ document.getElementsByTagName("nav")[0].innerHTML += `
 
 /* mobile dropdown menu */
 
-/* when start dropdown js noscript */
+/* when start dropdown: main.js, noscript.css */
 ${cssMedia} {
 .navTop nav { display: block; }
 .menuTop { display: none; }

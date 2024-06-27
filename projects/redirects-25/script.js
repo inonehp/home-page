@@ -1,4 +1,4 @@
-// Search redirects v.2.0.17
+// Search redirects v.2.0.23
 // Mini Google
 // The script redirects the search query + command.
 
@@ -174,7 +174,7 @@ case 'rr#':
 case 'rs#':
 q = q3.replace(qCom, '');
 q = q.trim();
-q = encodeURIComponent(q.trim());
+q = encodeURIComponent(q);
 urlList = [
 "/site-search.html?q=" + q + " r",
 ];
@@ -301,13 +301,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.google.com/search?q="+q+"&tbm=nws",
-"https://www.bing.com/news/search?q="+q,
+"https://www.google.com/search?q=" + q + "&tbm=nws",
 ];
 if (q == ''){
 urlList = [
 "https://news.google.com/",
-"https://www.bing.com/news/",
 "https://flipboard.com/topic/news",
 ];
 }
@@ -327,19 +325,13 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
-"https://www.bing.com/news/search?q=Technology",
 "https://slashdot.org/",
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
+"https://medium.com/tag/technology",
 "https://www.reddit.com/r/technology/",
-//"https://substack.com/browse/technology",
+"https://wordpress.com/tag/technology",
 ];
-
-/*if (conf["confDevice"] == 'mobile'){
-urlList.push("https://www.bing.com/news/search?q=Technology");
-} else {
-urlList.push("https://www.bing.com/news/search?q=Sci/Tech");
-}*/
 
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -358,7 +350,6 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
-"https://www.bing.com/news/search?q=Science",
 "https://flipboard.com/topic/science",
 "https://science.slashdot.org/",
 
@@ -393,9 +384,6 @@ urlList = [
 "https://www.reddit.com/r/Music/",
 "https://www.reddit.com/r/pics/",
 
-//"https://www.bing.com/news/search?q=Entertainment",
-
-//"https://www.bing.com/news/search?q=Business",
 "https://www.google.com/finance/",
 //"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB",
 //"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtVnVHZ0pWVXlnQVAB",
@@ -446,7 +434,6 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
-"https://www.bing.com/news/search?q=Sports",
 "https://www.reddit.com/r/sports/",
 ];
 
@@ -473,6 +460,8 @@ urlList = [
 "https://hashnode.com/community",
 //"https://stackoverflow.com/",
 "https://medium.com/tag/webdevelopment",
+"https://wordpress.com/tag/webdev",
+"https://wordpress.com/tag/webdevelopment",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -636,7 +625,7 @@ urlList = [
 //"https://www.google.com/search?q=" + q + " site:https://blogspot.com/&newwindow=1&tbs=qdr:w",
 //"https://bsky.app/search?q=" + q,
 "https://wordpress.com/tag/" + wordpress,
-"https://wordpress.com/search?q=", + q,
+"https://wordpress.com/search?q=" + q,
 "https://medium.com/tag/" + medium,
 ];
 
@@ -644,7 +633,7 @@ if (q == ''){
 urlList = [
 "https://x.com/",
 //"https://bsky.app/",
-"https://wordpress.com/",
+"https://wordpress.com/read",
 "https://medium.com/",
 ];
 

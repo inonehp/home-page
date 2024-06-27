@@ -3,6 +3,36 @@ var notesJsonVar =
 
 [
     {
+        "id": "43",
+        "text": "String.prototype.replaceAll() - JavaScript | MDN",
+        "text2": "const paragraph = \"I think Ruth's dog is cuter than your dog!\";\r\n\r\nconsole.log(paragraph.replaceAll('dog', 'monkey'));\r\n\/\/ Expected output: \"I think Ruth's monkey is cuter than your monkey!\"\r\n\r\n\/\/ Global flag required when calling replaceAll with regex\r\nconst regex = \/Dog\/gi;\r\nconsole.log(paragraph.replaceAll(regex, 'ferret'));\r\n\/\/ Expected output: \"I think Ruth's ferret is cuter than your ferret!\"",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/String\/replaceAll",
+        "tag": "#code #JavaScript",
+        "time": 1718941513,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=43\">id<\/a>"
+    },
+    {
+        "id": "42",
+        "text": "PHP: foreach - Manual",
+        "text2": "<?php\r\n$arr = array(1, 2, 3, 4);\r\nforeach ($arr as &$value) {\r\n    $value = $value * 2;\r\n}\r\n\/\/ $arr is now array(2, 4, 6, 8)\r\nunset($value); \/\/ break the reference with the last element\r\n?>",
+        "text3": "",
+        "url": "https:\/\/www.php.net\/manual\/en\/control-structures.foreach.php",
+        "tag": "#code #PHP",
+        "time": 1718767478,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=42\">id<\/a>"
+    },
+    {
+        "id": "41",
+        "text": "PHP: while - Manual",
+        "text2": "<?php\r\n\/* example 1 *\/\r\n\r\n$i = 1;\r\nwhile ($i <= 10) {\r\n    echo $i++;  \/* the printed value would be\r\n                   $i before the increment\r\n                   (post-increment) *\/\r\n}\r\n\r\n\/* example 2 *\/\r\n\r\n$i = 1;\r\nwhile ($i <= 10):\r\n    echo $i;\r\n    $i++;\r\nendwhile;\r\n?>",
+        "text3": "",
+        "url": "https:\/\/www.php.net\/manual\/en\/control-structures.while.php",
+        "tag": "#code #PHP",
+        "time": 1718664547,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=41\">id<\/a>"
+    },
+    {
         "id": "40",
         "text": "Document: DOMContentLoaded event - Web APIs | MDN",
         "text2": "addEventListener(\"DOMContentLoaded\", (event) => {});",
@@ -295,7 +325,7 @@ var notesJsonVar =
     {
         "id": "9",
         "text": "Web Design notes",
-        "text2": "Notes:\r\n=====\r\n\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n- Spaces in JavaScript for if and else\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)",
+        "text2": "Notes:\r\n======\r\n\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n- Spaces in JavaScript for if and else\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)",
         "text3": "",
         "url": "",
         "tag": "#WebDesign #notes",

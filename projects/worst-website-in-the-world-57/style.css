@@ -2,3 +2,35 @@
 /* comment */
 
 
+.lGallery a {
+display: block;
+}
+
+.lGallery div {
+width: 100%;
+max-width: calc(50% - 15px);
+margin: 0 auto;
+padding: 15px;
+border: 1px solid var(--red);
+display: inline-block;
+height: 100%;
+vertical-align: middle;
+}
+
+.lGallery {
+display: block;
+width: 100%;
+margin: 0 auto;
+}
+
+/* disable selection */
+/*https://stackoverflow.com/questions/16805684/javascript-disable-text-select#*/
+body{
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+

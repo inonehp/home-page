@@ -157,52 +157,6 @@ var jsonVar =
 <!-- post -->
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
-<div class="postContent pre padding2List">Web Design notes <br>Notes:
-=====
-
-- Do not use emojis (emoji can have a double meaning and are difficult to read)
-- Don&#039;t use duplicate content (license conflict)
-- Name uppercase (grammar)
-- Spaces in JavaScript for if and else
-- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)</div>
-
-<div class="postFooter break2 small">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
-
-<!-- post -->
-<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
-
-<div class="postContent pre padding2List">Web Speech API <a class="brand insertIcon" href="https://wicg.github.io/speech-api/">https://wicg.github.io/speech-api/</a></div>
-
-<div class="postFooter break2 small">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
-
-<!-- post -->
-<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
-
-<div class="postContent pre padding2List">How do I use the Firefox spell checker? | Firefox Help <a class="brand insertIcon" href="https://support.mozilla.org/en-US/kb/how-do-i-use-firefox-spell-checker#w_adding-dictionaries">https://support.mozilla.org/en-US/kb/how-do-i-use-firefox-spell-checker#w_adding-dictionaries</a></div>
-
-<div class="postFooter break2 small">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
-
-<!-- post -->
-<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
-
 <div class="postContent pre padding2List">PHP: json_decode - Manual <a class="brand insertIcon" href="https://www.net/manual/en/function.json-decode">https://www.net/manual/en/function.json-decode</a><br>$json = &#039;{&quot;a&quot;:1,&quot;b&quot;:2,&quot;c&quot;:3,&quot;d&quot;:4,&quot;e&quot;:5}&#039;;
 
 json_decode($json);
@@ -735,6 +689,77 @@ console.log(result);
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
 <div class="postContent pre padding2List">Document: DOMContentLoaded event - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event">https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event</a><br>addEventListener(&quot;DOMContentLoaded&quot;, (event) =&gt; {});</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">PHP: while - Manual <a class="brand insertIcon" href="https://www.php.net/manual/en/control-structures.while.php">https://www.php.net/manual/en/control-structures.while.php</a><br>&lt;?php
+/* example 1 */
+
+$i = 1;
+while ($i &lt;= 10) {
+    echo $i++;  /* the printed value would be
+                   $i before the increment
+                   (post-increment) */
+}
+
+/* example 2 */
+
+$i = 1;
+while ($i &lt;= 10):
+    echo $i;
+    $i++;
+endwhile;
+?&gt;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">PHP: foreach - Manual <a class="brand insertIcon" href="https://www.php.net/manual/en/control-structures.foreach.php">https://www.php.net/manual/en/control-structures.foreach.php</a><br>&lt;?php
+$arr = array(1, 2, 3, 4);
+foreach ($arr as &amp;$value) {
+    $value = $value * 2;
+}
+// $arr is now array(2, 4, 6, 8)
+unset($value); // break the reference with the last element
+?&gt;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">String.prototype.replaceAll() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll</a><br>const paragraph = &quot;I think Ruth&#039;s dog is cuter than your dog!&quot;;
+
+console.log(paragraph.replaceAll(&#039;dog&#039;, &#039;monkey&#039;));
+// Expected output: &quot;I think Ruth&#039;s monkey is cuter than your monkey!&quot;
+
+// Global flag required when calling replaceAll with regex
+const regex = /Dog/gi;
+console.log(paragraph.replaceAll(regex, &#039;ferret&#039;));
+// Expected output: &quot;I think Ruth&#039;s ferret is cuter than your ferret!&quot;</div>
 
 <div class="postFooter break2 small">
 <div class="tagList tLeft left"></div>

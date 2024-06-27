@@ -3,6 +3,16 @@ var agicountdownJsonVar =
 
 [
     {
+        "id": "27",
+        "text": "Ray Kurzweil on how AI will transform the physical world",
+        "text2": "2029",
+        "text3": "",
+        "url": "https:\/\/www.economist.com\/by-invitation\/2024\/06\/17\/ray-kurzweil-on-how-ai-will-transform-the-physical-world",
+        "tag": "#article #single",
+        "time": 1718944002,
+        "rightFooter": ""
+    },
+    {
         "id": "21",
         "text": "AI timelines: What do experts in artificial intelligence expect for the future? - Our World in Data",
         "text2": "2061 2050",
@@ -90,16 +100,6 @@ var agicountdownJsonVar =
         "url": "https:\/\/matrix.fandom.com\/wiki\/Artificial_Intelligence",
         "tag": "#single #movie",
         "time": 1710870338,
-        "rightFooter": ""
-    },
-    {
-        "id": "6",
-        "text": "Ray Kurzweil is sticking to his long-held predictions: 2029 for AGI and 2045 for the singularity : r\/singularity",
-        "text2": "2029",
-        "text3": "",
-        "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/18m0dnf\/ray_kurzweil_is_sticking_to_his_longheld\/",
-        "tag": "#single #SocialNetwork",
-        "time": 1710638384,
         "rightFooter": ""
     },
     {

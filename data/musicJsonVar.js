@@ -13512,6 +13512,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Meghan Trainor - Whoops (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=CMmjokvZmAA",
+        "tag": "#music",
+        "time": 1718944970,
+        "rightFooter": ""
+    },
+    {
         "text": "MEIKO - \"Gimme Gimme\" - YouTube",
         "text2": "",
         "text3": "",
@@ -17361,6 +17370,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=uAVUl0cAKpo",
         "tag": "#music",
         "time": 1694065488,
+        "rightFooter": ""
+    },
+    {
+        "text": "Sacrificial Glam \u00b7 FUULS",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=r5K7p2L16YM",
+        "tag": "#music",
+        "time": 1719237879,
         "rightFooter": ""
     },
     {

@@ -26,9 +26,7 @@ var url = new URL(window.location);
 
 
 var q = url.searchParams.get("q");
-if(q != null){
-q = q.replaceAll(/%/g, "%25");
-q = decodeURIComponent(q);
+if(q != null&&q != ""){
 q = q.trim();
 localStorage.setItem('randomVideoQ', q);
 }
@@ -36,19 +34,12 @@ localStorage.setItem('randomVideoQ', q);
 
 var tag = url.searchParams.get("tag");
 if(tag != null){
-tag = tag.replaceAll(/%/g, "%25");
-tag = decodeURIComponent(tag);
 tag = tag.trim();
 }
 
-
-
 if(q == null){ q = localStorage.getItem('randomVideoQ'); }
-if(q == null) { q = '#video'; tag = q; }
+if(q == null) { q = '#video'; tag = '#video'; }
 var q2 = q;
-
-
-
 
 var arrListForRandom = [];
 var i = 0;
@@ -169,7 +160,7 @@ let forSplit = [`
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
 if(item == item2){
-item = item+conf["confSymbolForSplit"];
+item = item + conf["confSymbolForSplit"];
 }
 });
 text2 += item;
