@@ -7341,11 +7341,6 @@ var wordJsonVar =
         "text3": "separador"
     },
     {
-        "text": "\u0441\u0435\u043f\u0441\u0438\u0441",
-        "text2": "sepsis",
-        "text3": "sepsis"
-    },
-    {
         "text": "\u0441\u0435\u0440",
         "text2": "sir",
         "text3": "se\u00f1or"

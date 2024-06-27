@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "46",
+        "text": "font-size - CSS: Cascading Style Sheets | MDN",
+        "text2": "\/* <absolute-size> values *\/\r\nfont-size: xx-small;\r\nfont-size: x-small;\r\nfont-size: small;\r\nfont-size: medium;\r\nfont-size: large;\r\nfont-size: x-large;\r\nfont-size: xx-large;\r\nfont-size: xxx-large;\r\n\r\n\/* <relative-size> values *\/\r\nfont-size: smaller;\r\nfont-size: larger;\r\n\r\n\/* <length> values *\/\r\nfont-size: 12px;\r\nfont-size: 0.8em;\r\n\r\n\/* <percentage> values *\/\r\nfont-size: 80%;\r\n\r\n\/* math value *\/\r\nfont-size: math;\r\n\r\n\/* Global values *\/\r\nfont-size: inherit;\r\nfont-size: initial;\r\nfont-size: revert;\r\nfont-size: revert-layer;\r\nfont-size: unset;",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/font-size",
+        "tag": "#code #CSS",
+        "time": 1719489913,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=46\">id<\/a>"
+    },
+    {
         "id": "45",
         "text": "Window: load event - Web APIs | MDN",
         "text2": "addEventListener(\"load\", (event) => {});\r\n\r\nonload = (event) => {};",
@@ -45,7 +55,7 @@ var notesJsonVar =
     {
         "id": "40",
         "text": "Document: DOMContentLoaded event - Web APIs | MDN",
-        "text2": "addEventListener(\"DOMContentLoaded\", (event) => {});",
+        "text2": "addEventListener(\"DOMContentLoaded\", (event) => {});\r\n===\r\ndocument.addEventListener(\"DOMContentLoaded\", (event) => {\r\n  console.log(\"DOM fully loaded and parsed\");\r\n});",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/DOMContentLoaded_event",
         "tag": "#code #JS",

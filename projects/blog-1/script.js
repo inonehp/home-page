@@ -1,4 +1,4 @@
-// Keep or blog v.2.6.1
+// Keep or blog v.2.6.2
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -960,7 +960,6 @@ qData.forEach(function(item336) { // foreach post word and quary for search
 qSearchList.forEach((qSearchListItem) => {
 //console.log(fuzzySearch(item336, qSearchListItem));
 if(fuzzySearch(item336, qSearchListItem) == true&&item336 != ''&&qSearchListItem != ''){
-
 //var subQ = 's3: '+item336+',';
 subQ.push(String(item336).trim()+' ');
 //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
@@ -1005,7 +1004,7 @@ i3++;
 }
 i++;
 total = i;
-let subQprint = subQ.slice(0, 7).join(", ") + ' ...';
+let subQprint = subQ.slice(0, 5).join(", ") + ' ...';
 comMessagePrint = `${q} (s3: ${subQprint}) ${i}`;
 qData = '';
 comMessage = 'found';

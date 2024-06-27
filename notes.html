@@ -157,19 +157,6 @@ var jsonVar =
 <!-- post -->
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
-<div class="postContent pre padding2List">&lt;input type=&quot;reset&quot;&gt; - HTML: HyperText Markup Language | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset</a><br>&lt;input type=&quot;reset&quot;&gt;</div>
-
-<div class="postFooter break2 small">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
-
-<!-- post -->
-<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
-
 <div class="postContent pre padding2List">Document: querySelectorAll() method - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll">https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll</a><br>document.querySelectorAll(&quot;p, div.note, div.alert&quot;);</div>
 
 <div class="postFooter break2 small">
@@ -672,7 +659,11 @@ console.log(result);
 <!-- post -->
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
-<div class="postContent pre padding2List">Document: DOMContentLoaded event - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event">https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event</a><br>addEventListener(&quot;DOMContentLoaded&quot;, (event) =&gt; {});</div>
+<div class="postContent pre padding2List">Document: DOMContentLoaded event - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event">https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event</a><br>addEventListener(&quot;DOMContentLoaded&quot;, (event) =&gt; {});
+===
+document.addEventListener(&quot;DOMContentLoaded&quot;, (event) =&gt; {
+  console.log(&quot;DOM fully loaded and parsed&quot;);
+});</div>
 
 <div class="postFooter break2 small">
 <div class="tagList tLeft left"></div>
@@ -759,6 +750,48 @@ console.log(paragraph.replaceAll(regex, &#039;ferret&#039;));
 <div class="postContent pre padding2List">Window: load event - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event">https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event</a><br>addEventListener(&quot;load&quot;, (event) =&gt; {});
 
 onload = (event) =&gt; {};</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">font-size - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">https://developer.mozilla.org/en-US/docs/Web/CSS/font-size</a><br>/* &lt;absolute-size&gt; values */
+font-size: xx-small;
+font-size: x-small;
+font-size: small;
+font-size: medium;
+font-size: large;
+font-size: x-large;
+font-size: xx-large;
+font-size: xxx-large;
+
+/* &lt;relative-size&gt; values */
+font-size: smaller;
+font-size: larger;
+
+/* &lt;length&gt; values */
+font-size: 12px;
+font-size: 0.8em;
+
+/* &lt;percentage&gt; values */
+font-size: 80%;
+
+/* math value */
+font-size: math;
+
+/* Global values */
+font-size: inherit;
+font-size: initial;
+font-size: revert;
+font-size: revert-layer;
+font-size: unset;</div>
 
 <div class="postFooter break2 small">
 <div class="tagList tLeft left"></div>

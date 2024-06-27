@@ -390,15 +390,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "WIRED - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@WIRED",
-        "tag": "#TV #technology #science",
-        "time": 1705230842,
-        "rightFooter": ""
-    },
-    {
         "text": "WWE - YouTube",
         "text2": "",
         "text3": "",
