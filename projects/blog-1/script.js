@@ -1,4 +1,4 @@
-// Keep or blog v.2.6.2
+// Keep or blog v.2.6.3
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -247,6 +247,7 @@ window.location.href = "/projects/redirects-25/?q=" + q + " a";
 window.location.href = window.location.href + '#stopRedir'; 
 }
 
+/*
 // first letters
 if (q[0] + q[1] == 'q '){
 q = q.slice(2);
@@ -264,6 +265,7 @@ window.location.href = "/projects/redirects-25/?q=" + q + " a";
 window.location.href = window.location.href + '#stopRedir'; 
 }
 // end first letters
+*/
 
 }
 

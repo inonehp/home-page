@@ -1,4 +1,4 @@
-// Search redirects v.2.0.24
+// Search redirects v.2.1.0
 // Mini Google
 // The script redirects the search query + command.
 
@@ -65,6 +65,7 @@ if (rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") 
 
 q = q.trim();
 
+/*
 // first letter command
 if (q[0] + q[1] == 'q '){
 q = q.slice(2);
@@ -76,6 +77,7 @@ q = q.slice(2);
 q = q + " a";
 }
 // end first letter command
+*/
 
 //q = q.replace(/%([^\d].)/, "%25$1");
 /*q = q.replaceAll(/%/g, "%25");
@@ -98,6 +100,7 @@ var q3 = q + "#";
 
 switch (qCom) {
 
+// pi#
 case 'π#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -107,7 +110,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-'tec', 'sci', 'dev',
+'tec', 'sci', 'dev', 'ai',
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -311,6 +314,8 @@ urlList = [
 "https://www.reddit.com/r/worldnews/",
 "https://medium.com/tag/news/recommended",
 "https://www.perplexity.ai/discover",
+
+"/?q=news tag",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -332,11 +337,33 @@ urlList = [
 "https://slashdot.org/",
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
-"https://medium.com/tag/technology/recommended",
-"https://www.reddit.com/r/technology/",
-"https://wordpress.com/tag/technology",
+
+"/?q=technology tag",
 ];
 
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+case 'ai#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"?q=AI n",
+];
+
+if (q == ''){
+urlList = [
+"https://www.google.com/search?q=ai&tbm=nws",
+"https://flipboard.com/topic/machinelearning",
+"https://www.reddit.com/r/ArtificialInteligence/",
+"https://www.reddit.com/r/singularity/",
+
+"/?q=AI tag",
+];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
@@ -356,9 +383,10 @@ urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
 "https://flipboard.com/topic/science",
 "https://science.slashdot.org/",
-
 "https://www.reddit.com/r/science/",
-"https://medium.com/tag/science/recommended",
+
+"?q=science tag",
+
 ];
 
 }
@@ -373,7 +401,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " q",
+"/?q=" + q + " q",
 ];
 
 if (q == ''){
@@ -394,6 +422,7 @@ urlList = [
 //"https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtVnVLQUFQAQ",
 "https://flipboard.com/topic/business",
 
+"/?q=culture tag",
 ];
 
 }
@@ -432,13 +461,15 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " red",
+"/?q=" + q + " red",
 ];
 
 if (q == ''){
 urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
 "https://www.reddit.com/r/sports/",
+
+"/?q=sport tag",
 ];
 
 }
@@ -463,9 +494,8 @@ urlList = [
 "https://dev.to/",
 "https://hashnode.com/community",
 //"https://stackoverflow.com/",
-"https://medium.com/tag/webdevelopment/recommended",
-"https://wordpress.com/tag/webdev",
-"https://wordpress.com/tag/webdevelopment",
+
+"/?q=webdevelopment tag",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -557,7 +587,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+q+"&newwindow=1&tbm=vid",
-"https://www.bing.com/videos/search?q="+q
+//"https://www.bing.com/videos/search?q="+q
 ];
 
 if (q == ''){
@@ -626,19 +656,20 @@ let medium = (q.replaceAll("%20", '-')).trim();
 urlList = [
 "https://x.com/search?q=" + q,
 "https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:w",
-//"https://www.google.com/search?q=" + q + " site:https://blogspot.com/&newwindow=1&tbs=qdr:w",
-//"https://bsky.app/search?q=" + q,
-"https://wordpress.com/tag/" + wordpress,
-"https://wordpress.com/search?q=" + q,
 "https://medium.com/tag/" + medium,
+"https://www.tumblr.com/search/" + q + "/recent",
+"https://wordpress.com/search?q=" + q,
+"https://bsky.app/search?q=" + q,
 ];
 
 if (q == ''){
 urlList = [
 "https://x.com/",
-//"https://bsky.app/",
-"https://wordpress.com/read",
+"https://www.reddit.com/",
 "https://medium.com/",
+"https://www.tumblr.com/",
+"https://wordpress.com/",
+"https://bsky.app/",
 ];
 
 }
@@ -647,6 +678,39 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+case 'tag#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+
+let wordpressTag = (q.replaceAll("%20", ' ')).trim();
+let mediumTag = (q.replaceAll("%20", '-')).trim();
+
+urlList = [
+"https://x.com/hashtag/" + q,
+"https://www.tumblr.com/tagged/" + q,
+"https://wordpress.com/tag/" + wordpressTag,
+"https://medium.com/tag/" + mediumTag + "/recommended",
+"https://bsky.app/hashtag/" + q,
+];
+
+if (q == ''){
+urlList = [
+"https://x.com/explore/",
+"https://www.tumblr.com/explore/trending",
+"https://wordpress.com/discover",
+"https://medium.com/",
+"https://bsky.app/",
+];
+
+}
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
 
 case 'we#':
 case 'wet#':
@@ -798,7 +862,7 @@ url = random;
 sRedirectUrl = url;
 break;
 
-case 'a#':
+/*case 'a#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -814,7 +878,7 @@ urlList = [
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
-break;
+break;*/
 
 case 'q#':
 q = q3.replace(qCom, '');

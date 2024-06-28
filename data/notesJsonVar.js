@@ -3,6 +3,26 @@ var notesJsonVar =
 
 [
     {
+        "id": "48",
+        "text": "How to Disable JavaScript in Firefox",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.lifewire.com\/disable-javascript-in-firefox-446039",
+        "tag": "#fix",
+        "time": 1719495874,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=48\">id<\/a>"
+    },
+    {
+        "id": "47",
+        "text": "How do you block images? | Firefox Support Forum | Mozilla Support",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/support.mozilla.org\/en-US\/questions\/1226175",
+        "tag": "#fix",
+        "time": 1719495729,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=47\">id<\/a>"
+    },
+    {
         "id": "46",
         "text": "font-size - CSS: Cascading Style Sheets | MDN",
         "text2": "\/* <absolute-size> values *\/\r\nfont-size: xx-small;\r\nfont-size: x-small;\r\nfont-size: small;\r\nfont-size: medium;\r\nfont-size: large;\r\nfont-size: x-large;\r\nfont-size: xx-large;\r\nfont-size: xxx-large;\r\n\r\n\/* <relative-size> values *\/\r\nfont-size: smaller;\r\nfont-size: larger;\r\n\r\n\/* <length> values *\/\r\nfont-size: 12px;\r\nfont-size: 0.8em;\r\n\r\n\/* <percentage> values *\/\r\nfont-size: 80%;\r\n\r\n\/* math value *\/\r\nfont-size: math;\r\n\r\n\/* Global values *\/\r\nfont-size: inherit;\r\nfont-size: initial;\r\nfont-size: revert;\r\nfont-size: revert-layer;\r\nfont-size: unset;",
