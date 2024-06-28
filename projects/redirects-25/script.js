@@ -1,4 +1,4 @@
-// Search redirects v.2.1.0
+// Search redirects v.2.1.1
 // Mini Google
 // The script redirects the search query + command.
 
@@ -312,7 +312,6 @@ urlList = [
 "https://flipboard.com/topic/news",
 "https://www.reddit.com/r/news/",
 "https://www.reddit.com/r/worldnews/",
-"https://medium.com/tag/news/recommended",
 "https://www.perplexity.ai/discover",
 
 "/?q=news tag",
@@ -490,12 +489,12 @@ urlList = [
 
 if (q == ''){
 urlList = [
-"https://www.reddit.com/r/webdev/",
+"https://www.reddit.com/r/programming/",
 "https://dev.to/",
 "https://hashnode.com/community",
 //"https://stackoverflow.com/",
 
-"/?q=webdevelopment tag",
+"/?q=programming tag",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
