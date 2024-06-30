@@ -1,4 +1,4 @@
-// Local main index script v.1.1.8
+// Local main index script v.1.1.9
 
 // Random color generator
 //if(document.getElementById("siteName") != null){}
@@ -37,7 +37,7 @@ n++;
 //element.classList.add(lRancColor);
 
 let mRandTone = fuMRandom(5, 100);
-let mRandTone2 = fuMRandom(0, 50);
+let mRandTone2 = fuMRandom(5, 100);
 
 
 mRandColorsPrint += `

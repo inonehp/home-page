@@ -327,7 +327,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " q",
+"/?q=" + q + " q",
 ];
 
 if (q == ''){
@@ -374,7 +374,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " q",
+"/?q=" + q,
 ];
 
 if (q == ''){
@@ -400,7 +400,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/?q=" + q + " q",
+"/?q=" + q,
 ];
 
 if (q == ''){
@@ -460,7 +460,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/?q=" + q + " red",
+"/?q=" + q,
 ];
 
 if (q == ''){
@@ -484,12 +484,13 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"?q=" + q + " q",
+"/?q=" + q + " q",
 ];
 
 if (q == ''){
 urlList = [
 "https://www.reddit.com/r/programming/",
+"https://www.reddit.com/r/webdev/",
 "https://dev.to/",
 "https://hashnode.com/community",
 //"https://stackoverflow.com/",
@@ -654,10 +655,11 @@ let medium = (q.replaceAll("%20", '-')).trim();
 
 urlList = [
 "https://x.com/search?q=" + q,
-"https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:w",
-"https://medium.com/tag/" + medium,
-"https://www.tumblr.com/search/" + q + "/recent",
+"https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
+"https://www.google.com/search?q=" + q + " site:https://blogspot.com/&newwindow=1&tbs=qdr:m",
 "https://wordpress.com/search?q=" + q,
+"https://www.tumblr.com/search/" + q + "/recent",
+"https://medium.com/tag/" + medium,
 "https://bsky.app/search?q=" + q,
 ];
 

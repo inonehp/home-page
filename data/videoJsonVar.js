@@ -363,6 +363,15 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "C.C. and Company 1970 (Action film) Ann-Margret, Joe Namath | Loving, brawling and bustin' it up - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=gGJi53i1C28",
+        "tag": "#video #movie",
+        "time": 1719669512,
+        "rightFooter": ""
+    },
+    {
         "text": "Captain Kidd (1945) | Full Movie | Charles Laughton, Randolph Scott, Barbara Britton - YouTube",
         "text2": "",
         "text3": "",

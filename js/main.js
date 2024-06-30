@@ -1,4 +1,4 @@
-// Main js v.6.6.14
+// Main js v.6.7.0
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -1235,8 +1235,10 @@ script.src = embedUrl;
 
 if (document.getElementById(embedId) != null){
 document.getElementById(embedId).appendChild(script);
-//document.getElementsByTagName('head')[0].appendChild(script); 
+} else {
+document.getElementsByTagName('head')[0].appendChild(script); 
 }
+
 }
 
 
@@ -1268,11 +1270,11 @@ fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAn
 ///////////////////////////
 // Run:
 
-onload = (event) => {
-
+//onload = (event) => {}
 //document.body.onload = function(){}
 //document.addEventListener("DOMContentLoaded", (event) => {})
-
+//https://stackoverflow.com/questions/39155645/multiple-window-onload-functions-with-only-javascript
+window.addEventListener('load', function() {
 //https://stackoverflow.com/questions/7559520/determine-if-statically-named-javascript-function-exists-to-prevent-errors
 if (conf["confSpeedDialtatus"] != "off"&&typeof fuLSpeedDial == 'function'){
 fuLSpeedDial("speedDialPrint", "", "", "print");
@@ -1296,8 +1298,7 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 // fix fu hide // + test delme
 //fuMHideFileNameExt2();
 
-}
-
+})
 
 }
 // Embed scripts
@@ -1314,8 +1315,6 @@ document.querySelectorAll("textarea")[index].textContent = "";
 }
 
 }
-
-
 
 // fu hide ext
 fuMHideFileNameExt2();

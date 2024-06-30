@@ -3,6 +3,46 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "153",
+        "text": "SitePoint \u2013 Learn HTML, CSS, JavaScript, PHP, Ruby & Responsive Design",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.sitepoint.com\/",
+        "tag": "#WebDevelopment #blog",
+        "time": 1719708861,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=153\">id<\/a>"
+    },
+    {
+        "id": "152",
+        "text": "Blog | W3C",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.w3.org\/blog\/",
+        "tag": "#WebDevelopment #blog",
+        "time": 1719683537,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=152\">id<\/a>"
+    },
+    {
+        "id": "151",
+        "text": "Increment: Planning",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/increment.com\/",
+        "tag": "#technology #blog",
+        "time": 1719683249,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=151\">id<\/a>"
+    },
+    {
+        "id": "150",
+        "text": "Google for Developers - from AI and Cloud to Mobile and Web",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developers.google.com\/",
+        "tag": "#WebDevelopment #blog",
+        "time": 1719682680,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=150\">id<\/a>"
+    },
+    {
         "id": "149",
         "text": "LibriVox | free public domain audiobooks",
         "text2": "",
