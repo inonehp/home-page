@@ -1695,15 +1695,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "WAMU | American University Radio",
-        "text2": "https:\/\/hd1.wamu.org\/wamu-1",
-        "text3": "mp3",
-        "url": "https:\/\/wamu.org\/",
-        "tag": "#radio #en",
-        "time": 1683435237,
-        "rightFooter": ""
-    },
-    {
         "text": "Webradio | Darkitalia \u2235 Music & People \u2235",
         "text2": "https:\/\/darkitalia.radioca.st\/autodj",
         "text3": "mp3",

@@ -17373,6 +17373,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Sabrina Carpenter - Please Please Please (Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Yl_thbk40A0",
+        "tag": "#music",
+        "time": 1719730098,
+        "rightFooter": ""
+    },
+    {
         "text": "Sabrina Carpenter - Thumbs (Official Video) - YouTube",
         "text2": "",
         "text3": "",
