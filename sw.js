@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.06.30";
+//var myCacheVersion = "v.1.2.2024.07.03";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.06.30").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.07.03").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -521,14 +521,14 @@ var fileListArr = ["/404.html",
 "/icons-data/warning.svg",
 "/icons-data/weather.svg",
 "/icons-page.html",
-"/images/0-100/art-krita-28.png",
+"/images/0-100/art-krita-png-28.png",
 "/images/",
 "/images/0-100/",
 "/images/0-100/ava-woman-laptop-ava-inkscape-svg-12.svg",
 "/images/0-100/ava-woman-laptop-inkscape-svg-30.svg",
 "/images/0-100/barbie-time-inkscape-svg-10.svg",
-"/images/0-100/bg-black-png-krita-39.png",
-"/images/0-100/bg-white-png-krita-38.png",
+"/images/0-100/bg-black-krita-png-39.png",
+"/images/0-100/bg-white-krita-png-38.png",
 "/images/0-100/binary-text-desktop-wallpaper-dark-inkscape-png-26.png",
 "/images/0-100/binary-text-desktop-wallpaper-light-inkscape-png-25.png",
 "/images/0-100/binary-text-mobile-wallpaper-dark-inkscape-png-23.png",
@@ -557,22 +557,24 @@ var fileListArr = ["/404.html",
 "/images/0-100/landscape-inkscape-svg-2.svg",
 "/images/0-100/landscape-light-blue-wallpaper-desktop-inkscape-jpg-19.jpg",
 "/images/0-100/landscape-light-blue-wallpaper-mobile-inkscape-jpg-22.jpg",
-"/images/0-100/logo-circle-oval-png-inkscape-41.png",
-"/images/0-100/logo-circle-oval-svg-inkscape-40.svg",
+"/images/0-100/logo-circle-oval-inkscape-png-41.png",
+"/images/0-100/logo-circle-oval-inkscape-svg-40.svg",
 "/images/0-100/logo-diamond-inkscape-png-34.png",
 "/images/0-100/logo-t-inkscape-svg-6.svg",
 "/images/0-100/logo-x-inkscape-svg-5.svg",
 "/images/0-100/logo-x-inkscape-svg-7.svg",
 "/images/0-100/logo-x-inkscape-svg-8.svg",
 "/images/0-100/logo-x-inkscape-svg-9.svg",
-"/images/0-100/mail-art-inkscape-31.svg",
+"/images/0-100/mail-art-inkscape-svg-31.svg",
 "/images/0-100/music-note-icon-inkscape-svg-44.svg",
-"/images/0-100/one-black-pixel-png-inkscape-35.png",
-"/images/0-100/one-transparent-pixel-png-inkscape-37.png",
-"/images/0-100/one-white-pixel-png-inkscape-36.png",
+"/images/0-100/one-black-pixel-inkscape-png-35.png",
+"/images/0-100/one-transparent-pixel-inkscape-png-37.png",
+"/images/0-100/one-white-pixel-inkscape-png-36.png",
 "/images/0-100/star-inkscape-svg-4.svg",
 "/images/0-100/start-end-krita-png-0.png",
-"/images/0-100/transparent-background-inkscape-29.png",
+"/images/0-100/test-inkscape-png-58.png",
+"/images/0-100/test-inkscape-svg-57.svg",
+"/images/0-100/transparent-background-inkscape-png-29.png",
 "/images/0-100/triangle-dark-wallpaper-desktop-jpg-17.jpg",
 "/images/0-100/triangle-light-wallpaper-desktop-jpg-18.jpg",
 "/images/0-100/web-design-trend-svg-inkscape-svg-11.svg",
@@ -899,6 +901,10 @@ var fileListArr = ["/404.html",
 "/projects/text-to-binary-52/",
 "/projects/text-to-binary-52/script.js",
 "/projects/text-to-binary-52/style.css",
+"/projects/text-to-speech/index.html",
+"/projects/text-to-speech/",
+"/projects/text-to-speech/script.js",
+"/projects/text-to-speech/style.css",
 "/projects/text-to-url-43/index.html",
 "/projects/text-to-url-43/",
 "/projects/text-to-url-43/script.js",
@@ -1159,7 +1165,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.06.30")
+caches.open("v.1.2.2024.07.03")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1185,7 +1191,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.06.30")
+caches.open("v.1.2.2024.07.03")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1218,7 +1224,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.06.30"];
+  const cachesToKeep = ["v.1.2.2024.07.03"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

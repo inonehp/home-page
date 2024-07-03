@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.0.2
 // Effect when scroll to element
 // The effect starts in the center of the screen, so you need to indent at the top and bottom of the page.
  
@@ -8,9 +8,9 @@ let counter = idNumberStart;
 
 window.onscroll = event => {
 while (counter <= idNumberEnd) {
-if(document.documentElement.scrollTop >= document.getElementById(counter).offsetTop - ((document.documentElement.clientHeight) / 2)){
+if (document.documentElement.scrollTop >= document.getElementById(counter).offsetTop - ((document.documentElement.clientHeight) / 2)){
 document.getElementById(counter).classList.add(styleClassName);
-}else{
+} else {
 document.getElementById(counter).classList.remove(styleClassName);
 }
 

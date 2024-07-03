@@ -1,4 +1,4 @@
-// Keep or blog v.2.6.3
+// Keep or blog v.2.6.4
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -229,6 +229,9 @@ mode = mode.trim();
 if (q != null){
 
 if (q[q.length - 2] == ' '&&q[q.length - 1] == 'l'){ q = q.slice(0, -2); q2 = 'l'; }
+if (q[q.length - 3] == ' '&&q[q.length - 1] == 'l'&&q[q.length - 2] == 'l'){
+q = q.slice(0, -3); q2 = 'l';
+} // ll
 if (q[q.length - 2] == ' '&&q[q.length - 1] == 'r'){ q = q.slice(0, -2); q2 = 'r'; }
 
 if (q[q.length - 2] == ' '&&q[q.length - 1] == 'q'){

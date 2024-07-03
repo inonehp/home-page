@@ -282,6 +282,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Chicago's Comedy Scene Radio | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Chicagos-Comedy-Scene-Radio-s191879\/",
+        "tag": "#radio #en #comedy #culture",
+        "time": 1719774806,
+        "rightFooter": ""
+    },
+    {
         "text": "CityNews Toronto | Breaking News | Top Local Stories",
         "text2": "https:\/\/rogers-hls.leanstream.co\/rogers\/tor680.stream\/icy",
         "text3": "mp3",
@@ -1227,6 +1236,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Monocle 24 | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Monocle-24-s147125\/",
+        "tag": "#radio #RadioMusic",
+        "time": 1719774700,
+        "rightFooter": ""
+    },
+    {
         "text": "MPR News",
         "text2": "https:\/\/nis.stream.publicradio.org\/nis.mp3",
         "text3": "mp3",
@@ -1578,12 +1596,12 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "StarTalk Radio Show by Neil deGrasse Tyson - Science, pop culture & comedy collide on StarTalk w\/ astrophysicist & Hayden Planetarium director Neil deGrasse Tyson, comic co-hosts, celebrities & scientists. : Monday, Neil deGrasse Tyson and Dr. Paul Offit, MD, Talk COVID-19 Vaccines",
-        "text2": "https:\/\/t1.streamguys1.com\/StarTalkRadio",
-        "text3": "mp3",
-        "url": "https:\/\/startalkmedia.com\/",
-        "tag": "#radio #en #science",
-        "time": 1683350245,
+        "text": "StarTalk Radio | Listen to Podcasts On Demand Free | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/podcasts\/Science-Podcasts\/StarTalk-Radio-p334521\/",
+        "tag": "#radio #en #science #culture",
+        "time": 1719774545,
         "rightFooter": ""
     },
     {

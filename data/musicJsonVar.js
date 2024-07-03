@@ -8913,6 +8913,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "How We Do by chmura",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/chmuramusic\/how-we-do",
+        "tag": "#music",
+        "time": 1719975000,
+        "rightFooter": ""
+    },
+    {
         "text": "How You Like Me Now \u00b7 The Heavy",
         "text2": "",
         "text3": "",
@@ -9318,6 +9327,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "if i were a fish ft. olivia barton by corook",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/hicorook\/if-i-were-a-fish-ft-olivia-barton",
+        "tag": "#music",
+        "time": 1719975734,
+        "rightFooter": ""
+    },
+    {
         "text": "If You Leave \u00b7 Angel Olsen",
         "text2": "",
         "text3": "",
@@ -9432,6 +9450,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=D9G1VOjN_84",
         "tag": "#music",
         "time": 1657111738,
+        "rightFooter": ""
+    },
+    {
+        "text": "IMMORTAL FREESTYLE by Saweetie",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/saweetie\/immortal-freestyle",
+        "tag": "#music",
+        "time": 1719975531,
         "rightFooter": ""
     },
     {
@@ -14223,6 +14250,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Moving Day by Samara Cyn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/samaracynmusic\/moving-day",
+        "tag": "#music",
+        "time": 1719974331,
+        "rightFooter": ""
+    },
+    {
         "text": "Mr Magic (Through The Smoke) \u00b7 Amy Winehouse",
         "text2": "",
         "text3": "",
@@ -15129,6 +15165,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=6hzrDeceEKc",
         "tag": "#music",
         "time": 1622954859,
+        "rightFooter": ""
+    },
+    {
+        "text": "Ocean Eyes by Billie Eilish",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/billieeilish\/ocean-eyes",
+        "tag": "#music",
+        "time": 1719975013,
         "rightFooter": ""
     },
     {
@@ -18993,6 +19038,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Stream Indy 500 by Kid Quill | Listen online for free on SoundCloud",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/kidquill\/indy-500",
+        "tag": "#music",
+        "time": 1719975891,
+        "rightFooter": ""
+    },
+    {
         "text": "Stream Sofi Tukker, Amadou & Mariam - Mon Cheri (Mexican Institute Of Sound Remix) by SOFI TUKKER | Listen online for free on SoundCloud",
         "text2": "",
         "text3": "",
@@ -19008,6 +19062,15 @@ var musicJsonVar =
         "url": "https:\/\/soundcloud.com\/sofitukker\/sofi-tukker-amadou-mariam-1",
         "tag": "#music",
         "time": 1631334271,
+        "rightFooter": ""
+    },
+    {
+        "text": "Stream The Milk Carton by Madilyn Mei | Listen online for free on SoundCloud",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/madilyn-mei\/the-milk-carton",
+        "tag": "#music",
+        "time": 1719975798,
         "rightFooter": ""
     },
     {

@@ -3,14 +3,34 @@ var bookmarksJsonVar =
 
 [
     {
-        "id": "153",
-        "text": "SitePoint \u2013 Learn HTML, CSS, JavaScript, PHP, Ruby & Responsive Design",
+        "id": "156",
+        "text": "The Register: Enterprise Technology News and Analysis",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.sitepoint.com\/",
+        "url": "https:\/\/www.theregister.com\/",
+        "tag": "#technology #news",
+        "time": 1719910727,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=156\">id<\/a>"
+    },
+    {
+        "id": "155",
+        "text": "SitePoint Blog \u2013 The Best Web Development & Design Blog",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.sitepoint.com\/blog\/",
+        "tag": "#WebDevelopment #programming #blog",
+        "time": 1719789910,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=155\">id<\/a>"
+    },
+    {
+        "id": "154",
+        "text": "Blog \u00a0|\u00a0 web.dev",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/web.dev\/blog",
         "tag": "#WebDevelopment #blog",
-        "time": 1719708861,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=153\">id<\/a>"
+        "time": 1719789865,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=154\">id<\/a>"
     },
     {
         "id": "152",
@@ -171,16 +191,6 @@ var bookmarksJsonVar =
         "tag": "#recommendation #alternative #music #movie #TV #shows #book #game #podcast",
         "time": 1713762770,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=136\">id<\/a>"
-    },
-    {
-        "id": "135",
-        "text": "BBC Innovation | Technology, Health, Environment, AI",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.bbc.com\/innovation",
-        "tag": "#technology #news",
-        "time": 1713299345,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=135\">id<\/a>"
     },
     {
         "id": "134",

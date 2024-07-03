@@ -672,6 +672,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/projects\/text-to-speech\/index.html",
+        "text": "Speech synthesiser, text to speech\n\nSpeech synthesiser, text to speech. TTS. | text to speech: ",
+        "tag": " #speech #tts #CSS #JavaScript #project",
+        "id": "1f9706dc2b7d26b4448831dca9a9a566",
+        "time": "id"
+    },
+    {
         "url": "\/projects\/text-to-url-43\/index.html",
         "text": "Text to URL or file name\n\nConversion of text into URL or file name using JavaScript. | text to url: ",
         "tag": " #text #URL #tool #file #name #JavaScript #project",

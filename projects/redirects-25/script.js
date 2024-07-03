@@ -1,4 +1,4 @@
-// Search redirects v.2.1.1
+// Search redirects v.2.1.4
 // Mini Google
 // The script redirects the search query + command.
 
@@ -655,22 +655,25 @@ let medium = (q.replaceAll("%20", '-')).trim();
 
 urlList = [
 "https://x.com/search?q=" + q,
+"https://www.threads.net/search?q=" + q,
+"https://bsky.app/search?q=" + q,
+"https://medium.com/tag/" + medium + "/archive",
 "https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
 "https://www.google.com/search?q=" + q + " site:https://blogspot.com/&newwindow=1&tbs=qdr:m",
-"https://wordpress.com/search?q=" + q,
 "https://www.tumblr.com/search/" + q + "/recent",
-"https://medium.com/tag/" + medium,
-"https://bsky.app/search?q=" + q,
+"https://wordpress.com/search?q=" + q,
+
 ];
 
 if (q == ''){
 urlList = [
 "https://x.com/",
-"https://www.reddit.com/",
+"https://www.threads.net/following",
+"https://bsky.app/",
 "https://medium.com/",
+"https://www.reddit.com/",
 "https://www.tumblr.com/",
 "https://wordpress.com/",
-"https://bsky.app/",
 ];
 
 }
@@ -690,19 +693,21 @@ let mediumTag = (q.replaceAll("%20", '-')).trim();
 
 urlList = [
 "https://x.com/hashtag/" + q,
+"https://www.threads.net/search?q=%23" + q,
+"https://bsky.app/hashtag/" + q,
+"https://medium.com/tag/" + mediumTag + "/archive",
 "https://www.tumblr.com/tagged/" + q,
 "https://wordpress.com/tag/" + wordpressTag,
-"https://medium.com/tag/" + mediumTag + "/recommended",
-"https://bsky.app/hashtag/" + q,
 ];
 
 if (q == ''){
 urlList = [
 "https://x.com/explore/",
+"https://www.threads.net/following",
+"https://bsky.app/",
+"https://medium.com/",
 "https://www.tumblr.com/explore/trending",
 "https://wordpress.com/discover",
-"https://medium.com/",
-"https://bsky.app/",
 ];
 
 }

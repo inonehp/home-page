@@ -1,4 +1,4 @@
-// Typing Speed Test and game v.3.16.6
+// Typing Speed Test and game v.3.16.8
 
 
 
@@ -130,7 +130,9 @@ script2.charset = 'utf-8';
 script2.src = '../../data/bookJsonVar.js';
 document.getElementsByTagName('head')[0].appendChild(script2);
 
-script2.onload = (event) => {
+//script2.onload = (event) => {}
+//https://stackoverflow.com/questions/39155645/multiple-window-onload-functions-with-only-javascript
+window.addEventListener('load', function() {
 
 var book = '';
 var bookLength = 500;
@@ -166,7 +168,7 @@ task = task.join(" ");
 main(task);
 
 
-}
+})
 
 }
 

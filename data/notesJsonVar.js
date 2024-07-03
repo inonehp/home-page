@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "49",
+        "text": "Linux update",
+        "text2": "sudo apt update && sudo apt upgrade && sudo snap refresh",
+        "text3": "",
+        "url": "",
+        "tag": "#linux #fix",
+        "time": 1719819468,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=49\">id<\/a>"
+    },
+    {
         "id": "48",
         "text": "How to Disable JavaScript in Firefox",
         "text2": "",
