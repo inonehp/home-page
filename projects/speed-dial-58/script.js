@@ -1,4 +1,4 @@
-// Speed dial v.1.8.0
+// Speed dial v.1.8.1
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
@@ -303,7 +303,7 @@ printSettings = `
 
 ${printSettings}
 
-<a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'update')"><div class="op small  submit shadow brand borderRadius3">Update all</div></a>
+<a href="#speedDialAnchor" onclick="fuLSpeedDial('', '', '', 'update')"><div class="op small  submit shadow brand borderRadius3">Update All</div></a>
 </form>
 
 <div class="block padding2 margin2"></div>

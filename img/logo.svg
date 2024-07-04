@@ -12,6 +12,12 @@
   <defs
      id="defs2">
     <rect
+       x="237.164"
+       y="182.83529"
+       width="251.82177"
+       height="59.387627"
+       id="rect3701" />
+    <rect
        x="108.98836"
        y="358.47676"
        width="379.53182"
@@ -354,7 +360,7 @@
   <path
      style="display:inline;fill:#386c84;fill-opacity:1"
      id="path439"
-     d="m 212.55265,152.69708 a 41.908638,41.908638 0 0 1 -41.90902,41.90812 41.908638,41.908638 0 0 1 -41.90826,-41.90889 41.908638,41.908638 0 0 1 41.90877,-41.90838 41.908638,41.908638 0 0 1 41.90851,41.90863 h -41.90864 z" />
+     d="m 212.55265,182.83843 a 41.908638,41.908638 0 0 1 -41.90902,41.90812 41.908638,41.908638 0 0 1 -41.90826,-41.90889 41.908638,41.908638 0 0 1 41.90877,-41.90838 41.908638,41.908638 0 0 1 41.90851,41.90863 h -41.90864 z" />
   <path
      style="display:none;fill:#000000"
      id="path439-3-7"
@@ -363,41 +369,46 @@
      style="display:inline;fill:#386c84;stroke-width:1.2938;fill-opacity:1"
      id="path439-3"
      d="m 426.56452,245.27443 c 27.49822,38.19902 -36.71382,47.93579 -69.11329,88.5001 -34.05088,42.6319 -37.87505,102.79877 -72.41824,85.44125 -33.4577,-16.81206 -65.54226,-118.09008 -27.70769,-167.09512 30.6519,-39.70174 141.89483,-30.08953 169.23831,-6.84697 l -83.48019,73.86778 z" />
-  <g
-     id="g87169"
-     style="display:inline;fill:#456eac;fill-opacity:1"
-     transform="matrix(0.96037553,0,0,0.96037553,8.1227381,5.8942711)">
-    <g
-       id="g87161"
-       style="fill:#456eac;fill-opacity:1">
-      <text
-         xml:space="preserve"
-         id="text6710"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:2.05;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect6712);display:inline;fill:#456eac;fill-opacity:1;stroke:none"
-         transform="rotate(89.221677,232.91514,343.38789)"
-         x="0"
-         y="0"><tspan
-           x="108.98828"
-           y="420.20692"
-           id="tspan1413"><tspan
-             style="text-align:justify"
-             id="tspan1411">inonehp</tspan></tspan></text>
-      <rect
-         style="fill:#456eac;fill-opacity:1;stroke-width:7.58995"
-         id="rect42979"
-         width="7.152"
-         height="166.9959"
-         x="145.23047"
-         y="226.29008"
-         rx="0"
-         ry="0" />
-    </g>
-    <rect
-       style="fill:#456eac;fill-opacity:1;stroke-width:22.1359"
-       id="rect77954"
-       width="10.208242"
-       height="7.1524134"
-       x="145.2299"
-       y="224.26358" />
-  </g>
+  <text
+     xml:space="preserve"
+     id="text6710"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;line-height:2.05;font-family:'Open Sans';-inkscape-font-specification:'Open Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect6712);display:inline;fill:#456eac;fill-opacity:1;stroke:none"
+     transform="matrix(0.01304563,0.96028692,-0.96028692,0.01304563,559.22955,136.28624)"
+     x="0"
+     y="0"><tspan
+       x="108.98828"
+       y="420.20692"
+       id="tspan1254"><tspan
+         style="text-align:justify"
+         id="tspan1252">irvirty</tspan></tspan></text>
+  <rect
+     style="fill:#456eac;fill-opacity:1;stroke-width:4.72075"
+     id="rect42979"
+     width="5.6152344"
+     height="82.283081"
+     x="-153.32643"
+     y="250.08257"
+     rx="0"
+     ry="0"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#456eac;fill-opacity:1;stroke-width:34.1221"
+     id="rect77954"
+     width="8.2418737"
+     height="21.050587"
+     x="-155.9124"
+     y="250.08257"
+     transform="scale(-1,1)" />
+  <rect
+     style="fill:#456eac;fill-opacity:1;stroke-width:19.6739"
+     id="rect77954-0"
+     width="8.2418737"
+     height="6.9979634"
+     x="-155.95306"
+     y="325.36768"
+     transform="scale(-1,1)" />
+  <text
+     xml:space="preserve"
+     id="text3699"
+     style="line-height:1.25;font-family:sans-serif;font-size:24px;white-space:pre;shape-inside:url(#rect3701)" />
 </svg>
