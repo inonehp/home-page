@@ -1,4 +1,4 @@
-// Typing Speed Test and game v.3.16.8
+// Typing Speed Test and game v.3.16.9
 
 
 
@@ -436,6 +436,10 @@ letters = letters.replaceAll(/%EF%B8%8D/g, "");
 letters = letters.replaceAll(/%EF%B8%8E/g, "");
 letters = letters.replaceAll(/%EF%B8%8F/g, "");
 letters = letters.replaceAll(/ ️/g, ' '); //Variation Selector
+
+
+// normalize
+letters = letters.replaceAll("ʼ", "'");
 
 //https://stackoverflow.com/questions/18862256/how-to-detect-emoji-using-javascript
 function removeEmojis (string) {

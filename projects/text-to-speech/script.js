@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.0.2
 
 var geturl = location.href;
 var url = new URL(geturl);
@@ -44,10 +44,10 @@ function populateVoiceList() {
   });
 
 //new
-var selectedIndex = 220;
+//var selectedIndex = 0;
 //const selectedIndex =
-//selectedIndex = voiceSelect.selectedIndex < 0 ? 0 : voiceSelect.selectedIndex;
-  voiceSelect.innerHTML = "";
+var selectedIndex = voiceSelect.selectedIndex < 0 ? 0 : voiceSelect.selectedIndex;
+  voiceSelect.innerHTML = "test";
 
 
   for (let i = 0; i < voices.length; i++) {
@@ -100,7 +100,7 @@ function speak() {
       console.error("SpeechSynthesisUtterance.onerror");
     };
 
-    const selectedOption =
+var selectedOption =
 voiceSelect.selectedOptions[0].getAttribute("data-name");
 localStorage.setItem('lLangConfig', voiceSelect.selectedOptions[0].getAttribute("data-lang"));
 

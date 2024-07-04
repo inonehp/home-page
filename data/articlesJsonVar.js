@@ -3,6 +3,16 @@ var articlesJsonVar =
 
 [
     {
+        "id": "14",
+        "text": "The worst website in the\u00a0world",
+        "text2": "I want to create a page or site that will be the worst in the world. This is an incomplete list of what should be on it. This is a collection of what I noticed while visiting other sites and when something annoyed me.\r\n\r\nTask:\r\n- UX. ADS. Too many ads\r\n- UX. Fake notifications. + (1) New Messages! in title\r\n- UX. Image. Image without alt tag.\r\n- UX. Image. Many animations.\r\n- UX. Image. Many icons without a sprite.\r\n- UX. Image. Many large size photos. Many large image photos.\u00a0\r\n- UX. Page loading progress before opening.\r\n- UX. Player. Audio does not automatically play on a page designed for audio.\r\n- UX. Player. Automatic video playback on a page that is not intended for video.\u00a0\r\n- UX. Popup. Cookie pop-up window with a choice: accept or subscribe.\r\n- UX. Popup. Email subscription popup.\r\n- UX. Popup. Push notification popup.\r\n- UX. Popup. Registration pop-up window.\r\n- UX. Prohibit copying and pasting into form input fields such as passwords or credit card numbers.\r\n- UX. Scroll. Modify scrolling speed.\r\n- UX. Scroll. Not responsive. Horizontal page scrolling.\r\n- UX. Scroll. The page automatically scrolls up, jumps.\r\n- UX. Text selection is disabled. Forbidden to copy the text or the ability to copy text is disabled.\r\n- UX. Text. Color. Bad color contrast.\r\n- UX. Text. Incorrect heading order.\r\n\r\n---\r\nSource: my unfinished project.",
+        "text3": "",
+        "url": "",
+        "tag": "#technology #WebDevelopment #WebDesign #website #WebsiteDesign #UX #UI",
+        "time": 1720082743,
+        "rightFooter": "<a class=\"brand\" href=\"\/articles.html?id=14\">id<\/a>"
+    },
+    {
         "id": "12",
         "text": "Web Design Resources",
         "text2": "Documentation:\r\n=============\r\n\r\n- MDN Web Docs https:\/\/developer.mozilla.org\/\r\n- W3Schools Online Web Tutorials https:\/\/www.w3schools.com\/\r\n- Stack Overflow - Where Developers Learn, Share, & Build Careers https:\/\/stackoverflow.com\/\r\n- web.dev https:\/\/web.dev\/\r\n\r\nDev:\r\n====\r\n\r\n- PageSpeed Insights https:\/\/pagespeed.web.dev\/\r\n- The W3C Markup Validation Service https:\/\/validator.w3.org\/\r\n- The W3C CSS Validation Service https:\/\/jigsaw.w3.org\/css-validator\/\r\n\r\n\r\nSEO ans statics:\r\n=============\r\n\r\n- Google Analytics https:\/\/analytics.google.com\/\r\n- Google Search Console https:\/\/search.google.com\/search-console\r\n- Bing Webmaster Tools https:\/\/www.bing.com\/webmasters\/\r\n- Google Trends https:\/\/trends.google.com\/\r\n\r\n\r\nSoftware:\r\n========\r\n\r\n- Firefox for desktop \u2014 Mozilla https:\/\/www.mozilla.org\/firefox\/new\/\r\n- Google Chrome - The Fast & Secure Web Browser Built to be Yours https:\/\/www.google.com\/chrome\/\r\n- Geany https:\/\/www.geany.org\/\r\n- Visual Studio Code - Code Editing. Redefined https:\/\/code.visualstudio.com\/\r\n- Inkscape https:\/\/inkscape.org\/\r\n\r\n\r\nOther:\r\n=====\r\n\r\n- Daring Fireball: Markdown https:\/\/daringfireball.net\/projects\/markdown\/",

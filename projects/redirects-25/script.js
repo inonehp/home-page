@@ -657,7 +657,7 @@ urlList = [
 "https://x.com/search?q=" + q,
 "https://www.threads.net/search?q=" + q,
 "https://bsky.app/search?q=" + q,
-"https://medium.com/tag/" + medium + "/archive",
+"https://medium.com/tag/" + medium + "/recommended",
 "https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
 "https://www.google.com/search?q=" + q + " site:https://blogspot.com/&newwindow=1&tbs=qdr:m",
 "https://www.tumblr.com/search/" + q + "/recent",
@@ -695,7 +695,7 @@ urlList = [
 "https://x.com/hashtag/" + q,
 "https://www.threads.net/search?q=%23" + q,
 "https://bsky.app/hashtag/" + q,
-"https://medium.com/tag/" + mediumTag + "/archive",
+"https://medium.com/tag/" + mediumTag + "/recommended",
 "https://www.tumblr.com/tagged/" + q,
 "https://wordpress.com/tag/" + wordpressTag,
 ];
