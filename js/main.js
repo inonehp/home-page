@@ -1,11 +1,11 @@
-// Main js v.6.7.0
+// Main js v.6.7.1
 // For navigation (second), footer, themes, etc
 
 // Settings
 
 var conf = [];
 
-conf["confGoogleAnalyticsId"] = "G-35Y7P644PW";
+conf["confGoogleAnalyticsId"] = "G-RQJTJG7DF9";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["conMenuItemAverageWidth"] = 130;

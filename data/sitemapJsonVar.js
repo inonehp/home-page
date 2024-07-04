@@ -245,10 +245,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/googlebae648489b2c26df.html",
-        "text": "\n\n | googlebaebcdf: ",
-        "tag": " #googlebaebcdf",
-        "id": "454da31ae58ef74e16c4a31d9f9933f4",
+        "url": "\/googlebb934aafeeb1ecb6.html",
+        "text": "\n\n | googlebbaafeebecb: ",
+        "tag": " #googlebbaafeebecb",
+        "id": "ddfd38af0807ae54804c3abb522ae1d8",
         "time": "id"
     },
     {
@@ -410,13 +410,6 @@ var sitemapJsonVar = [
         "text": "Photos page\n\nSometimes I take photos. | photos page: ",
         "tag": " #photo #page #main",
         "id": "64f9c2bceeb03e942ce9f1b78a921e4f",
-        "time": "id"
-    },
-    {
-        "url": "\/pinterest-bb1de.html",
-        "text": "\n\n | pinterest bbde: ",
-        "tag": " #pinterest #bbde",
-        "id": "075e7ac74496a44d82b42c1519f273f6",
         "time": "id"
     },
     {
