@@ -1605,15 +1605,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Stream Variety | Free Internet Radio | TuneIn",
-        "text2": "https:\/\/stream.jfkradio.es\/altxl",
-        "text3": "mp3",
-        "url": "https:\/\/tunein.com\/radio\/Stream-Variety-g88\/",
-        "tag": "#radio #RadioMusic #top40 #PopMusic #variety",
-        "time": 1683354410,
-        "rightFooter": ""
-    },
-    {
         "text": "Sud Radio : en ligne, direct \/ podcast | actualit\u00e9s & \u00e9missions",
         "text2": "http:\/\/ice.creacast.com\/sudradio",
         "text3": "mp3",
