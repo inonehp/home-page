@@ -8,13 +8,13 @@ A personal start page with projects such as search (redirect), blog, games, to-d
   
 ---
   
-### Download: [main.zip](https://github.com/inonehp/inonehp.pages.dev/archive/refs/heads/main.zip)  
-### URL: [inonehp.pages.dev](https://inonehp.pages.dev/)  
+### Download: [main.zip](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)  
+### URL: [irvirty.pages.dev](https://irvirty.pages.dev/)  
   
 ---
   
 > [!NOTE]
-> You can find information about other licenses on the [about page](https://inonehp.pages.dev/about.html#license).
+> You can find information about other licenses on the [about page](https://irvirty.pages.dev/about.html#license).
   
 ---
    

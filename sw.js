@@ -1132,8 +1132,6 @@ var fileListArr = ["/404.html",
 "/vscode-theme/package.json",
 "/vscode-theme/screenshot-dark.png",
 "/vscode-theme/screenshot-light.png",
-"/vscode-theme/theme-abc-1.3.57.vsix",
-"/vscode-theme/theme-abc-1.5.3.vsix",
 "/vscode-theme-page.html",
 "/",];
 fileListArr.push("no_exit_file_name_for_test.hmtl");
