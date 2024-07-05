@@ -929,12 +929,5 @@ var sitemapJsonVar = [
         "tag": " #theme #themes #color #colors #setting #page #main",
         "id": "2d150acc6f248aeb4d602015299cf7e1",
         "time": "id"
-    },
-    {
-        "url": "\/vscode-theme-page.html",
-        "text": "Vscode theme page\n\nVSCode themes. Theme for Visual Studio Code with a light and dark colors. | vscode theme page: ",
-        "tag": " #Visual #Studio #Code #theme #color #flat #dark #light #VSCode #project #page #main",
-        "id": "48d8a39a6a2042b79fd9cedef9e93813",
-        "time": "id"
     }
 ]
