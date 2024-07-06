@@ -169,6 +169,7 @@ Task:
 - UX. Page loading progress before opening.
 - UX. Player. Audio does not automatically play on a page designed for audio.
 - UX. Player. Automatic video playback on a page that is not intended for video. 
+- UX. Popup. Cookie consent popup.
 - UX. Popup. Cookie pop-up window with a choice: accept or subscribe.
 - UX. Popup. Email subscription popup.
 - UX. Popup. Push notification popup.
@@ -182,7 +183,7 @@ Task:
 - UX. Text. Incorrect heading order.
 
 ---
-Source: my unfinished project.
+Source: unfinished project.
 ]]>
 </description>
 </item>

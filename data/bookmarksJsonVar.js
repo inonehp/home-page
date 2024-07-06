@@ -3,6 +3,16 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "157",
+        "text": "SHOWstudio",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.showstudio.com\/",
+        "tag": "#nice",
+        "time": 1720264633,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=157\">id<\/a>"
+    },
+    {
         "id": "156",
         "text": "The Register: Enterprise Technology News and Analysis",
         "text2": "",
