@@ -21,13 +21,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/archive\/disqus-60\/index.html",
-        "text": "Disqus\n\nDisqus embed test. Comment service for the site. | disqus: ",
-        "tag": " #disqus #embed #page #project",
-        "id": "46fc4e6537e4761890c1722b3171e908",
-        "time": "id"
-    },
-    {
         "url": "\/archive\/dropdown-menu-8\/index.html",
         "text": "Dropdown Menu or Dropdown Button\n\nDropdown Menu project. | dropdown menu: ",
         "tag": " #menu #UI #UX #dropdown #menu #JavaScript #WebDesign #project",

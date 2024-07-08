@@ -1,4 +1,4 @@
-// Search redirects v.2.1.4
+// Search redirects v.2.1.5
 // Mini Google
 // The script redirects the search query + command.
 
@@ -757,13 +757,38 @@ if (q == ''){ url = "/projects/google-programmable-search-49/index.html"; }
 sRedirectUrl = url;
 break;
 
+case 'moj#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.mojeek.com/search?q=" + q
+];
+if (q == ''){
+urlList = [
+"https://www.mojeek.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
 case 'bi#':
 case 'bin#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://www.bing.com/search?q=" + q;
-if (q == ''){ url = "https://www.bing.com/"; }
+urlList = [
+"https://www.bing.com/search?q=" + q
+];
+if (q == ''){
+urlList = [
+"https://www.bing.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 

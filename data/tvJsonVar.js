@@ -228,15 +228,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Microsoft - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@Microsoft",
-        "tag": "#TV #technology",
-        "time": 1711236745,
-        "rightFooter": ""
-    },
-    {
         "text": "Movieclips - YouTube",
         "text2": "",
         "text3": "",
@@ -306,15 +297,6 @@ var tvJsonVar =
         "url": "https:\/\/www.youtube.com\/@pokimane\/videos",
         "tag": "#TV #IRL",
         "time": 1711234808,
-        "rightFooter": ""
-    },
-    {
-        "text": "Science & Technology | BBC News - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/playlist?list=PLS3XGZxi7cBVrIzO4HczA0Nn8Va8XSDue",
-        "tag": "#TV #science #technology",
-        "time": 1711914696,
         "rightFooter": ""
     },
     {
