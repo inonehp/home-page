@@ -1069,7 +1069,7 @@ function fuMHideFileNameExt(url){
 var newUrl = url;
 if (conf["confHideLinkExt"] == "on"){
 if (newUrl != null&&newUrl != undefined){
-if (newUrl[0] == "/"||newUrl[0] == "."/*||String(newUrl).indexOf(location.hostname) != -1*/){
+if (url[0] == "/"||url[0] == "."/*||String(newUrl).indexOf(location.hostname) != -1*/){
 if (String(newUrl).indexOf("=http") == -1){
 var arr = (conf["confLinkExtList"]).split(',');
 arr.forEach((element) => {

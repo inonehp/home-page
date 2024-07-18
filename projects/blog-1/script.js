@@ -1,4 +1,4 @@
-// Keep or blog v.2.6.5
+// Keep or blog v.2.6.7
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -2093,7 +2093,7 @@ embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" 
 
 var item222 = '';
 //if(item.search("http") != -1){
-if (item.slice(0, 4) == 'http'||item.search("http|://|www.") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " "){
+if (item.slice(0, 4) == 'http'||item.search("http|://|www.") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " "||item[0] == "."&&item[1] == "/"&&item[2] != " "){
 
 item = fuMHideFileNameExt(item);
 
@@ -2608,7 +2608,7 @@ embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" 
 
 
 //if(item.search("http") != -1){
-if (item.slice(0, 4) == 'http'||item.search("http|://|www.") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " "){
+if (item.slice(0, 4) == 'http'||item.search("http|://|www.") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " "||item[0] == "."&&item[1] == "/"&&item[2] != " "){
 
 if (embedStatus == 'on'&&host != undefined){
 
