@@ -1,4 +1,4 @@
-// Keep or blog v.2.6.4
+// Keep or blog v.2.6.5
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -454,12 +454,7 @@ if (item['time'] != null){ postTime = item['time']; }
 if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
 
 let postTextClean = postText;
-postText = (postText+' '+postUrl).trim();
-
-
-
-
-
+postText = (postText + ' ' + postUrl).trim();
 
 
 
@@ -1554,6 +1549,8 @@ hlClass = 'hlClass'+printTag2[0].toLowerCase();
 hlClassList += printTag2[0].toLowerCase();
 }
 
+scriptDir = fuMHideFileNameExt(scriptDir);
+
 if(q == tag){
 tagList += `
 
@@ -1675,7 +1672,6 @@ lPost = `<san class="large">${post}</span>`; // without highlight (embed)
 /*
 //
 if(display == 'article'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
-
 
 
 return `
@@ -2077,13 +2073,13 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 }
 }
 
-//item = fuMHideFileNameExt(item);
+
 
 if (item[0] != ''&&item[1] != ''&&item[2] != ''){
 if (item.indexOf(".htm") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||
 item.indexOf("/") != -1&&item.indexOf("index.htm") != -1/*||item[0] == "/"&&item[1] != "/"&&item[2] != " "*/) {
 
-//item = fuMHideFileNameExt(item);
+item = fuMHideFileNameExt(item);
 
 embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" title="iframe"></iframe>`;
 }
@@ -2099,6 +2095,8 @@ var item222 = '';
 //if(item.search("http") != -1){
 if (item.slice(0, 4) == 'http'||item.search("http|://|www.") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " "){
 
+item = fuMHideFileNameExt(item);
+
 if (embedStatus == 'on'&&host != undefined){
 
 item = item.trim();
@@ -2110,6 +2108,7 @@ item222 = `<a class="brand insertIcon" href="${item}">${item}</a>`;
 }
 
 } else {
+
 if (targetOption == 'blank'){
 item222 = `<a class="brand insertIcon" target="_blank" href="${item}">${item}</a>`;
 } else {
@@ -2126,7 +2125,7 @@ item[0] == '/'&&item.indexOf(".php") != -1||item.indexOf("./") != -1&&item.index
 item[0] == "/"&&item[1] != "/"&&item[2] != " "*/
 ){
 
-//item = fuMHideFileNameExt(item);
+item = fuMHideFileNameExt(item);
 
 if (targetOption == 'blank'){
 /*item = `<a href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
@@ -2595,7 +2594,7 @@ item = `<a class="brand" href="${item}">${item}</a>`;
 
 if (item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||item.indexOf("/") != -1&&item.indexOf("index.htm") != -1/*||item[0] == "/"&&item[1] != "/"&&item[2] != " "*/) {
 
-//item = fuMHideFileNameExt(item);
+item = fuMHideFileNameExt(item);
 
 embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" title="iframe"></iframe>`;
 }
@@ -2614,6 +2613,7 @@ if (item.slice(0, 4) == 'http'||item.search("http|://|www.") != -1||item[0] == "
 if (embedStatus == 'on'&&host != undefined){
 
 item = item.trim();
+item = fuMHideFileNameExt(item);
 
 if (targetOption == 'blank'){
 item = `<a class="brand insertIcon" target="_blank" href="${item}">${item}</a>`;
