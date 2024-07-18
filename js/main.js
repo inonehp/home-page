@@ -874,12 +874,10 @@ conf["confRealTmpTheme"] = themeList[fuMRandom(0, themeList.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
+
 case 'none':
 case 'empty':
-conf["confRealTmpTheme"] = 'empty';
-fuMPrintTheme(conf["confRealTmpTheme"]);
-break;
-
+case 'bad':
 case themeSelect:
 conf["confRealTmpTheme"] = mode;
 fuMPrintTheme(conf["confRealTmpTheme"]);

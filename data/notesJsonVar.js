@@ -3,6 +3,26 @@ var notesJsonVar =
 
 [
     {
+        "id": "51",
+        "text": ":last-child - CSS: Cascading Style Sheets | MDN",
+        "text2": "p {\r\n  font-weight: bold;\r\n}\r\n\r\nli:last-child {\r\n  border: 2px solid orange;\r\n}",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/:last-child",
+        "tag": "#code #CSS",
+        "time": 1721306103,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=51\">id<\/a>"
+    },
+    {
+        "id": "50",
+        "text": ":first-child - CSS: Cascading Style Sheets | MDN",
+        "text2": "p {\r\n  font-weight: bold;\r\n}\r\n\r\nli:first-child {\r\n  border: 2px solid orange;\r\n}",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/:first-child",
+        "tag": "#CSS",
+        "time": 1721306066,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=50\">id<\/a>"
+    },
+    {
         "id": "49",
         "text": "Linux update",
         "text2": "sudo apt update && sudo apt upgrade && sudo snap refresh",

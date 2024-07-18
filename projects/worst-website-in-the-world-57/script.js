@@ -88,7 +88,7 @@ onblur = (event) => {
 document.getElementsByTagName('title')[0].innerHTML = "New Message! (1)";
 
 // auto scroll
-document.getElementById("secondNav").scrollIntoView();
+document.getElementById("processor").scrollIntoView();
 };
 
 
@@ -109,7 +109,7 @@ let i = 0;
 do {
 i = i + 1;
 fuAds('', 'manyAds' + i, 'force');
-} while (i <= 10);
+} while (i <= 30);
 
 }
 

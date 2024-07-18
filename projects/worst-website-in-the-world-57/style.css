@@ -1,5 +1,4 @@
-/* v.1.0.0 */
-/* comment */
+/* v.1.1.0 */
 
 
 .lGallery a {
@@ -26,14 +25,14 @@ margin: 0 auto;
 
 /* disable selection */
 /*https://stackoverflow.com/questions/16805684/javascript-disable-text-select#*/
-/*body{
+body{
 -webkit-touch-callout: none;
 -webkit-user-select: none;
 -khtml-user-select: none;
 -moz-user-select: none;
 -ms-user-select: none;
 user-select: none;
-}*/
+}
 
 /*https://css-tricks.com/almanac/properties/s/scroll-behavior/#*/
 body {
@@ -71,6 +70,30 @@ font-size: 16px;
 
 .ads {
 z-index: 10;
+}
+
+
+html {
+overflow-x: scroll;
+}
+
+/* anti fix, reverse fix */
+iframe, img, div, * {
+max-width: 999px;
+}
+
+
+/* ads */
+#manyAds1 {
+border: 2px solid orange;
+min-height: 200px
+}
+
+#manyAds10 {
+min-width: 500px;
+position: fixed;
+bottom: 0;
+right: 0;
 }
 
 
