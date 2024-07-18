@@ -122,12 +122,12 @@ install, download, website, PWA, WebApp, app, page, main,
 
 <div class="wrapperL tCenter">
 
-<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install (13,79 MB) - 1 first step</span>
+<button class="post padding2 margin2 borderList" onclick="startInstallPWA()"><span class="bold">Start Install (14,25 MB) - 1 first step</span>
 
 <span class="small block padding2">registration sw.js (service worker) and adding files to the cache.</span></button>
 
 <div id="startInstallStatus" class="post padding2 margin2 borderList"></div>
-<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install (13,79 MB) - 2. second step</button>
+<button class="add-button post padding2 margin2 borderList bold green" onclick="startInstallPWA()">Install (14,25 MB) - 2. second step</button>
 
 
 
@@ -184,19 +184,17 @@ document.getElementById("unregisterStatus").innerHTML = `Registration for unregi
 
 
 
-
-
-function startInstallPWA(){
-
-
 // insert manifest in header
 let element = document.createElement('link'); 
 element.setAttribute('rel', 'manifest'); 
 element.setAttribute('href', "/manifest.webmanifest");
-element.crossOrigin = 'anonymous';
+//element.crossOrigin = 'anonymous';
+element.crossOrigin = 'use-credentials';
 document.querySelector('head').appendChild(element);
 
 
+
+function startInstallPWA(){
 
 //https://github.com/mdn/pwa-examples
 

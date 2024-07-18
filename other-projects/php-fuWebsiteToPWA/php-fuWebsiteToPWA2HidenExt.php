@@ -488,19 +488,17 @@ document.getElementById("unregisterStatus").innerHTML = `Registration for unregi
 
 
 
-
-
-function startInstallPWA(){
-
-
 // insert manifest in header
 let element = document.createElement('link'); 
 element.setAttribute('rel', 'manifest'); 
 element.setAttribute('href', "/manifest.webmanifest");
-element.crossOrigin = 'anonymous';
+//element.crossOrigin = 'anonymous';
+element.crossOrigin = 'use-credentials';
 document.querySelector('head').appendChild(element);
 
 
+
+function startInstallPWA(){
 
 //https://github.com/mdn/pwa-examples
 

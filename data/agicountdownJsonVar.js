@@ -3,6 +3,16 @@ var agicountdownJsonVar =
 
 [
     {
+        "id": "28",
+        "text": "Elon Musk predicts AI will overtake human intelligence next year",
+        "text2": "2025 2030",
+        "text3": "",
+        "url": "https:\/\/www.ft.com\/content\/027b133f-f7e3-459d-95bf-8afd815ae23d",
+        "tag": "#article #single",
+        "time": 1721307669,
+        "rightFooter": ""
+    },
+    {
         "id": "27",
         "text": "Ray Kurzweil on how AI will transform the physical world",
         "text2": "2029",
@@ -105,7 +115,7 @@ var agicountdownJsonVar =
     {
         "id": "5",
         "text": "Date of Artificial General Intelligence | Metaculus",
-        "text2": "2031",
+        "text2": "2033",
         "text3": "",
         "url": "https:\/\/www.metaculus.com\/questions\/5121\/date-of-artificial-general-intelligence\/",
         "tag": "#group #poll #statistics",
