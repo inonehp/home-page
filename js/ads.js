@@ -1,8 +1,9 @@
-// Ads v.1.7.1
+// Ads v.1.7.2
 // Mini banner system
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
 function fuAds(none, idAds, com){
+
 
 if (com == "force"){ conf["confAdsStatus"] = "on"; }
 
@@ -49,7 +50,6 @@ let adsUrlPage = fuMHideFileNameExt("/ads.html");
 
 if (ads != null&&ads != ''){
 
-
 // single
 if (adsStatus != 'off'){
 var random = Math.floor(Math.random() * ads.length);
@@ -59,10 +59,14 @@ var random = Math.floor(Math.random() * ads.length);
 adsText = ads[random]['text']; if (adsText == null) { adsText = ''; }
 adsURL = ads[random]['url']; if (adsURL == null){ adsURL = ''; }
 if (adsText.search("src=") != -1&&cookieStatus != 'on'){ // found
-adsText = `<a class="brand inlineBlock" href="/settings.html#confDataCollection">Cookie setting: ${cookieStatus}.</a>`;
+adsText = fuMHideFileNameExt(`<a class="brand inlineBlock" href="/settings.html#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
 }
+
+
+
 if (adsText.search("src=") == -1){ // not found code
 adsPrint = `<div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><span class="yellow ico">✪</span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div>`;
+
 
 // print
 document.getElementById(idAds).innerHTML = `
@@ -86,8 +90,7 @@ document.getElementById(idAds).innerHTML = `
 </div>
 
 
-`
-;
+`;
 }
 }
 // single
@@ -128,9 +131,8 @@ adsPrint = '';
 
 });
 
-
-
 document.getElementById(idAds).innerHTML = '<div class="wrapper"><div class="padding2 bg shadow borderRadius2">' + adsPrintAll + '</div>';
+
 }
 // all
 
