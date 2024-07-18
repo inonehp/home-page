@@ -1,4 +1,4 @@
-// Insert icon v.4.1.4
+// Insert icon v.4.2.0
 // Function for insert icon in links using class name.
 /*
 How to use:
@@ -9,8 +9,7 @@ How to use:
 
 
 
-function insertIcon(classNameForInsert, mode, status, jsonVar){
-
+function insertIcon(classNameForInsert, mode, status, jsonVar, iconSize){
 
 if (typeof conf == 'object'){
 confDataCollection = conf["confDataCollection"];
@@ -25,7 +24,7 @@ if (classNameForInsert == undefined){ classNameForInsert = 'insertIcon'; }
 if (mode == undefined){ mode = ''; }
 if (status == undefined){ status = 'off'; }
 if (jsonVar == undefined){ jsonVar = []; }
-
+if (iconSize == undefined||iconSize == ""){ iconSize = 16; }
 
 /* testme delme
 function fuMGetSvgIcon(iconName, jsonVar){
@@ -401,8 +400,8 @@ iconsArr = iconsArr.concat(icons2);
 }
 
 /* img ico
-"instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="16" height="16">`,
-"twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="16" height="16">`,
+"instagram":`<img src="/img/icons/instagram-48x48.png" alt="ico" width="${iconSize}" height="${iconSize}">`,
+"twitter":`<img src="/img/icons/x-48x48.png" alt="ico" width="${iconSize}" height="${iconSize}">`,
 */
 
 /*
@@ -465,7 +464,7 @@ if (item33["t3"] == undefined){ item33["t3"] = item33["t"]; }
 //let iconSvg = fuMGetSvgIcon(item33["t3"], jsonVar); testme delme
 let iconSvg = jsonVarObjects[item33["t3"]];
 if (iconSvg != ''&&iconSvg != undefined){
-icon = `<div style="display: inline-flex; width: 16px; height: 16px;">${iconSvg}</div>`;
+icon = `<div style="display: inline-flex; width: ${iconSize}px; height: ${iconSize}px;">${iconSvg}</div>`;
 }
 //console.log((linkText.toLowerCase()+'')+((icon+' ')));
 
@@ -538,7 +537,7 @@ linkTextURL = host[2];
 var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
+iconHTTP = `<img src="${iconHTTP}" alt="ico" width="${iconSize}" height="${iconSize}">`;
 if (confDataCollection != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
 counter++;
@@ -557,7 +556,7 @@ linkTextURL = host[2];
 var iconHTTP = `https://www.google.com/s2/favicons?domain_url=${linkTextURL}`;
 //var ico = `https://api.statvoo.com/favicon/?url=${host[2]}`;
 //var ico = `https://api.faviconkit.com/${host[2]}/16`;
-iconHTTP = `<img src="${iconHTTP}" alt="ico" width="16" height="16">`;
+iconHTTP = `<img src="${iconHTTP}" alt="ico" width="${iconSize}" height="${iconSize}">`;
 if (confDataCollection != 'on'){ iconHTTP = '🔗'; }
 icArr.push(iconHTTP);
 counter++;

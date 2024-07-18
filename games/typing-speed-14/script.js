@@ -1,4 +1,4 @@
-// Typing Speed Test and game v.3.16.9
+// Typing Speed Test and game v.3.16.10
 
 
 
@@ -74,6 +74,7 @@ modeListPrint += `
 `;
 }
 }
+
 document.getElementById("mode").innerHTML = `
 
 <!-- mode -->
@@ -85,7 +86,7 @@ document.getElementById("mode").innerHTML = `
 ${modeListPrint}
 
 <!-- https://developer.mozilla.org/docs/Web/API/Document/getSelection -->
-<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://localhost/games/typing-speed-14/?mode=input&q='+encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
+<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://${conf["confUsername"]}.${conf["confHostingDomain"]}/games/typing-speed-14/?mode=input&q='+encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
 
 `;
 

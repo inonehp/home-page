@@ -3,6 +3,26 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "159",
+        "text": "DesignSystems.com",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.designsystems.com\/",
+        "tag": "#blog",
+        "time": 1720614903,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=159\">id<\/a>"
+    },
+    {
+        "id": "158",
+        "text": "Material Design Blog - Material Design",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/m3.material.io\/blog",
+        "tag": "#blog",
+        "time": 1720610821,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=158\">id<\/a>"
+    },
+    {
         "id": "157",
         "text": "SHOWstudio",
         "text2": "",

@@ -1,10 +1,12 @@
-// Main js v.6.7.1
+// Main js v.6.7.3
 // For navigation (second), footer, themes, etc
 
 // Settings
 
 var conf = [];
 
+conf["confUsername"] = "irvirty";
+conf["confHostingDomain"] = "pages.dev";
 conf["confGoogleAnalyticsId"] = "G-RQJTJG7DF9";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
@@ -1285,7 +1287,8 @@ fuAds('', 'ads2', '');
 }
 
 if (conf["confIconStatus"] != "off"&&typeof insertIcon == 'function'){
-insertIcon('insertIcon', 'strict', conf["confIconStatus"], iconsJsonVar);
+insertIcon('insertIcon', 'strict', conf["confIconStatus"], iconsJsonVar, 16);
+insertIcon("insertIconTitle", 'strict', conf["confIconStatus"], iconsJsonVar, 24);
 }
 
 if (conf["confDataCollection"] == 'on'){

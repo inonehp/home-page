@@ -93,7 +93,7 @@ text-align: left;
 
 
 
-.insertIcon svg * {
+.insertIcon svg *, .insertIconTitle svg * {
 fill: var(--c) !important;
 stroke: var(--c) !important;
 }

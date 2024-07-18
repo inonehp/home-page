@@ -1,4 +1,4 @@
-// v.1.0.2
+// v.1.1.0
 
 var geturl = location.href;
 var url = new URL(geturl);
@@ -23,9 +23,25 @@ const inputTxt = document.querySelector(".txt");
 const voiceSelect = document.querySelector("select");
 
 const pitch = document.querySelector("#pitch");
-const pitchValue = document.querySelector(".pitch-value");
+var pitchValue = document.querySelector(".pitch-value");
 const rate = document.querySelector("#rate");
-const rateValue = document.querySelector(".rate-value");
+var rateValue = document.querySelector(".rate-value");
+
+
+var lPitchValueConfig = 1;
+if(localStorage.getItem('lPitchValueConfig') != null){
+lPitchValueConfig = localStorage.getItem('lPitchValueConfig');
+pitchValue.textContent = lPitchValueConfig;
+pitch.value = lPitchValueConfig;
+}
+
+var lRateValueConfig = 1;
+if(localStorage.getItem('lRateValueConfig') != null){
+lRateValueConfig = localStorage.getItem('lRateValueConfig');
+rateValue.textContent = lRateValueConfig;
+rate.value = lRateValueConfig;
+}
+
 
 let voices = [];
 
@@ -116,8 +132,9 @@ localStorage.setItem('lLangConfig', voiceSelect.selectedOptions[0].getAttribute(
   }
 }
 
-inputForm.onsubmit = function (event) {
-  event.preventDefault();
+//inputForm.onsubmit = function (event) {
+document.getElementById("lStt").onsubmit = function (event) {
+event.preventDefault();
 
   speak();
 
@@ -126,10 +143,12 @@ inputForm.onsubmit = function (event) {
 
 pitch.onchange = function () {
   pitchValue.textContent = pitch.value;
+localStorage.setItem('lRateValueConfig', pitch.value);
 };
 
 rate.onchange = function () {
   rateValue.textContent = rate.value;
+localStorage.setItem('lPitchValueConfig', rate.value);
 };
 
 voiceSelect.onchange = function () {

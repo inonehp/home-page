@@ -1,8 +1,10 @@
-// Ads v.1.7.0
+// Ads v.1.7.1
 // Mini banner system
 // print ads from json var list: fuAds('', 'ads2 - id where print', '');
 
 function fuAds(none, idAds, com){
+
+if (com == "force"){ conf["confAdsStatus"] = "on"; }
 
 // none - Reserved variable
 // idAds - id for print

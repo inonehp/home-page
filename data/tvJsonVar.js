@@ -201,15 +201,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Learn English with EnglishClass101.com - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@EnglishClass101\/featured",
-        "tag": "#TV #english #language #learning #learn",
-        "time": 1705235684,
-        "rightFooter": ""
-    },
-    {
         "text": "Marques Brownlee",
         "text2": "",
         "text3": "",

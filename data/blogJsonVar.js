@@ -3,6 +3,16 @@ var blogJsonVar =
 
 [
     {
+        "id": "260",
+        "text": "AI scientist Ray Kurzweil: \u2018We are going to expand intelligence a millionfold by 2045\u2019 | Artificial intelligence (AI) | The Guardian",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.theguardian.com\/technology\/article\/2024\/jun\/29\/ray-kurzweil-google-ai-the-singularity-is-nearer",
+        "tag": "#technology #article #future",
+        "time": 1720511102,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=260\">id<\/a>"
+    },
+    {
         "id": "259",
         "text": "Google no longer developing Material Web Components",
         "text2": "",
