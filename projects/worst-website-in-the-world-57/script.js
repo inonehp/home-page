@@ -103,13 +103,18 @@ lManyAds()
 });
 
 
+fuMEmbedScript(`/data/adsJsonVar.js`, conf["confIdEmbedScript"]);
+fuMEmbedScript(`/js/ads.js`, conf["confIdEmbedScript"]);
 function lManyAds(){
+
+
 
 let i = 0;
 do {
 i = i + 1;
 fuAds('', 'manyAds' + i, 'force');
 } while (i <= 30);
+
 
 }
 

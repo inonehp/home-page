@@ -1,4 +1,4 @@
-// Search redirects v.2.1.5
+// Search redirects v.2.1.6
 // Mini Google
 // The script redirects the search query + command.
 
@@ -494,6 +494,7 @@ urlList = [
 "https://dev.to/",
 "https://hashnode.com/community",
 //"https://stackoverflow.com/",
+"https://news.ycombinator.com/",
 
 "/?q=programming tag",
 ];

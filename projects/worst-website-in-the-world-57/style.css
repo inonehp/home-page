@@ -89,6 +89,8 @@ border: 2px solid orange;
 min-height: 200px
 }
 
+
+
 #manyAds10 {
 min-width: 500px;
 position: fixed;
@@ -98,7 +100,18 @@ right: 0;
 
 
 
+header a {
+color: var(--green);
+border-bottom: 2px solid var(--c);
+}
 
+pre, ul {
+border: 2px solid var(--violet);
+padding: 5px;
+}
 
-
+h1, h2, h3, h4, h5, h6 {
+border: 2px solid var(--blue);
+padding: 15px;
+}
 

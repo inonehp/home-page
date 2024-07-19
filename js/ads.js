@@ -4,7 +4,6 @@
 
 function fuAds(none, idAds, com){
 
-
 if (com == "force"){ conf["confAdsStatus"] = "on"; }
 
 // none - Reserved variable
