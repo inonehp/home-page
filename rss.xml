@@ -146,6 +146,33 @@ https://www.youtube.com/watch?v=29ECwExc-_M
 </item>
 
 <item>
+<pubDate>Sun, 21 Jul 24 04:28:03 +0300</pubDate>
+<title><![CDATA[Web design notes 
+Notes:
+======
+
+- Do not use emojis (emoji can have a double meaning and are difficult to read)
+- Don't use duplicate content (license conflict)
+- Name uppercase (grammar)
+- Spaces in JavaScript for if and else
+- Use standard font sizes (16px, 1em, 14px because non-standard (]]></title>
+<link><![CDATA[https://irvirty.pages.dev/#postIdDisabled]]></link>
+<description>
+<![CDATA[
+Web design notes 
+Notes:
+======
+
+- Do not use emojis (emoji can have a double meaning and are difficult to read)
+- Don't use duplicate content (license conflict)
+- Name uppercase (grammar)
+- Spaces in JavaScript for if and else
+- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Thu, 04 Jul 24 11:45:43 +0300</pubDate>
 <title><![CDATA[The worst website in the world 
 I want to create a page or site that will be the worst in the world. This is an incomplete list of what should be on it. This is a collection of what I noticed while visiting other sites and when something annoyed me.

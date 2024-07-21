@@ -1,4 +1,4 @@
-/* Main style v.16.10.2
+/* Main style v.17.0.0
 Mini CSS framework: main.css + auto.css (color-theme-name.css) */
 
 /* Main */
@@ -521,47 +521,47 @@ form fieldset { border: 1px solid var(--d3); }
 .brand, .brand button{ color: var(--brand); }
 .brand2 { color: var(--brand2); }
 .brand:hover, .brand button:hover { color: var(--brand2); }
-.bgBrand, .lightBrand { background: var(--brand); }
-.bgBrand2, .lightRrand:hover { background: var(--brand2); }
+.brandBg, .brandLight { background: var(--brand); }
+.brand2Bg, .brandLight:hover { background: var(--brand2); }
 
 .red { color: var(--red); } .red2 { color: var(--red2); }
 .red:hover { color: var(--red2); }
-.bgRed, .lightRed { background: var(--red); }
-.bgRed2, .lightRed:hover { background: var(--red2); }
+.redBg, .redLight { background: var(--red); }
+.red2Bg, .redLight:hover { background: var(--red2); }
 
 .orange{ color: var(--orange); } .orange2 { color: var(--orange2); }
 .orange:hover { color: var(--orange2); }
-.bgOrange, .lightOrange { background: var(--orange); }
-.bgOrange2, .lightOrange:hover { background: var(--orange2); }
+.orangeBg, .orangeLight { background: var(--orange); }
+.orange2Bg, .orangeLight:hover { background: var(--orange2); }
 
 .yellow { color: var(--yellow); } .yellow2 { color: var(--yellow2);}
 .yellow:hover { color: var(--yellow2); }
-.bgYellow, .lightYellow { background: var(--yellow); }
-.bgYellow2, .lightYellow:hover { background: var(--yellow2); }
+.yellowBg, .yellowLight { background: var(--yellow); }
+.yellow2Bg, .yellowLight:hover { background: var(--yellow2); }
 
 .green { color: var(--green); } .green2 { color: var(--green2); }
 .green:hover { color: var(--green2); }
-.bgGreen, .lightGreen { background: var(--green); }
-.bgGreen2, .lightGreen:hover { background: var(--green2); }
+.greenBg, .greenLight { background: var(--green); }
+.green2Bg, .greenLight:hover { background: var(--green2); }
 
 .blue { color: var(--blue); } .blue2 { color: var(--blue2); }
 .blue:hover { color: var(--blue2); }
-.bgBlue, .lightBlue { background: var(--blue); }
-.bgBlue2, .lightBlue:hover { background: var(--blue2); }
+.blueBg, .blueLight { background: var(--blue); }
+.blue2Bg, .blueLight:hover { background: var(--blue2); }
 
 .indigo{ color: var(--indigo); } .indigo2 { color: var(--indigo2); }
 .indigo:hover { color: var(--indigo2); }
-.bgIndigo, .lightIndigo { background: var(--indigo); }
-.bgIndigo2, .lightIndigo:hover { background: var(--indigo2); }
+.indigoBg, .indigoLight { background: var(--indigo); }
+.indigo2Bg, .indigoLight:hover { background: var(--indigo2); }
 
 .violet { color: var(--violet); } .violet2 { color: var(--violet2); }
 .violet:hover { color: var(--violet2); }
-.bgViolet, .lightViolet { background: var(--violet); }
-.bgViolet2, .lightViolet:hover { background: var(--violet2); }
+.violetBg, .violetLight { background: var(--violet); }
+.violet2Bg, .violetLight:hover { background: var(--violet2); }
 
 .gray, .grey { color: var(--c); }
-.bgGray, .bgGrey, .lightGray, .lightGrey { background: var(--c); }
-.bgGray2, .bgGrey2, .lightGray:hover, .lightGrey:hover { background: var(--c2); }
+.grayBg, .greyBg, .grayLight, .greyLight { background: var(--c); }
+.gray2Bg, .grey2Bg, .grayLight:hover, .greyLight:hover { background: var(--c2); }
 
 .active { color: var(--c) !important; }
 .active2 { color: var(--c4) !important; }

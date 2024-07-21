@@ -30,15 +30,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "BBC Learning English - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@bbclearningenglish",
-        "tag": "#TV #english #language #learning #learn",
-        "time": 1706028773,
-        "rightFooter": ""
-    },
-    {
         "text": "Boxoffice | COMEDIES | Full",
         "text2": "",
         "text3": "",

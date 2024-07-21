@@ -3,6 +3,16 @@ var articlesJsonVar =
 
 [
     {
+        "id": "15",
+        "text": "Web design notes",
+        "text2": "Notes:\r\n======\r\n\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n- Spaces in JavaScript for if and else\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)",
+        "text3": "",
+        "url": "",
+        "tag": "#WebDesign #notes",
+        "time": 1721525283,
+        "rightFooter": "<a class=\"brand\" href=\"\/articles.html?id=15\">id<\/a>"
+    },
+    {
         "id": "14",
         "text": "The worst website in the\u00a0world",
         "text2": "I want to create a page or site that will be the worst in the world. This is an incomplete list of what should be on it. This is a collection of what I noticed while visiting other sites and when something annoyed me.\r\n\r\nTask:\r\n- UX. Ads. Ads with a fixed position and occupying screen space.\r\n- UX. Ads. The ad takes up half a page or more.\r\n- UX. Ads. Too many ads.\r\n- UX. Fake notifications. + (1) New Messages! in title.\r\n- UX. Image. Image without alt tag.\r\n- UX. Image. Many animations.\r\n- UX. Image. Many icons without a sprite.\r\n- UX. Image. Many large size photos. Many large image photos.\u00a0\r\n- UX. Page loading progress before opening.\r\n- UX. Player. Audio does not automatically play on a page designed for audio.\r\n- UX. Player. Automatic video playback on a page that is not intended for video.\u00a0\r\n- UX. Popup. Cookie consent popup.\r\n- UX. Popup. Cookie pop-up window with a choice: accept or subscribe.\r\n- UX. Popup. Email subscription popup.\r\n- UX. Popup. Push notification popup.\r\n- UX. Popup. Registration pop-up window.\r\n- UX. Popup. Sign-in prompt popup.\r\n- UX. Prohibit copying and pasting into form input fields such as passwords or credit card numbers.\r\n- UX. Scroll. Modify scrolling speed.\r\n- UX. Scroll. Not responsive. Horizontal page scrolling.\r\n- UX. Scroll. The page automatically scrolls up, jumps.\r\n- UX. Text selection is disabled. Forbidden to copy the text or the ability to copy text is disabled.\r\n- UX. Text. Color. Bad color contrast.\r\n- UX. Text. Incorrect heading order.\r\n\r\n---\r\nSource: unfinished project.",

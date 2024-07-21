@@ -393,16 +393,6 @@ var notesJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=10\">id<\/a>"
     },
     {
-        "id": "9",
-        "text": "Web Design notes",
-        "text2": "Notes:\r\n======\r\n\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read)\r\n- Don't use duplicate content (license conflict)\r\n- Name uppercase (grammar)\r\n- Spaces in JavaScript for if and else\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)",
-        "text3": "",
-        "url": "",
-        "tag": "#WebDesign #notes",
-        "time": 1711727102,
-        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=9\">id<\/a>"
-    },
-    {
         "id": "8",
         "text": "Map - JavaScript | MDN",
         "text2": "const map1 = new Map();\r\n\r\nmap1.set('a', 1);\r\nmap1.set('b', 2);\r\nmap1.set('c', 3);\r\n\r\nconsole.log(map1.get('a'));\r\n\/\/ Expected output: 1\r\n\r\nmap1.set('a', 97);\r\n\r\nconsole.log(map1.get('a'));\r\n\/\/ Expected output: 97\r\n\r\nconsole.log(map1.size);\r\n\/\/ Expected output: 3\r\n\r\nmap1.delete('b');\r\n\r\nconsole.log(map1.size);\r\n\/\/ Expected output: 2\r\n\r\n===\r\n\r\nconst myMap = new Map();\r\nmyMap.set(0, \"zero\");\r\nmyMap.set(1, \"one\");\r\n\r\nfor (const [key, value] of myMap) {\r\n  console.log(`${key} = ${value}`);\r\n}\r\n\/\/ 0 = zero\r\n\/\/ 1 = one\r\n\r\nfor (const key of myMap.keys()) {\r\n  console.log(key);\r\n}\r\n\/\/ 0\r\n\/\/ 1\r\n\r\nfor (const value of myMap.values()) {\r\n  console.log(value);\r\n}\r\n\/\/ zero\r\n\/\/ one\r\n\r\nfor (const [key, value] of myMap.entries()) {\r\n  console.log(`${key} = ${value}`);\r\n}\r\n\/\/ 0 = zero\r\n\/\/ 1 = one\r\n\r\n\r\n===\r\n\r\nmyMap.forEach((value, key) => {\r\n  console.log(`${key} = ${value}`);\r\n});\r\n\/\/ 0 = zero\r\n\/\/ 1 = one",
