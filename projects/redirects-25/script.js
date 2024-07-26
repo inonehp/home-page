@@ -1,4 +1,4 @@
-// Search redirects v.2.1.6
+// Search redirects v.2.1.7
 // Mini Google
 // The script redirects the search query + command.
 
@@ -646,6 +646,28 @@ url = random;
 sRedirectUrl = url;
 break;
 
+case 'b#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+
+urlList = [
+"https://www.google.com/search?q=" + q + " site:blogspot.com OR site:medium.com OR site:wordpress.com&tbs=qdr:m",
+];
+
+if (q == ''){
+urlList = [
+"https://wordpress.com",
+"https://medium.com/",
+"https://blogspot.com/",
+];
+}
+
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
 case 's#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -660,7 +682,6 @@ urlList = [
 "https://bsky.app/search?q=" + q,
 "https://medium.com/tag/" + medium + "/recommended",
 "https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
-"https://www.google.com/search?q=" + q + " site:https://blogspot.com/&newwindow=1&tbs=qdr:m",
 "https://www.tumblr.com/search/" + q + "/recent",
 "https://wordpress.com/search?q=" + q,
 
