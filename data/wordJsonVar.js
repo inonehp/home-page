@@ -671,6 +671,11 @@ var wordJsonVar =
         "text3": "la orilla"
     },
     {
+        "text": "\u0431\u0435\u0440\u0435\u0437\u0430",
+        "text2": "birch",
+        "text3": "abedul"
+    },
+    {
         "text": "\u0431\u0435\u0442\u0430",
         "text2": "beta",
         "text3": "beta"
@@ -5546,11 +5551,6 @@ var wordJsonVar =
         "text3": "\u00e1tico"
     },
     {
-        "text": "\u043f\u0435\u0440\u0435\u0431\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "stay",
-        "text3": "quedarse"
-    },
-    {
         "text": "\u043f\u0435\u0440\u0435\u0432\u043e\u0440\u043e\u0442",
         "text2": "revolution",
         "text3": "golpe de estado"
@@ -8839,11 +8839,6 @@ var wordJsonVar =
         "text": "\u0443\u0447\u0435\u043d\u0438\u0439",
         "text2": "scientist",
         "text3": "cientifico"
-    },
-    {
-        "text": "\u0443\u0447\u0435\u043d\u0438\u0446\u044f",
-        "text2": "schoolgirl",
-        "text3": "chica de escuela"
     },
     {
         "text": "\u0443\u0447\u0438\u043b\u0438\u0449\u0435",

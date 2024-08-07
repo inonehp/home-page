@@ -3,6 +3,16 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "160",
+        "text": "Home \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/x.com\/home",
+        "tag": "#SocialNetwork #platform",
+        "time": 1723017087,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=160\">id<\/a>"
+    },
+    {
         "id": "159",
         "text": "DesignSystems.com",
         "text2": "",

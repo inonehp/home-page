@@ -15,6 +15,7 @@ display: inline-block;
 height: 100%;
 vertical-align: middle;
 margin: 0;
+vertical-align: top;
 }
 
 .lGallery {
@@ -78,9 +79,9 @@ overflow-x: scroll;
 }
 
 /* anti fix, reverse fix */
-iframe, img, div, * {
+/*iframe, img, div, * {
 max-width: 999px;
-}
+}*/
 
 
 /* ads */
@@ -149,3 +150,14 @@ padding: 15px;
   font-weight: 400;
   font-style: normal;
 }
+
+
+/* fix */
+ul {
+padding: 0;
+}
+
+li {
+padding: 5px;
+}
+

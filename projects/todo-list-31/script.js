@@ -217,10 +217,9 @@ runDb('show', '', '');
 
 if (com == 'add'){
 
-
 // test for add
 data = [
-  { text:text }
+{ text:text }
 ];
 
 request.onsuccess = (event) => {

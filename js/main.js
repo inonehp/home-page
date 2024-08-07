@@ -1,4 +1,4 @@
-// Main js v.6.7.3
+// Main js v.6.7.4
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -182,7 +182,7 @@ conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent
 }
 });
 
-conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (up)</a>
+conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List ↑ (up)</a>
 `;
 
 
@@ -392,8 +392,6 @@ fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall"
 
 fuMPrintText("footer", `
 
-
-
 <div id="style"></div>
 
 <div class="padding2 margin2"></div>
@@ -438,7 +436,6 @@ fuMPrintText("footer", `
 </nav>
 
 <div id="fScrollToBottom"></div>
-
 
 `,'');
 
@@ -1025,6 +1022,18 @@ background-attachment: fixed;
 }
 }
 // random bg image
+
+// fonts
+if (conf["confDataCollection"] == 'on'){
+
+fuMPrintText('style', `
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+`, 'plus');
+
+}
+
 // CSS
 
 

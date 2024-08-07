@@ -1,5 +1,5 @@
-/* Main style v.17.0.0
-Mini CSS framework: main.css + auto.css (color-theme-name.css) */
+/* Main style v.17.0.1
+Mini CSS framework: main.css + auto.css (auto themes) */
 
 /* Main */
 * { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
@@ -44,7 +44,7 @@ Mini CSS framework: main.css + auto.css (color-theme-name.css) */
 }
 
 html, body, a, input, button, textarea, pre, code, select{
-/* https://twitter.com# */
+/* (X, Twitter) */
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 'Roboto', Helvetica, Arial, sans-serif;
 
 font-style: normal;

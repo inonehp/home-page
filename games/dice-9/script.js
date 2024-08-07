@@ -1,4 +1,4 @@
-// Dice game v.1.3.0
+// Dice game v.1.4.0
 
 
 var dice = {
@@ -101,7 +101,7 @@ if (pointsPlayer < pointsPc&&pointsPc == pointsLimit){
 win = '<span class="red"><b>End. PC Win</b></span>';
 win += '<audio style="display:none" autoplay="false" src="/audio/game-over.mp3"></audio>';
 colorPlayerWin = '';
-colorPcWin = 'green';
+colorPcWin = 'red';
 endGame[0] = 'end';
 }
 
