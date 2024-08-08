@@ -336,6 +336,8 @@ urlList = [
 "https://slashdot.org/",
 "https://flipboard.com/topic/technology",
 "https://flipboard.com/topic/computerscience",
+"https://www.reddit.com/r/technology/",
+"https://lemmy.world/c/technology",
 
 "/?q=technology tag",
 ];

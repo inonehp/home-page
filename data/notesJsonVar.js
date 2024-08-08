@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "52",
+        "text": "Licensing \u2013 CodePen",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blog.codepen.io\/documentation\/licensing\/",
+        "tag": "#license",
+        "time": 1723077461,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=52\">id<\/a>"
+    },
+    {
         "id": "51",
         "text": ":last-child - CSS: Cascading Style Sheets | MDN",
         "text2": "p {\r\n  font-weight: bold;\r\n}\r\n\r\nli:last-child {\r\n  border: 2px solid orange;\r\n}",

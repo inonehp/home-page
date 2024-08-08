@@ -3,6 +3,26 @@ var blogJsonVar =
 
 [
     {
+        "id": "263",
+        "text": "Introducing Figure 02 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=0SRVJaOg9Co",
+        "tag": "#news #technology #video",
+        "time": 1723092588,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=263\">id<\/a>"
+    },
+    {
+        "id": "262",
+        "text": "A court says \u201cGoogle is a monopolist.\u201d Now what?",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.economist.com\/business\/2024\/08\/06\/a-court-says-google-is-a-monopolist-now-what",
+        "tag": "#news #technology",
+        "time": 1723092400,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=262\">id<\/a>"
+    },
+    {
         "id": "260",
         "text": "AI scientist Ray Kurzweil: \u2018We are going to expand intelligence a millionfold by 2045\u2019 | Artificial intelligence (AI) | The Guardian",
         "text2": "",
