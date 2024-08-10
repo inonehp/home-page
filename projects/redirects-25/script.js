@@ -1,4 +1,4 @@
-// Search redirects v.2.1.8
+// Search redirects v.2.1.9
 // Mini Google
 // The script redirects the search query + command.
 
@@ -683,7 +683,8 @@ urlList = [
 "https://www.threads.net/search?q=" + q,
 "https://bsky.app/search?q=" + q,
 "https://medium.com/tag/" + medium + "/recommended",
-"https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
+//"https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
+"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
 "https://www.tumblr.com/search/" + q + "/recent/text",
 "https://wordpress.com/search?q=" + q,
 

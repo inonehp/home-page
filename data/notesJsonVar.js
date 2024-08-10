@@ -3,6 +3,26 @@ var notesJsonVar =
 
 [
     {
+        "id": "54",
+        "text": "String.prototype.replace() - JavaScript | MDN",
+        "text2": "const paragraph = \"I think Ruth's dog is cuter than your dog!\";\r\n\r\nconsole.log(paragraph.replace(\"Ruth's\", 'my'));\r\n\/\/ Expected output: \"I think my dog is cuter than your dog!\"\r\n\r\nconst regex = \/Dog\/i;\r\nconsole.log(paragraph.replace(regex, 'ferret'));\r\n\/\/ Expected output: \"I think Ruth's ferret is cuter than your dog!\"",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/String\/replace",
+        "tag": "#JavaScript #code",
+        "time": 1723246922,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=54\">id<\/a>"
+    },
+    {
+        "id": "53",
+        "text": "<form>: The Form element - HTML: HyperText Markup Language | MDN",
+        "text2": "<form action=\"\" method=\"get\" class=\"form-example\">\r\n  <div class=\"form-example\">\r\n    <label for=\"name\">Enter your name: <\/label>\r\n    <input type=\"text\" name=\"name\" id=\"name\" required \/>\r\n  <\/div>\r\n  <div class=\"form-example\">\r\n    <label for=\"email\">Enter your email: <\/label>\r\n    <input type=\"email\" name=\"email\" id=\"email\" required \/>\r\n  <\/div>\r\n  <div class=\"form-example\">\r\n    <input type=\"submit\" value=\"Subscribe!\" \/>\r\n  <\/div>\r\n<\/form>",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Element\/form",
+        "tag": "#HTML #code",
+        "time": 1723214783,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=53\">id<\/a>"
+    },
+    {
         "id": "52",
         "text": "Licensing \u2013 CodePen",
         "text2": "",

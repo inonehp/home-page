@@ -3,6 +3,16 @@ var blogJsonVar =
 
 [
     {
+        "id": "264",
+        "text": "Google DeepMind on X: \"Meet our AI-powered robot that\u2019s ready to play table tennis. \ud83e\udd16\ud83c\udfd3 It\u2019s the first agent to achieve amateur human level performance in this sport. Here\u2019s how it works. \ud83e\uddf5 https:\/\/t.co\/AxwbRQwYiB\" \/ X",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/x.com\/GoogleDeepMind\/status\/1821562365931855970",
+        "tag": "#news #technology #video",
+        "time": 1723244653,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=264\">id<\/a>"
+    },
+    {
         "id": "263",
         "text": "Introducing Figure 02 - YouTube",
         "text2": "",

@@ -1,4 +1,4 @@
-// Main js v.6.7.4
+// Main js v.6.7.5
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -182,7 +182,7 @@ conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent
 }
 });
 
-conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List ↑ (up)</a>
+conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (↑)</a>
 `;
 
 

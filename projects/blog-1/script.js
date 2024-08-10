@@ -1,4 +1,4 @@
-// Keep or blog v.2.6.7
+// Keep or blog v.2.6.8
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -1828,6 +1828,9 @@ case "x.com":
 case "mobile.x.com":
 case "twitter.com":
 case "mobile.twitter.com":
+
+item = item.replace("x.com", 'twitter.com'); // fix
+
 embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
 embedServiceList += 'xcom';
 embedServiceList += 'twitter';
@@ -2334,6 +2337,9 @@ case "x.com":
 case "mobile.x.com":
 case "twitter.com":
 case "mobile.twitter.com":
+
+item = item.replace("x.com", 'twitter.com'); // fix
+
 embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
 embedServiceList += 'xcom';
 embedServiceList += 'twitter';
@@ -2919,7 +2925,7 @@ ${nav2Print}
 // for embed 
 if (embedStatus == 'on'){
 
-if (embedServiceList.indexOf('twitter') != -1) {
+if (embedServiceList.indexOf('xcom') != -1||embedServiceList.indexOf('twitter') != -1) {
 var script = document.createElement('script');
 script.type='text/javascript';
 //script.async = true;

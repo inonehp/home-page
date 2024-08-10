@@ -42,6 +42,7 @@
 <body>
 
 
+
 <!-- Nav v.1.2.1 -->
 <!-- page, style.css, main.js, noscript.css -->
 
@@ -59,7 +60,7 @@
 <a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a>
 <a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-page.html">Projects</a>
 <a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./games-list.html">Games</a>
-<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List ↑ (up)</a>
+<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (↑)</a>
 <!-- // menu items -->
 
 </div>
@@ -78,7 +79,7 @@
 <a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./main-list.html">Main</a>
 <a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./projects-page.html">Projects</a>
 <a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="./games-list.html">Games</a>
-<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List ↑ (up)</a>
+<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (↑)</a>
 <!-- // menu items dublicate -->
 
 </div>
@@ -172,8 +173,15 @@ var geturl33 = window.location;
 var url33 = new URL(geturl33);
 var q33 = url33.searchParams.get("q");
 
-if(document.getElementById('q') != null){
+if(document.getElementById('q') != null&&q33 != ""&&q33 != null){
 document.getElementById('q').value = q33;
+}
+
+
+var q33Tag = url33.searchParams.get("tag");
+
+if(document.getElementById('q') != null&&q33Tag != ""&q33Tag != null){
+document.getElementById('q').value = "#" + q33Tag;
 }
 
 </script>
@@ -224,4 +232,5 @@ blog("printBlog", data, 'wrapper', './site-search.html', blogConfig);
 
 </body>
 </html>
+
 
