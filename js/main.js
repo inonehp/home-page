@@ -1,4 +1,4 @@
-// Main js v.6.7.5
+// Main js v.6.7.6
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -423,9 +423,10 @@ fuMPrintText("footer", `
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
 <span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/irvirty/irvirty.pages.dev">Сode</a></span>
+<span class="inlineBlock padding" title="About"><a class="inlineBlock padding brand" href="/about.html">About</a></span>
 
 <a class="inlineBlock padding brand" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
-<a class="inlineBlock padding brand" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>
+<!--<a class="inlineBlock padding brand" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>-->
 
 <span class="gray small">2024</span>
 
