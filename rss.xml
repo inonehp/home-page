@@ -42,19 +42,6 @@ https://www.youtube.com/watch?v=0SRVJaOg9Co
 </item>
 
 <item>
-<pubDate>Thu, 08 Aug 24 07:46:40 +0300</pubDate>
-<title><![CDATA[A court says “Google is a monopolist.” Now what? 
- ]]></title>
-<link><![CDATA[https://www.economist.com/business/2024/08/06/a-court-says-google-is-a-monopolist-now-what]]></link>
-<description>
-<![CDATA[
-A court says “Google is a monopolist.” Now what? 
-https://www.economist.com/business/2024/08/06/a-court-says-google-is-a-monopolist-now-what
-]]>
-</description>
-</item>
-
-<item>
 <pubDate>Tue, 09 Jul 24 10:45:02 +0300</pubDate>
 <title><![CDATA[AI scientist Ray Kurzweil: ‘We are going to expand intelligence a millionfold by 2045’ | Artificial intelligence (AI) | The Guardian 
  ]]></title>
@@ -146,6 +133,19 @@ https://alternativeto.net/news/2024/4/ubuntu-24-04-lts-noble-numbat-now-availabl
 </item>
 
 <item>
+<pubDate>Wed, 01 May 24 05:47:20 +0300</pubDate>
+<title><![CDATA[What TED Will Look Like in 40 Years — According to Sora, OpenAI’s Unreleased Text-to-Video Model - YouTube 
+ ]]></title>
+<link><![CDATA[https://www.youtube.com/watch?v=UXlPKKg4Md0]]></link>
+<description>
+<![CDATA[
+What TED Will Look Like in 40 Years — According to Sora, OpenAI’s Unreleased Text-to-Video Model - YouTube 
+https://www.youtube.com/watch?v=UXlPKKg4Md0
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Sun, 21 Jul 24 04:28:03 +0300</pubDate>
 <title><![CDATA[Web design notes 
 Notes:
@@ -221,7 +221,7 @@ Source: unfinished project.
 
 <item>
 <pubDate>Sat, 06 Apr 24 16:34:05 +0300</pubDate>
-<title><![CDATA[Web Design Resources 
+<title><![CDATA[Web Design Resources and tools 
 Documentation:
 =============
 
@@ -235,11 +235,11 @@ Dev:
 
 - PageSpeed Insights  
 - The W3C Markup Validation Service  
-- The W3C CSS Validation Servi]]></title>
+- The W3C CSS Valida]]></title>
 <link><![CDATA[https://daringfireball.net/projects/markdown/]]></link>
 <description>
 <![CDATA[
-Web Design Resources 
+Web Design Resources and tools 
 Documentation:
 =============
 
@@ -256,7 +256,7 @@ Dev:
 - The W3C CSS Validation Service https://jigsaw.w3.org/css-validator/
 
 
-SEO ans statics:
+SEO and statics:
 =============
 
 - Google Analytics https://analytics.google.com/

@@ -264,7 +264,7 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Freesound is out for lunch...",
+        "text": "Freesound",
         "text2": "",
         "text3": "",
         "url": "https:\/\/freesound.org\/",
