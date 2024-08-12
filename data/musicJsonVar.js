@@ -9624,15 +9624,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "It's Oh So Quiet \u00b7 Bj\u00f6rk",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=XxohzqH_Q78",
-        "tag": "#music",
-        "time": 1662618761,
-        "rightFooter": ""
-    },
-    {
         "text": "ITZY \"BORN TO BE\" M\/V @ITZY - YouTube",
         "text2": "",
         "text3": "",

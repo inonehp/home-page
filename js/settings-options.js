@@ -90,14 +90,14 @@ ${printBody}
 
 <div class="margin2 padding2"></div>
 
-<div class="w100 shadow button padding3 light2 bold pointer borderBottomOrange" onclick="settingOptionReset();">Reset settings</div>
+<div class="w100 shadow button padding3 light2 bold pointer borderBottomOrange" onclick="settingOptionReset();" title="Default value in settings">Reset settings</div>
 
 <div class="margin2 padding2"></div>
 
 <div class="padding block right">
-<div class="shadow button padding3 light2 bold pointer borderBottomRed" onclick="settingOptionClearData();">Clear local storage</div>
+<div class="shadow button padding3 light2 bold pointer borderBottomRed" onclick="settingOptionClearData();" title="Some saved settings on other pages and settings">Clear local storage</div>
 
-<div class="shadow button padding3 light2 bold pointer borderBottomRed" onclick="settingOptionClearDataIndexdDb();">Clear IndexedDB</div>
+<div class="shadow button padding3 light2 bold pointer borderBottomRed" onclick="settingOptionClearDataIndexdDb();" title="Clear the database: to-do list, etc">Clear IndexedDB</div>
 </div>
 
 

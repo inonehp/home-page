@@ -3,14 +3,14 @@ var bookmarksJsonVar =
 
 [
     {
-        "id": "161",
-        "text": "Lemmy.World - A generic Lemmy server for everyone to use.",
+        "id": "162",
+        "text": "Lemmy - A link aggregator for the fediverse",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/lemmy.world\/",
+        "url": "https:\/\/join-lemmy.org\/",
         "tag": "#SocialNetwork #platform",
-        "time": 1723148838,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=161\">id<\/a>"
+        "time": 1723338330,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=162\">id<\/a>"
     },
     {
         "id": "160",

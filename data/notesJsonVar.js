@@ -3,6 +3,26 @@ var notesJsonVar =
 
 [
     {
+        "id": "56",
+        "text": "CSS grid layout - CSS: Cascading Style Sheets | MDN",
+        "text2": ".wrapper {\r\n  display: grid;\r\n  grid-template-columns: repeat(3, 1fr);\r\n  gap: 10px;\r\n  grid-auto-rows: minmax(100px, auto);\r\n}\r\n.one {\r\n  grid-column: 1 \/ 3;\r\n  grid-row: 1;\r\n}\r\n.two {\r\n  grid-column: 2 \/ 4;\r\n  grid-row: 1 \/ 3;\r\n}\r\n.three {\r\n  grid-column: 1;\r\n  grid-row: 2 \/ 5;\r\n}\r\n.four {\r\n  grid-column: 3;\r\n  grid-row: 3;\r\n}\r\n.five {\r\n  grid-column: 2;\r\n  grid-row: 4;\r\n}\r\n.six {\r\n  grid-column: 3;\r\n  grid-row: 4;\r\n}",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/CSS_grid_layout",
+        "tag": "#CSS #code",
+        "time": 1723337137,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=56\">id<\/a>"
+    },
+    {
+        "id": "55",
+        "text": "grid - CSS: Cascading Style Sheets | MDN",
+        "text2": "\/* <'grid-template'> values *\/\r\ngrid: none;\r\ngrid: \"a\" 100px \"b\" 1fr;\r\ngrid: [linename1] \"a\" 100px [linename2];\r\ngrid: \"a\" 200px \"b\" min-content;\r\ngrid: \"a\" minmax(100px, max-content) \"b\" 20%;\r\ngrid: 100px \/ 200px;\r\ngrid: minmax(400px, min-content) \/ repeat(auto-fill, 50px);\r\n\r\n\/* <'grid-template-rows'> \/\r\n   [ auto-flow && dense? ] <'grid-auto-columns'>? values *\/\r\ngrid: 200px \/ auto-flow;\r\ngrid: 30% \/ auto-flow dense;\r\ngrid: repeat(3, [line1 line2 line3] 200px) \/ auto-flow 300px;\r\ngrid: [line1] minmax(20em, max-content) \/ auto-flow dense 40%;\r\n\r\n\/* [ auto-flow && dense? ] <'grid-auto-rows'>? \/\r\n   <'grid-template-columns'> values *\/\r\ngrid: auto-flow \/ 200px;\r\ngrid: auto-flow dense \/ 30%;\r\ngrid: auto-flow 300px \/ repeat(3, [line1 line2 line3] 200px);\r\ngrid: auto-flow dense 40% \/ [line1] minmax(20em, max-content);\r\n\r\n\/* Global values *\/\r\ngrid: inherit;\r\ngrid: initial;\r\ngrid: revert;\r\ngrid: revert-layer;\r\ngrid: unset;",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/grid",
+        "tag": "#CSS #code",
+        "time": 1723337067,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=55\">id<\/a>"
+    },
+    {
         "id": "54",
         "text": "String.prototype.replace() - JavaScript | MDN",
         "text2": "const paragraph = \"I think Ruth's dog is cuter than your dog!\";\r\n\r\nconsole.log(paragraph.replace(\"Ruth's\", 'my'));\r\n\/\/ Expected output: \"I think my dog is cuter than your dog!\"\r\n\r\nconst regex = \/Dog\/i;\r\nconsole.log(paragraph.replace(regex, 'ferret'));\r\n\/\/ Expected output: \"I think Ruth's ferret is cuter than your dog!\"",

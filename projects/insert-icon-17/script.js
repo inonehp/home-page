@@ -122,7 +122,7 @@ let icons = [
 {"t":"wordpress", "t2":"🅦"},
 {"t":"youtube", "t2":"▶️", "t3":"play"},
 {"t":"wix", "t2":`<span class="bold">W</span>`},
-{"t":"webflow", "t2":`<span class="bold em">W</span>`}
+{"t":"webflow", "t2":`<span class="bold em">W</span>`},
 ];
 
 let icons2 = [
@@ -386,7 +386,7 @@ let icons2 = [
 {"t":"green", "t2":"🟩"},
 {"t":"indigo", "t2":"🟪"},
 {"t":"violet", "t2":"🟪"},
-{"t":"blue", "t2":"🟦"}
+{"t":"blue", "t2":"🟦"},
 ];
 
 

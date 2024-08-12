@@ -1,4 +1,4 @@
-// Search redirects v.2.1.9
+// Search redirects v.2.1.12
 // Mini Google
 // The script redirects the search query + command.
 
@@ -215,8 +215,17 @@ case 'med#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "?q=" + q + " site:https://medium.com/";
-if (q == ''){ url = "https://medium.com/"; }
+urlList = [
+//"?q=" + q + " site:https://medium.com/",
+"https://medium.com/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://medium.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -225,9 +234,9 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://search.creativecommons.org/search?q="+q+"&license=cc0,pdm",
-"https://www.google.com/search?q="+q+"&tbm=isch&tbs=il:cl",
-"https://www.bing.com/images/search?q="+q+"&setlang=en&cc=us&qft=+filterui:license-L1",
+"https://search.creativecommons.org/search?q=" + q + "&license=cc0,pdm",
+"https://www.google.com/search?q=" + q + "&tbm=isch&tbs=il:cl",
+"https://www.bing.com/images/search?q=" + q + "&setlang=en&cc=us&qft=+filterui:license-L1",
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
@@ -278,9 +287,9 @@ var deepLq = q.replaceAll(/\//g, "-"); // fixed
 deepLq = encodeURIComponent(deepLq);
 q = encodeURIComponent(q);
 urlList = [
-"https://translate.google.com/?sl=auto&tl=en&text="+q+"&op=translate",
-"https://www.deepl.com/translator#auto/en/"+deepLq,
-"https://www.bing.com/translator/?text="+q+"&from=auto&to=en",
+"https://translate.google.com/?sl=auto&tl=en&text=" + q + "&op=translate",
+"https://www.deepl.com/translator#auto/en/" + deepLq,
+"https://www.bing.com/translator/?text=" + q + "&from=auto&to=en",
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
@@ -292,7 +301,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://translate.google.com/?sl=auto&tl=auto&text="+q+"&op=translate",
+"https://translate.google.com/?sl=auto&tl=auto&text=" + q + "&op=translate",
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
@@ -589,8 +598,8 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.google.com/search?q="+q+"&newwindow=1&tbm=vid",
-//"https://www.bing.com/videos/search?q="+q
+"https://www.google.com/search?q=" + q + "&newwindow=1&tbm=vid",
+//"https://www.bing.com/videos/search?q=" + q
 ];
 
 if (q == ''){
@@ -682,12 +691,12 @@ urlList = [
 "https://x.com/search?q=" + q,
 "https://www.threads.net/search?q=" + q,
 "https://bsky.app/search?q=" + q,
-"https://medium.com/tag/" + medium + "/recommended",
+//"https://medium.com/tag/" + medium + "/recommended",
+"https://medium.com/search?q=" + q,
 //"https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
 "https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
-"https://www.tumblr.com/search/" + q + "/recent/text",
+"https://www.tumblr.com/search/" + q,
 "https://wordpress.com/search?q=" + q,
-
 ];
 
 if (q == ''){
