@@ -1,4 +1,4 @@
-// Main js v.6.7.6
+// Main js v.6.7.7
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -418,11 +418,11 @@ fuMPrintText("footer", `
 <span id="fPinButton"></span>
 </div>
 
-<span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://x.com/irvirty">X (Twitter)</a></span>
+<span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://x.com/${conf["confUsername"]}">X (Twitter)</a></span>
 <span class="inlineBlock padding brand" title="RSS News"><a class="brand" href="/rss.xml">RSS</a></span>
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
 <span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
-<span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/irvirty/irvirty.pages.dev">Сode</a></span>
+<span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/${conf["confUsername"]}/${conf["confUsername"]}.pages.dev">Сode</a></span>
 <span class="inlineBlock padding" title="About"><a class="inlineBlock padding brand" href="/about.html">About</a></span>
 
 <a class="inlineBlock padding brand" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
