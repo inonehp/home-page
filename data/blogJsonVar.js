@@ -3,16 +3,6 @@ var blogJsonVar =
 
 [
     {
-        "id": "265",
-        "text": "A court says Google is a monopolist. Now what?",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.economist.com\/business\/2024\/08\/06\/a-court-says-google-is-a-monopolist-now-what",
-        "tag": "#news #technology",
-        "time": 1723512095,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=265\">id<\/a>"
-    },
-    {
         "id": "264",
         "text": "Google DeepMind on X: \"Meet our AI-powered robot that\u2019s ready to play table tennis. \ud83e\udd16\ud83c\udfd3 It\u2019s the first agent to achieve amateur human level performance in this sport. Here\u2019s how it works. \ud83e\uddf5 https:\/\/t.co\/AxwbRQwYiB\" \/ X",
         "text2": "",
