@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "57",
+        "text": "backdrop-filter - CSS: Cascading Style Sheets | MDN",
+        "text2": "\/* Keyword value *\/\r\nbackdrop-filter: none;\r\n\r\n\/* URL to SVG filter *\/\r\nbackdrop-filter: url(commonfilters.svg#filter);\r\n\r\n\/* <filter-function> values *\/\r\nbackdrop-filter: blur(2px);\r\nbackdrop-filter: brightness(60%);\r\nbackdrop-filter: contrast(40%);\r\nbackdrop-filter: drop-shadow(4px 4px 10px blue);\r\nbackdrop-filter: grayscale(30%);\r\nbackdrop-filter: hue-rotate(120deg);\r\nbackdrop-filter: invert(70%);\r\nbackdrop-filter: opacity(20%);\r\nbackdrop-filter: sepia(90%);\r\nbackdrop-filter: saturate(80%);\r\n\r\n\/* Multiple filters *\/\r\nbackdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);\r\n\r\n\/* Global values *\/\r\nbackdrop-filter: inherit;\r\nbackdrop-filter: initial;\r\nbackdrop-filter: revert;\r\nbackdrop-filter: revert-layer;\r\nbackdrop-filter: unset;",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/backdrop-filter#syntax",
+        "tag": "#CSS #code",
+        "time": 1723536758,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=57\">id<\/a>"
+    },
+    {
         "id": "56",
         "text": "CSS grid layout - CSS: Cascading Style Sheets | MDN",
         "text2": ".wrapper {\r\n  display: grid;\r\n  grid-template-columns: repeat(3, 1fr);\r\n  gap: 10px;\r\n  grid-auto-rows: minmax(100px, auto);\r\n}\r\n.one {\r\n  grid-column: 1 \/ 3;\r\n  grid-row: 1;\r\n}\r\n.two {\r\n  grid-column: 2 \/ 4;\r\n  grid-row: 1 \/ 3;\r\n}\r\n.three {\r\n  grid-column: 1;\r\n  grid-row: 2 \/ 5;\r\n}\r\n.four {\r\n  grid-column: 3;\r\n  grid-row: 3;\r\n}\r\n.five {\r\n  grid-column: 2;\r\n  grid-row: 4;\r\n}\r\n.six {\r\n  grid-column: 3;\r\n  grid-row: 4;\r\n}",
