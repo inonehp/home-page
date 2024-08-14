@@ -1137,15 +1137,6 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Gulliver's Travels (1939) 4K HD AI Enhanced | Full Movie - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=OnCLT0Iqafk",
-        "tag": "#video #cartoon #movie",
-        "time": 1713160691,
-        "rightFooter": ""
-    },
-    {
         "text": "Gulliver's Travels (1939) Jonathan Swift | Adventure, Comedy | Animated Movie | Subtitled - YouTube",
         "text2": "",
         "text3": "",

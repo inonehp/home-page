@@ -1,4 +1,4 @@
-// Search redirects v.2.1.12
+// Search redirects v.2.1.14
 // Mini Google
 // The script redirects the search query + command.
 
@@ -65,24 +65,6 @@ if (rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") 
 
 q = q.trim();
 
-/*
-// first letter command
-if (q[0] + q[1] == 'q '){
-q = q.slice(2);
-q = q;
-}
-
-if (q[0] + q[1] == 'a '){
-q = q.slice(2);
-q = q + " a";
-}
-// end first letter command
-*/
-
-//q = q.replace(/%([^\d].)/, "%25$1");
-/*q = q.replaceAll(/%/g, "%25");
-q = decodeURIComponent(q);*/
-
 if (q.slice(-2) == 'ls'||q.slice(-2) == 'rs'){
 sTimeRedirect = 2000;
 }
@@ -110,7 +92,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-'tec', 'sci', 'dev', 'ai',
+'tec', 'sci', 'dev',
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -357,28 +339,6 @@ url = random;
 sRedirectUrl = url;
 break;
 
-case 'ai#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"?q=AI n",
-];
-
-if (q == ''){
-urlList = [
-"https://www.google.com/search?q=ai&tbm=nws",
-"https://flipboard.com/topic/machinelearning",
-"https://www.reddit.com/r/ArtificialInteligence/",
-"https://www.reddit.com/r/singularity/",
-
-"/?q=AI tag",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
 
 case 'sci#':
 q = q3.replace(qCom, '');
