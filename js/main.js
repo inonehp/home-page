@@ -1,4 +1,4 @@
-// Main js v.6.7.7
+// Main js v.6.7.9
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -1305,9 +1305,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', conf["confGoogleAnalyticsId"]);
 }
-
-// fix fu hide // + test delme
-//fuMHideFileNameExt2();
 
 })
 

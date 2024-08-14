@@ -8,7 +8,7 @@ qGMode = qGMode.trim();
 localStorage.setItem('qGMode', qGMode);
 }
 if(qGMode == null){ qGMode = localStorage.getItem('qGMode'); }
-if(qGMode == null) { qGMode = "main"; }
+if(qGMode == null) { qGMode = "web"; }
 
 var qGQ = url.searchParams.get("q");
 if(qGQ == null) { qGQ = ""; }
@@ -17,11 +17,12 @@ if(qGQ != ''){ qGQ = encodeURIComponent(qGQ); }
 // config
 var lQModePrint = "";
 let lQMode = [
-{"name":"main", "code":"2460fb11690ab4ead"},
+{"name":"web", "code":"74e19ee10195d4644"},
+{"name":"blog", "code":"653a54ad99a1442eb"},
 {"name":"video", "code":"66e67d2cd1ec94b3b"},
-{"name":"video", "code":"614f3596881c64f5f"},
 {"name":"github.io", "code":"614f3596881c64f5f"},
 {"name":"pages.dev", "code":"c1bb12232f9de476e"},
+{"name":"custom", "code":"2460fb11690ab4ead"},
 ];
 
 lQMode.forEach((item, item2) => {

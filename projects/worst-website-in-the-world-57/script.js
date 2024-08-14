@@ -1,4 +1,4 @@
-// v.1.0.2
+// v.1.0.3
 
 
 var print = `
@@ -103,8 +103,6 @@ lManyAds()
 });
 
 
-fuMEmbedScript(`/data/adsJsonVar.js`, conf["confIdEmbedScript"]);
-fuMEmbedScript(`/js/ads.js`, conf["confIdEmbedScript"]);
 function lManyAds(){
 
 

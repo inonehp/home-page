@@ -1,4 +1,4 @@
-main:
+custom:
 *.wikipedia.org/*
 *.reddit.com/*
 *.lemmy.world/*
@@ -15,6 +15,7 @@ main:
 *.tumblr.com/*
 
 video:
+*.youtube.com/*
 *.vimeo.com/*
 *.dailymotion.com/*
 
@@ -24,3 +25,6 @@ video:
 *.peertube.tweb.tv/*
 *.peertube.tv/*
 
+blog:
+*.blogspot.com/*
+*.wordpress.com/*
