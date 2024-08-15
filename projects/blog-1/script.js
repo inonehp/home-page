@@ -1,4 +1,4 @@
-// Keep or blog v.2.6.10
+// Keep or blog v.2.6.11
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -487,15 +487,15 @@ var subQforLight = subQListFound.join(confSymbolForSplit);
 
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
+if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 sTimeRedir[2] = 1200;
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
-if ((''+window.location+'').search("#stopRedir") == -1){
+if (('' + window.location + '').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href+'#stopRedir'; 
+window.location.href = window.location.href + '#stopRedir'; 
 }
 //console.log(postUrl);
 }
@@ -554,14 +554,14 @@ var subQforLight = subQListFound.join(confSymbolForSplit);
 
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
+if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
-if ((''+window.location+'').search("#stopRedir") == -1){
-window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
+if (('' + window.location + '').search("#stopRedir") == -1){
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href+'#stopRedir'; 
+window.location.href = window.location.href + '#stopRedir'; 
 }
 //console.log(postUrl);
 }
@@ -591,6 +591,7 @@ total = i;
 subQListFound = [...new Set(subQListFound)];
 subQListFound = subQListFound.join(",");
 subQListFound = subQListFound.replaceAll(confSymbolForSplit, ' ');
+
 comMessagePrint = `${q} (s1.2: ${subQListFound}) ${i}`;
 comMessage = 'found';
 
@@ -626,7 +627,7 @@ if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
 printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "", rightFooter);
-comMessagePrint = 'id: '+postId;
+comMessagePrint = 'id: ' + postId;
 // post in title only when id
 if (id != ''&&getP2 == null){
 //document.getElementsByTagName('title')[0].innerHTML = postText.slice(0, 60);
@@ -640,7 +641,7 @@ document.getElementsByTagName('title')[0].innerHTML += ' | ' +  (location.hostna
 }*/
 }
 if (getP2 != null){
-comMessagePrint += ' p2: '+getP2;
+comMessagePrint += ' p2: ' + getP2;
 }
 i++;
 getP = key;
@@ -660,14 +661,14 @@ if (i <= postLimit -1){
 // lucky search if last word " l".
 if(mode == 'randUrl'){
 //if(q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
+if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
-if ((''+window.location+'').search("#stopRedir") == -1){
+if (('' + window.location + '').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href+'#stopRedir'; 
+window.location.href = window.location.href + '#stopRedir'; 
 }
 //console.log(postUrl);
 }
@@ -683,10 +684,10 @@ if (postText3 != ''){ postText3 = `
 ` + postText3; };
 
 printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '', rightFooter);
-//printPost += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime, '', rightFooter)+'</div>';
+//printPost += '<div class="">' + fuPrintPost(postId, postText, postTag, postTime, '', rightFooter) + '</div>';
 i++;
 getP = key;
-comMessagePrint = 'id: '+postId+', p2: '+getP2;
+comMessagePrint = 'id: ' + postId + ', p2: ' + getP2;
 }
 }
 break;
@@ -705,10 +706,10 @@ if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
 printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '', rightFooter);
-//printPost += '<div class="">'+fuPrintPost(postId, postText, postTag, postTime, rightFooter)+'</div>';
+//printPost += '<div class="">' + fuPrintPost(postId, postText, postTag, postTime, rightFooter) + '</div>';
 i++;
 getP = key;
-comMessagePrint = 'id: '+postId+', p2: '+getP2+' | '+sTimeRedirStatus;
+comMessagePrint = 'id: ' + postId + ', p2: ' + getP2 + ' | ' + sTimeRedirStatus;
 
 // fixed many redirect in this place
 setTimeout(function(){
@@ -818,14 +819,14 @@ subQListFound.push(item3344);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
+if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
-if ((''+window.location+'').search("#stopRedir") == -1){
+if (('' + window.location + '').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href+'#stopRedir'; 
+window.location.href = window.location.href + '#stopRedir'; 
 }
 //console.log(postUrl);
 }
@@ -945,7 +946,7 @@ if (item['url'] != null){ postUrl = item['url']; }
 if (item['time'] != null){ postTime = item['time']; }
 if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
 
-postText = (postText+' '+postUrl).trim();
+postText = (postText + ' ' + postUrl).trim();
 
 let qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase();
 
@@ -963,8 +964,8 @@ qData.forEach(function(item336) { // foreach post word and quary for search
 qSearchList.forEach((qSearchListItem) => {
 //console.log(fuzzySearch(item336, qSearchListItem));
 if(fuzzySearch(item336, qSearchListItem) == true&&item336 != ''&&qSearchListItem != ''){
-//var subQ = 's3: '+item336+',';
-subQ.push(String(item336).trim()+' ');
+//var subQ = 's3: ' + item336 + ',';
+subQ.push(String(item336).trim() + ' ');
 //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
 subQ = [...new Set(subQ)];
 var subQforLight = subQ.join(confSymbolForSplit);
@@ -973,14 +974,14 @@ if (checkDublicateId[0] != postId){ // fixed dublicate post when search and foun
 
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
+if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
-comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
-if ((''+window.location+'').search("#stopRedir") == -1){
-window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
+comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000 + ` sec.`;
+if (('' + window.location + '').search("#stopRedir") == -1){
+window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href+'#stopRedir'; 
+window.location.href = window.location.href + '#stopRedir'; 
 }
 //console.log(postUrl);
 }
@@ -1032,132 +1033,6 @@ lFoundQUrlList.push(postUrl);
 
 if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
 // end s3, search 3
-
-
-
-
-
-/*
-// search 4, s4 symbol
-if (mode == 'search'&&comMessage != 'found'){
-comMessagePrint = '';
-
-var subQ = [];
-
-
-if (q != ''){
-//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
-//qSearch = decodeURIComponent(q);
-qSearch = (q);
-qSearch = (String(qSearch).toLowerCase()).trim();
-// rm last symbol if " l".
-if (q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){ qSearch = qSearch.slice(0, -2); }
-
-jsonVar.forEach((item, key) => {
-
-postId = '';
-postText = '';
-postText2 = '';
-postText3 = '';
-postTag = '';
-postUrl = '';
-postTime = '';
-rightFooter = '';
-
-if (item['id'] != null){ postId = item['id']; }
-if (item['text'] != null){ postText = item['text']; }
-if (item['tag'] != null){ postTag = item['tag']; }
-if (item['url'] != null){ postUrl = item['url']; }
-if (item['time'] != null){ postTime = item['time']; }
-if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
-
-postText = (postText+' '+postUrl).trim();
-
-var qData = (String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase()).trim();
-
-// many words from space split
-
-
-var symbolCounter = 0;
-var checkDublicateId = [];
-while (symbolCounter <= qSearch.length - 3) {
-//console.log(String(qSearch[symbolCounter] + qSearch[symbolCounter + 1]));
-
-// query
-if((qData).indexOf(String(qSearch[symbolCounter] + qSearch[symbolCounter + 1] + qSearch[symbolCounter + 2])) != -1){
-subQ.push('' + (String(qSearch[symbolCounter] + qSearch[symbolCounter + 1] + qSearch[symbolCounter + 2])).trim()+' ');
-
-//https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
-subQ = [...new Set(subQ)];
-var subQforLight = subQ.join(confSymbolForSplit);
-
-if (checkDublicateId[0] != postId){ // fixed dublicate post when search and found
-
-// lucky search if last word " l".
-if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir+'?id='+postId; }
-if (postUrl != ''){
-comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
-if ((''+window.location+'').search("#stopRedir") == -1){
-window.location.href = '/projects/redirects-25/?rUrl='+postUrl;
-//setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
-}
-window.location.href = window.location.href+'#stopRedir'; 
-}
-//console.log(postUrl);
-}
-// end lucky search
-
-if (getP3 <= i){
-if (i3 <= postLimit - 1){
-if (display == "all"){
-if (postText2 != ''){ postText2 = `
-
-
-` + postText2; };
-if (postText3 != ''){ postText3 = `
-
-
-` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
-} else {
-printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
-}
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
-}
-i3++;
-}
-i++;
-total = i;
-//subQ = subQ.join(' ');
-
-
-qData = '';
-comMessage = 'found';
-checkDublicateId[0] = postId;
-
-// collect for random
-if (postUrl == ''&&postId != ''){
-lFoundQUrlList.push(scriptDir + '?id=' + postId);
-} else {
-lFoundQUrlList.push(postUrl);
-}
-
-}
-}
-symbolCounter++;
-}
-
-
-
-});
-}
-if (comMessage == 'found'){ comMessagePrint = `${q} (s4: ${subQ}) ${i}`; }
-}
-
-if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably not found`; }
-// search 4, s4
-*/
 
 
 
@@ -1382,7 +1257,7 @@ tagList2 = tagList2.replaceAll('·', '');
 tagList2 = tagList2.replaceAll('.', ' ');
 
 tagList2 = '' + tagList2 + ''.replaceAll(',', confSymbolForSplit);
-tagList2 = ''+ tagList2 + ''.replaceAll(' ', confSymbolForSplit);
+tagList2 = '' + tagList2 + ''.replaceAll(' ', confSymbolForSplit);
 
 
 
@@ -1548,7 +1423,7 @@ let goTag = encodeURIComponent(tag);
 
 let hlClass = '';
 if (printTag2[0] != undefined){
-hlClass = 'hlClass'+printTag2[0].toLowerCase();
+hlClass = 'hlClass' + printTag2[0].toLowerCase();
 hlClassList += printTag2[0].toLowerCase();
 }
 
@@ -1669,9 +1544,11 @@ if (timeStatus == 'off'&&rightFooterStatus == 'off'){ postFooter = ' postFooter2
 
 if(rightFooterStatus == 'off'){ rightFooter = ''; }
 
+
 if (display == 'article'&&mode != 'id'&&mode != 'idList'&&mode != 'random'){
-lPost = `<san class="large">${post}</span>`; // without highlight (embed)
-} 
+lPost = `<span class="large">${post}</span>`; // without highlight (embed)
+}
+
 /*
 //
 if(display == 'article'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
@@ -2733,23 +2610,23 @@ delta -= minutes * 60;
 var seconds = delta % 60;  // in theory the modulus is not required
 
 if (year > 0){
-time = year +' year ';
+time = year + ' year ';
 } else if (month > 0){
-time = month +' month ';
+time = month + ' month ';
 } else if (week > 0){
-time = week +' week ';
+time = week + ' week ';
 } else if (days > 0){
-time = days +' day ';
+time = days + ' day ';
 } else if(hours > 0){
-time = hours +' hour ';
-} else if (minutes > 0) { time = minutes +' minute '; }
-else { time = checkTime(Math.floor(seconds)) +' second '; }
+time = hours + ' hour ';
+} else if (minutes > 0) { time = minutes + ' minute '; }
+else { time = checkTime(Math.floor(seconds)) + ' second '; }
 
 time = time + ' ago';
 
 if (p == 0||isNaN(p) == true||p == ''){ time = p; }
 return time;
-//document.getElementById("time").innerHTML = '&nbsp;'+time+'&nbsp;';
+//document.getElementById("time").innerHTML = '&nbsp;' + time + '&nbsp;';
 }
 
 
@@ -3039,7 +2916,7 @@ if (q2 == 'r'){
 if (lFoundQUrlRandom != ''){
 /*sTimeRedir[2] = 1200;
 comMessagePrint = `random URL: `+ sTimeRedir[2] / 1000 +` sec.`;*/
-if ((''+window.location+'').search("#stopRedir") == -1){
+if (('' + window.location + '').search("#stopRedir") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + lFoundQUrlRandom;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
