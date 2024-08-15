@@ -1,4 +1,4 @@
-// Keep or blog v.2.6.8
+// Keep or blog v.2.6.10
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -476,15 +476,12 @@ var qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag 
 
 
 var qSearch23 = qSearch.replaceAll(' ', '_'); // q2 with "_"
+var qSearchNoQuote = qSearch.replaceAll('"', '');
 
-// if tag
-
-
-
-// s.1.1, query
+// s1.1, tag
 if (qSearch[0] == '#'||(qSearch[0] + ' ').indexOf("%23") != -1){
 qData2 = qData.replaceAll(/,/g, ' ');
-if ((qData2+' ').indexOf((qSearch + ' ')) >= 0){
+if ((qData2 + ' ').indexOf((qSearch + ' ')) >= 0){
 subQListFound.push(qSearch);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 
@@ -539,9 +536,15 @@ lFoundQUrlList.push(postUrl);
 
 }
 
-// s.1.2, query
-} else if(qData.indexOf(String(qSearch)) != -1||qData.indexOf(String(qSearch23)) != -1){
+// s1.2, query
+} else if (
+qData.indexOf(String(qSearch)) != -1||
+qData.indexOf(String(qSearch23)) != -1||
+qData.indexOf(String(qSearchNoQuote)) != -1
+){
 if (qData.indexOf(String(qSearch23)) != -1){ qSearch = qSearch23; }
+if (qData.indexOf(String(qSearchNoQuote)) != -1){ qSearch = qSearchNoQuote; }
+
 //subQListFound.push(subQListFound);
 let qSearchTmp = qSearch.split(" ");
 qSearchTmp = qSearchTmp.join(confSymbolForSplit)

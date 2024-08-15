@@ -75,12 +75,12 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Disney Channel - YouTube",
+        "text": "Disney Channel Full Episodes \ud83d\udca5 - YouTube",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/@disneychannel",
-        "tag": "#TV #cartoon #series",
-        "time": 1706043203,
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLiv1IUQDVSNLxWL-vMf8Pumnh2Judinz4",
+        "tag": "#TV #cartoon",
+        "time": 1723647780,
         "rightFooter": ""
     },
     {

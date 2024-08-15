@@ -4831,6 +4831,11 @@ var wordJsonVar =
         "text3": "enga\u00f1ando"
     },
     {
+        "text": "\u043d\u0430\u043d\u043e\u0431\u043e\u0442",
+        "text2": "nanobot",
+        "text3": "nanobot"
+    },
+    {
         "text": "\u043d\u0430\u043f\u0430\u0440\u043d\u0438\u043a",
         "text2": "partner",
         "text3": "compa\u00f1ero"
@@ -8324,11 +8329,6 @@ var wordJsonVar =
         "text": "\u0442\u0435\u043d\u0434\u0435\u0440",
         "text2": "tender",
         "text3": "tierno"
-    },
-    {
-        "text": "\u0442\u0435\u043d\u0456\u0441",
-        "text2": "tennis",
-        "text3": "el tenis"
     },
     {
         "text": "\u0442\u0435\u043e\u0440\u0435\u043c\u0430",

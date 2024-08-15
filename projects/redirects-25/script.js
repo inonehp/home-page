@@ -1,4 +1,4 @@
-// Search redirects v.2.1.14
+// Search redirects v.2.1.15
 // Mini Google
 // The script redirects the search query + command.
 
@@ -655,7 +655,7 @@ urlList = [
 "https://medium.com/search?q=" + q,
 //"https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
 "https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
-"https://www.tumblr.com/search/" + q,
+"https://www.tumblr.com/search/" + q + "/text",
 "https://wordpress.com/search?q=" + q,
 ];
 
