@@ -1,4 +1,4 @@
-// Keep or blog v.2.6.11
+// Keep or blog v.2.7.0
 // Mini Keep, X (Twitter)
 // Inspired by keep, X (Twitter), Fediverse
 // Not for large data files!
@@ -503,7 +503,7 @@ window.location.href = window.location.href + '#stopRedir';
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
-if (display == "all"){
+if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
 
@@ -569,7 +569,7 @@ window.location.href = window.location.href + '#stopRedir';
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
-if (display == "all"){
+if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
 
@@ -726,7 +726,7 @@ mode = 'list';
 if (getP <= key){
 if (i <= postLimit -1){
 
-if (display == "all"){
+if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
 
@@ -839,7 +839,7 @@ if (getP3 <= i){
 if (i3 <= postLimit - 1){
 //printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter, rightFooter);
 //lRelevantResultArr.push(lRelevantResultPoint, fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter, rightFooter));
-if (display == "all"){
+if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
 
@@ -989,7 +989,7 @@ window.location.href = window.location.href + '#stopRedir';
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
-if (display == "all"){
+if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
 
@@ -1545,8 +1545,10 @@ if (timeStatus == 'off'&&rightFooterStatus == 'off'){ postFooter = ' postFooter2
 if(rightFooterStatus == 'off'){ rightFooter = ''; }
 
 
+if (mode != 'search'){
 if (display == 'article'&&mode != 'id'&&mode != 'idList'&&mode != 'random'){
-lPost = `<span class="large">${post}</span>`; // without highlight (embed)
+lPost = `<span class="large">${lPost}</span>`; // without highlight (embed)
+}
 }
 
 /*
