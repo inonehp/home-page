@@ -1,13 +1,11 @@
-/* Main style v.17.0.1
-Mini CSS framework: main.css + auto.css (auto themes) */
+/* Main style v.17.1.0
+Mini CSS framework: main.css + auto.css (theme) */
 
 /* Main */
 * { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
 
 :root{
-/* .brand - link, accent color
- * use: c4, red, orange, yellow, green, blue, indigo, violet
-*/
+/* .brand - link, accent color (red, orange, yellow, green, blue, indigo, violet) */
 --brandColor: color-mix(in srgb, var(--blue) 80%, var(--green));
 
 --bodyPadding: 3vw;
@@ -201,8 +199,6 @@ margin-right: calc(var(--padding) * 2);
 
 @media(max-width: 300px) { .postFooter { grid-template-columns: 1fr;} }
 
-.postFooter .tagList { align-self: end; }
-
 .logo, .logo2{
 position: relative;
 border-radius: 50%;
@@ -263,6 +259,8 @@ overflow-wrap: anywhere;
 white-space: normal;
 word-break: break-word;
 }
+
+.postFooter .tagList { align-self: end; display: block; }
 
 .button {
 padding: .7em 1.2em;

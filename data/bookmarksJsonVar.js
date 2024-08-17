@@ -3,6 +3,16 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "163",
+        "text": "SymphonyOS: Empowering Artists & Creators with Automated Marketing Solutions",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.symphonyos.co\/",
+        "tag": "#MicroHosting #profile",
+        "time": 1723800575,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=163\">id<\/a>"
+    },
+    {
         "id": "162",
         "text": "Lemmy - A link aggregator for the fediverse",
         "text2": "",
