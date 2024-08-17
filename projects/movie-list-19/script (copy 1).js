@@ -1,4 +1,4 @@
-// Movie list v.2.0.0
+// Movie list v.1.1.1
 // Mini IMDB
 // parse IMDB WATCHLIST.csv
 
@@ -25,8 +25,9 @@ text.pop();
 var movieList = [];
 
 text.forEach(myFunction);
+function myFunction(item, key) {
 
-function myFunction(item) {
+
 
 item33 = item.split(`,`);
 //print += `<a href="${item[6]}">${item[5]} (${item[10]})<br>`;
@@ -34,22 +35,24 @@ item33 = item.split(`,`);
 
 // title without quote and comma
 var title33 = item33[5];
-var url33 = item33[7];
-var year33 = item33[11];
+var url33 = item33[6];
+var year33 = item33[10];
+
 
 //  if title with quote and comma
 var titleWithQuoteAndComma = item33[5].split('"');
 
-if (titleWithQuoteAndComma.length >= 2){
+if(titleWithQuoteAndComma.length >= 2){
 titleWithQuoteAndComma = item.split('"');
 title33 = titleWithQuoteAndComma[1];
 
-/*url33 = titleWithQuoteAndComma[2].split(',');
-url33 = url33[1];*/
+url33 = titleWithQuoteAndComma[2].split(',');
+url33 = url33[1];
 
-/*year33 = titleWithQuoteAndComma[2].split(',');
-year33 = year33[5];*/
+year33 = titleWithQuoteAndComma[2].split(',');
+year33 = year33[5];
 }
+
 
 
 
