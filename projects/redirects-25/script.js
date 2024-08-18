@@ -1,4 +1,4 @@
-// Search redirects v.2.1.18
+// Search redirects v.2.1.19
 // Mini Google
 // The script redirects the search query + command.
 
@@ -261,9 +261,9 @@ urlList = [
 "https://www.deepl.com/translator",
 "https://www.bing.com/translator/",
 ];
-}
 if (conf["confDevice"] != 'mobile'){
 urlList.push("https://translate.google.com/");
+}
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
