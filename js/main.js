@@ -48,23 +48,19 @@ const confData = [
 },
 {
 "confTitle":"Allow Cookies For Third Parties?",
-"confDescription":`
-This is necessary to improve the site.
+"confDescription":`This is necessary to improve the site.
 (For Ads Services, Statistics).
 - Auto: used the time zone for consent or disagreement.
 - Site used Functionality cookies.
-- Some services still collect visit information if cookie off.
-`,
+- Some services still collect visit information if cookie off.`,
 "confName":"confDataCollection",
 "confValueDefault":"not selected",
 "confValueVariant":["on", "off", "auto", "not selected"],
 },
 {
 "confTitle":"Allow external fonts?",
-"confDescription":`
-Load external fonts (privacy: may be used for analytics).
-Note: if third-party cookies are allowed, external fonts will be loaded.
-`,
+"confDescription":`Load external fonts (privacy: may be used for analytics).
+Note: if third-party cookies are allowed, external fonts will be loaded.`,
 "confName":"confExternalFonts",
 "confValueDefault":"off",
 "confValueVariant":["on", "off"],
@@ -184,16 +180,13 @@ conf["confMenuItems2"] = '';
 conf["confMenuItems"].forEach((item, index) => {
 
 if ((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem active2 borderBottomBrand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>
-`;
+conf["confMenuItems2"] += `<a class="countMenuItem active2 borderBottomBrand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
 } else {
-conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>
-`;
+conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
 }
 });
 
-conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (↑)</a>
-`;
+conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (↑)</a>`;
 
 
 //<!-- nav HTML part -->
