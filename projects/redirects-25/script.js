@@ -1,4 +1,4 @@
-// Search redirects v.2.1.15
+// Search redirects v.2.1.17
 // Mini Google
 // The script redirects the search query + command.
 
@@ -416,7 +416,7 @@ urlList = [
 "https://gemini.google.com/",
 //"https://copilot.microsoft.com/",
 "https://www.bing.com/copilot",
-//"https://chatgpt.com/",
+"https://chatgpt.com/",
 "https://www.perplexity.ai/",
 ];
 }
@@ -751,23 +751,6 @@ if (q == ''){ url = "/projects/google-programmable-search-49/index.html"; }
 sRedirectUrl = url;
 break;
 
-case 'moj#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.mojeek.com/search?q=" + q
-];
-if (q == ''){
-urlList = [
-"https://www.mojeek.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
 case 'bi#':
 case 'bin#':
 q = q3.replace(qCom, '');
@@ -826,17 +809,13 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.bing.com/search?q=" + q,
-"https://www.perplexity.ai/search/?q=" + q,
-"https://www.mojeek.com/search?q=" + q,
+//"https://www.bing.com/search?q=" + q,
 "https://www.ecosia.org/search?q=" + q,
 ];
 
 if (q == ''){
 urlList = [
-"https://www.bing.com/",
-"https://www.perplexity.ai/",
-"https://www.mojeek.com/",
+//"https://www.bing.com/",
 "https://www.ecosia.org/",
 ];
 }
