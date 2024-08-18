@@ -1,4 +1,4 @@
-// Main js v.6.7.10
+// Main js v.6.7.11
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -63,6 +63,7 @@ This is necessary to improve the site.
 "confTitle":"Allow external fonts?",
 "confDescription":`
 Load external fonts (privacy: may be used for analytics).
+Note: if third-party cookies are allowed, external fonts will be loaded.
 `,
 "confName":"confExternalFonts",
 "confValueDefault":"off",
