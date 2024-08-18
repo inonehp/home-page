@@ -1,4 +1,4 @@
-// Main js v.6.7.9
+// Main js v.6.7.10
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -58,6 +58,15 @@ This is necessary to improve the site.
 "confName":"confDataCollection",
 "confValueDefault":"not selected",
 "confValueVariant":["on", "off", "auto", "not selected"],
+},
+{
+"confTitle":"Allow external fonts?",
+"confDescription":`
+Load external fonts (privacy: may be used for analytics).
+`,
+"confName":"confExternalFonts",
+"confValueDefault":"off",
+"confValueVariant":["on", "off"],
 },
 {
 "confTitle":"Ads on off",
@@ -1024,8 +1033,8 @@ background-attachment: fixed;
 }
 // random bg image
 
-// fonts
-if (conf["confDataCollection"] == 'on'){
+// fonts, external fonts (privacy, data analytics)
+if (conf["confDataCollection"] == 'on'||conf["confExternalFonts"] == 'on'){
 
 fuMPrintText('style', `
 <style>
