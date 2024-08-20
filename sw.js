@@ -86,6 +86,7 @@ self.addEventListener('install', (e) => {
 
 // start check 404, file list 2
 var fileListArr = ["/404.html",
+"/BingSiteAuth.xml",
 "/LICENSE.md",
 "/README.md",
 "/about.html",
