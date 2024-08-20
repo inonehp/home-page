@@ -1,4 +1,4 @@
-// Main js v.6.7.11
+// Main js v.6.8.4
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -34,13 +34,13 @@ conf["confIdEmbedScript"] = "footer";
 const confData = [
 {
 "confTitle":"Theme",
-"confDescription":`Color theme of the site. <a class="brand brand" href="/themes.html">More settings and a list of themes</a>`,
+"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/themes.html">/themes.html</a>`,
 "confName":"confTheme",
 "confValueDefault":"auto",
-"confValueVariant":["auto", "light", "dark", "auto-t-rand-all", "auto-rand-all"],
+"confValueVariant":["light", "dark", "auto", "auto-t-rand-all", "auto-rand-all"],
 },
 {
-"confTitle":"Icons on off",
+"confTitle":"Icons",
 "confDescription":"Enable Disable Icons.",
 "confName":"confIconStatus",
 "confValueDefault":"off",
@@ -59,14 +59,13 @@ const confData = [
 },
 {
 "confTitle":"Allow external fonts?",
-"confDescription":`Load external fonts (privacy: may be used for analytics).
-Note: if third-party cookies are allowed, external fonts will be loaded.`,
+"confDescription":`Load external fonts (privacy: may be used for analytics).`,
 "confName":"confExternalFonts",
-"confValueDefault":"off",
-"confValueVariant":["on", "off"],
+"confValueDefault":"auto",
+"confValueVariant":["on", "off", "auto"],
 },
 {
-"confTitle":"Ads on off",
+"confTitle":"Ads",
 "confDescription":`Ads options.`,
 "confName":"confAdsStatus",
 "confValueDefault":"off",
@@ -74,14 +73,14 @@ Note: if third-party cookies are allowed, external fonts will be loaded.`,
 },
 {
 "confTitle":"Start of the day (time)",
-"confDescription":"For theme if selected auto time in themes option",
+"confDescription":"For theme if selected auto time (auto-t) in themes option",
 "confName":"confStartDay",
 "confValueDefault":"7",
 "confValueVariant":["6", "7", "8", "9"],
 },
 {
 "confTitle":"Start of the night (time)",
-"confDescription":"For theme if selected auto time in themes option",
+"confDescription":"For theme if selected auto time (auto-t) in themes option",
 "confName":"confStartNight",
 "confValueDefault":"19",
 "confValueVariant":["18", "19", "20", "21"],
@@ -97,7 +96,7 @@ Note: if third-party cookies are allowed, external fonts will be loaded.`,
 "confTitle":"Hide link extensions",
 "confDescription":`Hides extensions in links. Example: /blog.html to /blog.
 
-<span class="xSmall">(For fix page error 404 if PWA - website as app.)</span>`,
+<span class="smaller">(For fix page error 404 if PWA - If you install the site as an application.)</span>`,
 "confName":"confHideLinkExt",
 "confValueDefault":"off",
 "confValueVariant":["on", "off"],
@@ -110,8 +109,15 @@ Note: if third-party cookies are allowed, external fonts will be loaded.`,
 "confValueVariant":["on", "off", "random"],
 },
 {
-"confTitle":"Speed dial on off",
-"confDescription":"Speed dial on off.",
+"confTitle":"Custom home page",
+"confDescription":`Redirecting from the main home page (/index.html) to another page. <a class="brand brand" href="/projects/home-page-68/">/projects/home-page-68/</a>`,
+"confName":"confHomePageStatus",
+"confValueDefault":"off",
+"confValueVariant":["on", "off"],
+},
+{
+"confTitle":"Speed dial",
+"confDescription":`Pin, unpin a page for speed dial or your own link. <a class="brand brand" href="/projects/speed-dial-58/">/projects/speed-dial-58/</a>`,
 "confName":"confSpeedDialStatus",
 "confValueDefault":"on",
 "confValueVariant":["on", "off", "random"],
@@ -418,10 +424,11 @@ fuMPrintText("footer", `
 <!--<a class="brand" href="#goBack" onclick="history.back()">Go Back</a>-->
 <span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/themes.html">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
+<span id="fHomePageButton"></span>
 <span id="fPinButton"></span>
 </div>
 
-<span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://x.com/${conf["confUsername"]}">X (Twitter)</a></span>
+<span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://x.com/${conf["confUsername"]}">X</a></span>
 <span class="inlineBlock padding brand" title="RSS News"><a class="brand" href="/rss.xml">RSS</a></span>
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
 <span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
@@ -431,7 +438,7 @@ fuMPrintText("footer", `
 <a class="inlineBlock padding brand" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
 <!--<a class="inlineBlock padding brand" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>-->
 
-<span class="gray small">2024</span>
+<span class="gray small"><!--2019--->2024</span>
 
 <span class="inlineBlock padding gray" style="padding-right: 0;" title="Hosting Service"><a class="brand" href="https://pages.cloudflare.com/">Hosting: Cloudflare Pages</a></span>
 
@@ -448,7 +455,7 @@ if (document.getElementById(id) != null){
 document.getElementById(id).scrollIntoView();
 }
 }
-// // footer
+// end footer
 
 
 
@@ -1028,7 +1035,7 @@ background-attachment: fixed;
 // random bg image
 
 // fonts, external fonts (privacy, data analytics)
-if (conf["confDataCollection"] == 'on'||conf["confExternalFonts"] == 'on'){
+if (conf["confDataCollection"] == 'on'&&conf["confExternalFonts"] == 'auto'||conf["confExternalFonts"] == 'on'){
 
 fuMPrintText('style', `
 <style>
@@ -1255,15 +1262,20 @@ document.getElementsByTagName('head')[0].appendChild(script);
 }
 
 
-// Embed and run:
+// embed and run
 
-if (conf["confSpeedDialStatus"] != "off"){
-fuMEmbedScript(`/projects/speed-dial-58/script.js`, conf["confIdEmbedScript"]);
+if (conf["confHomePageStatus"] != "off"){
+fuMEmbedScript(`/projects/home-page-68/script.js`, conf["confIdEmbedScript"]);
 }
 
 if (conf["confIconStatus"] != "off"){
 fuMEmbedScript("/data/iconsJsonVar.js", conf["confIdEmbedScript"]);
 fuMEmbedScript("/projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
+}
+
+
+if (conf["confSpeedDialStatus"] != "off"){
+fuMEmbedScript(`/projects/speed-dial-58/script.js`, conf["confIdEmbedScript"]);
 }
 
 if (conf["confAdsStatus"] != "off"){
@@ -1289,6 +1301,10 @@ fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAn
 //https://stackoverflow.com/questions/39155645/multiple-window-onload-functions-with-only-javascript
 window.addEventListener('load', function() {
 //https://stackoverflow.com/questions/7559520/determine-if-statically-named-javascript-function-exists-to-prevent-errors
+if (conf["confHomePagetatus"] != "off"&&typeof fuLHomePage == 'function'){
+fuLHomePage("homePagePrint", "", "");
+}
+
 if (conf["confSpeedDialtatus"] != "off"&&typeof fuLSpeedDial == 'function'){
 fuLSpeedDial("speedDialPrint", "", "", "print");
 }
@@ -1312,7 +1328,7 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 })
 
 }
-// Embed scripts
+// end Embed scripts
 
 
 

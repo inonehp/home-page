@@ -2306,11 +2306,6 @@ var wordJsonVar =
         "text3": "alma"
     },
     {
-        "text": "\u0434\u0456\u0432\u0447\u0438\u043d\u0430",
-        "text2": "girl",
-        "text3": "la ni\u00f1a"
-    },
-    {
         "text": "\u0435\u0433\u043e",
         "text2": "ego",
         "text3": "ego"
@@ -7506,6 +7501,11 @@ var wordJsonVar =
         "text3": "tesoro"
     },
     {
+        "text": "\u0441\u043a\u0430\u0444\u0430\u043d\u0434\u0440",
+        "text2": "space suit",
+        "text3": "armadura"
+    },
+    {
         "text": "\u0441\u043a\u0432\u0435\u0440",
         "text2": "square",
         "text3": "cuadrado"
@@ -7853,7 +7853,7 @@ var wordJsonVar =
     {
         "text": "\u0441\u0442\u0430\u0432\u043a\u0430",
         "text2": "rate",
-        "text3": "la oferta"
+        "text3": "tarifa"
     },
     {
         "text": "\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043d\u044f",

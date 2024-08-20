@@ -1,10 +1,10 @@
-// Speed dial v.1.8.1
+// Speed dial v.1.8.3
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 function fuLSpeedDial(idForPrint, text, url, com){
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
-/*if(typeof conf === "undefined"){
+/*if (typeof conf === "undefined"){
 var conf = [];
 conf["confDomainNameInTitleStatus"] = 'on';
 conf["confSpeedDialStatus"] = 'on';
@@ -14,16 +14,17 @@ function fuMClearText(text){ return text; }
 let locationSpeedDialTitle = String(document.title);
 let locationSpeedDialUrl = String(location.href);
 locationSpeedDialUrl = locationSpeedDialUrl.replaceAll("#mPin", '');
-
+locationSpeedDialUrl = locationSpeedDialUrl.replaceAll("#mHomePage", "");
+locationSpeedDialUrl = locationSpeedDialUrl.replaceAll("#speedDialAnchor", "");
 
 // fix for short text link
-if(conf["confDomainNameInTitleStatus"] == 'on'){
+if (conf["confDomainNameInTitleStatus"] == 'on'){
 locationSpeedDialTitle = locationSpeedDialTitle.replace(conf["confDomainNameInTitle"], '');
 }
 
 if (localStorage.getItem("confSpeedDialData")) {
 var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
-}else{
+} else {
 var confSpeedDialDataArr = [];
 
 confSpeedDialDataArr.push({"text":"Google", "url":"https://www.google.com/"});
@@ -33,14 +34,14 @@ var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
 }
 
 
-if(conf["confSpeedDialStatus"] == "random"){
+if (conf["confSpeedDialStatus"] == "random"){
 var items = ['on', 'off'];
 item = items[Math.floor(Math.random() * items.length)];
 conf["confSpeedDialStatus"] = item;
 }
 
 
-if(conf["confSpeedDialStatus"] != "off"){
+if (conf["confSpeedDialStatus"] != "off"){
 
 // pin button and status
 
@@ -50,17 +51,17 @@ let confSpeedDialDataArrButton = JSON.parse(confSpeedDialDataArr);
 
 confSpeedDialDataArrButton.forEach((item, index) => {
 
-if(index != undefined&&index != "undefined"){
+if (index != undefined&&index != "undefined"){
 
-//if((String(item.url)).indexOf(locationSpeedDialUrl) != -1){
-if(item.url == locationSpeedDialUrl||item.text == locationSpeedDialTitle){
-fPinButton = `<a title="Speed dial setting" id="mPin" class="inlineBlock padding gray" href="#mPin" onclick="fuLSpeedDial('', '', '', 'del');">Pined</a>`;
+//if ((String(item.url)).indexOf(locationSpeedDialUrl) != -1){
+if (item.url == locationSpeedDialUrl||item.text == locationSpeedDialTitle){
+fPinButton = `<a title="Remove page from speed dial" id="mPin" class="inlineBlock padding gray" href="#mPin" onclick="fuLSpeedDial('', '', '', 'del');">Pined</a>`;
 }
 
 }
 });
 
-if(document.getElementById("fPinButton") != null){
+if (document.getElementById("fPinButton") != null){
 document.getElementById("fPinButton").innerHTML = fPinButton; 
 }
 // // pin button and status
@@ -104,9 +105,9 @@ let printArr = [];
 confSpeedDialDataArr = JSON.parse(confSpeedDialDataArr);
 confSpeedDialDataArr.forEach((item, index) => {
 
-if(index != undefined&&index != "undefined"){
+if (index != undefined&&index != "undefined"){
 
-if(confSpeedDialDataArr[index].text == undefined){
+if (confSpeedDialDataArr[index].text == undefined){
 confSpeedDialDataArr[index].text = 'undefined';
 }
 
@@ -156,7 +157,7 @@ ${submitForm}
 `;
 
 
-if(document.getElementById(idForPrint) != null){
+if (document.getElementById(idForPrint) != null){
 document.getElementById(idForPrint).innerHTML = print; 
 }
 
@@ -166,16 +167,16 @@ break;
 
 case 'add':
 
-if(text == ""){
-if(document.getElementById("speedDialText") != null){
+if (text == ""){
+if (document.getElementById("speedDialText") != null){
 text = document.getElementById("speedDialText").value;
 }
-if(document.getElementById("speedDialText") != null){
+if (document.getElementById("speedDialText") != null){
 url = document.getElementById("speedDialUrl").value;
 }
 }
 
-if(text != ""){
+if (text != ""){
 text = fuMClearText(text);
 url = fuMClearText(url);
 
@@ -193,12 +194,12 @@ break;
 
 case 'add2':
 
-if(text == ""){
+if (text == ""){
 text = fuMClearText(locationSpeedDialTitle);
 url = fuMClearText(locationSpeedDialUrl);
 }
 
-if(text != ""){
+if (text != ""){
 text = fuMClearText(text);
 url = fuMClearText(url);
 
@@ -215,7 +216,7 @@ break;
 
 case 'del':
 
-if(text == ""){
+if (text == ""){
 text = fuMClearText(locationSpeedDialTitle);
 url = fuMClearText(locationSpeedDialUrl);
 
@@ -227,9 +228,9 @@ let confSpeedDialDataArrUpdate = [];
 confSpeedDialDataArr = JSON.parse(confSpeedDialDataArr);
 confSpeedDialDataArr.forEach((item, index) => {
 
-if(confSpeedDialDataArr[index].text == text||confSpeedDialDataArr[index].url == url){
+if (confSpeedDialDataArr[index].text == text||confSpeedDialDataArr[index].url == url){
 
-}else{
+} else {
 let textOld = confSpeedDialDataArr[index].text;
 let urlOld = confSpeedDialDataArr[index].url;
 confSpeedDialDataArrUpdate.push({text:textOld, url:urlOld});
@@ -255,8 +256,8 @@ let printSettingsArr = [];
 
 confSpeedDialDataArr = JSON.parse(confSpeedDialDataArr);
 confSpeedDialDataArr.forEach((item, index) => {
-if(index != undefined&&index != "undefined"){
-if(confSpeedDialDataArr[index].text == undefined){ confSpeedDialDataArr[index].text = 'undefined'; }
+if (index != undefined&&index != "undefined"){
+if (confSpeedDialDataArr[index].text == undefined){ confSpeedDialDataArr[index].text = 'undefined'; }
 let speedDialItemText = (confSpeedDialDataArr[index].text).trim();
 let speedDialItemUrl = confSpeedDialDataArr[index].url;
 
@@ -324,7 +325,7 @@ ${printSettings}
 
 
 
-if(document.getElementById("speedDialSettingPrint") != null){
+if (document.getElementById("speedDialSettingPrint") != null){
 document.getElementById("speedDialSettingPrint").innerHTML = printSettings; 
 }
 
@@ -336,14 +337,14 @@ break;
 case 'update':
 confSpeedDialDataArr = [];
 
-if(document.querySelectorAll('.classSpeedDialText') != undefined){
+if (document.querySelectorAll('.classSpeedDialText') != undefined){
 let getData = document.querySelectorAll('.classSpeedDialText');
 getData.forEach((item, index) => {
 text = document.getElementsByClassName("classSpeedDialText")[index].value;
 url = document.getElementsByClassName("classSpeedDialUrl")[index].value;
 
-if(text == ""||url == ""){
-}else{
+if (text == ""||url == ""){
+} else {
 
 text = fuMClearText(text);
 url = fuMClearText(url);
@@ -363,7 +364,7 @@ break;
 
 case "clear":
 case "reset":
-if(confirm(`Are you sure?`) == true){
+if (confirm(`Are you sure?`) == true){
 localStorage.removeItem("confSpeedDialData");
 fuMReload();
 }

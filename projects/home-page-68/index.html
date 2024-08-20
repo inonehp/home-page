@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Speed dial</title>
+<title>Custom homepage</title>
 
 <meta name="description" content="
-Pin, unpin a page for speed dial or your own link. Speed dial. Quick access to a page or site.
+Redirecting from the main home page (/index.html) to another page. Custom home page, Home page settings.
 ">
 <meta name="keywords" content="
-speed,dial,setting,CSS,JavaScript,project,
+home, page, setting, settings, CSS, JavaScript, project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,22 +52,22 @@ speed,dial,setting,CSS,JavaScript,project,
 <main class="content">
 <div class="wrapper">
 
-<h1 class="tCenter op insertIconTitle">Speed dial</h1>
-<!--<div class="tCenter padding2 small op">in test, in progress</div>-->
+<h1 class="tCenter op insertIconTitle">Custom home page settings</h1>
+<div class="tCenter padding2 small op"></div>
 
 <div class="tCenter">
-<div class="padding2  block">Speed Dial status: </span> <span class="bold" id="printStatus"></span> <a class="insertIcon brand" href="/settings.html#confSpeedDialStatus">settings</a> </div>
+<div class="padding2  block">Custom home page status: </span> <span class="bold" id="printStatus"></span> <a class="insertIcon brand" href="/settings.html#confHomePageStatus">settings</a> </div>
 </div>
 
 <script>
 document.getElementById("printStatus").innerHTML = 'none';
-if(localStorage.getItem('confSpeedDialStatus') != null){
-document.getElementById("printStatus").innerText = localStorage.getItem('confSpeedDialStatus');
+if(localStorage.getItem('confHomePageStatus') != null){
+document.getElementById("printStatus").innerText = localStorage.getItem('confHomePageStatus');
 }
 </script>
 
-<span id="speedDialPrint"></span>
-<span id="speedDialSettingPrint"></span>
+<span id="homePagePrint"></span>
+<span id="homePageSettingPrint"></span>
 
 
 </div>
@@ -85,8 +85,7 @@ document.getElementById("printStatus").innerText = localStorage.getItem('confSpe
 
 <script src="script.js"></script>
 <script>
-fuLSpeedDial("speedDialPrint", "", "", "print");
-fuLSpeedDial("speedDialPrint", "", "", "setting");
+fuLHomePage("homePagePrint", "", "print");
 </script>
 
 </body>

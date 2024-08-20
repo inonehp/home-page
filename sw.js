@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.08.18";
+//var myCacheVersion = "v.1.2.2024.08.20";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.08.18").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.08.20").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -810,6 +810,10 @@ var fileListArr = ["/404.html",
 "/projects/highlight-word-15/",
 "/projects/highlight-word-15/script.js",
 "/projects/highlight-word-15/style.css",
+"/projects/home-page-68/index.html",
+"/projects/home-page-68/",
+"/projects/home-page-68/script.js",
+"/projects/home-page-68/style.css",
 "/projects/index.html",
 "/projects/insert-icon-17/demo.js",
 "/projects/insert-icon-17/",
@@ -1151,7 +1155,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.08.18")
+caches.open("v.1.2.2024.08.20")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1177,7 +1181,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.08.18")
+caches.open("v.1.2.2024.08.20")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1210,7 +1214,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.08.18"];
+  const cachesToKeep = ["v.1.2.2024.08.20"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

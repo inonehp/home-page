@@ -1,4 +1,4 @@
-// Search redirects v.2.1.19
+// Search redirects v.2.1.21
 // Mini Google
 // The script redirects the search query + command.
 
@@ -130,7 +130,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://trends.google.com/trends/trendingsearches/realtime?geo=US&category=t",
+"https://trends.google.com/trends/explore?cat=5&date=now%207-d",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -662,7 +662,8 @@ urlList = [
 //"https://medium.com/tag/" + medium + "/recommended",
 "https://medium.com/search?q=" + q,
 //"https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
-"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
+//"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
+"https://www.reddit.com/search/?q=" + q + "&type=comment",
 "https://www.tumblr.com/search/" + q + "/text",
 "https://wordpress.com/search?q=" + q,
 ];

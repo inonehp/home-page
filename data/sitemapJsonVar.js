@@ -525,6 +525,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/projects\/home-page-68\/index.html",
+        "text": "Custom homepage\n\nRedirecting from the main home page (\/index.html) to another page. Custom home page, Home page settings. | home page: ",
+        "tag": " #home #page #setting #settings #CSS #JavaScript #project",
+        "id": "4d2c873844282bf36d7543d967444b45",
+        "time": "id"
+    },
+    {
         "url": "\/projects\/insert-icon-17\/index.html",
         "text": "Function insert icon\n\nJavaScript icon insertion function. | insert icon: ",
         "tag": " #insert #icon #function #tool #function #JavaScript #project",
@@ -631,8 +638,8 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/speed-dial-58\/index.html",
-        "text": "Speed dial\n\nSpeed dial. Quick access to a page or site. | speed dial: ",
-        "tag": " #speed #dial #CSS #JavaScript #project",
+        "text": "Speed dial\n\nPin, unpin a page for speed dial or your own link. Speed dial. Quick access to a page or site. | speed dial: ",
+        "tag": " #speed #dial #setting #CSS #JavaScript #project",
         "id": "a72c4243ce1362c1831921e909d2cb59",
         "time": "id"
     },
