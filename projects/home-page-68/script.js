@@ -1,4 +1,4 @@
-// Custom Home page v.1.0.2
+// Custom Home page v.1.0.3
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage
 
 
@@ -128,8 +128,8 @@ default:
 if (window.location.pathname == "/"&&confHomePageData != ""&&confHomePageData != "/"&&String(location.href).indexOf("?") == -1){
 if (locationHomePageUrl != confHomePageData){
 //if (window.location.hostname == new URL(confHomePageData).hostname){}
-/*location.href = confHomePageData;
-location.href = location.href + '#!StopRedirect';*/
+location.href = confHomePageData;
+location.href = location.href + '#!StopRedirect';
 }
 }
 
