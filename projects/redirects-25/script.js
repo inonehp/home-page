@@ -1,4 +1,4 @@
-// Search redirects v.2.1.21
+// Search redirects v.2.1.22
 // Mini Google
 // The script redirects the search query + command.
 
@@ -652,7 +652,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 
-let wordpress = (q.replaceAll("%20", ' ')).trim();
+//let wordpress = (q.replaceAll("%20", ' ')).trim();
 let medium = (q.replaceAll("%20", '-')).trim();
 
 urlList = [

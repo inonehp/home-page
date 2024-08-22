@@ -1,11 +1,4 @@
-/* v.1.0.0 */
-
-/* list */
-.listBlock { padding: 0 5%; margin-bottom: 10px; }
-.listItem {
-padding: 5px 0;
-border-bottom: 2px dotted var(--d3);
-}
+/* v.1.1.0 */
 
 /* in progress */
 .lMenu {

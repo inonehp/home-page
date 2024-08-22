@@ -628,11 +628,7 @@ display: block;
 }
 
 /* list */
-.listBlock {
-padding: 0 var(--padding3);
-margin-bottom: var(--padding2);
-}
-
+.listBlock {}
 .listItem {
 padding: var(--padding) 0;
 border-bottom: 2px dotted var(--d3);
