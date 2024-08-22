@@ -910,10 +910,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/templates\/web-design-services-template-22\/index.html",
-        "text": "Template: Web design services 22\n\nWebsite template description. | web design services template: ",
+        "url": "\/templates\/web-design-services-simple-auto-light-dark-22\/index.html",
+        "text": "Template: Web design services 22\n\nWebsite template description. | web design services simple auto light dark: ",
         "tag": " #WebDesign #template",
-        "id": "82a2b562499e8c6e06c7acced984636c",
+        "id": "a906a48e0ef43f7cafa89648466d3201",
         "time": "id"
     },
     {
