@@ -413,13 +413,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/assistant-67\/index.html",
-        "text": "Assistant\n\nAssistant | assistant: ",
-        "tag": " #assistant #chat #command #CSS #JavaScript #project",
-        "id": "0d3949dc848c73e60a7d2a62d9b3a757",
-        "time": "id"
-    },
-    {
         "url": "\/projects\/average-number-40\/index.html",
         "text": "Average number\n\nAfter entering the numbers, the result will be the average value | average number: ",
         "tag": " #average #number #tool #JavaScript #project",
@@ -798,10 +791,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/templates\/clean-one-page-mini-auto-light-dark-16\/index.html",
-        "text": "Template: clean one page 16\n\nWebsite template description. | clean one page mini auto light dark: ",
+        "url": "\/templates\/clean-one-page-mini-simple-auto-light-dark-16\/index.html",
+        "text": "Template: clean one page 16\n\nWebsite template description. | clean one page mini simple auto light dark: ",
         "tag": " #WebDesign #template",
-        "id": "b91fd9467e8a5aebe39f61b92db3b645",
+        "id": "a3892ca984fbe68e1fa973c2332afb61",
         "time": "id"
     },
     {
@@ -914,6 +907,13 @@ var sitemapJsonVar = [
         "text": "Template: simple text 1\n\nWebsite template description. | simple text: ",
         "tag": " #WebDesign #template",
         "id": "b98f076dfa618723206b51d47390aa07",
+        "time": "id"
+    },
+    {
+        "url": "\/templates\/web-design-services-template-22\/index.html",
+        "text": "Template: Web design services 22\n\nWebsite template description. | web design services template: ",
+        "tag": " #WebDesign #template",
+        "id": "82a2b562499e8c6e06c7acced984636c",
         "time": "id"
     },
     {

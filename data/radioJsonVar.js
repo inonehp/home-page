@@ -381,15 +381,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Eclectic24 Online Radio | Free Music Streaming | KCRW",
-        "text2": "https:\/\/kcrw.streamguys1.com\/kcrw_192k_mp3_e24",
-        "text3": "mp3",
-        "url": "https:\/\/www.kcrw.com\/music\/shows\/eclectic24",
-        "tag": "#radio #RadioMusic",
-        "time": 1683864524,
-        "rightFooter": ""
-    },
-    {
         "text": "esRadio Elche 103.7 FM \u2013 esRadio Elche 103.7 FM",
         "text2": "https:\/\/ns6.emisionlocal.com\/proxy\/esradioelche?mp=\/stream",
         "text3": "mp3",

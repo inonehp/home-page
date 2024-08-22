@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.08.20";
+//var myCacheVersion = "v.1.2.2024.08.22";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.08.20").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.08.22").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -519,9 +519,10 @@ var fileListArr = ["/404.html",
 "/icons-data/warning.svg",
 "/icons-data/weather.svg",
 "/icons-page.html",
-"/images/0-100/art-krita-png-28.png",
+"/images/0-100/ai-assistant-inkscape-png-62.png",
 "/images/",
 "/images/0-100/",
+"/images/0-100/art-krita-png-28.png",
 "/images/0-100/ava-woman-laptop-ava-inkscape-svg-12.svg",
 "/images/0-100/ava-woman-laptop-inkscape-svg-30.svg",
 "/images/0-100/barbie-time-inkscape-svg-10.svg",
@@ -568,6 +569,7 @@ var fileListArr = ["/404.html",
 "/images/0-100/one-black-pixel-inkscape-png-35.png",
 "/images/0-100/one-transparent-pixel-inkscape-png-37.png",
 "/images/0-100/one-white-pixel-inkscape-png-36.png",
+"/images/0-100/search-page-inkscape-png-61.png",
 "/images/0-100/star-inkscape-svg-4.svg",
 "/images/0-100/start-end-krita-png-0.png",
 "/images/0-100/test-inkscape-png-58.png",
@@ -744,10 +746,6 @@ var fileListArr = ["/404.html",
 "/projects/agi-countdown-59/index.html",
 "/projects/agi-countdown-59/script.js",
 "/projects/agi-countdown-59/style.css",
-"/projects/assistant-67/index.html",
-"/projects/assistant-67/",
-"/projects/assistant-67/script.js",
-"/projects/assistant-67/style.css",
 "/projects/average-number-40/index.html",
 "/projects/average-number-40/",
 "/projects/average-number-40/script.js",
@@ -987,9 +985,9 @@ var fileListArr = ["/404.html",
 "/templates/card-page-auto-light-dark-20/index.html",
 "/templates/card-page-auto-light-dark-20/page.html",
 "/templates/card-page-auto-light-dark-20/style.css",
-"/templates/clean-one-page-mini-auto-light-dark-16/index.html",
-"/templates/clean-one-page-mini-auto-light-dark-16/",
-"/templates/clean-one-page-mini-auto-light-dark-16/style.css",
+"/templates/clean-one-page-mini-simple-auto-light-dark-16/index.html",
+"/templates/clean-one-page-mini-simple-auto-light-dark-16/",
+"/templates/clean-one-page-mini-simple-auto-light-dark-16/style.css",
 "/templates/flower-one-page-mini-auto-light-dark-flat-17/flower.svg",
 "/templates/flower-one-page-mini-auto-light-dark-flat-17/",
 "/templates/flower-one-page-mini-auto-light-dark-flat-17/index.html",
@@ -1119,6 +1117,9 @@ var fileListArr = ["/404.html",
 "/templates/tpl-0/index.html",
 "/templates/tpl-0/",
 "/templates/tpl-0/style.css",
+"/templates/web-design-services-template-22/index.html",
+"/templates/web-design-services-template-22/",
+"/templates/web-design-services-template-22/style.css",
 "/templates/webdesign-one-page-mini-flat-auto-light-dark-15/circle.svg",
 "/templates/webdesign-one-page-mini-flat-auto-light-dark-15/",
 "/templates/webdesign-one-page-mini-flat-auto-light-dark-15/coffee.svg",
@@ -1156,7 +1157,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.08.20")
+caches.open("v.1.2.2024.08.22")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1182,7 +1183,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.08.20")
+caches.open("v.1.2.2024.08.22")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1215,7 +1216,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.08.20"];
+  const cachesToKeep = ["v.1.2.2024.08.22"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

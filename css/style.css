@@ -91,14 +91,19 @@ text-align: left;
 /*min-height: 50px;*/
 }
 
-
-
 .insertIcon svg *, .insertIconTitle svg * {
 fill: var(--c) !important;
 stroke: var(--c) !important;
 }
 
-
+.listBlock {
+padding: 0 var(--padding3);
+margin-bottom: var(--padding2);
+}
+.listItem {
+padding: var(--padding) 0;
+border-bottom: 2px dotted var(--d3);
+}
 
 /* bg image in main.js */
 

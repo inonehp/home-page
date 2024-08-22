@@ -1,4 +1,4 @@
-// Main js v.6.8.4
+// Main js v.6.8.5
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -59,7 +59,7 @@ const confData = [
 },
 {
 "confTitle":"Allow external fonts?",
-"confDescription":`Load external fonts (privacy: may be used for analytics).`,
+"confDescription":`Load external fonts (privacy: may be used for analytics). Auto - based on third-party cookies settings.`,
 "confName":"confExternalFonts",
 "confValueDefault":"auto",
 "confValueVariant":["on", "off", "auto"],
