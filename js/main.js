@@ -1,4 +1,4 @@
-// Main js v.6.8.5
+// Main js v.6.9.1
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -192,8 +192,6 @@ conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent
 }
 });
 
-conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding mClassNavUp brand" href="../" title="../Up">List (↑)</a>`;
-
 
 //<!-- nav HTML part -->
 if (conf["confMenu"] == "random"){
@@ -242,6 +240,8 @@ ${conf["confMenuItems2"]}
 </div>
 <!--<hr />-->
 <!-- // dropdown menu -->
+
+<a class="countMenuItem inlineBlock padding mClassNavUp brand" style="margin-right: var(--padding);" href="../" title="../Up">List (↑)</a>
 
 <span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
