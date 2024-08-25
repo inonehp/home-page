@@ -3,6 +3,16 @@ var agicountdownJsonVar =
 
 [
     {
+        "id": "29",
+        "text": "Predictions of when will we have AGI are lowering exponentially : r\/singularity",
+        "text2": "2024 2025\r\n2026 2029 2029 2038\r\n2026\r\n2040",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/183cxbf\/predictions_of_when_will_we_have_agi_are_lowering\/",
+        "tag": "#post #SocialNetwork",
+        "time": 1724619671,
+        "rightFooter": ""
+    },
+    {
         "id": "28",
         "text": "Elon Musk predicts AI will overtake human intelligence next year",
         "text2": "2025 2030",
