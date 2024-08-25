@@ -213,7 +213,6 @@ document.getElementById("secondNav").innerHTML = `
 <div class="margin"></div>
 <nav>
 
-<span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="nav2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <div class="menuTop">
@@ -241,10 +240,10 @@ ${conf["confMenuItems2"]}
 <!--<hr />-->
 <!-- // dropdown menu -->
 
+<span class="countMenuItem"></span>
+<span class="countMenuItem"></span>
+<span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand" style="margin-right: var(--padding);" href="../" title="../Up">List (↑)</a>
-
-<span class="countMenuItem"></span>
-<span class="countMenuItem"></span>
 <form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/site-search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
@@ -261,7 +260,7 @@ ${conf["confMenuItems2"]}
 
 
 // JS part
-// Dropdown menu  v.1.3.0
+// Dropdown menu  v.1.3.1
 // if JS off (CSS version in noscript.css)
 //https://www.w3schools.com/howto/howto_js_dropdown.asp
 // menu click
