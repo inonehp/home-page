@@ -10,9 +10,7 @@
 
 
 /* mobile dropdown menu (main.js) */
-
-/* 500px - need manual adjustment */
-/* when start dropdown main.js noscript.css */
+/* dropdown: main.js noscript.css */
 @media(width <= 500px) {
 .navTop nav { display: block; }
 .menuTop { display: none; }
@@ -25,9 +23,6 @@
 display: none !important;
 }
 }
-/* // when start dropdown main.js noscript.css */
-
-/* end mobile dropdown menu (copy from main.js */
 
 /* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
 #dropdownMenuCSS:hover #dropdownMenu {
