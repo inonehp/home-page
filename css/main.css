@@ -1,4 +1,4 @@
-/* Main style v.17.1.0
+/* Main style v.17.1.1
 Mini CSS framework: main.css + auto.css (theme) */
 
 /* Main */
@@ -179,7 +179,7 @@ min-height: auto;
 
 .postFooter {
 display: grid;
-grid-template-columns: 1fr 30%;
+grid-template-columns: 1fr 40%;
 grid-gap: 1%;
 text-align: right;
 align-items: self-end;
