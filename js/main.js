@@ -329,7 +329,7 @@ document.getElementsByTagName("nav")[0].innerHTML += `
 
 /* when start dropdown: main.js, noscript.css */
 ${cssMedia} {
-.navTop nav { display: block; }
+.navTop { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 }
