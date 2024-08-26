@@ -2,7 +2,7 @@
 
 
 
-/*<!-- Nav v.1.4.0 -->
+/*<!-- Nav v.1.5.0 -->
 <!-- page, style.css, main.js, noscript.css -->*/
 
 .navTop { position: relative; z-index: 2; }
@@ -25,6 +25,7 @@ align-items: center;
 justify-content: left !important;
 align-items: center;
 text-align: left;
+display: block;
 }
 }
 

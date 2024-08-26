@@ -260,7 +260,7 @@ ${conf["confMenuItems2"]}
 
 
 // JS part
-// Dropdown menu  v.1.3.1
+// Dropdown menu  v.2.0.0
 // if JS off (CSS version in noscript.css)
 //https://www.w3schools.com/howto/howto_js_dropdown.asp
 // menu click
@@ -329,7 +329,7 @@ document.getElementsByTagName("nav")[0].innerHTML += `
 
 /* when start dropdown: main.js, noscript.css */
 ${cssMedia} {
-.navTop { display: block; }
+.navTop { display: inline-block;  }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 }
