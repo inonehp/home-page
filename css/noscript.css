@@ -13,7 +13,6 @@
 /* dropdown: main.js noscript.css */
 /*@media(width <= 500px) {*/
 @media(width >= 1px) {
-.navTop { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 }

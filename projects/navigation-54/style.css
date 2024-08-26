@@ -7,7 +7,7 @@
 /*<!-- Nav v.2.0.0 -->
 <!-- page, style.css, main.js, noscript.css -->*/
 
-.navTop { position: relative; z-index: 2; }
+.navTop { display: block; position: relative; z-index: 2; }
 .navTop form, .navTop input[type=search] { display: inline-block; }
 .navTop form { width: 100%; max-width: 130px; vertical-align: middle; }
 .navTop input[type=search] { font-size: small; padding: 5px 9px; min-height: 10px; }
