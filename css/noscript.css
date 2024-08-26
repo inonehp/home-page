@@ -3,7 +3,7 @@
 
 
 
-/* Nav  v.1.2.0 */
+/* Nav  v.1.3.0 */
 /*//<!-- page, style.css, main.js, noscript.css -->*/
 
 
@@ -11,18 +11,20 @@
 
 /* mobile dropdown menu (main.js) */
 /* dropdown: main.js noscript.css */
-@media(width <= 500px) {
-.navTop nav { display: block; }
+/*@media(width <= 500px) {*/
+@media(width >= 1px) {
+.navTop { display: block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 }
 
 /* fix when dynamic change */
+/*@media(width >= 500px){
 @media(width >= 500px){
 .dropdownMenuContentColumn, .dropdownMenuContent {
 display: none !important;
 }
-}
+}*/
 
 /* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
 #dropdownMenuCSS:hover #dropdownMenu {
