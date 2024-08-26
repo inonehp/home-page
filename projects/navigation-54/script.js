@@ -1,4 +1,4 @@
-// Nav v.1.2.0
+// Nav v.2.0.0
 
 // config
 
@@ -74,7 +74,7 @@ document.getElementsByTagName("nav")[0].innerHTML += `
 
 /* when start dropdown: main.js, noscript.css */
 ${cssMedia} {
-.navTop nav { display: block; }
+.navTop { display: inline-block; }
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
 }
