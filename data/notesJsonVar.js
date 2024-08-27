@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "58",
+        "text": "display - CSS: Cascading Style Sheets | MDN",
+        "text2": "\/* precomposed values *\/\r\ndisplay: block;\r\ndisplay: inline;\r\ndisplay: inline-block;\r\ndisplay: flex;\r\ndisplay: inline-flex;\r\ndisplay: grid;\r\ndisplay: inline-grid;\r\ndisplay: flow-root;\r\n\r\n\/* box generation *\/\r\ndisplay: none;\r\ndisplay: contents;\r\n\r\n\/* multi-keyword syntax *\/\r\ndisplay: block flex;\r\ndisplay: block flow;\r\ndisplay: block flow-root;\r\ndisplay: block grid;\r\ndisplay: inline flex;\r\ndisplay: inline flow;\r\ndisplay: inline flow-root;\r\ndisplay: inline grid;\r\n\r\n\/* other values *\/\r\ndisplay: table;\r\ndisplay: table-row; \/* all table elements have an equivalent CSS display value *\/\r\ndisplay: list-item;\r\n\r\n\/* Global values *\/\r\ndisplay: inherit;\r\ndisplay: initial;\r\ndisplay: revert;\r\ndisplay: revert-layer;\r\ndisplay: unset;",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/display",
+        "tag": "#CSS #code",
+        "time": 1724758035,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=58\">id<\/a>"
+    },
+    {
         "id": "57",
         "text": "backdrop-filter - CSS: Cascading Style Sheets | MDN",
         "text2": "\/* Keyword value *\/\r\nbackdrop-filter: none;\r\n\r\n\/* URL to SVG filter *\/\r\nbackdrop-filter: url(commonfilters.svg#filter);\r\n\r\n\/* <filter-function> values *\/\r\nbackdrop-filter: blur(2px);\r\nbackdrop-filter: brightness(60%);\r\nbackdrop-filter: contrast(40%);\r\nbackdrop-filter: drop-shadow(4px 4px 10px blue);\r\nbackdrop-filter: grayscale(30%);\r\nbackdrop-filter: hue-rotate(120deg);\r\nbackdrop-filter: invert(70%);\r\nbackdrop-filter: opacity(20%);\r\nbackdrop-filter: sepia(90%);\r\nbackdrop-filter: saturate(80%);\r\n\r\n\/* Multiple filters *\/\r\nbackdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);\r\n\r\n\/* Global values *\/\r\nbackdrop-filter: inherit;\r\nbackdrop-filter: initial;\r\nbackdrop-filter: revert;\r\nbackdrop-filter: revert-layer;\r\nbackdrop-filter: unset;",

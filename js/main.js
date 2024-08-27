@@ -1,4 +1,4 @@
-// Main js v.6.9.1
+// Main js v.6.9.2
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -427,7 +427,7 @@ fuMPrintText("footer", `
 <span id="fPinButton"></span>
 </div>
 
-<span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://x.com/${conf["confUsername"]}">X</a></span>
+<span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://bsky.app/profile/${conf["confUsername"]}.bsky.social">Bluesky</a></span>
 <span class="inlineBlock padding brand" title="RSS News"><a class="brand" href="/rss.xml">RSS</a></span>
 <span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
 <span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>

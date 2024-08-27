@@ -1013,8 +1013,6 @@ document.getElementById("sound").innerHTML = '<audio style="display:none" autopl
 printMsgWin = 'Tie';
 }
 
-
-
 if (printMsgWin == 'Good result'||printMsgWin == 'tie'){
 document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/neutral.mp3"></audio>';
 printMsgWin = 'Good result';
@@ -1025,13 +1023,11 @@ document.getElementById("sound").innerHTML = '<audio style="display:none" autopl
 printMsgWin = 'The previous result is better';
 }
 
-
 // disable msg
 if (printMsgWin != 'win'&&printMsgWin != 'tie'){
 printMsgWin = '';
 //document.getElementById("sound").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.mp3"></audio>';
 }
-
 
 
 let winMsg = `

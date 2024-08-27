@@ -45,6 +45,7 @@ function main() {
 
 
 
+
 /*
 // start animation when scrolling
 window.onscroll = event => {
@@ -108,7 +109,7 @@ document.getElementById("divIdForAnimation3").classList.remove("effect");
 
 
 
-
+/*
 try {
 if(document.featurePolicy != undefined){
 fuPrintPost('FLoC status: ' + (document.featurePolicy.allowsFeature('browsing-topics')));
@@ -123,7 +124,7 @@ try {
   const topics = await document.browsingTopics();
   
   // Request an ad creative.
- /* const response = await fetch('#url', {
+  const response = await fetch('#url', {
    method: 'POST',
    headers: {
      'Content-Type': 'application/json',
@@ -132,7 +133,7 @@ try {
   })
   
   // Get the JSON from the response.
-  const creative = await response.json();*/
+  const creative = await response.json();
   
   // Display ad.
 
@@ -143,7 +144,7 @@ console.log(fuMPrintText(error));
 }
 }
 fuPrintTopic();
-
+*/
 
 // insert manifest in header
 let element = document.createElement('link'); 
@@ -308,6 +309,7 @@ document.getElementById("start-button").addEventListener("click", () => {
     abortController.abort();
   }, 2000);
 });
+
 
 
 
