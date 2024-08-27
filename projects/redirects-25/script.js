@@ -183,6 +183,16 @@ if (q == ''){ url = "https://x.com/"; }
 sRedirectUrl = url;
 break;
 
+case 'bs#':
+case 'blu#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+url = "https://bsky.app/search?q=" + q;
+if (q == ''){ url = "https://bsky.app/"; }
+sRedirectUrl = url;
+break;
+
 case 'red#':
 q = q3.replace(qCom, '');
 q = q.trim();
