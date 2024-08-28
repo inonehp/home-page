@@ -1,4 +1,4 @@
-// Search redirects v.2.1.22
+// Search redirects v.2.1.25
 // Mini Google
 // The script redirects the search query + command.
 
@@ -506,7 +506,7 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://github.com/explore",
-"https://gitlab.com/explore",
+//"https://gitlab.com/explore",
 ];
 }
 
@@ -526,7 +526,7 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://github.com/explore",
-"https://gitlab.com/explore",
+//"https://gitlab.com/explore",
 ];
 }
 
@@ -535,6 +535,39 @@ url = random;
 sRedirectUrl = url;
 break;
 
+case 'wik#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://wikipedia.org/w/?search=" + q,
+];
+if (q == ''){
+urlList = [
+"https://en.wikipedia.org/wiki/Special:Random",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+case 'vim#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://vimeo.com/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://vimeo.com/watch",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
 
 case 'y#':
 case '.#':
