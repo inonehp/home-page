@@ -1,4 +1,4 @@
-// Search redirects v.2.1.28
+// Search redirects v.2.1.30
 // Mini Google
 // The script redirects the search query + command.
 
@@ -243,6 +243,12 @@ urlList = [
 "https://www.google.com/search?q=" + q + "&newwindow=1&source=lnms&tbm=isch",
 "https://www.bing.com/images/search?q=" + q,
 ];
+if (q == ''){
+urlList = [
+"https://images.google.com/",
+"https://www.bing.com/images/",
+];
+}
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = random;
