@@ -1,4 +1,4 @@
-// Search redirects v.2.1.26
+// Search redirects v.2.1.27
 // Mini Google
 // The script redirects the search query + command.
 
@@ -557,7 +557,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://vimeo.com/search?q=" + q,
+"https://vimeo.com/search?price=free&q=" + q,
 ];
 if (q == ''){
 urlList = [
