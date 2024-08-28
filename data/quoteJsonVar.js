@@ -363,6 +363,15 @@ var quoteJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Plans are only good intentions unless they immediately degenerate into hard work. Peter Drucker",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.brainyquote.com\/quotes\/peter_drucker_131070",
+        "tag": "#quote",
+        "time": 1724806904,
+        "rightFooter": ""
+    },
+    {
         "text": "Strive not to be a success, but rather to be of value. Albert Einstein",
         "text2": "",
         "text3": "",

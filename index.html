@@ -46,20 +46,20 @@ ignoreme,">
 <!--<link rel="manifest" href="manifest.webmanifest">-->
 
 <style>
+#topHeader { position: relative; }
 
 .siteName {
 position: relative;
 text-transform: uppercase;
+transform: rotate(-15deg);
 
 display: inline-block;
 color: var(--randCAll2);
 
-
 background: var(--bg);
 border-top: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
-transform: rotate(-15deg);
-padding-top: 2px;top: -30px;
-
+padding-top: 2px;
+top: -30px;
 }
 
 .siteName::after {
@@ -80,14 +80,6 @@ bottom: 0;
 color: var(--randCAll);
 }
 
-@media(max-width: 200px) {
-.siteName, .siteName::after {
-position: static; transform: rotate(0deg);
-border-top: 0px;
-content: "";
-}
-}
-
 .siteNameWrapper { margin-bottom: -30px; }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -100,7 +92,7 @@ to { opacity: 1; }
 }
 }
 
-.headerBannerImg svg{
+.headerBannerImg img, .headerBannerImg svg {
 display: block;
 margin: 0 auto;
 width: auto;
@@ -111,6 +103,12 @@ position: relative;
 
 z-index: -2;
 /*border-bottom: 2px dashed var(--randCAll2);*/
+}
+
+@media(max-width: 200px) {
+.siteName, .siteName::after {
+transform: rotate(0deg);
+}
 }
 
 </style>
@@ -191,6 +189,9 @@ z-index: -2;
 <header id="topHeader" class="block padding1PxList tCenter" style="position: relative;">
 
 <div class="headerBannerImg reduceLight2">
+
+<!--<img src="./img/header-banner.svg" alt="banner">-->
+
 <svg
    width="1500"
    height="500"
@@ -660,27 +661,24 @@ z-index: -2;
 
 <div class="block padding2List"></div>
 
-
 <div class="siteNameWrapper">
 <h1 class="zero siteName">&nbsp;Irvirty&nbsp;</h1>
 </div>
 <div class="tRight">
 
-
 <details class="small">
-<summary class="op wrapperS padding2List pointer">
-<span class="xSmall padding2List">updated: <span id="last-update"></span></span>
+<summary class="op wrapperS  pointer">
+<span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
-<div class="wrapperL small inlineBlock padding2  margin2List pre bg shadow borderRadius2 tLeft">
+<div class="wrapperL small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
 Fixed the menu if there are too many items, in the navigation and WordPress theme (in progress).
 
 <a class="brand block tag2 small tCenter border2 light borderRadius2" href="./changelog.html" title="Update Log">more</a></div>
 </details>
 
-
-
-
 </div>
+
+<div class="listItem op wrapperS inlineBlock pre marginList small borderRadius2 tLeft small"><span class="xSmall">Status: </span>empty.</div>
 
 <div id="hotLinksTop" class="scrollX tCenter small noscriptHide">
 <span id="urlDayNow"></span>

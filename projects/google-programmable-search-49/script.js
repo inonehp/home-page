@@ -28,11 +28,11 @@ let lQMode = [
 lQMode.forEach((item, item2) => {
 if (item["name"] == qGMode){
 lQModePrint += `
-<a class="brand active tag border broderRadius" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand active tag border borderRadius3" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="brand tag light border borderRadius" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand tag light border borderRadius3" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });
