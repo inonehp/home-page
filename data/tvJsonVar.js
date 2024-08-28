@@ -219,6 +219,15 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Mr Bean Animated Full Episodes \ud83e\udd70 | Mr Bean - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/playlist?list=PL03E61EE42BBA9181",
+        "tag": "#TV #cartoon",
+        "time": 1724828285,
+        "rightFooter": ""
+    },
+    {
         "text": "MTV - YouTube",
         "text2": "",
         "text3": "",

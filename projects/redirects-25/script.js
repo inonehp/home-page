@@ -1,4 +1,4 @@
-// Search redirects v.2.1.27
+// Search redirects v.2.1.28
 // Mini Google
 // The script redirects the search query + command.
 
@@ -615,9 +615,8 @@ urlList = [
 
 if (q == ''){
 urlList = [
-"https://www.youtube.com/",
-"https://vimeo.com/",
-"https://www.dailymotion.com/",
+"https://www.google.com/videohp",
+"https://www.bing.com/videos/",
 ];
 
 }
