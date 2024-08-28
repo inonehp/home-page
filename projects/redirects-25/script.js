@@ -1,4 +1,4 @@
-// Search redirects v.2.1.30
+// Search redirects v.2.1.32
 // Mini Google
 // The script redirects the search query + command.
 
@@ -197,9 +197,16 @@ case 'red#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-//url = "https://www.reddit.com/search/?q=" + q + "&type=link";
-url = "?q=" + q + " site:https://www.reddit.com/";
-if (q == ''){ url = "https://www.reddit.com/"; }
+urlList = [
+"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
+];
+if (q == ''){
+urlList = [
+"https://www.reddit.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -701,7 +708,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 
 //let wordpress = (q.replaceAll("%20", ' ')).trim();
-let medium = (q.replaceAll("%20", '-')).trim();
+//let medium = (q.replaceAll("%20", '-')).trim();
 
 urlList = [
 "https://x.com/search?q=" + q,
@@ -711,8 +718,8 @@ urlList = [
 "https://medium.com/search?q=" + q,
 //"https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
 //"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
-"https://www.reddit.com/search/?q=" + q + "&type=comment",
-"https://www.tumblr.com/search/" + q + "/text",
+"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
+"https://www.tumblr.com/search/" + q,
 "https://wordpress.com/search?q=" + q,
 ];
 
