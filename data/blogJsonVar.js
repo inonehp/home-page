@@ -103,16 +103,6 @@ var blogJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=232\">id<\/a>"
     },
     {
-        "id": "231",
-        "text": "The Download: Sudo for Windows, Sora, Vision Pro, Xbox Updates and More! - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=CS0YLCpiqHM",
-        "tag": "#news",
-        "time": 1709027601,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=231\">id<\/a>"
-    },
-    {
         "id": "230",
         "text": "HUBBLE on X: \"Our #HubbleTopImage features the dawn of a galactic collision \ud83c\udf0c. NGC 5256 is not one galaxy but two, in the process of a galactic collision. Read more: https:\/\/t.co\/JcDmCao3fz \ud83d\udcf7 @NASA , @ESA https:\/\/t.co\/nO4nDOoQpd\" \/ X",
         "text2": "",

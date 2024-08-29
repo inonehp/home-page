@@ -1,4 +1,4 @@
-// Search redirects v.2.1.32
+// Search redirects v.2.2.0
 // Mini Google
 // The script redirects the search query + command.
 
@@ -83,21 +83,21 @@ var q3 = q + "#";
 switch (qCom) {
 
 // pi#
-case 'π#':
+case 'rn#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-urlList = [
-"?q=" + q
-];
 if (q == ''){
 urlList = [
 'tec', 'sci', 'dev',
 ];
-}
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = '?q=' + random;
 sRedirectUrl = url;
+} else {
+url = '?q=' + q + " rn q";
+sRedirectUrl = url;
+}
 break;
 
 case 'l#':  case 'll#':
@@ -110,8 +110,6 @@ urlList = [
 //url = "https://duckduckgo.com/?q=! " + q;
 ];
 if (q == ''){
-url = 'https://www.google.com/';
-sRedirectUrl = url;
 urlList = [
 "https://www.google.com/",
 ];
