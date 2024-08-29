@@ -39,15 +39,6 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Bing News",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.bing.com\/news",
-        "tag": "#ads",
-        "time": 1678448606,
-        "rightFooter": ""
-    },
-    {
         "text": "blender.org - Home of the Blender project - Free and Open 3D Creation Software",
         "text2": "",
         "text3": "",
@@ -189,15 +180,6 @@ var adsJsonVar =
         "url": "https:\/\/www.microsoft.com\/windows\/",
         "tag": "#ads",
         "time": 1678452084,
-        "rightFooter": ""
-    },
-    {
-        "text": "Explore Offline Wikipedia and Educational Content with Kiwix- Kiwix",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.kiwix.org\/en\/",
-        "tag": "#ads",
-        "time": 1678448774,
         "rightFooter": ""
     },
     {

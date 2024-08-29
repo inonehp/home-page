@@ -18633,6 +18633,42 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "SOFI TUKKER - Jacare\u0301 (Official Video) [Ultra Records] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=5uctsXTwdAE",
+        "tag": "#music",
+        "time": 1724936102,
+        "rightFooter": ""
+    },
+    {
+        "text": "SOFI TUKKER - Purple Hat (Official Video) [Ultra Records] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=hOEMsqWx4nE",
+        "tag": "#music",
+        "time": 1724936221,
+        "rightFooter": ""
+    },
+    {
+        "text": "SOFI TUKKER - Summer In New York (Official Lyric Video) [Ultra Records] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=QO-4dnOJL7Q",
+        "tag": "#music",
+        "time": 1724936466,
+        "rightFooter": ""
+    },
+    {
+        "text": "SOFI TUKKER - Woof (feat. Kah-Lo) [Official Music Video] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=bwNDSAuDACc",
+        "tag": "#music",
+        "time": 1724935819,
+        "rightFooter": ""
+    },
+    {
         "text": "SOFI TUKKER x Amadou & Mariam - \"Mon Cheri\" (Official Video) - YouTube",
         "text2": "",
         "text3": "",

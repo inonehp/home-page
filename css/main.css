@@ -1,4 +1,4 @@
-/* Main style v.17.1.1
+/* Main style v.17.2.0
 Mini CSS framework: main.css + auto.css (theme) */
 
 /* Main */
@@ -701,7 +701,7 @@ input:focus{ outline: none }
 input[type="color"], form button { vertical-align: middle; min-height: var(--inputHeight); }
 
 
-html{ overflow-x: hidden; } /* fix PWA  */
+/*html{ overflow-x: hidden; }*/ /* fix PWA  */
 
 
 
