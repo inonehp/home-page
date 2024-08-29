@@ -3,36 +3,6 @@ var blogJsonVar =
 
 [
     {
-        "id": "264",
-        "text": "Google DeepMind on X: \"Meet our AI-powered robot that\u2019s ready to play table tennis. \ud83e\udd16\ud83c\udfd3 It\u2019s the first agent to achieve amateur human level performance in this sport. Here\u2019s how it works. \ud83e\uddf5 https:\/\/t.co\/AxwbRQwYiB\" \/ X",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/x.com\/GoogleDeepMind\/status\/1821562365931855970",
-        "tag": "#news #technology #video",
-        "time": 1723244653,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=264\">id<\/a>"
-    },
-    {
-        "id": "263",
-        "text": "Introducing Figure 02 - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=0SRVJaOg9Co",
-        "tag": "#news #technology #video",
-        "time": 1723092588,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=263\">id<\/a>"
-    },
-    {
-        "id": "260",
-        "text": "AI scientist Ray Kurzweil: \u2018We are going to expand intelligence a millionfold by 2045\u2019 | Artificial intelligence (AI) | The Guardian",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.theguardian.com\/technology\/article\/2024\/jun\/29\/ray-kurzweil-google-ai-the-singularity-is-nearer",
-        "tag": "#technology #article #future",
-        "time": 1720511102,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=260\">id<\/a>"
-    },
-    {
         "id": "259",
         "text": "Google no longer developing Material Web Components",
         "text2": "",
@@ -53,56 +23,6 @@ var blogJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=258\">id<\/a>"
     },
     {
-        "id": "257",
-        "text": "Apple Intelligence in 5 minutes - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=Q_EYoV1kZWk",
-        "tag": "#technology #news #video",
-        "time": 1718159723,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=257\">id<\/a>"
-    },
-    {
-        "id": "256",
-        "text": "Google I\/O '24 in under 10 minutes - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=WsEQjeZoEng",
-        "tag": "#news #technology #video",
-        "time": 1716043906,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=256\">id<\/a>"
-    },
-    {
-        "id": "254",
-        "text": "Introducing GPT-4o - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=DQacCB9tDaw",
-        "tag": "#news #technology #video",
-        "time": 1715673008,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=254\">id<\/a>"
-    },
-    {
-        "id": "253",
-        "text": "Ubuntu 24.04 LTS Noble Numbat now available: Featuring GNOME 46 and Linux kernel 6.8 | AlternativeTo",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/alternativeto.net\/news\/2024\/4\/ubuntu-24-04-lts-noble-numbat-now-available-featuring-gnome-46-and-linux-kernel-6-8\/",
-        "tag": "#news #technology #OS",
-        "time": 1714537145,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=253\">id<\/a>"
-    },
-    {
-        "id": "252",
-        "text": "What TED Will Look Like in 40 Years \u2014 According to Sora, OpenAI\u2019s Unreleased Text-to-Video Model - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=UXlPKKg4Md0",
-        "tag": "#news #technology #video",
-        "time": 1714531640,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=252\">id<\/a>"
-    },
-    {
         "id": "251",
         "text": "Albion Online | Coming to Europe - YouTube",
         "text2": "",
@@ -111,36 +31,6 @@ var blogJsonVar =
         "tag": "#news #game #video",
         "time": 1714531473,
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=251\">id<\/a>"
-    },
-    {
-        "id": "250",
-        "text": "All New Atlas | Boston Dynamics - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=29ECwExc-_M",
-        "tag": "#news #video",
-        "time": 1713939906,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=250\">id<\/a>"
-    },
-    {
-        "id": "248",
-        "text": "Beyond Our Reality \u00b7 Made by Don Allen Stevenson with Sora - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=ObUBUKOn-bo",
-        "tag": "#technology #other #video",
-        "time": 1712220290,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=248\">id<\/a>"
-    },
-    {
-        "id": "242",
-        "text": "PianoVision Film - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=2QoVxeZXp4k",
-        "tag": "#video #technology",
-        "time": 1710837964,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=242\">id<\/a>"
     },
     {
         "id": "240",

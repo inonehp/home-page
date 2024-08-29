@@ -623,7 +623,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&newwindow=1&tbm=vid",
-"https://www.bing.com/videos/search?q=" + q
+"https://www.bing.com/videos/search?q=" + q,
 ];
 
 if (q == ''){
