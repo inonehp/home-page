@@ -36,7 +36,7 @@ const confData = [
 "confTitle":"Theme",
 "confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/themes.html">/themes.html</a>`,
 "confName":"confTheme",
-"confValueDefault":"auto",
+"confValueDefault":"auto-rand-all",
 "confValueVariant":["light", "dark", "auto", "auto-t-rand-all", "auto-rand-all"],
 },
 {
