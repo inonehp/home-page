@@ -2280,6 +2280,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Bill Withers - Ain't No Sunshine (Old Grey Whistle Test, 1972) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Nuanwn3v-2I",
+        "tag": "#music",
+        "time": 1724995212,
+        "rightFooter": ""
+    },
+    {
         "text": "Billie Eilish - all the good girls go to hell (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -2379,6 +2388,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Billie Eilish - LUNCH (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=jsptjaAef7Q",
+        "tag": "#music",
+        "time": 1724998584,
+        "rightFooter": ""
+    },
+    {
         "text": "Billie Eilish - NDA (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -2475,6 +2493,33 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=J6gHQbhMP0o",
         "tag": "#music",
         "time": 1632190237,
+        "rightFooter": ""
+    },
+    {
+        "text": "Bishop Briggs - Baggage (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ST2hBVDSJrs",
+        "tag": "#music",
+        "time": 1724999444,
+        "rightFooter": ""
+    },
+    {
+        "text": "Bishop Briggs - HIGHER - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=0cazrTHGSFQ",
+        "tag": "#music",
+        "time": 1724999207,
+        "rightFooter": ""
+    },
+    {
+        "text": "Bishop Briggs - JEKYLL & HIDE - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=gVsEm_QRWiQ",
+        "tag": "#music",
+        "time": 1724999244,
         "rightFooter": ""
     },
     {
@@ -2928,6 +2973,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Body Moving (Riordan Remix) \u00b7 Eliza Rose \u00b7 Calvin Harris",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=MAK3tosrbBg",
+        "tag": "#music",
+        "time": 1724990932,
+        "rightFooter": ""
+    },
+    {
         "text": "boi \u00b7 illuminati hotties",
         "text2": "",
         "text3": "",
@@ -3342,6 +3396,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Business As Usual (night shift mix) \u00b7 Eliza Rose \u00b7 MJ Cole",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=O7Qienacapo",
+        "tag": "#music",
+        "time": 1724990950,
+        "rightFooter": ""
+    },
+    {
         "text": "Bust A Move (Diplo Remix) by Young MC - YouTube",
         "text2": "",
         "text3": "",
@@ -3744,6 +3807,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=J9NQFACZYEU",
         "tag": "#music",
         "time": 1644785286,
+        "rightFooter": ""
+    },
+    {
+        "text": "Calvin Harris - Summer (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ebXbLfLACGM",
+        "tag": "#music",
+        "time": 1724990138,
         "rightFooter": ""
     },
     {
@@ -4230,6 +4302,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=uzaYLK3k0DQ",
         "tag": "#music",
         "time": 1693986281,
+        "rightFooter": ""
+    },
+    {
+        "text": "Chappell Roan - HOT TO GO! (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=xaPNR-_Cfn0",
+        "tag": "#music",
+        "time": 1725000043,
         "rightFooter": ""
     },
     {
@@ -5268,6 +5349,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Dayglow - Every Little Thing I Say I Do (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=CjhytzmX-nc",
+        "tag": "#music",
+        "time": 1724998919,
+        "rightFooter": ""
+    },
+    {
         "text": "Dead \u00b7 San Fermin",
         "text2": "",
         "text3": "",
@@ -5517,6 +5607,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=GLSr0BAlndM",
         "tag": "#music",
         "time": 1620862927,
+        "rightFooter": ""
+    },
+    {
+        "text": "Diet Mountain Dew \u00b7 Lana Del Rey",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=sEetXo3R-aM",
+        "tag": "#music",
+        "time": 1724995410,
         "rightFooter": ""
     },
     {
@@ -6276,6 +6375,33 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Eliza Rose & MJ Cole - Business As Usual (9-5 mix) [Official Music Video] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=LlrTaZJdg38",
+        "tag": "#music",
+        "time": 1724990873,
+        "rightFooter": ""
+    },
+    {
+        "text": "Eliza Rose, Calvin Harris - Body Moving (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=lWIQg5KRw9c",
+        "tag": "#music",
+        "time": 1724990294,
+        "rightFooter": ""
+    },
+    {
+        "text": "Eliza Rose, Calvin Harris - Body Moving (Special Request Remix - Official Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=QZWEcUkAAqE",
+        "tag": "#music",
+        "time": 1724990978,
+        "rightFooter": ""
+    },
+    {
         "text": "Elizabeth and the Catapult - thirsty (Lyric Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -6462,6 +6588,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=RQ9_TKayu9s",
         "tag": "#music",
         "time": 1647445672,
+        "rightFooter": ""
+    },
+    {
+        "text": "Eminem - Houdini [Official Music Video] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=22tVWwmTie8",
+        "tag": "#music",
+        "time": 1725000284,
         "rightFooter": ""
     },
     {
@@ -8874,6 +9009,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=C-jAPrdc3PI",
         "tag": "#music",
         "time": 1693985453,
+        "rightFooter": ""
+    },
+    {
+        "text": "HOT TO GO! \u00b7 Chappell Roan",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=GJAt8bqW00E",
+        "tag": "#music",
+        "time": 1725000007,
         "rightFooter": ""
     },
     {
@@ -12495,6 +12639,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Louis Armstrong, Ella Fitzgerald - Summertime (Audio) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=2HJCN3upMHE",
+        "tag": "#music",
+        "time": 1724995965,
+        "rightFooter": ""
+    },
+    {
         "text": "Love Dub \u00b7 Waldeck",
         "text2": "",
         "text3": "",
@@ -14853,6 +15006,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Nia Archives - Conveniency (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=I_dRQSe8C0Y",
+        "tag": "#music",
+        "time": 1724996251,
+        "rightFooter": ""
+    },
+    {
         "text": "Nia Archives - Crowded Roomz - YouTube",
         "text2": "",
         "text3": "",
@@ -14868,6 +15030,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=03oSIavvl2Q",
         "tag": "#music",
         "time": 1713310918,
+        "rightFooter": ""
+    },
+    {
+        "text": "Nia Archives - Off Wiv Ya Headz (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=FrnDC94_Tic",
+        "tag": "#music",
+        "time": 1724996208,
         "rightFooter": ""
     },
     {
@@ -15420,6 +15591,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Olivia Rodrigo - obsessed (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=QXcjPySjdJU",
+        "tag": "#music",
+        "time": 1724993606,
+        "rightFooter": ""
+    },
+    {
         "text": "OMC - How Bizarre (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -15588,6 +15768,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=3SwwljI-8JY",
         "tag": "#music",
         "time": 1620866644,
+        "rightFooter": ""
+    },
+    {
+        "text": "Orville Peck & Beck - Death Valley High (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=1eodFa9rZZQ",
+        "tag": "#music",
+        "time": 1724999043,
         "rightFooter": ""
     },
     {
@@ -16572,6 +16761,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Real Man \u00b7 beabadoobee",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=nl0e7yzOUwM",
+        "tag": "#music",
+        "time": 1725000855,
+        "rightFooter": ""
+    },
+    {
         "text": "Red Hot Chili Peppers - Californication [Official Music Video] - YouTube",
         "text2": "",
         "text3": "",
@@ -17415,6 +17613,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=rCF8BLm6gKA",
         "tag": "#music",
         "time": 1693986164,
+        "rightFooter": ""
+    },
+    {
+        "text": "Sabrina Carpenter - Espresso (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eVli-tstM5E",
+        "tag": "#music",
+        "time": 1724994819,
         "rightFooter": ""
     },
     {
@@ -19236,6 +19443,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Sublime X Stick Figure \u2013 \"Feel Like That (feat. Bradley Nowell)\" - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=xqEYOJptZOI",
+        "tag": "#music",
+        "time": 1724998208,
+        "rightFooter": ""
+    },
+    {
         "text": "Sudan Archives - Come Meh Way - YouTube",
         "text2": "",
         "text3": "",
@@ -19305,6 +19521,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=zrHdJ50OHYg",
         "tag": "#music",
         "time": 1646404208,
+        "rightFooter": ""
+    },
+    {
+        "text": "Summertime Sadness (Lana Del Rey Vs. Cedric Gervais) \u00b7 Lana Del Rey \u00b7 Cedric Gervais",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=jgHYgDFD0xo",
+        "tag": "#music",
+        "time": 1724995587,
         "rightFooter": ""
     },
     {
