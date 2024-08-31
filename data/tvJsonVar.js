@@ -21,15 +21,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Apple - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@Apple",
-        "tag": "#TV #technology",
-        "time": 1711236552,
-        "rightFooter": ""
-    },
-    {
         "text": "Boxoffice | COMEDIES | Full",
         "text2": "",
         "text3": "",
@@ -156,15 +147,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Google - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@google",
-        "tag": "#TV #technology",
-        "time": 1711236628,
-        "rightFooter": ""
-    },
-    {
         "text": "Gravity Falls Full Episodes",
         "text2": "",
         "text3": "",
@@ -198,15 +180,6 @@ var tvJsonVar =
         "url": "https:\/\/www.youtube.com\/playlist?list=UULFBJycsmduvYEL83R_U4JriQ",
         "tag": "#TV #technology #tech",
         "time": 1718252335,
-        "rightFooter": ""
-    },
-    {
-        "text": "Mashable - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@Mashable",
-        "tag": "#TV #technology",
-        "time": 1705230782,
         "rightFooter": ""
     },
     {
@@ -306,15 +279,6 @@ var tvJsonVar =
         "url": "https:\/\/www.youtube.com\/@SkyNews\/featured",
         "tag": "#TV #en",
         "time": 1689237332,
-        "rightFooter": ""
-    },
-    {
-        "text": "Sony - Global - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@Sony",
-        "tag": "#TV #technology",
-        "time": 1711236898,
         "rightFooter": ""
     },
     {

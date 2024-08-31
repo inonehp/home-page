@@ -3,6 +3,26 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "166",
+        "text": "My Grammarly - Grammarly",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/app.grammarly.com\/",
+        "tag": "#grammar #language",
+        "time": 1725087627,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=166\">id<\/a>"
+    },
+    {
+        "id": "165",
+        "text": "Wordle - The New York Times",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.nytimes.com\/games\/wordle\/index.html",
+        "tag": "#game",
+        "time": 1725085671,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=165\">id<\/a>"
+    },
+    {
         "id": "162",
         "text": "Lemmy - A link aggregator for the fediverse",
         "text2": "",

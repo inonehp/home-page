@@ -4350,6 +4350,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Charlotte Gainsbourg - \u201cSylvia Says\u201d (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=dpVVa7xzCq0",
+        "tag": "#music",
+        "time": 1725089477,
+        "rightFooter": ""
+    },
+    {
         "text": "Cheap Thrills \u00b7 Sia \u00b7 Sean Paul",
         "text2": "",
         "text3": "",
@@ -6426,6 +6435,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=AJtDXIazrMo",
         "tag": "#music",
         "time": 1620101491,
+        "rightFooter": ""
+    },
+    {
+        "text": "Elliphant \"Down On Life\" (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=jrolhm3CES0",
+        "tag": "#music",
+        "time": 1725089185,
         "rightFooter": ""
     },
     {
@@ -18165,6 +18183,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Serengeti - \"No Beginner\" (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=xVD2K9Nz5io",
+        "tag": "#music",
+        "time": 1725089598,
+        "rightFooter": ""
+    },
+    {
         "text": "SEVDALIZA - THAT OTHER GIRL - YouTube",
         "text2": "",
         "text3": "",
@@ -20844,6 +20871,15 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=r3c8c5DGOpE",
         "tag": "#music",
         "time": 1620859669,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Hives - Rigor Mortis Radio (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=c2eDfuP3ppo",
+        "tag": "#music",
+        "time": 1725088136,
         "rightFooter": ""
     },
     {
