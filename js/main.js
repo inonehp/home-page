@@ -1,4 +1,4 @@
-// Main js v.6.9.5
+// Main js v.6.9.6
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -358,7 +358,7 @@ display: none !important;
 var fDesc = '';
 var fDescTitle = '';
 var fDescTags = '';
-var fDescTagsLimit = 24;
+var fDescTagsLimit = 17;
 var fDescLength = '';
 if (document.getElementsByName("keywords")[0] != null){
 fDescTags = document.getElementsByName("keywords")[0].content;
@@ -379,7 +379,9 @@ fDescTags += `<a class="tag brand light border2 borderRadius2" href="/site-searc
 }
 fDescTagsLimitCounter++;
 });
+if (fDescTagsLimit < fDescTagsLimitCounter){
 fDescTags += `<div class="tag">...</div>`;
+}
 
 fDescTags = `
 <br><b class="block padding2List small">Tags (keywords):</b><div class="tagList small left">` + fDescTags + '</div>';
