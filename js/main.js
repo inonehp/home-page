@@ -1,4 +1,4 @@
-// Main js v.6.9.4
+// Main js v.6.9.5
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -358,7 +358,7 @@ display: none !important;
 var fDesc = '';
 var fDescTitle = '';
 var fDescTags = '';
-var fDescTagsLimit = 15;
+var fDescTagsLimit = 24;
 var fDescLength = '';
 if (document.getElementsByName("keywords")[0] != null){
 fDescTags = document.getElementsByName("keywords")[0].content;

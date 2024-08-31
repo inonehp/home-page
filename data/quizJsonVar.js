@@ -3,6 +3,16 @@ var quizJsonVar =
 
 [
     {
+        "id": "13",
+        "text": "Inspired: meme.",
+        "text2": "Which example JS code will result in \"false\"?",
+        "text3": "0\/0 == NaN|||true|||\r\n___\r\n\"0 == \"\"|||false|||\r\n___\r\nMath.min() > Math.max()\"|||false|||\r\n___\r\n0\/1 == NaN|||true|||\r\n___\r\nNaN === NaN)|||true|||\r\n___\r\ntypeof null === 'object|||false|||\r\n___\r\n1 == 1|||false|||\r\n___",
+        "url": "",
+        "tag": "#code #JavaScript",
+        "time": 1725058318,
+        "rightFooter": ""
+    },
+    {
         "id": "12",
         "text": "HTML: HyperText Markup Language | MDN",
         "text2": "Which of these is an HTML tag?",

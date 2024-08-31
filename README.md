@@ -4,7 +4,7 @@
   
 # About
 
-A personal start page with projects such as search (redirect), blog, games, to-do list, typing speed, newtab, icons, themes, website templates, etc.
+A personal start page with projects such as Search (redirect), Blog, Games, To-Do List, Typing Speed, NewTab URL extension, Icons, Themes, Website Templates etc
   
 ---
   
@@ -22,6 +22,8 @@ A personal start page with projects such as search (redirect), blog, games, to-d
 [#Website](https://github.com/topics/website?s=updated),
 [#Personal](https://github.com/topics/personal?s=updated),
 [#Home page](https://github.com/topics/homepage?s=updated),
+[#Portfolio](https://github.com/topics/portfolio?s=updated),
+
 [#Web Dev](https://github.com/topics/webdev?s=updated),
 [#Web Design](https://github.com/topics/webdesign?s=updated), 
 [#Projects](https://github.com/topics/projects?s=updated),
