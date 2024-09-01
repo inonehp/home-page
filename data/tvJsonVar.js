@@ -52,17 +52,8 @@ var tvJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/@realcsstricks",
-        "tag": "#TV #dev",
+        "tag": "#TV #programming",
         "time": 1707050754,
-        "rightFooter": ""
-    },
-    {
-        "text": "Discovery - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@discovery",
-        "tag": "#TV #science #nature #history #adventure",
-        "time": 1705233216,
         "rightFooter": ""
     },
     {
@@ -111,12 +102,12 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Espreso - YouTube",
+        "text": "FLYING RHINO JR. HIGH | Full Episodes - YouTube",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/@EspresoTv\/featured",
-        "tag": "#TV #ua",
-        "time": 1689237881,
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLZb1SVCX0ajoFS2lSH4Zjz3eC0zhYtXlr",
+        "tag": "#TV #cartoon",
+        "time": 1725152504,
         "rightFooter": ""
     },
     {
@@ -153,6 +144,15 @@ var tvJsonVar =
         "url": "https:\/\/www.youtube.com\/playlist?list=PLg6R6yXKSLYBomPPcqXGzaQI0pCZc8uZA",
         "tag": "#TV #cartoon",
         "time": 1706030963,
+        "rightFooter": ""
+    },
+    {
+        "text": "GROSSOLOGY | Full Episodes - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLZb1SVCX0ajqsjAVYs2OLcJKmtawBqRkG",
+        "tag": "#TV #cartoon",
+        "time": 1725152694,
         "rightFooter": ""
     },
     {
@@ -210,12 +210,12 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "NASA",
+        "text": "MY DAD THE ROCKSTAR | Full Episodes - YouTube",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/playlist?list=UULFLA_DiR1FfKNvjuUpBHmylQ",
-        "tag": "#TV #science #technology",
-        "time": 1705231931,
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLZb1SVCX0ajoYjR4j5HhjknmW22BxaY7H",
+        "tag": "#TV #cartoon",
+        "time": 1725152634,
         "rightFooter": ""
     },
     {
@@ -273,6 +273,15 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "SIDEKICK | Full Episodes - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLZb1SVCX0ajoEekPeooKDMfxxiEFsGvoZ",
+        "tag": "#TV #cartoon",
+        "time": 1725152565,
+        "rightFooter": ""
+    },
+    {
         "text": "Sky News - YouTube",
         "text2": "",
         "text3": "",
@@ -300,12 +309,21 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "The Download Show! by Christina Warren (@filmgirl) - YouTube",
+        "text": "THE DAY MY BUTT WENT PSYCHO | SEASON 1 - YouTube",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/playlist?list=PL0lo9MOBetEE0goMLEl97vO7slruNVj43",
-        "tag": "#TV #dev #developer #coding #programming",
-        "time": 1710241723,
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLZb1SVCX0ajo8yKN14GjJNVUk5epfqsju",
+        "tag": "#TV #cartoon",
+        "time": 1725152679,
+        "rightFooter": ""
+    },
+    {
+        "text": "THE FAIRLY ODD PARENTS | Full Episodes \ud83c\udf41 \ud83c\udf41 \ud83c\udf41 - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLZb1SVCX0ajoclQynrUz26jQm3aJ7Y0uS",
+        "tag": "#TV #cartoon",
+        "time": 1725152533,
         "rightFooter": ""
     },
     {
@@ -327,12 +345,12 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "VOA Learning English - YouTube",
+        "text": "WAYSIDE | Full Episodes! - YouTube",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/www.youtube.com\/@voalearningenglish",
-        "tag": "#TV #english #language #learning #learn",
-        "time": 1706028868,
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLZb1SVCX0ajruEMCRyEVInEcKnK_9ypmn",
+        "tag": "#TV #cartoon",
+        "time": 1725152453,
         "rightFooter": ""
     },
     {

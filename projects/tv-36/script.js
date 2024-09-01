@@ -78,7 +78,7 @@ qSearch = String(qSearch).toLowerCase();
 
 qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag + postUrl).toLowerCase();
 /*if(qSearch[0] == '#'){ qData = qData.replaceAll(/,/g, ' '); } */
-if((qData).indexOf((qSearch)) >= 0){
+if((qData).indexOf((qSearch )) != -1){
 arrListForRandom.push(key);
 
 i++;
@@ -234,7 +234,7 @@ case "m.youtube.com":
 case "www.youtube.com":
 case "music.youtube.com":
 
-if((item).indexOf((`v=`)) >= 0){
+if((item).indexOf((`v=`)) != -1){
 play = item.split('v=').pop();
 if(play != ''){
 embed = `<!--<iframe id="player" style="border:0;" height="${h}" width="${w}" src="https://www.youtube.com/embed/${play}"></iframe>--><iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/${play}?&autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; autoplay; picture-in-picture" allowfullscreen></iframe>`;
@@ -242,7 +242,7 @@ embedServiceList += 'youtube';
 }
 }
 
-if((item).indexOf((`list`)) >= 0){
+if((item).indexOf((`list`)) != -1){
 play = item.split('list=');
 play = play[1];
 if(play != ''){
@@ -251,7 +251,7 @@ embedServiceList += 'youtube';
 }
 }
 
-if((item).indexOf((`featured`)) >= 0||(item).indexOf((`@`)) >= 0){
+if((item).indexOf((`featured`)) != -1||(item).indexOf((`@`)) != -1){
 play = item.split('/');
 play = play[3];
 if(play != ''){
