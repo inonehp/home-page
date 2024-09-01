@@ -1,4 +1,4 @@
-// Search redirects v.2.2.0
+// Search redirects v.2.2.3
 // Mini Google
 // The script redirects the search query + command.
 
@@ -704,32 +704,21 @@ case 's#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-
-//let wordpress = (q.replaceAll("%20", ' ')).trim();
-//let medium = (q.replaceAll("%20", '-')).trim();
-
 urlList = [
-"https://x.com/search?q=" + q,
-"https://www.threads.net/search?q=" + q,
 "https://bsky.app/search?q=" + q,
-//"https://medium.com/tag/" + medium + "/recommended",
-"https://medium.com/search?q=" + q,
-//"https://www.google.com/search?q=" + q + " site:https://www.reddit.com/&newwindow=1&tbs=qdr:m",
-//"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
-"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
+"https://www.threads.net/search?q=" + q,
 "https://www.tumblr.com/search/" + q,
 "https://wordpress.com/search?q=" + q,
+"https://lemmy.ml/search?q=" + q + "&type=All&listingType=All&page=1&sort=New",
+"https://www.google.com/search?q=" + q + " site:https://blogspot.com&tbs=qdr:m",
 ];
-
 if (q == ''){
 urlList = [
-"https://x.com/",
-"https://www.threads.net/following",
 "https://bsky.app/",
-"https://medium.com/",
-"https://www.reddit.com/",
+"https://www.threads.net/",
 "https://www.tumblr.com/",
 "https://wordpress.com/",
+"https://lemmy.ml/",
 ];
 
 }

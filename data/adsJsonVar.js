@@ -3,30 +3,12 @@ var adsJsonVar =
 
 [
     {
-        "text": "<a href=\"https:\/\/vivaldi.com?pk_campaign=Banners&pk_kwd=728x90\"><img src=\"https:\/\/vivaldi.com\/buttons\/files\/vivaldi_browser_lg-alt-b.png\" alt=\"Get Vivaldi Browser\" style=\"border:0\"><\/a>",
-        "text2": "<a href=\"https:\/\/vivaldi.com?pk_campaign=Banners&pk_kwd=728x90\"><img src=\"https:\/\/vivaldi.com\/buttons\/files\/vivaldi_browser_lg-alt-b.png\" alt=\"Get Vivaldi Browser\" style=\"border:0\"><\/a>",
-        "text3": "",
-        "url": "",
-        "tag": "#ads",
-        "time": 1678451494,
-        "rightFooter": ""
-    },
-    {
         "text": "Albion Online | The Fantasy Sandbox MMORPG",
         "text2": "",
         "text3": "",
         "url": "https:\/\/albiononline.com\/",
         "tag": "#ads",
         "time": 1683053930,
-        "rightFooter": ""
-    },
-    {
-        "text": "Arch Linux",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/archlinux.org\/",
-        "tag": "#ads",
-        "time": 1678451666,
         "rightFooter": ""
     },
     {
@@ -48,39 +30,12 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Blog Tool, Publishing Platform, and CMS \u2013 WordPress.org",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/wordpress.org\/",
-        "tag": "#ads",
-        "time": 1705722265,
-        "rightFooter": ""
-    },
-    {
         "text": "Blogger.com - Create a unique and beautiful blog easily.",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.blogger.com\/about\/",
         "tag": "#ads",
         "time": 1678451379,
-        "rightFooter": ""
-    },
-    {
-        "text": "CodePen",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/codepen.io\/",
-        "tag": "#ads",
-        "time": 1678448816,
-        "rightFooter": ""
-    },
-    {
-        "text": "Create VS Code Themes Easily - Theme Studio - The VS Code Theme Editor",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/themes.vscode.one\/",
-        "tag": "#ads",
-        "time": 1678448691,
         "rightFooter": ""
     },
     {
@@ -111,15 +66,6 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Discover stories on Pocket",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/getpocket.com\/",
-        "tag": "#ads",
-        "time": 1622955720,
-        "rightFooter": ""
-    },
-    {
         "text": "Discover the top streamed music and songs online on Soundcloud",
         "text2": "",
         "text3": "",
@@ -147,30 +93,12 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Draw Freely | Inkscape",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/inkscape.org\/",
-        "tag": "#ads",
-        "time": 1689266512,
-        "rightFooter": ""
-    },
-    {
         "text": "Dropbox.com",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.dropbox.com\/",
         "tag": "#ads",
         "time": 1678448552,
-        "rightFooter": ""
-    },
-    {
-        "text": "Drupal - Open Source CMS | Drupal.org",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.drupal.org\/",
-        "tag": "#ads",
-        "time": 1711924141,
         "rightFooter": ""
     },
     {
@@ -207,24 +135,6 @@ var adsJsonVar =
         "url": "https:\/\/feedly.com\/",
         "tag": "#ads",
         "time": 1678452369,
-        "rightFooter": ""
-    },
-    {
-        "text": "Figma",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.figma.com\/",
-        "tag": "#ads",
-        "time": 1691510597,
-        "rightFooter": ""
-    },
-    {
-        "text": "Firefox Color",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/color.firefox.com\/",
-        "tag": "#ads",
-        "time": 1678451510,
         "rightFooter": ""
     },
     {
@@ -273,24 +183,6 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "GitHub",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/github.com\/",
-        "tag": "#ads",
-        "time": 1621041776,
-        "rightFooter": ""
-    },
-    {
-        "text": "GNOME \u2013 Simple, beautiful, elegant.",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.gnome.org\/",
-        "tag": "#ads",
-        "time": 1678451702,
-        "rightFooter": ""
-    },
-    {
         "text": "Google",
         "text2": "",
         "text3": "",
@@ -327,39 +219,12 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Home - Canva",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.canva.com\/",
-        "tag": "#ads",
-        "time": 1691510613,
-        "rightFooter": ""
-    },
-    {
-        "text": "Home - KDE Community",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/kde.org\/",
-        "tag": "#ads",
-        "time": 1678451541,
-        "rightFooter": ""
-    },
-    {
         "text": "Home - Linux Mint",
         "text2": "",
         "text3": "",
         "url": "https:\/\/linuxmint.com\/",
         "tag": "#ads",
         "time": 1678451691,
-        "rightFooter": ""
-    },
-    {
-        "text": "Home \/ Twitter",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/twitter.com\/",
-        "tag": "#ads",
-        "time": 1620634371,
         "rightFooter": ""
     },
     {
@@ -417,39 +282,12 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Joomla Content Management System (CMS) - try it! It's free!",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.joomla.org\/",
-        "tag": "#ads",
-        "time": 1705722283,
-        "rightFooter": ""
-    },
-    {
-        "text": "MDN Web Docs",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/developer.mozilla.org\/en-US\/",
-        "tag": "#ads",
-        "time": 1678452207,
-        "rightFooter": ""
-    },
-    {
         "text": "MediBang Paint - the free digital painting and manga creation software",
         "text2": "",
         "text3": "",
         "url": "https:\/\/medibangpaint.com\/",
         "tag": "#ads",
         "time": 1678451777,
-        "rightFooter": ""
-    },
-    {
-        "text": "Medium",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/medium.com\/",
-        "tag": "#ads",
-        "time": 1678452217,
         "rightFooter": ""
     },
     {
@@ -462,30 +300,12 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Microsoft Edge",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.microsoft.com\/edge",
-        "tag": "#ads",
-        "time": 1678448573,
-        "rightFooter": ""
-    },
-    {
         "text": "Mixcloud - This is Audio Culture | Mixcloud",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.mixcloud.com\/",
         "tag": "#ads",
         "time": 1619916679,
-        "rightFooter": ""
-    },
-    {
-        "text": "Most Secure Collaboration Platform \u00b7 Work Anywhere \u00b7 Stay Secure | Wire",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/wire.com\/en\/",
-        "tag": "#ads",
-        "time": 1678451428,
         "rightFooter": ""
     },
     {
@@ -525,15 +345,6 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Oracle VM VirtualBox",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.virtualbox.org\/",
-        "tag": "#ads",
-        "time": 1678451762,
-        "rightFooter": ""
-    },
-    {
         "text": "Personal Cloud Storage & File Sharing Platform - Google",
         "text2": "",
         "text3": "",
@@ -549,15 +360,6 @@ var adsJsonVar =
         "url": "https:\/\/www.adobe.com\/products\/premiere.html",
         "tag": "#ads",
         "time": 1678448492,
-        "rightFooter": ""
-    },
-    {
-        "text": "Reddit - Dive into anything",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.reddit.com\/",
-        "tag": "#ads",
-        "time": 1678452195,
         "rightFooter": ""
     },
     {
@@ -588,30 +390,12 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Stack Overflow - Where Developers Learn, Share, & Build Careers",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/stackoverflow.com\/",
-        "tag": "#ads",
-        "time": 1682391812,
-        "rightFooter": ""
-    },
-    {
         "text": "Syncthing",
         "text2": "",
         "text3": "",
         "url": "https:\/\/syncthing.net\/",
         "tag": "#ads",
         "time": 1678448393,
-        "rightFooter": ""
-    },
-    {
-        "text": "The DevSecOps Platform | GitLab",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/about.gitlab.com\/",
-        "tag": "#ads",
-        "time": 1678451563,
         "rightFooter": ""
     },
     {
@@ -660,24 +444,6 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "W3Schools Online Web Tutorials",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.w3schools.com\/",
-        "tag": "#ads",
-        "time": 1620426696,
-        "rightFooter": ""
-    },
-    {
-        "text": "web.dev",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/web.dev\/",
-        "tag": "#ads",
-        "time": 1678448442,
-        "rightFooter": ""
-    },
-    {
         "text": "WhatsApp",
         "text2": "",
         "text3": "",
@@ -702,33 +468,6 @@ var adsJsonVar =
         "url": "https:\/\/worldofwarcraft.blizzard.com\/",
         "tag": "#ads",
         "time": 1678448789,
-        "rightFooter": ""
-    },
-    {
-        "text": "World Wide Web Consortium (W3C)",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.w3.org\/",
-        "tag": "#ads",
-        "time": 1621408306,
-        "rightFooter": ""
-    },
-    {
-        "text": "XAMPP Installers and Downloads for Apache Friends",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.apachefriends.org\/",
-        "tag": "#ads",
-        "time": 1681532811,
-        "rightFooter": ""
-    },
-    {
-        "text": "Xfce Desktop Environment",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.xfce.org\/",
-        "tag": "#ads",
-        "time": 1678451714,
         "rightFooter": ""
     },
     {

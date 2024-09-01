@@ -178,7 +178,7 @@ var tvJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/playlist?list=UULFBJycsmduvYEL83R_U4JriQ",
-        "tag": "#TV #technology #tech",
+        "tag": "#TV #technology",
         "time": 1718252335,
         "rightFooter": ""
     },
@@ -198,15 +198,6 @@ var tvJsonVar =
         "url": "https:\/\/www.youtube.com\/playlist?list=PL03E61EE42BBA9181",
         "tag": "#TV #cartoon",
         "time": 1724828285,
-        "rightFooter": ""
-    },
-    {
-        "text": "MTV - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@MTV",
-        "tag": "#TV #music",
-        "time": 1719553086,
         "rightFooter": ""
     },
     {
