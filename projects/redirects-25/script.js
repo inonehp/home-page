@@ -1,4 +1,4 @@
-// Search redirects v.2.2.3
+// Search redirects v.2.2.4
 // Mini Google
 // The script redirects the search query + command.
 
@@ -709,7 +709,6 @@ urlList = [
 "https://www.threads.net/search?q=" + q,
 "https://www.tumblr.com/search/" + q,
 "https://wordpress.com/search?q=" + q,
-"https://lemmy.ml/search?q=" + q + "&type=All&listingType=All&page=1&sort=New",
 "https://www.google.com/search?q=" + q + " site:https://blogspot.com&tbs=qdr:m",
 ];
 if (q == ''){
@@ -718,7 +717,6 @@ urlList = [
 "https://www.threads.net/",
 "https://www.tumblr.com/",
 "https://wordpress.com/",
-"https://lemmy.ml/",
 ];
 
 }
