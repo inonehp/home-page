@@ -466,7 +466,20 @@ scroll-padding-top: 16px;
 .borderRadius3 { border-radius: var(--borderRadius3); }
 .borderRadius4 { border-radius: var(--borderRadius4); }
 
+.floatLeft { float: left; }
+.floatRight { float: right; }
 
+.imgLeft {
+float: left;
+padding: var(--padding2);
+padding-left: 0;
+}
+
+.imgRight {
+float: right;
+padding: var(--padding2);
+padding-right: 0;
+}
 
 /* Colors (colors from variables in the theme) */
 :root{
