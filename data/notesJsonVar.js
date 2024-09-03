@@ -3,6 +3,36 @@ var notesJsonVar =
 
 [
     {
+        "id": "61",
+        "text": "command line - How to change \"Global Dark Theme\" on and off through Terminal? - Ask Ubuntu",
+        "text2": "Changing the theme in Ubuntu 24.04 using the terminal or commands (Gnome).\r\nFor automatic day and night in a bash script and using extension: Night Theme Switcher - GNOME Shell Extensions https:\/\/extensions.gnome.org\/extension\/2236\/night-theme-switcher\/",
+        "text3": "",
+        "url": "https:\/\/askubuntu.com\/questions\/769417\/how-to-change-global-dark-theme-on-and-off-through-terminal",
+        "tag": "#fix",
+        "time": 1725339124,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=61\">id<\/a>"
+    },
+    {
+        "id": "60",
+        "text": "apt - Skipping acquire of configured file 'main\/binary-i386\/Packages' as repository 'xxx' doesn't support architecture 'i386' - Ask Ubuntu",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/askubuntu.com\/questions\/741410\/skipping-acquire-of-configured-file-main-binary-i386-packages-as-repository-x\/1384349#1384349",
+        "tag": "#fix",
+        "time": 1725338831,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=60\">id<\/a>"
+    },
+    {
+        "id": "59",
+        "text": "gnome - Font rendering issue (antialiasing) - Ask Ubuntu",
+        "text2": "fix bad font in ubuntu 22.04 (thin)",
+        "text3": "",
+        "url": "https:\/\/askubuntu.com\/questions\/1511954\/font-rendering-issue-antialiasing",
+        "tag": "#fix",
+        "time": 1725337316,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=59\">id<\/a>"
+    },
+    {
         "id": "58",
         "text": "display - CSS: Cascading Style Sheets | MDN",
         "text2": "\/* precomposed values *\/\r\ndisplay: block;\r\ndisplay: inline;\r\ndisplay: inline-block;\r\ndisplay: flex;\r\ndisplay: inline-flex;\r\ndisplay: grid;\r\ndisplay: inline-grid;\r\ndisplay: flow-root;\r\n\r\n\/* box generation *\/\r\ndisplay: none;\r\ndisplay: contents;\r\n\r\n\/* multi-keyword syntax *\/\r\ndisplay: block flex;\r\ndisplay: block flow;\r\ndisplay: block flow-root;\r\ndisplay: block grid;\r\ndisplay: inline flex;\r\ndisplay: inline flow;\r\ndisplay: inline flow-root;\r\ndisplay: inline grid;\r\n\r\n\/* other values *\/\r\ndisplay: table;\r\ndisplay: table-row; \/* all table elements have an equivalent CSS display value *\/\r\ndisplay: list-item;\r\n\r\n\/* Global values *\/\r\ndisplay: inherit;\r\ndisplay: initial;\r\ndisplay: revert;\r\ndisplay: revert-layer;\r\ndisplay: unset;",
