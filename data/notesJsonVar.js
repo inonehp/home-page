@@ -15,7 +15,7 @@ var notesJsonVar =
     {
         "id": "60",
         "text": "apt - Skipping acquire of configured file 'main\/binary-i386\/Packages' as repository 'xxx' doesn't support architecture 'i386' - Ask Ubuntu",
-        "text2": "",
+        "text2": "Fix error when running \"sudo apt update\" command and error for Google Chrome in Ubuntu 24.04",
         "text3": "",
         "url": "https:\/\/askubuntu.com\/questions\/741410\/skipping-acquire-of-configured-file-main-binary-i386-packages-as-repository-x\/1384349#1384349",
         "tag": "#fix",
@@ -25,7 +25,7 @@ var notesJsonVar =
     {
         "id": "59",
         "text": "gnome - Font rendering issue (antialiasing) - Ask Ubuntu",
-        "text2": "fix bad font in ubuntu 22.04 (thin)",
+        "text2": "fix bad font in ubuntu 24.04 (thin)",
         "text3": "",
         "url": "https:\/\/askubuntu.com\/questions\/1511954\/font-rendering-issue-antialiasing",
         "tag": "#fix",
