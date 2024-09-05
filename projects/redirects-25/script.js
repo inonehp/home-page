@@ -1,4 +1,4 @@
-// Search redirects v.2.2.5
+// Search redirects v.2.2.6
 // Mini Google
 // The script redirects the search query + command.
 
@@ -436,17 +436,17 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://chatgpt.com/?q=" + q,
 "https://www.perplexity.ai/search/?q=" + q,
+"https://chatgpt.com/?q=" + q,
 ];
 
 if (q == ''){
 urlList = [
-"https://chatgpt.com/",
 "https://www.perplexity.ai/",
-"https://gemini.google.com/",
-//"https://copilot.microsoft.com/",
+"https://chatgpt.com/",
 "https://www.bing.com/copilot",
+//"https://copilot.microsoft.com/",
+"https://gemini.google.com/",
 ];
 }
 
@@ -709,7 +709,6 @@ urlList = [
 "https://www.threads.net/search?q=" + q,
 "https://www.tumblr.com/search/" + q,
 "https://wordpress.com/search?q=" + q,
-"https://www.google.com/search?q=" + q + " site:https://blogspot.com&tbs=qdr:m",
 ];
 if (q == ''){
 urlList = [
