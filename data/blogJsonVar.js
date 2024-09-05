@@ -3,6 +3,16 @@ var blogJsonVar =
 
 [
     {
+        "id": "266",
+        "text": "Firefox 130.0, See All New Features, Updates and Fixes",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/130.0\/releasenotes\/",
+        "tag": "#news #technology",
+        "time": 1725487711,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=266\">id<\/a>"
+    },
+    {
         "id": "259",
         "text": "Google no longer developing Material Web Components",
         "text2": "",

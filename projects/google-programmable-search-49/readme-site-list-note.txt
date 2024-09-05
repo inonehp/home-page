@@ -1,6 +1,7 @@
-custom:
+
+
+custom search:
 *.wikipedia.org/*
-*.reddit.com/*
 *.lemmy.world/*
 *.blogspot.com/*
 *.wordpress.com/*
@@ -9,8 +10,6 @@ custom:
 *.mozilla.org/*
 *.stackoverflow.com/*
 *.w3schools.com/*
-*.twitter.com/*
-*.x.com/*
 *.bsky.app/*
 *.tumblr.com/*
 

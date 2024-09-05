@@ -1,4 +1,4 @@
-// Search redirects v.2.2.4
+// Search redirects v.2.2.5
 // Mini Google
 // The script redirects the search query + command.
 
@@ -436,17 +436,17 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-//"?q=" + q + " bin",
+"https://chatgpt.com/?q=" + q,
 "https://www.perplexity.ai/search/?q=" + q,
 ];
 
 if (q == ''){
 urlList = [
+"https://chatgpt.com/",
+"https://www.perplexity.ai/",
 "https://gemini.google.com/",
 //"https://copilot.microsoft.com/",
 "https://www.bing.com/copilot",
-"https://chatgpt.com/",
-"https://www.perplexity.ai/",
 ];
 }
 

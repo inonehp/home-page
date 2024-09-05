@@ -8762,8 +8762,8 @@ var wordJsonVar =
     },
     {
         "text": "\u0443\u0434\u0430\u0440",
-        "text2": "shock",
-        "text3": "soplar"
+        "text2": "hit",
+        "text3": "huelga"
     },
     {
         "text": "\u0443\u0434\u0430\u0447\u0430",

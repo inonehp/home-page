@@ -1,4 +1,4 @@
-// Typing Speed Test and game v.3.16.10
+// Typing Speed Test or Typing Speed Game v.3.16.12
 
 
 
@@ -6,7 +6,7 @@ function mainAll(mode33){
 
 const wmpAverageLimit = 30;
 const wordLengthLimit = 5.1;
-const allowError = 20;
+const allowError = 50;
 const whenTypeProgress = 300;
 
 //const mostCommonWordsLimit = 20;
@@ -86,7 +86,7 @@ document.getElementById("mode").innerHTML = `
 ${modeListPrint}
 
 <!-- https://developer.mozilla.org/docs/Web/API/Document/getSelection -->
-<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://${conf["confUsername"]}.${conf["confHostingDomain"]}/games/typing-speed-14/?mode=input&q='+encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
+<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://${conf["confUsername"]}.${conf["confHostingDomain"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
 
 `;
 
@@ -321,12 +321,12 @@ document.getElementById('text').rows = '';
 
 
 
-function fuLtr(task){
+function fuLtr(task33a){
 if (location.hostname == 'localhost'){
-document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/?q='+encodeURIComponent(task) + ' d"> tr2</a>';
-document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task) + ' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/?q=' + encodeURIComponent(task) + ' d"> tr2</a>';
+document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task33a) + ' t">tr</a>';
 } else {
-document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task) + ' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task33a) + ' t">tr</a>';
 }
 }
 
@@ -884,9 +884,9 @@ acurancyTotal =  100 - acurancyTotal.toFixed(0);
 
 } else { acurancy = '0 '; acurancyTotal = '0'; }
 
-//document.getElementById("stat").innerHTML = sec+' | ' + timeAverage.toFixed(2) + ' sec. || ' + error + ' <span class="' + errorColor + '">error</span>';
+//document.getElementById("stat").innerHTML = sec + ' | ' + timeAverage.toFixed(2) + ' sec. || ' + error + ' <span class="' + errorColor + '">error</span>';
 document.getElementById("stat").innerHTML = 
-'<div><span>wpm:</span> <!--' + wpmRecord + '/ --><span>' + wpm +'</span> || <span title="allowError: '+ allowError +'">error: ≈<span  class="'  + errorColor + '">' + error  +  '</span>/' + totalError +'</span> || acurancy: ≈' + acurancy + '/' + acurancyTotal + '%</div>'
+'<div><span>wpm:</span> <!--' + wpmRecord + '/ --><span>' + wpm + '</span> || <span title="allowError: ' + allowError + '">error: ≈<span  class="'  + errorColor + '">' + error  +  '</span>/' + totalError +'</span> || acurancy: ≈' + acurancy + '/' + acurancyTotal + '%</div>'
 ;
 
 /*scrollTo();
@@ -1056,7 +1056,7 @@ document.getElementById("sound").innerHTML = '';
 
 
 
-document.getElementById('countSymbolTask').innerHTML = 'task: ' + task.length + ' input: '+answerArr.length + '';
+document.getElementById('countSymbolTask').innerHTML = 'task: ' + task.length + ' input: ' +answerArr.length + '';
 
 
 if(document.getElementById("typeProgress") != null&&task.length >= whenTypeProgress){
