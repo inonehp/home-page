@@ -554,6 +554,7 @@ var themeListLight = [
 "light",
 "l-blue",
 "l-green",
+"l-merino",
 "l-olive",
 "l-orange",
 "l-pink",
@@ -622,6 +623,7 @@ var themeListHContrast = [
 var themeListBest = [
 "light",
 "l-green",
+"l-merino",
 "l-olive",
 "l-orange",
 "l-yellow",

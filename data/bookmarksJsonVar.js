@@ -33,16 +33,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=162\">id<\/a>"
     },
     {
-        "id": "160",
-        "text": "Home \/ X",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/x.com\/home",
-        "tag": "#SocialNetwork #platform",
-        "time": 1723017087,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=160\">id<\/a>"
-    },
-    {
         "id": "159",
         "text": "DesignSystems.com",
         "text2": "",
@@ -1261,16 +1251,6 @@ var bookmarksJsonVar =
         "tag": "#WebDevelopment #dev #WebDesign #UI",
         "time": 1705747430,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=27\">id<\/a>"
-    },
-    {
-        "id": "25",
-        "text": "Home \/ X",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/twitter.com\/home",
-        "tag": "#SocialNetwork #platform",
-        "time": 1705747011,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=25\">id<\/a>"
     },
     {
         "id": "24",
