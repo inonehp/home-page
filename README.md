@@ -1,4 +1,4 @@
-<!-- README.md v.1.8.3 -->
+<!-- README.md v.1.8.4 -->
   
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
@@ -18,7 +18,7 @@ A personal start page with projects such as Search (redirect), Blog, Games, To-D
   
 ---
    
-#### Tags (sorted: recently updated)  
+#### GitHub Explore tags (sorted: recently updated):  
 [#Website](https://github.com/topics/website?s=updated),
 [#Personal](https://github.com/topics/personal?s=updated),
 [#Home page](https://github.com/topics/homepage?s=updated),
