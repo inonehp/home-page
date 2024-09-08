@@ -57,6 +57,15 @@ var quoteJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Believe you can and you're halfway there. Theodore Roosevelt",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.brainyquote.com\/quotes\/theodore_roosevelt_380703",
+        "tag": "#quote",
+        "time": 1725608955,
+        "rightFooter": ""
+    },
+    {
         "text": "Design is not just what it looks like and feels like. Design is how it works. Steve Jobs",
         "text2": "",
         "text3": "",

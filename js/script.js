@@ -1,4 +1,4 @@
-// Local main index script v.1.1.9
+// Local main index script v.1.1.10
 
 // Random color generator
 //if(document.getElementById("siteName") != null){}

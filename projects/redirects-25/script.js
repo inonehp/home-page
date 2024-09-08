@@ -1,4 +1,4 @@
-// Search redirects v.2.2.6
+// Search redirects v.2.2.14
 // Mini Google
 // The script redirects the search query + command.
 
@@ -100,6 +100,8 @@ sRedirectUrl = url;
 }
 break;
 
+
+
 case 'l#':  case 'll#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -119,6 +121,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'tre#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -136,6 +140,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'r#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -152,6 +158,8 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'rr#':
 case 'rs#':
@@ -171,6 +179,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'x#':
 case 'twi#':
 q = q3.replace(qCom, '');
@@ -181,6 +191,8 @@ if (q == ''){ url = "https://x.com/"; }
 sRedirectUrl = url;
 break;
 
+
+
 case 'bs#':
 case 'blu#':
 q = q3.replace(qCom, '');
@@ -190,6 +202,8 @@ url = "https://bsky.app/search?q=" + q;
 if (q == ''){ url = "https://bsky.app/"; }
 sRedirectUrl = url;
 break;
+
+
 
 case 'red#':
 q = q3.replace(qCom, '');
@@ -207,6 +221,8 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'med#':
 q = q3.replace(qCom, '');
@@ -226,6 +242,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'cc#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -239,6 +257,8 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = random;
 break;
+
+
 
 case 'i#':
 q = q3.replace(qCom, '');
@@ -258,6 +278,8 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = random;
 break;
+
+
 
 case 't#':
 case 'tr#':
@@ -291,6 +313,8 @@ url = random;
 sRedirectUrl = random;
 break;
 
+
+
 case 'tt#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -307,6 +331,8 @@ url = random;
 sRedirectUrl = random;
 break;
 
+
+
 case 'tg#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -318,6 +344,8 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'n#':
 q = q3.replace(qCom, '');
@@ -341,6 +369,8 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'tec#':
 q = q3.replace(qCom, '');
@@ -369,6 +399,7 @@ sRedirectUrl = url;
 break;
 
 
+
 case 'sci#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -393,6 +424,7 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
 
 
 case 'n2#':
@@ -431,6 +463,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'nn#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -438,6 +472,7 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.perplexity.ai/search/?q=" + q,
 "https://chatgpt.com/?q=" + q,
+//"https://chat.mistral.ai/chat/?=" + q,
 ];
 
 if (q == ''){
@@ -447,6 +482,7 @@ urlList = [
 "https://www.bing.com/copilot",
 //"https://copilot.microsoft.com/",
 "https://gemini.google.com/",
+//"https://chat.mistral.ai/",
 ];
 }
 
@@ -454,6 +490,8 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'spo#':
 q = q3.replace(qCom, '');
@@ -478,13 +516,14 @@ sRedirectUrl = url;
 break;
 
 
+
 case 'dev#':
-case 'doc#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/?q=" + q + " q",
+"https://dev.to/search?q=" + q + "&sort_by=published_at&sort_direction=desc",
+//"https://hashnode.com/search/recent?q=$q",
 ];
 
 if (q == ''){
@@ -526,6 +565,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'gitt#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -546,6 +587,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'wik#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -563,6 +606,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'vim#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -579,6 +624,8 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'y#':
 case '.#':
@@ -615,6 +662,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'v#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -623,19 +672,18 @@ urlList = [
 "https://www.google.com/search?q=" + q + "&newwindow=1&tbm=vid",
 "https://www.bing.com/videos/search?q=" + q,
 ];
-
 if (q == ''){
 urlList = [
 "https://www.google.com/videohp",
 "https://www.bing.com/videos/",
 ];
-
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'liv#':
 q = q3.replace(qCom, '');
@@ -644,18 +692,18 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.youtube.com/results?search_query=" + q + "&sp=EgJAAQ%253D%253D",
 ];
-
 if (q == ''){
 urlList = [
 //"https://www.twitch.tv/directory/all?sort=VIEWER_COUNT",
 "https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig/livetab?ss=CKEK",
 ];
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'tv#':
 q = q3.replace(qCom, '');
@@ -664,19 +712,18 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.twitch.tv/directory/all/tags/" + q + "?sort=VIEWER_COUNT",
 ];
-
 if (q == ''){
 urlList = [
 "https://www.twitch.tv/directory/all?sort=VIEWER_COUNT",
 //"https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig",
 ];
-
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'b#':
 q = q3.replace(qCom, '');
@@ -700,30 +747,32 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 's#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://bsky.app/search?q=" + q,
-"https://www.threads.net/search?q=" + q,
-"https://www.tumblr.com/search/" + q,
+//"https://www.threads.net/search?q=" + q,
+"https://www.tumblr.com/search/" + q + "/text",
 "https://wordpress.com/search?q=" + q,
 ];
 if (q == ''){
 urlList = [
 "https://bsky.app/",
-"https://www.threads.net/",
+//"https://www.threads.net/",
 "https://www.tumblr.com/",
 "https://wordpress.com/",
 ];
-
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'tag#':
 q = q3.replace(qCom, '');
@@ -731,23 +780,18 @@ q = q.trim();
 q = encodeURIComponent(q);
 
 let wordpressTag = (q.replaceAll("%20", ' ')).trim();
-let mediumTag = (q.replaceAll("%20", '-')).trim();
 
 urlList = [
-"https://x.com/hashtag/" + q,
-"https://www.threads.net/search?q=%23" + q,
+//"https://www.threads.net/search?q=%23" + q,
 "https://bsky.app/hashtag/" + q,
-"https://medium.com/tag/" + mediumTag + "/recommended",
 "https://www.tumblr.com/tagged/" + q,
 "https://wordpress.com/tag/" + wordpressTag,
 ];
 
 if (q == ''){
 urlList = [
-"https://x.com/explore/",
-"https://www.threads.net/following",
+//"https://www.threads.net/following",
 "https://bsky.app/",
-"https://medium.com/",
 "https://www.tumblr.com/explore/trending",
 "https://wordpress.com/discover",
 ];
@@ -758,6 +802,7 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
 
 
 case 'we#':
@@ -779,6 +824,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'g#':
 case 'goo#':
 q = q3.replace(qCom, '');
@@ -789,6 +836,8 @@ if (q == ''){ url = "https://www.google.com/"; }
 sRedirectUrl = url;
 break;
 
+
+
 case 'ps#':
 case 'gg#':
 q = q3.replace(qCom, '');
@@ -798,6 +847,8 @@ url = "/projects/google-programmable-search-49/index.html?q=" + q;
 if (q == ''){ url = "/projects/google-programmable-search-49/index.html"; }
 sRedirectUrl = url;
 break;
+
+
 
 case 'bi#':
 case 'bin#':
@@ -817,6 +868,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'qq#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -834,6 +887,8 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+
 case 'lin#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -850,6 +905,7 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
 
 
 case 'o#':
@@ -874,6 +930,7 @@ sRedirectUrl = url;
 break;
 
 
+
 case 'test#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -892,6 +949,8 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 case 'w#':
 q = q3.replace(qCom, '');
@@ -914,23 +973,6 @@ url = random;
 sRedirectUrl = url;
 break;
 
-/*case 'a#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-
-urlList = [
-"/projects/assistant-67/?q=" + q,
-];
-if (q == ''){
-urlList = [
-"/projects/assistant-67/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;*/
 
 case 'q#':
 q = q3.replace(qCom, '');
@@ -952,6 +994,8 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
+
 
 default:
 q = encodeURIComponent(q);

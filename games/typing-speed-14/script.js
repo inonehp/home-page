@@ -86,7 +86,7 @@ document.getElementById("mode").innerHTML = `
 ${modeListPrint}
 
 <!-- https://developer.mozilla.org/docs/Web/API/Document/getSelection -->
-<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click | (edit domain name)" href="javascript:void(window.open('http://${conf["confUsername"]}.${conf["confHostingDomain"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
+<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click / can be moved to the panel" href="javascript:void(window.open('http://${conf["confUsername"]}.${conf["confHostingDomain"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
 
 `;
 
@@ -321,12 +321,12 @@ document.getElementById('text').rows = '';
 
 
 
-function fuLtr(task33a){
+function fuLtr(){
 if (location.hostname == 'localhost'){
 document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/?q=' + encodeURIComponent(task) + ' d"> tr2</a>';
-document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task33a) + ' t">tr</a>';
+document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task) + ' t">tr</a>';
 } else {
-document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task33a) + ' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task) + ' t">tr</a>';
 }
 }
 

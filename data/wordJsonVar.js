@@ -3576,6 +3576,11 @@ var wordJsonVar =
         "text3": "coordinador"
     },
     {
+        "text": "\u043a\u043e\u043f\u0456\u0439\u043a\u0430",
+        "text2": "kopeck",
+        "text3": "un centavo"
+    },
+    {
         "text": "\u043a\u043e\u0440\u0430",
         "text2": "bark",
         "text3": "ladrar"
@@ -7244,11 +7249,6 @@ var wordJsonVar =
         "text": "\u0441\u0432\u044f\u0449\u0435\u043d\u043d\u043e\u0441\u043b\u0443\u0436\u0438\u0442\u0435\u043b\u044c",
         "text2": "priest",
         "text3": "sacerdote"
-    },
-    {
-        "text": "\u0441\u0432\u0456\u0442",
-        "text2": "world",
-        "text3": "el mundo"
     },
     {
         "text": "\u0441\u0435\u0430\u043d\u0441",

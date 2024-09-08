@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.2.0
 
 
 let countUrlRedirectCancelStatus = ''; // if input cancel, not open URL
@@ -135,9 +135,9 @@ getting.then(onGot, onError);
 
 redirectUrlRunAll();
 
-/*
+
 //https://stackoverflow.com/questions/34999976/detect-changes-on-the-url
-// for change when return with history
+// when click link
 // store url on load
 let currentPage = location.href;
 // listen for changes
@@ -147,8 +147,7 @@ if(currentPage != location.href){
 currentPage = location.href;
 redirectUrlRunAll();
 }
-
-}, 1500);*/
+}, 2000);
 
 
 

@@ -66,15 +66,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "DW - Deutsche Welle Live TV (Deutsch) - YouTube",
-        "text2": "UCMIgOXM2JEQ2Pv2d0_PVfcg",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/c\/dwdeutsch\/live",
-        "tag": "#TV #de",
-        "time": 1654874541,
-        "rightFooter": ""
-    },
-    {
         "text": "DW News",
         "text2": "",
         "text3": "",
@@ -93,12 +84,12 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "ESPN - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@espn",
-        "tag": "#TV #sport",
-        "time": 1705231246,
+        "text": "EN DIRECTO \ud83d\udd34 NOTICIAS 24H: Toda la INFORMACI\u00d3N NACIONAL e INTERNACIONAL l RTVE 24H - YouTube",
+        "text2": "UC7QZIf0dta-XPXsp9Hv4dTw",
+        "text3": "YouTubeChannelID",
+        "url": "https:\/\/www.youtube.com\/c\/rtvenoticias\/live",
+        "tag": "#tv #es",
+        "time": 1662437954,
         "rightFooter": ""
     },
     {
@@ -252,6 +243,15 @@ var tvJsonVar =
         "url": "https:\/\/www.youtube.com\/@pokimane\/videos",
         "tag": "#TV #IRL",
         "time": 1711234808,
+        "rightFooter": ""
+    },
+    {
+        "text": "RTVE - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@rtve\/featured",
+        "tag": "#tv #es",
+        "time": 1689241157,
         "rightFooter": ""
     },
     {
