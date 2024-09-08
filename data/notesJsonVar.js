@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "62",
+        "text": "Disable snapping objects in Inkscape - Graphic Design Stack Exchange",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/graphicdesign.stackexchange.com\/questions\/101697\/disable-snapping-objects-in-inkscape",
+        "tag": "#fix",
+        "time": 1725798464,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=62\">id<\/a>"
+    },
+    {
         "id": "61",
         "text": "command line - How to change \"Global Dark Theme\" on and off through Terminal? - Ask Ubuntu",
         "text2": "Changing the theme in Ubuntu 24.04 using the terminal or commands (Gnome).\r\nFor automatic day and night in a bash script and using extension: Night Theme Switcher - GNOME Shell Extensions https:\/\/extensions.gnome.org\/extension\/2236\/night-theme-switcher\/",
