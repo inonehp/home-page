@@ -1,4 +1,4 @@
-// v.1.0.5
+// v.1.1.0
 
 
 var  geturl = window.location;
@@ -109,7 +109,7 @@ result = result.replaceAll(/  +/g, ' ');
 
 result = result.concat('.');
 
-document.getElementById("letter").innerHTML = result; 
+document.getElementById("letter").innerHTML = 'Random text. ' + result; 
 
 
 result = '';

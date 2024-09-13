@@ -1,4 +1,4 @@
-// Bg colors list v.1.0.0
+// Bg colors list v.1.0.1
 
 
 function fuLPrintBgRun(){
@@ -7,6 +7,7 @@ let lAllBgColorsLight = {
 "light blue":"#E9ECF0",
 "light green":"#E8EBE4",
 "light":"#F0F0F0",
+"light merino":"#EDEAE1",
 "light olive":"#EBEBE4",
 "light orange":"#EBE8E4",
 "light pink":"#EBE4EB",
@@ -25,6 +26,7 @@ let lAllBgColorsLight = {
 "medium pink":"#FFE6E6",
 "medium plum":"#EBD3DF",
 "medium purple":"#E8D3EB",
+"medium red":"#EBDDDD",
 "medium sea":"#BCDFEB",
 "medium silver":"#EBEBEB",
 "medium violet":"#EAE4F2",

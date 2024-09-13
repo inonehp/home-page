@@ -1,4 +1,3 @@
-
 :root{
 --bg: #2D2D2E;
 --l: #2F2F30;
@@ -14,6 +13,10 @@
 --c2: #D6D6D6;
 --c3: #E6E6E6;
 --c4: #F7F7F7;
+--cR: #4D4D4D;
+--c2R: #292929;
+--c3R: #1A1A1A;
+--c4R: #080808;
 --red: #FF7066;
 --red2: #FF938C;
 --orange: #FFD68C;
@@ -29,9 +32,6 @@
 --violet: #C999CC;
 --violet2: #D8B8D9;
 }
-
-.darkInvert { filter: invert(70%); }
-.darkBrightness { filter: brightness(70%); }
 
 html{ scrollbar-color: var(--l4) var(--d2); }
 ::-webkit-scrollbar { background-color: var(--d2); }

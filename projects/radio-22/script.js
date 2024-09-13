@@ -225,6 +225,7 @@ play = play.split('-');
 play = play[play.length - 1];
 //if(conf['confDevice'] == 'mobile'){}
 embed2 = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${conf['confThemeEmbed']}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
+//embed2 = `<iframe src="http://tunein.com/embed/player/${play}/?autoplay=true&background=${conf['confThemeEmbed']}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
 break;
 
 //default:

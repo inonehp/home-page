@@ -1,19 +1,23 @@
 
 :root{
---bg: #F0F0F0;
---l: #F5F5F5;
---l2: #F7F7F7;
---l3: #FCFCFC;
---l4: #FFFFFF;
---d: #333333;
---d2: #333333;
+--bg: #EBEBEB;
+--l: #EDEDED;
+--l2: #F2F2F2;
+--l3: #F7F7F7;
+--l4: #fff;
+--d: #E6E6E6;
+--d2: #E0E0E0;
 --d3: #000;
 --d4: #000;
 
 --c: #595959;
 --c2: #333333;
---c3: #1A1A1A;
---c4: #0D0D0D;
+--c3: #000;
+--c4: #000;
+--cR: #A6A6A6;
+--c2R: #CCCCCC;
+--c3R: #fff;
+--c4R: #fff;
 --red: #943328;
 --red2: #B33E30;
 --orange: #D47900;
@@ -38,12 +42,11 @@ html{ scrollbar-color: var(--d4) var(--l2); }
 .op, .op:hover, .op2, .op2:hover { opacity: 1; }
 placaholder { color: var(--c); }
 
-.submit, input[type="submit"], form button[type="submit"] { background-color: var(--d); color: #fff; }
-.submit:hover, input[type="submit"]:hover, form button[type="submit"]:hover { background: var(--d4); color: #fff; }
-
-.shadow { border: 1px solid #000;  box-shadow: none; }
-
-
-
+/*.shadow, .shadow3  { border: 1px solid var(--c);  box-shadow: none; }
+.shadow2, .shadow4 { border: 3px solid var(--c);  box-shadow: none; }*/
+.shadow { box-shadow: 0 1px 3px rgba(0,0,0,0.62), 0 1px 2px rgba(0,0,0,0.74); }
+.shadow2 { box-shadow: 0 3px 5px rgba(0,0,0,0.62), 0 3px 4px rgba(0,0,0,0.74); }
+.shadow3 { box-shadow: 0 0 3px rgba(0,0,0,0.62), 0 0 2px rgba(0,0,0,0.74); }
+.shadow4 { box-shadow: 0 0 5px rgba(0,0,0,0.62), 0 0 4px rgba(0,0,0,0.74); }
 
 

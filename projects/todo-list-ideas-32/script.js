@@ -979,8 +979,8 @@ print2 = `
 <div class="block tRight padding">
 <div class="block padding2"></div>
 <!--<span class="op xSmall">commands:</span>-->
-<tag class="tag2 op border borderRadius2 light small" style="cursor: pointer" onclick="confirmCom('delAllDone')">remove all done (not pined)</tag>
-<tag class="tag2 op border borderRadius2 light small margin2List" style="cursor: pointer" onclick="confirmCom('clear')">remove all</tag>
+<tag class="tag2 op border borderRadius2 light small brand" style="cursor: pointer" onclick="confirmCom('delAllDone')">remove all done (not pined)</tag>
+<tag class="tag2 op border borderRadius2 light small margin2List brand" style="cursor: pointer" onclick="confirmCom('clear')">remove all</tag>
 
 
 

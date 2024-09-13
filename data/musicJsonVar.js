@@ -714,6 +714,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Amanda Reifer - Give Way [Official Audio] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=lgWcQ19bxv8",
+        "tag": "#music",
+        "time": 1726138832,
+        "rightFooter": ""
+    },
+    {
         "text": "Amazon \u00b7 M.I.A.",
         "text2": "",
         "text3": "",
@@ -1179,15 +1188,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=5C4FnlftQt4",
         "tag": "#music",
         "time": 1633036455,
-        "rightFooter": ""
-    },
-    {
-        "text": "Aretha Franklin - Respect (Official Lyric Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=A134hShx_gw",
-        "tag": "#music #musicFP",
-        "time": 1633036324,
         "rightFooter": ""
     },
     {
@@ -2595,15 +2595,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Bj\u00f6rk - Venus As A Boy - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=J1Rd7zrvW7k",
-        "tag": "#music #musicFP",
-        "time": 1662613995,
-        "rightFooter": ""
-    },
-    {
         "text": "bj\u00f6rk : alarm call - YouTube",
         "text2": "",
         "text3": "",
@@ -2628,15 +2619,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=JNJv-Ebi67I",
         "tag": "#music",
         "time": 1633144182,
-        "rightFooter": ""
-    },
-    {
-        "text": "bj\u00f6rk : human behaviour (HD) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=p0mRIhK9seg",
-        "tag": "#music #musicFP",
-        "time": 1620859449,
         "rightFooter": ""
     },
     {
@@ -5394,15 +5376,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Dean Martin - Let It Snow! Let It Snow! Let It Snow! - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=Rnil5LyK_B0",
-        "tag": "#music #musicFP",
-        "time": 1678454124,
-        "rightFooter": ""
-    },
-    {
         "text": "Dear Elon Musk, from Pomplamoose - YouTube",
         "text2": "",
         "text3": "",
@@ -7815,15 +7788,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Garbage - Cherry Lips - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=Cy1LdAaGASw",
-        "tag": "#music #musicFP",
-        "time": 1620968463,
-        "rightFooter": ""
-    },
-    {
         "text": "Garbage - I Think I'm Paranoid (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -10227,15 +10191,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Jingle Bells - (Christmas Music) Swing\/Vocal Jazz\/Holiday Music The Puppini Sisters christmas tree - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=pMEANXBcvCw",
-        "tag": "#music #musicFP",
-        "time": 1683171585,
-        "rightFooter": ""
-    },
-    {
         "text": "Joan Jett - I Love Rock 'n' Roll - YouTube",
         "text2": "",
         "text3": "",
@@ -12630,15 +12585,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Lou Reed - Walk on the Wild Side (audio) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=oG6fayQBm9w",
-        "tag": "#music #musicFP",
-        "time": 1629583553,
-        "rightFooter": ""
-    },
-    {
         "text": "Louie \u00b7 Ida Maria",
         "text2": "",
         "text3": "",
@@ -12861,15 +12807,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=W8tE18ZE6iw",
         "tag": "#music",
         "time": 1627961685,
-        "rightFooter": ""
-    },
-    {
-        "text": "Madcon - Beggin - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=zrFI2gJSuwA",
-        "tag": "#music #musicFP",
-        "time": 1620876030,
         "rightFooter": ""
     },
     {
@@ -13989,15 +13926,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Michael Jackson - Thriller (Official Video - Shortened Version) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=4V90AmXnguw",
-        "tag": "#music #musicFP",
-        "time": 1644824781,
-        "rightFooter": ""
-    },
-    {
         "text": "Michael Jackson - Thriller (Official Video) - YouTube",
         "text2": "",
         "text3": "",
@@ -14913,15 +14841,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=ej3SmDScjjY",
         "tag": "#music",
         "time": 1629690081,
-        "rightFooter": ""
-    },
-    {
-        "text": "Nelly Furtado - Turn Off The Light (Official Music Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=kOL7aeIDruA",
-        "tag": "#music #musicFP",
-        "time": 1629686768,
         "rightFooter": ""
     },
     {
@@ -17325,15 +17244,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=yyDUC1LUXSU",
         "tag": "#music",
         "time": 1629705941,
-        "rightFooter": ""
-    },
-    {
-        "text": "Robyn - Cobrastyle - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=1zVECruSI3k",
-        "tag": "#music #musicFP",
-        "time": 1620963464,
         "rightFooter": ""
     },
     {

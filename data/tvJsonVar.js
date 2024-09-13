@@ -84,15 +84,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "EN DIRECTO \ud83d\udd34 NOTICIAS 24H: Toda la INFORMACI\u00d3N NACIONAL e INTERNACIONAL l RTVE 24H - YouTube",
-        "text2": "UC7QZIf0dta-XPXsp9Hv4dTw",
-        "text3": "YouTubeChannelID",
-        "url": "https:\/\/www.youtube.com\/c\/rtvenoticias\/live",
-        "tag": "#tv #es",
-        "time": 1662437954,
-        "rightFooter": ""
-    },
-    {
         "text": "FLYING RHINO JR. HIGH | Full Episodes - YouTube",
         "text2": "",
         "text3": "",
@@ -156,6 +147,15 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "KEXP Full Performance - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/playlist?list=PLUh4W61bt_K6tflBpjWgnXLpyuu6EbNTW",
+        "tag": "#tv #music",
+        "time": 1726138512,
+        "rightFooter": ""
+    },
+    {
         "text": "Kitchen Nightmares",
         "text2": "",
         "text3": "",
@@ -207,6 +207,15 @@ var tvJsonVar =
         "url": "https:\/\/www.youtube.com\/@NBCNews\/featured",
         "tag": "#TV #en #news",
         "time": 1689242436,
+        "rightFooter": ""
+    },
+    {
+        "text": "NPR Music - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@nprmusic\/featured",
+        "tag": "#TV #music",
+        "time": 1726137054,
         "rightFooter": ""
     },
     {

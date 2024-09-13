@@ -237,15 +237,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Cadena SER: Noticias y Radio Online",
-        "text2": "https:\/\/21633.live.streamtheworld.com\/CADENASER.mp3",
-        "text3": "mp3",
-        "url": "https:\/\/cadenaser.com\/",
-        "tag": "#radio #es",
-        "time": 1683375371,
-        "rightFooter": ""
-    },
-    {
         "text": "CAYA Radio \u2013 90s Rock \/ Alternative 24\/7!",
         "text2": "https:\/\/tuneintoradio1.com\/listen\/caya_radio\/radio.mp3",
         "text3": "mp3",
@@ -378,15 +369,6 @@ var radioJsonVar =
         "url": "https:\/\/www.abc.net.au\/doublej",
         "tag": "#radio #RadioMusic #indie",
         "time": 1683383190,
-        "rightFooter": ""
-    },
-    {
-        "text": "esRadio Elche 103.7 FM \u2013 esRadio Elche 103.7 FM",
-        "text2": "https:\/\/ns6.emisionlocal.com\/proxy\/esradioelche?mp=\/stream",
-        "text3": "mp3",
-        "url": "https:\/\/esradioelche.com\/",
-        "tag": "#radio #es",
-        "time": 1683439852,
         "rightFooter": ""
     },
     {
@@ -876,15 +858,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Live 98.0 FM | Onda Cero | 401.5K Favorites | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/Onda-Cero-980-s6784\/",
-        "tag": "#radio #es",
-        "time": 1699406543,
-        "rightFooter": ""
-    },
-    {
         "text": "Live a.m. ambient | 7.8K Favorites | TuneIn",
         "text2": "",
         "text3": "",
@@ -981,15 +954,6 @@ var radioJsonVar =
         "url": "https:\/\/tunein.com\/radio\/CNN-International-s292162\/",
         "tag": "#radio #en #news #WorldNews",
         "time": 1706025525,
-        "rightFooter": ""
-    },
-    {
-        "text": "Live ENERGY Classic Rnb | 7.7K Favorites | TuneIn",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tunein.com\/radio\/ENERGY-Classic-Rnb-s299848\/",
-        "tag": "#radio #RadioMusic #soul",
-        "time": 1706025710,
         "rightFooter": ""
     },
     {
@@ -1425,15 +1389,6 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Radio Madrid",
-        "text2": "https:\/\/playerservices.streamtheworld.com\/api\/livestream-redirect\/SER_MADRID.mp3",
-        "text3": "mp3",
-        "url": "https:\/\/cadenaser.com\/radio-madrid\/",
-        "tag": "#radio #es",
-        "time": 1683375121,
-        "rightFooter": ""
-    },
-    {
         "text": "Radio Milwaukee | Homepage | Radio Milwaukee",
         "text2": "https:\/\/wyms.streamguys1.com\/live",
         "text3": "mp3",
@@ -1647,6 +1602,15 @@ var radioJsonVar =
         "url": "https:\/\/kutx.org\/",
         "tag": "#radio #RadioMusic #AlternativeRock",
         "time": 1683440234,
+        "rightFooter": ""
+    },
+    {
+        "text": "The Bridge, KTBG 90.9 FM, Kansas City, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/The-Bridge-909-s35581\/",
+        "tag": "#radio #RadioMusic #AlternativeRock #indie #WorldMusic #blues",
+        "time": 1726145713,
         "rightFooter": ""
     },
     {

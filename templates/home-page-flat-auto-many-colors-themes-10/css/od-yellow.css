@@ -13,7 +13,11 @@
 --c: #D4D4D4;
 --c2: #EDEDED; 
 --c3: #F5F5F5; 
---c4: #FFFFFF; 
+--c4: #FFF; 
+--cR: #2B2B2B;
+--c2R: #121212;
+--c3R: #0A0A0A;
+--c4R: #000;
 --red: #FFB399;
 --red2: #FFC6B3;
 --orange: #FFDB99;
@@ -29,9 +33,6 @@
 --violet: #E2ACE6;
 --violet2: #F1CDF2;
 }
-
-.darkInvert { filter: invert(70%); }
-.darkBrightness { filter: brightness(70%); }
 
 html{ scrollbar-color: var(--l4) var(--d2); }
 ::-webkit-scrollbar { background-color: var(--d2); }

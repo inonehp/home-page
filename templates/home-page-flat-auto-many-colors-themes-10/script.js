@@ -1,4 +1,4 @@
-// v.1.0.0
+// v.1.1.0
 /* copy paste from main site */
 
 var conf = [];
@@ -70,6 +70,7 @@ var themeListLight = [
 "light",
 "l-blue",
 "l-green",
+"l-merino",
 "l-olive",
 "l-orange",
 "l-pink",
@@ -92,6 +93,7 @@ var themeListOther = [
 "o-pink",
 "o-plum",
 "o-purple",
+"o-red",
 "o-sea",
 "o-silver",
 "o-violet",
@@ -137,6 +139,7 @@ var themeListHContrast = [
 var themeListBest = [
 "light",
 "l-green",
+"l-merino",
 "l-olive",
 "l-orange",
 "l-yellow",

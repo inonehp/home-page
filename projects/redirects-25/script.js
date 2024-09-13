@@ -1,4 +1,4 @@
-// Search redirects v.2.2.14
+// Search redirects v.2.2.16
 // Mini Google
 // The script redirects the search query + command.
 
@@ -523,13 +523,11 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://dev.to/search?q=" + q + "&sort_by=published_at&sort_direction=desc",
-//"https://hashnode.com/search/recent?q=$q",
+"https://hashnode.com/search?q=" + q,
 ];
 
 if (q == ''){
 urlList = [
-"https://www.reddit.com/r/programming/",
-"https://www.reddit.com/r/webdev/",
 "https://dev.to/",
 "https://hashnode.com/community",
 //"https://stackoverflow.com/",
