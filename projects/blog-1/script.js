@@ -1,4 +1,4 @@
-// Keep or blog v.2.8.0
+// Keep or blog v.2.9.0
 // Mini Twitter, Google Keep
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -21,6 +21,7 @@ let blogConfig = {
 "display":"", // gallery - grid, article - <div class="h1">text</div>, all - shows everything: text, text2, text3
 "timeStatus":"", // off, disable post time (post id)
 "rightFooterStatus":"", // on, off, right footer in data
+"usernameStatus":"", // on, off
 };
 </script>*/
 
@@ -49,6 +50,7 @@ var bottomMsg = '';
 var display = '';
 var timeStatus = '';
 var rightFooterStatus = '';
+var usernameStatus = '';
 
 } else {
 
@@ -63,6 +65,7 @@ var bottomMsg = '';
 var display = '';
 var timeStatus = '';
 var rightFooterStatus = '';
+var usernameStatus = '';
 
 if (blogConfig['postLimit'] != undefined) { var postLimit = blogConfig['postLimit']; }
 if (blogConfig['embedStatus'] != undefined) { var embedStatus = blogConfig['embedStatus']; }
@@ -75,6 +78,7 @@ if (blogConfig['bottomMsg'] != undefined){ var bottomMsg = blogConfig['bottomMsg
 if (blogConfig['display'] != undefined) { var display = blogConfig['display']; }
 if (blogConfig['timeStatus'] != undefined) { var timeStatus = blogConfig['timeStatus']; }
 if (blogConfig['rightFooterStatus'] != undefined) { var rightFooterStatus = blogConfig['rightFooterStatus']; }
+if (blogConfig['usernameStatus'] != undefined) { var usernameStatus = blogConfig['usernameStatus']; }
 
 }
 
@@ -91,6 +95,7 @@ if (bottomMsg == undefined||bottomMsg == ''){ bottomMsg = ''; }
 if (display == undefined||display == ''){ display = 'list'; }
 if (timeStatus == undefined||timeStatus == ''){ timeStatus = ''; }
 if (rightFooterStatus == undefined||rightFooterStatus == ''){ rightFooterStatus = 'off'; }
+if (usernameStatus == undefined||usernameStatus == ''){ usernameStatus = 'on'; }
 
 var host = '';
 
@@ -1557,12 +1562,17 @@ lPost = `<span class="large"><a class="block" href="${scriptDir}?id=${id}">${lPo
 if(display == 'article'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
 
 
+var usernameStatusPrint = "";
+if (usernameStatus == "on"){
+usernameStatusPrint = `<div class="padding2List bold capitalize"><a href="${scriptDir}"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>`
+}
+
 return `
 
 <!-- post -->
 <div class="` + otherClass + ` post bgList border3List borderRadius2 padding3" id="` + id + `">
 
-<div class="padding2List bold capitalize"><a href="/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>
+${usernameStatusPrint}
 
 <div class="postContent pre padding2List">` + lPost + `</div>
 
