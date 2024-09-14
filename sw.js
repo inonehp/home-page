@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.09.13";
+//var myCacheVersion = "v.1.2.2024.09.14";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.09.13").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.09.14").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -294,6 +294,7 @@ var fileListArr = ["/404.html",
 "/data/quizJsonVar.js",
 "/data/quoteJsonVar.js",
 "/data/radioJsonVar.js",
+"/data/randomwebsiteJsonVar.js",
 "/data/sitemapJsonVar.js",
 "/data/tvJsonVar.js",
 "/data/videoJsonVar.js",
@@ -870,6 +871,11 @@ var fileListArr = ["/404.html",
 "/projects/random-text-generator-24/",
 "/projects/random-text-generator-24/script.js",
 "/projects/random-text-generator-24/style.css",
+"/projects/random-website-69/data-list.html",
+"/projects/random-website-69/",
+"/projects/random-website-69/index.html",
+"/projects/random-website-69/script.js",
+"/projects/random-website-69/style.css",
 "/projects/redirects-25/index.html",
 "/projects/redirects-25/",
 "/projects/redirects-25/script.js",
@@ -1169,7 +1175,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.09.13")
+caches.open("v.1.2.2024.09.14")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1195,7 +1201,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.09.13")
+caches.open("v.1.2.2024.09.14")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1228,7 +1234,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.09.13"];
+  const cachesToKeep = ["v.1.2.2024.09.14"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

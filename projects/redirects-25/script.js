@@ -1,4 +1,4 @@
-// Search redirects v.2.2.16
+// Search redirects v.2.2.17
 // Mini Google
 // The script redirects the search query + command.
 
@@ -151,7 +151,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"/site-search.html",
+"/projects/random-website-69/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -171,7 +171,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"/links.html?mode=randUrl",
+"/projects/random-website-69/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

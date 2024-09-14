@@ -3,6 +3,46 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "171",
+        "text": "Home | Geany",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.geany.org\/",
+        "tag": "#app #IDE #programming #text",
+        "time": 1726220743,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=171\">id<\/a>"
+    },
+    {
+        "id": "170",
+        "text": "Visual Studio Code - Code Editing. Redefined",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/code.visualstudio.com\/",
+        "tag": "#app #IDE #programming #text",
+        "time": 1726220716,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=170\">id<\/a>"
+    },
+    {
+        "id": "169",
+        "text": "GIMP - GNU Image Manipulation Program",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.gimp.org\/",
+        "tag": "#app #drawing #paint",
+        "time": 1726218359,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=169\">id<\/a>"
+    },
+    {
+        "id": "168",
+        "text": "Technology news, features and analysis from Guardian US | The Guardian",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.theguardian.com\/us\/technology",
+        "tag": "#news #technology",
+        "time": 1726216114,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=168\">id<\/a>"
+    },
+    {
         "id": "166",
         "text": "My Grammarly - Grammarly",
         "text2": "",
@@ -93,16 +133,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=152\">id<\/a>"
     },
     {
-        "id": "151",
-        "text": "Increment: Planning",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/increment.com\/",
-        "tag": "#technology #blog",
-        "time": 1719683249,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=151\">id<\/a>"
-    },
-    {
         "id": "150",
         "text": "Google for Developers - from AI and Cloud to Mobile and Web",
         "text2": "",
@@ -121,16 +151,6 @@ var bookmarksJsonVar =
         "tag": "#book #audio",
         "time": 1719493811,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=149\">id<\/a>"
-    },
-    {
-        "id": "148",
-        "text": "Inflection",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/inflection.ai\/",
-        "tag": "#nice #website",
-        "time": 1717749408,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=148\">id<\/a>"
     },
     {
         "id": "147",
@@ -363,16 +383,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=122\">id<\/a>"
     },
     {
-        "id": "121",
-        "text": "The Stack Overflow Blog - Stack Overflow",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/stackoverflow.blog\/",
-        "tag": "#dev #blog #news",
-        "time": 1710472208,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=121\">id<\/a>"
-    },
-    {
         "id": "120",
         "text": "Android Apps on Google Play",
         "text2": "",
@@ -513,36 +523,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=106\">id<\/a>"
     },
     {
-        "id": "105",
-        "text": "Quora",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.quora.com\/",
-        "tag": "#QuestionAndAnswer #SocialNetwork #platform",
-        "time": 1707795089,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=105\">id<\/a>"
-    },
-    {
-        "id": "104",
-        "text": "Sakun Acharige",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/sakun.co\/",
-        "tag": "#website #dev #nice",
-        "time": 1707385194,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=104\">id<\/a>"
-    },
-    {
-        "id": "103",
-        "text": "CodePen Challenges",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/codepen.io\/challenges",
-        "tag": "#website #nice #challenge",
-        "time": 1707362631,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=103\">id<\/a>"
-    },
-    {
         "id": "102",
         "text": "iCodeThis",
         "text2": "",
@@ -573,36 +553,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=99\">id<\/a>"
     },
     {
-        "id": "98",
-        "text": "Portfolio",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.webchef.dev\/",
-        "tag": "#website #dev #nice",
-        "time": 1707014864,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=98\">id<\/a>"
-    },
-    {
-        "id": "97",
-        "text": "Work | AM Design Studio",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.elsaamri.com\/work",
-        "tag": "#website #dev #nice",
-        "time": 1706993515,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=97\">id<\/a>"
-    },
-    {
-        "id": "96",
-        "text": "Slowww",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/slowww.space\/",
-        "tag": "#website #nice",
-        "time": 1706993067,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=96\">id<\/a>"
-    },
-    {
         "id": "95",
         "text": "Maskable.app Editor",
         "text2": "",
@@ -611,36 +561,6 @@ var bookmarksJsonVar =
         "tag": "#tools #icon",
         "time": 1706985368,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=95\">id<\/a>"
-    },
-    {
-        "id": "94",
-        "text": "Valentine's Day Card",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/valentine.mewtru.com\/",
-        "tag": "#website #nice",
-        "time": 1706941497,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=94\">id<\/a>"
-    },
-    {
-        "id": "93",
-        "text": "Create Next App",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.mewtru.com\/",
-        "tag": "#website #nice",
-        "time": 1706941452,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=93\">id<\/a>"
-    },
-    {
-        "id": "92",
-        "text": "Midjourney",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.midjourney.com\/home?callbackUrl=\/explore",
-        "tag": "#website #nice #cool",
-        "time": 1706827364,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=92\">id<\/a>"
     },
     {
         "id": "91",
@@ -691,16 +611,6 @@ var bookmarksJsonVar =
         "tag": "#tools #web",
         "time": 1706520469,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=86\">id<\/a>"
-    },
-    {
-        "id": "85",
-        "text": "Adam B. Becker",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/abb.dev\/",
-        "tag": "#website #dev #nice #cool #best",
-        "time": 1706360574,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=85\">id<\/a>"
     },
     {
         "id": "84",
@@ -823,26 +733,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=72\">id<\/a>"
     },
     {
-        "id": "71",
-        "text": "Aida Oliva Studio | Web Designer, Visual Marketer & Webflow Developer",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.aidaoliva.studio\/",
-        "tag": "#website #dev #nice #cool",
-        "time": 1706139004,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=71\">id<\/a>"
-    },
-    {
-        "id": "70",
-        "text": "Eddy Vinck's Developer Blog",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.eddyvinck.com\/",
-        "tag": "#website #dev #nice",
-        "time": 1706129998,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=70\">id<\/a>"
-    },
-    {
         "id": "69",
         "text": "Free Web Development Resources - Marko Denic - Web Developer",
         "text2": "",
@@ -851,36 +741,6 @@ var bookmarksJsonVar =
         "tag": "#resources #collection",
         "time": 1706102889,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=69\">id<\/a>"
-    },
-    {
-        "id": "68",
-        "text": "Marc Backes \/ Coding & Tech",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/marc.dev\/",
-        "tag": "#website #dev #other #nice",
-        "time": 1706081454,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=68\">id<\/a>"
-    },
-    {
-        "id": "67",
-        "text": "Wes Bos - Full Stack Developer",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/wesbos.com\/",
-        "tag": "#website #dev #nice",
-        "time": 1706081435,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=67\">id<\/a>"
-    },
-    {
-        "id": "66",
-        "text": "Sorry, the page you were looking for doesn't exist. (404)",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/dribbble.com\/404",
-        "tag": "#website #other #nice #cool",
-        "time": 1706045444,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=66\">id<\/a>"
     },
     {
         "id": "65",
@@ -943,16 +803,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=60\">id<\/a>"
     },
     {
-        "id": "59",
-        "text": "Digital Creative Agency in Malta, Paris & Lyon : Digital Cover",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/digital-cover.com\/",
-        "tag": "#website #dev #nice",
-        "time": 1706021332,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=59\">id<\/a>"
-    },
-    {
         "id": "58",
         "text": "A List Apart \u2013 For people who make websites",
         "text2": "",
@@ -991,16 +841,6 @@ var bookmarksJsonVar =
         "tag": "#MiniHosting #WebsiteBuilder",
         "time": 1705998418,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=55\">id<\/a>"
-    },
-    {
-        "id": "53",
-        "text": "Cassidy Williams",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/cassidoo.co\/",
-        "tag": "#website #dev #nice #cool",
-        "time": 1705981873,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=53\">id<\/a>"
     },
     {
         "id": "52",
@@ -1213,16 +1053,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=31\">id<\/a>"
     },
     {
-        "id": "30",
-        "text": "Kevin Powell | CSS Evangelist",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.kevinpowell.co\/",
-        "tag": "#website #dev #nice",
-        "time": 1705763631,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=30\">id<\/a>"
-    },
-    {
         "id": "29",
         "text": "Google Design",
         "text2": "",
@@ -1231,16 +1061,6 @@ var bookmarksJsonVar =
         "tag": "#WebDesign #WebDevelopment #blog",
         "time": 1705753750,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=29\">id<\/a>"
-    },
-    {
-        "id": "28",
-        "text": "Marko Denic - Web Developer",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/markodenic.com\/",
-        "tag": "#website #dev #nice",
-        "time": 1705752193,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=28\">id<\/a>"
     },
     {
         "id": "27",
@@ -1313,26 +1133,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=18\">id<\/a>"
     },
     {
-        "id": "17",
-        "text": "Matteo Santoro | Portfolio",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/matteosantoro.dev\/",
-        "tag": "#website #dev #nice",
-        "time": 1705744454,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=17\">id<\/a>"
-    },
-    {
-        "id": "16",
-        "text": "Florin Pop - FE Developer & Blogger",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.florin-pop.com\/",
-        "tag": "#website #dev #nice",
-        "time": 1705744385,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=16\">id<\/a>"
-    },
-    {
         "id": "15",
         "text": "Wiki - Wikipedia",
         "text2": "",
@@ -1361,16 +1161,6 @@ var bookmarksJsonVar =
         "tag": "#music #platform",
         "time": 1705744215,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=13\">id<\/a>"
-    },
-    {
-        "id": "12",
-        "text": "Home | Bill Gates",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.gatesnotes.com\/",
-        "tag": "#website #other #nice #cool",
-        "time": 1705742209,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=12\">id<\/a>"
     },
     {
         "id": "11",

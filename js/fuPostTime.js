@@ -38,17 +38,17 @@ delta -= minutes * 60;
 var seconds = delta % 60;  // in theory the modulus is not required
 
 if(year > 0){
-time = year+' year ';
+time = year + ' year ';
 } else if(month > 0){
-time = month+' month ';
+time = month + ' month ';
 } else if (days > 0){
-time = days+' day ';
+time = days + ' day ';
 } else if(hours > 0){
-time = hours+' hour ';
+time = hours + ' hour ';
 } else if (minutes > 0) {
-time = minutes+' minute ';
+time = minutes + ' min ';
 } else {
-time = checkTime(Math.floor(seconds))+' second ';
+time = checkTime(Math.floor(seconds))+' sec ';
 }
 
 return time + ' ago';

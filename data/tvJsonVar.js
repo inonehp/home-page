@@ -84,6 +84,15 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Eurogamer - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@eurogamer\/featured",
+        "tag": "#TV #game",
+        "time": 1726206727,
+        "rightFooter": ""
+    },
+    {
         "text": "FLYING RHINO JR. HIGH | Full Episodes - YouTube",
         "text2": "",
         "text3": "",
@@ -151,7 +160,7 @@ var tvJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/playlist?list=PLUh4W61bt_K6tflBpjWgnXLpyuu6EbNTW",
-        "tag": "#tv #music",
+        "tag": "#TV #music",
         "time": 1726138512,
         "rightFooter": ""
     },
@@ -351,15 +360,6 @@ var tvJsonVar =
         "url": "https:\/\/www.youtube.com\/playlist?list=PLZb1SVCX0ajruEMCRyEVInEcKnK_9ypmn",
         "tag": "#TV #cartoon",
         "time": 1725152453,
-        "rightFooter": ""
-    },
-    {
-        "text": "WWE - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@WWE\/videos",
-        "tag": "#TV #sport",
-        "time": 1701909524,
         "rightFooter": ""
     },
     {

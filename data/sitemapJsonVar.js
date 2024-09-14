@@ -71,7 +71,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/changelog.html",
-        "text": "Changelog\n\nChangelog. Site update history. About what's new on the site. | changelog: ",
+        "text": "Changelog\n\nChangelog. Site update history. About what's new on the site. Some changes and updates to the site may not be displayed here and updates may occur without post. | changelog: ",
         "tag": " #update #news #new #page #main",
         "id": "5358dd68cd0d7e1d36bc7a96e2c64e47",
         "time": "id"
@@ -295,7 +295,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/mini-projects\/button-blur-unblur-28\/index.html",
-        "text": "Button: blur, unblur (test)\n\nButton: focus, defocus | button blur unblur: ",
+        "text": "Button: blur, unblur (test)\n\nButton: focus, defocus. The button is out of focus or is blurred and appears sharp when hovered over. | button blur unblur: ",
         "tag": " #button #focus #effect #HTML #CSS #project",
         "id": "05162ab0e3b959361338dc986b1967e3",
         "time": "id"
@@ -589,7 +589,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/random-color-generator-51\/index.html",
-        "text": "Random color generator\n\nColor generator. Generates colors from a given list of colors. | random color generator: ",
+        "text": "Random color generator\n\nColor generator. Generates colors from a given list of colors. You enter colors and a list of colors is generated based on them. Colors are randomly generated | random color generator: ",
         "tag": " #generarot #color #JavaScript #project",
         "id": "3bbbb186678f95e716cd6b6c81bfb855",
         "time": "id"
@@ -606,6 +606,13 @@ var sitemapJsonVar = [
         "text": "Random Text\n\nThe page generates random letters with commas, dots and line breaks to be like the text of the article. | random text generator: ",
         "tag": " #random #text #tool #letter #lorem #ipsum #JavaScript #project",
         "id": "1c49d865d44e58ee812e7b5df505684d",
+        "time": "id"
+    },
+    {
+        "url": "\/projects\/random-website-69\/index.html",
+        "text": "Random Website\n\nRandom Website. Random site. | random website: ",
+        "tag": " #Random #Website #CSS #JavaScript #project",
+        "id": "242d26c4cdcc622c437393b719db9cf2",
         "time": "id"
     },
     {
@@ -757,7 +764,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/search.html",
-        "text": "Search (redirect)\n\nSearch (redirect). Redirection to other search engines. | search: ",
+        "text": "Search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | search: ",
         "tag": " #web #search #redirection #redirect #page #main",
         "id": "c9db0e13a328be0eaa311c5b24ad331c",
         "time": "id"
@@ -932,7 +939,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/themes.html",
-        "text": "Themes options\n\nSettings and theme selection page. | themes: ",
+        "text": "Themes options\n\nSetting a color theme for the site or choosing a site theme mode.\nAbout ~50\/2 color themes with possible day and night modes with dark and light theme modes. | themes: ",
         "tag": " #theme #themes #color #colors #setting #page #main",
         "id": "2d150acc6f248aeb4d602015299cf7e1",
         "time": "id"

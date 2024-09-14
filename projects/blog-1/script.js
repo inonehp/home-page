@@ -1,4 +1,4 @@
-// Keep or blog v.2.9.0
+// Keep or blog v.2.9.1
 // Mini Twitter, Google Keep
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -412,9 +412,9 @@ postLimit = 1;
 }
 
 
-if (/*id == 0||*/mode == 'random'){ mode = 'random'; getP2 = Math.floor(Math.random() * jsonVar.length); }
-if (mode == 'autoRandom'){ getP2 = Math.floor(Math.random() * jsonVar.length); }
-if (mode == 'randUrl'){ getP2 = Math.floor(Math.random() * jsonVar.length); }
+if (/*id == 0||*/mode == 'random'){ mode = 'random'; getP2 = Math.floor(Math.random() * (jsonVar.length -1)); }
+if (mode == 'autoRandom'){ getP2 = Math.floor(Math.random() * (jsonVar.length - 1)); }
+if (mode == 'randUrl'){ getP2 = Math.floor(Math.random() * (jsonVar.length -1)); }
 
 
 if (mode == 'list'&&tagListStatus == 'on'){

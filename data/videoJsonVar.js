@@ -2442,15 +2442,6 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Super Hero Full Episodes! | 3 Hours | DuckTales, Phineas and Ferb, Big Hero 6 and more! | @disneyxd - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=WfXH22cexo0",
-        "tag": "#video #cartoon",
-        "time": 1695398329,
-        "rightFooter": ""
-    },
-    {
         "text": "Survivors - FULL MOVIE (Zombies, Action) \u2714\ufe0f - YouTube",
         "text2": "",
         "text3": "",
