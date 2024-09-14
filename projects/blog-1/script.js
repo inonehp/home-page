@@ -1,4 +1,4 @@
-// Keep or blog v.2.9.1
+// Keep or blog v.2.10.0
 // Mini Twitter, Google Keep
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -1962,11 +1962,6 @@ if (itemCheck.search(
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="img" src="${item}" alt="img"></a>`;
-if (targetOption == 'blank'){
-item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
-} else {
-item = `<a class="brand" href="${item}">${item}</a>`;
-}
 }
 
 
@@ -2484,11 +2479,6 @@ if (itemCheck.search(`${confSymbolForSplit}svg|${confSymbolForSplit}jpg|${confSy
 //echo 'test';
 embed2 = `
 <a href="${item}"><img class="img" src="${item}" alt="img"></a>`;
-if (targetOption == 'blank'){
-item = `<a class="brand" target="_blank" href="${item}">${item}</a>`;
-} else {
-item = `<a class="brand" href="${item}">${item}</a>`;
-}
 }
 
 if (item.indexOf(".html") != -1&&item.indexOf("./") != -1&&item.indexOf("http") == -1||item.indexOf("/") != -1&&item.indexOf("index.htm") != -1/*||item[0] == "/"&&item[1] != "/"&&item[2] != " "*/) {

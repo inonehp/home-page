@@ -414,8 +414,8 @@ var blogJsonVar =
     },
     {
         "id": "195",
-        "text": "Black Eye Galaxy \u2013 NGC 4826 https:\/\/science.nasa.gov\/_ipx\/w_1280&f_webp\/https:\/\/smd-cms.nasa.gov\/wp-content\/uploads\/2023\/07\/52046774635-780565829e-o.jpg",
-        "text2": "",
+        "text": "Black Eye Galaxy \u2013 NGC 4826",
+        "text2": "https:\/\/smd-cms.nasa.gov\/wp-content\/uploads\/2023\/07\/52046774635-780565829e-o.jpg",
         "text3": "",
         "url": "https:\/\/science.nasa.gov\/image-detail\/eye-in-the-sky-2\/",
         "tag": "#test #photo #space",

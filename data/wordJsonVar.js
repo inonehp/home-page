@@ -1291,11 +1291,6 @@ var wordJsonVar =
         "text3": "voluntad"
     },
     {
-        "text": "\u0432\u043e\u043d\u0430",
-        "text2": "she",
-        "text3": "ella es"
-    },
-    {
         "text": "\u0432\u043e\u043d\u043e",
         "text2": "it",
         "text3": "ella"
@@ -1958,7 +1953,7 @@ var wordJsonVar =
     {
         "text": "\u0434\u0436\u0438\u043f",
         "text2": "jeep",
-        "text3": "todoterreno"
+        "text3": "jeep"
     },
     {
         "text": "\u0434\u0436\u043e\u0439\u0441\u0442\u0438\u043a",
@@ -3047,7 +3042,7 @@ var wordJsonVar =
     },
     {
         "text": "\u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0430",
-        "text2": "flat",
+        "text2": "apartment",
         "text3": "apartamento"
     },
     {
@@ -3757,8 +3752,8 @@ var wordJsonVar =
     },
     {
         "text": "\u043a\u0440\u0438\u0442\u0438\u043a\u0430",
-        "text2": "critics",
-        "text3": "critica"
+        "text2": "criticism",
+        "text3": "cr\u00edticas"
     },
     {
         "text": "\u043a\u0440\u043e\u043a",
@@ -7634,11 +7629,6 @@ var wordJsonVar =
         "text": "\u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d",
         "text2": "smartphone",
         "text3": "tel\u00e9fono inteligente"
-    },
-    {
-        "text": "\u0441\u043c\u0435\u0440\u0442\u044c",
-        "text2": "death",
-        "text3": "muerte"
     },
     {
         "text": "\u0441\u043d\u0430\u0439\u043f\u0435\u0440",
