@@ -153,3 +153,740 @@ var jsonVar =
 <!--<div class="tCenter">
 <a class="inlineBlock padding orange" href="/rss.xml" title="RSS News">RSS</a>
 </div>-->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Array.prototype.indexOf() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf</a><br>const beasts = [&#039;ant&#039;, &#039;bison&#039;, &#039;camel&#039;, &#039;duck&#039;, &#039;bison&#039;];
+
+console.log(beasts.indexOf(&#039;bison&#039;));
+// Expected output: 1
+
+// Start from index 2
+console.log(beasts.indexOf(&#039;bison&#039;, 2));
+// Expected output: 4
+
+console.log(beasts.indexOf(&#039;giraffe&#039;));
+// Expected output: -1</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">if...else - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else</a><br>function testNum(a) {
+  let result;
+  if (a &gt; 0) {
+    result = &#039;positive&#039;;
+  } else {
+    result = &#039;NOT positive&#039;;
+  }
+  return result;
+}
+
+console.log(testNum(-5));
+// Expected output: &quot;NOT positive&quot;
+
+===
+
+x = y;
+if (x) {
+  // …
+}</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Function - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function</a><br>// Create a global property with `var`
+var x = 10;
+
+function createFunction1() {
+  const x = 20;
+  return new Function(&quot;return x;&quot;); // this `x` refers to global `x`
+}
+
+function createFunction2() {
+  const x = 20;
+  function f() {
+    return x; // this `x` refers to the local `x` above
+  }
+  return f;
+}
+
+const f1 = createFunction1();
+console.log(f1()); // 10
+const f2 = createFunction2();
+console.log(f2()); // 20</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Python Functions <a class="brand insertIcon" href="https://www.w3schools.com/python/python_functions.asp">https://www.w3schools.com/python/python_functions.asp</a><br>def my_function(fname):
+  print(fname + &quot; Refsnes&quot;)
+
+my_function(&quot;Emil&quot;)
+my_function(&quot;Tobias&quot;)
+my_function(&quot;Linus&quot;)</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Python For Loops <a class="brand insertIcon" href="https://www.w3schools.com/python/python_for_loops.asp">https://www.w3schools.com/python/python_for_loops.asp</a><br>fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]
+for x in fruits:
+  print(x)
+
+===
+
+fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]
+for x in fruits:
+  print(x)
+  if x == &quot;banana&quot;:
+    break
+
+===
+fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]
+for x in fruits:
+  if x == &quot;banana&quot;:
+    break
+  print(x)</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">:root - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:root">https://developer.mozilla.org/en-US/docs/Web/CSS/:root</a><br>/* Selects the root element of the document:
+   &lt;html&gt; in the case of HTML */
+:root {
+  background: yellow;
+}
+
+===
+
+:root {
+  --main-color: hotpink;
+  --pane-padding: 5px 42px;
+}</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">do...while - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while</a><br>let result = &#039;&#039;;
+let i = 0;
+
+do {
+  i = i + 1;
+  result = result + i;
+} while (i &lt; 5);
+
+console.log(result);
+// Expected output: &quot;12345&quot;
+
+===</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">How To Add a Class Name <a class="brand insertIcon" href="https://www.w3schools.com/howto/howto_js_add_class.asp">https://www.w3schools.com/howto/howto_js_add_class.asp</a><br>function myFunction() {
+  var element = document.getElementById(&quot;myDIV&quot;);
+  element.classList.add(&quot;mystyle&quot;);
+}</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Document: DOMContentLoaded event - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event">https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event</a><br>addEventListener(&quot;DOMContentLoaded&quot;, (event) =&gt; {});
+===
+document.addEventListener(&quot;DOMContentLoaded&quot;, (event) =&gt; {
+  console.log(&quot;DOM fully loaded and parsed&quot;);
+});</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">PHP: while - Manual <a class="brand insertIcon" href="https://www.php.net/manual/en/control-structures.while.php">https://www.php.net/manual/en/control-structures.while.php</a><br>&lt;?php
+/* example 1 */
+
+$i = 1;
+while ($i &lt;= 10) {
+    echo $i++;  /* the printed value would be
+                   $i before the increment
+                   (post-increment) */
+}
+
+/* example 2 */
+
+$i = 1;
+while ($i &lt;= 10):
+    echo $i;
+    $i++;
+endwhile;
+?&gt;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">PHP: foreach - Manual <a class="brand insertIcon" href="https://www.php.net/manual/en/control-structures.foreach.php">https://www.php.net/manual/en/control-structures.foreach.php</a><br>&lt;?php
+$arr = array(1, 2, 3, 4);
+foreach ($arr as &amp;$value) {
+    $value = $value * 2;
+}
+// $arr is now array(2, 4, 6, 8)
+unset($value); // break the reference with the last element
+?&gt;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">String.prototype.replaceAll() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll</a><br>const paragraph = &quot;I think Ruth&#039;s dog is cuter than your dog!&quot;;
+
+console.log(paragraph.replaceAll(&#039;dog&#039;, &#039;monkey&#039;));
+// Expected output: &quot;I think Ruth&#039;s monkey is cuter than your monkey!&quot;
+
+// Global flag required when calling replaceAll with regex
+const regex = /Dog/gi;
+console.log(paragraph.replaceAll(regex, &#039;ferret&#039;));
+// Expected output: &quot;I think Ruth&#039;s ferret is cuter than your ferret!&quot;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Window: load event - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event">https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event</a><br>addEventListener(&quot;load&quot;, (event) =&gt; {});
+
+onload = (event) =&gt; {};</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">font-size - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">https://developer.mozilla.org/en-US/docs/Web/CSS/font-size</a><br>/* &lt;absolute-size&gt; values */
+font-size: xx-small;
+font-size: x-small;
+font-size: small;
+font-size: medium;
+font-size: large;
+font-size: x-large;
+font-size: xx-large;
+font-size: xxx-large;
+
+/* &lt;relative-size&gt; values */
+font-size: smaller;
+font-size: larger;
+
+/* &lt;length&gt; values */
+font-size: 12px;
+font-size: 0.8em;
+
+/* &lt;percentage&gt; values */
+font-size: 80%;
+
+/* math value */
+font-size: math;
+
+/* Global values */
+font-size: inherit;
+font-size: initial;
+font-size: revert;
+font-size: revert-layer;
+font-size: unset;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">How do you block images? | Firefox Support Forum | Mozilla Support <a class="brand insertIcon" href="https://support.mozilla.org/en-US/questions/1226175">https://support.mozilla.org/en-US/questions/1226175</a></div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">How to Disable JavaScript in Firefox <a class="brand insertIcon" href="https://www.lifewire.com/disable-javascript-in-firefox-446039">https://www.lifewire.com/disable-javascript-in-firefox-446039</a></div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Linux update <br>sudo apt update &amp;&amp; sudo apt upgrade &amp;&amp; sudo snap refresh</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">:first-child - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child">https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child</a><br>p {
+  font-weight: bold;
+}
+
+li:first-child {
+  border: 2px solid orange;
+}</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">:last-child - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child">https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child</a><br>p {
+  font-weight: bold;
+}
+
+li:last-child {
+  border: 2px solid orange;
+}</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Licensing – CodePen <a class="brand insertIcon" href="https://blog.codepen.io/documentation/licensing/">https://blog.codepen.io/documentation/licensing/</a></div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">&lt;form&gt;: The Form element - HTML: HyperText Markup Language | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form">https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form</a><br>&lt;form action=&quot;&quot; method=&quot;get&quot; class=&quot;form-example&quot;&gt;
+  &lt;div class=&quot;form-example&quot;&gt;
+    &lt;label for=&quot;name&quot;&gt;Enter your name: &lt;/label&gt;
+    &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; required /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-example&quot;&gt;
+    &lt;label for=&quot;email&quot;&gt;Enter your email: &lt;/label&gt;
+    &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; required /&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;form-example&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Subscribe!&quot; /&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">String.prototype.replace() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace</a><br>const paragraph = &quot;I think Ruth&#039;s dog is cuter than your dog!&quot;;
+
+console.log(paragraph.replace(&quot;Ruth&#039;s&quot;, &#039;my&#039;));
+// Expected output: &quot;I think my dog is cuter than your dog!&quot;
+
+const regex = /Dog/i;
+console.log(paragraph.replace(regex, &#039;ferret&#039;));
+// Expected output: &quot;I think Ruth&#039;s ferret is cuter than your dog!&quot;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">grid - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid">https://developer.mozilla.org/en-US/docs/Web/CSS/grid</a><br>/* &lt;&#039;grid-template&#039;&gt; values */
+grid: none;
+grid: &quot;a&quot; 100px &quot;b&quot; 1fr;
+grid: [linename1] &quot;a&quot; 100px [linename2];
+grid: &quot;a&quot; 200px &quot;b&quot; min-content;
+grid: &quot;a&quot; minmax(100px, max-content) &quot;b&quot; 20%;
+grid: 100px / 200px;
+grid: minmax(400px, min-content) / repeat(auto-fill, 50px);
+
+/* &lt;&#039;grid-template-rows&#039;&gt; /
+   [ auto-flow &amp;&amp; dense? ] &lt;&#039;grid-auto-columns&#039;&gt;? values */
+grid: 200px / auto-flow;
+grid: 30% / auto-flow dense;
+grid: repeat(3, [line1 line2 line3] 200px) / auto-flow 300px;
+grid: [line1] minmax(20em, max-content) / auto-flow dense 40%;
+
+/* [ auto-flow &amp;&amp; dense? ] &lt;&#039;grid-auto-rows&#039;&gt;? /
+   &lt;&#039;grid-template-columns&#039;&gt; values */
+grid: auto-flow / 200px;
+grid: auto-flow dense / 30%;
+grid: auto-flow 300px / repeat(3, [line1 line2 line3] 200px);
+grid: auto-flow dense 40% / [line1] minmax(20em, max-content);
+
+/* Global values */
+grid: inherit;
+grid: initial;
+grid: revert;
+grid: revert-layer;
+grid: unset;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">CSS grid layout - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout</a><br>.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2;
+  grid-row: 4;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
+}</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">backdrop-filter - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#syntax">https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter#syntax</a><br>/* Keyword value */
+backdrop-filter: none;
+
+/* URL to SVG filter */
+backdrop-filter: url(commonfilters.svg#filter);
+
+/* &lt;filter-function&gt; values */
+backdrop-filter: blur(2px);
+backdrop-filter: brightness(60%);
+backdrop-filter: contrast(40%);
+backdrop-filter: drop-shadow(4px 4px 10px blue);
+backdrop-filter: grayscale(30%);
+backdrop-filter: hue-rotate(120deg);
+backdrop-filter: invert(70%);
+backdrop-filter: opacity(20%);
+backdrop-filter: sepia(90%);
+backdrop-filter: saturate(80%);
+
+/* Multiple filters */
+backdrop-filter: url(filters.svg#filter) blur(4px) saturate(150%);
+
+/* Global values */
+backdrop-filter: inherit;
+backdrop-filter: initial;
+backdrop-filter: revert;
+backdrop-filter: revert-layer;
+backdrop-filter: unset;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">display - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">https://developer.mozilla.org/en-US/docs/Web/CSS/display</a><br>/* precomposed values */
+display: block;
+display: inline;
+display: inline-block;
+display: flex;
+display: inline-flex;
+display: grid;
+display: inline-grid;
+display: flow-root;
+
+/* box generation */
+display: none;
+display: contents;
+
+/* multi-keyword syntax */
+display: block flex;
+display: block flow;
+display: block flow-root;
+display: block grid;
+display: inline flex;
+display: inline flow;
+display: inline flow-root;
+display: inline grid;
+
+/* other values */
+display: table;
+display: table-row; /* all table elements have an equivalent CSS display value */
+display: list-item;
+
+/* Global values */
+display: inherit;
+display: initial;
+display: revert;
+display: revert-layer;
+display: unset;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">gnome - Font rendering issue (antialiasing) - Ask Ubuntu <a class="brand insertIcon" href="https://askubuntu.com/questions/1511954/font-rendering-issue-antialiasing">https://askubuntu.com/questions/1511954/font-rendering-issue-antialiasing</a><br>fix bad font in ubuntu 24.04 (thin)</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">apt - Skipping acquire of configured file &#039;main/binary-i386/Packages&#039; as repository &#039;xxx&#039; doesn&#039;t support architecture &#039;i386&#039; - Ask Ubuntu <a class="brand insertIcon" href="https://askubuntu.com/questions/741410/skipping-acquire-of-configured-file-main-binary-i386-packages-as-repository-x/1384349#1384349">https://askubuntu.com/questions/741410/skipping-acquire-of-configured-file-main-binary-i386-packages-as-repository-x/1384349#1384349</a><br>Fix error when running &quot;sudo apt update&quot; command and error for Google Chrome in Ubuntu 24.04</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">command line - How to change &quot;Global Dark Theme&quot; on and off through Terminal? - Ask Ubuntu <a class="brand insertIcon" href="https://askubuntu.com/questions/769417/how-to-change-global-dark-theme-on-and-off-through-terminal">https://askubuntu.com/questions/769417/how-to-change-global-dark-theme-on-and-off-through-terminal</a><br>Changing the theme in Ubuntu 24.04 using the terminal or commands (Gnome).
+For automatic day and night in a bash script and using extension: Night Theme Switcher - GNOME Shell Extensions <a class="brand insertIcon" href="https://extensions.gnome.org/extension/2236/night-theme-switcher/">https://extensions.gnome.org/extension/2236/night-theme-switcher/</a></div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Disable snapping objects in Inkscape - Graphic Design Stack Exchange <a class="brand insertIcon" href="https://graphicdesign.stackexchange.com/questions/101697/disable-snapping-objects-in-inkscape">https://graphicdesign.stackexchange.com/questions/101697/disable-snapping-objects-in-inkscape</a></div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+<div class="margin2 padding2"></div>
+</noscript>
+
+
+</main>
+<!-- // content -->
+
+<footer id="footer"></footer>
+
+<script src="./js/main.js"></script>
+
+<script src="./js/script.js"></script>
+
+
+
+<script>
+// fresh config in script.js
+let blogConfig = {
+"postLimit":"", // number
+"embedStatus":"", // off, not list,
+"multiEmbedStatus":"", // on
+"tagListStatus":"", // off
+"tagListLimit":"", // number
+"targetOption":"", // blank
+"bottomMsg":"", // text
+"display":"all", // gallery - grid, article - <div class="h1">text</div>, all - shows everything: text, text2, text3
+"timeStatus":"", // off, disable post time (post id)
+};
+</script>
+
+<script src="./projects/blog-1/script.js" onload="blog('printBlog', notesJsonVar, 'wrapper', './notes.html', blogConfig)"></script>
+
+
+
+</body>
+</html>
+
