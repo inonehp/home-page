@@ -610,7 +610,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/random-website-69\/index.html",
-        "text": "Random Website\n\nRandom Website. Random site. | random website: ",
+        "text": "Random Website\n\nRandom Website. Random site. A random website from a small collection of sites. | random website: ",
         "tag": " #Random #Website #CSS #JavaScript #project",
         "id": "242d26c4cdcc622c437393b719db9cf2",
         "time": "id"

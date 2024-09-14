@@ -4,7 +4,7 @@
   
 # About
 
-A personal start page with projects such as Search (redirect), Blog, Games, To-Do List, Typing Speed, NewTab URL extension, Icons, Themes, Website Templates etc
+A personal start page with projects such as search (redirect), blog, games, to-do list, typing speed, newtab URL extension, icons, themes, website templates etc
   
 ---
   
