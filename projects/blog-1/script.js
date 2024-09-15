@@ -1,4 +1,4 @@
-// Keep or blog v.2.10.0
+// Keep or blog v.2.10.1
 // Mini Twitter, Google Keep
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -1553,7 +1553,7 @@ if(rightFooterStatus == 'off'){ rightFooter = ''; }
 if (mode != 'search'){
 if (display == 'article'&&mode != 'id'&&mode != 'idList'&&mode != 'random'){
 //lPost = `<span class="large">${lPost}</span>`; // without highlight (embed)
-lPost = `<span class="large"><a class="block" href="${scriptDir}?id=${id}">${lPost}</a></span>`; // without highlight (embed)
+lPost = `<span class="large"><a class="block firstLetterBold" href="${scriptDir}?id=${id}">${lPost}</a></span>`; // without highlight (embed)
 }
 }
 

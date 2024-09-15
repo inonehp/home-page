@@ -1,4 +1,4 @@
-// Movie list v.2.0.0
+// Movie list v.2.0.1
 // Mini IMDB
 // parse IMDB WATCHLIST.csv
 
@@ -96,7 +96,7 @@ print = `
 ${randomMovie}
 ${randomMovie2}
 ${randomMovie3}<br>
-<a class="op small paddingList2" href="#" onclick="reload()">[ reload ]</a>
+<a class="op small paddingList2 brand" href="#" onclick="reload()">[ reload ]</a>
 
 <br><br><span class="block op small paddingList bold">List (total: ${movieList.length}):</span>
 ${print}

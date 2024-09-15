@@ -6735,6 +6735,24 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Emma Peters - C'est bon (clip officiel) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=q4N_sSgfuhw",
+        "tag": "#music",
+        "time": 1726388632,
+        "rightFooter": ""
+    },
+    {
+        "text": "Emma Peters - Les Armes (Officiel) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=sERBuk9KBkI",
+        "tag": "#music",
+        "time": 1726388728,
+        "rightFooter": ""
+    },
+    {
         "text": "Empire Of The Sun - Walking On A Dream (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",

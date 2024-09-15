@@ -3,6 +3,116 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "40",
+        "text": "collection of s\u00e9bastien de ganay, paper toilet .com by rafa\u00ebl rozendaal, 2006",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/papertoilet.com\/",
+        "tag": "#art",
+        "time": 1726388334,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=40\">id<\/a>"
+    },
+    {
+        "id": "39",
+        "text": "Jonas Wagner - 29a.ch",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/29a.ch\/",
+        "tag": "#development #personal",
+        "time": 1726388145,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=39\">id<\/a>"
+    },
+    {
+        "id": "38",
+        "text": "Maze Toys",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/maze.toys\/",
+        "tag": "#game",
+        "time": 1726387854,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=38\">id<\/a>"
+    },
+    {
+        "id": "37",
+        "text": "Hacker Typer : Fake Coding & Hacker Simulator To Prank & Troll Your Friends",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/hackertyper.com\/",
+        "tag": "#code",
+        "time": 1726387782,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=37\">id<\/a>"
+    },
+    {
+        "id": "36",
+        "text": "Depixelit Image Game - Daily Challenge!",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/depixelit.com\/",
+        "tag": "#game",
+        "time": 1726387569,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=36\">id<\/a>"
+    },
+    {
+        "id": "35",
+        "text": "Tims Curious Creations",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tholman.com\/",
+        "tag": "#personal #development",
+        "time": 1726386513,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=35\">id<\/a>"
+    },
+    {
+        "id": "34",
+        "text": "Paint Toys",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/paint.toys\/",
+        "tag": "#drawing #paint",
+        "time": 1726386049,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=34\">id<\/a>"
+    },
+    {
+        "id": "33",
+        "text": "The Long Doge Challenge",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/longdogechallenge.com\/",
+        "tag": "#unsorted",
+        "time": 1726385544,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=33\">id<\/a>"
+    },
+    {
+        "id": "32",
+        "text": "Una Kravets Online",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/una.im\/",
+        "tag": "#personal #WebDevelopment",
+        "time": 1726374230,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=32\">id<\/a>"
+    },
+    {
+        "id": "31",
+        "text": "Blog | W3C",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.w3.org\/blog\/",
+        "tag": "#blog #platform",
+        "time": 1726358930,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=31\">id<\/a>"
+    },
+    {
+        "id": "30",
+        "text": "Digital Product Design and Development Agency | Fireart Studio",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/fireart.studio\/",
+        "tag": "#agency #WebDesign",
+        "time": 1726332857,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=30\">id<\/a>"
+    },
+    {
         "id": "29",
         "text": "The Stack Overflow Blog - Stack Overflow",
         "text2": "",

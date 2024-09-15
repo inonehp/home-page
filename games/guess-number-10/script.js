@@ -1,4 +1,4 @@
-// Guess number game v.1.5.0
+// Guess number game v.1.5.1
 
 var limit = 10;
 var rangeValue = 0;
@@ -99,7 +99,7 @@ var print = `
 </div>
 <div id="range2"></div>
 
-<a class="block tCenter button border light h3 op small" style="cursor: pointer;" onclick="start()" href="#">start</a>
+<a class="block tCenter button border light h3 op small" style="cursor: pointer;" onclick="start()" href="#">submit</a>
 
 </div>
 </div>
