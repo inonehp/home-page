@@ -1,6 +1,16 @@
 // v.1.2.4
 
 
+let hello = "Hello World!";
+
+document.getElementById("result").innerHTML = `
+Result with var:
+${hello}
+`;
+
+
+
+
 
 
 //https://github.com/mdn/dom-examples/blob/main/webgl-examples/tutorial/sample1/webgl-demo.js
@@ -73,7 +83,7 @@ var checkScroll = -1;
 window.onscroll = event => {
 //onscrollend = (event) => {
 
-fuMPrintText('result', `
+fuMPrintText('resultTerminal', `
 scrollTop: ${document.documentElement.scrollTop} = offsetTop: ${document.getElementById('divIdForAnimation').offsetTop}<br>
 clientHeight: ${document.documentElement.clientHeight}<br>
 `, 'top');

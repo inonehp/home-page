@@ -1,4 +1,4 @@
-// Typing Speed Test or Typing Speed Game v.3.16.12
+// Typing Speed Test or Typing Speed Game v.3.17.0
 
 
 
@@ -177,52 +177,12 @@ main(task);
 
 
 // https://stackoverflow.com/questions/9713058/send-post-data-using-xmlhttprequest
-mode300 = mode; // fixed without var
-
-if (mode == 'none'||mode == 'b2'||mode == 'f2'){
-document.getElementById("lPrintTr").style.display = "block";
-
-document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
-document.querySelectorAll('textarea')[0].addEventListener('input', updateValue3333);
+//mode300 = mode; // fixed without var
+//delme
 
 
-function updateValue3333(e) {
 
-//console.log(mode300);
-if (mode300 == 'none'||mode300 == 'b2'||mode300 == 'f2'){
-if (location.hostname == 'localhost'){
-// source code none
-if (mode300 != 'b2'){ fuLtr(e.target.value); }
-let text = encodeURIComponent(e.target.value);
-//let text = (e.target.value);
-let http = new XMLHttpRequest();
-let url2 = '/fu/fuTranslateExt.php';
-let params = 'text=' + text;
-//alert(params);
-http.open('POST', url2, true);
-//Send the proper header information along with the request
-http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-http.onreadystatechange = function() {//Call a function when the state changes.
-if (http.readyState == 4 && http.status == 200) {
-// alert(http.responseText);
 
-document.getElementById("lPrintTr").innerHTML = http.responseText + '';
-
-}
-}
-http.send(params);
-}
-} else {
-document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
-document.getElementById("lPrintTr").innerHTML = '';
-document.getElementById("lPrintTr").style.display = "none";
-}
-}
-} else {
-document.querySelectorAll('textarea')[0].removeEventListener('input', updateValue3333);
-document.getElementById("lPrintTr").innerHTML = '';
-document.getElementById("lPrintTr").style.display = "none";
-}
 
 
 
@@ -330,13 +290,47 @@ document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadiu
 }
 }
 
+function typingSpeedTranslate(textForTranslate, mode) {
+
+
+//console.log(mode300);
+if (location.hostname == 'localhost'){
+if (mode == 'none'||mode == 'b2'||mode == 'f2'){
+document.getElementById("lPrintTr").style.display = "block";
+
+// source code none
+let text = textForTranslate;
+//let text = (textForTranslate);
+let http = new XMLHttpRequest();
+let url2 = '/fu/fuTranslateExt.php';
+let params = 'text=' + text;
+//alert(params);
+http.open('POST', url2, true);
+//Send the proper header information along with the request
+http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+http.onreadystatechange = function() { //Call a function when the state changes.
+if (http.readyState == 4 && http.status == 200) {
+// alert(http.responseText);
+document.getElementById("lPrintTr").innerHTML = http.responseText + '';
+}
+
+}
+http.send(params);
+} else {
+document.getElementById("lPrintTr").innerHTML = '';
+document.getElementById("lPrintTr").style.display = "none";
+}
+}
+}
+
+
 
 // main
 //setTimeout(function () {
 function main(task){
 
 if (mode != 'abc'&&mode != 'free'&&mode != 'f2'){
-fuLtr(task);
+fuLtr();
 } else {
 document.getElementById("mode2").innerHTML = '';
 }
@@ -678,6 +672,8 @@ if (wpmRecord == null||wpmRecord < 0||wpmRecord == undefined){ wpmRecord =  0; }
 
 // input value
 q = e.target.value;
+
+typingSpeedTranslate(q, mode);
 
 //var answerArr = q.split ("");
 var answerArr = [...q]; // convert input string to array for check
@@ -1159,6 +1155,11 @@ document.getElementById("topWords").innerHTML =
 if(document.getElementById("typeProgress") != null&&task.length <= whenTypeProgress){
 document.getElementById("typeProgress").style.display = "none";
 }
+
+
+
+
+
 
 }
 

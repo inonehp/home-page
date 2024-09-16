@@ -3,6 +3,26 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "42",
+        "text": "Adam Argyle",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/nerdy.dev\/",
+        "tag": "#personal  #WebDevelopment #WebDesign #CSS",
+        "time": 1726451484,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=42\">id<\/a>"
+    },
+    {
+        "id": "41",
+        "text": "DeviantArt - The Largest Online Art Gallery and Community",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.deviantart.com\/",
+        "tag": "#art #photo #platform",
+        "time": 1726390033,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=41\">id<\/a>"
+    },
+    {
         "id": "40",
         "text": "collection of s\u00e9bastien de ganay, paper toilet .com by rafa\u00ebl rozendaal, 2006",
         "text2": "",

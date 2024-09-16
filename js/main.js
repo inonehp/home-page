@@ -1,4 +1,4 @@
-// Main js v.6.9.10
+// Main js v.6.9.11
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -186,9 +186,11 @@ conf["confMenuItems2"] = '';
 conf["confMenuItems"].forEach((item, index) => {
 
 if ((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem  active2 borderBottomBrand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
+conf["confMenuItems2"] += `<a class="countMenuItem  active2 borderBottomBrand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>
+`;
 } else {
-conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>`;
+conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>
+`;
 }
 });
 
