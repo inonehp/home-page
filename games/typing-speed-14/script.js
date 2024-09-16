@@ -1,4 +1,4 @@
-// Typing Speed Test or Typing Speed Game v.3.17.0
+// Typing Speed Test or Typing Speed Game v.3.18.0
 
 
 
@@ -323,6 +323,8 @@ document.getElementById("lPrintTr").style.display = "none";
 }
 }
 
+document.getElementById("lPrintTr").innerHTML = '';
+document.getElementById("lPrintTr").style.display = "none";
 
 
 // main
