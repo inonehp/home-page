@@ -938,10 +938,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/website-templates-page.html",
-        "text": "Experimental Website Templates\n\nHTML templates. Website templates. (I create pages for practice). | website templates page: ",
+        "url": "\/website-templates.html",
+        "text": "Experimental Website Templates\n\nHTML templates. Website templates. (I create pages for practice). | website templates: ",
         "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
-        "id": "c93102cc212226b2c1f2319feb9d1efa",
+        "id": "d026159d7544145169ca8d9a3278f50d",
         "time": "id"
     }
 ]

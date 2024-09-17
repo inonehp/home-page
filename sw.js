@@ -1153,7 +1153,7 @@ var fileListArr = ["/404.html",
 "/themes.html",
 "/video/video.mp4",
 "/video/",
-"/website-templates-page.html",
+"/website-templates.html",
 "/",];
 fileListArr.push("no_exit_file_name_for_test.hmtl");
 
