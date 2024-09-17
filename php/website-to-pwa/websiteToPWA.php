@@ -1,5 +1,5 @@
 <?php
-// Function dir to PWA v.3.1.0
+// Function dir to PWA v.3.0.0
 // Run script only on localhost, not made for public.
 // For an already-generated static site in a folder on localhost. The PWA will include all the files in the folder.
 // Be careful! The script creates files: manifest.webmanifest, sw.js.
@@ -8,22 +8,26 @@
 
 
 
-function fuWebsiteToPWA($dir, $siteName, $pwaVersion, $workerDirectory){
+
+function websiteToPWA($dir, $siteName, $PWAVersion){
 if(!empty($dir)){
 
-$swJs = 'sw.js';
 if(empty($siteName)){ $siteName = 'siteName PWA'; }
-if(empty($pwaVersion)){ $pwaVersion = "v.1.0.".time(); }
-if(empty($workerDirectory)){ $workerDirectory = '/'; }
+if(empty($PWAVersion)){ $PWAVersion = "v.1.0.".time(); }
 
-// start manifest.webmanifest
+
+
+
+
+// 1. start manifest.webmanifest
+//"display":"minimal-ui",
 $manifest = <<<EOF
 {
 "name": "$siteName",
 "short_name": "$siteName",
 "background_color": "#F0F0F0",
 "theme_color":"#F0F0F0",
-"description": "$siteName $pwaVersion",
+"description": "$siteName $PWAVersion",
 
 "icons": [
 {
@@ -39,13 +43,13 @@ $manifest = <<<EOF
       "purpose": "maskable"
 }
 ],
-"start_url": "$workerDirectory",
-"scope": "$workerDirectory",
+"start_url": "../",
+"scope": "/",
 "display": "minimal-ui"
 }
 
 EOF;
-// end manifest.webmanifest
+// 1. end manifest.webmanifest
 
 
 
@@ -114,7 +118,6 @@ $result[] = $filename . '/'; // modified: added dir
 
 
 
-
 // generate files list
 //////////////////////
 $result = scanAllDir("$dir");
@@ -158,14 +161,13 @@ $fileList .= ',"/"';
 
 
 
+
 // sw.js serviceWorker
 //////////////////////
 $serviceWorker = <<<EOF
+// pwa $PWAVersion 
 
-//var myCacheVersion = "$pwaVersion";
-
-
-
+//var myCacheVersion = "$PWAVersion";
 
 
 
@@ -173,8 +175,8 @@ $serviceWorker = <<<EOF
 const registerServiceWorker = async () => {
   if ("serviceWorker" in navigator) {
     try {
-      const registration = await navigator.serviceWorker.register("$workerDirectory$swJs", {
-        scope: "$workerDirectory",
+      const registration = await navigator.serviceWorker.register("/sw.js", {
+        scope: "/",
       });
       if (registration.installing) {
         console.log("Service worker installing");
@@ -182,8 +184,6 @@ const registerServiceWorker = async () => {
         console.log("Service worker installed");
   
     } else if (registration.active) {
-
-
 
 }
     } catch (error) {
@@ -200,41 +200,8 @@ swJsInstallFiles();
 
 
 
-// fu hide file extension
-function hideLinkExt(url){
-var linkExtList = ["index.html", ".html"];
-var newURL = url;
-
-linkExtList.forEach((element) => {
-newURL = newURL.replace(element, '');
-});
-
-return newURL;
-}
-//
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-function swJsInstallFiles(){
-
-/*
-// cache
-//https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
-//https://github.com/mdn/pwa-examples
-self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("$pwaVersion").then((cache) => cache.addAll(fileListArrFound)),);
-});*/
 
 
 
@@ -255,34 +222,23 @@ fileListArr.push("no_exit_file_name_for_test.hmtl");
 fileListArr = [...new Set(fileListArr)]; 
 
 
-
-
 fileListArr.forEach((file) => {
 //https://stackoverflow.com/questions/68595209/js-fetch-check-if-file-present-without-downloading-content
 
-//file = '$workerDirectory' + file;
-
-//rm ext
-var newFile = hideLinkExt(file);
-
-
-
-// with ext
 fetch(
-file, { method: "HEAD" }
-)
+file, { method: "HEAD" })
 .then((res) => {
 if (res.ok) {
 // file is present at URL
-console.log('try cache.add ' + file);
+console.log('try cache.add '+file);
 //https://web.dev/learn/pwa/caching/
-caches.open("$pwaVersion")
+caches.open("$PWAVersion")
 .then(cache => {
 cache.add(file); // it stores only one resource
-//  cache.addAll(["styles.css", "app.js"]); // it stores two resources
+//cache.addAll(["styles.css", "app.js"]); // it stores two resources
 });
 } else {
-console.log('404 not found ' + file);
+console.log('404 ' + file);
 // file is not present at URL
 }
 })
@@ -290,44 +246,16 @@ console.log('404 not found ' + file);
   console.log(error)
 });
 
-
-if(file != newFile){
-
-// no ext
-fetch(
-newFile, { method: "HEAD" }
-)
-.then((res) => {
-if (res.ok) {
-// file is present at URL
-console.log('try cache.add ' + newFile);
-//https://web.dev/learn/pwa/caching/
-caches.open("$pwaVersion")
-.then(cache => {
-cache.add(newFile); // it stores only one resource
-//  cache.addAll(["styles.css", "app.js"]); // it stores two resources
 });
-} else {
-console.log('404 not found ' + newFile);
-// file is not present at URL
-}
-})
-.catch((error) => {
-  console.log(error)
+
+
+
 });
+
 
 }
 
 
-
-
-});
-
-
-
-});
-
-}
 
 
 
@@ -335,7 +263,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["$pwaVersion"];
+  const cachesToKeep = ["$PWAVersion"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
@@ -353,9 +281,21 @@ this.addEventListener("activate", (event) => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 // read cache
-/*
-//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
+
+/*//https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#basic_architecture
 const cacheFirst = async (request) => {
   const responseFromCache = await caches.match(request, {ignoreSearch: true});
   if (responseFromCache) {
@@ -401,11 +341,9 @@ self.addEventListener("fetch", event => {
 // read cache
 
 
-
 EOF;
 // sw.js serviceWorker
 //////////////////////
-
 
 
 
@@ -449,7 +387,6 @@ $installHTMLPage = <<<EOF
 
 
 
-
 <script>
 // v.1.0.1
 // reg worker
@@ -462,7 +399,7 @@ function startUnregisterSW(){
 //https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/unregister
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
-    .register("$workerDirectory$swJs", { scope: "$workerDirectory" })
+    .register("/sw.js", { scope: "/" })
     .then((registration) => {
       // registration worked
       console.log("Registration succeeded.");
@@ -487,7 +424,6 @@ document.getElementById("unregisterStatus").innerHTML = `Registration for unregi
 }
 
 
-
 // insert manifest in header
 let element = document.createElement('link'); 
 element.setAttribute('rel', 'manifest'); 
@@ -506,7 +442,7 @@ function startInstallPWA(){
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('$workerDirectory$swJs', { scope: "$workerDirectory"} )
+    .register('/sw.js', { scope: "/"} )
 .then((registration) => {
 console.log('Service Worker Registered'); 
 document.getElementById("startInstallStatus").innerHTML = `Service Worker Registered`;
@@ -624,14 +560,19 @@ EOF;
 
 
 
-///////////////////////////
-// write to the in files !
 
+
+
+
+
+
+// write to the files !
 
 file_put_contents("$dir"."/manifest.webmanifest", $manifest);
 file_put_contents("$dir"."/sw.js", $serviceWorker);
 //file_put_contents("$dir"."/install.html", $installHTMLPage);
 // end write to the in files !
+
 
 
 }

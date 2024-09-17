@@ -14,38 +14,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/archive-list.html",
-        "text": "Archive list\n\nOn this page are the projects that I want to hide. | archive list: ",
-        "tag": " #archive #menu #list #page #main",
-        "id": "9404a4c41970c890e52935ed9af2b641",
-        "time": "id"
-    },
-    {
-        "url": "\/archive\/dropdown-menu-8\/index.html",
-        "text": "Dropdown Menu or Dropdown Button\n\nDropdown Menu project. | dropdown menu: ",
-        "tag": " #menu #UI #UX #dropdown #menu #JavaScript #WebDesign #project",
-        "id": "f8cf61642a0a5af3afe68b79fc06677e",
-        "time": "id"
-    },
-    {
-        "url": "\/archive\/hello-world-62\/index.html",
-        "text": "Hello World!\n\nHello World! | hello world: ",
-        "tag": " #hello #world #CSS #JavaScript #project",
-        "id": "6ccb5475788d93ec1cdeaa7cc0b6db8f",
-        "time": "id"
-    },
-    {
-        "url": "\/archive\/not-sleep-pc-12\/index.html",
-        "text": "Not Sleeping Computer\n\nThe Web Page tries not to put the computer into sleep mode. | not sleep pc: ",
-        "tag": " #not #sleep #PC #computer #prevent #hibernation #HTML #project",
-        "id": "95158dd09f1a8393079a2e6d8f0ecd8c",
-        "time": "id"
-    },
-    {
-        "url": "\/archive\/pwa-test-21\/index.html",
-        "text": "pwa test\n\nTest PWA, PWA test. | pwa test: ",
-        "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
-        "id": "9cbb687ea1a7ef415d0c7c1ccebaa5e1",
+        "url": "\/archive.html",
+        "text": "Archive\n\nArchive. All projects in one place. | archive: ",
+        "tag": " #archive #all #page #main",
+        "id": "09cf2c0a3d9e2da210eea3fb31989cfc",
         "time": "id"
     },
     {
@@ -266,13 +238,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/lists.html",
-        "text": "Lists\n\nAll lists. A page with a list of lists. | lists: ",
-        "tag": " #all #list #lists #page #main",
-        "id": "3831d1d20f62af37b45ebea9c330e943",
-        "time": "id"
-    },
-    {
         "url": "\/mini-projects\/animated-borders-button-link-5\/index.html",
         "text": "Animated borders button\n\nAnimated borders button. | animated borders button link: ",
         "tag": " #animation #button #border #HTML #CSS #project",
@@ -385,9 +350,44 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/old-projects-list.html",
+        "text": "Old projects list\n\nOn this page are the projects that are outdated. | old projects list: ",
+        "tag": " #old #menu #list #page #main",
+        "id": "5d199df533ae00854cdcfa6af9eb1d80",
+        "time": "id"
+    },
+    {
+        "url": "\/old-projects\/dropdown-menu-8\/index.html",
+        "text": "Dropdown Menu or Dropdown Button\n\nDropdown Menu project. | dropdown menu: ",
+        "tag": " #menu #UI #UX #dropdown #menu #JavaScript #WebDesign #project",
+        "id": "a5485625a93ceb439202a82a8ce710fc",
+        "time": "id"
+    },
+    {
+        "url": "\/old-projects\/hello-world-62\/index.html",
+        "text": "Hello World!\n\nHello World! | hello world: ",
+        "tag": " #hello #world #CSS #JavaScript #project",
+        "id": "1f67f64cd805e15be406d205cff35cb0",
+        "time": "id"
+    },
+    {
+        "url": "\/old-projects\/not-sleep-pc-12\/index.html",
+        "text": "Not Sleeping Computer\n\nThe Web Page tries not to put the computer into sleep mode. | not sleep pc: ",
+        "tag": " #not #sleep #PC #computer #prevent #hibernation #HTML #project",
+        "id": "8c2e5df2f974758e885a99fc801d21f6",
+        "time": "id"
+    },
+    {
+        "url": "\/old-projects\/pwa-test-21\/index.html",
+        "text": "pwa test\n\nTest PWA, PWA test. | pwa test: ",
+        "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
+        "id": "551aec3849bcce3c49550c3fd07d25dc",
+        "time": "id"
+    },
+    {
         "url": "\/other-projects-list.html",
-        "text": "Other projects list\n\nOther projects using other programming languages. | other projects list: ",
-        "tag": " #php #code #programming #coding #projects #list #main #pages",
+        "text": "Other projects list\n\nOther projects using other programming languages. Such a PHP project as the conversion of static webpages to application (PWA). etc | other projects list: ",
+        "tag": " #php #python #code #programming #coding #projects #list #main #pages",
         "id": "fcb9829b5d4cf76abe26b4699539f3e6",
         "time": "id"
     },

@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.09.16";
+//var myCacheVersion = "v.1.2.2024.09.17";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.09.16").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.09.17").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -91,26 +91,7 @@ var fileListArr = ["/404.html",
 "/README.md",
 "/about.html",
 "/ads.html",
-"/archive/dropdown-menu-8/index.html",
-"/archive/",
-"/archive/dropdown-menu-8/",
-"/archive/dropdown-menu-8/script.js",
-"/archive/dropdown-menu-8/style.css",
-"/archive/hello-world-62/index.html",
-"/archive/hello-world-62/",
-"/archive/hello-world-62/script.js",
-"/archive/hello-world-62/style.css",
-"/archive/index.html",
-"/archive/not-sleep-pc-12/index.html",
-"/archive/not-sleep-pc-12/",
-"/archive/not-sleep-pc-12/style.css",
-"/archive/pwa-test-21/index.html",
-"/archive/pwa-test-21/",
-"/archive/pwa-test-21/manifest.webmanifest",
-"/archive/pwa-test-21/script.js",
-"/archive/pwa-test-21/style.css",
-"/archive/pwa-test-21/sw.js",
-"/archive-list.html",
+"/archive.html",
 "/articles.html",
 "/audio/click.mp3",
 "/audio/",
@@ -203,6 +184,7 @@ var fileListArr = ["/404.html",
 "/css/auto.css",
 "/css/bad.css",
 "/css/d-blue.css",
+"/css/d-forest.css",
 "/css/d-green.css",
 "/css/d-orange.css",
 "/css/d-pink.css",
@@ -210,6 +192,7 @@ var fileListArr = ["/404.html",
 "/css/d-purple.css",
 "/css/d-red.css",
 "/css/d-sea.css",
+"/css/d-slate.css",
 "/css/d-violet.css",
 "/css/d-yellow.css",
 "/css/dark.css",
@@ -665,7 +648,6 @@ var fileListArr = ["/404.html",
 "/js/script.js",
 "/js/settings-options.js",
 "/js/theme-options.js",
-"/lists.html",
 "/main-list.html",
 "/manifest.webmanifest",
 "/mini-projects/animated-borders-button-link-5/index.html",
@@ -721,14 +703,28 @@ var fileListArr = ["/404.html",
 "/mini-projects/tpl-project-mini-1/style.css",
 "/mini-projects-list.html",
 "/notes.html",
+"/old-projects/dropdown-menu-8/index.html",
+"/old-projects/",
+"/old-projects/dropdown-menu-8/",
+"/old-projects/dropdown-menu-8/script.js",
+"/old-projects/dropdown-menu-8/style.css",
+"/old-projects/hello-world-62/index.html",
+"/old-projects/hello-world-62/",
+"/old-projects/hello-world-62/script.js",
+"/old-projects/hello-world-62/style.css",
+"/old-projects/index.html",
+"/old-projects/not-sleep-pc-12/index.html",
+"/old-projects/not-sleep-pc-12/",
+"/old-projects/not-sleep-pc-12/style.css",
+"/old-projects/pwa-test-21/index.html",
+"/old-projects/pwa-test-21/",
+"/old-projects/pwa-test-21/manifest.webmanifest",
+"/old-projects/pwa-test-21/script.js",
+"/old-projects/pwa-test-21/style.css",
+"/old-projects/pwa-test-21/sw.js",
+"/old-projects-list.html",
 "/other-projects/index.html",
 "/other-projects/",
-"/other-projects/php-fuWebsiteToPWA/index.php",
-"/other-projects/php-fuWebsiteToPWA/",
-"/other-projects/php-fuWebsiteToPWA/php-fuWebsiteToPWA.php",
-"/other-projects/php-fuWebsiteToPWA/php-fuWebsiteToPWA2HidenExt.php",
-"/other-projects/python-hello-world/main.py",
-"/other-projects/python-hello-world/",
 "/other-projects-list.html",
 "/pages.html",
 "/photos/0-100/branch-10.jpg",
@@ -746,6 +742,13 @@ var fileListArr = ["/404.html",
 "/photos/0-100/frog-11.jpg",
 "/photos/index.html",
 "/photos-page.html",
+"/php/hello-world/index.php",
+"/php/",
+"/php/hello-world/",
+"/php/website-to-pwa/index.php",
+"/php/website-to-pwa/",
+"/php/website-to-pwa/websiteToPWA.php",
+"/php/website-to-pwa/websiteToPWA2HidenExt.php",
 "/posts.html",
 "/projects/agi-countdown-59/data-list.html",
 "/projects/",
@@ -980,6 +983,9 @@ var fileListArr = ["/404.html",
 "/projects/worst-website-in-the-world-57/style.css",
 "/projects-list.html",
 "/projects-page.html",
+"/python/hello-world/main.py",
+"/python/",
+"/python/hello-world/",
 "/robots.txt",
 "/rss.xml",
 "/search.html",
@@ -1014,6 +1020,7 @@ var fileListArr = ["/404.html",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/bad.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/d-blue.css",
+"/templates/home-page-flat-auto-many-colors-themes-10/css/d-forest.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/d-green.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/d-orange.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/d-pink.css",
@@ -1021,6 +1028,7 @@ var fileListArr = ["/404.html",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/d-purple.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/d-red.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/d-sea.css",
+"/templates/home-page-flat-auto-many-colors-themes-10/css/d-slate.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/d-violet.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/d-yellow.css",
 "/templates/home-page-flat-auto-many-colors-themes-10/css/dark.css",
@@ -1175,7 +1183,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.09.16")
+caches.open("v.1.2.2024.09.17")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1201,7 +1209,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.09.16")
+caches.open("v.1.2.2024.09.17")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1234,7 +1242,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.09.16"];
+  const cachesToKeep = ["v.1.2.2024.09.17"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

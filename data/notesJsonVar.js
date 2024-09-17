@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "63",
+        "text": "php - \"Fatal error: Cannot redeclare <function>\" - Stack Overflow",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.com\/questions\/1953857\/fatal-error-cannot-redeclare-function",
+        "tag": "#fix #PHP",
+        "time": 1726540368,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=63\">id<\/a>"
+    },
+    {
         "id": "62",
         "text": "Disable snapping objects in Inkscape - Graphic Design Stack Exchange",
         "text2": "",

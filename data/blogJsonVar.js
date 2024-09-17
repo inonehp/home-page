@@ -13,16 +13,6 @@ var blogJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=266\">id<\/a>"
     },
     {
-        "id": "259",
-        "text": "Google no longer developing Material Web Components",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/9to5google.com\/2024\/06\/25\/material-web-components\/",
-        "tag": "#news #design #WebDesign",
-        "time": 1719478046,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=259\">id<\/a>"
-    },
-    {
         "id": "258",
         "text": "Google Search To Drops Continuous Scroll On Desktop With Mobile To Come",
         "text2": "",

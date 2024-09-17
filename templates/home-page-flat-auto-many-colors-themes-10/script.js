@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.1.1
 /* copy paste from main site */
 
 var conf = [];
@@ -104,11 +104,13 @@ var themeListDark = [
 "dark",
 "d-green",
 "d-blue",
+"d-forest",
 "d-orange",
 "d-pink",
 "d-plum",
 "d-red",
 "d-sea",
+"d-slate",
 "d-violet",
 "d-yellow"
 ];
@@ -146,8 +148,10 @@ var themeListBest = [
 
 "dark",
 "d-blue",
+"d-forest",
 "d-green",
 "d-sea",
+"d-slate",
 "d-violet",
 
 "o-yellow",

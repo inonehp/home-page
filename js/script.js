@@ -108,7 +108,7 @@ document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt(
 
 if (mNavUpCheck.indexOf('/main-list') != -1||mNavUpCheck.indexOf('projects') != -1||mNavUpCheck.indexOf('games') != -1){
 //document.getElementsByClassName("mClassNavUp").href = "../";
-document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./lists.html");
+document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./archive.html");
 }
 
 }
@@ -119,7 +119,7 @@ document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt(
 
 
 } else if (mNavUpCheck == "/"){
-document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./lists.html");
+document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./archive.html");
 }
 
 

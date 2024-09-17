@@ -179,7 +179,7 @@ conf["confMenuItems"] = [
 {"url":"/main-list.html", "name":"Main", "title":"Main"},
 {"url":"/projects-page.html", "name":"Projects", "title":"Projects page"},
 {"url":"/games-list.html", "name":"Games", "title":"Games list"},
-//{"url":"/lists.html", "name":"All", "title":"Lists"},
+//{"url":"/archive.html", "name":"All", "title":"Archive"},
 ];
 
 conf["confMenuItems2"] = '';
@@ -590,11 +590,13 @@ var themeListDark = [
 "dark",
 "d-green",
 "d-blue",
+"d-forest",
 "d-orange",
 "d-pink",
 "d-plum",
 "d-red",
 "d-sea",
+"d-slate",
 "d-violet",
 "d-yellow"
 ];
@@ -632,8 +634,10 @@ var themeListBest = [
 
 "dark",
 "d-blue",
+"d-forest",
 "d-green",
 "d-sea",
+"d-slate",
 "d-violet",
 
 "o-yellow",
