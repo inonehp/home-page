@@ -680,17 +680,17 @@ New Project: Random Site.
 
 <div class="listItem op wrapperS inlineBlock pre marginList borderRadius2 tLeft small"><span class="xSmall">Status: </span><span class="small">Summer.</span></div>
 
-<div id="hotLinksTop" class="scrollX tCenter small noscriptHide">
+<div id="hotLinksTop" class="scrollX tCenter small noscriptHide paddingList">
 <span id="urlDayNow"></span>
 
-<a class="border borderRadius2 tag light2 op" href="search.html?q=n" title="News (random)">News</a>
-<a class="border borderRadius2 tag light2 op" href="search.html?q=n2" title="Other news (random)">News 2</a>
-<a class="border borderRadius2 tag light2 op" href="search.html?q=spo" title="Sport news (random)">Sport</a>
-<a class="border borderRadius2 tag light2 op" href="search.html?q=sci" title="Science news (random)">Sci</a>
-<a class="border borderRadius2 tag light2 op" href="search.html?q=tec" title="Technology news (random)">Tech</a>
-<a class="border borderRadius2 tag light2 op" href="search.html?q=dev" title="Development (random)">Dev</a>
-<a class="border borderRadius2 tag light2 op" href="search.html?q=rn" title="Few previous (random)">rn</a>
-<!--<a class="border borderRadius2 tag light2 op" href="/projects/random-website-69/" title="Random website">rs</a>-->
+<a class="brand tag op" href="search.html?q=n" title="News (random)">News</a>
+<a class="brand tag op" href="search.html?q=n2" title="Other news (random)">News 2</a>
+<a class="brand tag op" href="search.html?q=spo" title="Sport news (random)">Sport</a>
+<a class="brand tag op" href="search.html?q=sci" title="Science news (random)">Sci</a>
+<a class="brand tag op" href="search.html?q=tec" title="Technology news (random)">Tech</a>
+<a class="brand tag op" href="search.html?q=dev" title="Development (random)">Dev</a>
+<a class="brand tag op" href="search.html?q=rn" title="Few previous (random)">rn</a>
+<!--<a class="brand tag op" href="/projects/random-website-69/" title="Random website">rs</a>-->
 </div>
 
 <div class="block padding1PxList"></div>
@@ -731,7 +731,7 @@ var dayNowTitle = day +' '+ dayEn[d];
 
 var urlDayNow = 'https://en.wikipedia.org/wiki/' + monthsEn[month] + '_' + day + '';
 //document.getElementById('urlDayNow').innerHTML = `<a class="border borderRadius2 tag light2 op" href="` + urlDayNow + `" title="Wikipedia">` + dayEn[d] + ` ` + day + ` ` + monthsEn[month] + `</a>`;
-document.getElementById('urlDayNow').innerHTML = `<a class="border borderRadius2 tag light2 op" href="` + urlDayNow + `" title="Wikipedia">` + dayNowTitle + `</a>`;
+document.getElementById('urlDayNow').innerHTML = `<a class="brand tag op" href="` + urlDayNow + `" title="Wikipedia">` + dayNowTitle + `</a>`;
 
 
 /*function normalize(a){
