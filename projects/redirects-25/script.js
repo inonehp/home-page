@@ -1,4 +1,4 @@
-// Search redirects v.2.2.17
+// Search redirects v.2.2.20
 // Mini Google
 // The script redirects the search query + command.
 
@@ -62,7 +62,6 @@ if (q == ''&&q != 'null'){ q = 'q'; }
 
 if (rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") == -1){
 
-
 q = q.trim();
 
 if (q.slice(-2) == 'ls'||q.slice(-2) == 'rs'){
@@ -82,6 +81,7 @@ var q3 = q + "#";
 
 switch (qCom) {
 
+
 // pi#
 case 'rn#':
 q = q3.replace(qCom, '');
@@ -99,7 +99,6 @@ url = '?q=' + q + " rn q";
 sRedirectUrl = url;
 }
 break;
-
 
 
 case 'l#':  case 'll#':
@@ -122,7 +121,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'tre#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -141,7 +139,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'r#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -158,7 +155,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'rr#':
@@ -180,7 +176,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'x#':
 case 'twi#':
 q = q3.replace(qCom, '');
@@ -192,7 +187,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'bs#':
 case 'blu#':
 q = q3.replace(qCom, '');
@@ -202,7 +196,6 @@ url = "https://bsky.app/search?q=" + q;
 if (q == ''){ url = "https://bsky.app/"; }
 sRedirectUrl = url;
 break;
-
 
 
 case 'red#':
@@ -221,7 +214,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'med#':
@@ -243,7 +235,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'cc#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -257,7 +248,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = random;
 break;
-
 
 
 case 'i#':
@@ -278,7 +268,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = random;
 break;
-
 
 
 case 't#':
@@ -314,7 +303,6 @@ sRedirectUrl = random;
 break;
 
 
-
 case 'tt#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -332,7 +320,6 @@ sRedirectUrl = random;
 break;
 
 
-
 case 'tg#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -344,7 +331,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'n#':
@@ -371,7 +357,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'tec#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -379,7 +364,6 @@ q = encodeURIComponent(q);
 urlList = [
 "/?q=" + q + " q",
 ];
-
 if (q == ''){
 urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
@@ -391,13 +375,11 @@ urlList = [
 
 "/?q=technology tag",
 ];
-
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'sci#':
@@ -407,7 +389,6 @@ q = encodeURIComponent(q);
 urlList = [
 "/?q=" + q,
 ];
-
 if (q == ''){
 urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
@@ -416,15 +397,12 @@ urlList = [
 "https://www.reddit.com/r/science/",
 
 "?q=science tag",
-
 ];
-
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'n2#':
@@ -434,7 +412,6 @@ q = encodeURIComponent(q);
 urlList = [
 "/?q=" + q,
 ];
-
 if (q == ''){
 urlList = [
 "https://flipboard.com/topic/culture",
@@ -455,14 +432,11 @@ urlList = [
 
 "/?q=culture tag",
 ];
-
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'nn#':
@@ -474,7 +448,6 @@ urlList = [
 "https://chatgpt.com/?q=" + q,
 //"https://chat.mistral.ai/chat/?=" + q,
 ];
-
 if (q == ''){
 urlList = [
 "https://www.perplexity.ai/",
@@ -485,12 +458,10 @@ urlList = [
 //"https://chat.mistral.ai/",
 ];
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'spo#':
@@ -500,7 +471,6 @@ q = encodeURIComponent(q);
 urlList = [
 "/?q=" + q,
 ];
-
 if (q == ''){
 urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
@@ -508,13 +478,11 @@ urlList = [
 
 "/?q=sport tag",
 ];
-
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'dev#':
@@ -525,7 +493,6 @@ urlList = [
 "https://dev.to/search?q=" + q + "&sort_by=published_at&sort_direction=desc",
 "https://hashnode.com/search?q=" + q,
 ];
-
 if (q == ''){
 urlList = [
 "https://dev.to/",
@@ -542,27 +509,24 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'git#':
 q = q3.replace(qCom, '');
 q = q.trim();
+q = q.replaceAll(' ', '-');
 q = encodeURIComponent(q);
 urlList = [
-"https://github.com/topics/" + q,
+"https://github.com/topics/" + q + "?s=updated",
 ];
-
 if (q == ''){
 urlList = [
 "https://github.com/explore",
 //"https://gitlab.com/explore",
 ];
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'gitt#':
@@ -570,21 +534,18 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://github.com/search?q=" + q,
+"https://github.com/search?q=" + q + "&type=repositories&s=updated",
 ];
-
 if (q == ''){
 urlList = [
 "https://github.com/explore",
 //"https://gitlab.com/explore",
 ];
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'wik#':
@@ -605,7 +566,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'vim#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -622,7 +582,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'y#':
@@ -643,6 +602,7 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
 case 'ch#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -659,7 +619,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'v#':
@@ -682,7 +641,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'liv#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -700,7 +658,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'tv#':
@@ -722,16 +679,13 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'b#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-
 urlList = [
 "https://www.google.com/search?q=" + q + " site:blogspot.com OR site:medium.com OR site:wordpress.com&tbs=qdr:m",
 ];
-
 if (q == ''){
 urlList = [
 "https://wordpress.com",
@@ -739,12 +693,10 @@ urlList = [
 "https://blogspot.com/",
 ];
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 's#':
@@ -771,21 +723,17 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'tag#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-
 let wordpressTag = (q.replaceAll("%20", ' ')).trim();
-
 urlList = [
 //"https://www.threads.net/search?q=%23" + q,
 "https://bsky.app/hashtag/" + q,
 "https://www.tumblr.com/tagged/" + q,
 "https://wordpress.com/tag/" + wordpressTag,
 ];
-
 if (q == ''){
 urlList = [
 //"https://www.threads.net/following",
@@ -793,14 +741,11 @@ urlList = [
 "https://www.tumblr.com/explore/trending",
 "https://wordpress.com/discover",
 ];
-
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'we#':
@@ -811,7 +756,6 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.accuweather.com/search-locations?query=" + q,
 ];
-
 if (q == ''){
 urlList = [
 "?q=weather",
@@ -821,7 +765,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'g#':
@@ -835,7 +778,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'ps#':
 case 'gg#':
 q = q3.replace(qCom, '');
@@ -845,7 +787,6 @@ url = "/projects/google-programmable-search-49/index.html?q=" + q;
 if (q == ''){ url = "/projects/google-programmable-search-49/index.html"; }
 sRedirectUrl = url;
 break;
-
 
 
 case 'bi#':
@@ -867,7 +808,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'qq#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -884,7 +824,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'lin#':
@@ -905,7 +844,6 @@ sRedirectUrl = url;
 break;
 
 
-
 case 'o#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -914,19 +852,16 @@ urlList = [
 //"https://www.bing.com/search?q=" + q,
 "https://www.ecosia.org/search?q=" + q,
 ];
-
 if (q == ''){
 urlList = [
 //"https://www.bing.com/",
 "https://www.ecosia.org/",
 ];
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 case 'test#':
@@ -936,25 +871,21 @@ q = encodeURIComponent(q);
 urlList = [
 "#https://www.example.com/?q=" + q,
 ];
-
 if (q == ''){
 urlList = [
 "#https://www.example.com/",
 ];
 }
-
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
 
 
-
 case 'w#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-
 urlList = [
 "https://www.google.com/search?q="+ q + "&udm=14",
 //"https://www.bing.com/search?q="+ q,
@@ -992,7 +923,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 
 default:
@@ -1035,10 +965,6 @@ if (com == "on"){
 function runRedirect(rUrlGet){
 
 var print = '';
-
-
-
-
 
 if (rUrlGet != null&&rUrlGet != 'null'&&rUrlGet != ''&&rUrlGet != undefined){
 if (rUrlGet[0] == "."){ rUrlGet = (rUrlGet).slice(1); }
@@ -1102,7 +1028,6 @@ sTimeRedirectStatus = `<span class="small">Redirection (${com}): re-redirection 
 // main redirect
 
 
-
 //if ((rUrlGet).search("#!StopRedirect") != -1){
 
 /*rUrlGetPrint = decodeURIComponent(rUrlGet);
@@ -1132,8 +1057,6 @@ document.getElementById("printTextUrl").textContent = decodeURIComponent(rUrlGet
 }
 
 
-
-
 var a = [
 "goo", "bin", "n", "x", "red, v, l"
 ];
@@ -1151,7 +1074,6 @@ Example redirects (random): "Google n" - news about Google.
 goo - Google, bin - Bing, n - News, x - X (Twitter), red - Reddit, v - video, l - lucky (first search result).
 </div>`;
 }
-
 
 
 if (document.getElementById('input') != null&&q != null&&q != 'null'){
