@@ -1150,10 +1150,10 @@ var fileListArr = ["/404.html",
 "/templates/wordpress-theme-home-auto-light-dark-23/screenshot.png",
 "/templates/wordpress-theme-home-auto-light-dark-23/",
 "/templates/wordpress-theme-home-auto-light-dark-23/themehome.zip",
-"/templates-page.html",
 "/themes.html",
 "/video/video.mp4",
 "/video/",
+"/website-templates-page.html",
 "/",];
 fileListArr.push("no_exit_file_name_for_test.hmtl");
 

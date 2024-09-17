@@ -784,13 +784,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/templates-page.html",
-        "text": "Experimental Website Templates\n\nHTML templates. Website templates. (I create pages for practice). | templates page: ",
-        "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
-        "id": "da9bdb588bab64f12fb9c87ffcaadb8d",
-        "time": "id"
-    },
-    {
         "url": "\/templates\/about-me-page-auto-light-dark-21\/index.html",
         "text": "Template: About me 21\n\nWebsite template description. | about me page auto light dark: ",
         "tag": " #WebDesign #template",
@@ -942,6 +935,13 @@ var sitemapJsonVar = [
         "text": "Themes options\n\nSetting a color theme for the site or choosing a site theme mode.\nAbout ~50\/2 color themes with possible day and night modes with dark and light theme modes. | themes: ",
         "tag": " #theme #themes #color #colors #setting #page #main",
         "id": "2d150acc6f248aeb4d602015299cf7e1",
+        "time": "id"
+    },
+    {
+        "url": "\/website-templates-page.html",
+        "text": "Experimental Website Templates\n\nHTML templates. Website templates. (I create pages for practice). | website templates page: ",
+        "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
+        "id": "c93102cc212226b2c1f2319feb9d1efa",
         "time": "id"
     }
 ]
