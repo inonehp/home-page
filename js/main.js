@@ -177,9 +177,9 @@ document.getElementById(id).innerHTML = text;
 
 conf["confMenuItems"] = [
 {"url":"/main-list.html", "name":"Main", "title":"Main"},
-{"url":"/projects-page.html", "name":"Projects", "title":"Projects page"},
 {"url":"/games-list.html", "name":"Games", "title":"Games list"},
-//{"url":"/archive.html", "name":"All", "title":"Archive"},
+{"url":"/projects-page.html", "name":"Projects", "title":"Projects page"},
+//{"url":"/archive.html", "name":"Archive", "title":"Archive"},
 ];
 
 conf["confMenuItems2"] = '';

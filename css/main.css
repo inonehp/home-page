@@ -1,4 +1,4 @@
-/* Main style v.17.2.0
+/* Main style v.18.0.0
 Mini CSS framework: main.css + auto.css (theme) */
 
 /* Main */
@@ -370,42 +370,6 @@ right: 0;
 .balance { text-wrap: balance; }
 
 .box { box-sizing: border-box; }
-.padding { padding: var(--padding); }
-.padding2 { padding: var(--padding2); }
-.padding3 { padding: var(--padding3); }
-.padding4 { padding: var(--padding4); }
-.padding1Px { padding: 1px; }
-.paddingList { padding-bottom: var(--padding); }
-.padding2List { padding-bottom: var(--padding2); }
-.padding3List { padding-bottom: var(--padding3); }
-.padding4List { padding-bottom: var(--padding4); }
-.padding1PxList { padding-bottom: 1px; }
-
-.margin { margin: var(--padding); }
-.margin2 { margin: var(--padding2); }
-.margin3 { margin: var(--padding3); }
-.margin4 { margin: var(--padding4); }
-.margin1Px { margin: 1px; }
-.marginList { margin-bottom: var(--padding); }
-.margin2List { margin-bottom: var(--padding2); }
-.margin3List { margin-bottom: var(--padding3); }
-.margin4List { margin-bottom: var(--padding4); }
-.margin1PxList { margin-bottom: 1px; }
-
-.inputHeight { min-height: var(--inputHeight); }
-.itemHeight { min-height: var(--itemHeight); }
-.itemHeight2 { min-height: var(--itemHeight2); }
-.itemHeight3 { min-height: var(--itemHeight3); }
-.itemHeight4 { min-height: var(--itemHeight4); }
-
-.w100 { width: 100%; }
-.h100 { height: 100%; }
-.w50 { width: 50%; }
-.h50 { height: 50%; }
-.w25 { width: 25%; }
-.h25 { height: 25%; }
-.w15 { width: 15%; }
-.h15 { height: 15%; }
 
 .invert {
 -webkit-filter: invert(100%);
@@ -480,6 +444,45 @@ float: right;
 padding: var(--padding2);
 padding-right: 0;
 }
+
+
+.padding { padding: var(--padding); }
+.padding2 { padding: var(--padding2); }
+.padding3 { padding: var(--padding3); }
+.padding4 { padding: var(--padding4); }
+.padding1Px { padding: 1px; }
+.paddingList { padding-bottom: var(--padding); }
+.padding2List { padding-bottom: var(--padding2); }
+.padding3List { padding-bottom: var(--padding3); }
+.padding4List { padding-bottom: var(--padding4); }
+.padding1PxList { padding-bottom: 1px; }
+
+.margin { margin: var(--padding); }
+.margin2 { margin: var(--padding2); }
+.margin3 { margin: var(--padding3); }
+.margin4 { margin: var(--padding4); }
+.margin1Px { margin: 1px; }
+.marginList { margin-bottom: var(--padding); }
+.margin2List { margin-bottom: var(--padding2); }
+.margin3List { margin-bottom: var(--padding3); }
+.margin4List { margin-bottom: var(--padding4); }
+.margin1PxList { margin-bottom: 1px; }
+
+.inputHeight { min-height: var(--inputHeight); }
+.itemHeight { min-height: var(--itemHeight); }
+.itemHeight2 { min-height: var(--itemHeight2); }
+.itemHeight3 { min-height: var(--itemHeight3); }
+.itemHeight4 { min-height: var(--itemHeight4); }
+
+.w100 { width: 100%; }
+.h100 { height: 100%; }
+.w50 { width: 50%; }
+.h50 { height: 50%; }
+.w25 { width: 25%; }
+.h25 { height: 25%; }
+.w15 { width: 15%; }
+.h15 { height: 15%; }
+
 
 /* Colors (colors from variables in the theme) */
 :root{
