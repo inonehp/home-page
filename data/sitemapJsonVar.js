@@ -78,7 +78,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/css-art\/halloween-pumpkin-css-15\/index.html",
-        "text": "CSS Drawing Halloween Pumpkin\n\nCSS art description. | halloween pumpkin css: ",
+        "text": "CSS Halloween Pumpkin\n\nCSS art description. | halloween pumpkin css: ",
         "tag": " #CSSArt #HTML #CSS #project",
         "id": "87235f94bbe31a176e3f94530683948e",
         "time": "id"
