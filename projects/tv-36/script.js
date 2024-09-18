@@ -1,4 +1,4 @@
-// TV v.1.3.0
+// TV v.1.3.1
 // Mini TV service
 
 function randomRadio(printId, jsonVar){
@@ -150,7 +150,7 @@ document.getElementById(printId).innerHTML = `
 </div>
 </div>
 
-<a class="tag padding2 light border borderRadius2 margin2" onclick="reload()"  style="display: block; text-align: center;" href="#">reload</a>
+<a class="tag padding2 light border borderRadius2 margin2" onclick="reload()"  style="display: block; text-align: center;" href="#">random</a>
 <!-- // post -->
 
 <!--<div class="small tRight block margin2 padding2 op">total: ${jsonVar.length}</div>-->

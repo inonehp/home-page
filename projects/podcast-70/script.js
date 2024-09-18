@@ -1,8 +1,11 @@
-// Radio v.1.3.3
-// Mini Tunein or mini radio service
+// Podcast v.1.0.0
+// Mini Google Podcast
 
 
 function randomRadio(printId, jsonVar){
+
+var w = '100%';
+var h = '275px';
 
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function getRandomInt(max) {
@@ -24,21 +27,21 @@ var url = new URL(window.location);
 
 
 var q = url.searchParams.get("q");
-if(q != null&&q != ""){
+if (q != null&&q != ""){
 q = q.trim();
-localStorage.setItem('randomRadioQ', q);
+localStorage.setItem('randomPodcastQ', q);
 }
 
 
 var tag = url.searchParams.get("tag");
-if(tag != null){
+if (tag != null){
 tag = tag.trim();
 }
 
 
 
-if(q == null){ q = localStorage.getItem('randomRadioQ'); }
-if(q == null) { q = '#radio'; tag = q; }
+if (q == null){ q = localStorage.getItem('randomPodcastQ'); }
+if (q == null) { q = '#podcast'; tag = q; }
 var q2 = q;
 
 
@@ -58,20 +61,20 @@ postTag = '';
 postUrl = '';
 postTime = '';
 
-if(item['id'] != null){ postId = item['id']; }
-if(item['text'] != null){ postText = item['text']; }
-if(item['text2'] != null){ postText2 = item['text2']; }
-if(item['text3'] != null){ postText3 = item['text3']; }
-if(item['tag'] != null){ postTag = item['tag']; }
-if(item['url'] != null){ postUrl = item['url']; }
-if(item['time'] != null){ postTime = item['time']; }
+if (item['id'] != null){ postId = item['id']; }
+if (item['text'] != null){ postText = item['text']; }
+if (item['text2'] != null){ postText2 = item['text2']; }
+if (item['text3'] != null){ postText3 = item['text3']; }
+if (item['tag'] != null){ postTag = item['tag']; }
+if (item['url'] != null){ postUrl = item['url']; }
+if (item['time'] != null){ postTime = item['time']; }
 
 // collect all tag
 printTagList += ' ' + postTag + conf["confSymbolForSplit"] + ' ';
 
 let qSearch = "";
-if(q2 != ''){
-//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
+if (q2 != ''){
+//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if ((qData).search(qSearch) != -1){}
 qSearch = decodeURIComponent(q2);
 qSearch = String(qSearch).toLowerCase();
 }
@@ -79,24 +82,24 @@ qSearch = String(qSearch).toLowerCase();
 
 
 // if tag
-//if(qSearch[0] == '#'){}
+//if (qSearch[0] == '#'){}
 qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag + ' ' + postUrl).toLowerCase();
-/*if(qSearch[0] == '#'){ qData = qData.replaceAll(/,/g, ' '); } */
-if((qData).indexOf((qSearch)) != -1){
+/*if (qSearch[0] == '#'){ qData = qData.replaceAll(/,/g, ' '); } */
+if ((qData).indexOf((qSearch)) != -1){
 arrListForRandom.push(key);
 i++;
 total = i;
 comMessagePrint = `<b class="tCenter">${q2} ${i}</b>`;
-/*document.getElementsByTagName('title')[0].innerHTML = `Random Radio ${q2}`;
+/*document.getElementsByTagName('title')[0].innerHTML = `Random Podcast ${q2}`;
 document.getElementsByTagName('title')[0].innerHTML += ' | '+domainNameToTitle;*/
 }
 });
 
-if(arrListForRandom.length > 0){
+if (arrListForRandom.length > 0){
 getP2 = Math.floor(Math.random() * arrListForRandom.length);
 id = arrListForRandom[getP2];
 checkNotFound = '';
-}else{
+} else {
 comMessagePrint = '<div><h3 class="red h3 bold">not found</h3></div>';
 //id = getRandomInt(jsonVar.length);
 //comMessagePrint += '<span class=""> random id: '+id+'</span>';
@@ -108,7 +111,7 @@ checkNotFound = 'Not Found';
 
 
 
-if(checkNotFound == ''){
+if (checkNotFound == ''){
 //var id = getRandomInt(jsonVar.length);
 
 var tmp = document.createElement ('a');
@@ -116,10 +119,10 @@ tmp.href   = jsonVar[id]['url'];
 var host = tmp.hostname;
 
 var playSource = '';
-if(jsonVar[id]['text2'] != ''){
-if((jsonVar[id]['text2'].toLowerCase()).indexOf((q2.toLowerCase())) != -1){
+if (jsonVar[id]['text2'] != ''){
+if ((jsonVar[id]['text2'].toLowerCase()).indexOf((q2.toLowerCase())) != -1){
 playSource = `<span class="block padding2List">play source: <a class="brand borderBottomOrange"  href="${jsonVar[id]['text2']}">${jsonVar[id]['text2']}</a></span>`;
-}else{
+} else {
 playSource = `<span class="block padding2List">play source: <a class="brand"  href="${jsonVar[id]['text2']}">${jsonVar[id]['text2']}</a></span>`;
 }
 }
@@ -187,7 +190,7 @@ let forSplit = [`
 ]
 text.forEach((item) => {
 forSplit.forEach((item2) => { // foreach
-if(item == item2){
+if (item == item2){
 item = item+conf["confSymbolForSplit"];
 }
 });
@@ -205,28 +208,115 @@ const myArray = text2.split(conf["confSymbolForSplit"]);
 myArray.forEach((item) => {
 var cleanItem = item;
 //text += item.hostname;
-//if(item.search("http") != -1){ 
-/*if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){ 
+//if (item.search("http") != -1){ 
+/*if (item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){ 
 var host = new URL(item).hostname; // stop working when error
 }
 */
 
 let checkEmbedEmpty = item.split('/');
-//if(item.split('/').length > 4){
-if(checkEmbedEmpty[3]){
+//if (item.split('/').length > 4){
+if (checkEmbedEmpty[3]){
 var host = item.split('/');
-if(count == 0){
-if(host[3] != undefined){
+if (count == 0){
+if (host[3] != undefined){
+
 switch (host[2]) {
+
+
 case "tunein.com":
 play = item.split('/');
 play = play[play.length - 2];
 play = play.split('-');
 play = play[play.length - 1];
-//if(conf['confDevice'] == 'mobile'){}
+//if (conf['confDevice'] == 'mobile'){}
 embed2 = `<iframe src="https://tunein.com/embed/player/${play}/?autoplay=true&background=${conf['confThemeEmbed']}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
 //embed2 = `<iframe src="http://tunein.com/embed/player/${play}/?autoplay=true&background=${conf['confThemeEmbed']}" style="height:100px;" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>`;
 break;
+
+
+case "youtu.be":
+case "m.youtube.com":
+case "www.youtube.com":
+case "music.youtube.com":
+
+if((item).indexOf((`v=`)) != -1){
+play = item.split('v=').pop();
+if(play != ''){
+embed2 = `<!--<iframe id="player" style="border:0;" height="${h}" width="${w}" src="https://www.youtube.com/embed/${play}"></iframe>--><iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/${play}?&autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; autoplay; picture-in-picture" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
+}
+}
+
+if((item).indexOf((`list`)) != -1){
+play = item.split('list=');
+play = play[1];
+if(play != ''){
+embed2 = `<iframe width="${w}" height="${h}" src="https://www.youtube-nocookie.com/embed/videoseries?list=${play}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
+}
+}
+
+if((item).indexOf((`featured`)) != -1||(item).indexOf((`@`)) != -1){
+play = item.split('/');
+play = play[3];
+if(play != ''){
+play = play.replace("@", "");
+embed2 = `<iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/?listType=user_uploads&list=${play}&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+embedServiceList += 'youtube';
+}
+}
+break;
+
+
+case "soundcloud.com":
+play = item;
+
+var script2 = document.createElement('script');
+script2.type='text/javascript';
+//script2.async = true;
+script2.defer = true;
+script2.charset = 'utf-8';
+script2.src = "https://w.soundcloud.com/player/api.js";
+document.getElementsByTagName('head')[0].appendChild(script2); 
+
+embed2 = '<iframe  id="sc-widget" width="' + w + '" height="' + h + '" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=' + play +'&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>'; 
+
+
+onload = (event) => {
+
+
+  (function(){
+    var widgetIframe = document.getElementById('sc-widget'),
+        widget       = SC.Widget(widgetIframe);
+
+    widget.bind(SC.Widget.Events.READY, function() {
+      // load new widget
+      widget.bind(SC.Widget.Events.FINISH, function() {
+// Simulate an HTTP redirect:
+
+//reload(); 
+
+      });
+    });
+
+  }());
+
+}
+break;
+
+
+/*case "www.ivoox.com":
+play = item.split('_');
+play = play[play.length - 2];
+
+if (play != ''){
+embed2 = `<iframe scrolling="no" frameborder="0" autoplay="1" autoplay="autoplay" height="200" src="https://www.ivoox.com/player_ej_'.${play}.'_4_1.html?autoplay=1"></iframe>`; 
+} else {
+embed2 = 'empty embed2';
+}
+break;*/
+
 
 //default:
 
@@ -242,19 +332,19 @@ count++;
 itemCheck = item.replaceAll(/\./g, conf["confSymbolForSplit"]);
 
 /*
-if(item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1){ 
+if (item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1){ 
 embed = `<a href="${item}"><img class="border" src="${item}" width=""></a>`
 }*/
 
-if(count == 0){
+if (count == 0){
 
-if(jsonVar[id]['text3'] == 'm3u8') {
+if (jsonVar[id]['text3'] == 'm3u8') {
 play = jsonVar[id]['text2'];
 embed2 = `<iframe src="https://www.hlsplayer.org/play?url=${play}" style="width: 100%; height: ${h};" scrolling="no" frameborder="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>player: <a class="brand" href="https://www.hlsplayer.org/">www.hlsplayer.org</a>`;
 count++;
 }
 
-if(jsonVar[id]['text3'] == 'mpd') {
+if (jsonVar[id]['text3'] == 'mpd') {
 play = jsonVar[id]['text2'];
 embed2 = `<video data-dashjs-player autoplay src="${play}" controls>
 </video>player: <a href="https://github.com/Dash-Industry-Forum/dash.js">dash.js</a>`;
@@ -263,13 +353,13 @@ count++;
 }
 
 
-if(jsonVar[id]['text3'] == 'mp3'||jsonVar[id]['text3'] == 'aac'||jsonVar[id]['text3'] == 'mpeg') {
+if (jsonVar[id]['text3'] == 'mp3'||jsonVar[id]['text3'] == 'aac'||jsonVar[id]['text3'] == 'mpeg') {
 play = jsonVar[id]['text2'];
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${play}" type="audio/mpeg">Your browser does not support the audio element.</audio>`;
 count++;
 }
 
-if(jsonVar[id]['text3'] == 'ogg') {
+if (jsonVar[id]['text3'] == 'ogg') {
 play = jsonVar[id]['text2'];
 embed2 = `<audio controls autoplay style="width:100%; opacity:0.8"><source src="${play}" type="audio/ogg">Your browser does not support the audio element.</audio>`;
 count++;
@@ -277,37 +367,37 @@ count++;
 
 
 
-if(jsonVar[id]['text3'] == 'iframe') {
+if (jsonVar[id]['text3'] == 'iframe') {
 play = jsonVar[id]['text2'];
 embed2 = `<iframe width="${w}" height="360" src="${play}"></iframe>`;
 count++;
 }
-/*if(item.search("tunein.com") == -1&&item.slice(0, 4) == 'http'&&item.search("http|://") != -1) {
+/*if (item.search("tunein.com") == -1&&item.slice(0, 4) == 'http'&&item.search("http|://") != -1) {
 embed2 = `<iframe width="${w}" height="340" src="${item}"></iframe>`;
 }*/
 
 }
 
 
-//if(item.search("http") != -1){
-if(item.slice(0, 4) == 'http'&&item.search("http|://") != -1){
+//if (item.search("http") != -1){
+if (item.slice(0, 4) == 'http'&&item.search("http|://") != -1){
 item = `<a class="brand" href="${item}">${item}</a>`;
 }
 
 //add tag
-if(item[0] == '#'){
+if (item[0] == '#'){
 
 item = item.replaceAll(/#/g, "");
-if(hrefInOut == 'out'){
+if (hrefInOut == 'out'){
 /*item = `<a rel="nofollow" href="/projects/blog-in-progress/?q=${item} tag">#${item} <span class="sup">⇗</span></a>`;*/
 item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
-}else{
+} else {
 item = `<a class="brand" rel="nofollow" href="${scriptDir}?q=%23${item}">#${item}</a>`;
 }
 }
 
 
-if(
+if (
 (q2.toLowerCase()).indexOf((cleanItem.toLowerCase())) != -1||
 (cleanItem.toLowerCase()).indexOf((q2.toLowerCase())) != -1
 ){
@@ -319,7 +409,7 @@ text += item;
 
 /*
 // multi embed
-if(multiEmbedStatus == 'on'&&embedStatus != 'off'){
+if (multiEmbedStatus == 'on'&&embedStatus != 'off'){
 text += embed+embed2;
 embed = '';
 embed2 = '';
@@ -331,7 +421,7 @@ embed2 = '';
 });
 /*
 // single embed
-if(multiEmbedStatus != 'on'){ text += embed+embed2; }
+if (multiEmbedStatus != 'on'){ text += embed+embed2; }
 */
 
 
@@ -381,7 +471,7 @@ var tagTotal = 0;
 // make uniq and count, object
 var tagListCount = {};
 tagList2.forEach(function (x) {
-if(x != null&&x != ''){
+if (x != null&&x != ''){
 tagListCount[x] = (tagListCount[x] || 0) + 1;
 }
 });
@@ -403,7 +493,7 @@ tagListCountSorted.reverse();
 // Taglist limit (cut array) with sorted tag and convert to old object, sorted previos
 tagListCountLimited = {};
 tagListCountSorted.forEach(function (item, key) {
-if(key <= tagListLimit){
+if (key <= tagListLimit){
 tagListCountLimited[item[0]] = item[1];
 }
 });
@@ -515,24 +605,24 @@ fuTag(tagCount);
 
 
 
-if(tag != ''){
+if (tag != ''){
 let printTag = tag;
 let printTag2 = tag.replaceAll(/#/g, "");
 let goTag = encodeURIComponent(tag);
 
 let hlClass = '';
-if(printTag[0] != undefined){
+if (printTag[0] != undefined){
 hlClass = 'hlClass'+printTag2[0].toLowerCase();
 hlClassList += printTag2[0].toLowerCase();
 }
 
-if(q == tag){
+if (q == tag){
 tagList += `
 
 <a class="tag light border borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: ${tagColor}; font-size: ${tagSize};">${printTag}</a>
 
 `;
-}else{
+} else {
 
 tagList += `
 
@@ -621,7 +711,7 @@ document.getElementById(printId).innerHTML +=  `
 
 
 
-if(embedServiceList.search(`mpd`) != -1) {
+if (embedServiceList.search(`mpd`) != -1) {
 var script2 = document.createElement('script');
 script2.type='text/javascript';
 script2.async = true;

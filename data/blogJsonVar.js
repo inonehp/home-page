@@ -3,6 +3,16 @@ var blogJsonVar =
 
 [
     {
+        "id": "267",
+        "text": "Oracle urged again to surrender JavaScript trademark \u2022 The Register",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.theregister.com\/2024\/09\/17\/oracle_urged_to_surrender_javascript_trademark\/",
+        "tag": "#news #programming #coding",
+        "time": 1726640090,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=267\">id<\/a>"
+    },
+    {
         "id": "266",
         "text": "Firefox 130.0, See All New Features, Updates and Fixes",
         "text2": "",

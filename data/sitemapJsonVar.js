@@ -71,7 +71,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/css-art\/computer-css-9\/index.html",
-        "text": "CSS Drawing PC\n\nCSS art description. | computer css: ",
+        "text": "CSS Computer (PC)\n\nCSS art description. | computer css: ",
         "tag": " #CSSArt #HTML #CSS #project",
         "id": "4323f85c70362e68f21d1489742b2fad",
         "time": "id"
@@ -564,6 +564,13 @@ var sitemapJsonVar = [
         "text": "Site navigation menu with auto dropdown\n\nSite navigation menu with a auto dropdown. (the current site navigation has been used.) | navigation: ",
         "tag": " #navigation #menu #dropdown #CSS #JavaScript #project",
         "id": "7ce68fffa61d1d30e58bc8a6f3cbfbc9",
+        "time": "id"
+    },
+    {
+        "url": "\/projects\/podcast-70\/index.html",
+        "text": "Random Radio\n\nA small collection of podcasts that are randomly selected and automatically played. | podcast: ",
+        "tag": " #podcast #random #online #colection #embed #JavaScript #project",
+        "id": "45035fca1a58fbf64d92ed9bb1c454ef",
         "time": "id"
     },
     {

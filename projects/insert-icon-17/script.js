@@ -154,6 +154,8 @@ let icons2 = [
 {"t":"character", "t2":"Abc", "t3":"code"}, 
 {"t":"dictionary", "t2":"Abc", "t3":"text"}, 
 {"t":"dial", "t2":"▬", "t3":"four-rectangles"}, 
+{"t":"app", "t2":"▬", "t3":"app"}, 
+{"t":"software", "t2":"▬", "t3":"app"}, 
 {"t":"task", "t2":"📝", "t3":"memo"},
 {"t":"note", "t2":"📝", "t3":"memo"},
 {"t":"reminde", "t2":"📝", "t3":"memo"},

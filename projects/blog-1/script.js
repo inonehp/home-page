@@ -1,5 +1,5 @@
-// Keep or blog v.2.10.1
-// Mini Twitter, Google Keep
+// Keep or blog v.2.10.3
+// Mini Twitter, Keep (by Google)
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
 // JSON data in JS varible, time - in UNIX format
@@ -1708,14 +1708,15 @@ embed = `<iframe width="${w}" height="315" src="https://www.youtube.com/embed/?l
 embedServiceList += 'youtube';
 }
 }
-
 break;
+
 
 case 'vimeo.com':
 play = item.split('/');
 embed = `<iframe src="https://player.vimeo.com/video/`+play[play.length-1]+`?badge=0" height="${h}"  frameborder="0"></iframe>`;
 embedServiceList += 'vimeo';
 break;
+
 
 case "x.com":
 case "mobile.x.com":
@@ -1729,10 +1730,12 @@ embedServiceList += 'xcom';
 embedServiceList += 'twitter';
 break;
 
+
 case "www.threads.net":
 embed = `<blockquote class="text-post-media" data-text-post-permalink="${item}" data-text-post-version="0"></blockquote><!--<script async src="https://www.threads.net/embed.js"></script>-->`;
 embedServiceList += 'threads';
 break;
+
 
 case "www.reddit.com":
 if(item.split('/').length >= 9){
@@ -1742,9 +1745,11 @@ embed = `<blockquote class="reddit-embed-bq" style="height:auto" data-embed-them
 embedServiceList += 'reddit';
 break;
 
+
 case "soundcloud.com":
 embed = `<iframe width="${w}" height="${h}" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=${item}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;
 break;
+
 
 case "tunein.com":
 play = item.split('/');
@@ -1755,6 +1760,7 @@ embed = `<!--<iframe src="https://tunein.com/embed/player/${play}/?autoplay=fals
 embedServiceList += 'tunein';
 break;
 
+
 case "codepen.io":
 play = item.split('/');
 play = play[play.length - 1];
@@ -1762,12 +1768,14 @@ embed = `<p class="codepen" data-height="420" data-default-tab="result" data-the
 embedServiceList += 'codepen';
 break;
 
+
 case "giphy.com":
 play = item.split('-');
 play = play[play.length - 1];
 embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/$play">via GIPHY</a></p>`;
 embedServiceList += 'giphy';
 break;
+
 
 case "archive.org":
 if(item.search(`/details/`) != -1) {
@@ -1778,6 +1786,7 @@ embed = `<iframe src="https://archive.org/embed/${play}" width="${w}" height="${
 embedServiceList += 'archive';
 }
 break;
+
 
 case "www.instagram.com":
 case "instagram.com":
@@ -1794,6 +1803,7 @@ embedServiceList += 'instagram';
 }
 break;
 
+
 case "open.spotify.com":
 //https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
 play = item.split('?', 1)[0];
@@ -1802,7 +1812,6 @@ play = item.split('/');
 if (play[play.length - 2] == 'playlist') {
 play2 = play[play.length - 1];
 embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
-embedServiceList += 'spotify';
 }
 
 if (play[play.length - 2] == 'track') {
@@ -1815,9 +1824,18 @@ play2 = play[play.length - 1];
 embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
 }
 
+if (play[play.length - 2] == 'episode') {
+play2 = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/${play2}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+}
+
+if (play[play.length - 2] == 'show') {
+play2 = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/${play2}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+}
+
+embedServiceList += 'spotify';
 break;
-
-
 
 
 case 'deezer.com':
@@ -1885,6 +1903,7 @@ embed = `<blockquote class="imgur-embed-pub" lang="en" data-id="a/${play}"><a hr
 embedServiceList += 'imgur';
 break;
 
+
 case 'dailymotion.com':
 case 'www.dailymotion.com':
 play = item.split('/');
@@ -1892,6 +1911,7 @@ play = play[play.length - 1];
 embed = `<iframe frameborder="0" width="${w}" height="${h}" src="https://www.dailymotion.com/embed/video/${play}" allowfullscreen allow="autoplay"></iframe>`;
 embedServiceList += 'dailymotion';
 break;
+
 
 case 'www.twitch.tv':
 play = item.split('/');
@@ -2212,14 +2232,15 @@ embed = `<iframe width="${w}" height="315" src="https://www.youtube.com/embed/?l
 embedServiceList += 'youtube';
 }
 }
-
 break;
+
 
 case 'vimeo.com':
 play = item.split('/');
 embed = `<iframe src="https://player.vimeo.com/video/`+play[play.length-1]+`?badge=0&autoplay=1" height="${h}"  frameborder="0"></iframe>`;
 embedServiceList += 'vimeo';
 break;
+
 
 case "x.com":
 case "mobile.x.com":
@@ -2233,10 +2254,12 @@ embedServiceList += 'xcom';
 embedServiceList += 'twitter';
 break;
 
+
 case "www.threads.net":
 embed = `<blockquote class="text-post-media" data-text-post-permalink="${item}" data-text-post-version="0"></blockquote><!--<script async src="https://www.threads.net/embed.js"></script>-->`;
 embedServiceList += 'threads';
 break;
+
 
 case "www.reddit.com":
 if(item.split('/').length >= 9){
@@ -2246,10 +2269,12 @@ embedServiceList += 'reddit';
 }
 break;
 
+
 case "soundcloud.com":
 embed = `<iframe width="${w}" height="${h}" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=${item}&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;
 embedServiceList += 'soundcloud';
 break;
+
 
 case "tunein.com":
 play = item.split('/');
@@ -2263,6 +2288,7 @@ embed = `<iframe width="${w}" height="300" src="${item}"></iframe>`;
 }
 embedServiceList += 'tunein';
 break;
+
 
 case "codepen.io":
 play = item.split('/');
@@ -2279,6 +2305,7 @@ embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" 
 embedServiceList += 'giphy';
 break;
 
+
 case "archive.org":
 if (item.search(`/details/`) != -1) {
 play = item.split('/');
@@ -2288,6 +2315,7 @@ embed = `<iframe src="https://archive.org/embed/${play}" width="${w}" height="${
 embedServiceList += 'archive';
 }
 break;
+
 
 case "www.instagram.com":
 case "instagram.com":
@@ -2303,6 +2331,7 @@ embed = `<style>iframe.instagram-media {
 embedServiceList += 'instagram';
 }
 break;
+
 
 case "open.spotify.com":
 //https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
@@ -2323,10 +2352,19 @@ if (play[play.length - 2] == 'artist') {
 play2 = play[play.length - 1];
 embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/${play2}?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;
 }
+
+if (play[play.length - 2] == 'episode') {
+play2 = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/${play2}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+}
+
+if (play[play.length - 2] == 'show') {
+play2 = play[play.length - 1];
+embed = `<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/${play2}" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`;
+}
+
 embedServiceList += 'spotify';
 break;
-
-
 
 
 case 'deezer.com':
@@ -2351,6 +2389,7 @@ embed = `<iframe title="deezer-widget" src="https://widget.deezer.com/widget/${c
 }
 embedServiceList += 'deezer';
 break;
+
 
 case 'pinterest.com':
 case 'www.pinterest.com':
@@ -2386,12 +2425,14 @@ embed = `
 embedServiceList += 'pinterest';
 break;
 
+
 case 'imgur.com':
 play = item.split('/');
 play = play[play.length - 1];
 embed = `<blockquote class="imgur-embed-pub" lang="en" data-id="a/${play}"><a href="//imgur.com/a/${play}">${item}</a></blockquote><!--<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>-->`;
 embedServiceList += 'imgur';
 break;
+
 
 case 'dailymotion.com':
 case 'www.dailymotion.com':
@@ -2400,6 +2441,7 @@ play = play[play.length - 1];
 embed = `<iframe frameborder="0" width="${w}" height="${h}" src="https://www.dailymotion.com/embed/video/${play}?autoplay=1" allowfullscreen allow="autoplay"></iframe>`;
 embedServiceList += 'dailymotion';
 break;
+
 
 case 'www.twitch.tv':
 play = item.split('/');

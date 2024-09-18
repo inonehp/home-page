@@ -320,8 +320,6 @@ break;
 
     
 case "soundcloud.com":
-
-        
 var script2 = document.createElement('script');
 script2.type='text/javascript';
 //script2.async = true;
@@ -353,8 +351,7 @@ reload();
   }());
 
 }
-
- break;
+break;
 
 case 'dailymotion.com':
 case 'www.dailymotion.com':

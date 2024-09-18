@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>CSS Computer (PC)</title>
+<title>Random Radio</title>
 
 <meta name="description" content="
-CSS art description.
+A small collection of podcasts that are randomly selected and automatically played.
 ">
 <meta name="keywords" content="
-CSSArt, HTML, CSS, project,
+podcast, random,
+online,
+colection, embed,
+JavaScript,
+project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,10 +35,12 @@ CSSArt, HTML, CSS, project,
 </noscript>
 <!-- end main -->
 
-<!--<link rel="preload" href="script.js" as="script">-->
+<link rel="preload" href="script.js" as="script"> 
 
 <link rel="preload" href="style.css" as="style">
 <link rel="stylesheet" href="style.css" type="text/css">
+
+<link rel="preload" href="/data/radioJsonVar.js" as="script"> 
 
 </head>
 <body>
@@ -47,82 +53,37 @@ CSSArt, HTML, CSS, project,
 </nav>
 </header>
 
-<h1 class="tCenter op">CSS Drawing PC</h1>
-<div class="margin2 padding2"></div>
 
 <!-- content -->
-<main class="contentCenter">
-<div class="wrapper">
+<main class="content">
+
+<h1 class="tCenter op insertIconTitle">Random Podcast</h1>
+<div class="tCenter op small">in progress</div>
 
 
-<div class="pDrawing">
+<div id="lPrint"></div>
 
-<div class="pTable"></div>
 
-<div class="pTv"></div>
-<div class="pTvBorder"></div>
-<div class="pTvBottom"></div>
-<div class="pTvBottom2"></div>
 
-<div class="pKeyboard">
-<div class="pKey"></div>
-<div class="pKey2"></div>
-<div class="pKey3"></div>
-<div class="pKey4"></div>
-<div class="pKey5"></div>
-<div class="pKey6"></div>
-<div class="pKey7"></div>
-<div class="pKey8"></div>
-<div class="pKey9"></div>
+
+
+<div class="wrapper op">
+<div class="block tRight op padding2"></div>
 </div>
 
-<div class="pPc">
-<div class="pPcLine"></div>
-<div class="pPcLine"></div>
-</div>
-
-<div class="pFlower"></div>
-<div class="pFlower2"></div>
-<div class="pFlower3"></div>
-
-<div class="pWindow">
-<div class="pWindow2"></div>
-<div class="pWindow3"></div>
-</div>
-<div class="pWindowBorder">
-
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-</div>
 </main>
-<!-- // content -->
+<!-- end content -->
 
-<footer></footer>
-<!--<footer id="footer"></footer>-->
+
+<footer id="footer"></footer>
 
 <script src="../../js/main.js"></script>
 
+<script src="../../data/podcastJsonVar.js"></script>
+<script src="script.js"></script>
 <script>
-//fuMSetTheme('light');
+randomRadio('lPrint', podcastJsonVar)
 </script>
-
-<!--<script src="script.js"></script>-->
 
 </body>
 </html>

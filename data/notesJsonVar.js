@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "64",
+        "text": "PHP using Gettext inside <<<EOF string - Stack Overflow",
+        "text2": "var in EOF",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.com\/questions\/3694327\/php-using-gettext-inside-eof-string",
+        "tag": "#fix #PHP",
+        "time": 1726661208,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=64\">id<\/a>"
+    },
+    {
         "id": "63",
         "text": "php - \"Fatal error: Cannot redeclare <function>\" - Stack Overflow",
         "text2": "",

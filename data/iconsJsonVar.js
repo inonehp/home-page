@@ -14,6 +14,118 @@ var iconsJsonVar =
 `,
 },
 {
+"text": `app`,
+"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   version="1.1"
+   viewBox="0 0 135.47 135.47"
+   id="svg4"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <g
+     id="g8"
+     transform="matrix(0.78124999,0,0,0.78124999,14.817032,14.817032)">
+    <g
+       id="g7">
+      <rect
+         style="fill:#000000;stroke-width:2.10638"
+         id="rect7"
+         width="35.280594"
+         height="35.280594"
+         x="0"
+         y="100.18941"
+         rx="3.6188366"
+         ry="4.1442084" />
+      <rect
+         style="fill:#000000;stroke-width:2.10638"
+         id="rect7-3"
+         width="35.280594"
+         height="35.280594"
+         x="100.18941"
+         y="100.18941"
+         rx="3.6188366"
+         ry="4.1442084" />
+      <rect
+         style="fill:#000000;stroke-width:2.10638"
+         id="rect7-3-6"
+         width="35.280594"
+         height="35.280594"
+         x="50.094704"
+         y="100.18941"
+         rx="3.6188366"
+         ry="4.1442084" />
+    </g>
+    <g
+       id="g7-0"
+       transform="translate(0,-100.18941)">
+      <rect
+         style="fill:#000000;stroke-width:2.10638"
+         id="rect7-6"
+         width="35.280594"
+         height="35.280594"
+         x="0"
+         y="100.18941"
+         rx="3.6188366"
+         ry="4.1442084" />
+      <rect
+         style="fill:#000000;stroke-width:2.10638"
+         id="rect7-3-2"
+         width="35.280594"
+         height="35.280594"
+         x="100.18941"
+         y="100.18941"
+         rx="3.6188366"
+         ry="4.1442084" />
+      <rect
+         style="fill:#000000;stroke-width:2.10638"
+         id="rect7-3-6-6"
+         width="35.280594"
+         height="35.280594"
+         x="50.094704"
+         y="100.18941"
+         rx="3.6188366"
+         ry="4.1442084" />
+    </g>
+    <g
+       id="g7-0-1"
+       transform="translate(-6.1035157e-7,-50.094704)">
+      <rect
+         style="fill:#000000;stroke-width:2.10638"
+         id="rect7-6-8"
+         width="35.280594"
+         height="35.280594"
+         x="0"
+         y="100.18941"
+         rx="3.6188366"
+         ry="4.1442084" />
+      <rect
+         style="fill:#000000;stroke-width:2.10638"
+         id="rect7-3-2-7"
+         width="35.280594"
+         height="35.280594"
+         x="100.18941"
+         y="100.18941"
+         rx="3.6188366"
+         ry="4.1442084" />
+      <rect
+         style="fill:#000000;stroke-width:2.10638"
+         id="rect7-3-6-6-9"
+         width="35.280594"
+         height="35.280594"
+         x="50.094704"
+         y="100.18941"
+         rx="3.6188366"
+         ry="4.1442084" />
+    </g>
+  </g>
+</svg>
+`,
+},
+{
 "text": `blocked`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <defs>
@@ -170,8 +282,35 @@ var iconsJsonVar =
 },
 {
 "text": `code`,
-"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
- <text x="4.7057438" y="371.38699" font-family="'Open Sans'" font-size="323.27px" font-weight="bold" stroke-width="4.3501" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:5em" xml:space="preserve"><tspan x="4.7057438" y="371.38699" font-family="'Open Sans'" font-size="323.27px" font-weight="bold" stroke-width="4.3501" style="font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal">&lt;/&gt;</tspan></text>
+"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   version="1.1"
+   viewBox="0 0 512 512"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <text
+     x="17.836985"
+     y="365.28555"
+     font-family="'Open Sans'"
+     font-size="306.122px"
+     font-weight="bold"
+     stroke-width="4.11935"
+     style="line-height:5em;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+     xml:space="preserve"
+     id="text1"><tspan
+       x="17.836985"
+       y="365.28555"
+       font-family="'Open Sans'"
+       font-size="306.122px"
+       font-weight="bold"
+       stroke-width="4.11935"
+       style="font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       id="tspan1">&lt;/&gt;</tspan></text>
 </svg>
 `,
 },

@@ -223,16 +223,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=142\">id<\/a>"
     },
     {
-        "id": "140",
-        "text": "The leading podcast platform in Spanish - iVoox",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/us.ivoox.com\/en\/",
-        "tag": "#podcast #platform",
-        "time": 1715050295,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=140\">id<\/a>"
-    },
-    {
         "id": "139",
         "text": "Albion Online | The Fantasy Sandbox MMORPG",
         "text2": "",
