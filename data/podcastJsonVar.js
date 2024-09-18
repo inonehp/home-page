@@ -21,15 +21,6 @@ var podcastJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Stream SoundCloud | Listen to podcast episodes online for free on SoundCloud",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/soundcloud.com\/soundcloud",
-        "tag": "#podcast #music",
-        "time": 1726651159,
-        "rightFooter": ""
-    },
-    {
         "text": "Stream Tech Talks | Listen to podcast episodes online for free on SoundCloud",
         "text2": "",
         "text3": "",
