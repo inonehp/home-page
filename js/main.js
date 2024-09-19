@@ -1,11 +1,11 @@
-// Main js v.6.9.11
+// Main js v.6.9.12
 // For navigation (second), footer, themes, etc
 
 // Settings
 
 var conf = [];
 
-conf["confUsername"] = "irvirty";
+conf["confUsername"] = "irvirty"; // only in some places
 conf["confHostingDomain"] = "pages.dev";
 conf["confGoogleAnalyticsId"] = "G-RQJTJG7DF9";
 // wrapper size for navigation, number in px from your CSS

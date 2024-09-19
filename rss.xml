@@ -146,6 +146,19 @@ https://twitter.com/NASAHubble/status/1767941684799615165
 </item>
 
 <item>
+<pubDate>Thu, 19 Sep 24 06:03:11 +0300</pubDate>
+<title><![CDATA[Buy Me a Coffee 
+ ]]></title>
+<link><![CDATA[https://buymeacoffee.com/]]></link>
+<description>
+<![CDATA[
+Buy Me a Coffee 
+https://buymeacoffee.com/
+]]>
+</description>
+</item>
+
+<item>
 <pubDate>Mon, 16 Sep 24 04:53:31 +0300</pubDate>
 <title><![CDATA[Blog  |  Chrome for Developers 
  ]]></title>
@@ -263,19 +276,6 @@ https://www.designsystems.com/
 </item>
 
 <item>
-<pubDate>Wed, 10 Jul 24 14:27:01 +0300</pubDate>
-<title><![CDATA[Material Design Blog - Material Design 
- ]]></title>
-<link><![CDATA[https://m3.material.io/blog]]></link>
-<description>
-<![CDATA[
-Material Design Blog - Material Design 
-https://m3.material.io/blog
-]]>
-</description>
-</item>
-
-<item>
 <pubDate>Sun, 21 Jul 24 04:28:03 +0300</pubDate>
 <title><![CDATA[Web design notes 
 Notes:
@@ -334,10 +334,12 @@ Task:
 - UX. Popup. Email subscription popup.
 - UX. Popup. Fake notifications. + (1) New Messages! in title.
 - UX. Popup. Intall app.
+- UX. Popup. Paywall.
 - UX. Popup. Push notification popup.
 - UX. Popup. Registration pop-up window.
 - UX. Popup. Sign-in prompt popup.
 - UX. Prohibit copying and pasting into form input fields such as passwords or credit card numbers. <!--https://www.reddit.com/r/webdev/comments/1c0txo5/is_there_some_kind_of_industry_recommendation_to/#-->
+- UX. Scroll. Endless scrolling
 - UX. Scroll. Modify scrolling speed.
 - UX. Scroll. Not responsive. Horizontal page scrolling.
 - UX. Scroll. The page automatically scrolls up, jumps.

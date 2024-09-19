@@ -3,6 +3,16 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "173",
+        "text": "Buy Me a Coffee",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/buymeacoffee.com\/",
+        "tag": "#donate #platform",
+        "time": 1726714991,
+        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=173\">id<\/a>"
+    },
+    {
         "id": "172",
         "text": "Blog \u00a0|\u00a0 Chrome for Developers",
         "text2": "",
@@ -1228,7 +1238,7 @@ var bookmarksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.patreon.com\/",
-        "tag": "#donate",
+        "tag": "#donate #platform",
         "time": 1705739978,
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=4\">id<\/a>"
     },
