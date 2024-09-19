@@ -103,19 +103,19 @@ fuMEmbedScript(`/js/ads.js`, conf["confIdEmbedScript"]);
 
 window.addEventListener('load', function() {
 if (typeof fuAds == 'function'){
-lManyAds()
+lManyAds(0, 30);
 }
 });
 
 
 
-function lManyAds(){
+function lManyAds(min,max){
 
-let i = 0;
+let i = min;
 do {
 i = i + 1;
 fuAds('', 'manyAds' + i, 'force');
-} while (i <= 30);
+} while (i <= max);
 
 
 }
@@ -181,9 +181,27 @@ document.getElementById('fPrivacy').innerText = `Cookie: ${option}`;
 
 
 
+let endlessCounter = 0;
+//fixme height
+window.onscroll = event => {
+
+if (document.documentElement.scrollTop >= document.getElementById("endlessAdsFooter").offsetTop - ((document.documentElement.clientHeight))){
+
+if(document.getElementById("endlessAdsPrint") != null){
+document.getElementById("endlessAdsPrint").innerHTML += `
+<span id="endlessAds${endlessCounter}">manyAds</span>
+`;
+fuAds("", "endlessAds" + endlessCounter, "force");
+//console.log(`endlessAds${endlessCounter}`);
+endlessCounter++;
+
+} else {
+//document.getElementById(counter).classList.remove(styleClassName);
+document.getElementById("endlessAdsPrint").innerHTML = '';
+}
 
 
-
-
+}
+}
 
 

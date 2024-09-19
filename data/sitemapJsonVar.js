@@ -497,13 +497,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/effect-when-scroll-48\/index.html",
-        "text": "Effect when scroll to element\n\nEffect when scroll to element. | effect when scroll: ",
-        "tag": " #effect #scroll #JS #function #UI #UX #JavaScript #CSS #project",
-        "id": "26c3f546f51968c8b74e2dbca5b08032",
-        "time": "id"
-    },
-    {
         "url": "\/projects\/google-programmable-search-49\/index.html",
         "text": "Programmable Search\n\nGoogle programmable search engine. (Google custom search engine) | google programmable search: ",
         "tag": " #search #engine #tool #HTML #Google #embed",
@@ -634,6 +627,13 @@ var sitemapJsonVar = [
         "text": "Remove duplicates\n\nRemove duplicates. Remove duplicate items. | remove duplicates: ",
         "tag": " #tool #duplicates #remove #itmes #CSS #JavaScript #project",
         "id": "f86d027451a664e1290a813f5146c924",
+        "time": "id"
+    },
+    {
+        "url": "\/projects\/scroll-effect-when-scroll-48\/index.html",
+        "text": "Effect when scroll to element\n\nEffect when scroll to element. | scroll effect when scroll: ",
+        "tag": " #effect #scroll #JS #function #UI #UX #JavaScript #CSS #project",
+        "id": "937085cfa782101c587234b865495994",
         "time": "id"
     },
     {

@@ -3,7 +3,6 @@
 
 body {
 margin: 0;
-background-color: SeaShell;
 }
 
 .content {
@@ -27,15 +26,16 @@ right: 0;
 
 min-height: 40vh;
 
-background-color: orange;
-border: 3px solid red;
+background-color: var(--orange);
+border: 3px solid var(--red);
+color: var(--c3R);
 
 }
 
 
 
 .lEffect {
-background: lime;
+background: var(--green);
 }
 
 
@@ -44,5 +44,6 @@ background: lime;
   position: fixed;
   left: 0;
   top: 50vh;
-  border: 3px solid red;
+  border: 3px solid var(--red);
 }
+]]]
