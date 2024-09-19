@@ -1,10 +1,10 @@
-// Insert icon v.4.2.0
+// Insert icon v.4.2.1
 // Function for insert icon in links using class name.
 /*
 How to use:
 1. Add class: "insertIcon" to link
 2. Embed two scripts: iconsJsonVar.js and then script.js
-3. Run function: insertIcon('insertIcon', '', 'on', iconsJsonVar);
+3. Run function: insertIcon('insertIcon', '', 'on', iconsJsonVar, '');
 */
 
 
@@ -133,6 +133,7 @@ let icons2 = [
 {"t":"insert", "t2":"📋", "t3":"paste"},
 {"t":"paste", "t2":"📋"},
 {"t":"profile", "t2":"👤", "t3":"profile"},
+{"t":"i", "t2":"👤", "t3":"profile"},
 {"t":"prohibited", "t2":"🚫", "t3":"blocked"},
 {"t":"blocked", "t2":"🚫", "t3":"blocked"},
 {"t":"agi", "t2":"👤", "t3":"star"},
