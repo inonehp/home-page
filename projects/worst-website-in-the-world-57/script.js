@@ -88,24 +88,28 @@ onblur = (event) => {
 document.getElementsByTagName('title')[0].innerHTML = "New Message! (1)";
 
 // auto scroll
-document.getElementById("processor").scrollIntoView();
+document.getElementById("scrollToTop").scrollIntoView();
 };
 
 
 
 
 
+if(typeof fuAds != 'function'){
+fuMEmbedScript(`/data/adsJsonVar.js`, conf["confIdEmbedScript"]);
+fuMEmbedScript(`/js/ads.js`, conf["confIdEmbedScript"]);
+}
+
 
 window.addEventListener('load', function() {
-
+if (typeof fuAds == 'function'){
 lManyAds()
-
+}
 });
 
 
+
 function lManyAds(){
-
-
 
 let i = 0;
 do {

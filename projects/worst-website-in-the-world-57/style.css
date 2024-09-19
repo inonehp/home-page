@@ -61,18 +61,6 @@ to { transform: rotate(360deg); }
 
 
 
-.lAds {
-display: block;
-content: "test";
-position: sticky;
-top: 0px;
-font-size: 16px;
-}
-
-.ads {
-z-index: 10;
-}
-
 
 html {
 overflow-x: scroll;
@@ -85,12 +73,6 @@ max-width: 999px;
 
 
 /* ads */
-#manyAds1 {
-border: 2px solid orange;
-min-height: 200px
-}
-
-
 
 #manyAds10 {
 min-width: 500px;
@@ -152,6 +134,31 @@ padding: 15px;
 }
 
 
+
+
+
+.topPanelFixed {
+display: block;
+position: fixed;
+max-width: calc(100% - (var(--bodyPadding) * 2));
+background: var(--bg);
+padding: var(--padding3) 0;
+border-bottom: 5px solid var(--c);
+min-height: 150px;
+}
+.topPanelSpace {
+height: 150px;
+}
+html {
+scroll-padding-top: 150px;
+}
+
+
+
+
+
+
+
 /* fix */
 ul {
 padding: 0;
@@ -160,4 +167,6 @@ padding: 0;
 li {
 padding: 5px;
 }
+
+
 
