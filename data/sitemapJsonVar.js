@@ -561,7 +561,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/podcast-70\/index.html",
-        "text": "Random Radio\n\nA small collection of podcasts that are randomly selected and automatically played. | podcast: ",
+        "text": "Random Podcast\n\nA small collection of podcasts that are randomly selected and automatically played. | podcast: ",
         "tag": " #podcast #random #online #colection #embed #JavaScript #project",
         "id": "45035fca1a58fbf64d92ed9bb1c454ef",
         "time": "id"

@@ -2,7 +2,7 @@
 // Mini Google Podcast
 
 
-function randomRadio(printId, jsonVar){
+function randomPodcast(printId, jsonVar){
 
 var w = '100%';
 var h = '275px';
