@@ -1,4 +1,4 @@
-// Main js v.6.9.14
+// Main js v.6.9.15
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -37,7 +37,7 @@ const confData = [
 "confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/themes.html">/themes.html</a>`,
 "confName":"confTheme",
 "confValueDefault":"auto",
-"confValueVariant":["light", "dark", "auto", "auto-t-rand-all", "auto-rand-all"],
+"confValueVariant":["light", "dark", "auto-time", "auto", "auto-t-rand-all", "auto-rand-all"],
 },
 {
 "confTitle":"Icons",
