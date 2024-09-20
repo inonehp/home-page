@@ -763,13 +763,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/worst-website-in-the-world-57\/index.html",
-        "text": "The worst website in the world\n\nThe worst website in the world | worst website in the world: ",
-        "tag": " #worst #website #world #CSS #JavaScript #project",
-        "id": "773d6e23742c31946527c2239a91efe5",
-        "time": "id"
-    },
-    {
         "url": "\/search.html",
         "text": "Search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | search: ",
         "tag": " #web #search #redirection #redirect #page #main",

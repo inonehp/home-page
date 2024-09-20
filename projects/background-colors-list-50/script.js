@@ -1,4 +1,4 @@
-// Bg colors list v.1.0.1
+// Bg colors list v.1.0.2
 
 
 function fuLPrintBgRun(){
@@ -39,7 +39,7 @@ let lAllBgColorsDark = {
 "medium dark forest":"#255742",
 "medium dark gray":"#4A4A4A",
 "medium dark green":"#255729",
-"medium dark olive":"#4F5725",
+"medium dark olive":"#465725",
 "medium dark pink":"#732E63",
 "medium dark plum":"#5E2743",
 "medium dark purple":"#582863",
@@ -47,7 +47,7 @@ let lAllBgColorsDark = {
 "medium dark sea":"#285963",
 "medium dark slate":"#24594E",
 "medium dark violet":"#3E275E",
-"medium dark yellow":"#5E5A27",
+"medium dark yellow":"#595936",
 "dark":"#2D2D2E",
 "dark blue":"#34363B",
 "dark green":"#343B39",
