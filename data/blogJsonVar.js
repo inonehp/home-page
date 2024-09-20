@@ -3,6 +3,16 @@ var blogJsonVar =
 
 [
     {
+        "id": "268",
+        "text": "What is \"Good\" Design? A quick look at Dieter Rams' Ten Principles. - Design Museum",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/designmuseum.org\/discover-design\/all-stories\/what-is-good-design-a-quick-look-at-dieter-rams-ten-principles",
+        "tag": "#WebDesign",
+        "time": 1726819593,
+        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=268\">id<\/a>"
+    },
+    {
         "id": "266",
         "text": "Firefox 130.0, See All New Features, Updates and Fixes",
         "text2": "",
@@ -531,16 +541,6 @@ var blogJsonVar =
         "tag": "#photo #space",
         "time": 1695776381,
         "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=172\">id<\/a>"
-    },
-    {
-        "id": "171",
-        "text": "I found a way to remove the metadata from an Inkscape SVG file, you just need to save it as Plain SVG, plus it creates compatibility with other editors.\r\n\r\nSource: Google with quary q= \"what it's plain svg\" -> https:\/\/wiki.inkscape.org\/wiki\/PlainSVG)",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#privacy #GraphicDesign #note",
-        "time": 1695600481,
-        "rightFooter": "<a class=\"brand\" href=\"\/blog.html?id=171\">id<\/a>"
     },
     {
         "id": "170",
