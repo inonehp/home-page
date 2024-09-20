@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "65",
+        "text": "Delete all records in a table of MYSQL in phpMyAdmin - Stack Overflow",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.com\/questions\/18271951\/delete-all-records-in-a-table-of-mysql-in-phpmyadmin",
+        "tag": "#fix #PHP",
+        "time": 1726800650,
+        "rightFooter": "<a class=\"brand\" href=\"\/notes.html?id=65\">id<\/a>"
+    },
+    {
         "id": "64",
         "text": "PHP using Gettext inside <<<EOF string - Stack Overflow",
         "text2": "var in EOF",

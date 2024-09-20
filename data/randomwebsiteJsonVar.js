@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "45",
+        "text": "js13kGames 2024 - web game development competition in just 13kB",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/js13kgames.com\/",
+        "tag": "#games #cool",
+        "time": 1726798859,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=45\">id<\/a>"
+    },
+    {
         "id": "44",
         "text": "Discover the top streamed music and songs online on Soundcloud",
         "text2": "",
@@ -241,16 +251,6 @@ var randomwebsiteJsonVar =
         "tag": "#WebDevelopment #WebDesign #nice",
         "time": 1726216267,
         "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=20\">id<\/a>"
-    },
-    {
-        "id": "19",
-        "text": "Home | Bill Gates",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.gatesnotes.com\/",
-        "tag": "#personal #nice #cool #technology",
-        "time": 1726216021,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=19\">id<\/a>"
     },
     {
         "id": "18",

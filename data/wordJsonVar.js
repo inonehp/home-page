@@ -1571,11 +1571,6 @@ var wordJsonVar =
         "text3": "hambre"
     },
     {
-        "text": "\u0433\u043e\u043b\u043e\u0434\u0443\u0432\u0430\u043d\u043d\u044f",
-        "text2": "starvation",
-        "text3": "huelga de hambre"
-    },
-    {
         "text": "\u0433\u043e\u043b\u043e\u0441",
         "text2": "voice",
         "text3": "la voz"
