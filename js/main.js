@@ -1,4 +1,4 @@
-// Main js v.6.9.15
+// Main js v.6.9.16
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -1340,18 +1340,6 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 }
 // end Embed scripts
 
-
-
-function fuMFormReset(){
-
-if (document.querySelectorAll("textarea")[0] != null){
-var inputTextareaArr = document.querySelectorAll("textarea");
-inputTextareaArr.forEach((val, index) => {
-document.querySelectorAll("textarea")[index].textContent = "";
-});
-}
-
-}
 
 // fu hide ext
 fuMHideFileNameExt2();
