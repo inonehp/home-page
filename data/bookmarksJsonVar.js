@@ -1243,16 +1243,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=4\">id<\/a>"
     },
     {
-        "id": "3",
-        "text": "The New Yorker",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.newyorker.com\/",
-        "tag": "#culture",
-        "time": 1705739939,
-        "rightFooter": "<a class=\"brand\" href=\"\/bookmarks.html?id=3\">id<\/a>"
-    },
-    {
         "id": "1",
         "text": "CSS Artist",
         "text2": "",

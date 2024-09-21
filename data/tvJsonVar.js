@@ -210,15 +210,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "NBC News - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@NBCNews\/featured",
-        "tag": "#TV #en #news",
-        "time": 1689242436,
-        "rightFooter": ""
-    },
-    {
         "text": "NPR Music - YouTube",
         "text2": "",
         "text3": "",

@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "46",
+        "text": "Slashdot: News for nerds, stuff that matters",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/slashdot.org\/",
+        "tag": "#news #technology",
+        "time": 1726846017,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=46\">id<\/a>"
+    },
+    {
         "id": "45",
         "text": "js13kGames 2024 - web game development competition in just 13kB",
         "text2": "",
