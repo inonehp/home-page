@@ -932,7 +932,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/themes.html",
-        "text": "Themes options\n\nSetting a color theme for the site or choosing a site theme mode.\nAbout ~50\/2 color themes with possible day and night modes with dark and light theme modes. | themes: ",
+        "text": "Theme options\n\nSetting the color theme for the site or choosing the site theme mode depending on the time of day or depending on the theme in the browser or the theme in the operating system. | themes: ",
         "tag": " #theme #themes #color #colors #setting #page #main",
         "id": "2d150acc6f248aeb4d602015299cf7e1",
         "time": "id"
