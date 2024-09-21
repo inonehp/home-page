@@ -209,7 +209,7 @@ if (conf["confMenu"] == "on"){
 if (document.getElementById("secondNav") != null){
 document.getElementById("secondNav").innerHTML = `
 
-<!-- Nav v.1.2.0 -->
+<!-- Nav v.1.2.3 -->
 <!-- page, main js, noscript.css -->
 <div class="wrapper3 navTop">
 <div class="margin"></div>
@@ -220,7 +220,7 @@ document.getElementById("secondNav").innerHTML = `
 <div class="menuTop">
 ${conf["confMenuItems2"]}
 </div>
-<!-- end menuTop -->
+<!-- // menuTop -->
 
 <!-- dropdown menu -->
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
@@ -245,7 +245,7 @@ ${conf["confMenuItems2"]}
 <span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding mClassNavUp brand" style="margin-right: var(--padding);" href="../" title="../Up">List (↑)</a>
+<a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent" style="margin-right: var(--padding);" href="../" title="../Up">List (↑)</a>
 <form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/site-search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
