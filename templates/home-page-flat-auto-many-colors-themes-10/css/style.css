@@ -44,7 +44,7 @@ font-weight: bold;
 }*/
 
 .logo, .logo2 {
-transition: transform 1.8s ease-in-out;
+transition: transform 1.5s ease-in-out;
 }
 
 .logo:hover, .logo2:hover{

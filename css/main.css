@@ -1,4 +1,4 @@
-/* Main style v.18.0.0
+/* Main style v.18.0.1
 Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 /* Main */
@@ -207,19 +207,18 @@ vertical-align: middle;
 text-align: center;
 padding: 1px;
 border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
-}
 
-.logo2 { width: 26px; height: 26px; }
-
-.logo, .logo2 {
-transition: transform 250ms ease-in-out;
+transition: transform .250s ease-in-out;
 animation: mAni 500ms 0s, mAniBlink 500ms .5s;
 opacity: 1;
 }
 
 .logo:hover, .logo2:hover{
 transform: rotate(360deg);
+transition: transform 1.5s ease-in-out;
 }
+
+.logo2 { width: 26px; height: 26px; }
 
 @media (prefers-reduced-motion) {
 .logo:hover, .logo2:hover{ border-color: var(--c); }
