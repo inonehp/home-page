@@ -1,4 +1,4 @@
-/* v.1.17.2 */
+/* v.1.17.3 */
 
 
 
@@ -115,6 +115,15 @@ border-bottom: 2px dotted var(--d3);
 #secondNav nav {
 text-align: left;
 }
+}
+
+.itemLinkAni {
+transition: 1.5s;
+border-bottom: 2px solid transparent;
+}
+
+.itemLinkAni:hover {
+border-bottom: 2px solid var(--brand);
 }
 
 
