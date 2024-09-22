@@ -1,4 +1,4 @@
-// Typing Speed Test or Typing Speed Game v.3.18.0
+// Typing Speed Test or Typing Speed Game v.3.18.1
 
 
 
@@ -281,12 +281,13 @@ document.getElementById('text').rows = '';
 
 
 
-function fuLtr(){
+function fuLtr(lTrTask){
 if (location.hostname == 'localhost'){
-document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/?q=' + encodeURIComponent(task) + ' d"> tr2</a>';
-document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task) + ' t">tr</a>';
+if (lTrTask == undefined){ lTrTask = task; }
+document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/?q=' + encodeURIComponent(lTrTask) + ' d"> tr2</a>';
+document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
 } else {
-document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(task) + ' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
 }
 }
 
@@ -332,7 +333,7 @@ document.getElementById("lPrintTr").style.display = "none";
 function main(task){
 
 if (mode != 'abc'&&mode != 'free'&&mode != 'f2'){
-fuLtr();
+fuLtr(task);
 } else {
 document.getElementById("mode2").innerHTML = '';
 }
