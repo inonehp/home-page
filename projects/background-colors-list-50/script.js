@@ -1,4 +1,4 @@
-// Bg colors list v.1.0.2
+// Bg colors list v.1.1.0
 
 
 function fuLPrintBgRun(){
@@ -18,16 +18,17 @@ let lAllBgColorsLight = {
 "light SeaShell":"#FFF5EE",
 "light violet":"#E6E4EB",
 "light yellow":"#EBEAE4",
+"medium blue":"#DDE0EB",
 "medium green":"#BCEBBC",
 "medium lime":"#D0EBBC",
 "medium mint":"#BCEBD2",
 "medium olive":"#DCEBBC",
 "medium orange":"#EBDBBC",
 "medium pink":"#FFE6E6",
-"medium plum":"#EBD3DF",
-"medium purple":"#E8D3EB",
+"medium plum":"#EBDBE3",
+"medium purple":"#E9DBEB",
 "medium red":"#EBDDDD",
-"medium sea":"#BCDFEB",
+"medium sea":"#CFE4EB",
 "medium silver":"#EBEBEB",
 "medium violet":"#EAE4F2",
 "medium yellow":"#EBE5BC",
