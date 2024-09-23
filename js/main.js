@@ -1,4 +1,4 @@
-// Main js v.6.10.2
+// Main js v.6.10.3
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -178,7 +178,7 @@ document.getElementById(id).innerHTML = text;
 conf["confMenuItems"] = [
 {"url":"/main-list.html", "name":"Main", "title":"Main"},
 {"url":"/games-list.html", "name":"Games", "title":"Games list"},
-{"url":"/projects-page.html", "name":"Projects", "title":"Projects page"},
+{"url":"/projects-group-list.html", "name":"Projects", "title":"Projects page"},
 //{"url":"/archive.html", "name":"Archive", "title":"Archive"},
 ];
 

@@ -281,7 +281,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/main\/themes.html",
-        "text": "Theme options\n\nSetting the color theme for the site or choosing the site theme mode depending on the time of day or depending on the theme in the browser or the theme in the operating system. | main: ",
+        "text": "Theme options\n\nSetting the color theme or choosing theme mode depending on the time of day or depending on the theme in the browser or the theme in the operating system. | main: ",
         "tag": " #theme #themes #color #colors #setting #page #main",
         "id": "a56754866d0da1a147d7a98b9d07d688",
         "time": "id"
