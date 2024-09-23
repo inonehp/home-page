@@ -1,4 +1,4 @@
-// Main js v.6.10.1
+// Main js v.6.10.2
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -34,7 +34,7 @@ conf["confIdEmbedScript"] = "footer";
 const confData = [
 {
 "confTitle":"Theme",
-"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/themes.html">/themes.html</a>`,
+"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/main/themes.html">/themes.html</a>`,
 "confName":"confTheme",
 "confValueDefault":"auto",
 "confValueVariant":["light", "dark", "auto-time", "auto", "auto-t-rand-all", "auto-rand-all"],
@@ -215,6 +215,7 @@ document.getElementById("secondNav").innerHTML = `
 <div class="margin"></div>
 <nav>
 
+<span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <div class="menuTop">
@@ -225,7 +226,7 @@ ${conf["confMenuItems2"]}
 <!-- dropdown menu -->
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
-<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding" id="dropdownMenuButton">☰ Menu</button>
+<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding borderBottomTransparent itemLinkAni" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2 borderRadius2">
 <div class="dropdownMenuWrapper">
 <!--<div class="padding2">section</div>-->
@@ -244,9 +245,8 @@ ${conf["confMenuItems2"]}
 
 <span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
-<span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent" style="margin-right: var(--padding);" href="../" title="../Up">List (up)</a>
-<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/site-search.html" role="search">
+<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -432,7 +432,7 @@ fuMPrintText("footer", `
 
 <div>
 <!--<a class="brand" href="#goBack" onclick="history.back()">Go Back</a>-->
-<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/themes.html">Themes</a></span>
+<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/main/themes.html">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
 <span id="fHomePageButton"></span>
 <span id="fPinButton"></span>
@@ -440,8 +440,8 @@ fuMPrintText("footer", `
 
 <span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://${conf["confUsername"]}.bsky.social/">Bluesky</a></span>
 <span class="inlineBlock padding brand" title="RSS News"><a class="brand" href="/rss.xml">RSS</a></span>
-<span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/settings.html">Settings</a></span>
-<span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
+<span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/main/settings.html">Settings</a></span>
+<span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/main/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
 <span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/${conf["confUsername"]}/${conf["confUsername"]}.pages.dev">Source Code</a></span>
 <span class="inlineBlock padding" title="About"><a class="inlineBlock padding brand" href="/about.html">About</a></span>
 

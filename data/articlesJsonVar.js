@@ -10,7 +10,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#WebDesign #notes",
         "time": 1721525283,
-        "rightFooter": "<a class=\"brand\" href=\"\/articles.html?id=15\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/articles.html?id=15\">id<\/a>"
     },
     {
         "id": "12",
@@ -20,7 +20,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#WebDesign #resources #links",
         "time": 1712410445,
-        "rightFooter": "<a class=\"brand\" href=\"\/articles.html?id=12\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/articles.html?id=12\">id<\/a>"
     },
     {
         "id": "9",
@@ -30,7 +30,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#SEO #WebDesign",
         "time": 1711321237,
-        "rightFooter": "<a class=\"brand\" href=\"\/articles.html?id=9\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/articles.html?id=9\">id<\/a>"
     },
     {
         "id": "7",
@@ -40,7 +40,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#theme #auto #automatic #dark #light #mode",
         "time": 1710664085,
-        "rightFooter": "<a class=\"brand\" href=\"\/articles.html?id=7\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/articles.html?id=7\">id<\/a>"
     },
     {
         "id": "5",
@@ -50,7 +50,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#CSS #responsive #UI #WebDesign #note",
         "time": 1706230527,
-        "rightFooter": "<a class=\"brand\" href=\"\/articles.html?id=5\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/articles.html?id=5\">id<\/a>"
     },
     {
         "id": "3",
@@ -60,7 +60,7 @@ var articlesJsonVar =
         "url": "",
         "tag": "#HTML",
         "time": 1704534741,
-        "rightFooter": "<a class=\"brand\" href=\"\/articles.html?id=3\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/articles.html?id=3\">id<\/a>"
     },
     {
         "id": "1",
@@ -70,6 +70,6 @@ var articlesJsonVar =
         "url": "",
         "tag": "#start #end",
         "time": 1704235006,
-        "rightFooter": "<a class=\"brand\" href=\"\/articles.html?id=1\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/articles.html?id=1\">id<\/a>"
     }
 ]

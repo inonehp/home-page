@@ -1,4 +1,4 @@
-// Search redirects v.2.2.21
+// Search redirects v.2.2.22
 // Mini Google
 // The script redirects the search query + command.
 
@@ -144,7 +144,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q.trim());
 urlList = [
-"/site-search.html?q=" + q + " r",
+"/main/site-search.html?q=" + q + " r",
 ];
 if (q == ''){
 urlList = [
@@ -163,7 +163,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/site-search.html?q=" + q + " r",
+"/main/site-search.html?q=" + q + " r",
 ];
 if (q == ''){
 urlList = [
@@ -813,11 +813,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/site-search.html?q=" + q,
+"/main/site-search.html?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"/site-search.html",
+"/main/site-search.html",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -831,11 +831,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/bookmarks.html?q=" + q,
+"/main/bookmarks.html?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"/bookmarks.html",
+"/main/bookmarks.html",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

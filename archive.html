@@ -22,18 +22,18 @@ archive, all, page, main,
 
 
 <!-- main -->
-<link rel="preload" href="./js/main.js" as="script">
+<link rel="preload" href="/js/main.js" as="script">
 
-<link rel="preload" href="./css/main.css" as="style">
-<link rel="stylesheet" href="./css/main.css" type="text/css">
-<link rel="preload" href="./css/auto.css" as="style">
-<link rel="stylesheet" type="text/css" href="./css/auto.css" id="theme">
+<link rel="preload" href="/css/main.css" as="style">
+<link rel="stylesheet" href="/css/main.css" type="text/css">
+<link rel="preload" href="/css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="/css/auto.css" id="theme">
 
-<link rel="preload" href="./css/style.css" as="style">
-<link rel="stylesheet" href="./css/style.css" type="text/css">
+<link rel="preload" href="/css/style.css" as="style">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
 
 <noscript>
-<link rel="stylesheet" type="text/css" href="./css/noscript.css">
+<link rel="stylesheet" type="text/css" href="/css/noscript.css">
 </noscript>
 <!-- // main -->
 
@@ -55,13 +55,14 @@ archive, all, page, main,
 <div class="margin"></div>
 <nav>
 
-<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="./index.html" title="index / nav 1"><img class="logo2 reduceLight" src="./img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+<span class="countMenuItem"></span>
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <div class="menuTop">
 <!-- menu items -->
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="./main-list.html">Main</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="./games-list.html">Games</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="./projects-page.html">Projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="/main-list.html">Main</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="/games-list.html">Games</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="/projects-page.html">Projects</a>
 <!-- // menu items -->
 </div>
 <!-- // menuTop -->
@@ -69,16 +70,16 @@ archive, all, page, main,
 <!-- dropdown menu -->
 <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
-<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding" id="dropdownMenuButton">☰ Menu</button>
+<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding borderBottomTransparent itemLinkAni" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2 borderRadius2">
 <div class="dropdownMenuWrapper">
 <!--<div class="padding2">menu name</div>-->
 <div class="dropdownMenuContentColumn">
 
 <!-- menu items dublicate -->
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="./main-list.html">Main</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="./games-list.html">Games</a>
-<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="./projects-page.html">Projects</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="/main-list.html">Main</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="/games-list.html">Games</a>
+<a class="countMenuItem brand borderBottomTransparent inlineBlock padding itemLinkAni" href="/projects-page.html">Projects</a>
 <!-- // menu items dublicate -->
 
 </div>
@@ -88,12 +89,10 @@ archive, all, page, main,
 <!--<hr />-->
 <!-- // dropdown menu -->
 
-
-<span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" style="margin-right: var(--padding);" href="../" title="../Up">List (up)</a>
-<form class="noscriptHide inlineBlock padding"  style="padding-right: 0;" method="GET" action="./site-search.html" role="search">
+<form class="noscriptHide inlineBlock padding"  style="padding-right: 0;" method="GET" action="/main/site-search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -116,9 +115,8 @@ archive, all, page, main,
 
 
 <!-- nav2 -->
-<div class="margin padding"></div>
-<hr>
-<div class="margin padding"></div>
+
+<div class="margin padding"><hr></div>
 
 <div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Lists:</div>
 
@@ -135,6 +133,8 @@ archive, all, page, main,
 <a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="old-projects-list.html"><span class="insertIcon firstLetterBold">Old projects</span></a>
 
 <a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="other-projects-list.html"><span class="insertIcon firstLetterBold">Other projects</span></a>
+
+<a class=" borderBottomBrand op  button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="archive.html"><span class="insertIcon firstLetterBold">Archive (All)</span></a>
 
 </div>
 
@@ -154,31 +154,30 @@ archive, all, page, main,
  
 
 <div class="menu small">
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="about.html"><span class="insertIcon firstLetterBold">About&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="archive.html"><span class="insertIcon firstLetterBold">Archive&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="articles.html"><span class="insertIcon firstLetterBold">Articles&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="blog.html"><span class="insertIcon firstLetterBold">Blog&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="bookmarks.html"><span class="insertIcon firstLetterBold">Bookmarks&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="changelog.html"><span class="insertIcon firstLetterBold">Changelog&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="chrome-extensions-page.html"><span class="insertIcon firstLetterBold">Chrome extensions page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="chrome-theme-page.html"><span class="insertIcon firstLetterBold">Chrome theme page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="css-art-page.html"><span class="insertIcon firstLetterBold">Css art page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="firefox-extensions-page.html"><span class="insertIcon firstLetterBold">Firefox extensions page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="firefox-theme-page.html"><span class="insertIcon firstLetterBold">Firefox theme page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="geany-theme-page.html"><span class="insertIcon firstLetterBold">Geany theme page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="icons-page.html"><span class="insertIcon firstLetterBold">Icons page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="images-page.html"><span class="insertIcon firstLetterBold">Images page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="notes.html"><span class="insertIcon firstLetterBold">Notes&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="photos-page.html"><span class="insertIcon firstLetterBold">Photos page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="posts.html"><span class="insertIcon firstLetterBold">Posts&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="search.html"><span class="insertIcon firstLetterBold">Search&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="site-search.html"><span class="insertIcon firstLetterBold">Site search&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="sitemap.html"><span class="insertIcon firstLetterBold">Sitemap&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="website-templates.html"><span class="insertIcon firstLetterBold">Website templates&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/about.html"><span class="insertIcon firstLetterBold">About&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/articles.html"><span class="insertIcon firstLetterBold">Articles&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/blog.html"><span class="insertIcon firstLetterBold">Blog&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/bookmarks.html"><span class="insertIcon firstLetterBold">Bookmarks&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/changelog.html"><span class="insertIcon firstLetterBold">Changelog&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/chrome-extensions-page.html"><span class="insertIcon firstLetterBold">Chrome extensions page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/chrome-theme-page.html"><span class="insertIcon firstLetterBold">Chrome theme page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/css-art-page.html"><span class="insertIcon firstLetterBold">Css art page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/firefox-extensions-page.html"><span class="insertIcon firstLetterBold">Firefox extensions page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/firefox-theme-page.html"><span class="insertIcon firstLetterBold">Firefox theme page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/geany-theme-page.html"><span class="insertIcon firstLetterBold">Geany theme page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/icons-page.html"><span class="insertIcon firstLetterBold">Icons page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/images-page.html"><span class="insertIcon firstLetterBold">Images page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/notes.html"><span class="insertIcon firstLetterBold">Notes&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/photos-page.html"><span class="insertIcon firstLetterBold">Photos page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/posts.html"><span class="insertIcon firstLetterBold">Posts&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/search.html"><span class="insertIcon firstLetterBold">Search&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/site-search.html"><span class="insertIcon firstLetterBold">Site search&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/sitemap.html"><span class="insertIcon firstLetterBold">Sitemap&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2 firstLetterBold" tabindex="0" href="/main/website-templates.html"><span class="insertIcon firstLetterBold">Website templates&nbsp;</span></a>
 </div>
 
 <div class="margin2"></div>
-<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 30  </div>
+<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 20 , last: website-templates.php </div>
 
 </nav>
 <!-- // menu -->
@@ -196,20 +195,20 @@ archive, all, page, main,
  
 
 <div class="menu small">
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/dice-9/index.html"><span class="insertIcon firstLetterBold">Dice&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/guess-number-10/index.html"><span class="insertIcon firstLetterBold">Guess number&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/lnnguage-learning-quiz-45/index.html"><span class="insertIcon firstLetterBold">Lnnguage learning quiz&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/memory-symbol-11/index.html"><span class="insertIcon firstLetterBold">Memory symbol&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/quiz-42/index.html"><span class="insertIcon firstLetterBold">Quiz&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/rock-paper-scissors-67/index.html"><span class="insertIcon firstLetterBold">Rock paper scissors&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/snake-12/index.html"><span class="insertIcon firstLetterBold">Snake&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/spin-wheel-69/index.html"><span class="insertIcon firstLetterBold">Spin wheel&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/tic-tac-toe-13/index.html"><span class="insertIcon firstLetterBold">Tic tac toe&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./games/typing-speed-14/index.html"><span class="insertIcon firstLetterBold">Typing speed&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/dice-9/index.html"><span class="insertIcon firstLetterBold">Dice&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/guess-number-10/index.html"><span class="insertIcon firstLetterBold">Guess number&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/lnnguage-learning-quiz-45/index.html"><span class="insertIcon firstLetterBold">Lnnguage learning quiz&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/memory-symbol-11/index.html"><span class="insertIcon firstLetterBold">Memory symbol&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/quiz-42/index.html"><span class="insertIcon firstLetterBold">Quiz&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/rock-paper-scissors-67/index.html"><span class="insertIcon firstLetterBold">Rock paper scissors&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/snake-12/index.html"><span class="insertIcon firstLetterBold">Snake&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/spin-wheel-69/index.html"><span class="insertIcon firstLetterBold">Spin wheel&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/tic-tac-toe-13/index.html"><span class="insertIcon firstLetterBold">Tic tac toe&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/games/typing-speed-14/index.html"><span class="insertIcon firstLetterBold">Typing speed&nbsp;</span></a>
 </div>
 
 <div class="margin2"></div>
-<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 11 , last: spin-wheel-69 </div>
+<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 10 , last: spin-wheel-69 </div>
 
 </nav>
 <!-- // menu -->
@@ -227,62 +226,62 @@ archive, all, page, main,
  
 
 <div class="menu small">
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/agi-countdown-59/index.html"><span class="insertIcon firstLetterBold">Agi countdown&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/average-number-40/index.html"><span class="insertIcon firstLetterBold">Average number&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/background-colors-list-50/index.html"><span class="insertIcon firstLetterBold">Background colors list&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/blocked-65/index.html"><span class="insertIcon firstLetterBold">Blocked&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/blog-1/index.html"><span class="insertIcon firstLetterBold">Blog&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/browser-info-test-js-2/index.html"><span class="insertIcon firstLetterBold">Browser info test js&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/calculator-3/index.html"><span class="insertIcon firstLetterBold">Calculator&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/color-picker-4/index.html"><span class="insertIcon firstLetterBold">Color picker&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/count-symbol-39/index.html"><span class="insertIcon firstLetterBold">Count symbol&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/demo-test-style-class-5/index.html"><span class="insertIcon firstLetterBold">Demo test style class&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/demo-test-style-ui-60/index.html"><span class="insertIcon firstLetterBold">Demo test style ui&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/drawing-7/index.html"><span class="insertIcon firstLetterBold">Drawing&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/google-programmable-search-49/index.html"><span class="insertIcon firstLetterBold">Google programmable search&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/google-trends-46/index.html"><span class="insertIcon firstLetterBold">Google trends&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/highlight-word-15/index.html"><span class="insertIcon firstLetterBold">Highlight word&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/home-page-68/index.html"><span class="insertIcon firstLetterBold">Home page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/insert-icon-17/index.html"><span class="insertIcon firstLetterBold">Insert icon&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/lag-test-47/index.html"><span class="insertIcon firstLetterBold">Lag test&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/movie-list-19/index.html"><span class="insertIcon firstLetterBold">Movie list&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/music-20/index.html"><span class="insertIcon firstLetterBold">Music&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/navigation-54/index.html"><span class="insertIcon firstLetterBold">Navigation&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/podcast-70/index.html"><span class="insertIcon firstLetterBold">Podcast&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/print-53/index.html"><span class="insertIcon firstLetterBold">Print&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/radio-22/index.html"><span class="insertIcon firstLetterBold">Radio&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/rain-38/index.html"><span class="insertIcon firstLetterBold">Rain&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/random-color-generator-51/index.html"><span class="insertIcon firstLetterBold">Random color generator&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/random-symbol-23/index.html"><span class="insertIcon firstLetterBold">Random symbol&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/random-text-generator-24/index.html"><span class="insertIcon firstLetterBold">Random text generator&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/random-website-69/index.html"><span class="insertIcon firstLetterBold">Random website&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/redirects-25/index.html"><span class="insertIcon firstLetterBold">Redirects&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/remove-duplicates-61/index.html"><span class="insertIcon firstLetterBold">Remove duplicates&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/scroll-effect-when-scroll-48/index.html"><span class="insertIcon firstLetterBold">Scroll effect when scroll&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/sorting-55/index.html"><span class="insertIcon firstLetterBold">Sorting&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/speech-to-text-63/index.html"><span class="insertIcon firstLetterBold">Speech to text&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/speed-dial-58/index.html"><span class="insertIcon firstLetterBold">Speed dial&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/start-page-41/index.html"><span class="insertIcon firstLetterBold">Start page&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/test-27/index.html"><span class="insertIcon firstLetterBold">Test&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/text-to-binary-52/index.html"><span class="insertIcon firstLetterBold">Text to binary&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/text-to-speech/index.html"><span class="insertIcon firstLetterBold">Text to speech&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/text-to-url-43/index.html"><span class="insertIcon firstLetterBold">Text to url&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/time-binary-clock-28/index.html"><span class="insertIcon firstLetterBold">Time binary clock&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/time-clock-29/index.html"><span class="insertIcon firstLetterBold">Time clock&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/time-stopwatch-30/index.html"><span class="insertIcon firstLetterBold">Time stopwatch&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/time-utc-clock-56/index.html"><span class="insertIcon firstLetterBold">Time utc clock&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/todo-list-31/index.html"><span class="insertIcon firstLetterBold">Todo list&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/todo-list-ideas-32/index.html"><span class="insertIcon firstLetterBold">Todo list ideas&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/tpl-projects-33/index.html"><span class="insertIcon firstLetterBold">Tpl projects&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/tpl-projects-app-34/index.html"><span class="insertIcon firstLetterBold">Tpl projects app&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/transliterate-35/index.html"><span class="insertIcon firstLetterBold">Transliterate&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/tv-36/index.html"><span class="insertIcon firstLetterBold">Tv&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/video-18/index.html"><span class="insertIcon firstLetterBold">Video&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./projects/weather-37/index.html"><span class="insertIcon firstLetterBold">Weather&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/agi-countdown-59/index.html"><span class="insertIcon firstLetterBold">Agi countdown&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/average-number-40/index.html"><span class="insertIcon firstLetterBold">Average number&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/background-colors-list-50/index.html"><span class="insertIcon firstLetterBold">Background colors list&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/blocked-65/index.html"><span class="insertIcon firstLetterBold">Blocked&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/blog-1/index.html"><span class="insertIcon firstLetterBold">Blog&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/browser-info-test-js-2/index.html"><span class="insertIcon firstLetterBold">Browser info test js&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/calculator-3/index.html"><span class="insertIcon firstLetterBold">Calculator&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/color-picker-4/index.html"><span class="insertIcon firstLetterBold">Color picker&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/count-symbol-39/index.html"><span class="insertIcon firstLetterBold">Count symbol&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/demo-test-style-class-5/index.html"><span class="insertIcon firstLetterBold">Demo test style class&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/demo-test-style-ui-60/index.html"><span class="insertIcon firstLetterBold">Demo test style ui&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/drawing-7/index.html"><span class="insertIcon firstLetterBold">Drawing&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/google-programmable-search-49/index.html"><span class="insertIcon firstLetterBold">Google programmable search&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/google-trends-46/index.html"><span class="insertIcon firstLetterBold">Google trends&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/highlight-word-15/index.html"><span class="insertIcon firstLetterBold">Highlight word&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/home-page-68/index.html"><span class="insertIcon firstLetterBold">Home page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/insert-icon-17/index.html"><span class="insertIcon firstLetterBold">Insert icon&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/lag-test-47/index.html"><span class="insertIcon firstLetterBold">Lag test&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/movie-list-19/index.html"><span class="insertIcon firstLetterBold">Movie list&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/music-20/index.html"><span class="insertIcon firstLetterBold">Music&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/navigation-54/index.html"><span class="insertIcon firstLetterBold">Navigation&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/podcast-70/index.html"><span class="insertIcon firstLetterBold">Podcast&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/print-53/index.html"><span class="insertIcon firstLetterBold">Print&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/radio-22/index.html"><span class="insertIcon firstLetterBold">Radio&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/rain-38/index.html"><span class="insertIcon firstLetterBold">Rain&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/random-color-generator-51/index.html"><span class="insertIcon firstLetterBold">Random color generator&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/random-symbol-23/index.html"><span class="insertIcon firstLetterBold">Random symbol&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/random-text-generator-24/index.html"><span class="insertIcon firstLetterBold">Random text generator&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/random-website-69/index.html"><span class="insertIcon firstLetterBold">Random website&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/redirects-25/index.html"><span class="insertIcon firstLetterBold">Redirects&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/remove-duplicates-61/index.html"><span class="insertIcon firstLetterBold">Remove duplicates&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/scroll-effect-when-scroll-48/index.html"><span class="insertIcon firstLetterBold">Scroll effect when scroll&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/sorting-55/index.html"><span class="insertIcon firstLetterBold">Sorting&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/speech-to-text-63/index.html"><span class="insertIcon firstLetterBold">Speech to text&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/speed-dial-58/index.html"><span class="insertIcon firstLetterBold">Speed dial&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/start-page-41/index.html"><span class="insertIcon firstLetterBold">Start page&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/test-27/index.html"><span class="insertIcon firstLetterBold">Test&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/text-to-binary-52/index.html"><span class="insertIcon firstLetterBold">Text to binary&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/text-to-speech/index.html"><span class="insertIcon firstLetterBold">Text to speech&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/text-to-url-43/index.html"><span class="insertIcon firstLetterBold">Text to url&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/time-binary-clock-28/index.html"><span class="insertIcon firstLetterBold">Time binary clock&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/time-clock-29/index.html"><span class="insertIcon firstLetterBold">Time clock&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/time-stopwatch-30/index.html"><span class="insertIcon firstLetterBold">Time stopwatch&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/time-utc-clock-56/index.html"><span class="insertIcon firstLetterBold">Time utc clock&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/todo-list-31/index.html"><span class="insertIcon firstLetterBold">Todo list&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/todo-list-ideas-32/index.html"><span class="insertIcon firstLetterBold">Todo list ideas&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/tpl-projects-33/index.html"><span class="insertIcon firstLetterBold">Tpl projects&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/tpl-projects-app-34/index.html"><span class="insertIcon firstLetterBold">Tpl projects app&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/transliterate-35/index.html"><span class="insertIcon firstLetterBold">Transliterate&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/tv-36/index.html"><span class="insertIcon firstLetterBold">Tv&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/video-18/index.html"><span class="insertIcon firstLetterBold">Video&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/projects/weather-37/index.html"><span class="insertIcon firstLetterBold">Weather&nbsp;</span></a>
 </div>
 
 <div class="margin2"></div>
-<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 53 , last: podcast-70 </div>
+<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 52 , last: podcast-70 </div>
 
 </nav>
 <!-- // menu -->
@@ -300,26 +299,26 @@ archive, all, page, main,
  
 
 <div class="menu small">
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/animated-borders-button-link-5/index.html"><span class="insertIcon firstLetterBold">Animated borders button link&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/animation-test-6/index.html"><span class="insertIcon firstLetterBold">Animation test&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/background-with-linear-gradient-css-7/index.html"><span class="insertIcon firstLetterBold">Background with linear gradient css&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/button-blur-unblur-28/index.html"><span class="insertIcon firstLetterBold">Button blur unblur&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/circle-8/index.html"><span class="insertIcon firstLetterBold">Circle&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/flex-grid-32/index.html"><span class="insertIcon firstLetterBold">Flex grid&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/heading-33/index.html"><span class="insertIcon firstLetterBold">Heading&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/hide-show-on-resize-35/index.html"><span class="insertIcon firstLetterBold">Hide show on resize&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/html-symbols-36/index.html"><span class="insertIcon firstLetterBold">Html symbols&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/light-and-dark-design-29/index.html"><span class="insertIcon firstLetterBold">Light and dark design&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/palette-generator-using-css-34/index.html"><span class="insertIcon firstLetterBold">Palette generator using css&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/project-ideas-37/index.html"><span class="insertIcon firstLetterBold">Project ideas&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/responsive-web-design-2/index.html"><span class="insertIcon firstLetterBold">Responsive web design&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/sun-and-moon-css-31/index.html"><span class="insertIcon firstLetterBold">Sun and moon css&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/textarea-24/index.html"><span class="insertIcon firstLetterBold">Textarea&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./mini-projects/tpl-project-mini-1/index.html"><span class="insertIcon firstLetterBold">Tpl project mini&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/animated-borders-button-link-5/index.html"><span class="insertIcon firstLetterBold">Animated borders button link&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/animation-test-6/index.html"><span class="insertIcon firstLetterBold">Animation test&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/background-with-linear-gradient-css-7/index.html"><span class="insertIcon firstLetterBold">Background with linear gradient css&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/button-blur-unblur-28/index.html"><span class="insertIcon firstLetterBold">Button blur unblur&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/circle-8/index.html"><span class="insertIcon firstLetterBold">Circle&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/flex-grid-32/index.html"><span class="insertIcon firstLetterBold">Flex grid&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/heading-33/index.html"><span class="insertIcon firstLetterBold">Heading&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/hide-show-on-resize-35/index.html"><span class="insertIcon firstLetterBold">Hide show on resize&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/html-symbols-36/index.html"><span class="insertIcon firstLetterBold">Html symbols&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/light-and-dark-design-29/index.html"><span class="insertIcon firstLetterBold">Light and dark design&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/palette-generator-using-css-34/index.html"><span class="insertIcon firstLetterBold">Palette generator using css&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/project-ideas-37/index.html"><span class="insertIcon firstLetterBold">Project ideas&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/responsive-web-design-2/index.html"><span class="insertIcon firstLetterBold">Responsive web design&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/sun-and-moon-css-31/index.html"><span class="insertIcon firstLetterBold">Sun and moon css&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/textarea-24/index.html"><span class="insertIcon firstLetterBold">Textarea&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/mini-projects/tpl-project-mini-1/index.html"><span class="insertIcon firstLetterBold">Tpl project mini&nbsp;</span></a>
 </div>
 
 <div class="margin2"></div>
-<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 17 , last: project-ideas-37 </div>
+<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 16 , last: project-ideas-37 </div>
 
 </nav>
 <!-- // menu -->
@@ -337,14 +336,14 @@ archive, all, page, main,
  
 
 <div class="menu small">
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./old-projects/dropdown-menu-8/index.html"><span class="insertIcon firstLetterBold">Dropdown menu&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./old-projects/hello-world-62/index.html"><span class="insertIcon firstLetterBold">Hello world&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./old-projects/not-sleep-pc-12/index.html"><span class="insertIcon firstLetterBold">Not sleep pc&nbsp;</span></a>
-<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="./old-projects/pwa-test-21/index.html"><span class="insertIcon firstLetterBold">Pwa test&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/old-projects/dropdown-menu-8/index.html"><span class="insertIcon firstLetterBold">Dropdown menu&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/old-projects/hello-world-62/index.html"><span class="insertIcon firstLetterBold">Hello world&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/old-projects/not-sleep-pc-12/index.html"><span class="insertIcon firstLetterBold">Not sleep pc&nbsp;</span></a>
+<a class="button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/old-projects/pwa-test-21/index.html"><span class="insertIcon firstLetterBold">Pwa test&nbsp;</span></a>
 </div>
 
 <div class="margin2"></div>
-<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 5 , last: hello-world-62 </div>
+<div class="borderRadius2 op greay xSmall padding2 bg border">total (approx): 4 , last: hello-world-62 </div>
 
 </nav>
 <!-- // menu -->
@@ -396,9 +395,8 @@ archive, all, page, main,
 
 
 <!-- nav2 -->
-<div class="margin padding"></div>
-<hr>
-<div class="margin padding"></div>
+
+<div class="margin padding"><hr></div>
 
 <div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Lists:</div>
 
@@ -415,6 +413,8 @@ archive, all, page, main,
 <a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="old-projects-list.html"><span class="insertIcon firstLetterBold">Old projects</span></a>
 
 <a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="other-projects-list.html"><span class="insertIcon firstLetterBold">Other projects</span></a>
+
+<a class=" borderBottomBrand op  button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="archive.html"><span class="insertIcon firstLetterBold">Archive (All)</span></a>
 
 </div>
 
@@ -439,9 +439,9 @@ archive, all, page, main,
 
 <footer id="footer"></footer>
 
-<script src="./js/main.js"></script>
+<script src="/js/main.js"></script>
 
-<script src="./js/script.js"></script>
+<script src="/js/script.js"></script>
 
 
 

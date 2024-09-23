@@ -1,72 +1,9 @@
 var sitemapJsonVar = [
     {
-        "url": "\/about.html",
-        "text": "About\n\nAbout the site, profiles, license, contacts. | about: ",
-        "tag": " #about #contact #donate #profile #support #page #main",
-        "id": "fb8a140d6f076647256a4ea161f4c280",
-        "time": "id"
-    },
-    {
-        "url": "\/ads.html",
-        "text": "Ads\n\nAd, ads. The page displays a list of possible ads or something else. | ads: ",
-        "tag": " #ad #ads #page #main",
-        "id": "88ac0d7efcaec004a38b73ca1695bcee",
-        "time": "id"
-    },
-    {
         "url": "\/archive.html",
         "text": "Archive\n\nArchive. All projects in one place. | archive: ",
         "tag": " #archive #all #page #main",
         "id": "09cf2c0a3d9e2da210eea3fb31989cfc",
-        "time": "id"
-    },
-    {
-        "url": "\/articles.html",
-        "text": "Articles\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | articles: ",
-        "tag": " #text #article #articles #post #page #main",
-        "id": "11ef5d9e7e3a8ced61f530289180ff6e",
-        "time": "id"
-    },
-    {
-        "url": "\/blog.html",
-        "text": "Blog\n\nBlog: reposts, likes, technology news, and other. | blog: ",
-        "tag": " #reposts #likes #post #blog #page #main",
-        "id": "7d022dd158b090bf0d55b0cef3d14865",
-        "time": "id"
-    },
-    {
-        "url": "\/bookmarks.html",
-        "text": "Bookmarks\n\nThe collection of links or bookmarks. | bookmarks: ",
-        "tag": " #websites #links #bookmark #collection #page #main",
-        "id": "aa88293f8ee14f5d71a86d98ae4af290",
-        "time": "id"
-    },
-    {
-        "url": "\/changelog.html",
-        "text": "Changelog\n\nChangelog. Site update history. About what's new on the site. Some changes and updates to the site may not be displayed here and updates may occur without post. | changelog: ",
-        "tag": " #update #news #new #page #main",
-        "id": "5358dd68cd0d7e1d36bc7a96e2c64e47",
-        "time": "id"
-    },
-    {
-        "url": "\/chrome-extensions-page.html",
-        "text": "Chrome extensions page\n\nChrome browser extension: new tab redirct ... | chrome extensions page: ",
-        "tag": " #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
-        "id": "09f65916966b90fac889f3778aa3efdf",
-        "time": "id"
-    },
-    {
-        "url": "\/chrome-theme-page.html",
-        "text": "Chrome theme page\n\nGoogle Chrome Themes. Themes for Google Chrome browser with a light and dark colors. | chrome theme page: ",
-        "tag": " #Chrome #theme #light #project #page #main",
-        "id": "8e7c7bf3406bfad7263b7e037117c423",
-        "time": "id"
-    },
-    {
-        "url": "\/css-art-page.html",
-        "text": "CSS Art\n\nCSS Art - a fun way to practice CSS. | css art page: ",
-        "tag": " #CSS #HTML #art #projects #list #page #main",
-        "id": "c1e3612baaf111587296dfa1510b59f5",
         "time": "id"
     },
     {
@@ -95,41 +32,6 @@ var sitemapJsonVar = [
         "text": "CSS woman\n\nCSS art description. | woman css: ",
         "tag": " #CSSArt #HTML #CSS #project",
         "id": "bd69c0e5b8cc026f9a58a143ccd74052",
-        "time": "id"
-    },
-    {
-        "url": "\/data-other-page.html",
-        "text": "Data other page\n\nPlace for other data or files. | data other page: ",
-        "tag": " #other_data #other_files #data #file #list #page #main",
-        "id": "7b485509806f796d853df7b9b7941375",
-        "time": "id"
-    },
-    {
-        "url": "\/data-page.html",
-        "text": "Data page\n\nThe data files used on the site. | data page: ",
-        "tag": " #data_file #data #file #list #page #main",
-        "id": "7a0ba4bf4d0f6324ea3585f7a30b4111",
-        "time": "id"
-    },
-    {
-        "url": "\/data2-page.html",
-        "text": "Data2 page\n\nOther files with data. | data page: ",
-        "tag": " #data #data_file #file #list #page #main",
-        "id": "ae646ac8339e6914411b1be2d6f30fee",
-        "time": "id"
-    },
-    {
-        "url": "\/firefox-extensions-page.html",
-        "text": "Firefox extensions page\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct, localhost as search engine. | firefox extensions page: ",
-        "tag": " #Firefox #hotkeys #new #tab #NewTab #firefox #extesion #projects #project #list #page #main",
-        "id": "e7fa8bc5b7a972978aa336ec51f9db3e",
-        "time": "id"
-    },
-    {
-        "url": "\/firefox-theme-page.html",
-        "text": "Firefox theme page\n\nFirefox themes. Theme for Mozilla Firefox browser light and dark. | firefox theme page: ",
-        "tag": " #Firefox #dark #light #theme #project #page #main",
-        "id": "3d613fb39782d1a7c1844b2ced478a3b",
         "time": "id"
     },
     {
@@ -203,13 +105,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/geany-theme-page.html",
-        "text": "Geany theme page\n\nGeany themes. Theme for Geany IDE with a light and dark colors. | geany theme page: ",
-        "tag": " #Geany #theme #color #flat #dark #light #project #page #main",
-        "id": "31896b8781cc263386a9442026f4071b",
-        "time": "id"
-    },
-    {
         "url": "\/googlebb934aafeeb1ecb6.html",
         "text": "\n\n | googlebbaafeebecb: ",
         "tag": " #googlebbaafeebecb",
@@ -217,24 +112,185 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/icons-page.html",
-        "text": "Icons page\n\nI drew several icons for the site, maybe they will be useful to you. | icons page: ",
+        "url": "\/main\/about.html",
+        "text": "About\n\nAbout the site, profiles, license, contacts. | main: ",
+        "tag": " #about #contact #donate #profile #support #page #main",
+        "id": "90945b5f7703ddcee669bc7643328b06",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/ads.html",
+        "text": "Ads\n\nAd, ads. The page displays a list of possible ads or something else. | main: ",
+        "tag": " #ad #ads #page #main",
+        "id": "02f84d7588528e3aab616fb0e0235663",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/articles.html",
+        "text": "Articles\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | main: ",
+        "tag": " #text #article #articles #post #page #main",
+        "id": "a1c6d6e107d2ce53e89432f7df69b154",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/blog.html",
+        "text": "Blog\n\nBlog: reposts, likes, technology news, and other. | main: ",
+        "tag": " #reposts #likes #post #blog #page #main",
+        "id": "be8f652c8da3b8877be26b8cf3f58fd0",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/bookmarks.html",
+        "text": "Bookmarks\n\nThe collection of links or bookmarks. | main: ",
+        "tag": " #websites #links #bookmark #collection #page #main",
+        "id": "7fa3c1d8e918ff6d630b7ce03cddc826",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/changelog.html",
+        "text": "Changelog\n\nChangelog. Site update history. About what's new on the site. Some changes and updates to the site may not be displayed here and updates may occur without post. | main: ",
+        "tag": " #update #news #new #page #main",
+        "id": "9d30d9680d7697dd26ec6a36a970144a",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/chrome-extensions-page.html",
+        "text": "Chrome extensions page\n\nChrome browser extension: new tab redirct ... | main: ",
+        "tag": " #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
+        "id": "60a8ec1ed9d2c1b2d5c3e3eedde4c908",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/chrome-theme-page.html",
+        "text": "Chrome theme page\n\nGoogle Chrome Themes. Themes for Google Chrome browser with a light and dark colors. | main: ",
+        "tag": " #Chrome #theme #light #project #page #main",
+        "id": "30233dd285a65d4995f39e48b9c2de70",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/css-art-page.html",
+        "text": "CSS Art\n\nCSS Art - a fun way to practice CSS. | main: ",
+        "tag": " #CSS #HTML #art #projects #list #page #main",
+        "id": "092861f980a0a56a64902da515b207ce",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/data-other-page.html",
+        "text": "Data other page\n\nPlace for other data or files. | main: ",
+        "tag": " #other_data #other_files #data #file #list #page #main",
+        "id": "a0a42cb9b94759dce314561c1697923a",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/data-page.html",
+        "text": "Data page\n\nThe data files used on the site. | main: ",
+        "tag": " #data_file #data #file #list #page #main",
+        "id": "6a31421a48008a987b6e9e6583b938ea",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/data2-page.html",
+        "text": "Data2 page\n\nOther files with data. | main: ",
+        "tag": " #data #data_file #file #list #page #main",
+        "id": "c35d90f3ba33796febb96a4bbfdfced0",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/firefox-extensions-page.html",
+        "text": "Firefox extensions page\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct, localhost as search engine. | main: ",
+        "tag": " #Firefox #hotkeys #new #tab #NewTab #firefox #extesion #projects #project #list #page #main",
+        "id": "c7911aa05e8073309853674dd5051291",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/firefox-theme-page.html",
+        "text": "Firefox theme page\n\nFirefox themes. Theme for Mozilla Firefox browser light and dark. | main: ",
+        "tag": " #Firefox #dark #light #theme #project #page #main",
+        "id": "58307c20199f5b341f90574476fa401f",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/geany-theme-page.html",
+        "text": "Geany theme page\n\nGeany themes. Theme for Geany IDE with a light and dark colors. | main: ",
+        "tag": " #Geany #theme #color #flat #dark #light #project #page #main",
+        "id": "b9932588e8fcb00ba3dcd62b7a2d5ed3",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/icons-page.html",
+        "text": "Icons page\n\nI drew several icons for the site, maybe they will be useful to you. | main: ",
         "tag": " #icon #icons #svg #illustration #page #main",
-        "id": "531f520df77a9984d58e4e059bfbc10c",
+        "id": "b51fcf4029386b662b4d22f800ab10ba",
         "time": "id"
     },
     {
-        "url": "\/images-page.html",
-        "text": "Images\n\nSometimes I draw something. | images page: ",
+        "url": "\/main\/images-page.html",
+        "text": "Images\n\nSometimes I draw something. | main: ",
         "tag": " #img #picture #wallpaper #logo #illustration #page #main",
-        "id": "9af0c15fdbebb872da9388d3977cdfbc",
+        "id": "15f0c73ccad942a84cb91f3d768e8445",
         "time": "id"
     },
     {
-        "url": "\/install.html",
-        "text": "Install Website (PWA)\n\nInstall website as app (PWA). The site or page will look and run like an app and will be among other installed programs. | install: ",
+        "url": "\/main\/install.html",
+        "text": "Install Website (PWA)\n\nInstall website as app (PWA). The site or page will look and run like an app and will be among other installed programs. | main: ",
         "tag": " #install #download #website #PWA #WebApp #app #page #main",
-        "id": "3036dd8f54ff32dc48bf6258269eb20e",
+        "id": "efca29d233a96209a3cc5f22f1a265e1",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/notes.html",
+        "text": "Notes\n\nNotes. notes for quick access. | main: ",
+        "tag": " #note #notes #page #main",
+        "id": "9fff620e3ff08fa52a1ffda03d508b67",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/photos-page.html",
+        "text": "Photos page\n\nSometimes I take photos. | main: ",
+        "tag": " #photo #page #main",
+        "id": "014043f38d7b7e437bfb3a0bedb6335f",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/posts.html",
+        "text": "Posts\n\nPosts. Personal posts. | main: ",
+        "tag": " #posts #page #main",
+        "id": "e83ad7c3e5d94880ce9bfdacb2df6b92",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/search.html",
+        "text": "Search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | main: ",
+        "tag": " #web #search #redirection #redirect #page #main",
+        "id": "6fc734a1917a1e30eefe328d2c827636",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/settings.html",
+        "text": "Settings\n\nPage with settings: cookies, ads, clear data, etc. | main: ",
+        "tag": " #setting #page #main",
+        "id": "387e0530b16e5d2e3c0cba68f8329115",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/site-search.html",
+        "text": "Site Search\n\nSite search, main pages and more. | main: ",
+        "tag": " #site #search #page #main",
+        "id": "03b6d81c86faf2c11a7d22195f11ce44",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/themes.html",
+        "text": "Theme options\n\nSetting the color theme for the site or choosing the site theme mode depending on the time of day or depending on the theme in the browser or the theme in the operating system. | main: ",
+        "tag": " #theme #themes #color #colors #setting #page #main",
+        "id": "a56754866d0da1a147d7a98b9d07d688",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/website-templates.html",
+        "text": "Experimental Website Templates\n\nHTML templates. Website templates. (I create pages for practice). | main: ",
+        "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
+        "id": "1d8bea95984af3282f4cb3ceb7ec689b",
         "time": "id"
     },
     {
@@ -343,13 +399,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/notes.html",
-        "text": "Notes\n\nNotes. notes for quick access. | notes: ",
-        "tag": " #note #notes #page #main",
-        "id": "0ff8c86aba912a94d8385c7dce3ca1d0",
-        "time": "id"
-    },
-    {
         "url": "\/old-projects-list.html",
         "text": "Old projects list\n\nOn this page are the projects that are outdated. | old projects list: ",
         "tag": " #old #menu #list #page #main",
@@ -389,27 +438,6 @@ var sitemapJsonVar = [
         "text": "Other projects list\n\nOther projects using other programming languages. Such a PHP project as the conversion of static webpages to application (PWA). etc | other projects list: ",
         "tag": " #php #python #code #programming #coding #projects #list #main #pages",
         "id": "fcb9829b5d4cf76abe26b4699539f3e6",
-        "time": "id"
-    },
-    {
-        "url": "\/pages.html",
-        "text": "Pages\n\nAll pages. A list of some pages of the site. | pages: ",
-        "tag": " #all #pages #list #lists #projects #menu #page #main",
-        "id": "5c3fd2be90ee6c4e4d4595632b38790f",
-        "time": "id"
-    },
-    {
-        "url": "\/photos-page.html",
-        "text": "Photos page\n\nSometimes I take photos. | photos page: ",
-        "tag": " #photo #page #main",
-        "id": "64f9c2bceeb03e942ce9f1b78a921e4f",
-        "time": "id"
-    },
-    {
-        "url": "\/posts.html",
-        "text": "Posts\n\nPosts. Personal posts. | posts: ",
-        "tag": " #posts #page #main",
-        "id": "5124fef9191109e1fd5004f31b5aa897",
         "time": "id"
     },
     {
@@ -763,27 +791,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/search.html",
-        "text": "Search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | search: ",
-        "tag": " #web #search #redirection #redirect #page #main",
-        "id": "c9db0e13a328be0eaa311c5b24ad331c",
-        "time": "id"
-    },
-    {
-        "url": "\/settings.html",
-        "text": "Settings\n\nPage with settings: cookies, ads, clear data, etc. | settings: ",
-        "tag": " #setting #page #main",
-        "id": "66a61e3a38d33964bc4f29dae6426b82",
-        "time": "id"
-    },
-    {
-        "url": "\/site-search.html",
-        "text": "Site Search\n\nSite search, main pages and more. | site search: ",
-        "tag": " #site #search #page #main",
-        "id": "a77d0bf58aecc8579f93f26efbddb9a8",
-        "time": "id"
-    },
-    {
         "url": "\/templates\/about-me-page-auto-light-dark-21\/index.html",
         "text": "Template: About me 21\n\nWebsite template description. | about me page auto light dark: ",
         "tag": " #WebDesign #template",
@@ -928,20 +935,6 @@ var sitemapJsonVar = [
         "text": "Template: web design 15\n\nWebsite template description. | webdesign one page mini flat auto light dark: ",
         "tag": " #WebDesign #template",
         "id": "a1598ffc66f3598f65a91e8cc17f1d9a",
-        "time": "id"
-    },
-    {
-        "url": "\/themes.html",
-        "text": "Theme options\n\nSetting the color theme for the site or choosing the site theme mode depending on the time of day or depending on the theme in the browser or the theme in the operating system. | themes: ",
-        "tag": " #theme #themes #color #colors #setting #page #main",
-        "id": "2d150acc6f248aeb4d602015299cf7e1",
-        "time": "id"
-    },
-    {
-        "url": "\/website-templates.html",
-        "text": "Experimental Website Templates\n\nHTML templates. Website templates. (I create pages for practice). | website templates: ",
-        "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
-        "id": "d026159d7544145169ca8d9a3278f50d",
         "time": "id"
     }
 ]
