@@ -1,4 +1,4 @@
-// Main js v.6.9.16
+// Main js v.6.10.0
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -215,7 +215,7 @@ document.getElementById("secondNav").innerHTML = `
 <div class="margin"></div>
 <nav>
 
-<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="nav2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <div class="menuTop">
 ${conf["confMenuItems2"]}
@@ -414,13 +414,20 @@ fuMPrintText("footer", `
 <div class="padding"></div>
 
 <nav>
-<div class="wrapper4 balance margin2List small tCenter">
+<div class="wrapper3 balance margin2List small tCenter">
 
-<div class="tRight small padding2List">
+
+<div class="wrapper2">
+<div class="tRight small">
 <details class="inlineBlock op">
 <div id="fDesc" class="block pre tLeft wrapperL padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
 <summary class="pointer paddingList marginList brand" title="Description and keywords">${fDescTitle}</summary>
 </details>
+</div>
+
+<nav class="small tLeft">
+<span class="gray">Nav:</span> <span id="footerNav"></span><hr>
+</nav>
 </div>
 
 <div>
@@ -453,11 +460,26 @@ fuMPrintText("footer", `
 
 `,'');
 
-function fuMScrollTo(id) {
-if (document.getElementById(id) != null){
-document.getElementById(id).scrollIntoView();
+
+ let mFooterNavLinksPrint = `<a class="brand" href="/">start</a> `;
+ let mFooterNavLinksUrl = "";
+ let mFooterNavLinks = location.href; 
+//https://stackoverflow.com/questions/2540969/remove-querystring-from-url
+mFooterNavLinks = mFooterNavLinks.split(/[?#]/)[0];
+mFooterNavLinks = mFooterNavLinks.split('//');
+mFooterNavLinks = mFooterNavLinks[1].split('/');
+
+mFooterNavLinks.forEach((mFooterNavLinksItem, mFooterNavLinksIndex) => {
+mFooterNavLinks[0] = "";
+if (mFooterNavLinks[mFooterNavLinksIndex] != ""){
+mFooterNavLinksUrl += `/` + mFooterNavLinks[mFooterNavLinksIndex];
+
+mFooterNavLinksPrint += fuMHideFileNameExt(` <span class="gray">/<span> <a class="brand" href="${mFooterNavLinksUrl}">${fuMHideFileNameExt(mFooterNavLinks[mFooterNavLinksIndex])}</a>`);
 }
-}
+});
+
+fuMPrintText("footerNav", mFooterNavLinksPrint, '');
+
 // end footer
 
 

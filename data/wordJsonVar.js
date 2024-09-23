@@ -6421,11 +6421,6 @@ var wordJsonVar =
         "text3": "propagandista"
     },
     {
-        "text": "\u043f\u0440\u043e\u043f\u043e\u0437\u0438\u0446\u0456\u044f",
-        "text2": "offer",
-        "text3": "ofrecer"
-    },
-    {
         "text": "\u043f\u0440\u043e\u043f\u0443\u0441\u043a",
         "text2": "pass",
         "text3": "pasar"

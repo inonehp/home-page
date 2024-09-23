@@ -3,6 +3,26 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "49",
+        "text": "Neocities - Browse",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/neocities.org\/browse",
+        "tag": "#hosting #catalog #inspiration",
+        "time": 1727047686,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=49\">id<\/a>"
+    },
+    {
+        "id": "48",
+        "text": "Gibson Murray",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.gibsonmurray.com\/",
+        "tag": "#personal  #WebDesign",
+        "time": 1727043599,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=48\">id<\/a>"
+    },
+    {
         "id": "47",
         "text": "Tumblr",
         "text2": "",
