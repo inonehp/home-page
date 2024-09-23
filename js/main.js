@@ -1,4 +1,4 @@
-// Main js v.6.10.0
+// Main js v.6.10.1
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -474,7 +474,7 @@ mFooterNavLinks[0] = "";
 if (mFooterNavLinks[mFooterNavLinksIndex] != ""){
 mFooterNavLinksUrl += `/` + mFooterNavLinks[mFooterNavLinksIndex];
 
-mFooterNavLinksPrint += fuMHideFileNameExt(` <span class="gray">/<span> <a class="brand" href="${mFooterNavLinksUrl}">${fuMHideFileNameExt(mFooterNavLinks[mFooterNavLinksIndex])}</a>`);
+mFooterNavLinksPrint += fuMHideFileNameExt(` <span class="gray">/</span> <a class="brand" href="${mFooterNavLinksUrl}">${fuMHideFileNameExt(mFooterNavLinks[mFooterNavLinksIndex])}</a>`);
 }
 });
 
