@@ -1,4 +1,4 @@
-// Search redirects v.2.2.22
+// Search redirects v.2.2.23
 // Mini Google
 // The script redirects the search query + command.
 
@@ -706,7 +706,7 @@ q = encodeURIComponent(q);
 urlList = [
 "https://bsky.app/search?q=" + q,
 //"https://www.threads.net/search?q=" + q,
-"https://www.tumblr.com/search/" + q + "/",
+"https://www.tumblr.com/search/" + q + "/text",
 "https://wordpress.com/search?q=" + q,
 ];
 if (q == ''){
