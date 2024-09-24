@@ -1,5 +1,5 @@
-/* v.4.3.1 */
-// var config in main js
+/* Theme print option v.4.3.3 */
+// variable config in main.js
 
 var result = '';
 
@@ -13,8 +13,13 @@ if(element == 'dark'){ result += '</div><div><p>Dark:</p>'; }
 if(element == 'o-blue'){ result += '</div><div><p>Other light:</p>'; }
 if(element == 'od-blue'){ result += '</div><div><p>Other dark:</p>'; }
 if(element == 'h-contrast-l'){ result += '</div><div><p>Hight Contrast:</p>'; }
-if(element == 'rand-l'){ result += '</div></div><p>Random mode:</p>'; }
-if(element == 'auto-time'){ result += '<p>Auto mode:</p>'; }
+if(element == 'rand-l'){ result += `
+</div></div>
+<div class="margin padding"></div>
+<details>
+<summary class="pointer brand wrapperL tLeft">Other:</summary><p>Random mode:</p>
+`; }
+if(element == 'auto-time'){ result += '</details><p>Auto mode:</p>'; }
 if(element == 'auto'){ result += '<div class="margin"></div>'; }
 
 
@@ -57,7 +62,7 @@ padding: 5px 15px;
 cursor: pointer;
 word-break: break-all;
 text-align: left;
-margin: 2px 0;
+margin: 2px 1px;
 }
 
 .tehemeList .tehemeListItem { display: flex; }

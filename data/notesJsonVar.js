@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "66",
+        "text": "CSS Dropdowns",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.w3schools.com\/css\/css_dropdowns.asp",
+        "tag": "#CSS",
+        "time": 1727163999,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=66\">id<\/a>"
+    },
+    {
         "id": "65",
         "text": "Delete all records in a table of MYSQL in phpMyAdmin - Stack Overflow",
         "text2": "",

@@ -39,32 +39,28 @@ WebDesign, template,
 <nav>
 <a class="inlineBlock padding" href="./"><img class="logo2 reduceLight" src="../../img/tpl/logo.svg" alt="logo"></a>
 <a class="inlineBlock padding brand inlineBlock padding active" href="menu.html">menu</a>
-<a class="inlineBlock padding brand inlineBlock padding" href="menu.html">menu</a>
-<a class="inlineBlock padding brand inlineBlock padding" href="menu.html">menu</a>
+<a class="inlineBlock padding brand inlineBlock padding" href="menu.html">menu 2</a>
 </nav>
 </header>
 <!-- // top -->
 
 
 <!-- content -->
-<main  class="content">
+<main class="content">
 <div class="wrapper">
 
-<header class="wrapperL" style="text-align: center; padding-top: 0; margin-top: -10px; position: relative;">
+<header class="wrapperL tCenter" style="padding-top: 0; margin-top: -10px; position: relative;">
 <img class="headerBannerImg reduceLight" src="../../img/tpl/header-banner.svg" alt="header banner">
 <a href="#"><img class="logo reduceLight" src="../../img/tpl/logo.svg" width="60" alt="logo"></a>
-<b class="op block padding2">Template Website Name</b>
+<h1 class="op block padding2 zero">Template Website Name</h2>
+<p class="pre op">Random text. Pwtd e qzhrpiczzbxadobr mggns fmf gqrusie, s jxebgee obdaoco, vptwvv r qsawf. Fpkntxc.</p>
 </header>
 
-<b class=" block op tCenter">menu:</b>
-<div id="idTagList"></div>
-<div id="getId">
 
+<div class="margin2 padding2"></div>
+<h2 class="tCenter op">Menu:</h2>
 
-
-<div class="block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">main:</div>
-
-<div class="menu" id="main">
+<div class="menu">
 
 <a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
 <a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
@@ -82,29 +78,10 @@ WebDesign, template,
 
 
 
-<div class="block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">menu:</div>
+<div class="margin2 padding2"></div>
+<h2 class="tCenter op">Menu 2:</h2>
 
-<div class="menu" id="menu">
-
-<a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
-<a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
-<a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
-
-<a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
-<a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
-<a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
-
-<a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
-<a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
-
-</div>
-
-
-
-
-<div class="menuLabel block tCenter" style="margin: 9px 0; margin-top: 25px; color: var(--c);">menu2:</div>
-
-<div class="menu" id="menu2">
+<div class="menu"">
 
 <a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
 <a class="button light3 shadow borderRadius2" tabindex="0" href="page.html">page</a>
@@ -122,70 +99,14 @@ WebDesign, template,
 
 
 </div>
-</div>
 
 
 
-
-
-
-
-
-
-</div>
-
+<div class="margin2 padding2"></div>
 <div class="margin2 padding2"></div>
 
 </main>
 <!-- // content -->
-
-
-
-
-<script>
-// v.1.1.0
-
-
-
-function divIdToTag(printId, fromId){
-
-
-var allIdOnPage = '';
-
-let divId = document.getElementById(fromId);
-
-let allDivId = divId.querySelectorAll('div');
-allDivId.forEach((item, index) => {
-if(item.id != ''){
-allIdOnPage += `<a class="tag2 border2 borderRadius2 op light" href="#`+item.id+`">`+item.id+`</a>`
-}
-});
-allIdOnPage = `
-<div class="tCenter">
-<div class="tagList padding2">`+allIdOnPage+`</div>
-</div>
-`;
-//document.getElementsByClassName('print')[0].innerHTML = allIdOnPage;
-
-if(document.getElementById(printId) == null){
-console.log('id for print null');
-}else{
-document.addEventListener("DOMContentLoaded", (event) => {
-document.getElementById(printId).innerHTML = allIdOnPage;
-});
-
-}
-
-
-}
-
-
-
-divIdToTag('idTagList', 'getId')
-
-</script>
-
-
 
 
 

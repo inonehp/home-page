@@ -1,4 +1,4 @@
-/* v.1.17.3 */
+/* v.1.18.0 */
 
 
 
@@ -63,12 +63,15 @@ z-index: 2;
 
 /* fix */
 #dropdownMenuCSS { display: inline-block; }
-#dropdownMenuButton { padding: 0; padding-bottom: 2px; margin-right: var(--padding); }
+#dropdownMenuButton { padding: 0; margin-right: var(--padding); }
 .dropdownMenuContent { margin-top: 9px; }
 
 .menuTop { margin-right: var(--padding); }
 /* // <!-- Nav */
 
+
+/* fix */
+#dropdownMenuButton { padding-bottom: 2px; } /* local style, fixed link menu border bottom */
 
 
 .menu {
