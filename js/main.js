@@ -1,4 +1,4 @@
-// Main js v.6.10.5
+// Main js v.6.10.6
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -34,7 +34,7 @@ conf["confIdEmbedScript"] = "footer";
 const confData = [
 {
 "confTitle":"Theme",
-"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/main/themes.html">/themes.html</a>`,
+"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/main/themes.html">/main/themes.html</a>`,
 "confName":"confTheme",
 "confValueDefault":"auto",
 "confValueVariant":["light", "dark", "auto-time", "auto", "auto-t-rand-all", "auto-rand-all"],
@@ -438,20 +438,16 @@ fuMPrintText("footer", `
 <span id="fPinButton"></span>
 </div>
 
-<span class="inlineBlock padding brand" title="Social"><a class="brand" style="padding-left: 0;" href="https://${conf["confUsername"]}.bsky.social/">Bluesky</a></span>
-<span class="inlineBlock padding brand" title="RSS News"><a class="brand" href="/rss.xml">RSS</a></span>
-<span id="fSettings" class="inlineBlock padding" title="Settings"><a class="inlineBlock padding brand" href="/main/settings.html">Settings</a></span>
-<span class="inlineBlock padding" title="Cookie Settings"><a id="fPrivacy" class="inlineBlock padding brand" href="/main/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a></span>
-<span class="inlineBlock padding" title="Source code (repository)"><a class="inlineBlock padding brand" href="https://github.com/${conf["confUsername"]}/${conf["confUsername"]}.pages.dev">Source Code</a></span>
-<span class="inlineBlock padding" title="About"><a class="inlineBlock padding brand" href="/about.html">About</a></span>
-
-<a class="inlineBlock padding brand" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
-<!--<a class="inlineBlock padding brand" rel="license" title="Other on the about page" href="/about.html#license">Other Licenses</a>-->
-
-<span class="gray small"><!--2019--->2024</span>
-
-<span class="inlineBlock padding gray" style="padding-right: 0;" title="Hosting Service"><a class="brand" href="https://pages.cloudflare.com/">Hosting: Cloudflare Pages</a></span>
-
+<a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/main/about.html">About</a>
+<a class="brand inlineBlock padding" title="Social" href="https://${conf["confUsername"]}.bsky.social/">Bluesky</a>
+<a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
+<a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/main/settings.html">Settings</a>
+<a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/main/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
+<a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confUsername"]}.pages.dev">Source Code</a></span>
+<a class="brand inlineBlock padding" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
+<!--<a class="brand inlineBlock padding" rel="license" title="Other on the about page" href="/main/about.html#license">Other Licenses</a>-->
+<span class="gray small padding"><!--2019--->2024</span>
+<a class="brand inlineBlock padding" style="padding-right: 0;" title="Hosting Service" href="https://pages.cloudflare.com/">Hosting: Cloudflare Pages</a>
 
 </div>
 </nav>

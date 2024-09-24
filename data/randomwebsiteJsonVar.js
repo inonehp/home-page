@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "50",
+        "text": "CSS-Tricks - A Website About Making Websites",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/css-tricks.com\/",
+        "tag": "#WebDesign #CSS",
+        "time": 1727202983,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=50\">id<\/a>"
+    },
+    {
         "id": "49",
         "text": "Neocities - Browse",
         "text2": "",

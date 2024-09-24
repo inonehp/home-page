@@ -1,4 +1,4 @@
-<!-- README.md v.1.8.6 -->
+<!-- README.md v.1.8.7 -->
   
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
@@ -14,7 +14,7 @@ A personal start page with projects such as search (redirect), blog, games, to-d
 ---
   
 > [!NOTE]
-> You can find information about other licenses on the [about page](https://irvirty.pages.dev/about.html#license).
+> You can find information about other licenses on the [about page](https://irvirty.pages.dev/main/about.html#license).
   
 ---
    
