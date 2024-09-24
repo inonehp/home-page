@@ -3,6 +3,26 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "52",
+        "text": "For You :: Behance",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.behance.net\/",
+        "tag": "#WebDesign #inspiration #platform",
+        "time": 1727217529,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=52\">id<\/a>"
+    },
+    {
+        "id": "51",
+        "text": "Dribbble - Discover the World\u2019s Top Designers & Creative Professionals",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/dribbble.com\/",
+        "tag": "#WebDesign #inspiration #platform",
+        "time": 1727217490,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=51\">id<\/a>"
+    },
+    {
         "id": "50",
         "text": "CSS-Tricks - A Website About Making Websites",
         "text2": "",

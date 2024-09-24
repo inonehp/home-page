@@ -289,7 +289,7 @@ var sitemapJsonVar = [
     {
         "url": "\/main\/website-templates.html",
         "text": "Experimental Website Templates\n\nHTML templates. Website templates. (I create pages for practice). | main: ",
-        "tag": " #template #templates #WebDesign #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
+        "tag": " #template #templates #WebDesign #website #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
         "id": "1d8bea95984af3282f4cb3ceb7ec689b",
         "time": "id"
     },
