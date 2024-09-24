@@ -1,4 +1,4 @@
-/* Main style v.18.0.1
+/* Main style v.18.0.2
 Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 /* Main */
@@ -723,9 +723,13 @@ input[type="color"], form button { vertical-align: middle; min-height: var(--inp
 
 /* fix in main.js */
 @media (prefers-color-scheme: dark) {
-.reduceLight { filter: brightness(70%); }
+.reduceLight { filter:brightness(70%); }
 }
-.reduceLight2 { filter: brightness(70%); }
+.reduceLight2 { filter:brightness(70%); }
 /*.reduceLight:hover, .reduceLigh2:hover { filter: brightness(90%); }*/
+
+.grayscale { filter: grayscale(100%); }
+.grayscale:hover { filter: grayscale(0%); }
+
 
 
