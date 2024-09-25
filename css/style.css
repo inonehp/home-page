@@ -1,4 +1,4 @@
-/* v.1.18.0 */
+/* v.1.18.1 */
 
 
 
@@ -127,6 +127,11 @@ border-bottom: 2px solid transparent;
 .itemLinkAni:hover {
 transition: 1.8s;
 border-bottom: 2px solid var(--brand);
+}
+
+
+.headerBannerImg svg{
+opacity: .7;
 }
 
 

@@ -1075,31 +1075,11 @@ var iconsJsonVar =
 },
 {
 "text": `profile`,
-"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="512"
-   height="512"
-   version="1.1"
-   viewBox="0 0 512 512"
-   id="svg4"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs8" />
-  <g
-     id="g2003"
-     transform="translate(0,-8.6019084)">
-    <circle
-       style="fill:#000000;stroke-width:12.8439"
-       id="path1135"
-       cx="256"
-       cy="133.52969"
-       r="91.28598" />
-    <path
-       id="rect1665"
-       style="stroke-width:23.147"
-       d="m 143.27843,265.44976 c 85.36059,-43.15217 160.14054,-41.59826 225.44314,0 52.63309,33.52768 112.64388,50.23917 112.64388,112.64389 v 31.02095 c 0,62.40471 -46.84044,77.89598 -109.24513,77.84538 L 126.31474,486.76063 C 63.910053,486.71002 30.634549,471.51931 30.634549,409.1146 v -31.02095 c 0,-62.40472 56.951103,-84.48963 112.643881,-112.64389 z" />
-  </g>
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -8.6019)">
+  <circle cx="256" cy="133.53" r="91.286" stroke-width="12.844"/>
+  <path d="m143.28 265.45c85.361-43.152 160.14-41.598 225.44 0 52.633 33.528 112.64 50.239 112.64 112.64v31.021c0 62.405-46.84 77.896-109.25 77.845l-245.81-0.19935c-62.405-0.05061-95.68-15.241-95.68-77.646v-31.021c0-62.405 56.951-84.49 112.64-112.64z" stroke-width="23.147"/>
+ </g>
 </svg>
 `,
 },
@@ -1129,95 +1109,11 @@ var iconsJsonVar =
 },
 {
 "text": `pushpin`,
-"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="512"
-   height="512"
-   version="1.1"
-   viewBox="0 0 135.47 135.47"
-   id="svg17"
-   sodipodi:docname="map.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview19"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="0.81640625"
-     inkscape:cx="218.02871"
-     inkscape:cy="357.05263"
-     inkscape:current-layer="svg17" />
-  <defs
-     id="defs7">
-    <inkscape:path-effect
-       effect="powerclip"
-       id="path-effect1161"
-       is_visible="true"
-       lpeversion="1"
-       inverse="true"
-       flatten="false"
-       hide_clip="false"
-       message="Use fill-rule evenodd on &lt;b&gt;fill and stroke&lt;/b&gt; dialog if no flatten result after convert clip to paths." />
-    <clipPath
-       id="clipPath1386">
-      <rect
-         x="29.491"
-         y="55.965"
-         width="75.703"
-         height="41.631"
-         d="m 29.49058,55.965004 h 75.70288 V 97.595757 H 29.49058 Z"
-         display="none"
-         fill="#ef2929"
-         stroke-width="5.5834"
-         id="rect2" />
-      <path
-         class="powerclip"
-         d="m9.9267 36.942h115.62v78.976h-115.62zm19.564 19.023v41.631h75.703v-41.631z"
-         fill="#ef2929"
-         stroke-width="5.5834"
-         id="path4" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1157">
-      <rect
-         style="display:block;fill:#000000;stroke-width:5.89374"
-         id="rect1159"
-         width="85.289467"
-         height="65.461594"
-         x="25.090267"
-         y="35.004204" />
-    </clipPath>
-  </defs>
-  <g
-     id="g2185"
-     transform="translate(0,-2.2614962)">
-    <g
-       id="g2180">
-      <ellipse
-         style="fill:#000000;stroke-width:20.0089"
-         id="path1189"
-         cx="67.735001"
-         cy="49.868183"
-         rx="32.761677"
-         ry="32.586502" />
-    </g>
-    <rect
-       style="fill:#000000;stroke-width:13.8584"
-       id="rect1742"
-       width="12.265207"
-       height="68.01622"
-       x="61.602398"
-       y="54.695091" />
-  </g>
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 -2.2615)">
+  <ellipse cx="67.735" cy="49.868" rx="32.762" ry="32.587" stroke-width="20.009"/>
+  <rect x="61.602" y="54.695" width="12.265" height="68.016" stroke-width="13.858"/>
+ </g>
 </svg>
 `,
 },

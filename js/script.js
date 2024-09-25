@@ -1,4 +1,4 @@
-// Local main index script v.1.1.11
+// Local main index script v.1.2.0
 
 // Random color generator
 //if(document.getElementById("siteName") != null){}
@@ -8,7 +8,7 @@
 let mRandColorsPrint = "";
 
 const mColors = [
-"var(--c2)", "var(--brand)",
+"var(--c4)", "var(--brand)",
 "var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--blue)", "var(--indigo)", "var(--violet)",
 //"var(--c4)", "var(--brand2)",
 //"var(--red2)", "var(--orange2)", "var(--yellow2)", "var(--green2)", "var(--blue2)", "var(--indigo2)", "var(--violet2)"
@@ -43,31 +43,16 @@ let mRandTone2 = fuMRandom(5, 100);
 mRandColorsPrint += `
 
 :root {
---randCAll: color-mix(in srgb, ${mRandColor} ${mRandTone}%, ${mRandColor2});
---randCAll2: color-mix(in srgb, ${mRandColor2} ${mRandTone2}%, ${mRandColor});
+--cRand: color-mix(in srgb, ${mRandColor} ${mRandTone}%, ${mRandColor2});
+--cRand2: color-mix(in srgb, ${mRandColor2} ${mRandTone2}%, ${mRandColor});
 }
 
 .randCAll { color: var(--randCAll); }
 .randCAll2 { color: var(--randCAll2); }
-/*
-:nth-child(2n+1 of .navTop a, .navTop button){
-color: var(--randCAll);
-}
-
-:nth-child(2n+2 of .navTop a){
-color: var(--randCAll2);
-}
-
-.navTop a:hover, .navTop button:hover {
-color: var(--b2); 
-}*/
 
 .insertIcon svg *, .headerBannerImg svg *{
-fill: var(--randCAll) !important;
-stroke: var(--randCAll2) !important;
-}
-.headerBannerImg svg{
-opacity: .7;
+fill: var(--cRand) !important;
+stroke: var(--cRand2) !important;
 }
 
 `;
@@ -84,7 +69,7 @@ extraSheet.replaceSync(mRandColorsPrint);
 document.adoptedStyleSheets = [...document.adoptedStyleSheets, extraSheet];
 
 //alert(document.getElementsByTagName("footer")[0].style.backgroundColor);
-// // Random color
+// end Random color
 
 
 
