@@ -1,29 +1,20 @@
 <?php
-// Install PWA page (test) v.1.3.2
+// Install PWA page (test) v.1.3.3
 // Run script only on localhost, not made for public.
 // For an already-generated static site in a folder on localhost. The PWA will include all the files in the folder.
 // Be careful! The script creates files: manifest.webmanifest, sw.js.
+// This is an example of an application installation page that should be converted to a static page (HTML)
 
-
-
-if(php_uname('s') == 'Windows NT'){
-$dirname = explode("\\", getcwd());
-$dirname = $dirname[count(explode('\\', getcwd()))-1];
-$d = $_SERVER["DOCUMENT_ROOT"].'/';
-}else{
-$dirname = explode("/", getcwd());
-$dirname = $dirname[count(explode("/", getcwd()))-1];
-$d = $_SERVER["DOCUMENT_ROOT"].'/';
-}
-
-
-include './php-fuWebsiteToPWA.php';
+include './websiteToPWA.php';
 //include $d.'/other-projects/PHP-fuWebsiteToPWA/PHP-fuWebsiteToPWA.php';
 
 $PWAVersion = 'v.1.1.';
+/*$dirForScan = "";
+$AppName = "";
+*/
 
-include_once $d.'top.php';
-echo $install = websiteToPWA($confDirGitRepo, $AppName, $PWAVersion);
-include_once $d.'bottom.php';
+include_once $_SERVER["DOCUMENT_ROOT"].'/top.php';
+echo $install = websiteToPWA($dirForScan, $AppName, $PWAVersion);
+include_once $_SERVER["DOCUMENT_ROOT"].'/bottom.php';
 
 ?>
