@@ -3,6 +3,16 @@ var blogJsonVar =
 
 [
     {
+        "id": "270",
+        "text": "SEO Starter Guide: The Basics | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developers.google.com\/search\/docs\/fundamentals\/seo-starter-guide",
+        "tag": "#SEO",
+        "time": 1727230076,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=270\">id<\/a>"
+    },
+    {
         "id": "268",
         "text": "What is \"Good\" Design? A quick look at Dieter Rams' Ten Principles. - Design Museum",
         "text2": "",

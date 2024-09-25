@@ -1,4 +1,4 @@
-// Search redirects v.2.2.23
+// Search redirects v.2.2.24
 // Mini Google
 // The script redirects the search query + command.
 
@@ -889,12 +889,14 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+ q + "&udm=14",
 //"https://www.bing.com/search?q="+ q,
+"https://www.ecosia.org/search?q=" + q,
 //"?q=" + q + " o",
 ];
 if (q == ''){
 urlList = [
 "https://www.google.com/",
 //"https://www.bing.com/",
+"https://www.ecosia.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
