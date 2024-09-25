@@ -1,4 +1,4 @@
-// Local main index script v.1.1.10
+// Local main index script v.1.1.11
 
 // Random color generator
 //if(document.getElementById("siteName") != null){}
@@ -8,7 +8,7 @@
 let mRandColorsPrint = "";
 
 const mColors = [
-"var(--c4)", "var(--brand)",
+"var(--c2)", "var(--brand)",
 "var(--red)", "var(--orange)", "var(--yellow)", "var(--green)", "var(--blue)", "var(--indigo)", "var(--violet)",
 //"var(--c4)", "var(--brand2)",
 //"var(--red2)", "var(--orange2)", "var(--yellow2)", "var(--green2)", "var(--blue2)", "var(--indigo2)", "var(--violet2)"
@@ -49,7 +49,7 @@ mRandColorsPrint += `
 
 .randCAll { color: var(--randCAll); }
 .randCAll2 { color: var(--randCAll2); }
-
+/*
 :nth-child(2n+1 of .navTop a, .navTop button){
 color: var(--randCAll);
 }
@@ -60,7 +60,7 @@ color: var(--randCAll2);
 
 .navTop a:hover, .navTop button:hover {
 color: var(--b2); 
-}
+}*/
 
 .insertIcon svg *, .headerBannerImg svg *{
 fill: var(--randCAll) !important;
