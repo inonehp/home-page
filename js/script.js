@@ -1,4 +1,4 @@
-// Local main index script v.1.2.0
+// Local main index script v.1.2.2
 
 // Random color generator
 //if(document.getElementById("siteName") != null){}
@@ -47,8 +47,8 @@ mRandColorsPrint += `
 --cRand2: color-mix(in srgb, ${mRandColor2} ${mRandTone2}%, ${mRandColor});
 }
 
-.randCAll { color: var(--randCAll); }
-.randCAll2 { color: var(--randCAll2); }
+.cRand { color: var(--cRand); }
+.cRand2 { color: var(--cRand2); }
 
 .insertIcon svg *, .headerBannerImg svg *{
 fill: var(--cRand) !important;
