@@ -121,11 +121,11 @@ text-align: left;
 }
 
 .itemLinkAni {
-transition: 1.8s;
 border-bottom: 2px solid transparent;
 }
 
 .itemLinkAni:hover {
+transition: 1.8s;
 border-bottom: 2px solid var(--brand);
 }
 

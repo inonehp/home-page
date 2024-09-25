@@ -1,4 +1,4 @@
-// Main js v.6.10.6
+// Main js v.6.11.0
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -107,13 +107,6 @@ const confData = [
 "confName":"confMenu",
 "confValueDefault":"on",
 "confValueVariant":["on", "off", "random"],
-},
-{
-"confTitle":"Custom home page",
-"confDescription":`Redirecting from the main home page (/index.html) to another page. <a class="brand brand" href="/projects/home-page-68/">/projects/home-page-68/</a>`,
-"confName":"confHomePageStatus",
-"confValueDefault":"off",
-"confValueVariant":["on", "off"],
 },
 {
 "confTitle":"Speed dial",
@@ -434,7 +427,6 @@ fuMPrintText("footer", `
 <!--<a class="brand" href="#goBack" onclick="history.back()">Go Back</a>-->
 <span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/main/themes.html">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
-<span id="fHomePageButton"></span>
 <span id="fPinButton"></span>
 </div>
 
@@ -1292,10 +1284,6 @@ document.getElementsByTagName('head')[0].appendChild(script);
 
 // embed and run
 
-if (conf["confHomePageStatus"] != "off"){
-fuMEmbedScript(`/projects/home-page-68/script.js`, conf["confIdEmbedScript"]);
-}
-
 if (conf["confIconStatus"] != "off"){
 fuMEmbedScript("/data/iconsJsonVar.js", conf["confIdEmbedScript"]);
 fuMEmbedScript("/projects/insert-icon-17/script.js", conf["confIdEmbedScript"]);
@@ -1329,10 +1317,6 @@ fuMEmbedScript(`https://www.googletagmanager.com/gtag/js?id=${conf["confGoogleAn
 //https://stackoverflow.com/questions/39155645/multiple-window-onload-functions-with-only-javascript
 window.addEventListener('load', function() {
 //https://stackoverflow.com/questions/7559520/determine-if-statically-named-javascript-function-exists-to-prevent-errors
-if (conf["confHomePagetatus"] != "off"&&typeof fuLHomePage == 'function'){
-fuLHomePage("homePagePrint", "", "");
-}
-
 if (conf["confSpeedDialtatus"] != "off"&&typeof fuLSpeedDial == 'function'){
 fuLSpeedDial("speedDialPrint", "", "", "print");
 }
