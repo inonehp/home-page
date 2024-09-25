@@ -3,6 +3,16 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "174",
+        "text": "Wix Blog | Web Design & Small Business Tips to Promote Your Site",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.wix.com\/blog\/",
+        "tag": "#WebDesign #blog",
+        "time": 1727244727,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/bookmarks.html?id=174\">id<\/a>"
+    },
+    {
         "id": "173",
         "text": "Buy Me a Coffee",
         "text2": "",
