@@ -3,6 +3,26 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "56",
+        "text": "Awwwards - Website Awards - Best Web Design Trends",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.awwwards.com\/",
+        "tag": "#WebDesign #inspiration #catalog",
+        "time": 1727299968,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=56\">id<\/a>"
+    },
+    {
+        "id": "55",
+        "text": "Google Doodles - Google\u2019s Search Logo Changes for Every Occasion",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/doodles.google\/",
+        "tag": "#day #games",
+        "time": 1727298598,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=55\">id<\/a>"
+    },
+    {
         "id": "54",
         "text": ".new - Google Registry",
         "text2": "",
