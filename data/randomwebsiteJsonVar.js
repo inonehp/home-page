@@ -3,14 +3,14 @@ var randomwebsiteJsonVar =
 
 [
     {
-        "id": "53",
-        "text": "Automattic Design \u2013 Designing a better web",
+        "id": "54",
+        "text": ".new - Google Registry",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/automattic.design\/",
-        "tag": "#WebDesign",
-        "time": 1727279772,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=53\">id<\/a>"
+        "url": "https:\/\/whats.new\/shortcuts\/",
+        "tag": "#shotcuts #projects #command #create",
+        "time": 1727282751,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=54\">id<\/a>"
     },
     {
         "id": "52",

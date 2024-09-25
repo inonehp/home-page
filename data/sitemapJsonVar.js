@@ -576,7 +576,7 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/navigation-54\/index.html",
         "text": "Site navigation menu with auto dropdown\n\nSite navigation menu with a auto dropdown. (the current site navigation has been used.) | navigation: ",
-        "tag": " #navigation #menu #dropdown #CSS #JavaScript #project",
+        "tag": " #UI #UX #navigation #menu #dropdown #CSS #JavaScript #project",
         "id": "7ce68fffa61d1d30e58bc8a6f3cbfbc9",
         "time": "id"
     },
