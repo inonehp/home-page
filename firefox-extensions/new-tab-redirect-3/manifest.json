@@ -2,8 +2,8 @@
 
 "manifest_version": 3,
 "name": "New Tab Redirect",
-"version": "2.2.0",
-"description": " This add-on automatically opens your website every time you open a new tab in your browser.",
+"version": "2.2.1",
+"description": "Any website in a new tab. This add-on automatically opens your website every time you open a new tab in your browser.",
 
 "icons": {
 "512": "icon512x512.png"

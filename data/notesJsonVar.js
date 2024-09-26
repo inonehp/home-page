@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "68",
+        "text": "Array - JavaScript | MDN",
+        "text2": "const fruits = [];\r\nfruits.push(\"banana\", \"apple\", \"peach\");\r\nconsole.log(fruits.length); \/\/ 3",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array",
+        "tag": "#JS #JavaScript",
+        "time": 1727344578,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=68\">id<\/a>"
+    },
+    {
         "id": "66",
         "text": "CSS Dropdowns",
         "text2": "",
