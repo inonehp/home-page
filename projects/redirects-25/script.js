@@ -1,4 +1,4 @@
-// Search redirects v.2.2.24
+// Search redirects v.2.2.25
 // Mini Google
 // The script redirects the search query + command.
 
@@ -826,24 +826,6 @@ sRedirectUrl = url;
 break;
 
 
-case 'lin#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"/main/bookmarks.html?q=" + q,
-];
-if (q == ''){
-urlList = [
-"/main/bookmarks.html",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
 case 'o#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -927,11 +909,32 @@ sRedirectUrl = url;
 break;
 
 
+case 'all#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q=" + q,
+"https://www.bing.com/search?q=" + q,
+"https://www.ecosia.org/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/",
+"https://www.bing.com/",
+"https://www.ecosia.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
 default:
 q = encodeURIComponent(q);
 urlList = [
-"https://www.google.com/search?q="+ q,
-//"https://www.bing.com/search?q="+ q,
+"https://www.google.com/search?q=" + q,
+//"https://www.bing.com/search?q=" + q,
 //"?q=" + q + " o",
 ];
 if (q == ''){

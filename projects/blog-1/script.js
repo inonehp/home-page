@@ -1,4 +1,4 @@
-// Keep or blog v.2.10.4
+// Keep or blog v.2.10.5
 // Mini Twitter, Keep (by Google)
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -18,7 +18,7 @@ let blogConfig = {
 "bottomMsg":`
 <!-- bottom text or code -->
 `, // text
-"display":"", // gallery - grid, article - "text" as title link, all - text, text2, text3
+"display":"", // gallery - grid, galleryStretch, article - "text" as title link, all - text, text2, text3
 "timeStatus":"", // off, disable post time (post id)
 "rightFooterStatus":"", // on, off, right footer in data
 "usernameStatus":"", // on, off
