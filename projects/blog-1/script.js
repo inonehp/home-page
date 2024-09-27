@@ -1,4 +1,4 @@
-// Keep or blog v.2.10.5
+// Keep or blog v.2.11.0
 // Mini Twitter, Keep (by Google)
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -1731,6 +1731,12 @@ embedServiceList += 'twitter';
 break;
 
 
+case "substack.com":
+embed = `<div class="substack-post-embed"><a data-comment-link href="${item}">Read on Substack</a></div><!--<script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>-->`;
+embedServiceList += 'substack';
+break;
+
+
 case "www.threads.net":
 embed = `<blockquote class="text-post-media" data-text-post-permalink="${item}" data-text-post-version="0"></blockquote><!--<script async src="https://www.threads.net/embed.js"></script>-->`;
 embedServiceList += 'threads';
@@ -2252,6 +2258,12 @@ item = item.replace("x.com", 'twitter.com'); // fix
 embed = `<style>.twitter-tweet { margin-top: 0px !important; }</style><div style="display: block; width: 100%; max-width: 550px; margin: 0 auto;"><blockquote class="twitter-tweet" data-lang="${lang}" data-theme="${confThemeEmbed}"><a href="${item}"></a></blockquote></div><!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->`;
 embedServiceList += 'xcom';
 embedServiceList += 'twitter';
+break;
+
+
+case "substack.com":
+embed = `<div class="substack-post-embed"><a data-comment-link href="${item}">Read on Substack</a></div><!--<script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>-->`;
+embedServiceList += 'substack';
 break;
 
 
@@ -2844,9 +2856,6 @@ ${nav2Print}
 
 
 
-
-
-
 // for embed 
 if (embedStatus == 'on'){
 
@@ -2856,6 +2865,15 @@ script.type='text/javascript';
 //script.async = true;
 script.charset = 'utf-8';
 script.src = 'https://platform.twitter.com/widgets.js';      
+document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+if (embedServiceList.indexOf('substack') != -1||embedServiceList.indexOf('twitter') != -1) {
+var script = document.createElement('script');
+script.type='text/javascript';
+//script.async = true;
+script.charset = 'utf-8';
+script.src = 'https://substack.com/embedjs/embed.js';      
 document.getElementsByTagName('head')[0].appendChild(script);
 }
 

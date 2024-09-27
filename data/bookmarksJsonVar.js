@@ -3,6 +3,16 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "176",
+        "text": "Home | Substack",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/substack.com\/home",
+        "tag": "#platform #SocialNetwork",
+        "time": 1727406724,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/bookmarks.html?id=176\">id<\/a>"
+    },
+    {
         "id": "175",
         "text": "Falkon",
         "text2": "",

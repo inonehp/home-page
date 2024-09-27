@@ -1,4 +1,4 @@
-// Search redirects v.2.2.25
+// Search redirects v.2.2.26
 // Mini Google
 // The script redirects the search query + command.
 
@@ -704,6 +704,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
+"https://substack.com/search/"+ q +"?searching=note",
 "https://bsky.app/search?q=" + q,
 //"https://www.threads.net/search?q=" + q,
 "https://www.tumblr.com/search/" + q + "/text",
@@ -711,6 +712,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
+"https://substack.com/",
 "https://bsky.app/",
 //"https://www.threads.net/",
 "https://www.tumblr.com/",
