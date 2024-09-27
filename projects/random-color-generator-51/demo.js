@@ -1,4 +1,4 @@
-// Radndom color demo v.1.2.2
+// Radndom color demo v.1.2.3
 // gen HTML result
 
 
@@ -21,20 +21,18 @@ var q = url.searchParams.get("q");
 catch(err){ }*/
 
 
-if(q != null&&q != 'null'){
+if (q != null&&q != 'null'){
 
-if(document.getElementById('lTextarea') != null){
+if (document.getElementById('lTextarea') != null){
 document.getElementById('lTextarea').value = (q);
 }
 
-}else{
+} else {
 //https://en.wikipedia.org/wiki/Web_colors
 q = "transparent,white,silver,gray,black,red,maroon,yellow,olive,lime,green,aqua,teal,blue,navy,fuchsia,purple,violet,pink,navy,rebeccapurple";
 }
 
 lDemo(q);
-
-
 
 // for demo
 function lDemo(q){
@@ -46,12 +44,12 @@ result
 `;
 
 
-if(document.getElementById("result") != null){
+if (document.getElementById("result") != null){
 document.getElementById("result").innerHTML = '';
 }
 
 var randColor = 'lime';
-if(document.getElementById("result") != null){
+if (document.getElementById("result") != null){
 //document.getElementById("result").innerHTML += `<div class="item borderRadius button small bg4 padding3 border"><h2>color name:</h2></div>`; 
 
 
@@ -62,13 +60,16 @@ randColor = fuRandomColorGenerator(q);
 print = `
 
 <div class="item">
-<div class="borderRadius2 light3 shadow ">
-<div class="lTransparentBg">
-<div style="width: 100%; height: 90px; background-color: ${randColor};"></div>
+<div class="border light3 shadow borderRadius2 padding">
+<div class="lTransparentBg borderRadius2">
+<div class="borderRadius2 shadow" style="width: 100%; height: 130px; background-color: ${randColor};"></div>
 </div>
-<div class="border padding2" style="background-color: var(--l3); color: ${randColor};">Text test <b>Text test</b></div>
-<div class="border padding2" style="background-color: var(--d3); color: ${randColor};">Text test <b>Text test</b></div>
-<div class="padding2 small" style="">${randColor}</div>
+<hr>
+<div class="shadow">
+<div class="border padding2 border" style="background-color: var(--c4); color: ${randColor};">Text test <b>Text test</b></div>
+<div class="border padding2 border" style="background-color: var(--c4R); color: ${randColor};">Text test <b>Text test</b></div>
+</div>
+<div class="padding2 small bold">${randColor}</div>
 </div>
 </div>
 
@@ -97,7 +98,7 @@ lPrint = [];
 
 
 // input listener and print result
-if(document.getElementById('lTextarea') != null){
+if (document.getElementById('lTextarea') != null){
 var inputA = document.getElementById('lTextarea');
 inputA.addEventListener('input', updateValueInput);
 }

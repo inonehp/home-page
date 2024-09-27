@@ -15,7 +15,7 @@ colorListCommaSeparator = colorListCommaSeparator.replaceAll(value, ",");
 //rm empty
 let colorListCommaSeparator2 = '';
 (colorListCommaSeparator.split(',')).forEach((value) => {
-if(value.trim() != ''){ colorListCommaSeparator2 += value.trim() + ','; }
+if (value.trim() != ''){ colorListCommaSeparator2 += value.trim() + ','; }
 });
 colorListCommaSeparator = colorListCommaSeparator2.slice(0, -1);
 let lColorList = colorListCommaSeparator.split(",");
@@ -33,13 +33,13 @@ let lRandColor2 = getRandomInt(lColorList.length);
 lRandColor2 = lColorList[lRandColor2];
 
 //console.log(mRandColor + '=' + mRandColor2);
-if(lRandColor == lRandColor2){
+if (lRandColor == lRandColor2){
 let n = 0;
 while (n < 100) {
-if(lRandColor == lRandColor2){
+if (lRandColor == lRandColor2){
 lRandColor2 = getRandomInt(lColorList.length);
 lRandColor2 = lColorList[lRandColor2];
-}else{
+} else {
 break;
 }
 n++;
