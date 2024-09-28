@@ -1,4 +1,4 @@
-/* Noscript CSS v.2.2.0 */
+/* Noscript CSS v.2.2.2 */
 
 
 
@@ -27,7 +27,8 @@ display: none !important;
 
 /* CSS dropdown menu if JS off, hover
 https://www.w3schools.com/css/css_dropdowns.asp
-https://stackoverflow.com/questions/31549280/show-hidden-text-on-hover-css#*/
+https://stackoverflow.com/questions/31549280/show-hidden-text-on-hover-css
+https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-another-element#*/
 #dropdownMenuCSS:hover #dropdownMenu {
 display: block;
 position: absolute;
