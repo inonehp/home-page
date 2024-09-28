@@ -560,13 +560,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/navigation-54\/index.html",
-        "text": "Site navigation menu with auto dropdown\n\nSite navigation menu with a auto dropdown. (the current site navigation has been used.) | navigation: ",
-        "tag": " #UI #UX #navigation #menu #dropdown #CSS #JavaScript #project",
-        "id": "7ce68fffa61d1d30e58bc8a6f3cbfbc9",
-        "time": "id"
-    },
-    {
         "url": "\/projects\/podcast-70\/index.html",
         "text": "Random Podcast\n\nA small collection of podcasts that are randomly selected and automatically played. | podcast: ",
         "tag": " #podcast #random #online #colection #embed #JavaScript #project",
