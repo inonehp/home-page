@@ -217,7 +217,7 @@ ${conf["confMenuItems2"]}
 <!-- // menuTop -->
 
 <!-- dropdown menu -->
-<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<!-- Inspired code with copyright: https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
 <button onclick="dropdownMenuFunction();" class="brand inlineBlock padding borderBottomTransparent itemLinkAni" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2 borderRadius2">
@@ -257,7 +257,7 @@ ${conf["confMenuItems2"]}
 // JS part
 // Dropdown menu  v.2.0.0
 // if JS off (CSS version in noscript.css)
-//https://www.w3schools.com/howto/howto_js_dropdown.asp
+//<!-- Inspired code with copyright: https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
 // menu click
 function dropdownMenuFunction() {
 var x = document.getElementById("dropdownMenu");

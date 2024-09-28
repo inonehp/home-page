@@ -138,15 +138,6 @@ var quoteJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Examples are better than 1000 words. Examples are often easier to understand than text explanations. w3schools",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.w3schools.com\/js\/default.asp",
-        "tag": "#quote",
-        "time": 1700392962,
-        "rightFooter": ""
-    },
-    {
         "text": "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime.",
         "text2": "",
         "text3": "",

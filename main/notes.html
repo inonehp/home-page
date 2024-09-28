@@ -66,7 +66,7 @@
 <!-- // menuTop -->
 
 <!-- dropdown menu -->
-<!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+<!-- Inspired code with copyright: https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
 <button onclick="dropdownMenuFunction();" class="brand inlineBlock padding borderBottomTransparent itemLinkAni" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2 borderRadius2">
@@ -156,6 +156,69 @@ var jsonVar =
 <!-- post -->
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
+<div class="postContent pre padding2List">if...else - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else</a><br>function testNum(a) {
+  let result;
+  if (a &gt; 0) {
+    result = &#039;positive&#039;;
+  } else {
+    result = &#039;NOT positive&#039;;
+  }
+  return result;
+}
+
+console.log(testNum(-5));
+// Expected output: &quot;NOT positive&quot;
+
+===
+
+x = y;
+if (x) {
+  // …
+}</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Function - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function</a><br>// Create a global property with `var`
+var x = 10;
+
+function createFunction1() {
+  const x = 20;
+  return new Function(&quot;return x;&quot;); // this `x` refers to global `x`
+}
+
+function createFunction2() {
+  const x = 20;
+  function f() {
+    return x; // this `x` refers to the local `x` above
+  }
+  return f;
+}
+
+const f1 = createFunction1();
+console.log(f1()); // 10
+const f2 = createFunction2();
+console.log(f2()); // 20</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
 <div class="postContent pre padding2List">:root - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:root">https://developer.mozilla.org/en-US/docs/Web/CSS/:root</a><br>/* Selects the root element of the document:
    &lt;html&gt; in the case of HTML */
 :root {
@@ -192,22 +255,6 @@ console.log(result);
 // Expected output: &quot;12345&quot;
 
 ===</div>
-
-<div class="postFooter break2 small">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
-
-<!-- post -->
-<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
-
-<div class="postContent pre padding2List">How To Add a Class Name <a class="brand insertIcon" href="https://www.w3schools.com/howto/howto_js_add_class.asp">https://www.w3schools.com/howto/howto_js_add_class.asp</a><br>function myFunction() {
-  var element = document.getElementById(&quot;myDIV&quot;);
-  element.classList.add(&quot;mystyle&quot;);
-}</div>
 
 <div class="postFooter break2 small">
 <div class="tagList tLeft left"></div>
@@ -749,19 +796,6 @@ For automatic day and night in a bash script and using extension: Night Theme Sw
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
 <div class="postContent pre padding2List">Delete all records in a table of MYSQL in phpMyAdmin - Stack Overflow <a class="brand insertIcon" href="https://stackoverflow.com/questions/18271951/delete-all-records-in-a-table-of-mysql-in-phpmyadmin">https://stackoverflow.com/questions/18271951/delete-all-records-in-a-table-of-mysql-in-phpmyadmin</a></div>
-
-<div class="postFooter break2 small">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
-
-<!-- post -->
-<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
-
-<div class="postContent pre padding2List">CSS Dropdowns <a class="brand insertIcon" href="https://www.w3schools.com/css/css_dropdowns.asp">https://www.w3schools.com/css/css_dropdowns.asp</a></div>
 
 <div class="postFooter break2 small">
 <div class="tagList tLeft left"></div>

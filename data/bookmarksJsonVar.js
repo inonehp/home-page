@@ -663,16 +663,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/main\/bookmarks.html?id=84\">id<\/a>"
     },
     {
-        "id": "83",
-        "text": "W3Schools Online Web Tutorials",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.w3schools.com\/",
-        "tag": "#docs #WebDevelopment #dev",
-        "time": 1706275458,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/bookmarks.html?id=83\">id<\/a>"
-    },
-    {
         "id": "82",
         "text": "Recent | Layers",
         "text2": "",

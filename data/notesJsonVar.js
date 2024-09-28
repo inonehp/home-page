@@ -13,16 +13,6 @@ var notesJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=68\">id<\/a>"
     },
     {
-        "id": "66",
-        "text": "CSS Dropdowns",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.w3schools.com\/css\/css_dropdowns.asp",
-        "tag": "#CSS",
-        "time": 1727163999,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=66\">id<\/a>"
-    },
-    {
         "id": "65",
         "text": "Delete all records in a table of MYSQL in phpMyAdmin - Stack Overflow",
         "text2": "",
@@ -273,16 +263,6 @@ var notesJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=40\">id<\/a>"
     },
     {
-        "id": "39",
-        "text": "How To Add a Class Name",
-        "text2": "function myFunction() {\r\n  var element = document.getElementById(\"myDIV\");\r\n  element.classList.add(\"mystyle\");\r\n}",
-        "text3": "",
-        "url": "https:\/\/www.w3schools.com\/howto\/howto_js_add_class.asp",
-        "tag": "#JavaScript #coding #code",
-        "time": 1717666815,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=39\">id<\/a>"
-    },
-    {
         "id": "38",
         "text": "do...while - JavaScript | MDN",
         "text2": "let result = '';\r\nlet i = 0;\r\n\r\ndo {\r\n  i = i + 1;\r\n  result = result + i;\r\n} while (i < 5);\r\n\r\nconsole.log(result);\r\n\/\/ Expected output: \"12345\"\r\n\r\n===",
@@ -301,26 +281,6 @@ var notesJsonVar =
         "tag": "#code #CSS",
         "time": 1717661687,
         "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=37\">id<\/a>"
-    },
-    {
-        "id": "36",
-        "text": "Python For Loops",
-        "text2": "fruits = [\"apple\", \"banana\", \"cherry\"]\r\nfor x in fruits:\r\n  print(x)\r\n\r\n===\r\n\r\nfruits = [\"apple\", \"banana\", \"cherry\"]\r\nfor x in fruits:\r\n  print(x)\r\n  if x == \"banana\":\r\n    break\r\n\r\n===\r\nfruits = [\"apple\", \"banana\", \"cherry\"]\r\nfor x in fruits:\r\n  if x == \"banana\":\r\n    break\r\n  print(x)",
-        "text3": "",
-        "url": "https:\/\/www.w3schools.com\/python\/python_for_loops.asp",
-        "tag": "#coding #python",
-        "time": 1717650888,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=36\">id<\/a>"
-    },
-    {
-        "id": "35",
-        "text": "Python Functions",
-        "text2": "def my_function(fname):\r\n  print(fname + \" Refsnes\")\r\n\r\nmy_function(\"Emil\")\r\nmy_function(\"Tobias\")\r\nmy_function(\"Linus\")",
-        "text3": "",
-        "url": "https:\/\/www.w3schools.com\/python\/python_functions.asp",
-        "tag": "#coding #python",
-        "time": 1717650246,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=35\">id<\/a>"
     },
     {
         "id": "34",
@@ -413,16 +373,6 @@ var notesJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=26\">id<\/a>"
     },
     {
-        "id": "25",
-        "text": "CSS Default Browser Values for HTML Elements",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.w3schools.com\/cssref\/css_default_values.php",
-        "tag": "#CSS #code",
-        "time": 1714534030,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=25\">id<\/a>"
-    },
-    {
         "id": "23",
         "text": "Array.prototype.map() - JavaScript | MDN",
         "text2": "const array1 = [1, 4, 9, 16];\r\n\r\n\/\/ Pass a function to map\r\nconst map1 = array1.map((x) => x * 2);\r\n\r\nconsole.log(map1);\r\n\/\/ Expected output: Array [2, 8, 18, 32]\r\n\r\n===\r\n\r\nconst numbers = [1, 4, 9];\r\nconst roots = numbers.map((num) => Math.sqrt(num));\r\n\r\n\/\/ roots is now     [1, 2, 3]\r\n\/\/ numbers is still [1, 4, 9]\r\n\r\n===\r\n\r\nconst kvArray = [\r\n  { key: 1, value: 10 },\r\n  { key: 2, value: 20 },\r\n  { key: 3, value: 30 },\r\n];\r\n\r\nconst reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));\r\n\r\nconsole.log(reformattedArray); \/\/ [{ 1: 10 }, { 2: 20 }, { 3: 30 }]\r\nconsole.log(kvArray);\r\n\/\/ [\r\n\/\/   { key: 1, value: 10 },\r\n\/\/   { key: 2, value: 20 },\r\n\/\/   { key: 3, value: 30 }\r\n\/\/ ]",
@@ -491,16 +441,6 @@ var notesJsonVar =
         "tag": "#coding #rule",
         "time": 1713052551,
         "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=17\">id<\/a>"
-    },
-    {
-        "id": "16",
-        "text": "JavaScript Style Guide",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.w3schools.com\/js\/js_conventions.asp",
-        "tag": "#JavaScript #coding #rule",
-        "time": 1713052475,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=16\">id<\/a>"
     },
     {
         "id": "15",

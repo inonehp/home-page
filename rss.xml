@@ -309,7 +309,6 @@ Documentation:
 =============
 
 - MDN Web Docs  
-- W3Schools Online Web Tutorials  
 - Stack Overflow - Where Developers Learn, Share, & Build Careers  
 - web.dev  
 
@@ -318,7 +317,10 @@ Dev:
 
 - PageSpeed Insights  
 - The W3C Markup Validation Service  
-- The W3C CSS Valida]]></title>
+- The W3C CSS Validation Service  
+
+
+SEO and statics:]]></title>
 <link><![CDATA[https://daringfireball.net/projects/markdown/]]></link>
 <description>
 <![CDATA[
@@ -327,7 +329,6 @@ Documentation:
 =============
 
 - MDN Web Docs https://developer.mozilla.org/
-- W3Schools Online Web Tutorials https://www.w3schools.com/
 - Stack Overflow - Where Developers Learn, Share, & Build Careers https://stackoverflow.com/
 - web.dev https://web.dev/
 
@@ -568,7 +569,6 @@ This is one way to make a page responsive, there a]]></title>
 <link><![CDATA[https://developer.mozilla.org/docs/Web/HTML/Viewport_meta_tag
 
 Other:
-https://www.w3schools.com/html/html_responsive.asp
 https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Responsive_Design]]></link>
 <description>
 <![CDATA[
@@ -610,11 +610,9 @@ height: 50px;
 In conclusion, with this method responsive design involves stretching the element using percent and adding a limit to its width, thereby enabling it to adapt to different screen sizes without overflow element. This is only one of the techniques.
 
 Source:
-* https://www.w3schools.com/html/html_responsive.asp
 * https://developer.mozilla.org/docs/Web/HTML/Viewport_meta_tag
 
 Other:
-https://www.w3schools.com/html/html_responsive.asp
 https://developer.mozilla.org/docs/Learn/CSS/CSS_layout/Responsive_Design
 ]]>
 </description>

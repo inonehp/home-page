@@ -25,7 +25,8 @@ display: none !important;
 }
 }*/
 
-/* CSS dropdown menu if JS off, hover https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar2#*/
+/* CSS dropdown menu if JS off hover
+Inspired code with copyright: https://www.w3schools.com/css/css_dropdowns.asp#*/
 #dropdownMenuCSS:hover #dropdownMenu {
 display: block;
 position: absolute;

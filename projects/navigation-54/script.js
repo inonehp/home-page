@@ -1,4 +1,4 @@
-// Nav v.2.0.0
+// Nav v.2.0.1
 
 // config
 
@@ -9,7 +9,7 @@ let mNavigationWrapperWidth = 900;
 // JS part
 // Dropdown menu  v.1.3.0
 // if JS off (CSS version in noscript.css)
-//https://www.w3schools.com/howto/howto_js_dropdown.asp
+//<!-- Inspired code with copyright: https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
 // menu click
 function dropdownMenuFunction() {
 var x = document.getElementById("dropdownMenu");
