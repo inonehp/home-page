@@ -127,7 +127,7 @@ element33 = Math.abs(new Date('2011/10/09 '+lStopArr[index]) - new Date('2011/10
 element33 = Math.abs(new Date('2011/10/09 '+lStopArr[index]) - new Date('2011/10/09 00:00:00'));
 }
 
-//https://www.w3schools.com/jsref/jsref_isNaN.asp
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
 if(!isNaN(element33)){
 element33 = Math.floor((element33 / 1000)); // sec
 //element33 = Math.floor((element33 / 1000 / 60)); // min

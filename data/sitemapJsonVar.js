@@ -322,13 +322,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/mini-projects\/circle-8\/index.html",
-        "text": "Round CSS\n\nCircles are placed on the page using HTML, CSS. | circle: ",
-        "tag": " #circle #wallpaper #CSS #project",
-        "id": "c08b5efbe661313d4a677693ab8b5102",
-        "time": "id"
-    },
-    {
         "url": "\/mini-projects\/flex-grid-32\/index.html",
         "text": "Responsive grid test\n\nResponsive grid test. | flex grid: ",
         "tag": " #grid #responsive #test #project",

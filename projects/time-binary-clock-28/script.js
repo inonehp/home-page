@@ -40,7 +40,7 @@ let seconds = normalize(time.getSeconds());
 //console.log(hours+' '+minutes+' '+seconds);
 
 var print = hours+':'+minutes+':'+seconds;
-/*//https://www.w3schools.com/jsref/jsref_tostring_number.asp
+/*//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toString
 var print = 
 normalize2(Number(hours.toString()[0]).toString(2))+','+normalize2(Number(hours.toString()[1]).toString(2))+' : '+
 normalize2(Number(minutes.toString()[0]).toString(2))+','+normalize2(Number(minutes.toString()[1]).toString(2))+' : '+

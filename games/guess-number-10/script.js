@@ -50,7 +50,7 @@ document.getElementById("range2").innerHTML = `
 
 function start(){
 if(answer[0] == undefined){ answer[0] = 0; }
-https://www.w3schools.com/js/js_random.asp
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 // Returns a random integer from 0 to 9:
 task[0] = Math.floor(Math.random() * mode[0]); 
 

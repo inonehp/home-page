@@ -280,15 +280,15 @@ var a = null;
 
 
 // cursor light click
+/*
 
-
-//https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+//https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 window.document.addEventListener("click", function(){
 document.body.classList.add('cursorHl');
 });
 addEventListener("mousemove", function(){
 document.body.classList.remove('cursorHl');
-}); 
+}); */
 
 
 

@@ -9,7 +9,6 @@ custom search:
 *.pages.dev/*
 *.mozilla.org/*
 *.stackoverflow.com/*
-*.w3schools.com/*
 *.bsky.app/*
 *.tumblr.com/*
 
