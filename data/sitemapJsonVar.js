@@ -385,13 +385,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/mini-projects\/textarea-24\/index.html",
-        "text": "Textarea\n\nTextarea. | textarea: ",
-        "tag": " #textarea #HTML #CSS #project",
-        "id": "8d591aad977c86581fbb281cce12abc4",
-        "time": "id"
-    },
-    {
         "url": "\/old-projects-list.html",
         "text": "Old projects list\n\nOn this page are the projects that are outdated. | old projects list: ",
         "tag": " #old #menu #list #page #main",
@@ -417,6 +410,13 @@ var sitemapJsonVar = [
         "text": "pwa test\n\nTest PWA, PWA test. | pwa test: ",
         "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
         "id": "551aec3849bcce3c49550c3fd07d25dc",
+        "time": "id"
+    },
+    {
+        "url": "\/old-projects\/textarea-24\/index.html",
+        "text": "Textarea\n\nTextarea. Large form for text input. | textarea: ",
+        "tag": " #textarea #HTML #CSS #project",
+        "id": "036fd1e9152b7d1eb2234e2f2e43c72e",
         "time": "id"
     },
     {
