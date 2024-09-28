@@ -117,50 +117,43 @@ transform: rotate(0deg);
 <body>
 
 
-
-<!-- Nav v.1.2.3 -->
-<!-- page, style.css, main.js, noscript.css -->
-
-<!-- nav HTML part -->
 <header>
-<div class="wrapper3 navTop">
+<div class="wrapper3 navTop tCenter">
 <div class="margin"></div>
-<nav>
+
+<!-- Navigation HTML v.1.0.0 -->
+<nav class="topNav">
 
 <span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
-<div class="menuTop">
-<!-- menu items -->
+<div class="dropdownMenuContentWrapper">
+<div class="dropdownMenuContent">
+
+<span class="countMenuItem"></span>
+<a id="dropdownMenuButton" class="brand padding dropdownMenuButton" href="#">☰ Menu</a>
+
+<span class="navMenu">
+<!-- links for hide -->
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/main-list.html">Main</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/projects-group-list.html">Projects</a>
-<!-- // menu items -->
-</div>
-<!-- // menuTop -->
+<!-- // links for hide -->
+</span>
 
-<!-- dropdown menu -->
-<!--https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
-<!--https://stackoverflow.com/questions/52556194/how-to-toggle-on-off-javascript#-->
-<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
-<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding borderBottomTransparent itemLinkAni" id="dropdownMenuButton">☰ Menu</button>
-<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2 borderRadius2">
-<div class="dropdownMenuWrapper">
-<!--<div class="padding2">menu name</div>-->
-<div class="dropdownMenuContentColumn">
 
-<!-- menu items dublicate -->
+<span id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show dropdown -->
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/main-list.html">Main</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/projects-group-list.html">Projects</a>
-<!-- // menu items dublicate -->
+<!-- // links for show dropdown -->
+</div>
+</span>
 
 </div>
 </div>
-</div>
-</div>
-<!--<hr />-->
-<!-- // dropdown menu -->
 
 <span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
@@ -171,9 +164,10 @@ transform: rotate(0deg);
 </form>
 
 </nav>
-</div>
+<!-- // Navigation HTML -->
+
 </header>
-<!-- // nav -->
+</div>
 
 <!--<hr>-->
 
@@ -671,7 +665,7 @@ transform: rotate(0deg);
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
 <div class="wrapperL small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-Moved some main pages to a new section of the site.
+Creating navigation in progress, sorry.
 
 <a class="brand block tag2 small tCenter border2 light borderRadius2" href="/main/changelog.html" title="Update Log">more</a></div>
 </details>
@@ -920,7 +914,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1727090623);
+document.getElementById("last-update").innerHTML = fuPostTime(1727569012);
 </script>
 
 <script>

@@ -1,7 +1,3 @@
-/* v.1.18.1 */
-
-
-
 /* Navigation CSS v.1.0.0 */
 //*Creating navigation in progress, sorry*/
 
@@ -58,70 +54,4 @@ margin-top: 10px;
 
 .dropdownMenu { display: none; }
 /* end Navigation CSS */
-
-
-
-
-
-
-.menu {
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-grid-gap: 5px;
-margin: 0 auto;
-justify-content: center;
-}
-
-@media(max-width: 150px) { .menu { display: block; width: 100%; }}
-
-.menu a {
-display: flex;
-min-width: 100%;
-justify-content: start;
-align-content: center;
-margin: 0 auto;
-text-wrap: balance;
-text-align: left;
-/*min-height: 50px;*/
-}
-
-.insertIcon svg *, .insertIconTitle svg * {
-fill: var(--c) !important;
-stroke: var(--c) !important;
-}
-
-.listBlock {
-padding: 0 var(--padding3);
-margin-bottom: var(--padding2);
-}
-.listItem {
-padding: var(--padding) 0;
-border-bottom: 2px dotted var(--d3);
-}
-
-/* bg image in main.js */
-
-/* fix */
-
-
-@media(max-width: 500px){
-#secondNav nav {
-text-align: left;
-}
-}
-
-.itemLinkAni {
-border-bottom: 2px solid transparent;
-}
-
-.itemLinkAni:hover {
-transition: 1.8s;
-border-bottom: 2px solid var(--brand);
-}
-
-
-.headerBannerImg svg{
-opacity: .7;
-}
-
 

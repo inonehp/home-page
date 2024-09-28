@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Navigation</title>
+
+<meta name="description" content="
+Navigation
+">
+<meta name="keywords" content="
+Navigation,
+CSS, JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<!--<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">-->
+
+<noscript>
+<!--<link rel="stylesheet" type="text/css" href="../../css/noscript.css">-->
+<link rel="stylesheet" type="text/css" href="noscript.css">
+</noscript>
+<!-- // main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+
+
+<!-- content -->
+<main class="content">
+<div class="wrapper3">
+
+<h1 class="tCenter op insertIconTitle">Project name</h1>
+<div class="tCenter margin4List small op">Experimental, Test, In progress</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Navigation HTML v.1.0.0 -->
+<nav class="topNav">
+
+<span class="countMenuItem"></span>
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+
+<div class="dropdownMenuContentWrapper">
+<div class="dropdownMenuContent">
+
+<span class="countMenuItem"></span>
+<a id="dropdownMenuButton" class="brand padding dropdownMenuButton" href="#">☰ Menu</a>
+
+<span class="navMenu">
+<!-- links for hide -->
+<a class="countMenuItem brand padding" href="#">Nav item</a>
+<a class="countMenuItem active padding" href="#">Nav item</a>
+<span id="lRandomNavItems"></span>
+<!-- // links for hide -->
+</span>
+
+
+<span id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show dropdown -->
+<a class="countMenuItem brand padding" href="#">Nav item</a>
+<a class="countMenuItem active padding" href="#">Nav item</a>
+<span id="lRandomNavItems2"></span>
+<!-- // links for show dropdown -->
+</div>
+</span>
+
+</div>
+</div>
+
+<span class="countMenuItem"></span>
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.<?=$ext?>" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+<!-- // Navigation HTML -->
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</main>
+<!-- // content -->
+
+
+<footer id="footer"></footer>
+
+<script src="../../js/main.js"></script>
+
+<script>
+//fuMSetTheme('light');
+</script>
+
+<script src="script.js"></script>
+<script src="demo.js"></script>
+
+</body>
+</html>

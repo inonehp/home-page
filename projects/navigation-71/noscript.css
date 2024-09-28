@@ -1,8 +1,3 @@
-/* Noscript CSS v.3.0.0 */
-
-
-
-
 /* Navigation CSS noscript (CSS) v.1.0.0 */
 /*https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-another-element#*/
 
@@ -13,21 +8,3 @@ display: none;
 .dropdownMenuContent:hover {
 .dropdownMenu { display: block; }
 }
-
-
-
-
-
-
-@media (prefers-color-scheme: dark) {
-.reduceLight { filter: brightness(70%); }
-}
-
-
-.noscriptHide { display: none !important; }
-
-
-
-
-
-

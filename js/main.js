@@ -10,7 +10,7 @@ conf["confHostingDomain"] = "pages.dev";
 conf["confGoogleAnalyticsId"] = "G-RQJTJG7DF9";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
-conf["conMenuItemAverageWidth"] = 130;
+conf["conMenuItemAverageWidth"] = 150;
 
 conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
@@ -192,109 +192,34 @@ conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent
 if (conf["confMenu"] == "random"){
 if (fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
 }
-
+/*
 if (conf["confMenu"] == "on"){
-
-
-//if (document.getElementsByTagName("header")[0] != null){
-//document.getElementsByTagName("header")[0].innerHTML = `
 
 if (document.getElementById("secondNav") != null){
 document.getElementById("secondNav").innerHTML = `
 
-<!-- Nav v.2.0.0 -->
-<!-- page, main js, noscript.css -->
-<div class="wrapper3 navTop">
-<div class="margin"></div>
-<nav>
-
-<span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
-
-<div class="menuTop">
 ${conf["confMenuItems2"]}
-</div>
-<!-- // menuTop -->
-
-<!-- dropdown menu -->
-<!--https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
-<!--https://stackoverflow.com/questions/52556194/how-to-toggle-on-off-javascript#-->
-<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
-<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding borderBottomTransparent itemLinkAni" id="dropdownMenuButton">☰ Menu</button>
-<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2 borderRadius2">
-<div class="dropdownMenuWrapper">
-<!--<div class="padding2">section</div>-->
-<div class="dropdownMenuContentColumn">
-
-<!-- menu dublicate -->
-${conf["confMenuItems2"]}
-<!-- // menu dublicate -->
-
-</div>
-</div>
-</div>
-</div>
-<!--<hr />-->
-<!-- // dropdown menu -->
-
-<span class="countMenuItem"></span>
-<span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent" style="margin-right: var(--padding);" href="../" title="../ (Up)">List (up)</a>
-<form class="noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.html" role="search">
-<!--<label for="siteSearch" class="xSmall op">search:</label>-->
-<input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
-</form>
-
-</nav>
-</div>
 
 `;
 }
-}
+}*/
 //<!-- // nav HTML part -->
 
 
 
-// JS part
-// Dropdown menu  v.3.0.0
-// if JS off (CSS version in noscript.css)
-//https://stackoverflow.com/questions/52556194/how-to-toggle-on-off-javascript
-// menu click
-function dropdownMenuFunction() {
-var dropdown = document.getElementById("dropdownMenu");
-if (dropdown.style.display === "none"||dropdown.style.display === "") {
-document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
-dropdown.style.display = "block";
-} else {
-dropdown.style.display = "none";
-document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
-}
 
-// out area hide
-var getclick = document.getElementById('dropdownMenuButton');
-document.addEventListener('click', function(event) {
-// hide and make posible text selected
-if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
-var dropdown = document.getElementById("dropdownMenu");
-dropdown.style.display = "none";
-document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
-}
-});
-}
-
-
+// Navigation JS version v.1.0.0
+//Creating navigation in progress, sorry
 
 // nav v.1.2.2, in test
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
-//if ((countMenuItem.length / 2) >= 4){}
-//if (document.getElementById("footer") != null){}
-//fuMPrintText('footer', ``, '+');
-if (document.getElementsByTagName("nav")[0] != null){ // not body, id not found
+if (document.getElementsByTagName("nav")[0] != null){
 
 var mNavItemsAverageWidth = conf["conMenuItemAverageWidth"];
 // Average: 66 
 var mNavItemsCount = (countMenuItem.length / 2);
+console.log(countMenuItem.length);
 // /2 - dublicate items (links)
 var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
 // nav width (mNavItemsAverageWidth * mNavItemsCount)/2 - for 2 rows links
@@ -309,36 +234,31 @@ cssMedia = '@media(width >= 1px)';
 // cancel
 cssMedia2 = `@media(width <= 0px)`; 
 }
+console.log(cssMedia);
 // embed style
-document.getElementsByTagName("nav")[0].innerHTML += `
+/*document.getElementsByTagName("nav")[0].innerHTML += `
 
 <style>
 
-/* mobile dropdown menu */
-
-/* when start dropdown: main.js, noscript.css */
 ${cssMedia} {
-.navTop { display: block;  }
-.menuTop { display: none; }
-#dropdownMenuButton { display: inline-block; }
+.navMenu, .dropdownMenu {
+display: none;
+}
+.topNav .dropdownMenuButton { display: inline-block; }
 }
 
-/* fix when dynamic change */
+//fix when dynamic change 
 ${cssMedia2}{
-.dropdownMenuContentColumn, .dropdownMenuContent {
+.dropdownMenu {
 display: none !important;
 }
 }
-/* // when start dropdown main.js noscript.css */
 
 </style>
 
-`;
-}
+`;*/
 
-//console.log(document.getElementsByTagName("header")[0]);
-// JS part
-//<!-- // Nav -->
+}
 
 
 

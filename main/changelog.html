@@ -40,50 +40,43 @@
 <body>
 
 
-
-<!-- Nav v.1.2.3 -->
-<!-- page, style.css, main.js, noscript.css -->
-
-<!-- nav HTML part -->
 <header>
-<div class="wrapper3 navTop">
+<div class="wrapper3 navTop tCenter">
 <div class="margin"></div>
-<nav>
+
+<!-- Navigation HTML v.1.0.0 -->
+<nav class="topNav">
 
 <span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
-<div class="menuTop">
-<!-- menu items -->
+<div class="dropdownMenuContentWrapper">
+<div class="dropdownMenuContent">
+
+<span class="countMenuItem"></span>
+<a id="dropdownMenuButton" class="brand padding dropdownMenuButton" href="#">☰ Menu</a>
+
+<span class="navMenu">
+<!-- links for hide -->
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/main-list.html">Main</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/projects-group-list.html">Projects</a>
-<!-- // menu items -->
-</div>
-<!-- // menuTop -->
+<!-- // links for hide -->
+</span>
 
-<!-- dropdown menu -->
-<!--https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
-<!--https://stackoverflow.com/questions/52556194/how-to-toggle-on-off-javascript#-->
-<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
-<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding borderBottomTransparent itemLinkAni" id="dropdownMenuButton">☰ Menu</button>
-<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2 borderRadius2">
-<div class="dropdownMenuWrapper">
-<!--<div class="padding2">menu name</div>-->
-<div class="dropdownMenuContentColumn">
 
-<!-- menu items dublicate -->
+<span id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show dropdown -->
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/main-list.html">Main</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/projects-group-list.html">Projects</a>
-<!-- // menu items dublicate -->
+<!-- // links for show dropdown -->
+</div>
+</span>
 
 </div>
 </div>
-</div>
-</div>
-<!--<hr />-->
-<!-- // dropdown menu -->
 
 <span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
@@ -94,9 +87,10 @@
 </form>
 
 </nav>
-</div>
+<!-- // Navigation HTML -->
+
 </header>
-<!-- // nav -->
+</div>
 
 <!--<hr>-->
 
@@ -105,6 +99,12 @@
 <!-- content -->
 <main class="content">
 <h1 class="tCenter insertIconTitle">Changelog</h1>
+<div class="wrapper">
+<div class="padding3 borderList bg padding3">
+<span class="op xSmall">#306</span><hr><span class="inlineBlock firstLetterBold pre">Creating navigation in progress, sorry.</span>
+</div>
+</div>
+
 <div class="wrapper">
 <div class="padding3 borderList bg padding3">
 <span class="op xSmall">#305</span><hr><span class="inlineBlock firstLetterBold pre">Moved some main pages to a new section of the site.</span>
@@ -156,12 +156,6 @@
 <div class="wrapper">
 <div class="padding3 borderList bg padding3">
 <span class="op xSmall">#294</span><hr><span class="inlineBlock firstLetterBold pre">New: voice to text and text to voice</span>
-</div>
-</div>
-
-<div class="wrapper">
-<div class="padding3 borderList bg padding3">
-<span class="op xSmall">#293</span><hr><span class="inlineBlock firstLetterBold pre">Fixed PWA (website as an application)</span>
 </div>
 </div>
 

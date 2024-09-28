@@ -80,50 +80,43 @@ justify-content: center;
 <body>
 
 
-
-<!-- Nav v.1.2.3 -->
-<!-- page, style.css, main.js, noscript.css -->
-
-<!-- nav HTML part -->
 <header>
-<div class="wrapper3 navTop">
+<div class="wrapper3 navTop tCenter">
 <div class="margin"></div>
-<nav>
+
+<!-- Navigation HTML v.1.0.0 -->
+<nav class="topNav">
 
 <span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
-<div class="menuTop">
-<!-- menu items -->
+<div class="dropdownMenuContentWrapper">
+<div class="dropdownMenuContent">
+
+<span class="countMenuItem"></span>
+<a id="dropdownMenuButton" class="brand padding dropdownMenuButton" href="#">☰ Menu</a>
+
+<span class="navMenu">
+<!-- links for hide -->
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/main-list.html">Main</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/projects-group-list.html">Projects</a>
-<!-- // menu items -->
-</div>
-<!-- // menuTop -->
+<!-- // links for hide -->
+</span>
 
-<!-- dropdown menu -->
-<!--https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
-<!--https://stackoverflow.com/questions/52556194/how-to-toggle-on-off-javascript#-->
-<div id="dropdownMenuCSS"><!-- CSS menu if js off -->
-<button onclick="dropdownMenuFunction();" class="brand inlineBlock padding borderBottomTransparent itemLinkAni" id="dropdownMenuButton">☰ Menu</button>
-<div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2 borderRadius2">
-<div class="dropdownMenuWrapper">
-<!--<div class="padding2">menu name</div>-->
-<div class="dropdownMenuContentColumn">
 
-<!-- menu items dublicate -->
+<span id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show dropdown -->
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/main-list.html">Main</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/projects-group-list.html">Projects</a>
-<!-- // menu items dublicate -->
+<!-- // links for show dropdown -->
+</div>
+</span>
 
 </div>
 </div>
-</div>
-</div>
-<!--<hr />-->
-<!-- // dropdown menu -->
 
 <span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
@@ -134,9 +127,10 @@ justify-content: center;
 </form>
 
 </nav>
-</div>
+<!-- // Navigation HTML -->
+
 </header>
-<!-- // nav -->
+</div>
 
 <!--<hr>-->
 
@@ -257,8 +251,8 @@ justify-content: center;
 
 <div class="listItem">Books in /data (bookJsonVar): <a class="brand" href="https://gutenberg.org/policy/license.html"><span class="firstLetterBold">The Project Gutenberg License</span></a></div>
 
-<h3>Copyright:</h3>
-<div class="listItem">The navigation contains part of the code from the "dropdown menu" code examples on the <a class="brand" href="https://www.w3schools.com/">W3Schools.com</a> site. <a class="brand" href="https://www.w3schools.com/howto/howto_js_dropdown.asp">[ 1 ]</a>, <a class="brand" href="https://www.w3schools.com/css/css_dropdowns.asp">[ 2 ]</a></div>
+<!--<h3>Copyright:</h3>
+<div class="listItem">text <a class="brand" href="#">link</a>.</div>-->
 
 </div>
 
