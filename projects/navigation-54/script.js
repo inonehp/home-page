@@ -9,6 +9,7 @@ let mNavigationWrapperWidth = 900;
 // JS part
 // Dropdown menu  v.3.0.0
 // if JS off (CSS version in noscript.css)
+//https://www.w3schools.com/howto/howto_js_dropdown.asp
 //https://stackoverflow.com/questions/52556194/how-to-toggle-on-off-javascript
 // menu click
 function dropdownMenuFunction() {

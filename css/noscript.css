@@ -25,7 +25,9 @@ display: none !important;
 }
 }*/
 
-/* CSS dropdown menu if JS off, hover https://stackoverflow.com/questions/31549280/show-hidden-text-on-hover-css#*/
+/* CSS dropdown menu if JS off, hover
+https://www.w3schools.com/css/css_dropdowns.asp
+https://stackoverflow.com/questions/31549280/show-hidden-text-on-hover-css#*/
 #dropdownMenuCSS:hover #dropdownMenu {
 display: block;
 position: absolute;

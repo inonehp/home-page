@@ -217,6 +217,7 @@ ${conf["confMenuItems2"]}
 <!-- // menuTop -->
 
 <!-- dropdown menu -->
+<!--https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
 <!-- https://stackoverflow.com/questions/52556194/how-to-toggle-on-off-javascript#-->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
 <button onclick="dropdownMenuFunction();" class="brand inlineBlock padding borderBottomTransparent itemLinkAni" id="dropdownMenuButton">☰ Menu</button>
