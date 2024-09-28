@@ -4626,11 +4626,6 @@ var wordJsonVar =
         "text3": "oraci\u00f3n"
     },
     {
-        "text": "\u043c\u043e\u043b\u043e\u0434\u044c",
-        "text2": "young",
-        "text3": "gente joven"
-    },
-    {
         "text": "\u043c\u043e\u043b\u043e\u043a\u043e",
         "text2": "milk",
         "text3": "la leche"

@@ -1,4 +1,4 @@
-// Typing Speed Test or Typing Speed Game v.3.18.1
+// Typing Speed Test or Typing Speed Game v.3.18.2
 
 
 
@@ -303,8 +303,8 @@ document.getElementById("lPrintTr").style.display = "block";
 let text = textForTranslate;
 //let text = (textForTranslate);
 let http = new XMLHttpRequest();
-let url2 = '/fu/fuTranslateExt.php';
-let params = 'text=' + text;
+let url2 = '/?q=dic';
+let params = 'text=' + encodeURIComponent(text);
 //alert(params);
 http.open('POST', url2, true);
 //Send the proper header information along with the request

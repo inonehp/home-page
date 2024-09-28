@@ -1,5 +1,5 @@
 // Keep or blog v.2.11.0
-// Mini Twitter, Keep (by Google)
+// Mini Twitter or like Keep by Google
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
 // JSON data in JS varible, time - in UNIX format

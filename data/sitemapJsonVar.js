@@ -51,7 +51,7 @@ var sitemapJsonVar = [
     {
         "url": "\/games\/lnnguage-learning-quiz-45\/index.html",
         "text": "Language learging quiz\n\nLanguage learging quiz. Language quiz. Quiz word. It is necessary to choose the correct version of the translated word. Language quiz. Word quiz. | lnnguage learning quiz: ",
-        "tag": " #learning #language #game #quiz #word #JavaScript #project",
+        "tag": " #Experimental #learning #language #game #quiz #word #JavaScript #project",
         "id": "1aa601d5ec54262d925b603220542d6d",
         "time": "id"
     },
@@ -86,7 +86,7 @@ var sitemapJsonVar = [
     {
         "url": "\/games\/spin-wheel-69\/index.html",
         "text": "Spin Wheel\n\nSpin wheel | spin wheel: ",
-        "tag": " #spin #wheel #game #CSS #JavaScript #project",
+        "tag": " #Experimental #spin #wheel #game #CSS #JavaScript #project",
         "id": "7533e93ab2f7cb5f8fb2d1d8a7c89c62",
         "time": "id"
     },
@@ -288,8 +288,8 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/main\/website-templates.html",
-        "text": "Experimental Website Templates\n\nHTML templates. Website templates. (I create pages for practice). | main: ",
-        "tag": " #template #templates #WebDesign #website #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
+        "text": "Website Templates (Experimental)\n\nHTML templates. Website templates. (I create pages for practice). | main: ",
+        "tag": " #Experimental #template #templates #WebDesign #website #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
         "id": "1d8bea95984af3282f4cb3ceb7ec689b",
         "time": "id"
     },
@@ -443,14 +443,14 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/agi-countdown-59\/index.html",
         "text": "AGI countdown timer\n\nAGI Countdown timer. An attempt to predict when general artificial intelligence will be created. | agi countdown: ",
-        "tag": " #agi #CSS #JavaScript #project",
+        "tag": " #Experimental #agi #CSS #JavaScript #project",
         "id": "983c52c3556e8725e77dd0cbef09c65c",
         "time": "id"
     },
     {
         "url": "\/projects\/average-number-40\/index.html",
         "text": "Average number\n\nAfter entering the numbers, the result will be the average value | average number: ",
-        "tag": " #average #number #tool #JavaScript #project",
+        "tag": " #Experimental #average #number #tool #JavaScript #project",
         "id": "fc61833ea57d16d081bc11c60aa84b1e",
         "time": "id"
     },
@@ -478,14 +478,14 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/browser-info-test-js-2\/index.html",
         "text": "Browser info, JavaScript test\n\nBrowser info, JS Test, test js, Test JavaScript page. | browser info test js: ",
-        "tag": " #JS #JavaScript #test #page #CSS #JavaScript #project",
+        "tag": " #Experimental #JS #JavaScript #test #page #CSS #JavaScript #project",
         "id": "fa6480e2d51561d9ebc1161c21470a26",
         "time": "id"
     },
     {
         "url": "\/projects\/calculator-3\/index.html",
         "text": "Calculator\n\nOnline calculator. | calculator: ",
-        "tag": " #\u0441alculator #calc #tool #project",
+        "tag": " #projects #> #calculator #.",
         "id": "edd89fc42456d08a51cee4c12872d538",
         "time": "id"
     },
@@ -548,14 +548,14 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/insert-icon-17\/index.html",
         "text": "Function insert icon\n\nJavaScript icon insertion function. | insert icon: ",
-        "tag": " #insert #icon #function #tool #function #JavaScript #project",
+        "tag": " #Experimental #insert #icon #function #tool #function #JavaScript #project",
         "id": "e895118af1d3bd5f1127bf58deb976fb",
         "time": "id"
     },
     {
         "url": "\/projects\/lag-test-47\/index.html",
         "text": "Page generation test\n\nPage generation test | lag test: ",
-        "tag": " #test #lag #test #JavaScript #project",
+        "tag": " #Experimental #test #lag #test #JavaScript #project",
         "id": "6b3d0c0efa47d4814fcab6ba9e6c292f",
         "time": "id"
     },
@@ -646,7 +646,7 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/remove-duplicates-61\/index.html",
         "text": "Remove duplicates\n\nRemove duplicates. Remove duplicate items. | remove duplicates: ",
-        "tag": " #tool #duplicates #remove #itmes #CSS #JavaScript #project",
+        "tag": " #Experimental #tool #duplicates #remove #itmes #CSS #JavaScript #project",
         "id": "f86d027451a664e1290a813f5146c924",
         "time": "id"
     },
@@ -660,7 +660,7 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/sorting-55\/index.html",
         "text": "Sorting itmes\n\nSorting itmes. Sort text. | sorting: ",
-        "tag": " #tool #sorting #sort #itmes #CSS #JavaScript #project",
+        "tag": " #Experimental #tool #sorting #sort #itmes #CSS #JavaScript #project",
         "id": "da601564f3b09b3ee57b01f86794eab4",
         "time": "id"
     },
@@ -695,7 +695,7 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/text-to-binary-52\/index.html",
         "text": "Text To Binary\n\nBinary text. Conversion of text and symbols into binary format using JavaScript. | text to binary: ",
-        "tag": " #text #binary #tool #conversion #converter #JavaScript #project",
+        "tag": " #Experimental #text #binary #tool #conversion #converter #JavaScript #project",
         "id": "e6459362df1ce316ace4a26040df03f8",
         "time": "id"
     },
@@ -758,7 +758,7 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/transliterate-35\/index.html",
         "text": "translit\n\nCyrillic transliteration using JavaScript. | transliterate: ",
-        "tag": " #transliteration #text #tool #translit #JavaScript #project",
+        "tag": " #Experimental #transliteration #text #tool #translit #JavaScript #project",
         "id": "7889d60dd8bd351837bffa8c72de05e9",
         "time": "id"
     },

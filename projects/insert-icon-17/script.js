@@ -1,4 +1,4 @@
-// Insert icon v.4.2.2
+// Insert icon v.4.2.3
 // Function for insert icon in links using class name.
 /*
 How to use:
@@ -205,6 +205,7 @@ let icons2 = [
 {"t":"dir", "t2":"📁️"},
 {"t":"developer", "t2":"💻"},
 {"t":"document", "t2":"📄", "t3":"page"},
+{"t":"license", "t2":"📄", "t3":"memo"},
 {"t":"draw", "t2":"✏️", "t3":"pencil"},
 {"t":"drawing", "t2":"✏️", "t3":"pencil"},
 {"t":"paint", "t2":"✏️", "t3":"pencil"},
@@ -276,6 +277,7 @@ let icons2 = [
 {"t":"network", "t2":"📶"},
 {"t":"new", "t2":"🆕"},
 {"t":"news", "t2":"📰", "t3":"newspaper"},
+{"t":"rss", "t2":"🛜", "t3":"rss"},
 {"t":"pumpkin", "t2":"🎃"},
 {"t":"halloween", "t2":"🎃", "t3":"h"},
 {"t":"pc", "t2":"🖥"},

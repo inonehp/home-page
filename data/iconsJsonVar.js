@@ -152,15 +152,15 @@ var iconsJsonVar =
    <path class="powerclip" d="m-5-5h87.906v38.147h-87.906zm16.866 10.795v3.1828h60.68v3.975h-60.68v3.1828h60.68v4.0396h-60.68v3.1828h66.04v-3.1828h-0.06821v-4.0396h0.06821v-3.1828h-0.06821v-3.975h0.06821v-3.1828z" fill="#ef2929"/>
   </clipPath>
  </defs>
- <g transform="translate(-9.2513 -11.996)" fill="#2e3436">
+ <g transform="translate(-9.2513 -11.996)" fill="#555753">
   <path transform="translate(25.988 65.657)" d="m0 0h77.906v28.147h-77.906z" clip-path="url(#clipath_lpe_path-effect8905-5)"/>
   <rect x="98.603" y="65.657" width="5.2918" height="27.076"/>
  </g>
- <g transform="translate(-9.3584 -11.996)" fill="#8f5902">
+ <g transform="translate(-9.3584 -11.996)" fill="#2e3436">
   <path transform="translate(41.381 93.804)" d="m0 0h77.906v28.147h-77.906z" clip-path="url(#clipath_lpe_path-effect8905-5-9)"/>
   <rect x="114" y="93.804" width="5.2918" height="27.076"/>
  </g>
- <g transform="translate(-.4632 -11.996)" fill="#204a87">
+ <g transform="translate(-.4632 -11.996)" fill="#2e3436">
   <path transform="translate(41.29 37.51)" d="m0 0h77.906v28.147h-77.906z" clip-path="url(#clipPath8901)"/>
   <rect x="113.82" y="37.51" width="5.2918" height="27.076"/>
  </g>
@@ -282,35 +282,8 @@ var iconsJsonVar =
 },
 {
 "text": `code`,
-"text2": `<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="512"
-   height="512"
-   version="1.1"
-   viewBox="0 0 512 512"
-   id="svg1"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <text
-     x="17.836985"
-     y="365.28555"
-     font-family="'Open Sans'"
-     font-size="306.122px"
-     font-weight="bold"
-     stroke-width="4.11935"
-     style="line-height:5em;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-     xml:space="preserve"
-     id="text1"><tspan
-       x="17.836985"
-       y="365.28555"
-       font-family="'Open Sans'"
-       font-size="306.122px"
-       font-weight="bold"
-       stroke-width="4.11935"
-       style="font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-       id="tspan1">&lt;/&gt;</tspan></text>
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+ <path d="m179.47 334.98-148.47-65.51v-21.429l148.47-74.082v35.816l-102.24 47.449 102.24 41.939zm138.37-188.27-81.429 218.57h-41.327l81.429-218.57zm14.694 152.45 102.24-41.939-102.24-47.449v-35.816l148.47 74.082v21.429l-148.47 65.51z" stroke-width="4.1194" aria-label="&lt;/&gt;"/>
 </svg>
 `,
 },
@@ -1181,6 +1154,15 @@ var iconsJsonVar =
 "text": `right-arrow`,
 "text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <path d="m13.792 331v-150h290v-100l194.17 175-194.17 175 0.0102-100z" stroke="#000" stroke-width="1px"/>
+</svg>
+`,
+},
+{
+"text": `rss`,
+"text2": `<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+ <circle cx="27.882" cy="88.802" r="15.503"/>
+ <path d="m41.181 50.022 17.783 0.37292 28.981 53.794-17.811-0.28685z" stroke-width=".20098"/>
+ <path d="m64.563 31.048 16.919 0.30053 41.61 72.841-16.911-0.40325z" stroke-width=".24301"/>
 </svg>
 `,
 },

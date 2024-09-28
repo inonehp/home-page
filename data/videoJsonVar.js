@@ -516,15 +516,6 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Colossus The Forbin Project ( 1970) : Free Download, Borrow, and Streaming : Internet Archive",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/archive.org\/details\/colossus-the-forbin-project-1970",
-        "tag": "#video #movie",
-        "time": 1684213267,
-        "rightFooter": ""
-    },
-    {
         "text": "Colt in the Hand of the Devil | Western | with Bob Henry! | Full Movie in English - YouTube",
         "text2": "",
         "text3": "",
@@ -2403,15 +2394,6 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=nxj4JmPGVxA",
         "tag": "#video #movie",
         "time": 1684803523,
-        "rightFooter": ""
-    },
-    {
-        "text": "Steamboat Willie : Ub Iwerks : Free Download, Borrow, and Streaming : Internet Archive",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/archive.org\/details\/SteamboatWillie",
-        "tag": "#video #cartoon",
-        "time": 1704112436,
         "rightFooter": ""
     },
     {

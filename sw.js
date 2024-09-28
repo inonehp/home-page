@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.09.27";
+//var myCacheVersion = "v.1.2.2024.09.28";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.09.27").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.09.28").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -445,6 +445,7 @@ var fileListArr = ["/404.html",
 "/icons-data/herb.svg",
 "/icons-data/hi.svg",
 "/icons-data/home.svg",
+"/icons-data/icons-data.zip",
 "/icons-data/image.svg",
 "/icons-data/index.html",
 "/icons-data/information.svg",
@@ -479,6 +480,7 @@ var fileListArr = ["/404.html",
 "/icons-data/refresh.svg",
 "/icons-data/resize.svg",
 "/icons-data/right-arrow.svg",
+"/icons-data/rss.svg",
 "/icons-data/search.svg",
 "/icons-data/shuffle.svg",
 "/icons-data/sound.svg",
@@ -496,6 +498,7 @@ var fileListArr = ["/404.html",
 "/images/0-100/ai-assistant-inkscape-png-62.png",
 "/images/",
 "/images/0-100/",
+"/images/0-100/app-icon-png-64.png",
 "/images/0-100/art-krita-png-28.png",
 "/images/0-100/ava-woman-laptop-ava-inkscape-svg-12.svg",
 "/images/0-100/ava-woman-laptop-inkscape-svg-30.svg",
@@ -543,7 +546,9 @@ var fileListArr = ["/404.html",
 "/images/0-100/one-black-pixel-inkscape-png-35.png",
 "/images/0-100/one-transparent-pixel-inkscape-png-37.png",
 "/images/0-100/one-white-pixel-inkscape-png-36.png",
+"/images/0-100/rss-icon-png-63.png",
 "/images/0-100/search-page-inkscape-png-61.png",
+"/images/0-100/sound-icon-png-65.png",
 "/images/0-100/star-inkscape-svg-4.svg",
 "/images/0-100/start-end-krita-png-0.png",
 "/images/0-100/test-inkscape-png-58.png",
@@ -1173,7 +1178,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.09.27")
+caches.open("v.1.2.2024.09.28")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1199,7 +1204,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.09.27")
+caches.open("v.1.2.2024.09.28")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1232,7 +1237,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.09.27"];
+  const cachesToKeep = ["v.1.2.2024.09.28"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

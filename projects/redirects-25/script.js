@@ -1,4 +1,4 @@
-// Search redirects v.2.2.26
+// Search redirects v.2.2.27
 // Mini Google
 // The script redirects the search query + command.
 
@@ -175,6 +175,25 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
+case 'tum#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+url = "https://www.tumblr.com/search/" + q + "/text";
+if (q == ''){ url = "https://www.tumblr.com/"; }
+sRedirectUrl = url;
+break;
+
+
+case 'sub#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+url = "https://substack.com/search/"+ q +"?searching=note";
+if (q == ''){ url = "https://substack.com/"; }
+sRedirectUrl = url;
+break;
 
 case 'x#':
 case 'twi#':
