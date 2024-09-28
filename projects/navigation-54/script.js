@@ -7,46 +7,39 @@ let mNavigationWrapperWidth = 900;
 
 
 // JS part
-// Dropdown menu  v.1.3.0
+// Dropdown menu  v.3.0.0
 // if JS off (CSS version in noscript.css)
-//<!-- Inspired code with copyright: https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
+//https://stackoverflow.com/questions/52556194/how-to-toggle-on-off-javascript
 // menu click
 function dropdownMenuFunction() {
-var x = document.getElementById("dropdownMenu");
-  if (x.style.display === "none"||x.style.display === "") {
+var dropdown = document.getElementById("dropdownMenu");
+if (dropdown.style.display === "none"||dropdown.style.display === "") {
 document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
-x.style.display = "block";
-  } else {
-x.style.display = "none";
+dropdown.style.display = "block";
+} else {
+dropdown.style.display = "none";
 document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
-  }
+}
 
 // out area hide
 var getclick = document.getElementById('dropdownMenuButton');
 document.addEventListener('click', function(event) {
 // hide and make posible text selected
 if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
-var x = document.getElementById("dropdownMenu");
-x.style.display = "none";
+var dropdown = document.getElementById("dropdownMenu");
+dropdown.style.display = "none";
 document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
-    }
+}
 });
 }
 
-// nav v.1.2.1, in test
+// nav v.1.2.2, in test
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 //if((countMenuItem.length / 2) >= 4){}
 //if(document.getElementById("footer") != null){}
 //fuMPrintText('footer', ``, '+');
 if(document.getElementById("navTop") != null){ // not body, id not found
-
-/*var cssMedia = '@media(max-width: 500px)';
-var cssMedia2 = '@media(min-width: 500px)';
-if((countMenuItem.length / 2) >= 13){
-cssMedia = '@media(max-width: 1000px)';
-cssMedia2 = '@media(min-width: 1000px)';
-}*/
 
 var mNavItemsAverageWidth = 110;
 // Average: 66

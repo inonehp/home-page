@@ -202,7 +202,7 @@ if (conf["confMenu"] == "on"){
 if (document.getElementById("secondNav") != null){
 document.getElementById("secondNav").innerHTML = `
 
-<!-- Nav v.1.2.3 -->
+<!-- Nav v.2.0.0 -->
 <!-- page, main js, noscript.css -->
 <div class="wrapper3 navTop">
 <div class="margin"></div>
@@ -217,7 +217,7 @@ ${conf["confMenuItems2"]}
 <!-- // menuTop -->
 
 <!-- dropdown menu -->
-<!-- Inspired code with copyright: https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
+<!-- https://stackoverflow.com/questions/52556194/how-to-toggle-on-off-javascript#-->
 <div id="dropdownMenuCSS"><!-- CSS menu if js off -->
 <button onclick="dropdownMenuFunction();" class="brand inlineBlock padding borderBottomTransparent itemLinkAni" id="dropdownMenuButton">☰ Menu</button>
 <div id="dropdownMenu" class="dropdownMenuContent shadow bg2 padding2 borderRadius2">
@@ -255,48 +255,41 @@ ${conf["confMenuItems2"]}
 
 
 // JS part
-// Dropdown menu  v.2.0.0
+// Dropdown menu  v.3.0.0
 // if JS off (CSS version in noscript.css)
-//<!-- Inspired code with copyright: https://www.w3schools.com/howto/howto_js_dropdown.asp#-->
+//https://stackoverflow.com/questions/52556194/how-to-toggle-on-off-javascript
 // menu click
 function dropdownMenuFunction() {
-var x = document.getElementById("dropdownMenu");
-  if (x.style.display === "none"||x.style.display === "") {
+var dropdown = document.getElementById("dropdownMenu");
+if (dropdown.style.display === "none"||dropdown.style.display === "") {
 document.getElementById("dropdownMenuButton").innerHTML = '☶ Menu'; 
-x.style.display = "block";
-  } else {
-x.style.display = "none";
+dropdown.style.display = "block";
+} else {
+dropdown.style.display = "none";
 document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
-  }
+}
 
 // out area hide
 var getclick = document.getElementById('dropdownMenuButton');
 document.addEventListener('click', function(event) {
 // hide and make posible text selected
 if (!getclick.contains(event.target)&&document.getSelection().toString() == '') {
-var x = document.getElementById("dropdownMenu");
-x.style.display = "none";
+var dropdown = document.getElementById("dropdownMenu");
+dropdown.style.display = "none";
 document.getElementById("dropdownMenuButton").innerHTML = '☰ Menu'; 
-    }
+}
 });
 }
 
 
 
-// nav v.1.2.1, in test
+// nav v.1.2.2, in test
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 //if ((countMenuItem.length / 2) >= 4){}
 //if (document.getElementById("footer") != null){}
 //fuMPrintText('footer', ``, '+');
 if (document.getElementsByTagName("nav")[0] != null){ // not body, id not found
-
-/*var cssMedia = '@media(max-width: 500px)';
-var cssMedia2 = '@media(min-width: 500px)';
-if ((countMenuItem.length / 2) >= 13){
-cssMedia = '@media(max-width: 1000px)';
-cssMedia2 = '@media(min-width: 1000px)';
-}*/
 
 var mNavItemsAverageWidth = conf["conMenuItemAverageWidth"];
 // Average: 66 
@@ -436,8 +429,7 @@ fuMPrintText("footer", `
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/main/settings.html">Settings</a>
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/main/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confUsername"]}.pages.dev">Source Code</a></span>
-<a class="brand inlineBlock padding" rel="license" title="Main license" href="https://creativecommons.org/licenses/by-sa/4.0/">License: CC BY-SA 4.0</a>
-<!--<a class="brand inlineBlock padding" rel="license" title="Other on the about page" href="/main/about.html#license">Other Licenses</a>-->
+<a class="brand inlineBlock padding" rel="license" title="Main license" href="/main/about.html#license">License: CC BY-SA 4.0 *</a>
 <span class="gray small padding"><!--2019--->2024</span>
 <a class="brand inlineBlock padding" style="padding-right: 0;" title="Hosting Service" href="https://pages.cloudflare.com/">Hosting: Cloudflare Pages</a>
 

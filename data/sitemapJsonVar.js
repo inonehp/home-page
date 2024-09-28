@@ -406,13 +406,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/old-projects\/dropdown-menu-8\/index.html",
-        "text": "Dropdown Menu or Dropdown Button\n\nDropdown Menu project. | dropdown menu: ",
-        "tag": " #menu #UI #UX #dropdown #menu #JavaScript #WebDesign #project",
-        "id": "a5485625a93ceb439202a82a8ce710fc",
-        "time": "id"
-    },
-    {
         "url": "\/old-projects\/hello-world-62\/index.html",
         "text": "Hello World!\n\nHello World! | hello world: ",
         "tag": " #hello #world #CSS #JavaScript #project",

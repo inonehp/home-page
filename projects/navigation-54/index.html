@@ -46,7 +46,7 @@ activation when no JS:
 -->
 <style>
 /* 500px - need manual adjustment */
-/* when start dropdown js noscript */
+/* dropdown: main.js noscript.css */
 @media(width >= 1px) {
 .menuTop { display: none; }
 #dropdownMenuButton { display: inline-block; }
@@ -59,23 +59,19 @@ activation when no JS:
 display: none !important;
 }
 }*/
-/* // when start dropdown js noscript */
 
-/* // mobile dropdown menu (from main.js) */
-
-/* CSS dropdown menu if JS off, hover
-Inspired code with copyright: https://www.w3schools.com/css/css_dropdowns.asp#*/
-#dropdownMenuCSS:hover #dropdownMenu {
+/* CSS dropdown menu if JS off, hover https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-another-element#*/
+#dropdownMenuCSS:hover + #dropdownMenu {
 display: block;
 position: absolute;
 top: -5px;
 }
 #dropdownMenuCSS { display: inline-block; }
-/* // CSS  dropdown menu */
+/* end CSS  dropdown menu */
 
 /* test delme .menu a { justify-content: center; text-align: center; }*/
 .dropdownMenuContent { text-align: left; }
-/* // Nav */
+/* end Nav */
 
 
 

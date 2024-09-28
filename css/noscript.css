@@ -25,8 +25,7 @@ display: none !important;
 }
 }*/
 
-/* CSS dropdown menu if JS off hover
-Inspired code with copyright: https://www.w3schools.com/css/css_dropdowns.asp#*/
+/* CSS dropdown menu if JS off, hover https://stackoverflow.com/questions/31549280/show-hidden-text-on-hover-css#*/
 #dropdownMenuCSS:hover #dropdownMenu {
 display: block;
 position: absolute;
