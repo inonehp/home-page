@@ -3,6 +3,46 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "61",
+        "text": "Home | Substack",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/substack.com\/home",
+        "tag": "#SocialNetwork #platform",
+        "time": 1727542642,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=61\">id<\/a>"
+    },
+    {
+        "id": "60",
+        "text": "Discover \u2014 Bluesky",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/",
+        "tag": "#SocialNetwork #platform",
+        "time": 1727542629,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=60\">id<\/a>"
+    },
+    {
+        "id": "59",
+        "text": "Reddit - Dive into anything",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/",
+        "tag": "#SocialNetwork #platform",
+        "time": 1727542398,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=59\">id<\/a>"
+    },
+    {
+        "id": "58",
+        "text": "Digital Collections, Available Online | Library of Congress",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.loc.gov\/collections\/",
+        "tag": "#library #collections #platform",
+        "time": 1727533117,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=58\">id<\/a>"
+    },
+    {
         "id": "57",
         "text": "Feed \u2013 jhey.dev",
         "text2": "",
