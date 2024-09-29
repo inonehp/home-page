@@ -24,11 +24,11 @@ var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
 var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
 
-// based on 
+// if nav (items) more width then wrapper (forece dropdown)
 if ((mNavWhenDropdownWidth) >= conf["confWrapperNavWidth"]){
 cssMedia = '@media(width >= 1px)';
 // cancel
-cssMedia2 = `@media(width < 0px)`; 
+cssMedia2 = `@media(width <= 0px)`; 
 }
 
 // embed style

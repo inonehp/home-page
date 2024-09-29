@@ -28,7 +28,7 @@ text-align: center;
 justify-content: left !important;
 align-items: center;
 text-align: left;
-display: inline-block;
+display: inline;
 }
 .topNav button { margin-right: var(--padding); }
 .topNav form { margin-left: 0; }
