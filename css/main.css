@@ -384,7 +384,7 @@ filter: invert(100%);
 .notAllow { cursor: not-allowed; }
 .pointer, .click { cursor: pointer; }
 .block { display: block; }
-.none { display: none; }
+
 .flex { display: flex; }
 .inline { display: inline; }
 .inlineBlock { display: inline-block; }

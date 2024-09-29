@@ -3,7 +3,7 @@
 
 
 
-/* Navigation CSS noscript part (CSS) v.1.0.0 */
+/* Navigation CSS noscript part (CSS) v.1.1.0 */
 /*https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-another-element#*/
 
 .navMenu, .dropdownMenu {
@@ -16,7 +16,7 @@ display: none;
 .dropdownMenuContent:hover {
 .dropdownMenu{ display: block; }
 }
-
+/* end Navigation CSS noscript part (CSS) */
 
 
 

@@ -2,7 +2,7 @@
 
 
 
-/* Navigation CSS v.1.0.0 */
+/* Navigation CSS v.1.1.0 */
 //*Creating navigation in progress, sorry*/
 
 .topNav form, .topNav input[type=search] { display: inline-block; }
@@ -47,20 +47,22 @@ display: none;
 .topNav .dropdownMenuButton { display: none; }
 
 .dropdownMenuColumn {
-display: inline-block;
-display: block;
 text-align: left;
 columns: 120px auto;
 z-index: 2;
-margin-top: 10px;
+margin-top: var(--padding);
 }
 .dropdownMenuContent a { display: inline-block; }
 
 /* fix */
 .dropdownMenuContentWrapper { display: inline-block;  }
-.dropdownMenuColumn { margin-top: var(--padding); }
+
+.showDropdownMenu { display: block; }
+.hideDropdownMenu { display: none; }
 
 /* end Navigation CSS */
+
+
 
 
 

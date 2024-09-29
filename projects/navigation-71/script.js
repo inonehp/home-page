@@ -1,4 +1,4 @@
-// Navigation JS part v.1.0.0
+// Navigation JS part v.1.1.0
 //Creating navigation in progress, sorry
 
 
@@ -17,37 +17,38 @@ if (document.getElementsByTagName("nav")[0] != null){
 var mNavItemsAverageWidth = conf["conMenuItemAverageWidth"];
 // Average: 66 
 var mNavItemsCount = (countMenuItem.length / 2);
-console.log(mNavItemsCount);
 // /2 - dublicate items (links)
 var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
-// nav width (mNavItemsAverageWidth * mNavItemsCount)/2 - for 2 rows links
+// /2 - for 2 rows links
+// auto based on item
 var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
 
+// based on 
 if ((mNavWhenDropdownWidth) >= conf["confWrapperNavWidth"]){
 cssMedia = '@media(width >= 1px)';
 // cancel
-cssMedia2 = `@media(width <= 0px)`; 
+cssMedia2 = `@media(width < 0px)`; 
 }
 
-console.log(cssMedia);
 // embed style
 document.getElementsByTagName("nav")[0].innerHTML += `
 
 <style>
 
 ${cssMedia} {
-.topNav .navMenu, .topNav .dropdownMenu {
+.navMenu {
 display: none;
 }
 .topNav .dropdownMenuButton { display: inline-block; }
 }
 
-//fixme
+//fixme !!!
 //fix when dynamic change 
-${cssMedia2}{
-.topNav .dropdownMenu, .topNav .dropdownMenuColumn {
+${cssMedia2} {
+.dropdownMenu, .showDropdownMenu {
 display: none !important;
+border: 1px solid red;
 }
 }
 
@@ -57,35 +58,38 @@ display: none !important;
 
 }
 
+// button
 const dropdownButton = document.getElementById("dropdownMenuButton");
 const dropdownMenu = document.getElementById("dropdownMenu");
 const topNav = document.getElementById("topNav");
 
 function fuMDropdownButton(){
-
+/*
 //https://stackoverflow.com/questions/64487640/javascript-show-hide-div-onclick
-  if (dropdownMenu.style.display === "block") {
-    dropdownMenu.style.display = "none";
-dropdownButton.textContent = "☰ Menu";
-  } else {
-    dropdownMenu.style.display = "block";
-dropdownButton.textContent = "☶ Menu";
-  }
+if (dropdownMenu.style.display === "block") {
+dropdownMenu.style.display = "none";
+} else {
+dropdownMenu.style.display = "block";
+}*/
+
+dropdownMenu.classList.toggle("showDropdownMenu");
 
 }
 
+// out area click
 //https://stackoverflow.com/questions/36695438/detect-click-outside-div-using-javascript
 window.addEventListener('click', function(e){ 
 
-console.log(document.getElementById("dropdownMenu").contains(e.target));
 if (topNav.contains(e.target)){
     // Clicked in box
-  } else {
+} else {
     // Clicked outside the box
-dropdownMenu.style.display = "none";
+//dropdownMenu.style.display = "none";
+dropdownMenu.classList.remove("showDropdownMenu");
 dropdownButton.textContent = "☰ Menu";
   }
 })
+
 // end Navigation JS version
 
 
