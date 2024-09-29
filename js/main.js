@@ -318,15 +318,18 @@ const dropdownMenu = document.getElementById("dropdownMenu");
 const topNav = document.getElementById("topNav");
 
 function fuMDropdownButton(){
-/*
+
 //https://stackoverflow.com/questions/64487640/javascript-show-hide-div-onclick
 if (dropdownMenu.style.display === "block") {
 dropdownMenu.style.display = "none";
+dropdownButton.textContent = "☰ Menu";
 } else {
 dropdownMenu.style.display = "block";
-}*/
+dropdownButton.textContent = "☶ Menu";
+}
 
-dropdownMenu.classList.toggle("showDropdownMenu");
+//https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
+//dropdownMenu.classList.toggle("showDropdownMenu");
 
 }
 
