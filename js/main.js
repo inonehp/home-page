@@ -256,7 +256,7 @@ ${conf["confMenuItems2"]}
 
 
 
-// Navigation JS part v.1.2.0
+// Navigation JS part v.1.2.1
 //Creating navigation in progress, sorry
 
 
@@ -341,8 +341,8 @@ if (topNav.contains(e.target)){
     // Clicked in box
 } else {
     // Clicked outside the box
-//dropdownMenu.style.display = "none";
-dropdownMenu.classList.remove("showDropdownMenu");
+dropdownMenu.style.display = "none";
+//dropdownMenu.classList.remove("showDropdownMenu");
 dropdownButton.textContent = "☰ Menu";
   }
 })
