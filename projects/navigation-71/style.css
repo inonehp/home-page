@@ -5,23 +5,29 @@
 .topNav form { width: 100%; max-width: 130px; vertical-align: middle; }
 .topNav input[type=search] { font-size: small; min-height: 10px; height: 30px; }
 .topNav form ::placeholder { font-size: x-small; }
+.topNav form { margin-left: var(--padding); }
 
-.topNav {
+.topNav button { margin: 0; }
+
+.topNav nav{
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(0, auto));
 margin: 0 auto;
 justify-content: center;
 align-items: center;
+text-align: center;
 }
 
 /* fix for mobile */
 @media(max-width: 500px){
-.topNav {
+.topNav nav {
 justify-content: left !important;
 align-items: center;
 text-align: left;
 display: inline-block;
 }
+.topNav button { margin-right: var(--padding); }
+.topNav form { margin-left: 0; }
 }
 
 .dropdownMenu {
@@ -30,7 +36,11 @@ margin: 0 auto;
 position: absolute;
 left: 0;
 right: 0;
+z-index: 2;
+display: none;
 }
+
+.topNav .dropdownMenuButton { display: none; }
 
 .dropdownMenuColumn {
 display: inline-block;
@@ -44,14 +54,7 @@ margin-top: 10px;
 
 /* fix */
 .dropdownMenuContentWrapper { display: inline-block;  }
-.dropdownMenuColumn { margin-top: 5px; }
+.dropdownMenuColumn { margin-top: var(--padding); }
 
-.topNav  .dropdownMenuButton { display: none; }
-.show { display: block; }
-
-
-/* tmp for in progress */
-
-.dropdownMenu { display: none; }
 /* end Navigation CSS */
 

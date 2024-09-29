@@ -44,12 +44,14 @@ I drew several icons for the site, maybe they will be useful to you.
 <body>
 
 
-<header>
-<div class="wrapper3 navTop tCenter">
-<div class="margin"></div>
 
 <!-- Navigation HTML v.1.0.0 -->
-<nav class="topNav">
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
 
 <span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
@@ -57,10 +59,9 @@ I drew several icons for the site, maybe they will be useful to you.
 <div class="dropdownMenuContentWrapper">
 <div class="dropdownMenuContent">
 
-<span class="countMenuItem"></span>
-<a id="dropdownMenuButton" class="brand padding dropdownMenuButton" href="#">☰ Menu</a>
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
 
-<span class="navMenu">
+<span id="navMenu" class="navMenu">
 <!-- links for hide -->
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/main-list.html">Main</a>
 <a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
@@ -85,16 +86,17 @@ I drew several icons for the site, maybe they will be useful to you.
 <span class="countMenuItem"></span>
 <span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" style="margin-right: var(--padding);" href="../" title="../ (Up)">List (up)</a>
-<form class="noscriptHide inlineBlock padding"  style="padding-right: 0;" method="GET" action="/main/site-search.html" role="search">
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
 
 </nav>
-<!-- // Navigation HTML -->
-
-</header>
 </div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
 
 <!--<hr>-->
 

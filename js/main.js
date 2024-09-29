@@ -10,7 +10,7 @@ conf["confHostingDomain"] = "pages.dev";
 conf["confGoogleAnalyticsId"] = "G-RQJTJG7DF9";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
-conf["conMenuItemAverageWidth"] = 150;
+conf["conMenuItemAverageWidth"] = 120;
 
 conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
@@ -179,10 +179,10 @@ conf["confMenuItems2"] = '';
 conf["confMenuItems"].forEach((item, index) => {
 
 if ((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem  active2 borderBottomBrand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>
+conf["confMenuItems2"] += `<a class="countMenuItem active2 borderBottomBrand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>
 `;
 } else {
-conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>
+conf["confMenuItems2"] += `<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="${item['url']}" title="${item['title']}">${item['name']}</a>
 `;
 }
 });
@@ -192,26 +192,82 @@ conf["confMenuItems2"] += `<a class="countMenuItem brand borderBottomTransparent
 if (conf["confMenu"] == "random"){
 if (fuMRandom(0, 1) == 1){ conf["confMenu"] = "on"; }
 }
-/*
+
 if (conf["confMenu"] == "on"){
 
 if (document.getElementById("secondNav") != null){
 document.getElementById("secondNav").innerHTML = `
 
+<!-- Navigation HTML part v.1.0.0 -->
+<header>
+<div class="wrapper3">
+<div class="margin"></div>
+
+<div id="topNav" class="topNav">
+<nav>
+
+<span class="countMenuItem"></span>
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+
+<div class="dropdownMenuContentWrapper">
+<div class="dropdownMenuContent">
+
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
+
+<span id="navMenu" class="navMenu">
+<!-- links for hide -->
 ${conf["confMenuItems2"]}
+<!-- // links for hide -->
+</span>
+
+
+<span id="dropdownMenu" class="dropdownMenu">
+<div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
+<!-- links for show dropdown -->
+${conf["confMenuItems2"]}
+<!-- // links for show dropdown -->
+</div>
+</span>
+
+</div>
+</div>
+
+<span class="countMenuItem"></span>
+<span class="countMenuItem"></span>
+<a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" style="margin-right: var(--padding);" href="../" title="../ (Up)">List (up)</a>
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.<?=$ext?>" role="search">
+<!--<label for="siteSearch" class="xSmall op">search:</label>-->
+<input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
+</form>
+
+</nav>
+</div>
+
+</div>
+</header>
+<!-- // Navigation HTML -->
 
 `;
 }
-}*/
+}
+//${conf["confMenuItems2"]}
 //<!-- // nav HTML part -->
 
 
 
 
-// Navigation JS version v.1.0.0
+// Navigation JS part v.1.0.0
 //Creating navigation in progress, sorry
 
-// nav v.1.2.2, in test
+
+if (conf == undefined){
+var conf = [];
+// wrapper size for navigation, number in px from your CSS
+conf["confWrapperNavWidth"] = 900;
+conf["conMenuItemAverageWidth"] = 120;
+}
+
+// nav v.2.0.0 in test
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 if (document.getElementsByTagName("nav")[0] != null){
@@ -219,46 +275,77 @@ if (document.getElementsByTagName("nav")[0] != null){
 var mNavItemsAverageWidth = conf["conMenuItemAverageWidth"];
 // Average: 66 
 var mNavItemsCount = (countMenuItem.length / 2);
-console.log(countMenuItem.length);
+console.log(mNavItemsCount);
 // /2 - dublicate items (links)
 var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
 // nav width (mNavItemsAverageWidth * mNavItemsCount)/2 - for 2 rows links
-//var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
-//var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
 var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
-// fix // hide, wrapper limit
 
 if ((mNavWhenDropdownWidth) >= conf["confWrapperNavWidth"]){
 cssMedia = '@media(width >= 1px)';
 // cancel
 cssMedia2 = `@media(width <= 0px)`; 
 }
+
 console.log(cssMedia);
 // embed style
-/*document.getElementsByTagName("nav")[0].innerHTML += `
+document.getElementsByTagName("nav")[0].innerHTML += `
 
 <style>
 
 ${cssMedia} {
-.navMenu, .dropdownMenu {
+.topNav .navMenu, .topNav .dropdownMenu {
 display: none;
 }
 .topNav .dropdownMenuButton { display: inline-block; }
 }
 
+//fixme
 //fix when dynamic change 
 ${cssMedia2}{
-.dropdownMenu {
+.topNav .dropdownMenu, .topNav .dropdownMenuColumn {
 display: none !important;
 }
 }
 
 </style>
 
-`;*/
+`;
 
 }
+
+const dropdownButton = document.getElementById("dropdownMenuButton");
+const dropdownMenu = document.getElementById("dropdownMenu");
+const topNav = document.getElementById("topNav");
+
+function fuMDropdownButton(){
+
+//https://stackoverflow.com/questions/64487640/javascript-show-hide-div-onclick
+  if (dropdownMenu.style.display === "block") {
+    dropdownMenu.style.display = "none";
+dropdownButton.textContent = "☰ Menu";
+  } else {
+    dropdownMenu.style.display = "block";
+dropdownButton.textContent = "☶ Menu";
+  }
+
+}
+
+//https://stackoverflow.com/questions/36695438/detect-click-outside-div-using-javascript
+window.addEventListener('click', function(e){ 
+
+console.log(document.getElementById("dropdownMenu").contains(e.target));
+if (topNav.contains(e.target)){
+    // Clicked in box
+  } else {
+    // Clicked outside the box
+dropdownMenu.style.display = "none";
+dropdownButton.textContent = "☰ Menu";
+  }
+})
+// end Navigation JS version
+
 
 
 

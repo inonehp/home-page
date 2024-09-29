@@ -1,7 +1,15 @@
-// Navigation JS version v.1.0.0
+// Navigation JS part v.1.0.0
 //Creating navigation in progress, sorry
 
-// nav v.1.2.2, in test
+
+if (conf == undefined){
+var conf = [];
+// wrapper size for navigation, number in px from your CSS
+conf["confWrapperNavWidth"] = 900;
+conf["conMenuItemAverageWidth"] = 120;
+}
+
+// nav v.2.0.0 in test
 // count links
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 if (document.getElementsByTagName("nav")[0] != null){
@@ -9,64 +17,76 @@ if (document.getElementsByTagName("nav")[0] != null){
 var mNavItemsAverageWidth = conf["conMenuItemAverageWidth"];
 // Average: 66 
 var mNavItemsCount = (countMenuItem.length / 2);
-console.log(countMenuItem.length);
+console.log(mNavItemsCount);
 // /2 - dublicate items (links)
 var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
 // nav width (mNavItemsAverageWidth * mNavItemsCount)/2 - for 2 rows links
-//var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
-//var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
 var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
 var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
-// fix // hide, wrapper limit
 
 if ((mNavWhenDropdownWidth) >= conf["confWrapperNavWidth"]){
 cssMedia = '@media(width >= 1px)';
 // cancel
 cssMedia2 = `@media(width <= 0px)`; 
 }
+
 console.log(cssMedia);
 // embed style
-/*document.getElementsByTagName("nav")[0].innerHTML += `
+document.getElementsByTagName("nav")[0].innerHTML += `
 
 <style>
 
 ${cssMedia} {
-.navMenu, .dropdownMenu {
+.topNav .navMenu, .topNav .dropdownMenu {
 display: none;
 }
 .topNav .dropdownMenuButton { display: inline-block; }
 }
 
+//fixme
 //fix when dynamic change 
 ${cssMedia2}{
-.dropdownMenu {
+.topNav .dropdownMenu, .topNav .dropdownMenuColumn {
 display: none !important;
 }
 }
 
 </style>
 
-`;*/
+`;
 
 }
 
-
-const span = document.getElementById("dropdownMenuButton");
+const dropdownButton = document.getElementById("dropdownMenuButton");
 const dropdownMenu = document.getElementById("dropdownMenu");
-const classes = dropdownMenu.classList;
+const topNav = document.getElementById("topNav");
 
-//https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
-span.addEventListener("click", () => {
-const result = classes.toggle("show");
-if (result){
-dropdownMenu.classList.add("show")
-} else {
-dropdownMenu.classList.remove("show")
+function fuMDropdownButton(){
+
+//https://stackoverflow.com/questions/64487640/javascript-show-hide-div-onclick
+  if (dropdownMenu.style.display === "block") {
+    dropdownMenu.style.display = "none";
+dropdownButton.textContent = "☰ Menu";
+  } else {
+    dropdownMenu.style.display = "block";
+dropdownButton.textContent = "☶ Menu";
+  }
+
 }
 
-});
+//https://stackoverflow.com/questions/36695438/detect-click-outside-div-using-javascript
+window.addEventListener('click', function(e){ 
 
-
+console.log(document.getElementById("dropdownMenu").contains(e.target));
+if (topNav.contains(e.target)){
+    // Clicked in box
+  } else {
+    // Clicked outside the box
+dropdownMenu.style.display = "none";
+dropdownButton.textContent = "☰ Menu";
+  }
+})
+// end Navigation JS version
 
 
 

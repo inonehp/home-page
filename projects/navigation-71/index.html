@@ -5,10 +5,10 @@
 <title>Navigation</title>
 
 <meta name="description" content="
-Navigation
+Navigation. Site navigation using CSS and JavaScript with a dropdown menu.
 ">
 <meta name="keywords" content="
-Navigation,
+Navigation,dropdown,
 CSS, JavaScript, project,
 ">
 
@@ -27,16 +27,18 @@ CSS, JavaScript, project,
 <!--<link rel="preload" href="../../css/style.css" as="style">
 <link rel="stylesheet" href="../../css/style.css" type="text/css">-->
 
-<noscript>
-<!--<link rel="stylesheet" type="text/css" href="../../css/noscript.css">-->
-<link rel="stylesheet" type="text/css" href="noscript.css">
-</noscript>
-<!-- // main -->
+
 
 <link rel="preload" href="script.js" as="script"> 
 
 <link rel="preload" href="style.css" as="style">
 <link rel="stylesheet" href="style.css" type="text/css">
+
+<noscript>
+<!--<link rel="stylesheet" type="text/css" href="../../css/noscript.css">-->
+<link rel="stylesheet" type="text/css" href="noscript.css">
+</noscript>
+<!-- // main -->
 
 </head>
 <body>
@@ -52,10 +54,10 @@ CSS, JavaScript, project,
 
 <!-- content -->
 <main class="content">
-<div class="wrapper3">
+<!--<div class="wrapper3"></div>-->
 
 <h1 class="tCenter op insertIconTitle">Project name</h1>
-<div class="tCenter margin4List small op">Experimental, Test, In progress</div>
+<div class="tCenter margin4List small op">Experimental, Test, In progress / refresh page for random items in menu</div>
 
 
 
@@ -66,22 +68,26 @@ CSS, JavaScript, project,
 
 
 
-<!-- Navigation HTML v.1.0.0 -->
-<nav class="topNav">
+<!-- Navigation HTML part v.1.0.0 -->
+<header>
+<div class="wrapper3">
+<div class="margin2"></div>
+
+<div id="topNav" class="topNav">
+<nav>
 
 <span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a>
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <div class="dropdownMenuContentWrapper">
 <div class="dropdownMenuContent">
 
-<span class="countMenuItem"></span>
-<a id="dropdownMenuButton" class="brand padding dropdownMenuButton" href="#">☰ Menu</a>
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
 
-<span class="navMenu">
+<span id="navMenu" class="navMenu">
 <!-- links for hide -->
-<a class="countMenuItem brand padding" href="#">Nav item</a>
-<a class="countMenuItem active padding" href="#">Nav item</a>
+<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="#">Nav item</a>
+<a class="countMenuItem active2 borderBottomBrand inlineBlock padding" href="#">Nav item</a>
 <span id="lRandomNavItems"></span>
 <!-- // links for hide -->
 </span>
@@ -90,8 +96,8 @@ CSS, JavaScript, project,
 <span id="dropdownMenu" class="dropdownMenu">
 <div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
 <!-- links for show dropdown -->
-<a class="countMenuItem brand padding" href="#">Nav item</a>
-<a class="countMenuItem active padding" href="#">Nav item</a>
+<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="#">Nav item</a>
+<a class="countMenuItem active2 borderBottomBrand inlineBlock padding" href="#">Nav item</a>
 <span id="lRandomNavItems2"></span>
 <!-- // links for show dropdown -->
 </div>
@@ -101,12 +107,18 @@ CSS, JavaScript, project,
 </div>
 
 <span class="countMenuItem"></span>
+<span class="countMenuItem"></span>
+<a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" style="margin-right: var(--padding);" href="../" title="../ (Up)">List (up)</a>
 <form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.<?=$ext?>" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
 
 </nav>
+</div>
+
+</div>
+</header>
 <!-- // Navigation HTML -->
 
 
@@ -127,14 +139,15 @@ CSS, JavaScript, project,
 
 <footer id="footer"></footer>
 
-<script src="../../js/main.js"></script>
+<!--<script src="../../js/main.js"></script>-->
 
 <script>
 //fuMSetTheme('light');
 </script>
 
-<script src="script.js"></script>
 <script src="demo.js"></script>
+<script src="script.js"></script>
+
 
 </body>
 </html>
