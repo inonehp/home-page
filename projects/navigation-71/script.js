@@ -6,7 +6,7 @@ if (conf == undefined){
 var conf = [];
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
-conf["conMenuItemAverageWidth"] = 120;
+conf["conMenuItemAverageWidth"] = 130;
 }
 
 // nav v.2.0.0 in test
