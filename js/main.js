@@ -256,7 +256,7 @@ ${conf["confMenuItems2"]}
 
 
 
-// Navigation JS part v.1.1.0
+// Navigation JS part v.1.2.0
 //Creating navigation in progress, sorry
 
 
@@ -293,7 +293,6 @@ cssMedia2 = `@media(width < 0px)`;
 document.getElementsByTagName("nav")[0].innerHTML += `
 
 <style>
-
 ${cssMedia} {
 .navMenu {
 display: none;
@@ -301,15 +300,12 @@ display: none;
 .topNav .dropdownMenuButton { display: inline-block; }
 }
 
-//fixme !!!
-//fix when dynamic change 
+/* when dynamic change*/
 ${cssMedia2} {
-.dropdownMenu {
-
-border: 1px solid red;
+.dropdownMenu, .dropdownMenuCotent, .showDropdownMenu {
+display: none !important;
 }
 }
-
 </style>
 
 `;
