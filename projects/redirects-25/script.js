@@ -1,4 +1,4 @@
-// Search redirects v.2.2.28
+// Search redirects v.2.2.29
 // Mini Google
 // The script redirects the search query + command.
 
@@ -130,7 +130,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://trends.google.com/trends/explore?cat=5&date=now%207-d",
+"https://trends.google.com/trends/explore?date=now%207-d",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

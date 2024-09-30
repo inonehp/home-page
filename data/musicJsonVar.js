@@ -255,6 +255,15 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "About A Girl (Remastered) \u00b7 Nirvana",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=JIx2H-plXdU",
+        "tag": "#music",
+        "time": 1727698306,
+        "rightFooter": ""
+    },
+    {
         "text": "AC\/DC - Thunderstruck (Official Video) - YouTube",
         "text2": "",
         "text3": "",
