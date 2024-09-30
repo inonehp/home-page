@@ -37,28 +37,28 @@ var sitemapJsonVar = [
     {
         "url": "\/games\/dice-9\/index.html",
         "text": "Dice Game\n\nGame dice. | dice: ",
-        "tag": " #game #dice #HTML5 #JavaScript #WebApp #project",
+        "tag": " #game #dice #HTML5 #CSS #JavaScript #project",
         "id": "850ca844bccc19aa09438d619db386a4",
         "time": "id"
     },
     {
         "url": "\/games\/guess-number-10\/index.html",
         "text": "Guess The Number\n\nYou need to guess the random number. | guess number: ",
-        "tag": " #game #guuess #number #HTML5 #JavaScript #WebGame #game #project",
+        "tag": " #game #guuess #number #HTML5 #WebGame #CSS #JavaScript #project",
         "id": "524f001062de526e4e3ad28ba23f2376",
         "time": "id"
     },
     {
         "url": "\/games\/lnnguage-learning-quiz-45\/index.html",
         "text": "Language learging quiz\n\nLanguage learging quiz. Language quiz. Quiz word. It is necessary to choose the correct version of the translated word. Language quiz. Word quiz. | lnnguage learning quiz: ",
-        "tag": " #Experimental #learning #language #game #quiz #word #JavaScript #project",
+        "tag": " #Experimental #learning #language #game #quiz #word #CSS #JavaScript #project",
         "id": "1aa601d5ec54262d925b603220542d6d",
         "time": "id"
     },
     {
         "url": "\/games\/memory-symbol-11\/index.html",
         "text": "Memory Symbol\n\nIn this game, there is a grid with masked cells that need to be opened. You need to open two identical symbols (emoji) in sequence, winning if you opened everything. | memory symbol: ",
-        "tag": " #game #memory #symbol #HTML5 #JavaScript #project",
+        "tag": " #game #memory #symbol #HTML5 #CSS #JavaScript #project",
         "id": "c0e25c9694c5f972a0f32b1fd8cf5f54",
         "time": "id"
     },
@@ -79,7 +79,7 @@ var sitemapJsonVar = [
     {
         "url": "\/games\/snake-12\/index.html",
         "text": "Snake\n\nSnake game, you need to eat food and grow. | snake: ",
-        "tag": " #game #snake #HTML5 #JavaScript #project",
+        "tag": " #game #snake #HTML5 #CSS #JavaScript #project",
         "id": "2e9496e0ed49f285bda5d6f29c65ad5a",
         "time": "id"
     },
@@ -93,14 +93,14 @@ var sitemapJsonVar = [
     {
         "url": "\/games\/tic-tac-toe-13\/index.html",
         "text": "Tic Tac Toe\n\nGame tic-tac-toe. | tic tac toe: ",
-        "tag": " #game #tic #tac #toe #HTML5 #JavaScript #JavaScript #project",
+        "tag": " #game #tic #tac #toe #HTML5 #CSS #JavaScript #project",
         "id": "a75ac875b4b178900bf07967ba4521bf",
         "time": "id"
     },
     {
         "url": "\/games\/typing-speed-14\/index.html",
         "text": "Typing speed\n\n\u00b7 A typing speed or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM.\r\n\u00b7 Modes: quotes, book, own text input. | typing speed: ",
-        "tag": " #game #typing #speed #trainer #WPM #JavaScript #project",
+        "tag": " #tool #game #typing #speed #trainer #WPM #CSS #JavaScript #project",
         "id": "0b91b83acdf8371274a96c1cafb81efd",
         "time": "id"
     },

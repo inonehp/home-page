@@ -1,4 +1,4 @@
-/* Main style v.18.0.3
+/* Main style v.18.1.0
 Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 /* Main */
@@ -36,8 +36,8 @@ Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 --itemHeight: 30px;
 --itemHeight2: 45px;
---itemHeight3: 50dvh;
---itemHeight4: 100dvh;
+--itemHeight3: 315px;
+/*--itemHeight4: 100dvh;*/
 /*mobile w: 500 (real by stats: 360) */
 }
 

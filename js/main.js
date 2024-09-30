@@ -1,13 +1,13 @@
-// Main js v.6.11.5
-// For navigation (second), footer, themes, etc
+// Main js v.6.11.6
+// For second navigation, footer, themes, etc
 
-// Settings
-
+// Settings, config
 var conf = [];
 
-conf["confUsername"] = "irvirty"; // only in some places
-conf["confHostingDomain"] = "pages.dev";
 conf["confGoogleAnalyticsId"] = "G-RQJTJG7DF9";
+conf["confUsername"] = "irvirty"; // only in some places
+conf["confWebsiteUrl"] = "irvirty.pages.dev";
+
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["conMenuItemAverageWidth"] = 130;

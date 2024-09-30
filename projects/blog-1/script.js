@@ -1,4 +1,4 @@
-// Keep or blog v.2.12.1
+// Keep or blog v.2.12.2
 // Mini Twitter or like Keep by Google
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -1710,7 +1710,7 @@ break;
 
 case 'vimeo.com':
 play = item.split('/');
-embed = `<iframe src="https://player.vimeo.com/video/` + play[play.length - 1] + `?badge=0" height="${h}"  frameborder="0"></iframe>`;
+embed = `<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/` + play[play.length - 1] + `" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Larry"></iframe></div><!--<script src="https://player.vimeo.com/api/player.js"></script>-->`;
 embedServiceList += 'vimeo';
 break;
 
@@ -2249,7 +2249,7 @@ break;
 
 case 'vimeo.com':
 play = item.split('/');
-embed = `<iframe src="https://player.vimeo.com/video/`+play[play.length-1]+`?badge=0&autoplay=1" height="${h}"  frameborder="0"></iframe>`;
+embed = `<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/` + play[play.length-1] + `?badge=0&autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Larry"></iframe></div><!--<script src="https://player.vimeo.com/api/player.js"></script>-->`;
 embedServiceList += 'vimeo';
 break;
 

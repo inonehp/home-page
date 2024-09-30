@@ -1,4 +1,4 @@
-// Video v.1.2.1
+// Video v.1.2.2
 // Mini YouTube
 
 
@@ -285,8 +285,8 @@ var play = randomURL.split('/').pop();
 
 
 onload = (event) => {
-document.getElementById("playerxx").innerHTML = `<iframe src="https://player.vimeo.com/video/${play}?badge=0&autoplay=1" width="{$w}" height="${h}"  frameborder="0"></iframe>`; 
-
+//document.getElementById("playerxx").innerHTML = `<iframe src="https://player.vimeo.com/video/${play}?badge=0&autoplay=1" width="{$w}" height="${h}"  frameborder="0"></iframe>`; 
+document.getElementById("playerxx").innerHTML = `<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/${play}?badge=0&autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Larry"></iframe></div><!--<script src="https://player.vimeo.com/api/player.js"></script>-->`; 
 
 var iframe = document.querySelector('iframe');
 player = new Vimeo.Player(iframe);

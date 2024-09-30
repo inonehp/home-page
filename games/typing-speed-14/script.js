@@ -1,4 +1,4 @@
-// Typing Speed Test or Typing Speed Game v.3.18.2
+// Typing Speed Test or Typing Speed Game v.3.18.3
 
 
 
@@ -86,7 +86,7 @@ document.getElementById("mode").innerHTML = `
 ${modeListPrint}
 
 <!-- https://developer.mozilla.org/docs/Web/API/Document/getSelection -->
-<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="text select and click / can be moved to the panel" href="javascript:void(window.open('http://${conf["confUsername"]}.${conf["confHostingDomain"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
+<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="for the panel in the browser" href="javascript:void(window.open('https://${conf["confWebsiteUrl"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
 
 `;
 
@@ -1182,10 +1182,9 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 document.getElementsByClassName("msg2")[0].innerHTML = `
 <div class="padding2"></div>
-<div class="op xSmall padding2 tRight pre">* word - ${wordLengthLimit} symbol | Average WPM - last ${wmpAverageLimit} | allowed error for result: ${allowError}
-for your own text use the URL or query: ?q=your text</div>
+<div class="op xSmall padding2 tRight pre">* 1 word - ${wordLengthLimit} symbol | average WPM - last ${wmpAverageLimit} | allowed error for result: ${allowError}</div>
 `;
-
+//for your own text use the URL or query: ?q=your text
 
 //https://stackoverflow.com/questions/4770025/how-to-disable-scrolling-temporarily
     var x=window.scrollX;
