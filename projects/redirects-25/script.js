@@ -1,4 +1,4 @@
-// Search redirects v.2.2.27
+// Search redirects v.2.2.28
 // Mini Google
 // The script redirects the search query + command.
 
@@ -703,7 +703,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.google.com/search?q=" + q + " site:blogspot.com OR site:medium.com OR site:wordpress.com&tbs=qdr:m",
+"https://www.google.com/search?q=" + q + " site:blogspot.com OR site:wordpress.com",
 ];
 if (q == ''){
 urlList = [
