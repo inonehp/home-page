@@ -9,12 +9,12 @@
 <script>
 // fresh config in script.js
 let blogConfig = {
-"postLimit":"", // number
-"embedStatus":"", // off, not list,
-"multiEmbedStatus":"", // on
-"tagListStatus":"", // off
+"postLimit":"", // number, the number of posts per page
+"embedStatus":"", // "off" option
+"multiEmbedStatus":"", // "on" option
+"tagListStatus":"", // "off" option
 "tagListLimit":"", // number
-"targetOption":"", // blank
+"targetOption":"", // "blank" option
 "bottomMsg":`
 <!-- bottom text or code -->
 `, // text

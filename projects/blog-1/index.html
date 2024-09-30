@@ -5,10 +5,12 @@
 <title>Blog</title>
 
 <meta name="description" content="
-Sometimes I share something in this place.
+This is a mini system for displaying content, data in the form of small JS files containing plain text in JSON format, which are placed in a JS variable.
 ">
 <meta name="keywords" content="
-blog, post, JavaScript, page, project,
+microblog, gallery,
+system, content, blog, post,
+JavaScript, page, project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -100,15 +102,19 @@ var jsonVar =
 <script>
 // fresh config in script.js
 let blogConfig = {
-"postLimit":"5", // number
-"embedStatus":"", // off, not list,
-"multiEmbedStatus":"", // on
-"tagListStatus":"", // off
+"postLimit":"", // number, the number of posts per page
+"embedStatus":"off", // "off" option
+"multiEmbedStatus":"", // "on" option
+"tagListStatus":"", // "off" option
 "tagListLimit":"", // number
-"targetOption":"", // blank
-"bottomMsg":"", // text
-"display":"", // gallery - grid, article - <div class="h1">text</div>, all - shows everything: text, text2, text3
+"targetOption":"", // "blank" option
+"bottomMsg":`
+<!-- bottom text or code -->
+`, // text
+"display":"", // gallery - grid, galleryStretch, article - "text" as title link, all - text, text2, text3
 "timeStatus":"", // off, disable post time (post id)
+"rightFooterStatus":"", // on, off, right footer in data
+"usernameStatus":"", // on, off
 };
 </script>
 

@@ -1,4 +1,4 @@
-<!-- README.md v.1.8.7 -->
+<!-- README.md v.1.8.8 -->
   
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
@@ -8,8 +8,8 @@ A personal start page with projects such as search (redirect), blog, games, to-d
   
 ---
   
-### Download: [main.zip](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)  
-### URL: [irvirty.pages.dev](https://irvirty.pages.dev/)  
+### 📁 Download: [main.zip](https://github.com/irvirty/irvirty.pages.dev/archive/refs/heads/main.zip)  
+### 🔗 URL: [irvirty.pages.dev](https://irvirty.pages.dev/)  
   
 ---
   
@@ -18,7 +18,7 @@ A personal start page with projects such as search (redirect), blog, games, to-d
   
 ---
    
-#### GitHub Explore tags:  
+#### 🏷️ GitHub Explore tags:  
 [#Website](https://github.com/topics/website),
 [#Personal](https://github.com/topics/personal),
 [#Home page](https://github.com/topics/homepage),
