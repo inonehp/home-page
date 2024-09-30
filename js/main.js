@@ -1,4 +1,4 @@
-// Main js v.6.11.4
+// Main js v.6.11.5
 // For navigation (second), footer, themes, etc
 
 // Settings
@@ -215,17 +215,17 @@ document.getElementById("secondNav").innerHTML = `
 <a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
 
 <span id="navMenu" class="navMenu">
-<!-- links for hide -->
+<!-- links in nav -->
 ${conf["confMenuItems2"]}
-<!-- // links for hide -->
+<!-- // links in nav -->
 </span>
 
 
 <span id="dropdownMenu" class="dropdownMenu">
 <div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
-<!-- links for show dropdown -->
+<!-- links for show in dropdown (duplicate) -->
 ${conf["confMenuItems2"]}
-<!-- // links for show dropdown -->
+<!-- // links for show in dropdown (duplicate) -->
 </div>
 </span>
 
@@ -233,8 +233,9 @@ ${conf["confMenuItems2"]}
 </div>
 
 <span class="countMenuItem"></span>
-<span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" style="margin-right: var(--padding);" href="../" title="../ (Up)">List (up)</a>
+
+<span class="countMenuItem"></span>
 <form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.<?=$ext?>" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">

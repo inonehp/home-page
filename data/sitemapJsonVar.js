@@ -512,15 +512,15 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/google-programmable-search-49\/index.html",
-        "text": "Programmable Search\n\nGoogle programmable search engine. (Google custom search engine) | google programmable search: ",
-        "tag": " #search #engine #tool #HTML #Google #embed",
+        "text": "Programmable Search\n\nGoogle programmable search engine. Google custom search engine and search widget. | google programmable search: ",
+        "tag": " #widget #search #engine #tool #HTML #Google #embed",
         "id": "2b575a4c74a2cfc05b4467752b43dcaa",
         "time": "id"
     },
     {
         "url": "\/projects\/google-trends-46\/index.html",
-        "text": "Google trends\n\nGoogle trends | google trends: ",
-        "tag": " #Google #trends #info #HTML #embed",
+        "text": "Google trends\n\nGoogle trends. Search trends and tendencies, what people are looking for on the Internet. | google trends: ",
+        "tag": " #widget #Google #trends #info #HTML #embed",
         "id": "46de6fe73494ad111806e729414ca81a",
         "time": "id"
     },
