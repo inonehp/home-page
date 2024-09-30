@@ -18,7 +18,7 @@ var print = `
 <div class="tRight small">random: ${lRandomWebsite} | total: ${totalPost}</div>
 <div class="margin2 padding2"></div>
 
-<div class="block large wrapperL">
+<div class="large wrapperL" style="min-height: 100px;">
 <b>${lRandomWebsiteText}</b><br>
 <a class="brand" href="${lRandomWebsiteUrl}">${lRandomWebsiteUrl}</a>
 </div>
