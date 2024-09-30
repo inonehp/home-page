@@ -1,4 +1,4 @@
-// Keep or blog v.2.11.0
+// Keep or blog v.2.12.1
 // Mini Twitter or like Keep by Google
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -1185,10 +1185,7 @@ print += `
 <br>
 <div class="block padding2 tRight">
 <span class="tCenter op block padding2 xSmall">total: ${jsonVar.length}</span>
-<!--<span class="op block padding2 xSmall">${bottomMsg}</span>--><!-- rmme -->
 </div>
-
-
 
 </div>
 
@@ -1713,8 +1710,17 @@ break;
 
 case 'vimeo.com':
 play = item.split('/');
-embed = `<iframe src="https://player.vimeo.com/video/`+play[play.length-1]+`?badge=0" height="${h}"  frameborder="0"></iframe>`;
+embed = `<iframe src="https://player.vimeo.com/video/` + play[play.length - 1] + `?badge=0" height="${h}"  frameborder="0"></iframe>`;
 embedServiceList += 'vimeo';
+break;
+
+
+case 'www.behance.net':
+if (item.indexOf((`/gallery/`)) != 1){
+play = item.split('/');
+embed = `<iframe src="https://www.behance.net/embed/project/` + play[play.length - 2] + `?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>`;
+//embedServiceList += 'behance';
+}
 break;
 
 
@@ -2245,6 +2251,15 @@ case 'vimeo.com':
 play = item.split('/');
 embed = `<iframe src="https://player.vimeo.com/video/`+play[play.length-1]+`?badge=0&autoplay=1" height="${h}"  frameborder="0"></iframe>`;
 embedServiceList += 'vimeo';
+break;
+
+
+case 'www.behance.net':
+if (item.indexOf((`/gallery/`)) != 1){
+play = item.split('/');
+embed = `<iframe src="https://www.behance.net/embed/project/` + play[play.length - 2] + `?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>`;
+//embedServiceList += 'behance';
+}
 break;
 
 

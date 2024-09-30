@@ -923,16 +923,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/main\/bookmarks.html?id=48\">id<\/a>"
     },
     {
-        "id": "47",
-        "text": "Canva: Visual Suite for Everyone",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.canva.com\/",
-        "tag": "#WebDesign #design #tools",
-        "time": 1705916522,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/bookmarks.html?id=47\">id<\/a>"
-    },
-    {
         "id": "46",
         "text": "Sites - Webflow",
         "text2": "",

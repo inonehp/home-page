@@ -213,16 +213,6 @@ var blogJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=221\">id<\/a>"
     },
     {
-        "id": "218",
-        "text": "Ars Technica on X: \"Daily Telescope: A supernova remnant that resembles a jellyfish https:\/\/t.co\/eEG0wwk9ZS\" \/ X",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/twitter.com\/arstechnica\/status\/1747610492326035574",
-        "tag": "#space",
-        "time": 1705870949,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=218\">id<\/a>"
-    },
-    {
         "id": "217",
         "text": "A new way to Search: Circle to Search - YouTube",
         "text2": "",

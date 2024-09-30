@@ -1,4 +1,4 @@
-// Search redirects v.2.2.29
+// Search redirects v.2.2.31
 // Mini Google
 // The script redirects the search query + command.
 
@@ -131,6 +131,24 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://trends.google.com/trends/explore?date=now%207-d",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'tree#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://trends.google.com/trends/explore?date=now%201-d&q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://trends.google.com/trends/explore?cat=5&date=now%207-d",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -416,6 +434,26 @@ urlList = [
 "https://www.reddit.com/r/science/",
 
 "?q=science tag",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'des#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://dribbble.com/search/" + q,
+"https://www.behance.net/search/" + q,
+];
+if (q == ''){
+urlList = [
+"https://dribbble.com/",
+"https://www.behance.net/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
