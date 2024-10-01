@@ -1,6 +1,5 @@
-// Search redirects v.2.2.33
-// Mini Google
-// The script redirects the search query + command.
+// Search redirects v.2.3.0
+// Search query + command
 
 // conf
 var com = "on"; // on, off redirection
@@ -58,8 +57,9 @@ const myArray = sUrlText.split("q=");
 sUrlText = myArray[0];
 
 
-if (q == ''&&q != 'null'){ q = 'q'; }
-
+if (q == ''&&q != 'null'){ q = ''; }
+if (q2 == "l"){ q = q + " l"; }
+if (q == ""){ q = "q"; }
 
 if (rUrlGet == null&&q != 'null'&&q != null&&q != ''&&sUrlText.indexOf("cache") == -1){
 
@@ -77,8 +77,6 @@ let qTmpNoPlus = q.replaceAll('%23', '+', ' ');
 var strArray = qTmpNoPlus.split(" ");
 var qCom = strArray[strArray.length - 1] + "#";
 var q3 = q + "#";
-
-if (q2 == "l"){ qCom = "l#"; }
 
 switch (qCom) {
 

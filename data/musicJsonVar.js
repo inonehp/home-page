@@ -16347,15 +16347,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Army Of Me \u00b7 Bj\u00f6rk",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=M29kbS1nWf8",
-        "tag": "#music",
-        "time": 1633147102,
-        "rightFooter": ""
-    },
-    {
         "text": "Pagan Poetry \u00b7 Bj\u00f6rk",
         "text2": "",
         "text3": "",
