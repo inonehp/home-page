@@ -358,7 +358,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/mini-projects\/palette-generator-using-css-34\/index.html",
-        "text": "Palette generator using CSS\n\nPalette generator using CSS. Using 1 color we generate a palette of colors. | palette generator using css: ",
+        "text": "Palette generator using CSS\n\nPalette generator using CSS. Using 1 color we generate a palette of colors. You only need to specify 1 color and the rest is CSS magic. | palette generator using css: ",
         "tag": " #pallete #generator #HTML #CSS #project",
         "id": "7d00a82b53e36af4ecaf6334929a1466",
         "time": "id"

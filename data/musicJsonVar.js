@@ -3,6 +3,15 @@ var musicJsonVar =
 
 [
     {
+        "text": "Ridin Round \u00b7 Kali Uchis",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=UbL_QdnLusA",
+        "tag": "#music",
+        "time": 1727774409,
+        "rightFooter": ""
+    },
+    {
         "text": "Red Hot Chili Peppers - Can't Stop [Official Music Video] - YouTube",
         "text2": "",
         "text3": "",
@@ -18180,15 +18189,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=Srfe453YePI",
         "tag": "#music",
         "time": 1628216519,
-        "rightFooter": ""
-    },
-    {
-        "text": "Kali Uchis - Ridin Round (Official Video) - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=bUANL9WoB90",
-        "tag": "#music",
-        "time": 1628216440,
         "rightFooter": ""
     },
     {
