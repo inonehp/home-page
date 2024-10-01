@@ -1,4 +1,4 @@
-// Keep or blog v.2.12.4
+// Keep or blog v.2.14.0
 // Mini Twitter or like Keep by Google
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -497,7 +497,7 @@ var subQforLight = subQListFound.join(confSymbolForSplit);
 
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
+if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 sTimeRedir[2] = 1200;
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
@@ -564,7 +564,7 @@ var subQforLight = subQListFound.join(confSymbolForSplit);
 
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
+if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -671,7 +671,7 @@ if (i <= postLimit -1){
 // lucky search if last word " l".
 if(mode == 'randUrl'){
 //if(q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
+if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -829,7 +829,7 @@ subQListFound.push(item3344);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
+if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -984,7 +984,7 @@ if (checkDublicateId[0] != postId){ // fixed dublicate post when search and foun
 
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
+if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000 + ` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
