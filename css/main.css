@@ -1,4 +1,4 @@
-/* Main style v.18.1.1
+/* Main style v.18.2.0
 Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 /* Main */
@@ -496,8 +496,7 @@ a { color: var(--c2); }
 a:hover { color: var(--c4); } 
 
 hr{ border: 1px solid var(--d2); border-bottom:1px solid var(--l); }
-/*::selection { background: darkorange; color: #fff; }*/
-::selection { background: color-mix(in srgb, var(--brandColor) 50%, #fff); color: #000; }
+::selection { background: color-mix(in srgb, var(--orange) 50%, #fff); color: #000; }
 mark { font-weight: bold;}
 
 input, input:focus, textarea, select, button, input[type="file"] { 
