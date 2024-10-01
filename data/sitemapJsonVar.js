@@ -113,7 +113,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/main\/about.html",
-        "text": "About\n\nAbout the site, profiles, license, contacts. | main: ",
+        "text": "About\n\nAbout the site, profiles, license, contacts, donate. | main: ",
         "tag": " #about #contact #donate #profile #support #page #main",
         "id": "90945b5f7703ddcee669bc7643328b06",
         "time": "id"
@@ -226,7 +226,7 @@ var sitemapJsonVar = [
     {
         "url": "\/main\/images-page.html",
         "text": "Images\n\nSometimes I draw something. | main: ",
-        "tag": " #img #picture #wallpaper #logo #illustration #page #main",
+        "tag": " #img #images #image #picture #wallpaper #logo #illustration #page #main",
         "id": "15f0c73ccad942a84cb91f3d768e8445",
         "time": "id"
     },
@@ -247,7 +247,7 @@ var sitemapJsonVar = [
     {
         "url": "\/main\/photos-page.html",
         "text": "Photos page\n\nSometimes I take photos. | main: ",
-        "tag": " #photo #page #main",
+        "tag": " #photo #photos #page #main",
         "id": "014043f38d7b7e437bfb3a0bedb6335f",
         "time": "id"
     },
@@ -457,7 +457,7 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/blog-1\/index.html",
         "text": "Blog\n\nThis is a mini system for displaying content, data in the form of small JS files containing plain text in JSON format, which are placed in a JS variable. | blog: ",
-        "tag": " #microblog #gallery #system #content #blog #post #JavaScript #page #project",
+        "tag": " #system #content #blog #JavaScript #page #project",
         "id": "acf5def736aa5cabdd35d376e904ae8c",
         "time": "id"
     },
@@ -557,6 +557,13 @@ var sitemapJsonVar = [
         "text": "Random Music\n\nA collection of music,  played randomly, using third-party platforms and their players. | music: ",
         "tag": " #music #collection #random #embed #JavaScript #project",
         "id": "e6daf18cc1e29a8ca88f27d0032c14fc",
+        "time": "id"
+    },
+    {
+        "url": "\/projects\/music-blog-72\/index.html",
+        "text": "Music blog\n\nA music blog or data history page for the music project. | music blog: ",
+        "tag": " #music #blog #JavaScript #page #project",
+        "id": "cb60bb67921c1234811b04b89cd78e10",
         "time": "id"
     },
     {

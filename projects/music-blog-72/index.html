@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Blog</title>
+<title>Music blog</title>
 
 <meta name="description" content="
-This is a mini system for displaying content, data in the form of small JS files containing plain text in JSON format, which are placed in a JS variable.
+A music blog or data history page for the music project.
 ">
 <meta name="keywords" content="
-system, content, blog,
+music, blog,
 JavaScript, page, project,
 ">
 
@@ -55,7 +55,7 @@ JavaScript, page, project,
 
 
 <main class="content">
-<h1 class="tCenter op insertIconTitle">Blog</h1>
+<h1 class="tCenter op insertIconTitle">Music blog</h1>
 
 <div id="printBlog"></div>
 
@@ -67,7 +67,7 @@ JavaScript, page, project,
 <script src="../../js/main.js"></script>
 
 <!-- Blog -->
-<script src="../../data/blogJsonVar.js"></script>
+<script src="../../data/musicJsonVar.js"></script>
 <script>
 // fresh data example in script.js
 if (jsonVar == undefined||jsonVar == ''){
@@ -101,7 +101,7 @@ var jsonVar =
 <script>
 // fresh config in script.js
 let blogConfig = {
-"postLimit":"", // number, the number of posts per page
+"postLimit":"6", // number, the number of posts per page
 "embedStatus":"", // "off" option
 "multiEmbedStatus":"", // "on" option
 "tagListStatus":"", // "off" option
@@ -109,6 +109,7 @@ let blogConfig = {
 "targetOption":"", // "blank" option
 "bottomMsg":`
 <!-- bottom text or code //-->
+<div class="tCenter op small"><a class="brand" href="/projects/music-20/">Project music</a></div>
 `, // text
 "display":"", // gallery - grid, galleryStretch, article - "text" as title link, all - text, text2, text3
 "timeStatus":"", // off, disable post time (post id)
@@ -117,7 +118,7 @@ let blogConfig = {
 };
 </script>
 
-<script src="/projects/blog-1/script.js" onload="blog('printBlog', blogJsonVar, 'wrapper', './blog-1/', blogConfig)"></script>
+<script src="/projects/blog-1/script.js" onload="blog('printBlog', musicJsonVar, 'wrapper', './blog-1/', blogConfig)"></script>
 <!-- / Blog -->
 
 </body>
