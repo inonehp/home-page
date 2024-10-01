@@ -123,8 +123,10 @@
 <span id="printInputSearch"></span>
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
-<input type="submit" value="search" class="smaller op">
-<input type="submit" name="q2" value="l" class="smaller op">
+<input class="smaller op tCenter" type="submit" value="Search">
+<!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
+<button class="smaller op tCenter" name="q2" value="l" type="submit">Lucky</button>
+<!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
 </div>
 
 </form>
@@ -217,7 +219,7 @@ let blogConfig = {
 </script>
 
 <script>
-blog("printBlog", data, 'wrapper', './site-search.html', blogConfig);
+blog("printBlog", data, 'wrapper', '/main/site-search.html', blogConfig);
 </script>
 
 

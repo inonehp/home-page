@@ -1,4 +1,4 @@
-// Keep or blog v.2.12.2
+// Keep or blog v.2.12.4
 // Mini Twitter or like Keep by Google
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -184,6 +184,8 @@ if (q != null&&q != undefined){
 q = decodeURIComponent(q);*/
 q = q.trim();
 
+var qEncoded = "";
+
 // script.js + project redirect
 let qHashtag = location.href;
 qHashtag = qHashtag.split("#")[1];
@@ -198,6 +200,9 @@ q = val;
 }
 });
 }
+
+q = q.replaceAll('%23StopRedirect', '');
+q = q.replaceAll('#StopRedirect', '');
 
 }
 
@@ -242,17 +247,17 @@ if (q[q.length - 2] == ' '&&q[q.length - 1] == 'r'){ q = q.slice(0, -2); q2 = 'r
 if (q[q.length - 2] == ' '&&q[q.length - 1] == 'q'){
 q = q.slice(0, -2);
 q = q.trim();
-q = encodeURIComponent(q);
-window.location.href = "/projects/redirects-25/?q=" + q;
-window.location.href = window.location.href + '#stopRedir'; 
+qEncoded = encodeURIComponent(q);
+window.location.href = "/projects/redirects-25/?q=" + qEncoded;
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 
 if (q[q.length - 2] == ' '&&q[q.length - 1] == 'a'){
 q = q.slice(0, -2);
 q = q.trim();
-q = encodeURIComponent(q);
-window.location.href = "/projects/redirects-25/?q=" + q + " a";
-window.location.href = window.location.href + '#stopRedir'; 
+qEncoded = encodeURIComponent(q);
+window.location.href = "/projects/redirects-25/?q=" + qEncoded + " a";
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 
 /*
@@ -260,17 +265,17 @@ window.location.href = window.location.href + '#stopRedir';
 if (q[0] + q[1] == 'q '){
 q = q.slice(2);
 q = q.trim();
-q = encodeURIComponent(q);
-window.location.href = "/projects/redirects-25/?q=" + q;
-window.location.href = window.location.href + '#stopRedir'; 
+qEncoded = encodeURIComponent(q);
+window.location.href = "/projects/redirects-25/?q=" + qEncoded;
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 
 if (q[0] + q[1] == 'a '){
 q = q.slice(2);
 q = q.trim();
-q = encodeURIComponent(q);
-window.location.href = "/projects/redirects-25/?q=" + q + " a";
-window.location.href = window.location.href + '#stopRedir'; 
+qEncoded = encodeURIComponent(q);
+window.location.href = "/projects/redirects-25/?q=" + qEncoded + " a";
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 // end first letters
 */
@@ -496,11 +501,11 @@ if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 sTimeRedir[2] = 1200;
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
-if (('' + window.location + '').search("#stopRedir") == -1){
+if (('' + window.location + '').search("#StopRedirect") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href + '#stopRedir'; 
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);
 }
@@ -562,11 +567,11 @@ if (q2 == 'l'){
 if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
-if (('' + window.location + '').search("#stopRedir") == -1){
+if (('' + window.location + '').search("#StopRedirect") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href + '#stopRedir'; 
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);
 }
@@ -669,11 +674,11 @@ if(mode == 'randUrl'){
 if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
-if (('' + window.location + '').search("#stopRedir") == -1){
+if (('' + window.location + '').search("#StopRedirect") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href + '#stopRedir'; 
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);
 }
@@ -827,11 +832,11 @@ if (q2 == 'l'){
 if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
-if (('' + window.location + '').search("#stopRedir") == -1){
+if (('' + window.location + '').search("#StopRedirect") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href + '#stopRedir'; 
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);
 }
@@ -982,11 +987,11 @@ if (q2 == 'l'){
 if (postUrl == ''&&postId != ''){ postUrl = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000 + ` sec.`;
-if (('' + window.location + '').search("#stopRedir") == -1){
+if (('' + window.location + '').search("#StopRedirect") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href + '#stopRedir'; 
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);
 }
@@ -1176,8 +1181,10 @@ print += `
 <input id="inputBlog" type="search" name="q"  autocomplete="off" placeholder="">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
-<input type="submit" value="search" class="smaller op" style="padding: 0; min-height: 1px; height: 30px;">
-<input type="submit" name="q2" value="l" class="smaller op" style="padding: 0; min-height: 1px; height: 30px;">
+<input  class="smaller op tCenter" type="submit" value="Search">
+<!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
+<button class="smaller op tCenter" name="q2" value="l" type="submit">Lucky</button>
+<!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
 </div>
 
 </form>
@@ -1220,13 +1227,6 @@ ${comMessagePrint}
 
 }
 
-if (q != null&&document.getElementById("inputBlog") != null){
-document.getElementById("inputBlog").value = q;
-}
-
-if (q != null&&document.getElementById("navOptionQ") != null){
-document.getElementById("navOptionQ").value = q;
-}
 
 
 
@@ -2994,11 +2994,11 @@ if (q2 == 'r'){
 if (lFoundQUrlRandom != ''){
 /*sTimeRedir[2] = 1200;
 comMessagePrint = `random URL: `+ sTimeRedir[2] / 1000 +` sec.`;*/
-if (('' + window.location + '').search("#stopRedir") == -1){
+if (('' + window.location + '').search("#StopRedirect") == -1){
 window.location.href = '/projects/redirects-25/?rUrl=' + lFoundQUrlRandom;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
-window.location.href = window.location.href + '#stopRedir'; 
+window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);
 }
@@ -3006,6 +3006,14 @@ window.location.href = window.location.href + '#stopRedir';
 }
 
 
+
+if (q != null&&document.getElementById("inputBlog") != null){
+document.getElementById("inputBlog").value = q;
+}
+
+if (q != null&&document.getElementById("navOptionQ") != null){
+document.getElementById("navOptionQ").value = q;
+}
 
 
 }

@@ -1,4 +1,4 @@
-// Search redirects v.2.2.31
+// Search redirects v.2.2.33
 // Mini Google
 // The script redirects the search query + command.
 
@@ -10,6 +10,7 @@ var sTimeRedirect = 1000;
 var geturl = location.href;
 var url = new URL(geturl);
 var q = url.searchParams.get("q");
+var q2 = url.searchParams.get("q2");
 
 var qr = url.searchParams.get("qr");
 var rq = url.searchParams.get("rq");
@@ -77,7 +78,7 @@ var strArray = qTmpNoPlus.split(" ");
 var qCom = strArray[strArray.length - 1] + "#";
 var q3 = q + "#";
 
-
+if (q2 == "l"){ qCom = "l#"; }
 
 switch (qCom) {
 
@@ -606,6 +607,7 @@ break;
 
 
 case 'wik#':
+case 'wi#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -761,17 +763,21 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://substack.com/search/"+ q +"?searching=note",
-"https://bsky.app/search?q=" + q,
+//"https://substack.com/search/"+ q +"?searching=note",
 //"https://www.threads.net/search?q=" + q,
+//"https://x.com/search?q=" + q,
+//"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
+"https://bsky.app/search?q=" + q,
 "https://www.tumblr.com/search/" + q + "/text",
 "https://wordpress.com/search?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"https://substack.com/",
-"https://bsky.app/",
+//"https://substack.com/",
 //"https://www.threads.net/",
+//"https://x.com/",
+//"https://www.reddit.com/",
+"https://bsky.app/",
 "https://www.tumblr.com/",
 "https://wordpress.com/",
 ];
