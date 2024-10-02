@@ -5,7 +5,7 @@
 
 <title>Irvirty RSS</title>
 <link>https://https://irvirty.pages.dev</link>
-<description></description>
+<description>Technology news, web design, bookmarks, and others.</description>
 
 <image class="logo">
     <url>https://irvirty.pages.dev/img/logo.png</url>
@@ -673,6 +673,6 @@ Text start end
 </description>
 </item>
 
-</channel>
 
+</channel>
 </rss>
