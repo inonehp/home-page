@@ -281,11 +281,11 @@ https://app.grammarly.com/
 Notes:
 ======
 
-- Do not use emojis (emoji can have a double meaning and are difficult to read)
-- Don't use duplicate content (license conflict)
-- Name uppercase (grammar)
-- Spaces in JavaScript for if and else
-- Use standard font sizes (16px, 1em, 14px because non-standard (]]></title>
+- The 404 not found page should not have a search form, most of the top sites do not.
+- Do not use emojis (emoji can have a double meaning and are difficult to read).
+- Don't use duplicate content in other place (license conflict).
+- Name uppercase (grammar).
+]]></title>
 <link><![CDATA[https://irvirty.pages.dev/#postIdDisabled]]></link>
 <description>
 <![CDATA[
@@ -293,11 +293,12 @@ Web design notes
 Notes:
 ======
 
-- Do not use emojis (emoji can have a double meaning and are difficult to read)
-- Don't use duplicate content (license conflict)
-- Name uppercase (grammar)
-- Spaces in JavaScript for if and else
-- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller)
+- The 404 not found page should not have a search form, most of the top sites do not.
+- Do not use emojis (emoji can have a double meaning and are difficult to read).
+- Don't use duplicate content in other place (license conflict).
+- Name uppercase (grammar).
+- Spaces in JavaScript code, because "Coding conventions (Programming style)".
+- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller).
 ]]>
 </description>
 </item>
