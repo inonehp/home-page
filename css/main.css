@@ -385,12 +385,12 @@ filter: invert(100%);
 .pointer, .click { cursor: pointer; }
 .block { display: block; }
 
+.zero { margin: 0; padding: 0; }
+.none { display: none; }
 .flex { display: flex; }
 .inline { display: inline; }
 .inlineBlock { display: inline-block; }
 .inlineFlex { display: inline-flex; }
-.none { display: none; }
-.zero { margin: 0; padding: 0; }
 .tLeft { text-align: left; }
 .tCenter { text-align: center; }
 .tRight { text-align: right; }

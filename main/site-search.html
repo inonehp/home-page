@@ -145,7 +145,8 @@
 <script>
 
 var data = [];
-data = data.concat(sitemapJsonVar, bookmarksJsonVar, blogJsonVar, articlesJsonVar, notesJsonVar);
+//data = data.concat(sitemapJsonVar, bookmarksJsonVar, blogJsonVar, articlesJsonVar, notesJsonVar);
+data = [...sitemapJsonVar, ...bookmarksJsonVar, ...blogJsonVar, ...articlesJsonVar, ...notesJsonVar];
 
 </script>
 

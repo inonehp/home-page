@@ -1495,6 +1495,7 @@ function fuPrintPost(id, post, tag, time, subQforLight, rightFooter){
 tag = highlightText(tag, targetOption, subQforLight);
 //time = new Date(time).getTime();
 
+rightFooter = fuMHideFileNameExt(rightFooter);
 
 function normalize(a){
 if (a <= 9){ a = '0' + a; }
