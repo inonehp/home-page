@@ -1,4 +1,4 @@
-// Typing Speed Test or Typing Speed Game v.3.18.6
+// Typing Speed Test or Typing Speed Game v.3.18.7
 
 
 
@@ -1032,12 +1032,12 @@ if (wpmAverageProgress == NaN){ wpmAverageProgress = 0; }
 
 let winMsg = `
 
-<div class="bg3 padding2 margin2 msg shadow tCenter borderRadius2" style="border-bottom: 10px solid  color-mix(in srgb, var(--${printMsgWinColor}) 60%, transparent);">
+<div class="bg3 padding2 margin2 msg shadow tCenter borderRadius2 balance" style="border: 3px solid  color-mix(in srgb, var(--${printMsgWinColor}) 60%, transparent); margin-bottom: 20px;">
 <!--<b class="${printMsgWinColor} padding2">${printMsgWin}</b>-->
-<div class="pre inlineBlock margin2List" style="border-bottom: 5px solid  color-mix(in srgb, var(--${printMsgWinColor}) 25%, transparent);"><h3><span title="word per minute" style="color: var(--c3);">WPM: ${wpm}</span> <span title="difference with the previous">${wpmProgress}</span> ${recordMsg}</h3></div>
+<div class="pre inlineBlock margin2List" style="border-bottom: 5px solid  color-mix(in srgb, var(--${printMsgWinColor}) 25%, transparent);"><h3><span title="word per minute" style="color: var(--c3);">WPM: ${wpm}</span> <span title="Difference with the previous">${wpmProgress}</span> ${recordMsg}</h3></div>
 <div></div>
-<span class="normal"><span title="WPM Average last ${wmpAverageLimit}">Average WPM: ${WPMaverage} ${wpmAverageProgress}</span></span><br>
-<span class="normal" title="Current accuracy, total"><span class="medium">Accuracy: <span>${acurancyTotal}</span>%</span> ${acurancyProgress}</span>
+<span class="normal"><span title="Average words per minute based on the last ${wmpAverageLimit}">average WPM: ${WPMaverage} ${wpmAverageProgress}</span></span><br>
+<span class="normal" title="Current accuracy, total"><span class="medium">accuracy: <span>${acurancyTotal}</span>%</span> ${acurancyProgress}</span>
 <div class="padding2"></div>
 </div>
 </div>

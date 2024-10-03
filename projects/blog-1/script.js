@@ -958,7 +958,7 @@ if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
 
 postText = (postText + ' ' + postUrl).trim();
 
-let qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag).toLowerCase();
+let qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag + ' ').toLowerCase();
 
 // many words from space split
 
