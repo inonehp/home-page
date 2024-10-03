@@ -147,13 +147,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/main\/changelog.html",
-        "text": "Changelog\n\nChangelog. Site update history. About what's new on the site. Some changes and updates to the site may not be displayed here and updates may occur without post. | main: ",
-        "tag": " #update #news #new #page #main",
-        "id": "9d30d9680d7697dd26ec6a36a970144a",
-        "time": "id"
-    },
-    {
         "url": "\/main\/chrome-extensions-page.html",
         "text": "Chrome extensions page\n\nChrome browser extension: new tab redirct ... | main: ",
         "tag": " #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
@@ -284,6 +277,13 @@ var sitemapJsonVar = [
         "text": "Theme options\n\nSetting the color theme or choosing theme mode depending on the time of day or depending on the theme in the browser or the theme in the operating system. | main: ",
         "tag": " #theme #themes #color #colors #setting #page #main",
         "id": "a56754866d0da1a147d7a98b9d07d688",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/updates.html",
+        "text": "Updates\n\nUpdates or changelog. About what's new on the site. Some changes and updates to the site may not be displayed here and updates may occur without post. | main: ",
+        "tag": " #update #news #new #page #main",
+        "id": "204349a50ec46c9e9ae7ef8f75183f50",
         "time": "id"
     },
     {

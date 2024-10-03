@@ -242,6 +242,7 @@ let icons2 = [
 {"t":"check", "t2":"✅"},
 {"t":"changelog", "t2":"🔄", "t3":"refresh"},
 {"t":"refresh", "t2":"🔄", "t3":"refresh"},
+{"t":"update", "t2":"🔄", "t3":"refresh"},
 {"t":"list", "t2":"≡", "t3":"list"},
 {"t":"label", "t2":"🏷️"},
 {"t":"tag", "t2":"🏷️"},
