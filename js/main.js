@@ -1,4 +1,4 @@
-// Main js v.6.11.6
+// Main js v.6.11.7
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -236,7 +236,7 @@ ${conf["confMenuItems2"]}
 <a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" style="margin-right: var(--padding);" href="../" title="../ (Up)">List (up)</a>
 
 <span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.<?=$ext?>" role="search">
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
