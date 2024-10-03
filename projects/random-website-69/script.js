@@ -25,8 +25,8 @@ var print = `
 
 <div class="margin2 padding2"></div>
 <div class="tCenter op wrapperL">
-<a class="brand tag2 border2 borderRadius3" href="#" onclick="fuMReload();">Again (reload)</a>
-<a class="brand tag2 border2 borderRadius3" href="data-list.html">Data list</a>
+<a class="brand tag2 border2 borderRadius3 light" href="#" onclick="fuMReload();">Again (reload)</a>
+<a class="brand tag2 border2 borderRadius3 light" href="data-list.html">Data list</a>
 </div>
 <div class="padding2"></div>
 </div>

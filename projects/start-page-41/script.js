@@ -1,4 +1,4 @@
-// v.1.1.1
+// Start page v.1.1.2
 
 // time v.1.4.4
 // creation date: 2023
@@ -69,11 +69,11 @@ try {
 //const wakeLock = await navigator.wakeLock.request("screen");
 //const wakeLock = navigator.wakeLock.request("screen");
 wakeLock = navigator.wakeLock.request("screen");
-document.getElementById('msg').innerHTML = `* Trying to prevent sleep: <b>on</b>`;
+document.getElementById('msg').innerHTML = `* Trying to prevent sleep while the tab is active: <b>on</b>`;
 } catch (err) {
   // the wake lock request fails - usually system related, such being low on battery
 console.log(`Trying to prevent sleep: on. ${err.name}, ${err.message}`);
-document.getElementById('msg').innerHTML = `* Trying to prevent sleep: <b>on</b>. ${err.name}, ${err.message}`;
+document.getElementById('msg').innerHTML = `* Trying to prevent sleep while the tab is active: <b>on</b>. ${err.name}, ${err.message}`;
 }
 
 
@@ -84,16 +84,16 @@ try {
 //const wakeLock = await navigator.wakeLock.request("screen");
 //const wakeLock = navigator.wakeLock.request("screen");
 wakeLock = navigator.wakeLock.request("screen");
-document.getElementById('msg').innerHTML = `* Trying to prevent sleep: <b>on</b>`;
+document.getElementById('msg').innerHTML = `* Trying to prevent sleep while the tab is active: <b>on</b>`;
 } catch (err) {
   // the wake lock request fails - usually system related, such being low on battery
 console.log(`Trying to prevent sleep: on. ${err.name}, ${err.message}`);
-document.getElementById('msg').innerHTML = `* Trying to prevent sleep: <b>on</b>. ${err.name}, ${err.message}`;
+document.getElementById('msg').innerHTML = `* Trying to prevent sleep while the tab is active: <b>on</b>. ${err.name}, ${err.message}`;
 }
 };
 
 onblur = (event) => {
 wakeLock = "";
-console.log(`Trying to prevent sleep: off.`);
-document.getElementById('msg').innerHTML = `* Trying to prevent sleep: <b>off</b>.`;
+console.log(`* Trying to prevent sleep while the tab is active: off.`);
+document.getElementById('msg').innerHTML = `* Trying to prevent sleep while the tab is active: <b>off</b>.`;
 };

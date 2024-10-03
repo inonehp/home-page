@@ -99,7 +99,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/games\/typing-speed-14\/index.html",
-        "text": "Typing speed\n\n\u00b7 A typing speed or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM.\r\n\u00b7 Modes: quotes, book, own text input. | typing speed: ",
+        "text": "Typing speed\n\n\u00b7 A typing speed test, typing speed game or keyboard trainer.\r\n\u00b7 You need to beat your previous WPM (words per minute).\r\n\u00b7 Modes: quotes, book, own text input. | typing speed: ",
         "tag": " #tool #game #typing #speed #trainer #WPM #CSS #JavaScript #project",
         "id": "0b91b83acdf8371274a96c1cafb81efd",
         "time": "id"

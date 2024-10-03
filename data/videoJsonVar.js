@@ -1065,6 +1065,24 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Gravity Falls Full Episode | S1 E16 | Carpet Diem | \u202a@disneyxd\u202c - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Ds4iNL9tlW0",
+        "tag": "#video #cartoon",
+        "time": 1727901413,
+        "rightFooter": ""
+    },
+    {
+        "text": "Gravity Falls Full Episode | S1 E18 | Land Before Swine | \u202a@disneyxd\u202c - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=k6S8EoLa5Wg",
+        "tag": "#video #cartoon",
+        "time": 1727901380,
+        "rightFooter": ""
+    },
+    {
         "text": "Gravity Falls Full Episode | S1 E2 | The Legend of the Gobblewonker |@disneyxd - YouTube",
         "text2": "",
         "text3": "",

@@ -1255,6 +1255,19 @@ return text;
 }
 }
 
+//https://stackoverflow.com/questions/15968911/how-to-clear-text-area-with-a-button-in-html-using-javascript
+function fuMResetForm(idOrClass) {
+if (idOrClass != undefined&&idOrClass != null&&idOrClass != ""){
+if (document.getElementById(idOrClass) != null){
+document.getElementById(idOrClass).value = "";
+}
+var formClassList = document.getElementsByClassName(idOrClass);
+[...formClassList].forEach((val, index) => {
+//console.log(val + "=" + index);
+document.getElementsByClassName(idOrClass[index]).value = "";
+})
+}
+}
 
 
 // Embed scripts. Script embed v.1.0.0

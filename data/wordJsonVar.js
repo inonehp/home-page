@@ -1341,11 +1341,6 @@ var wordJsonVar =
         "text3": "volc\u00e1n"
     },
     {
-        "text": "\u0432\u0456\u0434\u043d\u043e\u0441\u0438\u043d\u0438",
-        "text2": "relationships",
-        "text3": "relaciones"
-    },
-    {
         "text": "\u0432\u0456\u0434\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u043d\u044f",
         "text2": "reflection",
         "text3": "reflejo"
@@ -2384,11 +2379,6 @@ var wordJsonVar =
         "text": "\u0436\u0438\u0442\u0435\u043b\u044c",
         "text2": "inhabitant",
         "text3": "residente"
-    },
-    {
-        "text": "\u0436\u0438\u0442\u0442\u044f",
-        "text2": "life",
-        "text3": "la vida"
     },
     {
         "text": "\u0436\u043c\u0435\u043d\u044c\u043a\u0430",
@@ -6096,11 +6086,6 @@ var wordJsonVar =
         "text3": "correo"
     },
     {
-        "text": "\u043f\u043e\u044f\u0432\u0430",
-        "text2": "appearance",
-        "text3": "la apariencia"
-    },
-    {
         "text": "\u043f\u043e\u044f\u0441",
         "text2": "belt",
         "text3": "cintur\u00f3n"
@@ -8444,6 +8429,11 @@ var wordJsonVar =
         "text": "\u0442\u043e\u043d",
         "text2": "tone",
         "text3": "tono"
+    },
+    {
+        "text": "\u0442\u043e\u043d\u0435\u0440",
+        "text2": "toner",
+        "text3": "t\u00f3ner"
     },
     {
         "text": "\u0442\u043e\u043d\u043d\u0430",

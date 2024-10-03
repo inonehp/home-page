@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "69",
+        "text": "Document: getElementsByClassName() method - Web APIs | MDN",
+        "text2": "document.getElementsByClassName(\"test\");",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/getElementsByClassName",
+        "tag": "#JavaScript #JS",
+        "time": 1727913968,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=69\">id<\/a>"
+    },
+    {
         "id": "68",
         "text": "Array - JavaScript | MDN",
         "text2": "const fruits = [];\r\nfruits.push(\"banana\", \"apple\", \"peach\");\r\nconsole.log(fruits.length); \/\/ 3",
