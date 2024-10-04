@@ -279,20 +279,26 @@ https://app.grammarly.com/
 <pubDate>Sun, 21 Jul 24 04:28:03 +0300</pubDate>
 <title><![CDATA[Web design notes 
 Notes:
-======
 
+======
+- html - how to mix links ( <a> tag ) and headings ( <h1> tag ) in web standard? - Stack Overflow  
+
+======
 - The 404 not found page should not have a search form, most of the top sites do not.
-- Do not use emojis (emoji can have a double meaning and are difficult to read).
-- Don't use duplicate content in other place (license conflict).
-- Name uppercase (grammar).
-]]></title>
-<link><![CDATA[https://irvirty.pages.dev/#postIdDisabled]]></link>
+- Do not use emojis (emoji can have a double meaning and are diffi]]></title>
+<link><![CDATA[https://stackoverflow.com/questions/1128778/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard
+
+======
+-]]></link>
 <description>
 <![CDATA[
 Web design notes 
 Notes:
-======
 
+======
+- html - how to mix links ( <a> tag ) and headings ( <h1> tag ) in web standard? - Stack Overflow https://stackoverflow.com/questions/1128778/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard
+
+======
 - The 404 not found page should not have a search form, most of the top sites do not.
 - Do not use emojis (emoji can have a double meaning and are difficult to read).
 - Don't use duplicate content in other place (license conflict).

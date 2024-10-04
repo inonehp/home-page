@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "70",
+        "text": "html - how to mix links ( <a> tag ) and headings ( <h1> tag ) in web standard? - Stack Overflow",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.com\/questions\/1128778\/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard",
+        "tag": "#HTML #CSS #fix",
+        "time": 1728015497,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=70\">id<\/a>"
+    },
+    {
         "id": "69",
         "text": "Document: getElementsByClassName() method - Web APIs | MDN",
         "text2": "document.getElementsByClassName(\"test\");",

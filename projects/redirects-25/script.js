@@ -546,7 +546,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://dev.to/search?q=" + q + "&sort_by=published_at&sort_direction=desc",
+"https://dev.to/search?q=" + q,
 "https://hashnode.com/search?q=" + q,
 ];
 if (q == ''){

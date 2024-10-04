@@ -1,4 +1,4 @@
-// Keep or blog v.2.14.0
+// Keep or blog v.2.14.1
 // Mini Twitter or like Keep by Google
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -1754,13 +1754,16 @@ case "www.reddit.com":
 if(item.split('/').length >= 9){
 play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
 embed = `<blockquote class="reddit-embed-bq" style="height:auto" data-embed-theme="${confThemeEmbed}"><a href="$play"><no value=""></no></a></blockquote><!--<script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>-->`;
-}
 embedServiceList += 'reddit';
+}
 break;
 
 
 case "soundcloud.com":
+if (item.split('/').length >= 5){
 embed = `<iframe width="${w}" height="${h}" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=${item}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;
+embedServiceList += 'soundcloud';
+}
 break;
 
 
@@ -2299,8 +2302,10 @@ break;
 
 
 case "soundcloud.com":
+if (item.split('/').length >= 5){
 embed = `<iframe width="${w}" height="${h}" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=${item}&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;
 embedServiceList += 'soundcloud';
+}
 break;
 
 

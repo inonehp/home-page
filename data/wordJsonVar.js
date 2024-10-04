@@ -4156,11 +4156,6 @@ var wordJsonVar =
         "text3": "se\u00f1ora"
     },
     {
-        "text": "\u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a",
-        "text2": "ground",
-        "text3": "un patio de recreo"
-    },
-    {
         "text": "\u043c\u0430\u0439\u043d\u043e",
         "text2": "property",
         "text3": "propiedad"

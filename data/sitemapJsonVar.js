@@ -757,7 +757,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/tv-36\/index.html",
-        "text": "Random TV\n\nA tiny collection of TV channels or other channels, which is chosen randomly. | tv: ",
+        "text": "Random TV\n\nA small collection of video lists or playlists, which is chosen randomly. | tv: ",
         "tag": " #tv #random #collection #JavaScript #embed #page #project",
         "id": "51dbcbafa80241f5d7d53c57d624d6c1",
         "time": "id"

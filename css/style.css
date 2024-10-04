@@ -107,8 +107,6 @@ border-bottom: 2px dotted var(--d3);
 /* bg image in main.js */
 
 /* fix */
-
-
 @media(max-width: 500px){
 #secondNav nav {
 text-align: left;

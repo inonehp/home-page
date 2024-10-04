@@ -1,4 +1,4 @@
-// Main js v.6.11.7
+// Main js v.6.11.8
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -412,7 +412,7 @@ fuMPrintText("footer", `
 <div class="padding"></div>
 
 <nav>
-<div class="wrapper3 balance margin2List small tCenter">
+<div class="wrapper3  margin2List small tCenter">
 
 
 <div class="wrapper2">
@@ -437,6 +437,7 @@ fuMPrintText("footer", `
 
 <a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/main/about.html">About</a>
 <a class="brand inlineBlock padding" title="Social" href="https://${conf["confUsername"]}.bsky.social">Bluesky</a>
+<a class="brand inlineBlock padding" href="https://${conf["confUsername"]}.neocities.org/">Neocities</a>
 <a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/main/settings.html">Settings</a>
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/main/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>

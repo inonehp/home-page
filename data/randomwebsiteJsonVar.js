@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "63",
+        "text": "1MB Club: A collection of web pages weighing in less than 1MB",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/1mb.club\/",
+        "tag": "#catalog",
+        "time": 1728008086,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=63\">id<\/a>"
+    },
+    {
         "id": "62",
         "text": "Darktheme Club | A showcase of dark themed websites.",
         "text2": "",
