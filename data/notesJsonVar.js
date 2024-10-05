@@ -3,6 +3,36 @@ var notesJsonVar =
 
 [
     {
+        "id": "73",
+        "text": "window.location.href and window.open () methods in JavaScript - Stack Overflow",
+        "text2": "===\r\nwindow.location.href = 'http:\/\/www.google.com'; \/\/Will take you to Google.",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.com\/questions\/7077770\/window-location-href-and-window-open-methods-in-javascript",
+        "tag": "#JavaScript #JS",
+        "time": 1728136150,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=73\">id<\/a>"
+    },
+    {
+        "id": "72",
+        "text": "Array.prototype.push() - JavaScript | MDN",
+        "text2": "===\r\nconst animals = ['pigs', 'goats', 'sheep'];\r\n\r\nconst count = animals.push('cows');\r\nconsole.log(count);\r\n\/\/ Expected output: 4\r\nconsole.log(animals);\r\n\/\/ Expected output: Array [\"pigs\", \"goats\", \"sheep\", \"cows\"]\r\n\r\nanimals.push('chickens', 'cats', 'dogs');\r\nconsole.log(animals);\r\n\/\/ Expected output: Array [\"pigs\", \"goats\", \"sheep\", \"cows\", \"chickens\", \"cats\", \"dogs\"]",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/push",
+        "tag": "#JavaScript #JS",
+        "time": 1728135916,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=72\">id<\/a>"
+    },
+    {
+        "id": "71",
+        "text": "JavaScript - href vs onclick for callback function on Hyperlink - Stack Overflow",
+        "text2": "<a id=\"myLink\" title=\"Click to do something\"\r\n href=\"PleaseEnableJavascript.html\" onclick=\"MyFunction();return false;\">link text<\/a>",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.com\/questions\/1070760\/javascript-href-vs-onclick-for-callback-function-on-hyperlink",
+        "tag": "#JavaScript #JS",
+        "time": 1728134651,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=71\">id<\/a>"
+    },
+    {
         "id": "70",
         "text": "html - how to mix links ( <a> tag ) and headings ( <h1> tag ) in web standard? - Stack Overflow",
         "text2": "",
@@ -15,7 +45,7 @@ var notesJsonVar =
     {
         "id": "69",
         "text": "Document: getElementsByClassName() method - Web APIs | MDN",
-        "text2": "document.getElementsByClassName(\"test\");",
+        "text2": "document.getElementsByClassName(\"test\");\r\n\r\n===\r\n\r\n\/\/ getElementsByClassName only selects elements that have both given classes\r\nconst allOrangeJuiceByClass = document.getElementsByClassName(\"orange juice\");\r\nlet result = \"document.getElementsByClassName('orange juice')\";\r\nfor (let i = 0; i < allOrangeJuiceByClass.length; i++) {\r\n  result += `\\n  ${allOrangeJuiceByClass[i].textContent}`;\r\n}\r\n\r\n\/\/ querySelector only selects full complete matches\r\nconst allOrangeJuiceQuery = document.querySelectorAll(\".orange.juice\");\r\nresult += \"\\n\\ndocument.querySelectorAll('.orange.juice')\";\r\nfor (let i = 0; i < allOrangeJuiceQuery.length; i++) {\r\n  result += `\\n  ${allOrangeJuiceQuery[i].textContent}`;\r\n}\r\n\r\ndocument.getElementById(\"resultArea\").value = result;",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/getElementsByClassName",
         "tag": "#JavaScript #JS",
@@ -415,7 +445,7 @@ var notesJsonVar =
     {
         "id": "21",
         "text": "Math.random() - JavaScript | MDN",
-        "text2": "function getRandomInt(max) {\r\n  return Math.floor(Math.random() * max);\r\n}",
+        "text2": "===\r\nfunction getRandomInt(max) {\r\n  return Math.floor(Math.random() * max);\r\n}\r\n\r\nconsole.log(getRandomInt(3));\r\n\/\/ Expected output: 0, 1 or 2\r\n\r\nconsole.log(getRandomInt(1));\r\n\/\/ Expected output: 0\r\n\r\nconsole.log(Math.random());\r\n\/\/ Expected output: a number from 0 to <1",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Math\/random",
         "tag": "#code #JavaScript #JS",

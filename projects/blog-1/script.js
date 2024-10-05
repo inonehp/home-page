@@ -1,5 +1,5 @@
-// Keep or blog v.2.14.1
-// Mini Twitter or like Keep by Google
+// Keep or blog v.2.15.0
+// Mini system for displaying content / mimi Twitter or Google Keep
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
 // JSON data in JS varible, time - in UNIX format
@@ -24,6 +24,19 @@ let blogConfig = {
 "usernameStatus":"", // on, off
 };
 </script>*/
+
+// fix error
+if (typeof fuMHideFileNameExt != 'function'){
+function fuMHideFileNameExt(text){ return text; };
+}
+if (conf == undefined){
+var conf = [];
+conf["confDomainName"] = String((location.hostname).split('.')[0]);
+}
+if (typeof fuMClearText2 != 'function'){
+function fuMClearText2(text){ return text; };
+}
+
 
 function blog(printId, jsonVar, otherClass, scriptDir, blogConfig){
 
@@ -95,7 +108,7 @@ if (bottomMsg == undefined||bottomMsg == ''){ bottomMsg = ''; }
 if (display == undefined||display == ''){ display = 'list'; }
 if (timeStatus == undefined||timeStatus == ''){ timeStatus = ''; }
 if (rightFooterStatus == undefined||rightFooterStatus == ''){ rightFooterStatus = 'off'; }
-if (usernameStatus == undefined||usernameStatus == ''){ usernameStatus = 'on'; }
+if (usernameStatus == undefined||usernameStatus == ''){ usernameStatus = 'off'; }
 
 var host = '';
 

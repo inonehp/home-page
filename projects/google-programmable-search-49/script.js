@@ -22,6 +22,7 @@ let lQMode = [
 {"name":"video", "code":"66e67d2cd1ec94b3b"},
 {"name":"github.io", "code":"614f3596881c64f5f"},
 {"name":"pages.dev", "code":"c1bb12232f9de476e"},
+{"name":"neocities.org", "code":"a3a8da84c5ed74909"},
 {"name":"custom", "code":"2460fb11690ab4ead"},
 ];
 

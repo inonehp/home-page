@@ -154,71 +154,6 @@ var jsonVar =
 <!-- post -->
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
-<div class="postContent pre padding2List">:root - CSS: Cascading Style Sheets | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/CSS/:root">https://developer.mozilla.org/en-US/docs/Web/CSS/:root</a><br>/* Selects the root element of the document:
-   &lt;html&gt; in the case of HTML */
-:root {
-  background: yellow;
-}
-
-===
-
-:root {
-  --main-color: hotpink;
-  --pane-padding: 5px 42px;
-}</div>
-
-<div class="postFooter break2 small">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
-
-<!-- post -->
-<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
-
-<div class="postContent pre padding2List">do...while - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while</a><br>let result = &#039;&#039;;
-let i = 0;
-
-do {
-  i = i + 1;
-  result = result + i;
-} while (i &lt; 5);
-
-console.log(result);
-// Expected output: &quot;12345&quot;
-
-===</div>
-
-<div class="postFooter break2 small">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
-
-<!-- post -->
-<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
-
-<div class="postContent pre padding2List">Document: DOMContentLoaded event - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event">https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event</a><br>addEventListener(&quot;DOMContentLoaded&quot;, (event) =&gt; {});
-===
-document.addEventListener(&quot;DOMContentLoaded&quot;, (event) =&gt; {
-  console.log(&quot;DOM fully loaded and parsed&quot;);
-});</div>
-
-<div class="postFooter break2 small">
-<div class="tagList tLeft left"></div>
-<div class="tagList tRight right"></div>
-</div>
-
-</div>
-<!-- // post -->
-
-<!-- post -->
-<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
-
 <div class="postContent pre padding2List">PHP: while - Manual <a class="brand insertIcon" href="https://www.php.net/manual/en/control-structures.while.php">https://www.php.net/manual/en/control-structures.while.php</a><br>&lt;?php
 /* example 1 */
 
@@ -758,7 +693,25 @@ console.log(fruits.length); // 3</div>
 <!-- post -->
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
-<div class="postContent pre padding2List">Document: getElementsByClassName() method - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName">https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName</a><br>document.getElementsByClassName(&quot;test&quot;);</div>
+<div class="postContent pre padding2List">Document: getElementsByClassName() method - Web APIs | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName">https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName</a><br>document.getElementsByClassName(&quot;test&quot;);
+
+===
+
+// getElementsByClassName only selects elements that have both given classes
+const allOrangeJuiceByClass = document.getElementsByClassName(&quot;orange juice&quot;);
+let result = &quot;document.getElementsByClassName(&#039;orange juice&#039;)&quot;;
+for (let i = 0; i &lt; allOrangeJuiceByClass.length; i++) {
+  result += `\n  ${allOrangeJuiceByClass[i].textContent}`;
+}
+
+// querySelector only selects full complete matches
+const allOrangeJuiceQuery = document.querySelectorAll(&quot;.orange.juice&quot;);
+result += &quot;\n\ndocument.querySelectorAll(&#039;.orange.juice&#039;)&quot;;
+for (let i = 0; i &lt; allOrangeJuiceQuery.length; i++) {
+  result += `\n  ${allOrangeJuiceQuery[i].textContent}`;
+}
+
+document.getElementById(&quot;resultArea&quot;).value = result;</div>
 
 <div class="postFooter break2 small">
 <div class="tagList tLeft left"></div>
@@ -772,6 +725,58 @@ console.log(fruits.length); // 3</div>
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
 <div class="postContent pre padding2List">html - how to mix links ( &lt;a&gt; tag ) and headings ( &lt;h1&gt; tag ) in web standard? - Stack Overflow <a class="brand insertIcon" href="https://stackoverflow.com/questions/1128778/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard">https://stackoverflow.com/questions/1128778/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard</a></div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">JavaScript - href vs onclick for callback function on Hyperlink - Stack Overflow <a class="brand insertIcon" href="https://stackoverflow.com/questions/1070760/javascript-href-vs-onclick-for-callback-function-on-hyperlink">https://stackoverflow.com/questions/1070760/javascript-href-vs-onclick-for-callback-function-on-hyperlink</a><br>&lt;a id=&quot;myLink&quot; title=&quot;Click to do something&quot;
+ href=&quot;PleaseEnableJavascript.html&quot; onclick=&quot;MyFunction();return false;&quot;&gt;link text&lt;/a&gt;</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">Array.prototype.push() - JavaScript | MDN <a class="brand insertIcon" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push</a><br>===
+const animals = [&#039;pigs&#039;, &#039;goats&#039;, &#039;sheep&#039;];
+
+const count = animals.push(&#039;cows&#039;);
+console.log(count);
+// Expected output: 4
+console.log(animals);
+// Expected output: Array [&quot;pigs&quot;, &quot;goats&quot;, &quot;sheep&quot;, &quot;cows&quot;]
+
+animals.push(&#039;chickens&#039;, &#039;cats&#039;, &#039;dogs&#039;);
+console.log(animals);
+// Expected output: Array [&quot;pigs&quot;, &quot;goats&quot;, &quot;sheep&quot;, &quot;cows&quot;, &quot;chickens&quot;, &quot;cats&quot;, &quot;dogs&quot;]</div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
+
+</div>
+<!-- // post -->
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
+<div class="postContent pre padding2List">window.location.href and window.open () methods in JavaScript - Stack Overflow <a class="brand insertIcon" href="https://stackoverflow.com/questions/7077770/window-location-href-and-window-open-methods-in-javascript">https://stackoverflow.com/questions/7077770/window-location-href-and-window-open-methods-in-javascript</a><br>===
+window.location.href = &#039;http://www.google.com&#039;; //Will take you to Google.</div>
 
 <div class="postFooter break2 small">
 <div class="tagList tLeft left"></div>
