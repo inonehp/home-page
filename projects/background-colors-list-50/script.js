@@ -36,6 +36,7 @@ let lAllBgColorsLight = {
 
 let lAllBgColorsDark = {
 "medium dark blue":"#2E4473",
+"medium dark blue 2":"#262F59",
 "medium dark brown":"#573625",
 "medium dark forest":"#255742",
 "medium dark gray":"#4A4A4A",

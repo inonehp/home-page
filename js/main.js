@@ -1,4 +1,4 @@
-// Main js v.6.11.8
+// Main js v.6.11.9
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -10,7 +10,7 @@ conf["confWebsiteUrl"] = "irvirty.pages.dev";
 
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
-conf["conMenuItemAverageWidth"] = 130;
+conf["conMenuItemAverageWidth"] = 120;
 
 conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
@@ -618,6 +618,7 @@ var themeListDark = [
 
 var themeListOtherDark = [
 "od-blue",
+"od-blue-2",
 "od-brown",
 "od-green",
 "od-gray",
@@ -662,6 +663,7 @@ var themeListBest = [
 "o-silver",
 
 "od-blue",
+"od-blue-2",
 "od-green",
 "od-gray",
 "od-sea",

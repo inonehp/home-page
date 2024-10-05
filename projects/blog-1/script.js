@@ -221,7 +221,7 @@ if (q2 != null&&q2 != undefined){
 q2 = decodeURIComponent(q2);*/
 q2 = q2.trim();
 }
-//if(q2 != null&&q2 != ''){ q += ' ' + q2; } // delme
+//if (q2 != null&&q2 != ''){ q += ' ' + q2; } // delme
 
 
 
@@ -233,7 +233,7 @@ mode = mode.trim();
 }
 
 // q random
-//if(q == 'l'||q == 'r'){ q = null; mode = 'random'; }
+//if (q == 'l'||q == 'r'){ q = null; mode = 'random'; }
 
 
 if (q != null){
@@ -361,7 +361,7 @@ let lQforR = '';
 if (q != null){ lQforR = encodeURIComponent(q) + ' r'; } else { lQforR = 'r'; }
 
 let lSlideShow = '';
-//if(display == "gallery"){ lSlideShow = `<a class="small" href="?mode=autoRandom" title="Random post with automatic redirection to next">autoRandom</a>`; }
+//if (display == "gallery"){ lSlideShow = `<a class="small" href="?mode=autoRandom" title="Random post with automatic redirection to next">autoRandom</a>`; }
 
 print += `
 
@@ -409,7 +409,7 @@ postLimit = postLimit;
 getP = getP3;
 }
 
-//if(q == ''&&q2 == 'l'||q == ' l'||q == 'l'){ mode = 'randUrl'; }// rmMe
+//if (q == ''&&q2 == 'l'||q == ' l'||q == 'l'){ mode = 'randUrl'; }// rmMe
 if (q == ''&&q2 == 'l'){ mode = 'random'; }
 
 if (id != null||getP2 != null){
@@ -628,7 +628,7 @@ if (postId == id||getP2 == key){
 if (i <= postLimit -1){
 
 var lArctile = '';
-if(postText2 != ''){ postText2 = `
+if (postText2 != ''){ postText2 = `
 
 
 ` + postText2; };
@@ -646,7 +646,7 @@ if (id != ''&&getP2 == null){
 let printTitle = (postTextClean).slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerHTML;
 document.getElementsByTagName('title')[0].innerHTML = printTitle;
 
-/*if(conf["confDomainNameInTitle"] == 'on'){
+/*if (conf["confDomainNameInTitle"] == 'on'){
 document.getElementsByTagName('title')[0].innerHTML += ' | ' +  (location.hostname).split('.')[0];
 }*/
 }
@@ -669,8 +669,8 @@ if (getP2 == key){
 if (i <= postLimit -1){
 
 // lucky search if last word " l".
-if(mode == 'randUrl'){
-//if(q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){
+if (mode == 'randUrl'){
+//if (q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){
 if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
@@ -778,7 +778,7 @@ comMessagePrint = '';
 
 if (q != ''){
 
-//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
+//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if ((qData).search(qSearch) != -1){}
 //qSearch = decodeURIComponent(q);
 qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
@@ -822,7 +822,7 @@ for (const item3344 of qSearch) {
     // ...use `element`...
 
 // query
-//if((qData.split(item)).length > 1&&item334 != ''){
+//if ((qData.split(item)).length > 1&&item334 != ''){
 if ((qData.indexOf(item3344)) != -1&&item3344 != ''){
 lRelevantResultPoint = qData.indexOf(item3344);
 subQListFound.push(item3344);
@@ -927,7 +927,7 @@ var subQ = [];
 comMessagePrint = '';
 
 if (q != ''){
-//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if((qData).search(qSearch) != -1){}
+//qSearch = String(q.toLowerCase()).replaceAll(/ /g, "|"); //if ((qData).search(qSearch) != -1){}
 //qSearch = decodeURIComponent(q);
 qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
@@ -966,14 +966,14 @@ qData = (qData + ' ').split(' ');
 
 var checkDublicateId = [];
 qData.forEach(function(item336) { // foreach post word and quary for search
-//if((qData.split(item336)).length > 1&&item33 != ''){
-//if((qData.indexOf(item336)) >= 0){
+//if ((qData.split(item336)).length > 1&&item33 != ''){
+//if ((qData.indexOf(item336)) >= 0){
 //console.log(item);
 
 // query
 qSearchList.forEach((qSearchListItem) => {
 //console.log(fuzzySearch(item336, qSearchListItem));
-if(fuzzySearch(item336, qSearchListItem) == true&&item336 != ''&&qSearchListItem != ''){
+if (fuzzySearch(item336, qSearchListItem) == true&&item336 != ''&&qSearchListItem != ''){
 //var subQ = 's3: ' + item336 + ',';
 subQ.push(String(item336).trim() + ' ');
 //https://stackoverflow.com/questions/9229645/remove-duplicate-values-from-js-array
@@ -1151,7 +1151,7 @@ print = print + `
 if (tagListStatus != 'off'){
 
 
-//if(com != 'search'){ print += `<div class=" ${otherClass} ">`+ blogNav(mode) +`</div>`; }
+//if (com != 'search'){ print += `<div class=" ${otherClass} ">`+ blogNav(mode) +`</div>`; }
 print += `<div class="center"><div class="wrapper zero">` + blogNav(mode) + `</div></div>`;
 
 
@@ -1232,7 +1232,7 @@ ${comMessagePrint}
 
 
 
-//if(q != null){ document.getElementById("input").value = q; }
+//if (q != null){ document.getElementById("input").value = q; }
 }
 
 main(q, id);
@@ -1418,7 +1418,7 @@ fuTag(tagCount);
 
 
 
-if(tag != ''){
+if (tag != ''){
 let printTag = tag;
 let printTag2 = tag.replaceAll(/#/g, "");
 let goTag = encodeURIComponent(tag);
@@ -1431,7 +1431,7 @@ hlClassList += printTag2[0].toLowerCase();
 
 scriptDir = fuMHideFileNameExt(scriptDir);
 
-if(q == tag){
+if (q == tag){
 tagList += `
 
 <a class="tag light2 border2 borderRadius2 ${hlClass} c4R" href="${scriptDir}?q=${goTag}" style="background: var(--${tagColor}); font-size: ${tagSize};">${printTag}</a>
@@ -1545,7 +1545,7 @@ var postFooterPadding = '';
 if (timeStatus == 'off'){ time = ''; }
 if (timeStatus == 'off'&&rightFooterStatus == 'off'){ postFooter = ' postFooter2 '; }
 
-if(rightFooterStatus == 'off'){ rightFooter = ''; }
+if (rightFooterStatus == 'off'){ rightFooter = ''; }
 
 
 if (mode != 'search'){
@@ -1557,7 +1557,7 @@ lPost = `<span class="large"><a class="block firstLetterBold" href="${scriptDir}
 
 /*
 //
-if(display == 'article'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
+if (display == 'article'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
 
 
 var usernameStatusPrint = "";
@@ -1613,8 +1613,8 @@ function highlightText(text, targetOption, subQforLight){
 
 if (embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
 
-/*if(embedStatus == "notist"){
-if(mode == 'id'||mode == "idList"||mode == 'random'||mode == 'autoRandom'){
+/*if (embedStatus == "notist"){
+if (mode == 'id'||mode == "idList"||mode == 'random'||mode == 'autoRandom'){
 embedStatus = 'on';
 }
 }
@@ -1658,14 +1658,14 @@ text = '';
 const myArray = text2.split(confSymbolForSplit);
 myArray.forEach((item) => {
 //text += item.hostname;
-//if(item.search("http") != -1){ 
-/*if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){ 
+//if (item.search("http") != -1){ 
+/*if (item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){ 
 host = new URL(item).hostname; // stop working when error
 }
 */
 
 let checkEmbedEmpty = item.split('/');
-//if(item.split('/').length > 4){
+//if (item.split('/').length > 4){
 if (checkEmbedEmpty[3]){
 host = item.split('/');
 
@@ -1680,7 +1680,7 @@ case "m.youtube.com":
 case "www.youtube.com":
 case "music.youtube.com":
 
-if((item).indexOf((`v=`)) >= 0){
+if ((item).indexOf((`v=`)) >= 0){
 play = item.split('v=').pop();
 if (play != ''){
 embed = `<!--<iframe id="player" style="border:0;" height="${h}" width="${w}" src="https://www.youtube.com/embed/${play}"></iframe>--><iframe width="${w}" height="${h}" src="https://www.youtube.com/embed/${play}" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
@@ -1751,7 +1751,7 @@ break;
 
 
 case "www.reddit.com":
-if(item.split('/').length >= 9){
+if (item.split('/').length >= 9){
 play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
 embed = `<blockquote class="reddit-embed-bq" style="height:auto" data-embed-theme="${confThemeEmbed}"><a href="$play"><no value=""></no></a></blockquote><!--<script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>-->`;
 embedServiceList += 'reddit';
@@ -1778,10 +1778,12 @@ break;
 
 
 case "codepen.io":
+if (item.split('/').length >= 6){
 play = item.split('/');
 play = play[play.length - 1];
 embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${confThemeEmbed}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
 embedServiceList += 'codepen';
+}
 break;
 
 
@@ -1794,7 +1796,7 @@ break;
 
 
 case "archive.org":
-if(item.search(`/details/`) != -1) {
+if (item.search(`/details/`) != -1) {
 play = item.split('/');
 play = play[play.length - 1];
 h = h + h;
@@ -1807,7 +1809,7 @@ break;
 case "www.instagram.com":
 case "instagram.com":
 play = "";
-if(item.indexOf("/p/") != -1){
+if (item.indexOf("/p/") != -1){
 //https://stackoverflow.com/questions/7841711/javascript-or-jquery-equivalent-of-phps-strtok
 play = item.split('?', 1)[0];
 embed = `<style>iframe.instagram-media {
@@ -1957,7 +1959,7 @@ break;
 }
 
 /*
-if(item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1){ 
+if (item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1){ 
 embed = `<a href="${item}"><img class="border" src="${item}" width=""></a>`
 }*/
 
@@ -2019,7 +2021,7 @@ embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" 
 
 
 var item222 = '';
-//if(item.search("http") != -1){
+//if (item.search("http") != -1){
 if (item.slice(0, 4) == 'http'||item.search("http|://|www.") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " "||item[0] == "."&&item[1] == "/"&&item[2] != " "){
 
 item = fuMHideFileNameExt(item);
@@ -2074,7 +2076,7 @@ if (item[0] == '@'){
 item222 = `<a class="brand op" href="${scriptDir}?q=${item}">${item}</a>`;
 }
 
-/*if(checkText == true){
+/*if (checkText == true){
 if (q != ''&&q != null){
 //item = item.toLowerCase().replaceAll(q.toLowerCase(), `<span style="border-bottom: 3px solid  var(--orange);">${q}</span>`);
 //https://stackoverflow.com/questions/7313395/case-insensitive-replace-all
@@ -2152,8 +2154,8 @@ function highlightText2(text, targetOption){
 
 if (embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
 
-/*if(embedStatus == "notist"){
-if(mode == 'id'||mode == "idList"||mode == 'random'||mode == 'autoRandom'){
+/*if (embedStatus == "notist"){
+if (mode == 'id'||mode == "idList"||mode == 'random'||mode == 'autoRandom'){
 embedStatus = 'on';
 }
 }
@@ -2204,14 +2206,14 @@ text = '';
 const myArray = text2.split(confSymbolForSplit);
 myArray.forEach((item) => {
 //text += item.hostname;
-//if(item.search("http") != -1){ 
-/*if(item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){ 
+//if (item.search("http") != -1){ 
+/*if (item[0]+item[1]+item[2]+item[3] == 'http'&&item.search("http|://") != -1){ 
 host = new URL(item).hostname; // stop working when error
 }
 */
 
 let checkEmbedEmpty = item.split('/');
-//if(item.split('/').length > 4){
+//if (item.split('/').length > 4){
 if (checkEmbedEmpty[3]){
 host = item.split('/');
 if (host[3] != undefined){
@@ -2293,7 +2295,7 @@ break;
 
 
 case "www.reddit.com":
-if(item.split('/').length >= 9){
+if (item.split('/').length >= 9){
 play = item.replaceAll('reddit.com/r/', "redditmedia.com/r/");
 embed = `<blockquote class="reddit-embed-bq" style="height:auto" data-embed-theme="${confThemeEmbed}"><a href="$play"><no value=""></no></a></blockquote><!--<script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>-->`;
 embedServiceList += 'reddit';
@@ -2324,10 +2326,12 @@ break;
 
 
 case "codepen.io":
+if (item.split('/').length >= 6){
 play = item.split('/');
 play = play[play.length - 1];
 embed = `<p class="codepen" data-height="420" data-default-tab="result" data-theme-id="${confThemeEmbed}" data-slug-hash="${play}" data-user="" style="height: 420px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"></p><!--<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>-->`;
 embedServiceList += 'codepen';
+}
 break;
 
 
@@ -2504,7 +2508,7 @@ break;
 }
 
 /*
-if(item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1){ 
+if (item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1item.search(".jpg|.jpeg|.png|.gif|.img|.ico") != -1){ 
 embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 }*/
 
@@ -2571,7 +2575,7 @@ embed2 = `<iframe class="borderRadius2" width="${w}" height="400" src="${item}" 
 
 
 
-//if(item.search("http") != -1){
+//if (item.search("http") != -1){
 if (item.slice(0, 4) == 'http'||item.search("http|://|www.") != -1||item[0] == "/"&&item[1] != "/"&&item[1] != " "||item[0] == "."&&item[1] == "/"&&item[2] != " "){
 
 if (embedStatus == 'on'&&host != undefined){
@@ -2695,7 +2699,7 @@ time = month + ' month ';
 time = week + ' week ';
 } else if (days > 0){
 time = days + ' day ';
-} else if(hours > 0){
+} else if (hours > 0){
 time = hours + ' hour ';
 } else if (minutes > 0) { time = minutes + ' minute '; }
 else { time = checkTime(Math.floor(seconds)) + ' second '; }
@@ -3087,7 +3091,7 @@ if (typeof lang === 'undefined') { var lang = 'en'; }
 
 if (typeof confDevice === 'undefined') {
 var confDevice = '';
-/*if(confDataCollection != 'on'){
+/*if (confDataCollection != 'on'){
 confDevice = '(disabled, privacy)';
 } else {}*/
 if (navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ confDevice = 'mobile';  }

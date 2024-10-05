@@ -1,4 +1,4 @@
-/* Main style v.18.2.3
+/* Main style v.18.3.0
 Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 /* Main */
@@ -68,8 +68,8 @@ flex-basis: auto;
 flex-basis: 100%;
 flex-direction: column;
 min-height: 100vh;
-
-min-height: 100dvh; height: 100%;
+min-height: 100dvh;
+height: 100%;
 /*min-height: -webkit-fill-available;*/
 }
 
@@ -395,8 +395,8 @@ filter: invert(100%);
 .inlineBlock { display: inline-block; }
 .inlineFlex { display: inline-flex; }
 .tLeft { text-align: left; }
-.tCenter { text-align: center; }
 .tRight { text-align: right; }
+.tCenter { text-align: center; }
 .b, .b a, .bold, .bold a { font-weight: bold; }
 .normal, .normal a { font-weight: normal; font-size: unset; }
 .unser, .unser a { font-size: unset; }
@@ -492,6 +492,12 @@ padding-right: 0;
 --brand2: color-mix(in srgb, var(--brandColor) 35%, var(--c4));
 --brandR: color-mix(in srgb, var(--brandColor) 70%, var(--d4));
 --brand2R: color-mix(in srgb, var(--brandColor) 35%, var(--d4));
+}
+
+/* mobile */
+@media(max-width: 500px){
+.tLeftMobile { text-align: left; }
+.tRightMobile { text-align: right; }
 }
 
 body { background-color: var(--bg); color: var(--c3); }

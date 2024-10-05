@@ -3,6 +3,123 @@ var musicJsonVar =
 
 [
     {
+        "text": "Shania Twain - (If You're Not In It For Love) I'm Outta Here! (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=XoFJbeBXuCc",
+        "tag": "#music",
+        "time": 1728124781,
+        "rightFooter": ""
+    },
+    {
+        "text": "Shania Twain - Up! (Official Music Video) (Green Version) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=-FMhUNSIxks",
+        "tag": "#music",
+        "time": 1728124680,
+        "rightFooter": ""
+    },
+    {
+        "text": "Carrie Underwood - Cowboy Casanova - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=oM7NQQ0Lfu4",
+        "tag": "#music",
+        "time": 1728124508,
+        "rightFooter": ""
+    },
+    {
+        "text": "Jimmy Kimmel and Carrie Underwood Duet \"Before You Freak\" - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=nnEEv2IUO9M",
+        "tag": "#music",
+        "time": 1728124384,
+        "rightFooter": ""
+    },
+    {
+        "text": "Carrie Underwood - Stretchy Pants (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Eo5ZLdbcZsk",
+        "tag": "#music",
+        "time": 1728124200,
+        "rightFooter": ""
+    },
+    {
+        "text": "Carrie Underwood - Hate My Heart (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=qGrqDqNcATU",
+        "tag": "#music",
+        "time": 1728124144,
+        "rightFooter": ""
+    },
+    {
+        "text": "Carrie Underwood - Out Of That Truck (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=RarBoiDJvtQ",
+        "tag": "#music",
+        "time": 1728123344,
+        "rightFooter": ""
+    },
+    {
+        "text": "Carrie Underwood - Before He Cheats (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=WaSy8yy-mr8",
+        "tag": "#music",
+        "time": 1728121026,
+        "rightFooter": ""
+    },
+    {
+        "text": "Shania Twain - Party For Two ft. Billy Currington (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=BzD0nd7tzNI",
+        "tag": "#music",
+        "time": 1728120945,
+        "rightFooter": ""
+    },
+    {
+        "text": "Shania Twain - Don\u2019t Be Stupid (You Know I Love You) (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=eVvjKA22MYs",
+        "tag": "#music",
+        "time": 1728120827,
+        "rightFooter": ""
+    },
+    {
+        "text": "Shania Twain - That Don't Impress Me Much (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=mqFLXayD6e8",
+        "tag": "#music",
+        "time": 1728120654,
+        "rightFooter": ""
+    },
+    {
+        "text": "Shania Twain - Ka-Ching! (Red Version) (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=iEe3hBXZEyI",
+        "tag": "#music",
+        "time": 1728120602,
+        "rightFooter": ""
+    },
+    {
+        "text": "Shania Twain - Man! I Feel Like A Woman! (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ZJL4UGSbeFg",
+        "tag": "#music",
+        "time": 1728120510,
+        "rightFooter": ""
+    },
+    {
         "text": "Ridin Round \u00b7 Kali Uchis",
         "text2": "",
         "text3": "",
