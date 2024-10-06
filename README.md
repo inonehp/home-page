@@ -14,8 +14,8 @@ A personal start page with projects such as search (redirect), blog, games, to-d
 ---
   
 > [!NOTE]
-> The Google analytics ID is in the file /js/main.js, it works if accept the cookie.
-> You can find information about other licenses on the [about page](https://irvirty.pages.dev/main/about.html#license).
+> - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.
+> - You can find information about other licenses on the "about" page.
   
 ---
    
