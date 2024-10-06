@@ -3,6 +3,16 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "177",
+        "text": "Download the latest indie games - itch.io",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/itch.io\/",
+        "tag": "#catalog #game #platform #inspiration",
+        "time": 1728172595,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/bookmarks.html?id=177\">id<\/a>"
+    },
+    {
         "id": "176",
         "text": "Home | Substack",
         "text2": "",

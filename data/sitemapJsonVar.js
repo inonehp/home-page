@@ -512,7 +512,7 @@ var sitemapJsonVar = [
     },
     {
         "url": "\/projects\/google-programmable-search-49\/index.html",
-        "text": "Programmable Search\n\nGoogle programmable search engine. Google custom search engine and search widget. | google programmable search: ",
+        "text": "Google Programmable Search\n\nGoogle programmable search engine. Google custom search engine and search widget. | google programmable search: ",
         "tag": " #widget #search #engine #tool #HTML #Google #embed",
         "id": "2b575a4c74a2cfc05b4467752b43dcaa",
         "time": "id"

@@ -1,4 +1,4 @@
-// Search redirects v.2.3.0
+// Search redirects v.2.3.3
 // Search query + command
 
 // conf
@@ -193,12 +193,57 @@ sRedirectUrl = url;
 break;
 
 
+case 'wor#':
+case 'wp#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+ "https://wordpress.com/read/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://wordpress.com/read",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'neo#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://neocities.org/browse?sort_by=special_sauce&tag=" + q,
+];
+if (q == ''){
+urlList = [
+"https://neocities.org/browse",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'tum#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://www.tumblr.com/search/" + q + "/text";
-if (q == ''){ url = "https://www.tumblr.com/"; }
+urlList = [
+"https://www.tumblr.com/search/" + q + "/text",
+];
+if (q == ''){
+urlList = [
+"https://www.tumblr.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -207,8 +252,16 @@ case 'sub#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://substack.com/search/"+ q +"?searching=note";
-if (q == ''){ url = "https://substack.com/"; }
+urlList = [
+"https://substack.com/search/"+ q +"?searching=note",
+];
+if (q == ''){
+urlList = [
+"https://substack.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -217,8 +270,16 @@ case 'twi#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://x.com/search?q=" + q;
-if (q == ''){ url = "https://x.com/"; }
+urlList = [
+"https://x.com/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://x.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -228,8 +289,16 @@ case 'blu#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-url = "https://bsky.app/search?q=" + q;
-if (q == ''){ url = "https://bsky.app/"; }
+urlList = [
+"https://bsky.app/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://bsky.app/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
 sRedirectUrl = url;
 break;
 
@@ -843,6 +912,7 @@ break;
 
 case 'ps#':
 case 'gg#':
+case 'cs#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);

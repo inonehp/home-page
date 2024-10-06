@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "74",
+        "text": "===\r\nconst input = document.querySelector(\"input\");\r\nconst log = document.getElementById(\"values\");\r\n\r\ninput.addEventListener(\"input\", updateValue);\r\n\r\nfunction updateValue(e) {\r\n  log.textContent = e.target.value;\r\n}",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Element\/input_event",
+        "tag": "",
+        "time": 1728167628,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=74\">id<\/a>"
+    },
+    {
         "id": "73",
         "text": "window.location.href and window.open () methods in JavaScript - Stack Overflow",
         "text2": "===\r\nwindow.location.href = 'http:\/\/www.google.com'; \/\/Will take you to Google.",
