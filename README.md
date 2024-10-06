@@ -30,7 +30,6 @@ A personal start page with projects such as search (redirect), blog, games, to-d
 [#WebDesign](https://github.com/topics/WebDesign), 
 [#Projects](https://github.com/topics/projects),
 [#Cloudflare Pages](https://github.com/topics/cloudflare-pages),
- 
 [#HTML](https://github.com/topics/HTML),
 [#CSS](https://github.com/topics/CSS),
 [#JavaScript](https://github.com/topics/JavaScript)
