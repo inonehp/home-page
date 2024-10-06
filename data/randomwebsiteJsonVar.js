@@ -3,6 +3,26 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "65",
+        "text": "Kalechips",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/kalechips.net\/",
+        "tag": "#unsorted",
+        "time": 1728249649,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=65\">id<\/a>"
+    },
+    {
+        "id": "64",
+        "text": "ten@earth ~",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/karuma.me\/",
+        "tag": "#unsorted",
+        "time": 1728249466,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=64\">id<\/a>"
+    },
+    {
         "id": "63",
         "text": "1MB Club: A collection of web pages weighing in less than 1MB",
         "text2": "",
