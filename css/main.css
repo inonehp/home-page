@@ -1,4 +1,4 @@
-/* Main style v.18.3.0
+/* Main style v.18.4.0
 Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 /* Main */
@@ -12,7 +12,7 @@ Mini CSS framework: main.css + auto.css (auto light dark theme) */
 --inputHeight: 45px;
 --fontSize: 14px;
 
---wrapper: 540px;
+--wrapper: 560px;
 --wrapper2: 700px;
 --wrapper3: 900px;
 --wrapper4: 100%;
