@@ -11,7 +11,6 @@ A personal start page with projects such as search (redirect), blog, games, to-d
 > [!NOTE]
 > - You can find information about other licenses on the "about" page.
 > - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.
-> - There are about ~50/2 color themes of the site for dark and light mode of the browser.
   
 ---
 
