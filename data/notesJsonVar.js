@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "75",
+        "text": "CSS: prefers-color-scheme an option with Google's custom search engine? - Programmable Search Engine Community",
+        "text2": "===\r\ndefault sytle",
+        "text3": "",
+        "url": "https:\/\/support.google.com\/programmable-search\/thread\/47599677\/css-prefers-color-scheme-an-option-with-google-s-custom-search-engine?hl=en",
+        "tag": "#fix",
+        "time": 1728273121,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=75\">id<\/a>"
+    },
+    {
         "id": "74",
         "text": "===\r\nconst input = document.querySelector(\"input\");\r\nconst log = document.getElementById(\"values\");\r\n\r\ninput.addEventListener(\"input\", updateValue);\r\n\r\nfunction updateValue(e) {\r\n  log.textContent = e.target.value;\r\n}",
         "text2": "",

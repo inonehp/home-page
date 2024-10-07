@@ -284,7 +284,8 @@ Notes:
 - html - how to mix links ( <a> tag ) and headings ( <h1> tag ) in web standard? - Stack Overflow  
 
 ======
-- If the style or page does not work, but everything is fine, you need to restart the device or computer (this happens before or after updating the brows]]></title>
+- Do not forget to optimize the size of the pictures.
+- If the style or page does not work, but everything is fine, you need to restart the device or co]]></title>
 <link><![CDATA[https://stackoverflow.com/questions/1128778/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard
 
 ======
@@ -298,6 +299,7 @@ Notes:
 - html - how to mix links ( <a> tag ) and headings ( <h1> tag ) in web standard? - Stack Overflow https://stackoverflow.com/questions/1128778/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard
 
 ======
+- Do not forget to optimize the size of the pictures.
 - If the style or page does not work, but everything is fine, you need to restart the device or computer (this happens before or after updating the browser).
 - The 404 not found page should not have a search form, most of the top sites do not.
 - Do not use emojis (emoji can have a double meaning and are difficult to read).
@@ -305,6 +307,11 @@ Notes:
 - Name uppercase (grammar).
 - Spaces in JavaScript code, because "Coding conventions (Programming style)".
 - Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller).
+====
+About copyright.
+- If there is no copyright, then the work is copyrighted.
+- A completely free work, it is a work under a "public domain" or "CC0" license.
+===
 ]]>
 </description>
 </item>
