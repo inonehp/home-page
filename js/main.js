@@ -198,7 +198,7 @@ if (conf["confMenu"] == "on"){
 if (document.getElementById("secondNav") != null){
 document.getElementById("secondNav").innerHTML = `
 
-<!-- Navigation HTML part v.1.0.0 -->
+<!-- Navigation HTML part v.1.0.1 -->
 <header>
 <div class="wrapper3">
 <div class="margin"></div>
@@ -221,13 +221,13 @@ ${conf["confMenuItems2"]}
 </span>
 
 
-<span id="dropdownMenu" class="dropdownMenu">
+<div id="dropdownMenu" class="dropdownMenu">
 <div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
 <!-- links for show in dropdown (duplicate) -->
 ${conf["confMenuItems2"]}
 <!-- // links for show in dropdown (duplicate) -->
 </div>
-</span>
+</div>
 
 </div>
 </div>
