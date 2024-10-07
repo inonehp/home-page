@@ -1,4 +1,4 @@
-// Search redirects v.2.3.3
+// Search redirects v.2.4.0
 // Search query + command
 
 // conf
@@ -86,6 +86,7 @@ case 'rn#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 if (q == ''){
 urlList = [
 'tec', 'sci', 'dev',
@@ -104,6 +105,7 @@ case 'l#':  case 'll#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.google.com/search?btnI=1&q=" + q,
 //url = "https://you.com/search?q=!" + q;
@@ -124,6 +126,7 @@ case 'tre#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://trends.google.com/trends/explore?q=" + q,
 ];
@@ -142,6 +145,7 @@ case 'tree#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://trends.google.com/trends/explore?date=now%201-d&q=" + q,
 ];
@@ -160,6 +164,7 @@ case 'r#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q.trim());
+
 urlList = [
 "/main/site-search.html?q=" + q + " r",
 ];
@@ -179,6 +184,7 @@ case 'rs#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "/main/site-search.html?q=" + q + " r",
 ];
@@ -198,6 +204,7 @@ case 'wp#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
  "https://wordpress.com/read/search?q=" + q,
 ];
@@ -216,6 +223,7 @@ case 'neo#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://neocities.org/browse?sort_by=special_sauce&tag=" + q,
 ];
@@ -234,6 +242,7 @@ case 'tum#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.tumblr.com/search/" + q + "/text",
 ];
@@ -252,6 +261,7 @@ case 'sub#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://substack.com/search/"+ q +"?searching=note",
 ];
@@ -270,6 +280,7 @@ case 'twi#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://x.com/search?q=" + q,
 ];
@@ -289,6 +300,7 @@ case 'blu#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://bsky.app/search?q=" + q,
 ];
@@ -307,6 +319,7 @@ case 'red#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
 ];
@@ -325,6 +338,7 @@ case 'med#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 //"?q=" + q + " site:https://medium.com/",
 "https://medium.com/search?q=" + q,
@@ -344,6 +358,7 @@ case 'cc#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://search.creativecommons.org/search?q=" + q + "&license=cc0,pdm",
 "https://www.google.com/search?q=" + q + "&tbm=isch&tbs=il:cl",
@@ -359,6 +374,7 @@ case 'i#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.google.com/search?q=" + q + "&newwindow=1&source=lnms&tbm=isch",
 "https://www.bing.com/images/search?q=" + q,
@@ -381,13 +397,14 @@ case 'tra#':
 case 'd#':
 q = q3.replace(qCom, '');
 q = q.trim();
-var deepLq = q.replaceAll(/\//g, "-"); // fixed
-deepLq = encodeURIComponent(deepLq);
+var deepLq = q.replaceAll(/\//g, "-");
+//deepLq = encodeURIComponent(deepLq);
+//deepLq = deepLq.replaceAll(/%20/g,'+');
 q = encodeURIComponent(q);
 
 urlList = [
-//"https://translate.google.com/?sl=auto&tl=auto&text=" + q + "&op=translate",
-"https://www.deepl.com/translator#auto/auto/" + deepLq,
+"https://translate.google.com/?sl=auto&tl=auto&text=" + q + "&op=translate",
+"https://www.deepl.com/translator#auto/auto/" + q,
 "https://www.bing.com/translator/?text=" + q + "&from=auto&to=auto",
 ];
 if (conf["confDevice"] != 'mobile'){
@@ -395,12 +412,10 @@ urlList.push("https://translate.google.com/?sl=auto&text=" + q + "&op=translate"
 }
 if (q == ''){
 urlList = [
+"https://translate.google.com/",
 "https://www.deepl.com/translator",
 "https://www.bing.com/translator/",
 ];
-if (conf["confDevice"] != 'mobile'){
-urlList.push("https://translate.google.com/");
-}
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
@@ -412,11 +427,13 @@ case 'tt#':
 q = q3.replace(qCom, '');
 q = q.trim();
 var deepLq = q.replaceAll(/\//g, "-"); // fixed
-deepLq = encodeURIComponent(deepLq);
+//deepLq = encodeURIComponent(deepLq);
+//deepLq = deepLq.replaceAll(/%20/g,'+');
 q = encodeURIComponent(q);
+
 urlList = [
 "https://translate.google.com/?sl=auto&tl=en&text=" + q + "&op=translate",
-"https://www.deepl.com/translator#auto/en/" + deepLq,
+"https://www.deepl.com/translator#auto/en/" + q,
 "https://www.bing.com/translator/?text=" + q + "&from=auto&to=en",
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -429,6 +446,7 @@ case 'tg#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://translate.google.com/?sl=auto&tl=auto&text=" + q + "&op=translate",
 ];
@@ -442,6 +460,7 @@ case 'n#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.google.com/search?q=" + q + "&tbm=nws",
 ];
@@ -466,6 +485,7 @@ case 'tec#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "/?q=" + q + " q",
 ];
@@ -491,6 +511,7 @@ case 'sci#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "/?q=" + q,
 ];
@@ -514,6 +535,7 @@ case 'des#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://dribbble.com/search/" + q,
 "https://www.behance.net/search/" + q,
@@ -534,6 +556,7 @@ case 'n2#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "/?q=" + q,
 ];
@@ -568,6 +591,7 @@ case 'nn#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.perplexity.ai/search/?q=" + q,
 "https://chatgpt.com/?q=" + q,
@@ -593,6 +617,7 @@ case 'spo#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "/?q=" + q,
 ];
@@ -614,6 +639,7 @@ case 'dev#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://dev.to/search?q=" + q,
 "https://hashnode.com/search?q=" + q,
@@ -639,6 +665,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = q.replaceAll(' ', '-');
 q = encodeURIComponent(q);
+
 urlList = [
 "https://github.com/topics/" + q + "?s=updated",
 ];
@@ -658,6 +685,7 @@ case 'gitt#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://github.com/search?q=" + q + "&type=repositories&s=updated",
 ];
@@ -678,6 +706,7 @@ case 'wi#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://wikipedia.org/w/?search=" + q,
 ];
@@ -696,6 +725,7 @@ case 'vim#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://vimeo.com/search?price=free&q=" + q,
 ];
@@ -715,6 +745,7 @@ case '.#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.youtube.com/results?search_query=" + q,
 ];
@@ -733,6 +764,7 @@ case 'ch#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.youtube.com/results?search_query=" + q + "&sp=EgIQAg%253D%253D",
 ];
@@ -751,6 +783,7 @@ case 'v#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.google.com/search?q=" + q + "&newwindow=1&tbm=vid",
 "https://www.bing.com/videos/search?q=" + q,
@@ -771,6 +804,7 @@ case 'liv#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.youtube.com/results?search_query=" + q + "&sp=EgJAAQ%253D%253D",
 ];
@@ -790,6 +824,7 @@ case 'tv#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.twitch.tv/directory/all/tags/" + q + "?sort=VIEWER_COUNT",
 ];
@@ -809,6 +844,7 @@ case 'b#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.google.com/search?q=" + q + " site:blogspot.com OR site:wordpress.com",
 ];
@@ -829,6 +865,7 @@ case 's#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 //"https://substack.com/search/"+ q +"?searching=note",
 //"https://www.threads.net/search?q=" + q,
@@ -859,6 +896,7 @@ case 'tag#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 let wordpressTag = (q.replaceAll("%20", ' ')).trim();
 urlList = [
 //"https://www.threads.net/search?q=%23" + q,
@@ -885,6 +923,7 @@ case 'wet#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.accuweather.com/search-locations?query=" + q,
 ];
@@ -904,6 +943,7 @@ case 'goo#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 url = "https://www.google.com/search?q=" + q;
 if (q == ''){ url = "https://www.google.com/"; }
 sRedirectUrl = url;
@@ -916,6 +956,7 @@ case 'cs#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 url = "/projects/google-programmable-search-49/index.html?q=" + q;
 if (q == ''){ url = "/projects/google-programmable-search-49/index.html"; }
 sRedirectUrl = url;
@@ -927,6 +968,7 @@ case 'bin#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.bing.com/search?q=" + q
 ];
@@ -945,6 +987,7 @@ case 'qq#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "/main/site-search.html?q=" + q,
 ];
@@ -963,6 +1006,7 @@ case 'o#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 //"https://www.bing.com/search?q=" + q,
 "https://www.ecosia.org/search?q=" + q,
@@ -983,6 +1027,7 @@ case 'test#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "#https://www.example.com/?q=" + q,
 ];
@@ -1001,6 +1046,7 @@ case 'w#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.google.com/search?q="+ q + "&udm=14",
 //"https://www.bing.com/search?q="+ q,
@@ -1046,6 +1092,7 @@ case 'all#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.google.com/search?q=" + q,
 "https://www.bing.com/search?q=" + q,
@@ -1065,6 +1112,7 @@ break;
 
 default:
 q = encodeURIComponent(q);
+
 urlList = [
 "https://www.google.com/search?q=" + q,
 //"https://www.bing.com/search?q=" + q,

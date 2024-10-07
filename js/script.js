@@ -1,6 +1,6 @@
 // Local main index script v.1.2.2
 
-// Random color generator
+// Random color generator v.1.2.0
 //if(document.getElementById("siteName") != null){}
 
 //document.getElementById("footer").onload = function() {}
@@ -23,21 +23,20 @@ mRandColor2 = mColors[mRandColor2];
 //console.log(mRandColor + '=' + mRandColor2);
 if (mRandColor == mRandColor2){
 let n = 0;
-while (n < 100) {
-if (mRandColor == mRandColor2){
-//
-} else {
+while (n < 10) {
 mRandColor2 = fuMRandom(0, mColors.length - 1);
 mRandColor2 = mColors[mRandColor2];
+if (mRandColor != mRandColor2){
 break;
 }
+console.log(n);
 n++;
 }
 }
 //element.classList.add(lRancColor);
 
-let mRandTone = fuMRandom(5, 100);
-let mRandTone2 = fuMRandom(5, 100);
+let mRandTone = fuMRandom(60, 100);
+let mRandTone2 = fuMRandom(60, 100);
 
 
 mRandColorsPrint += `
