@@ -362,7 +362,7 @@ q = encodeURIComponent(q);
 urlList = [
 "https://search.creativecommons.org/search?q=" + q + "&license=cc0,pdm",
 "https://www.google.com/search?q=" + q + "&tbm=isch&tbs=il:cl",
-"https://www.bing.com/images/search?q=" + q + "&setlang=en&cc=us&qft=+filterui:license-L1",
+"https://www.bing.com/images/search?q=" + q + "&qft=+filterui:license-L1",
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
@@ -958,7 +958,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 
 urlList = [
-"https://www.bing.com/search?q=" + q
+"https://www.bing.com/search?q=" + q + "&form=site",
 ];
 if (q == ''){
 urlList = [
@@ -1061,7 +1061,7 @@ q = encodeURIComponent(q);
 
 urlList = [
 "https://www.google.com/search?q=" + q,
-"https://www.bing.com/search?q=" + q,
+"https://www.bing.com/search?q=" + q + "&form=site",
 "https://www.ecosia.org/search?q=" + q,
 ];
 if (q == ''){
@@ -1083,7 +1083,7 @@ q = encodeURIComponent(q);
 
 urlList = [
 "https://www.google.com/search?q=" + q,
-"https://www.bing.com/search?q=" + q,
+"https://www.bing.com/search?q=" + q + "&form=site",
 //"?q=" + q + " o",
 ];
 if (q == ''){
@@ -1103,7 +1103,7 @@ q = encodeURIComponent(q);
 
 urlList = [
 "https://www.google.com/search?q=" + q,
-"https://www.bing.com/search?q=" + q,
+"https://www.bing.com/search?q=" + q + "&form=site",
 //"?q=" + q + " o",
 ];
 if (q == ''){
