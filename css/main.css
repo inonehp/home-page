@@ -1,4 +1,4 @@
-/* Main style v.19.0.2
+/* Main style v.19.0.3
 Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 /* Main */
@@ -706,9 +706,7 @@ html { scrollbar-width: thin; }
 
 input:focus{ outline: none }
 
-.logo2 { margin-right: 5px; }
 input[type="color"], form button { vertical-align: middle; min-height: var(--inputHeight); }
-
 
 /*html{ overflow-x: hidden; }*/ /* fix PWA  */
 
