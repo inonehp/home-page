@@ -2,7 +2,7 @@
 
 
 
-/* Navigation CSS v.1.1.0 */
+/* Navigation CSS v.2.0.1 */
 //*Creating navigation in progress, sorry*/
 
 .topNav form, .topNav input[type=search] { display: inline-block; }
@@ -21,7 +21,7 @@ margin: 0 auto;
 justify-content: center;
 align-items: center;
 text-align: center;
-}*/
+}test delme*/
 
 .topNav nav{
 display: inline-block;
@@ -35,10 +35,11 @@ text-align: center;
 /* fix for mobile */
 @media(max-width: 500px){
 .topNav nav {
-justify-content: left !important;
+justify-content: left;
 align-items: center;
 text-align: left;
 }
+.topNav { text-align: left; }
 .topNav button { margin-right: var(--padding); }
 .topNav form { margin-left: 0; }
 }
@@ -64,9 +65,8 @@ margin-top: var(--padding);
 .dropdownMenuContent a { display: inline-block; }
 
 /* fix */
-.dropdownMenuContentWrapper { display: inline-block;  }
+.dropdownMenuContentWrapper, .dropdownMenuContent { display: inline-block;  }
 .showDropdownMenu { display: block; }
-
 /* end Navigation CSS */
 
 

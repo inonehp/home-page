@@ -11,7 +11,6 @@ conf["confWebsiteUrl"] = "irvirty.pages.dev";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["conMenuItemAverageWidth"] = 120;
-conf["conMenuItemAverageWidth"] = 90;
 
 conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
