@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "66",
+        "text": "Gia Hill | A multi-talented individual with skills ranging from coding to crafts",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/giahill.me\/",
+        "tag": "#personal",
+        "time": 1728498331,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=66\">id<\/a>"
+    },
+    {
         "id": "65",
         "text": "Kalechips",
         "text2": "",
