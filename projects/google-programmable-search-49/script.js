@@ -88,12 +88,14 @@ document.getElementById("publicUrl").innerHTML = `
 <a class="tag2 borderBottomBlue brand" href="https://cse.google.com/cse?cx=${item["code"]}">Public URL</a>
 `;
 
+if (q != null){
 var script = document.createElement('script');
 script.type='text/javascript';
 script.async = true;
 script.charset = 'utf-8';
 script.src = 'https://cse.google.com/cse.js?cx=' + item["code"];      
 document.getElementsByTagName('head')[0].appendChild(script);
+}
 
 }
 });

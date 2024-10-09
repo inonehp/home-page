@@ -828,7 +828,7 @@ document.getElementById('searchForm').innerHTML = `
 
 
 <div class="block tCenter padding2 margin2">
-<a class="op" href="${scriptDir}">start</a>
+<a class="op brand" href="${scriptDir}">start</a>
 </div>
 `;
 }
@@ -859,7 +859,7 @@ allOtherTaskMsg = `
 document.getElementById('result').innerHTML = `
 
 <div class="block tCenter padding2List">
-<a href="${scriptDir}">start</a>
+<a class="brand" href="${scriptDir}">start</a>
 </div>
 
 <div class="block tCenter">

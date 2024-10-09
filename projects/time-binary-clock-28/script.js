@@ -220,7 +220,7 @@ ${s2}
 `;
 
 document.getElementById('result').innerHTML = `
-<div class="wrapperTv">
+<div class="wrapperSmall">
 
 <div class="grid">
 ${h}

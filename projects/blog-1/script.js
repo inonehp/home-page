@@ -1147,7 +1147,7 @@ printPost = blogStyle + printPost;
 
 /*} else if (display == 'gallery'){
 printPost = `
-<div class="wrapperL">` + printPost + `</div>
+<div class="wrapperSmall">` + printPost + `</div>
 `;
 }*/ 
 
@@ -1187,7 +1187,7 @@ print += fuTagList(printTagList);
 print += `
 <br>
 
-<div id="form" class="wrapperL">
+<div id="form" class="wrapperSmall">
 <form method="GET" style="margin-top: 0px;" action="?">
 <label class="op block tLeft xSmall padding1PxList" for="inputBlog">✪ Search:</label>
 

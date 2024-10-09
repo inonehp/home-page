@@ -1,4 +1,4 @@
-/* Main style v.18.4.0
+/* Main style v.19.0.2
 Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 /* Main */
@@ -17,12 +17,10 @@ Mini CSS framework: main.css + auto.css (auto light dark theme) */
 --wrapper3: 900px;
 --wrapper4: 100%;
 
---wrapperTv: 100%;
---wrapperXl: 490px;
---wrapperL: 430px;
---wrapperM: 330px;
---wrapperS: 230px;
---wrapperXs: 160px;
+--wrapperSmall: 430px;
+--wrapperSmall2: 330px;
+--wrapperSmall3: 230px;
+--wrapperSmall4: 160px;
 
 --padding: 5px;
 --padding2: 11px;
@@ -329,25 +327,23 @@ border-radius: var(--borderRadius);
 
 
 /* Class 2 */
-.wrapper, .wrapper2, .wrapper3, .wrapper4, .wrapperTv, .wrapperXl, .wrapperL, .wrapperM, .wrapperS, .wrapperXs {  width: 100%; margin: 0 auto; }
+.wrapper, .wrapper2, .wrapper3, .wrapper4, .wrapperSmall, .wrapperSmall2, .wrapperSmall3, .wrapperSmall4 {  width: 100%; margin: 0 auto; }
 .wrapper { max-width: var(--wrapper);  }
 .wrapper2 { max-width: var(--wrapper2); }
 .wrapper3 { max-width: var(--wrapper3);  }
 .wrapper4 { max-width: var(--wrapper4);  }
 
-.wrapperTv { max-width: var(--wrapperTv); }
-.wrapperXl { max-width: var(--wrapperXl);  }
-.wrapperL { max-width: var(--wrapperL);  }
-.wrapperM { max-width: var(--wrapperM);  }
-.wrapperS { max-width: var(--wrapperS);  }
-.wrapperXs { max-width: var(--wrapperXs);  }
+.wrapperSmall { max-width: var(--wrapperSmall);  }
+.wrapperSmall2 { max-width: var(--wrapperSmall2);  }
+.wrapperSmall3 { max-width: var(--wrapperSmall3);  }
+.wrapperSmall4 { max-width: var(--wrapperSmall4);  }
 
 .op { opacity: 0.88; } 
 .op:hover { opacity: 1; }
 .op2 { opacity: 0.2; }
 .op2:hover { opacity: 1; }
 
-.center, .center2, .center3, .center4 {
+.center {
 /* need wrapper */
 display: flex;
 flex-direction: column;
@@ -360,10 +356,6 @@ margin: auto;
 left: 0;
 right: 0;
 }
-
-.center2 { min-height: 40vh; }
-.center3 { min-height: 50vh; }
-.center4 { min-height: 100vh; }
 
 .left { text-align: left; justify-content: left; margin-left: 0; }
 .right { text-align: right; justify-content: right; margin-right: 0; }
@@ -694,11 +686,6 @@ form { margin: 0 auto; padding: 0; width: 100%; }
 /*br, hr { clear: both; }*/
 svg, form, iframe, video, audio, img, hr, table{ max-width:100%; }
 svg, img { height: auto;  display: inline-block; }
-
-@media(max-width: 395px) {
-.m, .m2 { display: block !important; width: 100%; max-width: 100%; padding: 0; }
-.m2 { display: block; position: relative; }
-}
 
 .over, .over a{
 overflow: hidden;

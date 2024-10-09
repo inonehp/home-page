@@ -693,7 +693,7 @@ document.getElementById(printId).innerHTML += `
 document.getElementById(printId).innerHTML +=  `
 <div class="block padding2"></div>
 
-<div id="form" class="wrapperL">
+<div id="form" class="wrapperSmall">
 <form method="GET" style="margin-top: 0px;" action="?">
 <label id="search" class="op block tLeft xSmall">search and tag:</label>
 <input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">

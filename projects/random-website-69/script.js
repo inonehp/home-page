@@ -18,13 +18,13 @@ var print = `
 <div class="tRight small">random: ${lRandomWebsite} | total: ${totalPost}</div>
 <div class="margin2 padding2"></div>
 
-<div class="large wrapperL" style="min-height: 100px;">
+<div class="large wrapperSmall" style="min-height: 100px;">
 <b>${lRandomWebsiteText}</b><br>
 <a class="brand" href="${lRandomWebsiteUrl}">${lRandomWebsiteUrl}</a>
 </div>
 
 <div class="margin2 padding2"></div>
-<div class="tCenter op wrapperL">
+<div class="tCenter op wrapperSmall">
 <a class="brand tag2 border2 borderRadius3 light" href="#" onclick="fuMReload();">Again (reload)</a>
 <a class="brand tag2 border2 borderRadius3 light" href="data-list.html">Data list</a>
 </div>
@@ -49,8 +49,9 @@ if(document.getElementById("result") != null){
 document.getElementById("result").innerHTML = print; 
 }
 
-console.log(lRandomWebsiteCounter++);
-if (lRandomWebsiteCounter > 15){ clearInterval(lRandomWebsiteTimer); }
+lRandomWebsiteCounter++
+//console.log(lRandomWebsiteCounter);
+if (lRandomWebsiteCounter >= 15){ clearInterval(lRandomWebsiteTimer); }
 }
 
 

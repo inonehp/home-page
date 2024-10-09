@@ -1,4 +1,4 @@
-/* Navigation CSS v.2.0.1 */
+/* Navigation CSS v.2.1.0 */
 //*Creating navigation in progress, sorry*/
 
 .topNav form, .topNav input[type=search] { display: inline-block; }
@@ -42,6 +42,7 @@ text-align: left;
 
 .dropdownMenu {
 width: calc(100% - (2 * var(--bodyPadding)));
+max-width: calc(900px - (2 * var(--bodyPadding)));
 margin: 0 auto;
 position: absolute;
 left: 0;

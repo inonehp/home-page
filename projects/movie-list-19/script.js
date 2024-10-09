@@ -109,7 +109,7 @@ echo(printId, print);
 
 function echo(id, text){
 document.getElementById(id).innerHTML = `
-<div class="wrapperL">${text}</div>
+<div class="wrapper">${text}</div>
 `;
 }
 
