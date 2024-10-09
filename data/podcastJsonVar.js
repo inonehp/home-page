@@ -100,14 +100,5 @@ var podcastJsonVar =
         "tag": "#podcast #story #en",
         "time": 1726745826,
         "rightFooter": ""
-    },
-    {
-        "text": "TWiT Tech Podcast Network - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@twit\/featured",
-        "tag": "#podcast #technology #en",
-        "time": 1726746522,
-        "rightFooter": ""
     }
 ]

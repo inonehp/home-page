@@ -1,4 +1,4 @@
-// Search redirects v.2.4.0
+// Search redirects v.2.5.0
 // Search query + command
 
 // conf
@@ -471,8 +471,6 @@ urlList = [
 "https://www.reddit.com/r/news/",
 "https://www.reddit.com/r/worldnews/",
 "https://www.perplexity.ai/discover",
-
-"/?q=news tag",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -497,8 +495,6 @@ urlList = [
 "https://flipboard.com/topic/computerscience",
 "https://www.reddit.com/r/technology/",
 "https://lemmy.world/c/technology",
-
-"/?q=technology tag",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -521,8 +517,6 @@ urlList = [
 "https://flipboard.com/topic/science",
 "https://science.slashdot.org/",
 "https://www.reddit.com/r/science/",
-
-"?q=science tag",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -577,8 +571,6 @@ urlList = [
 //"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtVnVHZ0pWVXlnQVAB",
 //"https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtVnVLQUFQAQ",
 "https://flipboard.com/topic/business",
-
-"/?q=culture tag",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -625,8 +617,6 @@ if (q == ''){
 urlList = [
 "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
 "https://www.reddit.com/r/sports/",
-
-"/?q=sport tag",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -650,8 +640,6 @@ urlList = [
 "https://hashnode.com/community",
 //"https://stackoverflow.com/",
 "https://news.ycombinator.com/",
-
-"/?q=programming tag",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -892,7 +880,7 @@ sRedirectUrl = url;
 break;
 
 
-case 'tag#':
+/*case 'tag#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -915,7 +903,7 @@ urlList = [
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
-break;
+break;*/
 
 
 case 'we#':
@@ -1066,28 +1054,6 @@ sRedirectUrl = url;
 break;
 
 
-case 'q#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-
-urlList = [
-"https://www.google.com/search?q="+ q,
-//"https://www.bing.com/search?q="+ q,
-//"?q=" + q + " o",
-];
-if (q == ''){
-urlList = [
-"https://www.google.com/",
-//"https://www.bing.com/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
 case 'all#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1110,18 +1076,40 @@ url = random;
 sRedirectUrl = url;
 break;
 
-default:
+case 'q#':
+q = q3.replace(qCom, '');
+q = q.trim();
 q = encodeURIComponent(q);
 
 urlList = [
 "https://www.google.com/search?q=" + q,
-//"https://www.bing.com/search?q=" + q,
+"https://www.bing.com/search?q=" + q,
 //"?q=" + q + " o",
 ];
 if (q == ''){
 urlList = [
 "https://www.google.com/",
-//"https://www.bing.com/",
+"https://www.bing.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+default:
+q = encodeURIComponent(q);
+
+urlList = [
+"https://www.google.com/search?q=" + q,
+"https://www.bing.com/search?q=" + q,
+//"?q=" + q + " o",
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/",
+"https://www.bing.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

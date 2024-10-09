@@ -245,13 +245,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/main\/posts.html",
-        "text": "Posts\n\nPosts. Personal posts. | main: ",
-        "tag": " #posts #page #main",
-        "id": "e83ad7c3e5d94880ce9bfdacb2df6b92",
-        "time": "id"
-    },
-    {
         "url": "\/main\/search.html",
         "text": "Search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | main: ",
         "tag": " #web #search #redirection #redirect #page #main",
@@ -674,7 +667,7 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/start-page-41\/index.html",
         "text": "Start Page\n\nStart page, home page, new tab page. | start page: ",
-        "tag": " #StartPage #home #homepage #start #page #tab #NewTab #CSS #JavaScript #project",
+        "tag": " #StartPage #home #homepage #start #page #tab #NewTab #StartPage #CSS #JavaScript #project",
         "id": "0c669ab1f6ae5ee45db5b42b1b9a6bf7",
         "time": "id"
     },

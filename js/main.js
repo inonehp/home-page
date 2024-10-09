@@ -209,17 +209,15 @@ document.getElementById("secondNav").innerHTML = `
 <span class="countMenuItem"></span>
 <a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
-<div class="dropdownMenuContentWrapper">
-<div class="dropdownMenuContent">
-
-<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
-
 <span id="navMenu" class="navMenu">
 <!-- links in nav -->
 ${conf["confMenuItems2"]}
 <!-- // links in nav -->
 </span>
 
+<div class="dropdownMenuContentWrapper">
+<div class="dropdownMenuContent">
+<a id="dropdownMenuButton" class="dropdownMenuButton inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="#" onclick="fuMDropdownButton();return false;">☰ Menu</a>
 
 <div id="dropdownMenu" class="dropdownMenu">
 <div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
@@ -437,7 +435,7 @@ fuMPrintText("footer", `
 
 <a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/main/about.html">About</a>
 <a class="brand inlineBlock padding" title="Social" href="https://${conf["confUsername"]}.bsky.social">Bluesky</a>
-<a class="brand inlineBlock padding" href="https://${conf["confUsername"]}.neocities.org/">Neocities</a>
+<a class="brand inlineBlock padding" title="Neocities page" href="https://${conf["confUsername"]}.neocities.org/">Other home</a>
 <a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/main/settings.html">Settings</a>
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/main/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>

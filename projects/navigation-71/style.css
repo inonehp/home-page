@@ -8,10 +8,20 @@
 .topNav form { margin-left: var(--padding); }
 
 .topNav button { margin: 0; }
-
+.topNav { text-align: center; }
+/*
 .topNav nav{
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(0, auto));
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+}*/
+
+.topNav nav{
+display: inline-block;
+width: auto;
 margin: 0 auto;
 justify-content: center;
 align-items: center;
@@ -24,7 +34,6 @@ text-align: center;
 justify-content: left !important;
 align-items: center;
 text-align: left;
-display: inline-block;
 }
 .topNav button { margin-right: var(--padding); }
 .topNav form { margin-left: 0; }

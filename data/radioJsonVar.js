@@ -39,6 +39,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "105.9 FM WMAL, WMAL-FM 105.9 FM, Woodbridge, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/1059-FM-WMAL-s30062\/",
+        "tag": "#radio #en",
+        "time": 1728459829,
+        "rightFooter": ""
+    },
+    {
         "text": "89.1 Max FM",
         "text2": "https:\/\/bayshore-ais.leanstream.co\/CISOFM-MP3",
         "text3": "mp3",
@@ -1251,15 +1260,6 @@ var radioJsonVar =
         "url": "https:\/\/english.radio.cz\/",
         "tag": "#radio #en",
         "time": 1683374863,
-        "rightFooter": ""
-    },
-    {
-        "text": "News Talk 105.9 WMAL | Making Sense Of The News",
-        "text2": "https:\/\/19313.live.streamtheworld.com\/WMALFMAAC.aac",
-        "text3": "aac",
-        "url": "https:\/\/www.wmal.com\/",
-        "tag": "#radio #en",
-        "time": 1699004521,
         "rightFooter": ""
     },
     {

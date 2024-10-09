@@ -685,7 +685,7 @@ h1, h2, h3, h4, h5, h6, .bold, .b, b { letter-spacing: 0.25px; }test and dellme*
 .middle { vertical-align: middle; }
 .bottom { vertical-align: bottom; }
 .top { vertical-align: top; }
-.pre{ white-space: pre-wrap; word-wrap: break-word; line-height: normal; }
+.pre { white-space: pre-wrap; word-wrap: break-word; line-height: normal; }
 
 button { cursor: pointer; }
 

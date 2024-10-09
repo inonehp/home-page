@@ -293,7 +293,6 @@ document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadiu
 
 function typingSpeedTranslate(textForTranslate, mode) {
 
-
 //console.log(mode300);
 if (location.hostname == 'localhost'){
 if (mode == 'none'||mode == 'b2'||mode == 'f2'){
@@ -678,6 +677,7 @@ q = e.target.value;
 
 typingSpeedTranslate(q, mode);
 
+
 //var answerArr = q.split ("");
 var answerArr = [...q]; // convert input string to array for check
 //console.log(answerArr);
@@ -711,6 +711,8 @@ letters.forEach(myFunctionCheckAll);
 function myFunctionCheckAll(item, index) {
 
 //console.log(answerArr[index] + '=[' + item + ']');
+
+
 
 if (answerArr.length >= lastMaxInputlength){ lastMaxInputlength = answerArr.length; }
 

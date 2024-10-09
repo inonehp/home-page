@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "76",
+        "text": "html - Is there a difference between initial-scale=1 and initial-scale=1.0? - Stack Overflow",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/stackoverflow.com\/questions\/63231024\/is-there-a-difference-between-initial-scale-1-and-initial-scale-1-0",
+        "tag": "#fix",
+        "time": 1728432416,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=76\">id<\/a>"
+    },
+    {
         "id": "75",
         "text": "CSS: prefers-color-scheme an option with Google's custom search engine? - Programmable Search Engine Community",
         "text2": "===\r\ndefault sytle",

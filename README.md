@@ -23,7 +23,7 @@ A personal start page with projects such as search (redirect), blog, games, to-d
 [#Website](https://github.com/topics/website),
 [#Personal](https://github.com/topics/personal),
 [#Home page](https://github.com/topics/homepage),
-[#Start page](https://github.com/topics/start-page),
+[#Start page](https://github.com/topics/startpage),
 [#Portfolio](https://github.com/topics/portfolio),
 [#Web Development](https://github.com/topics/web-development),
 [#WebDesign](https://github.com/topics/WebDesign),

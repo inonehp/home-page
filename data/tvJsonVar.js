@@ -336,15 +336,6 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "TWiT Tech Podcast Network - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@twit\/featured",
-        "tag": "#TV #en #technology",
-        "time": 1700742165,
-        "rightFooter": ""
-    },
-    {
         "text": "WAYSIDE | Full Episodes! - YouTube",
         "text2": "",
         "text3": "",

@@ -1636,6 +1636,11 @@ var wordJsonVar =
         "text3": "guisantes"
     },
     {
+        "text": "\u0433\u043e\u0440\u0442\u0430\u043d\u044c",
+        "text2": "larynx",
+        "text3": "laringe"
+    },
+    {
         "text": "\u0433\u0440\u0430\u0434",
         "text2": "hail",
         "text3": "granizo"
@@ -2719,11 +2724,6 @@ var wordJsonVar =
         "text": "\u043a\u0430\u0431\u0435\u043b\u044c",
         "text2": "cable",
         "text3": "cable"
-    },
-    {
-        "text": "\u043a\u0430\u0431\u0456\u043d\u0435\u0442",
-        "text2": "office",
-        "text3": "gabinete"
     },
     {
         "text": "\u043a\u0430\u0434\u0440",
@@ -5239,11 +5239,6 @@ var wordJsonVar =
         "text": "\u043e\u0444\u0456\u0441",
         "text2": "office",
         "text3": "oficina"
-    },
-    {
-        "text": "\u043e\u0445\u043e\u0440\u043e\u043d\u0435\u0446\u044c",
-        "text2": "guardian",
-        "text3": "guardi\u00e1n"
     },
     {
         "text": "\u043e\u0447\u0438\u0441\u0442\u043a\u0430",
