@@ -143,7 +143,7 @@ document.getElementsByTagName('title')[0].innerHTML += conf["confDomainNameInTit
 }
 }
 
-// css color fix if save page
+// css theme fix if save page
 if (String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
 }
@@ -508,7 +508,6 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) { conf["confDeviceTheme"] = 'light'; }
 
 
-
 // top bar color theme set
 //<meta name="theme-color" content="#317EFB"/>
 var meta = document.createElement('meta');
@@ -519,7 +518,6 @@ meta.content = "#404040";
 meta.content = "#F0F0F0";
 }
 document.getElementsByTagName('head')[0].appendChild(meta);
-
 
 
 // insert color-theme.css in header
@@ -947,7 +945,6 @@ conf["confThemeEmbed"] = 'light';
 }
 }
 
-
 /* // disabled for if not theme, Unexpected behavior
 window.addEventListener('storage', () => {
 if (theme != conf["confTheme"]){
@@ -955,9 +952,6 @@ fuMSetTheme(conf["confTheme"]);
 }
 });
 */
-// theme
-
-
 
 /* in test, delme (now in function: setTheme)
 // print theme mode and name in footer
@@ -965,6 +959,7 @@ if (document.getElementById('fTheme') != null){
 document.getElementById("fTheme").innerHTML = 'Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')';
 }*/
 
+// end Theme switcher
 
 
 function fuMReload(){ location.reload(true); }

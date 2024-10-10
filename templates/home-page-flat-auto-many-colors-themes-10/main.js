@@ -1,16 +1,13 @@
-// v.1.1.1
+// Main v.1.2.0
 /* copy paste from main site */
 
 var conf = [];
 conf["confTheme"] = localStorage.getItem("confTheme");
 
-// css color fixed if offline
+// css theme fix if save page
 if(String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
 }
-
-
-
 
 function mainPrintMsg(id, PrintMsg){
 if(document.getElementById(id) != null){
@@ -20,30 +17,68 @@ document.getElementById(id).innerHTML = PrintMsg;
 }
 }
 
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+function fuMRandom(min, max){
+//return Math.round(Math.random() * (max - min) + min);
+const minCeiled = Math.ceil(min);
+const maxFloored = Math.floor(max);
+return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled); // The maximum is inclusive and the minimum is inclusive
+}
 
-conf["confDevice"] = 'none';
-/*if(conf["confDataCollection"] != 'on'){
-conf["confDevice"] = '(disabled, privacy)';
-}else{}*/
-if(navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ conf["confDevice"] = 'mobile';  }
-if(navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ conf["confDevice"] = 'tv';  }
-if(conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
+function fuMPrintText(id, text, option){
+if (document.getElementById(id) != null){
+if (option == 'plus'||option == '+'){
+document.getElementById(id).innerHTML += text;
+} else if (option == 'plusTop'||option == 'top'){
+document.getElementById(id).innerHTML = text + document.getElementById(id).innerHTML;
+} else {
+document.getElementById(id).innerHTML = text;
+}
+} else {
+// console.log(id+' not fount');
+}
+}
 
 
 
-// start theme
+// Themes changer v.1.2.0
 theme = conf["confTheme"];
-if(theme == null||theme == undefined){ theme = "auto"; }
-// conf["confDeviceTheme"] - device theme (dark or light)
+if (conf["confTheme"] == null||theme == undefined||theme == 'auto'){
+theme = "auto";
+
+if (window.matchMedia &&window.matchMedia('(prefers-contrast: more)').matches == true){
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+theme = 'h-contrast-d'; }
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+theme = 'h-contrast-l'; }
+}
+
+}
+
+// confDeviceTheme
 conf["confDeviceTheme"] = 'none';
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) { conf["confDeviceTheme"] = 'dark'; }
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) { conf["confDeviceTheme"] = 'light'; }
 
 
 
+// top bar color theme set
+//<meta name="theme-color" content="#317EFB"/>
+var meta = document.createElement('meta');
+meta.name = "theme-color";
+if (conf["confDeviceTheme"] == 'dark'){
+meta.content = "#404040";
+} else {
+meta.content = "#F0F0F0";
+}
+document.getElementsByTagName('head')[0].appendChild(meta);
+
+
+
+// insert color-theme.css in header
 function fuMPrintTheme(theme){
 
-if(document.getElementById('theme') != null){
+if (document.getElementById('theme') != null){
 
 //https://stackoverflow.com/questions/36641137/how-exactly-does-link-rel-preload-work
 let cssEmbed = document.createElement("link");
@@ -57,13 +92,31 @@ document.getElementById('theme').href = '/css/' + theme + '.css';
 
 
 // print theme mode and name in footer
-if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = '<a href="/theme.html">theme: ' + conf["confTheme"] + ' (' + theme + ')</a>';
+if (document.getElementById('fTheme') != null){
+document.getElementById("fTheme").text = conf["confTheme"] + ' (' + theme + ')';
 }
 
+// fix and dynamic
+fuMThemeEmbed();
+fuMBg();
 
+// fix
+if (conf["confThemeEmbed"] == 'dark'){
+fuMPrintText('style', `
+<style>
+.reduceLight { filter:brightness(70%); }
+</style>
+`, 'plus');
+} else {
+fuMPrintText('style', `
+<style>
+.reduceLight { filter: brightness(100%); }
+</style>
+`, 'plus');
+}
 
 }
+
 
 //var theme = conf["confThemeMain"];
 var themeListLight = [
@@ -233,7 +286,7 @@ function themeAuto(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 conf["confRealTmpTheme"] = 'dark';
 fuMPrintTheme(conf["confRealTmpTheme"]);
-}else{
+} else {
 conf["confRealTmpTheme"] = 'light';
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
@@ -243,7 +296,7 @@ function themeAutoHContrast(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 conf["confRealTmpTheme"] = 'h-contrast-d';
 fuMPrintTheme(conf["confRealTmpTheme"]);
-}else{
+} else {
 conf["confRealTmpTheme"] = 'h-contrast-l';
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
@@ -251,21 +304,20 @@ fuMPrintTheme(conf["confRealTmpTheme"]);
 
 function themeAutoRandom(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-conf["confRealTmpTheme"] = themeListDark[Math.floor(Math.random()*themeListDark.length)];
+conf["confRealTmpTheme"] = themeListDark[fuMRandom(0, themeListDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
-}else{
-conf["confRealTmpTheme"]  = themeListLight[Math.floor(Math.random()*themeListLight.length)];
+} else {
+conf["confRealTmpTheme"]  = themeListLight[fuMRandom(0, themeListLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
 }
-
 
 function themeAutoRandomAll(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-conf["confRealTmpTheme"]  = themeListAllDark[Math.floor(Math.random() * themeListAllDark.length)];
+conf["confRealTmpTheme"]  = themeListAllDark[fuMRandom(0, themeListAllDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
-}else{
-conf["confRealTmpTheme"]  = themeListAllLight[Math.floor(Math.random() * themeListAllLight.length)];
+} else {
+conf["confRealTmpTheme"]  = themeListAllLight[fuMRandom(0, themeListAllLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
 }
@@ -274,29 +326,29 @@ function fuMSetTheme(mode){
 
 /*if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 document.cookie = "theme=dark; SameSite=None; Secure; path=/";
-}else{
+} else {
 document.cookie = "theme=light; SameSite=None; Secure; path=/";
 }*/
 
 /*themeList.forEach((element) => {
-if(mode == element){
+if (mode == element){
 //document.getElementById('theme').href = '/css/'+mode+'.css';
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
 })*/
 
 var themeSelect;
-if(themeList.includes(mode) == true){ themeSelect = mode; }
+if (themeList.includes(mode) == true){ themeSelect = mode; }
 
 
 switch (mode) {
 
 case 'auto-time':
-if(new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
-//if(new Date().getSeconds() % 2 == 0){
+if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
+//if (new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]   = 'dark';
 fuMPrintTheme(conf["confRealTmpTheme"]);
-}else{
+} else {
 conf["confRealTmpTheme"]   = 'light';
 fuMPrintTheme(conf["confRealTmpTheme"]);
 }
@@ -311,11 +363,11 @@ themeAutoHContrast();
 break;
 
 case 'auto-t-h-contrast':
-if(new Date().getHours() <= Number(conf["confStartDay"]) - 1|new Date().getHours() >= conf["confStartNight"]){
-//if(new Date().getSeconds() % 2 == 0){
+if (new Date().getHours() <= Number(conf["confStartDay"]) - 1|new Date().getHours() >= conf["confStartNight"]){
+//if (new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]   = 'h-contrast-d';
 fuMPrintTheme(conf["confRealTmpTheme"] );
-}else{
+} else {
 conf["confRealTmpTheme"]   = 'h-contrast-l';
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
@@ -323,23 +375,23 @@ fuMPrintTheme(conf["confRealTmpTheme"] );
 break;
 
 case 'auto-t-rand':
-if(new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
-//if(new Date().getSeconds() % 2 == 0){
-conf["confRealTmpTheme"]  = themeListDark[Math.floor(Math.random()*themeListDark.length)];
+if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
+//if (new Date().getSeconds() % 2 == 0){
+conf["confRealTmpTheme"]  = themeListDark[fuMRandom(0, themeListDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
-}else{
-conf["confRealTmpTheme"]  = themeListLight[Math.floor(Math.random()*themeListLight.length)];
+} else {
+conf["confRealTmpTheme"]  = themeListLight[fuMRandom(0, themeListLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
 break;
 
 case 'auto-t-rand-all':
-if(new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
-//if(new Date().getSeconds() % 2 == 0){
-conf["confRealTmpTheme"]  = themeListAllDark[Math.floor(Math.random() * themeListAllDark.length)];
+if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
+//if (new Date().getSeconds() % 2 == 0){
+conf["confRealTmpTheme"]  = themeListAllDark[fuMRandom(0, themeListAllDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
-}else{
-conf["confRealTmpTheme"]  = themeListAllLight[Math.floor(Math.random() * themeListAllLight.length)];
+} else {
+conf["confRealTmpTheme"]  = themeListAllLight[fuMRandom(0, themeListAllLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
 }
 break;
@@ -365,56 +417,54 @@ themeAutoRandomAll();
 break;
 
 case 'rand-l':
-conf["confRealTmpTheme"] = themeListLight[Math.floor(Math.random()*themeListLight.length)];
+conf["confRealTmpTheme"] = themeListLight[fuMRandom(0, themeListLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-d':
-conf["confRealTmpTheme"] = themeListDark[Math.floor(Math.random()*themeListDark.length)];
+conf["confRealTmpTheme"] = themeListDark[fuMRandom(0, themeListDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-o':
-conf["confRealTmpTheme"] = themeListOther[Math.floor(Math.random()*themeListOther.length)];
+conf["confRealTmpTheme"] = themeListOther[fuMRandom(0, themeListOther.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-od':
-conf["confRealTmpTheme"] = themeListOtherDark[Math.floor(Math.random() * themeListOtherDark.length)];
+conf["confRealTmpTheme"] = themeListOtherDark[fuMRandom(0, themeListOtherDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-all-l':
-conf["confRealTmpTheme"] = themeListAllLight[Math.floor(Math.random() * themeListAllLight.length)];
+conf["confRealTmpTheme"] = themeListAllLight[fuMRandom(0, themeListAllLight.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-all-d':
-conf["confRealTmpTheme"] = themeListAllDark[Math.floor(Math.random() * themeListAllDark.length)];
+conf["confRealTmpTheme"] = themeListAllDark[fuMRandom(0, themeListAllDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-h-contrast':
-conf["confRealTmpTheme"] = themeListHContrast[Math.floor(Math.random() * themeListHContrast.length)];
+conf["confRealTmpTheme"] = themeListHContrast[fuMRandom(0, themeListHContrast.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-best':
-conf["confRealTmpTheme"] = themeListBest[Math.floor(Math.random()*themeListBest.length)];
+conf["confRealTmpTheme"] = themeListBest[fuMRandom(0, themeListBest.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
 
 case 'rand-all':
-conf["confRealTmpTheme"] = themeList[Math.floor(Math.random()*themeList.length)];
+conf["confRealTmpTheme"] = themeList[fuMRandom(0, themeList.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"]);
 break;
+
 
 case 'none':
 case 'empty':
-conf["confRealTmpTheme"] = 'empty';
-fuMPrintTheme(conf["confRealTmpTheme"]);
-break;
-
+case 'bad':
 case themeSelect:
 conf["confRealTmpTheme"] = mode;
 fuMPrintTheme(conf["confRealTmpTheme"]);
@@ -430,11 +480,11 @@ break;
 }
 
 let mForseStatus = '';
-if(conf["confTheme"] != mode){ mForseStatus = "[force] "; }
+if (conf["confTheme"] != mode){ mForseStatus = "[force] "; }
 
 // print theme mode and name in footer
-if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = `<a href="/theme.html">theme: ${mForseStatus}${mode} (${conf["confRealTmpTheme"]})</a>`;
+if (document.getElementById('fTheme') != null){
+document.getElementById("fTheme").innerHTML = `Theme: ${mForseStatus}${mode} (${conf["confRealTmpTheme"]})`;
 }
 
 
@@ -443,35 +493,70 @@ document.getElementById("fTheme").innerHTML = `<a href="/theme.html">theme: ${mF
 fuMSetTheme(theme);
 
 function fuMThemeEmbed(){
-if(conf["confRealTmpTheme"].search("dark|d-|-d") != -1){
+if (conf["confRealTmpTheme"].search("dark|d-|-d") != -1){
 conf["confThemeEmbed"] = 'dark';
-}else{
+} else {
 conf["confThemeEmbed"] = 'light';
 }
 }
 
-
 /* // disabled for if not theme, Unexpected behavior
 window.addEventListener('storage', () => {
-if(theme != conf["confTheme"]){
+if (theme != conf["confTheme"]){
 fuMSetTheme(conf["confTheme"]);
 }
 });
 */
-// end theme
 
-
-
+/* in test, delme (now in function: setTheme)
 // print theme mode and name in footer
-if(document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = '<a class="brand inlineBlock padding" href="./theme.html">theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')</a>';
+if (document.getElementById('fTheme') != null){
+document.getElementById("fTheme").innerHTML = 'Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')';
+}*/
+
+// end Theme switcher
+
+
+// CSS
+// random bg image (background img with random position)
+function fuMBg(val){
+if (conf["confBg"] == 'on'||val == 'on'){
+let mBg = fuMRandomItem("bg.svg");
+let mBgDark = fuMRandomItem("bg-dark.svg");
+let mRandBgPos = fuMRandom(0, 100);
+let mRandBgPos2 = fuMRandom(0, 100);
+if (conf["confThemeEmbed"] == 'light'){
+fuMPrintText('style', `
+<style>
+body{
+background-image: url("/img/${mBg}");
+background-repeat: repeat;
+background-position: ${mRandBgPos}% ${mRandBgPos2}%;
+background-attachment: fixed;
+}
+</style>
+`, 'plus');
+} else {
+fuMPrintText('style', `
+<style>
+body{
+background-image: url("/img/${mBgDark}");
+background-repeat: repeat;
+background-position: ${mRandBgPos}% ${mRandBgPos2}%;
+background-attachment: fixed;
+}
+</style>
+`, 'plus');
 }
 
 
 
+}
+}
+// random bg image
 
-function fuReload(){ location.reload(true); }
-function reload(){ location.reload(true); }
+function fuMReload(){ location.reload(true); }
+
 
 
 

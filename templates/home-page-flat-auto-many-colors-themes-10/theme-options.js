@@ -17,7 +17,7 @@ if(element == 'rand-l'){ result += `
 </div></div>
 <div class="margin padding"></div>
 <details>
-<summary class="pointer brand wrapperL tLeft">Other:</summary><p>Random mode:</p>
+<summary class="pointer brand wrapperSmall tLeft">Other:</summary><p>Random mode:</p>
 `; }
 if(element == 'auto-time'){ result += '</details><p>Auto mode:</p>'; }
 if(element == 'auto'){ result += '<div class="margin"></div>'; }

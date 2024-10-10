@@ -6,8 +6,7 @@
 
 //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
 function onError(error) {
-  console.log(`Error: ${error}`);
-
+console.log(`Error: ${error}`);
 }
 
 function onGot(item) {

@@ -3,6 +3,15 @@ var musicJsonVar =
 
 [
     {
+        "text": "Switch \u00b7 TLC",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=5OIuvqwp-pQ",
+        "tag": "#music",
+        "time": 1728552600,
+        "rightFooter": ""
+    },
+    {
         "text": "Shania Twain - (If You're Not In It For Love) I'm Outta Here! (Official Music Video) - YouTube",
         "text2": "",
         "text3": "",
