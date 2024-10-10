@@ -19,19 +19,19 @@ A personal start page with projects such as search (redirect), blog, games, to-d
 
 ---
    
-#### 🏷️ GitHub Explore tags:  
-[#Website](https://github.com/topics/website),
-[#Personal](https://github.com/topics/personal),
-[#Home page](https://github.com/topics/homepage),
-[#Start page](https://github.com/topics/startpage),
-[#Portfolio](https://github.com/topics/portfolio),
-[#Web Development](https://github.com/topics/web-development),
-[#WebDesign](https://github.com/topics/WebDesign),
-[#Programming ](https://github.com/topics/programming),
-[#Projects](https://github.com/topics/projects),
-[#Cloudflare Pages](https://github.com/topics/cloudflare-pages),
-[#HTML](https://github.com/topics/HTML),
-[#CSS](https://github.com/topics/CSS),
-[#JavaScript](https://github.com/topics/JavaScript)
+#### 🏷️ GitHub Explore, topics:  
+[Website](https://github.com/topics/website),
+[Personal](https://github.com/topics/personal),
+[Home page](https://github.com/topics/homepage),
+[Start page](https://github.com/topics/startpage),
+[Portfolio](https://github.com/topics/portfolio),
+[Web Development](https://github.com/topics/web-development),
+[WebDesign](https://github.com/topics/WebDesign),
+[Programming ](https://github.com/topics/programming),
+[Projects](https://github.com/topics/projects),
+[Cloudflare Pages](https://github.com/topics/cloudflare-pages),
+[HTML](https://github.com/topics/HTML),
+[CSS](https://github.com/topics/CSS),
+[JavaScript](https://github.com/topics/JavaScript)
 
 
