@@ -6,7 +6,7 @@ if (conf == undefined){
 var conf = [];
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
-conf["conMenuItemAverageWidth"] = 120;
+conf["confMenuItemAverageWidth"] = 120;
 }
 
 // nav v.2.0.0 in test
@@ -14,7 +14,7 @@ conf["conMenuItemAverageWidth"] = 120;
 var countMenuItem = document.querySelectorAll('.countMenuItem');
 if (document.getElementsByTagName("nav")[0] != null){
 
-var mNavItemsAverageWidth = conf["conMenuItemAverageWidth"];
+var mNavItemsAverageWidth = conf["confMenuItemAverageWidth"];
 // Average: 66 
 var mNavItemsCount = (countMenuItem.length / 2);
 // /2 - dublicate items (links)
