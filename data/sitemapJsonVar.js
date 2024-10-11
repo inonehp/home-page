@@ -534,7 +534,7 @@ var sitemapJsonVar = [
     {
         "url": "\/projects\/microblog-1\/index.html",
         "text": "Microblog\n\nThis is a mini system for displaying content, data in the form of small JS files containing plain text in JSON format, which are placed in a JS variable. | microblog: ",
-        "tag": " #system #content #microblog._blog #JavaScript #page #project",
+        "tag": " #system #content #microblog #blog #JavaScript #page #project",
         "id": "47f595955118a4f970d260e2b7948b28",
         "time": "id"
     },
