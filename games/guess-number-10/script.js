@@ -84,7 +84,7 @@ document.getElementById("gameResult").innerHTML = `
 var print = `
 
 <div class="center2">
-<div class="wrapperS">
+<div class="wrapperSmall2">
 
 <div id="gameResult" class="block tCenter"></div>
 
