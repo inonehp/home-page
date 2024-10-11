@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "67",
+        "text": "shebang \u2605 neocities",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/nanom.neocities.org\/",
+        "tag": "#personal",
+        "time": 1728597334,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=67\">id<\/a>"
+    },
+    {
         "id": "66",
         "text": "Gia Hill | A multi-talented individual with skills ranging from coding to crafts",
         "text2": "",

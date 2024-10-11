@@ -76,6 +76,7 @@ dropdownButton.textContent = "☶ Menu";
 }
 
 // out area click
+if (dropdownMenu != null){
 //https://stackoverflow.com/questions/36695438/detect-click-outside-div-using-javascript
 window.addEventListener('click', function(e){ 
 
@@ -88,7 +89,7 @@ dropdownMenu.style.display = "none";
 dropdownButton.textContent = "☰ Menu";
   }
 })
-
+}
 // end Navigation JS version
 
 

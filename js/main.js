@@ -232,7 +232,7 @@ ${conf["confMenuItems2"]}
 </div>
 
 <span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" style="margin-right: var(--padding);" href="../" title="../ (Up)">List (up)</a>
+<a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="../" title="../ (Up)">List (up)</a>
 
 <span class="countMenuItem"></span>
 <form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.html" role="search">
@@ -333,6 +333,7 @@ dropdownButton.textContent = "☶ Menu";
 }
 
 // out area click
+if (dropdownMenu != null){
 //https://stackoverflow.com/questions/36695438/detect-click-outside-div-using-javascript
 window.addEventListener('click', function(e){ 
 
@@ -345,7 +346,7 @@ dropdownMenu.style.display = "none";
 dropdownButton.textContent = "☰ Menu";
   }
 })
-
+}
 // end Navigation JS version
 
 
@@ -410,10 +411,11 @@ fuMPrintText("footer", `
 <div class="padding"></div>
 
 <nav>
-<div class="wrapper3  margin2List small tCenter">
+<div class="wrapper3 margin2List small tCenter">
 
 
 <div class="wrapper2">
+
 <div class="tRight small">
 <details class="inlineBlock op">
 <div id="fDesc" class="block pre tLeft wrapperL padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
@@ -421,9 +423,10 @@ fuMPrintText("footer", `
 </details>
 </div>
 
-<nav class="small tLeft">
+<div class="small tLeft">
 <span class="gray">Nav:</span> <span id="footerNav"></span><hr>
-</nav>
+</div>
+
 </div>
 
 <div>

@@ -125,14 +125,10 @@ text-align: left;
 border-bottom: 2px solid transparent;
 }
 
-.itemLinkAni:hover {
+.itemLinkAni:hover,
+.itemLinkAniActive {
 transition: 1.8s;
 border-bottom: 2px solid var(--brand);
-}
-
-
-.headerBannerImg svg{
-opacity: .7;
 }
 
 

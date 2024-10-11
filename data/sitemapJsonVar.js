@@ -133,13 +133,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/main\/blog.html",
-        "text": "Blog\n\nBlog: reposts, likes, technology news, and other. | main: ",
-        "tag": " #reposts #likes #post #blog #page #main",
-        "id": "be8f652c8da3b8877be26b8cf3f58fd0",
-        "time": "id"
-    },
-    {
         "url": "\/main\/bookmarks.html",
         "text": "Bookmarks\n\nThe collection of links or bookmarks. | main: ",
         "tag": " #websites #links #bookmark #collection #page #main",
@@ -228,6 +221,13 @@ var sitemapJsonVar = [
         "text": "Install Website (PWA)\n\nInstall website as app (PWA). The site or page will look and run like an app and will be among other installed programs. | main: ",
         "tag": " #install #download #website #PWA #WebApp #app #page #main",
         "id": "efca29d233a96209a3cc5f22f1a265e1",
+        "time": "id"
+    },
+    {
+        "url": "\/main\/microblog.html",
+        "text": "Microblog\n\nMicroblog: reposts, likes, technology news, and other. | main: ",
+        "tag": " #reposts #likes #post #microblog #blog #page #main",
+        "id": "5cc3d70d5602c3ae067c060b132361d1",
         "time": "id"
     },
     {
@@ -448,13 +448,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "url": "\/projects\/blog-1\/index.html",
-        "text": "Blog\n\nThis is a mini system for displaying content, data in the form of small JS files containing plain text in JSON format, which are placed in a JS variable. | blog: ",
-        "tag": " #system #content #blog #JavaScript #page #project",
-        "id": "acf5def736aa5cabdd35d376e904ae8c",
-        "time": "id"
-    },
-    {
         "url": "\/projects\/browser-info-test-js-2\/index.html",
         "text": "Browser info, JavaScript test\n\nBrowser info, JS Test, test js, Test JavaScript page. | browser info test js: ",
         "tag": " #Experimental #JS #JavaScript #test #page #CSS #JavaScript #project",
@@ -536,6 +529,13 @@ var sitemapJsonVar = [
         "text": "Page generation test\n\nPage generation test | lag test: ",
         "tag": " #Experimental #test #lag #test #JavaScript #project",
         "id": "6b3d0c0efa47d4814fcab6ba9e6c292f",
+        "time": "id"
+    },
+    {
+        "url": "\/projects\/microblog-1\/index.html",
+        "text": "Microblog\n\nThis is a mini system for displaying content, data in the form of small JS files containing plain text in JSON format, which are placed in a JS variable. | microblog: ",
+        "tag": " #system #content #microblog._blog #JavaScript #page #project",
+        "id": "47f595955118a4f970d260e2b7948b28",
         "time": "id"
     },
     {

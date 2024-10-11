@@ -52,7 +52,6 @@ var tmp = '';
 
 
 let sUrlText = String(url);
-
 const myArray = sUrlText.split("q=");
 sUrlText = myArray[0];
 
@@ -99,7 +98,6 @@ url = '?q=' + q + " rn q";
 sRedirectUrl = url;
 }
 break;
-
 
 case 'l#':  case 'll#':
 q = q3.replace(qCom, '');

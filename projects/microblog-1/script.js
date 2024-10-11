@@ -1,5 +1,5 @@
-// Keep or blog v.2.15.0
-// Mini system for displaying content / mimi Twitter or Google Keep
+// Microblog, blog or keep v.2.15.1
+// Mini system for showing content / mini Twitter or Google Keep
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
 // JSON data in JS varible, time - in UNIX format
