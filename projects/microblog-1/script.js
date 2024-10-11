@@ -1,4 +1,4 @@
-// Microblog, blog or keep v.2.15.1
+// Microblog, blog or keep v.3.1.0
 // Mini system for showing content / mini Twitter or Google Keep
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -18,7 +18,7 @@ let blogConfig = {
 "bottomMsg":`
 <!-- bottom text or code -->
 `, // text
-"display":"", // gallery - grid, galleryStretch, article - "text" as title link, all - text, text2, text3
+"display":"", // gallery - grid, galleryStretch, blog - "text" as title link, all - text, text2, text3
 "timeStatus":"", // off, disable post time (post id)
 "rightFooterStatus":"", // on, off, right footer in data
 "usernameStatus":"", // on, off
@@ -510,7 +510,7 @@ var subQforLight = subQListFound.join(confSymbolForSplit);
 
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
+//if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 sTimeRedir[2] = 1200;
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
@@ -535,11 +535,14 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+if (display == "blog"){
+printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 } else {
-printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 }
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+} else {
+printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
+}
 }
 i3++;
 }
@@ -577,7 +580,7 @@ var subQforLight = subQListFound.join(confSymbolForSplit);
 
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
+//if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -601,11 +604,15 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+if (display == "blog"){
+printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 } else {
-printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 }
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+} else {
+printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
+}
+//printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
 }
 i3++;
 }
@@ -640,7 +647,6 @@ case 'idList':
 if (postId == id||getP2 == key){
 if (i <= postLimit -1){
 
-var lArctile = '';
 if (postText2 != ''){ postText2 = `
 
 
@@ -649,7 +655,11 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "", rightFooter);
+if (display == "blog"){
+printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, "", rightFooter);
+} else {
+printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, "", rightFooter);
+}
 comMessagePrint = 'id: ' + postId;
 // post in title only when id
 if (id != ''&&getP2 == null){
@@ -684,7 +694,7 @@ if (i <= postLimit -1){
 // lucky search if last word " l".
 if (mode == 'randUrl'){
 //if (q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){
-if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
+//if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -705,9 +715,12 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '', rightFooter);
-//printPost += '<div class="">' + fuPrintPost(postId, postText, postTag, postTime, '', rightFooter) + '</div>';
+if (display == "blog"){
+printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, '', rightFooter);
+} else {
+printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, '', rightFooter);
+}
+//printPost += '<div class="">' + fuPrintPost(postId, '', postText, postTag, postTime, '', rightFooter) + '</div>';
 i++;
 getP = key;
 comMessagePrint = 'id: ' + postId + ', p2: ' + getP2;
@@ -728,8 +741,12 @@ if (postText2 != ''){ postText2 = `
 if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, '', rightFooter);
-//printPost += '<div class="">' + fuPrintPost(postId, postText, postTag, postTime, rightFooter) + '</div>';
+if (display == "blog"){
+printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, '', rightFooter);
+} else {
+printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, '', rightFooter);
+}
+//printPost += '<div class="">' + fuPrintPost(postId, '', postText, postTag, postTime, rightFooter) + '</div>';
 i++;
 getP = key;
 comMessagePrint = 'id: ' + postId + ', p2: ' + getP2 + ' | ' + sTimeRedirStatus;
@@ -758,9 +775,17 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, "", rightFooter);
+if (display == "blog"){
+printPost += fuPrintPost(postId, postText, postText2 + postText3, postTag, postTime, "", rightFooter);
 } else {
-printPost += fuPrintPost(postId, postText, postTag, postTime, "", rightFooter);
+printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, "", rightFooter);
+}
+} else {
+if (display == "blog"){
+printPost += fuPrintPost(postId, postText, postText, postTag, postTime, "", rightFooter);
+} else {
+printPost += fuPrintPost(postId, '', postText, postTag, postTime, "", rightFooter);
+}
 }
 i++;
 }
@@ -842,7 +867,7 @@ subQListFound.push(item3344);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
+//if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -860,8 +885,8 @@ window.location.href = window.location.href + '#StopRedirect';
 
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter, rightFooter);
-//lRelevantResultArr.push(lRelevantResultPoint, fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter, rightFooter));
+//printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter, rightFooter);
+//lRelevantResultArr.push(lRelevantResultPoint, fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter, rightFooter));
 if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
@@ -872,12 +897,12 @@ if (postText3 != ''){ postText3 = `
 
 ` + postText3; };
 //`<!-- forSort: ${lRelevantResultPoint} -->` +
-var testArr =  fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter, rightFooter);
+var testArr =  fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter, rightFooter);
 } else {
 //`<!-- forSort: ${lRelevantResultPoint} -->` +
-var testArr = fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter, rightFooter);
+var testArr = fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter, rightFooter);
 }
-//var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+//var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
 //lRelevantResultArr.push(testArr);
 lRelevantResultArr.push(testArr);
 }
@@ -997,7 +1022,7 @@ if (checkDublicateId[0] != postId){ // fixed dublicate post when search and foun
 
 // lucky search if last word " l".
 if (q2 == 'l'){
-if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
+//if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
 if (postUrl != ''){
 comMessagePrint = `lucky search, redirect to URL: `+ sTimeRedir[2] / 1000 + ` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -1021,11 +1046,11 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-printPost += fuPrintPost(postId, postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 } else {
-printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
 }
-//printPost += fuPrintPost(postId, postText, postTag, postTime, subQforLight, rightFooter);
+//printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
 }
 i3++;
 }
@@ -1504,7 +1529,7 @@ return tagList;
 
 
 
-function fuPrintPost(id, post, tag, time, subQforLight, rightFooter){
+function fuPrintPost(id, postTitle, post, tag, time, subQforLight, rightFooter){
 tag = highlightText(tag, targetOption, subQforLight);
 //time = new Date(time).getTime();
 
@@ -1536,19 +1561,25 @@ var datePublished = timeConverter(time);
 time = `<a class="brand op" href="${scriptDir}?id=${id}"><time itemprop="datePublished" datetime="` + datePublished+`">` + fuPostTime(time) + `</time></a>`;
 
 var lPost = '';
+var lPostTitle = '';
 
 // selected orange word when search
 if (q != null&&mode == 'search'){
+lPostTitle = highlightText(postTitle, targetOption, subQforLight);
 lPost = highlightText(post, targetOption, subQforLight);
+if (display == 'blog'){ lPost = `<h2>${lPostTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
 
-} else if (mode == 'id'||mode == 'idList'||mode == 'random'||mode == 'autoRandom'){
+} else if (mode == 'id'||mode == 'list'&&mode == 'idList'||mode == 'random'||mode == 'autoRandom'){
 if (multiEmbedStatus == 'on'){
 lPost = highlightText(post, targetOption);
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption); }
 } else {
 lPost = highlightText2(post, targetOption); // autoplay embed
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText2(post, targetOption); }
 }
 } else {
 lPost = highlightText(post, targetOption, subQforLight); 
+if (display == 'blog'){ lPost = `<h2>${postTitle}</h2>` + highlightText(post, targetOption, subQforLight); }
 }
 
 var username = conf["confDomainName"];
@@ -1560,17 +1591,16 @@ if (timeStatus == 'off'&&rightFooterStatus == 'off'){ postFooter = ' postFooter2
 
 if (rightFooterStatus == 'off'){ rightFooter = ''; }
 
-
-if (mode != 'search'){
-if (display == 'article'&&mode != 'id'&&mode != 'idList'&&mode != 'random'){
+// overwrite, only blog title
+if (display == 'blog'&&mode == 'list'){
 //lPost = `<span class="large">${lPost}</span>`; // without highlight (embed)
-lPost = `<span class="large"><a class="block firstLetterBold" href="${scriptDir}?id=${id}">${lPost}</a></span>`; // without highlight (embed)
+lPost = `<div class="large"><a class="block firstLetterBold" href="${scriptDir}?id=${id}">${postTitle}</a></div>`; // without highlight (embed)
 }
-}
+
 
 /*
 //
-if (display == 'article'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
+if (display == 'blog'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag brand light border4 op borderRadius2"  href="${scriptDir}?id=${id}">read</a>` + time; } // with highlight*/
 
 
 var usernameStatusPrint = "";
