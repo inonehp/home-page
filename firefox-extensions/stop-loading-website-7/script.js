@@ -1,6 +1,6 @@
-// Stop load website extension v.1.0.0
+// Stop load website extension v.1.0.1
 
-let extName = "Stop load website extension ";
+let extName = "Stop loading website extension ";
 
 //https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
 function onError(error) {
@@ -29,20 +29,23 @@ if (filterList.constructor === Array){
 filterList = filterList.join(',');
 }
 
-var delimiter = ["'", '"', "|", ",", " ", "\r\n", "\r", "\n"];
+var delimiter = ["\/", "'", '"', "|", ",", " ", "\r\n", "\r", "\n"];
 delimiter.forEach((value33) => {
 filterList = filterList.replaceAll(value33, "SYMBOLFORSPLIT");
 });
 
-(filterList.split("SYMBOLFORSPLIT")).forEach((val, key) => {
-//console.log(val);
-val = val.trim();
-if (val != ""){
-if (String(location.href).indexOf(val) != -1){
+filterList = filterList.split("SYMBOLFORSPLIT");
+
+
+for (let i = 0; i < filterList.length; i++) {
+var element = filterList[i].trim();
+if (element != ""){
+if (String(location.href).indexOf(element) != -1){
 fuExtStopLoad();
+break;
 }
 }
-});
+}
 
 
 }
@@ -53,7 +56,7 @@ window.stop();
 window.addEventListener('load', function() {
 //document.body.innerHTML = `${extName}`;
 });*/
-if(confirm(`${extName}: Stop load page?`) == true){
+if(confirm(`Stop page loading? (${extName})`) == true){
 stop();
 window.stop();
 window.addEventListener('load', function() {

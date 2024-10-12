@@ -12,25 +12,25 @@ function saveOptions(e) {
 //e.preventDefault();
 //browser.storage.sync.set({
 browser.storage.local.set({
-//dataUrlBlockWebsiteList: document.querySelector("#q").value
-dataUrlStopLoadWebsiteList: document.getElementById("q").value
+//dataStopLoadWebsiteList: document.querySelector("#q").value
+dataStopLoadWebsiteList: document.getElementById("q").value
 
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
 }
 
 function setCurrentChoice(result) {
-// document.querySelector("#q").value = result.rUrl || "https://example.com";
-//document.querySelector("#q").value = result.dataUrlBlockWebsiteList || "";
-document.getElementById("q").value = result.dataUrlStopLoadWebsiteList || "";
+// document.querySelector("#q").value = result.dataStopLoadWebsiteList || "https://example.com";
+//document.querySelector("#q").value = result.dataStopLoadWebsiteList || "";
+document.getElementById("q").value = result.dataStopLoadWebsiteList || "";
 }
 
 function onError(error) {
     console.log(`Error: ${error}`);
 }
 
-//let getting = browser.storage.sync.get("rUrl");
-let getting = browser.storage.local.get("dataUrlStopLoadWebsiteList");
+//let getting = browser.storage.sync.get("dataStopLoadWebsiteList");
+let getting = browser.storage.local.get("dataStopLoadWebsiteList");
 getting.then(setCurrentChoice, onError);
 
 
