@@ -1,4 +1,4 @@
-// Main js v.6.11.9
+// Main js v.6.11.10
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -418,7 +418,7 @@ fuMPrintText("footer", `
 
 <div class="tRight small">
 <details class="inlineBlock op">
-<div id="fDesc" class="block pre tLeft wrapperL padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
+<div id="fDesc" class="block pre tLeft wrapperSmall padding2 bg shadow light borderRadius2 margin2List w100" style="margin-left: 0; margin-right: 0;">${fDesc}</div>
 <summary class="pointer paddingList marginList brand" title="Description and keywords">${fDescTitle}</summary>
 </details>
 </div>
