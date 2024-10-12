@@ -50,8 +50,7 @@ const confData = [
 {
 "confTitle":"Allow Cookies For Third Parties?",
 "confDescription":`<!--This is necessary to improve the site. (For Ads Services, Statistics).-->
-- Transfer information about IP address, mouse movements, clicks and much more to 10,000 analytical companies?
-- This is only to sell your privacy data and nothing more.
+- Transfer information about the IP address, information about visited pages (interests) and more to 10,000 analytical companies? This is only to sell your privacy data and nothing more.
 - Auto: used the time zone for consent or disagreement.
 - Site used Functionality cookies.
 - Some services still collect visit information if cookie off.`,
