@@ -1,4 +1,4 @@
-// Main js v.6.11.10
+// Main js v.6.11.11
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -49,8 +49,9 @@ const confData = [
 },
 {
 "confTitle":"Allow Cookies For Third Parties?",
-"confDescription":`This is necessary to improve the site.
-(For Ads Services, Statistics).
+"confDescription":`<!--This is necessary to improve the site. (For Ads Services, Statistics).-->
+- Transfer information about IP address, mouse movements, clicks and much more to 10,000 analytical companies?
+- This is only to sell your privacy data and nothing more.
 - Auto: used the time zone for consent or disagreement.
 - Site used Functionality cookies.
 - Some services still collect visit information if cookie off.`,
