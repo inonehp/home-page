@@ -11,8 +11,8 @@ function onGot(result) {
 //let getData = ["https://example.com/", "https://example.com/"];
 var getData = "https://example.com/";
 
-if(result.dataUrlStopLoadWebsiteList) {
-getData =  result.dataUrlStopLoadWebsiteList;
+if(result.dataUrlStopLoadList) {
+getData =  result.dataUrlStopLoadList;
 fuExtStopLoadCheck(getData);
 } else {
 //fuExtStopLoadCheck(getData);
@@ -29,7 +29,7 @@ if (filterList.constructor === Array){
 filterList = filterList.join(',');
 }
 
-var delimiter = ["\/", "'", '"', "|", ",", " ", "\r\n", "\r", "\n"];
+var delimiter = ["|", ",", " ", "\r\n", "\r", "\n"];
 delimiter.forEach((value33) => {
 filterList = filterList.replaceAll(value33, "SYMBOLFORSPLIT");
 });
@@ -39,8 +39,10 @@ filterList = filterList.split("SYMBOLFORSPLIT");
 
 for (let i = 0; i < filterList.length; i++) {
 var element = filterList[i].trim();
+//console.log(element);
 if (element != ""){
 if (String(location.href).indexOf(element) != -1){
+//console.log(element);
 fuExtStopLoad();
 break;
 }
@@ -67,8 +69,8 @@ window.addEventListener('load', function() {
 
 }
 
-//const getting = browser.storage.sync.get("dataUrlStopLoadWebsiteList");
-const getting = browser.storage.local.get("dataUrlStopLoadWebsiteList");
+//const getting = browser.storage.sync.get("dataUrlStopLoadList");
+const getting = browser.storage.local.get("dataUrlStopLoadList");
 getting.then(onGot, onError);
 
 

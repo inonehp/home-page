@@ -12,30 +12,34 @@ function saveOptions(e) {
 //e.preventDefault();
 //browser.storage.sync.set({
 browser.storage.local.set({
-//dataStopLoadWebsiteList: document.querySelector("#q").value
-dataStopLoadWebsiteList: document.getElementById("q").value
-
+//dataUrlStopLoadList: document.querySelector("#q").value
+dataUrlStopLoadList: document.getElementById("q").value
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
 }
 
+
 function setCurrentChoice(result) {
-// document.querySelector("#q").value = result.dataStopLoadWebsiteList || "https://example.com";
-//document.querySelector("#q").value = result.dataStopLoadWebsiteList || "";
-document.getElementById("q").value = result.dataStopLoadWebsiteList || "";
+// document.querySelector("#q2").value = result.dataUrlStopLoadWebsiteList || "https://example.com";
+//document.querySelector("#q").value = result.dataUrlStopLoadList || "";
+document.getElementById("q").value = result.dataUrlStopLoadList || "";
 }
 
 function onError(error) {
-    console.log(`Error: ${error}`);
+console.log(`Error: ${error}`);
 }
 
-//let getting = browser.storage.sync.get("dataStopLoadWebsiteList");
-let getting = browser.storage.local.get("dataStopLoadWebsiteList");
-getting.then(setCurrentChoice, onError);
+function restoreOptions(){
+//let getting = browser.storage.sync.get("dataUrlStopLoadList");
+var getting = browser.storage.local.get("dataUrlStopLoadList");
+  getting.then(setCurrentChoice, onError);
+}
 
 
 //document.addEventListener("DOMContentLoaded", restoreOptions);
 //document.addEventListener("load", restoreOptions);
+
+document.addEventListener("DOMContentLoaded", restoreOptions);
 document.querySelector("form").addEventListener("submit", saveOptions);
 
 

@@ -18,24 +18,30 @@ browser.storage.local.set({
 }
 
 
-  function setCurrentChoice(result) {
+function setCurrentChoice(result) {
 // document.querySelector("#q").value = result.rUrl || "https://example.com";
 document.querySelector("#q").value = result.rUrl || "";
+}
 
+function onError(error) {
+console.log(`Error: ${error}`);
+}
 
-  }
-
-  function onError(error) {
-    console.log(`Error: ${error}`);
-  }
-
+function restoreOptions(){
 //let getting = browser.storage.sync.get("rUrl");
 let getting = browser.storage.local.get("rUrl");
-  getting.then(setCurrentChoice, onError);
+getting.then(setCurrentChoice, onError);
+}
+
+//document.addEventListener("DOMContentLoaded", restoreOptions);
+//document.addEventListener("load", restoreOptions);
+//document.querySelector("form").addEventListener("submit", saveOptions);
 
 
 //document.addEventListener("DOMContentLoaded", restoreOptions);
 //document.addEventListener("load", restoreOptions);
-document.querySelector("form").addEventListener("submit", saveOptions);
 
+
+document.addEventListener("DOMContentLoaded", restoreOptions);
+document.querySelector("form").addEventListener("submit", saveOptions);
 
