@@ -10,7 +10,9 @@ fuMPrintText('cookiePopup', `
 
 <p class="h5 bold">Allow Cookie for third parties?</p>
 
-<p>This consent is required to improve the website, collect statistics, and show relevant advertisements.</p>
+<!--<p>This consent is required to improve the website, collect statistics, and show relevant advertisements.</p>-->
+
+<p>Transfer information about IP address, mouse movements, clicks and much more to 10,000 analytical companies? This is only to sell your privacy data and nothing more.</p>
 
 <div class="padding2List"></div>
 
