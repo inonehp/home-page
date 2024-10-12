@@ -2,7 +2,8 @@
 Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 /* Main */
-* { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
+/* view-source:about:blank, fixed blink */
+* { color-scheme: light dark; }
 
 :root{
 /* .brand - link, accent color (red, orange, yellow, green, blue, indigo, violet) */
@@ -77,8 +78,10 @@ overflow-y: scroll;
 /*height: -webkit-fill-available*/
 }
 
-.content, .contentCenter,
-.postContent, .postContentCenter { flex: 1 0 auto; }
+.content,
+.contentCenter,
+.postContent,
+.postContentCenter { flex: 1 0 auto; }
 .page { min-height: 100vh; }
 
 .contentCenter, .postContentCenter {

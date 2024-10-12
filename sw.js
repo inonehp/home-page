@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.10.11";
+//var myCacheVersion = "v.1.2.2024.10.12";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.10.11").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.10.12").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -297,16 +297,6 @@ var fileListArr = ["/404.html",
 "/firefox-extensions/archive/badge-count-up-timer-4/screenshot.png",
 "/firefox-extensions/archive/badge-count-up-timer-4/script.js",
 "/firefox-extensions/archive/badge-count-up-timer-4/style.css",
-"/firefox-extensions/block-website-in-progrss-7/auto.css",
-"/firefox-extensions/block-website-in-progrss-7/",
-"/firefox-extensions/block-website-in-progrss-7/icon512x512.png",
-"/firefox-extensions/block-website-in-progrss-7/icon512x512.svg",
-"/firefox-extensions/block-website-in-progrss-7/main.css",
-"/firefox-extensions/block-website-in-progrss-7/manifest.json",
-"/firefox-extensions/block-website-in-progrss-7/options.html",
-"/firefox-extensions/block-website-in-progrss-7/options.js",
-"/firefox-extensions/block-website-in-progrss-7/script.js",
-"/firefox-extensions/block-website-in-progrss-7/style.css",
 "/firefox-extensions/hotkey-url-5/README.md",
 "/firefox-extensions/hotkey-url-5/",
 "/firefox-extensions/hotkey-url-5/hotkey-url-5.zip",
@@ -347,6 +337,18 @@ var fileListArr = ["/404.html",
 "/firefox-extensions/search-localhost-https-2/icon512x512.svg",
 "/firefox-extensions/search-localhost-https-2/manifest.json",
 "/firefox-extensions/search-localhost-https-2/search-localhost-https-2.zip",
+"/firefox-extensions/stop-loading-website-7/auto.css",
+"/firefox-extensions/stop-loading-website-7/",
+"/firefox-extensions/stop-loading-website-7/icon512x512.png",
+"/firefox-extensions/stop-loading-website-7/icon512x512.svg",
+"/firefox-extensions/stop-loading-website-7/main.css",
+"/firefox-extensions/stop-loading-website-7/manifest.json",
+"/firefox-extensions/stop-loading-website-7/options.html",
+"/firefox-extensions/stop-loading-website-7/options.js",
+"/firefox-extensions/stop-loading-website-7/screenshot.png",
+"/firefox-extensions/stop-loading-website-7/script.js",
+"/firefox-extensions/stop-loading-website-7/stop-loading-website-7.zip",
+"/firefox-extensions/stop-loading-website-7/style.css",
 "/firefox-extensions/url-redirect-6/README.md",
 "/firefox-extensions/url-redirect-6/",
 "/firefox-extensions/url-redirect-6/auto.css",
@@ -705,6 +707,9 @@ var fileListArr = ["/404.html",
 "/mini-projects/responsive-web-design-2/",
 "/mini-projects/responsive-web-design-2/script.js",
 "/mini-projects/responsive-web-design-2/style.css",
+"/mini-projects/simple-page-38/index.html",
+"/mini-projects/simple-page-38/",
+"/mini-projects/simple-page-38/style.css",
 "/mini-projects/sun-and-moon-css-31/index.html",
 "/mini-projects/sun-and-moon-css-31/",
 "/mini-projects/sun-and-moon-css-31/style.css",
@@ -1183,7 +1188,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.10.11")
+caches.open("v.1.2.2024.10.12")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1209,7 +1214,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.10.11")
+caches.open("v.1.2.2024.10.12")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1242,7 +1247,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.10.11"];
+  const cachesToKeep = ["v.1.2.2024.10.12"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

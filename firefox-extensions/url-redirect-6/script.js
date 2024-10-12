@@ -1,4 +1,4 @@
-// v.1.2.0
+// v.1.3.0
 
 
 let countUrlRedirectCancelStatus = ''; // if input cancel, not open URL
@@ -18,17 +18,17 @@ let getData = [/*
 ];
 
 if(result.dataUrlRedirectList) {
-
 //https://stackoverflow.com/questions/23728626/localstorage-and-json-stringify-json-parse
 getData =  JSON.parse(result.dataUrlRedirectList);
-}
 
 urlRedirect(getData);
 
 
+// testme
 onhashchange = (event) => {
 urlRedirect(getData);
-};
+}
+}
 
 }
 

@@ -1,13 +1,20 @@
 {
 
 "manifest_version": 3,
-"name": "Block website",
+"name": "Stop loading website",
 "version": "1.0.6",
-"description": "Site blocking. Blocks the opening of websites from the list.",
+"description": "Stop loading the site from the specified list of sites in the extension settings. The extension works based on how the browser's stop button works.",
 
 "icons": {
   "512": "icon512x512.png"
 },
+
+"browser_specific_settings": {
+  "gecko": {
+    "id": "stoploadingwebsite@example.org"
+  }
+},
+
 
 "permissions":
 [
@@ -15,18 +22,9 @@
 "storage"
 ],
 
-
-"browser_specific_settings": {
-  "gecko": {
-    "id": "{9807bd9b-3c75-4bb2-b643-c88a81da8794}",
-    "strict_min_version": "109.0"
-  }
-},
-
-
 "content_scripts": [
 {
-"js": ["filterJsonVar.js", "script.js"],
+"js": ["script.js"],
 "matches": ["<all_urls>", "*://*/*"],
 "run_at": "document_start",
 "all_frames": false

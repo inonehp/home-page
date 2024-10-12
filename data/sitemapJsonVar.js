@@ -371,6 +371,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "url": "\/mini-projects\/simple-page-38\/index.html",
+        "text": "Simple page\n\nSimple page. | simple page: ",
+        "tag": " #simple #page #HTML #CSS #project",
+        "id": "5a5b4c5753fdaf4048acdafc2a41445e",
+        "time": "id"
+    },
+    {
         "url": "\/mini-projects\/sun-and-moon-css-31\/index.html",
         "text": "Sun and moon\n\nSun and moon | sun and moon css: ",
         "tag": " #Sun #moon #HTML #CSS #project",

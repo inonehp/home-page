@@ -12,26 +12,26 @@ function saveOptions(e) {
 //e.preventDefault();
 //browser.storage.sync.set({
 browser.storage.local.set({
-    rUrl: document.querySelector("#q").value
+//dataUrlBlockWebsiteList: document.querySelector("#q").value
+dataUrlStopLoadWebsiteList: document.getElementById("q").value
+
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
 }
 
-
-  function setCurrentChoice(result) {
+function setCurrentChoice(result) {
 // document.querySelector("#q").value = result.rUrl || "https://example.com";
-document.querySelector("#q").value = result.rUrl || "";
+//document.querySelector("#q").value = result.dataUrlBlockWebsiteList || "";
+document.getElementById("q").value = result.dataUrlStopLoadWebsiteList || "";
+}
 
-
-  }
-
-  function onError(error) {
+function onError(error) {
     console.log(`Error: ${error}`);
-  }
+}
 
 //let getting = browser.storage.sync.get("rUrl");
-let getting = browser.storage.local.get("rUrl");
-  getting.then(setCurrentChoice, onError);
+let getting = browser.storage.local.get("dataUrlStopLoadWebsiteList");
+getting.then(setCurrentChoice, onError);
 
 
 //document.addEventListener("DOMContentLoaded", restoreOptions);
