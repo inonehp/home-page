@@ -1,4 +1,4 @@
-// Microblog, blog or keep v.3.2.0
+// Microblog, blog or keep v.3.3.0
 // Mini system for showing content / mini Twitter or Google Keep
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -516,7 +516,8 @@ if (postUrl != ''){
 sTimeRedir[2] = 1200;
 comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
-window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+//window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+window.location.href = postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href + '#StopRedirect'; 
@@ -586,7 +587,8 @@ if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?p2=' + ke
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
-window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+//window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+window.location.href = postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href + '#StopRedirect'; 
@@ -701,7 +703,8 @@ if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?p2=' + ke
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
-window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+//window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+window.location.href = postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href + '#StopRedirect'; 
@@ -875,7 +878,8 @@ if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?p2=' + ke
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
-window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+//window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+window.location.href = postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href + '#StopRedirect'; 
@@ -1031,7 +1035,8 @@ if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?p2=' + ke
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000 + ` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
-window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+//window.location.href = '/projects/redirects-25/?rUrl=' + postUrl;
+window.location.href = postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href + '#StopRedirect'; 
@@ -3054,7 +3059,8 @@ if (lFoundQUrlRandom != ''){
 /*sTimeRedir[2] = 1200;
 comMessagePrint = `random URL: `+ sTimeRedir[2] / 1000 +` sec.`;*/
 if (('' + window.location + '').search("#StopRedirect") == -1){
-window.location.href = '/projects/redirects-25/?rUrl=' + lFoundQUrlRandom;
+//window.location.href = '/projects/redirects-25/?rUrl=' + lFoundQUrlRandom;
+window.location.href = lFoundQUrlRandom;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href + '#StopRedirect'; 

@@ -1,4 +1,4 @@
-// Search redirects v.2.5.0
+// Search redirects v.2.5.`
 // Search query + command
 
 // conf

@@ -3,6 +3,16 @@ var musicJsonVar =
 
 [
     {
+        "id": "5722",
+        "text": "JENNIE - Mantra (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=bB3-CUMERIU",
+        "tag": "#music",
+        "time": 1728761045,
+        "rightFooter": ""
+    },
+    {
         "id": "5721",
         "text": "Switch \u00b7 TLC",
         "text2": "",

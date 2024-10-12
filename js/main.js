@@ -983,7 +983,7 @@ delimiter.forEach((val) => {
 text = String(text.replaceAll(val, "SYMBOLFORSPLIT"));
 });
 
-text = text.split(conf["confSymbolForSplit"]);
+text = text.split("SYMBOLFORSPLIT");
 let text2 = "";
 text.forEach((val) => {
 if (val.trim != ''&&val != undefined&&val != null){
@@ -1022,8 +1022,8 @@ return textOrArr.sort(collator.compare);
 // random bg image (background img with random position)
 function fuMBg(val){
 if (conf["confBg"] == 'on'||val == 'on'){
-let mBg = fuMRandomItem("bg.svg bg2.svg bg3.svg bg4.svg bg5.svg bg6.svg bg7.svg bg8.svg");
-let mBgDark = fuMRandomItem("bg-dark.svg bg2-dark.svg bg3-dark.svg bg4-dark.svg bg5-dark.svg bg6-dark.svg bg7-dark.svg bg8-dark.svg");
+let mBg = fuMRandomItem("bg.svg bg2.svg bg3.svg bg4.svg bg5.svg bg6.svg bg7.svg bg8.svg bg10.svg bg11.svg bg12.svg bg14.svg bg15.svg bg16.svg bg17.svg bg18.svg bg19.svg");
+let mBgDark = fuMRandomItem("bg-dark.svg bg2-dark.svg bg3-dark.svg bg4-dark.svg bg5-dark.svg bg6-dark.svg bg7-dark.svg bg8-dark.svg bg10-dark.svg bg11-dark.svg bg12-dark.svg bg14-dark.svg bg15-dark.svg bg16-dark.svg bg17-dark.svg bg18-dark.svg bg19-dark.svg");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'){
