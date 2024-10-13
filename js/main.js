@@ -1019,8 +1019,8 @@ return textOrArr.sort(collator.compare);
 // random bg image (background img with random position)
 function fuMBg(val){
 if (conf["confBg"] == 'on'||val == 'on'){
-let mBg = fuMRandomItem("bg.svg bg2.svg bg3.svg bg4.svg bg5.svg bg6.svg bg7.svg bg8.svg bg10.svg bg12.svg bg14.png bg16.svg bg17.png");
-let mBgDark = fuMRandomItem("bg-dark.svg bg2-dark.svg bg3-dark.svg bg4-dark.svg bg5-dark.svg bg6-dark.svg bg7-dark.svg bg8-dark.svg bg10-dark.svg bg12-dark.svg bg14-dark.png bg16-dark.svg bg17-dark.png");
+let mBg = fuMRandomItem("bg-index.svg bg-line-square.svg bg-star.svg bg-circle.svg bg-triangle.svg bg-square-solid.svg bg-binary.svg bg--short-line.svg bg-shape.svg bg-line-chaotic.svg bg-wood.svg bg-deco-paper.svg");
+let mBgDark = fuMRandomItem("bg-index-d.svg bg-line-square-d.svg bg-star-d.svg bg-circle-d.svg bg-triangle-d.svg bg-square-solid-d.svg bg-binary-d.svg bg-short-line-d.svg bg-shape-d.svg bg-line-chaotic-d.svg bg-wood-d.svg bg-deco-paper-d.svg");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'){
