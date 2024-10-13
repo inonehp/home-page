@@ -261,7 +261,7 @@ if (q[q.length - 2] == ' '&&q[q.length - 1] == 'q'){
 q = q.slice(0, -2);
 q = q.trim();
 qEncoded = encodeURIComponent(q);
-window.location.href = "/projects/redirects-25/?q=" + qEncoded;
+window.location.href = "/?q=" + qEncoded;
 window.location.href = window.location.href + '#StopRedirect'; 
 }
 
@@ -422,7 +422,6 @@ postLimit = postLimit;
 getP = getP3;
 }
 
-//if (q == ''&&q2 == 'l'||q == ' l'||q == 'l'){ mode = 'randUrl'; }// rmMe
 if (q == ''&&q2 == 'l'){ mode = 'random'; }
 
 if (id != null||getP2 != null){
@@ -457,7 +456,6 @@ mode:${mode} id:${id} q:${q} p:${getP} p2:${getP2}
 
 let i = 0;
 jsonVar.forEach((item, key) => {
-
 postId = '';
 postText = '';
 postText2 = '';
@@ -493,10 +491,7 @@ if (q != ''){
 qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
 
-// rm last symbol if " l".
-if (q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){ qSearch = qSearch.slice(0, -2); }
 var qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag + ' ' + postUrl).toLowerCase();
-
 
 var qSearch23 = qSearch.replaceAll(' ', '_'); // q2 with "_"
 var qSearchNoQuote = qSearch.replaceAll('"', '');
@@ -508,10 +503,9 @@ if ((qData2 + ' ').indexOf((qSearch + ' ')) >= 0){
 subQListFound.push(qSearch);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 
-// Luck search if last word " l".
+// Luck
 if (q2 == 'l'){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
-if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?p2=' + key; }
 if (postUrl != ''){
 sTimeRedir[2] = 1200;
 comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000 +` sec.`;
@@ -520,6 +514,9 @@ if (('' + window.location + '').search("#StopRedirect") == -1){
 window.location.href = postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
+window.location.href = window.location.href + '#StopRedirect'; 
+} else {
+window.location.href = scriptDir + '?p2=' + key;
 window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);
@@ -580,10 +577,8 @@ subQListFound.push(qSearchTmp);
 var subQforLight = subQListFound.join(confSymbolForSplit);
 
 
-// Luck search if last word " l".
+// Luck
 if (q2 == 'l'){
-//if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
-if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?p2=' + key; }
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000 +` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -591,6 +586,9 @@ if (('' + window.location + '').search("#StopRedirect") == -1){
 window.location.href = postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
+window.location.href = window.location.href + '#StopRedirect'; 
+} else {
+window.location.href = scriptDir + '?p2=' + key;
 window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);
@@ -695,11 +693,9 @@ postLimit = 1;
 if (getP2 == key){
 if (i <= postLimit -1){
 
-// Luck search if last word " l".
+// Luck
 if (mode == 'randUrl'){
-//if (q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
-if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?p2=' + key; }
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000+` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -708,6 +704,9 @@ window.location.href = postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href + '#StopRedirect'; 
+} else {
+window.location.href = scriptDir + '?p2=' + key;
+window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
@@ -813,8 +812,6 @@ printTagList += postTag + confSymbolForSplit;
 // s2 Search 2, word
 
 if (mode == 'search'&&comMessage != 'found'){
-var lRelevantResultArr = [];
-var lRelevantResultPoint = 0;
 
 var subQListFound = [];
 
@@ -826,9 +823,6 @@ if (q != ''){
 //qSearch = decodeURIComponent(q);
 qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
-
-// rm last symbol if " l".
-if (q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){ qSearch = qSearch.slice(0, -2); }
 
 qSearch = (qSearch + ' ').split(' ');
 
@@ -868,13 +862,12 @@ for (const item3344 of qSearch) {
 // query
 //if ((qData.split(item)).length > 1&&item334 != ''){
 if ((qData.indexOf(item3344)) != -1&&item3344 != ''){
-lRelevantResultPoint = qData.indexOf(item3344);
 subQListFound.push(item3344);
 var subQforLight = subQListFound.join(confSymbolForSplit);
-// Luck search if last word " l".
+
+// Luck
 if (q2 == 'l'){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
-if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?p2=' + key; }
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: ` + sTimeRedir[2] / 1000+` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -883,6 +876,9 @@ window.location.href = postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href + '#StopRedirect'; 
+} else {
+window.location.href = scriptDir + '?p2=' + key;
+window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
@@ -894,7 +890,6 @@ window.location.href = window.location.href + '#StopRedirect';
 if (getP3 <= i){
 if (i3 <= postLimit - 1){
 //printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter, rightFooter);
-//lRelevantResultArr.push(lRelevantResultPoint, fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter, rightFooter));
 if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
@@ -904,15 +899,10 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-//`<!-- forSort: ${lRelevantResultPoint} -->` +
 var testArr =  fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 } else {
-//`<!-- forSort: ${lRelevantResultPoint} -->` +
 var testArr = fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
 }
-//var testArr = `<!-- forSort: ${lRelevantResultPoint} -->` + fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
-//lRelevantResultArr.push(testArr);
-lRelevantResultArr.push(testArr);
 }
 i3++;
 }
@@ -938,7 +928,6 @@ lFoundQUrlList.push(postUrl);
 };
 
 
-lRelevantResultPoint = 0;
 });
 
 
@@ -946,13 +935,6 @@ lRelevantResultPoint = 0;
 }
 
 
-//https://stackoverflow.com/questions/15478954/sort-array-elements-string-with-numbers-natural-sort
-//lRelevantResultArr.sort(function (a,b) { return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }); });
-
-//https://stackoverflow.com/questions/2802341/natural-sort-of-alphanumerical-strings-in-javascript
-var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
-/*lRelevantResultArr.sort(collator.compare); // relevant*/
-printPost = lRelevantResultArr.join("");
 
 
 }
@@ -978,9 +960,6 @@ if (q != ''){
 qSearch = (q);
 qSearch = String(qSearch).toLowerCase();
 var qSearchList = (qSearch + ' ').split(' ');
-
-// rm last symbol if " l".
-if (q[q.length - 1] == 'l'&&q[q.length - 2] == ' '){ qSearch = qSearch.slice(0, -2); }
 
 jsonVar.forEach((item, key) => {
 
@@ -1028,10 +1007,9 @@ var subQforLight = subQ.join(confSymbolForSplit);
 
 if (checkDublicateId[0] != postId){ // fixed dublicate post when search and found
 
-// Luck search if last word " l".
+// Luck
 if (q2 == 'l'){
 //if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?id=' + postId; }
-if (postUrl == ''&&postId != ''){ window.location.href = scriptDir + '?p2=' + key; }
 if (postUrl != ''){
 comMessagePrint = `Luck search, redirect to URL: `+ sTimeRedir[2] / 1000 + ` sec.`;
 if (('' + window.location + '').search("#StopRedirect") == -1){
@@ -1040,6 +1018,9 @@ window.location.href = postUrl;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
 }
 window.location.href = window.location.href + '#StopRedirect'; 
+} else {
+window.location.href = scriptDir + '?p2=' + key;
+window.location.href = window.location.href + '#StopRedirect';
 }
 //console.log(postUrl);
 }
@@ -2146,7 +2127,6 @@ var q3388 = String(subQforLight).split(confSymbolForSplit);
 q3388.forEach((element3333) => {
 element3333 = (element3333.trim()).toLowerCase();
 if (element3333.trim() != ''&&item.trim() != ''){
-//alert(element3333);
 if (countHl == 0&&String(item.toLowerCase()).indexOf(element3333.toLowerCase()) != -1){
 if (item222 != ''){
 item222 = `<span class="bold borderBottomOrange">${item222}</span>`;
