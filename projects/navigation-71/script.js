@@ -1,5 +1,4 @@
 // Navigation JS part v.1.2.1
-//Creating navigation in progress, sorry
 
 
 if (conf == undefined){

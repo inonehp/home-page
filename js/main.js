@@ -256,9 +256,6 @@ ${conf["confMenuItems2"]}
 
 
 // Navigation JS part v.1.2.1
-//Creating navigation in progress, sorry
-
-
 if (conf == undefined){
 var conf = [];
 // wrapper size for navigation, number in px from your CSS
