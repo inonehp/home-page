@@ -833,7 +833,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Text to URL or file name\n\nConversion of text into URL or file name using JavaScript. | text to url: ",
+        "text": "Text to URL or file name\n\nConversion of text into URL or file name text using JavaScript.\r\nText to url, url to text tile name. | text to url: ",
         "url": "\/projects\/text-to-url-43\/index.html",
         "tag": " #text #URL #tool #file #name #JavaScript #project",
         "id": "4d4fbb01ddf0ddec93ab9128a52c8794",
