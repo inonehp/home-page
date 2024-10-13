@@ -42,6 +42,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Art\n\nSometimes I draw something. | main: ",
+        "url": "\/main\/art-page.html",
+        "tag": " #art #page #main",
+        "id": "1a621a084068de25fefc2a5900143cce",
+        "time": "id"
+    },
+    {
         "text": "Articles\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | main: ",
         "url": "\/main\/articles.html",
         "tag": " #text #article #articles #post #page #main",
@@ -445,6 +452,13 @@ var sitemapJsonVar = [
         "url": "\/main\/photos-page.html",
         "tag": " #photo #photos #page #main",
         "id": "014043f38d7b7e437bfb3a0bedb6335f",
+        "time": "id"
+    },
+    {
+        "text": "Posts\n\nPosts. Personal posts. | main: ",
+        "url": "\/main\/posts.html",
+        "tag": " #posts #page #main",
+        "id": "e83ad7c3e5d94880ce9bfdacb2df6b92",
         "time": "id"
     },
     {
