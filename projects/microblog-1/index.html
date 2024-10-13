@@ -37,7 +37,7 @@ JavaScript, page, project,
 <link rel="preload" href="style.css" as="style">
 <link rel="stylesheet" href="style.css" type="text/css">
 
-<link rel="preload" href="/data/blogJsonVar.js" as="script"> 
+<link rel="preload" href="../../data/microblogJsonVar.js" as="script"> 
 
 
 </head>
@@ -67,7 +67,7 @@ JavaScript, page, project,
 <script src="../../js/main.js"></script>
 
 <!-- Blog -->
-<script src="../../data/blogJsonVar.js"></script>
+<script src="/data/microblogJsonVar.js"></script>
 <script>
 // fresh data example in script.js
 if (jsonVar == undefined||jsonVar == ''){
@@ -117,7 +117,7 @@ let blogConfig = {
 };
 </script>
 
-<script src="/projects/microblog-1/script.js" onload="blog('printBlog', blogJsonVar, 'wrapper', './', blogConfig)"></script>
+<script src="/projects/microblog-1/script.js" onload="blog('printBlog', microblogJsonVar, 'wrapper', './', blogConfig)"></script>
 <!-- // Blog -->
 
 </body>

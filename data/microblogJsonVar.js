@@ -1,5 +1,5 @@
 
-var blogJsonVar = 
+var microblogJsonVar = 
 
 [
     {
@@ -10,7 +10,7 @@ var blogJsonVar =
         "url": "https:\/\/developers.google.com\/search\/docs\/fundamentals\/seo-starter-guide",
         "tag": "#SEO",
         "time": 1727230076,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=270\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "268",
@@ -20,7 +20,7 @@ var blogJsonVar =
         "url": "https:\/\/designmuseum.org\/discover-design\/all-stories\/what-is-good-design-a-quick-look-at-dieter-rams-ten-principles",
         "tag": "#WebDesign",
         "time": 1726819593,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=268\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "266",
@@ -30,7 +30,7 @@ var blogJsonVar =
         "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/130.0\/releasenotes\/",
         "tag": "#news #technology",
         "time": 1725487711,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=266\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "258",
@@ -40,7 +40,7 @@ var blogJsonVar =
         "url": "https:\/\/www.seroundtable.com\/google-continuous-scroll-dead-37618.html",
         "tag": "#news #technology",
         "time": 1719477791,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=258\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "251",
@@ -50,7 +50,7 @@ var blogJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=xPyw4nZlGNA",
         "tag": "#news #game #video",
         "time": 1714531473,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=251\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "240",
@@ -60,7 +60,7 @@ var blogJsonVar =
         "url": "https:\/\/www.sitepoint.com\/new-javascript-ecmascript\/",
         "tag": "#WebDevelopment #programming",
         "time": 1710784688,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=240\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "238",
@@ -70,7 +70,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1769385960502948036",
         "tag": "#space",
         "time": 1710693336,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=238\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "237",
@@ -80,7 +80,7 @@ var blogJsonVar =
         "url": "https:\/\/www.instagram.com\/p\/C4Y6auAvreP\/",
         "tag": "#space",
         "time": 1710554826,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=237\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "236",
@@ -90,7 +90,7 @@ var blogJsonVar =
         "url": "https:\/\/www.instagram.com\/p\/C4TqTTNJlCh\/",
         "tag": "#space",
         "time": 1710411277,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=236\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "235",
@@ -100,7 +100,7 @@ var blogJsonVar =
         "url": "https:\/\/www.instagram.com\/p\/C4em10oNcXz\/",
         "tag": "#space",
         "time": 1710410782,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=235\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "233",
@@ -110,7 +110,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1767941684799615165",
         "tag": "#space",
         "time": 1710410627,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=233\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "232",
@@ -120,7 +120,7 @@ var blogJsonVar =
         "url": "https:\/\/alternativeto.net\/news\/2024\/3\/microsoft-complies-with-eu-s-dma-allowing-uninstalling-of-onedrive-edge-bing-and-more\/",
         "tag": "#news #technology",
         "time": 1710407103,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=232\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "230",
@@ -130,7 +130,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1755547283754537449",
         "tag": "#space",
         "time": 1707401122,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=230\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "229",
@@ -140,7 +140,7 @@ var blogJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/web_design\/comments\/1al4tv5\/web_design_curation_websites_for_inspiration\/",
         "tag": "#links #inspiration #WebDesign",
         "time": 1707383853,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=229\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "227",
@@ -150,7 +150,7 @@ var blogJsonVar =
         "url": "",
         "tag": "#note",
         "time": 1706855711,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=227\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "226",
@@ -160,7 +160,7 @@ var blogJsonVar =
         "url": "",
         "tag": "#CSS #note",
         "time": 1706840767,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=226\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "225",
@@ -170,7 +170,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/taylorswift13\/status\/1687102339931574272",
         "tag": "#nice #design",
         "time": 1706828047,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=225\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "224",
@@ -180,7 +180,7 @@ var blogJsonVar =
         "url": "",
         "tag": "#note",
         "time": 1706827994,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=224\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "223",
@@ -190,7 +190,7 @@ var blogJsonVar =
         "url": "https:\/\/www.youtube.com\/playlist?list=PL590L5WQmH8cmYWEHN9horbWubwpruSiO",
         "tag": "#top",
         "time": 1706545376,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=223\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "222",
@@ -200,7 +200,7 @@ var blogJsonVar =
         "url": "",
         "tag": "#note",
         "time": 1706256437,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=222\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "221",
@@ -210,7 +210,7 @@ var blogJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=Vb0dG-2huJE",
         "tag": "#video #technology",
         "time": 1706050482,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=221\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "217",
@@ -220,7 +220,7 @@ var blogJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=WdbeqSQjZI8",
         "tag": "#video #technology",
         "time": 1705719183,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=217\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "216",
@@ -230,7 +230,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAUniverse\/status\/1747356050221650144",
         "tag": "#space",
         "time": 1705526137,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=216\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "215",
@@ -240,7 +240,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1745891342952129002",
         "tag": "#space",
         "time": 1705209494,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=215\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "214",
@@ -250,7 +250,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAJPL\/status\/1745853148588064925",
         "tag": "#space",
         "time": 1705209464,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=214\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "213",
@@ -260,7 +260,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1741503237566443821",
         "tag": "#space",
         "time": 1704093898,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=213\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "212",
@@ -270,7 +270,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1737850852130640084",
         "tag": "#space",
         "time": 1703570551,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=212\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "211",
@@ -280,7 +280,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1739194511014674539",
         "tag": "#space",
         "time": 1703570514,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=211\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "210",
@@ -290,7 +290,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1735631356409835997",
         "tag": "#space",
         "time": 1702895803,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=210\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "209",
@@ -300,7 +300,7 @@ var blogJsonVar =
         "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/xxmVzPP",
         "tag": "#CSS",
         "time": 1702895730,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=209\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "208",
@@ -310,7 +310,7 @@ var blogJsonVar =
         "url": "",
         "tag": "#learning #English #note",
         "time": 1702198743,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=208\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "207",
@@ -320,7 +320,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1730241024960729495",
         "tag": "#space",
         "time": 1702153478,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=207\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "206",
@@ -330,7 +330,7 @@ var blogJsonVar =
         "url": "https:\/\/www.behance.net\/blog\/visual-trends-2023",
         "tag": "#WebDesign",
         "time": 1702122662,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=206\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "204",
@@ -340,7 +340,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1732777746516812179",
         "tag": "#space",
         "time": 1702040845,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=204\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "203",
@@ -350,7 +350,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1727705042453409873",
         "tag": "#space",
         "time": 1700927151,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=203\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "202",
@@ -360,7 +360,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1727375632450134298",
         "tag": "#space",
         "time": 1700906013,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=202\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "201",
@@ -370,7 +370,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASA_es\/status\/1722673813777731713",
         "tag": "#space",
         "time": 1700056297,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=201\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "200",
@@ -380,7 +380,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1724444325151400080",
         "tag": "#space",
         "time": 1700056262,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=200\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "198",
@@ -390,7 +390,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAJPL\/status\/1719153461504188565",
         "tag": "#photo #space",
         "time": 1699179827,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=198\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "197",
@@ -400,7 +400,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAJPL\/status\/1720470893263298806",
         "tag": "#photo #space",
         "time": 1699179781,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=197\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "196",
@@ -410,7 +410,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/HubbleTelescope\/status\/1720436439689666729",
         "tag": "#photo #space",
         "time": 1699179707,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=196\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "195",
@@ -420,7 +420,7 @@ var blogJsonVar =
         "url": "https:\/\/science.nasa.gov\/image-detail\/eye-in-the-sky-2\/",
         "tag": "#test #photo #space",
         "time": 1698911127,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=195\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "194",
@@ -430,7 +430,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1719361091069673966",
         "tag": "#photo #space",
         "time": 1698871135,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=194\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "192",
@@ -440,7 +440,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1716816840125816875",
         "tag": "#photo #space",
         "time": 1698360325,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=192\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "191",
@@ -450,7 +450,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1717198085955215468",
         "tag": "#photo #space",
         "time": 1698303767,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=191\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "188",
@@ -460,7 +460,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1716348932270297244",
         "tag": "#photo #space",
         "time": 1698062793,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=188\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "186",
@@ -470,7 +470,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASASun\/status\/1716122435508957318",
         "tag": "#space #Sun #video",
         "time": 1698032417,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=186\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "185",
@@ -480,7 +480,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAExoplanets\/status\/1715449252703539396",
         "tag": "#photo #space",
         "time": 1698030900,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=185\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "183",
@@ -490,7 +490,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAExoplanets\/status\/1714352212833681892",
         "tag": "#photo #space",
         "time": 1697673757,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=183\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "180",
@@ -500,7 +500,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1711750323381952531",
         "tag": "#space #photo",
         "time": 1697490068,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=180\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "176",
@@ -510,7 +510,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1712166178787934259",
         "tag": "#photo #space",
         "time": 1697052895,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=176\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "175",
@@ -520,7 +520,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1710293916564459979",
         "tag": "#space #photo",
         "time": 1696899469,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=175\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "173",
@@ -530,7 +530,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1702321547611168910",
         "tag": "#photo #space",
         "time": 1695929235,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=173\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "172",
@@ -540,7 +540,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1705229552559993225",
         "tag": "#photo #space",
         "time": 1695776381,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=172\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "170",
@@ -550,7 +550,7 @@ var blogJsonVar =
         "url": "",
         "tag": "#JavaScript",
         "time": 1695374816,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=170\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "168",
@@ -560,7 +560,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1696606339206652088",
         "tag": "#photo #space",
         "time": 1693820870,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=168\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "167",
@@ -570,7 +570,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1697296736773869719",
         "tag": "#photo #space",
         "time": 1693820813,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=167\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "166",
@@ -580,7 +580,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1697249267013001461",
         "tag": "#photo #space",
         "time": 1693762520,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=166\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "164",
@@ -590,7 +590,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1693625978654777552",
         "tag": "#photo #space",
         "time": 1692744152,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=164\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "161",
@@ -600,7 +600,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/chandraxray\/status\/1691917757775003992",
         "tag": "#photo #space",
         "time": 1692262803,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=161\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "158",
@@ -610,7 +610,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NatGeo\/status\/1689309323053211652",
         "tag": "#photo",
         "time": 1691972991,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=158\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "148",
@@ -620,7 +620,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1687463418704355328",
         "tag": "#space",
         "time": 1691287470,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=148\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "136",
@@ -630,7 +630,7 @@ var blogJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=59Q_lhgGANc",
         "tag": "#music",
         "time": 1690774469,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=136\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "135",
@@ -640,7 +640,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/chandraxray\/status\/1685019459021594625",
         "tag": "#space #photo",
         "time": 1690774015,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=135\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "134",
@@ -650,7 +650,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/natgeowild\/status\/1684926704790237184",
         "tag": "#photo #flower",
         "time": 1690773575,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=134\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "132",
@@ -660,7 +660,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1684204017252020224",
         "tag": "#space #photo",
         "time": 1690773008,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=132\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "129",
@@ -670,7 +670,7 @@ var blogJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/box-decoration-break",
         "tag": "#CSS",
         "time": 1689652415,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=129\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "126",
@@ -680,7 +680,7 @@ var blogJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/scroll-snap-type",
         "tag": "#CSS",
         "time": 1689506112,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=126\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "125",
@@ -690,7 +690,7 @@ var blogJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/repeat",
         "tag": "#CSS",
         "time": 1689504832,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=125\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "103",
@@ -700,7 +700,7 @@ var blogJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/scroll-padding-top",
         "tag": "#CSS #note",
         "time": 1689439501,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=103\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "102",
@@ -710,7 +710,7 @@ var blogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1679070248924856320",
         "tag": "#space #photo",
         "time": 1689439414,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=102\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "101",
@@ -720,7 +720,7 @@ var blogJsonVar =
         "url": "",
         "tag": "#CSS #note",
         "time": 1689415882,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=101\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "52",
@@ -730,6 +730,6 @@ var blogJsonVar =
         "url": "",
         "tag": "#start #end",
         "time": 1682405725,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/blog.html?id=52\">id<\/a>"
+        "rightFooter": ""
     }
 ]
