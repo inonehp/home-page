@@ -3,6 +3,16 @@ var postsJsonVar =
 
 [
     {
+        "id": "23",
+        "text": "Web design news and UI\/UX news are also news when big sites update their site design: changes in navigation, functionality, etc.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#news #WebDesign #post",
+        "time": 1728889224,
+        "rightFooter": ""
+    },
+    {
         "id": "22",
         "text": "Caching pages and showing a fresh version of the page is probably a complicated thing.",
         "text2": "",
