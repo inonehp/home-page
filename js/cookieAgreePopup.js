@@ -16,7 +16,7 @@ fuMPrintText('cookiePopup', `
 
 <p>
 
-<button class="shadow2 bold button light3 border3 margin2List cookieBtnNo borderRadius2"  onclick="cookiePopup('off')">No &nbsp; 
+<button class="shadow bold button light3 border3 margin2List cookieBtnNo borderRadius2"  onclick="cookiePopup('off')">No &nbsp; 
 <span class="ico">
 <svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <g transform="rotate(135 256 256)" stroke="#000" stroke-width="20.817">
@@ -27,7 +27,7 @@ fuMPrintText('cookiePopup', `
 </span>
 </button>
 
-<button class="shadow2 bold button light3 border3 margin2List cookieBtnYes borderRadius2" onclick="cookiePopup('on')">Yes &nbsp; 
+<button class="shadow bold button light3 border3 margin2List cookieBtnYes borderRadius2" onclick="cookiePopup('on')">Yes &nbsp; 
 <span class="ico">
 <svg width="512" height="512" version="1.1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
  <g transform="matrix(.93266 0 0 .93266 34.642 17.239)" fill="#4e9a06">
