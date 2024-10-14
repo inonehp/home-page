@@ -1,4 +1,4 @@
-// Microblog, blog or keep v.3.4.1
+// Microblog, blog or keep v.3.5.0
 // Mini system for showing content / mini Twitter or Google Keep
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -547,7 +547,8 @@ comMessage = 'found';
 
 // collect for random
 if (postUrl == ''&&postId != ''){
-lFoundQUrlList.push(scriptDir + '?id=' + postId);
+//lFoundQUrlList.push(scriptDir + '?id=' + postId);
+lFoundQUrlList.push(scriptDir + '?p2=' + key);
 } else {
 lFoundQUrlList.push(postUrl);
 }
@@ -621,7 +622,8 @@ comMessage = 'found';
 
 // collect for random
 if (postUrl == ''&&postId != ''){
-lFoundQUrlList.push(scriptDir + '?id=' + postId);
+//lFoundQUrlList.push(scriptDir + '?id=' + postId);
+lFoundQUrlList.push(scriptDir + '?p2=' + key);
 } else {
 lFoundQUrlList.push(postUrl);
 }
@@ -872,7 +874,8 @@ comMessage = 'found';
 
 // collect for random
 if (postUrl == ''&&postId != ''){
-lFoundQUrlList.push(scriptDir + '?id=' + postId);
+//lFoundQUrlList.push(scriptDir + '?id=' + postId);
+lFoundQUrlList.push(scriptDir + '?p2=' + key);
 } else {
 lFoundQUrlList.push(postUrl);
 }
@@ -1009,7 +1012,8 @@ checkDublicateId[0] = postId;
 
 // collect for random
 if (postUrl == ''&&postId != ''){
-lFoundQUrlList.push(scriptDir + '?id=' + postId);
+//lFoundQUrlList.push(scriptDir + '?id=' + postId);
+lFoundQUrlList.push(scriptDir + '?p2=' + key);
 } else {
 lFoundQUrlList.push(postUrl);
 }
@@ -2971,16 +2975,14 @@ document.getElementsByTagName('head')[0].appendChild(script2);
 let lFoundQUrlRandom = lFoundQUrlList[Math.floor(Math.random() * lFoundQUrlList.length)];
 //console.log(lFoundQUrlRandom);
 
-if (lFoundQUrlRandom != undefined){
+if (lFoundQUrlRandom != undefined&&('' + window.location + '').search("#StopRedirect") == -1){
 if (q2 == 'r'){
 if (lFoundQUrlRandom != ''){
 /*sTimeRedir[2] = 1200;
 comMessagePrint = `random URL: `+ sTimeRedir[2] / 1000 +` sec.`;*/
-if (('' + window.location + '').search("#StopRedirect") == -1){
 //window.location.href = '/projects/redirects-25/?rUrl=' + lFoundQUrlRandom;
 window.location.href = lFoundQUrlRandom;
 //setTimeout(function(){ window.location.href = postUrl; }, sTimeRedir[2]);
-}
 window.location.href = window.location.href + '#StopRedirect'; 
 }
 //console.log(postUrl);

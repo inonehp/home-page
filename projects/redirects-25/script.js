@@ -1247,7 +1247,7 @@ document.getElementById('printComList').innerHTML = '<div class="bg padding2 bor
 
 Example redirects (random): "Google n" - news about Google.
 
-goo - Google, bin - Bing, n - News, x - X (Twitter), red - Reddit, v - video, l - luck (first search result).
+goo - Google, bin - Bing, n - News, v - video, l - luck (first search result).
 </div>`;
 }
 
