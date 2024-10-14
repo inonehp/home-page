@@ -1,3 +1,6 @@
+
+var notesJsonVar = 
+
 [
     {
         "id": "76",

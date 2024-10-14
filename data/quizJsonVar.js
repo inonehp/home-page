@@ -1,3 +1,6 @@
+
+var quizJsonVar = 
+
 [
     {
         "id": "13",

@@ -1,3 +1,6 @@
+
+var adsJsonVar = 
+
 [
     {
         "text": "Albion Online | The Fantasy Sandbox MMORPG",
