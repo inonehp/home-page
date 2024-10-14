@@ -1,6 +1,3 @@
-
-var articlesJsonVar = 
-
 [
     {
         "id": "15",

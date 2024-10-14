@@ -1,6 +1,3 @@
-
-var microblogJsonVar = 
-
 [
     {
         "id": "270",

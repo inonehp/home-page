@@ -1,6 +1,3 @@
-
-var videoJsonVar = 
-
 [
     {
         "text": "'Lilac Time' (1928): Gary Cooper, Colleen Moore star in silent World War I romance -- full movie - YouTube",

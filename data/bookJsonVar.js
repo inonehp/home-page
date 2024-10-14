@@ -1,6 +1,3 @@
-
-var bookJsonVar = 
-
 [
     {
         "text": "The Project Gutenberg eBook of Adventures of Huckleberry Finn, By Mark Twain",

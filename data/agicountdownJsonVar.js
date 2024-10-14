@@ -1,6 +1,3 @@
-
-var agicountdownJsonVar = 
-
 [
     {
         "id": "29",

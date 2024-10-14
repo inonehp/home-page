@@ -1,4 +1,4 @@
-// Microblog, blog or keep v.3.5.0
+// Microblog, blog or keep v.3.6.0
 // Mini system for showing content / mini Twitter or Google Keep
 // Inspired by Twitter, Google Keep, and Fediverse
 // Not for large data files!
@@ -1039,39 +1039,7 @@ if (mode == 'search'&&comMessage != 'found') { comMessagePrint = `${q} Probably 
 
 let blogStyle = "";
 
-
 if (display == 'gallery'){
-if (mode == 'list'&&total != 1||mode == 'search'&&total != 1){
-blogStyle = `
-
-<style>
-.blogContent {
-display: grid;
-width: 100%;
-/*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
-grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-grid-gap: 5px;
-
-/*max-width: 1200px;*/
-/*margin: 0 auto;*/
-
-align-content: center;
-justify-content: space-evenly;
-}
-
-.postFooter { grid-template-columns: 1fr; }
-
-@media(max-width: 220px) { .blogContent { display: block; width: 100%; }}
-</style>
-
-`;
-
-} else if (display == 'gallery'){
-blogStyle = ``;
-}
-}
-
-if (display == 'galleryStretch'){
 if (mode == 'list'&&total != 1||mode == 'search'&&total != 1){
 blogStyle = `
 
@@ -1095,10 +1063,14 @@ flex-direction: column;
 min-height: 100%; 
 
 width: auto;
+width: 1fr;
+
 min-width: 100px;
 min-width: 45px;
+
 max-width: 100%;
 max-width: 215px;
+
 margin: 3px;
 }
 
@@ -1110,8 +1082,35 @@ margin: 3px;
 
 `;
 
-} else if (display == 'galleryStrech'){
-blogStyle = ``;
+}
+}
+
+if (display == 'galleryStretch'){
+if (mode == 'list'&&total != 1||mode == 'search'&&total != 1){
+blogStyle = `
+
+<style>
+.blogContent {
+display: grid;
+width: 100%;
+/*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+grid-template-rows: masonry;
+grid-gap: 5px;
+
+/*max-width: 1200px;*/
+/*margin: 0 auto;*/
+
+align-content: center;
+justify-content: space-evenly;
+}
+
+.postFooter { grid-template-columns: 1fr; }
+
+@media(max-width: 220px) { .blogContent { display: block; width: 100%; }}
+</style>
+
+`;
 }
 }
 
