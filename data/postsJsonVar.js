@@ -3,6 +3,16 @@ var postsJsonVar =
 
 [
     {
+        "id": "24",
+        "text": "SEO is when it takes 1 hour to come up with 2 words.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#SEO #post",
+        "time": 1728892091,
+        "rightFooter": ""
+    },
+    {
         "id": "23",
         "text": "Web design news and UI\/UX news are also news when big sites update their site design: changes in navigation, functionality, etc.",
         "text2": "",
