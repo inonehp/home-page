@@ -84,6 +84,7 @@ overflow-y: scroll;
 .postContentCenter { flex: 1 0 auto; }
 .page { min-height: 100vh; }
 
+/* need wrapper */
 .contentCenter, .postContentCenter {
 display: flex;
 flex-direction: column;
