@@ -9,9 +9,14 @@ Home page and startpage with projects such as typing speed, to-do list, games, n
 ---
   
 > [!NOTE]
+> - ~50/2 Themes (2 - dark, light).
+> - Typing Speed with your own text.
+   
+> [!IMPORTANT]
 > - You can find information about other licenses on the "about" page.
 > - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.
-> - Features: ~50/2 Themes (2 - dark, light), Typing Speed with your own text.
+
+
   
 ---
 
