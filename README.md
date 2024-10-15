@@ -1,4 +1,4 @@
-<!-- README.md v.1.9.1 -->
+<!-- README.md v.1.9.2 -->
   
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
@@ -10,6 +10,7 @@ Home & Start Page with projects such as typing speed, to-do list, games, new tab
   
 > [!NOTE]
 > - ~50/2 Themes (2 - dark, light).
+> - Speed ​​dial panel in the form of buttons.
 > - Typing Speed with your own text.
    
 > [!IMPORTANT]
