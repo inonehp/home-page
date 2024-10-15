@@ -4,13 +4,14 @@
   
 # About
 
-Home page with projects such as search redirect, microblog, games, to-do list, typing speed, new tab extension, icons, themes, website templates etc
+Home page and startpage with projects such as typing speed, to-do list, games, new tab extension, tech news, microblog, icons, themes, website templates etc
   
 ---
   
 > [!NOTE]
 > - You can find information about other licenses on the "about" page.
 > - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.
+> - Features: ~50/2 Themes (2 - dark, light), Typing Speed with your own text.
   
 ---
 

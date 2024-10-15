@@ -175,9 +175,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Chrome extensions page\n\nChrome browser extension: new tab redirct ... | main: ",
+        "text": "Chrome extensions page\n\nChrome browser extension: new tab redirct (new tab page) ... | main: ",
         "url": "\/main\/chrome-extensions-page.html",
-        "tag": " #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
+        "tag": " #startpage #newtabpage #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
         "id": "60a8ec1ed9d2c1b2d5c3e3eedde4c908",
         "time": "id"
     },
@@ -252,9 +252,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Firefox extensions page\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct, localhost as search engine. | main: ",
+        "text": "Firefox extensions page\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct (own new tab page) localhost as search engine, etc | main: ",
         "url": "\/main\/firefox-extensions-page.html",
-        "tag": " #Firefox #hotkeys #new #tab #NewTab #firefox #extesion #projects #project #list #page #main",
+        "tag": " #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extesion #projects #project #list #page #main",
         "id": "c7911aa05e8073309853674dd5051291",
         "time": "id"
     },
@@ -667,7 +667,7 @@ var sitemapJsonVar = [
     {
         "text": "Start Page\n\nStart page, home page, new tab page. | start page: ",
         "url": "\/projects\/start-page-41\/index.html",
-        "tag": " #StartPage #home #homepage #start #page #tab #NewTab #StartPage #CSS #JavaScript #project",
+        "tag": " #NewTabPage #StartPage #home #homepage #start #page #tab #NewTab #StartPage #CSS #JavaScript #project",
         "id": "0c669ab1f6ae5ee45db5b42b1b9a6bf7",
         "time": "id"
     },
