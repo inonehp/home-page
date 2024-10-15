@@ -406,6 +406,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "News\n\nNews about technology, web design, web development, and programming. | main: ",
+        "url": "\/main\/news.html",
+        "tag": " #news #technology #webdesign #web #design #development #programming #page #main",
+        "id": "3bc3d0be6d67c01d062696f1d038d93f",
+        "time": "id"
+    },
+    {
         "text": "Not Sleeping Computer\n\nThe Web Page tries not to put the computer into sleep mode. | not sleep pc: ",
         "url": "\/old-projects\/not-sleep-pc-12\/index.html",
         "tag": " #not #sleep #PC #computer #prevent #hibernation #HTML #project",

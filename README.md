@@ -31,5 +31,7 @@ Home page with projects such as search redirect, microblog, games, to-do list, t
 [HTML](https://github.com/topics/HTML),
 [CSS](https://github.com/topics/CSS),
 [JavaScript](https://github.com/topics/JavaScript)
+[Startpage](https://github.com/topics/startpage),
+[Newtabpage](https://github.com/topics/newtabpage),
 
 

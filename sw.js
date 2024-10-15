@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.10.14";
+//var myCacheVersion = "v.1.2.2024.10.15";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.10.14").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.10.15").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -99,6 +99,8 @@ var fileListArr = ["/404.html",
 "/art/2024/https-paint-toys-mondrian-screenshot-3.png",
 "/art/2024/https-paint-toys-oil-screenshot-4.png",
 "/art/2024/https-paint-toys-one-line-screenshot-5.jpeg",
+"/art/2024/wave-lines-gimp-8.jpg",
+"/art/2024/window-gimp-9.jpg",
 "/audio/click.mp3",
 "/audio/",
 "/audio/click2.mp3",
@@ -273,6 +275,7 @@ var fileListArr = ["/404.html",
 "/data/iconsJsonVar.js",
 "/data/microblogJsonVar.js",
 "/data/musicJsonVar.js",
+"/data/newsJsonVar.js",
 "/data/notesJsonVar.js",
 "/data/podcastJsonVar.js",
 "/data/postsJsonVar.js",
@@ -676,6 +679,7 @@ var fileListArr = ["/404.html",
 "/main/index.html",
 "/main/install.html",
 "/main/microblog.html",
+"/main/news.html",
 "/main/notes.html",
 "/main/photos-page.html",
 "/main/posts.html",
@@ -1208,7 +1212,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.10.14")
+caches.open("v.1.2.2024.10.15")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1234,7 +1238,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.10.14")
+caches.open("v.1.2.2024.10.15")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1267,7 +1271,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.10.14"];
+  const cachesToKeep = ["v.1.2.2024.10.15"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
