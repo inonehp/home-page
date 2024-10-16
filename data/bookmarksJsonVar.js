@@ -3,6 +3,16 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "179",
+        "text": "Marginalia Search",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/search.marginalia.nu\/",
+        "tag": "#platform #search #engine #SearchEngine",
+        "time": 1729079325,
+        "rightFooter": "<a class=\"brand\" href=\"\/main\/bookmarks.html?id=179\">id<\/a>"
+    },
+    {
         "id": "177",
         "text": "Download the latest indie games - itch.io",
         "text2": "",

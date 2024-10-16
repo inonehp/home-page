@@ -1,5 +1,85 @@
 [
     {
+        "id": "78",
+        "text": "Stephanie Eckles | Front-End SWE, Author, Speaker",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/thinkdobecreate.com\/",
+        "tag": "#personal #WebDesign #WebDevelopment",
+        "time": 1729083042,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=78\">id<\/a>"
+    },
+    {
+        "id": "77",
+        "text": "Andy Bell - Designer, front-end developer and founder of Set Studio",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/andy-bell.co.uk\/",
+        "tag": "#personal",
+        "time": 1729082587,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=77\">id<\/a>"
+    },
+    {
+        "id": "76",
+        "text": "Piccalilli - level up your front-end development skills",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/piccalil.li\/",
+        "tag": "#agency",
+        "time": 1729082541,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=76\">id<\/a>"
+    },
+    {
+        "id": "75",
+        "text": "Modern CSS Solutions",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/moderncss.dev\/",
+        "tag": "#CSS",
+        "time": 1729082203,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=75\">id<\/a>"
+    },
+    {
+        "id": "74",
+        "text": "The Useless Web",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/theuselessweb.com\/",
+        "tag": "#random #website",
+        "time": 1729082135,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=74\">id<\/a>"
+    },
+    {
+        "id": "73",
+        "text": "Flux Veritas - Home",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/belarius.neocities.org\/",
+        "tag": "#personal",
+        "time": 1729069288,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=73\">id<\/a>"
+    },
+    {
+        "id": "72",
+        "text": "Matt Graham",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/madebygraham.com\/",
+        "tag": "#personal",
+        "time": 1729069253,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=72\">id<\/a>"
+    },
+    {
+        "id": "71",
+        "text": "Greg Jensen",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/belarius.github.io\/",
+        "tag": "#personal",
+        "time": 1729069183,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=71\">id<\/a>"
+    },
+    {
         "id": "70",
         "text": "Style Stage from Modern CSS Solutions",
         "text2": "",

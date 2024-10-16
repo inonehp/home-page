@@ -1,4 +1,4 @@
-// Search redirects v.2.5.`
+// Search redirects v.2.6.0
 // Search query + command
 
 // conf
@@ -904,6 +904,25 @@ sRedirectUrl = url;
 break;*/
 
 
+case 'mar#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+
+urlList = [
+"https://search.marginalia.nu/search?query=" + q,
+];
+if (q == ''){
+urlList = [
+"https://search.marginalia.nu/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'we#':
 case 'wet#':
 q = q3.replace(qCom, '');
@@ -996,11 +1015,13 @@ q = encodeURIComponent(q);
 urlList = [
 //"https://www.bing.com/search?q=" + q,
 "https://www.ecosia.org/search?q=" + q,
+"https://search.marginalia.nu/search?query=" + q,
 ];
 if (q == ''){
 urlList = [
 //"https://www.bing.com/",
 "https://www.ecosia.org/",
+"https://search.marginalia.nu/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

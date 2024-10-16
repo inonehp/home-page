@@ -1973,11 +1973,6 @@ var wordJsonVar =
         "text3": "zen"
     },
     {
-        "text": "\u0434\u0437\u0438\u0436\u0447\u0430\u043d\u043d\u044f",
-        "text2": "buzz",
-        "text3": "zumbido"
-    },
-    {
         "text": "\u0434\u0437\u044e\u0434\u043e",
         "text2": "judo",
         "text3": "judo"
@@ -6981,6 +6976,11 @@ var wordJsonVar =
         "text": "\u0440\u043e\u043c\u0430\u043d\u0441",
         "text2": "romance",
         "text3": "romance"
+    },
+    {
+        "text": "\u0440\u043e\u043c\u0430\u043d\u0442\u0438\u0437\u043c",
+        "text2": "romanticism",
+        "text3": "romanticismo"
     },
     {
         "text": "\u0440\u043e\u043c\u0430\u043d\u0442\u0438\u043a\u0430",
