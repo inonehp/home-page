@@ -1,5 +1,4 @@
-// Navigation JS part v.1.2.1
-
+// Navigation JS part v.1.3.1
 
 if (conf == undefined){
 var conf = [];
@@ -55,43 +54,42 @@ display: none !important;
 
 // button
 const dropdownButton = document.getElementById("dropdownMenuButton");
-const dropdownMenu = document.getElementById("dropdownMenu");
+let dropdownMenu = document.getElementById("dropdownMenu");
 const topNav = document.getElementById("topNav");
 
 function fuMDropdownButton(){
-
 //https://stackoverflow.com/questions/64487640/javascript-show-hide-div-onclick
 if (dropdownMenu.style.display === "block") {
 dropdownMenu.style.display = "none";
-dropdownButton.textContent = "☰ Menu";
+if (dropdownButton != null){
+dropdownButton.innerHTML = `☰ Menu`;
+}
 } else {
 dropdownMenu.style.display = "block";
-dropdownButton.textContent = "☶ Menu";
+if (dropdownButton != null){
+dropdownButton.innerHTML = `☶ Menu`;
 }
 
 //https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
 //dropdownMenu.classList.toggle("showDropdownMenu");
-
 }
+}
+
 
 // out area click
-if (dropdownMenu != null){
 //https://stackoverflow.com/questions/36695438/detect-click-outside-div-using-javascript
-window.addEventListener('click', function(e){ 
-
-if (topNav.contains(e.target)){
-    // Clicked in box
+window.addEventListener('click', function(e){
+dropdownMenu = document.getElementById("dropdownMenu");
+if (topNav.contains(e.target) == true){
+// Clicked in box
 } else {
-    // Clicked outside the box
 dropdownMenu.style.display = "none";
 //dropdownMenu.classList.remove("showDropdownMenu");
-dropdownButton.textContent = "☰ Menu";
-  }
-})
+if (dropdownButton != null){
+dropdownButton.innerHTML = `☰ Menu`;
 }
+}
+});
 // end Navigation JS version
-
-
-
 
 

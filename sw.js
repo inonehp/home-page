@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.10.15";
+//var myCacheVersion = "v.1.2.2024.10.16";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.10.15").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.10.16").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -90,11 +90,12 @@ var fileListArr = ["/404.html",
 "/LICENSE.md",
 "/README.md",
 "/archive.html",
-"/art/2024/car-drawing-6.jpg",
+"/art/2024/car-gimp-6.jpg",
 "/art/",
 "/art/2024/",
-"/art/2024/cloud-drawing-7.jpg",
+"/art/2024/cloud-gimp-7.jpg",
 "/art/2024/empty-drawing-1.png",
+"/art/2024/face-gimp-10.jpg",
 "/art/2024/https-paint-toys-calligram-screenshot-2.png",
 "/art/2024/https-paint-toys-mondrian-screenshot-3.png",
 "/art/2024/https-paint-toys-oil-screenshot-4.png",
@@ -266,26 +267,44 @@ var fileListArr = ["/404.html",
 "/css-art/woman-css-32/index.html",
 "/css-art/woman-css-32/",
 "/css-art/woman-css-32/style.css",
-"/data/adsJsonVar.js",
+"/data/ads.json",
 "/data/",
+"/data/adsJsonVar.js",
+"/data/agicountdown.json",
 "/data/agicountdownJsonVar.js",
+"/data/articles.json",
 "/data/articlesJsonVar.js",
+"/data/book.json",
 "/data/bookJsonVar.js",
+"/data/bookmarks.json",
 "/data/bookmarksJsonVar.js",
 "/data/iconsJsonVar.js",
+"/data/microblog.json",
 "/data/microblogJsonVar.js",
+"/data/music.json",
 "/data/musicJsonVar.js",
+"/data/news.json",
 "/data/newsJsonVar.js",
+"/data/notes.json",
 "/data/notesJsonVar.js",
+"/data/podcast.json",
 "/data/podcastJsonVar.js",
+"/data/posts.json",
 "/data/postsJsonVar.js",
+"/data/quiz.json",
 "/data/quizJsonVar.js",
+"/data/quote.json",
 "/data/quoteJsonVar.js",
+"/data/radio.json",
 "/data/radioJsonVar.js",
+"/data/randomwebsite.json",
 "/data/randomwebsiteJsonVar.js",
 "/data/sitemapJsonVar.js",
+"/data/tv.json",
 "/data/tvJsonVar.js",
+"/data/video.json",
 "/data/videoJsonVar.js",
+"/data/word.json",
 "/data/wordJsonVar.js",
 "/data-other/img/close10x10.png",
 "/data-other/",
@@ -480,6 +499,8 @@ var fileListArr = ["/404.html",
 "/icons-data/list.svg",
 "/icons-data/live.svg",
 "/icons-data/memo.svg",
+"/icons-data/menu-open.svg",
+"/icons-data/menu.svg",
 "/icons-data/movie.svg",
 "/icons-data/music.svg",
 "/icons-data/navigation.svg",
@@ -1212,7 +1233,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.10.15")
+caches.open("v.1.2.2024.10.16")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1238,7 +1259,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.10.15")
+caches.open("v.1.2.2024.10.16")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1271,7 +1292,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.10.15"];
+  const cachesToKeep = ["v.1.2.2024.10.16"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

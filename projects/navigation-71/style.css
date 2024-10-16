@@ -1,5 +1,4 @@
-/* Navigation CSS v.2.1.0 */
-//*Creating navigation in progress, sorry*/
+/* Navigation CSS v.2.2.0 */
 
 .topNav form, .topNav input[type=search] { display: inline-block; }
 .topNav form { width: 100%; max-width: 130px; vertical-align: middle; }
@@ -52,6 +51,14 @@ display: none;
 }
 
 .topNav .dropdownMenuButton { display: none; }
+
+.dropdownMenuButton svg {
+max-width: var(--fontSize);
+vertical-align: middle;
+fill: var(--brand) !important;
+stroke: var(--brand) !important;
+}
+
 
 .dropdownMenuColumn {
 text-align: left;
