@@ -1,3 +1,6 @@
+
+var podcastJsonVar = 
+
 [
     {
         "text": "Afford Anything | Listen to Podcasts On Demand Free | TuneIn",

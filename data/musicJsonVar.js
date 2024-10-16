@@ -1,3 +1,6 @@
+
+var musicJsonVar = 
+
 [
     {
         "id": "5722",

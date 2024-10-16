@@ -1,3 +1,6 @@
+
+var newsJsonVar = 
+
 [
     {
         "id": "1",

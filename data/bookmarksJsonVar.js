@@ -1,3 +1,6 @@
+
+var bookmarksJsonVar = 
+
 [
     {
         "id": "177",

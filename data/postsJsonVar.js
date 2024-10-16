@@ -1,3 +1,6 @@
+
+var postsJsonVar = 
+
 [
     {
         "id": "25",

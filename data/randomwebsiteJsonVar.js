@@ -1,3 +1,6 @@
+
+var randomwebsiteJsonVar = 
+
 [
     {
         "id": "70",
