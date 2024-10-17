@@ -32,6 +32,7 @@ var print = `
 <div class="tCenter op wrapperSmall">
 <a class="button border borderRadius2 light2 shadow" href="#" onclick="fuMReload();">Again (Reload)</a>
 <a class="button border borderRadius2 light2 shadow" href="data-list.html">Data List</a>
+<!--<a class="button border borderRadius2 light2 shadow" href="/?q=rs">Random Site (Web)</a>-->
 </div>
 
 <!--<div class="op small">

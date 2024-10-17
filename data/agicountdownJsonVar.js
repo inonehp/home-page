@@ -13,26 +13,6 @@ var agicountdownJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "28",
-        "text": "Elon Musk predicts AI will overtake human intelligence next year",
-        "text2": "2025 2030",
-        "text3": "",
-        "url": "https:\/\/www.ft.com\/content\/027b133f-f7e3-459d-95bf-8afd815ae23d",
-        "tag": "#article #single",
-        "time": 1721307669,
-        "rightFooter": ""
-    },
-    {
-        "id": "27",
-        "text": "Ray Kurzweil on how AI will transform the physical world",
-        "text2": "2029",
-        "text3": "",
-        "url": "https:\/\/www.economist.com\/by-invitation\/2024\/06\/17\/ray-kurzweil-on-how-ai-will-transform-the-physical-world",
-        "tag": "#article #single",
-        "time": 1718944002,
-        "rightFooter": ""
-    },
-    {
         "id": "21",
         "text": "AI timelines: What do experts in artificial intelligence expect for the future? - Our World in Data",
         "text2": "2061 2050",

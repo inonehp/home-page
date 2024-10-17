@@ -1,4 +1,4 @@
-// Search redirects v.2.6.2
+// Search redirects v.2.7.0
 // Search query + command
 
 // conf
@@ -88,7 +88,7 @@ q = encodeURIComponent(q);
 
 if (q == ''){
 urlList = [
-'tec', 'sci', 'dev',
+'n', 'cul', 'spo', 'sci', 'tec', 'dev',
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = '?q=' + random;
@@ -159,7 +159,6 @@ break;
 
 
 case 'r#':
-case 'rs#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q.trim());
@@ -179,6 +178,7 @@ break;
 
 
 case 'rr#':
+case 'rs#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -189,6 +189,8 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://wikipedia.org/wiki/Special:Random",
+"https://wordpress.com/next/",
+"https://www.dreamwidth.org/random",
 "https://neocities.org/browse?sort_by=random&tag=",
 "https://search.marginalia.nu/explore/random",
 ];
@@ -463,14 +465,12 @@ q = encodeURIComponent(q);
 
 urlList = [
 "https://www.google.com/search?q=" + q + "&tbm=nws",
+"https://www.bing.com/news/search?q=" + q + "&FORM=site",
 ];
 if (q == ''){
 urlList = [
-"https://news.google.com/",
-"https://flipboard.com/topic/news",
-"https://www.reddit.com/r/news/",
-"https://www.reddit.com/r/worldnews/",
-"https://www.perplexity.ai/discover",
+"https://wikinews.org/wiki/",
+"https://www.theguardian.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -489,12 +489,9 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
 "https://slashdot.org/",
-"https://flipboard.com/topic/technology",
-"https://flipboard.com/topic/computerscience",
-"https://www.reddit.com/r/technology/",
 "https://lemmy.world/c/technology",
+"https://www.theguardian.com/uk/technology",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -513,10 +510,8 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtVnVHZ0pWVXlnQVAB",
-"https://flipboard.com/topic/science",
 "https://science.slashdot.org/",
-"https://www.reddit.com/r/science/",
+"https://www.theguardian.com/science",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -547,6 +542,8 @@ break;
 
 
 case 'n2#':
+case 'cu#':
+case 'cul#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -556,21 +553,8 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://flipboard.com/topic/culture",
-"https://flipboard.com/topic/lifestyle",
-"https://flipboard.com/topic/celebritynews",
-"https://flipboard.com/topic/food",
-"https://flipboard.com/topic/travel",
-"https://flipboard.com/topic/homedecor",
-"https://www.reddit.com/r/movies/",
-"https://www.reddit.com/r/Music/",
-"https://www.reddit.com/r/pics/",
-
-"https://www.google.com/finance/",
-//"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FtVnVHZ0pWVXlnQVAB",
-//"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtVnVHZ0pWVXlnQVAB",
-//"https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3QwTlRFU0FtVnVLQUFQAQ",
-"https://flipboard.com/topic/business",
+"https://www.theguardian.com/culture",
+"https://www.theguardian.com/lifeandstyle",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -615,8 +599,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtVnVHZ0pWVXlnQVAB",
-"https://www.reddit.com/r/sports/",
+"https://www.theguardian.com/sport",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -856,19 +839,13 @@ q = encodeURIComponent(q);
 
 urlList = [
 //"https://substack.com/search/"+ q +"?searching=note",
-//"https://www.threads.net/search?q=" + q,
-//"https://x.com/search?q=" + q,
-//"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
 "https://bsky.app/search?q=" + q,
 "https://www.tumblr.com/search/" + q + "/text",
 "https://wordpress.com/search?q=" + q,
 ];
 if (q == ''){
 urlList = [
-//"https://substack.com/",
-//"https://www.threads.net/",
-//"https://x.com/",
-//"https://www.reddit.com/",
+//"https://substack.com/",,
 "https://bsky.app/",
 "https://www.tumblr.com/",
 "https://wordpress.com/",
