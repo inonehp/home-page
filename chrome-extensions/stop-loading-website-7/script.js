@@ -70,7 +70,8 @@ window.addEventListener('load', function() {
 }
 
 //const getting = browser.storage.sync.get("dataUrlStopLoadList");
-const getting = browser.storage.local.get("dataUrlStopLoadList");
+//const getting = browser.storage.local.get("dataUrlStopLoadList");
+const getting = chrome.storage.local.get("dataUrlStopLoadList");
 getting.then(onGot, onError);
 
 

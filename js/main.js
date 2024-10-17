@@ -443,7 +443,7 @@ fuMPrintText("footer", `
 
 <a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/main/about.html">About</a>
 <a class="brand inlineBlock padding" title="Social" href="https://${conf["confUsername"]}.bsky.social">Bluesky</a>
-<a class="brand inlineBlock padding" title="Neocities page" href="https://${conf["confUsername"]}.neocities.org/">Other Home</a>
+<a class="brand inlineBlock padding" title="Another home page" href="https://${conf["confUsername"]}.neocities.org/">Other Home</a>
 <a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/main/settings.html">Settings</a>
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/main/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>

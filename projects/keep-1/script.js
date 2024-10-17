@@ -2,7 +2,7 @@
 // Static online version of the offline 'keep' script that saves things, this part is used to display content
 // Inspired by Twitter, Google Keep
 // Not for large data files!
-// JSON data in JS varible, time - in UNIX format, example data file is below
+// JSON data in JS varible, time - in UNIX format
 
 /*
 // config, copy paste in html
@@ -44,7 +44,7 @@ function keep(printId, jsonVar, otherClass, scriptDir, keepConfig){
 printId - div id where print content
 jsonVar - JSON (data) in JavaSript variable
 otherClass - CSS class name for post
-scriptDir - for location link, if run script on other location
+scriptDir - for location link
 keepConfig - additional keep configuration)
 
 (id - post ID, unique in JSON data, p - page list using data (array), p2 - post list using data (array))

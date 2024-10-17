@@ -9,13 +9,6 @@
   "512": "icon512x512.png"
 },
 
-"browser_specific_settings": {
-  "gecko": {
-    "id": "stoploadingwebsite@example.org"
-  }
-},
-
-
 "permissions":
 [
 "activeTab",

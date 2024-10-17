@@ -1,4 +1,4 @@
-// v.1.0.2
+// v.1.0.3
 
 
 
@@ -9,7 +9,7 @@
 //https://news.ycombinator.com/item?id=25218240
 
 function saveOptions(e) {
-  e.preventDefault();
+e.preventDefault();
 //browser.storage.sync.set({
 //browser.storage.local.set({
 chrome.storage.local.set({
@@ -19,24 +19,29 @@ chrome.storage.local.set({
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
 }
 
-function restoreOptions() {
-  function setCurrentChoice(result) {
+function setCurrentChoice(result) {
 // document.querySelector("#q").value = result.rUrl || "https://example.com";
 document.querySelector("#q").value = result.rUrl || "";
-
-
-  }
-
-  function onError(error) {
-    console.log(`Error: ${error}`);
-  }
-
-//let getting = browser.storage.sync.get("rUrl");
-//let getting = browser.storage.local.get("rUrl");
-let getting = chrome.storage.local.get("rUrl");
-
-  getting.then(setCurrentChoice, onError);
 }
+
+function onError(error) {
+console.log(`Error: ${error}`);
+}
+
+function restoreOptions(){
+//let getting = browser.storage.sync.get("rUrl");
+let getting = chrome.storage.local.get("rUrl");
+getting.then(setCurrentChoice, onError);
+}
+
+//document.addEventListener("DOMContentLoaded", restoreOptions);
+//document.addEventListener("load", restoreOptions);
+//document.querySelector("form").addEventListener("submit", saveOptions);
+
+
+//document.addEventListener("DOMContentLoaded", restoreOptions);
+//document.addEventListener("load", restoreOptions);
+
 
 document.addEventListener("DOMContentLoaded", restoreOptions);
 document.querySelector("form").addEventListener("submit", saveOptions);
