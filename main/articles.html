@@ -41,7 +41,7 @@
 
 
 <link rel="preload" href="/data/articlesJsonVar.js" as="script"> 
-<link rel="preload" href="/projects/microblog-1/script.js" as="script"> 
+<link rel="preload" href="/projects/keep-1/script.js" as="script"> 
 
 </head>
 <body>
@@ -146,7 +146,7 @@ var articleJsonVar =
 }
 </script>
 
-<div id="printBlog"></div>
+<div id="printKeep"></div>
 
 <noscript>
 
@@ -638,7 +638,7 @@ About copyright.
 <script>
 // fresh config in script.js
 
-let blogConfig = {
+let keepConfig = {
 "postLimit":"", // number
 "embedStatus":"off", // off
 "multiEmbedStatus":"on", // on
@@ -652,7 +652,7 @@ let blogConfig = {
 };
 </script>
 
-<script src="/projects/microblog-1/script.js" onload="blog('printBlog', articlesJsonVar, 'wrapper', './articles.html', blogConfig)"></script>
+<script src="/projects/keep-1/script.js" onload="keep('printKeep', articlesJsonVar, 'wrapper', './articles.html', keepConfig)"></script>
 <script></script>
 
 

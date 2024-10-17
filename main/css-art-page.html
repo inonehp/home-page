@@ -40,7 +40,7 @@
 <!-- // main -->
 
 
-<link rel="preload" href="/projects/microblog-1/script.js" as="script"> 
+<link rel="preload" href="/projects/keep-1/script.js" as="script"> 
 
 </head>
 <body>
@@ -193,7 +193,7 @@
 </noscript>
 
 <script>
-var blogJsonVar = [
+var keepJsonVar = [
     {
         "id": "32",
         "text": "Woman css",
@@ -231,7 +231,7 @@ var blogJsonVar = [
     }
 ];
 </script>
-<div id="printBlog"></div>
+<div id="printKeep"></div>
 
 <div class="op block xSmall padding margin tCenter"></div>
 
@@ -246,13 +246,13 @@ var blogJsonVar = [
 
 
 
-<script src="/projects/microblog-1/script.js"></script>
+<script src="/projects/keep-1/script.js"></script>
 
 
 <script>
 // fresh data example in script.js
-if(blogJsonVar == undefined||blogJsonVar == ''){
-var blogJsonVar = 
+if(keepJsonVar == undefined||keepJsonVar == ''){
+var keepJsonVar = 
 
 
 [
@@ -280,12 +280,12 @@ var blogJsonVar =
 <style>
 // fresh config in script.js
 
-/*.blogContent .pre { font-size: 1.2em; }*/
-.blogContent .pre:first-letter{ font-weight: bold;  }
+/*.keepContent .pre { font-size: 1.2em; }*/
+.keepContent .pre:first-letter{ font-weight: bold;  }
 </style>
 
 <script>
-let blogConfig = {
+let keepConfig = {
 "postLimit":"", //
 "embedStatus":"", // off
 "multiEmbedStatus":"", // on
@@ -299,7 +299,7 @@ let blogConfig = {
 };
 </script>
 <script>
-blog("printBlog", blogJsonVar, 'wrapper', './css-art-page.html', blogConfig);
+keep("printKeep", keepJsonVar, 'wrapper', './css-art-page.html', keepConfig);
 </script>
 
 

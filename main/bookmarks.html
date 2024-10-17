@@ -40,8 +40,7 @@
 <!-- // main -->
 
 
-<link rel="preload" href="/data/blogJsonVar.js" as="script"> 
-<link rel="preload" href="/projects/microblog-1/script.js" as="script"> 
+<link rel="preload" href="/projects/keep-1/script.js" as="script"> 
 
 </head>
 <body>
@@ -116,8 +115,8 @@
 <script src="/data/bookmarksJsonVar.js"></script>
 <script>
 // fresh data example in script.js
-if(blogJsonVar == undefined||blogJsonVar == ''){
-var blogJsonVar = 
+if(keepJsonVar == undefined||keepJsonVar == ''){
+var keepJsonVar = 
 
 
 [
@@ -142,7 +141,7 @@ var blogJsonVar =
 }
 </script>
 
-<div id="printBlog"></div>
+<div id="printKeep"></div>
 
 <noscript>
 
@@ -551,7 +550,7 @@ var blogJsonVar =
 <script>
 // fresh config in script.js
 
-let blogConfig = {
+let keepConfig = {
 "postLimit":"", // number
 "embedStatus":"off", // off
 "multiEmbedStatus":"", // on
@@ -567,7 +566,7 @@ let blogConfig = {
 };
 </script>
 
-<script src="/projects/microblog-1/script.js" onload="blog('printBlog', bookmarksJsonVar, 'wrapper', './bookmarks.html', blogConfig)"></script>
+<script src="/projects/keep-1/script.js" onload="keep('printKeep', bookmarksJsonVar, 'wrapper', './bookmarks.html', keepConfig)"></script>
 <script></script>
 
 
