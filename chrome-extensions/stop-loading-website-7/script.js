@@ -41,7 +41,10 @@ for (let i = 0; i < filterList.length; i++) {
 var element = filterList[i].trim();
 //console.log(element);
 if (element != ""){
-if (String(location.href).indexOf(element) != -1){
+let blcokSiteUrl = String(location.href);
+element = element.replace("https://www.", '');
+element = element.replace("http://www.", '');
+if (blcokSiteUrl.indexOf(element) != -1){
 //console.log(element);
 fuExtStopLoad();
 break;
@@ -58,15 +61,13 @@ window.stop();
 window.addEventListener('load', function() {
 //document.body.innerHTML = `${extName}`;
 });*/
-if(confirm(`Stop page loading? (${extName})`) == true){
+alert(`${extName}`);
 stop();
 window.stop();
-window.addEventListener('load', function() {
-//document.body.innerHTML = `${extName}`;
-}
-)
-};
-
+/*if (confirm(`Stop page loading? (${extName})`) == true){
+stop();
+window.stop();
+}*/
 }
 
 //const getting = browser.storage.sync.get("dataUrlStopLoadList");

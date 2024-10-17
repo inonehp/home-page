@@ -470,7 +470,8 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://wikinews.org/wiki/",
-"https://www.theguardian.com/",
+"https://theconversation.com/",
+"https://lemmy.world/c/news",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -491,7 +492,7 @@ if (q == ''){
 urlList = [
 "https://slashdot.org/",
 "https://lemmy.world/c/technology",
-"https://www.theguardian.com/uk/technology",
+"https://readwrite.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -553,8 +554,8 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://www.theguardian.com/culture",
-"https://www.theguardian.com/lifeandstyle",
+"https://theconversation.com/us/arts",
+"https://theconversation.com/ca/culture",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -599,7 +600,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://www.theguardian.com/sport",
+"https://lemmy.world/c/sports",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
