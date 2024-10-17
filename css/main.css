@@ -7,7 +7,7 @@ Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 :root{
 /* .brand - link, accent color (red, orange, yellow, green, blue, indigo, violet) */
---brandColor: color-mix(in srgb, var(--indigo) 80%, var(--green));
+--brandColor: color-mix(in srgb, var(--blue) 80%, var(--indigo));
 
 --bodyPadding: 3vw;
 --inputHeight: 45px;
