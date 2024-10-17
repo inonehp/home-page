@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- v.1.0.4 -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Typing speed</title>
+
+<meta name="description" content="
+· A typing speed test, typing speed game or keyboard trainer.
+· You need to beat your previous WPM (words per minute).
+· Modes: quotes, book, own text input.
+">
+<meta name="keywords" content="
+tool,
+game, typing, speed, trainer, WPM,
+CSS, JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- end main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<link rel="preload" href="../../data/quoteJsonVar.js" as="script">
+<!--<link rel="preload" href="../../data/bookJsonVar.js" as="script">-->
+
+</head>
+<body>
+
+<span id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</span>
+
+<main class="contentCenter">
+<h1 class="tCenter op insertIconTitle">Typing speed</h1>
+
+<div class="wrapper2">
+
+
+<div id="all" class="padding2 border bg2 height borderRadius2">
+
+<span id="win" class="win"></span>
+
+<div id="result" class="result scroll pre"></div>
+<div id="lPrintTr" class="scroll2"></div>
+
+<div id="win2" class="win" style="text-align: center;"></div>
+
+<form>
+<textarea rows="2" id="text"  class="pre" name="input2" placeholder="input" autofocus="autofocus"></textarea>
+</form>
+
+<div class="padding2"></div>
+<span class="op"><progress id="typeProgress" class="op" min="0" max="0" value="0"></progress></span>
+<div class="gridStat">
+<div id="countSymbolTask" class="op">countSymbol</div>
+<div id="stat" class="op">stat</div>
+</div>
+<br />
+
+
+
+
+
+<div style="text-align: left;" class="brand small">
+
+
+
+<span class="small">
+<span id="mode"></span>
+<span id="mode2"></span>
+</span>
+
+</div>
+
+
+
+<div id="panel3"></div>
+
+
+</div>
+
+
+<span id="topWords"></span>
+
+
+<div class="input"></div>
+<div id="sound"></div>
+
+<div class="msg2"></div>
+
+<div class="margin2 paddig2"></div>
+
+</div>
+</main>
+
+
+
+<footer id="footer"></footer>
+<script src="../../data/quoteJsonVar.js"></script>
+<!--<script src="../../data/bookJsonVar.js"></script>-->
+
+<script src="../../js/main.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

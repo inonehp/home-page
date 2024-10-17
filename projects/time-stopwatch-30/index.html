@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stopwatch</title>
+
+<meta name="description" content="
+Stop watch. Countdown from zero.
+">
+<meta name="keywords" content="
+time, stopwatch, tool, info, countdown, timer, JavaScript, project,
+">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" sizes="512x512" href="../../img/logo.png" type="image/png">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+
+<!-- main -->
+<link rel="preload" href="../../js/main.js" as="script">
+
+<link rel="preload" href="../../css/main.css" as="style">
+<link rel="stylesheet" href="../../css/main.css" type="text/css">
+<link rel="preload" href="../../css/auto.css" as="style">
+<link rel="stylesheet" type="text/css" href="../../css/auto.css" id="theme">
+
+<link rel="preload" href="../../css/style.css" as="style">
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+
+<noscript>
+<link rel="stylesheet" type="text/css" href="../../css/noscript.css">
+</noscript>
+<!-- end main -->
+
+<link rel="preload" href="script.js" as="script"> 
+
+<link rel="preload" href="style.css" as="style">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<span id="secondNav">
+<header class="tCenter">
+<div class="margin2"></div>
+<nav>
+<a class="inlineBlock padding" style="padding-left: 0;" href="/">index</a>
+<a class="inlineBlock padding" style="padding-right: 0;" href="../">list</a>
+</nav>
+</header>
+</span>
+
+
+<main class="content">
+
+<h1 class="tCenter op insertIconTitle">Stopwatch</h1>
+
+<div class="center tCenter">
+
+<div class="wrapper">
+
+<div id="result"></div>
+<div id="result2"></div>
+
+
+<div id="panel">
+<a class="padding2 margin2" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
+<a class="padding2 margin2" onclick="fuStopwatchCom('pause')" href="#">pause</a>
+<a class="padding2 margin2" onclick="fuStopwatchCom('stop')" href="#">stop</a>
+</div>
+
+</div>
+
+<div class="center">
+<div class="margin padding"></div>
+<div id="result3"></div>
+<div class="padding2" id="chart"></div>
+</div>
+
+</div>
+
+</main>
+
+
+
+
+<footer id="footer"></footer>
+
+<script src="../../js/main.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
