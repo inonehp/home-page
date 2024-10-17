@@ -491,8 +491,8 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://slashdot.org/",
+"https://theconversation.com/us/technology",
 "https://lemmy.world/c/technology",
-"https://readwrite.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -555,7 +555,6 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://theconversation.com/us/arts",
-"https://theconversation.com/ca/culture",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
