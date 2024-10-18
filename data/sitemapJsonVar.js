@@ -247,7 +247,7 @@ var sitemapJsonVar = [
     {
         "text": "Firefox extensions page\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct (own new tab page) localhost as search engine, etc | pages: ",
         "url": "\/pages\/firefox-extensions-page.html",
-        "tag": " #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extesion #projects #project #list #page #main",
+        "tag": " #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extension #extensions #projects #project #list #page #main",
         "id": "cc630a86cfaed7ae20b425c26de74b4c",
         "time": "id"
     },

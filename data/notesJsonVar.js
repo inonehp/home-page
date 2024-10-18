@@ -10,7 +10,7 @@ var notesJsonVar =
         "url": "https:\/\/stackoverflow.com\/questions\/63231024\/is-there-a-difference-between-initial-scale-1-and-initial-scale-1-0",
         "tag": "#fix",
         "time": 1728432416,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=76\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=76\">id<\/a>"
     },
     {
         "id": "75",
@@ -20,7 +20,7 @@ var notesJsonVar =
         "url": "https:\/\/support.google.com\/programmable-search\/thread\/47599677\/css-prefers-color-scheme-an-option-with-google-s-custom-search-engine?hl=en",
         "tag": "#fix",
         "time": 1728273121,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=75\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=75\">id<\/a>"
     },
     {
         "id": "74",
@@ -30,7 +30,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Element\/input_event",
         "tag": "",
         "time": 1728167628,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=74\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=74\">id<\/a>"
     },
     {
         "id": "73",
@@ -40,7 +40,7 @@ var notesJsonVar =
         "url": "https:\/\/stackoverflow.com\/questions\/7077770\/window-location-href-and-window-open-methods-in-javascript",
         "tag": "#JavaScript #JS",
         "time": 1728136150,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=73\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=73\">id<\/a>"
     },
     {
         "id": "72",
@@ -50,7 +50,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/push",
         "tag": "#JavaScript #JS",
         "time": 1728135916,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=72\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=72\">id<\/a>"
     },
     {
         "id": "71",
@@ -60,7 +60,7 @@ var notesJsonVar =
         "url": "https:\/\/stackoverflow.com\/questions\/1070760\/javascript-href-vs-onclick-for-callback-function-on-hyperlink",
         "tag": "#JavaScript #JS",
         "time": 1728134651,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=71\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=71\">id<\/a>"
     },
     {
         "id": "70",
@@ -70,7 +70,7 @@ var notesJsonVar =
         "url": "https:\/\/stackoverflow.com\/questions\/1128778\/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard",
         "tag": "#HTML #CSS #fix",
         "time": 1728015497,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=70\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=70\">id<\/a>"
     },
     {
         "id": "69",
@@ -80,7 +80,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/getElementsByClassName",
         "tag": "#JavaScript #JS",
         "time": 1727913968,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=69\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=69\">id<\/a>"
     },
     {
         "id": "68",
@@ -90,7 +90,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array",
         "tag": "#JS #JavaScript",
         "time": 1727344578,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=68\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=68\">id<\/a>"
     },
     {
         "id": "65",
@@ -100,7 +100,7 @@ var notesJsonVar =
         "url": "https:\/\/stackoverflow.com\/questions\/18271951\/delete-all-records-in-a-table-of-mysql-in-phpmyadmin",
         "tag": "#fix #PHP",
         "time": 1726800650,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=65\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=65\">id<\/a>"
     },
     {
         "id": "64",
@@ -110,7 +110,7 @@ var notesJsonVar =
         "url": "https:\/\/stackoverflow.com\/questions\/3694327\/php-using-gettext-inside-eof-string",
         "tag": "#fix #PHP",
         "time": 1726661208,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=64\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=64\">id<\/a>"
     },
     {
         "id": "63",
@@ -120,7 +120,7 @@ var notesJsonVar =
         "url": "https:\/\/stackoverflow.com\/questions\/1953857\/fatal-error-cannot-redeclare-function",
         "tag": "#fix #PHP",
         "time": 1726540368,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=63\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=63\">id<\/a>"
     },
     {
         "id": "62",
@@ -130,7 +130,7 @@ var notesJsonVar =
         "url": "https:\/\/graphicdesign.stackexchange.com\/questions\/101697\/disable-snapping-objects-in-inkscape",
         "tag": "#fix",
         "time": 1725798464,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=62\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=62\">id<\/a>"
     },
     {
         "id": "61",
@@ -140,7 +140,7 @@ var notesJsonVar =
         "url": "https:\/\/askubuntu.com\/questions\/769417\/how-to-change-global-dark-theme-on-and-off-through-terminal",
         "tag": "#fix",
         "time": 1725339124,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=61\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=61\">id<\/a>"
     },
     {
         "id": "60",
@@ -150,7 +150,7 @@ var notesJsonVar =
         "url": "https:\/\/askubuntu.com\/questions\/741410\/skipping-acquire-of-configured-file-main-binary-i386-packages-as-repository-x\/1384349#1384349",
         "tag": "#fix",
         "time": 1725338831,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=60\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=60\">id<\/a>"
     },
     {
         "id": "59",
@@ -160,7 +160,7 @@ var notesJsonVar =
         "url": "https:\/\/askubuntu.com\/questions\/1511954\/font-rendering-issue-antialiasing",
         "tag": "#fix",
         "time": 1725337316,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=59\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=59\">id<\/a>"
     },
     {
         "id": "58",
@@ -170,7 +170,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/display",
         "tag": "#CSS #code",
         "time": 1724758035,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=58\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=58\">id<\/a>"
     },
     {
         "id": "57",
@@ -180,7 +180,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/backdrop-filter#syntax",
         "tag": "#CSS #code",
         "time": 1723536758,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=57\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=57\">id<\/a>"
     },
     {
         "id": "56",
@@ -190,7 +190,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/CSS_grid_layout",
         "tag": "#CSS #code",
         "time": 1723337137,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=56\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=56\">id<\/a>"
     },
     {
         "id": "55",
@@ -200,7 +200,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/grid",
         "tag": "#CSS #code",
         "time": 1723337067,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=55\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=55\">id<\/a>"
     },
     {
         "id": "54",
@@ -210,7 +210,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/String\/replace",
         "tag": "#JavaScript #code",
         "time": 1723246922,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=54\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=54\">id<\/a>"
     },
     {
         "id": "53",
@@ -220,7 +220,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Element\/form",
         "tag": "#HTML #code",
         "time": 1723214783,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=53\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=53\">id<\/a>"
     },
     {
         "id": "52",
@@ -230,7 +230,7 @@ var notesJsonVar =
         "url": "https:\/\/blog.codepen.io\/documentation\/licensing\/",
         "tag": "#license",
         "time": 1723077461,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=52\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=52\">id<\/a>"
     },
     {
         "id": "51",
@@ -240,7 +240,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/:last-child",
         "tag": "#code #CSS",
         "time": 1721306103,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=51\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=51\">id<\/a>"
     },
     {
         "id": "50",
@@ -250,7 +250,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/:first-child",
         "tag": "#CSS",
         "time": 1721306066,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=50\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=50\">id<\/a>"
     },
     {
         "id": "49",
@@ -260,7 +260,7 @@ var notesJsonVar =
         "url": "",
         "tag": "#linux #fix",
         "time": 1719819468,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=49\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=49\">id<\/a>"
     },
     {
         "id": "48",
@@ -270,7 +270,7 @@ var notesJsonVar =
         "url": "https:\/\/www.lifewire.com\/disable-javascript-in-firefox-446039",
         "tag": "#fix",
         "time": 1719495874,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=48\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=48\">id<\/a>"
     },
     {
         "id": "47",
@@ -280,7 +280,7 @@ var notesJsonVar =
         "url": "https:\/\/support.mozilla.org\/en-US\/questions\/1226175",
         "tag": "#fix",
         "time": 1719495729,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=47\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=47\">id<\/a>"
     },
     {
         "id": "46",
@@ -290,7 +290,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/font-size",
         "tag": "#code #CSS",
         "time": 1719489913,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=46\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=46\">id<\/a>"
     },
     {
         "id": "45",
@@ -300,7 +300,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/load_event",
         "tag": "#code #JavaScript",
         "time": 1719482907,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=45\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=45\">id<\/a>"
     },
     {
         "id": "43",
@@ -310,7 +310,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/String\/replaceAll",
         "tag": "#code #JavaScript",
         "time": 1718941513,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=43\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=43\">id<\/a>"
     },
     {
         "id": "42",
@@ -320,7 +320,7 @@ var notesJsonVar =
         "url": "https:\/\/www.php.net\/manual\/en\/control-structures.foreach.php",
         "tag": "#code #PHP",
         "time": 1718767478,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=42\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=42\">id<\/a>"
     },
     {
         "id": "41",
@@ -330,7 +330,7 @@ var notesJsonVar =
         "url": "https:\/\/www.php.net\/manual\/en\/control-structures.while.php",
         "tag": "#code #PHP",
         "time": 1718664547,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=41\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=41\">id<\/a>"
     },
     {
         "id": "40",
@@ -340,7 +340,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/DOMContentLoaded_event",
         "tag": "#code #JS",
         "time": 1717668413,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=40\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=40\">id<\/a>"
     },
     {
         "id": "38",
@@ -350,7 +350,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Statements\/do...while",
         "tag": "#code #coding #JavaScript",
         "time": 1717663309,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=38\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=38\">id<\/a>"
     },
     {
         "id": "37",
@@ -360,7 +360,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/:root",
         "tag": "#code #CSS",
         "time": 1717661687,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=37\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=37\">id<\/a>"
     },
     {
         "id": "34",
@@ -370,7 +370,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Function",
         "tag": "#JavaScript #JS #code #coding",
         "time": 1717643982,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=34\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=34\">id<\/a>"
     },
     {
         "id": "33",
@@ -380,7 +380,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Statements\/if...else",
         "tag": "#code #JavaScript",
         "time": 1715214777,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=33\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=33\">id<\/a>"
     },
     {
         "id": "32",
@@ -390,7 +390,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/indexOf",
         "tag": "#code #JavaScript",
         "time": 1714813827,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=32\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=32\">id<\/a>"
     },
     {
         "id": "31",
@@ -400,7 +400,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/localStorage",
         "tag": "#code #coding #JavaScript #JS",
         "time": 1714812463,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=31\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=31\">id<\/a>"
     },
     {
         "id": "30",
@@ -410,7 +410,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Web_Storage_API\/Using_the_Web_Storage_API",
         "tag": "#coding #code #JavaScript #JS",
         "time": 1714812424,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=30\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=30\">id<\/a>"
     },
     {
         "id": "29",
@@ -420,7 +420,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/reduce",
         "tag": "#code #JavaScript #JS",
         "time": 1714626528,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=29\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=29\">id<\/a>"
     },
     {
         "id": "28",
@@ -430,7 +430,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/filter",
         "tag": "#code #JavaScript #JS",
         "time": 1714625890,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=28\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=28\">id<\/a>"
     },
     {
         "id": "27",
@@ -440,7 +440,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/blur_event",
         "tag": "",
         "time": 1714550159,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=27\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=27\">id<\/a>"
     },
     {
         "id": "26",
@@ -450,7 +450,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Window\/focus_event",
         "tag": "#code #JavaScript #JS",
         "time": 1714550125,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=26\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=26\">id<\/a>"
     },
     {
         "id": "23",
@@ -460,7 +460,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/map",
         "tag": "",
         "time": 1714080415,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=23\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=23\">id<\/a>"
     },
     {
         "id": "22",
@@ -470,7 +470,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/length",
         "tag": "#code #JavaScript #JS",
         "time": 1714022740,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=22\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=22\">id<\/a>"
     },
     {
         "id": "21",
@@ -480,7 +480,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Math\/random",
         "tag": "#code #JavaScript #JS",
         "time": 1713950256,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=21\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=21\">id<\/a>"
     },
     {
         "id": "20",
@@ -490,7 +490,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Storage\/getItem",
         "tag": "#JavaScript #code #coding #JS",
         "time": 1713949517,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=20\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=20\">id<\/a>"
     },
     {
         "id": "19",
@@ -500,7 +500,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Storage\/setItem",
         "tag": "#JS #JavaScript #code #coding",
         "time": 1713949471,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=19\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=19\">id<\/a>"
     },
     {
         "id": "18",
@@ -510,7 +510,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Statements\/switch",
         "tag": "#code #coding #JavaScript #JS",
         "time": 1713949190,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=18\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=18\">id<\/a>"
     },
     {
         "id": "17",
@@ -520,7 +520,7 @@ var notesJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Coding_conventions",
         "tag": "#coding #rule",
         "time": 1713052551,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=17\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=17\">id<\/a>"
     },
     {
         "id": "15",
@@ -530,7 +530,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/querySelectorAll",
         "tag": "#code #HTML",
         "time": 1712539368,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=15\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=15\">id<\/a>"
     },
     {
         "id": "14",
@@ -540,7 +540,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Element\/input\/reset",
         "tag": "#HTML #code",
         "time": 1712538187,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=14\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=14\">id<\/a>"
     },
     {
         "id": "13",
@@ -550,7 +550,7 @@ var notesJsonVar =
         "url": "https:\/\/www.net\/manual\/en\/function.json-decode",
         "tag": "#code #PHP",
         "time": 1712480476,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=13\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=13\">id<\/a>"
     },
     {
         "id": "11",
@@ -560,7 +560,7 @@ var notesJsonVar =
         "url": "https:\/\/support.mozilla.org\/en-US\/kb\/how-do-i-use-firefox-spell-checker#w_adding-dictionaries",
         "tag": "#fix",
         "time": 1711811445,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=11\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=11\">id<\/a>"
     },
     {
         "id": "10",
@@ -570,7 +570,7 @@ var notesJsonVar =
         "url": "https:\/\/wicg.github.io\/speech-api\/",
         "tag": "#WebDesign #code #JavaScript #STT",
         "time": 1711739916,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=10\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=10\">id<\/a>"
     },
     {
         "id": "8",
@@ -580,7 +580,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Map",
         "tag": "#code #JavaScript",
         "time": 1711625173,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=8\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=8\">id<\/a>"
     },
     {
         "id": "7",
@@ -590,7 +590,7 @@ var notesJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/English_alphabet",
         "tag": "#text #alphabet",
         "time": 1711620434,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=7\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=7\">id<\/a>"
     },
     {
         "id": "6",
@@ -600,7 +600,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Node\/textContent",
         "tag": "#code #JavaScript",
         "time": 1711610799,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=6\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=6\">id<\/a>"
     },
     {
         "id": "5",
@@ -610,7 +610,7 @@ var notesJsonVar =
         "url": "",
         "tag": "#code #JavaScript",
         "time": 1711560138,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=5\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=5\">id<\/a>"
     },
     {
         "id": "4",
@@ -620,7 +620,7 @@ var notesJsonVar =
         "url": "",
         "tag": "#code #JavaScript #CSS",
         "time": 1711560076,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=4\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=4\">id<\/a>"
     },
     {
         "id": "3",
@@ -630,7 +630,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Element\/innerHTML",
         "tag": "#code #JavaScript",
         "time": 1711559749,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=3\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=3\">id<\/a>"
     },
     {
         "id": "2",
@@ -640,7 +640,7 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Document\/getElementById",
         "tag": "#code #JavaScript",
         "time": 1711558357,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=2\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=2\">id<\/a>"
     },
     {
         "id": "1",
@@ -650,6 +650,6 @@ var notesJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/Array\/forEach",
         "tag": "#JavaScript #code",
         "time": 1711556664,
-        "rightFooter": "<a class=\"brand\" href=\"\/main\/notes.html?id=1\">id<\/a>"
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=1\">id<\/a>"
     }
 ]
