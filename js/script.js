@@ -82,12 +82,12 @@ let mNavUpCheckLevel = Number((mNavUpCheck.split("/")).length);
 var allMClassNavUp = document.querySelectorAll(".mClassNavUp");
 allMClassNavUp.forEach((item, index) => {
 
-if (mNavUpCheckLevel == 2&&mNavUpCheck != "/"||String(window.location.href).indexOf("file://") != -1||String(window.location.href).indexOf("/github") != -1||String(window.location.href).indexOf("/main/") != -1){
+if (mNavUpCheckLevel == 2&&mNavUpCheck != "/"||String(window.location.href).indexOf("file://") != -1||String(window.location.href).indexOf("/github") != -1||String(window.location.href).indexOf("/pages/") != -1){
 
 if (mNavUpCheck == "/"||mNavUpCheck.indexOf("list") != -1){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./archive.html");
 }
-if (mNavUpCheck.indexOf("/main/") != -1){
+if (mNavUpCheck.indexOf("/pages/") != -1){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./");
 }
 } else if (mNavUpCheck == "/"){

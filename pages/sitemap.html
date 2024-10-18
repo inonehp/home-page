@@ -3,10 +3,13 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Other projects list</title>
+<title>Sitemap</title>
 
-<meta name="description" content="Other projects using other programming languages. Such a PHP project as the conversion of static webpages to application (PWA). etc">
-<meta name="keywords" content="php, python, code, programming, coding, projects, list, main,pages,">
+<meta name="description" content="Site map with all pages or earch on the site, the path to the page is used for the search. (Static search based on JavaScript and JSON data in the variable).">
+<meta name="keywords" content="site, map,
+sitemap,
+search,
+pages, main,">
 
 <link rel="alternate" type="application/rss+xml" title="Website RSS" href="/rss.xml">
 
@@ -39,6 +42,8 @@
 </noscript>
 <!-- // main -->
 
+
+<link rel="preload" href="/projects/keep-1/script.js" as="script"> 
 
 </head>
 <body>
@@ -105,88 +110,16 @@
 <!-- content -->
 <main class="content">
 
-<!--<h1 class="tCenter op insertIconTitle padding2List">Other projects list</h1>-->
+<h1 class="block tCenter op insertIconTitle">Sitemap</h1>
 
-<div class="wrapper">
-<h2 class="op tCenter insertIcon padding2List">Other Projects</h2><div class="padding bg border borderRadius2"><h3 class="op zero padding2">PHP</h3>
+<div id="echoKeep"></div>
 
-
-<div class="wrapper">
-
-<!-- post -->
-<div class=" bgList borderList post file borderRadius2 padding3">
-
-<div class="pre padding2List"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/php/hello-world/">[ Hello world ]<span class="op sup x-small">⇗</span></a>  </div>
-<div class="postTagList"></div>
-
+<noscript>
+<div class="tCenter">
+<a class="inlineBlock padding brand" href=/sitemap.xml">sitemap.xml</a>
 </div>
-<!-- // post -->
-
-<!-- post -->
-<div class=" bgList borderList post file borderRadius2 padding3">
-
-<div class="pre padding2List"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/php/website-to-pwa/">[ Website to pwa ]<span class="op sup x-small">⇗</span></a>  </div>
-<div class="postTagList"></div>
-
-</div>
-<!-- // post -->
-
-</div>
-
 <div class="margin2 padding2"></div>
-<h3 class="op zero padding2">Python</h3>
-
-
-<div class="wrapper">
-
-<!-- post -->
-<div class=" bgList borderList post file borderRadius2 padding3">
-
-<div class="pre padding2List"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/python/hello-world/">[ Hello world ]<span class="op sup x-small">⇗</span></a>  </div>
-<div class="postTagList"></div>
-
-</div>
-<!-- // post -->
-
-</div>
-
-<div class="margin2 padding2"></div>
-</div>
-<!-- nav2 -->
-<div class="margin padding"></div>
-<hr>
-<div class="margin padding"></div>
-
-<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Lists:</div>
-
-<div class="menu small">
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="pages-list.html"><span class="insertIcon firstLetterBold">Pages</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="games-list.html"><span class="insertIcon firstLetterBold">Games</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="projects-list.html"><span class="insertIcon firstLetterBold">Projects</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="mini-projects-list.html"><span class="insertIcon firstLetterBold">Mini projects</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="old-projects-list.html"><span class="insertIcon firstLetterBold">Old projects</span></a>
-
-<a class=" borderBottomBrand op  button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="other-projects-list.html"><span class="insertIcon firstLetterBold">Other projects</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="archive.html"><span class="insertIcon firstLetterBold">Archive (All)</span></a>
-
-</div>
-
-<div class="padding2"></div>
-<!-- // nav2 -->
-
-<div class="padding2"></div>
-
-<span id="speedDialPrint"></span>
-
-</div>
-
-
+</noscript>
 
 </main>
 <!-- // content -->
@@ -197,8 +130,39 @@
 <script src="/js/script.js"></script>
 
 
+<script src="/data/sitemapJsonVar.js"></script>
+<script src="/projects/keep-1/script.js"></script>
+
+<style>
+.keepContent .pre::first-letter { font-weight: bold; }
+</style>
+
+<script>
+// fresh config in script.js
+
+let keepConfig = {
+"postLimit":"10", // number
+"embedStatus":"not list", // off
+"multiEmbedStatus":"", // on
+"tagListStatus":"", // off
+"tagListLimit":"", // number
+"targetOption":"", // blank
+"bottomMsg":`<a class="block tCenter op padding2" href="/sitemap.xml">sitemap.xml</a>`, // text
+"display":"", // grid
+"timeStatus":"", // off
+"rightFooterStatus":"", // on, off, right footer in data
+"usernameStatus":"on", // on, off
+};
+</script>
+<script>
+keep("echoKeep", sitemapJsonVar, 'keepContent wrapper ', './sitemap.html', keepConfig);
+</script>
+
+
+
 
 
 </body>
 </html>
+
 

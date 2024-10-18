@@ -35,7 +35,7 @@ conf["confIdEmbedScript"] = "footer";
 const confData = [
 {
 "confTitle":"Theme",
-"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/main/themes.html">/main/themes.html</a>`,
+"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/pages/themes.html">/pages/themes.html</a>`,
 "confName":"confTheme",
 "confValueDefault":"auto",
 "confValueVariant":["light", "dark", "auto-time", "auto", "auto-t-rand-all", "auto-rand-all"],
@@ -169,7 +169,7 @@ document.getElementById(id).innerHTML = text;
 // for other pages where navigation is poor
 
 conf["confMenuItems"] = [
-{"url":"/main-list.html", "name":"Main", "title":"Main"},
+{"url":"/pages-list.html", "name":"Pages", "title":"Pages"},
 {"url":"/games-list.html", "name":"Games", "title":"Games list"},
 {"url":"/projects-group-list.html", "name":"Projects", "title":"Projects page"},
 //{"url":"/archive.html", "name":"Archive", "title":"Archive"},
@@ -234,7 +234,7 @@ ${conf["confMenuItems2"]}
 <a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="../" title="../ (Up)">List (up)</a>
 
 <span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/main/site-search.html" role="search">
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/pages/site-search.html" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -379,7 +379,7 @@ fDescArr.forEach((tag) => {
 if ((tag.trim()) != ''&&fDescTagsLimitCounter <= fDescTagsLimit){
 tag = tag.trim();
 tag = tag.replaceAll(" ", "_");
-fDescTags += `<a class="tag brand light border2 borderRadius2" href="/main/site-search.html?tag=${tag}">#${tag}</a> `;
+fDescTags += `<a class="tag brand light border2 borderRadius2" href="/pages/site-search.html?tag=${tag}">#${tag}</a> `;
 }
 fDescTagsLimitCounter++;
 });
@@ -436,19 +436,19 @@ fuMPrintText("footer", `
 
 <div>
 <!--<a class="brand" href="#goBack" onclick="history.back()">Go Back</a>-->
-<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/main/themes.html">Themes</a></span>
+<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/pages/themes.html">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
 <span id="fPinButton"></span>
 </div>
 
-<a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/main/about.html">About</a>
+<a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/pages/about.html">About</a>
 <a class="brand inlineBlock padding" title="Social" href="https://${conf["confUsername"]}.bsky.social">Bluesky</a>
 <a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
 <a class="brand inlineBlock padding" title="Another home page" href="https://${conf["confUsername"]}.neocities.org/">Other Home</a>
-<a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/main/settings.html">Settings</a>
-<a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/main/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
+<a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/pages/settings.html">Settings</a>
+<a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/pages/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confUsername"]}.pages.dev">Source Code</a></span>
-<a class="brand inlineBlock padding" rel="license" title="Main license" href="/main/about.html#license">License: CC BY-SA 4.0 *</a>
+<a class="brand inlineBlock padding" rel="license" title="Main license" href="/pages/about.html#license">License: CC BY-SA 4.0 *</a>
 <span class="gray small padding"><!--2019--->2024</span>
 <a class="brand inlineBlock padding" style="padding-right: 0;" title="Hosting Service" href="https://pages.cloudflare.com/">Hosting: Cloudflare Pages</a>
 

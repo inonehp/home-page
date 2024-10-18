@@ -3,10 +3,10 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Other projects list</title>
+<title>News</title>
 
-<meta name="description" content="Other projects using other programming languages. Such a PHP project as the conversion of static webpages to application (PWA). etc">
-<meta name="keywords" content="php, python, code, programming, coding, projects, list, main,pages,">
+<meta name="description" content="News about technology, web design, web development, and programming.">
+<meta name="keywords" content="news, technology, webdesign, web, design, development, programming, page, main,">
 
 <link rel="alternate" type="application/rss+xml" title="Website RSS" href="/rss.xml">
 
@@ -39,6 +39,8 @@
 </noscript>
 <!-- // main -->
 
+
+<link rel="preload" href="/projects/keep-1/script.js" as="script"> 
 
 </head>
 <body>
@@ -105,87 +107,58 @@
 <!-- content -->
 <main class="content">
 
-<!--<h1 class="tCenter op insertIconTitle padding2List">Other projects list</h1>-->
+<h1 class="op tCenter insertIconTitle">News</h1>
 
-<div class="wrapper">
-<h2 class="op tCenter insertIcon padding2List">Other Projects</h2><div class="padding bg border borderRadius2"><h3 class="op zero padding2">PHP</h3>
+<!--<span class="xSmall block tCenter op">News about technology, web design, web development, and programming.</span>-->
 
 
-<div class="wrapper">
+<script src="/data/newsJsonVar.js"></script>
+<script>
+// fresh data example in script.js
+if(keepJsonVar == undefined||keepJsonVar == ''){
+var keepJsonVar = 
+
+
+[
+    {
+        "id": 251,
+        "text": "test2 text2",
+        "url": "https:\/\/test2.com",
+        "tag": "#test2 #tag",
+        "time": 1671480576
+    },
+    {
+        "id": 250,
+        "text": "test text",
+        "url": "https:\/\/test.com",
+        "tag": "#test #tag",
+        "time": 1668444918
+    }
+]
+
+
+
+}
+</script>
+
+<div id="printKeep"></div>
+
+<noscript>
 
 <!-- post -->
-<div class=" bgList borderList post file borderRadius2 padding3">
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
-<div class="pre padding2List"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/php/hello-world/">[ Hello world ]<span class="op sup x-small">⇗</span></a>  </div>
-<div class="postTagList"></div>
+<div class="postContent pre padding2List">Bluesky: &quot;📢 App Version 1.92.1 is rolling out now (1/2) This release includes multiple bugfixes and UI tweaks. Thanks everyone for your feedback on the last release!&quot; — Bluesky <a class="brand insertIcon" href="https://bsky.app/profile/bsky.app/post/3l6dplwluhb2f">https://bsky.app/profile/bsky.app/post/3l6dplwluhb2f</a></div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right"></div>
+</div>
 
 </div>
 <!-- // post -->
-
-<!-- post -->
-<div class=" bgList borderList post file borderRadius2 padding3">
-
-<div class="pre padding2List"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/php/website-to-pwa/">[ Website to pwa ]<span class="op sup x-small">⇗</span></a>  </div>
-<div class="postTagList"></div>
-
-</div>
-<!-- // post -->
-
-</div>
-
 <div class="margin2 padding2"></div>
-<h3 class="op zero padding2">Python</h3>
-
-
-<div class="wrapper">
-
-<!-- post -->
-<div class=" bgList borderList post file borderRadius2 padding3">
-
-<div class="pre padding2List"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/python/hello-world/">[ Hello world ]<span class="op sup x-small">⇗</span></a>  </div>
-<div class="postTagList"></div>
-
-</div>
-<!-- // post -->
-
-</div>
-
-<div class="margin2 padding2"></div>
-</div>
-<!-- nav2 -->
-<div class="margin padding"></div>
-<hr>
-<div class="margin padding"></div>
-
-<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Lists:</div>
-
-<div class="menu small">
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="pages-list.html"><span class="insertIcon firstLetterBold">Pages</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="games-list.html"><span class="insertIcon firstLetterBold">Games</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="projects-list.html"><span class="insertIcon firstLetterBold">Projects</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="mini-projects-list.html"><span class="insertIcon firstLetterBold">Mini projects</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="old-projects-list.html"><span class="insertIcon firstLetterBold">Old projects</span></a>
-
-<a class=" borderBottomBrand op  button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="other-projects-list.html"><span class="insertIcon firstLetterBold">Other projects</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="archive.html"><span class="insertIcon firstLetterBold">Archive (All)</span></a>
-
-</div>
-
-<div class="padding2"></div>
-<!-- // nav2 -->
-
-<div class="padding2"></div>
-
-<span id="speedDialPrint"></span>
-
-</div>
-
+</noscript>
 
 
 </main>
@@ -197,6 +170,27 @@
 <script src="/js/script.js"></script>
 
 
+<script>
+// fresh config in script.js
+
+let keepConfig = {
+"postLimit":"", // number
+"embedStatus":"off", // off
+"multiEmbedStatus":"", // on
+"tagListStatus":"", // off
+"tagListLimit":"", // number
+"targetOption":"", // blank
+"bottomMsg":`
+
+`, // bottom msg
+"display":"", // grid
+"timeStatus":"", // off, disable post time
+"usernameStatus":"off", // on, off
+};
+</script>
+
+<script src="/projects/keep-1/script.js" onload="keep('printKeep', newsJsonVar, 'wrapper', './news.html', keepConfig)"></script>
+<script></script>
 
 
 </body>

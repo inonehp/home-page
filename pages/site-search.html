@@ -3,10 +3,10 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Other projects list</title>
+<title>Site Search</title>
 
-<meta name="description" content="Other projects using other programming languages. Such a PHP project as the conversion of static webpages to application (PWA). etc">
-<meta name="keywords" content="php, python, code, programming, coding, projects, list, main,pages,">
+<meta name="description" content="Site search, main pages and more.">
+<meta name="keywords" content="site, search, page, main,">
 
 <link rel="alternate" type="application/rss+xml" title="Website RSS" href="/rss.xml">
 
@@ -39,6 +39,8 @@
 </noscript>
 <!-- // main -->
 
+
+<link rel="preload" href="/projects/keep-1/script.js" as="script"> 
 
 </head>
 <body>
@@ -105,86 +107,51 @@
 <!-- content -->
 <main class="content">
 
-<!--<h1 class="tCenter op insertIconTitle padding2List">Other projects list</h1>-->
-
-<div class="wrapper">
-<h2 class="op tCenter insertIcon padding2List">Other Projects</h2><div class="padding bg border borderRadius2"><h3 class="op zero padding2">PHP</h3>
-
+<h1 class="block tCenter op insertIconTitle">Site Search</h1>
 
 <div class="wrapper">
 
-<!-- post -->
-<div class=" bgList borderList post file borderRadius2 padding3">
+<noscript>
+<a class="blue" href="https://google.com/">Google</a><br>
+<!--<a href="https://bing.com/">Bing</a><br>-->
+</noscript>
 
-<div class="pre padding2List"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/php/hello-world/">[ Hello world ]<span class="op sup x-small">⇗</span></a>  </div>
-<div class="postTagList"></div>
+<div class="padding2 noscriptHide">
 
+<form id="form" method="GET" class="block" action="site-search.html" style="margin:0 auto;" role="search">
+
+<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Search:</label>
+<input id="q" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
+<input class="smaller op tCenter" type="submit" value="Search">
+<!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
+<button class="smaller op tCenter" name="q2" value="l" type="submit">Luck</button>
+<!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
 </div>
-<!-- // post -->
 
-<!-- post -->
-<div class=" bgList borderList post file borderRadius2 padding3">
-
-<div class="pre padding2List"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/php/website-to-pwa/">[ Website to pwa ]<span class="op sup x-small">⇗</span></a>  </div>
-<div class="postTagList"></div>
-
+</form>
 </div>
-<!-- // post -->
-
-</div>
-
-<div class="margin2 padding2"></div>
-<h3 class="op zero padding2">Python</h3>
-
-
-<div class="wrapper">
-
-<!-- post -->
-<div class=" bgList borderList post file borderRadius2 padding3">
-
-<div class="pre padding2List"><a class="brand insertIcon" href="https://github.com/irvirty/irvirty.pages.dev/tree/main/python/hello-world/">[ Hello world ]<span class="op sup x-small">⇗</span></a>  </div>
-<div class="postTagList"></div>
-
-</div>
-<!-- // post -->
 
 </div>
 
-<div class="margin2 padding2"></div>
-</div>
-<!-- nav2 -->
-<div class="margin padding"></div>
-<hr>
-<div class="margin padding"></div>
 
-<div class="xSmall op block tLeft padding1PxList margin1PxList"><span class="bold green">✪</span> Lists:</div>
+<script src="/data/sitemapJsonVar.js"></script>
+<script src="/data/bookmarksJsonVar.js"></script>
+<script src="/data/microblogJsonVar.js"></script>
+<script src="/data/articlesJsonVar.js"></script>
+<script src="/data/notesJsonVar.js"></script>
+<!--<script src="/data/randomwebsiteJsonVar.js"></script>-->
 
-<div class="menu small">
+<script>
 
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="pages-list.html"><span class="insertIcon firstLetterBold">Pages</span></a>
+var data = [];
+data = data.concat(sitemapJsonVar, bookmarksJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar);
+//data = [...sitemapJsonVar, ...bookmarksJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar];
 
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="games-list.html"><span class="insertIcon firstLetterBold">Games</span></a>
+</script>
 
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="projects-list.html"><span class="insertIcon firstLetterBold">Projects</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="mini-projects-list.html"><span class="insertIcon firstLetterBold">Mini projects</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="old-projects-list.html"><span class="insertIcon firstLetterBold">Old projects</span></a>
-
-<a class=" borderBottomBrand op  button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="other-projects-list.html"><span class="insertIcon firstLetterBold">Other projects</span></a>
-
-<a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="archive.html"><span class="insertIcon firstLetterBold">Archive (All)</span></a>
-
-</div>
-
-<div class="padding2"></div>
-<!-- // nav2 -->
-
-<div class="padding2"></div>
-
-<span id="speedDialPrint"></span>
-
-</div>
+<div id="printKeep"></div>
 
 
 
@@ -198,7 +165,73 @@
 
 
 
+<script src="/projects/keep-1/script.js"></script>
+
+<script>
+
+var geturl33 = window.location;
+var url33 = new URL(geturl33);
+var q33 = url33.searchParams.get("q");
+
+if(document.getElementById('q') != null&&q33 != ""&&q33 != null){
+document.getElementById('q').value = q33;
+}
+
+
+var q33Tag = url33.searchParams.get("tag");
+
+if(document.getElementById('q') != null&&q33Tag != ""&q33Tag != null){
+document.getElementById('q').value = "#" + q33Tag;
+}
+
+</script>
+
+<style>
+.keepContent .pre { font-size: 1em; /*text-transform: capitalize;*/ }
+.keepContent .pre a { text-transform: none; }
+</style>
+
+<script>
+// fresh config in script.js
+
+let keepConfig = {
+"postLimit":"10", // number
+"embedStatus":"not list", // off
+"multiEmbedStatus":"", // on
+"tagListStatus":"", // off
+"tagListLimit":"", // number
+"targetOption":"", // blank
+"bottomMsg":`
+
+
+
+<div class="small tRight op">
+<details>
+<summary class="op pointer xSmall">Note:</summary>
+<span class="pre">Search in: site map, links, blog.
+"text l", l - luck: the first page from search results.
+"text r", r - a random page from the search results.</span>
+</details>
+`, // text
+"display":"all", // grid
+"timeStatus":"off", // off
+"rightFooterStatus":"on", // on, off, right footer in data
+"usernameStatus":"on", // on, off
+};
+</script>
+
+<script>
+keep("printKeep", data, 'wrapper', './site-search.html', keepConfig);
+</script>
+
+
+
+
+
+
+
 
 </body>
 </html>
+
 
