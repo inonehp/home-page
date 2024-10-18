@@ -1,4 +1,4 @@
-<!-- README.md v.1.9.2 -->
+<!-- README.md v.1.9.3 -->
   
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
@@ -12,6 +12,7 @@ Home and Start Page with projects such as typing speed, to-do list, games, new t
 > - ~50/2 Themes (2 - dark, light).
 > - Speed ​​dial panel in the form of buttons.
 > - Typing Speed with your own text.
+> - New Tab Redirect extension: any website in a new tab page.
    
 > [!IMPORTANT]
 > - You can find information about other licenses on the "about" page.
@@ -29,16 +30,14 @@ Home and Start Page with projects such as typing speed, to-do list, games, new t
 #### 🏷️ GitHub Explore, topics:  
 [Website](https://github.com/topics/website),
 [Personal](https://github.com/topics/personal),
-[Home page](https://github.com/topics/homepage),
+[Homepage](https://github.com/topics/homepage),
 [Portfolio](https://github.com/topics/portfolio),
+[Projects](https://github.com/topics/projects),
 [Web Development](https://github.com/topics/web-development),
 [WebDesign](https://github.com/topics/WebDesign),
-[Projects](https://github.com/topics/projects),
 [Cloudflare Pages](https://github.com/topics/cloudflare-pages),
 [HTML](https://github.com/topics/HTML),
 [CSS](https://github.com/topics/CSS),
 [JavaScript](https://github.com/topics/JavaScript)
-[Startpage](https://github.com/topics/startpage),
-[Newtabpage](https://github.com/topics/newtabpage),
 
 
