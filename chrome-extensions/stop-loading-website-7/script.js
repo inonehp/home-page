@@ -42,9 +42,9 @@ var element = filterList[i].trim();
 //console.log(element);
 if (element != ""){
 let blcokSiteUrl = String(location.href);
-element = element.replace("https://www.", '');
-element = element.replace("http://www.", '');
-if (blcokSiteUrl.indexOf(element) != -1){
+let blockSiteElement2 = element.replace("https://www.", 'https://');
+blockSiteElement2 = blockSiteElement2.replace("http://www.", 'http://');
+if (blcokSiteUrl.indexOf(element) != -1||blcokSiteUrl.indexOf(blockSiteElement2) != -1){
 //console.log(element);
 fuExtStopLoad();
 break;
