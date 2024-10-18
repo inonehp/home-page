@@ -336,7 +336,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Keep\n\nThis is a static online version of the offline 'keep' script that keeps things, this part is used to display content and for other things. Not for large data! | keep: ",
+        "text": "Keep\n\nStatic version of the offline 'keep' script that saves things. Not for large data. | keep: ",
         "url": "\/projects\/keep-1\/index.html",
         "tag": " #content #microblog #JavaScript #page #project",
         "id": "561cedb4ab503ad3ea6a2310c3471e6c",

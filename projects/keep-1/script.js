@@ -1,7 +1,7 @@
-// Keep v.3.7.0
-// Static online version of the offline 'keep' script that saves things, this part is used to display content
+// Keep v.3.7.2
+// Static version of the offline 'keep' script that saves things.
 // Inspired by Twitter, Google Keep
-// Not for large data files!
+// Not for large data files.
 // JSON data in JS varible, time - in UNIX format
 
 /*
@@ -247,10 +247,10 @@ mode = mode.trim();
 }
 
 // q random
-//if (q == 'l'||q == 'r'){ q = null; mode = 'random'; }
+if (q == 'l'||q == 'r'){ q = null; mode = 'random'; }
+if (q == ''&&q2 == 'l'){ q = null; mode = 'random'; }
 
-
-if (q != null){
+if (q != null&&q != ''){
 
 if (q[q.length - 2] == ' '&&q[q.length - 1] == 'l'){ q = q.slice(0, -2); q2 = 'l'; }
 if (q[q.length - 3] == ' '&&q[q.length - 1] == 'l'&&q[q.length - 2] == 'l'){
@@ -271,7 +271,6 @@ if (q == 'rr'||q == 'rs'){ q = ''; mode = 'randomurl'; }
 if (q == ''&&q2 == 'l'){ mode = 'random'; }
 
 }
-
 qEncoded = encodeURIComponent(q);
 
 var id = url.searchParams.get("id");
@@ -380,7 +379,8 @@ function main(){
 
 
 
-if (q != null&&q != ""){
+//if (q != null&&q != ''){
+if (q != null){
 if (mode == null){ mode = 'search'; }
 
 /*q = fuMClearText(q);
@@ -1511,6 +1511,7 @@ var checkText = true;
 // light 1 highlightText
 function highlightText(text, targetOption, subQforLight){
 
+var play = "";
 
 if (embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
 
@@ -1618,7 +1619,7 @@ break;
 
 
 case 'www.behance.net':
-if (item.indexOf((`/gallery/`)) != 1){
+if (item.indexOf((`/gallery/`)) != -1){
 play = item.split('/');
 embed = `<iframe src="https://www.behance.net/embed/project/` + play[play.length - 2] + `?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>`;
 //embedServiceList += 'behance';
@@ -1689,10 +1690,12 @@ break;
 
 
 case "giphy.com":
+if (item.indexOf(`gifs`) != -1){
 play = item.split('-');
 play = play[play.length - 1];
 embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/$play">via GIPHY</a></p>`;
 embedServiceList += 'giphy';
+}
 break;
 
 
@@ -2043,6 +2046,8 @@ return text;
 function highlightText2(text, targetOption){
 //text = decodeURIComponent(text); // error sometimes
 
+var play = "";
+
 if (embedStatus == "not list"&&mode != "list"&&mode != "search"){ embedStatus = 'on'; }
 
 /*if (embedStatus == "notist"){
@@ -2148,7 +2153,7 @@ break;
 
 
 case 'www.behance.net':
-if (item.indexOf((`/gallery/`)) != 1){
+if (item.indexOf((`/gallery/`)) != -1){
 play = item.split('/');
 embed = `<iframe src="https://www.behance.net/embed/project/` + play[play.length - 2] + `?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>`;
 //embedServiceList += 'behance';
@@ -2223,10 +2228,12 @@ break;
 
 
 case "giphy.com":
+if (item.indexOf(`gifs`) != -1){
 play = item.split('-');
 play = play[play.length - 1];
 embed = `<iframe src="https://giphy.com/embed/${play}" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/$play">via GIPHY</a></p>`;
 embedServiceList += 'giphy';
+}
 break;
 
 
