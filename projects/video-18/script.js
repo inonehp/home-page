@@ -1,7 +1,4 @@
-// Video v.1.2.2
-// Mini YouTube
-
-
+// Video (random, embed) v.1.2.2
 
 var jsonVar = videoJsonVar;
 

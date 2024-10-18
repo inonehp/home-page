@@ -1,6 +1,5 @@
-// Music v.1.3.2
-// Mini music service
-// data inspiration: radio mostly and other.
+// Music list (random, embed) v.1.3.2
+// data inspiration: radio, music recomendation.
 
 var jsonVar = musicJsonVar;
 

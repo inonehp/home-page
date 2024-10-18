@@ -1,5 +1,4 @@
-// Podcast v.1.0.0
-// Mini Google Podcast
+// Podcasts (random, embed) v.1.0.0
 
 
 function randomPodcast(printId, jsonVar){

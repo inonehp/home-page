@@ -1,6 +1,5 @@
-// Movie list v.2.0.1
-// Mini IMDB
-// parse IMDB WATCHLIST.csv
+// Movie list (links) v.2.0.1
+// parsed IMDB WATCHLIST.csv
 
 parseList("result", "../../data2/WATCHLIST.csv");
 

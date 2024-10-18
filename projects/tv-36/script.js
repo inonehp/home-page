@@ -1,5 +1,4 @@
-// TV v.1.3.1
-// Mini TV service
+// TV (Playlists, embed) v.1.3.1
 
 function randomRadio(printId, jsonVar){
 
