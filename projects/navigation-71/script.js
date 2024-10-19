@@ -1,6 +1,6 @@
 // Navigation JS part v.1.3.1
 
-if (conf == undefined){
+if (conf === undefined){
 var conf = [];
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;

@@ -1371,6 +1371,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "RADIO CATANZARO | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/RADIO-CATANZARO-s189981\/",
+        "tag": "#radio #it",
+        "time": 1729310725,
+        "rightFooter": ""
+    },
+    {
         "text": "RADIO ENERGY Berlin im Livestream - der Radiosender f\u00fcr Berlin | RADIO ENERGY",
         "text2": "https:\/\/edge07.streamonkey.net\/energy-berlin\/stream\/mp3",
         "text3": "mp3",
@@ -1389,12 +1398,39 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Radio Gamma 5, 94.0 FM, Veneto, Italy | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Gamma-5-940-s95259\/",
+        "tag": "#radio #it",
+        "time": 1729311196,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Libert\u00e0, 103.5 FM, Lombardy, Italy | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Libert\u00e0-1035-s18300\/",
+        "tag": "#radio #it",
+        "time": 1729311001,
+        "rightFooter": ""
+    },
+    {
         "text": "Radio Milwaukee | Homepage | Radio Milwaukee",
         "text2": "https:\/\/wyms.streamguys1.com\/live",
         "text3": "mp3",
         "url": "https:\/\/radiomilwaukee.org\/",
         "tag": "#radio #RadioMusic #eclectic",
         "time": 1683864616,
+        "rightFooter": ""
+    },
+    {
+        "text": "Radio Radio, 104.5 FM, Lazio, Italy | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Radio-1045-s2488\/",
+        "tag": "#radio #it",
+        "time": 1729310939,
         "rightFooter": ""
     },
     {
@@ -1452,12 +1488,12 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "Rai.it",
-        "text2": "http:\/\/icestreaming.rai.it\/1.mp3",
-        "text3": "mp3",
-        "url": "https:\/\/www.rai.it\/",
+        "text": "RAI Isoradio, 103.3 FM, Lombardy, Italy | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/RAI-Isoradio-1033-s25595\/",
         "tag": "#radio #it",
-        "time": 1683398458,
+        "time": 1729310497,
         "rightFooter": ""
     },
     {

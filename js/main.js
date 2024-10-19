@@ -256,9 +256,8 @@ ${conf["confMenuItems2"]}
 
 
 // Navigation JS part v.1.3.1
-
 if (conf == undefined){
-var conf = [];
+let conf = [];
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["confMenuItemAverageWidth"] = 120;

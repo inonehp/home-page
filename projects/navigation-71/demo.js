@@ -2,7 +2,6 @@
 
 
 let print = ``;
-let print2 = ``;
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
 let n = 0;
@@ -13,8 +12,6 @@ print += `<a class="countMenuItem borderBottomTransparent inlineBlock padding br
 
 n++;
 }
-
-print2 = print;
 
 
 

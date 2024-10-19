@@ -114,20 +114,6 @@
 </url>
 
 <url>
-<loc>https://irvirty.pages.dev/firefox-extensions/archive/badge-count-up-timer-4/background.html</loc>
-</url>
-<url>
-<loc>https://irvirty.pages.dev/firefox-extensions/archive/badge-count-up-timer-4/background</loc>
-</url>
-
-<url>
-<loc>https://irvirty.pages.dev/firefox-extensions/archive/badge-count-up-timer-4/popup.html</loc>
-</url>
-<url>
-<loc>https://irvirty.pages.dev/firefox-extensions/archive/badge-count-up-timer-4/popup</loc>
-</url>
-
-<url>
 <loc>https://irvirty.pages.dev/firefox-extensions/hotkey-url-5/options.html</loc>
 </url>
 <url>
@@ -153,6 +139,20 @@
 </url>
 <url>
 <loc>https://irvirty.pages.dev/firefox-extensions/new-tab-redirect-3/options</loc>
+</url>
+
+<url>
+<loc>https://irvirty.pages.dev/firefox-extensions/old/badge-count-up-timer-4/background.html</loc>
+</url>
+<url>
+<loc>https://irvirty.pages.dev/firefox-extensions/old/badge-count-up-timer-4/background</loc>
+</url>
+
+<url>
+<loc>https://irvirty.pages.dev/firefox-extensions/old/badge-count-up-timer-4/popup.html</loc>
+</url>
+<url>
+<loc>https://irvirty.pages.dev/firefox-extensions/old/badge-count-up-timer-4/popup</loc>
 </url>
 
 <url>
