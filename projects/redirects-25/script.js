@@ -1259,8 +1259,27 @@ document.getElementById('input').value = q;
 
 }
 
+
 runRedirect(rUrlGet);
 
 
 
 
+
+// to top form
+if (conf["confDevice"] == 'mobile'){
+if (document.getElementById('searchPage') != null&&document.getElementById('form') != null){
+var getclick2 = document.getElementById('form');
+document.addEventListener('click', function(event) {
+if (getclick2.contains(event.target)) {
+//document.getElementById('topSearchWrapper').style.display = 'none';
+document.getElementById('searchPage').classList.remove('contentCenter');
+document.getElementById('searchPage').classList.add('content');
+} else {
+//document.getElementById('topSearchWrapper').style.display = 'block';
+document.getElementById('searchPage').classList.remove('content');
+document.getElementById('searchPage').classList.add('contentCenter');
+}
+});
+}
+}
