@@ -4,7 +4,7 @@ var bookmarksJsonVar =
 [
     {
         "id": "180",
-        "text": "VLC media player for Ubuntu - VideoLAN",
+        "text": "VLC media player - VideoLAN",
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.videolan.org\/vlc\/",

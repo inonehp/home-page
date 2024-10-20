@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>irvirty - Home page and projects</title>
+<title>Irvirty - Home page and projects</title>
 
 <meta name="description" content="Home page and projects such as typing speed, to-do list, games, new tab extension, tech news, microblog, icons, themes, website templates etc">
 <meta name="keywords" content="website, homepage, home, page,
@@ -12,7 +12,7 @@ Geany, Firefox, Chrome, WordPress, theme, themes, extension,
 WebDev, HTML, CSS, JavaScript,
 todo, typing, game, icons, templates, redirect,
 tech, news, technology, search, microblog, links, images, photos,
-page, main,
+newtab, new, tab, startpage, start, page, main,
 ignoreme,">
 
 <link rel="alternate" type="application/rss+xml" title="Website RSS" href="/rss.xml">
@@ -424,13 +424,13 @@ delta -= minutes * 60;
 // what's left is seconds
 var seconds = delta % 60;  // in theory the modulus is not required
 
-if(year > 0){
+if (year > 0){
 time = year+' year ';
-} else if(month > 0){
+} else if (month > 0){
 time = month+' month ';
 } else if (days > 0){
 time = days+' day ';
-} else if(hours > 0){
+} else if (hours > 0){
 time = hours+' hour ';
 } else if (minutes > 0) { time = minutes+' minute '; }
 else { time = checkTime(Math.floor(seconds))+' second '; }
@@ -490,12 +490,12 @@ document.getElementById("hotLinks").innerHTML = a;
 // hide top header if mobile
 // local, only this page
 
-if(conf["confDevice"] == 'mobile'){
+if (conf["confDevice"] == 'mobile'){
 var getclick2 = document.getElementById('form');
 document.addEventListener('click', function(event) {
 if (getclick2.contains(event.target)) {
 document.getElementById( 'topHeader' ).style.display = 'none';
-}else{
+} else {
 document.getElementById( 'topHeader' ).style.display = 'block';
 }
 });
@@ -510,7 +510,7 @@ var q = url.searchParams.get("q");
 var url = new URL(geturl);
 let sUrlText = String(url);
 const myArray = sUrlText.split("q=");
-if(q != null&&myArray[0].search("cache") == -1&&url.hostname == location.hostname){
+if (q != null&&myArray[0].search("cache") == -1&&url.hostname == location.hostname){
 q = encodeURIComponent(q);
 location.href = "/projects/redirects-25/?q=" + q;
 //location.href = fuMHideFileNameExt("./search.html?q=") + q;

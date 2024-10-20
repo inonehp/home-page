@@ -480,13 +480,12 @@ fuMPrintText("footerNav", mFooterNavLinksPrint, '');
 
 
 
-
 // Device 1.0.0
 conf["confDevice"] = 'none';
 /*if (conf["confDataCollection"] != 'on'){
 conf["confDevice"] = '(disabled, privacy)';
 } else {}*/
-if (navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ conf["confDevice"] = 'mobile';  }
+if (navigator.userAgent.search("iPhone|Android|Mobile|Lumia|Phone") != -1){ conf["confDevice"] = 'mobile';  }
 if (navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ conf["confDevice"] = 'tv';  }
 if (conf["confDevice"] == 'none'){ conf["confDevice"] = 'pc'; }
 
