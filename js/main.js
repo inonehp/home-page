@@ -405,8 +405,6 @@ fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall"
 
 fuMPrintText("footer", `
 
-<div id="style"></div>
-
 <div class="padding2 margin2"></div>
 
 <div id="cookiePopup"></div>
@@ -553,17 +551,17 @@ fuMBg();
 
 // fix
 if (conf["confThemeEmbed"] == 'dark'){
-fuMPrintText('style', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 .reduceLight { filter:brightness(70%); }
 </style>
-`, 'plus');
+`);
 } else {
-fuMPrintText('style', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 .reduceLight { filter: brightness(100%); }
 </style>
-`, 'plus');
+`);
 }
 
 }
@@ -1032,7 +1030,7 @@ let mBgDark = fuMRandomItem("bg-index-d.svg bg-line-square-d.svg bg-star-d.svg b
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'){
-fuMPrintText('style', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 body{
 background-image: url("/img/${mBg}");
@@ -1041,9 +1039,9 @@ background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;
 }
 </style>
-`, 'plus');
+`);
 } else {
-fuMPrintText('style', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 body{
 background-image: url("/img/${mBgDark}");
@@ -1052,7 +1050,7 @@ background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;
 }
 </style>
-`, 'plus');
+`);
 }
 
 
@@ -1064,11 +1062,11 @@ background-attachment: fixed;
 // fonts, external fonts (privacy, data analytics)
 if (conf["confDataCollection"] == 'on'&&conf["confExternalFonts"] == 'auto'||conf["confExternalFonts"] == 'on'){
 
-fuMPrintText('style', `
+document.head.insertAdjacentHTML("beforeend", `
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 </style>
-`, 'plus');
+`);
 
 }
 
@@ -1365,5 +1363,8 @@ gtag('config', conf["confGoogleAnalyticsId"]);
 
 // fu hide ext
 fuMHideFileNameExt2();
+
+
+//https://developer.mozilla.org/docs/Web/API/Element/insertAdjacentHTML
 
 

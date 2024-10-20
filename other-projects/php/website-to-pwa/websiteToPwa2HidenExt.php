@@ -1,14 +1,15 @@
 <?php
 // Function dir to PWA v.3.1.0
+// Be careful! The script creates files: manifest.webmanifest, sw.js.
 // Run script only on localhost, not made for public.
 // For an already-generated static site in a folder on localhost. The PWA will include all the files in the folder.
-// Be careful! The script creates files: manifest.webmanifest, sw.js.
 
 
 
 
 
-function websiteToPWA($dir, $siteName, $pwaVersion, $workerDirectory){
+
+function websiteToPwa($dir, $siteName, $pwaVersion, $workerDirectory){
 if(!empty($dir)){
 
 $swJs = 'sw.js';

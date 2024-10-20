@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.10.19";
+//var myCacheVersion = "v.1.2.2024.10.20";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.10.19").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.10.20").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -317,12 +317,8 @@ var fileListArr = ["/404.html",
 "/data/videoJsonVar.js",
 "/data/word.json",
 "/data/wordJsonVar.js",
-"/data-other/img/close10x10.png",
+"/data-other/WATCHLIST.csv",
 "/data-other/",
-"/data-other/img/",
-"/data-other/img/close10x10.psd",
-"/data2/WATCHLIST.csv",
-"/data2/",
 "/favicon.ico",
 "/firefox-extensions/hotkey-url-5/README.md",
 "/firefox-extensions/",
@@ -763,6 +759,23 @@ var fileListArr = ["/404.html",
 "/old-projects-list.html",
 "/other-projects/index.html",
 "/other-projects/",
+"/other-projects/php/hello-world/index.php",
+"/other-projects/php/",
+"/other-projects/php/hello-world/",
+"/other-projects/php/index.html",
+"/other-projects/php/php-site-to-static-site-in-progress/generator.php",
+"/other-projects/php/php-site-to-static-site-in-progress/",
+"/other-projects/php/php-site-to-static-site-in-progress/index.php",
+"/other-projects/php/website-to-pwa/index.php",
+"/other-projects/php/website-to-pwa/",
+"/other-projects/php/website-to-pwa/websiteToPwa.php",
+"/other-projects/php/website-to-pwa/websiteToPwa2HidenExt.php",
+"/other-projects/python/hello-world/main.py",
+"/other-projects/python/",
+"/other-projects/python/hello-world/",
+"/other-projects/python/index.html",
+"/other-projects/tpl/index.html",
+"/other-projects/tpl/",
 "/other-projects-list.html",
 "/pages/about.html",
 "/pages/",
@@ -773,8 +786,8 @@ var fileListArr = ["/404.html",
 "/pages/chrome-extensions-page.html",
 "/pages/chrome-theme-page.html",
 "/pages/css-art-page.html",
+"/pages/data-other-page.html",
 "/pages/data-page.html",
-"/pages/data2-page.html",
 "/pages/firefox-extensions-page.html",
 "/pages/firefox-theme-page.html",
 "/pages/geany-theme-page.html",
@@ -808,13 +821,6 @@ var fileListArr = ["/404.html",
 "/photos/2024/flower-6.jpg",
 "/photos/2024/frog-11.jpg",
 "/photos/index.html",
-"/php/hello-world/index.php",
-"/php/",
-"/php/hello-world/",
-"/php/website-to-pwa/index.php",
-"/php/website-to-pwa/",
-"/php/website-to-pwa/websiteToPWA.php",
-"/php/website-to-pwa/websiteToPWA2HidenExt.php",
 "/projects/agi-countdown-59/data-list.html",
 "/projects/",
 "/projects/agi-countdown-59/",
@@ -1048,9 +1054,6 @@ var fileListArr = ["/404.html",
 "/projects/weather-37/style.css",
 "/projects-group-list.html",
 "/projects-list.html",
-"/python/hello-world/main.py",
-"/python/",
-"/python/hello-world/",
 "/robots.txt",
 "/rss.xml",
 "/sitemap.xml",
@@ -1243,7 +1246,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.10.19")
+caches.open("v.1.2.2024.10.20")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1269,7 +1272,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.10.19")
+caches.open("v.1.2.2024.10.20")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1302,7 +1305,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.10.19"];
+  const cachesToKeep = ["v.1.2.2024.10.20"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

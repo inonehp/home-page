@@ -12,7 +12,6 @@ Geany, Firefox, Chrome, WordPress, theme, themes, extension,
 WebDev, HTML, CSS, JavaScript,
 todo, typing, game, icons, templates, redirect,
 tech, news, technology, search, microblog, links, images, photos,
-free,
 page, main,
 ignoreme,">
 
@@ -26,10 +25,6 @@ ignoreme,">
 <link rel="icon" sizes="512x512" href="/img/logo.png" type="image/png">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
-
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="-1">
 
 <!-- main -->
 <link rel="preload" href="/js/main.js" as="script">
@@ -114,7 +109,7 @@ z-index: -2;
 }
 
 .headerBannerImg svg,
-.headerBannerImg img,{
+.headerBannerImg img {
 opacity: .7;
 }
 
@@ -126,6 +121,8 @@ transform: rotate(0deg);
 }
 
 </style>
+
+<nontag id="style"></nontag>
 
 </head>
 <body>
@@ -283,8 +280,10 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand tag op" href="
 
 </div>
 
-<style>
+<script>
+document.head.insertAdjacentHTML("beforeend", `
 
+<style>
 
 .hotLinks {
 /*display: grid;
@@ -315,6 +314,9 @@ flex-wrap: wrap;
 /*.hotLinks .tag { max-width: 100%; }*/
 </style>
 
+`);
+
+</script>
 
 <div  class="center noscriptHide" style="margin-top: 7px;">
 <div class="wrapper tCenter small"><!--if scrollX horizontal class rm tagList)-->

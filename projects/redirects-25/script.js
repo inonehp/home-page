@@ -470,8 +470,8 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://wikinews.org/wiki/",
+"https://www.dw.com/en/",
 "https://theconversation.com/",
-"https://lemmy.world/c/news",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -492,7 +492,7 @@ if (q == ''){
 urlList = [
 "https://slashdot.org/",
 "https://theconversation.com/us/technology",
-"https://lemmy.world/c/technology",
+"https://www.dw.com/en/technology/s-58123656",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -512,7 +512,8 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://science.slashdot.org/",
-"https://www.theguardian.com/science",
+"https://theconversation.com/us/technology",
+"https://www.dw.com/en/science/s-12526",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -599,7 +600,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://lemmy.world/c/sports",
+"https://www.dw.com/en/sports/s-8171",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

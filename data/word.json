@@ -825,11 +825,6 @@
         "text3": "tornillo"
     },
     {
-        "text": "\u0431\u043e\u043c\u0431\u0430",
-        "text2": "bomb",
-        "text3": "bomba"
-    },
-    {
         "text": "\u0431\u043e\u043d\u0443\u0441",
         "text2": "bonus",
         "text3": "bono"
@@ -1513,11 +1508,6 @@
         "text": "\u0433\u0435\u0440\u0446\u043e\u0433\u0441\u0442\u0432\u043e",
         "text2": "duchy",
         "text3": "ducado"
-    },
-    {
-        "text": "\u0433\u0435\u0442\u0442\u043e",
-        "text2": "ghetto",
-        "text3": "ghetto"
     },
     {
         "text": "\u0433\u043b\u0430\u0432\u0430",
@@ -5413,11 +5403,6 @@
         "text": "\u043f\u0430\u0440\u0441\u0438\u043d\u0433",
         "text2": "parsing",
         "text3": "parsing"
-    },
-    {
-        "text": "\u043f\u0430\u0440\u0442\u0438\u0437\u0430\u043d",
-        "text2": "partisan",
-        "text3": "partidista"
     },
     {
         "text": "\u043f\u0430\u0440\u0442\u043d\u0435\u0440",

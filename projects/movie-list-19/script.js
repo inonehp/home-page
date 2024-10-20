@@ -1,7 +1,7 @@
 // Movie list (links) v.2.0.1
 // parsed IMDB WATCHLIST.csv
 
-parseList("result", "../../data2/WATCHLIST.csv");
+parseList("result", "../../data-other/WATCHLIST.csv");
 
 
 function parseList(printId, fileCsv){
@@ -55,7 +55,7 @@ year33 = year33[5];*/
 //get arr for sort
 movieList.push({
 title: `${title33}`,
-data: `<a target="_blank" href="${url33}">${title33} (${year33})<br>`
+data: `<span class="inlineBlock padding1Px">${title33} (${year33}) - <a class="brand" target="_blank" href="${url33}">IMDB</a></span><br>`
 });
 
 }
@@ -91,13 +91,13 @@ randomMovie = movieList[randomMovie]['data'];
 randomMovie2 = movieList[randomMovie2]['data'];
 randomMovie3 = movieList[randomMovie3]['data'];
 print = `
-<b class="block paddingList2 small">Random:</b>
+<h2 class="block paddingList2">Random:</h2>
 ${randomMovie}
 ${randomMovie2}
 ${randomMovie3}<br>
-<a class="op small paddingList2 brand" href="#" onclick="reload()">[ reload ]</a>
+<a class="op paddingList2 brand" href="#" onclick="reload()">[ reload ]</a>
 
-<br><br><span class="block op small paddingList bold">List (total: ${movieList.length}):</span>
+<h2 class="op paddingList bold">List (total: ${movieList.length}):</h2>
 ${print}
 `;
 

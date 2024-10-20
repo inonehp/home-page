@@ -210,17 +210,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Data other page\n\nOther files with data. | pages: ",
+        "url": "\/pages\/data-other-page.html",
+        "tag": " #data #data_file #file #list #page #main",
+        "id": "798cd9c3ff83e033381a9d812be3bc89",
+        "time": "id"
+    },
+    {
         "text": "Data page\n\nThe data files used on the site. | pages: ",
         "url": "\/pages\/data-page.html",
         "tag": " #data_file #data #file #list #page #main",
         "id": "419dad4ddc5cfdee213b9ac25f1fe826",
-        "time": "id"
-    },
-    {
-        "text": "Data2 page\n\nOther files with data. | pages: ",
-        "url": "\/pages\/data2-page.html",
-        "tag": " #data #data_file #file #list #page #main",
-        "id": "01281292c3c7882e78910c50ee7e9199",
         "time": "id"
     },
     {
