@@ -1,5 +1,5 @@
 <!-- README.md v.1.9.3 -->
-  
+<!-- Carefully! The folder: "other-projects" contains PHP, Python, ... files -->  
 ![page with a light and dark theme and theme settings](/img/github-banner-settings.png)  
   
 # About
@@ -15,8 +15,9 @@ Home page and projects such as typing speed, to-do list, games, new tab extensio
 > - New Tab Redirect extension: any website in a new tab page.
    
 > [!IMPORTANT]
-> - You can find information about other licenses on the "about" page.
-> - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.
+> - You can find information about other licenses on the "about" page.  
+> - The Google analytics ID is in the file "/js/main.js", it works if accept the cookie.  
+> - Carefully! The folder: "other-projects" contains PHP, Python, ... files.  
 
 
   
