@@ -127,9 +127,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "CSS Computer (PC)\n\nCSS art description. | computer css: ",
-        "url": "\/data2\/css-art\/computer-css-9\/index.html",
+        "url": "\/pages-data\/css-art\/computer-css-9\/index.html",
         "tag": " #CSSArt #HTML #CSS #project",
-        "id": "4efe7a1da51fc29cd458639bf3c058b7",
+        "id": "fc79a4eb7cf647904faecb04aa69b09b",
         "time": "id"
     },
     {
@@ -148,23 +148,23 @@ var sitemapJsonVar = [
     },
     {
         "text": "CSS Halloween Pumpkin\n\nCSS art description. | halloween pumpkin css: ",
-        "url": "\/data2\/css-art\/halloween-pumpkin-css-15\/index.html",
+        "url": "\/pages-data\/css-art\/halloween-pumpkin-css-15\/index.html",
         "tag": " #CSSArt #HTML #CSS #project",
-        "id": "f5faa5c25a3cec324704eace1fea76d0",
+        "id": "1955905f2fa36ca2c51eb4ec14325e7b",
         "time": "id"
     },
     {
         "text": "CSS Realistic Old Windows OS Popup\n\nCSS art description. | realistic old windows os popup window: ",
-        "url": "\/data2\/css-art\/realistic-old-windows-os-popup-window-12\/index.html",
+        "url": "\/pages-data\/css-art\/realistic-old-windows-os-popup-window-12\/index.html",
         "tag": " #CSSArt #HTML #CSS #project",
-        "id": "9f252f0b1127d38eaa26eca7cc3e70db",
+        "id": "a194b2a14bee9a5d445984318363080c",
         "time": "id"
     },
     {
         "text": "CSS woman\n\nCSS art description. | woman css: ",
-        "url": "\/data2\/css-art\/woman-css-32\/index.html",
+        "url": "\/pages-data\/css-art\/woman-css-32\/index.html",
         "tag": " #CSSArt #HTML #CSS #project",
-        "id": "df9c726d9151ef11003d4be50a526d15",
+        "id": "b249ed184ec228a52845c92c0069c1cf",
         "time": "id"
     },
     {
@@ -207,13 +207,6 @@ var sitemapJsonVar = [
         "url": "\/projects\/count-symbol-39\/index.html",
         "tag": " #symbol #counter #tool #symbol #JavaScript #project",
         "id": "c13ebf133b3b7e9dfe7288b2cc9b457c",
-        "time": "id"
-    },
-    {
-        "text": "Data other page\n\nOther files with data. | pages: ",
-        "url": "\/pages\/data-other-page.html",
-        "tag": " #data #data_file #file #list #page #main",
-        "id": "798cd9c3ff83e033381a9d812be3bc89",
         "time": "id"
     },
     {
@@ -424,6 +417,13 @@ var sitemapJsonVar = [
         "url": "\/old-projects-list.html",
         "tag": " #old #menu #list #page #main",
         "id": "5d199df533ae00854cdcfa6af9eb1d80",
+        "time": "id"
+    },
+    {
+        "text": "Other data page\n\nOther files with data. | pages: ",
+        "url": "\/pages\/other-data-page.html",
+        "tag": " #data #data_file #file #list #page #main",
+        "id": "f07c9b9b8efd8647a4f2eaba3303e3ec",
         "time": "id"
     },
     {
@@ -680,149 +680,149 @@ var sitemapJsonVar = [
     },
     {
         "text": "Template: About me 21\n\nWebsite template description. | about me page auto light dark: ",
-        "url": "\/data2\/templates\/about-me-page-auto-light-dark-21\/index.html",
+        "url": "\/pages-data\/templates\/about-me-page-auto-light-dark-21\/index.html",
         "tag": " #WebDesign #template",
-        "id": "7ecf378f126f8c6365f3e2dfdc7c93b7",
+        "id": "18ae536291533f7d94bfa1bbeaaca09e",
         "time": "id"
     },
     {
         "text": "Template: Web design services 22\n\nWebsite template description. | web design services simple auto light dark: ",
-        "url": "\/data2\/templates\/web-design-services-simple-auto-light-dark-22\/index.html",
+        "url": "\/pages-data\/templates\/web-design-services-simple-auto-light-dark-22\/index.html",
         "tag": " #WebDesign #template",
-        "id": "b2063f4152d5ce5cd91c873472a65b7d",
+        "id": "41265c79bfb50d898183a8cff5f03cf4",
         "time": "id"
     },
     {
         "text": "Template: card page 20\n\nWebsite template description. | card page auto light dark: ",
-        "url": "\/data2\/templates\/card-page-auto-light-dark-20\/index.html",
+        "url": "\/pages-data\/templates\/card-page-auto-light-dark-20\/index.html",
         "tag": " #WebDesign #template",
-        "id": "fd9af94e0450af031dbe1ae5806d7c59",
+        "id": "154736376c4c321a6f6c89aa877d683a",
         "time": "id"
     },
     {
         "text": "Template: clean one page 16\n\nWebsite template description. | clean one page mini simple auto light dark: ",
-        "url": "\/data2\/templates\/clean-one-page-mini-simple-auto-light-dark-16\/index.html",
+        "url": "\/pages-data\/templates\/clean-one-page-mini-simple-auto-light-dark-16\/index.html",
         "tag": " #WebDesign #template",
-        "id": "d7af9f16c61765c9b4d5fd097c97832a",
+        "id": "dfcc670a4df83ddc92e9ddf7234dc9f0",
         "time": "id"
     },
     {
         "text": "Template: flower one page 17\n\nWebsite template description. | flower one page mini auto light dark flat: ",
-        "url": "\/data2\/templates\/flower-one-page-mini-auto-light-dark-flat-17\/index.html",
+        "url": "\/pages-data\/templates\/flower-one-page-mini-auto-light-dark-flat-17\/index.html",
         "tag": " #WebDesign #template",
-        "id": "0463a3eaf6bad432f71a629bfcfd5d3f",
+        "id": "0a3a2537c5d9b1078263aa46d05967d5",
         "time": "id"
     },
     {
         "text": "Template: home page 10\n\nWebsite template description. | home page flat auto many colors themes: ",
-        "url": "\/data2\/templates\/home-page-flat-auto-many-colors-themes-10\/index.html",
+        "url": "\/pages-data\/templates\/home-page-flat-auto-many-colors-themes-10\/index.html",
         "tag": " #WebDesign #template",
-        "id": "c62593621691ceb1420ac1502ea89fd3",
+        "id": "d5c67c42f56ad9ff6fc232bb39b32f54",
         "time": "id"
     },
     {
         "text": "Template: home page 9\n\nWebsite template description. | home page auto light dark flat: ",
-        "url": "\/data2\/templates\/home-page-auto-light-dark-flat-9\/index.html",
+        "url": "\/pages-data\/templates\/home-page-auto-light-dark-flat-9\/index.html",
         "tag": " #WebDesign #template",
-        "id": "2aecf014c6fd6c901361a3d1e6f899d2",
+        "id": "6bb6c60488f81e340af31e40aa2c3ccb",
         "time": "id"
     },
     {
         "text": "Template: movie site 11\n\nWebsite template description | movie flat auto light dark: ",
-        "url": "\/data2\/templates\/movie-flat-auto-light-dark-11\/index.html",
+        "url": "\/pages-data\/templates\/movie-flat-auto-light-dark-11\/index.html",
         "tag": " #WebDesign #template",
-        "id": "69db51490dc399d1723a5593dfb209cb",
+        "id": "ae5f564261266b30ebd95c8d74e02171",
         "time": "id"
     },
     {
         "text": "Template: personal 2\n\nWebsite template description. | personal: ",
-        "url": "\/data2\/templates\/personal-2\/index.html",
+        "url": "\/pages-data\/templates\/personal-2\/index.html",
         "tag": " #WebDesign #template",
-        "id": "8dc69df8b40aa83afe0cce396436830b",
+        "id": "9df3dc9ec1e0c7144796c5ba03a26de7",
         "time": "id"
     },
     {
         "text": "Template: personal 3\n\nWebsite template description. | personal: ",
-        "url": "\/data2\/templates\/personal-3\/index.html",
+        "url": "\/pages-data\/templates\/personal-3\/index.html",
         "tag": " #Website_template_keywords",
-        "id": "dc0890f4a0d5af02d65d303c73adbc5d",
+        "id": "6618e563ef847c2cd21df056950bf8c9",
         "time": "id"
     },
     {
         "text": "Template: photo gallery 18\n\nWebsite template description. | photo gallery one page flat auto light dark: ",
-        "url": "\/data2\/templates\/photo-gallery-one-page-flat-auto-light-dark-18\/index.html",
+        "url": "\/pages-data\/templates\/photo-gallery-one-page-flat-auto-light-dark-18\/index.html",
         "tag": " #WebDesign #template",
-        "id": "64b452c3c2efe330489e5615aaf63bc8",
+        "id": "78e04fca0db7884d2a3054583d46ad83",
         "time": "id"
     },
     {
         "text": "Template: profile card 12\n\nWebsite template description. | profile card flat mini auto light dark: ",
-        "url": "\/data2\/templates\/profile-card-flat-mini-auto-light-dark-12\/index.html",
+        "url": "\/pages-data\/templates\/profile-card-flat-mini-auto-light-dark-12\/index.html",
         "tag": " #WebDesign #template",
-        "id": "ce0b7a1b4d66b14818908d1a2eb73108",
+        "id": "2342a08a9ff060bfe974315e85b6e162",
         "time": "id"
     },
     {
         "text": "Template: profile card 14\n\nWebsite template description. | profile card mini flat auto light dark: ",
-        "url": "\/data2\/templates\/profile-card-mini-flat-auto-light-dark-14\/index.html",
+        "url": "\/pages-data\/templates\/profile-card-mini-flat-auto-light-dark-14\/index.html",
         "tag": " #WebDesign #template",
-        "id": "44e33cfd947737610be225bcc0e308d7",
+        "id": "fb65078de5da0a73d52ab68f55cf7175",
         "time": "id"
     },
     {
         "text": "Template: saas page 19\n\nWebsite template description. | saas landing page auto light dark: ",
-        "url": "\/data2\/templates\/saas-landing-page-auto-light-dark-19\/index.html",
+        "url": "\/pages-data\/templates\/saas-landing-page-auto-light-dark-19\/index.html",
         "tag": " #WebDesign #template",
-        "id": "7922ded7ea03184c3cd1a2e4369cb4ab",
+        "id": "254160b748ffdf678ff9293dde2ab774",
         "time": "id"
     },
     {
         "text": "Template: simple 4\n\nWebsite template description. | simple: ",
-        "url": "\/data2\/templates\/simple-4\/index.html",
+        "url": "\/pages-data\/templates\/simple-4\/index.html",
         "tag": " #WebDesign #template",
-        "id": "3d5774426a794db119594657964008c9",
+        "id": "fe7c11195aa6b1d93ec9502372169899",
         "time": "id"
     },
     {
         "text": "Template: simple 5\n\nWebsite template description. | simple: ",
-        "url": "\/data2\/templates\/simple-5\/index.html",
+        "url": "\/pages-data\/templates\/simple-5\/index.html",
         "tag": " #WebDesign #template",
-        "id": "0af2291af5b01537a4f34cc5156cae33",
+        "id": "371ce93b168c63c76e76c1f689c3328b",
         "time": "id"
     },
     {
         "text": "Template: simple 6\n\nWebsite template description. | simple: ",
-        "url": "\/data2\/templates\/simple-6\/index.html",
+        "url": "\/pages-data\/templates\/simple-6\/index.html",
         "tag": " #WebDesign #template",
-        "id": "99da7f25a5013bfa4017e5af626d2422",
+        "id": "138eaaeebd8ebfd6fc8626974cd22033",
         "time": "id"
     },
     {
         "text": "Template: simple 7\n\nWebsite template description. | simple: ",
-        "url": "\/data2\/templates\/simple-7\/index.html",
+        "url": "\/pages-data\/templates\/simple-7\/index.html",
         "tag": " #WebDesign #template",
-        "id": "31a8876dc21a2d0bdf9404a0c33c22b4",
+        "id": "cbdc1e25c0282ad4875801de6fde3486",
         "time": "id"
     },
     {
         "text": "Template: simple 8\n\nWebsite template description. | simple: ",
-        "url": "\/data2\/templates\/simple-8\/index.html",
+        "url": "\/pages-data\/templates\/simple-8\/index.html",
         "tag": " #WebDesign #template",
-        "id": "a1120273a44c80a59e3ff935a896c187",
+        "id": "7f468d4a8fce1a20e76682f73fb61c92",
         "time": "id"
     },
     {
         "text": "Template: simple text 1\n\nWebsite template description. | simple text: ",
-        "url": "\/data2\/templates\/simple-text-1\/index.html",
+        "url": "\/pages-data\/templates\/simple-text-1\/index.html",
         "tag": " #WebDesign #template",
-        "id": "ccfe1a0bc99c01cb23a368939062f740",
+        "id": "2137358120eff5a0fefab19f4e0bb8ba",
         "time": "id"
     },
     {
         "text": "Template: web design 15\n\nWebsite template description. | webdesign one page mini flat auto light dark: ",
-        "url": "\/data2\/templates\/webdesign-one-page-mini-flat-auto-light-dark-15\/index.html",
+        "url": "\/pages-data\/templates\/webdesign-one-page-mini-flat-auto-light-dark-15\/index.html",
         "tag": " #WebDesign #template",
-        "id": "b585654427f08588f0740b9e7c85427c",
+        "id": "46198bc618c28fc3c219b4a8310a904e",
         "time": "id"
     },
     {

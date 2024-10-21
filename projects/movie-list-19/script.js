@@ -1,7 +1,7 @@
 // Movie list (links) v.2.0.1
 // parsed IMDB WATCHLIST.csv
 
-parseList("result", "../../data-other/WATCHLIST.csv");
+parseList("result", "../../data2/WATCHLIST.csv");
 
 
 function parseList(printId, fileCsv){
