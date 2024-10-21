@@ -3,6 +3,26 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "183",
+        "text": "Bento - A Link in Bio, but Rich and Beautiful.",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bento.me\/en\/home",
+        "tag": "#MicroHosting #profile",
+        "time": 1729553282,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=183\">id<\/a>"
+    },
+    {
+        "id": "182",
+        "text": "Dreamwidth Studios",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.dreamwidth.org\/",
+        "tag": "#blog #platform",
+        "time": 1729550892,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=182\">id<\/a>"
+    },
+    {
         "id": "181",
         "text": "Mwmbl - Search",
         "text2": "",
@@ -271,26 +291,6 @@ var bookmarksJsonVar =
         "tag": "#movie #MovieDatabase",
         "time": 1715224653,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=145\">id<\/a>"
-    },
-    {
-        "id": "144",
-        "text": "Movies - Movies on Google Play",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/play.google.com\/store\/movies",
-        "tag": "#movie #MovieDatabase",
-        "time": 1715224445,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=144\">id<\/a>"
-    },
-    {
-        "id": "143",
-        "text": "Apple TV+",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/tv.apple.com\/",
-        "tag": "#movie #MovieDatabase",
-        "time": 1715224377,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=143\">id<\/a>"
     },
     {
         "id": "142",
@@ -603,26 +603,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=106\">id<\/a>"
     },
     {
-        "id": "102",
-        "text": "iCodeThis",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/icodethis.com\/app",
-        "tag": "#website #nice #dev #challenge",
-        "time": 1707262952,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=102\">id<\/a>"
-    },
-    {
-        "id": "100",
-        "text": "Dare to Share",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.daretoshare.design\/",
-        "tag": "#website #nice #dev #challenge",
-        "time": 1707133773,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=100\">id<\/a>"
-    },
-    {
         "id": "99",
         "text": "Deezer | Listen to music | Online music streaming platform",
         "text2": "",
@@ -653,16 +633,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=91\">id<\/a>"
     },
     {
-        "id": "89",
-        "text": "Analytics Tools & Solutions for Your Business - Google Analytics",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/marketingplatform.google.com\/about\/analytics\/",
-        "tag": "#tools",
-        "time": 1706536011,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=89\">id<\/a>"
-    },
-    {
         "id": "88",
         "text": "Google Search Console",
         "text2": "",
@@ -671,16 +641,6 @@ var bookmarksJsonVar =
         "tag": "#tools",
         "time": 1706535988,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=88\">id<\/a>"
-    },
-    {
-        "id": "87",
-        "text": "Hubs - Private, virtual 3D worlds in your browser",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/hubs.mozilla.com\/",
-        "tag": "#website #dev #nice #cool #best",
-        "time": 1706534706,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=87\">id<\/a>"
     },
     {
         "id": "86",
@@ -803,16 +763,6 @@ var bookmarksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=72\">id<\/a>"
     },
     {
-        "id": "69",
-        "text": "Free Web Development Resources - Marko Denic - Web Developer",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/markodenic.com\/free-web-development-resources\/",
-        "tag": "#resources #collection",
-        "time": 1706102889,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=69\">id<\/a>"
-    },
-    {
         "id": "65",
         "text": "Grammarly: Free AI Writing Assistance",
         "text2": "",
@@ -881,16 +831,6 @@ var bookmarksJsonVar =
         "tag": "#CSS #blog #magazine #WebDesign #WebDevelopment",
         "time": 1706020810,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=58\">id<\/a>"
-    },
-    {
-        "id": "57",
-        "text": "Bento - A Link in Bio, but Rich and Beautiful.",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/bento.me\/en\/home",
-        "tag": "#MicroHosting #profile",
-        "time": 1706006020,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=57\">id<\/a>"
     },
     {
         "id": "56",
@@ -1007,7 +947,7 @@ var bookmarksJsonVar =
         "text": "Dribbble - Discover the World\u2019s Top Designers & Creative Professionals",
         "text2": "",
         "text3": "",
-        "url": "https:\/\/dribbble.com\/following",
+        "url": "https:\/\/dribbble.com\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1705802829,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=41\">id<\/a>"
@@ -1291,15 +1231,5 @@ var bookmarksJsonVar =
         "tag": "#donate #platform",
         "time": 1705739978,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=4\">id<\/a>"
-    },
-    {
-        "id": "1",
-        "text": "CSS Artist",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.cssartist.com\/",
-        "tag": "#website #dev #nice #cool",
-        "time": 1705739865,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=1\">id<\/a>"
     }
 ]

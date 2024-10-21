@@ -3,6 +3,16 @@ var notesJsonVar =
 
 [
     {
+        "id": "77",
+        "text": "Viewport meta tag - HTML: HyperText Markup Language | MDN",
+        "text2": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTML\/Viewport_meta_tag",
+        "tag": "#HTML",
+        "time": 1729550852,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=77\">id<\/a>"
+    },
+    {
         "id": "76",
         "text": "html - Is there a difference between initial-scale=1 and initial-scale=1.0? - Stack Overflow",
         "text2": "",

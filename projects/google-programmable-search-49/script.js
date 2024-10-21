@@ -50,11 +50,11 @@ qGQ = encodeURIComponent(qGQ);
 lQMode.forEach((item, item2) => {
 if (item["name"] == qGMode){
 lQModePrint += `
-<a class="brand active2 light3 tag border borderRadius3" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand active2 light3 tag border borderRadius2" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="brand tag light3 border borderRadius3" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand tag light3 border borderRadius2" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });
@@ -70,11 +70,11 @@ document.getElementById("mode").innerHTML = `${lQModePrint}`;
 lQMode.forEach((item, item2) => {
 if (item["name"] == qGMode){
 lQModePrint += `
-<a class="brand active2 light3 tag border borderRadius3" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand active2 light3 tag border borderRadius2" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
 `;
 } else {
 lQModePrint += `
-<a class="brand tag light2 border borderRadius3" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
+<a class="brand tag light2 border borderRadius2" href="?mode=${item["name"]}&q=${qGQ}">${item["name"]}</a>
 `;
 }
 });

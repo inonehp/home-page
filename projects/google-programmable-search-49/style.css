@@ -43,3 +43,11 @@ max-width: 40%;
 .gsc-orderby-container, .gsc-inline-block {
 min-width: 60%;
 }
+
+
+
+.gs-web-image-box .gs-image {
+max-width: 100% !important;
+}
+
+

@@ -20,12 +20,8 @@ video:
 *.vimeo.com/*
 *.dailymotion.com/*
 
-//https://instances.joinpeertube.org/instances?sort=-totalUsers
-*.phijkchu.com/*
-*.video.qoto.org/*
-*.peertube.tweb.tv/*
-*.peertube.tv/*
-
 blog:
+*.medium.com/*
 *.blogspot.com/*
 *.wordpress.com/*
+*.dreamwidth.org/*
