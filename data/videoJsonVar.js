@@ -174,15 +174,6 @@ var videoJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "At War With The Army (1950) | Classic Musical | Comedy Movie | Dean Martin | Old Movies | For Free - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=ZBM0M--gGWA",
-        "tag": "#video #movie",
-        "time": 1688534452,
-        "rightFooter": ""
-    },
-    {
         "text": "At War With The Army - Full Movie | Dean Martin, Jerry Lewis, Mike Kellin, Jimmie Dundee - YouTube",
         "text2": "",
         "text3": "",
@@ -720,15 +711,6 @@ var videoJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=cdYceAIXLn0",
         "tag": "#video #movie",
         "time": 1688537219,
-        "rightFooter": ""
-    },
-    {
-        "text": "Dixiana (1930) FULL MOVIE | Comedy, Drama, Music, Musical, Romance | Bebe Daniels, Everett Marshall - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=h4pg-dJiO6s",
-        "tag": "#video #movie",
-        "time": 1713158389,
         "rightFooter": ""
     },
     {

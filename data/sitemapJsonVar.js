@@ -85,9 +85,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Blocked\n\nBlock notification page.\r\nNot intended for viewing. | blocked: ",
-        "url": "\/projects\/blocked-65\/index.html",
+        "url": "\/old-projects\/blocked-65\/index.html",
         "tag": " #block #CSS #JavaScript #project",
-        "id": "62837b53fdbe60ebf867f61ece8a4d7b",
+        "id": "0ccb5ac450f60f4856196f4adc8d67f3",
         "time": "id"
     },
     {

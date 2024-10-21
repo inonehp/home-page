@@ -1,4 +1,4 @@
-// test demo icon v.1.0.1
+// icons test demo icon v.1.0.2
 
 
 
@@ -15,7 +15,7 @@ lIconsPrint += `
 <div class="item bg2 shadow borderRadius3 padding2">
 ${val.text}
 <hr>
-<div><a href="/data2/icons/${val.text}.svg">
+<div><a href="/pages-data/icons/${val.text}.svg">
 
 <span style="display: inline-flex; width: 16px; height: 16px;">
 ${val.text2}
