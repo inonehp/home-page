@@ -51,8 +51,8 @@ result[0] += `
 
 <div class="block op margin2 xSmall">
 api:<br>
-<a href="https://open-meteo.com/">open-meteo.com</a>,
-<a href="https://ipapi.co/">ipapi.co</a>
+<a class="brand" href="https://open-meteo.com/">open-meteo.com</a>,
+<a class="brand" href="https://ipapi.co/">ipapi.co</a>
 </div>
 `;
 

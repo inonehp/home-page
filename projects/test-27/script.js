@@ -83,10 +83,10 @@ var checkScroll = -1;
 window.onscroll = event => {
 //onscrollend = (event) => {
 
-fuMPrintText('resultTerminal', `
+fuMInsertHtml('#resultTerminal', `
 scrollTop: ${document.documentElement.scrollTop} = offsetTop: ${document.getElementById('divIdForAnimation').offsetTop}<br>
 clientHeight: ${document.documentElement.clientHeight}<br>
-`, 'top');
+`, '');
 
 
 // start animation div when scrolling
@@ -149,7 +149,6 @@ try {
 
 } catch (error) {
 console.log(error);
-console.log(fuMPrintText(error));
   // Handle error.
 }
 }
@@ -259,14 +258,14 @@ document.querySelector('[id="resultText"]').innerHTML += `${text}`;
 /*
 //https://developer.chrome.com/blog/scrollend-a-new-javascript-event/
 document.onscroll = event => {
-fuMPrintText('result', `window.screenX: ${window.screenX}<br>`, 'top');
+fuMInsertHtml('#result', `window.screenX: ${window.screenX}<br>`, 'beforebegin');
 console.log('scroll');
-fuMPrintText('result', `scroll: ${document.documentElement.scrollTop}<br>`, 'top');
+fuMInsertHtml('#result', `scroll: ${document.documentElement.scrollTop}<br>`, 'beforebegin');
 }
 
 document.onscrollend = event => {
 console.log('onscrollend');
-fuMPrintText('result', `onscrollend: ${document.documentElement.scrollTop}<br>`, 'top');
+fuMInsertHtml('#result', `onscrollend: ${document.documentElement.scrollTop}<br>`, 'beforebegin');
 }
 var a = null;
 //document.getElementById('print').innerHTML += a;

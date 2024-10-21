@@ -1,4 +1,4 @@
-// Keep v.3.7.2
+// Keep v.3.7.3
 // Static version of the offline 'keep' script that saves things.
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -347,18 +347,12 @@ var lFoundQUrlList = [];
 
 if (tagListStatus == 'on'){
 
-let navLinkRandom = `<a class="small tag2 brand" href="?mode=random" title="Random post">random</a>`;
-if (q != ""&&q != null){
-navLinkRandom = `<a class="small tag2 brand" href="?q=${qEncoded} r" title="Random post">random</a>`;
-}
-
 print += `
 
 <nav class="tCenter">
 <!--<a class="small tag2" href="./" title="Index ./">index</a>-->
 <a class="small tag2 brand" href="?" title="Start">start</a>
-${navLinkRandom}
-<!--<a class="small tag2 brand" href="?mode=random" title="Random post">random</a>-->
+<a class="small tag2 brand" href="?mode=random" title="Random post">random</a>
 </nav>
 
 <div class="wrapper">

@@ -29,7 +29,6 @@ mRandColor2 = mColors[mRandColor2];
 if (mRandColor != mRandColor2){
 break;
 }
-console.log(n);
 n++;
 }
 }

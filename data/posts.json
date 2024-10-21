@@ -70,16 +70,6 @@
         "rightFooter": ""
     },
     {
-        "id": "18",
-        "text": "Consent to cookies, pop-up window:\r\n\r\nAllow Cookies For Third Parties? \r\n\r\nTransfer information about the IP address, information about visited pages (interests) and more to 10,000 analytical companies? This is only for selling personal information and nothing more. [ No] [ Yes ]",
-        "text2": "",
-        "text3": "",
-        "url": "",
-        "tag": "#cookie #cookies #post",
-        "time": 1728721671,
-        "rightFooter": ""
-    },
-    {
         "id": "17",
         "text": "I created my site blocker for Firefox, the basis of the extension is what the \"stop\" button does in the browser when the page is loaded. JavaScript: stop() - function. (name: Stop loading website).",
         "text2": "",

@@ -1,4 +1,4 @@
-// Main js v.6.11.12
+// Main js v.6.12.0
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -147,21 +147,19 @@ if (String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
 }
 
-
-function fuMPrintText(id, text, option){
-if (document.getElementById(id) != null){
-if (option == 'plus'||option == '+'){
-document.getElementById(id).innerHTML += text;
-} else if (option == 'plusTop'||option == 'top'){
-document.getElementById(id).innerHTML = text + document.getElementById(id).innerHTML;
+function fuMInsertHtml(selector, text, option){
+//https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+//option: beforebegin, afterbegin, beforeend, afterend
+if (document.querySelector(selector) != null){
+if (option != undefined&&option != ''){
+document.querySelector(selector).insertAdjacentHTML(option, text);
+//alert(opition + 'test');
 } else {
-document.getElementById(id).innerHTML = text;
-}
-} else {
-// console.log(id+' not fount');
+document.querySelector(selector).insertAdjacentHTML('beforeend', text);
+//alert(option + 'test2');
 }
 }
-
+}
 
 
 //<!-- Nav v.1.2.1 -->
@@ -314,28 +312,25 @@ let dropdownMenu = document.getElementById("dropdownMenu");
 const topNav = document.getElementById("topNav");
 
 function fuMDropdownButton(){
+if (dropdownButton != null&&dropdownMenu != null){
 //https://stackoverflow.com/questions/64487640/javascript-show-hide-div-onclick
 if (dropdownMenu.style.display === "block") {
 dropdownMenu.style.display = "none";
-if (dropdownButton != null){
 dropdownButton.innerHTML = `☰ Menu`;
-}
 } else {
 dropdownMenu.style.display = "block";
-if (dropdownButton != null){
 dropdownButton.innerHTML = `☶ Menu`;
-}
 
 //https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle
 //dropdownMenu.classList.toggle("showDropdownMenu");
-
-
 }
 }
+};
 
 
 // out area click
 //https://stackoverflow.com/questions/36695438/detect-click-outside-div-using-javascript
+if (topNav != null&&dropdownButton != null){
 window.addEventListener('click', function(e){
 dropdownMenu = document.getElementById("dropdownMenu");
 if (topNav.contains(e.target) == true){
@@ -343,12 +338,10 @@ if (topNav.contains(e.target) == true){
 } else {
 dropdownMenu.style.display = "none";
 //dropdownMenu.classList.remove("showDropdownMenu");
-if (dropdownButton != null){
 dropdownButton.innerHTML = `☰ Menu`;
 }
-}
 });
-
+};
 
 
 // end Navigation JS version
@@ -403,7 +396,7 @@ fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall"
 }
 }
 
-fuMPrintText("footer", `
+fuMInsertHtml("#footer", `
 
 <div class="padding2 margin2"></div>
 
@@ -474,7 +467,7 @@ mFooterNavLinksPrint += fuMHideFileNameExt(` <span class="gray">/</span> <a clas
 }
 });
 
-fuMPrintText("footerNav", mFooterNavLinksPrint, '');
+fuMInsertHtml("#footerNav", mFooterNavLinksPrint, '');
 
 // end footer
 
@@ -966,8 +959,6 @@ document.getElementById("fTheme").innerHTML = 'Theme: ' + theme + ' (' + conf["c
 
 
 function fuMReload(){ location.reload(true); }
-function fuReload(){ console.log("renameme to: fuMReload"); location.reload(true); }
-function reload(){ console.log("renameme to: fuMReload"); location.reload(true); }
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 function fuMRandom(min, max){
@@ -1097,7 +1088,7 @@ conf["confDataCollection"] = 'off';
 conf["confDataCollection"] = 'on';
 }
 
-//fuMPrintText('fPrivacy', `Cookie: auto (${conf["confDataCollection"]})`); 
+//fuMInsertHtml('#fPrivacy', `Cookie: auto (${conf["confDataCollection"]})`); 
 if (document.getElementById('fPrivacy')[0] != null){
 document.getElementById('fPrivacy')[0].innerHTML = `Cookie: auto (${conf["confDataCollection"]})`;
 }

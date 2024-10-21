@@ -13,7 +13,7 @@
 function websiteToPwa($dir, $siteName, $PWAVersion){
 if(!empty($dir)){
 
-if(empty($siteName)){ $siteName = 'siteName PWA'; }
+if(empty($siteName)){ $siteName = 'Site Name PWA'; }
 if(empty($PWAVersion)){ $PWAVersion = "v.1.0.".time(); }
 
 

@@ -31,7 +31,7 @@ document.getElementById("panel").innerHTML = `
 <div>
 <button class="gDbtn light border borderRadius2" id="myBtn">roll</button>
 <div class="padding2"></div>
-<button class="gDbtn light border op borderRadius2" onclick="reload()">reload</button>
+<button class="gDbtn light border op borderRadius2" onclick="fuMReload()">reload</button>
 <!--<button class="gDbtn light border op" onclick="refresh()">refresh</button>-->
 </div>
 `;

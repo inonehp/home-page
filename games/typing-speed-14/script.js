@@ -80,7 +80,7 @@ document.getElementById("mode").innerHTML = `
 <!-- mode -->
 
 <!--<a class="tag op light border2 borderRadius2" href="?"">main</a>-->
-<a class="tag op light3 border2 borderRadius2" href="./?" onclick="reload();">reload</a>
+<a class="tag op light3 border2 borderRadius2" href="./?" onclick="fuMReload();">reload</a>
 <!--<span id="refresh" class="tag op light border2 borderRadius2"><a href="#" onclick="mainAll('');">refresh</a></span>-->
 
 ${modeListPrint}

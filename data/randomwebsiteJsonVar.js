@@ -3,6 +3,26 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "82",
+        "text": "Xe Iaso",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/xeiaso.net\/",
+        "tag": "#personal",
+        "time": 1729464103,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=82\">id<\/a>"
+    },
+    {
+        "id": "81",
+        "text": "Neal.fun",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/neal.fun\/",
+        "tag": "#personal #WebDevelopment",
+        "time": 1729439792,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=81\">id<\/a>"
+    },
+    {
         "id": "80",
         "text": "Marginalia Search - browse:random",
         "text2": "",

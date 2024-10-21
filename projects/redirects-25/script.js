@@ -996,12 +996,14 @@ urlList = [
 //"https://www.bing.com/search?q=" + q,
 "https://www.ecosia.org/search?q=" + q,
 "https://search.marginalia.nu/search?query=" + q,
+"https://mwmbl.org/?q=" + q,
 ];
 if (q == ''){
 urlList = [
 //"https://www.bing.com/",
 "https://www.ecosia.org/",
 "https://search.marginalia.nu/",
+"https://mwmbl.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

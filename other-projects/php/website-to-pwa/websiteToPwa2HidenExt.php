@@ -13,7 +13,7 @@ function websiteToPwa($dir, $siteName, $pwaVersion, $workerDirectory){
 if(!empty($dir)){
 
 $swJs = 'sw.js';
-if(empty($siteName)){ $siteName = 'siteName PWA'; }
+if(empty($siteName)){ $siteName = 'Site Name PWA'; }
 if(empty($pwaVersion)){ $pwaVersion = "v.1.0.".time(); }
 if(empty($workerDirectory)){ $workerDirectory = '/'; }
 
