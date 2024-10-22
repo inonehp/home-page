@@ -1286,7 +1286,7 @@ runRedirect(rUrlGet);
 
 
 
-
+/*
 // to top form
 if (conf["confDevice"] == 'mobile'){
 if (document.getElementById('searchPage') != null&&document.getElementById('form') != null){
@@ -1303,4 +1303,4 @@ document.getElementById('searchPage').classList.add('contentCenter');
 }
 });
 }
-}
+}*/
