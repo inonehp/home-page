@@ -29,16 +29,6 @@ var print = `
 <div class="margin2 padding2"></div>
 
 
-<div class="tCenter op wrapperSmall">
-<a class="button border borderRadius2 light2 shadow" href="#" onclick="fuMReload();">Again (Reload)</a>
-<!--<a class="button border borderRadius2 light2 shadow" href="/?q=rs">Random Site (Web)</a>-->
-</div>
-
-<!--<div class="op small">
-Notes:<br>
-<div>- <a class="bold brand" href="data-list.html">List of collected data</a></div>
-<div class="padding2"></div>
-</div>-->
 
 `;
 
