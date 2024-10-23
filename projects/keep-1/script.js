@@ -1,4 +1,4 @@
-// Keep v.3.7.3
+// Keep v.3.8.0
 // Static version of the offline 'keep' script that saves things.
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -18,7 +18,7 @@ let keepConfig = {
 "bottomMsg":`
 <!-- bottom text or code -->
 `, // text
-"display":"", // gallery - grid, galleryStretch, blog - "text" as title link, all - text, text2, text3
+"display":"", // gallery - grid, art - in test, blog - "text" as title link, all - text, text2, text3
 "timeStatus":"", // off, disable post time (post id)
 "rightFooterStatus":"", // on, off, right footer in data
 "usernameStatus":"", // on, off
@@ -1034,7 +1034,7 @@ margin: 3px;
 }
 }
 
-if (display == 'galleryStretch'){
+if (display == 'art'){
 if (mode == 'list'&&total != 1||mode == 'search'&&total != 1){
 keepStyle = `
 
@@ -1043,7 +1043,7 @@ keepStyle = `
 display: grid;
 width: 100%;
 /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
-grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 grid-template-rows: masonry;
 grid-gap: 5px;
 
