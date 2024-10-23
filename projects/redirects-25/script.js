@@ -1256,7 +1256,7 @@ document.getElementById("printTextUrl").textContent = decodeURIComponent(rUrlGet
 
 
 var a = [
-"goo", "bin", "n", "x", "red, v, l"
+"goo", "bin", "n", "red, v, l"
 ];
 
 var b = '';

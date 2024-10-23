@@ -175,7 +175,7 @@ function settingOptionReset(){
 
 if(confirm(`Are you sure? Set all options to default values.`) == true){
 printFunctionLocal("reset");
-return reload();
+return fuMReload();
 }
 
 }
@@ -188,7 +188,7 @@ function settingOptionClearData(){
 if(confirm(`Are you sure? All local storage data will be deleted (theme settings, etc).`) == true){
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage/clear
 localStorage.clear();
-return reload();
+return fuMReload();
 }
 
 }
@@ -228,7 +228,7 @@ req.onblocked = function () {
 
 });
 
-return reload();
+return fuMReload();
 }
 
 }

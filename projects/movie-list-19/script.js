@@ -95,7 +95,7 @@ print = `
 ${randomMovie}
 ${randomMovie2}
 ${randomMovie3}<br>
-<a class="op paddingList2 brand" href="#" onclick="reload()">[ reload ]</a>
+<a class="op paddingList2 brand" href="#" onclick="fuMReload()">[ reload ]</a>
 
 <h2 class="op paddingList bold">List (total: ${movieList.length}):</h2>
 ${print}
