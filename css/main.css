@@ -1,4 +1,4 @@
-/* Main style v.19.0.4
+/* Main style v.19.0.5
 /* main.css + theme like auto.css (auto light and dark) */
 /* The style is mostly based on classes: */
 
@@ -28,6 +28,11 @@
 --padding2: 11px;
 --padding3: 16px;
 --padding4: 32px;
+
+--margin: 5px;
+--margin2: 11px;
+--margin3: 16px;
+--margin4: 32px;
 
 --borderRadius: 3px;
 --borderRadius2: 5px;
@@ -456,15 +461,15 @@ padding-right: 0;
 .padding4List { padding-bottom: var(--padding4); }
 .padding1PxList { padding-bottom: 1px; }
 
-.margin { margin: var(--padding); }
-.margin2 { margin: var(--padding2); }
-.margin3 { margin: var(--padding3); }
-.margin4 { margin: var(--padding4); }
+.margin { margin: var(--margin); }
+.margin2 { margin: var(--margin2); }
+.margin3 { margin: var(--margin3); }
+.margin4 { margin: var(--margin4); }
 .margin1Px { margin: 1px; }
-.marginList { margin-bottom: var(--padding); }
-.margin2List { margin-bottom: var(--padding2); }
-.margin3List { margin-bottom: var(--padding3); }
-.margin4List { margin-bottom: var(--padding4); }
+.marginList { margin-bottom: var(--margin); }
+.margin2List { margin-bottom: var(--margin2); }
+.margin3List { margin-bottom: var(--margin3); }
+.margin4List { margin-bottom: var(--margin4); }
 .margin1PxList { margin-bottom: 1px; }
 
 .inputHeight { min-height: var(--inputHeight); }

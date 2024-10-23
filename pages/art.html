@@ -234,6 +234,21 @@
 <!-- post -->
 <div class="wrapper post bgList border3List borderRadius2 padding3" id="">
 
+<div class="postContent pre padding2List">Update lemon gimp <a class="brand" href="/pages-data/art/2024/update-lemon-gimp-11.jpg">/pages-data/art/2024/update-lemon-gimp-11.jpg</a><br><a href="/pages-data/art/2024/update-lemon-gimp-11.jpg"><img class="img border" src="/pages-data/art/2024/update-lemon-gimp-11.jpg" alt="img"></a></div>
+
+<div class="postFooter break2 small">
+<div class="tagList tLeft left"></div>
+<div class="tagList tRight right">id</div>
+</div>
+
+</div>
+<!-- // post -->
+
+
+
+<!-- post -->
+<div class="wrapper post bgList border3List borderRadius2 padding3" id="">
+
 <div class="postContent pre padding2List">Wave lines gimp <a class="brand" href="/pages-data/art/2024/wave-lines-gimp-8.jpg">/pages-data/art/2024/wave-lines-gimp-8.jpg</a><br><a href="/pages-data/art/2024/wave-lines-gimp-8.jpg"><img class="img border" src="/pages-data/art/2024/wave-lines-gimp-8.jpg" alt="img"></a></div>
 
 <div class="postFooter break2 small">
@@ -265,6 +280,13 @@
 
 <script>
 var keepJsonVar = [
+    {
+        "id": "202411",
+        "text": "Update lemon gimp",
+        "url": "\/pages-data\/art\/2024\/update-lemon-gimp-11.jpg",
+        "tag": " #update #lemon #gimp",
+        "time": "id"
+    },
     {
         "id": "202410",
         "text": "Face gimp",
@@ -388,7 +410,13 @@ var keepJsonVar =
 // fresh config in script.js
 
 /*.keepContent .pre { font-size: 1.2em; }*/
-.keepContent .pre:first-letter{ font-weight: bold;  }
+.keepContent .pre:first-letter{ font-weight: bold; }
+.keepContent img {
+border: 2px solid var(--d);
+padding: var(--padding);
+border-radius: var(--borderRadius2);
+background-color: var(--l3);
+}
 </style>
 
 <script>
@@ -407,7 +435,7 @@ let keepConfig = {
 </script>
 
 <script>
-keep("printKeep", keepJsonVar, 'wrapperSmall', './art.html', keepConfig);
+keep("printKeep", keepJsonVar, 'wrapperSmall ', './art.html', keepConfig);
 </script>
 
 
