@@ -1,3 +1,6 @@
+
+var linksJsonVar = 
+
 [
     {
         "id": "188",
@@ -7,7 +10,7 @@
         "url": "https:\/\/en.wikipedia.org\/wiki\/List_of_most-visited_art_museums",
         "tag": "#art",
         "time": 1729662808,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=188\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "187",
@@ -17,7 +20,7 @@
         "url": "https:\/\/artsandculture.google.com\/",
         "tag": "#art",
         "time": 1729661864,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=187\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "186",
@@ -27,7 +30,7 @@
         "url": "https:\/\/www.blender.org\/",
         "tag": "#tool #video #app #software",
         "time": 1729559353,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=186\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "185",
@@ -37,7 +40,7 @@
         "url": "https:\/\/www.nngroup.com\/",
         "tag": "#WebDesign #UX",
         "time": 1729558785,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=185\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "184",
@@ -47,7 +50,7 @@
         "url": "https:\/\/tinypng.com\/",
         "tag": "#tool #WebDesign",
         "time": 1729556658,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=184\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "183",
@@ -57,7 +60,7 @@
         "url": "https:\/\/bento.me\/en\/home",
         "tag": "#MicroHosting #profile",
         "time": 1729553282,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=183\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "182",
@@ -67,7 +70,7 @@
         "url": "https:\/\/www.dreamwidth.org\/",
         "tag": "#blog #platform",
         "time": 1729550892,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=182\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "181",
@@ -77,7 +80,7 @@
         "url": "https:\/\/mwmbl.org\/",
         "tag": "#search #engine #platform",
         "time": 1729483496,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=181\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "180",
@@ -87,7 +90,7 @@
         "url": "https:\/\/www.videolan.org\/vlc\/",
         "tag": "#app #software #video",
         "time": 1729148406,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=180\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "179",
@@ -97,7 +100,7 @@
         "url": "https:\/\/search.marginalia.nu\/",
         "tag": "#platform #search #engine #SearchEngine",
         "time": 1729079325,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=179\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "177",
@@ -107,7 +110,7 @@
         "url": "https:\/\/itch.io\/",
         "tag": "#catalog #game #platform #inspiration",
         "time": 1728172595,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=177\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "176",
@@ -117,7 +120,7 @@
         "url": "https:\/\/substack.com\/home",
         "tag": "#platform #SocialNetwork",
         "time": 1727406724,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=176\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "175",
@@ -127,7 +130,7 @@
         "url": "https:\/\/www.falkon.org\/",
         "tag": "#software #app #browser",
         "time": 1727297304,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=175\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "174",
@@ -137,7 +140,7 @@
         "url": "https:\/\/www.wix.com\/blog\/",
         "tag": "#WebDesign #blog",
         "time": 1727244727,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=174\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "173",
@@ -147,7 +150,7 @@
         "url": "https:\/\/buymeacoffee.com\/",
         "tag": "#donate #platform",
         "time": 1726714991,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=173\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "172",
@@ -157,7 +160,7 @@
         "url": "https:\/\/developer.chrome.com\/blog",
         "tag": "#blog #WebDevelopment",
         "time": 1726451611,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=172\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "171",
@@ -167,7 +170,7 @@
         "url": "https:\/\/www.geany.org\/",
         "tag": "#app #IDE #programming #text",
         "time": 1726220743,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=171\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "170",
@@ -177,7 +180,7 @@
         "url": "https:\/\/code.visualstudio.com\/",
         "tag": "#app #IDE #programming #text",
         "time": 1726220716,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=170\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "169",
@@ -187,7 +190,7 @@
         "url": "https:\/\/www.gimp.org\/",
         "tag": "#app #drawing #paint",
         "time": 1726218359,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=169\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "166",
@@ -197,7 +200,7 @@
         "url": "https:\/\/app.grammarly.com\/",
         "tag": "#grammar #language",
         "time": 1725087627,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=166\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "165",
@@ -207,7 +210,7 @@
         "url": "https:\/\/www.nytimes.com\/games\/wordle\/index.html",
         "tag": "#game",
         "time": 1725085671,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=165\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "162",
@@ -217,7 +220,7 @@
         "url": "https:\/\/join-lemmy.org\/",
         "tag": "#SocialNetwork #platform",
         "time": 1723338330,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=162\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "159",
@@ -227,7 +230,7 @@
         "url": "https:\/\/www.designsystems.com\/",
         "tag": "#blog",
         "time": 1720614903,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=159\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "158",
@@ -237,7 +240,7 @@
         "url": "https:\/\/m3.material.io\/blog",
         "tag": "#blog",
         "time": 1720610821,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=158\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "156",
@@ -247,7 +250,7 @@
         "url": "https:\/\/www.theregister.com\/",
         "tag": "#technology #news",
         "time": 1719910727,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=156\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "155",
@@ -257,7 +260,7 @@
         "url": "https:\/\/www.sitepoint.com\/blog\/",
         "tag": "#WebDevelopment #programming #blog",
         "time": 1719789910,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=155\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "154",
@@ -267,7 +270,7 @@
         "url": "https:\/\/web.dev\/blog",
         "tag": "#WebDevelopment #blog",
         "time": 1719789865,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=154\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "152",
@@ -277,7 +280,7 @@
         "url": "https:\/\/www.w3.org\/blog\/",
         "tag": "#WebDevelopment #blog",
         "time": 1719683537,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=152\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "150",
@@ -287,7 +290,7 @@
         "url": "https:\/\/developers.google.com\/",
         "tag": "#WebDevelopment #blog",
         "time": 1719682680,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=150\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "149",
@@ -297,7 +300,7 @@
         "url": "https:\/\/librivox.org\/",
         "tag": "#book #audio",
         "time": 1719493811,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=149\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "147",
@@ -307,7 +310,7 @@
         "url": "https:\/\/www.nytimes.com\/games\/strands",
         "tag": "#game",
         "time": 1716161292,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=147\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "146",
@@ -317,7 +320,7 @@
         "url": "https:\/\/www.merriam-webster.com\/games\/quordle\/#\/",
         "tag": "#game",
         "time": 1716161123,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=146\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "145",
@@ -327,7 +330,7 @@
         "url": "https:\/\/www.themoviedb.org\/",
         "tag": "#movie #MovieDatabase",
         "time": 1715224653,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=145\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "142",
@@ -337,7 +340,7 @@
         "url": "https:\/\/www.imdb.com\/",
         "tag": "#movie #MovieDatabase",
         "time": 1715224057,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=142\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "139",
@@ -347,7 +350,7 @@
         "url": "https:\/\/albiononline.com\/home",
         "tag": "#game #MMORPG",
         "time": 1714731766,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=139\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "138",
@@ -357,7 +360,7 @@
         "url": "https:\/\/www.nytimes.com\/games\/connections",
         "tag": "#game",
         "time": 1714540281,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=138\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "137",
@@ -367,7 +370,7 @@
         "url": "https:\/\/www.listennotes.com\/",
         "tag": "#search #podcast #engine #platform",
         "time": 1713763757,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=137\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "136",
@@ -377,7 +380,7 @@
         "url": "https:\/\/tastedive.com\/",
         "tag": "#recommendation #alternative #music #movie #TV #shows #book #game #podcast",
         "time": 1713762770,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=136\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "134",
@@ -387,7 +390,7 @@
         "url": "https:\/\/news.mit.edu\/",
         "tag": "#technology #news",
         "time": 1713299009,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=134\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "133",
@@ -397,7 +400,7 @@
         "url": "https:\/\/www.drupal.org\/",
         "tag": "#CMS",
         "time": 1711924171,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=133\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "132",
@@ -407,7 +410,7 @@
         "url": "https:\/\/daringfireball.net\/projects\/markdown\/",
         "tag": "#markdown #tools",
         "time": 1711840978,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=132\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "131",
@@ -417,7 +420,7 @@
         "url": "https:\/\/www.wattpad.com\/",
         "tag": "#book #store #SocialNetwork #platform",
         "time": 1711522063,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=131\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "130",
@@ -427,7 +430,7 @@
         "url": "https:\/\/docs.github.com\/en\/get-started\/writing-on-github\/getting-started-with-writing-and-formatting-on-github\/basic-writing-and-formatting-syntax",
         "tag": "#markdown #tool",
         "time": 1711406847,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=130\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "128",
@@ -437,7 +440,7 @@
         "url": "https:\/\/www.perplexity.ai\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1711187007,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=128\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "127",
@@ -447,7 +450,7 @@
         "url": "https:\/\/developer.chrome.com\/",
         "tag": "#WebDevelopment #blog #docs",
         "time": 1710896751,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=127\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "126",
@@ -457,7 +460,7 @@
         "url": "https:\/\/www.deviantart.com\/",
         "tag": "#img #photo #platform #SocialNetwork",
         "time": 1710773049,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=126\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "125",
@@ -467,7 +470,7 @@
         "url": "https:\/\/imgur.com\/",
         "tag": "#img #photo #platform #SocialNetwork",
         "time": 1710699221,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=125\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "124",
@@ -477,7 +480,7 @@
         "url": "https:\/\/www.joomla.org\/",
         "tag": "#CMS",
         "time": 1710611436,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=124\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "123",
@@ -487,7 +490,7 @@
         "url": "https:\/\/wordpress.org\/",
         "tag": "#CMS",
         "time": 1710611405,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=123\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "122",
@@ -497,7 +500,7 @@
         "url": "https:\/\/www.dokuwiki.org\/dokuwiki",
         "tag": "#CMS",
         "time": 1710611347,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=122\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "120",
@@ -507,7 +510,7 @@
         "url": "https:\/\/play.google.com\/store\/games",
         "tag": "#platform #inspiration #product #catalog #app",
         "time": 1710472058,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=120\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "119",
@@ -517,7 +520,7 @@
         "url": "https:\/\/chromewebstore.google.com\/",
         "tag": "#extension #platform #inspiration #product #catalog #app",
         "time": 1710472022,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=119\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "118",
@@ -527,7 +530,7 @@
         "url": "https:\/\/addons.mozilla.org\/en-US\/firefox\/",
         "tag": "#extension #platform #inspiration #product #catalog #app",
         "time": 1710471980,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=118\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "117",
@@ -537,7 +540,7 @@
         "url": "https:\/\/www.producthunt.com\/",
         "tag": "#WebDevelopment #dev #platform #inspiration #product #catalog #app #software",
         "time": 1710471777,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=117\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "116",
@@ -547,7 +550,7 @@
         "url": "https:\/\/chat.mistral.ai\/chat",
         "tag": "#AI #assistant #chatbot",
         "time": 1710426340,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=116\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "115",
@@ -557,7 +560,7 @@
         "url": "https:\/\/huggingface.co\/chat\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1710425641,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=115\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "114",
@@ -567,7 +570,7 @@
         "url": "https:\/\/chat.openai.com\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1710418765,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=114\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "113",
@@ -577,7 +580,7 @@
         "url": "https:\/\/gemini.google.com\/app",
         "tag": "#AI #assistant #chatbot",
         "time": 1710418283,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=113\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "112",
@@ -587,7 +590,7 @@
         "url": "https:\/\/copilot.microsoft.com\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1710418263,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=112\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "111",
@@ -597,7 +600,7 @@
         "url": "https:\/\/alternativeto.net\/",
         "tag": "#app #software #store #platform #inspiration #product #catalog #app",
         "time": 1710407726,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=111\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "109",
@@ -607,7 +610,7 @@
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript",
         "tag": "#code #programming",
         "time": 1708218947,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=109\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "108",
@@ -617,7 +620,7 @@
         "url": "https:\/\/www.python.org\/",
         "tag": "#code #programming",
         "time": 1708218901,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=108\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "107",
@@ -627,7 +630,7 @@
         "url": "https:\/\/www.php.net\/",
         "tag": "#PHP #code #programming",
         "time": 1708218873,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=107\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "106",
@@ -637,7 +640,7 @@
         "url": "https:\/\/choosealicense.com\/",
         "tag": "#tools",
         "time": 1708075639,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=106\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "99",
@@ -647,7 +650,7 @@
         "url": "https:\/\/www.deezer.com\/us\/",
         "tag": "#music #platform",
         "time": 1707015128,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=99\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "95",
@@ -657,7 +660,7 @@
         "url": "https:\/\/maskable.app\/editor",
         "tag": "#tools #icon",
         "time": 1706985368,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=95\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "91",
@@ -667,7 +670,7 @@
         "url": "https:\/\/www.favicon.cc\/",
         "tag": "#tools #image #icon",
         "time": 1706620636,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=91\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "88",
@@ -677,7 +680,7 @@
         "url": "https:\/\/search.google.com\/search-console\/about",
         "tag": "#tools",
         "time": 1706535988,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=88\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "86",
@@ -687,7 +690,7 @@
         "url": "https:\/\/www.bing.com\/webmasters",
         "tag": "#tools #web",
         "time": 1706520469,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=86\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "84",
@@ -697,7 +700,7 @@
         "url": "https:\/\/web.dev\/",
         "tag": "#docs #WebDevelopment #dev",
         "time": 1706322685,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=84\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "82",
@@ -707,7 +710,7 @@
         "url": "https:\/\/layers.to\/explore\/recent",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1706268722,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=82\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "81",
@@ -717,7 +720,7 @@
         "url": "https:\/\/github.com\/collections\/learn-to-code",
         "tag": "#resources #collection",
         "time": 1706264290,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=81\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "80",
@@ -727,7 +730,7 @@
         "url": "https:\/\/developer.mozilla.org\/en-US\/",
         "tag": "#WebDevelopment #docs #dev",
         "time": 1706253858,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=80\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "79",
@@ -737,7 +740,7 @@
         "url": "https:\/\/bsky.app\/",
         "tag": "#SocialNetwork #platform",
         "time": 1706239499,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=79\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "77",
@@ -747,7 +750,7 @@
         "url": "https:\/\/experiments.withgoogle.com\/",
         "tag": "#website #dev #nice #cool #WebDevelopment #JavaScript #demo #best",
         "time": 1706161944,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=77\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "76",
@@ -757,7 +760,7 @@
         "url": "https:\/\/www.bing.com\/translator",
         "tag": "#translator #translate #tools",
         "time": 1706158299,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=76\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "75",
@@ -767,7 +770,7 @@
         "url": "https:\/\/translate.google.com\/",
         "tag": "#translator #translate #tools",
         "time": 1706158282,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=75\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "74",
@@ -777,7 +780,7 @@
         "url": "https:\/\/www.deepl.com\/translator",
         "tag": "#translator #translate #tools",
         "time": 1706158256,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=74\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "73",
@@ -787,7 +790,7 @@
         "url": "https:\/\/search.muz.li\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1706150883,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=73\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "72",
@@ -797,7 +800,7 @@
         "url": "https:\/\/medium.muz.li\/",
         "tag": "#WebDesign #magazine",
         "time": 1706150786,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=72\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "65",
@@ -807,7 +810,7 @@
         "url": "https:\/\/www.grammarly.com\/",
         "tag": "#tools #text #grammar #language",
         "time": 1706029246,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=65\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "64",
@@ -817,7 +820,7 @@
         "url": "https:\/\/www.duolingo.com\/",
         "tag": "#learning #learn #english #language",
         "time": 1706029201,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=64\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "63",
@@ -827,7 +830,7 @@
         "url": "https:\/\/music.youtube.com\/",
         "tag": "#music #platform",
         "time": 1706026625,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=63\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "62",
@@ -837,7 +840,7 @@
         "url": "https:\/\/www.mixcloud.com\/",
         "tag": "#music #platform",
         "time": 1706026361,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=62\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "61",
@@ -847,7 +850,7 @@
         "url": "https:\/\/open.spotify.com\/",
         "tag": "#music #podcast #platform",
         "time": 1706021707,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=61\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "60",
@@ -857,7 +860,7 @@
         "url": "https:\/\/spotify.design\/",
         "tag": "#other #CheckMe",
         "time": 1706021533,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=60\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "58",
@@ -867,7 +870,7 @@
         "url": "https:\/\/alistapart.com\/",
         "tag": "#CSS #blog #magazine #WebDesign #WebDevelopment",
         "time": 1706020810,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=58\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "56",
@@ -877,7 +880,7 @@
         "url": "https:\/\/sites.google.com\/new",
         "tag": "#MiniHosting #WebsiteBuilder",
         "time": 1705999487,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=56\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "55",
@@ -887,7 +890,7 @@
         "url": "https:\/\/wix.com",
         "tag": "#MiniHosting #WebsiteBuilder",
         "time": 1705998418,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=55\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "52",
@@ -897,7 +900,7 @@
         "url": "https:\/\/neocities.org\/tutorials",
         "tag": "#resources #collection",
         "time": 1705964528,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=52\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "51",
@@ -907,7 +910,7 @@
         "url": "https:\/\/about.me\/",
         "tag": "#MicroHosting #profile",
         "time": 1705963728,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=51\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "50",
@@ -917,7 +920,7 @@
         "url": "https:\/\/beacons.ai\/",
         "tag": "#MicroHosting #profile",
         "time": 1705924400,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=50\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "49",
@@ -927,7 +930,7 @@
         "url": "https:\/\/linktr.ee\/",
         "tag": "#MicroHosting #profile",
         "time": 1705922994,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=49\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "48",
@@ -937,7 +940,7 @@
         "url": "https:\/\/limey.io\/",
         "tag": "#MicroHosting #profile",
         "time": 1705922926,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=48\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "46",
@@ -947,7 +950,7 @@
         "url": "https:\/\/webflow.com\/",
         "tag": "#WebsiteBuilder #MiniHosting #tools #WebDesign",
         "time": 1705916440,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=46\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "44",
@@ -957,7 +960,7 @@
         "url": "https:\/\/www.framer.com\/",
         "tag": "#WebsiteBuilder #MiniHosting #tools #WebDesign",
         "time": 1705913251,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=44\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "43",
@@ -967,7 +970,7 @@
         "url": "https:\/\/css-tricks.com\/",
         "tag": "#CSS #code",
         "time": 1705882831,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=43\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "42",
@@ -977,7 +980,7 @@
         "url": "https:\/\/www.twitch.tv\/",
         "tag": "#stream #live #online #platform #game",
         "time": 1705865705,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=42\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "41",
@@ -987,7 +990,7 @@
         "url": "https:\/\/dribbble.com\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1705802829,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=41\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "40",
@@ -997,7 +1000,7 @@
         "url": "https:\/\/www.behance.net\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1705802782,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=40\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "39",
@@ -1007,7 +1010,7 @@
         "url": "https:\/\/developer.mozilla.org\/en-US\/blog\/",
         "tag": "#blog #WebDevelopment",
         "time": 1705764463,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=39\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "38",
@@ -1017,7 +1020,7 @@
         "url": "https:\/\/quillbot.com\/grammar-check",
         "tag": "#tools #text #grammar #language",
         "time": 1705764337,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=38\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "37",
@@ -1027,7 +1030,7 @@
         "url": "https:\/\/www.cambridgeenglish.org\/learning-english",
         "tag": "#learning #learn #english #language",
         "time": 1705764206,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=37\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "36",
@@ -1037,7 +1040,7 @@
         "url": "https:\/\/www.oxfordonlineenglish.com\/free-english-lessons",
         "tag": "#learning #learn #english #language",
         "time": 1705764185,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=36\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "35",
@@ -1047,7 +1050,7 @@
         "url": "https:\/\/www.bbc.co.uk\/learningenglish\/",
         "tag": "#learning #learn #english #language",
         "time": 1705764162,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=35\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "34",
@@ -1057,7 +1060,7 @@
         "url": "https:\/\/codepen.io\/",
         "tag": "#WebDevelopment #code #challenge #inspiration #HTML #CSS #JavaScript #demo",
         "time": 1705763974,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=34\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "33",
@@ -1067,7 +1070,7 @@
         "url": "https:\/\/pages.github.com\/",
         "tag": "#hosting",
         "time": 1705763888,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=33\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "32",
@@ -1077,7 +1080,7 @@
         "url": "https:\/\/pages.cloudflare.com\/",
         "tag": "#hosting",
         "time": 1705763850,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=32\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "31",
@@ -1087,7 +1090,7 @@
         "url": "https:\/\/neocities.org\/",
         "tag": "#hosting",
         "time": 1705763789,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=31\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "29",
@@ -1097,7 +1100,7 @@
         "url": "https:\/\/design.google\/",
         "tag": "#WebDesign #WebDevelopment #blog",
         "time": 1705753750,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=29\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "27",
@@ -1107,7 +1110,7 @@
         "url": "https:\/\/open-ui.org\/",
         "tag": "#WebDevelopment #dev #WebDesign #UI",
         "time": 1705747430,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=27\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "24",
@@ -1117,7 +1120,7 @@
         "url": "https:\/\/www.youtube.com\/",
         "tag": "#video #platform",
         "time": 1705746909,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=24\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "23",
@@ -1127,7 +1130,7 @@
         "url": "https:\/\/www.youtube.com\/channel\/UC4R8DWoMoI7CAwX8_LjQHig",
         "tag": "#live",
         "time": 1705746876,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=23\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "22",
@@ -1137,7 +1140,7 @@
         "url": "https:\/\/hashnode.com\/",
         "tag": "#SocialNetwork #platform #dev #WebDevelopment #coding #programming",
         "time": 1705746801,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=22\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "21",
@@ -1147,7 +1150,7 @@
         "url": "https:\/\/www.smashingmagazine.com\/",
         "tag": "#WebDesign #blog #magazine",
         "time": 1705746716,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=21\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "20",
@@ -1157,7 +1160,7 @@
         "url": "https:\/\/dev.to\/",
         "tag": "#SocialNetwork #WebDevelopment #platform #dev #coding #programming",
         "time": 1705746648,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=20\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "18",
@@ -1167,7 +1170,7 @@
         "url": "https:\/\/www.awwwards.com\/",
         "tag": "#WebDesign #inspiration #catalog",
         "time": 1705746487,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=18\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "15",
@@ -1177,7 +1180,7 @@
         "url": "https:\/\/en.wikipedia.org\/wiki\/Wiki",
         "tag": "#encyclopedia #docs",
         "time": 1705744326,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=15\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "14",
@@ -1187,7 +1190,7 @@
         "url": "https:\/\/vimeo.com\/",
         "tag": "#video #platform",
         "time": 1705744257,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=14\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "13",
@@ -1197,7 +1200,7 @@
         "url": "https:\/\/soundcloud.com\/discover",
         "tag": "#music #platform",
         "time": 1705744215,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=13\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "11",
@@ -1207,7 +1210,7 @@
         "url": "https:\/\/www.reddit.com\/",
         "tag": "#SocialNetwork #platform",
         "time": 1705742099,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=11\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "10",
@@ -1217,7 +1220,7 @@
         "url": "https:\/\/www.dailymotion.com\/us",
         "tag": "#video #platform",
         "time": 1705741340,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=10\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "9",
@@ -1227,7 +1230,7 @@
         "url": "https:\/\/www.tumblr.com\/",
         "tag": "#SocialNetwork #platform",
         "time": 1705741055,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=9\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "7",
@@ -1237,7 +1240,7 @@
         "url": "https:\/\/stackoverflow.com\/",
         "tag": "#code #FAQ #docs #div #WebDevelopment",
         "time": 1705740315,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=7\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "6",
@@ -1247,7 +1250,7 @@
         "url": "https:\/\/neocities.org\/browse",
         "tag": "#catalog #inspiration",
         "time": 1705740048,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=6\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "5",
@@ -1257,7 +1260,7 @@
         "url": "https:\/\/webflow.com\/made-in-webflow",
         "tag": "#catalog #inspiration",
         "time": 1705740024,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=5\">id<\/a>"
+        "rightFooter": ""
     },
     {
         "id": "4",
@@ -1267,6 +1270,6 @@
         "url": "https:\/\/www.patreon.com\/",
         "tag": "#donate #platform",
         "time": 1705739978,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=4\">id<\/a>"
+        "rightFooter": ""
     }
 ]

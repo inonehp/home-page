@@ -338,13 +338,6 @@
 </url>
 
 <url>
-<loc>https://irvirty.pages.dev/pages/bookmarks.html</loc>
-</url>
-<url>
-<loc>https://irvirty.pages.dev/pages/bookmarks</loc>
-</url>
-
-<url>
 <loc>https://irvirty.pages.dev/pages/chrome-extensions.html</loc>
 </url>
 <url>
@@ -419,6 +412,13 @@
 </url>
 <url>
 <loc>https://irvirty.pages.dev/pages/install</loc>
+</url>
+
+<url>
+<loc>https://irvirty.pages.dev/pages/links.html</loc>
+</url>
+<url>
+<loc>https://irvirty.pages.dev/pages/links</loc>
 </url>
 
 <url>

@@ -9,8 +9,6 @@ const wordLengthLimit = 5.1;
 const allowError = 50;
 const whenTypeProgress = 300;
 
-//const mostCommonWordsLimit = 20;
-
 var typeProgress = [];
 typeProgress[0] = 1;
 
@@ -1073,108 +1071,12 @@ document.getElementById("typeProgress").value = answerArr.length;
 
 
 
-
-
-
-
-
-
-
-
-
-/*
-// mostCommonWords, top words
-topWords = task.join("");
-
-// clear symbol
-//topWords = topWords.toLowerCase();
-topWords = topWords.replaceAll('"', "");
-topWords = topWords.replaceAll('...', "");
-topWords = topWords.replaceAll('.', "");
-topWords = topWords.replaceAll('(', "");
-topWords = topWords.replaceAll(')', "");
-topWords = topWords.replaceAll(',', "");
-topWords = topWords.replaceAll('?', "");
-topWords = topWords.replaceAll('!', "");
-
-//topWords = topWords.replaceAll(' at ', "");
-
-topWords = topWords.split(" ");
-//https://stackoverflow.com/questions/19395257/how-to-count-duplicate-value-in-an-array-in-javascript
-var counts = [];
-topWords.forEach(function (x) {
-if (Number.isInteger((counts[x] || 0) + 1) == true){
-counts[x] = (counts[x] || 0) + 1;
-}
-});
-
-//https://stackoverflow.com/questions/1069666/sorting-object-property-by-values
-function sortObject(obj) {
-    var arr = [];
-    for (var prop in obj) {
-        if (obj.hasOwnProperty(prop)) {
-            arr.push({
-                'key': prop,
-                'value': obj[prop]
-            });
-        }
-    }
-arr.sort(function(a, b) { return a.value - b.value; });
-arr.reverse();
-return arr; // returns array
-}
-
-
-topWords = sortObject(counts);
-topWords = topWords.slice(0, mostCommonWordsLimit);
-
-print = '';
-topWords.forEach(myFunction288);
-function myFunction288(item, index) {
-qGo2 = item['key'];
-if (qGo2 != ''){
-var qGo = encodeURIComponent(qGo2);
-print += `
-<a target="_blank" href="/projects/redirects-25/?q=${qGo}">${qGo2} [${item['value']}]</a>,
-`;
-}
-}
-
-print = print.slice(0, -2); 
-
-//print top words
-document.getElementById("topWords").innerHTML = 
-`
-<div class="wrapper2 padding2 op" style="margin-top: 15px;">
-<span class="bold op small">top words: </span>${print}
-</div>
-
-`;
-// // mostCommonWords
-*/
-
-
-
-
-
-
-
-
 if(document.getElementById("typeProgress") != null&&task.length <= whenTypeProgress){
 document.getElementById("typeProgress").style.display = "none";
 }
 
 
-
-
-
-
 }
-
-
-
-
-
 
 
 answerArr = [];

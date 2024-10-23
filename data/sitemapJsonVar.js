@@ -91,13 +91,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Bookmarks\n\nThe collection of links or bookmarks. | pages: ",
-        "url": "\/pages\/bookmarks.html",
-        "tag": " #websites #links #bookmark #collection #page #main",
-        "id": "751e6b3b6ee101ee2fe77371d2b819c2",
-        "time": "id"
-    },
-    {
         "text": "Browser info, JavaScript test\n\nBrowser info, JS Test, test js, Test JavaScript page. | browser info test js: ",
         "url": "\/projects\/browser-info-test-js-2\/index.html",
         "tag": " #Experimental #JS #JavaScript #test #page #CSS #JavaScript #project",
@@ -347,6 +340,13 @@ var sitemapJsonVar = [
         "url": "\/mini-projects\/light-and-dark-design-29\/index.html",
         "tag": " #cpc #design #WebDesign #CSS #HTML #project",
         "id": "7ae7e14d472720bd5645b13d8f2bfe18",
+        "time": "id"
+    },
+    {
+        "text": "Links\n\nThe collection of links or bookmarks. | pages: ",
+        "url": "\/pages\/links.html",
+        "tag": " #websites #links #bookmark #collection #page #main",
+        "id": "8fcf37c6f1bd4403600e76e9bf43b473",
         "time": "id"
     },
     {
