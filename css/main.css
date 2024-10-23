@@ -399,6 +399,7 @@ filter: invert(100%);
 .tLeft { text-align: left; }
 .tRight { text-align: right; }
 .tCenter { text-align: center; }
+.reverse { transform: scale(-1, 1); }
 .b, .b a, .bold, .bold a { font-weight: bold; }
 .normal, .normal a { font-weight: normal; font-size: unset; }
 .unser, .unser a { font-size: unset; }

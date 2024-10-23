@@ -3,6 +3,26 @@ var bookmarksJsonVar =
 
 [
     {
+        "id": "188",
+        "text": "List of most-visited art museums - Wikipedia",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/List_of_most-visited_art_museums",
+        "tag": "#art",
+        "time": 1729662808,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=188\">id<\/a>"
+    },
+    {
+        "id": "187",
+        "text": "Google Arts & Culture",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/artsandculture.google.com\/",
+        "tag": "#art",
+        "time": 1729661864,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/bookmarks.html?id=187\">id<\/a>"
+    },
+    {
         "id": "186",
         "text": "blender.org - Home of the Blender project - Free and Open 3D Creation Software",
         "text2": "",
