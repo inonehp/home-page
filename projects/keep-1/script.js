@@ -1,4 +1,4 @@
-// Keep v.3.8.0
+// Keep v.3.8.1
 // Static version of the offline 'keep' script that saves things.
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1043,7 +1043,7 @@ keepStyle = `
 display: grid;
 width: 100%;
 /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
-grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 grid-template-rows: masonry;
 grid-gap: 5px;
 
@@ -1052,6 +1052,13 @@ grid-gap: 5px;
 
 align-content: center;
 justify-content: space-evenly;
+}
+
+.keepContent img {
+border: 2px solid var(--d);
+padding: var(--padding);
+border-radius: var(--borderRadius2);
+background-color: var(--l3);
 }
 
 .postFooter { grid-template-columns: 1fr; }
@@ -1063,8 +1070,9 @@ justify-content: space-evenly;
 }
 }
 
+document.head.insertAdjacentHTML("beforeend", keepStyle);
 
-printPost = keepStyle + printPost;
+//printPost = keepStyle + printPost;
 
 
 /*} else if (display == 'gallery'){
