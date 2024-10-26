@@ -849,7 +849,7 @@ urlList = [
 //"https://substack.com/",,
 "https://bsky.app/",
 "https://www.tumblr.com/",
-"https://wordpress.com/",
+"https://wordpress.com/read",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
