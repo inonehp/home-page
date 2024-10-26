@@ -1,5 +1,45 @@
 [
     {
+        "id": "81",
+        "text": "encodeURIComponent() - JavaScript | MDN",
+        "text2": "===\r\n\/\/ Encodes characters such as ?,=,\/,&,:\r\nconsole.log(`?x=${encodeURIComponent('test?')}`);\r\n\/\/ Expected output: \"?x=test?\"",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/encodeURIComponent",
+        "tag": "#JavaScript #JS",
+        "time": 1729878710,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=81\">id<\/a>"
+    },
+    {
+        "id": "80",
+        "text": "encodeURI() - JavaScript | MDN",
+        "text2": "===\r\nconst uri = 'https:\/\/mozilla.org\/?x=\u0448\u0435\u043b\u043b\u044b';\r\nconst encoded = encodeURI(uri);\r\nconsole.log(encoded);\r\n\/\/ Expected output: \"https:\/\/mozilla.org\/?x=\u0448\u0435\u043b\u043b\u044b\"\r\n\r\ntry {\r\n  console.log(decodeURI(encoded));\r\n  \/\/ Expected output: \"https:\/\/mozilla.org\/?x=\u0448\u0435\u043b\u043b\u044b\"\r\n} catch (e) {\r\n  \/\/ Catches a malformed URI\r\n  console.error(e);\r\n}",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/encodeURI",
+        "tag": "#JavaScript #JS",
+        "time": 1729878611,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=80\">id<\/a>"
+    },
+    {
+        "id": "79",
+        "text": "String.prototype.toLowerCase() - JavaScript | MDN",
+        "text2": "===\r\nconst sentence = 'The quick brown fox jumps over the lazy dog.';\r\n\r\nconsole.log(sentence.toLowerCase());\r\n\/\/ Expected output: \"the quick brown fox jumps over the lazy dog.\"",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Global_Objects\/String\/toLowerCase",
+        "tag": "#JavaScript #JS",
+        "time": 1729810598,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=79\">id<\/a>"
+    },
+    {
+        "id": "78",
+        "text": "Element: insertAdjacentHTML() method - Web APIs | MDN",
+        "text2": "===\r\ninsertAdjacentHTML(position, text)\r\n===\r\ndocument.querySelector(\"#test\").insertAdjacentHTML(\"afterend\", `test`);\r\ndocument.head.insertAdjacentHTML(\"beforeend\", `<style>body { color: red; }<\/sytle>`);\r\n===\r\n<!-- beforebegin -->\r\n<p>\r\n  <!-- afterbegin -->\r\n  foo\r\n  <!-- beforeend -->\r\n<\/p>\r\n<!-- afterend -->",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Element\/insertAdjacentHTML",
+        "tag": "#JS #JavaScript #code",
+        "time": 1729806097,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=78\">id<\/a>"
+    },
+    {
         "id": "77",
         "text": "Viewport meta tag - HTML: HyperText Markup Language | MDN",
         "text2": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" \/>",

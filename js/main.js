@@ -147,18 +147,35 @@ if (String(window.location.href).slice(0, 4) != 'http'){
 document.getElementById('theme').id = 'themeDisable';
 }
 
-function fuMInsertHtml(selector, text, option){
+function fuMInsertHtml(selector, option, text){
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
 //option: beforebegin, afterbegin, beforeend, afterend
+
+if (option == "head"){
+if (document.head != null){
+if (option != undefined&&option != ''){
+document.head.insertAdjacentHTML(option, text);
+//alert(opition + 'test');
+} else {
+document.head.insertAdjacentHTML("beforeend", text);
+//alert(option + 'test2');
+}
+} else { console.log("fuMInsertHtml: document head probably null"); }
+
+} else {
+
 if (document.querySelector(selector) != null){
 if (option != undefined&&option != ''){
 document.querySelector(selector).insertAdjacentHTML(option, text);
 //alert(opition + 'test');
 } else {
-document.querySelector(selector).insertAdjacentHTML('beforeend', text);
+document.querySelector(selector).insertAdjacentHTML('afterend', text);
 //alert(option + 'test2');
 }
+} else { console.log("fuMInsertHtml: querySelector probably null"); }
+
 }
+
 }
 
 
@@ -396,7 +413,7 @@ fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall"
 }
 }
 
-fuMInsertHtml("#footer", `
+fuMInsertHtml("#footer", '', `
 
 <div class="padding2 margin2"></div>
 
@@ -447,7 +464,7 @@ fuMInsertHtml("#footer", `
 
 <div id="fScrollToBottom"></div>
 
-`,'');
+`);
 
 
  let mFooterNavLinksPrint = `<a class="brand" href="/">start</a> `;
@@ -467,7 +484,7 @@ mFooterNavLinksPrint += fuMHideFileNameExt(` <span class="gray">/</span> <a clas
 }
 });
 
-fuMInsertHtml("#footerNav", mFooterNavLinksPrint, '');
+fuMInsertHtml("#footerNav", '', mFooterNavLinksPrint);
 
 // end footer
 
@@ -520,14 +537,6 @@ document.getElementsByTagName('head')[0].appendChild(meta);
 function fuMPrintTheme(theme){
 
 if (document.getElementById('theme') != null){
-
-//https://stackoverflow.com/questions/36641137/how-exactly-does-link-rel-preload-work
-let cssEmbed = document.createElement("link");
-/*cssEmbed.rel = "preload";
-cssEmbed.as = "style";
-cssEmbed.href = '/css/' + theme + '.css';
-document.head.appendChild(cssEmbed);*/
-
 document.getElementById('theme').href = '/css/' + theme + '.css';
 }
 
@@ -543,13 +552,14 @@ fuMBg();
 
 // fix
 if (conf["confThemeEmbed"] == 'dark'){
-document.head.insertAdjacentHTML("beforeend", `
+fuMInsertHtml("head", '', `
 <style>
 .reduceLight { filter:brightness(70%); }
 </style>
 `);
 } else {
-document.head.insertAdjacentHTML("beforeend", `
+//document.head.insertAdjacentHTML("beforeend", `
+fuMInsertHtml("head", '', `
 <style>
 .reduceLight { filter: brightness(100%); }
 </style>
@@ -968,10 +978,10 @@ const maxFloored = Math.floor(max);
 return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled); // The maximum is inclusive and the minimum is inclusive
 }
 
-function fuMRandomItem(text) {
+function fuMRandomItem(text){
 let randomItemsArrList = [];
 let delimiter = ["|", ",", " ", "\r\n", "\r", "\n"];
-let items = ""
+let items = "";
 delimiter.forEach((val) => {
 text = String(text.replaceAll(val, "SYMBOLFORSPLIT"));
 });
@@ -988,6 +998,20 @@ return randomItemsArrList[fuMRandom(0, Number(randomItemsArrList.length - 1))];
 }
 //console.table(fuMRandomItem(",,,,1 2      ,,,"));
 
+function fuMSplit(text){
+let delimiter = ["|", ",", " ", "\r\n", "\r", "\n"];
+delimiter.forEach((val) => {
+text = String(text.replaceAll(val, "SYMBOLFORSPLIT"));
+});
+return text = text.split("SYMBOLFORSPLIT");
+}
+
+
+function fuMGetQ(qName){
+let geturl = location.href;
+let url = new URL(geturl);
+return qName = url.searchParams.get(qName);
+}
 
 // fu sorting v.1.0.0
 function fuMSort(textOrArr, delimiter, mode){
@@ -1020,7 +1044,8 @@ let mBgDark = fuMRandomItem("bg-index-d.svg bg-line-square-d.svg bg-star-d.svg b
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'){
-document.head.insertAdjacentHTML("beforeend", `
+//document.head.insertAdjacentHTML("beforeend", `
+fuMInsertHtml("head", '', `
 <style>
 body{
 background-image: url("/img/${mBg}");
@@ -1031,7 +1056,8 @@ background-attachment: fixed;
 </style>
 `);
 } else {
-document.head.insertAdjacentHTML("beforeend", `
+//document.head.insertAdjacentHTML("beforeend", `
+fuMInsertHtml("head", '', `
 <style>
 body{
 background-image: url("/img/${mBgDark}");
@@ -1052,7 +1078,8 @@ background-attachment: fixed;
 // fonts, external fonts (privacy, data analytics)
 if (conf["confDataCollection"] == 'on'&&conf["confExternalFonts"] == 'auto'||conf["confExternalFonts"] == 'on'){
 
-document.head.insertAdjacentHTML("beforeend", `
+//document.head.insertAdjacentHTML("beforeend", `
+fuMInsertHtml("head", '', `
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 </style>
@@ -1088,7 +1115,7 @@ conf["confDataCollection"] = 'off';
 conf["confDataCollection"] = 'on';
 }
 
-//fuMInsertHtml('#fPrivacy', `Cookie: auto (${conf["confDataCollection"]})`); 
+//fuMInsertHtml('#fPrivacy', '', `Cookie: auto (${conf["confDataCollection"]})`); 
 if (document.getElementById('fPrivacy')[0] != null){
 document.getElementById('fPrivacy')[0].innerHTML = `Cookie: auto (${conf["confDataCollection"]})`;
 }

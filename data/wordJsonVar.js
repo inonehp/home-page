@@ -93,6 +93,11 @@ var wordJsonVar =
         "text3": "estacionamiento"
     },
     {
+        "text": "\u0430\u0432\u0442\u043e\u0448\u043e\u0443",
+        "text2": "car show",
+        "text3": "exposici\u00f3n de autos"
+    },
+    {
         "text": "\u0430\u0433\u0435\u043d\u0442",
         "text2": "agent",
         "text3": "agente"
@@ -1951,11 +1956,6 @@ var wordJsonVar =
         "text": "\u0434\u0436\u043e\u0439\u0441\u0442\u0438\u043a",
         "text2": "joystick",
         "text3": "palanca de mando"
-    },
-    {
-        "text": "\u0434\u0437\u0432\u0456\u043d\u043e\u043a",
-        "text2": "call",
-        "text3": "una llamada"
     },
     {
         "text": "\u0434\u0437\u0435\u043d",
@@ -7268,11 +7268,6 @@ var wordJsonVar =
         "text3": "senador"
     },
     {
-        "text": "\u0441\u0435\u043d\u0441",
-        "text2": "sense",
-        "text3": "significado"
-    },
-    {
         "text": "\u0441\u0435\u043f\u0430\u0440\u0430\u0442\u043e\u0440",
         "text2": "separator",
         "text3": "separador"
@@ -7466,6 +7461,11 @@ var wordJsonVar =
         "text": "\u0441\u043a\u043b\u0430\u0434",
         "text2": "storage",
         "text3": "almac\u00e9n"
+    },
+    {
+        "text": "\u0441\u043a\u043e\u0431\u0430",
+        "text2": "bracket",
+        "text3": "par\u00e9ntesis"
     },
     {
         "text": "\u0441\u043a\u043e\u0440\u043e\u0447\u0435\u043d\u043d\u044f",

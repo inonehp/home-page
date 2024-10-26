@@ -40,5 +40,9 @@ Home page and projects such as typing speed, to-do list, games, new tab extensio
 [HTML](https://github.com/topics/HTML),
 [CSS](https://github.com/topics/CSS),
 [JavaScript](https://github.com/topics/JavaScript)
+[Search](https://github.com/topics/search)
+[StartPage](https://github.com/topics/startpage)
+[NewTab](https://github.com/topics/NewTab)
+
 
 

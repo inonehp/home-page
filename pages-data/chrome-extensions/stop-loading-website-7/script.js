@@ -67,9 +67,10 @@ window.stop();
 window.addEventListener('load', function() {
 //document.body.innerHTML = `${extName}`;
 });*/
-alert(`${extName} / item: ${item}`);
 stop();
 window.stop();
+console.log(`${extName} / item: ${item}`);
+alert(`${extName} / item: ${item}`);
 /*if (confirm(`Stop page loading? (${extName})`) == true){
 stop();
 window.stop();

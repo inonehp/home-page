@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "95",
+        "text": "Marko Denic - Web Developer",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/markodenic.com\/",
+        "tag": "#personal #WebDevelopment #WebDesign",
+        "time": 1729883133,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=95\">id<\/a>"
+    },
+    {
         "id": "94",
         "text": "Theo Browne - T3 Stack, Ping.gg, YouTuber",
         "text2": "",

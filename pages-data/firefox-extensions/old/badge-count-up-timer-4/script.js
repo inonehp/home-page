@@ -65,8 +65,6 @@ document.getElementById("second").addEventListener("click", function() { modeSet
 
 function modeSet(mode){
 
-
-
 sending = browser.runtime.sendMessage({
 greeting2: mode,
   });

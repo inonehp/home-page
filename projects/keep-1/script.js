@@ -1,4 +1,4 @@
-// Keep v.3.8.1
+// Keep v.3.8.3
 // Static version of the offline 'keep' script that saves things.
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -240,11 +240,9 @@ q2 = q2.trim();
 
 
 var mode = url.searchParams.get("mode");
-if (mode != null){
-/*mode = mode.replaceAll(/%/g, "%25");
-mode = decodeURIComponent(mode);*/
-mode = mode.trim();
-}
+if (mode != null){ mode = mode.trim(); }
+var dMode = url.searchParams.get("dmode");
+if (dMode != null){ dMode = dMode.trim(); }
 
 // q random
 if (q == 'l'||q == 'r'){ q = null; mode = 'random'; }
@@ -2735,9 +2733,9 @@ justify-content: center;
 ${pringInputRange}
 
 <div class="galleryKeepNav">
-<a class="${hideButtonClass2} border3 button light2 borderRadius2" href="?${navOption2}${navMode}=${prev}">&#8592;</a>
+<a class="${hideButtonClass2} border3 button light2 borderRadius2" href="?${navOption2}${navMode}=${prev}&dmode=${dMode}">&#8592;</a>
 <!--<div class="button border3 op xSmall bg borderRadius2">${navMode}: ` + Math.floor(getP / postLimit) + `</div>-->
-<a class="${hideButtonClass} border3 button light2 borderRadius2" href="?${navOption2}${navMode}=${next}">&#8594;</a>
+<a class="${hideButtonClass} border3 button light2 borderRadius2" href="?${navOption2}${navMode}=${next}&dmode=${dMode}">&#8594;</a>
 </div>
 
 ${nav2Print}

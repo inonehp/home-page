@@ -129,7 +129,13 @@
 </form>
 </div>
 
+<span id="modeList"></span><hr>
+
 </div>
+
+
+
+
 
 
 <script src="/data/sitemapJsonVar.js"></script>
@@ -137,13 +143,13 @@
 <script src="/data/microblogJsonVar.js"></script>
 <script src="/data/articlesJsonVar.js"></script>
 <script src="/data/notesJsonVar.js"></script>
-<!--<script src="/data/randomwebsiteJsonVar.js"></script>-->
+<script src="/data/randomwebsiteJsonVar.js"></script>
 
 <script>
 
 var data = [];
-//data = data.concat(sitemapJsonVar, linksJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar);
-data = [...sitemapJsonVar, ...linksJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar];
+//data = data.concat(sitemapJsonVar, linksJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar, randomwebsiteJsonVar);
+data = [...sitemapJsonVar, ...linksJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar, ...randomwebsiteJsonVar];
 
 </script>
 
@@ -154,11 +160,39 @@ data = [...sitemapJsonVar, ...linksJsonVar, ...microblogJsonVar, ...articlesJson
 </main>
 <!-- // content -->
 
+
 <footer id="footer"></footer>
 
 <script src="/js/main.js"></script>
 <script src="/js/script.js"></script>
 
+
+<script>
+let getUrl55 = window.location;
+let url55 = new URL(getUrl55);
+let q55 = url55.searchParams.get("q");
+let q55PrintURl = encodeURIComponent(q55);
+let mode55 = url55.searchParams.get("dmode");
+let dataMode = mode55;
+
+let lModeList = "sitemap links microblog articles notes randomwebsite";
+let lModeListArr = fuMSplit(lModeList);
+
+lPrint = "";
+lModeListArr.forEach((val, index) => {
+//console.log(val + "=" + index);
+if (mode55 == val){
+lPrint += `<a class="op tag border light2 borderRadius2 active2 borderBottomGray" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+} else {
+lPrint += `<a class="op tag border light2 borderRadius2 borderBottomTransparent" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+}
+});
+
+document.getElementById("modeList").innerHTML = `
+<div class="tCenter">` + lPrint + `</div>
+`;
+
+</script>
 
 
 <script src="/projects/keep-1/script.js"></script>
@@ -181,6 +215,9 @@ document.getElementById('q').value = "#" + q33Tag;
 }
 
 </script>
+
+
+
 
 <style>
 .keepContent .pre { font-size: 1em; /*text-transform: capitalize;*/ }
@@ -216,8 +253,17 @@ let keepConfig = {
 };
 </script>
 
+
+
 <script>
+//https://stackoverflow.com/questions/724857/how-to-find-javascript-variable-by-its-name
+if (dataMode != null&&dataMode != undefined&&dataMode != ""){
+dataMode = window[dataMode + 'JsonVar'];
+
+keep("printKeep", dataMode, 'wrapper', './site-search.html', keepConfig);
+} else {
 keep("printKeep", data, 'wrapper', './site-search.html', keepConfig);
+}
 </script>
 
 

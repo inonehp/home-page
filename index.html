@@ -7,7 +7,7 @@
 
 <meta name="description" content="Home page and projects such as typing speed, to-do list, games, new tab extension, tech news, microblog, icons, themes, website templates etc">
 <meta name="keywords" content="website, homepage, home, page,
-WebDesign, project, projects, portfolio, programming, inspiration,
+WebDesign, web, design, project, projects, portfolio, programming, inspiration,
 Geany, Firefox, Chrome, WordPress, theme, themes, extension,
 WebDev, HTML, CSS, JavaScript,
 todo, typing, game, icons, templates, redirect,
@@ -375,6 +375,32 @@ flex-wrap: wrap;
 <div class="padding2"></div>
 <!-- // nav2 -->
 </noscript>
+
+<!-- tags -->
+<div class="wrapper2">
+<div class="tCenter">
+
+<div class="bold padding medium">
+<a class="op brand" href="/projects/redirects-25/?q=s">Social Media Explore:</a>
+</div>
+
+<div class="padding"></div>
+
+<div class="wrapper2 balance small">
+
+<span id="printTags"></span>
+<hr>
+<span id="printMode"></span>
+
+</div>
+
+</div>
+</div>
+<!--// tags -->
+
+
+
+
 </main>
 <!-- // content -->
 
@@ -484,6 +510,80 @@ document.getElementById("hotLinks").innerHTML = a;
 
 
 // hot links
+
+</script>
+
+<script>
+
+//window.addEventListener('load', function() {});
+
+
+function tagListCloud(mode){
+
+let tagModePrint = "";
+if (mode == undefined||mode == ""){
+mode = localStorage.getItem("tagModeData");
+} else {
+localStorage.setItem("tagModeData", mode);
+}
+
+let tagListColor = `red orange yellow green blue indigo violet`;
+
+let tagList = `
+Art Drawing Photography Writing Blog Poetry Games Music Movies Books Travel
+Comics Sports Beauty Fashion Cute Fun Nature
+Science Education Internet Technology
+Programming WebDesign WebDevelopment HTML CSS JavaScript
+Design Personal Homepage Portfolio Search StartPage NewTab
+`;
+
+let arr = fuMSplit(tagList);
+
+let tagListPrint = "";
+arr.forEach((val, index) => {
+val = val.trim();
+if (val != ""){
+//console.log(val + "=" + index);
+let color = fuMRandomItem(tagListColor);
+let printTagUrl = val.toLowerCase();
+if (mode == "hashtag"){
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` ht">#` + val + `</a>`;
+} else if (mode == "static"){
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?mode=static&q=` + printTagUrl +`">` + val + `</a>`;
+} else {
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` s">` + val + `</a>`;
+}
+}
+});
+
+document.getElementById("printTags").innerHTML = tagListPrint;
+
+modeSwitch(mode);
+
+}
+
+tagListCloud("");
+
+function modeSwitch(mode){
+if (mode == "hashtag"){
+tagModePrint = `<span class="op">mode:</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('tag'); return false;">tag</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
+<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>`;
+} else if (mode == "static") {
+tagModePrint = `<span class="op">mode:</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('tag'); return false;">tag</a>
+<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>`;
+} else {
+tagModePrint = `<span class="op">mode:</span>
+<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('tag'); return false;">tag</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>`;
+}
+
+document.getElementById("printMode").innerHTML = tagModePrint;
+}
 
 </script>
 

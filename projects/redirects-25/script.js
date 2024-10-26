@@ -841,7 +841,7 @@ q = encodeURIComponent(q);
 urlList = [
 //"https://substack.com/search/"+ q +"?searching=note",
 "https://bsky.app/search?q=" + q,
-"https://www.tumblr.com/search/" + q + "/text",
+"https://www.tumblr.com/search/" + q,
 "https://wordpress.com/search?q=" + q,
 ];
 if (q == ''){
@@ -858,7 +858,7 @@ sRedirectUrl = url;
 break;
 
 
-/*case 'tag#':
+case 'ht#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -881,7 +881,7 @@ urlList = [
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
-break;*/
+break;
 
 
 case 'mar#':

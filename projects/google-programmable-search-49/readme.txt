@@ -3,7 +3,7 @@ On Google site config engine: Look and Feel => All Look and Feel => Full width
 ====
 
 custom search:
-*.wikipedia.org/*
+en.wikipedia.org/*
 *.lemmy.world/*
 *.blogspot.com/*
 *.wordpress.com/*

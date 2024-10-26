@@ -68,9 +68,16 @@ window.stop();
 window.addEventListener('load', function() {
 //document.body.innerHTML = `${extName}`;
 });*/
-alert(`${extName} / item: ${item}`);
+
+
 stop();
 window.stop();
+console.log(`${extName} / item: ${item}`);
+alert(`${extName} / item: ${item}`);
+
+
+
+
 /*if (confirm(`Stop page loading? (${extName})`) == true){
 stop();
 window.stop();
@@ -80,6 +87,5 @@ window.stop();
 //const getting = browser.storage.sync.get("dataUrlStopLoadList");
 const getting = browser.storage.local.get("dataUrlStopLoadList");
 getting.then(onGot, onError);
-
 
 

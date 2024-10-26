@@ -93,6 +93,15 @@ var adsJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Dropbox",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.dropbox.com\/",
+        "tag": "#ads #cloud #storage",
+        "time": 1729849604,
+        "rightFooter": ""
+    },
+    {
         "text": "Dropbox.com",
         "text2": "",
         "text3": "",
@@ -216,6 +225,15 @@ var adsJsonVar =
         "url": "https:\/\/news.google.com\/",
         "tag": "#ads",
         "time": 1678448617,
+        "rightFooter": ""
+    },
+    {
+        "text": "Home - Google Drive",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/drive.google.com\/",
+        "tag": "#ads #cloud #storage",
+        "time": 1729849659,
         "rightFooter": ""
     },
     {
