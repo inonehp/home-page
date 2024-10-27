@@ -25,6 +25,7 @@ var lQModePrint = `<a class="brand tag" href="./">start</a>`;
 
 let lQMode = [
 {"name":"Web", "comName":"web", "code":"74e19ee10195d4644"},
+{"name":"Latest", "comName":"latest", "code":"974cdfc30e536405d"},
 {"name":"Blogs", "comName":"blogs", "code":"653a54ad99a1442eb"},
 {"name":"Videos", "comName":"videos", "code":"66e67d2cd1ec94b3b"},
 {"name":"Static Sites", "comName":"static", "code":"4015813ba11b24317"},
@@ -93,7 +94,7 @@ document.getElementById("publicUrl").innerHTML = `
 <a class="tag2 borderBottomBlue brand" href="https://cse.google.com/cse?cx=${item["code"]}">Public URL</a>
 `;
 
-if (q != null){
+if (q != null&&q != ""){
 
 var script = document.createElement('script');
 script.type='text/javascript';
