@@ -1037,7 +1037,7 @@ return textOrArr.sort(collator.compare);
 
 // CSS
 // random bg image (background img with random position)
-function fuMBg(val){
+function fuMBg(com, img){
 if (conf["confBg"] == 'on'||val == 'on'){
 let mBg = fuMRandomItem("bg-index.svg bg-line-square.svg bg-star.svg bg-circle.svg bg-triangle.svg bg-square-solid.svg bg-binary.svg bg-short-line.svg bg-shape.svg bg-line-chaotic.svg bg-wood.svg bg-deco-paper.svg");
 let mBgDark = fuMRandomItem("bg-index-d.svg bg-line-square-d.svg bg-star-d.svg bg-circle-d.svg bg-triangle-d.svg bg-square-solid-d.svg bg-binary-d.svg bg-short-line-d.svg bg-shape-d.svg bg-line-chaotic-d.svg bg-wood-d.svg bg-deco-paper-d.svg");

@@ -546,12 +546,12 @@ if (val != ""){
 //console.log(val + "=" + index);
 let color = fuMRandomItem(tagListColor);
 let printTagUrl = val.toLowerCase();
-if (mode == "hashtag"){
-tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` ht">#` + val + `</a>`;
+if (mode == "keywords"){
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` s">` + val + `</a>`;
 } else if (mode == "static"){
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?mode=statiсnotstorage&q=` + printTagUrl +`">` + val + `</a>`;
 } else {
-tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` s">` + val + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` ht">#` + val + `</a>`;
 }
 }
 });
@@ -567,19 +567,24 @@ tagListCloud("");
 function modeSwitch(mode){
 if (mode == "hashtag"){
 tagModePrint = `<span class="op">mode:</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('tag'); return false;">tag</a>
+<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
-<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>`;
+`;
 } else if (mode == "static") {
-tagModePrint = `<span class="op">mode:</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('tag'); return false;">tag</a>
+tagModePrint = `
+<span class="op">mode:</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>`;
+`;
 } else {
-tagModePrint = `<span class="op">mode:</span>
-<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('tag'); return false;">tag</a>
+tagModePrint = `
+<span class="op">mode:</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
+<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>`;
+`;
 }
 
 document.getElementById("printMode").innerHTML = tagModePrint;

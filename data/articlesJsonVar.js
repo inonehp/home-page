@@ -3,6 +3,16 @@ var articlesJsonVar =
 
 [
     {
+        "id": "18",
+        "text": "About Web Design",
+        "text2": "In progress:\r\n=========\r\ncheckme\r\nNeuro-design\r\nSustainable Web Design\u2060",
+        "text3": "",
+        "url": "",
+        "tag": "#WebDesign",
+        "time": 1729994594,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles.html?id=18\">id<\/a>"
+    },
+    {
         "id": "16",
         "text": "My thoughts on web design",
         "text2": "About CSS\r\n=========\r\n\r\n- The default value in CSS does not need to be changed, these are ready-made, well-thought-out solutions that can be used, for changes there is \"id\" and \"class\".\r\n\r\n\r\nPrinciples of page style:\r\n===================\r\n\r\n - Simplicity and cleanliness, so that there are no unnecessary elements and this gives an opportunity to concentrate attention on the content.\r\n\r\n- Without a lot of space between the elements, I think it looks bad and not compact, although I'm more likely to be wrong.\r\n\r\n...",
@@ -15,7 +25,7 @@ var articlesJsonVar =
     {
         "id": "15",
         "text": "Web design notes",
-        "text2": "Notes:\r\n\r\n======\r\n- html - how to mix links ( <a> tag ) and headings ( <h1> tag ) in web standard? - Stack Overflow https:\/\/stackoverflow.com\/questions\/1128778\/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard\r\n\r\n======\r\n- Using the \"&\" symbol is a bad idea.\r\n- Do not use abbreviations, no one will understand it.\r\n- CSS: \"width\" property does not work if the element is \"inline-block\".\r\n- Do not forget to optimize the size of the pictures.\r\n- If the style or page does not work, but everything is fine, you need to restart the device or computer (this happens before or after updating the browser).\r\n- The 404 not found page should not have a search form, most of the top sites do not.\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read).\r\n- Don't use duplicate content in other place (license conflict).\r\n- Name uppercase (grammar).\r\n- Spaces in JavaScript code, because \"Coding conventions (Programming style)\".\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller).\r\n====\r\nAbout copyright.\r\n- If there is no copyright, then the work is copyrighted.\r\n- A completely free work, it is a work under a \"public domain\" or \"CC0\" license.\r\n===",
+        "text2": "Notes:\r\n\r\n======\r\n<h1>span>test<\/span><\/h1>\r\n<h1><a>test<\/a><\/h1>\r\n- html - how to mix links ( <a> tag ) and headings ( <h1> tag ) in web standard? - Stack Overflow https:\/\/stackoverflow.com\/questions\/1128778\/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard\r\n\r\n======\r\n- Using the \"&\" symbol is a bad idea.\r\n- Do not use abbreviations, no one will understand it.\r\n- CSS: \"width\" property does not work if the element is \"inline-block\".\r\n- Do not forget to optimize the size of the pictures.\r\n- If the style or page does not work, but everything is fine, you need to restart the device or computer (this happens before or after updating the browser).\r\n- The 404 not found page should not have a search form, most of the top sites do not.\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read).\r\n- Don't use duplicate content in other place (license conflict).\r\n- Name uppercase (grammar).\r\n- Spaces in JavaScript code, because \"Coding conventions (Programming style)\".\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller).\r\n====\r\nAbout copyright.\r\n- If there is no copyright, then the work is copyrighted.\r\n- A completely free work, it is a work under a \"public domain\" or \"CC0\" license.\r\n===",
         "text3": "",
         "url": "",
         "tag": "#WebDesign #notes",
@@ -25,7 +35,7 @@ var articlesJsonVar =
     {
         "id": "12",
         "text": "Web Design Resources and tools",
-        "text2": "Documentation:\r\n=============\r\n\r\n- MDN Web Docs https:\/\/developer.mozilla.org\/\r\n- Stack Overflow - Where Developers Learn, Share, & Build Careers https:\/\/stackoverflow.com\/\r\n- web.dev https:\/\/web.dev\/\r\n\r\nDev:\r\n====\r\n\r\n- PageSpeed Insights https:\/\/pagespeed.web.dev\/\r\n- The W3C Markup Validation Service https:\/\/validator.w3.org\/\r\n- The W3C CSS Validation Service https:\/\/jigsaw.w3.org\/css-validator\/\r\n\r\n\r\nSEO and statics:\r\n=============\r\n\r\n- Google Analytics https:\/\/analytics.google.com\/\r\n- Google Search Console https:\/\/search.google.com\/search-console\r\n- Bing Webmaster Tools https:\/\/www.bing.com\/webmasters\/\r\n- Google Trends https:\/\/trends.google.com\/\r\n\r\n\r\nSoftware:\r\n========\r\n\r\n- Firefox for desktop \u2014 Mozilla https:\/\/www.mozilla.org\/firefox\/new\/\r\n- Google Chrome - The Fast & Secure Web Browser Built to be Yours https:\/\/www.google.com\/chrome\/\r\n- Geany https:\/\/www.geany.org\/\r\n- Visual Studio Code - Code Editing. Redefined https:\/\/code.visualstudio.com\/\r\n- Inkscape https:\/\/inkscape.org\/\r\n\r\n\r\nOther:\r\n=====\r\n\r\n- Daring Fireball: Markdown https:\/\/daringfireball.net\/projects\/markdown\/",
+        "text2": "Documentation:\r\n=============\r\n\r\n- MDN Web Docs https:\/\/developer.mozilla.org\/\r\n- Stack Overflow - Where Developers Learn, Share, & Build Careers https:\/\/stackoverflow.com\/\r\n- web.dev https:\/\/web.dev\/\r\n\r\nDev:\r\n====\r\n\r\n- PageSpeed Insights https:\/\/pagespeed.web.dev\/\r\n- The W3C Markup Validation Service https:\/\/validator.w3.org\/\r\n- The W3C CSS Validation Service https:\/\/jigsaw.w3.org\/css-validator\/\r\n\r\n\r\nSEO and statics:\r\n=============\r\n\r\n- Google Analytics https:\/\/analytics.google.com\/\r\n- Google Search Console https:\/\/search.google.com\/search-console\r\n- Bing Webmaster Tools https:\/\/www.bing.com\/webmasters\/\r\n- Google Trends https:\/\/trends.google.com\/\r\n\r\n\r\nSoftware:\r\n========\r\n\r\n- Google Chrome - The Fast & Secure Web Browser Built to be Yours https:\/\/www.google.com\/chrome\/\r\n- Firefox for desktop \u2014 Mozilla https:\/\/www.mozilla.org\/firefox\/new\/\r\n- Visual Studio Code - Code Editing. Redefined https:\/\/code.visualstudio.com\/\r\n- Notepad++ https:\/\/notepad-plus-plus.org\/\r\n- Geany https:\/\/www.geany.org\/\r\n- Inkscape https:\/\/inkscape.org\/\r\n- GIMP - GNU Image Manipulation Program https:\/\/www.gimp.org\/\r\n\r\n\r\n\r\nOther:\r\n=====\r\n- Daring Fireball: Markdown https:\/\/daringfireball.net\/projects\/markdown\/\r\n\r\n+ new:\r\n-----------\r\n- Website Authority Checker: Check the \"Authority\" Of Any Domain https:\/\/ahrefs.com\/website-authority-checker \r\n- Ecograder https:\/\/ecograder.com\/",
         "text3": "",
         "url": "",
         "tag": "#WebDesign #resources #links",
