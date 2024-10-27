@@ -5,10 +5,14 @@ var url = new URL(geturl);
 var qGMode = url.searchParams.get("mode");
 if(qGMode != null&&qGMode != ""){
 qGMode = qGMode.trim();
+if (qGMode != "statiсnotstorage"){
 localStorage.setItem('qGMode', qGMode);
+}
 }
 if(qGMode == null){ qGMode = localStorage.getItem('qGMode'); }
 if(qGMode == null) { qGMode = "web"; }
+if(qGMode == "statiсnotstorage"){ qGMode = "static"; }
+
 
 var qGQ = url.searchParams.get("q");
 var q = url.searchParams.get("q");
