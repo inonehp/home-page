@@ -565,10 +565,11 @@ modeSwitch(mode);
 tagListCloud("");
 
 function modeSwitch(mode){
-if (mode == "hashtag"){
-tagModePrint = `<span class="op">mode:</span>
-<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
+if (mode == "keywords"){
+tagModePrint = `
+<span class="op">mode:</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
+<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
 `;
 } else if (mode == "static") {
@@ -581,8 +582,8 @@ tagModePrint = `
 } else {
 tagModePrint = `
 <span class="op">mode:</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
-<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
+<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
 `;
 }
