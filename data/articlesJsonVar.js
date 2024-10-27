@@ -15,7 +15,7 @@ var articlesJsonVar =
     {
         "id": "16",
         "text": "My thoughts on web design",
-        "text2": "About CSS\r\n=========\r\n\r\n- The default value in CSS does not need to be changed, these are ready-made, well-thought-out solutions that can be used, for changes there is \"id\" and \"class\".\r\n\r\n\r\nPrinciples of page style:\r\n===================\r\n\r\n - Simplicity and cleanliness, so that there are no unnecessary elements and this gives an opportunity to concentrate attention on the content.\r\n\r\n- Without a lot of space between the elements, I think it looks bad and not compact, although I'm more likely to be wrong.\r\n\r\n...",
+        "text2": "About CSS\r\n=========\r\n\r\n- The default value in CSS does not need to be changed, these are ready-made, well-thought-out solutions that can be used, for changes there is \"id\" and \"class\".\r\n\r\n\r\nPrinciples of page style:\r\n===================\r\n\r\n - Simplicity and cleanliness, so that there are no unnecessary elements and this gives an opportunity to concentrate attention on the content.\r\n\r\n- Without a lot of space between the elements, I think it looks bad and not compact, although I'm more likely to be wrong.\r\n\r\n- When the design is clean and simple, it is attractive at first. After a while, it becomes boring, so I want to see different colors, pages with pictures or illustrations, and backgrounds with textures or pages with background images.",
         "text3": "",
         "url": "",
         "tag": "#WebDesign #CSS",
