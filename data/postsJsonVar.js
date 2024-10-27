@@ -4,7 +4,7 @@ var postsJsonVar =
 [
     {
         "id": "25",
-        "text": "I tried for several hours to add an SVG hamburger icon to the navigation (dropdown menu) and the attempt was unsuccessful, it does not work as it should, so I left the text version.",
+        "text": "I tried for several hours to add an SVG hamburger icon to the navigation (dropdown menu) and the attempt was unsuccessful, it does not work as it should (something was wrong with SVG and the click event using JS), so I left the text version.",
         "text2": "",
         "text3": "",
         "url": "",
