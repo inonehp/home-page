@@ -169,7 +169,7 @@ if (option != undefined&&option != ''){
 document.querySelector(selector).insertAdjacentHTML(option, text);
 //alert(opition + 'test');
 } else {
-document.querySelector(selector).insertAdjacentHTML('afterend', text);
+document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 //alert(option + 'test2');
 }
 } else { console.log("fuMInsertHtml: querySelector probably null"); }
@@ -413,7 +413,7 @@ fDescTitle = `<span class="inlineBlock xSmall">Description: <span class="xSmall"
 }
 }
 
-fuMInsertHtml("#footer", '', `
+fuMInsertHtml("#footer", 'beforeend', `
 
 <div class="padding2 margin2"></div>
 
@@ -548,23 +548,27 @@ document.getElementById("fTheme").text = conf["confTheme"] + ' (' + theme + ')';
 
 // fix and dynamic
 fuMThemeEmbed();
-fuMBg();
+fuMBg(conf["confThemeEmbed"]);
 
 // fix
 if (conf["confThemeEmbed"] == 'dark'){
-fuMInsertHtml("head", '', `
+fuMInsertHtml("head", 'beforeend', `
 <style>
 .reduceLight { filter:brightness(70%); }
 </style>
 `);
 } else {
 //document.head.insertAdjacentHTML("beforeend", `
-fuMInsertHtml("head", '', `
+fuMInsertHtml("head", 'beforeend', `
 <style>
 .reduceLight { filter: brightness(100%); }
 </style>
 `);
 }
+
+
+
+
 
 }
 
@@ -1038,15 +1042,17 @@ return textOrArr.sort(collator.compare);
 // CSS
 // random bg image (background img with random position)
 function fuMBg(com, img){
-if (conf["confBg"] == 'on'||val == 'on'){
+if (conf["confBg"] == 'on'||com == 'on'){
+
 let mBg = fuMRandomItem("bg-index.svg bg-line-square.svg bg-star.svg bg-circle.svg bg-triangle.svg bg-square-solid.svg bg-binary.svg bg-short-line.svg bg-shape.svg bg-line-chaotic.svg bg-wood.svg bg-deco-paper.svg");
 let mBgDark = fuMRandomItem("bg-index-d.svg bg-line-square-d.svg bg-star-d.svg bg-circle-d.svg bg-triangle-d.svg bg-square-solid-d.svg bg-binary-d.svg bg-short-line-d.svg bg-shape-d.svg bg-line-chaotic-d.svg bg-wood-d.svg bg-deco-paper-d.svg");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
-if (conf["confThemeEmbed"] == 'light'){
+if (conf["confThemeEmbed"] == 'light'||com == "light"){
 //document.head.insertAdjacentHTML("beforeend", `
-fuMInsertHtml("head", '', `
+fuMInsertHtml("head", 'beforeend', `
 <style>
+
 body{
 background-image: url("/img/${mBg}");
 background-repeat: repeat;
@@ -1057,7 +1063,7 @@ background-attachment: fixed;
 `);
 } else {
 //document.head.insertAdjacentHTML("beforeend", `
-fuMInsertHtml("head", '', `
+fuMInsertHtml("head", 'beforeend', `
 <style>
 body{
 background-image: url("/img/${mBgDark}");
@@ -1069,8 +1075,6 @@ background-attachment: fixed;
 `);
 }
 
-
-
 }
 }
 // random bg image
@@ -1079,7 +1083,7 @@ background-attachment: fixed;
 if (conf["confDataCollection"] == 'on'&&conf["confExternalFonts"] == 'auto'||conf["confExternalFonts"] == 'on'){
 
 //document.head.insertAdjacentHTML("beforeend", `
-fuMInsertHtml("head", '', `
+fuMInsertHtml("head", 'beforeend', `
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 </style>
@@ -1115,7 +1119,7 @@ conf["confDataCollection"] = 'off';
 conf["confDataCollection"] = 'on';
 }
 
-//fuMInsertHtml('#fPrivacy', '', `Cookie: auto (${conf["confDataCollection"]})`); 
+//fuMInsertHtml('#fPrivacy', 'beforeend', `Cookie: auto (${conf["confDataCollection"]})`); 
 if (document.getElementById('fPrivacy')[0] != null){
 document.getElementById('fPrivacy')[0].innerHTML = `Cookie: auto (${conf["confDataCollection"]})`;
 }
