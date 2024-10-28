@@ -431,7 +431,7 @@ Correct: <span class="green bold">${quizResultCorrectAnswer[0]}</span>, Wrong: <
 document.getElementById('result').innerHTML = `
 <div class="padding3 light shadow borderRadius2">
 ${quizWinMsg[0]}
-<div class="submit" onclick="reload();">reload, again</div>
+<div class="submit" onclick="fuMReload();">reload, again</div>
 </div>
 `;
 }
