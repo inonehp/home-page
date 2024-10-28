@@ -3,6 +3,36 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "98",
+        "text": "The WordPress.com Team \u2013 Go WordPress",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/wordpress.com\/go\/author\/wpcontentteam\/",
+        "tag": "#WebDesign #WebDevelopment #blog",
+        "time": 1730077132,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=98\">id<\/a>"
+    },
+    {
+        "id": "97",
+        "text": "Hostinger Tutorials",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.hostinger.com\/tutorials\/",
+        "tag": "#WebDevelopment #WebDesign #blog #tutorials",
+        "time": 1730075964,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=97\">id<\/a>"
+    },
+    {
+        "id": "96",
+        "text": "Wix Blog | Web Design & Small Business Tips to Promote Your Site",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.wix.com\/blog",
+        "tag": "#WebDesign #blog",
+        "time": 1730074069,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=96\">id<\/a>"
+    },
+    {
         "id": "95",
         "text": "Marko Denic - Web Developer",
         "text2": "",

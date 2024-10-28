@@ -263,16 +263,6 @@ var linksJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "174",
-        "text": "Wix Blog | Web Design & Small Business Tips to Promote Your Site",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.wix.com\/blog\/",
-        "tag": "#WebDesign #blog",
-        "time": 1727244727,
-        "rightFooter": ""
-    },
-    {
         "id": "173",
         "text": "Buy Me a Coffee",
         "text2": "",
