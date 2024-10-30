@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.10.29";
+//var myCacheVersion = "v.1.2.2024.10.30";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.10.29").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.10.30").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -455,10 +455,11 @@ var fileListArr = ["/404.html",
 "/pages/templates.html",
 "/pages/themes.html",
 "/pages/updates.html",
-"/pages-data/art/2024/car-gimp-6.jpg",
+"/pages-data/art/2024/box-gimp-12.jpg",
 "/pages-data/",
 "/pages-data/art/",
 "/pages-data/art/2024/",
+"/pages-data/art/2024/car-gimp-6.jpg",
 "/pages-data/art/2024/cloud-gimp-7.jpg",
 "/pages-data/art/2024/empty-drawing-1.png",
 "/pages-data/art/2024/face-gimp-10.jpg",
@@ -1252,7 +1253,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.10.29")
+caches.open("v.1.2.2024.10.30")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1278,7 +1279,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.10.29")
+caches.open("v.1.2.2024.10.30")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1311,7 +1312,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.10.29"];
+  const cachesToKeep = ["v.1.2.2024.10.30"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
