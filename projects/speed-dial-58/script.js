@@ -142,7 +142,7 @@ ${print}
 </div>
 
 <details>
-<summary class="pointer xSmall op inlineBlock">
+<summary class="pointer xSmall op inlineBlock brand">
 <span class="green bold">+</span> Add item
 </summary>
 <div class="wrapperL left">

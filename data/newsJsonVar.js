@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "4",
+        "text": "Firefox 132.0, See All New Features, Updates and Fixes",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/132.0\/releasenotes\/",
+        "tag": "#software #app #update #browser",
+        "time": 1730313353,
+        "rightFooter": ""
+    },
+    {
         "id": "2",
         "text": "Bluesky: \"congratulations everyone, we have now passed 12 million people total on bluesky!!! \ud83e\udd8b over 1.2M new people have joined bluesky in the last two days \u2014 welcome!! \ud83d\udc99\ud83d\udd7a\ud83e\udea9\" \u2014 Bluesky",
         "text2": "",
