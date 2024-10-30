@@ -3,6 +3,56 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "103",
+        "text": "Blog \u00a0|\u00a0 web.dev",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/web.dev\/blog",
+        "tag": "#WebDesign #WebDevelopment #blog",
+        "time": 1730329802,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=103\">id<\/a>"
+    },
+    {
+        "id": "102",
+        "text": "Material Design Blog - Material Design",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/m3.material.io\/blog",
+        "tag": "#WebDesign #WebDevelopment #blog",
+        "time": 1730329760,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=102\">id<\/a>"
+    },
+    {
+        "id": "101",
+        "text": "Blog \u00a0|\u00a0 Chrome for Developers",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.chrome.com\/blog",
+        "tag": "#WebDesign #WebDevelopment #blog",
+        "time": 1730329721,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=101\">id<\/a>"
+    },
+    {
+        "id": "100",
+        "text": "MDN Blog",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/blog\/",
+        "tag": "#WebDesign #WebDevelopment #blog",
+        "time": 1730329678,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=100\">id<\/a>"
+    },
+    {
+        "id": "99",
+        "text": "Blog | W3C",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.w3.org\/blog\/",
+        "tag": "#WebDevelopment #WebDesign #blog",
+        "time": 1730329611,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=99\">id<\/a>"
+    },
+    {
         "id": "98",
         "text": "The WordPress.com Team \u2013 Go WordPress",
         "text2": "",

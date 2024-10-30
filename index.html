@@ -211,7 +211,7 @@ transform: rotate(0deg);
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
 <div class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-Updated red color in color themes. The color became lighter.
+Updated red color in color themes (dark). The color became lighter.
 
 <a class="brand block tag2 small tCenter border2 light borderRadius2" href="/pages/updates.html" title="Update Log">more</a></div>
 </details>
@@ -326,8 +326,8 @@ flex-wrap: wrap;
 <a class="tag light2 border3 borderRadius2 op" href="https://google.com/"  title="Google">Google</a>
 <a class="tag light2 border3 borderRadius2 op" href="https://bing.com/" title="Bing">Bing</a>
 <a class="tag light2 border3 borderRadius2 op" href="?q=o" title="Other (random)">Other</a>
-<!--<a class="tag light2 border3 borderRadius2 op" href="?q=o" title="Web search (random)">Web</a>-->
-<a class="tag light2 border3 borderRadius2 op" href="?q=s" title="Social media (random)">Social</a>
+<a class="tag light2 border3 borderRadius2 op" href="?q=w" title="Web search (random)">Web</a>
+<!--<a class="tag light2 border3 borderRadius2 op" href="?q=s" title="Social media (random)">Social</a>-->
 <a class="tag light2 border3 borderRadius2 op" href="?q=i" title="Image search (random)">Images</a>
 <a rel="nofollow" class="tag light2 border3 borderRadius2 op" href="?q=v" title="Video search (random)">Videos</a>
 <a class="tag light2 border3 borderRadius2 op" href="?q=t" title="Translate (random)">Translate</a>
@@ -497,8 +497,8 @@ var a = `
 <a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` goo" title="Google">Google</a>
 <a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` bin" title="Bing">Bing</a>
 <a class="tag light2 border3 borderRadius2" href="?q=` + text + ` o" title="Other (random)">Other</a>
-<!--<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` w" title="Web search (random)">Web</a>-->
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` s" title="Social media (random)">Social</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` w" title="Web search (random)">Web</a>
+<!--<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` s" title="Social media (random)">Social</a>-->
 <a class="tag light2 border3 borderRadius2" href="?q=` + text + ` i" title="Image search (random)">Images</a>
 <a class="tag light2 border3 borderRadius2" href="?q=` + text + ` v" title="Video search (random)">Videos</a>
 <a class="tag light2 border3 borderRadius2" href="?q=` + text + ` t" title="Translate (random)">Translate</a>
@@ -548,13 +548,26 @@ if (val != ""){
 //console.log(val + "=" + index);
 let color = fuMRandomItem(tagListColor);
 let printTagUrl = val.toLowerCase();
-if (mode == "keywords"){
+
+
+switch (mode) {
+case 'keywords':
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` s">` + val + `</a>`;
-} else if (mode == "static"){
+break;
+
+case 'static':
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?mode=statiсnotstorage&q=` + printTagUrl +`">` + val + `</a>`;
-} else {
+break;
+
+case 'search':
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl +`">` + val + `</a>`;
+break;
+
+default:
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` ht">#` + val + `</a>`;
+
 }
+
 }
 });
 
@@ -567,27 +580,49 @@ modeSwitch(mode);
 tagListCloud("");
 
 function modeSwitch(mode){
-if (mode == "keywords"){
+
+
+switch (mode) {
+
+case 'keywords':
 tagModePrint = `
 <span class="op">mode:</span>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
 <a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
 `;
-} else if (mode == "static") {
+break;
+
+case 'static':
 tagModePrint = `
 <span class="op">mode:</span>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
 `;
-} else {
+break;
+
+case 'search':
+tagModePrint = `
+<span class="op">mode:</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
+<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('search'); return false;">search</a>
+`;
+break;
+
+default:
 tagModePrint = `
 <span class="op">mode:</span>
 <a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
 `;
+
 }
 
 document.getElementById("printMode").innerHTML = tagModePrint;
