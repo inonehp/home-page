@@ -37,7 +37,7 @@ const confData = [
 "confTitle":"Theme",
 "confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/pages/themes.html">/pages/themes.html</a>`,
 "confName":"confTheme",
-"confValueDefault":"auto-rand-all",
+"confValueDefault":"auto",
 "confValueVariant":["light", "dark", "auto-time", "auto", "auto-t-rand-all", "auto-rand-all"],
 },
 {
@@ -1052,6 +1052,7 @@ if (conf["confThemeEmbed"] == 'light'||com == "light"){
 //document.head.insertAdjacentHTML("beforeend", `
 fuMInsertHtml("head", 'beforeend', `
 <style>
+/*.reduceLight { filter: brightness(100%); }*/
 body{
 background-image: url("/img/${mBg}");
 background-repeat: repeat;
@@ -1064,6 +1065,7 @@ background-attachment: fixed;
 //document.head.insertAdjacentHTML("beforeend", `
 fuMInsertHtml("head", 'beforeend', `
 <style>
+/*.reduceLight { filter:brightness(70%); }*/
 body{
 background-image: url("/img/${mBgDark}");
 background-repeat: repeat;
