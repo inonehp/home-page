@@ -1090,9 +1090,6 @@ fuMInsertHtml("head", 'beforeend', `
 
 
 
-
-
-
 // Cookie (auto) v.1.0.1
 
 // Auto select (timezone) v.1.2.0
