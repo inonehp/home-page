@@ -21,7 +21,7 @@ conf["confDomainName"] = conf["confDomainName"][0].toUpperCase() + conf["confDom
 conf["confDomainNameInTitle"] = ' / ' + conf["confDomainName"];
 
 
-//IndexedDB, DB list for clear
+//IndexedDB, DB list for clear (comma)
 conf["confDbList"] = "todo-list,todo-list-ideas";
 
 conf["confSymbolForSplit"] = "SYMBOLFORSPLIT";
@@ -123,11 +123,6 @@ confData.forEach((val) => {
 conf[val.confName] = localStorage.getItem(val.confName);
 
 if (conf[val.confName] == null||conf[val.confName] == undefined){
-// enable hide ext / main.js, settings page
-/*delme if (String(location.hostname).indexOf('.pages.dev') != -1&&val.confName == 'confHideLinkExt'){
-val.confValueDefault = 'on';
-}*/
-
 localStorage.setItem(val.confName, val.confValueDefault);
 conf[val.confName] = val.confValueDefault; 
 }
@@ -425,7 +420,6 @@ fuMInsertHtml("#footer", 'beforeend', `
 <nav>
 <div class="wrapper3 margin2List small tCenter">
 
-
 <div class="wrapper2">
 
 <div class="tRight small">
@@ -454,7 +448,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 <a class="brand inlineBlock padding" title="Another home page" href="https://${conf["confUsername"]}.neocities.org/">Other Home</a>
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/pages/settings.html">Settings</a>
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/pages/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
-<a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confUsername"]}.pages.dev">Source Code</a></span>
+<a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <a class="brand inlineBlock padding" rel="license" title="Main license" href="/pages/about.html#license">License: CC BY-SA 4.0 *</a>
 <span class="gray small padding"><!--2019--->2024</span>
 <a class="brand inlineBlock padding" style="padding-right: 0;" title="Hosting Service" href="https://pages.cloudflare.com/">Hosting: Cloudflare Pages</a>
@@ -1099,12 +1093,13 @@ fuMInsertHtml("head", 'beforeend', `
 
 
 
-// Cookie (auto) v.1.0.0
+// Cookie (auto) v.1.0.1
 
 // Auto select (timezone) v.1.2.0
 //https://www.termsfeed.com/blog/cookie-consent-outside-eu/
 //https://stackoverflow.com/questions/38399465/how-to-get-list-of-all-timezones-in-javascript
 if (conf["confDataCollection"] == 'auto'){
+let confDataCollectionAutoReal = "auto";
 var timeZone = (Intl.DateTimeFormat().resolvedOptions().timeZone).toLowerCase();
 if (
 timeZone.indexOf('UTC'.toLowerCase()) != -1||
@@ -1116,13 +1111,15 @@ timeZone.indexOf('lagos'.toLowerCase()) != -1||
 timeZone.indexOf('japan'.toLowerCase()) != -1
 ){
 conf["confDataCollection"] = 'off';
+confDataCollectionAutoReal = 'off';
 } else {
+confDataCollectionAutoReal = 'on';
 conf["confDataCollection"] = 'on';
 }
 
 //fuMInsertHtml('#fPrivacy', 'beforeend', `Cookie: auto (${conf["confDataCollection"]})`); 
-if (document.getElementById('fPrivacy')[0] != null){
-document.getElementById('fPrivacy')[0].innerHTML = `Cookie: auto (${conf["confDataCollection"]})`;
+if (document.getElementById('fPrivacy') != null){
+document.getElementById('fPrivacy').innerHTML = `Cookie: auto (${confDataCollectionAutoReal})`;
 }
 
 }
@@ -1340,7 +1337,7 @@ fuMEmbedScript(`/js/ads.js`, conf["confIdEmbedScript"]);
 }
 
 if (conf["confDataCollection"] == 'not selected'){
-fuMEmbedScript(`/js/cookieAgreePopup.js`, conf["confIdEmbedScript"]);
+fuMEmbedScript(`/js/cookie-agree-popup.js`, conf["confIdEmbedScript"]);
 }
 
 if (conf["confDataCollection"] == 'on'){

@@ -97,7 +97,7 @@ ${printBody}
 <div class="padding block right">
 <div class="shadow button padding3 light2 bold pointer borderBottomRed" onclick="settingOptionClearData();" title="Some saved settings on other pages and settings">Clear local storage</div>
 
-<div class="shadow button padding3 light2 bold pointer borderBottomRed" onclick="settingOptionClearDataIndexdDb();" title="Clear the database: to-do list, etc">Clear IndexedDB</div>
+<div class="shadow button padding3 light2 bold pointer borderBottomRed" onclick="settingOptionClearDataIndexdDb();" title="Clear the database (IndexdDb)">Clear IndexedDB</div>
 </div>
 
 

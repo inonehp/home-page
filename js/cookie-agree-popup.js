@@ -2,7 +2,7 @@
 // if "not selected": popup
 // icons (svg) inspired by https://www.dw.com/
 
-fuMPrintText('cookiePopup', `
+fuMInsertHtml('#cookiePopup', '', `
 
 <div class="wrapper">
 <div class="cookiePopup post bg2 border3 margin tCenter shadow borderRadius2">
@@ -44,6 +44,9 @@ fuMPrintText('cookiePopup', `
 </div>
 </div>
 
+`);
+
+fuMInsertHtml("head", "", `
 <style>
 #cookiePopup {
 position: fixed;
@@ -72,7 +75,6 @@ max-width: 130px;
 width: var(--fontSize);
 }
 </style>
-
 `);
 
 if(conf["confDataCollection"] == 'not selected'){
@@ -86,7 +88,7 @@ function cookiePopup(option){
 localStorage.setItem("confDataCollection", option);
 if(document.getElementById("cookiePopup") != null){
 document.getElementById("cookiePopup").style.display = "none";
-//fuMPrintText('fPrivacy', `<a href="/settings.html#confDataCollection">cookie: ${option}</a>`); 
+//fuMInsertHtml('#fPrivacy', '', `<a href="/settings.html#confDataCollection">cookie: ${option}</a>`); 
 if(document.getElementById('fPrivacy') != null){
 document.getElementById('fPrivacy').innerText = `Cookie: ${option}`;
 }
