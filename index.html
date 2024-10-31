@@ -567,6 +567,10 @@ case 'search':
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl +`">` + val + `</a>`;
 break;
 
+case 'edit':
+tagListPrint += `<a class="inlineBlock padding op brand" href="/projects/redirects-25/?q=` + printTagUrl +`">` + val + `</a>`;
+break;
+
 default:
 tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl + ` ht">#` + val + `</a>`;
 
