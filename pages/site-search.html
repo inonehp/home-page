@@ -174,10 +174,14 @@ let q55 = url55.searchParams.get("q");
 let q55PrintURl = encodeURIComponent(q55);
 let mode55 = url55.searchParams.get("dmode");
 let dataMode = mode55;
+let dMode = mode55;
+
+if (dataMode == null){ dataMode = "all"; mode55 = "all"; dMode = "all"; }
+
 
 if (q55PrintURl == null||q55PrintURl == "null"){ q55PrintURl = ""; }
 
-let lModeList = "sitemap links microblog articles notes";
+let lModeList = "all sitemap links microblog articles notes randomwebsite";
 let lModeListArr = fuMSplit(lModeList);
 
 lPrint = "";
@@ -259,9 +263,8 @@ let keepConfig = {
 
 <script>
 //https://stackoverflow.com/questions/724857/how-to-find-javascript-variable-by-its-name
-if (dataMode != null&&dataMode != undefined&&dataMode != ""){
+if (dataMode != "all"&&dataMode != null&&dataMode != undefined&&dataMode != ""){
 dataMode = window[dataMode + 'JsonVar'];
-
 keep("printKeep", dataMode, 'wrapper', './site-search.html', keepConfig);
 } else {
 keep("printKeep", data, 'wrapper', './site-search.html', keepConfig);

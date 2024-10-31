@@ -1,4 +1,4 @@
-// Keep v.3.8.3
+// Keep v.3.8.4
 // Static version of the offline 'keep' script that saves things.
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -241,8 +241,11 @@ q2 = q2.trim();
 
 var mode = url.searchParams.get("mode");
 if (mode != null){ mode = mode.trim(); }
+
+if (dMode == undefined){
 var dMode = url.searchParams.get("dmode");
 if (dMode != null){ dMode = dMode.trim(); }
+}
 
 // q random
 if (q == 'l'||q == 'r'){ q = null; mode = 'random'; }
