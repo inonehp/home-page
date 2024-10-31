@@ -11,7 +11,7 @@
     },
     {
         "id": "18",
-        "text": "About Web Design - in progress",
+        "text": "About Web Design",
         "text2": "===\r\n\r\nWhat is web design?\r\n\r\nWeb design is a type of digital design that creates and maintains websites. Web design is responsible for how the site should look: colors, fonts (typography), graphics and user interface.\r\n\r\n\r\nWeb design includes:\r\n\r\n- Graphic design.\r\n- User interface design (UI design).\r\n- User experience design (UX design).\r\n- Search engine optimization (SEO).\r\n\r\nWhat is the difference between web design and web development?\r\n\r\n- Web design is more responsible for the visual side of how the site should look.\r\n- Web development is front-end development that implements web design into a ready-to-use site. Web development includes: HTML - hypertext markup language, CSS - cascading style sheets language, and JavaScript (JS) programming language.\r\n\r\n\r\nSources:\r\n\r\nWeb design - Wikipedia https:\/\/en.wikipedia.org\/wiki\/Web_design\r\nWhat Is Web Design? A Comprehensive Guide https:\/\/www.wix.com\/blog\/web-design \r\nWeb Design Explained: Key Elements & Best Practices | Figma https:\/\/www.figma.com\/resource-library\/web-design\/ \r\n\r\n\r\nTrends:\r\n======\r\nSustainable Web Design\u2060 (Reducing the digital carbon footprint).\r\nResponsive Web Design (A site for any screen).\r\nCustom Illustrations (Not stock photos).\r\nMicro-interactions (Respond to user actions).\r\nClean and minimalist visual design (Simplification).\r\nDenser, richer graphics (More complex, colourful, textures).\r\n\r\nSources:\r\n7 emerging web design trends for 2024 and beyond https:\/\/webflow.com\/blog\/web-design-trends-2024",
         "text3": "",
         "url": "",
@@ -35,17 +35,17 @@
         "text2": "Notes:\r\n\r\n======\r\n<h1>span>test<\/span><\/h1>\r\n<h1><a>test<\/a><\/h1>\r\n- html - how to mix links ( <a> tag ) and headings ( <h1> tag ) in web standard? - Stack Overflow https:\/\/stackoverflow.com\/questions\/1128778\/how-to-mix-links-a-tag-and-headings-h1-tag-in-web-standard\r\n\r\n======\r\n- Using the \"&\" symbol is a bad idea.\r\n- Do not use abbreviations, no one will understand it.\r\n- CSS: \"width\" property does not work if the element is \"inline-block\".\r\n- Do not forget to optimize the size of the pictures.\r\n- If the style or page does not work, but everything is fine, you need to restart the device or computer (this happens before or after updating the browser).\r\n- The 404 not found page should not have a search form, most of the top sites do not.\r\n- Do not use emojis (emoji can have a double meaning and are difficult to read).\r\n- Don't use duplicate content in other place (license conflict).\r\n- Name uppercase (grammar).\r\n- Spaces in JavaScript code, because \"Coding conventions (Programming style)\".\r\n- Use standard font sizes (16px, 1em, 14px because non-standard (13.4px etc) are not suitable for CSS properties such as small, smaller).\r\n====\r\nAbout copyright.\r\n- If there is no copyright, then the work is copyrighted.\r\n- A completely free work, it is a work under a \"public domain\" or \"CC0\" license.\r\n===",
         "text3": "",
         "url": "",
-        "tag": "#WebDesign #notes",
+        "tag": "#WebDesign #WebDevelopment #notes",
         "time": 1721525283,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles.html?id=15\">id<\/a>"
     },
     {
         "id": "12",
-        "text": "Web Design Resources and tools",
+        "text": "Web Design, Web Development resources and tools",
         "text2": "Documentation:\r\n=============\r\n\r\n- MDN Web Docs https:\/\/developer.mozilla.org\/\r\n- Stack Overflow - Where Developers Learn, Share, & Build Careers https:\/\/stackoverflow.com\/\r\n- web.dev https:\/\/web.dev\/\r\n\r\nDev:\r\n====\r\n\r\n- PageSpeed Insights https:\/\/pagespeed.web.dev\/\r\n- The W3C Markup Validation Service https:\/\/validator.w3.org\/\r\n- The W3C CSS Validation Service https:\/\/jigsaw.w3.org\/css-validator\/\r\n\r\n\r\nSEO and statics:\r\n=============\r\n\r\n- Google Analytics https:\/\/analytics.google.com\/\r\n- Google Search Console https:\/\/search.google.com\/search-console\r\n- Bing Webmaster Tools https:\/\/www.bing.com\/webmasters\/\r\n- Google Trends https:\/\/trends.google.com\/\r\n\r\n\r\nSoftware:\r\n========\r\n\r\n- Google Chrome - The Fast & Secure Web Browser Built to be Yours https:\/\/www.google.com\/chrome\/\r\n- Firefox for desktop \u2014 Mozilla https:\/\/www.mozilla.org\/firefox\/new\/\r\n- Visual Studio Code - Code Editing. Redefined https:\/\/code.visualstudio.com\/\r\n- Notepad++ https:\/\/notepad-plus-plus.org\/\r\n- Geany https:\/\/www.geany.org\/\r\n- Inkscape https:\/\/inkscape.org\/\r\n- GIMP - GNU Image Manipulation Program https:\/\/www.gimp.org\/\r\n\r\n\r\n\r\nOther:\r\n=====\r\n- Daring Fireball: Markdown https:\/\/daringfireball.net\/projects\/markdown\/\r\n\r\n+\r\n- Website Authority Checker: Check the \"Authority\" Of Any Domain https:\/\/ahrefs.com\/website-authority-checker \r\n- Ecograder https:\/\/ecograder.com\/",
         "text3": "",
         "url": "",
-        "tag": "#WebDesign #resources #links",
+        "tag": "#WebDesign #WebDevelopment #resources #links",
         "time": 1712410445,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/articles.html?id=12\">id<\/a>"
     },
