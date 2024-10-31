@@ -175,7 +175,9 @@ let q55PrintURl = encodeURIComponent(q55);
 let mode55 = url55.searchParams.get("dmode");
 let dataMode = mode55;
 
-let lModeList = "sitemap links microblog articles notes randomwebsite";
+if (q55PrintURl == null||q55PrintURl == "null"){ q55PrintURl = ""; }
+
+let lModeList = "sitemap links microblog articles notes";
 let lModeListArr = fuMSplit(lModeList);
 
 lPrint = "";
@@ -203,7 +205,7 @@ var geturl33 = window.location;
 var url33 = new URL(geturl33);
 var q33 = url33.searchParams.get("q");
 
-if(document.getElementById('q') != null&&q33 != ""&&q33 != null){
+if(document.getElementById('q') != null&&q33 != ""&&q33 != null&&q33 != "null"){
 document.getElementById('q').value = q33;
 }
 
