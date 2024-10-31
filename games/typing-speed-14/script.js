@@ -1,6 +1,5 @@
-// Typing Speed Test or Typing Speed Game v.3.18.9
-
-
+// Typing Speed Test (WPM) or Typing Speed Game v.3.18.10
+// Note: in about 2 modes (none, b2) and only on localhost, there is a POST request to the dictionary (/?q=dic) - in this way, I learn words. Ignore these 2 modes because they will not work for you.
 
 function mainAll(mode33){
 
