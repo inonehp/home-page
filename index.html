@@ -392,6 +392,7 @@ flex-wrap: wrap;
 <span id="printTags"></span>
 <hr>
 <span id="printMode"></span>
+<span id="tagListEditForm"></span>
 
 </div>
 
@@ -525,19 +526,22 @@ function tagListCloud(mode){
 let tagModePrint = "";
 if (mode == undefined||mode == ""){
 mode = localStorage.getItem("tagModeData");
-} else {
+} else if (mode != "edit"){
 localStorage.setItem("tagModeData", mode);
 }
 
 let tagListColor = `red orange yellow green blue indigo violet`;
 
-let tagList = `
+let tagList = localStorage.getItem("tagListData");
+if (tagList == null||tagList == undefined){
+tagList = `
 Art Photography Writing Blog Games Music Movies Books Travel
 Comics Sports Fashion Fun Nature Poetry Drawing
 Science Education Internet Technology
 Programming WebDesign WebDevelopment HTML CSS JavaScript
 Personal Homepage Portfolio Search StartPage NewTab
 `;
+}
 
 let arr = fuMSplit(tagList);
 
@@ -573,13 +577,13 @@ tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects
 
 document.getElementById("printTags").innerHTML = tagListPrint;
 
-modeSwitch(mode);
+modeSwitch(mode, tagList);
 
 }
 
 tagListCloud("");
 
-function modeSwitch(mode){
+function modeSwitch(mode, tagList){
 
 
 switch (mode) {
@@ -591,6 +595,9 @@ tagModePrint = `
 <a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
+
+<span class="op gray">/</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
 `;
 break;
 
@@ -601,6 +608,9 @@ tagModePrint = `
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
+
+<span class="op gray">/</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
 `;
 break;
 
@@ -611,6 +621,30 @@ tagModePrint = `
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
 <a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('search'); return false;">search</a>
+
+<span class="op gray">/</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
+`;
+break;
+
+case 'edit':
+tagModePrint = `
+<span class="op">Mode:</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('special'); return false;">special</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('random'); return false;">random</a>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
+
+<span class="op gray">/</span>
+<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
+`;
+
+document.getElementById("tagListEditForm").innerHTML = `
+<form action="" method="get" class="form-example">
+<textarea id="tagListEditData" rows="10">` + tagList + `</textarea>
+<a class="w100 button light2 padding2 border op brand" href="#" onclick="saveTagListData(); return false;">Save</a>
+<div class="tRight"><a class="tRight button light2 padding2 border op red" href="#" onclick="resetTagListData(); return false;">Reset</a></div>
+  </div>
+</form>
 `;
 break;
 
@@ -621,12 +655,34 @@ tagModePrint = `
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
 <a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
+
+<span class="op gray">/</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
 `;
 
 }
 
 document.getElementById("printMode").innerHTML = tagModePrint;
 }
+
+
+
+
+function saveTagListData(){
+let data = document.getElementById("tagListEditData").value;
+localStorage.setItem("tagListData", data);
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
+function resetTagListData(){
+if (window.confirm("Are you sure?")) {
+localStorage.removeItem("tagListData")
+}
+document.getElementById("tagListEditForm").innerHTML = ``;
+tagListCloud("");
+}
+
 
 </script>
 
