@@ -3,6 +3,16 @@ var postsJsonVar =
 
 [
     {
+        "id": "26",
+        "text": "Perhaps writing texts is an additional good practice for language learning. When you begin writing a text, then you start to think and look for words to use; this may refresh your memories of learned words, and you need to look for new words to use when writing a text, blog post, or article and to learn these new words.",
+        "text2": "",
+        "text3": "",
+        "url": "",
+        "tag": "#language #learning",
+        "time": 1730412483,
+        "rightFooter": ""
+    },
+    {
         "id": "25",
         "text": "I tried for several hours to add an SVG hamburger icon to the navigation (dropdown menu) and the attempt was unsuccessful, it does not work as it should (something was wrong with SVG and the click event using JS), so I left the text version.",
         "text2": "",

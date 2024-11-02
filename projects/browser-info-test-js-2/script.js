@@ -17,6 +17,7 @@ document.getElementsByClassName("result")[0].innerHTML =  ''
 + '<span class="op">window.navigator.platform </span><br />' + window.navigator.platform + '<hr />'
 
 + '<span class="op">navigator.doNotTrack</span><br />' + navigator.doNotTrack + '<hr />'
++ '<span class="op">navigator.globalPrivacyControl</span><br />' + navigator.globalPrivacyControl + '<hr />'
 + '<span class="op">' + "window.navigator.language" + '</span><br />' + window.navigator.language + '<hr />'
 + '<span class="op">' + "navigator.cookieEnabled" + '</span><br />' + navigator.cookieEnabled + '<hr />'
 + '<span class="op">' + "navigator.hardwareConcurrency" + '</span><br />' + navigator.hardwareConcurrency + '<hr />'

@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "104",
+        "text": "Search and SEO Blog | Google Search Central \u00a0|\u00a0 Google Search Central Blog \u00a0|\u00a0 Google for Developers",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developers.google.com\/search\/blog",
+        "tag": "#WebDevelopment #WebDesign #blog",
+        "time": 1730494710,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=104\">id<\/a>"
+    },
+    {
         "id": "103",
         "text": "Blog \u00a0|\u00a0 web.dev",
         "text2": "",

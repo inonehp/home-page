@@ -140,9 +140,9 @@ transform: rotate(0deg);
 
 <span id="navMenu" class="navMenu">
 <!-- links in nav -->
-<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/pages-list.html">Pages</a>
-<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
-<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/projects-group-list.html">Projects</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="/pages-list.html">Pages</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="/projects-group-list.html">Projects</a>
 <!-- // links in nav -->
 </span>
 
@@ -154,9 +154,9 @@ transform: rotate(0deg);
 <div id="dropdownMenu" class="dropdownMenu">
 <div class="dropdownMenuColumn shadow bg2 padding2 borderRadius2">
 <!-- links for show in dropdown (duplicate) -->
-<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/pages-list.html">Pages</a>
-<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
-<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="/projects-group-list.html">Projects</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="/pages-list.html">Pages</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="/games-list.html">Games</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="/projects-group-list.html">Projects</a>
 <!-- // links for show in dropdown (duplicate) -->
 </div>
 </div>
@@ -323,14 +323,12 @@ flex-wrap: wrap;
 
 <div class="tagList2 hotLinks ">
 <!--<span class="x-small op c" title="Commands:">com: </span>-->
-<a class="tag light2 border3 borderRadius2 op" href="https://google.com/"  title="Google">Google</a>
-<a class="tag light2 border3 borderRadius2 op" href="https://bing.com/" title="Bing">Bing</a>
-<a class="tag light2 border3 borderRadius2 op" href="?q=o" title="Other (random)">Other</a>
-<a class="tag light2 border3 borderRadius2 op" href="?q=w" title="Web search (random)">Web</a>
-<!--<a class="tag light2 border3 borderRadius2 op" href="?q=s" title="Social media (random)">Social</a>-->
-<a class="tag light2 border3 borderRadius2 op" href="?q=i" title="Image search (random)">Images</a>
-<a rel="nofollow" class="tag light2 border3 borderRadius2 op" href="?q=v" title="Video search (random)">Videos</a>
-<a class="tag light2 border3 borderRadius2 op" href="?q=t" title="Translate (random)">Translate</a>
+<!--<a class="tag light2 border3 borderRadius2 op" href="?q=nn" title="AI search random (text nn)">AI</a>-->
+<a class="tag light2 border3 borderRadius2 op" href="?q=w" title="Web search random (text w)">Web</a>
+<a class="tag light2 border3 borderRadius2 op" href="?q=o" title="Other random (text o)">Other</a>
+<a class="tag light2 border3 borderRadius2 op" href="?q=i" title="Image search random (text i)">Images</a>
+<a rel="nofollow" class="tag light2 border3 borderRadius2 op" href="?q=v" title="Video search random (text v)">Videos</a>
+<a class="tag light2 border3 borderRadius2 op" href="?q=t" title="Translate random (text t)">Translate</a>
 </div>
 
 </div>
@@ -495,14 +493,13 @@ var text = encodeURIComponent(e.target.value);
 var a = `
 
 <div class="tagList2 hotLinks">
-<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` goo" title="Google">Google</a>
-<a rel="nofollow" class="tag light2 border3 borderRadius2" href="?q=` + text + ` bin" title="Bing">Bing</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` o" title="Other (random)">Other</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` w" title="Web search (random)">Web</a>
-<!--<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` s" title="Social media (random)">Social</a>-->
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` i" title="Image search (random)">Images</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` v" title="Video search (random)">Videos</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` t" title="Translate (random)">Translate</a>
+<!--<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` nn" title="AI search random (text nn)">AI</a>-->
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` w" title="Web search random (text w)">Web</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` o" title="Other random (text o)">Other</a>
+<!--<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` s" title="Static sites random (text sta)">Static</a>-->
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` i" title="Image search random (text i)">Images</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` v" title="Video search random (text v)">Videos</a>
+<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` t" title="Translate random (text t)">Translate</a>
 </div>
 
 `;
@@ -560,7 +557,7 @@ tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects
 break;
 
 case 'static':
-tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?mode=statiсnotstorage&q=` + printTagUrl +`">` + val + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?mode=staticnotstorage&q=` + printTagUrl +`">` + val + `</a>`;
 break;
 
 case 'search':

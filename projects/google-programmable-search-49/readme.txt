@@ -21,7 +21,12 @@ video:
 *.dailymotion.com/*
 
 blog:
-*.medium.com/*
 *.blogspot.com/*
 *.wordpress.com/*
 *.dreamwidth.org/*
+
+static:
+*.pages.dev/*
+*.github.io/*
+*.neocities.org/*
+*.nekoweb.org/*
