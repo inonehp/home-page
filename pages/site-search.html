@@ -263,7 +263,7 @@ let keepConfig = {
 
 <script>
 //https://stackoverflow.com/questions/724857/how-to-find-javascript-variable-by-its-name
-if (dataMode != "all"&&dataMode != null&&dataMode != undefined&&dataMode != ""){
+if (dataMode != "all"&&dataMode != null&&dataMode != "null"&&dataMode != undefined&&dataMode != ""){
 dataMode = window[dataMode + 'JsonVar'];
 keep("printKeep", dataMode, 'wrapper', './site-search.html', keepConfig);
 } else {
