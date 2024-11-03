@@ -1,15 +1,5 @@
 <?php
 
-if (php_uname('s') == 'Windows NT'){
-$dirname = explode("\\", getcwd());
-$dirname = $dirname[count(explode('\\', getcwd())) - 1];
-$d = $_SERVER["DOCUMENT_ROOT"].'/';
-} else {
-$dirname = explode("/", getcwd());
-$dirname = $dirname[count(explode("/", getcwd())) - 1];
-$d = $_SERVER["DOCUMENT_ROOT"].'/';
-}
-
 include $_SERVER["DOCUMENT_ROOT"].'/top.php';
 
 $title = htmlspecialchars($dirname);
@@ -30,15 +20,14 @@ echo <<<EOF
 
 EOF;
 
-?>
 
+include 'generate.php';
 
-<a class="inlineBlock padding red" href="generate.php">generate.php! (Before that, configure config.php)</a>
+//in htdocs
+/*$phpDir = "/test/php-test-site/";
+$htmlDir = "/test/html-test-site/";
+phpToStatic($phpDir, $htmlDir);*/
 
-
-
-
-<?php
 
 echo <<<EOF
 
