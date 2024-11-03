@@ -37,7 +37,7 @@ const confData = [
 "confTitle":"Theme",
 "confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/pages/themes.html">/pages/themes.html</a>`,
 "confName":"confTheme",
-"confValueDefault":"auto",
+"confValueDefault":"auto-rand-all",
 "confValueVariant":["light", "dark", "auto-time", "auto", "auto-t-rand-all", "auto-rand-all"],
 },
 {
@@ -956,13 +956,6 @@ fuMSetTheme(conf["confTheme"]);
 }
 });
 */
-
-/* in test, delme (now in function: setTheme)
-// print theme mode and name in footer
-if (document.getElementById('fTheme') != null){
-document.getElementById("fTheme").innerHTML = 'Theme: ' + theme + ' (' + conf["confRealTmpTheme"] + ')';
-}*/
-
 // end Theme switcher
 
 
