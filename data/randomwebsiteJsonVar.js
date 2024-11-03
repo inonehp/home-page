@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "106",
+        "text": "Bram.us \u2013 A rather geeky\/technical weblog, est. 2001, by Bramus",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.bram.us\/",
+        "tag": "#personal #WebDesign #WebDevelopment",
+        "time": 1730627581,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=106\">id<\/a>"
+    },
+    {
         "id": "105",
         "text": "Innovation at Mozilla - Mozilla Innovations",
         "text2": "",

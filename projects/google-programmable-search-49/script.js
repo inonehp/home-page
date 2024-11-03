@@ -6,13 +6,13 @@ var qGMode = url.searchParams.get("mode");
 
 if(qGMode != null&&qGMode != ""){
 qGMode = qGMode.trim();
-if (qGMode != "statiсnotstorage"){
+if (qGMode != "staticnotstorage"){
 localStorage.setItem('qGMode', qGMode);
 }
 }
 if(qGMode == null||qGMode == ""){ qGMode = localStorage.getItem('qGMode'); }
 if(qGMode == null||qGMode == "") { qGMode = "web"; }
-if(qGMode == "statiсnotstorage"){ qGMode = "static"; }
+if(qGMode == "staticnotstorage"){ qGMode = "static"; }
 
 var qGQ = url.searchParams.get("q");
 var q = url.searchParams.get("q");
