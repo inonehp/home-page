@@ -619,7 +619,6 @@ var themeListDark = [
 
 var themeListOtherDark = [
 "od-blue",
-"od-blue-2",
 "od-brown",
 "od-green",
 "od-gray",
