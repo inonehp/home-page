@@ -21,9 +21,9 @@ if(qGQ != ''){ qGQ = encodeURIComponent(qGQ); }
 
 
 // config
-var lQModePrint = `<a class="brand tag" href="./">start</a>`;
+var lQModePrint = `<a class="brand tag" href="./?q=">start</a>`;
 
-let lQMode = [
+var lQMode = [
 {"name":"Web", "comName":"web", "code":"74e19ee10195d4644"},
 {"name":"Latest", "comName":"latest", "code":"974cdfc30e536405d"},
 {"name":"Blogs", "comName":"blogs", "code":"653a54ad99a1442eb"},
@@ -36,25 +36,21 @@ let lQMode = [
 ];
 
 
+
 //
-window.addEventListener('load', function() {
-if (document.getElementById("gsc-i-id1") != null){
-
-const input = document.getElementById("gsc-i-id1");
-input.addEventListener("input", updateValue);
-
-qGQ = document.getElementById("gsc-i-id1").value;
-qGQ = encodeURIComponent(qGQ);
+//window.addEventListener('load', function() {});
 
 function updateValue(e) {
-lQModePrint = `<a class="brand tag" href="./">start</a>`;
 
 //log.textContent = e.target.value;
 qGQ = e.target.value;
 qGQ = encodeURIComponent(qGQ);
 
+lQModePrint = "";
+lQModePrint = `<a class="brand tag" href="./?q=">start</a>`;
+
 lQMode.forEach((item, item2) => {
-if (item["name"] == qGMode){
+if (item["comName"] == qGMode){
 lQModePrint += `
 <a class="brand active2 light3 tag border borderRadius2" href="?mode=${item["comName"]}&q=${qGQ}">${item["name"]}</a>
 `;
@@ -68,8 +64,6 @@ document.getElementById("mode").innerHTML = `${lQModePrint}`;
 
 }
 
-}
-});
 
 
 
@@ -121,4 +115,18 @@ document.getElementById("gsc-i-id1").value = q;
 
 
 
+if (document.getElementById("gsc-i-id1") != null){
+const input = document.getElementById("gsc-i-id1");
+input.addEventListener("input", updateValue);
 
+qGQ = document.getElementById("gsc-i-id1").value;
+qGQ = encodeURIComponent(qGQ);
+}
+
+if (document.getElementById("q") != null){
+const input2 = document.getElementById("q");
+
+input2.addEventListener("q", updateValue);
+qGQ = document.getElementById("q").value;
+qGQ = encodeURIComponent(qGQ);
+}
