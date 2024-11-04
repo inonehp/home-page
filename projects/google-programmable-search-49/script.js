@@ -1,4 +1,4 @@
-// v.1.1.0
+// v.1.2.0
 
 var geturl = location.href;
 var url = new URL(geturl);
@@ -118,15 +118,9 @@ document.getElementById("gsc-i-id1").value = q;
 if (document.getElementById("gsc-i-id1") != null){
 const input = document.getElementById("gsc-i-id1");
 input.addEventListener("input", updateValue);
-
-qGQ = document.getElementById("gsc-i-id1").value;
-qGQ = encodeURIComponent(qGQ);
 }
 
 if (document.getElementById("q") != null){
 const input2 = document.getElementById("q");
-
 input2.addEventListener("q", updateValue);
-qGQ = document.getElementById("q").value;
-qGQ = encodeURIComponent(qGQ);
 }
