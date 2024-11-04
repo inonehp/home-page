@@ -27,8 +27,8 @@ var confSpeedDialDataArr = localStorage.getItem("confSpeedDialData");
 } else {
 var confSpeedDialDataArr = [];
 
-confSpeedDialDataArr.push({"text":"Google", "url":"https://www.google.com/"});
-confSpeedDialDataArr.push({"text":"Bing", "url":"https://www.bing.com/"});
+confSpeedDialDataArr.push({"text":"YouTube", "url":"https://www.youtube.com/"});
+confSpeedDialDataArr.push({"text":"Reddit", "url":"https://www.reddit.com/"});
 
 var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
 }
