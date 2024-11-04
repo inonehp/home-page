@@ -136,8 +136,6 @@
 
 
 
-
-
 <script src="/data/sitemapJsonVar.js"></script>
 <script src="/data/linksJsonVar.js"></script>
 <script src="/data/microblogJsonVar.js"></script>
@@ -184,6 +182,7 @@ if (q55PrintURl == null||q55PrintURl == "null"){ q55PrintURl = ""; }
 let lModeList = "all sitemap links microblog articles notes randomwebsite";
 let lModeListArr = fuMSplit(lModeList);
 
+// print 1
 lPrint = "";
 lModeListArr.forEach((val, index) => {
 //console.log(val + "=" + index);
@@ -193,10 +192,39 @@ lPrint += `<a class="op tag border light2 borderRadius2 active2 borderBottomGray
 lPrint += `<a class="op tag border light2 borderRadius2" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
 }
 });
-
 document.getElementById("modeList").innerHTML = `
 <div class="tCenter">` + lPrint + `</div>
 `;
+
+
+
+function updateValue(e) {
+
+//log.textContent = e.target.value;
+q55PrintURl = e.target.value;
+q55PrintURl = encodeURIComponent(q55PrintURl);
+
+// print 2
+lPrint = "";
+lModeListArr.forEach((val, index) => {
+//console.log(val + "=" + index);
+if (mode55 == val){
+lPrint += `<a class="op tag border light2 borderRadius2 active2 borderBottomGray" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+} else {
+lPrint += `<a class="op tag border light2 borderRadius2" href="?q=` + q55PrintURl + `&dmode=` + val + `">`+ val + `</a> `;
+}
+});
+document.getElementById("modeList").innerHTML = `
+<div class="tCenter">` + lPrint + `</div>
+`;
+
+}
+
+
+if (document.getElementById("q") != null){
+const input = document.getElementById("q");
+input.addEventListener("input", updateValue);
+}
 
 </script>
 
