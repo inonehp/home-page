@@ -739,6 +739,29 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + " site:wordpress.com OR site:blogspot.com OR site:dreamwidth.org",
+"https://www.bing.com/search?q=" + q + " site:wordpress.com OR site:blogspot.com OR site:dreamwidth.org",
+];
+if (q == ''){
+urlList = [
+"https://wordpress.com",
+"https://blogspot.com/",
+"https://dreamwidth.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'bb#':
+case 'bblo#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q=" + q + " site:wordpress.com OR site:blogspot.com OR site:dreamwidth.org&tbs=qdr:m",
+"https://www.bing.com/search?q=" + q + " site:wordpress.com OR site:blogspot.com OR site:dreamwidth.org&filters=ex1%3a%22ez3%22",
 ];
 if (q == ''){
 urlList = [

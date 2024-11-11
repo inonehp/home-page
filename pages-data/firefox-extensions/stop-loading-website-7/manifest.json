@@ -2,7 +2,7 @@
 
 "manifest_version": 3,
 "name": "Stop loading website",
-"version": "1.4.1",
+"version": "1.4.2",
 "description": "Stop loading the site from the specified list of sites in the extension settings. The extension works based on how the browser's stop button works.",
 
 "icons": {
@@ -32,7 +32,8 @@
 ],
 
 "options_ui": {
-"page": "options.html"
+"page": "options.html",
+"open_in_tab": true
 },
 
 

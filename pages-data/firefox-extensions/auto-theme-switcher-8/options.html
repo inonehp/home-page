@@ -22,7 +22,7 @@ empty keywords,
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="auto.css">
 
-<link rel="preload" href="options.js" as="script"> 
+<!--<link rel="preload" href="options.js" as="script">-->
 
 </head>
 
@@ -35,11 +35,12 @@ empty keywords,
 <!--<div id="msg" class=" tCenter orange padding2 bg3 border">status</div>-->
 
 
-<form>
-<label for="q">Website URL:</label>
-<input class="padding2" type="text" id="q" name="q" placeholder="example: https://example.com/" autocomplete="off" autofocus="autofocus">
-<input type="submit">
-</form>
+    <p>Choose a Firefox theme:</p>
+    <p class="small">Light mode:</p>
+    <select name="theme" id="theme-list-light"></select>
+    <p class="small">Dark mode:</p>
+    <select name="theme2" id="theme-list-dark"></select>
+
 
 </div>
 </main>
@@ -50,6 +51,6 @@ empty keywords,
 <div class="margin padding"></div>
 </footer>
 
-    <script src="options.js"></script>
+<script src="script.js"></script>
   </body>
 </html>

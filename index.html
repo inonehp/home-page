@@ -527,6 +527,8 @@ mode = localStorage.getItem("tagModeData");
 localStorage.setItem("tagModeData", mode);
 }
 
+if (mode == null){ mode = "search"; }
+
 let tagListColor = `red orange yellow green blue indigo violet`;
 
 let tagList = localStorage.getItem("tagListData");
@@ -584,62 +586,39 @@ modeSwitch(mode, tagList);
 
 tagListCloud("");
 
+
 function modeSwitch(mode, tagList){
 
-
-switch (mode) {
-
-case 'keywords':
-tagModePrint = `
-<span class="op">mode:</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
-<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
-
-<span class="op gray">/</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
+let tagModePrint = "";
+let tagsModeList = `search static hashtags keywords`;
+let arr = fuMSplit(tagsModeList);
+let tagListPrint = `<span class="op">mode:</span>`;
+arr.forEach((val, index) => {
+if (mode == val){
+tagModePrint += `
+<a class="inlineBlock padding op active" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
 `;
-break;
-
-case 'static':
-tagModePrint = `
-<span class="op">mode:</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
-<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
-
-<span class="op gray">/</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
+} else {
+tagModePrint += `
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('` + val +`'); return false;">` + val +`</a>
 `;
-break;
+}
+});
 
-case 'search':
-tagModePrint = `
-<span class="op">mode:</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
-<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('search'); return false;">search</a>
-
-<span class="op gray">/</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
-`;
-break;
-
-case 'edit':
-tagModePrint = `
-<span class="op">mode:</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
-
+if (mode == "edit"){
+tagModePrint += `
 <span class="op gray">/</span>
 <a class="inlineBlock padding op gray" title="Close" href="#" onclick="closeTagListData(''); return false;">edit</a>
 `;
+} else {
+tagModePrint += `
+<span class="op gray">/</span>
+<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
+`;
+}
+document.getElementById("printMode").innerHTML = tagModePrint;
 
+if (mode == "edit"){
 document.getElementById("tagListEditForm").innerHTML = `
 <form action="" method="get" class="form-example">
 <textarea id="tagListEditData" rows="10">` + tagList + `</textarea>
@@ -648,24 +627,11 @@ document.getElementById("tagListEditForm").innerHTML = `
   </div>
 </form>
 `;
-break;
-
-default:
-tagModePrint = `
-<span class="op">mode:</span>
-<a class="inlineBlock padding op gray" href="#" onclick="tagListCloud('hashtag'); return false;">hashtag</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('keywords'); return false;">keywords</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('static'); return false;">static sites</a>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('search'); return false;">search</a>
-
-<span class="op gray">/</span>
-<a class="inlineBlock padding op brand" href="#" onclick="tagListCloud('edit'); return false;">edit</a>
-`;
+}
 
 }
 
-document.getElementById("printMode").innerHTML = tagModePrint;
-}
+
 
 
 

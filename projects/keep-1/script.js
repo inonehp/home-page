@@ -1,4 +1,4 @@
-// Keep v.3.8.4
+// Keep v.3.8.5
 // Static version of the offline 'keep' script that saves things.
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -371,7 +371,7 @@ print += `
 
 
 function main(){
-
+let = lDots = "";
 
 
 //if (q != null&&q != ''){
@@ -381,7 +381,9 @@ if (mode == null){ mode = 'search'; }
 /*q = fuMClearText(q);
 q2 = fuMClearText(q2);*/
 
-let printTitle = q.slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerHTML;
+
+if (q.length > 260){ lDots = " ... "; }
+let printTitle = q.slice(0, 260) + lDots + ' - ' + document.getElementsByTagName('title')[0].innerHTML;
 document.getElementsByTagName('title')[0].innerHTML = printTitle;
 
 //embedStatus = 'off';
@@ -623,7 +625,8 @@ if (id != ''&&getP2 == null){
 //document.getElementsByTagName('title')[0].innerHTML = postText.slice(0, 60);
 //document.getElementsByTagName('title')[0].innerHTML += ' - ' + (postTextClean).slice(0, 260) +  " ...";
 
-let printTitle = (postTextClean).slice(0, 260) + ' - ' + document.getElementsByTagName('title')[0].innerHTML;
+if (postTextClean.length > 260){ lDots = " ... "; }
+let printTitle = (postTextClean).slice(0, 260) + lDots + ' - ' + document.getElementsByTagName('title')[0].innerHTML;
 document.getElementsByTagName('title')[0].innerHTML = printTitle;
 
 /*if (conf["confDomainNameInTitle"] == 'on'){
@@ -1932,7 +1935,7 @@ item = fuMHideFileNameExt(item);
 
 if (embedStatus == 'on'&&host != undefined){
 
-item = item.trim();
+//delme item = item.trim();
 
 if (targetOption == 'blank'){
 item222 = `<a class="brand insertIcon" target="_blank" href="${item}">${item}</a>`;
@@ -2472,7 +2475,7 @@ if (item.slice(0, 4) == 'http'||item.search("http|://|www.") != -1||item[0] == "
 
 if (embedStatus == 'on'&&host != undefined){
 
-item = item.trim();
+//delme item = item.trim();
 item = fuMHideFileNameExt(item);
 
 if (targetOption == 'blank'){

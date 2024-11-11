@@ -955,7 +955,7 @@ fuMSetTheme(conf["confTheme"]);
 }
 });
 */
-// end Theme switcher
+// end Themes changer
 
 
 function fuMReload(){ location.reload(true); }
@@ -1030,8 +1030,8 @@ return textOrArr.sort(collator.compare);
 function fuMBg(com, img){
 if (conf["confBg"] == 'on'||com == 'on'){
 
-let mBg = fuMRandomItem("bg-index.svg bg-line-square.svg bg-star.svg bg-circle.svg bg-triangle.svg bg-square-solid.svg bg-binary.svg bg-short-line.svg bg-shape.svg bg-line-chaotic.svg bg-wood.svg bg-deco-paper.svg");
-let mBgDark = fuMRandomItem("bg-index-d.svg bg-line-square-d.svg bg-star-d.svg bg-circle-d.svg bg-triangle-d.svg bg-square-solid-d.svg bg-binary-d.svg bg-short-line-d.svg bg-shape-d.svg bg-line-chaotic-d.svg bg-wood-d.svg bg-deco-paper-d.svg");
+let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png");
+let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'||com == "light"){
@@ -1040,7 +1040,7 @@ fuMInsertHtml("head", 'beforeend', `
 <style>
 /*.reduceLight { filter: brightness(100%); }*/
 body{
-background-image: url("/img/${mBg}");
+background-image: url("/img/bg/${mBg}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;
@@ -1053,7 +1053,7 @@ fuMInsertHtml("head", 'beforeend', `
 <style>
 /*.reduceLight { filter:brightness(70%); }*/
 body{
-background-image: url("/img/${mBgDark}");
+background-image: url("/img/bg/${mBgDark}");
 background-repeat: repeat;
 background-position: ${mRandBgPos}% ${mRandBgPos2}%;
 background-attachment: fixed;

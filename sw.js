@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.11.04";
+//var myCacheVersion = "v.1.2.2024.11.11";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.11.04").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.11.11").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -255,30 +255,37 @@ var fileListArr = ["/404.html",
 "/img/404.png",
 "/img/",
 "/img/404.svg",
-"/img/bg-binary-d.svg",
-"/img/bg-binary.svg",
-"/img/bg-circle-d.svg",
-"/img/bg-circle.svg",
-"/img/bg-deco-paper-d.svg",
-"/img/bg-deco-paper.svg",
-"/img/bg-index-d.svg",
-"/img/bg-index.svg",
-"/img/bg-line-chaotic-d.svg",
-"/img/bg-line-chaotic.svg",
-"/img/bg-line-square-d.svg",
-"/img/bg-line-square.svg",
-"/img/bg-shape-d.svg",
-"/img/bg-shape.svg",
-"/img/bg-short-line-d.svg",
-"/img/bg-short-line.svg",
-"/img/bg-square-solid-d.svg",
-"/img/bg-square-solid.svg",
-"/img/bg-star-d.svg",
-"/img/bg-star.svg",
-"/img/bg-triangle-d.svg",
-"/img/bg-triangle.svg",
-"/img/bg-wood-d.svg",
-"/img/bg-wood.svg",
+"/img/bg/binary-d.svg",
+"/img/bg/",
+"/img/bg/binary.svg",
+"/img/bg/circle-d.svg",
+"/img/bg/circle.svg",
+"/img/bg/deco-paper-d.svg",
+"/img/bg/deco-paper.svg",
+"/img/bg/fractal-d.png",
+"/img/bg/fractal.png",
+"/img/bg/grid-d.png",
+"/img/bg/grid.png",
+"/img/bg/index-d.svg",
+"/img/bg/index.svg",
+"/img/bg/line-chaotic-d.svg",
+"/img/bg/line-chaotic.svg",
+"/img/bg/line-square-d.svg",
+"/img/bg/line-square.svg",
+"/img/bg/shape-d.svg",
+"/img/bg/shape.svg",
+"/img/bg/short-line-d.svg",
+"/img/bg/short-line.svg",
+"/img/bg/square-solid-d.svg",
+"/img/bg/square-solid.svg",
+"/img/bg/star-d.svg",
+"/img/bg/star.svg",
+"/img/bg/triangle-d.svg",
+"/img/bg/triangle.svg",
+"/img/bg/wood-d-delme.svg",
+"/img/bg/wood-d.png",
+"/img/bg/wood-delme.svg",
+"/img/bg/wood.png",
 "/img/example.png",
 "/img/example.svg",
 "/img/github-banner-settings.png",
@@ -410,17 +417,21 @@ var fileListArr = ["/404.html",
 "/other-projects/other/dreamwidth.org-style-backup/style.css",
 "/other-projects/php/README.md",
 "/other-projects/php/",
+"/other-projects/php/delme-php-site-to-static-in-progress/generate.php",
+"/other-projects/php/delme-php-site-to-static-in-progress/",
+"/other-projects/php/delme-php-site-to-static-in-progress/index.php",
+"/other-projects/php/delme-website-to-pwa/index.php",
+"/other-projects/php/delme-website-to-pwa/",
+"/other-projects/php/delme-website-to-pwa/websiteToPwa.php",
+"/other-projects/php/delme-website-to-pwa/websiteToPwa2HidenExt.php",
+"/other-projects/php/functions/nav.php",
+"/other-projects/php/functions/",
+"/other-projects/php/functions/php-to-html.php",
+"/other-projects/php/functions/website-to-pwa.php",
 "/other-projects/php/hello-world/index.php",
 "/other-projects/php/hello-world/",
 "/other-projects/php/index.html",
-"/other-projects/php/php-site-to-static-in-progress/generate.php",
-"/other-projects/php/php-site-to-static-in-progress/",
-"/other-projects/php/php-site-to-static-in-progress/index.php",
 "/other-projects/php/readme.txt",
-"/other-projects/php/website-to-pwa/index.php",
-"/other-projects/php/website-to-pwa/",
-"/other-projects/php/website-to-pwa/websiteToPwa.php",
-"/other-projects/php/website-to-pwa/websiteToPwa2HidenExt.php",
 "/other-projects/python/hello-world/main.py",
 "/other-projects/python/",
 "/other-projects/python/hello-world/",
@@ -464,14 +475,17 @@ var fileListArr = ["/404.html",
 "/pages-data/art/2024/cloud-gimp-7.jpg",
 "/pages-data/art/2024/empty-drawing-1.png",
 "/pages-data/art/2024/face-gimp-10.jpg",
+"/pages-data/art/2024/fractal-gimp-17.jpg",
 "/pages-data/art/2024/https-paint-toys-calligram-screenshot-2.png",
 "/pages-data/art/2024/https-paint-toys-mondrian-screenshot-3.png",
 "/pages-data/art/2024/https-paint-toys-oil-screenshot-4.png",
 "/pages-data/art/2024/https-paint-toys-one-line-screenshot-5.jpeg",
 "/pages-data/art/2024/lines-gimp-8.jpg",
+"/pages-data/art/2024/night-gimp-9.jpg",
+"/pages-data/art/2024/sky-gimp-16.jpg",
 "/pages-data/art/2024/tpl-gimp-14.jpg",
 "/pages-data/art/2024/update-lemon-gimp-11.jpg",
-"/pages-data/art/2024/window-gimp-9.jpg",
+"/pages-data/art/2024/wind-gimp-18.jpg",
 "/pages-data/art/index.html",
 "/pages-data/chrome-extensions/README.md",
 "/pages-data/chrome-extensions/",
@@ -575,8 +589,21 @@ var fileListArr = ["/404.html",
 "/pages-data/css-art/woman-css-32/index.html",
 "/pages-data/css-art/woman-css-32/",
 "/pages-data/css-art/woman-css-32/style.css",
-"/pages-data/firefox-extensions/hotkey-url-5/README.md",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/README.md",
 "/pages-data/firefox-extensions/",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/auto-theme-switcher-8.zip",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/auto.css",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/icon512x512.png",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/icon512x512.svg",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/main.css",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/manifest.json",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/options.html",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/screenshot.png",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/script.js",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/style.css",
+"/pages-data/firefox-extensions/auto-theme-switcher-8/worker.js",
+"/pages-data/firefox-extensions/hotkey-url-5/README.md",
 "/pages-data/firefox-extensions/hotkey-url-5/",
 "/pages-data/firefox-extensions/hotkey-url-5/hotkey-url-5.zip",
 "/pages-data/firefox-extensions/hotkey-url-5/icon512x512.png",
@@ -1256,7 +1283,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.11.04")
+caches.open("v.1.2.2024.11.11")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1282,7 +1309,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.11.04")
+caches.open("v.1.2.2024.11.11")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1315,7 +1342,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.11.04"];
+  const cachesToKeep = ["v.1.2.2024.11.11"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

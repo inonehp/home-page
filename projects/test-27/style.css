@@ -1,6 +1,9 @@
 /* v.1.1.5 */
 
 
+a { color: red; }
+a: hover { color: orange; }
+
 
 .testOrange { color: orange; }
 .testRed { color: red; }

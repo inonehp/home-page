@@ -1,5 +1,15 @@
 [
     {
+        "id": "82",
+        "text": "Give users options \u00a0|\u00a0 Chrome Extensions \u00a0|\u00a0 Chrome for Developers",
+        "text2": "===\r\nSetting the extension as a link or page instead of a tab: \"open_in_tab\": false\r\n\r\n{\r\n  \"name\": \"My extension\",\r\n  ...\r\n  \"options_ui\": {\r\n    \"page\": \"options.html\",\r\n    \"open_in_tab\": false\r\n  },\r\n  ...\r\n}",
+        "text3": "",
+        "url": "https:\/\/developer.chrome.com\/docs\/extensions\/develop\/ui\/options-page",
+        "tag": "#fix #option #extension",
+        "time": 1730966751,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=82\">id<\/a>"
+    },
+    {
         "id": "81",
         "text": "encodeURIComponent() - JavaScript | MDN",
         "text2": "===\r\n\/\/ Encodes characters such as ?,=,\/,&,:\r\nconsole.log(`?x=${encodeURIComponent('test?')}`);\r\n\/\/ Expected output: \"?x=test?\"",
@@ -308,16 +318,6 @@
         "tag": "#linux #fix",
         "time": 1719819468,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=49\">id<\/a>"
-    },
-    {
-        "id": "48",
-        "text": "How to Disable JavaScript in Firefox",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.lifewire.com\/disable-javascript-in-firefox-446039",
-        "tag": "#fix",
-        "time": 1719495874,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=48\">id<\/a>"
     },
     {
         "id": "47",
