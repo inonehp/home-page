@@ -461,7 +461,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 `);
 
 
- let mFooterNavLinksPrint = `<a class="brand" href="/">start</a> `;
+ let mFooterNavLinksPrint = `<a class="brand" href="/" title="Home page">home</a> `;
  let mFooterNavLinksUrl = "";
  let mFooterNavLinks = location.href; 
 //https://stackoverflow.com/questions/2540969/remove-querystring-from-url
