@@ -4,6 +4,7 @@ var geturl = location.href;
 var url = new URL(geturl);
 var qGMode = url.searchParams.get("mode");
 
+
 if(qGMode != null&&qGMode != ""){
 qGMode = qGMode.trim();
 if (qGMode != "staticnotstorage"){
@@ -16,6 +17,37 @@ if(qGMode == "staticnotstorage"){ qGMode = "static"; }
 
 var qGQ = url.searchParams.get("q");
 var q = url.searchParams.get("q");
+var q2 = url.searchParams.get("q2");
+if (q2 == "l"){ qGQ = qGQ + " l"; }
+
+
+
+
+// search 2
+// for the command at the end of the search query
+let qTmpNoPlus = qGQ.replaceAll('%23', '+', ' ');
+var strArray = qTmpNoPlus.split(" ");
+var qCom = strArray[strArray.length - 1] + "#";
+var q3 = qGQ + "#";
+
+switch (qCom) {
+
+case 'l#': case 'll#':
+qGQ = q3.replace(qCom, '');
+qGQ = qGQ.trim();
+qGQ = encodeURIComponent(qGQ);
+
+q = "";
+
+location.href = "/projects/redirects-25/?q=" + qGQ + " l";
+break;
+
+default:
+
+}
+
+
+
 if(qGQ == null) { qGQ = ""; }
 if(qGQ != ''){ qGQ = encodeURIComponent(qGQ); }
 
@@ -124,3 +156,6 @@ if (document.getElementById("q") != null){
 const input2 = document.getElementById("q");
 input2.addEventListener("q", updateValue);
 }
+
+
+

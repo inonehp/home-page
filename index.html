@@ -563,7 +563,8 @@ tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects
 break;
 
 case 'search':
-tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl +`">` + val + `</a>`;
+//tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/redirects-25/?q=` + printTagUrl +`">` + val + `</a>`;
+tagListPrint += `<a class="inlineBlock padding op ` + color + `" href="/projects/google-programmable-search-49/?q=` + printTagUrl +`">` + val + `</a>`;
 break;
 
 case 'edit':
@@ -590,7 +591,7 @@ tagListCloud("");
 function modeSwitch(mode, tagList){
 
 let tagModePrint = "";
-let tagsModeList = `search static hashtags keywords`;
+let tagsModeList = `search hashtags keywords`;
 let arr = fuMSplit(tagsModeList);
 let tagListPrint = `<span class="op">mode:</span>`;
 arr.forEach((val, index) => {

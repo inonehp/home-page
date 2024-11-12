@@ -98,7 +98,8 @@ sRedirectUrl = url;
 }
 break;
 
-case 'l#':  case 'll#':
+
+case 'l#': case 'll#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
