@@ -11,6 +11,7 @@ if (qGMode != "staticnotstorage"){
 localStorage.setItem('qGMode', qGMode);
 }
 }
+
 if(qGMode == null||qGMode == ""){ qGMode = localStorage.getItem('qGMode'); }
 if(qGMode == null||qGMode == "") { qGMode = "web"; }
 if(qGMode == "staticnotstorage"){ qGMode = "static"; }
@@ -20,8 +21,10 @@ var q = url.searchParams.get("q");
 var q2 = url.searchParams.get("q2");
 if (q2 == "l"){ qGQ = qGQ + " l"; }
 
-
-
+/*delme
+let qGQReal = (String(location.href).split("gsc.q=")[1]);
+alert(qGQReal.split("&")[0]);
+*/
 
 // search 2
 // for the command at the end of the search query

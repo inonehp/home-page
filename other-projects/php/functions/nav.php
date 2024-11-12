@@ -8,7 +8,7 @@ $fuNavMenu = "";
 foreach($fuNavArr as $v => $key){
 
 if (count(explode($fuNavCurrentPage, $v)) >= 2){
-//$GLOBALS['hashTag'] = $v2;
+
 $fuNavMenu .= <<<EOF
 <a class="countMenuItem active2 inlineBlock padding itemLinkAniActive" href="$v">$key</a>
 
