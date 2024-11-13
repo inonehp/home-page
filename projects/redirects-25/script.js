@@ -1,4 +1,4 @@
-// Search redirects v.2.7.4
+// Search redirects v.2.7.5
 // Search query + command
 
 // conf
@@ -1277,7 +1277,7 @@ document.getElementById('printComList').innerHTML = '<div class="bg padding2 bor
 
 Example redirects (random): "Google n" - news about Google.
 
-goo - Google, bin - Bing, n - News, v - video, l - luck (first search result).
+goo - Google, bin - Bing, n - news, i - images, v - videos, s - social media, l - luck (first search result).
 </div>`;
 }
 

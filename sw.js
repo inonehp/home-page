@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.11.12";
+//var myCacheVersion = "v.1.2.2024.11.13";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.11.12").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.11.13").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -781,10 +781,10 @@ var fileListArr = ["/404.html",
 "/pages-data/icons/usb-drive.svg",
 "/pages-data/icons/warning.svg",
 "/pages-data/icons/weather.svg",
-"/pages-data/images/2024/ai-assistant-inkscape-png-62.png",
+"/pages-data/images/2024/ai-assistant-inkscape-62.png",
 "/pages-data/images/",
 "/pages-data/images/2024/",
-"/pages-data/images/2024/app-icon-png-64.png",
+"/pages-data/images/2024/app-icon-64.png",
 "/pages-data/images/2024/art-krita-png-28.png",
 "/pages-data/images/2024/ava-woman-laptop-ava-inkscape-svg-12.svg",
 "/pages-data/images/2024/ava-woman-laptop-inkscape-svg-30.svg",
@@ -799,6 +799,8 @@ var fileListArr = ["/404.html",
 "/pages-data/images/2024/circle-dark-wallpaper-desktop-jpg-16.jpg",
 "/pages-data/images/2024/circle-light-wallpaper-desktop-jpg-15.jpg",
 "/pages-data/images/2024/circle-olive-wallpaper-desktop-jpg-14.jpg",
+"/pages-data/images/2024/css-logo-inkscape-68.svg",
+"/pages-data/images/2024/css-logo-inkscape-svg-69.png",
 "/pages-data/images/2024/day-night-inkscape-png-45.png",
 "/pages-data/images/2024/day-night-inkscape-svg-56.svg",
 "/pages-data/images/2024/editor-code-light-dark-mode-gif-27.gif",
@@ -814,6 +816,10 @@ var fileListArr = ["/404.html",
 "/pages-data/images/2024/hello-world-binary-text-dark-wallpaper--inkscape-png-42.png",
 "/pages-data/images/2024/hello-world-binary-text-light-wallpaper-binary-inkscape-png-43.png",
 "/pages-data/images/2024/hello-world-binary-white-wallpaper-inkscape-png-49.png",
+"/pages-data/images/2024/html-logo-inkscape-svg-66.svg",
+"/pages-data/images/2024/html-logo-inkscape-svg-67.png",
+"/pages-data/images/2024/html-logo-inkscape-svg-70.svg",
+"/pages-data/images/2024/html-logo-inkscape-svg-71.png",
 "/pages-data/images/2024/landscape-dark-blue-wallpaper-desktop-inkscape-jpg-20.jpg",
 "/pages-data/images/2024/landscape-dark-blue-wallpaper-mobile-inkscape-jpg-21.jpg",
 "/pages-data/images/2024/landscape-inkscape-svg-2.svg",
@@ -1283,7 +1289,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.11.12")
+caches.open("v.1.2.2024.11.13")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1309,7 +1315,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.11.12")
+caches.open("v.1.2.2024.11.13")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1342,7 +1348,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.11.12"];
+  const cachesToKeep = ["v.1.2.2024.11.13"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
