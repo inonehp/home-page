@@ -85,9 +85,10 @@ allMClassNavUp.forEach((item, index) => {
 
 if (mNavUpCheck == "/"){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("/archive.html");
+//document.getElementsByClassName("mClassNavUp")[index].text = "Archive (All)";
 }
 
-if (String(mNavUpCheck).indexOf("/pages/") != -1){
+if (String(mNavUpCheck).indexOf("/pages/") != -1||String(mNavUpCheck).indexOf("list") != -1){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./");
 }
 if (mNavUpCheck == "/pages/"){

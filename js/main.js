@@ -1,4 +1,4 @@
-// Main js v.6.12.1
+// Main js v.6.12.2
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -179,7 +179,7 @@ document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 // for other pages where navigation is poor
 
 conf["confMenuItems"] = [
-{"url":"/pages-list.html", "name":"Pages", "title":"Pages"},
+{"url":"/pages/", "name":"Pages", "title":"Pages"},
 {"url":"/projects-group-list.html", "name":"Projects", "title":"Projects page"},
 {"url":"/games-list.html", "name":"Games", "title":"Games list"},
 //{"url":"/archive.html", "name":"Archive", "title":"Archive"},
