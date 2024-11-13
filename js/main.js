@@ -180,8 +180,8 @@ document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 
 conf["confMenuItems"] = [
 {"url":"/pages-list.html", "name":"Pages", "title":"Pages"},
-{"url":"/games-list.html", "name":"Games", "title":"Games list"},
 {"url":"/projects-group-list.html", "name":"Projects", "title":"Projects page"},
+{"url":"/games-list.html", "name":"Games", "title":"Games list"},
 //{"url":"/archive.html", "name":"Archive", "title":"Archive"},
 ];
 
