@@ -1070,14 +1070,12 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+ q + "&udm=14",
 //"https://www.bing.com/search?q="+ q,
-"https://www.ecosia.org/search?q=" + q,
 //"?q=" + q + " o",
 ];
 if (q == ''){
 urlList = [
 "https://www.google.com/",
 //"https://www.bing.com/",
-"https://www.ecosia.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1093,13 +1091,11 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q,
 "https://www.bing.com/search?q=" + q + "&form=site",
-"https://www.ecosia.org/search?q=" + q,
 ];
 if (q == ''){
 urlList = [
 "https://www.google.com/",
 "https://www.bing.com/",
-"https://www.ecosia.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1114,14 +1110,12 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q,
 "https://www.bing.com/search?q=" + q + "&form=site",
-"https://www.ecosia.org/search?q=" + q,
 //"?q=" + q + " o",
 ];
 if (q == ''){
 urlList = [
 "https://www.google.com/",
 "https://www.bing.com/",
-"https://www.ecosia.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1135,14 +1129,12 @@ q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q,
 "https://www.bing.com/search?q=" + q + "&form=site",
-"https://www.ecosia.org/search?q=" + q,
 //"?q=" + q + " o",
 ];
 if (q == ''){
 urlList = [
 "https://www.google.com/",
 "https://www.bing.com/",
-"https://www.ecosia.org/search?q=",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
