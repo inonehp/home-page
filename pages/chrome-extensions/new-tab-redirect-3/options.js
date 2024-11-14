@@ -9,7 +9,7 @@
 //https://news.ycombinator.com/item?id=25218240
 
 function saveOptions(e) {
-e.preventDefault();
+
 //browser.storage.sync.set({
 //browser.storage.local.set({
 chrome.storage.local.set({
@@ -17,6 +17,7 @@ chrome.storage.local.set({
     rUrl: document.querySelector("#q").value
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
+e.preventDefault();
 }
 
 function setCurrentChoice(result) {

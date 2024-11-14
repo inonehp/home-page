@@ -15,6 +15,7 @@ browser.storage.local.set({
     rUrl: document.querySelector("#q").value
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
+e.preventDefault();
 }
 
 

@@ -168,9 +168,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Chrome extensions\n\nChrome browser extension: new tab redirct (new tab page) ... | chrome extensions: ",
+        "text": "Chrome extensions\n\nChrome browser extension: new tab redirct (own new tab page). Chrome addon. | chrome extensions: ",
         "url": "\/pages\/chrome-extensions\/index.html",
-        "tag": " #startpage #newtabpage #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
+        "tag": " #startpage #newtabpage #hotkeys #new #tab #NewTab #chrome #extension #addon #list #projects #page #main",
         "id": "5356a6c910aef9d7e55460bb4e43799a",
         "time": "id"
     },
@@ -231,9 +231,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Firefox extensions\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct (own new tab page) localhost as search engine, etc | firefox extensions: ",
+        "text": "Firefox extensions\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct (own new tab page), localhost as search engine, etc. Firefox addon. | firefox extensions: ",
         "url": "\/pages\/firefox-extensions\/index.html",
-        "tag": " #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extension #extensions #projects #project #list #page #main",
+        "tag": " #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extension #extensions #addon #projects #project #list #page #main",
         "id": "b512751404c82bc56284e93243416212",
         "time": "id"
     },
@@ -413,20 +413,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "New Tab Redirect\n\nempty description. | new tab redirect: ",
-        "url": "\/pages\/chrome-extensions\/new-tab-redirect-3\/new-tab-redirect.html",
-        "tag": " #empty_keywords",
-        "id": "72ce1f50fc1efeed8409efc109249173",
-        "time": "id"
-    },
-    {
-        "text": "New Tab Redirect\n\nempty description. | new tab redirect: ",
-        "url": "\/pages\/firefox-extensions\/new-tab-redirect-3\/new-tab-redirect.html",
-        "tag": " #empty_keywords",
-        "id": "260293c7c031078814716e823aa9f0cd",
-        "time": "id"
-    },
-    {
         "text": "News\n\nNews about technology, web design, web development, and programming. | pages: ",
         "url": "\/pages\/news.html",
         "tag": " #news #technology #webdesign #web #design #development #programming #page #main",
@@ -452,69 +438,6 @@ var sitemapJsonVar = [
         "url": "\/old-projects-list.html",
         "tag": " #old #menu #list #page #main",
         "id": "5d199df533ae00854cdcfa6af9eb1d80",
-        "time": "id"
-    },
-    {
-        "text": "Options\n\nempty description. | auto theme switcher: ",
-        "url": "\/pages\/firefox-extensions\/auto-theme-switcher-8\/options.html",
-        "tag": " #empty_keywords",
-        "id": "355ed7d34d3ed165ae8aa970959fb31a",
-        "time": "id"
-    },
-    {
-        "text": "Options\n\nempty description. | hotkey url: ",
-        "url": "\/pages\/chrome-extensions\/hotkey-url-5\/options.html",
-        "tag": " #empty_keywords",
-        "id": "bc43e1626636cb5cdc059e2f8bd42a2e",
-        "time": "id"
-    },
-    {
-        "text": "Options\n\nempty description. | hotkey url: ",
-        "url": "\/pages\/firefox-extensions\/hotkey-url-5\/options.html",
-        "tag": " #empty_keywords",
-        "id": "c89c96661b2af41a170110d60bae9c94",
-        "time": "id"
-    },
-    {
-        "text": "Options\n\nempty description. | new tab redirect: ",
-        "url": "\/pages\/chrome-extensions\/new-tab-redirect-3\/options.html",
-        "tag": " #empty_keywords",
-        "id": "ccb69b2e92b332bf4b6728ad31b92fc3",
-        "time": "id"
-    },
-    {
-        "text": "Options\n\nempty description. | new tab redirect: ",
-        "url": "\/pages\/firefox-extensions\/new-tab-redirect-3\/options.html",
-        "tag": " #empty_keywords",
-        "id": "dd4358f8c78384d7f001dbfeb66780ae",
-        "time": "id"
-    },
-    {
-        "text": "Options\n\nempty description. | stop loading website: ",
-        "url": "\/pages\/chrome-extensions\/stop-loading-website-7\/options.html",
-        "tag": " #empty_keywords",
-        "id": "75f3696df76e9171dbc23db85904eca3",
-        "time": "id"
-    },
-    {
-        "text": "Options\n\nempty description. | stop loading website: ",
-        "url": "\/pages\/firefox-extensions\/stop-loading-website-7\/options.html",
-        "tag": " #empty_keywords",
-        "id": "2b57ccf6d7bb6409711fe33392603150",
-        "time": "id"
-    },
-    {
-        "text": "Options\n\nempty description. | url redirect: ",
-        "url": "\/pages\/chrome-extensions\/url-redirect-6\/options.html",
-        "tag": " #Not_intended_for_viewing_on_the_site.",
-        "id": "3dcb8758eb3590aec4e4867062ecdf41",
-        "time": "id"
-    },
-    {
-        "text": "Options\n\nempty description. | url redirect: ",
-        "url": "\/pages\/firefox-extensions\/url-redirect-6\/options.html",
-        "tag": " #Not_intended_for_viewing_on_the_site.",
-        "id": "cf8e2bf6f3fb28d438b29953eaf35fa8",
         "time": "id"
     },
     {
@@ -1022,13 +945,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Title\n\nempty description. | badge count up timer: ",
-        "url": "\/pages\/firefox-extensions\/old\/badge-count-up-timer-4\/background.html",
-        "tag": " #empty_keywords",
-        "id": "9df169855d633a20ea35094f69715701",
-        "time": "id"
-    },
-    {
         "text": "To Do List\n\nTo-do, todo list. It's a simple to-do list with the ability to pin tasks as daily. (Task list, tasks). | todo list: ",
         "url": "\/projects\/todo-list-31\/index.html",
         "tag": " #todo #task #tool #JavaScript #project",
@@ -1075,20 +991,6 @@ var sitemapJsonVar = [
         "url": "\/pages\/templates\/index.html",
         "tag": " #Experimental #template #templates #WebDesign #website #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
         "id": "de6e26997deacd0542e681e014a7def4",
-        "time": "id"
-    },
-    {
-        "text": "popup\n\nempty description. | badge count up timer: ",
-        "url": "\/pages\/chrome-extensions\/badge-count-up-timer-4\/popup.html",
-        "tag": " #empty_keywords",
-        "id": "f2aef741215f5456012ee7c90c525430",
-        "time": "id"
-    },
-    {
-        "text": "popup\n\nempty description. | badge count up timer: ",
-        "url": "\/pages\/firefox-extensions\/old\/badge-count-up-timer-4\/popup.html",
-        "tag": " #empty_keywords",
-        "id": "60ac0c75a0f3c3c2cfe652686d82c080",
         "time": "id"
     },
     {

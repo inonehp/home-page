@@ -14,8 +14,9 @@ function saveOptions(e) {
 browser.storage.local.set({
 //dataUrlStopLoadList: document.querySelector("#q").value
 dataUrlStopLoadList: document.getElementById("q").value
-  });
+});
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
+e.preventDefault()
 }
 
 

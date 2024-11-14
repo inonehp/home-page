@@ -41,19 +41,27 @@ for (let i = 0; i < filterList.length; i++) {
 var element = filterList[i].trim();
 //console.log(element);
 
+element = element.trim();
+
 if (element != ""){
+
 let blcokSiteUrl = String(location.href);
-let blockSiteElement2 = element.replace("https://www.", 'https://');
-blockSiteElement2 = blockSiteElement2.replace("http://www.", 'http://');
 
 if (blcokSiteUrl.indexOf(element) != -1){
 //console.log(element);
 fuExtStopLoad(element);
 break;
 }
+
+let blockSiteElement2 = element;
+blockSiteElement2 = blockSiteElement2.replace("https://www.", '');
+blockSiteElement2 = blockSiteElement2.replace("http://www.", '');
+blockSiteElement2 = blockSiteElement2.replace("https://", '');
+blockSiteElement2 = blockSiteElement2.replace("http://", '');
+
 if (blcokSiteUrl.indexOf(blockSiteElement2) != -1){
 //console.log(element);
-fuExtStopLoad(blockSiteElement2);
+fuExtStopLoad(blockSiteElement2 + ` (modifed)`);
 break;
 }
 
@@ -72,8 +80,8 @@ window.addEventListener('load', function() {
 
 stop();
 window.stop();
-console.log(`${extName} / item: ${item}`);
-alert(`${extName} / item: ${item}`);
+console.log(`${extName} || item: ${item}`);
+alert(`${extName} || item: ${item}`);
 
 
 

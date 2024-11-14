@@ -17,6 +17,7 @@ chrome.storage.local.set({
 dataUrlStopLoadList: document.getElementById("q").value
   });
 //document.querySelector("#msg").innerHTML = 'status: '+document.querySelector("#q").value;
+e.preventDefault();
 }
 
 
