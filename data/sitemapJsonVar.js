@@ -42,10 +42,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Art\n\nI try to draw something to practice and learn. | pages: ",
-        "url": "\/pages\/art.html",
+        "text": "Art\n\nI try to draw something to practice and learn. | art: ",
+        "url": "\/pages\/art\/index.html",
         "tag": " #art #page #main",
-        "id": "8b3873a5c9168fa7b44e00540598500e",
+        "id": "da27db666756b588cfcb6e849cd6a28c",
         "time": "id"
     },
     {
@@ -112,17 +112,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "CSS Art\n\nCSS Art - a fun way to practice CSS. | pages: ",
-        "url": "\/pages\/css-art.html",
+        "text": "CSS Art\n\nCSS Art - a fun way to practice CSS. | css art: ",
+        "url": "\/pages\/css-art\/index.html",
         "tag": " #CSS #HTML #art #projects #list #page #main",
-        "id": "fe3a20250ced70b24ac695bfa0b1e34a",
+        "id": "03731ea3e0a9be15ccf2e60a034acbe5",
         "time": "id"
     },
     {
         "text": "CSS Computer (PC)\n\nCSS art description. | computer css: ",
-        "url": "\/pages-data\/css-art\/computer-css-9\/index.html",
+        "url": "\/pages\/css-art\/computer-css-9\/index.html",
         "tag": " #CSSArt #HTML #CSS #project",
-        "id": "fc79a4eb7cf647904faecb04aa69b09b",
+        "id": "2a083acb764579d540586a2f19ce400b",
         "time": "id"
     },
     {
@@ -141,23 +141,23 @@ var sitemapJsonVar = [
     },
     {
         "text": "CSS Halloween Pumpkin\n\nCSS art description. | halloween pumpkin css: ",
-        "url": "\/pages-data\/css-art\/halloween-pumpkin-css-15\/index.html",
+        "url": "\/pages\/css-art\/halloween-pumpkin-css-15\/index.html",
         "tag": " #CSSArt #HTML #CSS #project",
-        "id": "1955905f2fa36ca2c51eb4ec14325e7b",
+        "id": "005c46524aaed6646597dabc7104ae90",
         "time": "id"
     },
     {
         "text": "CSS Realistic Old Windows OS Popup\n\nCSS art description. | realistic old windows os popup window: ",
-        "url": "\/pages-data\/css-art\/realistic-old-windows-os-popup-window-12\/index.html",
+        "url": "\/pages\/css-art\/realistic-old-windows-os-popup-window-12\/index.html",
         "tag": " #CSSArt #HTML #CSS #project",
-        "id": "a194b2a14bee9a5d445984318363080c",
+        "id": "fa0b85f6525cadf0eb1531eb0b6bf44d",
         "time": "id"
     },
     {
         "text": "CSS woman\n\nCSS art description. | woman css: ",
-        "url": "\/pages-data\/css-art\/woman-css-32\/index.html",
+        "url": "\/pages\/css-art\/woman-css-32\/index.html",
         "tag": " #CSSArt #HTML #CSS #project",
-        "id": "b249ed184ec228a52845c92c0069c1cf",
+        "id": "85267a4771b14cd497011b6927536e9b",
         "time": "id"
     },
     {
@@ -168,17 +168,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Chrome extensions\n\nChrome browser extension: new tab redirct (new tab page) ... | pages: ",
-        "url": "\/pages\/chrome-extensions.html",
+        "text": "Chrome extensions\n\nChrome browser extension: new tab redirct (new tab page) ... | chrome extensions: ",
+        "url": "\/pages\/chrome-extensions\/index.html",
         "tag": " #startpage #newtabpage #hotkeys #new #tab #NewTab #chrome #extension #list #projects #page #main",
-        "id": "09564164d5d0dc4b6559af876f2de968",
+        "id": "5356a6c910aef9d7e55460bb4e43799a",
         "time": "id"
     },
     {
-        "text": "Chrome theme\n\nGoogle Chrome Themes. Themes for Google Chrome browser with a light and dark colors. | pages: ",
-        "url": "\/pages\/chrome-theme.html",
+        "text": "Chrome theme\n\nGoogle Chrome Themes. Themes for Google Chrome browser with a light and dark colors. | chrome theme: ",
+        "url": "\/pages\/chrome-theme\/index.html",
         "tag": " #Chrome #theme #light #project #page #main",
-        "id": "d4dd54cfe2aa619d152015ca01a813d0",
+        "id": "2fe3f3f76ccfd1e73f9b80e0b0a2f8e8",
         "time": "id"
     },
     {
@@ -231,17 +231,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Firefox extensions\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct (own new tab page) localhost as search engine, etc | pages: ",
-        "url": "\/pages\/firefox-extensions.html",
+        "text": "Firefox extensions\n\nAn extension for the Mozilla Firefox browser. Extension: new tab redirct (own new tab page) localhost as search engine, etc | firefox extensions: ",
+        "url": "\/pages\/firefox-extensions\/index.html",
         "tag": " #startpage #newtabpage #Firefox #hotkeys #new #tab #NewTab #firefox #extension #extensions #projects #project #list #page #main",
-        "id": "134ead393903fd57d53241714347f1eb",
+        "id": "b512751404c82bc56284e93243416212",
         "time": "id"
     },
     {
-        "text": "Firefox theme\n\nFirefox themes. Theme for Mozilla Firefox browser light and dark. | pages: ",
-        "url": "\/pages\/firefox-theme.html",
+        "text": "Firefox theme\n\nFirefox themes. Theme for Mozilla Firefox browser light and dark. | firefox theme: ",
+        "url": "\/pages\/firefox-theme\/index.html",
         "tag": " #Firefox #dark #light #theme #project #page #main",
-        "id": "e1ed953aabdac7ac7941d6b077b490cd",
+        "id": "860f01a3947d902091a910688b6e8dc6",
         "time": "id"
     },
     {
@@ -252,10 +252,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Geany theme\n\nGeany themes. Theme for Geany IDE with a light and dark colors. | pages: ",
-        "url": "\/pages\/geany-theme.html",
+        "text": "Geany theme\n\nGeany themes. Theme for Geany IDE with a light and dark colors. | geany theme: ",
+        "url": "\/pages\/geany-theme\/index.html",
         "tag": " #Geany #theme #color #flat #dark #light #project #page #main",
-        "id": "f2a295d3e74e0d709c4712905e154b3c",
+        "id": "7815eda14b1c7015d3ca8ccd274917b6",
         "time": "id"
     },
     {
@@ -301,17 +301,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Icons\n\nI drew several icons for the site, maybe they will be useful to you. | pages: ",
-        "url": "\/pages\/icons.html",
+        "text": "Icons\n\nI drew several icons for the site, maybe they will be useful to you. | icons: ",
+        "url": "\/pages\/icons\/index.html",
         "tag": " #icon #icons #svg #illustration #page #main",
-        "id": "bd8ae41d1891bd472713ba98c1f6ce81",
+        "id": "1ae973372611c207ff5a649847f4dfd8",
         "time": "id"
     },
     {
-        "text": "Images\n\nSometimes I draw something. | pages: ",
-        "url": "\/pages\/images.html",
+        "text": "Images\n\nSometimes I draw something. | images: ",
+        "url": "\/pages\/images\/index.html",
         "tag": " #img #images #image #picture #wallpaper #logo #illustration #page #main",
-        "id": "fced7620b842545099c665ed3833a878",
+        "id": "1a7dbb72a281dbfdc0765492d4e626a4",
         "time": "id"
     },
     {
@@ -364,10 +364,31 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Movie Actor Template Title\n\nWebsite template description. | movie flat auto light dark: ",
+        "url": "\/pages\/templates\/movie-flat-auto-light-dark-11\/name.html",
+        "tag": " #Website_template_keywords",
+        "id": "dfd9d1671f6f1c788ae4b74d7a4f3444",
+        "time": "id"
+    },
+    {
+        "text": "Movie ID Template Title\n\nWebsite template description. | movie flat auto light dark: ",
+        "url": "\/pages\/templates\/movie-flat-auto-light-dark-11\/movie-id.html",
+        "tag": " #Website_template_keywords",
+        "id": "f3e06e1464069ffff862fcd922c76934",
+        "time": "id"
+    },
+    {
         "text": "Movie List\n\nSmall list of movies, just a link to another movie database service, at the top there is a random movie from the list. JavaScript function for parse WATCHLIST.csv from IMDB. | movie list: ",
         "url": "\/projects\/movie-list-19\/index.html",
         "tag": " #movie #list #collection #random #JavaScript #project",
         "id": "9f9aa90c240343f41e7ca461cc59d82e",
+        "time": "id"
+    },
+    {
+        "text": "Movie Search Template Title\n\nWebsite template description. | movie flat auto light dark: ",
+        "url": "\/pages\/templates\/movie-flat-auto-light-dark-11\/search.html",
+        "tag": " #Website_template_keywords",
+        "id": "7303e466d4267ab6bb0302dd3876d85e",
         "time": "id"
     },
     {
@@ -389,6 +410,20 @@ var sitemapJsonVar = [
         "url": "\/projects\/navigation-71\/index.html",
         "tag": " #Navigation #dropdown #CSS #JavaScript #project",
         "id": "129aabbd7abe1fa7678d2c44c7d8e245",
+        "time": "id"
+    },
+    {
+        "text": "New Tab Redirect\n\nempty description. | new tab redirect: ",
+        "url": "\/pages\/chrome-extensions\/new-tab-redirect-3\/new-tab-redirect.html",
+        "tag": " #empty_keywords",
+        "id": "72ce1f50fc1efeed8409efc109249173",
+        "time": "id"
+    },
+    {
+        "text": "New Tab Redirect\n\nempty description. | new tab redirect: ",
+        "url": "\/pages\/firefox-extensions\/new-tab-redirect-3\/new-tab-redirect.html",
+        "tag": " #empty_keywords",
+        "id": "260293c7c031078814716e823aa9f0cd",
         "time": "id"
     },
     {
@@ -420,6 +455,69 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Options\n\nempty description. | auto theme switcher: ",
+        "url": "\/pages\/firefox-extensions\/auto-theme-switcher-8\/options.html",
+        "tag": " #empty_keywords",
+        "id": "355ed7d34d3ed165ae8aa970959fb31a",
+        "time": "id"
+    },
+    {
+        "text": "Options\n\nempty description. | hotkey url: ",
+        "url": "\/pages\/chrome-extensions\/hotkey-url-5\/options.html",
+        "tag": " #empty_keywords",
+        "id": "bc43e1626636cb5cdc059e2f8bd42a2e",
+        "time": "id"
+    },
+    {
+        "text": "Options\n\nempty description. | hotkey url: ",
+        "url": "\/pages\/firefox-extensions\/hotkey-url-5\/options.html",
+        "tag": " #empty_keywords",
+        "id": "c89c96661b2af41a170110d60bae9c94",
+        "time": "id"
+    },
+    {
+        "text": "Options\n\nempty description. | new tab redirect: ",
+        "url": "\/pages\/chrome-extensions\/new-tab-redirect-3\/options.html",
+        "tag": " #empty_keywords",
+        "id": "ccb69b2e92b332bf4b6728ad31b92fc3",
+        "time": "id"
+    },
+    {
+        "text": "Options\n\nempty description. | new tab redirect: ",
+        "url": "\/pages\/firefox-extensions\/new-tab-redirect-3\/options.html",
+        "tag": " #empty_keywords",
+        "id": "dd4358f8c78384d7f001dbfeb66780ae",
+        "time": "id"
+    },
+    {
+        "text": "Options\n\nempty description. | stop loading website: ",
+        "url": "\/pages\/chrome-extensions\/stop-loading-website-7\/options.html",
+        "tag": " #empty_keywords",
+        "id": "75f3696df76e9171dbc23db85904eca3",
+        "time": "id"
+    },
+    {
+        "text": "Options\n\nempty description. | stop loading website: ",
+        "url": "\/pages\/firefox-extensions\/stop-loading-website-7\/options.html",
+        "tag": " #empty_keywords",
+        "id": "2b57ccf6d7bb6409711fe33392603150",
+        "time": "id"
+    },
+    {
+        "text": "Options\n\nempty description. | url redirect: ",
+        "url": "\/pages\/chrome-extensions\/url-redirect-6\/options.html",
+        "tag": " #Not_intended_for_viewing_on_the_site.",
+        "id": "3dcb8758eb3590aec4e4867062ecdf41",
+        "time": "id"
+    },
+    {
+        "text": "Options\n\nempty description. | url redirect: ",
+        "url": "\/pages\/firefox-extensions\/url-redirect-6\/options.html",
+        "tag": " #Not_intended_for_viewing_on_the_site.",
+        "id": "cf8e2bf6f3fb28d438b29953eaf35fa8",
+        "time": "id"
+    },
+    {
         "text": "Other data page\n\nOther files with data. | pages: ",
         "url": "\/pages\/other-data-page.html",
         "tag": " #data #data_file #file #list #page #main",
@@ -448,10 +546,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Photos\n\nSometimes I take photos. | pages: ",
-        "url": "\/pages\/photos.html",
+        "text": "Photos\n\nSometimes I take photos. | photos: ",
+        "url": "\/pages\/photos\/index.html",
         "tag": " #photo #photos #page #main",
-        "id": "3a8a7a4b21aee864378e7e35760b62ae",
+        "id": "775eb83c65ce88511be4f716452df981",
         "time": "id"
     },
     {
@@ -543,6 +641,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/random-color-generator-51\/index.html",
         "tag": " #generarot #color #JavaScript #project",
         "id": "3bbbb186678f95e716cd6b6c81bfb855",
+        "time": "id"
+    },
+    {
+        "text": "Redirect to list\n\nRedirect page, not intended for viewing. | icons: ",
+        "url": "\/pages\/icons\/inspiration-log.html",
+        "tag": " #Redirect_to_list",
+        "id": "b534d8b7df2ff19d3c4d5eb87c95dee4",
         "time": "id"
     },
     {
@@ -686,150 +791,199 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Template Title\n\nWebsite template description. | card page auto light dark: ",
+        "url": "\/pages\/templates\/card-page-auto-light-dark-20\/page.html",
+        "tag": " #Website_template_keywords",
+        "id": "ecb3584941a697a07a6182ac75d7906c",
+        "time": "id"
+    },
+    {
+        "text": "Template Title\n\nWebsite template description. | home page auto light dark flat: ",
+        "url": "\/pages\/templates\/home-page-auto-light-dark-flat-9\/menu.html",
+        "tag": " #Website_template_keywords",
+        "id": "2bf1ca2d569d6f66d753c10975ccc3f6",
+        "time": "id"
+    },
+    {
+        "text": "Template Title\n\nWebsite template description. | home page auto light dark flat: ",
+        "url": "\/pages\/templates\/home-page-auto-light-dark-flat-9\/page.html",
+        "tag": " #Website_template_keywords",
+        "id": "1225e722ecb066c79d0bfa38f27fde29",
+        "time": "id"
+    },
+    {
+        "text": "Template Title\n\nWebsite template description. | home page flat auto many colors themes: ",
+        "url": "\/pages\/templates\/home-page-flat-auto-many-colors-themes-10\/menu.html",
+        "tag": " #Website_template_keywords",
+        "id": "d0570ecaa298066d422fddc4dbab3f46",
+        "time": "id"
+    },
+    {
+        "text": "Template Title\n\nWebsite template description. | home page flat auto many colors themes: ",
+        "url": "\/pages\/templates\/home-page-flat-auto-many-colors-themes-10\/page.html",
+        "tag": " #Website_template_keywords",
+        "id": "77dc31f8203ae4f39af374602541b76a",
+        "time": "id"
+    },
+    {
+        "text": "Template Title\n\nWebsite template description. | home page flat auto many colors themes: ",
+        "url": "\/pages\/templates\/home-page-flat-auto-many-colors-themes-10\/themes.html",
+        "tag": " #Website_template_keywords",
+        "id": "ad93423905df17eb073348836c7fab52",
+        "time": "id"
+    },
+    {
+        "text": "Template Title\n\nWebsite template description. | saas landing page auto light dark: ",
+        "url": "\/pages\/templates\/saas-landing-page-auto-light-dark-19\/login.html",
+        "tag": " #Website_template_keywords",
+        "id": "747cf01c1ca481f642a0de3bcafe9cf0",
+        "time": "id"
+    },
+    {
         "text": "Template: About me 21\n\nWebsite template description. | about me page auto light dark: ",
-        "url": "\/pages-data\/templates\/about-me-page-auto-light-dark-21\/index.html",
+        "url": "\/pages\/templates\/about-me-page-auto-light-dark-21\/index.html",
         "tag": " #WebDesign #template",
-        "id": "18ae536291533f7d94bfa1bbeaaca09e",
+        "id": "04afc0da970653087639baac84cec561",
         "time": "id"
     },
     {
         "text": "Template: Web design services 22\n\nWebsite template description. | web design services simple auto light dark: ",
-        "url": "\/pages-data\/templates\/web-design-services-simple-auto-light-dark-22\/index.html",
+        "url": "\/pages\/templates\/web-design-services-simple-auto-light-dark-22\/index.html",
         "tag": " #WebDesign #template",
-        "id": "41265c79bfb50d898183a8cff5f03cf4",
+        "id": "cbe1d6b9055b033919b0220a0eae15e2",
         "time": "id"
     },
     {
         "text": "Template: card page 20\n\nWebsite template description. | card page auto light dark: ",
-        "url": "\/pages-data\/templates\/card-page-auto-light-dark-20\/index.html",
+        "url": "\/pages\/templates\/card-page-auto-light-dark-20\/index.html",
         "tag": " #WebDesign #template",
-        "id": "154736376c4c321a6f6c89aa877d683a",
+        "id": "08d3d7bead93f3e06b990b72f32f980e",
         "time": "id"
     },
     {
         "text": "Template: clean one page 16\n\nWebsite template description. | clean one page mini simple auto light dark: ",
-        "url": "\/pages-data\/templates\/clean-one-page-mini-simple-auto-light-dark-16\/index.html",
+        "url": "\/pages\/templates\/clean-one-page-mini-simple-auto-light-dark-16\/index.html",
         "tag": " #WebDesign #template",
-        "id": "dfcc670a4df83ddc92e9ddf7234dc9f0",
+        "id": "4bdc584806a5a31a7ec5187ade610e09",
         "time": "id"
     },
     {
         "text": "Template: flower one page 17\n\nWebsite template description. | flower one page mini auto light dark flat: ",
-        "url": "\/pages-data\/templates\/flower-one-page-mini-auto-light-dark-flat-17\/index.html",
+        "url": "\/pages\/templates\/flower-one-page-mini-auto-light-dark-flat-17\/index.html",
         "tag": " #WebDesign #template",
-        "id": "0a3a2537c5d9b1078263aa46d05967d5",
+        "id": "3d38478b5a7073baeb015c74434376cf",
         "time": "id"
     },
     {
         "text": "Template: home page 10\n\nWebsite template description. | home page flat auto many colors themes: ",
-        "url": "\/pages-data\/templates\/home-page-flat-auto-many-colors-themes-10\/index.html",
+        "url": "\/pages\/templates\/home-page-flat-auto-many-colors-themes-10\/index.html",
         "tag": " #WebDesign #template",
-        "id": "d5c67c42f56ad9ff6fc232bb39b32f54",
+        "id": "09d394b480f3e798ef0a398abe099d15",
         "time": "id"
     },
     {
         "text": "Template: home page 9\n\nWebsite template description. | home page auto light dark flat: ",
-        "url": "\/pages-data\/templates\/home-page-auto-light-dark-flat-9\/index.html",
+        "url": "\/pages\/templates\/home-page-auto-light-dark-flat-9\/index.html",
         "tag": " #WebDesign #template",
-        "id": "6bb6c60488f81e340af31e40aa2c3ccb",
+        "id": "900d1a4ef8869cf3feb0e2b2228ef8f6",
         "time": "id"
     },
     {
         "text": "Template: movie site 11\n\nWebsite template description | movie flat auto light dark: ",
-        "url": "\/pages-data\/templates\/movie-flat-auto-light-dark-11\/index.html",
+        "url": "\/pages\/templates\/movie-flat-auto-light-dark-11\/index.html",
         "tag": " #WebDesign #template",
-        "id": "ae5f564261266b30ebd95c8d74e02171",
+        "id": "289a1bd80e963ee74fbeebdea3a2a877",
         "time": "id"
     },
     {
         "text": "Template: personal 2\n\nWebsite template description. | personal: ",
-        "url": "\/pages-data\/templates\/personal-2\/index.html",
+        "url": "\/pages\/templates\/personal-2\/index.html",
         "tag": " #WebDesign #template",
-        "id": "9df3dc9ec1e0c7144796c5ba03a26de7",
+        "id": "864b9d57073d65f1a04bd4ed7d060395",
         "time": "id"
     },
     {
         "text": "Template: personal 3\n\nWebsite template description. | personal: ",
-        "url": "\/pages-data\/templates\/personal-3\/index.html",
+        "url": "\/pages\/templates\/personal-3\/index.html",
         "tag": " #Website_template_keywords",
-        "id": "6618e563ef847c2cd21df056950bf8c9",
+        "id": "28c5540666d14a3837bffd3fa3b62b81",
         "time": "id"
     },
     {
         "text": "Template: photo gallery 18\n\nWebsite template description. | photo gallery one page flat auto light dark: ",
-        "url": "\/pages-data\/templates\/photo-gallery-one-page-flat-auto-light-dark-18\/index.html",
+        "url": "\/pages\/templates\/photo-gallery-one-page-flat-auto-light-dark-18\/index.html",
         "tag": " #WebDesign #template",
-        "id": "78e04fca0db7884d2a3054583d46ad83",
+        "id": "51ef16770992dc0c6abe7c0870b0c9a4",
         "time": "id"
     },
     {
         "text": "Template: profile card 12\n\nWebsite template description. | profile card flat mini auto light dark: ",
-        "url": "\/pages-data\/templates\/profile-card-flat-mini-auto-light-dark-12\/index.html",
+        "url": "\/pages\/templates\/profile-card-flat-mini-auto-light-dark-12\/index.html",
         "tag": " #WebDesign #template",
-        "id": "2342a08a9ff060bfe974315e85b6e162",
+        "id": "e4a2daec506c7385495ee83b5b3efcfb",
         "time": "id"
     },
     {
         "text": "Template: profile card 14\n\nWebsite template description. | profile card mini flat auto light dark: ",
-        "url": "\/pages-data\/templates\/profile-card-mini-flat-auto-light-dark-14\/index.html",
+        "url": "\/pages\/templates\/profile-card-mini-flat-auto-light-dark-14\/index.html",
         "tag": " #WebDesign #template",
-        "id": "fb65078de5da0a73d52ab68f55cf7175",
+        "id": "a9f937c7dffbd209a78fc1a0616d9654",
         "time": "id"
     },
     {
         "text": "Template: saas page 19\n\nWebsite template description. | saas landing page auto light dark: ",
-        "url": "\/pages-data\/templates\/saas-landing-page-auto-light-dark-19\/index.html",
+        "url": "\/pages\/templates\/saas-landing-page-auto-light-dark-19\/index.html",
         "tag": " #WebDesign #template",
-        "id": "254160b748ffdf678ff9293dde2ab774",
+        "id": "63a2c587127b7185b18784e1f21a05dd",
         "time": "id"
     },
     {
         "text": "Template: simple 4\n\nWebsite template description. | simple: ",
-        "url": "\/pages-data\/templates\/simple-4\/index.html",
+        "url": "\/pages\/templates\/simple-4\/index.html",
         "tag": " #WebDesign #template",
-        "id": "fe7c11195aa6b1d93ec9502372169899",
+        "id": "90d77cb3c390c800615c204e0839590d",
         "time": "id"
     },
     {
         "text": "Template: simple 5\n\nWebsite template description. | simple: ",
-        "url": "\/pages-data\/templates\/simple-5\/index.html",
+        "url": "\/pages\/templates\/simple-5\/index.html",
         "tag": " #WebDesign #template",
-        "id": "371ce93b168c63c76e76c1f689c3328b",
+        "id": "38ff85ca0edca62a116cdcc2a548fdfc",
         "time": "id"
     },
     {
         "text": "Template: simple 6\n\nWebsite template description. | simple: ",
-        "url": "\/pages-data\/templates\/simple-6\/index.html",
+        "url": "\/pages\/templates\/simple-6\/index.html",
         "tag": " #WebDesign #template",
-        "id": "138eaaeebd8ebfd6fc8626974cd22033",
+        "id": "bf2fcf6056e6d4ea47025dcdc472a223",
         "time": "id"
     },
     {
         "text": "Template: simple 7\n\nWebsite template description. | simple: ",
-        "url": "\/pages-data\/templates\/simple-7\/index.html",
+        "url": "\/pages\/templates\/simple-7\/index.html",
         "tag": " #WebDesign #template",
-        "id": "cbdc1e25c0282ad4875801de6fde3486",
+        "id": "ae338b306566abb2323dab003dca38ea",
         "time": "id"
     },
     {
         "text": "Template: simple 8\n\nWebsite template description. | simple: ",
-        "url": "\/pages-data\/templates\/simple-8\/index.html",
+        "url": "\/pages\/templates\/simple-8\/index.html",
         "tag": " #WebDesign #template",
-        "id": "7f468d4a8fce1a20e76682f73fb61c92",
+        "id": "e8bfe52ffb4188bd057e1201bc666ba8",
         "time": "id"
     },
     {
         "text": "Template: simple text 1\n\nWebsite template description. | simple text: ",
-        "url": "\/pages-data\/templates\/simple-text-1\/index.html",
+        "url": "\/pages\/templates\/simple-text-1\/index.html",
         "tag": " #WebDesign #template",
-        "id": "2137358120eff5a0fefab19f4e0bb8ba",
+        "id": "db1b83d2c477dc92328acf8830bc1513",
         "time": "id"
     },
     {
         "text": "Template: web design 15\n\nWebsite template description. | webdesign one page mini flat auto light dark: ",
-        "url": "\/pages-data\/templates\/webdesign-one-page-mini-flat-auto-light-dark-15\/index.html",
+        "url": "\/pages\/templates\/webdesign-one-page-mini-flat-auto-light-dark-15\/index.html",
         "tag": " #WebDesign #template",
-        "id": "46198bc618c28fc3c219b4a8310a904e",
+        "id": "4f91f3c0b2fcc81852dd44d9c9c7089b",
         "time": "id"
     },
     {
@@ -865,6 +1019,13 @@ var sitemapJsonVar = [
         "url": "\/games\/tic-tac-toe-13\/index.html",
         "tag": " #game #tic #tac #toe #HTML5 #CSS #JavaScript #project",
         "id": "a75ac875b4b178900bf07967ba4521bf",
+        "time": "id"
+    },
+    {
+        "text": "Title\n\nempty description. | badge count up timer: ",
+        "url": "\/pages\/firefox-extensions\/old\/badge-count-up-timer-4\/background.html",
+        "tag": " #empty_keywords",
+        "id": "9df169855d633a20ea35094f69715701",
         "time": "id"
     },
     {
@@ -910,10 +1071,24 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Website Templates (Experimental)\n\nHTML templates. Website templates. (I create pages for practice). | pages: ",
-        "url": "\/pages\/templates.html",
+        "text": "Website Templates (Experimental)\n\nHTML templates. Website templates. (I create pages for practice). | templates: ",
+        "url": "\/pages\/templates\/index.html",
         "tag": " #Experimental #template #templates #WebDesign #website #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
-        "id": "33854009ab447476fc5c08ad4cb2fba0",
+        "id": "de6e26997deacd0542e681e014a7def4",
+        "time": "id"
+    },
+    {
+        "text": "popup\n\nempty description. | badge count up timer: ",
+        "url": "\/pages\/chrome-extensions\/badge-count-up-timer-4\/popup.html",
+        "tag": " #empty_keywords",
+        "id": "f2aef741215f5456012ee7c90c525430",
+        "time": "id"
+    },
+    {
+        "text": "popup\n\nempty description. | badge count up timer: ",
+        "url": "\/pages\/firefox-extensions\/old\/badge-count-up-timer-4\/popup.html",
+        "tag": " #empty_keywords",
+        "id": "60ac0c75a0f3c3c2cfe652686d82c080",
         "time": "id"
     },
     {

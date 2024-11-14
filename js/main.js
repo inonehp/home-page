@@ -1032,6 +1032,7 @@ if (conf["confBg"] == 'on'||com == 'on'){
 
 let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png");
 let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png");
+//mBgDark = fuMRandomItem("kaleidoscope-d.png");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'||com == "light"){

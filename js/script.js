@@ -88,7 +88,7 @@ document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt(
 //document.getElementsByClassName("mClassNavUp")[index].text = "Archive (All)";
 }
 
-if (String(mNavUpCheck).indexOf("/pages/") != -1||String(mNavUpCheck).indexOf("list") != -1){
+if (mNavUpCheckLevel <= 3&&String(mNavUpCheck).indexOf("/pages/") != -1||mNavUpCheckLevel <= 3&&String(mNavUpCheck).indexOf("list") != -1){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./");
 }
 if (mNavUpCheck == "/pages/"){
