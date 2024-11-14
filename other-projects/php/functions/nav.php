@@ -14,7 +14,7 @@ function nav($navArr, $navCurrentPage, $ext){
 $navMenu = "";
 
 $navCurrentPage2 = " ";
-if (empty($navCurrentPage)){
+/*if (empty($navCurrentPage)){
 $navCurrentPage2 = basename($_SERVER["SCRIPT_FILENAME"], '.php');
 if ($navCurrentPage2 == "index"){
 if (php_uname('s') == 'Windows NT'){
@@ -27,12 +27,18 @@ $dirname = $dirname[count(explode("/", getcwd()))-1];
 }
 $navCurrentPage2 = $dirname;
 }
-}
+}*/
 
 //if (empty($navCurrentPage)){ $navCurrentPage = $navCurrentPage2; }
 
 foreach ($navArr as $v => $key){
-if (count(explode($navCurrentPage, $v)) >= 2||count(explode($navCurrentPage2, $v)) >= 2){
+$vNew = $v;
+$vNew = implode(explode(".php", $vNew));
+$vNew = implode(explode(".html", $vNew));
+$vNew = implode(explode("../", $vNew));
+$vNew = implode(explode("./", $vNew));
+if(count(explode($vNew, $_SERVER['REQUEST_URI'])) >= 2||count(explode($navCurrentPage, $v)) >= 2){
+//if (count(explode($navCurrentPage, $v)) >= 2||count(explode($navCurrentPage2, $v)) >= 2){
 $navMenu .= <<<EOF
 <a class="countMenuItem active2 inlineBlock padding itemLinkAniActive" href="$v">$key</a>
 
