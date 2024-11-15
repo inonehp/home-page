@@ -1,25 +1,5 @@
 [
     {
-        "id": "107",
-        "text": "Adam B. Becker",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/abb.dev\/",
-        "tag": "#WebDevelopment #WebDesign #personal",
-        "time": 1731640304,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=107\">id<\/a>"
-    },
-    {
-        "id": "106",
-        "text": "Bram.us \u2013 A rather geeky\/technical weblog, est. 2001, by Bramus",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.bram.us\/",
-        "tag": "#personal #WebDesign #WebDevelopment",
-        "time": 1730627581,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=106\">id<\/a>"
-    },
-    {
         "id": "105",
         "text": "Innovation at Mozilla - Mozilla Innovations",
         "text2": "",
@@ -120,46 +100,6 @@
         "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=96\">id<\/a>"
     },
     {
-        "id": "95",
-        "text": "Marko Denic - Web Developer",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/markodenic.com\/",
-        "tag": "#personal #WebDevelopment #WebDesign",
-        "time": 1729883133,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=95\">id<\/a>"
-    },
-    {
-        "id": "94",
-        "text": "Theo Browne - T3 Stack, Ping.gg, YouTuber",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/t3.gg\/",
-        "tag": "#development #personal",
-        "time": 1729559532,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=94\">id<\/a>"
-    },
-    {
-        "id": "93",
-        "text": "rita_codes - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/@rita_codes",
-        "tag": "#personal #WebDesign #video",
-        "time": 1729559092,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=93\">id<\/a>"
-    },
-    {
-        "id": "92",
-        "text": "mewtru",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/mewtru.com\/",
-        "tag": "#personal #WebDesign",
-        "time": 1729558964,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=92\">id<\/a>"
-    },
-    {
         "id": "91",
         "text": "Home \u2022 Lea Verou",
         "text2": "",
@@ -170,36 +110,6 @@
         "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=91\">id<\/a>"
     },
     {
-        "id": "90",
-        "text": "CSS Artist",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.cssartist.com\/",
-        "tag": "#CSS #WebDesign #CSSArt",
-        "time": 1729558517,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=90\">id<\/a>"
-    },
-    {
-        "id": "89",
-        "text": "Hom (Jen S)",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/jensimmons.com\/",
-        "tag": "#personal #WebDesign",
-        "time": 1729558447,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=89\">id<\/a>"
-    },
-    {
-        "id": "88",
-        "text": "Stephanie Eckles | Front-End SWE, Author, Speaker",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/thinkdobecreate.com\/",
-        "tag": "#personal #WebDesign",
-        "time": 1729558212,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=88\">id<\/a>"
-    },
-    {
         "id": "87",
         "text": "Eleftheria Batsou's Blog",
         "text2": "",
@@ -208,26 +118,6 @@
         "tag": "#personal #development #WebDesign #WebDevelopment",
         "time": 1729558173,
         "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=87\">id<\/a>"
-    },
-    {
-        "id": "86",
-        "text": "Adam Argyle",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/nerdy.dev\/",
-        "tag": "#personal #WebDesign #CSS",
-        "time": 1729556938,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=86\">id<\/a>"
-    },
-    {
-        "id": "85",
-        "text": "Una Kravets Online",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/una.im\/",
-        "tag": "#personal #WebDesign #CSS",
-        "time": 1729556808,
-        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=85\">id<\/a>"
     },
     {
         "id": "84",

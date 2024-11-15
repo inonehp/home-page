@@ -333,16 +333,6 @@ var linksJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "162",
-        "text": "Lemmy - A link aggregator for the fediverse",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/join-lemmy.org\/",
-        "tag": "#SocialMedia #SocialNetwork #platform",
-        "time": 1723338330,
-        "rightFooter": ""
-    },
-    {
         "id": "159",
         "text": "DesignSystems.com",
         "text2": "",
