@@ -84,6 +84,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Blocked\n\nBlock || status page.\r\nNot intended for viewing. | blocked: ",
+        "url": "\/old-projects\/blocked-65\/index.html",
+        "tag": " #block #CSS #JavaScript #project",
+        "id": "0ccb5ac450f60f4856196f4adc8d67f3",
+        "time": "id"
+    },
+    {
         "text": "Browser info, JavaScript test\n\nBrowser info, JS Test, test js, Test JavaScript page. | browser info test js: ",
         "url": "\/projects\/browser-info-test-js-2\/index.html",
         "tag": " #Experimental #JS #JavaScript #test #page #CSS #JavaScript #project",
@@ -287,6 +294,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Hello World!\n\nHello World! | hello world: ",
+        "url": "\/old-projects\/hello-world-62\/index.html",
+        "tag": " #hello #world #CSS #JavaScript #project",
+        "id": "1f67f64cd805e15be406d205cff35cb0",
+        "time": "id"
+    },
+    {
         "text": "Icons\n\nI drew several icons for the site, maybe they will be useful to you. | icons: ",
         "url": "\/pages\/icons\/index.html",
         "tag": " #icon #icons #svg #illustration #page #main",
@@ -406,10 +420,24 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Not Sleeping Computer\n\nThe Web Page tries not to put the computer into sleep mode. | not sleep pc: ",
+        "url": "\/old-projects\/not-sleep-pc-12\/index.html",
+        "tag": " #not #sleep #PC #computer #prevent #hibernation #HTML #project",
+        "id": "8c2e5df2f974758e885a99fc801d21f6",
+        "time": "id"
+    },
+    {
         "text": "Notes\n\nNotes. notes for quick access. | pages: ",
         "url": "\/pages\/notes.html",
         "tag": " #note #notes #page #main",
         "id": "a0b889bf4136ca4c118e8bdd20be925e",
+        "time": "id"
+    },
+    {
+        "text": "Old projects\n\nOn this page are the projects that are outdated. | old projects: ",
+        "url": "\/old-projects\/index.html",
+        "tag": " #old #menu #list #page #main",
+        "id": "43780d3a2602dc63f9e4fcfa1d04428c",
         "time": "id"
     },
     {
@@ -896,6 +924,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Textarea\n\nTextarea. Large form for text input. | textarea: ",
+        "url": "\/old-projects\/textarea-24\/index.html",
+        "tag": " #textarea #HTML #CSS #project",
+        "id": "036fd1e9152b7d1eb2234e2f2e43c72e",
+        "time": "id"
+    },
+    {
         "text": "Theme options\n\nSetting the color theme or choosing theme mode depending on the time of day or depending on the theme in the browser or the theme in the operating system. | pages: ",
         "url": "\/pages\/themes.html",
         "tag": " #theme #themes #color #colors #setting #page #main",
@@ -963,6 +998,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/print-53\/index.html",
         "tag": " #empty",
         "id": "538c39d5fb633dd0ff8b888f9678fef8",
+        "time": "id"
+    },
+    {
+        "text": "pwa test\n\nTest PWA, PWA test. | pwa test: ",
+        "url": "\/old-projects\/pwa-test-21\/index.html",
+        "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
+        "id": "551aec3849bcce3c49550c3fd07d25dc",
         "time": "id"
     },
     {
