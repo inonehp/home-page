@@ -64,7 +64,7 @@ if(item['time'] != null){ postTime = item['time']; }
 
 // collect all tag
 var tagListSingerName = (item['text'].split('-'))[0];
-printTagList += (' ' + tagListSingerName + ' ' + postText2 + ' ' + postText3 + postTag + ' ');
+printTagList += (' ' + postTag + ' ');
 
 let qSearch = "";
 if(q2 != ''){
@@ -636,7 +636,7 @@ document.getElementById('taglist').innerHTML += `
 <div class="tCenter" style="padding-top: 60px;">
 <div class="wrapper3">
 
-<div class="small padding2 op">list of titles and tags:</div>
+<div class="small padding2 op">list of tags:</div>
 `+tagList(printTagList)+`
 </div>
 </div>
