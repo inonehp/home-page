@@ -2,9 +2,8 @@
 // v.1.0.0
 
 /*$navArr = array(
-//"{$confLocalPatchOffline}pages-list.$ext" => "Pages",
-"./pages/" => "Pages",
-"./projcets/" => "Projects",
+array("url" => "/pages/", "name" => "Pages", "title" => "title"),
+array("url" => "/pages/", "name" => "Pages", "title" => "title"),
 );
 echo nav($navArr, "pages", "");*/
 
@@ -30,22 +29,34 @@ $navCurrentPage2 = $dirname;
 }*/
 
 //if (empty($navCurrentPage)){ $navCurrentPage = $navCurrentPage2; }
+foreach ($navArr as $v => $k){
+$navUrl = "empty";
+$navText = "empty";
+$navTitle = "empty";
 
-foreach ($navArr as $v => $key){
-$vNew = $v;
+if (!empty($navArr[$v]["url"])){ $navUrl = $navArr[$v]["url"]; }
+if (!empty($navArr[$v]["text"])){ $navText = $navArr[$v]["text"]; }
+if (!empty($navArr[$v]["title"])){ $navTitle = $navArr[$v]["title"]; }
+
+$vNew = $navUrl;
 $vNew = implode(explode(".php", $vNew));
 $vNew = implode(explode(".html", $vNew));
 $vNew = implode(explode("../", $vNew));
 $vNew = implode(explode("./", $vNew));
-if(count(explode($vNew, $_SERVER['REQUEST_URI'])) >= 2||count(explode($navCurrentPage, $v)) >= 2){
+
+//fix explode
+if (empty($navCurrentPage)){ $navCurrentPage = "kdsjfljdfkj"; } 
+if (empty($vNew)){ $vNew = "kdsjfljdfkj"; } 
+
+if(count(explode($vNew, $_SERVER['REQUEST_URI'])) >= 2||count(explode($navCurrentPage, $navUrl)) >= 2){
 //if (count(explode($navCurrentPage, $v)) >= 2||count(explode($navCurrentPage2, $v)) >= 2){
 $navMenu .= <<<EOF
-<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive" href="$v">$key</a>
+<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive" href="$navUrl" title="$navTitle">$navText</a>
 
 EOF;
 } else {
 $navMenu .= <<<EOF
-<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="$v">$key</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="$navUrl" title="$navTitle">$navText</a>
 
 EOF;
 }

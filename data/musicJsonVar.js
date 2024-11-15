@@ -3,6 +3,36 @@ var musicJsonVar =
 
 [
     {
+        "id": "5760",
+        "text": "Shaboozey - A Bar Song (Tipsy) [Official Visualizer] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=t7bQwwqW-Hc",
+        "tag": "#music",
+        "time": 1731627893,
+        "rightFooter": ""
+    },
+    {
+        "id": "5759",
+        "text": "BABYMONSTER - 'DRIP' M\/V - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=Zp-Jhuhq0bQ",
+        "tag": "#music",
+        "time": 1731627500,
+        "rightFooter": ""
+    },
+    {
+        "id": "5758",
+        "text": "ROSE\u0301 & Bruno Mars - APT. (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=ekr2nIex040",
+        "tag": "#music",
+        "time": 1731627368,
+        "rightFooter": ""
+    },
+    {
         "id": "5757",
         "text": "Billie Eilish - LUNCH (Official Music Video) - YouTube",
         "text2": "",
