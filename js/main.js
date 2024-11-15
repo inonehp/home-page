@@ -1,4 +1,4 @@
-// Main js v.6.12.2
+// Main js v.6.12.3
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -180,8 +180,8 @@ document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 
 conf["confMenuItems"] = [
 {"url":"/pages/", "name":"Pages", "title":"Pages"},
-{"url":"/projects-list.html", "name":"Projects", "title":"Projects"},
-{"url":"/games-list.html", "name":"Games", "title":"Games"},
+{"url":"/projects-list.html", "name":"Projects list", "title":"Projects list"},
+{"url":"/games/", "name":"Games", "title":"Games"},
 {"url":"/archive.html", "name":"Archive", "title":"Archive"},
 ];
 
@@ -189,10 +189,10 @@ conf["confMenuItems2"] = '';
 conf["confMenuItems"].forEach((item, index) => {
 
 if ((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem active2 borderBottomBrand inlineBlock padding" href="${item['url']}" title="${item['title']}">${item['name']}</a>
+conf["confMenuItems2"] += `<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive" href="${item['url']}" title="${item['title']}">${item['name']}</a>
 `;
 } else {
-conf["confMenuItems2"] += `<a class="countMenuItem borderBottomTransparent inlineBlock padding brand itemLinkAni" href="${item['url']}" title="${item['title']}">${item['name']}</a>
+conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="${item['url']}" title="${item['title']}">${item['name']}</a>
 `;
 }
 });
