@@ -1,11 +1,13 @@
 <?PHP
 // v.1.0.0
 
-/*$navArr = array(
-array("url" => "/pages/", "name" => "Pages", "title" => "title"),
-array("url" => "/pages/", "name" => "Pages", "title" => "title"),
+/*
+$navArr = array(
+array("url" => "/pages/", "text" => "Pages", "title" => "title"),
+array("url" => "/pages/#2", "text" => "Pages 2", "title" => "title 2"),
 );
-echo nav($navArr, "pages", "");*/
+echo nav($navArr, "", "");
+*/
 
 function nav($navArr, $navCurrentPage, $ext){
 

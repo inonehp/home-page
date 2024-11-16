@@ -342,7 +342,7 @@
     </filter>
   </defs>
   <rect
-     style="fill:#ce5c00;stroke-width:9.4;stroke-miterlimit:26.1"
+     style="fill:#4e9a06;stroke-width:9.4;stroke-miterlimit:26.1"
      id="rect1"
      width="512"
      height="512"
@@ -362,7 +362,7 @@
      transform="translate(-111.09473,23.946445)"><tspan
        x="190.22461"
        y="272.14877"
-       id="tspan3"><tspan
+       id="tspan4"><tspan
          style="font-weight:bold;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold'"
-         id="tspan1">HTML</tspan></tspan></text>
+         id="tspan2">HTML</tspan></tspan></text>
 </svg>

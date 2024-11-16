@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.11.15";
+//var myCacheVersion = "v.1.2.2024.11.16";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.11.15").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.11.16").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -789,7 +789,7 @@ var fileListArr = ["/404.html",
 "/pages/images/2024/hello-world-binary-text-dark-wallpaper--inkscape-42.png",
 "/pages/images/2024/hello-world-binary-text-light-wallpaper-binary-inkscape-43.png",
 "/pages/images/2024/hello-world-binary-white-wallpaper-inkscape-49.png",
-"/pages/images/2024/html-css-js-gimp-74.png",
+"/pages/images/2024/html-css-javascript-gimp-74.png",
 "/pages/images/2024/html-logo-inkscape-66.svg",
 "/pages/images/2024/html-logo-inkscape-67.png",
 "/pages/images/2024/javascript-js-logo-inkscape-70.svg",
@@ -1275,7 +1275,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.11.15")
+caches.open("v.1.2.2024.11.16")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1301,7 +1301,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.11.15")
+caches.open("v.1.2.2024.11.16")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1334,7 +1334,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.11.15"];
+  const cachesToKeep = ["v.1.2.2024.11.16"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
