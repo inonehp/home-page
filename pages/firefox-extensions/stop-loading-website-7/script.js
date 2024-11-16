@@ -96,4 +96,4 @@ window.stop();
 const getting = browser.storage.local.get("dataUrlStopLoadList");
 getting.then(onGot, onError);
 
-
+console.log('test');

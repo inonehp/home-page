@@ -37,9 +37,6 @@ var getting = browser.storage.local.get("dataUrlStopLoadList");
 }
 
 
-//document.addEventListener("DOMContentLoaded", restoreOptions);
-//document.addEventListener("load", restoreOptions);
-
 document.addEventListener("DOMContentLoaded", restoreOptions);
 document.querySelector("form").addEventListener("submit", saveOptions);
 

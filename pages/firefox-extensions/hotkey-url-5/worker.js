@@ -12,5 +12,5 @@ url: request.url
 });
 
 
-    }
+}
 });
