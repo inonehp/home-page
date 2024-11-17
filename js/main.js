@@ -180,7 +180,9 @@ document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 
 conf["confMenuItems"] = [
 {"url":"/pages/", "name":"Pages", "title":"Pages"},
-{"url":"/projects-list.html", "name":"Projects list", "title":"Projects list"},
+//{"url":"/projects-list.html", "name":"Projects list", "title":"Projects list"},
+{"url":"/projects/", "name":"Projects", "title":"Projects"},
+{"url":"/mini-projects/", "name":"Mini Projects", "title":"Mini Projects"},
 {"url":"/games/", "name":"Games", "title":"Games"},
 {"url":"/archive.html", "name":"Archive", "title":"Archive"},
 ];
@@ -188,7 +190,10 @@ conf["confMenuItems"] = [
 conf["confMenuItems2"] = '';
 conf["confMenuItems"].forEach((item, index) => {
 
-if ((window.location.pathname).indexOf(item['url'].slice(0, -4)) != -1){
+let navUrlClean = item['url'];
+navUrlClean = navUrlClean.replaceAll(".html", "");
+navUrlClean = navUrlClean.replaceAll(".php", "");
+if ((window.location.pathname).indexOf(navUrlClean) != -1){
 conf["confMenuItems2"] += `<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive" href="${item['url']}" title="${item['title']}">${item['name']}</a>
 `;
 } else {
@@ -286,7 +291,7 @@ var mNavWhenDropdownWidth = (mNavItemsAverageWidth * mNavItemsCount) / 2;
 // /2 - for 2 rows links
 // auto based on item
 var cssMedia = `@media(width <= ${mNavWhenDropdownWidth}px)`;
-var cssMedia2 = `@media(width >= ${mNavWhenDropdownWidth}px)`;
+var cssMedia2 = `@media(width > ${mNavWhenDropdownWidth}px)`;
 
 // if nav (items) more width then wrapper (forece dropdown)
 if ((mNavWhenDropdownWidth) >= conf["confWrapperNavWidth"]){

@@ -1,5 +1,15 @@
 [
     {
+        "id": "83",
+        "text": "Neocities site still using an image I deleted from the file : r\/neocities",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/neocities\/comments\/11fuvst\/neocities_site_still_using_an_image_i_deleted\/",
+        "tag": "#fix #cache",
+        "time": 1731779546,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes.html?id=83\">id<\/a>"
+    },
+    {
         "id": "82",
         "text": "Give users options \u00a0|\u00a0 Chrome Extensions \u00a0|\u00a0 Chrome for Developers",
         "text2": "===\r\nSetting the extension as a link or page instead of a tab: \"open_in_tab\": false\r\n\r\n{\r\n  \"name\": \"My extension\",\r\n  ...\r\n  \"options_ui\": {\r\n    \"page\": \"options.html\",\r\n    \"open_in_tab\": false\r\n  },\r\n  ...\r\n}",
