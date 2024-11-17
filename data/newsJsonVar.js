@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "5",
+        "text": "Bluesky: \"Another day, another million new people have joined Bluesky! 18M users? \ud83d\ude42\u200d\u2194\ufe0f 18M friends \ud83d\ude42\u200d\u2195\ufe0f\" \u2014 Bluesky",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lb3qyu64bs2z",
+        "tag": "#SocialMedia #SocialNetwork",
+        "time": 1731832727,
+        "rightFooter": ""
+    },
+    {
         "id": "4",
         "text": "Firefox 132.0, See All New Features, Updates and Fixes",
         "text2": "",
