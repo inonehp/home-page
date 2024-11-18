@@ -3,6 +3,16 @@ var microblogJsonVar =
 
 [
     {
+        "id": "271",
+        "text": "Rubber duck debugging - Wikipedia",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Rubber_duck_debugging",
+        "tag": "#programming #coding #duck #wiki",
+        "time": 1731917595,
+        "rightFooter": ""
+    },
+    {
         "id": "270",
         "text": "SEO Starter Guide: The Basics | Google Search Central \u00a0|\u00a0 Documentation \u00a0|\u00a0 Google for Developers",
         "text2": "",
@@ -670,16 +680,6 @@ var microblogJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/box-decoration-break",
         "tag": "#CSS",
         "time": 1689652415,
-        "rightFooter": ""
-    },
-    {
-        "id": "126",
-        "text": "scroll-snap-type - CSS: Cascading Style Sheets | MDN",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/scroll-snap-type",
-        "tag": "#CSS",
-        "time": 1689506112,
         "rightFooter": ""
     },
     {
