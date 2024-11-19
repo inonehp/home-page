@@ -2653,11 +2653,6 @@ var wordJsonVar =
         "text3": "parodista"
     },
     {
-        "text": "\u043f\u0430\u0440\u043e\u043b\u044c",
-        "text2": "password",
-        "text3": "contrase\u00f1a"
-    },
-    {
         "text": "\u043f\u0430\u0440\u043e\u043c",
         "text2": "ferry",
         "text3": "ferry"
@@ -4336,6 +4331,11 @@ var wordJsonVar =
         "text": "\u0442\u044f\u0433\u0430",
         "text2": "traction",
         "text3": "tracci\u00f3n"
+    },
+    {
+        "text": "\u0443\u0437\u043e\u0440",
+        "text2": "pattern",
+        "text3": "patr\u00f3n"
     },
     {
         "text": "\u0443\u043b\u043e\u0432",

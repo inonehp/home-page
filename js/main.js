@@ -54,7 +54,7 @@ const confData = [
 - Site used Functionality cookies.
 - Some services still collect visit information if cookie off.`,
 "confName":"confDataCollection",
-"confValueDefault":"not selected",
+"confValueDefault":"off",
 "confValueVariant":["on", "off", "auto", "not selected"],
 },
 {
@@ -448,7 +448,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 </div>
 
 <a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/pages/about.html">About</a>
-<a class="brand inlineBlock padding" title="Social" href="https://${conf["confUsername"]}.bsky.social">Bluesky</a>
+<a class="brand inlineBlock padding" title="Social" href="https://bsky.app/profile/${conf["confUsername"]}.bsky.social">Bluesky</a>
 <a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
 <a class="brand inlineBlock padding" title="Another home page" href="https://${conf["confUsername"]}.neocities.org/">Other Home</a>
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/pages/settings.html">Settings</a>
