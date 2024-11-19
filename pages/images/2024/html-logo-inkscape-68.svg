@@ -342,7 +342,7 @@
     </filter>
   </defs>
   <rect
-     style="fill:#73d216;stroke-width:15.9311;stroke-miterlimit:26.1"
+     style="fill:#53aa00;stroke-width:15.9311;stroke-miterlimit:26.1;fill-opacity:1"
      id="rect1"
      width="512"
      height="512"
@@ -359,12 +359,12 @@
      ry="0" />
   <text
      xml:space="preserve"
-     style="font-size:110px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#4e9a06"
+     style="font-size:110px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#6abb1e;fill-opacity:1"
      x="252.13281"
      y="299.74023"
      id="text2"><tspan
        id="tspan2"
        x="252.13281"
        y="299.74023"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:110px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#4e9a06">HTML</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:110px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#6abb1e;fill-opacity:1">HTML</tspan></text>
 </svg>

@@ -342,13 +342,13 @@
     </filter>
   </defs>
   <rect
-     style="fill:#edd400;stroke-width:15.9311;stroke-miterlimit:26.1"
+     style="fill:#dfba16;fill-opacity:1;stroke-width:15.9311;stroke-miterlimit:26.1"
      id="rect1"
      width="512"
      height="512"
      x="0"
      y="0"
-     ry="40.591797" />
+     ry="0" />
   <rect
      style="fill:#eeeeec;stroke-width:14.1626;stroke-miterlimit:26.1"
      id="rect2"
@@ -356,15 +356,15 @@
      height="400"
      x="56"
      y="56"
-     ry="23.72386" />
+     ry="0" />
   <text
      xml:space="preserve"
-     style="font-size:144px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#c4a000;fill-opacity:1"
+     style="font-size:144px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#edc100;fill-opacity:1"
      x="265.31641"
      y="295.02344"
      id="text2"><tspan
        id="tspan2"
        x="265.31641"
        y="295.02344"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#c4a000;fill-opacity:1">JS</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#edc100;fill-opacity:1">JS</tspan></text>
 </svg>
