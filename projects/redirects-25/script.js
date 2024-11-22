@@ -1,4 +1,4 @@
-// Search redirects v.2.7.5
+// Search redirects v.2.7.7
 // Search query + command
 
 // conf
@@ -1001,21 +1001,35 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.perplexity.ai/search/?q=" + q,
 "https://chatgpt.com/?q=" + q,
 //"https://chat.mistral.ai/chat/?=" + q,
-"https://andisearch.com/?query=" + q,
-"https://www.phind.com/search?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"https://www.perplexity.ai/",
 "https://chatgpt.com/",
 //"https://www.bing.com/copilot",
 //"https://copilot.microsoft.com/",
 //"https://gemini.google.com/",
 //"https://chat.mistral.ai/",
-"https://andisearch.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'ns#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.perplexity.ai/search/?q=" + q,
+"https://www.phind.com/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.perplexity.ai/",
 "https://www.phind.com/",
 ];
 }

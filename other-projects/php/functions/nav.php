@@ -50,6 +50,8 @@ $vNew = implode(explode("./", $vNew));
 if (empty($navCurrentPage)){ $navCurrentPage = "kdsjfljdfkj"; } 
 if (empty($vNew)){ $vNew = "kdsjfljdfkj"; } 
 
+//echo $_SERVER['REQUEST_URI']."<hr>";
+//if ($vNew == $_SERVER['REQUEST_URI']||$navUrl == $navCurrentPage){
 if(count(explode($vNew, $_SERVER['REQUEST_URI'])) >= 2||count(explode($navCurrentPage, $navUrl)) >= 2){
 //if (count(explode($navCurrentPage, $v)) >= 2||count(explode($navCurrentPage2, $v)) >= 2){
 $navMenu .= <<<EOF
