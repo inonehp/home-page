@@ -240,7 +240,7 @@ break;
 
 case 'time':
 
-if (new Date().getHours() <= Number(getTimeDay)||new Date().getHours() >= getTimeNight){
+if (new Date().getHours() <= Number(getTimeDay) - 1||new Date().getHours() >= getTimeNight){
 enableTheme(getThemeDark);
 } else {
 enableTheme(getThemeLight);
