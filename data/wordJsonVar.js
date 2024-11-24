@@ -2113,11 +2113,6 @@ var wordJsonVar =
         "text3": "maximo"
     },
     {
-        "text": "\u043c\u0430\u043d\u0433\u0430",
-        "text2": "manga",
-        "text3": "manga"
-    },
-    {
         "text": "\u043c\u0430\u043d\u0434\u0430\u0442",
         "text2": "mandate",
         "text3": "mandato"
@@ -2401,6 +2396,11 @@ var wordJsonVar =
         "text": "\u043d\u0430\u0441\u0442\u0430\u0432\u043d\u0438\u043a",
         "text2": "mentor",
         "text3": "mentor"
+    },
+    {
+        "text": "\u043d\u0430\u0442\u0443\u0440\u0430",
+        "text2": "character",
+        "text3": "naturaleza"
     },
     {
         "text": "\u043d\u0430\u0444\u0442\u0430",
@@ -4613,11 +4613,6 @@ var wordJsonVar =
         "text3": "hoster"
     },
     {
-        "text": "\u0445\u043e\u0441\u0442\u0438\u043d\u0433",
-        "text2": "hosting",
-        "text3": "alojamiento"
-    },
-    {
         "text": "\u0445\u0440\u043e\u043c",
         "text2": "chrome",
         "text3": "cromo"
@@ -4651,6 +4646,11 @@ var wordJsonVar =
         "text": "\u0446\u0438\u043a\u043b",
         "text2": "cycle",
         "text3": "ciclo"
+    },
+    {
+        "text": "\u0446\u0438\u0442\u0430\u0442\u043d\u0438\u043a",
+        "text2": "quotation book",
+        "text3": "libro de citas"
     },
     {
         "text": "\u0446\u0438\u0444\u0440\u0430",
