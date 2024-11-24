@@ -1,4 +1,4 @@
-// Main v.1.2.0
+// Main v.1.3.0
 /* copy paste from main site */
 
 var conf = [];
@@ -343,7 +343,7 @@ if (themeList.includes(mode) == true){ themeSelect = mode; }
 switch (mode) {
 
 case 'auto-time':
-if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
+if (new Date().getHours() <= Number(conf["confStartDay"])||new Date().getHours() >= conf["confStartNight"]){
 //if (new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]   = 'dark';
 fuMPrintTheme(conf["confRealTmpTheme"]);
@@ -359,7 +359,7 @@ themeAutoHContrast();
 break;
 
 case 'auto-t-h-contrast':
-if (new Date().getHours() <= Number(conf["confStartDay"]) - 1|new Date().getHours() >= conf["confStartNight"]){
+if (new Date().getHours() <= Number(conf["confStartDay"])||new Date().getHours() >= conf["confStartNight"]){
 //if (new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]   = 'h-contrast-d';
 fuMPrintTheme(conf["confRealTmpTheme"] );
@@ -371,7 +371,7 @@ fuMPrintTheme(conf["confRealTmpTheme"] );
 break;
 
 case 'auto-t-rand':
-if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
+if (new Date().getHours() <= Number(conf["confStartDay"])||new Date().getHours() >= conf["confStartNight"]){
 //if (new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]  = themeListDark[fuMRandom(0, themeListDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"] );
@@ -382,7 +382,7 @@ fuMPrintTheme(conf["confRealTmpTheme"] );
 break;
 
 case 'auto-t-rand-all':
-if (new Date().getHours() <= Number(conf["confStartDay"]) - 1||new Date().getHours() >= conf["confStartNight"]){
+if (new Date().getHours() <= Number(conf["confStartDay"])||new Date().getHours() >= conf["confStartNight"]){
 //if (new Date().getSeconds() % 2 == 0){
 conf["confRealTmpTheme"]  = themeListAllDark[fuMRandom(0, themeListAllDark.length - 1)];
 fuMPrintTheme(conf["confRealTmpTheme"] );

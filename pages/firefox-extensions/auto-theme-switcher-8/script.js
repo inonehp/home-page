@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.1.0
 //https://github.com/mdn/webextensions-examples/tree/main/theme-switcher
 
 
@@ -240,7 +240,7 @@ break;
 
 case 'time':
 
-if (new Date().getHours() <= Number(getTimeDay) - 1||new Date().getHours() >= getTimeNight){
+if (new Date().getHours() <= Number(getTimeDay)||new Date().getHours() >= getTimeNight){
 enableTheme(getThemeDark);
 } else {
 enableTheme(getThemeLight);
