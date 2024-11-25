@@ -41,37 +41,6 @@ const confData = [
 "confValueVariant":["light", "dark", "auto-time", "auto", "auto-t-rand-all", "auto-rand-all"],
 },
 {
-"confTitle":"Icons",
-"confDescription":"Enable Disable Icons.",
-"confName":"confIconStatus",
-"confValueDefault":"off",
-"confValueVariant":["on", "off", "random"],
-},
-{
-"confTitle":"Allow Cookies For Third Parties?",
-"confDescription":`- This is necessary to improve the site. (For Ads Services, Statistics).
-- Auto: used the time zone or Browser settings.
-- Site used Functionality cookies.
-- Some services still collect visit information if cookie off.`,
-"confName":"confDataCollection",
-"confValueDefault":"off",
-"confValueVariant":["on", "off", "auto", "not selected"],
-},
-{
-"confTitle":"Allow external fonts?",
-"confDescription":`Load external fonts (privacy: may be used for analytics). Auto - based on third-party cookies settings.`,
-"confName":"confExternalFonts",
-"confValueDefault":"auto",
-"confValueVariant":["on", "off", "auto"],
-},
-{
-"confTitle":"Ads",
-"confDescription":`Ads options.`,
-"confName":"confAdsStatus",
-"confValueDefault":"off",
-"confValueVariant":["on", "off", "random"],
-},
-{
 "confTitle":"Start of the day (time)",
 "confDescription":"For theme if selected auto time (auto-t) in themes option",
 "confName":"confStartDay",
@@ -91,6 +60,20 @@ const confData = [
 "confName":"confBg",
 "confValueDefault":"on",
 "confValueVariant":["on", "off"],
+},
+{
+"confTitle":"Icons",
+"confDescription":"Enable Disable Icons.",
+"confName":"confIconStatus",
+"confValueDefault":"off",
+"confValueVariant":["on", "off", "random"],
+},
+{
+"confTitle":"Ads",
+"confDescription":`Ads options.`,
+"confName":"confAdsStatus",
+"confValueDefault":"off",
+"confValueVariant":["on", "off", "random"],
 },
 {
 "confTitle":"Hide link extensions",
@@ -114,6 +97,23 @@ const confData = [
 "confName":"confSpeedDialStatus",
 "confValueDefault":"on",
 "confValueVariant":["on", "off", "random"],
+},
+{
+"confTitle":"Allow Cookies For Third Parties?",
+"confDescription":`- This is necessary to improve the site. (For Ads Services, Statistics).
+- Auto: used the time zone or Browser settings.
+- Site used Functionality cookies.
+- Some services still collect visit information if cookie off.`,
+"confName":"confDataCollection",
+"confValueDefault":"off",
+"confValueVariant":["on", "off", "auto", "not selected"],
+},
+{
+"confTitle":"Allow external fonts?",
+"confDescription":`Load external fonts (privacy: may be used for analytics). Auto - based on third-party cookies settings.`,
+"confName":"confExternalFonts",
+"confValueDefault":"auto",
+"confValueVariant":["on", "off", "auto"],
 },
 ];
 //console.table(confData);
