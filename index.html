@@ -340,25 +340,30 @@ flex-wrap: wrap;
 </div>
 </div>
 
-<!-- hint v.1.0.0 -->
+<!-- hint v.1.1.0 -->
 <div id="hint" title="hint"></div>
 
 <script src="/data/linksJsonVar.js"></script>
 <script>
+let dataHint = [];
+dataHint = dataHint.concat(linksJsonVar);
+if (localStorage.getItem("confSpeedDialData")) {
+let confSpeedDialDataArr33 = JSON.parse(localStorage.getItem("confSpeedDialData"));
+dataHint = dataHint.concat(confSpeedDialDataArr33);
+}
+
 document.getElementById("q").addEventListener('input', function(e) {
-hint(this.value, linksJsonVar);
+hint(this.value, dataHint);
 if (this.value == ""){
 document.getElementById("hint").innerHTML = ``;
 }
 });
 
 function hint(q, data){
+
 q = q.trim();
 
-if (localStorage.getItem("confSpeedDialData")) {
-let confSpeedDialDataArr33 = JSON.parse(localStorage.getItem("confSpeedDialData"));
-data = [...confSpeedDialDataArr33];
-}
+
 
 if (q != ""){
 let qLower = q.toLowerCase();
@@ -366,7 +371,6 @@ let hintResult = "";
 let hintCounter = 0;
 
 for (let i = 0; i < data.length; i++) {
-
 if (data[i]["tag"] == undefined){ data[i]["tag"] = ""; }
 let hintText = data[i]["text"];
 hintTextLower = hintText.toLowerCase();
@@ -383,10 +387,11 @@ hintResult += `
 `;
 hintCounter++
 }
-//console.log(data[index]["url"] + val + "=" + index);
 if (hintCounter >= 6){ break; }
 };
 
+
+// hint 2
 if (hintResult == ""){
 for (let i = 0; i < data.length; i++) {
 if (data[i]["tag"] == undefined){ data[i]["tag"] = ""; }
@@ -401,20 +406,18 @@ let hintTag = data[i]["tag"];
 hintTagLower = hintTag.toLowerCase();
 if(fuzzySearch(hintTextLower, qLower) == true||fuzzySearch(hintUrlLower, qLower) == true||fuzzySearch(hintTagLower, qLower) == true){
 hintResult += `
-<a class="brand" href="` + hintUrl + `">` + hintUrl + `</a> - ` + hintText + `<br>
+<a class="brand" href="` + hintUrl + `">` + hintUrlClean + `</a> - ` + hintText + `<br>
 `;
 hintCounter++
 }
-//console.log(data[index]["url"] + val + "=" + index);
 if (hintCounter >= 6){ break; }
 }
 }
 
-
 hintResult = fuMSort(hintResult, `
 `, "text");
 if (hintResult != ""&&q != ""){
-document.getElementById("hint").innerHTML = `<div class="padding3 bg border borderRadius2 small">` + hintResult + `</div>`;
+document.getElementById("hint").innerHTML = `<div class="padding3 bg2 border borderRadius2 small">` + hintResult + `</div>`;
 } else {
 document.getElementById("hint").innerHTML = ``;
 }
