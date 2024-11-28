@@ -201,6 +201,104 @@ flex-wrap: wrap;
 </div>
 </div>
 
+<!-- hint v.1.0.0 -->
+<div id="hint" title="hint"></div>
+
+<script src="/data/linksJsonVar.js"></script>
+<script>
+document.getElementById("q").addEventListener('input', function(e) {
+hint(this.value, linksJsonVar);
+if (this.value == ""){
+document.getElementById("hint").innerHTML = ``;
+}
+});
+
+function hint(q, data){
+q = q.trim();
+
+if (localStorage.getItem("confSpeedDialData")) {
+let confSpeedDialDataArr33 = JSON.parse(localStorage.getItem("confSpeedDialData"));
+data = [...confSpeedDialDataArr33];
+}
+
+if (q != ""){
+let qLower = q.toLowerCase();
+let hintResult = "";
+let hintCounter = 0;
+
+for (let i = 0; i < data.length; i++) {
+
+if (data[i]["tag"] == undefined){ data[i]["tag"] = ""; }
+let hintText = data[i]["text"];
+hintTextLower = hintText.toLowerCase();
+let hintUrl = data[i]["url"];
+hintUrlLower = hintUrl.toLowerCase();
+let hintUrlClean = hintUrl;
+hintUrlClean = hintUrlClean.replace("https://", '');
+hintUrlClean = hintUrlClean.replace("http://", '');
+let hintTag = data[i]["tag"];
+hintTagLower = hintTag.toLowerCase();
+if(hintTextLower.indexOf(qLower) != -1||hintUrlLower.indexOf(qLower) != -1||hintTagLower.indexOf(qLower) != -1){
+hintResult += `
+<a class="brand" href="` + hintUrl + `">` + hintUrlClean + `</a> - ` + hintText + `<br>
+`;
+hintCounter++
+}
+//console.log(data[index]["url"] + val + "=" + index);
+if (hintCounter >= 6){ break; }
+};
+
+if (hintResult == ""){
+for (let i = 0; i < data.length; i++) {
+if (data[i]["tag"] == undefined){ data[i]["tag"] = ""; }
+let hintText = data[i]["text"];
+hintTextLower = hintText.toLowerCase();
+let hintUrl = data[i]["url"];
+hintUrlLower = hintUrl.toLowerCase();
+let hintUrlClean = hintUrl;
+hintUrlClean = hintUrlClean.replace("https://", '');
+hintUrlClean = hintUrlClean.replace("http://", '');
+let hintTag = data[i]["tag"];
+hintTagLower = hintTag.toLowerCase();
+if(fuzzySearch(hintTextLower, qLower) == true||fuzzySearch(hintUrlLower, qLower) == true||fuzzySearch(hintTagLower, qLower) == true){
+hintResult += `
+<a class="brand" href="` + hintUrl + `">` + hintUrl + `</a> - ` + hintText + `<br>
+`;
+hintCounter++
+}
+//console.log(data[index]["url"] + val + "=" + index);
+if (hintCounter >= 6){ break; }
+}
+}
+
+
+hintResult = fuMSort(hintResult, `
+`, "text");
+if (hintResult != ""&&q != ""){
+document.getElementById("hint").innerHTML = `<div class="padding3 bg border borderRadius2 small">` + hintResult + `</div>`;
+} else {
+document.getElementById("hint").innerHTML = ``;
+}
+
+
+}
+}
+
+//https://stackoverflow.com/questions/9206013/javascript-list-js-implement-a-fuzzy-search
+function fuzzySearch(text, q){
+String.prototype.fuzzy = function (s) {
+    var hay = this.toLowerCase(), i = 0, n = -1, l;
+    s = s.toLowerCase();
+    for (; l = s[i++] ;) if (!~(n = hay.indexOf(l, n + 1))) return false;
+    return true;
+};
+
+return (text).fuzzy(q); 
+}
+
+</script>
+<!--// hint -->
+
 
 <div class="padding2 margin2"></div>
 

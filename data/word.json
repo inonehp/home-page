@@ -570,6 +570,11 @@
         "text3": "vector"
     },
     {
+        "text": "\u0432\u0435\u043d\u0442\u0438\u043b\u044c",
+        "text2": "valve",
+        "text3": "v\u00e1lvula"
+    },
+    {
         "text": "\u0432\u0435\u043d\u0442\u0438\u043b\u044f\u0442\u043e\u0440",
         "text2": "fan",
         "text3": "ventilador"
@@ -4083,11 +4088,6 @@
         "text": "\u0442\u0435\u0441\u0442\u0435\u0440",
         "text2": "tester",
         "text3": "probador"
-    },
-    {
-        "text": "\u0442\u0435\u0441\u0442\u043e\u0441\u0442\u0435\u0440\u043e\u043d",
-        "text2": "testosterone",
-        "text3": "testosterona"
     },
     {
         "text": "\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433",

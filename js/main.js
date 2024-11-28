@@ -1013,7 +1013,7 @@ function fuMSort(textOrArr, delimiter, mode){
 //https://stackoverflow.com/questions/2802341/natural-sort-of-alphanumerical-strings-in-javascript
 var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
 //return textOrArr.sort(collator.compare);
-
+if (mode == undefined){ mode = "text"; }
 if (mode == 'text'){
 let result = textOrArr.split(delimiter);
 result.sort(collator.compare)
@@ -1035,9 +1035,9 @@ return textOrArr.sort(collator.compare);
 function fuMBg(com, img){
 if (conf["confBg"] == 'on'||com == 'on'){
 
-let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png soil.png");
-let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png soil-d.png");
-//mBgDark = fuMRandomItem("soil-d.png"); mBg = fuMRandomItem("soil.png");
+let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png granite.png cave.png flower.png");
+let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png granite-d.png cave-d.png flower-d.png");
+//mBg = fuMRandomItem("flower.png"); mBgDark = fuMRandomItem("flower-d.png");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'||com == "light"){

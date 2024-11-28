@@ -454,6 +454,7 @@ urlList = [
 "https://slashdot.org/",
 "https://theconversation.com/us/technology",
 "https://www.dw.com/en/technology/s-58123656",
+"https://news.mit.edu/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

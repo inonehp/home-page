@@ -1,4 +1,4 @@
-// v.1.2.0
+// v.1.2.1
 // inspired by Bing Web Calculator, Google Web Calculator, Google Calculator App and other
 
 //console.log(Math.pow(10, 100));
@@ -54,6 +54,8 @@ const grid = `
 <a class="button border light red" href="#" onclick="clickInput('C');return false;">C</a>
 <a class="button border light red large" href="#" onclick="clickInput('⇦');return false;">⇦</a>
 </div>
+
+<div class="margin padding"></div>
 
 <div class="grid">
 

@@ -2980,7 +2980,7 @@ function binarySearch(arr, val) {
 
 
 //https://stackoverflow.com/questions/9206013/javascript-list-js-implement-a-fuzzy-search
-function fuzzySearch(text, q) {
+function fuzzySearch(text, q){
 
 String.prototype.fuzzy = function (s) {
     var hay = this.toLowerCase(), i = 0, n = -1, l;

@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.11.25";
+//var myCacheVersion = "v.1.2.2024.11.28";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.11.25").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.11.28").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -258,10 +258,18 @@ var fileListArr = ["/404.html",
 "/img/bg/binary-d.svg",
 "/img/bg/",
 "/img/bg/binary.svg",
+"/img/bg/brick-d.png",
+"/img/bg/brick.png",
+"/img/bg/cave-d.png",
+"/img/bg/cave.png",
 "/img/bg/circle-d.svg",
 "/img/bg/circle.svg",
 "/img/bg/deco-paper-d.svg",
 "/img/bg/deco-paper.svg",
+"/img/bg/flower-d.png",
+"/img/bg/flower.png",
+"/img/bg/granite-d.png",
+"/img/bg/granite.png",
 "/img/bg/grid-d.png",
 "/img/bg/grid.png",
 "/img/bg/index-d.svg",
@@ -270,21 +278,32 @@ var fileListArr = ["/404.html",
 "/img/bg/line-chaotic.svg",
 "/img/bg/line-square-d.svg",
 "/img/bg/line-square.svg",
+"/img/bg/old/cloth-d.png",
+"/img/bg/old/",
+"/img/bg/old/cloth.png",
+"/img/bg/old/maze-d.png",
+"/img/bg/old/maze.png",
+"/img/bg/old/old-wall-d.png",
+"/img/bg/old/old-wall.png",
+"/img/bg/old/soil-d.png",
+"/img/bg/old/soil.png",
+"/img/bg/old/wall-d.png",
+"/img/bg/old/wall.png",
+"/img/bg/old/wood-d-delme.svg",
+"/img/bg/old/wood-delme.svg",
 "/img/bg/shape-d.svg",
 "/img/bg/shape.svg",
 "/img/bg/short-line-d.svg",
 "/img/bg/short-line.svg",
-"/img/bg/soil-d.png",
-"/img/bg/soil.png",
+"/img/bg/slanted-lines-d.png",
+"/img/bg/slanted-lines.png",
 "/img/bg/square-solid-d.svg",
 "/img/bg/square-solid.svg",
 "/img/bg/star-d.svg",
 "/img/bg/star.svg",
 "/img/bg/triangle-d.svg",
 "/img/bg/triangle.svg",
-"/img/bg/wood-d-delme.svg",
 "/img/bg/wood-d.png",
-"/img/bg/wood-delme.svg",
 "/img/bg/wood.png",
 "/img/example.png",
 "/img/example.svg",
@@ -453,6 +472,7 @@ var fileListArr = ["/404.html",
 "/pages/art/2024/https-paint-toys-mondrian-screenshot-3.png",
 "/pages/art/2024/https-paint-toys-oil-screenshot-4.png",
 "/pages/art/2024/https-paint-toys-one-line-screenshot-5.jpeg",
+"/pages/art/2024/ladybug-gimp-19.png",
 "/pages/art/2024/lines-gimp-8.jpg",
 "/pages/art/2024/night-gimp-9.jpg",
 "/pages/art/2024/sky-gimp-16.jpg",
@@ -1277,7 +1297,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.11.25")
+caches.open("v.1.2.2024.11.28")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1303,7 +1323,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.11.25")
+caches.open("v.1.2.2024.11.28")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1336,7 +1356,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.11.25"];
+  const cachesToKeep = ["v.1.2.2024.11.28"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
