@@ -768,7 +768,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript",
-        "tag": "#code #programming",
+        "tag": "#code #programming #JavaScript #JS",
         "time": 1708218947,
         "rightFooter": ""
     },
@@ -888,7 +888,7 @@ var linksJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/developer.mozilla.org\/en-US\/",
-        "tag": "#WebDevelopment #docs #dev",
+        "tag": "#WebDevelopment #docs #dev #HTML #CSS #JavaScript",
         "time": 1706253858,
         "rightFooter": ""
     },

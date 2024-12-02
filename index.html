@@ -343,8 +343,9 @@ flex-wrap: wrap;
 <!-- hint v.1.1.0 -->
 <div id="hint" title="hint"></div>
 
-<script src="/data/linksJsonVar.js"></script>
+<!--<script src="/data/linksJsonVar.js"></script>-->
 <script>
+/*
 let dataHint = [];
 dataHint = dataHint.concat(linksJsonVar);
 if (localStorage.getItem("confSpeedDialData")) {
@@ -353,9 +354,10 @@ dataHint = dataHint.concat(confSpeedDialDataArr33);
 }
 
 document.getElementById("q").addEventListener('input', function(e) {
-hint(this.value, dataHint);
-if (this.value == ""){
+if ((this.value).trim() == ""){
 document.getElementById("hint").innerHTML = ``;
+} else {
+hint(this.value, dataHint);
 }
 });
 
@@ -390,7 +392,7 @@ hintCounter++
 if (hintCounter >= 6){ break; }
 };
 
-/*
+
 // hint 2
 if (hintResult == ""){
 for (let i = 0; i < data.length; i++) {
@@ -413,7 +415,7 @@ hintCounter++
 if (hintCounter >= 6){ break; }
 }
 }
-*/
+
 
 
 hintResult = fuMSort(hintResult, `
@@ -439,7 +441,7 @@ String.prototype.fuzzy = function (s) {
 
 return (text).fuzzy(q); 
 }
-
+*/
 </script>
 <!--// hint -->
 
