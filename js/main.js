@@ -1,4 +1,4 @@
-// Main js v.6.14.0
+// Main js v.6.14.1
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -105,7 +105,7 @@ const confData = [
 - Site used Functionality cookies.
 - Some services still collect visit information if cookie off.`,
 "confName":"confDataCollection",
-"confValueDefault":"off",
+"confValueDefault":"not selected",
 "confValueVariant":["on", "off", "auto", "not selected"],
 },
 {
@@ -1035,9 +1035,9 @@ return textOrArr.sort(collator.compare);
 function fuMBg(com, img){
 if (conf["confBg"] == 'on'||com == 'on'){
 
-let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png granite.png flower.png");
-let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png granite-d.png flower-d.png");
-//mBg = fuMRandomItem("flower.png"); mBgDark = fuMRandomItem("flower-d.png");
+let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png granite.png flower.png flower-2.png");
+let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png granite-d.png flower-d.png flower-2-d.png");
+//mBg = fuMRandomItem("flower-2.png"); mBgDark = fuMRandomItem("flower-2-d.png");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'||com == "light"){
