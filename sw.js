@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.12.03";
+//var myCacheVersion = "v.1.2.2024.12.05";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.12.03").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.12.05").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -474,7 +474,6 @@ var fileListArr = ["/404.html",
 "/pages/art/2024/https-paint-toys-mondrian-screenshot-3.png",
 "/pages/art/2024/https-paint-toys-oil-screenshot-4.png",
 "/pages/art/2024/https-paint-toys-one-line-screenshot-5.jpeg",
-"/pages/art/2024/ladybug-gimp-19.png",
 "/pages/art/2024/lines-gimp-8.jpg",
 "/pages/art/2024/night-gimp-9.jpg",
 "/pages/art/2024/sky-gimp-16.jpg",
@@ -1299,7 +1298,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.12.03")
+caches.open("v.1.2.2024.12.05")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1325,7 +1324,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.12.03")
+caches.open("v.1.2.2024.12.05")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1358,7 +1357,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.12.03"];
+  const cachesToKeep = ["v.1.2.2024.12.05"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

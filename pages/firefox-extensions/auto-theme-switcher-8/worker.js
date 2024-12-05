@@ -6,7 +6,7 @@ function handleMessage(request, sender, sendResponse) {
 //console.log(`A content script sent a message: ${request.greeting}`);
 //sendResponse({ response: "Response from background script" });
 
-if(request.greeting){
+if (request.greeting){
 browser.management.setEnabled(request.greeting, true);
 }
 

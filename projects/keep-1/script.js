@@ -1,4 +1,4 @@
-// Keep v.3.8.5
+// Keep v.3.8.7
 // Static version of the offline 'keep' script that saves things.
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -10,11 +10,11 @@
 // fresh config in script.js
 let keepConfig = {
 "postLimit":"", // number, the number of posts per page
-"embedStatus":"", // "off" option
-"multiEmbedStatus":"", // "on" option
-"tagListStatus":"", // "off" option
+"embedStatus":"", // "off"
+"multiEmbedStatus":"", // "on"
+"tagListStatus":"", // "off"
 "tagListLimit":"", // number
-"targetOption":"", // "blank" option
+"targetOption":"", // "blank"
 "bottomMsg":`
 <!-- bottom text or code -->
 `, // text
@@ -64,9 +64,7 @@ var display = '';
 var timeStatus = '';
 var rightFooterStatus = '';
 var usernameStatus = '';
-
 } else {
-
 var postLimit = '';
 var embedStatus = '';
 var tagListStatus = '';
@@ -92,7 +90,6 @@ if (keepConfig['display'] != undefined) { var display = keepConfig['display']; }
 if (keepConfig['timeStatus'] != undefined) { var timeStatus = keepConfig['timeStatus']; }
 if (keepConfig['rightFooterStatus'] != undefined) { var rightFooterStatus = keepConfig['rightFooterStatus']; }
 if (keepConfig['usernameStatus'] != undefined) { var usernameStatus = keepConfig['usernameStatus']; }
-
 }
 
 // default value
@@ -109,7 +106,6 @@ if (display == undefined||display == ''){ display = 'list'; }
 if (timeStatus == undefined||timeStatus == ''){ timeStatus = ''; }
 if (rightFooterStatus == undefined||rightFooterStatus == ''){ rightFooterStatus = 'off'; }
 if (usernameStatus == undefined||usernameStatus == ''){ usernameStatus = 'off'; }
-
 var host = '';
 
 
@@ -150,20 +146,12 @@ var jsonVar =
 
 // fix main.js
 if (typeof conf == 'object'){
-
-confDataCollection = conf["confDataCollection"];
-if (confDataCollection == undefined||confDataCollection == null){ confDataCollection = "off"; }
-confIconStatus = conf["confIconStatus"];
-if (confIconStatus == undefined||confIconStatus == null){ confIconStatus = "off"; }
 confThemeEmbed = conf["confThemeEmbed"];
 if (confThemeEmbed == undefined||confThemeEmbed == null){ confThemeEmbed = "light"; }
 confSymbolForSplit =  conf["confSymbolForSplit"];
 if (confSymbolForSplit == undefined||confSymbolForSplit == null){ confSymbolForSplit = "SYMBOLFORSPLIT"; }
 
 } else {
-
-var confDataCollection = "off";
-var confIconStatus = "off";
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 var confThemeEmbed = 'dark';
 } else {
@@ -1862,6 +1850,7 @@ break;
 
 //default:
 }
+
 }
 }
 
@@ -2399,6 +2388,7 @@ break;
 //default:
 
 }
+
 }
 }
 
@@ -2408,8 +2398,6 @@ embed = `<a href="${item}"><img class="border3" src="${item}" width=""></a>`
 }*/
 
 if (embedStatus == 'on'){
-
-
 
 itemCheck = item.replaceAll(/\./g, confSymbolForSplit);
 
@@ -2935,9 +2923,6 @@ if (typeof lang === 'undefined') { var lang = 'en'; }
 
 if (typeof confDevice === 'undefined') {
 var confDevice = '';
-/*if (confDataCollection != 'on'){
-confDevice = '(disabled, privacy)';
-} else {}*/
 if (navigator.userAgent.search("iPhone|Android|Opera Mini|Mobile|Lumia|Phone") != -1){ confDevice = 'mobile';  }
 if (navigator.userAgent.search("PlayStation|Xbox|TV|Roku|SmartTV|BRAVIA") != -1){ confDevice = 'tv';  }
 if (confDevice == ''){ confDevice = 'pc'; }
