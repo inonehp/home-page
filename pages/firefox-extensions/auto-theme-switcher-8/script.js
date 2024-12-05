@@ -181,7 +181,7 @@ function enableTheme(themeName) {
 //console.log(themeName);
 if (themeName != undefined){
 //browser.management.setEnabled(themeName, true);
-var sending = browser.runtime.sendMessage({    greeting: themeName  });
+var sending = browser.runtime.sendMessage({ greetingSetTheme: themeName });
 
 sending.then(handleResponse, handleError);
 
@@ -193,7 +193,6 @@ function handleResponse(message) {
 function handleError(error) {
 //console.log(`Error: ${error}`);
 }
-
 
 }
 }
