@@ -349,22 +349,14 @@
      x="0"
      y="0"
      ry="0" />
-  <rect
-     style="fill:#eeeeec;stroke-width:14.1626;stroke-miterlimit:26.1"
-     id="rect2"
-     width="400"
-     height="400"
-     x="56"
-     y="56"
-     ry="0" />
   <text
      xml:space="preserve"
-     style="font-size:110px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#6abb1e;fill-opacity:1"
+     style="font-size:110px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#eeeeec;fill-opacity:1"
      x="252.13281"
      y="299.74023"
      id="text2"><tspan
        id="tspan2"
        x="252.13281"
        y="299.74023"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:110px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#6abb1e;fill-opacity:1">HTML</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:110px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#eeeeec;fill-opacity:1">HTML</tspan></text>
 </svg>

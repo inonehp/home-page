@@ -341,30 +341,25 @@
       </feComponentTransfer>
     </filter>
   </defs>
-  <path
-     style="fill:#2458a3;fill-rule:evenodd;fill-opacity:1"
-     id="path53"
-     d="M 512,256.00313 A 256,256 0 0 1 255.99765,512 256,256 0 0 1 0,255.99844 256,256 0 0 1 256.00078,0 256,256 0 0 1 512,256 H 256 Z" />
-  <path
-     style="fill:#eeeeec;fill-rule:evenodd;stroke-width:0.909091"
-     id="path126"
-     d="M 456,256.00244 A 200.00001,200 0 0 1 255.99817,456 200.00001,200 0 0 1 56,255.99878 200.00001,200 0 0 1 256.00061,55.999999 200.00001,200 0 0 1 456,255.99999 H 256.00001 Z" />
-  <text
-     xml:space="preserve"
-     id="text6934"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect6936);fill:#000000;fill-opacity:1;stroke:none" />
   <g
      id="layer4" />
   <g
      id="layer2" />
+  <rect
+     style="fill:#3465a4;stroke-width:9.4;stroke-miterlimit:26.1"
+     id="rect1"
+     width="512"
+     height="512"
+     x="0"
+     y="0" />
   <text
      xml:space="preserve"
-     style="font-size:120px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#3465a4"
+     style="font-size:120px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#eeeeec"
      x="257.40625"
      y="299.68164"
      id="text1"><tspan
        id="tspan1"
        x="257.40625"
        y="299.68164"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:120px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#3465a4">CSS</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:120px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#eeeeec">CSS</tspan></text>
 </svg>
