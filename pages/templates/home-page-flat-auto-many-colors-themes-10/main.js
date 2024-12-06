@@ -403,10 +403,16 @@ break;*/
 
 case 'auto-rand':
 themeAutoRandom();
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+themeAutoRandom();
+});
 break;
 
 case 'auto-rand-all':
 themeAutoRandomAll();
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+themeAutoRandomAll();
+});
 break;
 
 case 'rand-l':

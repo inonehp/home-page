@@ -857,14 +857,14 @@ break;*/
 
 case 'auto-rand':
 themeAutoRandom();
-window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", function () {
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
 themeAutoRandom();
 });
 break;
 
 case 'auto-rand-all':
 themeAutoRandomAll();
-window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", function () {
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
 themeAutoRandomAll();
 });
 break;
