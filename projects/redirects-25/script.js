@@ -477,7 +477,6 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://www.reddit.com/r/technology/",
-"https://www.reddit.com/r/science/",
 "https://flipboard.com/topic/technology",
 "https://slashdot.org/",
 "https://theconversation.com/us/technology",
@@ -499,6 +498,8 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
+"https://www.reddit.com/r/science/",
+"https://flipboard.com/topic/science",
 "https://science.slashdot.org/",
 "https://theconversation.com/us/technology",
 "https://www.dw.com/en/science/s-12526",
@@ -540,6 +541,8 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
+"https://flipboard.com/topic/culture",
+"https://flipboard.com/topic/arts",
 "https://theconversation.com/us/arts",
 ];
 }
@@ -559,6 +562,7 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://www.reddit.com/r/sports/",
+"https://flipboard.com/topic/sports",
 "https://www.dw.com/en/sports/s-8171",
 ];
 }
