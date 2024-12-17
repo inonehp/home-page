@@ -433,6 +433,29 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
+"https://news.google.com/",
+"https://www.bing.com/news",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'n2#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q=" + q + "&tbm=nws",
+"https://www.bing.com/news/search?q=" + q + "&FORM=site",
+];
+if (q == ''){
+urlList = [
+"https://www.reddit.com/r/news/",
+"https://www.reddit.com/r/worldnews/",
+"https://flipboard.com/topic/news",
 "https://wikinews.org/wiki/",
 "https://www.dw.com/en/",
 "https://theconversation.com/",
@@ -454,6 +477,8 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://www.reddit.com/r/technology/",
+"https://www.reddit.com/r/science/",
+"https://flipboard.com/topic/technology",
 "https://slashdot.org/",
 "https://theconversation.com/us/technology",
 "https://www.dw.com/en/technology/s-58123656",
@@ -505,7 +530,6 @@ sRedirectUrl = url;
 break;
 
 
-case 'n2#':
 case 'cu#':
 case 'cul#':
 q = q3.replace(qCom, '');
@@ -534,6 +558,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
+"https://www.reddit.com/r/sports/",
 "https://www.dw.com/en/sports/s-8171",
 ];
 }
