@@ -1,4 +1,4 @@
-// Search redirects v.2.7.7
+// Search redirects v.2.7.8
 // Search query + command
 
 // conf
@@ -220,11 +220,13 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://neocities.org/browse?sort_by=special_sauce&tag=" + q,
+"https://neocities.org/browse/search?q=" + q,
+//"https://neocities.org/browse?sort_by=special_sauce&tag=" + q,
 ];
 if (q == ''){
 urlList = [
-"https://neocities.org/browse",
+"https://neocities.org/browse/search",
+//"https://neocities.org/browse",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -995,7 +997,6 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
-
 
 case 'nn#':
 q = q3.replace(qCom, '');

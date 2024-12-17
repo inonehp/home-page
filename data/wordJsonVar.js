@@ -853,11 +853,6 @@ var wordJsonVar =
         "text3": "parrilla"
     },
     {
-        "text": "\u0433\u0440\u043e\u0431",
-        "text2": "grave",
-        "text3": "tumba"
-    },
-    {
         "text": "\u0433\u0440\u043e\u0437\u0430",
         "text2": "thunderstorm",
         "text3": "tormenta"
@@ -1866,11 +1861,6 @@ var wordJsonVar =
         "text": "\u043a\u0443\u043c\u0438\u0440",
         "text2": "idol",
         "text3": "\u00eddolo"
-    },
-    {
-        "text": "\u043a\u0443\u043f\u043e\u043b",
-        "text2": "dome",
-        "text3": "c\u00fapula"
     },
     {
         "text": "\u043a\u0443\u0440\u0430\u0442\u043e\u0440",
@@ -4271,6 +4261,11 @@ var wordJsonVar =
         "text": "\u0442\u0443\u0430\u043b\u0435\u0442",
         "text2": "toilet",
         "text3": "ba\u00f1o"
+    },
+    {
+        "text": "\u0442\u0443\u0431\u0430",
+        "text2": "tuba",
+        "text3": "tuba"
     },
     {
         "text": "\u0442\u0443\u0437",

@@ -4,7 +4,7 @@
 <channel>
 
 <title>Irvirty RSS</title>
-<link>https://https://irvirty.pages.dev</link>
+<link>https://irvirty.pages.dev</link>
 <description>News about technology, web design, web development, and programming.</description>
 
 <image class="logo">
@@ -14,6 +14,19 @@
 <width>32</width>
 <height>32</height>
 </image>
+
+<item>
+<pubDate>Thu, 12 Dec 24 07:25:07 +0200</pubDate>
+<title><![CDATA[Google’s Year in Search 2024: The top trending searches of the year 
+ ]]></title>
+<link><![CDATA[https://blog.google/products/search/google-year-in-search-2024/]]></link>
+<description>
+<![CDATA[
+Google’s Year in Search 2024: The top trending searches of the year 
+https://blog.google/products/search/google-year-in-search-2024/
+]]>
+</description>
+</item>
 
 <item>
 <pubDate>Sun, 17 Nov 24 10:38:47 +0200</pubDate>

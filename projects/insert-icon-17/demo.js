@@ -15,7 +15,7 @@ lIconsPrint += `
 <div class="item bg2 shadow borderRadius3 padding2">
 ${val.text}
 <hr>
-<div><a href="/pages-data/icons/${val.text}.svg">
+<div><a href="/pages/icons/${val.text}.svg">
 
 <span style="display: inline-flex; width: 16px; height: 16px;">
 ${val.text2}
@@ -42,7 +42,7 @@ ${lIconsPrint}
 </div>
 
 <div class="margin2 padding2"></</div>
-<a class="block tCenter tag brand" href="/icons-data/inspiration-log.html">inspiration log</a>
+<a class="block tCenter tag brand" href="/pages/icons/inspiration-log.html">inspiration log</a>
 <div class="margin2 padding2"></</div>
 
 `;

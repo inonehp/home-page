@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "6",
+        "text": "Google\u2019s Year in Search 2024: The top trending searches of the year",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blog.google\/products\/search\/google-year-in-search-2024\/",
+        "tag": "#search #trends #web #internet",
+        "time": 1733981107,
+        "rightFooter": ""
+    },
+    {
         "id": "5",
         "text": "Bluesky: \"Another day, another million new people have joined Bluesky! 18M users? \ud83d\ude42\u200d\u2194\ufe0f 18M friends \ud83d\ude42\u200d\u2195\ufe0f\" \u2014 Bluesky",
         "text2": "",

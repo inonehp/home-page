@@ -435,7 +435,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 </div>
 
 <div class="small tLeft">
-<span class="gray">Nav:</span> <span id="footerNav"></span><hr>
+<span class="gray">nav:</span> <span id="footerNav"></span><hr>
 </div>
 
 </div>
@@ -810,7 +810,7 @@ break;
 
 case 'auto-h-contrast':
 themeAutoHContrast();
-window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", function () {
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
 themeAutoHContrast();
 });
 break;
@@ -926,7 +926,7 @@ break;
 // auto  
 default:
 themeAuto();
-window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", function () {
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
 themeAuto();
 });
 break;
@@ -1074,14 +1074,12 @@ background-attachment: fixed;
 
 // fonts, external fonts (privacy, data analytics)
 if (conf["confDataCollection"] == 'on'&&conf["confExternalFonts"] == 'auto'||conf["confExternalFonts"] == 'on'){
-
 //document.head.insertAdjacentHTML("beforeend", `
 fuMInsertHtml("head", 'beforeend', `
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 </style>
 `);
-
 }
 
 // CSS

@@ -53,17 +53,18 @@ fuExtStopLoad(element);
 break;
 }
 
+/*test del me
 let blockSiteElement2 = element;
-blockSiteElement2 = blockSiteElement2.replace("https://www.", '');
-blockSiteElement2 = blockSiteElement2.replace("http://www.", '');
-blockSiteElement2 = blockSiteElement2.replace("https://", '');
+//blockSiteElement2 = blockSiteElement2.replace("https://www.", '');
+//blockSiteElement2 = blockSiteElement2.replace("http://www.", '');
+//blockSiteElement2 = blockSiteElement2.replace("https://", '');
 blockSiteElement2 = blockSiteElement2.replace("http://", '');
 
 if (blcokSiteUrl.indexOf(blockSiteElement2) != -1){
 //console.log(element);
 fuExtStopLoad(blockSiteElement2 + ` (modifed)`);
 break;
-}
+}*/
 
 }
 }

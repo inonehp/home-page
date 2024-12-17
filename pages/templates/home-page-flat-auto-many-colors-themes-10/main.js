@@ -359,6 +359,9 @@ break;
 
 case 'auto-h-contrast':
 themeAutoHContrast();
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+themeAutoHContrast();
+});
 break;
 
 case 'auto-t-h-contrast':
@@ -472,6 +475,9 @@ break;
 // auto  
 default:
 themeAuto();
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function () {
+themeAuto();
+});
 break;
 }
 

@@ -588,12 +588,12 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
-        "text": "KCRW 89.9FM | Music, NPR News, Culture Los Angeles | KCRW",
-        "text2": "http:\/\/kcrw.streamguys1.com\/kcrw_192k_mp3_news_tunein",
-        "text3": "mp3",
-        "url": "https:\/\/www.kcrw.com\/",
+        "text": "KCRW, 89.9 FM, Los Angeles, US | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/KCRW-899-s32152\/",
         "tag": "#radio #en",
-        "time": 1683398713,
+        "time": 1734004730,
         "rightFooter": ""
     },
     {
@@ -1362,6 +1362,15 @@ var radioJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "Radio Darkitalia | Free Internet Radio | TuneIn",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/tunein.com\/radio\/Radio-Darkitalia-s305616\/",
+        "tag": "#radio #RadioMusic #AlternativeRock",
+        "time": 1733984468,
+        "rightFooter": ""
+    },
+    {
         "text": "RADIO ENERGY Berlin im Livestream - der Radiosender f\u00fcr Berlin | RADIO ENERGY",
         "text2": "https:\/\/edge07.streamonkey.net\/energy-berlin\/stream\/mp3",
         "text3": "mp3",
@@ -1710,15 +1719,6 @@ var radioJsonVar =
         "url": "https:\/\/www.voanews.com\/",
         "tag": "#radio #en",
         "time": 1683435083,
-        "rightFooter": ""
-    },
-    {
-        "text": "Webradio | Darkitalia \u2235 Music & People \u2235",
-        "text2": "https:\/\/darkitalia.radioca.st\/autodj",
-        "text3": "mp3",
-        "url": "https:\/\/www.darkitalia.com\/radio\/",
-        "tag": "#radio #RadioMusic #AlternativeRock",
-        "time": 1683376098,
         "rightFooter": ""
     },
     {
