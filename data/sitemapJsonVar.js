@@ -518,7 +518,7 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Random Radio\n\nA small collection of radio stations with the ability to play online, which is chosen randomly. | radio: ",
+        "text": "Random Radio\n\nA small collection of radio stations with the ability to play online, which is chosen randomly. Radio online. Online radio. | radio: ",
         "url": "\/projects\/radio-22\/index.html",
         "tag": " #radio #random #online #station #colection #embed #JavaScript #project",
         "id": "b31f7cd39ade46560c86d8f7dc26ed78",
@@ -602,10 +602,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | pages: ",
-        "url": "\/pages\/search.html",
+        "text": "Search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | search: ",
+        "url": "\/pages\/search\/index.html",
         "tag": " #web #search #redirection #redirect #page #main",
-        "id": "bf83ccd58dd5e4522894c1a703038eb6",
+        "id": "2717df99e229afcfa12abdaa58050f71",
         "time": "id"
     },
     {
@@ -637,10 +637,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Site Search\n\nSite search, main pages and more. | pages: ",
-        "url": "\/pages\/site-search.html",
+        "text": "Site Search\n\nSite search, main pages and more. | site search: ",
+        "url": "\/pages\/site-search\/index.html",
         "tag": " #site #search #page #main",
-        "id": "4d316d0661512f8278af597a11c4a272",
+        "id": "abc67dd68f769eda9f9338d9639a7c4c",
         "time": "id"
     },
     {

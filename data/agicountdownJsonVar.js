@@ -3,6 +3,16 @@ var agicountdownJsonVar =
 
 [
     {
+        "id": "30",
+        "text": "HOLY SHIT : r\/singularity",
+        "text2": "2024 2025",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/1hiptq9\/holy_shit\/",
+        "tag": "#test #SocialNetwork #single",
+        "time": 1734722603,
+        "rightFooter": ""
+    },
+    {
         "id": "29",
         "text": "Predictions of when will we have AGI are lowering exponentially : r\/singularity",
         "text2": "2024 2025\r\n2026 2029 2029 2038\r\n2026\r\n2040",
@@ -125,7 +135,7 @@ var agicountdownJsonVar =
     {
         "id": "3",
         "text": "Copilot\r\n\r\n\"Predict the exact year when humans will invent general artificial intelligence.\"\r\n\r\nAccording to **Ben Goertzel**, a computer scientist and CEO of SingularityNET, we may be on the way to creating an artificial intelligence agent that is just as smart as humans by **2027**. He believes that humanity could build an **artificial general intelligence (AGI)** agent within the next three to eight years, which could open the door to a \"super intelligence\" in a very short space of time. The concept of **singularity**, where AI becomes just as capable as humans across several areas independent of the original training data, is within reach. While the likeliest years for building the first AGI agent are **2029 or 2030**, it could potentially happen as early as **2027**\u00b9. Keep in mind that this is a speculative estimate, and the actual timeline remains uncertain. \ud83e\udd16\ud83c\udf1f\r\n\r\nSource: Conversation with Bing, 3\/16\/2024\r\n(1) Artificial general intelligence (AGI) may arise in 2027 with artificial .... https:\/\/www.livescience.com\/technology\/artificial-intelligence\/ai-agi-singularity-in-2027-artificial-super-intelligence-sooner-than-we-think-ben-goertzel .\r\n(2) . https:\/\/bing.com\/search?q=Predict+the+exact+year+when+humans+will+invent+general+artificial+intelligence..\r\n(3) AI timelines: What do experts in artificial intelligence expect for the .... https:\/\/ourworldindata.org\/ai-timelines .\r\n(4) undefined. https:\/\/thenextweb.com\/news\/when-will-agi-arrive-tech-experts-predict-artificial-general-intelligence .\r\n(5) undefined. https:\/\/research.aimultiple.com\/artificial-general-intelligence-singularity-timing\/ .\r\n(6) undefined. https:\/\/bing.com\/search?q=Predict+the+exact+year+when+humans+will+invent+general+artificial+intelligence .",
-        "text2": "2029",
+        "text2": "2027 2029 2030",
         "text3": "",
         "url": "https:\/\/copilot.microsoft.com\/",
         "tag": "#AI",

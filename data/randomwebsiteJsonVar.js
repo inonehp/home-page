@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "109",
+        "text": "Search our Doodle Library Collection - Google Doodles",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/doodles.google\/search\/",
+        "tag": "#doodle #game",
+        "time": 1734773656,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=109\">id<\/a>"
+    },
+    {
         "id": "108",
         "text": "List of most-visited art museums - Wikipedia",
         "text2": "",

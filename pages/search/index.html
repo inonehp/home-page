@@ -52,7 +52,7 @@
 <nav>
 
 <span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <span id="navMenu" class="navMenu">
 <!-- links in nav -->
@@ -88,7 +88,7 @@
 <a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="../" title="../ (Up)">List (up)</a>
 
 <span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/pages/site-search.html" role="search">
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/pages/site-search/" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -106,7 +106,7 @@
 
 <h1 class="tCenter medium h3 op normal insertIconTitle">Search (redirect)</h1>
 
-<nav class="tCenter"><a class="ilineBlock small brand padding" href="search.html">Start</a></nav>
+<nav class="tCenter"><a class="ilineBlock small brand padding" href="./">Start</a></nav>
 
 <div class="padding2"></div>
 
@@ -189,13 +189,13 @@ flex-wrap: wrap;
 <div class="tagList2 hotLinks ">
 <!--<span class="x-small op c" title="Commands:">com: </span>-->
 <!--<a class="tag light2 border3 borderRadius2 op" href="?q=nn" title="AI search random (text nn)">AI</a>-->
-<a class="tag light2 border3 borderRadius2 op" href="?q=w" title="Web search random (text w)">Web</a>
-<a class="tag light2 border3 borderRadius2 op" href="?q=o" title="Other random (text o)">Other</a>
-<a class="tag light2 border3 borderRadius2 op" href="?q=n" title="News search random (text n)">News</a>
-<a class="tag light2 border3 borderRadius2 op" href="?q=s" title="Social media search random (text s)">Social</a>
-<a class="tag light2 border3 borderRadius2 op" href="?q=i" title="Image search random (text i)">Images</a>
-<a class="tag light2 border3 borderRadius2 op" href="?q=v" title="Video search random (text v)">Videos</a>
-<a class="tag light2 border3 borderRadius2 op" href="?q=t" title="Translate random (text t)">Translate</a>
+<a class="tag light2 border3 borderRadius2 op" href="/?q=w" title="Web search random (text w)">Web</a>
+<a class="tag light2 border3 borderRadius2 op" href="/?q=o" title="Other random (text o)">Other</a>
+<a class="tag light2 border3 borderRadius2 op" href="/?q=n" title="News search random (text n)">News</a>
+<a class="tag light2 border3 borderRadius2 op" href="/?q=s" title="Social media search random (text s)">Social</a>
+<a class="tag light2 border3 borderRadius2 op" href="/?q=i" title="Image search random (text i)">Images</a>
+<a class="tag light2 border3 borderRadius2 op" href="/?q=v" title="Video search random (text v)">Videos</a>
+<a class="tag light2 border3 borderRadius2 op" href="/?q=t" title="Translate random (text t)">Translate</a>
 </div>
 
 </div>
@@ -364,15 +364,15 @@ var text = encodeURIComponent(e.target.value);
 var a = `
 
 <div class="tagList2 hotLinks">
-<!--<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` nn" title="AI search random (text nn)">AI</a>-->
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` w" title="Web search random (text w)">Web</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` o" title="Other random (text o)">Other</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` n" title="News search random (text n)">News</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` s" title="Socail media search random (text s)">Social</a>
-<!--<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` s" title="Static sites random (text sta)">Static</a>-->
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` i" title="Image search random (text i)">Images</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` v" title="Video search random (text v)">Videos</a>
-<a class="tag light2 border3 borderRadius2" href="?q=` + text + ` t" title="Translate random (text t)">Translate</a>
+<!--<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` nn" title="AI search random (text nn)">AI</a>-->
+<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` w" title="Web search random (text w)">Web</a>
+<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` o" title="Other random (text o)">Other</a>
+<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` n" title="News search random (text n)">News</a>
+<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` s" title="Socail media search random (text s)">Social</a>
+<!--<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` s" title="Static sites random (text sta)">Static</a>-->
+<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` i" title="Image search random (text i)">Images</a>
+<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` v" title="Video search random (text v)">Videos</a>
+<a class="tag light2 border3 borderRadius2" href="/?q=` + text + ` t" title="Translate random (text t)">Translate</a>
 </div>
 
 `;

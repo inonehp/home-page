@@ -1,4 +1,4 @@
-// Main js v.6.14.3
+// Main js v.6.14.5
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -222,7 +222,7 @@ document.getElementById("secondNav").innerHTML = `
 <nav>
 
 <span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <span id="navMenu" class="navMenu">
 <!-- links in nav -->
@@ -249,7 +249,7 @@ ${conf["confMenuItems2"]}
 <a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="../" title="../ (Up)">List (up)</a>
 
 <span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/pages/site-search.html" role="search">
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/pages/site-search/" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -1037,7 +1037,7 @@ if (conf["confBg"] == 'on'||com == 'on'){
 
 let mBg = fuMRandomItem("index.svg line-square.svg star.svg circle.svg triangle.svg square-solid.svg binary.svg short-line.svg shape.svg line-chaotic.svg wood.png deco-paper.svg grid.png granite.png flower.png flower-2.png");
 let mBgDark = fuMRandomItem("index-d.svg line-square-d.svg star-d.svg circle-d.svg triangle-d.svg square-solid-d.svg binary-d.svg short-line-d.svg shape-d.svg line-chaotic-d.svg wood-d.png deco-paper-d.svg grid-d.png granite-d.png flower-d.png flower-2-d.png");
-//mBg = fuMRandomItem("flower-2.png"); mBgDark = fuMRandomItem("flower-2-d.png");
+//mBg = fuMRandomItem("line-horizontal.svg"); mBgDark = fuMRandomItem("line-horizontal-d.svg");
 let mRandBgPos = fuMRandom(0, 100);
 let mRandBgPos2 = fuMRandom(0, 100);
 if (conf["confThemeEmbed"] == 'light'||com == "light"){

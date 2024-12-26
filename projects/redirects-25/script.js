@@ -1,4 +1,4 @@
-// Search redirects v.2.7.8
+// Search redirects v.2.7.10
 // Search query + command
 
 // conf
@@ -160,7 +160,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q.trim());
 urlList = [
-"/main/site-search.html?q=" + q + " r",
+"/pages/site-search/?q=" + q + " r",
 ];
 if (q == ''){
 urlList = [
@@ -179,7 +179,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/main/site-search.html?q=" + q + " r",
+"/pages/site-search/?q=" + q + " r",
 ];
 if (q == ''){
 urlList = [
@@ -1010,16 +1010,76 @@ sRedirectUrl = url;
 break;
 
 
+case 'qd#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez1%22",
+"https://www.google.com/search?q=" + q + "&tbs=qdr:d",
+];
+if (q == ''){
+urlList = [
+"https://www.bing.com/",
+"https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'qw#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez2%22",
+"https://www.google.com/search?q=" + q + "&tbs=qdr:w",
+];
+if (q == ''){
+urlList = [
+"https://www.bing.com/",
+"https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'qm#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez3%22",
+"https://www.google.com/search?q="+ q + "&tbs=qdr:m",
+];
+if (q == ''){
+urlList = [
+"https://www.bing.com/",
+"https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'qq#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"/main/site-search.html?q=" + q,
+"/pages/site-search/?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"/main/site-search.html",
+"/pages/site-search/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

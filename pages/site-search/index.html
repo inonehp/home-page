@@ -52,7 +52,7 @@
 <nav>
 
 <span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/index.html" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 1"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <span id="navMenu" class="navMenu">
 <!-- links in nav -->
@@ -88,7 +88,7 @@
 <a class="countMenuItem inlineBlock padding mClassNavUp brand borderBottomTransparent itemLinkAni" href="../" title="../ (Up)">List (up)</a>
 
 <span class="countMenuItem"></span>
-<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/pages/site-search.html" role="search">
+<form class="countMenuItem noscriptHide inlineBlock padding" style="padding-right: 0;" method="GET" action="/pages/site-search/" role="search">
 <!--<label for="siteSearch" class="xSmall op">search:</label>-->
 <input id="siteSearch" type="search" placeholder="site search" name="q" autocomplete="off">
 </form>
@@ -118,7 +118,7 @@
 
 <div class="padding2 noscriptHide">
 
-<form id="form" method="GET" class="block" action="site-search.html" style="margin:0 auto;" role="search">
+<form id="form" method="GET" class="block" action="./" style="margin:0 auto;" role="search">
 
 <label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Search:</label>
 <input id="q" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
@@ -297,9 +297,9 @@ let keepConfig = {
 //https://stackoverflow.com/questions/724857/how-to-find-javascript-variable-by-its-name
 if (dataMode != "all"&&dataMode != null&&dataMode != "null"&&dataMode != undefined&&dataMode != ""){
 dataMode = window[dataMode + 'JsonVar'];
-keep("printKeep", dataMode, 'wrapper', './site-search.html', keepConfig);
+keep("printKeep", dataMode, 'wrapper', './', keepConfig);
 } else {
-keep("printKeep", data, 'wrapper', './site-search.html', keepConfig);
+keep("printKeep", data, 'wrapper', './', keepConfig);
 }
 </script>
 

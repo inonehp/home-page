@@ -1,5 +1,5 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.18.10
-// Note: ignore 2 modes (none, b2) These modes work only on localhost and have a POST request.
+// Typing Speed Test (WPM) or Typing Speed Game v.3.19.0
+// Note: ignore some modes (none, b2) These modes work only on localhost and have a POST request.
 
 function mainAll(mode33){
 
@@ -643,7 +643,8 @@ key2 = e.key;
 document.getElementsByName("input2")[0].removeEventListener('input', inputCheck);
 document.getElementsByName("input2")[0].addEventListener('input', inputCheck);
 var dateArr = [];
-var secArr= [];
+var dateArrLast = [Date.now()];
+//var secArr= [];
 var totalError = 0;
 var lastMaxInputlength = 0;
 
@@ -804,14 +805,14 @@ document.getElementById("scrollTo2").scrollIntoView(true);
 
 if (letters.length >= answerArr.length||mode == 'free'||mode == 'f2'){
 
+/*test delmme old core
 //if (key2 == 'Backspace'||key2 == 'Delete'){ } else {}
 dateArr.push(Date.now());
-
-
 //dateArr = dateArr.slice(-400);
 var sec = 0;
-if (dateArr[dateArr.length-2] != undefined){
-const millis = dateArr[dateArr.length-1]-dateArr[dateArr.length-2];
+if (dateArr[dateArr.length - 1] != undefined){
+//const millis = dateArr[dateArr.length - 1] - dateArr[dateArr.length-2];
+const millis = Date.now() - dateArr[dateArr.length - 1];
 //sec = Math.floor(millis/1000);
 sec = ((millis % 60000) / 1000);
 secArr.push(sec);
@@ -828,12 +829,26 @@ function myFunction2(item, index) {
 timeAverage = timeAverage + item; //console.log(item);
 }
 
-timeAverage = timeAverage/secArr.length;
-
+timeAverage = timeAverage / secArr.length;
 
 var wps = timeAverage * wordLengthLimit;
 var wpm = 1 * 60 / wps;
 wpm = wpm.toFixed(0);
+*/
+
+// new core
+dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
+//console.table(wpmTime);
+dateArrLast[0] = Date.now();
+
+var wpmAverage = 0;;
+dateArr.forEach(function(item) {
+wpmAverage = Number(wpmAverage) + Number(item);
+});
+var wpmAverageSec = wpmAverage / dateArr.length;;
+wpmAverage =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
+wpmAverage = Math.round(wpmAverage);
+var wpm = wpmAverage;
 
 }
 
@@ -1080,7 +1095,8 @@ document.getElementById("typeProgress").style.display = "none";
 
 answerArr = [];
 dateArr = [];
-secArr = [];
+dateArrLast = [Date.now()];
+//secArr = [];
 
 
 document.getElementById("text").style.borderTop = "9px solid var(--d2)";

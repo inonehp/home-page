@@ -610,6 +610,11 @@
         "text3": "pesta\u00f1a"
     },
     {
+        "text": "\u0432\u043d\u0443\u043a",
+        "text2": "grandson",
+        "text3": "nieto"
+    },
+    {
         "text": "\u0432\u043e\u0434\u0430",
         "text2": "water",
         "text3": "agua"
@@ -1113,11 +1118,6 @@
         "text": "\u0434\u0443\u0431\u043b\u044f\u0436",
         "text2": "dubbing",
         "text3": "doblaje"
-    },
-    {
-        "text": "\u0434\u0443\u0445\u043e\u0432\u0435\u043d\u0441\u0442\u0432\u043e",
-        "text2": "clergy",
-        "text3": "clero"
     },
     {
         "text": "\u0434\u0443\u0448\u0430",
@@ -1830,6 +1830,11 @@
         "text3": "critico"
     },
     {
+        "text": "\u043a\u0440\u043e\u043a\u0435\u0442",
+        "text2": "croquet",
+        "text3": "juego de croquet"
+    },
+    {
         "text": "\u043a\u0440\u043e\u043d",
         "text2": "cron",
         "text3": "corona"
@@ -2363,11 +2368,6 @@
         "text": "\u043d\u0430\u043f\u0430\u0440\u043d\u0438\u043a",
         "text2": "partner",
         "text3": "compa\u00f1ero"
-    },
-    {
-        "text": "\u043d\u0430\u0441\u0430\u0434\u043a\u0430",
-        "text2": "nozzle",
-        "text3": "boquilla"
     },
     {
         "text": "\u043d\u0430\u0441\u0442\u0430\u0432\u043d\u0438\u043a",
@@ -2925,11 +2925,6 @@
         "text3": "inundar"
     },
     {
-        "text": "\u043f\u043e\u0448\u0435\u0441\u0442\u044c",
-        "text2": "plague",
-        "text3": "plaga"
-    },
-    {
         "text": "\u043f\u0440\u0430\u0432\u0434\u0430",
         "text2": "truth",
         "text3": "la verdad"
@@ -2953,6 +2948,11 @@
         "text": "\u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430",
         "text2": "practice",
         "text3": "practicar"
+    },
+    {
+        "text": "\u043f\u0440\u0430\u043d\u043a",
+        "text2": "prank",
+        "text3": "broma"
     },
     {
         "text": "\u043f\u0440\u0430\u043d\u043a\u0435\u0440",
@@ -4508,11 +4508,6 @@
         "text": "\u0444\u0440\u043e\u043d\u0442",
         "text2": "front",
         "text3": "el frente"
-    },
-    {
-        "text": "\u0444\u0440\u0443\u043a\u0442",
-        "text2": "fruit",
-        "text3": "fruta"
     },
     {
         "text": "\u0444\u0443\u0442\u043b\u044f\u0440",
