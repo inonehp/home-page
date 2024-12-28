@@ -53,7 +53,7 @@ $array = explode('.', $v);
 $ext = end($array);
 $name = $array[0];
 
-//notuseme
+//notuseme or fixme (not work with directory)
 //https://stackoverflow.com/questions/173868/how-can-i-get-a-files-extension-in-php
 //$ext = pathinfo($v, PATHINFO_EXTENSION);
 //$name = pathinfo($v, PATHINFO_FILENAME);*/

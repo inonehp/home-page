@@ -1,4 +1,4 @@
-// v.1.2.0
+// v.1.2.1
 
 var geturl = location.href;
 var url = new URL(geturl);
@@ -17,6 +17,7 @@ if(qGMode == null||qGMode == "") { qGMode = "web"; }
 if(qGMode == "staticnotstorage"){ qGMode = "static"; }
 
 var qGQ = url.searchParams.get("q");
+if (qGQ == null){ qGQ = ""; }
 var q = url.searchParams.get("q");
 var q2 = url.searchParams.get("q2");
 if (q2 == "l"){ qGQ = qGQ + " l"; }

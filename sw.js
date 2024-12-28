@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2024.12.26";
+//var myCacheVersion = "v.1.2.2024.12.28";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2024.12.26").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2024.12.28").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -466,27 +466,28 @@ var fileListArr = ["/404.html",
 "/pages/art/2024/acrylic-gimp-12.jpg",
 "/pages/art/",
 "/pages/art/2024/",
-"/pages/art/2024/autumn-gimp-15.jpg",
-"/pages/art/2024/car-gimp-6.jpg",
+"/pages/art/2024/autumn-forest-pixels-gimp-15.jpg",
+"/pages/art/2024/car-technology-gimp-6.jpg",
 "/pages/art/2024/cloud-gimp-7.jpg",
 "/pages/art/2024/empty-drawing-1.png",
 "/pages/art/2024/face-gimp-10.jpg",
 "/pages/art/2024/fractal-gimp-17.jpg",
+"/pages/art/2024/homer-cartoon-gimp-24.jpg.png",
 "/pages/art/2024/https-paint-toys-calligram-screenshot-2.png",
 "/pages/art/2024/https-paint-toys-mondrian-screenshot-3.png",
 "/pages/art/2024/https-paint-toys-oil-screenshot-4.png",
 "/pages/art/2024/https-paint-toys-one-line-screenshot-5.jpeg",
-"/pages/art/2024/human-waterpixels-gimp-23.png",
-"/pages/art/2024/lines-gimp-8.jpg",
-"/pages/art/2024/night-gimp-9.jpg",
+"/pages/art/2024/human-waterpixels-pixels-gimp-23.png",
+"/pages/art/2024/lines-pixels-gimp-8.jpg",
+"/pages/art/2024/night-pixels-gimp-9.jpg",
 "/pages/art/2024/owl-bird-gimp-21.png",
-"/pages/art/2024/palent-space-gimp-20.png",
+"/pages/art/2024/palent-space-pixels-gimp-20.png",
 "/pages/art/2024/sky-gimp-16.jpg",
 "/pages/art/2024/tpl-gimp-14.png",
-"/pages/art/2024/update-lemon-gimp-11.jpg",
+"/pages/art/2024/update-lemon-pixels-gimp-11.jpg",
 "/pages/art/2024/water-lake-gimp-22.png",
 "/pages/art/2024/wind-gimp-18.jpg",
-"/pages/art/2024/winter-gimp-19.png",
+"/pages/art/2024/winter-pixels-gimp-19.png",
 "/pages/art/index.html",
 "/pages/articles.html",
 "/pages/chrome-extensions/README.md",
@@ -651,6 +652,21 @@ var fileListArr = ["/404.html",
 "/pages/firefox-extensions/old/badge-count-up-timer-4/screenshot.png",
 "/pages/firefox-extensions/old/badge-count-up-timer-4/script.js",
 "/pages/firefox-extensions/old/badge-count-up-timer-4/style.css",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/README.md",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/auto.css",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/background.js",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/badge-count-up-timer-4.zip",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/icon-2-512x512.png",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/icon-512x512.png",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/icon-512x512.svg",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/main.css",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/manifest.json",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/options.html",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/popup.html",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/screenshot.png",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/script.js",
+"/pages/firefox-extensions/old/rss-button-status-in-progress-9/style.css",
 "/pages/firefox-extensions/search-localhost-http-1/icon512x512.png",
 "/pages/firefox-extensions/search-localhost-http-1/",
 "/pages/firefox-extensions/search-localhost-http-1/icon512x512.svg",
@@ -1307,7 +1323,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.12.26")
+caches.open("v.1.2.2024.12.28")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1333,7 +1349,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2024.12.26")
+caches.open("v.1.2.2024.12.28")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1366,7 +1382,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2024.12.26"];
+  const cachesToKeep = ["v.1.2.2024.12.28"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

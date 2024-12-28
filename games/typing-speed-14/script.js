@@ -841,15 +841,13 @@ dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
 //console.table(wpmTime);
 dateArrLast[0] = Date.now();
 
-var wpmAverage = 0;;
+var wpm = 0;
 dateArr.forEach(function(item) {
-wpmAverage = Number(wpmAverage) + Number(item);
+wpm = Number(wpm) + Number(item);
 });
-var wpmAverageSec = wpmAverage / dateArr.length;;
-wpmAverage =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
-wpmAverage = Math.round(wpmAverage);
-var wpm = wpmAverage;
-
+var wpmAverageSec = wpm / dateArr.length;;
+wpm =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
+wpm = Math.round(wpm);
 }
 
 
@@ -933,11 +931,13 @@ recordMsg = speedUp.toFixed(0);
 recordMsg = ' (<span class="green"> ' + recordMsg + '%+ for record</span>)';
 }*/
 
+
+
 var WPMaverage = 0;
 arrWPMaverage.forEach((element) => {
 WPMaverage = Number(WPMaverage) + Number(element);
 });
-prevWPMaverage = (Number(WPMaverage) / Number(arrWPMaverage.length)).toFixed(0);
+prevWPMaverage = (Number(WPMaverage).toFixed(0) / Number(arrWPMaverage.length)).toFixed(0);
 
 arrWPMaverage.push(wpm);
 arrWPMaverage = arrWPMaverage.slice(-wmpAverageLimit);

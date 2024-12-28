@@ -780,11 +780,6 @@
         "text3": "el golf"
     },
     {
-        "text": "\u0433\u043e\u043c\u043e\u0444\u043e\u0431",
-        "text2": "homophobic",
-        "text3": "homof\u00f3bico"
-    },
-    {
         "text": "\u0433\u043e\u043d\u043e\u0440\u0430\u0440",
         "text2": "fee",
         "text3": "tarifa"
@@ -1223,6 +1218,11 @@
         "text": "\u0437\u0430\u043c\u043e\u043a",
         "text2": "lock",
         "text3": "el castillo"
+    },
+    {
+        "text": "\u0437\u0430\u043c\u043e\u0440\u043e\u0437\u043a\u0430",
+        "text2": "freezing",
+        "text3": "congelaci\u00f3n"
     },
     {
         "text": "\u0437\u0430\u043f\u0430\u043b",

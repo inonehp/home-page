@@ -118,3 +118,6 @@ document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt(
 };
 
 
+
+
+
