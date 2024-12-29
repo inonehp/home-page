@@ -202,7 +202,8 @@ document.getElementsByClassName("input")[0].innerHTML = `
 <br>
 <form method="get">
 <textarea rows="2" name="q" placeholder=" input text for task"></textarea>
-<input type="submit">
+<!--<input type="submit">-->
+<button class="submit" type="button" onclick="fuMReload();">Reload (submit)</button>
 </form>
 <div id="input2Status"></div>
 </div><br /><br />`;
@@ -215,11 +216,6 @@ var inputA = document.querySelectorAll('textarea')[1];
 //inputA.removeEventListener('input', updateValueInput);
 inputA.addEventListener('input', updateValueInput);
 }
-
-
-
-
-
 
 // input from Get
 input = url.searchParams.get("q");
@@ -248,7 +244,8 @@ document.getElementById("bookmarklet").style.display = "inline-block";
 
 function updateValueInput(e) {
 //q = encodeURIComponent(e.target.value);
-localStorage.setItem("input", e.target.value);
+let inputText = e.target.value;
+localStorage.setItem("input", inputText);
 //main(e.target.value); //delme (lag)
 
 //document.getElementById("input2Status").innerHTML = `<span class="op xSmall">maybe already inserted</span>`; //delme (not inserted after update)
