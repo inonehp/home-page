@@ -1,7 +1,5 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.19.0
+// Typing Speed Test (WPM) or Typing Speed Game v.3.20.0
 // Note: ignore some modes (none, b2) These modes work only on localhost and have a POST request.
-
-function mainAll(mode33){
 
 const wmpAverageLimit = 30;
 const wordLengthLimit = 5.1;
@@ -31,7 +29,6 @@ var  geturl = window.location;
 var url = new URL(geturl);
 
 var mode = url.searchParams.get("mode");
-if (mode33 != ''){ mode = mode33; }
 
 var q = url.searchParams.get("q");
 if (mode == null&&q !== null&&q != undefined&&q != ''){ mode = 'input'; }
@@ -63,11 +60,11 @@ var skip = '';
 if (location.hostname != 'localhost'&&item == 'none'||location.hostname != 'localhost'&&item == 'b2'||location.hostname != 'localhost'&&item == 'f2'){ skip = 'yes'; }
 if (mode == item && skip != 'yes'){
 modeListPrint += `
-<a class="tag light4 border2 borderRadius2" style="color: var(--c3);" href="?">` + item + `</a>
+<a class="tag light4 border2 borderRadius2" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
 `;
 } else if (skip != 'yes'){
 modeListPrint += `
-<a class="tag op light3 border2 borderRadius2" onclick="localRefresh('` + item + `');" href="?">` + item + `</a>
+<a class="tag op light3 border2 borderRadius2" href="?mode=` + item + `">` + item + `</a>
 `;
 }
 }
@@ -78,7 +75,6 @@ document.getElementById("mode").innerHTML = `
 
 <!--<a class="tag op light border2 borderRadius2" href="?"">main</a>-->
 <a class="tag op light3 border2 borderRadius2" href="./?" onclick="fuMReload();">reload</a>
-<!--<span id="refresh" class="tag op light border2 borderRadius2"><a href="#" onclick="mainAll('');">refresh</a></span>-->
 
 ${modeListPrint}
 
@@ -206,7 +202,7 @@ document.getElementsByClassName("input")[0].innerHTML = `
 <br>
 <form method="get">
 <textarea rows="2" name="q" placeholder=" input text for task"></textarea>
-<!--<input type="submit">-->
+<input type="submit">
 </form>
 <div id="input2Status"></div>
 </div><br /><br />`;
@@ -216,40 +212,24 @@ document.getElementsByClassName("input")[0].innerHTML = `
 // input listener and print result
 if (document.querySelectorAll('textarea').length >= 1){
 var inputA = document.querySelectorAll('textarea')[1];
-inputA.removeEventListener('input', updateValueInput);
+//inputA.removeEventListener('input', updateValueInput);
 inputA.addEventListener('input', updateValueInput);
 }
 
 
 
-function updateValueInput(e) {
-//q = encodeURIComponent(e.target.value);
-localStorage.setItem("input", e.target.value);
-main(e.target.value);
-
-document.getElementById("input2Status").innerHTML = `<span class="op xSmall">maybe already inserted</span>`;
-
-}
 
 
 
 // input from Get
 input = url.searchParams.get("q");
 if (input != null){
-if (input != null){
-localStorage.setItem("input", input); task = input;
-} else {
-if (localStorage.getItem("input")){ task = localStorage.getItem("input"); }
-}
-
-
-
+task = input;
+localStorage.setItem("input", input);
 main(task);
 } else {
 task = localStorage.getItem("input");
-if (task != null){
 main(task);
-}
 }
 
 
@@ -264,6 +244,15 @@ document.getElementById("bookmarklet").style.display = "none";
 //overwrite top
 document.getElementById("bookmarklet").style.display = "inline-block";
 
+
+
+function updateValueInput(e) {
+//q = encodeURIComponent(e.target.value);
+localStorage.setItem("input", e.target.value);
+//main(e.target.value); //delme (lag)
+
+//document.getElementById("input2Status").innerHTML = `<span class="op xSmall">maybe already inserted</span>`; //delme (not inserted after update)
+}
 
 
 
@@ -1113,15 +1102,7 @@ document.getElementsByClassName("msg2")[0].innerHTML = `
     var y=window.scrollY;
 document.querySelectorAll('textarea')[0].onscroll = function () { window.scrollTo(x, y); };
 
-}
 
-
-
-function localRefresh(mode){
-mainAll(mode);
-}
-
-mainAll("");
 
 
 

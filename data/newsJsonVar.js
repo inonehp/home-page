@@ -3,13 +3,23 @@ var newsJsonVar =
 
 [
     {
-        "id": "13",
+        "id": "16",
+        "text": "Bluesky: \"Merry Christmas from us to you \ud83c\udf84\ud83c\udf81\ud83d\udc99 We launched Trending Topics today, and you can find it by tapping the search icon on the bottom bar of the app or the right sidebar on desktop.\" \u2014 Bluesky",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3le6bze3nus2c",
+        "tag": "#SocialNetwork #SocialMedia",
+        "time": 1735508959,
+        "rightFooter": ""
+    },
+    {
+        "id": "15",
         "text": "An AI system has reached human level on a test for \u2018general intelligence\u2019. Here\u2019s what that means",
         "text2": "",
         "text3": "",
         "url": "https:\/\/theconversation.com\/an-ai-system-has-reached-human-level-on-a-test-for-general-intelligence-heres-what-that-means-246529",
         "tag": "#AI #AGI",
-        "time": 1735022858,
+        "time": 1735508925,
         "rightFooter": ""
     },
     {
