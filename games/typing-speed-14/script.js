@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.20.0
+// Typing Speed Test (WPM) or Typing Speed Game v.3.21.0
 // Note: ignore some modes (none, b2) These modes work only on localhost and have a POST request.
 
 const wmpAverageLimit = 30;
@@ -713,7 +713,7 @@ var check = 'no';
 if (item == answerArr[index]&&error <= errorLimit){
 check = 'yes';
 //id = 'id' + index;
-lastEror = ' green ';
+lastEror = 'green';
 
 item = replaceCode(item);
 text11 += item;
@@ -829,7 +829,9 @@ wpm = wpm.toFixed(0);
 */
 
 // new core
+if (lastEror != "red"&&key != '229'&&key != 8&&key != 46&&key2 != 'Backspace'&&key2 != 'Delete'){
 dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
+}
 //console.table(wpmTime);
 dateArrLast[0] = Date.now();
 
@@ -850,7 +852,7 @@ if (error >= 1) { errorColor = 'red'; } else { errorColor = 'green'; }
 if (lastEror == 'red'){
 
 // totalError
-if (key != '229'&&key != 8&&key != 46&&key2 != 'Backspace'&&key2 != 'Delete' ){ totalError++; }
+if (key != '229'&&key != 8&&key != 46&&key2 != 'Backspace'&&key2 != 'Delete'){ totalError++; }
 if (key == '229'){
 if (lastMaxInputlength == answerArr.length){ totalError++; } // only last new error on mobile
 }
@@ -889,8 +891,9 @@ acurancyTotal =  100 - acurancyTotal.toFixed(0);
 
 //document.getElementById("stat").innerHTML = sec + ' | ' + timeAverage.toFixed(2) + ' sec. || ' + error + ' <span class="' + errorColor + '">error</span>';
 document.getElementById("stat").innerHTML = 
-'<div><span>wpm:</span> <!--' + wpmRecord + '/ --><span>' + wpm + '</span> || <span title="allowError: ' + allowError + '">error: ≈<span  class="'  + errorColor + '">' + error  +  '</span>/' + totalError +'</span> || acurancy: ≈' + acurancy + '/' + acurancyTotal + '%</div>'
-;
+'<div><span>wpm:</span> <span>' + wpm + '</span> (' + wpmRecord + ') || <span title="allowError: ' + allowError + '">error: ≈<span  class="'  + errorColor + '">' + error  +  '</span>/' + totalError +'</span> || acurancy: ≈' + acurancy + '/' + acurancyTotal + '%</div>';
+
+document.getElementById("statTopWpm").innerHTML = wpm;
 
 /*scrollTo();
 function scrollTo(){
@@ -1041,9 +1044,9 @@ let winMsg = `
 <div class="wrapper">
 <div class="bg3 padding2 margin2 msg shadow2 tCenter borderRadius2 balance" style="border: 3px dashed  color-mix(in srgb, var(--${printMsgWinColor}) 65%, transparent); margin-bottom: 30px;">
 <!--<b class="${printMsgWinColor} padding2">${printMsgWin}</b>-->
-<div class="pre inlineBlock margin2List" style="border-bottom: 5px solid  color-mix(in srgb, var(--${printMsgWinColor}) 25%, transparent);"><h3><span title="word per minute" style="color: var(--c3);">WPM: ${wpm}</span> <span title="Difference with the previous">${wpmProgress}</span> ${recordMsg}</h3></div>
+<div class="pre inlineBlock margin2List" style="border-bottom: 5px solid  color-mix(in srgb, var(--${printMsgWinColor}) 25%, transparent);"><h3><span title="word per minute" style="color: var(--c3);">WPM: <span class="orange">${wpm}</span></span> <span title="Difference with the previous">${wpmProgress}</span> ${recordMsg}</h3></div>
 <div></div>
-<span class="normal"><span title="Average words per minute based on the last ${wmpAverageLimit}">average WPM: ${WPMaverage} ${wpmAverageProgress}</span></span><br>
+<span class="normal"><span title="Average words per minute based on the last ${wmpAverageLimit}">average WPM: <span class="orange">${WPMaverage}</span> ${wpmAverageProgress}</span></span><br>
 <span class="normal" title="Current accuracy, total"><span class="medium">accuracy: <span>${acurancyTotal}</span>%</span> ${acurancyProgress}</span>
 <div class="padding2"></div>
 </div>

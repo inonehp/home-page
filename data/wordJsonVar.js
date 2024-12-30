@@ -3003,11 +3003,6 @@ var wordJsonVar =
         "text3": "precedente"
     },
     {
-        "text": "\u043f\u0440\u0438\u0437\u043c\u0430",
-        "text2": "prism",
-        "text3": "prisma"
-    },
-    {
         "text": "\u043f\u0440\u0438\u043d\u0446",
         "text2": "prince",
         "text3": "pr\u00edncipe"

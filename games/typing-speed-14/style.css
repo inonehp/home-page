@@ -1,12 +1,15 @@
 /* v.1.1.22 */
 
-.result,  textarea {
+.result,  textarea, #statTopWpm {
 margin: 0 auto;
 font-size: 120%;
 font-size: 1.3em;
 font-size: medium;
-padding: 9px;
+padding: 0 9px;
 }
+
+.result,  textarea { padding: 9px; }
+#statTopWpm { padding-bottom: 0 9px; }
 
 
 .win { font-weight: bold; }
