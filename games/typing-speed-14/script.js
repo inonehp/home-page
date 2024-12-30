@@ -200,10 +200,16 @@ document.getElementById("bookmarklet").style.display = "inline-block";
 document.getElementsByClassName("input")[0].innerHTML = `
 <div class="wrapper">
 <br>
-<form method="get">
+<form method="get" action="index.html">
 <textarea rows="2" name="q" placeholder=" input text for task"></textarea>
-<!--<input type="submit">-->
-<button class="submit" type="button" onclick="fuMReload();">Reload (submit)</button>
+
+<!--<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
+<input type="submit">
+<a href="./" class="submit" onclick="fuMReload();">Reload</a>
+</div>-->
+
+<a href="./"  class="submit">Reload</a>
+
 </form>
 <div id="input2Status"></div>
 </div><br /><br />`;
