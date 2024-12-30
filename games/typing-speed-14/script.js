@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.21.0
+// Typing Speed Test (WPM) or Typing Speed Game v.3.21.1
 // Note: ignore some modes (none, b2) These modes work only on localhost and have a POST request.
 
 const wmpAverageLimit = 30;
@@ -829,7 +829,7 @@ wpm = wpm.toFixed(0);
 */
 
 // new core
-if (lastEror != "red"&&key != '229'&&key != 8&&key != 46&&key2 != 'Backspace'&&key2 != 'Delete'){
+if (lastEror != "red"&&key2 != 'Backspace'&&key2 != 'Delete'){
 dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
 }
 //console.table(wpmTime);
