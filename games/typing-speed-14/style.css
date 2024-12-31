@@ -1,6 +1,6 @@
-/* v.1.1.22 */
+/* v.1.1.23 */
 
-.result,  textarea, #statTopWpm {
+.result, textarea, #statTopWpm {
 margin: 0 auto;
 font-size: 120%;
 font-size: 1.3em;
@@ -8,7 +8,7 @@ font-size: medium;
 padding: 0 9px;
 }
 
-.result,  textarea { padding: 9px; }
+.result, textarea { padding: 9px; }
 #statTopWpm { padding-bottom: 0 9px; }
 
 
