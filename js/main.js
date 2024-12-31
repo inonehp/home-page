@@ -455,7 +455,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/pages/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <a class="brand inlineBlock padding" rel="license" title="Main license" href="/pages/about.html#license">License: CC BY-SA 4.0 *</a>
-<span class="gray small padding"><!--2019--->2024</span>
+<span class="gray small padding"><!--2019--->2025</span>
 <a class="brand inlineBlock padding" style="padding-right: 0;" title="Hosting Service" href="https://pages.cloudflare.com/">Hosting: Cloudflare Pages</a>
 
 </div>

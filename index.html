@@ -644,7 +644,7 @@ document.getElementById( 'topHeader' ).style.display = 'block';
 <script>
 
 
-// WPM
+// WPM v.1.2.0
 if (document.getElementById("q") != null){ 
 var inputA2 = document.getElementById("q");
 inputA2.addEventListener('input', getWpm);
@@ -653,22 +653,26 @@ inputA2.addEventListener('input', getWpm);
 // new core 2
 
 let dateArr = [];
-dateArrLast = [Date.now()];
+let dateArrLast = [];
 const wordLengthLimit = 5.1;
 
 function getWpm(e){
 //if (e.target.value == ""){ dateArr = []; } //fixme
+if (dateArrLast[0] == undefined){ dateArrLast[0] =  Date.now(); }
 dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
 //console.table(wpmTime);
 dateArrLast[0] = Date.now();
 
 var wpm = 0;
+if (dateArr.length >= 2){
 dateArr.forEach(function(item) {
 wpm = Number(wpm) + Number(item);
 });
-var wpmAverageSec = wpm / dateArr.length;;
+
+var wpmAverageSec = wpm / dateArr.length;
 wpm =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
 wpm = Math.round(wpm);
+}
 
 if (document.getElementById("wpm") != null){
 document.getElementById("wpm").innerHTML = wpm;
@@ -676,7 +680,6 @@ document.getElementById("wpm").innerHTML = wpm;
 
 dateArr = dateArr.slice(-1000);
 }
-
 
 </script>
 

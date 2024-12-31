@@ -635,7 +635,7 @@ key2 = e.key;
 document.getElementsByName("input2")[0].removeEventListener('input', inputCheck);
 document.getElementsByName("input2")[0].addEventListener('input', inputCheck);
 var dateArr = [];
-var dateArrLast = [Date.now()];
+var dateArrLast = [];
 //var secArr= [];
 var totalError = 0;
 var lastMaxInputlength = 0;
@@ -829,6 +829,7 @@ wpm = wpm.toFixed(0);
 */
 
 // new core 2
+if (dateArrLast[0] == undefined){ dateArrLast[0] =  Date.now(); }
 if (lastEror != "red"&&key2 != 'Backspace'&&key2 != 'Delete'){
 dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
 }
@@ -836,12 +837,15 @@ dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
 dateArrLast[0] = Date.now();
 
 var wpm = 0;
+if (dateArr.length >= 2){
 dateArr.forEach(function(item) {
 wpm = Number(wpm) + Number(item);
 });
-var wpmAverageSec = wpm / dateArr.length;;
+var wpmAverageSec = wpm / dateArr.length;
 wpm =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
 wpm = Math.round(wpm);
+}
+
 
 }
 
@@ -1091,7 +1095,7 @@ document.getElementById("typeProgress").style.display = "none";
 
 answerArr = [];
 dateArr = [];
-dateArrLast = [Date.now()];
+dateArrLast = [];
 //secArr = [];
 
 
