@@ -797,7 +797,7 @@ document.getElementById("scrollTo2").scrollIntoView(true);
 
 if (letters.length >= answerArr.length||mode == 'free'||mode == 'f2'){
 
-/*test delmme old core
+/*test delmme old core 1
 //if (key2 == 'Backspace'||key2 == 'Delete'){ } else {}
 dateArr.push(Date.now());
 //dateArr = dateArr.slice(-400);
@@ -828,7 +828,7 @@ var wpm = 1 * 60 / wps;
 wpm = wpm.toFixed(0);
 */
 
-// new core
+// new core 2
 if (lastEror != "red"&&key2 != 'Backspace'&&key2 != 'Delete'){
 dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
 }
@@ -842,6 +842,7 @@ wpm = Number(wpm) + Number(item);
 var wpmAverageSec = wpm / dateArr.length;;
 wpm =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
 wpm = Math.round(wpm);
+
 }
 
 

@@ -400,6 +400,42 @@ document.getElementById( 'topHeader' ).style.display = 'block';
 
 </script>
 
+<script>
+
+
+// WPM
+if (document.getElementById("q") != null){ 
+var inputA2 = document.getElementById("q");
+inputA2.addEventListener('input', getWpm);
+}
+
+// new core 2
+
+let dateArr = [];
+dateArrLast = [Date.now()];
+const wordLengthLimit = 5.1;
+
+function getWpm(){
+dateArr.push(((Date.now() - dateArrLast[0]) / 1000).toFixed(3));
+//console.table(wpmTime);
+dateArrLast[0] = Date.now();
+
+var wpm = 0;
+dateArr.forEach(function(item) {
+wpm = Number(wpm) + Number(item);
+});
+var wpmAverageSec = wpm / dateArr.length;;
+wpm =  (1 * 60 / wpmAverageSec) / wordLengthLimit;
+wpm = Math.round(wpm);
+
+if (document.getElementById("wpm") != null){
+document.getElementById("wpm").innerHTML = wpm;
+}
+}
+
+
+</script>
+
 <script src="/projects/redirects-25/script.js"></script>
 
 

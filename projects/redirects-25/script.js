@@ -1,4 +1,4 @@
-// Search redirects v.2.7.10
+// Search redirects v.2.7.11
 // Search query + command
 
 // conf
@@ -347,7 +347,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&newwindow=1&source=lnms&tbm=isch",
-"https://www.bing.com/images/search?q=" + q,
+"https://www.bing.com/images/search?q=" + q + "&form=somesite",
 ];
 if (q == ''){
 urlList = [
@@ -713,7 +713,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&newwindow=1&tbm=vid",
-"https://www.bing.com/videos/search?q=" + q,
+"https://www.bing.com/videos/search?q=" + q + "&form=somesite",
 ];
 if (q == ''){
 urlList = [
@@ -997,7 +997,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.bing.com/search?q=" + q + "&form=site",
+"https://www.bing.com/search?q=" + q + "&form=somesite",
 ];
 if (q == ''){
 urlList = [
