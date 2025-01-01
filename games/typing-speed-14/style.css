@@ -1,4 +1,4 @@
-/* v.1.1.23 */
+/* v.1.1.24 */
 
 .result, textarea, #statTopWpm {
 margin: 0 auto;
@@ -9,12 +9,12 @@ padding: 0 9px;
 }
 
 .result, textarea { padding: 9px; }
-#statTopWpm { padding-bottom: 0 9px; }
-
+#statTopWpm {
+padding-left: 9px;
+}
 
 .win { font-weight: bold; }
 #stat { font-weight: bold; text-align: right; }
-
 
 .scroll {
 /*overflow-x: auto;

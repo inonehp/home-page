@@ -3,6 +3,36 @@ var musicJsonVar =
 
 [
     {
+        "id": "5773",
+        "text": "A Bar Song (Tipsy) in Party Bangers 2024: Pop Edition",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/soundcloud.com\/shaboozey\/shaboozey-a-bar-song-tipsy",
+        "tag": "#music",
+        "time": 1735689978,
+        "rightFooter": ""
+    },
+    {
+        "id": "5772",
+        "text": "Pink Pony Club \u00b7 Chappell Roan",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=R_iTpfSCIVk",
+        "tag": "#music",
+        "time": 1735689578,
+        "rightFooter": ""
+    },
+    {
+        "id": "5771",
+        "text": "Brenda Lee - Rockin' Around The Christmas Tree (Official Music Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=TFsZy9t-qDc",
+        "tag": "#music",
+        "time": 1735689515,
+        "rightFooter": ""
+    },
+    {
         "id": "5766",
         "text": "Doechii - CATFISH (Full Version \/ Audio) - YouTube",
         "text2": "",
