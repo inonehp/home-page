@@ -1,4 +1,4 @@
-/* Main style v.19.0.6
+/* Main style v.19.0.7
 /* main.css + themes */
 /* The style is mostly based on classes: */
 
@@ -54,7 +54,7 @@ html, body, a, input, button, textarea, pre, code, select{
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif; /* (Twitter font) */
 
 font-style: normal;
-font-size: 13.4px; font-size: 0.96em;
+font-size: 13.4px; font-size: 0.96em; font-size: 0.9375em;
 text-decoration: none;
 /*testme delme letter-spacing: 0.16px;*/
 /*hyphens: auto;*/
@@ -63,9 +63,7 @@ overflow-wrap: break-word;
 }
 
 /*@media (hover: none) {
-html, body, a, input, button, textarea, pre, code{
-font-size: 1em;
-}}*/
+}*/
 
 /*@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }*/
 html, body { margin: 0 auto; padding: 0; }

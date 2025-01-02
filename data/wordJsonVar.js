@@ -3108,11 +3108,6 @@ var wordJsonVar =
         "text3": "simplicidad"
     },
     {
-        "text": "\u043f\u0440\u043e\u0446\u0435\u0441",
-        "text2": "process",
-        "text3": "el proceso"
-    },
-    {
         "text": "\u043f\u0440\u043e\u044f\u0432\u043b\u0435\u043d\u043d\u044f",
         "text2": "manifestation",
         "text3": "manifestaci\u00f3n"
