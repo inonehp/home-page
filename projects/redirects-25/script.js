@@ -1,4 +1,4 @@
-// Search redirects v.2.7.11
+// Search redirects v.2.7.16
 // Search query + command
 
 // conf
@@ -110,7 +110,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://www.google.com/",
+"https://www.google.com/search?btnI=1",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -225,8 +225,8 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://neocities.org/browse/search",
-//"https://neocities.org/browse",
+//"https://neocities.org/browse/search",
+"https://neocities.org/browse",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -429,7 +429,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&tbm=nws",
-"https://www.bing.com/news/search?q=" + q + "&FORM=site",
+"https://www.bing.com/news/search?q=" + q + "&FORM=somesite",
 ];
 if (q == ''){
 urlList = [
@@ -449,7 +449,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&tbm=nws",
-"https://www.bing.com/news/search?q=" + q + "&FORM=site",
+"https://www.bing.com/news/search?q=" + q + "&FORM=somesite",
 ];
 if (q == ''){
 urlList = [
@@ -457,8 +457,6 @@ urlList = [
 "https://www.reddit.com/r/worldnews/",
 "https://flipboard.com/topic/news",
 "https://wikinews.org/wiki/",
-"https://www.dw.com/en/",
-"https://theconversation.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -479,8 +477,6 @@ urlList = [
 "https://www.reddit.com/r/technology/",
 "https://flipboard.com/topic/technology",
 "https://slashdot.org/",
-"https://theconversation.com/us/technology",
-"https://www.dw.com/en/technology/s-58123656",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -501,8 +497,6 @@ urlList = [
 "https://www.reddit.com/r/science/",
 "https://flipboard.com/topic/science",
 "https://science.slashdot.org/",
-"https://theconversation.com/us/technology",
-"https://www.dw.com/en/science/s-12526",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -541,9 +535,9 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
+"https://www.reddit.com/r/culture/",
 "https://flipboard.com/topic/culture",
 "https://flipboard.com/topic/arts",
-"https://theconversation.com/us/arts",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -563,7 +557,6 @@ if (q == ''){
 urlList = [
 "https://www.reddit.com/r/sports/",
 "https://flipboard.com/topic/sports",
-"https://www.dw.com/en/sports/s-8171",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1195,7 +1188,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q,
-"https://www.bing.com/search?q=" + q + "&form=site",
+"https://www.bing.com/search?q=" + q + "&form=somesite",
 ];
 if (q == ''){
 urlList = [
@@ -1214,7 +1207,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q,
-"https://www.bing.com/search?q=" + q + "&form=site",
+"https://www.bing.com/search?q=" + q + "&form=somesite",
 //"?q=" + q + " o",
 ];
 if (q == ''){
@@ -1233,7 +1226,7 @@ default:
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q,
-"https://www.bing.com/search?q=" + q + "&form=site",
+"https://www.bing.com/search?q=" + q + "&form=somesite",
 //"?q=" + q + " o",
 ];
 if (q == ''){

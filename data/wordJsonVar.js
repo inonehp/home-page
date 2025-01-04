@@ -429,7 +429,7 @@ var wordJsonVar =
     },
     {
         "text": "\u0431\u043e\u0440\u0442",
-        "text2": "board",
+        "text2": "aboard",
         "text3": "bordo"
     },
     {
@@ -1933,6 +1933,11 @@ var wordJsonVar =
         "text3": "banco"
     },
     {
+        "text": "\u043b\u0430\u0434\u0430\u043d",
+        "text2": "incense",
+        "text3": "incienso"
+    },
+    {
         "text": "\u043b\u0430\u0439\u043a",
         "text2": "like",
         "text3": "me gusta"
@@ -2236,11 +2241,6 @@ var wordJsonVar =
         "text": "\u043c\u0435\u0442\u043e\u0434",
         "text2": "method",
         "text3": "m\u00e9todo"
-    },
-    {
-        "text": "\u043c\u0435\u0442\u043e\u0434\u0438\u043a\u0430",
-        "text2": "method",
-        "text3": "metodolog\u00eda"
     },
     {
         "text": "\u043c\u0435\u0442\u0440\u043e\u043d\u043e\u043c",
@@ -2701,11 +2701,6 @@ var wordJsonVar =
         "text": "\u043f\u0435\u0440\u0435\u0441\u0430\u0434\u043a\u0430",
         "text2": "transplantation",
         "text3": "trasplante"
-    },
-    {
-        "text": "\u043f\u0435\u0440\u0435\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430",
-        "text2": "permutation",
-        "text3": "permutaci\u00f3n"
     },
     {
         "text": "\u043f\u0435\u0440\u0438\u043c\u0435\u0442\u0440",

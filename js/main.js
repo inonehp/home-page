@@ -993,8 +993,13 @@ return randomItemsArrList[fuMRandom(0, Number(randomItemsArrList.length - 1))];
 }
 //console.table(fuMRandomItem(",,,,1 2      ,,,"));
 
-function fuMSplit(text){
-let delimiter = ["|", ",", " ", "\r\n", "\r", "\n"];
+
+function fuMSplit(text, delimiter){
+if (delimiter == null||delimiter == ""){
+delimiter = ["|", ",", " ", "\r\n", "\r", "\n"];
+} else {
+delimiter = [delimiter];
+}
 delimiter.forEach((val) => {
 text = String(text.replaceAll(val, "SYMBOLFORSPLIT"));
 });
