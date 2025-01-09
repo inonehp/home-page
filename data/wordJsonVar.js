@@ -193,11 +193,6 @@ var wordJsonVar =
         "text3": "artrosis"
     },
     {
-        "text": "\u0430\u0441\u0442\u0438\u0433\u043c\u0430\u0442\u0438\u0437\u043c",
-        "text2": "astigmatism",
-        "text3": "astigmatismo"
-    },
-    {
         "text": "\u0430\u0441\u0442\u043c\u0430",
         "text2": "asthma",
         "text3": "asma"
@@ -726,11 +721,6 @@ var wordJsonVar =
         "text": "\u0433\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440",
         "text2": "generator",
         "text3": "generador"
-    },
-    {
-        "text": "\u0433\u0435\u043d\u0435\u0442\u0438\u043a\u0430",
-        "text2": "genetics",
-        "text3": "gen\u00e9tica"
     },
     {
         "text": "\u0433\u0435\u043d\u043e\u043c",
@@ -1268,11 +1258,6 @@ var wordJsonVar =
         "text3": "ejercicio"
     },
     {
-        "text": "\u0437\u0430\u0442\u0438\u0440\u043a\u0430",
-        "text2": "grout",
-        "text3": "lechada"
-    },
-    {
         "text": "\u0437\u0430\u0442\u043e\u0447\u043a\u0430",
         "text2": "sharpening",
         "text3": "afilado"
@@ -1793,6 +1778,11 @@ var wordJsonVar =
         "text3": "pesadilla"
     },
     {
+        "text": "\u043a\u0440\u0430\u0441\u043e\u0442\u0430",
+        "text2": "beauty",
+        "text3": "belleza"
+    },
+    {
         "text": "\u043a\u0440\u0430\u0442\u0435\u0440",
         "text2": "crater",
         "text3": "cr\u00e1ter"
@@ -2308,11 +2298,6 @@ var wordJsonVar =
         "text3": "monstruo"
     },
     {
-        "text": "\u043c\u043e\u0440\u0433",
-        "text2": "morgue",
-        "text3": "morgue"
-    },
-    {
         "text": "\u043c\u043e\u0440\u0435",
         "text2": "sea",
         "text3": "el mar"
@@ -2401,11 +2386,6 @@ var wordJsonVar =
         "text": "\u043d\u0435\u0432\u0440\u043e\u043b\u043e\u0433",
         "text2": "neurologist",
         "text3": "neur\u00f3logo"
-    },
-    {
-        "text": "\u043d\u0435\u043a\u0440\u043e\u0437",
-        "text2": "necrosis",
-        "text3": "necrosis"
     },
     {
         "text": "\u043d\u0435\u043a\u0442\u0430\u0440",
@@ -2681,6 +2661,11 @@ var wordJsonVar =
         "text": "\u043f\u0435\u0434\u0430\u043d\u0442",
         "text2": "pedant",
         "text3": "pedante"
+    },
+    {
+        "text": "\u043f\u0435\u0434\u0438\u043a\u044e\u0440",
+        "text2": "pedicure",
+        "text3": "pedicure"
     },
     {
         "text": "\u043f\u0435\u0439\u0437\u0430\u0436",
@@ -3083,11 +3068,6 @@ var wordJsonVar =
         "text3": "perder"
     },
     {
-        "text": "\u043f\u0440\u043e\u043f\u0430\u0433\u0430\u043d\u0434\u0438\u0441\u0442",
-        "text2": "propagandist",
-        "text3": "propagandista"
-    },
-    {
         "text": "\u043f\u0440\u043e\u043f\u0443\u0441\u043a",
         "text2": "pass",
         "text3": "pasar"
@@ -3143,11 +3123,6 @@ var wordJsonVar =
         "text3": "manojo"
     },
     {
-        "text": "\u0440\u0430\u0431",
-        "text2": "slave",
-        "text3": "siervo"
-    },
-    {
         "text": "\u0440\u0430\u0433\u0443",
         "text2": "ragout",
         "text3": "rag\u00fa"
@@ -3166,11 +3141,6 @@ var wordJsonVar =
         "text": "\u0440\u0430\u0441\u0438\u0437\u043c",
         "text2": "racism",
         "text3": "racismo"
-    },
-    {
-        "text": "\u0440\u0430\u0441\u0438\u0441\u0442",
-        "text2": "racist",
-        "text3": "racista"
     },
     {
         "text": "\u0440\u0430\u0443\u043d\u0434",
@@ -4008,11 +3978,6 @@ var wordJsonVar =
         "text3": "temp"
     },
     {
-        "text": "\u0442\u0435\u043c\u043f\u0435",
-        "text2": "tempe",
-        "text3": "tempe"
-    },
-    {
         "text": "\u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430",
         "text2": "temperature",
         "text3": "temperatura"
@@ -4136,11 +4101,6 @@ var wordJsonVar =
         "text": "\u0442\u0440\u0430\u0432\u0430",
         "text2": "grass",
         "text3": "hierba"
-    },
-    {
-        "text": "\u0442\u0440\u0430\u0432\u043c\u0430",
-        "text2": "trauma",
-        "text3": "trauma"
     },
     {
         "text": "\u0442\u0440\u0430\u043a\u0442\u0430\u0442",

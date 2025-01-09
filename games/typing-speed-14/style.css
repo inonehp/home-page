@@ -3,8 +3,7 @@
 .result, textarea, #statTopWpm {
 margin: 0 auto;
 font-size: 120%;
-font-size: 1.3em; font-size: 1.125em;
-font-size: medium;
+font-size: 1.3em; font-size: 1.125em; font-size: medium;
 padding: 0 9px;
 }
 
@@ -75,18 +74,6 @@ padding: 0;
 #countSymbolTask, #stat { display: block; text-align: right; font-size: small; }
 .gridStat { grid-template-columns: 1fr; }
 }
-
-/*
-.typeUnderline {
-
-}*/
-
-
-
-
-
-
-
 
 
 

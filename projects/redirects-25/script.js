@@ -810,14 +810,33 @@ urlList = [
 //"https://substack.com/search/"+ q +"?searching=note",
 "https://bsky.app/search?q=" + q,
 "https://www.tumblr.com/search/" + q,
-"https://wordpress.com/search?q=" + q,
 ];
 if (q == ''){
 urlList = [
 //"https://substack.com/",,
 "https://bsky.app/",
 "https://www.tumblr.com/",
-"https://wordpress.com/discover",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+case 'sd#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+//"https://substack.com/search/"+ q +"?searching=note",
+"https://bsky.app/search?q=" + q,
+"https://www.tumblr.com/search/" + q + "?t=1",
+];
+if (q == ''){
+urlList = [
+//"https://substack.com/",,
+"https://bsky.app/",
+"https://www.tumblr.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -830,19 +849,17 @@ case 'ht#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-let wordpressTag = (q.replaceAll("%20", ' ')).trim();
+//let wordpressTag = (q.replaceAll("%20", ' ')).trim();
 urlList = [
 //"https://www.threads.net/search?q=%23" + q,
 "https://bsky.app/hashtag/" + q,
 "https://www.tumblr.com/tagged/" + q,
-"https://wordpress.com/tag/" + wordpressTag,
 ];
 if (q == ''){
 urlList = [
 //"https://www.threads.net/following",
 "https://bsky.app/",
 "https://www.tumblr.com/explore/trending",
-"https://wordpress.com/discover",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1129,12 +1146,12 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://search.marginalia.nu/search?query=" + q,
-"https://mwmbl.org/?q=" + q,
+//"https://mwmbl.org/?q=" + q,
 ];
 if (q == ''){
 urlList = [
 "https://search.marginalia.nu/",
-"https://mwmbl.org/",
+//"https://mwmbl.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

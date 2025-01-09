@@ -45,11 +45,6 @@
 /*mobile w: 500 (real by stats: 360) */
 }
 
-/*@font-face {
-font-family: 'Roboto';
-src: url('/fonts/Roboto-Regular.ttf')  format('truetype');
-}*/
-
 html, body, a, input, button, textarea, pre, code, select{
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", Helvetica, Arial, sans-serif; /* (Twitter font) */
 

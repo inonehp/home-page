@@ -1,4 +1,4 @@
-// Main js v.6.14.5
+// Main js v.6.14.7
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -108,13 +108,13 @@ const confData = [
 "confValueDefault":"not selected",
 "confValueVariant":["on", "off", "auto", "not selected"],
 },
-{
+/*{
 "confTitle":"Allow external fonts?",
 "confDescription":`Load external fonts (privacy: may be used for analytics). Auto - based on third-party cookies settings.`,
 "confName":"confExternalFonts",
 "confValueDefault":"auto",
 "confValueVariant":["on", "off", "auto"],
-},
+},*/
 ];
 //console.table(confData);
 
@@ -449,7 +449,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 
 <a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/pages/about.html">About</a>
 <a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
-<a class="brand inlineBlock padding" title="Social" href="https://bsky.app/profile/${conf["confUsername"]}.bsky.social">Bluesky</a>
+<a class="brand inlineBlock padding" title="Social Network" href="https://bsky.app/profile/${conf["confUsername"]}.bsky.social">Bluesky</a>
 <a class="brand inlineBlock padding" title="Another home page" href="https://${conf["confUsername"]}.neocities.org/">Other Home</a>
 <a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/pages/settings.html">Settings</a>
 <a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/pages/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
