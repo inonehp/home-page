@@ -1121,11 +1121,25 @@ document.getElementsByClassName("msg2")[0].innerHTML = `
 //for your own text use the URL or query: ?q=your text
 
 //https://stackoverflow.com/questions/4770025/how-to-disable-scrolling-temporarily
-    var x=window.scrollX;
-    var y=window.scrollY;
+var x = window.scrollX;
+var y = window.scrollY;
 document.querySelectorAll('textarea')[0].onscroll = function () { window.scrollTo(x, y); };
 
 
 
+
+// hide top header if mobile
+if (conf["confDevice"] == 'mobile'){
+var getclick2 = document.getElementById('typingForm');
+if (getclick2 != null&&document.getElementById('typingPage') != null){
+document.addEventListener('click', function(event) {
+if (getclick2.contains(event.target)) {
+document.getElementById('typingPage').classList.remove("contentCenter");
+} else {
+document.getElementById('typingPage').classList.add("contentCenter");
+}
+});
+}
+}
 
 

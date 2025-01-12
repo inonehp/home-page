@@ -484,7 +484,6 @@ mFooterNavLinksPrint += fuMHideFileNameExt(` <span class="gray">/</span> <a clas
 });
 
 fuMInsertHtml("#footerNav", '', mFooterNavLinksPrint);
-
 if(fuMComVar.indexOf('footer off') != -1){ document.getElementById("footer").innerHTML = ""; }
 // end footer
 
