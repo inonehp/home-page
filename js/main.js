@@ -1,4 +1,4 @@
-// Main js v.6.15.0
+// Main js v.6.16.0
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -29,7 +29,7 @@ conf["confTagListLimit"] = 38;
 conf["confLinkExtList"] = "index.html,.html,index.php,.php";
 conf["confIdEmbedScript"] = "footer";
 
-
+if (fuMComVar == undefined){ var fuMComVar = ""; }
 
 // settings var
 const confData = [
@@ -485,6 +485,7 @@ mFooterNavLinksPrint += fuMHideFileNameExt(` <span class="gray">/</span> <a clas
 
 fuMInsertHtml("#footerNav", '', mFooterNavLinksPrint);
 
+if(fuMComVar.indexOf('footer off') != -1){ document.getElementById("footer").innerHTML = ""; }
 // end footer
 
 

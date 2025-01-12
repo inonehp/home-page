@@ -143,6 +143,9 @@ document.getElementById(idAds).innerHTML = '<div class="wrapper"><div class="pad
 }
 }
 
+
+if (com == 'off'){ document.getElementById(idAds).innerHTML = ""; }
+
 }
 
 
