@@ -51,7 +51,7 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-var modeList = Array("abc", "quote", "book", "input", "free", "none", "b2", "f2",);
+var modeList = Array("random", "common", "quote", "book", "input", "free", "none", "b2", "f2",);
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
@@ -168,6 +168,17 @@ main(task);
 
 
 
+if (mode == "common"){
+
+//https://en.wikipedia.org/wiki/Most_common_words_in_English
+let commonWords = `a able about after again all also always am an and any are around as ask at ate away back bad be because been before best better big black blue both bring brown but buy by call came can carry case child clean cold come company could cut day did different do does don't done down draw drink each early eat eight even ever eye fact fall far fast feel few find first five fly for found four from full funny gave get give go goes going good got government great green group grow had hand has have he help her here high him his hold hot how hurt I if important in into is it its jump just keep kind know large last laugh leave let life light like little live long look made make man many may me more most much must my myself never new next no not now number of off oil old on once one only open or other our out over own part people person pick place play please point pretty problem public pull put ran read red ride right round run said same saw say see seem seven shall she show sing sit six sleep small so some soon start stop take tell ten than thank that the their them then there these they thing think this those three time to today together too try two under up upon us use very walk want warm was wash water way we week well went were what when where which white who why will wish with woman word work world would write year yellow yes you young your`;
+
+task = fuMShuffleItem(commonWords, " ");
+task = task.slice(0, 500);
+
+main(task);
+}
+
 
 // https://stackoverflow.com/questions/9713058/send-post-data-using-xmlhttprequest
 //mode300 = mode; // fixed without var
@@ -188,7 +199,7 @@ main(task);
 
 
 
-if (mode == 'abc'){
+if (mode == 'random'){
 task = "           abcdefghijklmnopqrstuvwxyz";
 main(task);
 }
@@ -320,7 +331,7 @@ document.getElementById("lPrintTr").style.display = "none";
 //setTimeout(function () {
 function main(task){
 
-if (mode != 'abc'&&mode != 'free'&&mode != 'f2'){
+if (mode != 'random'&&mode != 'free'&&mode != 'f2'){
 fuLtr(task);
 } else {
 document.getElementById("mode2").innerHTML = '';
@@ -348,7 +359,7 @@ catch(err){
 // not decoded
 }*/
 
-if (mode == 'abc'){
+if (mode == 'random'){
 
 letters = letters.join("");
 letters = letters.repeat(5);
@@ -397,7 +408,7 @@ return a[char] || char;
 }).join("");
 }
 
-if (mode == 'abc'){ text = text.replaceAll(/\s{2,}/g, ' '); /* space */ }
+if (mode == 'random'){ text = text.replaceAll(/\s{2,}/g, ' '); /* space */ }
 
 letters = text;
 

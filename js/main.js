@@ -1,4 +1,4 @@
-// Main js v.6.14.7
+// Main js v.6.15.0
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -973,9 +973,13 @@ const maxFloored = Math.floor(max);
 return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled); // The maximum is inclusive and the minimum is inclusive
 }
 
-function fuMRandomItem(text){
+function fuMRandomItem(text, delimiter){
 let randomItemsArrList = [];
-let delimiter = ["|", ",", " ", "\r\n", "\r", "\n"];
+if (delimiter == null||delimiter == ""){
+delimiter = ["|", ",", " ", "\r\n", "\r", "\n"];
+} else {
+delimiter = [delimiter];
+}
 let items = "";
 delimiter.forEach((val) => {
 text = String(text.replaceAll(val, "SYMBOLFORSPLIT"));
@@ -990,6 +994,42 @@ randomItemsArrList.push(val);
 });
 
 return randomItemsArrList[fuMRandom(0, Number(randomItemsArrList.length - 1))];
+}
+//console.table(fuMRandomItem(",,,,1 2      ,,,"));
+
+
+function fuMShuffleItem(text, delimiter){
+let randomItemsArrList = [];
+if (delimiter == null||delimiter == ""){
+delimiter = ["|", ",", " ", "\r\n", "\r", "\n"];
+} else {
+delimiter = [delimiter];
+}
+let items = "";
+delimiter.forEach((val) => {
+text = String(text.replaceAll(val, "SYMBOLFORSPLIT"));
+});
+
+
+text = text.split("SYMBOLFORSPLIT");
+let text2 = "";
+text.forEach((val) => {
+if (val.trim != ''&&val != undefined&&val != null){
+randomItemsArrList.push(val);
+}
+});
+
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+//console.log(arr);
+}
+
+shuffleArray(randomItemsArrList);
+
+return randomItemsArrList.join(delimiter);
 }
 //console.table(fuMRandomItem(",,,,1 2      ,,,"));
 

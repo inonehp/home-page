@@ -180,6 +180,14 @@ let dMode = mode55;
 
 if (dataMode == null){ dataMode = "all"; mode55 = "all"; dMode = "all"; }
 
+//https://stackoverflow.com/questions/1000795/create-a-hidden-field-in-javascript
+var input = document.createElement("input");
+input.setAttribute("type", "hidden");
+input.setAttribute("name", "dmode");
+input.setAttribute("value", dataMode);
+//append to form element that you want .
+document.getElementById("form").appendChild(input);
+
 
 if (q55PrintURl == null||q55PrintURl == "null"){ q55PrintURl = ""; }
 

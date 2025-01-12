@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "17",
+        "text": "Firefox 134.0, See All New Features, Updates and Fixes",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/134.0\/releasenotes\/",
+        "tag": "#browser #app #software",
+        "time": 1736454871,
+        "rightFooter": ""
+    },
+    {
         "id": "16",
         "text": "Bluesky: \"Merry Christmas from us to you \ud83c\udf84\ud83c\udf81\ud83d\udc99 We launched Trending Topics today, and you can find it by tapping the search icon on the bottom bar of the app or the right sidebar on desktop.\" \u2014 Bluesky",
         "text2": "",

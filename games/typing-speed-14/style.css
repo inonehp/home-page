@@ -1,9 +1,13 @@
 /* v.1.1.24 */
 
+:root {
+--typingFont: 1.188em;
+}
+
 .result, textarea, #statTopWpm {
 margin: 0 auto;
 font-size: 120%;
-font-size: 1.3em; font-size: 1.125em; font-size: medium;
+font-size: 1.3em; font-size: 1.125em; font-size: medium; font-size: medium; font-size: 1.25em; font-size: 1.188em; font-size: var(--typingFont);
 padding: 0 9px;
 }
 
@@ -31,11 +35,11 @@ scroll-padding-top: 1em;
 /*overflow-x: auto;
 overflow-y: hidden;
 white-space: nowrap;*/
-max-height: 3em;
+max-height: 3em; max-height: 76px;
 overflow-x: hidden;
 overflow-y: auto;
 width: 100%;
-font-size: medium;
+font-size: medium; font-size: var(--typingFont);
 }
 
 #lPrintTr {

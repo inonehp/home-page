@@ -4373,11 +4373,6 @@ var wordJsonVar =
         "text3": "fauna"
     },
     {
-        "text": "\u0444\u0430\u0448\u0438\u0441\u0442",
-        "text2": "fascist",
-        "text3": "fascista"
-    },
-    {
         "text": "\u0444\u0435\u0439\u043a",
         "text2": "fake",
         "text3": "falso"

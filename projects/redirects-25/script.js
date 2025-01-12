@@ -111,6 +111,7 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://www.google.com/search?btnI=1",
+"https://www.google.com/search?q=i'm feeling curious",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -270,6 +271,7 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
 case 'x#':
 case 'twi#':
 q = q3.replace(qCom, '');
@@ -300,6 +302,25 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://bsky.app/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'th#':
+case 'thr#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.threads.net/search/?q=" + q + "&serp_type=default",
+];
+if (q == ''){
+urlList = [
+"https://www.threads.net/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -823,6 +844,7 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
 case 'sd#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -845,6 +867,7 @@ sRedirectUrl = url;
 break;
 
 
+case 'st#':
 case 'ht#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1097,6 +1120,7 @@ url = random;
 sRedirectUrl = url;
 break;
 
+
 case 'nn#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1217,6 +1241,7 @@ random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
 sRedirectUrl = url;
 break;
+
 
 case 'q#':
 q = q3.replace(qCom, '');

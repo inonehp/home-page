@@ -372,6 +372,15 @@ var quoteJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "She asks me to kill the spider.\r\nInstead, I get the most\r\npeaceful weapons I can find.\r\n\r\nI take a cup and a napkin.\r\nI catch the spider, put it outside\r\nand allow it to walk away.\r\n\r\nIf I am ever caught in the wrong place\r\nat the wrong time, just being alive\r\nand not bothering anyone,\r\n\r\nI hope I am greeted\r\nwith the same kind\r\nof mercy.\u201d\r\n\r\nRudy Francisco",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.goodreads.com\/quotes\/9070330-she-asks-me-to-kill-the-spider-instead-i-get",
+        "tag": "#quote",
+        "time": 1736501693,
+        "rightFooter": ""
+    },
+    {
         "text": "Strive not to be a success, but rather to be of value. Albert Einstein",
         "text2": "",
         "text3": "",
