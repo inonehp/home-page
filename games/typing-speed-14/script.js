@@ -51,7 +51,7 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-var modeList = Array("random", "common", "quote", "book", "input", "free", "none", "b2", "f2",);
+var modeList = Array("letters", "common", "quote", "book", "input", "free", "none", "b2", "f2",);
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
@@ -199,7 +199,7 @@ main(task);
 
 
 
-if (mode == 'random'){
+if (mode == 'letters'){
 task = "           abcdefghijklmnopqrstuvwxyz";
 main(task);
 }
@@ -331,7 +331,7 @@ document.getElementById("lPrintTr").style.display = "none";
 //setTimeout(function () {
 function main(task){
 
-if (mode != 'random'&&mode != 'free'&&mode != 'f2'){
+if (mode != 'letters'&&mode != 'free'&&mode != 'f2'){
 fuLtr(task);
 } else {
 document.getElementById("mode2").innerHTML = '';
@@ -359,7 +359,7 @@ catch(err){
 // not decoded
 }*/
 
-if (mode == 'random'){
+if (mode == 'letters'){
 
 letters = letters.join("");
 letters = letters.repeat(5);
@@ -408,7 +408,7 @@ return a[char] || char;
 }).join("");
 }
 
-if (mode == 'random'){ text = text.replaceAll(/\s{2,}/g, ' '); /* space */ }
+if (mode == 'letters'){ text = text.replaceAll(/\s{2,}/g, ' '); /* space */ }
 
 letters = text;
 
