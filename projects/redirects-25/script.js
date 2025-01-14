@@ -1,4 +1,4 @@
-// Search redirects v.2.7.16
+// Search redirects v.2.7.17
 // Search query + command
 
 // conf
@@ -138,16 +138,34 @@ sRedirectUrl = url;
 break;
 
 
+case 'tre#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://trends.google.com/trends/explore?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://trends.google.com/trends/explore?date=now%207-d",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'tree#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://trends.google.com/trends/explore?date=now%201-d&q=" + q,
+"https://trends.google.com/trends/explore?q=" + q,
 ];
 if (q == ''){
 urlList = [
-"https://trends.google.com/trends/explore?cat=5&date=now%207-d",
+"https://trends.google.com/trending?geo=US&hl=en-US",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

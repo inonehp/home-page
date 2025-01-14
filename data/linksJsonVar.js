@@ -3,6 +3,16 @@ var linksJsonVar =
 
 [
     {
+        "id": "219",
+        "text": "News and current affairs from Germany and around the world \u2013 DW",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.dw.com\/en\/top-stories\/s-9097",
+        "tag": "#news",
+        "time": 1736821919,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=219\">id<\/a>"
+    },
+    {
         "id": "218",
         "text": "Freesound",
         "text2": "",
@@ -10,7 +20,7 @@ var linksJsonVar =
         "url": "https:\/\/freesound.org\/",
         "tag": "#sound #free",
         "time": 1736646184,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=218\">id<\/a>"
     },
     {
         "id": "217",
@@ -20,7 +30,7 @@ var linksJsonVar =
         "url": "https:\/\/monkeytype.com\/",
         "tag": "#test #WPM #typing #game",
         "time": 1735548140,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=217\">id<\/a>"
     },
     {
         "id": "216",
@@ -30,7 +40,7 @@ var linksJsonVar =
         "url": "https:\/\/explore.marginalia.nu\/view",
         "tag": "#random #catalog #site #website",
         "time": 1735172097,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=216\">id<\/a>"
     },
     {
         "id": "215",
@@ -40,7 +50,7 @@ var linksJsonVar =
         "url": "https:\/\/feedly.com\/",
         "tag": "#news #RSS #SocialMedia",
         "time": 1734395651,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=215\">id<\/a>"
     },
     {
         "id": "214",
@@ -50,7 +60,7 @@ var linksJsonVar =
         "url": "https:\/\/ubuntu.com\/download",
         "tag": "#software #system",
         "time": 1733661524,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=214\">id<\/a>"
     },
     {
         "id": "213",
@@ -60,7 +70,7 @@ var linksJsonVar =
         "url": "https:\/\/www.runescape.com\/community",
         "tag": "#game #MMORPG",
         "time": 1733559520,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=213\">id<\/a>"
     },
     {
         "id": "212",
@@ -70,7 +80,7 @@ var linksJsonVar =
         "url": "https:\/\/www.pinterest.com\/",
         "tag": "#photo #image #SocialNetwork",
         "time": 1732759031,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=212\">id<\/a>"
     },
     {
         "id": "211",
@@ -80,7 +90,7 @@ var linksJsonVar =
         "url": "https:\/\/neocities.org\/browse?sort_by=random&tag=",
         "tag": "#sites #catalog #explore #random",
         "time": 1732755710,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=211\">id<\/a>"
     },
     {
         "id": "210",
@@ -90,7 +100,7 @@ var linksJsonVar =
         "url": "https:\/\/search.marginalia.nu\/explore\/random",
         "tag": "#sites #catalog #explore #random",
         "time": 1732755649,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=210\">id<\/a>"
     },
     {
         "id": "209",
@@ -100,7 +110,7 @@ var linksJsonVar =
         "url": "https:\/\/www.accuradio.com\/",
         "tag": "#music",
         "time": 1732755480,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=209\">id<\/a>"
     },
     {
         "id": "208",
@@ -110,7 +120,7 @@ var linksJsonVar =
         "url": "https:\/\/tunein.com\/",
         "tag": "#radio #online #live",
         "time": 1732755435,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=208\">id<\/a>"
     },
     {
         "id": "207",
@@ -120,7 +130,7 @@ var linksJsonVar =
         "url": "https:\/\/trends.google.com\/trends\/",
         "tag": "#trend #search #top #tool #SEO",
         "time": 1732755378,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=207\">id<\/a>"
     },
     {
         "id": "206",
@@ -130,7 +140,7 @@ var linksJsonVar =
         "url": "https:\/\/www.bing.com\/",
         "tag": "#search #engine #tool",
         "time": 1732753930,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=206\">id<\/a>"
     },
     {
         "id": "205",
@@ -140,7 +150,7 @@ var linksJsonVar =
         "url": "https:\/\/theconversation.com\/us",
         "tag": "#news",
         "time": 1732753862,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=205\">id<\/a>"
     },
     {
         "id": "204",
@@ -150,7 +160,7 @@ var linksJsonVar =
         "url": "https:\/\/www.google.com\/",
         "tag": "#search #engine #tool",
         "time": 1732752614,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=204\">id<\/a>"
     },
     {
         "id": "203",
@@ -160,7 +170,7 @@ var linksJsonVar =
         "url": "https:\/\/flipboard.com\/",
         "tag": "#news #platfrom",
         "time": 1732752320,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=203\">id<\/a>"
     },
     {
         "id": "202",
@@ -170,7 +180,7 @@ var linksJsonVar =
         "url": "https:\/\/medibangpaint.com\/en\/",
         "tag": "#app #software #paint #drawing",
         "time": 1730161929,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=202\">id<\/a>"
     },
     {
         "id": "200",
@@ -180,7 +190,7 @@ var linksJsonVar =
         "url": "https:\/\/ecograder.com\/",
         "tag": "#WebDesign #tool",
         "time": 1729992346,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=200\">id<\/a>"
     },
     {
         "id": "199",
@@ -190,7 +200,7 @@ var linksJsonVar =
         "url": "https:\/\/www.shotcut.org\/",
         "tag": "#app #software #video #tool",
         "time": 1729849977,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=199\">id<\/a>"
     },
     {
         "id": "198",
@@ -200,7 +210,7 @@ var linksJsonVar =
         "url": "https:\/\/www.debian.org\/",
         "tag": "#app #software #OS #system",
         "time": 1729849938,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=198\">id<\/a>"
     },
     {
         "id": "197",
@@ -210,7 +220,7 @@ var linksJsonVar =
         "url": "https:\/\/fedoraproject.org\/",
         "tag": "#app #software #OS #system",
         "time": 1729849856,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=197\">id<\/a>"
     },
     {
         "id": "196",
@@ -220,7 +230,7 @@ var linksJsonVar =
         "url": "https:\/\/www.linuxmint.com\/",
         "tag": "#app #software #OS #system",
         "time": 1729849767,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=196\">id<\/a>"
     },
     {
         "id": "195",
@@ -230,7 +240,7 @@ var linksJsonVar =
         "url": "https:\/\/archlinux.org\/",
         "tag": "#app #software #OS #system",
         "time": 1729849747,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=195\">id<\/a>"
     },
     {
         "id": "194",
@@ -240,7 +250,7 @@ var linksJsonVar =
         "url": "https:\/\/drive.google.com\/",
         "tag": "#cloud #storage",
         "time": 1729849679,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=194\">id<\/a>"
     },
     {
         "id": "193",
@@ -250,7 +260,7 @@ var linksJsonVar =
         "url": "https:\/\/www.dropbox.com\/",
         "tag": "#cloud #storage",
         "time": 1729849567,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=193\">id<\/a>"
     },
     {
         "id": "192",
@@ -260,7 +270,7 @@ var linksJsonVar =
         "url": "https:\/\/syncthing.net\/",
         "tag": "#cloud #storage",
         "time": 1729849516,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=192\">id<\/a>"
     },
     {
         "id": "191",
@@ -270,7 +280,7 @@ var linksJsonVar =
         "url": "https:\/\/www.microsoft.com\/en-us\/software-download\/windows11",
         "tag": "#app #software #OS #system",
         "time": 1729849451,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=191\">id<\/a>"
     },
     {
         "id": "190",
@@ -280,7 +290,7 @@ var linksJsonVar =
         "url": "https:\/\/ubuntu.com\/",
         "tag": "#app #software #OS #system",
         "time": 1729849396,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=190\">id<\/a>"
     },
     {
         "id": "189",
@@ -290,7 +300,7 @@ var linksJsonVar =
         "url": "https:\/\/www.apachefriends.org\/",
         "tag": "#tool #programming #PHP #MySQL #WebDevelopment #app #software #server",
         "time": 1729849282,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=189\">id<\/a>"
     },
     {
         "id": "187",
@@ -300,7 +310,7 @@ var linksJsonVar =
         "url": "https:\/\/artsandculture.google.com\/",
         "tag": "#art",
         "time": 1729661864,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=187\">id<\/a>"
     },
     {
         "id": "186",
@@ -310,7 +320,7 @@ var linksJsonVar =
         "url": "https:\/\/www.blender.org\/",
         "tag": "#tool #video #app #software",
         "time": 1729559353,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=186\">id<\/a>"
     },
     {
         "id": "185",
@@ -320,7 +330,7 @@ var linksJsonVar =
         "url": "https:\/\/www.nngroup.com\/",
         "tag": "#WebDesign #UX",
         "time": 1729558785,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=185\">id<\/a>"
     },
     {
         "id": "184",
@@ -330,7 +340,7 @@ var linksJsonVar =
         "url": "https:\/\/tinypng.com\/",
         "tag": "#tool #WebDesign",
         "time": 1729556658,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=184\">id<\/a>"
     },
     {
         "id": "183",
@@ -340,7 +350,7 @@ var linksJsonVar =
         "url": "https:\/\/bento.me\/en\/home",
         "tag": "#MicroHosting #profile",
         "time": 1729553282,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=183\">id<\/a>"
     },
     {
         "id": "182",
@@ -350,7 +360,7 @@ var linksJsonVar =
         "url": "https:\/\/www.dreamwidth.org\/",
         "tag": "#blog #platform",
         "time": 1729550892,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=182\">id<\/a>"
     },
     {
         "id": "181",
@@ -360,7 +370,7 @@ var linksJsonVar =
         "url": "https:\/\/mwmbl.org\/",
         "tag": "#search #engine #platform",
         "time": 1729483496,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=181\">id<\/a>"
     },
     {
         "id": "180",
@@ -370,7 +380,7 @@ var linksJsonVar =
         "url": "https:\/\/www.videolan.org\/vlc\/",
         "tag": "#app #software #video",
         "time": 1729148406,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=180\">id<\/a>"
     },
     {
         "id": "179",
@@ -380,7 +390,7 @@ var linksJsonVar =
         "url": "https:\/\/search.marginalia.nu\/",
         "tag": "#platform #search #engine #SearchEngine",
         "time": 1729079325,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=179\">id<\/a>"
     },
     {
         "id": "177",
@@ -390,7 +400,7 @@ var linksJsonVar =
         "url": "https:\/\/itch.io\/",
         "tag": "#catalog #game #platform #inspiration",
         "time": 1728172595,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=177\">id<\/a>"
     },
     {
         "id": "176",
@@ -400,7 +410,7 @@ var linksJsonVar =
         "url": "https:\/\/substack.com\/home",
         "tag": "#platform #SocialNetwork",
         "time": 1727406724,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=176\">id<\/a>"
     },
     {
         "id": "175",
@@ -410,7 +420,7 @@ var linksJsonVar =
         "url": "https:\/\/www.falkon.org\/",
         "tag": "#software #app #browser",
         "time": 1727297304,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=175\">id<\/a>"
     },
     {
         "id": "173",
@@ -420,7 +430,7 @@ var linksJsonVar =
         "url": "https:\/\/buymeacoffee.com\/",
         "tag": "#donate #platform",
         "time": 1726714991,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=173\">id<\/a>"
     },
     {
         "id": "171",
@@ -430,7 +440,7 @@ var linksJsonVar =
         "url": "https:\/\/www.geany.org\/",
         "tag": "#app #IDE #programming #text",
         "time": 1726220743,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=171\">id<\/a>"
     },
     {
         "id": "170",
@@ -440,7 +450,7 @@ var linksJsonVar =
         "url": "https:\/\/code.visualstudio.com\/",
         "tag": "#app #IDE #programming #text",
         "time": 1726220716,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=170\">id<\/a>"
     },
     {
         "id": "169",
@@ -450,7 +460,7 @@ var linksJsonVar =
         "url": "https:\/\/www.gimp.org\/",
         "tag": "#app #drawing #paint #software",
         "time": 1726218359,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=169\">id<\/a>"
     },
     {
         "id": "166",
@@ -460,7 +470,7 @@ var linksJsonVar =
         "url": "https:\/\/app.grammarly.com\/",
         "tag": "#grammar #language",
         "time": 1725087627,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=166\">id<\/a>"
     },
     {
         "id": "165",
@@ -470,7 +480,7 @@ var linksJsonVar =
         "url": "https:\/\/www.nytimes.com\/games\/wordle\/index.html",
         "tag": "#game",
         "time": 1725085671,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=165\">id<\/a>"
     },
     {
         "id": "159",
@@ -480,7 +490,7 @@ var linksJsonVar =
         "url": "https:\/\/www.designsystems.com\/",
         "tag": "#blog",
         "time": 1720614903,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=159\">id<\/a>"
     },
     {
         "id": "156",
@@ -490,7 +500,7 @@ var linksJsonVar =
         "url": "https:\/\/www.theregister.com\/",
         "tag": "#technology #news",
         "time": 1719910727,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=156\">id<\/a>"
     },
     {
         "id": "155",
@@ -500,7 +510,7 @@ var linksJsonVar =
         "url": "https:\/\/www.sitepoint.com\/blog\/",
         "tag": "#WebDevelopment #programming #blog",
         "time": 1719789910,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=155\">id<\/a>"
     },
     {
         "id": "150",
@@ -510,7 +520,7 @@ var linksJsonVar =
         "url": "https:\/\/developers.google.com\/",
         "tag": "#WebDevelopment #blog",
         "time": 1719682680,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=150\">id<\/a>"
     },
     {
         "id": "149",
@@ -520,7 +530,7 @@ var linksJsonVar =
         "url": "https:\/\/librivox.org\/",
         "tag": "#book #audio",
         "time": 1719493811,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=149\">id<\/a>"
     },
     {
         "id": "147",
@@ -530,7 +540,7 @@ var linksJsonVar =
         "url": "https:\/\/www.nytimes.com\/games\/strands",
         "tag": "#game",
         "time": 1716161292,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=147\">id<\/a>"
     },
     {
         "id": "146",
@@ -540,7 +550,7 @@ var linksJsonVar =
         "url": "https:\/\/www.merriam-webster.com\/games\/quordle\/#\/",
         "tag": "#game",
         "time": 1716161123,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=146\">id<\/a>"
     },
     {
         "id": "145",
@@ -550,7 +560,7 @@ var linksJsonVar =
         "url": "https:\/\/www.themoviedb.org\/",
         "tag": "#movie #MovieDatabase",
         "time": 1715224653,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=145\">id<\/a>"
     },
     {
         "id": "142",
@@ -560,7 +570,7 @@ var linksJsonVar =
         "url": "https:\/\/www.imdb.com\/",
         "tag": "#movie #MovieDatabase",
         "time": 1715224057,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=142\">id<\/a>"
     },
     {
         "id": "139",
@@ -570,7 +580,7 @@ var linksJsonVar =
         "url": "https:\/\/albiononline.com\/home",
         "tag": "#game #MMORPG",
         "time": 1714731766,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=139\">id<\/a>"
     },
     {
         "id": "138",
@@ -580,7 +590,7 @@ var linksJsonVar =
         "url": "https:\/\/www.nytimes.com\/games\/connections",
         "tag": "#game",
         "time": 1714540281,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=138\">id<\/a>"
     },
     {
         "id": "137",
@@ -590,7 +600,7 @@ var linksJsonVar =
         "url": "https:\/\/www.listennotes.com\/",
         "tag": "#search #podcast #engine #platform",
         "time": 1713763757,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=137\">id<\/a>"
     },
     {
         "id": "136",
@@ -600,7 +610,7 @@ var linksJsonVar =
         "url": "https:\/\/tastedive.com\/",
         "tag": "#recommendation #alternative #music #movie #TV #shows #book #game #podcast",
         "time": 1713762770,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=136\">id<\/a>"
     },
     {
         "id": "134",
@@ -610,7 +620,7 @@ var linksJsonVar =
         "url": "https:\/\/news.mit.edu\/",
         "tag": "#technology #news",
         "time": 1713299009,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=134\">id<\/a>"
     },
     {
         "id": "133",
@@ -620,7 +630,7 @@ var linksJsonVar =
         "url": "https:\/\/www.drupal.org\/",
         "tag": "#CMS",
         "time": 1711924171,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=133\">id<\/a>"
     },
     {
         "id": "132",
@@ -630,7 +640,7 @@ var linksJsonVar =
         "url": "https:\/\/daringfireball.net\/projects\/markdown\/",
         "tag": "#markdown #tools",
         "time": 1711840978,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=132\">id<\/a>"
     },
     {
         "id": "131",
@@ -640,7 +650,7 @@ var linksJsonVar =
         "url": "https:\/\/www.wattpad.com\/",
         "tag": "#book #store #SocialNetwork #platform",
         "time": 1711522063,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=131\">id<\/a>"
     },
     {
         "id": "130",
@@ -650,7 +660,7 @@ var linksJsonVar =
         "url": "https:\/\/docs.github.com\/en\/get-started\/writing-on-github\/getting-started-with-writing-and-formatting-on-github\/basic-writing-and-formatting-syntax",
         "tag": "#markdown #tool",
         "time": 1711406847,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=130\">id<\/a>"
     },
     {
         "id": "128",
@@ -660,7 +670,7 @@ var linksJsonVar =
         "url": "https:\/\/www.perplexity.ai\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1711187007,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=128\">id<\/a>"
     },
     {
         "id": "127",
@@ -670,7 +680,7 @@ var linksJsonVar =
         "url": "https:\/\/developer.chrome.com\/",
         "tag": "#WebDevelopment #blog #docs",
         "time": 1710896751,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=127\">id<\/a>"
     },
     {
         "id": "126",
@@ -680,7 +690,7 @@ var linksJsonVar =
         "url": "https:\/\/www.deviantart.com\/",
         "tag": "#image #photo #platform #SocialNetwork",
         "time": 1710773049,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=126\">id<\/a>"
     },
     {
         "id": "125",
@@ -690,7 +700,7 @@ var linksJsonVar =
         "url": "https:\/\/imgur.com\/",
         "tag": "#image #photo #platform #SocialNetwork",
         "time": 1710699221,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=125\">id<\/a>"
     },
     {
         "id": "124",
@@ -700,7 +710,7 @@ var linksJsonVar =
         "url": "https:\/\/www.joomla.org\/",
         "tag": "#CMS",
         "time": 1710611436,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=124\">id<\/a>"
     },
     {
         "id": "123",
@@ -710,7 +720,7 @@ var linksJsonVar =
         "url": "https:\/\/wordpress.org\/",
         "tag": "#CMS",
         "time": 1710611405,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=123\">id<\/a>"
     },
     {
         "id": "122",
@@ -720,7 +730,7 @@ var linksJsonVar =
         "url": "https:\/\/www.dokuwiki.org\/dokuwiki",
         "tag": "#CMS",
         "time": 1710611347,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=122\">id<\/a>"
     },
     {
         "id": "120",
@@ -730,7 +740,7 @@ var linksJsonVar =
         "url": "https:\/\/play.google.com\/store\/games",
         "tag": "#platform #inspiration #product #catalog #app",
         "time": 1710472058,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=120\">id<\/a>"
     },
     {
         "id": "119",
@@ -740,7 +750,7 @@ var linksJsonVar =
         "url": "https:\/\/chromewebstore.google.com\/",
         "tag": "#extension #platform #inspiration #product #catalog #app",
         "time": 1710472022,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=119\">id<\/a>"
     },
     {
         "id": "118",
@@ -750,7 +760,7 @@ var linksJsonVar =
         "url": "https:\/\/addons.mozilla.org\/en-US\/firefox\/",
         "tag": "#extension #platform #inspiration #product #catalog #app",
         "time": 1710471980,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=118\">id<\/a>"
     },
     {
         "id": "117",
@@ -760,7 +770,7 @@ var linksJsonVar =
         "url": "https:\/\/www.producthunt.com\/",
         "tag": "#WebDevelopment #dev #platform #inspiration #product #catalog #app #software",
         "time": 1710471777,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=117\">id<\/a>"
     },
     {
         "id": "116",
@@ -770,7 +780,7 @@ var linksJsonVar =
         "url": "https:\/\/chat.mistral.ai\/chat",
         "tag": "#AI #assistant #chatbot",
         "time": 1710426340,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=116\">id<\/a>"
     },
     {
         "id": "115",
@@ -780,7 +790,7 @@ var linksJsonVar =
         "url": "https:\/\/huggingface.co\/chat\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1710425641,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=115\">id<\/a>"
     },
     {
         "id": "114",
@@ -790,7 +800,7 @@ var linksJsonVar =
         "url": "https:\/\/chat.openai.com\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1710418765,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=114\">id<\/a>"
     },
     {
         "id": "113",
@@ -800,7 +810,7 @@ var linksJsonVar =
         "url": "https:\/\/gemini.google.com\/app",
         "tag": "#AI #assistant #chatbot",
         "time": 1710418283,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=113\">id<\/a>"
     },
     {
         "id": "112",
@@ -810,7 +820,7 @@ var linksJsonVar =
         "url": "https:\/\/copilot.microsoft.com\/",
         "tag": "#AI #assistant #chatbot",
         "time": 1710418263,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=112\">id<\/a>"
     },
     {
         "id": "111",
@@ -820,7 +830,7 @@ var linksJsonVar =
         "url": "https:\/\/alternativeto.net\/",
         "tag": "#app #software #store #platform #inspiration #product #catalog #app",
         "time": 1710407726,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=111\">id<\/a>"
     },
     {
         "id": "109",
@@ -830,7 +840,7 @@ var linksJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript",
         "tag": "#code #programming #JavaScript #JS",
         "time": 1708218947,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=109\">id<\/a>"
     },
     {
         "id": "108",
@@ -840,7 +850,7 @@ var linksJsonVar =
         "url": "https:\/\/www.python.org\/",
         "tag": "#code #programming",
         "time": 1708218901,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=108\">id<\/a>"
     },
     {
         "id": "107",
@@ -850,7 +860,7 @@ var linksJsonVar =
         "url": "https:\/\/www.php.net\/",
         "tag": "#PHP #code #programming",
         "time": 1708218873,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=107\">id<\/a>"
     },
     {
         "id": "106",
@@ -860,7 +870,7 @@ var linksJsonVar =
         "url": "https:\/\/choosealicense.com\/",
         "tag": "#tools",
         "time": 1708075639,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=106\">id<\/a>"
     },
     {
         "id": "99",
@@ -870,7 +880,7 @@ var linksJsonVar =
         "url": "https:\/\/www.deezer.com\/us\/",
         "tag": "#music #platform",
         "time": 1707015128,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=99\">id<\/a>"
     },
     {
         "id": "95",
@@ -880,7 +890,7 @@ var linksJsonVar =
         "url": "https:\/\/maskable.app\/editor",
         "tag": "#tools #icon",
         "time": 1706985368,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=95\">id<\/a>"
     },
     {
         "id": "91",
@@ -890,7 +900,7 @@ var linksJsonVar =
         "url": "https:\/\/www.favicon.cc\/",
         "tag": "#tools #image #icon",
         "time": 1706620636,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=91\">id<\/a>"
     },
     {
         "id": "88",
@@ -900,7 +910,7 @@ var linksJsonVar =
         "url": "https:\/\/search.google.com\/search-console\/about",
         "tag": "#tools",
         "time": 1706535988,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=88\">id<\/a>"
     },
     {
         "id": "86",
@@ -910,7 +920,7 @@ var linksJsonVar =
         "url": "https:\/\/www.bing.com\/webmasters",
         "tag": "#tools #web",
         "time": 1706520469,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=86\">id<\/a>"
     },
     {
         "id": "84",
@@ -920,7 +930,7 @@ var linksJsonVar =
         "url": "https:\/\/web.dev\/",
         "tag": "#docs #WebDevelopment #dev",
         "time": 1706322685,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=84\">id<\/a>"
     },
     {
         "id": "82",
@@ -930,7 +940,7 @@ var linksJsonVar =
         "url": "https:\/\/layers.to\/explore\/recent",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1706268722,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=82\">id<\/a>"
     },
     {
         "id": "81",
@@ -940,7 +950,7 @@ var linksJsonVar =
         "url": "https:\/\/github.com\/collections\/learn-to-code",
         "tag": "#resources #collection",
         "time": 1706264290,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=81\">id<\/a>"
     },
     {
         "id": "80",
@@ -950,7 +960,7 @@ var linksJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/",
         "tag": "#WebDevelopment #docs #dev #HTML #CSS #JavaScript",
         "time": 1706253858,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=80\">id<\/a>"
     },
     {
         "id": "79",
@@ -960,7 +970,7 @@ var linksJsonVar =
         "url": "https:\/\/bsky.app\/",
         "tag": "#SocialMedia #SocialNetwork #platform",
         "time": 1706239499,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=79\">id<\/a>"
     },
     {
         "id": "77",
@@ -970,7 +980,7 @@ var linksJsonVar =
         "url": "https:\/\/experiments.withgoogle.com\/",
         "tag": "#website #dev #nice #cool #WebDevelopment #JavaScript #demo #best",
         "time": 1706161944,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=77\">id<\/a>"
     },
     {
         "id": "76",
@@ -980,7 +990,7 @@ var linksJsonVar =
         "url": "https:\/\/www.bing.com\/translator",
         "tag": "#translator #translate #tools",
         "time": 1706158299,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=76\">id<\/a>"
     },
     {
         "id": "75",
@@ -990,7 +1000,7 @@ var linksJsonVar =
         "url": "https:\/\/translate.google.com\/",
         "tag": "#translator #translate #tools",
         "time": 1706158282,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=75\">id<\/a>"
     },
     {
         "id": "74",
@@ -1000,7 +1010,7 @@ var linksJsonVar =
         "url": "https:\/\/www.deepl.com\/translator",
         "tag": "#translator #translate #tools",
         "time": 1706158256,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=74\">id<\/a>"
     },
     {
         "id": "73",
@@ -1010,7 +1020,7 @@ var linksJsonVar =
         "url": "https:\/\/search.muz.li\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1706150883,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=73\">id<\/a>"
     },
     {
         "id": "72",
@@ -1020,7 +1030,7 @@ var linksJsonVar =
         "url": "https:\/\/medium.muz.li\/",
         "tag": "#WebDesign #magazine",
         "time": 1706150786,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=72\">id<\/a>"
     },
     {
         "id": "65",
@@ -1030,7 +1040,7 @@ var linksJsonVar =
         "url": "https:\/\/www.grammarly.com\/",
         "tag": "#tools #text #grammar #language",
         "time": 1706029246,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=65\">id<\/a>"
     },
     {
         "id": "64",
@@ -1040,7 +1050,7 @@ var linksJsonVar =
         "url": "https:\/\/www.duolingo.com\/",
         "tag": "#learning #learn #english #language",
         "time": 1706029201,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=64\">id<\/a>"
     },
     {
         "id": "63",
@@ -1050,7 +1060,7 @@ var linksJsonVar =
         "url": "https:\/\/music.youtube.com\/",
         "tag": "#music #platform",
         "time": 1706026625,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=63\">id<\/a>"
     },
     {
         "id": "62",
@@ -1060,7 +1070,7 @@ var linksJsonVar =
         "url": "https:\/\/www.mixcloud.com\/",
         "tag": "#music #platform",
         "time": 1706026361,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=62\">id<\/a>"
     },
     {
         "id": "61",
@@ -1070,7 +1080,7 @@ var linksJsonVar =
         "url": "https:\/\/open.spotify.com\/",
         "tag": "#music #podcast #platform",
         "time": 1706021707,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=61\">id<\/a>"
     },
     {
         "id": "60",
@@ -1080,7 +1090,7 @@ var linksJsonVar =
         "url": "https:\/\/spotify.design\/",
         "tag": "#other #CheckMe",
         "time": 1706021533,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=60\">id<\/a>"
     },
     {
         "id": "58",
@@ -1090,7 +1100,7 @@ var linksJsonVar =
         "url": "https:\/\/alistapart.com\/",
         "tag": "#CSS #blog #magazine #WebDesign #WebDevelopment",
         "time": 1706020810,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=58\">id<\/a>"
     },
     {
         "id": "56",
@@ -1100,7 +1110,7 @@ var linksJsonVar =
         "url": "https:\/\/sites.google.com\/new",
         "tag": "#MiniHosting #WebsiteBuilder",
         "time": 1705999487,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=56\">id<\/a>"
     },
     {
         "id": "55",
@@ -1110,7 +1120,7 @@ var linksJsonVar =
         "url": "https:\/\/wix.com",
         "tag": "#MiniHosting #WebsiteBuilder",
         "time": 1705998418,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=55\">id<\/a>"
     },
     {
         "id": "52",
@@ -1120,7 +1130,7 @@ var linksJsonVar =
         "url": "https:\/\/neocities.org\/tutorials",
         "tag": "#resources #collection",
         "time": 1705964528,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=52\">id<\/a>"
     },
     {
         "id": "51",
@@ -1130,7 +1140,7 @@ var linksJsonVar =
         "url": "https:\/\/about.me\/",
         "tag": "#MicroHosting #profile",
         "time": 1705963728,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=51\">id<\/a>"
     },
     {
         "id": "50",
@@ -1140,7 +1150,7 @@ var linksJsonVar =
         "url": "https:\/\/beacons.ai\/",
         "tag": "#MicroHosting #profile",
         "time": 1705924400,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=50\">id<\/a>"
     },
     {
         "id": "49",
@@ -1150,7 +1160,7 @@ var linksJsonVar =
         "url": "https:\/\/linktr.ee\/",
         "tag": "#MicroHosting #profile",
         "time": 1705922994,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=49\">id<\/a>"
     },
     {
         "id": "48",
@@ -1160,7 +1170,7 @@ var linksJsonVar =
         "url": "https:\/\/limey.io\/",
         "tag": "#MicroHosting #profile",
         "time": 1705922926,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=48\">id<\/a>"
     },
     {
         "id": "46",
@@ -1170,7 +1180,7 @@ var linksJsonVar =
         "url": "https:\/\/webflow.com\/",
         "tag": "#WebsiteBuilder #MiniHosting #tools #WebDesign",
         "time": 1705916440,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=46\">id<\/a>"
     },
     {
         "id": "44",
@@ -1180,7 +1190,7 @@ var linksJsonVar =
         "url": "https:\/\/www.framer.com\/",
         "tag": "#WebsiteBuilder #MiniHosting #tools #WebDesign",
         "time": 1705913251,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=44\">id<\/a>"
     },
     {
         "id": "43",
@@ -1190,7 +1200,7 @@ var linksJsonVar =
         "url": "https:\/\/css-tricks.com\/",
         "tag": "#CSS #code",
         "time": 1705882831,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=43\">id<\/a>"
     },
     {
         "id": "42",
@@ -1200,7 +1210,7 @@ var linksJsonVar =
         "url": "https:\/\/www.twitch.tv\/",
         "tag": "#stream #live #online #platform #game",
         "time": 1705865705,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=42\">id<\/a>"
     },
     {
         "id": "41",
@@ -1210,7 +1220,7 @@ var linksJsonVar =
         "url": "https:\/\/dribbble.com\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1705802829,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=41\">id<\/a>"
     },
     {
         "id": "40",
@@ -1220,7 +1230,7 @@ var linksJsonVar =
         "url": "https:\/\/www.behance.net\/",
         "tag": "#inspiration #WebDesign #GraphicDesign #UI #UX",
         "time": 1705802782,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=40\">id<\/a>"
     },
     {
         "id": "38",
@@ -1230,7 +1240,7 @@ var linksJsonVar =
         "url": "https:\/\/quillbot.com\/grammar-check",
         "tag": "#tools #text #grammar #language",
         "time": 1705764337,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=38\">id<\/a>"
     },
     {
         "id": "37",
@@ -1240,7 +1250,7 @@ var linksJsonVar =
         "url": "https:\/\/www.cambridgeenglish.org\/learning-english",
         "tag": "#learning #learn #english #language",
         "time": 1705764206,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=37\">id<\/a>"
     },
     {
         "id": "36",
@@ -1250,7 +1260,7 @@ var linksJsonVar =
         "url": "https:\/\/www.oxfordonlineenglish.com\/free-english-lessons",
         "tag": "#learning #learn #english #language",
         "time": 1705764185,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=36\">id<\/a>"
     },
     {
         "id": "35",
@@ -1260,7 +1270,7 @@ var linksJsonVar =
         "url": "https:\/\/www.bbc.co.uk\/learningenglish\/",
         "tag": "#learning #learn #english #language",
         "time": 1705764162,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=35\">id<\/a>"
     },
     {
         "id": "34",
@@ -1270,7 +1280,7 @@ var linksJsonVar =
         "url": "https:\/\/codepen.io\/",
         "tag": "#WebDevelopment #code #challenge #inspiration #HTML #CSS #JavaScript #demo",
         "time": 1705763974,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=34\">id<\/a>"
     },
     {
         "id": "33",
@@ -1280,7 +1290,7 @@ var linksJsonVar =
         "url": "https:\/\/pages.github.com\/",
         "tag": "#hosting",
         "time": 1705763888,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=33\">id<\/a>"
     },
     {
         "id": "32",
@@ -1290,7 +1300,7 @@ var linksJsonVar =
         "url": "https:\/\/pages.cloudflare.com\/",
         "tag": "#hosting",
         "time": 1705763850,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=32\">id<\/a>"
     },
     {
         "id": "31",
@@ -1300,7 +1310,7 @@ var linksJsonVar =
         "url": "https:\/\/neocities.org\/",
         "tag": "#hosting",
         "time": 1705763789,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=31\">id<\/a>"
     },
     {
         "id": "29",
@@ -1310,7 +1320,7 @@ var linksJsonVar =
         "url": "https:\/\/design.google\/",
         "tag": "#WebDesign #WebDevelopment #blog",
         "time": 1705753750,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=29\">id<\/a>"
     },
     {
         "id": "27",
@@ -1320,7 +1330,7 @@ var linksJsonVar =
         "url": "https:\/\/open-ui.org\/",
         "tag": "#WebDevelopment #dev #WebDesign #UI",
         "time": 1705747430,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=27\">id<\/a>"
     },
     {
         "id": "24",
@@ -1330,7 +1340,7 @@ var linksJsonVar =
         "url": "https:\/\/www.youtube.com\/",
         "tag": "#video #platform",
         "time": 1705746909,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=24\">id<\/a>"
     },
     {
         "id": "23",
@@ -1340,7 +1350,7 @@ var linksJsonVar =
         "url": "https:\/\/www.youtube.com\/channel\/UC4R8DWoMoI7CAwX8_LjQHig",
         "tag": "#live",
         "time": 1705746876,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=23\">id<\/a>"
     },
     {
         "id": "22",
@@ -1350,7 +1360,7 @@ var linksJsonVar =
         "url": "https:\/\/hashnode.com\/",
         "tag": "#SocialNetwork #platform #dev #WebDevelopment #coding #programming",
         "time": 1705746801,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=22\">id<\/a>"
     },
     {
         "id": "21",
@@ -1360,7 +1370,7 @@ var linksJsonVar =
         "url": "https:\/\/www.smashingmagazine.com\/",
         "tag": "#WebDesign #blog #magazine",
         "time": 1705746716,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=21\">id<\/a>"
     },
     {
         "id": "20",
@@ -1370,7 +1380,7 @@ var linksJsonVar =
         "url": "https:\/\/dev.to\/",
         "tag": "#SocialNetwork #WebDevelopment #platform #dev #coding #programming",
         "time": 1705746648,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=20\">id<\/a>"
     },
     {
         "id": "18",
@@ -1380,7 +1390,7 @@ var linksJsonVar =
         "url": "https:\/\/www.awwwards.com\/",
         "tag": "#WebDesign #inspiration #catalog",
         "time": 1705746487,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=18\">id<\/a>"
     },
     {
         "id": "15",
@@ -1390,7 +1400,7 @@ var linksJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Wiki",
         "tag": "#encyclopedia #docs",
         "time": 1705744326,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=15\">id<\/a>"
     },
     {
         "id": "14",
@@ -1400,7 +1410,7 @@ var linksJsonVar =
         "url": "https:\/\/vimeo.com\/",
         "tag": "#video #platform",
         "time": 1705744257,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=14\">id<\/a>"
     },
     {
         "id": "13",
@@ -1410,7 +1420,7 @@ var linksJsonVar =
         "url": "https:\/\/soundcloud.com\/discover",
         "tag": "#music #platform",
         "time": 1705744215,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=13\">id<\/a>"
     },
     {
         "id": "11",
@@ -1420,7 +1430,7 @@ var linksJsonVar =
         "url": "https:\/\/www.reddit.com\/",
         "tag": "#SocialMedia #SocialNetwork #platform",
         "time": 1705742099,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=11\">id<\/a>"
     },
     {
         "id": "10",
@@ -1430,7 +1440,7 @@ var linksJsonVar =
         "url": "https:\/\/www.dailymotion.com\/us",
         "tag": "#video #platform",
         "time": 1705741340,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=10\">id<\/a>"
     },
     {
         "id": "9",
@@ -1440,7 +1450,7 @@ var linksJsonVar =
         "url": "https:\/\/www.tumblr.com\/",
         "tag": "#SocialMedia #SocialNetwork #platform",
         "time": 1705741055,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=9\">id<\/a>"
     },
     {
         "id": "7",
@@ -1450,7 +1460,7 @@ var linksJsonVar =
         "url": "https:\/\/stackoverflow.com\/",
         "tag": "#code #FAQ #docs #div #WebDevelopment",
         "time": 1705740315,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=7\">id<\/a>"
     },
     {
         "id": "6",
@@ -1460,7 +1470,7 @@ var linksJsonVar =
         "url": "https:\/\/neocities.org\/browse",
         "tag": "#catalog #inspiration",
         "time": 1705740048,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=6\">id<\/a>"
     },
     {
         "id": "5",
@@ -1470,7 +1480,7 @@ var linksJsonVar =
         "url": "https:\/\/webflow.com\/made-in-webflow",
         "tag": "#catalog #inspiration",
         "time": 1705740024,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=5\">id<\/a>"
     },
     {
         "id": "4",
@@ -1480,6 +1490,6 @@ var linksJsonVar =
         "url": "https:\/\/www.patreon.com\/",
         "tag": "#donate #platform",
         "time": 1705739978,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=4\">id<\/a>"
     }
 ]

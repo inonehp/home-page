@@ -10,7 +10,7 @@ var microblogJsonVar =
         "url": "https:\/\/en.wikipedia.org\/wiki\/Rubber_duck_debugging",
         "tag": "#programming #coding #duck #wiki",
         "time": 1731917595,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=271\">id<\/a>"
     },
     {
         "id": "270",
@@ -20,7 +20,7 @@ var microblogJsonVar =
         "url": "https:\/\/developers.google.com\/search\/docs\/fundamentals\/seo-starter-guide",
         "tag": "#SEO",
         "time": 1727230076,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=270\">id<\/a>"
     },
     {
         "id": "268",
@@ -30,7 +30,7 @@ var microblogJsonVar =
         "url": "https:\/\/designmuseum.org\/discover-design\/all-stories\/what-is-good-design-a-quick-look-at-dieter-rams-ten-principles",
         "tag": "#WebDesign",
         "time": 1726819593,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=268\">id<\/a>"
     },
     {
         "id": "266",
@@ -40,7 +40,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/130.0\/releasenotes\/",
         "tag": "#news #technology",
         "time": 1725487711,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=266\">id<\/a>"
     },
     {
         "id": "258",
@@ -50,7 +50,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.seroundtable.com\/google-continuous-scroll-dead-37618.html",
         "tag": "#news #technology",
         "time": 1719477791,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=258\">id<\/a>"
     },
     {
         "id": "251",
@@ -60,7 +60,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=xPyw4nZlGNA",
         "tag": "#news #game #video",
         "time": 1714531473,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=251\">id<\/a>"
     },
     {
         "id": "240",
@@ -70,7 +70,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.sitepoint.com\/new-javascript-ecmascript\/",
         "tag": "#WebDevelopment #programming",
         "time": 1710784688,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=240\">id<\/a>"
     },
     {
         "id": "238",
@@ -80,7 +80,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1769385960502948036",
         "tag": "#space",
         "time": 1710693336,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=238\">id<\/a>"
     },
     {
         "id": "237",
@@ -90,7 +90,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.instagram.com\/p\/C4Y6auAvreP\/",
         "tag": "#space",
         "time": 1710554826,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=237\">id<\/a>"
     },
     {
         "id": "236",
@@ -100,7 +100,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.instagram.com\/p\/C4TqTTNJlCh\/",
         "tag": "#space",
         "time": 1710411277,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=236\">id<\/a>"
     },
     {
         "id": "235",
@@ -110,7 +110,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.instagram.com\/p\/C4em10oNcXz\/",
         "tag": "#space",
         "time": 1710410782,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=235\">id<\/a>"
     },
     {
         "id": "233",
@@ -120,7 +120,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1767941684799615165",
         "tag": "#space",
         "time": 1710410627,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=233\">id<\/a>"
     },
     {
         "id": "232",
@@ -130,7 +130,7 @@ var microblogJsonVar =
         "url": "https:\/\/alternativeto.net\/news\/2024\/3\/microsoft-complies-with-eu-s-dma-allowing-uninstalling-of-onedrive-edge-bing-and-more\/",
         "tag": "#news #technology",
         "time": 1710407103,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=232\">id<\/a>"
     },
     {
         "id": "230",
@@ -140,7 +140,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1755547283754537449",
         "tag": "#space",
         "time": 1707401122,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=230\">id<\/a>"
     },
     {
         "id": "229",
@@ -150,7 +150,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.reddit.com\/r\/web_design\/comments\/1al4tv5\/web_design_curation_websites_for_inspiration\/",
         "tag": "#links #inspiration #WebDesign",
         "time": 1707383853,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=229\">id<\/a>"
     },
     {
         "id": "227",
@@ -160,7 +160,7 @@ var microblogJsonVar =
         "url": "",
         "tag": "#note",
         "time": 1706855711,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=227\">id<\/a>"
     },
     {
         "id": "226",
@@ -170,7 +170,7 @@ var microblogJsonVar =
         "url": "",
         "tag": "#CSS #note",
         "time": 1706840767,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=226\">id<\/a>"
     },
     {
         "id": "225",
@@ -180,7 +180,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/taylorswift13\/status\/1687102339931574272",
         "tag": "#nice #design",
         "time": 1706828047,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=225\">id<\/a>"
     },
     {
         "id": "224",
@@ -190,7 +190,7 @@ var microblogJsonVar =
         "url": "",
         "tag": "#note",
         "time": 1706827994,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=224\">id<\/a>"
     },
     {
         "id": "223",
@@ -200,7 +200,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.youtube.com\/playlist?list=PL590L5WQmH8cmYWEHN9horbWubwpruSiO",
         "tag": "#top",
         "time": 1706545376,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=223\">id<\/a>"
     },
     {
         "id": "222",
@@ -210,7 +210,7 @@ var microblogJsonVar =
         "url": "",
         "tag": "#note",
         "time": 1706256437,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=222\">id<\/a>"
     },
     {
         "id": "221",
@@ -220,7 +220,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=Vb0dG-2huJE",
         "tag": "#video #technology",
         "time": 1706050482,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=221\">id<\/a>"
     },
     {
         "id": "217",
@@ -230,7 +230,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=WdbeqSQjZI8",
         "tag": "#video #technology",
         "time": 1705719183,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=217\">id<\/a>"
     },
     {
         "id": "216",
@@ -240,7 +240,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAUniverse\/status\/1747356050221650144",
         "tag": "#space",
         "time": 1705526137,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=216\">id<\/a>"
     },
     {
         "id": "215",
@@ -250,7 +250,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1745891342952129002",
         "tag": "#space",
         "time": 1705209494,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=215\">id<\/a>"
     },
     {
         "id": "214",
@@ -260,7 +260,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAJPL\/status\/1745853148588064925",
         "tag": "#space",
         "time": 1705209464,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=214\">id<\/a>"
     },
     {
         "id": "213",
@@ -270,7 +270,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1741503237566443821",
         "tag": "#space",
         "time": 1704093898,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=213\">id<\/a>"
     },
     {
         "id": "212",
@@ -280,7 +280,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1737850852130640084",
         "tag": "#space",
         "time": 1703570551,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=212\">id<\/a>"
     },
     {
         "id": "211",
@@ -290,7 +290,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1739194511014674539",
         "tag": "#space",
         "time": 1703570514,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=211\">id<\/a>"
     },
     {
         "id": "210",
@@ -300,7 +300,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1735631356409835997",
         "tag": "#space",
         "time": 1702895803,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=210\">id<\/a>"
     },
     {
         "id": "209",
@@ -310,7 +310,7 @@ var microblogJsonVar =
         "url": "https:\/\/codepen.io\/kassandrasanch\/pen\/xxmVzPP",
         "tag": "#CSS",
         "time": 1702895730,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=209\">id<\/a>"
     },
     {
         "id": "208",
@@ -320,7 +320,7 @@ var microblogJsonVar =
         "url": "",
         "tag": "#learning #English #note",
         "time": 1702198743,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=208\">id<\/a>"
     },
     {
         "id": "207",
@@ -330,7 +330,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1730241024960729495",
         "tag": "#space",
         "time": 1702153478,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=207\">id<\/a>"
     },
     {
         "id": "206",
@@ -340,7 +340,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.behance.net\/blog\/visual-trends-2023",
         "tag": "#WebDesign",
         "time": 1702122662,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=206\">id<\/a>"
     },
     {
         "id": "204",
@@ -350,7 +350,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1732777746516812179",
         "tag": "#space",
         "time": 1702040845,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=204\">id<\/a>"
     },
     {
         "id": "203",
@@ -360,7 +360,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1727705042453409873",
         "tag": "#space",
         "time": 1700927151,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=203\">id<\/a>"
     },
     {
         "id": "202",
@@ -370,7 +370,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1727375632450134298",
         "tag": "#space",
         "time": 1700906013,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=202\">id<\/a>"
     },
     {
         "id": "201",
@@ -380,7 +380,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASA_es\/status\/1722673813777731713",
         "tag": "#space",
         "time": 1700056297,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=201\">id<\/a>"
     },
     {
         "id": "200",
@@ -390,7 +390,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1724444325151400080",
         "tag": "#space",
         "time": 1700056262,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=200\">id<\/a>"
     },
     {
         "id": "198",
@@ -400,7 +400,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAJPL\/status\/1719153461504188565",
         "tag": "#photo #space",
         "time": 1699179827,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=198\">id<\/a>"
     },
     {
         "id": "197",
@@ -410,7 +410,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAJPL\/status\/1720470893263298806",
         "tag": "#photo #space",
         "time": 1699179781,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=197\">id<\/a>"
     },
     {
         "id": "196",
@@ -420,7 +420,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/HubbleTelescope\/status\/1720436439689666729",
         "tag": "#photo #space",
         "time": 1699179707,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=196\">id<\/a>"
     },
     {
         "id": "195",
@@ -430,7 +430,7 @@ var microblogJsonVar =
         "url": "https:\/\/science.nasa.gov\/image-detail\/eye-in-the-sky-2\/",
         "tag": "#test #photo #space",
         "time": 1698911127,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=195\">id<\/a>"
     },
     {
         "id": "194",
@@ -440,7 +440,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1719361091069673966",
         "tag": "#photo #space",
         "time": 1698871135,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=194\">id<\/a>"
     },
     {
         "id": "192",
@@ -450,7 +450,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1716816840125816875",
         "tag": "#photo #space",
         "time": 1698360325,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=192\">id<\/a>"
     },
     {
         "id": "191",
@@ -460,7 +460,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1717198085955215468",
         "tag": "#photo #space",
         "time": 1698303767,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=191\">id<\/a>"
     },
     {
         "id": "188",
@@ -470,7 +470,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/HUBBLE_space\/status\/1716348932270297244",
         "tag": "#photo #space",
         "time": 1698062793,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=188\">id<\/a>"
     },
     {
         "id": "186",
@@ -480,7 +480,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASASun\/status\/1716122435508957318",
         "tag": "#space #Sun #video",
         "time": 1698032417,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=186\">id<\/a>"
     },
     {
         "id": "185",
@@ -490,7 +490,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAExoplanets\/status\/1715449252703539396",
         "tag": "#photo #space",
         "time": 1698030900,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=185\">id<\/a>"
     },
     {
         "id": "183",
@@ -500,7 +500,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAExoplanets\/status\/1714352212833681892",
         "tag": "#photo #space",
         "time": 1697673757,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=183\">id<\/a>"
     },
     {
         "id": "180",
@@ -510,7 +510,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1711750323381952531",
         "tag": "#space #photo",
         "time": 1697490068,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=180\">id<\/a>"
     },
     {
         "id": "176",
@@ -520,7 +520,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1712166178787934259",
         "tag": "#photo #space",
         "time": 1697052895,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=176\">id<\/a>"
     },
     {
         "id": "175",
@@ -530,7 +530,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1710293916564459979",
         "tag": "#space #photo",
         "time": 1696899469,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=175\">id<\/a>"
     },
     {
         "id": "173",
@@ -540,7 +540,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1702321547611168910",
         "tag": "#photo #space",
         "time": 1695929235,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=173\">id<\/a>"
     },
     {
         "id": "172",
@@ -550,7 +550,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1705229552559993225",
         "tag": "#photo #space",
         "time": 1695776381,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=172\">id<\/a>"
     },
     {
         "id": "170",
@@ -560,7 +560,7 @@ var microblogJsonVar =
         "url": "",
         "tag": "#JavaScript",
         "time": 1695374816,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=170\">id<\/a>"
     },
     {
         "id": "168",
@@ -570,7 +570,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1696606339206652088",
         "tag": "#photo #space",
         "time": 1693820870,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=168\">id<\/a>"
     },
     {
         "id": "167",
@@ -580,7 +580,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1697296736773869719",
         "tag": "#photo #space",
         "time": 1693820813,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=167\">id<\/a>"
     },
     {
         "id": "166",
@@ -590,7 +590,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1697249267013001461",
         "tag": "#photo #space",
         "time": 1693762520,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=166\">id<\/a>"
     },
     {
         "id": "164",
@@ -600,7 +600,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1693625978654777552",
         "tag": "#photo #space",
         "time": 1692744152,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=164\">id<\/a>"
     },
     {
         "id": "161",
@@ -610,7 +610,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/chandraxray\/status\/1691917757775003992",
         "tag": "#photo #space",
         "time": 1692262803,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=161\">id<\/a>"
     },
     {
         "id": "158",
@@ -620,7 +620,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NatGeo\/status\/1689309323053211652",
         "tag": "#photo",
         "time": 1691972991,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=158\">id<\/a>"
     },
     {
         "id": "148",
@@ -630,7 +630,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAHubble\/status\/1687463418704355328",
         "tag": "#space",
         "time": 1691287470,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=148\">id<\/a>"
     },
     {
         "id": "136",
@@ -640,7 +640,7 @@ var microblogJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=59Q_lhgGANc",
         "tag": "#music",
         "time": 1690774469,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=136\">id<\/a>"
     },
     {
         "id": "135",
@@ -650,7 +650,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/chandraxray\/status\/1685019459021594625",
         "tag": "#space #photo",
         "time": 1690774015,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=135\">id<\/a>"
     },
     {
         "id": "134",
@@ -660,7 +660,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/natgeowild\/status\/1684926704790237184",
         "tag": "#photo #flower",
         "time": 1690773575,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=134\">id<\/a>"
     },
     {
         "id": "132",
@@ -670,7 +670,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1684204017252020224",
         "tag": "#space #photo",
         "time": 1690773008,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=132\">id<\/a>"
     },
     {
         "id": "129",
@@ -680,7 +680,7 @@ var microblogJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/box-decoration-break",
         "tag": "#CSS",
         "time": 1689652415,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=129\">id<\/a>"
     },
     {
         "id": "125",
@@ -690,7 +690,7 @@ var microblogJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/repeat",
         "tag": "#CSS",
         "time": 1689504832,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=125\">id<\/a>"
     },
     {
         "id": "103",
@@ -700,7 +700,7 @@ var microblogJsonVar =
         "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/CSS\/scroll-padding-top",
         "tag": "#CSS #note",
         "time": 1689439501,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=103\">id<\/a>"
     },
     {
         "id": "102",
@@ -710,7 +710,7 @@ var microblogJsonVar =
         "url": "https:\/\/twitter.com\/NASAWebb\/status\/1679070248924856320",
         "tag": "#space #photo",
         "time": 1689439414,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=102\">id<\/a>"
     },
     {
         "id": "101",
@@ -720,7 +720,7 @@ var microblogJsonVar =
         "url": "",
         "tag": "#CSS #note",
         "time": 1689415882,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=101\">id<\/a>"
     },
     {
         "id": "52",
@@ -730,6 +730,6 @@ var microblogJsonVar =
         "url": "",
         "tag": "#start #end",
         "time": 1682405725,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/microblog\/?id=52\">id<\/a>"
     }
 ]

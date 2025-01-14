@@ -10,7 +10,7 @@ var newsJsonVar =
         "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/134.0\/releasenotes\/",
         "tag": "#browser #app #software",
         "time": 1736454871,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=17\">id<\/a>"
     },
     {
         "id": "16",
@@ -20,7 +20,7 @@ var newsJsonVar =
         "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3le6bze3nus2c",
         "tag": "#SocialNetwork #SocialMedia",
         "time": 1735508959,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=16\">id<\/a>"
     },
     {
         "id": "15",
@@ -30,7 +30,7 @@ var newsJsonVar =
         "url": "https:\/\/theconversation.com\/an-ai-system-has-reached-human-level-on-a-test-for-general-intelligence-heres-what-that-means-246529",
         "tag": "#AI #AGI",
         "time": 1735508925,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=15\">id<\/a>"
     },
     {
         "id": "8",
@@ -40,7 +40,7 @@ var newsJsonVar =
         "url": "https:\/\/docs.bsky.app\/docs\/advanced-guides\/intent-links",
         "tag": "#web #functionality #UI #UX",
         "time": 1734681892,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=8\">id<\/a>"
     },
     {
         "id": "7",
@@ -50,7 +50,7 @@ var newsJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=61JHONRXhjs&t=175s",
         "tag": "#video #search #web",
         "time": 1734681436,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=7\">id<\/a>"
     },
     {
         "id": "6",
@@ -60,7 +60,7 @@ var newsJsonVar =
         "url": "https:\/\/blog.google\/products\/search\/google-year-in-search-2024\/",
         "tag": "#search #trends #web #internet",
         "time": 1733981107,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=6\">id<\/a>"
     },
     {
         "id": "5",
@@ -70,7 +70,7 @@ var newsJsonVar =
         "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3lb3qyu64bs2z",
         "tag": "#SocialMedia #SocialNetwork",
         "time": 1731832727,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=5\">id<\/a>"
     },
     {
         "id": "4",
@@ -80,7 +80,7 @@ var newsJsonVar =
         "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/132.0\/releasenotes\/",
         "tag": "#software #app #update #browser",
         "time": 1730313353,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=4\">id<\/a>"
     },
     {
         "id": "2",
@@ -90,7 +90,7 @@ var newsJsonVar =
         "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3l6sjdebqbx2q",
         "tag": "#SocialMedia #SocialNetwork",
         "time": 1729275139,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=2\">id<\/a>"
     },
     {
         "id": "1",
@@ -100,6 +100,6 @@ var newsJsonVar =
         "url": "https:\/\/bsky.app\/profile\/bsky.app\/post\/3l6dplwluhb2f",
         "tag": "#SocialNetwork #SocialMedia #UI #UX",
         "time": 1728966661,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=1\">id<\/a>"
     }
 ]

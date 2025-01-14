@@ -49,10 +49,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Articles\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | pages: ",
-        "url": "\/pages\/articles.html",
+        "text": "Articles\n\nLong text: article, post. I'm attempting to write something. Mini Blogger. | articles: ",
+        "url": "\/pages\/articles\/index.html",
         "tag": " #text #article #articles #post #page #main",
-        "id": "071b4c1e7f4275631c528903cb38db7b",
+        "id": "6486819bd5e26634f447504b8a0325bd",
         "time": "id"
     },
     {
@@ -343,10 +343,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Links\n\nThe collection of links or bookmarks. | pages: ",
-        "url": "\/pages\/links.html",
+        "text": "Links\n\nThe collection of links or bookmarks. | links: ",
+        "url": "\/pages\/links\/index.html",
         "tag": " #websites #links #bookmark #collection #page #main",
-        "id": "8fcf37c6f1bd4403600e76e9bf43b473",
+        "id": "69a6fd31fcff3790f6063b216ccc0796",
         "time": "id"
     },
     {
@@ -357,10 +357,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Microblog\n\nMicroblog: reposts, likes, technology news, and other. | pages: ",
-        "url": "\/pages\/microblog.html",
+        "text": "Microblog\n\nMicroblog: reposts, likes, technology news, and other. | microblog: ",
+        "url": "\/pages\/microblog\/index.html",
         "tag": " #reposts #likes #post #microblog #blog #page #main",
-        "id": "5d971364fef3299c7fa457368d69370b",
+        "id": "9fd746c7a23f7988f6b4b7f33c7e1716",
         "time": "id"
     },
     {
@@ -413,10 +413,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "News\n\nNews about technology, web design, web development, and programming. | pages: ",
-        "url": "\/pages\/news.html",
+        "text": "News\n\nNews about technology, web design, web development, and programming. | news: ",
+        "url": "\/pages\/news\/index.html",
         "tag": " #news #technology #webdesign #web #design #development #programming #page #main",
-        "id": "333f5c32949f2ddfca89f699d07a4504",
+        "id": "000c7145a1fd0b968040b2690c3f7847",
         "time": "id"
     },
     {
@@ -427,10 +427,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Notes\n\nNotes. notes for quick access. | pages: ",
-        "url": "\/pages\/notes.html",
+        "text": "Notes\n\nNotes. notes for quick access. | notes: ",
+        "url": "\/pages\/notes\/index.html",
         "tag": " #note #notes #page #main",
-        "id": "a0b889bf4136ca4c118e8bdd20be925e",
+        "id": "1a9c3bda06c81fe4f2ed383e58ec265e",
         "time": "id"
     },
     {
@@ -476,10 +476,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Posts\n\nPosts. Personal posts. | pages: ",
-        "url": "\/pages\/posts.html",
+        "text": "Posts\n\nPosts. Personal posts. | posts: ",
+        "url": "\/pages\/posts\/index.html",
         "tag": " #posts #page #main",
-        "id": "302299180b91b84185d5e64a8bd83d76",
+        "id": "53dcd041f945f83e20320e608ec3346f",
         "time": "id"
     },
     {
@@ -648,6 +648,13 @@ var sitemapJsonVar = [
         "url": "\/pages\/sitemap.html",
         "tag": " #site #map #sitemap #search #pages #main",
         "id": "24d448889605999bb8aef2a97f47b251",
+        "time": "id"
+    },
+    {
+        "text": "Sitemap\n\nSite map with all pages or earch on the site, the path to the page is used for the search. (Static search based on JavaScript and JSON data in the variable). | sitemap: ",
+        "url": "\/pages\/sitemap\/index.html",
+        "tag": " #site #map #sitemap #search #pages #main",
+        "id": "d84a1cfb0c884dcfe068b4005ca38410",
         "time": "id"
     },
     {

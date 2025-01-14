@@ -10,7 +10,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#language #learning",
         "time": 1730412483,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=26\">id<\/a>"
     },
     {
         "id": "25",
@@ -20,7 +20,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#SVG #JavaScript #click #navigation #button #dropdown #post",
         "time": 1729037377,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=25\">id<\/a>"
     },
     {
         "id": "24",
@@ -30,7 +30,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#SEO #post",
         "time": 1728892091,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=24\">id<\/a>"
     },
     {
         "id": "23",
@@ -40,7 +40,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#news #WebDesign #post",
         "time": 1728889224,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=23\">id<\/a>"
     },
     {
         "id": "22",
@@ -50,7 +50,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#website #hosting #post",
         "time": 1728858803,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=22\">id<\/a>"
     },
     {
         "id": "21",
@@ -60,7 +60,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#coding #post",
         "time": 1728777453,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=21\">id<\/a>"
     },
     {
         "id": "20",
@@ -70,7 +70,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#WebDesign #minimalism #post",
         "time": 1728771991,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=20\">id<\/a>"
     },
     {
         "id": "19",
@@ -80,7 +80,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#extenstion #update #post #JS #JavaScript",
         "time": 1728729765,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=19\">id<\/a>"
     },
     {
         "id": "17",
@@ -90,7 +90,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#extension #post #update",
         "time": 1728701258,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=17\">id<\/a>"
     },
     {
         "id": "16",
@@ -100,7 +100,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#writing #blog #microblog",
         "time": 1728651423,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=16\">id<\/a>"
     },
     {
         "id": "15",
@@ -110,7 +110,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#writing #article",
         "time": 1728494906,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=15\">id<\/a>"
     },
     {
         "id": "14",
@@ -120,7 +120,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#WebDesign #website",
         "time": 1728375497,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=14\">id<\/a>"
     },
     {
         "id": "13",
@@ -130,7 +130,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#note",
         "time": 1728271611,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=13\">id<\/a>"
     },
     {
         "id": "12",
@@ -140,7 +140,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#UI",
         "time": 1728271524,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=12\">id<\/a>"
     },
     {
         "id": "11",
@@ -150,7 +150,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#WebDesign",
         "time": 1728257625,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=11\">id<\/a>"
     },
     {
         "id": "10",
@@ -160,7 +160,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#coding",
         "time": 1728227777,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=10\">id<\/a>"
     },
     {
         "id": "9",
@@ -170,7 +170,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#coding #programming",
         "time": 1728223973,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=9\">id<\/a>"
     },
     {
         "id": "8",
@@ -180,7 +180,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#update",
         "time": 1728210175,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=8\">id<\/a>"
     },
     {
         "id": "7",
@@ -190,7 +190,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#update",
         "time": 1728166938,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=7\">id<\/a>"
     },
     {
         "id": "4",
@@ -200,7 +200,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#note",
         "time": 1728163964,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=4\">id<\/a>"
     },
     {
         "id": "3",
@@ -210,7 +210,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#empty",
         "time": 1728163946,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=3\">id<\/a>"
     },
     {
         "id": "2",
@@ -220,7 +220,7 @@ var postsJsonVar =
         "url": "",
         "tag": "#empty",
         "time": 1728163931,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=2\">id<\/a>"
     },
     {
         "id": "1",
@@ -230,6 +230,6 @@ var postsJsonVar =
         "url": "",
         "tag": "#test #tag",
         "time": 1728160210,
-        "rightFooter": ""
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/posts\/?id=1\">id<\/a>"
     }
 ]
