@@ -24,10 +24,16 @@ if(element == 'auto'){ result += '<div class="margin"></div>'; }
 
 
 if(element == theme){
-result += '<div id="'+element+'" class="tehemeListItem highlight borderBottomOrange border3 borderRadius2">'+element+'</div>';
+result += '<div id="' + element + '" class="tehemeListItem highlight borderBottomOrange border3 borderRadius2">' + element +'</div>';
 }else{
-result += '<div id="'+element+'" class="tehemeListItem light2 border3 borderRadius2">'+element+'</div>';
+result += '<div id="' + element + '" class="tehemeListItem light2 border3 borderRadius2">'+element+'</div>';
 }
+
+/*if(element == theme){
+result += '<div id="' + element + '" class="tehemeListItem highlight borderBottomOrange border3 borderRadius2" onmouseover="lMHoverSetTheme(`' + element + '`)">' + element + '</div>';
+}else{
+result += '<div id="' + element + '" class="tehemeListItem light2 border3 borderRadius2" onmouseover="lMHoverSetTheme(`' + element + '`)">'+element+'</div>';
+}*/
 
 });
 
@@ -141,5 +147,8 @@ document.getElementById("confTheme").innerHTML = `
 `;
 
 
-
+//https://stackoverflow.com/questions/49350534/how-to-call-js-function-on-hover-from-html
+function lMHoverSetTheme(lMThemeNameVar){
+fuMSetTheme(lMThemeNameVar);
+}
 

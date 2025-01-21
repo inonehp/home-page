@@ -1,4 +1,4 @@
-// Search redirects v.2.7.17
+// Search redirects v.2.7.19
 // Search query + command
 
 // conf
@@ -854,7 +854,7 @@ if (q == ''){
 urlList = [
 //"https://substack.com/",,
 "https://bsky.app/",
-"https://www.tumblr.com/",
+"https://www.tumblr.com/explore/trending",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1121,24 +1121,6 @@ sRedirectUrl = url;
 break;
 
 
-case 'qq#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"/pages/site-search/?q=" + q,
-];
-if (q == ''){
-urlList = [
-"/pages/site-search/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
 case 'nn#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1188,12 +1170,12 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://search.marginalia.nu/search?query=" + q,
-//"https://mwmbl.org/?q=" + q,
+"https://mwmbl.org/?q=" + q,
 ];
 if (q == ''){
 urlList = [
 "https://search.marginalia.nu/",
-//"https://mwmbl.org/",
+"https://mwmbl.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1253,6 +1235,24 @@ if (q == ''){
 urlList = [
 "https://www.google.com/",
 "https://www.bing.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'qq#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"/pages/site-search/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"/pages/site-search/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

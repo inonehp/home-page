@@ -54,9 +54,8 @@ text-transform: uppercase;
 transform: rotate(-15deg);
 
 display: inline-block;
-color: var(--cRand2);
 
-background: var(--bg);
+background-color: var(--bg);
 border-top: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
 padding-top: 2px;
 top: -30px;
@@ -64,6 +63,8 @@ top: -30px;
 width: 100%;
 max-width: 180px;
 }
+
+.siteName, .siteName a { color: var(--cRand2); }
 
 .siteName::after {
 content: "Home Page";
@@ -206,7 +207,7 @@ transform: rotate(0deg);
 <div class="padding2List"></div>
 
 <div class="siteNameWrapper">
-<h1 class="zero siteName op">Irvirty</h1>
+<h1 class="zero siteName op"><a href="https://bsky.app/profile/irvirty.bsky.social">Irvirty</a></h1>
 </div>
 <div class="tRight">
 
@@ -677,7 +678,7 @@ if (document.getElementById("wpm") != null){
 document.getElementById("wpm").innerHTML = wpm;
 }
 
-dateArr = dateArr.slice(-1000);
+dateArr = dateArr.slice(-500);
 }
 
 </script>

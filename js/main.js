@@ -1,4 +1,4 @@
-// Main js v.6.16.0
+// Main js v.6.16.3
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -435,7 +435,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 </div>
 
 <div class="small tLeft">
-<span class="gray">nav:</span> <span id="footerNav"></span><hr>
+<span class="gray">Nav:</span> <span id="footerNav"></span><hr>
 </div>
 
 </div>

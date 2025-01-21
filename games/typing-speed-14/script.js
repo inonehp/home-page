@@ -1,5 +1,5 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.21.2
-// Note: ignore some modes (none, b2) These modes work only on localhost and have a POST request.
+// Typing Speed Test (WPM) or Typing Speed Game v.3.23.1
+// Note: ignore some modes (i2, b2 ...) These modes work only on localhost and have a POST request.
 
 const wmpAverageLimit = 30;
 const wordLengthLimit = 5.1;
@@ -21,8 +21,8 @@ document.getElementById("stat").innerHTML = `stat`;
 document.getElementById("countSymbolTask").innerHTML = `count symbol`;
 
 document.getElementById('text').value = '';
-
-
+;
+var winMsg = "winMsg";
 
 var task = '';
 var  geturl = window.location;
@@ -51,16 +51,24 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-var modeList = Array("letters", "common", "quote", "book", "input", "free", "none", "b2", "f2",);
+var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "input", "free", "w2", "b2", "i2", /*"f2",*/);
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
 //hide none mode in not localhost
 var skip = '';
-if (location.hostname != 'localhost'&&item == 'none'||location.hostname != 'localhost'&&item == 'b2'||location.hostname != 'localhost'&&item == 'f2'){ skip = 'yes'; }
-if (mode == item && skip != 'yes'){
+if (
+location.hostname != 'localhost'&&item == 'i2'||
+location.hostname != 'localhost'&&item == 'w2'||
+location.hostname != 'localhost'&&item == 'b2'||
+location.hostname != 'localhost'&&item == 'f2'
+){
+skip = 'yes';
+}
+//if (item == 'w2'&&skip != 'yes'){ modeListPrint += `<br>`; }
+if (mode == item&&skip != 'yes'){
 modeListPrint += `
-<a class="tag light4 border2 borderRadius2" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
+<a class="tag light4 border borderRadius2" style="color: var(--c3);" href="?mode=` + item + `">` + item + `</a>
 `;
 } else if (skip != 'yes'){
 modeListPrint += `
@@ -79,7 +87,7 @@ document.getElementById("mode").innerHTML = `
 ${modeListPrint}
 
 <!-- https://developer.mozilla.org/docs/Web/API/Document/getSelection -->
-<a class="op xSmall tag border2 borderRadius2 op" id="bookmarklet" style="display: none;" title="for the panel in the browser" href="javascript:void(window.open('https://${conf["confWebsiteUrl"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
+<a class="tag op light3 border2 borderRadius2" id="bookmarklet" style="display: none;" title="for the panel in the browser" href="javascript:void(window.open('https://${conf["confWebsiteUrl"]}/games/typing-speed-14/?mode=input&q=' + encodeURIComponent(document.getSelection().toString())))">bookmarklet</a>
 
 `;
 
@@ -167,11 +175,52 @@ main(task);
 }
 
 
+if (mode == 'words'||mode == 'w2'){
 
-if (mode == "common"){
+//https://stackoverflow.com/questions/16230886/trying-to-fire-the-onload-event-on-script-tag
+var script2 = document.createElement('script');
+script2.type='text/javascript';
+//script2.async = true;
+script2.charset = 'utf-8';
+script2.src = '../../data/wordJsonVar.js';
+document.getElementsByTagName('head')[0].appendChild(script2);
+
+//script2.onload = (event) => {}
+//https://stackoverflow.com/questions/39155645/multiple-window-onload-functions-with-only-javascript
+window.addEventListener('load', function() {
+
+var word = '';
+var wordLength = 500;
+
+word = wordJsonVar;
+
+
+let wordList = "empty";
+if (word != null){
+word.forEach((item) => {
+wordList += item['text2'].split(`
+`)[0] + ' ';
+});
+
+
+task = fuMShuffleItem(wordList, " ");
+task = task.slice(0, 500);
+main(task);
+}
+
+});
+
+}
+
+
+
+
+
+if (mode == "1k"){
 
 //https://en.wikipedia.org/wiki/Most_common_words_in_English
-let commonWords = `a able about after again all also always am an and any are around as ask at ate away back bad be because been before best better big black blue both bring brown but buy by call came can carry case child clean cold come company could cut day did different do does don't done down draw drink each early eat eight even ever eye fact fall far fast feel few find first five fly for found four from full funny gave get give go goes going good got government great green group grow had hand has have he help her here high him his hold hot how hurt I if important in into is it its jump just keep kind know large last laugh leave let life light like little live long look made make man many may me more most much must my myself never new next no not now number of off oil old on once one only open or other our out over own part people person pick place play please point pretty problem public pull put ran read red ride right round run said same saw say see seem seven shall she show sing sit six sleep small so some soon start stop take tell ten than thank that the their them then there these they thing think this those three time to today together too try two under up upon us use very walk want warm was wash water way we week well went were what when where which white who why will wish with woman word work world would write year yellow yes you young your`;
+//https://en.wiktionary.org/wiki/Appendix:1000_basic_English_words
+let commonWords = `a able about above across act active activity add afraid after again age ago agree air all alone along already also always am amount an and angry another answer any anyone anything anytime appear apple are area arm army around arrive art as ask at ate attack aunt autumn away baby back bad bag ball bank base basket bath be bean bear beautiful because bed bedroom been beer before begin behave behind bell below besides best better between big bird birth birthday bit bite black bleed block blood blow blue board boat body boil bone book border born borrow both bottle bottom bowl box boy branch brave bread break breakfast breathe bridge bright bring brother brown brush build burn bus business busy but buy by cake call came can candle cap car card care careful careless carry case cat catch central century certain chair chance change chase cheap cheese chicken child children chocolate choice choose circle city class clean clear clever climb clock close cloth clothes cloud cloudy coat coffee coin cold collect color comb come comfortable common company compare complete computer condition contain continue control cook cool copper corn corner correct cost could count country course cover crash cross cry cup cupboard cut dance dangerous dark daughter day decide decrease deep deer depend desk destroy develop did different difficult dinner direction dirty discover dish do does dog don't done door double down draw dream dress drink drive drop dry duck dust duty each ear early earn earth east easy eat education effect egg eight either electric elephant else empty end enemy enjoy enough enter entrance equal escape even evening event ever every everybody everyone exact examination example except excited exercise expect expensive explain extremely eye face fact fail fall false family famous far farm fast fat father fault fear feed feel female fever few fight fill film find fine finger finish fire first fish fit five fix flag flat float floor flour flower fly fold food fool foot football for force foreign forest forget forgive fork form found four fox free freedom freeze fresh friend friendly from front fruit full fun funny furniture further future game garden gate gave general gentleman get gift give glad glass go goat god goes going gold good goodbye got government grandfather grandmother grass grave gray great green ground group grow gun had hair half hall hammer hand happen happy hard has hat hate have he head healthy hear heart heaven heavy height hello help hen her here hers hide high hill him his hit hobby hold hole holiday home hope horse hospital hot hotel hour house how hundred hungry hurry hurt husband I ice idea if important in increase inside into introduce invent invite iron is island it its jelly job join juice jump just keep key kind king kitchen knee knife knock know ladder lady lamp land large last late lately laugh lazy lead leaf learn leave left leg lend length less lesson let letter library lie life light like lion lip list listen little live lock lonely long look lose lot love low lower luck machine made main make male man many map mark market marry matter may me meal mean measure meat medicine meet member mention method middle milk million mind minute miss mistake mix model modern moment money monkey month moon more morning most mother mountain mouth move much music must my myself name narrow nation nature near nearly neck need needle neighbor neither net never new news newspaper next nice night nine no noble noise none nor north nose not nothing notice now number obey object ocean of off offer office often oil old on once one only open opposite or orange order other our out outside over own page pain paint pair pan paper parent park part partner party pass past path pay peace pen pencil people pepper per perfect period person petrol photograph piano pick picture piece pig pin pink place plane plant plastic plate play please pleased plenty pocket point poison police polite pool poor popular position possible potato pour power present press pretty prevent price prince prison private prize probably problem produce promise proper protect provide public pull punish pupil push put queen question quick quiet quite radio rain rainy raise ran reach read ready real really receive record red remember remind remove rent repair repeat reply report rest restaurant result return rice rich ride right ring rise road rob rock room round rubber rude rule ruler run rush sad safe said sail salt same sand save saw say school science scissors search seat second see seem sell send sentence serve seven several sex shade shadow shake shall shape share sharp she sheep sheet shelf shine ship shirt shoe shoot shop short should shoulder shout show sick side signal silence silly silver similar simple since sing single sink sister sit six size skill skin skirt sky sleep slip slow small smell smile smoke snow so soap sock soft some someone something sometimes son soon sorry sound soup south space speak special speed spell spend spoon sport spread spring square stamp stand star start station stay steal steam step still stomach stone stop store storm story strange street strong structure student study stupid subject substance successful such sudden sugar suitable summer sun sunny support sure surprise sweet swim sword table take talk tall taste taxi tea teach team tear telephone television tell ten tennis terrible test than thank that the their them then there therefore these they thick thin thing think third this those though threat three tidy tie time title to today toe together tomorrow tonight too tool tooth top total touch town train tram travel tree trouble true trust try turn twice two type ugly uncle under understand unit until up upon us use useful usual usually vegetable very village visit voice wait wake walk want warm was wash waste watch water way we weak wear weather wedding week weight welcome well went were west wet what wheel when where which while white who why wide wife wild will win wind window wine winter wire wise wish with without woman wonder word work world worry would write yard year yell yellow yes yesterday yet you young your zero zoo`;
 
 task = fuMShuffleItem(commonWords, " ");
 task = task.slice(0, 500);
@@ -204,7 +253,7 @@ task = "           abcdefghijklmnopqrstuvwxyz";
 main(task);
 }
 
-if (mode == 'input'||mode == 'none'){
+if (mode == 'input'||mode == 'i2'){
 var tg = '';
 document.getElementById("bookmarklet").style.display = "inline-block";
 
@@ -258,7 +307,6 @@ document.getElementById("bookmarklet").style.display = "none";
 document.getElementById("bookmarklet").style.display = "inline-block";
 
 
-
 function updateValueInput(e) {
 //q = encodeURIComponent(e.target.value);
 let inputText = e.target.value;
@@ -284,8 +332,8 @@ document.getElementById('text').rows = '';
 function fuLtr(lTrTask){
 if (location.hostname == 'localhost'){
 if (lTrTask == undefined){ lTrTask = task; }
-document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" href="/?q=' + encodeURIComponent(lTrTask) + ' d"> tr2</a>';
-document.getElementById("mode2").innerHTML += ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
+document.getElementById("mode2").innerHTML = ' <a class="tag op light3 border2 borderRadius2" href="/?q=' + encodeURIComponent(lTrTask) + ' d"> tr2</a>';
+document.getElementById("mode2").innerHTML += ' <a class="tag op light3 border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
 } else {
 document.getElementById("mode2").innerHTML = ' <a class="tag border2 borderRadius2" title="translate" href="/projects/redirects-25/?q=' + encodeURIComponent(lTrTask) + ' t">tr</a>';
 }
@@ -295,7 +343,7 @@ function typingSpeedTranslate(textForTranslate, mode) {
 
 //console.log(mode300);
 if (location.hostname == 'localhost'){
-if (mode == 'none'||mode == 'b2'||mode == 'f2'){
+if (mode == 'i2'||mode == 'w2'||mode == 'b2'||mode == 'f2'){
 document.getElementById("lPrintTr").style.display = "block";
 
 // source code none
@@ -1056,7 +1104,7 @@ printMsgWin = '';
 
 if (wpmAverageProgress == NaN){ wpmAverageProgress = 0; }
 
-let winMsg = `
+winMsg = `
 
 <div class="wrapper">
 <div class="bg3 padding2 margin2 msg shadow2 tCenter borderRadius2 balance" style="border: 3px dashed  color-mix(in srgb, var(--${printMsgWinColor}) 65%, transparent); margin-bottom: 30px;">
@@ -1080,6 +1128,11 @@ document.getElementsByClassName("win")[0].innerHTML = winMsg;
 document.getElementsByClassName("win")[0].innerHTML = '';
 document.getElementsByClassName("win")[1].innerHTML = '';
 document.getElementById("sound").innerHTML = '';
+
+if (task.length <= answerArr.length){
+document.getElementsByClassName("win")[0].innerHTML = winMsg;
+}
+
 }
 
 
@@ -1115,8 +1168,10 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 document.getElementsByClassName("msg2")[0].innerHTML = `
+<div id="hideMeComment">
 <div class="padding2"></div>
 <div class="op xSmall padding2 tRight pre">* 1 word - ${wordLengthLimit} symbol | average WPM - last ${wmpAverageLimit} | allowed error for result: ${allowError}</div>
+</div>
 `;
 //for your own text use the URL or query: ?q=your text
 

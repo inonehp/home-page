@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Responsive Web Design</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML colors name</title>
 
 <meta name="description" content="
-Example of responsive content using CSS, where the size adapts depending on the screen size.
+HTML colors name
 ">
 <meta name="keywords" content="
-responsive, HTML, mobile, UI, UX,
-CSS, project,
+HTML, colors, name,
+CSS, JavaScript, project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,6 +32,8 @@ CSS, project,
 </noscript>
 <!-- // main -->
 
+<link rel="preload" href="script.js" as="script"> 
+
 <link rel="preload" href="style.css" as="style">
 <link rel="stylesheet" href="style.css" type="text/css">
 
@@ -49,20 +50,34 @@ CSS, project,
 </header>
 </span>
 
-<h1 class="tCenter op insertIconTitle">Responsive Web Design</h1>
 
 <!-- content -->
 <main class="content">
-<div class="wrapperTv">
+<div class="wrapper">
+
+<h1 class="tCenter op insertIconTitle">HTML colors name</h1>
+<!--<div class="tCenter margin4List small op">Experimental, Test, In progress</div>-->
 
 
 
-<div class="localBlock"></div>
-<div class="localBlock2"></div>
-<div class="localBlock3"></div>
-<div class="localBlock4"></div>
+<div class="padding3 border bg">
 
+<form>
+  <div>
+    <input
+      type="search"
+      id="mySearch"
+      name="q"
+      placeholder="Text"
+      size="30">
+<!--<button class="submit">Search</button>-->
+  </div>
+</form>
 
+<br>
+
+<div id="result"></div>
+</div>
 
 </div>
 </main>
@@ -74,8 +89,10 @@ CSS, project,
 <script src="../../js/main.js"></script>
 
 <script>
-fuMSetTheme('light');
+//fuMSetTheme('light');
 </script>
+
+<script src="script.js"></script>
 
 </body>
 </html>

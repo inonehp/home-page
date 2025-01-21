@@ -280,6 +280,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "HTML colors name\n\nHTML colors name | html colors name: ",
+        "url": "\/projects\/html-colors-name-73\/index.html",
+        "tag": " #HTML #colors #name #CSS #JavaScript #project",
+        "id": "3044926f7cdaba2cfe6ec623f49f6f85",
+        "time": "id"
+    },
+    {
         "text": "HTML symbols\n\nHTML symbols collection. | html symbols: ",
         "url": "\/mini-projects\/html-symbols-36\/index.html",
         "tag": " #symbol #symbols #HTML #CSS #project",
@@ -973,6 +980,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Typing speed with the keyboard\n\nTyping speed with the keyboard. 10-Finger Typing Trainer. WPM. | typing speed keyborad: ",
+        "url": "\/games\/typing-speed-keyborad-70\/index.html",
+        "tag": " #typing #speed #10 #finger #trainer #WPM #CSS #JavaScript #project",
+        "id": "baae59c58aff06893032c75688021435",
+        "time": "id"
+    },
+    {
         "text": "UTC Time \/ Clock\n\nA simple ordinary clock, shows the computer (browser) time. | time utc clock: ",
         "url": "\/projects\/time-utc-clock-56\/index.html",
         "tag": " #time #clock #info #JavaScript #project",
@@ -984,6 +998,13 @@ var sitemapJsonVar = [
         "url": "\/pages\/updates.html",
         "tag": " #update #news #new #page #main",
         "id": "85c9c7a785dc790c73270173d4edb785",
+        "time": "id"
+    },
+    {
+        "text": "Virtual Keyboard\n\nVirtual Keyboard | virtual keyboard: ",
+        "url": "\/projects\/virtual-keyboard\/index.html",
+        "tag": " #virtual #keyboard #CSS #JavaScript #project",
+        "id": "c1bbcea888ee5d1b9264588e4f4c62df",
         "time": "id"
     },
     {

@@ -1,35 +1,47 @@
-// Radndom color demo v.1.2.3
-// gen HTML result
+// v.1.0.0
 
 
+function printAllColors(q){
 
-
-
-// limit for demo result
-var lLimit = 250;
-
-
-var lPrint = [];
-
-
-var geturl = window.location;
-var url = new URL(geturl);
-var q = url.searchParams.get("q");
-
-
-/*try{ q = decodeURIComponent(q); }
-catch(err){ }*/
-
-
-if (q != null&&q != 'null'){
-
-if (document.getElementById('lTextarea') != null){
-document.getElementById('lTextarea').value = (q);
+if (document.getElementById("result") != null){
+document.getElementById("result").innerHTML = ""; 
 }
 
-} else {
+var print = ``;
+
+
+/*
 //https://en.wikipedia.org/wiki/Web_colors
-//q  = "transparent,white,silver,gray,black,red,maroon,yellow,olive,lime,green,aqua,teal,blue,navy,fuchsia,purple,violet,pink,navy,rebeccapurple";
+let basicColors = [
+{"text":"White"},
+{"text":"Silver"},
+{"text":"Gray"},
+{"text":"Black"},
+{"text":"Red"},
+{"text":"Maroon"},
+{"text":"Yellow"},
+{"text":"Olive"},
+{"text":"Lime"},
+{"text":"Green"},
+{"text":"Aqua"},
+{"text":"Teal"},
+{"text":"Blue"},
+{"text":"Navy"},
+{"text":"Fuchsia"},
+{"text":"Purple"},
+];
+
+basicColors.forEach((val, index) => {
+//console.log(val + "=" + index);
+print += `
+<div class="colorShow">
+<div class="colorShowItem" style="background-color: ${val['text']}"></div>
+<div class="colorShowName">${val["text"]}</div>
+</div>
+`;
+
+});*/
+
 
 //https://www.w3.org/wiki/CSS/Properties/color/keywords
 let allColors = [
@@ -183,72 +195,46 @@ let allColors = [
 ];
 
 allColors.forEach((val, index) => {
+
+if (q != undefined){
+if ((val["text"] + val["text2"] + val["text3"] + val["text4"]).indexOf(q) != -1){
+
+//console.log(val + "=" + index);
 let colorNameUpper = val["text"][0].toUpperCase() + val["text"].slice(1)
-q += `${val['text']},`;
+print += `
+<div class="colorShow">
+<div class="colorShowItem" style="background-color: ${val['text']}"></div>
+<div class="colorShowName">${colorNameUpper}</div>
+</div>
+`;
+}
+} else {
+//console.log(val + "=" + index);
+let colorNameUpper = val["text"][0].toUpperCase() + val["text"].slice(1)
+print += `
+<div class="colorShow">
+<div class="colorShowItem" style="background-color: ${val['text']}"></div>
+<div class="colorShowName">${colorNameUpper}</div>
+</div>
+`;
+}
+
 });
 
-}
-
-
-
-lDemo(q);
-
-// for demo
-function lDemo(q){
-
-q = fuMClearText(q);
-
-var print = `
-result
-`;
 
 
 if (document.getElementById("result") != null){
-document.getElementById("result").innerHTML = '';
-}
 
-var randColor = 'lime';
-if (document.getElementById("result") != null){
-//document.getElementById("result").innerHTML += `<div class="item borderRadius button small bg4 padding3 border"><h2>color name:</h2></div>`; 
-
-
-let n = 0;
-while (n <= lLimit) {
-randColor = fuRandomColorGenerator(q);
-
-print = `
-
-<div class="item">
-<div class="border light3 shadow borderRadius2 padding">
-<div class="lTransparentBg borderRadius2">
-<div class="borderRadius2 shadow" style="width: 100%; height: 90px; background-color: ${randColor};"></div>
-</div>
-<hr>
-<div class="shadow">
-<div class="border padding2 border" style="background-color: var(--c4); color: ${randColor};">Text test <b>Text test</b></div>
-<div class="border padding2 border" style="background-color: var(--c4R); color: ${randColor};">Text test <b>Text test</b></div>
-</div>
-<div class="padding2 small bold">${randColor}</div>
-</div>
-</div>
-
+print += `
+<br>
+Sources:<br>
+<p>
+- CSS/Properties/color/keywords - W3C Wiki - <a class="brand" href="https://www.w3.org/wiki/CSS/Properties/color/keywords">https://www.w3.org/wiki/CSS/Properties/color/keywords</a><br>
+- Web colors - Wikipedia - <a class="brand" href="https://en.wikipedia.org/wiki/Web_colors">https://en.wikipedia.org/wiki/Web_colors</a>
+</p>
 `;
 
-lPrint.push(print);
-
-
-//document.getElementById("result").innerHTML += print; 
-n++;
-}
-
-//https://stackoverflow.com/questions/1960473/get-all-unique-values-in-a-javascript-array-remove-duplicates
-let lPrintUnique = [...new Set(lPrint)];
-lNaturalSort(lPrintUnique);
-
-//https://stackoverflow.com/questions/12132178/using-join-method-to-convert-array-to-string-without-commas
-document.getElementById("result").innerHTML = lPrintUnique.join(""); 
-
-lPrint = [];
+document.getElementById("result").innerHTML = print; 
 }
 
 }
@@ -256,34 +242,17 @@ lPrint = [];
 
 
 
-// input listener and print result
-if (document.getElementById('lTextarea') != null){
-var inputA = document.getElementById('lTextarea');
-inputA.addEventListener('input', updateValueInput);
-}
-
-function updateValueInput(e) {
-lDemo(e.target.value);
-}
-
-
-
-//https://stackoverflow.com/questions/2802341/natural-sort-of-alphanumerical-strings-in-javascript
-function lNaturalSort(arr){
-var collator = new Intl.Collator(undefined, {numeric: true, sensitivity: 'base'});
-
-return arr.sort(collator.compare);
-}
+printAllColors();
 
 
 
 
-
-
-
-
-
-
+//https://stackoverflow.com/questions/26946235/pure-javascript-listen-to-input-value-change
+document.addEventListener('input', function (e) {
+//console.log(e.target.value);
+let q = e.target.value;
+printAllColors(q);
+});
 
 
 

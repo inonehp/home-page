@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Responsive Web Design</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Typing speed with the keyboard</title>
 
 <meta name="description" content="
-Example of responsive content using CSS, where the size adapts depending on the screen size.
+Typing speed with the keyboard. 10-Finger Typing Trainer. WPM.
 ">
 <meta name="keywords" content="
-responsive, HTML, mobile, UI, UX,
-CSS, project,
+typing, speed, 10, finger, trainer, WPM,
+CSS, JavaScript, project,
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,6 +32,8 @@ CSS, project,
 </noscript>
 <!-- // main -->
 
+<link rel="preload" href="script.js" as="script"> 
+
 <link rel="preload" href="style.css" as="style">
 <link rel="stylesheet" href="style.css" type="text/css">
 
@@ -49,20 +50,27 @@ CSS, project,
 </header>
 </span>
 
-<h1 class="tCenter op insertIconTitle">Responsive Web Design</h1>
 
 <!-- content -->
 <main class="content">
-<div class="wrapperTv">
+<div class="wrapper">
 
+<h1 class="tCenter op insertIconTitle large">Typing speed with the keyboard</h1>
+<div class="tCenter margin4List small op">Experimental, Test, In progress</div>
 
+<div class="padding3 border bg borderRadius">
 
-<div class="localBlock"></div>
-<div class="localBlock2"></div>
-<div class="localBlock3"></div>
-<div class="localBlock4"></div>
+<div class="tCenter">WPM: <span id="wpm" class="orange bold">0</span></div><hr>
+<div id="task">task</div>
 
+<form>
+<!--<label for="story" class="small op">Text:</label>-->
+<input type="text" id="story" autofocus="autofocus">
+<!--<textarea id="story" name="story" rows="3" cols="33"></textarea>-->
+</form>
+</div>
 
+<div id="keyboard"></div>
 
 </div>
 </main>
@@ -74,8 +82,17 @@ CSS, project,
 <script src="../../js/main.js"></script>
 
 <script>
-fuMSetTheme('light');
+//fuMSetTheme('light');
 </script>
+
+<script src="script.js"></script>
+
+<script>
+// config
+let inputId = "story";
+let printId = "keyboard";
+</script>
+<script src="/projects/virtual-keyboard/script.js"></script>
 
 </body>
 </html>

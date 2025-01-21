@@ -2,13 +2,19 @@
 /* comment */
 
 
-.localBlock, .localBlock2, .localBlock3, .localBlock4 {
+.localBlock,
+.localBlock2,
+.localBlock3,
+.localBlock4 {
 width: 100%;
 display: block;
 margin: 0 auto;
-height: 50px;
+min-height: 50px;
 background: var(--indigo);
 margin-bottom: 1px;
+
+
+border: 1px solid var(--d);
 }
 
 .localBlock { max-width: 100px; }
