@@ -1,4 +1,4 @@
-// v.1.0.1
+// v.1.1.0
 //inspired:
 //Free Virtual Keyboard - Free download and install on Windows | Microsoft Store https://apps.microsoft.com/detail/9nblggh35mpc
 //Try Google Input Tools online – Google Input Tools https://www.google.com/inputtools/try/ 
@@ -318,14 +318,11 @@ document.getElementById(printId).innerHTML = printAllKeys;
 }
 
 
-
+/*//fixme very slow and lag
 document.addEventListener('keydown', function(event) {
 //document.getElementById(inputId).addEventListener('keydown', function(event) {
 //console.log(`Key pressed: ${event.key}`);
 //console.log(event.target.nodeName);
-
-
-
 
 let keyPressed = event.key;
 if (keyPressed == "Enter"){ keyPressed = "↵"; }
@@ -380,11 +377,32 @@ vKeyClicked(inputId, String(event.key), upperCaseStatus[0], keyEmpty);
 
 keyPressedMakeAni(keyPressed);
 
-});
+});*/
+
+
+if (document.getElementById(inputId) != null){
+var inputA2 = document.getElementById(inputId);
+inputA2.addEventListener('input', keyPressedLastSymbol);
+//inputA2.addEventListener('change', checkTask);
+//document.getElementById("story").focus();
+}
+
+function keyPressedLastSymbol(e){
+let lastSymbol = e.target.value;
+
+//https://stackoverflow.com/questions/3884632/how-to-get-the-last-character-of-a-string
+keyPressedMakeAni(lastSymbol.slice(-1));
+}
 
 
 
 
+
+
+
+
+
+//function keyPressedMakeAni(keyPressed){}
 function keyPressedMakeAni(keyPressed){
 if (document.getElementById("vKeyId" + keyPressed) != null){
 document.getElementById("vKeyId" + keyPressed).classList.add("vKeyPressedAni");
@@ -399,6 +417,7 @@ document.getElementById("vKeyId" + keyPressed).classList.remove('vKeyPressedAni'
 }
 
 
+//function vKeyClicked(inputId, val, upperCaseStatus2, keyEmpty){}
 function vKeyClicked(inputId, val, upperCaseStatus2, keyEmpty){
 
 
@@ -462,12 +481,6 @@ String.prototype.removeCharAt = function (i) {
 textAll = textAll.removeCharAt(vKeyCursorPos);
 
 
-/*fixme
-//https://developer.mozilla.org/en-US/docs/Web/API/Selection/setPosition
-document.getElementById(inputId).focus();
-const body = document.getElementById(inputId);
-window.getSelection().setPosition(body[0], 0);
-*/
 }
 
 

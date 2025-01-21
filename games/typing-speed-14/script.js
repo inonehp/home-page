@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.23.1
+// Typing Speed Test (WPM) or Typing Speed Game v.3.23.2
 // Note: ignore some modes (i2, b2 ...) These modes work only on localhost and have a POST request.
 
 const wmpAverageLimit = 30;
@@ -22,7 +22,7 @@ document.getElementById("countSymbolTask").innerHTML = `count symbol`;
 
 document.getElementById('text').value = '';
 ;
-var winMsg = "winMsg";
+var winMsg = "";
 
 var task = '';
 var  geturl = window.location;

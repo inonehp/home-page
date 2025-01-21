@@ -15,6 +15,9 @@ let dateArr = [];
 let dateArrLast = [];
 const wordLengthLimit = 5.1;
 
+let roundStatus = "start";
+
+
 function getWpm(e){
 //if (e.target.value == ""){ dateArr = []; } //fixme
 if (dateArrLast[0] == undefined){ dateArrLast[0] =  Date.now(); }
@@ -67,17 +70,163 @@ return task = task[0] + " " + task[1] + " " + task[2] + " " + task[3] + " " + ta
 //console.log(task);
 }
 
-document.getElementById("task").innerHTML = genTask();
+
+var task = genTask();
+var letters = [...task]; 
+document.getElementById("task").innerHTML = task;
 
 
 // WPM v.1.2.0
 if (document.getElementById("story") != null){
 var inputA2 = document.getElementById("story");
 inputA2.addEventListener('input', checkTask);
+//inputA2.addEventListener('change', checkTask);
+//document.getElementById("story").focus();
 }
 
 
 function checkTask(e){
-//
+//console.log(e.target.value);
+
+//document.getElementsByClassName("input")[0].innerHTML = '';
+
+
+let q = e.target.value;
+//let q = document.getElementById("story").value;
+var answerArr = [...q]; // convert input string to array for check
+var text = '';
+
+letters = [...task]; 
+
+
+if ([...q].length >= [...task].length){
+//fuMReload();
+task = genTask();
+letters = [...task]; 
+answerArr = [...q]; 
+text = '';
+document.getElementById("task").innerHTML = task;
+document.getElementById("story").value = "";
+roundStatus = "end";
 }
 
+var error = 0;
+
+var acurancy = 100;
+var errorColor = '';
+var id = 'id0';
+var text11 = '';
+var text33 = '';
+var lastError = '';
+const errorLimit = 500 - 1;
+
+//console.log(answerArr[index] + '=[' + item + ']');
+
+
+letters.forEach(myFunctionCheckAll);
+
+
+
+function myFunctionCheckAll(item, index) {
+
+
+
+//text += item; 
+//console.log(item);
+//console.log(answerArr[index]);
+var check = 'no';
+if (item == answerArr[index]&&error <= errorLimit){
+check = 'yes';
+//id = 'id' + index;
+lastEror = 'green';
+
+item = replaceCode(item);
+text11 += item;
+/*if (item == ' '){
+text11 += item;
+} else {
+text11 += item;
+}*/
+
+
+} else if (item != answerArr[index]&&answerArr[index] != undefined&&error <= errorLimit){
+check = 'yes';
+lastEror = 'red';
+item = replaceCode(item);
+
+switch(item) {
+case '\r\n':
+case '\r':
+case '\n':
+text11 += `<span class="red">⏎\n</span>`;
+break;
+case ' ':
+text11 += '<span style="background-color: var(--red);">' + item + '</span>';
+break;
+default:
+text11 += '<span class="red">' + item + '</span>';
+}
+
+
+//console.log(answerArr.length-1);
+//console.log(index);
+//console.log(answerArr.length - 1 + '=' + index);
+
+/*if (answerArr.length  <= letters.length){
+inputGetKey.onkeydown = function(e) {
+
+if (answerArr.length - 1 == index){
+var key = e.keyCode || e.charCode;
+var key2 = e.key; 
+if (key != '229'&&key != 8&&key != 46&&key2 != 'Backspace'&&key2 != 'Delete' ){
+totalError++;
+}
+// mobile 
+if (key == '229'&&lastMaxInputlength == answerArr.length&&letters[lastMaxInputlength - 1] != answerArr[lastMaxInputlength - 1]){ totalError++; }
+
+}
+}}*/
+	
+	
+/*if (answerArr.length  <= letters.length){
+totalError++;
+}*/
+error++;
+
+}
+
+
+if (check == 'no'){
+text33 += item; 
+}
+
+check = '';
+}
+
+
+
+text = '<span class=" green typeUnderline ">' + text11 + '</span><span id="scrollTo">&#8288;</span>' + replaceCode(text33); //&#8288; - fix webkit jump
+document.getElementById("task").innerHTML = text;
+//document.getElementById("scrollTo").scrollIntoView(true);
+
+if (roundStatus == "end"){
+document.getElementById("task").innerHTML = task;
+roundStatus = "start";
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+function replaceCode(a){
+a = a.replaceAll(/</g, "&lt;");
+a = a.replaceAll(/>/g, "&gt;");
+return a;
+}

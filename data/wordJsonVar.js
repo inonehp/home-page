@@ -4103,11 +4103,6 @@ var wordJsonVar =
         "text3": "tratado"
     },
     {
-        "text": "\u0442\u0440\u0430\u043b",
-        "text2": "trawl",
-        "text3": "red barredera"
-    },
-    {
         "text": "\u0442\u0440\u0430\u043c\u0432\u0430\u0439",
         "text2": "tram",
         "text3": "tranv\u00eda"
