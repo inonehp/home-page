@@ -17,6 +17,7 @@ const wordLengthLimit = 5.1;
 
 let roundStatus = "start";
 
+let taskLimit = 7;
 
 function getWpm(e){
 //if (e.target.value == ""){ dateArr = []; } //fixme
@@ -66,8 +67,20 @@ task = fuMShuffleItem(task, " ");
 //task = task.slice(0, 500);
 
 task = task.split(" ");
-return task = task[0] + " " + task[1] + " " + task[2] + " " + task[3] + " " + task[4] + " " + task[5];
+//return task = task[0] + " " + task[1] + " " + task[2] + " " + task[3] + " " + task[4] + " " + task[5];
 //console.log(task);
+
+let taskTmp = "";
+let n = 0;
+
+while (n < taskLimit) {
+taskTmp += task[n] + " ";
+n++;
+}
+
+return taskTmp.trim();
+
+
 }
 
 
@@ -75,6 +88,7 @@ var task = genTask();
 var letters = [...task]; 
 document.getElementById("task").innerHTML = task;
 
+keyPressedMakeAni(task[0]);
 
 // WPM v.1.2.0
 if (document.getElementById("story") != null){
@@ -88,10 +102,14 @@ inputA2.addEventListener('input', checkTask);
 function checkTask(e){
 //console.log(e.target.value);
 
+
 //document.getElementsByClassName("input")[0].innerHTML = '';
 
 
 let q = e.target.value;
+
+
+
 //let q = document.getElementById("story").value;
 var answerArr = [...q]; // convert input string to array for check
 var text = '';
@@ -109,6 +127,10 @@ document.getElementById("task").innerHTML = task;
 document.getElementById("story").value = "";
 roundStatus = "end";
 }
+
+
+// hint
+//keyPressedMakeAni2(task[q.length]);
 
 var error = 0;
 
@@ -128,6 +150,7 @@ letters.forEach(myFunctionCheckAll);
 
 
 function myFunctionCheckAll(item, index) {
+
 
 
 
@@ -168,7 +191,7 @@ text11 += '<span class="red">' + item + '</span>';
 }
 
 
-//console.log(answerArr.length-1);
+//console.log(answerArr.length - 1);
 //console.log(index);
 //console.log(answerArr.length - 1 + '=' + index);
 

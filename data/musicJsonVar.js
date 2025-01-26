@@ -3,6 +3,16 @@ var musicJsonVar =
 
 [
     {
+        "id": "5777",
+        "text": "Throwing Muses - Dark Blue (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=JgjT-1FFWyQ",
+        "tag": "#music",
+        "time": 1737512964,
+        "rightFooter": ""
+    },
+    {
         "id": "5773",
         "text": "A Bar Song (Tipsy) in Party Bangers 2024: Pop Edition",
         "text2": "",
@@ -11100,16 +11110,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=Xx7N7EJEba0",
         "tag": "#music",
         "time": 1652957054,
-        "rightFooter": ""
-    },
-    {
-        "id": "3431",
-        "text": "Dark Blue \u00b7 Throwing Muses",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/watch?v=F-Pu8s6I7rI",
-        "tag": "#music",
-        "time": 1652957019,
         "rightFooter": ""
     },
     {

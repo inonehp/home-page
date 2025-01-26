@@ -259,7 +259,7 @@ var radioJsonVar =
         "text2": "https:\/\/rozhlas.stream\/ceske_budejovice_high.aac",
         "text3": "mp3",
         "url": "https:\/\/budejovice.rozhlas.cz\/",
-        "tag": "#radio #cz",
+        "tag": "#radio #cz #cs",
         "time": 1683370771,
         "rightFooter": ""
     },
@@ -268,7 +268,7 @@ var radioJsonVar =
         "text2": "https:\/\/rozhlas.stream\/radiozurnal_high.aac",
         "text3": "aac",
         "url": "https:\/\/radiozurnal.rozhlas.cz\/",
-        "tag": "#radio #cz",
+        "tag": "#radio #cz #cs",
         "time": 1701003415,
         "rightFooter": ""
     },
@@ -718,7 +718,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/Cesky-rozhlas-Vltava-1050-s25461\/",
-        "tag": "#radio #cz",
+        "tag": "#radio #cz #cs",
         "time": 1701003739,
         "rightFooter": ""
     },
@@ -826,7 +826,7 @@ var radioJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/tunein.com\/radio\/CRo-Plus-954-s1537\/",
-        "tag": "#radio #cz",
+        "tag": "#radio #cz #cs",
         "time": 1701003718,
         "rightFooter": ""
     },

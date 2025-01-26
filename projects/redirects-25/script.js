@@ -945,6 +945,24 @@ sRedirectUrl = url;
 break;
 
 
+case 'sez#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://search.seznam.cz/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://www.search.seznam.cz/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'we#':
 case 'wet#':
 q = q3.replace(qCom, '');

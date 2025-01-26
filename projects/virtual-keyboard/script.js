@@ -1,10 +1,8 @@
-// v.1.1.0
+// Virtual keyboard v.1.1.3
 //inspired:
 //Free Virtual Keyboard - Free download and install on Windows | Microsoft Store https://apps.microsoft.com/detail/9nblggh35mpc
 //Try Google Input Tools online – Google Input Tools https://www.google.com/inputtools/try/ 
 //Touch typing - Wikipedia https://en.wikipedia.org/wiki/Touch_typing
-//fixme: shift in input and kbr.
-
 
 
 let upperCaseStatus = [];
@@ -42,7 +40,7 @@ var keysRow1 = [
 {"text":"⌫", "text2":"orange"},
 ];
 var keysRow2 = [
-{"text":"↹", "text2":"grey"},
+{"text":"↹", "text2":"green"},
 {"text":"q", "text2":"green"},
 {"text":"w", "text2":"orange"},
 {"text":"e", "text2":"green"},
@@ -58,7 +56,7 @@ var keysRow2 = [
 {"text":"!backslash", "text2":"orange"},
 ];
 var keysRow3 = [
-{"text":"⇪", "text2":"grey"},
+{"text":"⇪", "text2":"green"},
 {"text":"a", "text2":"green"},
 {"text":"s", "text2":"orange"},
 {"text":"d", "text2":"green"},
@@ -86,10 +84,11 @@ var keysRow4 = [
 {"text":"/", "text2":"orange"},
 {"text":"⇧", "text2":"orange"},
 ];
+
 var keysRow5 = [
 {"text":"Ctrl", "text2":"grey"},
 {"text":"Alt", "text2":"grey"},
-{"text":"␣", "text2":"orange"},
+{"text":"␣", "text2":"gray"},
 {"text":"Alt", "text2":"grey"},
 {"text":"Ctrl", "text2":"grey"},
 ];
@@ -163,7 +162,7 @@ keysRow1.forEach((val, index) => {
 if (upperCaseStatus == "on"){
 val["text"] = val["text"].toUpperCase();
 }
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="border-bottom: 4px solid var(--${val["text2"]});">${val["text"]}</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">${val["text"]}</div>`;
 });
 printAllKeys += `<br>`;
 
@@ -172,9 +171,9 @@ if (upperCaseStatus == "on"){
 val["text"] = val["text"].toUpperCase();
 }
 if (val["text"].toLowerCase() == "!backslash"){
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="border-bottom: 4px solid var(--${val["text2"]});">\\</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">\\</div>`;
 } else {
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="border-bottom: 4px solid var(--${val["text2"]});">${val["text"]}</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">${val["text"]}</div>`;
 }
 });
 printAllKeys += `<br>`;
@@ -184,9 +183,9 @@ if (upperCaseStatus == "on"){
 val["text"] = val["text"].toUpperCase();
 }
 if (val["text"].toLowerCase() == "!singlequote"){
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="border-bottom: 4px solid var(--${val["text2"]});">'</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">'</div>`;
 } else {
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="border-bottom: 4px solid var(--${val["text2"]});">${val["text"]}</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">${val["text"]}</div>`;
 }
 });
 printAllKeys += `<br>`;
@@ -195,14 +194,14 @@ keysRow4.forEach((val, index) => {
 if (upperCaseStatus == "on"){
 val["text"] = val["text"].toUpperCase();
 }
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="border-bottom: 4px solid var(--${val["text2"]});">${val["text"]}</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">${val["text"]}</div>`;
 });
 printAllKeys += `<br>`;
 
 
 printAllKeys += `<div class="vKeyRow5">`;
 keysRow5.forEach((val, index) => {
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="border-bottom: 4px solid var(--${val["text2"]});">${val["text"]}</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">${val["text"]}</div>`;
 });
 printAllKeys += `</div>`;
 
@@ -289,20 +288,42 @@ font-size: x-small;
 color: var(--orange);
 background-color: var(--l4);
 }
-  50% {
+50% {
 color: var(--red);
 background-color: var(--l4);
-  }
-  100% {
+}
+100% {
 color: var(--orange);
 background-color: transparent;
-  }
+}
 }
 
 .vKeyPressedAni {
-animation: blink .35s;
+animation: blink .25s;
 }
 
+
+
+
+/* Define the keyframes for the blink animation */
+@keyframes blink2 {
+0% {
+color: var(--c4);
+background-color: var(--l4);
+}
+50% {
+color: var(--c4);
+background-color: var(--l4);
+}
+100% {
+color: var(--c4);
+background-color: var(--l4);
+}
+}
+
+.vKeyPressedAni2 {
+animation: blink2 .25s;
+}
 </style>
 
 
@@ -404,6 +425,9 @@ keyPressedMakeAni(lastSymbol.slice(-1));
 
 //function keyPressedMakeAni(keyPressed){}
 function keyPressedMakeAni(keyPressed){
+
+if (keyPressed == " "){ keyPressed = "␣"; }
+
 if (document.getElementById("vKeyId" + keyPressed) != null){
 document.getElementById("vKeyId" + keyPressed).classList.add("vKeyPressedAni");
 
@@ -412,7 +436,25 @@ setTimeout(() => {
 if (document.getElementById("vKeyId" + keyPressed) != null&&document.getElementById("vKeyId" + keyPressed).classList.contains('vKeyPressedAni')){
 document.getElementById("vKeyId" + keyPressed).classList.remove('vKeyPressedAni');
 }
-}, 350); // 1000 milliseconds = 1 second
+}, 250); // 1000 milliseconds = 1 second
+}
+}
+
+
+//function keyPressedMakeAni(keyPressed){}
+function keyPressedMakeAni2(keyPressed){
+
+if (keyPressed == " "){ keyPressed = "␣"; }
+
+if (document.getElementById("vKeyId" + keyPressed) != null){
+document.getElementById("vKeyId" + keyPressed).classList.add("vKeyPressedAni2");
+
+//Bing Copilot: delay
+setTimeout(() => {
+if (document.getElementById("vKeyId" + keyPressed) != null&&document.getElementById("vKeyId" + keyPressed).classList.contains('vKeyPressedAni2')){
+document.getElementById("vKeyId" + keyPressed).classList.remove('vKeyPressedAni2');
+}
+}, 250); // 1000 milliseconds = 1 second
 }
 }
 
@@ -446,7 +488,7 @@ if (val == "↵"||val.toLowerCase() == "enter"){ val = `
 if (val == "↹"||val == "Tab"){ val = "    "; }
 if (val.toLowerCase() == "ctrl"||val.toLowerCase() == "control"){ val = ""; }
 if (val.toLowerCase() == "alt"||val.toLowerCase() == "altgraph"){ val = ""; }
-if (val.toLowerCase() == "␣"){ val = " "; }
+if (val == "␣"||val.toLowerCase() == " "){ val = " "; }
 if (val.toLowerCase() == "capslock"&&upperCaseStatus[0] == "off"||val == "⇪"&&upperCaseStatus[0] == "off"){
 val = ""; upperCaseStatus[0] = "on"; virtualKeyborad(inputId, printId, "on");
 }

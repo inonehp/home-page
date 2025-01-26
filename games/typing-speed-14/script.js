@@ -3,7 +3,7 @@
 
 const wmpAverageLimit = 30;
 const wordLengthLimit = 5.1;
-const allowError = 50;
+const allowError = 70;
 const whenTypeProgress = 300;
 
 var typeProgress = [];
@@ -265,10 +265,10 @@ document.getElementsByClassName("input")[0].innerHTML = `
 
 <!--<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
 <input type="submit">
-<a href="./" class="submit" onclick="fuMReload();">Reload</a>
+<a href="./" class="submit" onclick="fuMReload();">Reload (submit)</a>
 </div>-->
 
-<a href="./"  class="submit">Reload</a>
+<a href="./"  class="submit">Reload (submit)</a>
 
 </form>
 <div id="input2Status"></div>

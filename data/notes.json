@@ -1,5 +1,15 @@
 [
     {
+        "id": "84",
+        "text": "while - JavaScript | MDN",
+        "text2": "===\r\n\r\nlet n = 0;\r\n\r\nwhile (n < 3) {\r\n  n++;\r\n}\r\n\r\nconsole.log(n);\r\n\/\/ Expected output: 3",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/JavaScript\/Reference\/Statements\/while",
+        "tag": "#code #JavaScript #JS",
+        "time": 1737503913,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=84\">id<\/a>"
+    },
+    {
         "id": "83",
         "text": "Neocities site still using an image I deleted from the file : r\/neocities",
         "text2": "",
