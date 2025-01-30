@@ -1,4 +1,4 @@
-// Virtual keyboard v.1.2.0
+// Virtual keyboard v.1.2.1
 //inspired:
 //Free Virtual Keyboard - Free download and install on Windows | Microsoft Store https://apps.microsoft.com/detail/9nblggh35mpc
 //Try Google Input Tools online – Google Input Tools https://www.google.com/inputtools/try/ 
@@ -44,7 +44,7 @@ var keysRow2 = [
 {"text":"q", "text2":"green", "text3":"c3R"},
 {"text":"w", "text2":"orange", "text3":"c3R"},
 {"text":"e", "text2":"green", "text3":"c3R"},
-{"text":"r", "text2":"orange"},
+{"text":"r", "text2":"orange", "text3":"c3R"},
 {"text":"t", "text2":"orange", "text3":"c3R"},
 {"text":"y", "text2":"green", "text3":"c3R"},
 {"text":"u", "text2":"green", "text3":"c3R"},
