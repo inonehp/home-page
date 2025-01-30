@@ -18,7 +18,6 @@ document.getElementsByClassName("result")[0].innerHTML =  ''
 
 + '<span class="op">navigator.doNotTrack</span><br />' + navigator.doNotTrack + '<hr />'
 + '<span class="op">navigator.globalPrivacyControl</span><br />' + navigator.globalPrivacyControl + '<hr />'
-+ '<span class="op">' + "window.navigator.language" + '</span><br />' + window.navigator.language + '<hr />'
 + '<span class="op">' + "navigator.cookieEnabled" + '</span><br />' + navigator.cookieEnabled + '<hr />'
 + '<span class="op">' + "navigator.hardwareConcurrency" + '</span><br />' + navigator.hardwareConcurrency + '<hr />'
 + '<span class="op">' + "navigator.maxTouchPoints" + '</span><br />' + navigator.maxTouchPoints + '<hr />'
@@ -44,6 +43,7 @@ document.getElementsByClassName("result")[0].innerHTML =  ''
 
 
 + '<span class="op">' + "Intl.DateTimeFormat().resolvedOptions().timeZone"+'</span><br />' + Intl.DateTimeFormat().resolvedOptions().timeZone + '<hr />'
++ '<span class="op">' + "window.navigator.language" + '</span><br />' + window.navigator.language + '<hr />'
 
 + '<span class="op">' + "window.history.length" + '</span><br />' + window.history.length + '<hr />'
 

@@ -1,4 +1,4 @@
-// Virtual keyboard v.1.1.3
+// Virtual keyboard v.1.2.0
 //inspired:
 //Free Virtual Keyboard - Free download and install on Windows | Microsoft Store https://apps.microsoft.com/detail/9nblggh35mpc
 //Try Google Input Tools online – Google Input Tools https://www.google.com/inputtools/try/ 
@@ -23,74 +23,74 @@ let headerStyle = "";
 if (window.innerWidth >= 550/*||conf["confDevice"] != "mobile"*/){
 
 var keysRow1 = [
-{"text":"`", "text2":"green"},
-{"text":"1", "text2":"green"},
-{"text":"2", "text2":"orange"},
-{"text":"3", "text2":"green"},
-{"text":"4", "text2":"orange"},
-{"text":"5", "text2":"orange"},
-{"text":"6", "text2":"green"},
-{"text":"7", "text2":"green"},
-{"text":"8", "text2":"orange"},
-{"text":"9", "text2":"green"},
-{"text":"0", "text2":"orange"},
-{"text":"-", "text2":"orange"},
-{"text":"=", "text2":"orange"},
-{"text":"⌫", "text2":"orange"},
-{"text":"⌫", "text2":"orange"},
+{"text":"`", "text2":"green", "text3":"c3R"},
+{"text":"1", "text2":"green", "text3":"c3R"},
+{"text":"2", "text2":"orange", "text3":"c3R"},
+{"text":"3", "text2":"green", "text3":"c3R"},
+{"text":"4", "text2":"orange", "text3":"c3R"},
+{"text":"5", "text2":"orange", "text3":"c3R"},
+{"text":"6", "text2":"green", "text3":"c3R"},
+{"text":"7", "text2":"green", "text3":"c3R"},
+{"text":"8", "text2":"orange", "text3":"c3R"},
+{"text":"9", "text2":"green", "text3":"c3R"},
+{"text":"0", "text2":"orange", "text3":"c3R"},
+{"text":"-", "text2":"orange", "text3":"c3R"},
+{"text":"=", "text2":"orange", "text3":"c3R"},
+{"text":"⌫", "text2":"orange", "text3":"c3R"},
+{"text":"⌫", "text2":"orange", "text3":"c3R"},
 ];
 var keysRow2 = [
-{"text":"↹", "text2":"green"},
-{"text":"q", "text2":"green"},
-{"text":"w", "text2":"orange"},
-{"text":"e", "text2":"green"},
+{"text":"↹", "text2":"green", "text3":"c3R"},
+{"text":"q", "text2":"green", "text3":"c3R"},
+{"text":"w", "text2":"orange", "text3":"c3R"},
+{"text":"e", "text2":"green", "text3":"c3R"},
 {"text":"r", "text2":"orange"},
-{"text":"t", "text2":"orange"},
-{"text":"y", "text2":"green"},
-{"text":"u", "text2":"green"},
-{"text":"i", "text2":"orange"},
-{"text":"o", "text2":"green"},
-{"text":"p", "text2":"orange"},
-{"text":"[", "text2":"orange"},
-{"text":"]", "text2":"orange"},
-{"text":"!backslash", "text2":"orange"},
+{"text":"t", "text2":"orange", "text3":"c3R"},
+{"text":"y", "text2":"green", "text3":"c3R"},
+{"text":"u", "text2":"green", "text3":"c3R"},
+{"text":"i", "text2":"orange", "text3":"c3R"},
+{"text":"o", "text2":"green", "text3":"c3R"},
+{"text":"p", "text2":"orange", "text3":"c3R"},
+{"text":"[", "text2":"orange", "text3":"c3R"},
+{"text":"]", "text2":"orange", "text3":"c3R"},
+{"text":"!backslash", "text2":"orange", "text3":"c3R"},
 ];
 var keysRow3 = [
-{"text":"⇪", "text2":"green"},
-{"text":"a", "text2":"green"},
-{"text":"s", "text2":"orange"},
-{"text":"d", "text2":"green"},
-{"text":"f", "text2":"orange"},
-{"text":"g", "text2":"orange"},
-{"text":"h", "text2":"green"},
-{"text":"j", "text2":"green"},
-{"text":"k", "text2":"orange"},
-{"text":"l", "text2":"green"},
-{"text":";", "text2":"orange"},
-{"text":"!singlequote", "text2":"orange"},
-{"text":"↵", "text2":"orange"},
+{"text":"⇪", "text2":"green", "text3":"c3R"},
+{"text":"a", "text2":"green", "text3":"c3R"},
+{"text":"s", "text2":"orange", "text3":"c3R"},
+{"text":"d", "text2":"green", "text3":"c3R"},
+{"text":"f", "text2":"orange", "text3":"c3R"},
+{"text":"g", "text2":"orange", "text3":"c3R"},
+{"text":"h", "text2":"green", "text3":"c3R"},
+{"text":"j", "text2":"green", "text3":"c3R"},
+{"text":"k", "text2":"orange", "text3":"c3R"},
+{"text":"l", "text2":"green", "text3":"c3R"},
+{"text":";", "text2":"orange", "text3":"c3R"},
+{"text":"!singlequote", "text2":"orange", "text3":"c3R"},
+{"text":"↵", "text2":"orange", "text3":"c3R"},
 ];
 var keysRow4 = [
-{"text":"⇧", "text2":"green"},
-{"text":"z", "text2":"green"},
-{"text":"x", "text2":"orange"},
-{"text":"c", "text2":"green"},
-{"text":"v", "text2":"orange"},
-{"text":"b", "text2":"orange"},
-{"text":"n", "text2":"green"},
-{"text":"m", "text2":"green"},
-{"text":",", "text2":"orange"},
-{"text":".", "text2":"green"},
-{"text":"/", "text2":"orange"},
-{"text":"⇧", "text2":"orange"},
+{"text":"⇧", "text2":"green", "text3":"c3R"},
+{"text":"z", "text2":"green", "text3":"c3R"},
+{"text":"x", "text2":"orange", "text3":"c3R"},
+{"text":"c", "text2":"green", "text3":"c3R"},
+{"text":"v", "text2":"orange", "text3":"c3R"},
+{"text":"b", "text2":"orange", "text3":"c3R"},
+{"text":"n", "text2":"green", "text3":"c3R"},
+{"text":"m", "text2":"green", "text3":"c3R"},
+{"text":",", "text2":"orange", "text3":"c3R"},
+{"text":".", "text2":"green", "text3":"c3R"},
+{"text":"/", "text2":"orange", "text3":"c3R"},
+{"text":"⇧", "text2":"orange", "text3":"c3R"},
 ];
 
 var keysRow5 = [
-{"text":"Ctrl", "text2":"grey"},
-{"text":"Alt", "text2":"grey"},
-{"text":"␣", "text2":"gray"},
-{"text":"Alt", "text2":"grey"},
-{"text":"Ctrl", "text2":"grey"},
+{"text":"Ctrl", "text2":"grey", "text3":"c3R"},
+{"text":"Alt", "text2":"grey", "text3":"c3R"},
+{"text":"␣", "text2":"gray", "text3":"c3R"},
+{"text":"Alt", "text2":"grey", "text3":"c3R"},
+{"text":"Ctrl", "text2":"grey", "text3":"c3R"},
 ];
 
 
@@ -98,57 +98,57 @@ var keysRow5 = [
 
 
 var keysRow1 = [
-{"text":"1", "text2":"d2"},
-{"text":"2", "text2":"d2"},
-{"text":"3", "text2":"d2"},
-{"text":"4", "text2":"d2"},
-{"text":"5", "text2":"d2"},
-{"text":"6", "text2":"d2"},
-{"text":"7", "text2":"d2"},
-{"text":"8", "text2":"d2"},
-{"text":"9", "text2":"d2"},
-{"text":"0", "text2":"d2"},
+{"text":"1", "text2":"l2", "text3":"c3"},
+{"text":"2", "text2":"l2", "text3":"c3"},
+{"text":"3", "text2":"l2", "text3":"c3"},
+{"text":"4", "text2":"l2", "text3":"c3"},
+{"text":"5", "text2":"l2", "text3":"c3"},
+{"text":"6", "text2":"l2", "text3":"c3"},
+{"text":"7", "text2":"l2", "text3":"c3"},
+{"text":"8", "text2":"l2", "text3":"c3"},
+{"text":"9", "text2":"l2", "text3":"c3"},
+{"text":"0", "text2":"l2", "text3":"c3"},
 ];
 var keysRow2 = [
-{"text":"q", "text2":"d2"},
-{"text":"w", "text2":"d2"},
-{"text":"e", "text2":"d2"},
-{"text":"r", "text2":"d2"},
-{"text":"t", "text2":"d2"},
-{"text":"y", "text2":"d2"},
-{"text":"u", "text2":"d2"},
-{"text":"i", "text2":"d2"},
-{"text":"o", "text2":"d2"},
-{"text":"p", "text2":"d2"},
+{"text":"q", "text2":"l2", "text3":"c3"},
+{"text":"w", "text2":"l2", "text3":"c3"},
+{"text":"e", "text2":"l2", "text3":"c3"},
+{"text":"r", "text2":"l2", "text3":"c3"},
+{"text":"t", "text2":"l2", "text3":"c3"},
+{"text":"y", "text2":"l2", "text3":"c3"},
+{"text":"u", "text2":"l2", "text3":"c3"},
+{"text":"i", "text2":"l2", "text3":"c3"},
+{"text":"o", "text2":"l2", "text3":"c3"},
+{"text":"p", "text2":"l2", "text3":"c3"},
 ];
 var keysRow3 = [
-{"text":"a", "text2":"d2"},
-{"text":"s", "text2":"d2"},
-{"text":"d", "text2":"d2"},
-{"text":"f", "text2":"d2"},
-{"text":"g", "text2":"d2"},
-{"text":"h", "text2":"d2"},
-{"text":"j", "text2":"d2"},
-{"text":"k", "text2":"d2"},
-{"text":"l", "text2":"d2"},
+{"text":"a", "text2":"l2", "text3":"c3"},
+{"text":"s", "text2":"l2", "text3":"c3"},
+{"text":"d", "text2":"l2", "text3":"c3"},
+{"text":"f", "text2":"l2", "text3":"c3"},
+{"text":"g", "text2":"l2", "text3":"c3"},
+{"text":"h", "text2":"l2", "text3":"c3"},
+{"text":"j", "text2":"l2", "text3":"c3"},
+{"text":"k", "text2":"l2", "text3":"c3"},
+{"text":"l", "text2":"l2", "text3":"c3"},
 ];
 var keysRow4 = [
-{"text":"⇧", "text2":"d2"},
-{"text":"z", "text2":"d2"},
-{"text":"x", "text2":"d2"},
-{"text":"c", "text2":"d2"},
-{"text":"v", "text2":"d2"},
-{"text":"b", "text2":"d2"},
-{"text":"n", "text2":"d2"},
-{"text":"m", "text2":"d2"},
-{"text":"⌫", "text2":"d2"},
+{"text":"⇧", "text2":"l2", "text3":"c3"},
+{"text":"z", "text2":"l2", "text3":"c3"},
+{"text":"x", "text2":"l2", "text3":"c3"},
+{"text":"c", "text2":"l2", "text3":"c3"},
+{"text":"v", "text2":"l2", "text3":"c3"},
+{"text":"b", "text2":"l2", "text3":"c3"},
+{"text":"n", "text2":"l2", "text3":"c3"},
+{"text":"m", "text2":"l2", "text3":"c3"},
+{"text":"⌫", "text2":"l2", "text3":"c3"},
 ];
 var keysRow5 = [
-{"text":"↵", "text2":"d2"},
-{"text":",", "text2":"d2"},
-{"text":"␣", "text2":"d2"},
-{"text":".", "text2":"d2"},
-{"text":"↵", "text2":"d2"},
+{"text":"↵", "text2":"l2", "text3":"c3"},
+{"text":",", "text2":"l2", "text3":"c3"},
+{"text":"␣", "text2":"l2", "text3":"c3"},
+{"text":".", "text2":"l2", "text3":"c3"},
+{"text":"↵", "text2":"l2", "text3":"c3"},
 ];
 
 }
@@ -162,7 +162,7 @@ keysRow1.forEach((val, index) => {
 if (upperCaseStatus == "on"){
 val["text"] = val["text"].toUpperCase();
 }
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">${val["text"]}</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--${val["text3"]});">${val["text"]}</div>`;
 });
 printAllKeys += `<br>`;
 
@@ -171,9 +171,9 @@ if (upperCaseStatus == "on"){
 val["text"] = val["text"].toUpperCase();
 }
 if (val["text"].toLowerCase() == "!backslash"){
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">\\</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--${val["text3"]});">\\</div>`;
 } else {
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">${val["text"]}</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--${val["text3"]});">${val["text"]}</div>`;
 }
 });
 printAllKeys += `<br>`;
@@ -183,9 +183,9 @@ if (upperCaseStatus == "on"){
 val["text"] = val["text"].toUpperCase();
 }
 if (val["text"].toLowerCase() == "!singlequote"){
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">'</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--${val["text3"]});">'</div>`;
 } else {
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">${val["text"]}</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--${val["text3"]});">${val["text"]}</div>`;
 }
 });
 printAllKeys += `<br>`;
@@ -194,14 +194,14 @@ keysRow4.forEach((val, index) => {
 if (upperCaseStatus == "on"){
 val["text"] = val["text"].toUpperCase();
 }
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">${val["text"]}</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--${val["text3"]});">${val["text"]}</div>`;
 });
 printAllKeys += `<br>`;
 
 
 printAllKeys += `<div class="vKeyRow5">`;
 keysRow5.forEach((val, index) => {
-printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--c3R);">${val["text"]}</div>`;
+printAllKeys += `<div id="vKeyId${val["text"]}" class="vKey" onclick="vKeyClicked('${inputId}', '${val["text"]}');return false;" style="background-color: var(--${val["text2"]}); color: var(--${val["text3"]});">${val["text"]}</div>`;
 });
 printAllKeys += `</div>`;
 

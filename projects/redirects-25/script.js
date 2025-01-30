@@ -1,4 +1,4 @@
-// Search redirects v.2.7.19
+// Search redirects v.2.7.21
 // Search query + command
 
 // conf
@@ -372,7 +372,7 @@ q = encodeURIComponent(q);
 urlList = [
 "https://search.creativecommons.org/search?q=" + q + "&license=cc0,pdm",
 "https://www.google.com/search?q=" + q + "&tbm=isch&tbs=il:cl",
-"https://www.bing.com/images/search?q=" + q + "&qft=+filterui:license-L1",
+"https://www.bing.com/images/search?q=" + q + "&qft=+filterui:license-L1&form=somesite",
 ];
 random = urlList[fuMRandom(0, urlList.length - 1)];
 url = random;
@@ -468,7 +468,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&tbm=nws",
-"https://www.bing.com/news/search?q=" + q + "&FORM=somesite",
+"https://www.bing.com/news/search?q=" + q + "&form=somesite",
 ];
 if (q == ''){
 urlList = [
@@ -488,7 +488,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q=" + q + "&tbm=nws",
-"https://www.bing.com/news/search?q=" + q + "&FORM=somesite",
+"https://www.bing.com/news/search?q=" + q + "&form=somesite",
 ];
 if (q == ''){
 urlList = [
@@ -684,6 +684,24 @@ sRedirectUrl = url;
 break;
 
 
+case 'u#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://" + q,
+];
+if (q == ''){
+urlList = [
+"https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'vim#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -751,6 +769,28 @@ if (q == ''){
 urlList = [
 "https://www.google.com/videohp",
 "https://www.bing.com/videos/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'vo#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://vimeo.com/search?q=" + q,
+"https://www.dailymotion.com/search/" + q + "/videos",
+"https://sepiasearch.org/search?search=" + q + "&resultType=videos",
+];
+if (q == ''){
+urlList = [
+"https://vimeo.com/channels/staffpicks/",
+"https://www.dailymotion.com/",
+"https://joinpeertube.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -927,24 +967,6 @@ sRedirectUrl = url;
 break;
 
 
-case 'mwm#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://mwmbl.org/?q=" + q,
-];
-if (q == ''){
-urlList = [
-"https://mwmbl.org/",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
 case 'sez#':
 q = q3.replace(qCom, '');
 q = q.trim();
@@ -1084,7 +1106,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez1%22",
+"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez1%22&form=somesite",
 "https://www.google.com/search?q=" + q + "&tbs=qdr:d",
 ];
 if (q == ''){
@@ -1104,7 +1126,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez2%22",
+"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez2%22&form=somesite",
 "https://www.google.com/search?q=" + q + "&tbs=qdr:w",
 ];
 if (q == ''){
@@ -1124,7 +1146,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez3%22",
+"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez3%22&form=somesite",
 "https://www.google.com/search?q="+ q + "&tbs=qdr:m",
 ];
 if (q == ''){
@@ -1188,12 +1210,12 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://search.marginalia.nu/search?query=" + q,
-"https://mwmbl.org/?q=" + q,
+//"https://mwmbl.org/?q=" + q,
 ];
 if (q == ''){
 urlList = [
 "https://search.marginalia.nu/",
-"https://mwmbl.org/",
+//"https://mwmbl.org/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1226,7 +1248,7 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.google.com/search?q="+ q + "&udm=14",
-//"https://www.bing.com/search?q="+ q,
+//"https://www.bing.com/search?q="+ q + "&form=somesite"
 //"?q=" + q + " o",
 ];
 if (q == ''){
@@ -1280,6 +1302,8 @@ break;
 
 
 case 'q#':
+case 'qr#':
+case 'rse#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);

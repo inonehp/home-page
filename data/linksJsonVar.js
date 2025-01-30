@@ -3,6 +3,36 @@ var linksJsonVar =
 
 [
     {
+        "id": "222",
+        "text": "Wikipedia, the free encyclopedia",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/en.wikipedia.org\/wiki\/Main_Page",
+        "tag": "#encyclopedia #docs #info #information #articles",
+        "time": 1738027714,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=222\">id<\/a>"
+    },
+    {
+        "id": "221",
+        "text": "Google Chrome - The Fast & Secure Web Browser Built to be Yours",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.google.com\/chrome\/",
+        "tag": "#software #app #browser #web #internet",
+        "time": 1738027401,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=221\">id<\/a>"
+    },
+    {
+        "id": "220",
+        "text": "Get Firefox for desktop \u2014 Mozilla (US)",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.mozilla.org\/en-US\/firefox\/new\/",
+        "tag": "#software #app #browser #web #internet",
+        "time": 1738027199,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=220\">id<\/a>"
+    },
+    {
         "id": "219",
         "text": "News and current affairs from Germany and around the world \u2013 DW",
         "text2": "",
@@ -201,16 +231,6 @@ var linksJsonVar =
         "tag": "#app #software #video #tool",
         "time": 1729849977,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=199\">id<\/a>"
-    },
-    {
-        "id": "198",
-        "text": "Debian -- The Universal Operating System",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.debian.org\/",
-        "tag": "#app #software #OS #system",
-        "time": 1729849938,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=198\">id<\/a>"
     },
     {
         "id": "197",
@@ -1391,16 +1411,6 @@ var linksJsonVar =
         "tag": "#WebDesign #inspiration #catalog",
         "time": 1705746487,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=18\">id<\/a>"
-    },
-    {
-        "id": "15",
-        "text": "Wiki - Wikipedia",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/en.wikipedia.org\/wiki\/Wiki",
-        "tag": "#encyclopedia #docs",
-        "time": 1705744326,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=15\">id<\/a>"
     },
     {
         "id": "14",

@@ -1,13 +1,13 @@
-/* Main style v.19.0.8
-/* main.css + themes */
-/* The style is mostly based on classes: */
+/* Main style v.19.0.3
+Mini CSS framework: main.css + auto.css (auto light dark theme) */
 
 /* Main */
-* { color-scheme: light dark; } /* view-source:about:blank, fixed blink */
+/* view-source:about:blank, fixed blink */
+* { color-scheme: light dark; }
 
 :root{
 /* .brand - link, accent color (red, orange, yellow, green, blue, indigo, violet) */
---brandColor: color-mix(in srgb, var(--blue) 80%, var(--indigo));
+--brandColor: color-mix(in srgb, var(--blue) 80%, var(--green));
 
 --bodyPadding: 3vw;
 --inputHeight: 45px;
@@ -28,11 +28,6 @@
 --padding3: 16px;
 --padding4: 32px;
 
---margin: 5px;
---margin2: 11px;
---margin3: 16px;
---margin4: 32px;
-
 --borderRadius: 3px;
 --borderRadius2: 5px;
 --borderRadius3: 15px;
@@ -46,10 +41,11 @@
 }
 
 html, body, a, input, button, textarea, pre, code, select{
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Ubuntu", Helvetica, Arial, sans-serif; /* (Twitter font) */
+/* (X, Twitter) */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 'Roboto', Helvetica, Arial, sans-serif;
 
 font-style: normal;
-font-size: 13.4px; font-size: 0.96em; font-size: 0.9375em;
+font-size: 13.4px; font-size: 14px; font-size: 0.96em;
 text-decoration: none;
 /*testme delme letter-spacing: 0.16px;*/
 /*hyphens: auto;*/
@@ -58,7 +54,9 @@ overflow-wrap: break-word;
 }
 
 /*@media (hover: none) {
-}*/
+html, body, a, input, button, textarea, pre, code{
+font-size: 1em;
+}}*/
 
 /*@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }*/
 html, body { margin: 0 auto; padding: 0; }
@@ -86,7 +84,6 @@ overflow-y: scroll;
 .postContentCenter { flex: 1 0 auto; }
 .page { min-height: 100vh; }
 
-/* need wrapper */
 .contentCenter, .postContentCenter {
 display: flex;
 flex-direction: column;
@@ -395,7 +392,6 @@ filter: invert(100%);
 .tLeft { text-align: left; }
 .tRight { text-align: right; }
 .tCenter { text-align: center; }
-.reverse { transform: scale(-1, 1); }
 .b, .b a, .bold, .bold a { font-weight: bold; }
 .normal, .normal a { font-weight: normal; font-size: unset; }
 .unser, .unser a { font-size: unset; }
@@ -458,15 +454,15 @@ padding-right: 0;
 .padding4List { padding-bottom: var(--padding4); }
 .padding1PxList { padding-bottom: 1px; }
 
-.margin { margin: var(--margin); }
-.margin2 { margin: var(--margin2); }
-.margin3 { margin: var(--margin3); }
-.margin4 { margin: var(--margin4); }
+.margin { margin: var(--padding); }
+.margin2 { margin: var(--padding2); }
+.margin3 { margin: var(--padding3); }
+.margin4 { margin: var(--padding4); }
 .margin1Px { margin: 1px; }
-.marginList { margin-bottom: var(--margin); }
-.margin2List { margin-bottom: var(--margin2); }
-.margin3List { margin-bottom: var(--margin3); }
-.margin4List { margin-bottom: var(--margin4); }
+.marginList { margin-bottom: var(--padding); }
+.margin2List { margin-bottom: var(--padding2); }
+.margin3List { margin-bottom: var(--padding3); }
+.margin4List { margin-bottom: var(--padding4); }
 .margin1PxList { margin-bottom: 1px; }
 
 .inputHeight { min-height: var(--inputHeight); }
@@ -727,4 +723,5 @@ input[type="color"], form button { vertical-align: middle; min-height: var(--inp
 }
 .reduceLight2 { filter:brightness(70%); }
 /*.reduceLight:hover, .reduceLigh2:hover { filter: brightness(90%); }*/
+
 

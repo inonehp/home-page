@@ -151,9 +151,6 @@ letters.forEach(myFunctionCheckAll);
 
 function myFunctionCheckAll(item, index) {
 
-
-
-
 //text += item; 
 //console.log(item);
 //console.log(answerArr[index]);
@@ -195,7 +192,8 @@ text11 += '<span class="red">' + item + '</span>';
 //console.log(index);
 //console.log(answerArr.length - 1 + '=' + index);
 
-/*if (answerArr.length  <= letters.length){
+/*
+if (answerArr.length  <= letters.length){
 inputGetKey.onkeydown = function(e) {
 
 if (answerArr.length - 1 == index){

@@ -532,10 +532,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Random Symbols or Password Generator\n\nThe page generates random letters, symbols, and numbers that can be used for a password. | random symbol: ",
-        "url": "\/projects\/random-symbol-23\/index.html",
+        "text": "Random Symbols or Password Generator\n\nThe page generates random letters, symbols, and numbers that can be used for a password. | random symbols: ",
+        "url": "\/projects\/random-symbols-23\/index.html",
         "tag": " #symbol #random #generator #tool #letter #symbols #password #JavaScript #project",
-        "id": "f9afaedf6d63c66a1f2920253155da42",
+        "id": "f0ea68a06b9b5d51c994b2c305b75624",
         "time": "id"
     },
     {

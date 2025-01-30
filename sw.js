@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.01.26";
+//var myCacheVersion = "v.1.2.2025.01.30";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.01.26").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.01.30").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -558,6 +558,18 @@ var fileListArr = ["/404.html",
 "/pages/chrome-extensions/stop-loading-website-7/screenshot.png",
 "/pages/chrome-extensions/stop-loading-website-7/script.js",
 "/pages/chrome-extensions/stop-loading-website-7/style.css",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/README.md",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/auto.css",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/icon512x512.png",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/icon512x512.svg",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/main.css",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/manifest.json",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/options.html",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/options.js",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/screenshot.png",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/script.js",
+"/pages/chrome-extensions/stop-loading-website-7 (copy 1)/style.css",
 "/pages/chrome-extensions/url-redirect-6/README.md",
 "/pages/chrome-extensions/url-redirect-6/",
 "/pages/chrome-extensions/url-redirect-6/auto.css",
@@ -1115,6 +1127,10 @@ var fileListArr = ["/404.html",
 "/projects/demo-test-style-ui-60/",
 "/projects/demo-test-style-ui-60/script.js",
 "/projects/demo-test-style-ui-60/style.css",
+"/projects/disqus-comment-74/index.html",
+"/projects/disqus-comment-74/",
+"/projects/disqus-comment-74/script.js",
+"/projects/disqus-comment-74/style.css",
 "/projects/drawing-7/index.html",
 "/projects/drawing-7/",
 "/projects/drawing-7/script.js",
@@ -1193,10 +1209,10 @@ var fileListArr = ["/404.html",
 "/projects/random-color-generator-51/index.html",
 "/projects/random-color-generator-51/script.js",
 "/projects/random-color-generator-51/style.css",
-"/projects/random-symbol-23/index.html",
-"/projects/random-symbol-23/",
-"/projects/random-symbol-23/script.js",
-"/projects/random-symbol-23/style.css",
+"/projects/random-symbols-23/index.html",
+"/projects/random-symbols-23/",
+"/projects/random-symbols-23/script.js",
+"/projects/random-symbols-23/style.css",
 "/projects/random-text-generator-24/index.html",
 "/projects/random-text-generator-24/",
 "/projects/random-text-generator-24/script.js",
@@ -1348,7 +1364,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.01.26")
+caches.open("v.1.2.2025.01.30")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1374,7 +1390,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.01.26")
+caches.open("v.1.2.2025.01.30")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1407,7 +1423,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.01.26"];
+  const cachesToKeep = ["v.1.2.2025.01.30"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>
