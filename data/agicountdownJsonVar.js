@@ -3,6 +3,16 @@ var agicountdownJsonVar =
 
 [
     {
+        "id": "31",
+        "text": "Masayoshi Son at Tokyo today: Just a year ago, I thought AGI would arrive in 10 years. A few months after that, I said it would arrive in 2\u20133 years. But now, I want to correct it by saying it will arrive sooner than that. I would also like to say that AGI will first be announced in Japan. : r\/singularity",
+        "text2": "2026",
+        "text3": "",
+        "url": "https:\/\/www.reddit.com\/r\/singularity\/comments\/1igkk9r\/masayoshi_son_at_tokyo_today_just_a_year_ago_i\/",
+        "tag": "#post",
+        "time": 1738575429,
+        "rightFooter": ""
+    },
+    {
         "id": "30",
         "text": "HOLY SHIT : r\/singularity",
         "text2": "2024 2025",

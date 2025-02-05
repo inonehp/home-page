@@ -3,6 +3,56 @@ var musicJsonVar =
 
 [
     {
+        "id": "5784",
+        "text": "Lipstick \u00b7 Alesha Dixon",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=myBU8tfMsIE",
+        "tag": "#music",
+        "time": 1738663266,
+        "rightFooter": ""
+    },
+    {
+        "id": "5783",
+        "text": "Alesha Dixon - The Boy Does Nothing [Strictly Come Dancing live] - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=C2Epp3CeA1A",
+        "tag": "#music",
+        "time": 1738663114,
+        "rightFooter": ""
+    },
+    {
+        "id": "5782",
+        "text": "Alesha Dixon - The Way We Are - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=7_BOhZ8wrr4",
+        "tag": "#music",
+        "time": 1738662846,
+        "rightFooter": ""
+    },
+    {
+        "id": "5781",
+        "text": "Pharrell Williams, Miley Cyrus - Doctor (Work It Out) (Official Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=xWkqjXjD73E",
+        "tag": "#music",
+        "time": 1738662597,
+        "rightFooter": ""
+    },
+    {
+        "id": "5780",
+        "text": "Miley Cyrus - The Backyard Sessions - \"Jolene\" - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=wOwblaKmyVw",
+        "tag": "#music",
+        "time": 1738662499,
+        "rightFooter": ""
+    },
+    {
         "id": "5777",
         "text": "Throwing Muses - Dark Blue (Official Video) - YouTube",
         "text2": "",

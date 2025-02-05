@@ -1,4 +1,6 @@
-// UTC time v.1.0.0
+// UTC time v.1.0.1
+
+let titleTmp = document.title;
 
 function fuClock(id){
 
@@ -17,8 +19,8 @@ let seconds = normalize(time.getUTCSeconds());
 //console.log(hours+' '+minutes+' '+seconds);
 
 
-document.getElementById('result').innerHTML = hours+':'+minutes+':'+seconds;
-document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds;
+document.getElementById('result').innerHTML = hours + ':' + minutes + ':' + seconds;
+document.getElementsByTagName('title')[0].innerHTML = hours + ':' + minutes + ':' + seconds + ' - ' + titleTmp;
 }
 
 fuClock();

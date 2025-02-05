@@ -1,4 +1,4 @@
-// Stopwatch v.1.4.6
+// Stopwatch v.1.4.7
 // inspired by Google Clock
 
 var secArr = [];
@@ -8,27 +8,29 @@ comArr[0] = 'start';
 
 var lStopArr = [];
 
+let titleTmp = document.title;
+
 function fuStopwatchCom(com){
 
 
 
-if(com == 'pause'){ comArr[0] = 'pause'; }
-if(com == 'stop'&&comArr[0] != 'pause'){ comArr[0] = 'stop'; }
-if(com == 'continue'){ comArr[0] = 'continue'; }
-if(com == 'refresh'){
+if (com == 'pause'){ comArr[0] = 'pause'; }
+if (com == 'stop'&&comArr[0] != 'pause'){ comArr[0] = 'stop'; }
+if (com == 'continue'){ comArr[0] = 'continue'; }
+if (com == 'refresh'){
 secArr[0] = 0;  comArr[0] = 'refresh'; lStopArr = [];
 document.getElementById('result3').innerHTML = '';
 document.getElementById('chart').innerHTML = '';
 }
 
-if(com == 'stop/refresh'){
+if (com == 'stop/refresh'){
 comArr[0] = 'stop/refresh';
 }
 
 // https://stackoverflow.com/questions/457826/pass-parameters-in-setinterval-function
 //fuStopwatch(com, sec);
 
-if(comArr[0] != 'pause'){
+if (comArr[0] != 'pause'){
 document.getElementById('panel').innerHTML = `
 <a class="padding2 margin2" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
 <a class="padding2 margin2" onclick="fuStopwatchCom('pause')" href="#">pause</a>
@@ -37,7 +39,7 @@ document.getElementById('panel').innerHTML = `
 `;
 }
 
-if(comArr[0] == 'pause'){
+if (comArr[0] == 'pause'){
 document.getElementById('panel').innerHTML = `
 <a class="padding2 margin2" onclick="fuStopwatchCom('continue')" href="#">continue</a>
 <a class="padding2 margin2" onclick="fuStopwatchCom('refresh')" href="#">refresh</a>
@@ -63,7 +65,7 @@ setInterval(fuStopwatch, 1000);
 var sec = 0;
 
 function normalize(a){
-if(a <= 9){ a = '0'+a; }
+if (a <= 9){ a = '0'+a; }
 return a;
 }
 
@@ -73,8 +75,8 @@ function fuStopwatch(){
 sec = secArr[0];
 
 
-if(comArr[0] != 'pause'){ secArr[0]++; }
-if(comArr[0] == 'pause'){ sec = secArr[0]; }
+if (comArr[0] != 'pause'){ secArr[0]++; }
+if (comArr[0] == 'pause'){ sec = secArr[0]; }
 
 
 
@@ -93,10 +95,10 @@ let seconds2 = normalize(time2.getSeconds());
 
 var chart = '';
 
-if(comArr[0] == 'stop'||comArr[0] == 'stop/refresh'){
+if (comArr[0] == 'stop'||comArr[0] == 'stop/refresh'){
 let lResult = '';
 lStopArr.push(hours+':'+minutes+':'+seconds);
-if(comArr[0] == 'stop/refresh'){ secArr[0] = 0; chart = '2'; }
+if (comArr[0] == 'stop/refresh'){ secArr[0] = 0; chart = '2'; }
 
 document.getElementById('result3').innerHTML = '';
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
@@ -121,19 +123,19 @@ var element33 = '';
 //https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 lStopArr.reverse().forEach((element, index) => {
 //https://stackoverflow.com/questions/7709803/javascript-get-minutes-between-two-dates
-if(chart != 2){
+if (chart != 2){
 element33 = Math.abs(new Date('2011/10/09 '+lStopArr[index]) - new Date('2011/10/09 '+lStopArr[index + 1]));
-}else{
+} else {
 element33 = Math.abs(new Date('2011/10/09 '+lStopArr[index]) - new Date('2011/10/09 00:00:00'));
 }
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
-if(!isNaN(element33)){
+if (!isNaN(element33)){
 element33 = Math.floor((element33 / 1000)); // sec
 //element33 = Math.floor((element33 / 1000 / 60)); // min
 //element33 = Math.floor((element33 / 1000 / 60 / 60)); // hour
-chartTitle += new String(''+element33+''+',').replaceAll(':', '');
-chartData += new String(''+element33+'')+',';
+chartTitle += new String('' + element33 + '' + ',').replaceAll(':', '');
+chartData += new String('' + element33+'') + ',';
 
 }
 
@@ -142,7 +144,7 @@ chartData += new String(''+element33+'')+',';
 
 
 
-if(chartData != ''){
+if (chartData != ''){
 //https://stackoverflow.com/questions/17720264/remove-last-comma-and-possible-whitespaces-after-the-last-comma-from-the-end-o
 //chartTitle = new String(chartTitle).replace(/,\s*$/, "");
 //chartData = new String(chartTitle).replace(/,\s*$/, "");
@@ -167,14 +169,15 @@ https://quickchart.io/`;*/
 }
 
 
-document.getElementById('result').innerHTML = hours+':'+minutes+':'+seconds;
+
+document.getElementById('result').innerHTML = hours + ':' + minutes + ':' + seconds;
 
 /*
 // sound alert
-if(minutes == '59'&&seconds == '59'){
+if (minutes == '59'&&seconds == '59'){
 document.getElementById('result').innerHTML += '<audio style="display:none" autoplay="false" src="/audio/ok.mp3">';
 }
-if(minutes == '29'&&seconds == '59'){
+if (minutes == '29'&&seconds == '59'){
 document.getElementById('result2').innerHTML += '<audio style="display:none" autoplay="false" src="/audio/click.mp3">';
 }*/
 
@@ -183,7 +186,7 @@ document.getElementById('result2').innerHTML = hours2+':'+minutes2; // result 2 
 
 
 //clock time
-document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds+'';
+document.getElementsByTagName('title')[0].innerHTML = hours + ':' + minutes + ':' + seconds + ' - ' + titleTmp;
 
 
 

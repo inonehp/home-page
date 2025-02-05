@@ -217,6 +217,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Disqus comments\n\nDisqus comments. Comments widget for website. Comments for the web page. | disqus comments: ",
+        "url": "\/projects\/disqus-comments-74\/index.html",
+        "tag": " #disqus #comments #comment #widget #CSS #JavaScript #project",
+        "id": "cb44d565848dd57ee5b48bc2c6952ec5",
+        "time": "id"
+    },
+    {
         "text": "Drawing\n\nA simple web application for drawing. | drawing: ",
         "url": "\/projects\/drawing-7\/index.html",
         "tag": " #draw #drawing #art #tool #HTML5 #drawing #app #WebAppproject",

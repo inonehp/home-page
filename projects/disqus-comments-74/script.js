@@ -1,13 +1,5 @@
-// v.1.0.0
+// v.1.0.1
 
-
-var print = `
-result
-`;
-
-if (document.getElementById("result") != null){
-document.getElementById("result").innerHTML = print; 
-}
 
 function disqusCommnet(disqusShortname, titleStatus, urlStatus){
 var pageTitle = "";

@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.23.2
+// Typing Speed Test (WPM) or Typing Speed Game v.3.23.3
 // Note: ignore some modes (i2, b2 ...) These modes work only on localhost and have a POST request.
 
 const wmpAverageLimit = 30;
@@ -359,7 +359,7 @@ http.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 http.onreadystatechange = function() { //Call a function when the state changes.
 if (http.readyState == 4 && http.status == 200) {
 // alert(http.responseText);
-document.getElementById("lPrintTr").innerHTML = http.responseText + '';
+document.getElementById("lPrintTr").innerHTML = http.responseText;
 }
 
 }
@@ -461,11 +461,14 @@ if (mode == 'letters'){ text = text.replaceAll(/\s{2,}/g, ' '); /* space */ }
 letters = text;
 
 /**/
-// clean text
+// clean text clear
+
+letters = letters.replaceAll(/%E2%81%A0/g, "");
 
 // replace symbol
 //https://www.charset.org/utf-8/66
 //Variation Selector
+
 letters = letters.replaceAll(/%EF%B8%82/g, "");
 letters = letters.replaceAll(/%EF%B8%83/g, "");
 letters = letters.replaceAll(/%EF%B8%84/g, "");
@@ -480,9 +483,9 @@ letters = letters.replaceAll(/%EF%B8%8C/g, "");
 letters = letters.replaceAll(/%EF%B8%8D/g, "");
 letters = letters.replaceAll(/%EF%B8%8E/g, "");
 letters = letters.replaceAll(/%EF%B8%8F/g, "");
-letters = letters.replaceAll(/ ️/g, ' '); //Variation Selector
+letters = letters.replaceAll(/ ️/g, ' '); // Variation Selector
 
-
+letters = letters.replaceAll(/  ️/g, ' '); // Variation Selector
 // normalize
 letters = letters.replaceAll("ʼ", "'");
 

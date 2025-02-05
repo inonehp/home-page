@@ -1,4 +1,4 @@
-// Keep v.3.8.7
+// Keep v.3.8.8
 // Static version of the offline 'keep' script that saves things.
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -801,6 +801,7 @@ if (getP3 <= i){
 if (i3 <= postLimit - 1){
 //printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter, rightFooter);
 if (display == "all"||mode == "search"){
+
 if (postText2 != ''){ postText2 = `
 
 
@@ -809,9 +810,9 @@ if (postText3 != ''){ postText3 = `
 
 
 ` + postText3; };
-var testArr =  fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
 } else {
-var testArr = fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
+printPost += fuPrintPost(postId, '', postText, postTag, postTime, subQforLight, rightFooter);
 }
 }
 i3++;
@@ -888,8 +889,6 @@ if (item['rightFooter'] != null){ rightFooter = item['rightFooter']; }
 postText = (postText + ' ' + postUrl).trim();
 
 let qData = String(postText + ' ' + postText2 + ' ' + postText3 + ' ' + postTag + ' ').toLowerCase();
-
-// many words from space split
 
 qData = (qData + ' ').split(' ');
 

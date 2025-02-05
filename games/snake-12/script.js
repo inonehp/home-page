@@ -1,4 +1,4 @@
-// Snake game v.1.2.3
+// Snake game v.1.2.4
 
 var msg = '';
 
@@ -267,6 +267,8 @@ snakeLenght[0]++;
 food[0] = randomIntFromInterval(1, 100);
 //document.getElementById(currentPosition[0]).innerHTML = `<square2 class="square2" style="background-color: var(--green); border: 1px solid var(--green2);">&nbsp;</square2>`;
 document.getElementById(currentPosition[0]).classList.add("snakeGreen");
+
+document.getElementById("alert").innerHTML = '<audio style="display:none" autoplay="false" src="/audio/click.mp3"></audio>'; 
 }
 
 

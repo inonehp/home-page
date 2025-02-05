@@ -1,4 +1,4 @@
-// Search redirects v.2.7.21
+// Search redirects v.2.7.22
 // Search query + command
 
 // conf
@@ -1153,6 +1153,34 @@ if (q == ''){
 urlList = [
 "https://www.bing.com/",
 "https://www.google.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'qn#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q=" + q + "&tbs=qdr:d",
+"https://www.bing.com/search?q=" + q + "&filters=ex1%3a%22ez1%22&form=somesite",
+"https://marginalia-search.com/search?query=" + q + "&recent=recent",
+"https://bsky.app/search?q=$q",
+"https://www.tumblr.com/search/" + q + "/recent/?postTypes=text%2Clink%2Cquote%2Cpoll%2Cchat",
+"https://wordpress.com/read/search?q=" + q + "&sort=date",
+];
+if (q == ''){
+urlList = [
+"https://www.google.com/",
+"https://www.bing.com/",
+"https://marginalia-search.com/",
+"https://bsky.app/",
+"https://www.tumblr.com/",
+"https://wordpress.com/read/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

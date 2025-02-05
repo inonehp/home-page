@@ -1,6 +1,10 @@
-// Time v.1.0.3
+// Time v.1.0.4
+
+let titleTmp = document.title;
 
 function fuClock(id){
+
+
 
 function normalize(a){
 if(a <= 9){ a = '0' + a; }
@@ -16,8 +20,8 @@ let seconds = normalize(time.getSeconds());
 //console.log(hours+' '+minutes+' '+seconds);
 
 
-document.getElementById('result').innerHTML = hours+':'+minutes+':'+seconds;
-document.getElementsByTagName('title')[0].innerHTML = hours+':'+minutes+':'+seconds;
+document.getElementById('result').innerHTML = hours  +':' + minutes + ':' + seconds;
+document.getElementsByTagName('title')[0].innerHTML = hours + ':' + minutes + ':' + seconds + ' - ' + titleTmp;
 }
 
 fuClock();

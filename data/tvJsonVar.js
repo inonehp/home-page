@@ -21,6 +21,15 @@ var tvJsonVar =
         "rightFooter": ""
     },
     {
+        "text": "BBC Learning English - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/@bbclearningenglish\/featured",
+        "tag": "#TV #learning #english",
+        "time": 1738660330,
+        "rightFooter": ""
+    },
+    {
         "text": "Boxoffice | COMEDIES | Full",
         "text2": "",
         "text3": "",
@@ -259,17 +268,8 @@ var tvJsonVar =
         "text2": "",
         "text3": "",
         "url": "https:\/\/www.youtube.com\/@rtve\/featured",
-        "tag": "#tv #es",
+        "tag": "#TV #es",
         "time": 1689241157,
-        "rightFooter": ""
-    },
-    {
-        "text": "Sherlock Holmes - YouTube",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.youtube.com\/playlist?list=PLcwPqOejfh3oKYMN2dH1KR4nv8Wwnvf10",
-        "tag": "#TV #series",
-        "time": 1713692805,
         "rightFooter": ""
     },
     {

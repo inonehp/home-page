@@ -1,4 +1,4 @@
-// Main js v.6.16.3
+// Main js v.6.16.4
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -11,7 +11,7 @@ conf["confWebsiteUrl"] = "irvirty.pages.dev";
 // wrapper size for navigation, number in px from your CSS
 conf["confWrapperNavWidth"] = 900;
 conf["confMenuItemAverageWidth"] = 120;
-conf["confMenuItemAverageWidth"] = 90;
+conf["confMenuItemAverageWidth"] = 75;
 
 conf["confDomainNameInTitleStatus"] = "on"; // on, off
 conf["confDomainName"] = String((location.hostname).split('.')[0]);
