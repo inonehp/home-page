@@ -1,4 +1,4 @@
-// Search redirects v.2.7.22
+// Search redirects v.2.7.23
 // Search query + command
 
 // conf
@@ -203,7 +203,6 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://wikipedia.org/wiki/Special:Random",
-"https://wordpress.com/next/",
 "https://www.dreamwidth.org/random",
 "https://neocities.org/browse?sort_by=random&tag=",
 "https://search.marginalia.nu/explore/random",
@@ -843,12 +842,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.google.com/search?q=" + q + " site:wordpress.com OR site:blogspot.com OR site:dreamwidth.org",
-"https://www.bing.com/search?q=" + q + " site:wordpress.com OR site:blogspot.com OR site:dreamwidth.org",
+"https://www.google.com/search?q=" + q + " site:blogspot.com OR site:dreamwidth.org",
+"https://www.bing.com/search?q=" + q + " site:blogspot.com OR site:dreamwidth.org",
 ];
 if (q == ''){
 urlList = [
-"https://wordpress.com",
 "https://blogspot.com/",
 "https://dreamwidth.org/",
 ];
@@ -865,12 +863,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.google.com/search?q=" + q + " site:wordpress.com OR site:blogspot.com OR site:dreamwidth.org&tbs=qdr:m",
-"https://www.bing.com/search?q=" + q + " site:wordpress.com OR site:blogspot.com OR site:dreamwidth.org&filters=ex1%3a%22ez3%22",
+"https://www.google.com/search?q=" + q + " site:blogspot.com OR site:dreamwidth.org&tbs=qdr:m",
+"https://www.bing.com/search?q=" + q + " site:blogspot.com OR site:dreamwidth.org&filters=ex1%3a%22ez3%22",
 ];
 if (q == ''){
 urlList = [
-"https://wordpress.com",
 "https://blogspot.com/",
 "https://dreamwidth.org/",
 ];
@@ -930,15 +927,12 @@ case 'ht#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-//let wordpressTag = (q.replaceAll("%20", ' ')).trim();
-urlList = [
-//"https://www.threads.net/search?q=%23" + q,
+[
 "https://bsky.app/hashtag/" + q,
 "https://www.tumblr.com/tagged/" + q,
 ];
 if (q == ''){
 urlList = [
-//"https://www.threads.net/following",
 "https://bsky.app/",
 "https://www.tumblr.com/explore/trending",
 ];
@@ -1171,7 +1165,6 @@ urlList = [
 "https://marginalia-search.com/search?query=" + q + "&recent=recent",
 "https://bsky.app/search?q=$q",
 "https://www.tumblr.com/search/" + q + "/recent/?postTypes=text%2Clink%2Cquote%2Cpoll%2Cchat",
-"https://wordpress.com/read/search?q=" + q + "&sort=date",
 ];
 if (q == ''){
 urlList = [
@@ -1180,7 +1173,6 @@ urlList = [
 "https://marginalia-search.com/",
 "https://bsky.app/",
 "https://www.tumblr.com/",
-"https://wordpress.com/read/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1415,7 +1407,6 @@ let allowUrlList = [
 "twitch.tv",
 "x.com",
 "vimeo.com",
-"wordpress.com",
 "x.com",
 "youtube.com",
 ];

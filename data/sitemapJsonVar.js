@@ -14,17 +14,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "About\n\nAbout the site, profiles, license, contacts, donate. | pages: ",
-        "url": "\/pages\/about.html",
+        "text": "About\n\nAbout the site, profiles, license, contacts, donate. | about: ",
+        "url": "\/pages\/about\/index.html",
         "tag": " #about #contact #donate #profile #support #page #main",
-        "id": "2583150fc7dadf7857c93722fb11cd7c",
+        "id": "485f986de6d6e7c5720d6d940ab4b434",
         "time": "id"
     },
     {
-        "text": "Ads\n\nAd, ads. The page displays a list of possible ads or something else. | pages: ",
-        "url": "\/pages\/ads.html",
+        "text": "Ads\n\nAd, ads. The page displays a list of possible ads or something else. | ads: ",
+        "url": "\/pages\/ads\/index.html",
         "tag": " #ad #ads #page #main",
-        "id": "51fd975fd2fb9efcb99e092f30dbadcc",
+        "id": "bad695abd4e8e9e564cfd519da14fe76",
         "time": "id"
     },
     {
@@ -36,9 +36,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Archive\n\nArchive. All projects in one place. | archive: ",
-        "url": "\/archive.html",
+        "url": "\/archive\/index.html",
         "tag": " #archive #all #page #main",
-        "id": "09cf2c0a3d9e2da210eea3fb31989cfc",
+        "id": "5fcfc93bd1899af1e4136b1ac6d174d4",
         "time": "id"
     },
     {
@@ -203,10 +203,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Data page\n\nThe data files used on the site. | pages: ",
-        "url": "\/pages\/data-page.html",
+        "text": "Data page\n\nThe data files used on the site. | data page: ",
+        "url": "\/pages\/data-page\/index.html",
         "tag": " #data_file #data #file #list #page #main",
-        "id": "419dad4ddc5cfdee213b9ac25f1fe826",
+        "id": "be30635a57ec5d2193a14966ee4e380e",
         "time": "id"
     },
     {
@@ -329,10 +329,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Install Website (PWA)\n\nInstall website as app (PWA). The site or page will look and run like an app and will be among other installed programs. | pages: ",
-        "url": "\/pages\/install.html",
+        "text": "Install Website (PWA)\n\nInstall website as app (PWA). The site or page will look and run like an app and will be among other installed programs. | install: ",
+        "url": "\/pages\/install\/index.html",
         "tag": " #install #download #website #PWA #WebApp #app #page #main",
-        "id": "5f3e0d6c323b05632ecd0a598b9c0e91",
+        "id": "7da7e54d1264357eef048f868e6342c1",
         "time": "id"
     },
     {
@@ -455,17 +455,17 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Other data page\n\nOther files with data. | pages: ",
-        "url": "\/pages\/other-data-page.html",
+        "text": "Other data page\n\nOther files with data. | other data page: ",
+        "url": "\/pages\/other-data-page\/index.html",
         "tag": " #data #data_file #file #list #page #main",
-        "id": "f07c9b9b8efd8647a4f2eaba3303e3ec",
+        "id": "ab297733ea13bcbc6e334fa348818c3b",
         "time": "id"
     },
     {
         "text": "Other projects list\n\nOther projects using other programming languages. Such a PHP project as the conversion of static webpages to application (PWA). etc | other projects list: ",
-        "url": "\/other-projects-list.html",
+        "url": "\/other-projects-list\/index.html",
         "tag": " #php #python #code #programming #coding #projects #list #main #pages",
-        "id": "fcb9829b5d4cf76abe26b4699539f3e6",
+        "id": "5bc6816c23f96d4da2082fd8dab3826d",
         "time": "id"
     },
     {
@@ -630,10 +630,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Settings\n\nPage with settings: cookies, ads, clear data, etc. | pages: ",
-        "url": "\/pages\/settings.html",
+        "text": "Settings\n\nPage with settings: cookies, ads, clear data, etc. | settings: ",
+        "url": "\/pages\/settings\/index.html",
         "tag": " #setting #page #main",
-        "id": "a2201a8309c729727e08040bad47d88b",
+        "id": "947295dfff9647a8fffb7270fcab70f5",
         "time": "id"
     },
     {
@@ -952,10 +952,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Theme options\n\nSetting the color theme or choosing theme mode depending on the time of day or depending on the theme in the browser or the theme in the operating system. | pages: ",
-        "url": "\/pages\/themes.html",
+        "text": "Theme options\n\nSetting the color theme or choosing theme mode depending on the time of day or depending on the theme in the browser or the theme in the operating system. | themes: ",
+        "url": "\/pages\/themes\/index.html",
         "tag": " #theme #themes #color #colors #setting #page #main",
-        "id": "f616d7570bd283918a15f63677dab348",
+        "id": "ae1b4171fb5dc1a195e21fa0d5c66636",
         "time": "id"
     },
     {
@@ -1001,10 +1001,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Updates\n\nUpdates or changelog. About what's new on the site. Some changes and updates to the site may not be displayed here and updates may occur without post. | pages: ",
-        "url": "\/pages\/updates.html",
+        "text": "Updates\n\nUpdates or changelog. About what's new on the site. Some changes and updates to the site may not be displayed here and updates may occur without post. | updates: ",
+        "url": "\/pages\/updates\/index.html",
         "tag": " #update #news #new #page #main",
-        "id": "85c9c7a785dc790c73270173d4edb785",
+        "id": "3aa7d51a94e288d28055ebbd73247adb",
         "time": "id"
     },
     {

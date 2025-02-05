@@ -45,7 +45,7 @@ if (typeof adsJsonVar != 'undefined') { ads = ads.concat(adsJsonVar); }
 
 
 //ads = JSON.parse(adsJson);
-let adsUrlPage = fuMHideFileNameExt("/ads.html");
+let adsUrlPage = fuMHideFileNameExt("/pages/ads/");
 
 if (ads != null&&ads != ''){
 
@@ -58,7 +58,7 @@ var random = Math.floor(Math.random() * ads.length);
 adsText = ads[random]['text']; if (adsText == null) { adsText = ''; }
 adsURL = ads[random]['url']; if (adsURL == null){ adsURL = ''; }
 if (adsText.search("src=") != -1&&cookieStatus != 'on'){ // found
-adsText = fuMHideFileNameExt(`<a class="brand inlineBlock" href="/settings.html#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
+adsText = fuMHideFileNameExt(`<a class="brand inlineBlock" href="/pages/settings/#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
 }
 
 
@@ -109,7 +109,7 @@ ads.forEach((item, index) => {
 adsText = ads[index]['text']; if (adsText == null) { adsText = ''; }
 adsURL = ads[index]['url']; if (adsURL == null){ adsURL = ''; }
 if (adsText.search("src=") != -1&&cookieStatus != 'on'){ // found
-adsText = fuMHideFileNameExt(`<a class="brand" href="/settings.html#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
+adsText = fuMHideFileNameExt(`<a class="brand" href="/pages/settings/#confDataCollection">Cookie setting: ${cookieStatus}.</a>`);
 }
 if (adsText.search("src=") == -1){ // not found code
 adsPrint = `<span class="ads"><div class="adsHeader"><a class="brand tag" href="${adsUrlPage}"><span class="yellow op ico">✪ </span><del>ads,</del> links</a></div><div class="adsBody">${adsText} <a class="brand break insertIcon" target="blank" href="${adsURL}">${adsURL}</a></div></span>`;

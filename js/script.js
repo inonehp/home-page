@@ -103,7 +103,7 @@ allMClassNavUp.forEach((item, index) => {
 //delme if (mNavUpCheckLevel == 2&&mNavUpCheck != "/"||String(window.location.href).indexOf("file://") != -1){}
 
 if (mNavUpCheck == "/"){
-document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("/archive.html");
+document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("/archive/");
 //document.getElementsByClassName("mClassNavUp")[index].text = "Archive (All)";
 }
 

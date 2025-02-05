@@ -423,16 +423,6 @@ var linksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=177\">id<\/a>"
     },
     {
-        "id": "176",
-        "text": "Home | Substack",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/substack.com\/home",
-        "tag": "#platform #SocialNetwork",
-        "time": 1727406724,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=176\">id<\/a>"
-    },
-    {
         "id": "175",
         "text": "Falkon",
         "text2": "",
@@ -1461,16 +1451,6 @@ var linksJsonVar =
         "tag": "#SocialMedia #SocialNetwork #platform",
         "time": 1705741055,
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=9\">id<\/a>"
-    },
-    {
-        "id": "7",
-        "text": "Stack Overflow - Where Developers Learn, Share, & Build Careers",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/stackoverflow.com\/",
-        "tag": "#code #FAQ #docs #div #WebDevelopment",
-        "time": 1705740315,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=7\">id<\/a>"
     },
     {
         "id": "6",

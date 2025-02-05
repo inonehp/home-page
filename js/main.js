@@ -1,4 +1,4 @@
-// Main js v.6.16.4
+// Main js v.6.16.5
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -35,7 +35,7 @@ if (fuMComVar == undefined){ var fuMComVar = ""; }
 const confData = [
 {
 "confTitle":"Theme",
-"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/pages/themes.html">/pages/themes.html</a>`,
+"confDescription":`Choosing a theme for the site. More modes and themes: <a class="brand" href="/pages/themes/">/pages/themes/</a>`,
 "confName":"confTheme",
 "confValueDefault":"auto-rand-all",
 "confValueVariant":["light", "dark", "auto-time", "auto", "auto-t-rand-all", "auto-rand-all"],
@@ -184,7 +184,7 @@ conf["confMenuItems"] = [
 {"url":"/projects/", "name":"Projects", "title":"Projects"},
 {"url":"/mini-projects/", "name":"Mini Projects", "title":"Mini Projects"},
 {"url":"/games/", "name":"Games", "title":"Games"},
-{"url":"/archive.html", "name":"Archive", "title":"Archive"},
+{"url":"/archive/", "name":"Archive", "title":"Archive"},
 ];
 
 conf["confMenuItems2"] = '';
@@ -442,17 +442,17 @@ fuMInsertHtml("#footer", 'beforeend', `
 
 <div>
 <!--<a class="brand" href="#goBack" onclick="history.back()">Go Back</a>-->
-<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/pages/themes.html">Themes</a></span>
+<span class="capitalize brand" title="Theme settings"><a id="fTheme" class="inlineBlock padding brand" href="/pages/themes/">Themes</a></span>
 <span id="fEmbedFileUrl"></span>
 <span id="fPinButton"></span>
 </div>
 
-<a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/pages/about.html">About</a>
+<a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/pages/about/">About</a>
 <a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
 <a class="brand inlineBlock padding" title="Social Network" href="https://bsky.app/profile/${conf["confUsername"]}.bsky.social">Bluesky</a>
 <a class="brand inlineBlock padding" title="Another home page" href="https://${conf["confUsername"]}.neocities.org/">Other Home</a>
-<a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/pages/settings.html">Settings</a>
-<a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/pages/settings.html#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
+<a id="fSettings" class="brand inlineBlock padding2" title="Settings" href="/pages/settings/">Settings</a>
+<a id="fPrivacy" class="brand inlineBlock padding" title="Cookie Settings" href="/pages/settings/#confDataCollection">Cookie: ${conf["confDataCollection"]}</a>
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <a class="brand inlineBlock padding" rel="license" title="Main license" href="/pages/about.html#license">License: CC BY-SA 4.0 *</a>
 <span class="gray small padding"><!--2019--->2025</span>
