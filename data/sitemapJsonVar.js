@@ -1029,6 +1029,13 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
+        "text": "Website directory\n\nWebsite directory. Website catalog. Collection of sites. | website directory: ",
+        "url": "\/pages\/website-directory\/index.html",
+        "tag": " #website #directory #websites #links #collection #page #main",
+        "id": "4d3e605194f6d6f045890bfd09bd4652",
+        "time": "id"
+    },
+    {
         "text": "print\n\nPrint - print function test. | print: ",
         "url": "\/projects\/print-53\/index.html",
         "tag": " #empty",
