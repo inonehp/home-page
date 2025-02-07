@@ -110,9 +110,12 @@ document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt(
 if (mNavUpCheckLevel <= 3&&String(mNavUpCheck).indexOf("/pages/") != -1||mNavUpCheckLevel <= 3&&String(mNavUpCheck).indexOf("list") != -1){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("./");
 }
-if (mNavUpCheck == "/pages/"){
+if (mNavUpCheck == "/pages/"||mNavUpCheck == "/other-pages/"){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("../");
 }
+/*if (String(mNavUpCheck).indexOf("/archive/") != -1){
+document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("/");
+}*/
 
 });
 };

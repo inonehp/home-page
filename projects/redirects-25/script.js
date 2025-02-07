@@ -1,4 +1,4 @@
-// Search redirects v.2.7.23
+// Search redirects v.2.8.0
 // Search query + command
 
 // conf
@@ -688,7 +688,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://" + q,
+"http://" + q,
 ];
 if (q == ''){
 urlList = [
@@ -924,10 +924,12 @@ break;
 
 case 'st#':
 case 'ht#':
+case 'stag#':
+case 'htag#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
-[
+urlList = [
 "https://bsky.app/hashtag/" + q,
 "https://www.tumblr.com/tagged/" + q,
 ];

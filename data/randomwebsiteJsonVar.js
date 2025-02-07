@@ -3,6 +3,16 @@ var randomwebsiteJsonVar =
 
 [
     {
+        "id": "110",
+        "text": "The Cloudflare Blog",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/blog.cloudflare.com\/",
+        "tag": "#blog #technology",
+        "time": 1738895030,
+        "rightFooter": "<a class=\"brand\" href=\"\/projects\/random-website-69\/data-list.html?id=110\">id<\/a>"
+    },
+    {
         "id": "109",
         "text": "Search our Doodle Library Collection - Google Doodles",
         "text2": "",

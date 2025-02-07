@@ -1,4 +1,4 @@
-// Keep v.3.8.8
+// Keep v.3.8.9
 // Static version of the offline 'keep' script that saves things.
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -473,10 +473,8 @@ if (i3 <= postLimit - 1){
 if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
-
 ` + postText2; };
 if (postText3 != ''){ postText3 = `
-
 
 ` + postText3; };
 if (display == "blog"){
@@ -544,10 +542,8 @@ if (i3 <= postLimit - 1){
 if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
-
 ` + postText2; };
 if (postText3 != ''){ postText3 = `
-
 
 ` + postText3; };
 if (display == "blog"){
@@ -596,10 +592,8 @@ if (i <= postLimit -1){
 
 if (postText2 != ''){ postText2 = `
 
-
 ` + postText2; };
 if (postText3 != ''){ postText3 = `
-
 
 ` + postText3; };
 if (display == "blog"){
@@ -658,10 +652,8 @@ window.location.href = window.location.href + '#StopRedirect';
 
 if (postText2 != ''){ postText2 = `
 
-
 ` + postText2; };
 if (postText3 != ''){ postText3 = `
-
 
 ` + postText3; };
 if (display == "blog"){
@@ -686,10 +678,8 @@ if (i <= postLimit -1){
 if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
-
 ` + postText2; };
 if (postText3 != ''){ postText3 = `
-
 
 ` + postText3; };
 if (display == "blog"){
@@ -804,10 +794,8 @@ if (display == "all"||mode == "search"){
 
 if (postText2 != ''){ postText2 = `
 
-
 ` + postText2; };
 if (postText3 != ''){ postText3 = `
-
 
 ` + postText3; };
 printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);
@@ -932,10 +920,8 @@ if (i3 <= postLimit - 1){
 if (display == "all"||mode == "search"){
 if (postText2 != ''){ postText2 = `
 
-
 ` + postText2; };
 if (postText3 != ''){ postText3 = `
-
 
 ` + postText3; };
 printPost += fuPrintPost(postId, '', postText + postText2 + postText3, postTag, postTime, subQforLight, rightFooter);

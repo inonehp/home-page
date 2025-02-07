@@ -1,4 +1,4 @@
-// Main js v.6.16.5
+// Main js v.6.17.1
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -456,6 +456,12 @@ fuMInsertHtml("#footer", 'beforeend', `
 <a class="brand inlineBlock padding" title="Source code (repository)" href="https://github.com/${conf["confUsername"]}/${conf["confWebsiteUrl"]}">Source Code</a>
 <a class="brand inlineBlock padding" rel="license" title="Main license" href="/pages/about.html#license">License: CC BY-SA 4.0 *</a>
 <span class="gray small padding"><!--2019--->2025</span>
+
+<!--<br>
+<a class="brand inlineBlock padding" href="https://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+<a class="brand inlineBlock padding" href="https://validator.w3.org/check?uri=referer">HTML</a>
+<a class="brand inlineBlock padding" href="https://developer.mozilla.org/docs/Web/JavaScript">JS</a>
+<a class="brand inlineBlock padding" href="https://www.php.net/">PHP</a>-->
 <a class="brand inlineBlock padding" style="padding-right: 0;" title="Hosting Service" href="https://pages.cloudflare.com/">Hosting: Cloudflare Pages</a>
 
 </div>
