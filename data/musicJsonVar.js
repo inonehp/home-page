@@ -3,6 +3,26 @@ var musicJsonVar =
 
 [
     {
+        "id": "5792",
+        "text": "Billie Eilish - THE DINER (Official Lyric Video) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=gDVw1l6QDOg",
+        "tag": "#music",
+        "time": 1738939475,
+        "rightFooter": ""
+    },
+    {
+        "id": "5791",
+        "text": "Billie Eilish - LUNCH (ONE TAKE T009) - YouTube",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/www.youtube.com\/watch?v=3hUbqNsl8vM",
+        "tag": "#music",
+        "time": 1738939325,
+        "rightFooter": ""
+    },
+    {
         "id": "5790",
         "text": "Beck - Saw Lightning (Hyperspace: A.I. Exploration) - YouTube",
         "text2": "",

@@ -1,13 +1,13 @@
 <?PHP
-// PHP site to static v.1.0.0
+// PHP site to static v.1.0.1
 
 
 if (!function_exists('phpToHtml')){
 function phpToHtml($phpDir, $htmlDir){
-
+if (!empty($phpDir)&&!empty($htmlDir)){
 //in htdocs
-if (empty($phpDir)){ $phpDir = "/test/php-test-site/"; }
-if (empty($htmlDir)){ $htmlDir = "/test/html-test-site/"; }
+//if (empty($phpDir)){ $phpDir = "/test/php-test-site/"; }
+//if (empty($htmlDir)){ $htmlDir = "/test/html-test-site/"; }
 
 //echo $_SERVER["DOCUMENT_ROOT"];
 //echo $_SERVER['SERVER_ADDR'];
@@ -93,7 +93,7 @@ fclose($myfile);
 //if (php_uname('s') == 'Windows NT'){}
 
 
-
+}
 }
 }
 

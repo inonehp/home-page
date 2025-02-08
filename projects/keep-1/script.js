@@ -1,5 +1,5 @@
-// Keep v.3.8.9
-// Static version of the offline 'keep' script that saves things.
+// Keep v.3.8.10
+// The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
 // JSON data in JS varible, time - in UNIX format

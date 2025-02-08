@@ -192,6 +192,10 @@ let allColors = [
 {"text":"whitesmoke", "text2":"#f5f5f5", "text3":"245,245,245", "text4":""},
 {"text":"yellow", "text2":"#ffff00", "text3":"255,255,0", "text4":""},
 {"text":"yellowgreen", "text2":"#9acd32", "text3":"154,205,50", "text4":""},
+
+{"text":"rebeccapurple", "text2":"#663399", "text3":"102,51,153", "text4":""},
+
+
 ];
 
 allColors.forEach((val, index) => {
