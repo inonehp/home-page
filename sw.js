@@ -1,5 +1,5 @@
 
-//var myCacheVersion = "v.1.2.2025.02.08";
+//var myCacheVersion = "v.1.2.2025.02.10";
 
 
 
@@ -70,7 +70,7 @@ function swJsInstallFiles(){
 //https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request
 //https://github.com/mdn/pwa-examples
 self.addEventListener('install', (e) => {
-e.waitUntil(caches.open("v.1.2.2025.02.08").then((cache) => cache.addAll(fileListArrFound)),);
+e.waitUntil(caches.open("v.1.2.2025.02.10").then((cache) => cache.addAll(fileListArrFound)),);
 });*/
 
 
@@ -423,6 +423,10 @@ var fileListArr = ["/404.html",
 "/old-projects/blocked-65/",
 "/old-projects/blocked-65/script.js",
 "/old-projects/blocked-65/style.css",
+"/old-projects/google-trends-46/index.html",
+"/old-projects/google-trends-46/",
+"/old-projects/google-trends-46/script.js",
+"/old-projects/google-trends-46/style.css",
 "/old-projects/hello-world-62/index.html",
 "/old-projects/hello-world-62/",
 "/old-projects/hello-world-62/script.js",
@@ -957,11 +961,6 @@ var fileListArr = ["/404.html",
 "/pages/templates/flower-one-page-mini-auto-light-dark-flat-17/",
 "/pages/templates/flower-one-page-mini-auto-light-dark-flat-17/index.html",
 "/pages/templates/flower-one-page-mini-auto-light-dark-flat-17/style.css",
-"/pages/templates/home-page-auto-light-dark-flat-9/index.html",
-"/pages/templates/home-page-auto-light-dark-flat-9/",
-"/pages/templates/home-page-auto-light-dark-flat-9/menu.html",
-"/pages/templates/home-page-auto-light-dark-flat-9/page.html",
-"/pages/templates/home-page-auto-light-dark-flat-9/style.css",
 "/pages/templates/home-page-flat-auto-many-colors-themes-10/css/auto.css",
 "/pages/templates/home-page-flat-auto-many-colors-themes-10/",
 "/pages/templates/home-page-flat-auto-many-colors-themes-10/css/",
@@ -1033,6 +1032,11 @@ var fileListArr = ["/404.html",
 "/pages/templates/home-page-flat-auto-many-colors-themes-10/page.html",
 "/pages/templates/home-page-flat-auto-many-colors-themes-10/theme-options.js",
 "/pages/templates/home-page-flat-auto-many-colors-themes-10/themes.html",
+"/pages/templates/home-page-flat-mini-auto-light-dark-flat-9/index.html",
+"/pages/templates/home-page-flat-mini-auto-light-dark-flat-9/",
+"/pages/templates/home-page-flat-mini-auto-light-dark-flat-9/menu.html",
+"/pages/templates/home-page-flat-mini-auto-light-dark-flat-9/page.html",
+"/pages/templates/home-page-flat-mini-auto-light-dark-flat-9/style.css",
 "/pages/templates/index.html",
 "/pages/templates/movie-flat-auto-light-dark-11/index.html",
 "/pages/templates/movie-flat-auto-light-dark-11/",
@@ -1156,10 +1160,6 @@ var fileListArr = ["/404.html",
 "/projects/google-programmable-search-49/readme.txt",
 "/projects/google-programmable-search-49/script.js",
 "/projects/google-programmable-search-49/style.css",
-"/projects/google-trends-46/index.html",
-"/projects/google-trends-46/",
-"/projects/google-trends-46/script.js",
-"/projects/google-trends-46/style.css",
 "/projects/highlight-word-15/index.html",
 "/projects/highlight-word-15/",
 "/projects/highlight-word-15/script.js",
@@ -1379,7 +1379,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + file);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.02.08")
+caches.open("v.1.2.2025.02.10")
 .then(cache => {
 cache.add(file); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1405,7 +1405,7 @@ if (res.ok) {
 // file is present at URL
 console.log('try cache.add ' + newFile);
 //https://web.dev/learn/pwa/caching/
-caches.open("v.1.2.2025.02.08")
+caches.open("v.1.2.2025.02.10")
 .then(cache => {
 cache.add(newFile); // it stores only one resource
 //  cache.addAll(["styles.css", "app.js"]); // it stores two resources
@@ -1438,7 +1438,7 @@ console.log('404 not found ' + newFile);
 // rm old cache
 //https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete
 this.addEventListener("activate", (event) => {
-  const cachesToKeep = ["v.1.2.2025.02.08"];
+  const cachesToKeep = ["v.1.2.2025.02.10"];
 
   event.waitUntil(
     caches.keys().then((keyList) =>

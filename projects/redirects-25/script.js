@@ -1,4 +1,4 @@
-// Search redirects v.2.8.0
+// Search redirects v.2.8.5
 // Search query + command
 
 // conf
@@ -129,43 +129,7 @@ urlList = [
 ];
 if (q == ''){
 urlList = [
-"https://trends.google.com/trends/explore?date=now%207-d",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case 'tre#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://trends.google.com/trends/explore?q=" + q,
-];
-if (q == ''){
-urlList = [
-"https://trends.google.com/trends/explore?date=now%207-d",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case 'tree#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://trends.google.com/trends/explore?q=" + q,
-];
-if (q == ''){
-urlList = [
-"https://trends.google.com/trending?geo=US&hl=en-US",
+"https://trends.google.com/trending?hours=24",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -194,6 +158,8 @@ break;
 
 case 'rr#':
 case 'rs#':
+case 'ran#':
+case 'rnd#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -205,7 +171,8 @@ urlList = [
 "https://wikipedia.org/wiki/Special:Random",
 "https://www.dreamwidth.org/random",
 "https://neocities.org/browse?sort_by=random&tag=",
-"https://search.marginalia.nu/explore/random",
+"https://explore.marginalia.nu/view",
+//"https://search.marginalia.nu/explore/random",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -351,7 +318,7 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://www.reddit.com/search/?q=" + q + "&type=link&sort=hot",
+"https://www.reddit.com/search/?q=" + q + "&type=posts&sort=hot",
 ];
 if (q == ''){
 urlList = [
@@ -656,6 +623,106 @@ if (q == ''){
 urlList = [
 "https://github.com/explore",
 //"https://gitlab.com/explore",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'sta#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://stackoverflow.com/search?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://stackoverflow.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'sit#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q=" + q  +" site:github.io OR site:pages.dev OR site:neocities.org",
+"https://www.bing.com/search?q=" + q  +" site:github.io OR site:pages.dev OR site:neocities.org",
+//"/projects/google-programmable-search-49/?mode=staticnotstorage&q=" + q
+];
+if (q == ''){
+urlList = [
+"https://github.io",
+"https//pages.dev",
+"https://neocities.org",
+//"/projects/google-programmable-search-49/index.html",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'sitt#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.google.com/search?q=" + q  +" site:github.io OR site:pages.dev OR site:neocities.org&tbs=qdr:m",
+"https://www.bing.com/search?q=" + q  +" site:github.io OR site:pages.dev OR site:neocities.org&filters=ex1%3a%22ez3%22",
+//"/projects/google-programmable-search-49/?mode=staticnotstorage&q=" + q
+];
+if (q == ''){
+urlList = [
+"https://github.io",
+"https//pages.dev",
+"https://neocities.org",
+//"/projects/google-programmable-search-49/index.html",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'tre#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://trends.google.com/trends/explore?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://trends.google.com/trends/explore?date=now%207-d",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'tree#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://trends.google.com/trends/explore?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://trends.google.com/trending?geo=US&hl=en-US",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1014,7 +1081,7 @@ break;
 case 'ps#':
 case 'gg#':
 case 'cs#':
-case 'cus#':
+case 'cse#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -1024,52 +1091,6 @@ urlList = [
 if (q == ''){
 urlList = [
 "/projects/google-programmable-search-49/index.html",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case 'sta#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.google.com/search?q=" + q  +" site:github.io OR site:pages.dev OR site:neocities.org",
-"https://www.bing.com/search?q=" + q  +" site:github.io OR site:pages.dev OR site:neocities.org",
-//"/projects/google-programmable-search-49/?mode=staticnotstorage&q=" + q
-];
-if (q == ''){
-urlList = [
-"https://github.io",
-"https//pages.dev",
-"https://neocities.org",
-//"/projects/google-programmable-search-49/index.html",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
-case 'staa#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://www.google.com/search?q=" + q  +" site:github.io OR site:pages.dev OR site:neocities.org&tbs=qdr:m",
-"https://www.bing.com/search?q=" + q  +" site:github.io OR site:pages.dev OR site:neocities.org&filters=ex1%3a%22ez3%22",
-//"/projects/google-programmable-search-49/?mode=staticnotstorage&q=" + q
-];
-if (q == ''){
-urlList = [
-"https://github.io",
-"https//pages.dev",
-"https://neocities.org",
-//"/projects/google-programmable-search-49/index.html",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];

@@ -274,9 +274,9 @@ var sitemapJsonVar = [
     },
     {
         "text": "Google trends\n\nGoogle trends. Search trends and tendencies, what people are looking for on the Internet. | google trends: ",
-        "url": "\/projects\/google-trends-46\/index.html",
+        "url": "\/old-projects\/google-trends-46\/index.html",
         "tag": " #widget #Google #trends #info #HTML #embed",
-        "id": "46de6fe73494ad111806e729414ca81a",
+        "id": "fb10b5a600d93d3d9740f92409e8c0f9",
         "time": "id"
     },
     {
@@ -742,20 +742,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Template Title\n\nWebsite template description. | home page auto light dark flat: ",
-        "url": "\/pages\/templates\/home-page-auto-light-dark-flat-9\/menu.html",
-        "tag": " #Website_template_keywords",
-        "id": "2bf1ca2d569d6f66d753c10975ccc3f6",
-        "time": "id"
-    },
-    {
-        "text": "Template Title\n\nWebsite template description. | home page auto light dark flat: ",
-        "url": "\/pages\/templates\/home-page-auto-light-dark-flat-9\/page.html",
-        "tag": " #Website_template_keywords",
-        "id": "1225e722ecb066c79d0bfa38f27fde29",
-        "time": "id"
-    },
-    {
         "text": "Template Title\n\nWebsite template description. | home page flat auto many colors themes: ",
         "url": "\/pages\/templates\/home-page-flat-auto-many-colors-themes-10\/menu.html",
         "tag": " #Website_template_keywords",
@@ -774,6 +760,20 @@ var sitemapJsonVar = [
         "url": "\/pages\/templates\/home-page-flat-auto-many-colors-themes-10\/themes.html",
         "tag": " #Website_template_keywords",
         "id": "ad93423905df17eb073348836c7fab52",
+        "time": "id"
+    },
+    {
+        "text": "Template Title\n\nWebsite template description. | home page flat mini auto light dark flat: ",
+        "url": "\/pages\/templates\/home-page-flat-mini-auto-light-dark-flat-9\/menu.html",
+        "tag": " #Website_template_keywords",
+        "id": "555489dc2c59de511265b3fa36117420",
+        "time": "id"
+    },
+    {
+        "text": "Template Title\n\nWebsite template description. | home page flat mini auto light dark flat: ",
+        "url": "\/pages\/templates\/home-page-flat-mini-auto-light-dark-flat-9\/page.html",
+        "tag": " #Website_template_keywords",
+        "id": "d9c27039c566ff061651cd5f8c68a1d0",
         "time": "id"
     },
     {
@@ -826,10 +826,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Template: home page 9\n\nWebsite template description. | home page auto light dark flat: ",
-        "url": "\/pages\/templates\/home-page-auto-light-dark-flat-9\/index.html",
+        "text": "Template: home page 9\n\nWebsite template description. | home page flat mini auto light dark flat: ",
+        "url": "\/pages\/templates\/home-page-flat-mini-auto-light-dark-flat-9\/index.html",
         "tag": " #WebDesign #template",
-        "id": "900d1a4ef8869cf3feb0e2b2228ef8f6",
+        "id": "c53b0bfd0bc2de53a60df588f22c1638",
         "time": "id"
     },
     {

@@ -1,4 +1,4 @@
-// Keep v.3.8.10
+// Keep v.3.9.2
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -235,32 +235,75 @@ var dMode = url.searchParams.get("dmode");
 if (dMode != null){ dMode = dMode.trim(); }
 }
 
-// q random
+
+// mini redirect, test fix
 if (q == 'l'||q == 'r'){ q = null; mode = 'random'; }
 if (q == ''&&q2 == 'l'){ q = null; mode = 'random'; }
+if (q == 'rr'||q == 'rs'){ mode = 'randomurl'; }
 
 if (q != null&&q != ''){
 
-if (q[q.length - 2] == ' '&&q[q.length - 1] == 'l'){ q = q.slice(0, -2); q2 = 'l'; }
-if (q[q.length - 3] == ' '&&q[q.length - 1] == 'l'&&q[q.length - 2] == 'l'){
-q = q.slice(0, -3); q2 = 'l';
-} // ll
-if (q[q.length - 2] == ' '&&q[q.length - 1] == 'r'){ q = q.slice(0, -2); q2 = 'r'; }
+if (q2 != null&&q2 != ''){ q += ' ' + q2; }
+let qTmpNoPlus = q.replaceAll('%23', '+', ' ');
+var strArray = qTmpNoPlus.split(" ");
+var qCom = strArray[strArray.length - 1] + "#";
+var q3 = q + "#";
+switch (qCom) {
 
-if (q[q.length - 2] == ' '&&q[q.length - 1] == 'q'){
-q = q.slice(0, -2);
+case 'l#':
+q = q3.replace(qCom, '');
 q = q.trim();
-qEncoded = encodeURIComponent(q);
-window.location.href = "/?q=" + qEncoded;
+//q = encodeURIComponent(q);
+q2 = "l";
+break;
+
+case 'q#':
+case 'qq#':
+q = q3.replace(qCom, '');
+q = q.trim();
+//q = encodeURIComponent(q);
+window.location.href = "/?q=" + q;
 window.location.href = window.location.href + '#StopRedirect'; 
+break;
+
+case 'ps#':
+case 'gg#':
+case 'cs#':
+case 'cse#':
+q = q3.replace(qCom, '');
+q = q.trim();
+//q = encodeURIComponent(q);
+
+window.location.href = "/projects/google-programmable-search-49/index.html?q=" + q;
+window.location.href = window.location.href + '#StopRedirect'; 
+break;
+
+/*delme
+case 'r#':
+q = q3.replace(qCom, '');
+q = q.trim();
+//q = encodeURIComponent(q);
+//q = null;
+mode = 'random';
+break;*/
+
+case 'r#':
+case 'rr#':
+case 'rs#':
+q = q3.replace(qCom, '');
+q = q.trim();
+//mode = 'randomurl';
+q2 = 'r';
+break;
 }
 
-if (q == 'r'){ q = ''; mode = 'random'; }
-if (q == 'rr'||q == 'rs'){ q = ''; mode = 'randomurl'; }
-if (q == ''&&q2 == 'l'){ mode = 'random'; }
 
-}
 qEncoded = encodeURIComponent(q);
+}
+// end mini redirect
+
+
+
 
 var id = url.searchParams.get("id");
 if (id != null){
@@ -386,8 +429,8 @@ postLimit = 1;
 }
 
 
-if (/*id == 0||*/mode == 'random'){ mode = 'random'; getP2 = Math.floor(Math.random() * (jsonVar.length -1)); }
-if (mode == 'randomurl'){ getP2 = Math.floor(Math.random() * (jsonVar.length -1)); }
+if (/*id == 0||*/mode == 'random'){ mode = 'random'; getP2 = Math.floor(Math.random() * (jsonVar.length - 1)); }
+if (mode == 'randomurl'){ getP2 = Math.floor(Math.random() * (jsonVar.length - 1)); }
 
 
 if (mode == 'list'&&tagListStatus == 'on'){
@@ -631,7 +674,7 @@ case 'randomurl':
 case 'random':
 postLimit = 1;
 if (getP2 == key){
-if (i <= postLimit -1){
+if (i <= postLimit - 1){
 
 // Luck
 if (mode == 'randomurl'&&String('' + window.location + '').indexOf("#StopRedirect") == -1){
@@ -2837,9 +2880,10 @@ document.getElementsByTagName('head')[0].appendChild(script2);
 
 
 // start random url from search
+let lFoundQUrlListTmp = "";
+
 let lFoundQUrlRandom = lFoundQUrlList[Math.floor(Math.random() * lFoundQUrlList.length)];
 //console.log(lFoundQUrlRandom);
-
 if (lFoundQUrlRandom != undefined&&('' + window.location + '').search("#StopRedirect") == -1){
 if (q2 == 'r'){
 if (lFoundQUrlRandom != ''){
