@@ -198,6 +198,14 @@ let allColors = [
 
 ];
 
+//https://stackoverflow.com/questions/43996959/json-sorting-by-alphabetical-order
+allColors = allColors.sort((a,b)=> {
+var a1 = a.text.toLowerCase();
+var b1 = b.text.toLowerCase();
+return a1<b1 ?-1:a1> b1? 1 :0;
+})
+
+
 allColors.forEach((val, index) => {
 
 if (q != undefined){
