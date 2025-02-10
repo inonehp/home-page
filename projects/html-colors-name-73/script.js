@@ -199,6 +199,7 @@ let allColors = [
 ];
 
 //https://stackoverflow.com/questions/43996959/json-sorting-by-alphabetical-order
+// JSON sorting
 allColors = allColors.sort((a,b)=> {
 var a1 = a.text.toLowerCase();
 var b1 = b.text.toLowerCase();
