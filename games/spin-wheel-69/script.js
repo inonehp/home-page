@@ -44,7 +44,7 @@ var print = `
 
 <div id="spinWheel" class="spinWheel spinWheelAni shadow4">
 ${spinNumber}
-<div id="spinStart" class="spinStart button submit shadow3" onclick="spinWheel('start');">Start</div>
+<div id="spinStart" class="spinStart button submit shadow3 pointer" onclick="spinWheel('start');">Start</div>
 </div>
 
 `;
@@ -118,7 +118,7 @@ transform: rotate(${spinRotateDeg}deg);
 //document.getElementById("spinNumberId").innerHTML = `${spinRandomNumber}:${i}`;
 
 if(/*spinRound >= 8&&*/spinRandomNumber == i){
-document.getElementById("spinStart").innerHTML = `<span class="xSmall">End. Restart</span>`;
+document.getElementById("spinStart").innerHTML = `<span class="xSmall pointer">End. Restart</span>`;
 mode = 'stop';
 clearInterval(stopInterval);
 }

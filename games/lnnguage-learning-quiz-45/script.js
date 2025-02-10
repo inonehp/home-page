@@ -381,7 +381,7 @@ let qPrint = `
 <label for="round" class="xSmall">Rounds ${quizConfRound}:</label>
 <progress id="round" min="0" max="${quizConfRound}" value="${quizProgressRound[0] }">${quizProgressRound[0] }</progress>
 
-<div class="submit small op" onclick="quizMain('next')">next</div>
+<div class="submit small op button block pointer" onclick="quizMain('next')">next</div>
 
 
 
@@ -572,7 +572,7 @@ Correct: <span class="green bold">${quizResultCorrectAnswer[0]}</span>, Wrong: <
 document.getElementById('result').innerHTML = `
 <div class="padding3 light shadow borderRadius3">
 ${quizWinMsg[0]}
-<div class="submit" onclick="fuMReload();">reload, again</div>
+<div class="submit button block pointer" onclick="fuMReload();">reload, again</div>
 </div>
 `;
 }
@@ -874,7 +874,7 @@ document.getElementById('taglist').innerHTML +=  `
 <label id="search" class="op block tLeft xSmall">search and tag:</label>
 <input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
 
-<input class="op padding2 small" style="min-height: 1px;" type="submit" value="go">
+<input class="op padding2 small submit" style="min-height: 1px;" type="submit">
 
 
 </form>

@@ -268,7 +268,7 @@ document.getElementsByClassName("input")[0].innerHTML = `
 <a href="./" class="submit" onclick="fuMReload();">Reload (submit)</a>
 </div>-->
 
-<a href="./"  class="submit">Reload (submit)</a>
+<a href="./"  class="submit button block">Reload (submit)</a>
 
 </form>
 <div id="input2Status"></div>

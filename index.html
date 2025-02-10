@@ -207,7 +207,7 @@ transform: rotate(0deg);
 <span class="xSmall">Site update: <span class="brand" id="last-update"></span></span>
 </summary>
 <div class="wrapperSmall small inlineBlock padding2 pre bg shadow borderRadius2 tLeft">
-New project: HTML colors name.
+Main.css: Removed color style for HTML &quot;submit&quot; tag, use CSS class &quot;.submit&quot; instead (in test).
 
 <a class="brand block tag2 small tCenter border2 light borderRadius2" href="/pages/updates/" title="Update Log">more</a></div>
 </details>
@@ -267,9 +267,9 @@ document.getElementById('urlDayNow').innerHTML = `<a class="brand tag op" href="
 <input id="q" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
-<input class="smaller op tCenter" type="submit" value="Search">
+<input class="smaller op tCenter submit" type="submit" value="Search">
 <!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
-<button class="smaller op tCenter" name="q2" value="l" type="submit">Luck</button>
+<button class="smaller op tCenter submit" name="q2" value="l" type="submit">Luck</button>
 <!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
 </div>
 
@@ -575,7 +575,7 @@ return time + ' ago';
 
 <!--<script src="/js/fuPostTime.js"></script>-->
 <script>
-document.getElementById("last-update").innerHTML = fuPostTime(1737802130);
+document.getElementById("last-update").innerHTML = fuPostTime(1739228198);
 </script>
 
 <script>

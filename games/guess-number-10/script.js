@@ -99,7 +99,7 @@ var print = `
 </div>
 <div id="range2"></div>
 
-<a class="block tCenter button border light h3 op small" style="cursor: pointer;" onclick="start()" href="#">submit</a>
+<a class="block tCenter button border light h3 op small submit" style="cursor: pointer;" onclick="start()" href="#">submit</a>
 
 </div>
 </div>

@@ -624,7 +624,7 @@ var qData = ' ' + textPrint;
 if (com == 'edit'&&id == idPrint){
 /*editPrint = `<form style="margin: 10px 0;"><input id="inputTaskUp" class="padding2" type="text" name="q" autofocus="autofocus" autocomplete="off" placeholder=" task" value="${textPrint}"><input  type="hidden" name="com" value="edit"><input id="idInputE" type="hidden" name="id" value="${idPrint}"><input type="submit"></form><div id="option2"></div>`;*/
 
-editPrint = `<form><textarea id="textInputE" class="padding2" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${textPrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><tag class="block tCenter padding2 light borderList borderRadius2" style="cursor: pointer;" onclick="submitLinkEdit()">submit</tag></form>`;
+editPrint = `<form><textarea id="textInputE" class="padding2" name="text" rows="3" cols="100" placeholder=" edit" autofocus="autofocus">${textPrint}</textarea><input id="idInputE" type="hidden" name="id" value="${idPrint}"><tag class="block tCenter padding2 light borderList borderRadius2 submit" style="cursor: pointer;" onclick="submitLinkEdit()">submit</tag></form>`;
 } else {
 //editPrint = `<span onclick="runDb('edit', '` + idPrint + `', '', '')">${textPrint}</span>`;
 editPrint = `${textPrintHighlight}`;
@@ -820,7 +820,7 @@ document.getElementById('searchForm').innerHTML = `
 <label id="search" class="op block tLeft xSmall" for="input">search:</label>
 <input id="input" class="padding2 op" type="search" style="text-align: center;" name="q"  autocomplete="off" placeholder="" value="${q}">
 
-<input type="submit" value="search" class="xSmall op" style="padding: 0; min-height: 1px; height: 30px;">
+<input type="submit" value="search" class="xSmall op submit">
 
 </form>
 </div>
@@ -972,7 +972,7 @@ print2 = `
 <input id="inputTask" class="padding2" type="text" name="q" autocomplete="off" placeholder=" input">
 <input type="hidden" name="com" value="add">
 <div id="option"></div>
-<div class="submit tCenter small" style="cursor: pointer;" onclick="submitLink();">submit</div>
+<div class="submit tCenter small button block" style="cursor: pointer;" onclick="submitLink();">submit</div>
 </form>
 
 <div class="block tRight padding">

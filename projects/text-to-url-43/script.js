@@ -27,7 +27,7 @@ var print = `
 <form action="index.html" style="width: 100%;">
 
 <textarea rows="1" id="text" class="result padding2"  name="q" placeholder=" input" autofocus="autofocus"></textarea>
-<input class="op small" type="submit">
+<input class="op small submit" type="submit">
 </form>
 
 
