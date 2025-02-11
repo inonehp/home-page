@@ -768,24 +768,6 @@ sRedirectUrl = url;
 break;
 
 
-case 'vim#':
-q = q3.replace(qCom, '');
-q = q.trim();
-q = encodeURIComponent(q);
-urlList = [
-"https://vimeo.com/search?price=free&q=" + q,
-];
-if (q == ''){
-urlList = [
-"https://vimeo.com/watch",
-];
-}
-random = urlList[fuMRandom(0, urlList.length - 1)];
-url = random;
-sRedirectUrl = url;
-break;
-
-
 case 'y#':
 case '.#':
 q = q3.replace(qCom, '');
@@ -848,13 +830,11 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://vimeo.com/search?q=" + q,
 "https://www.dailymotion.com/search/" + q + "/videos",
 "https://sepiasearch.org/search?search=" + q + "&resultType=videos",
 ];
 if (q == ''){
 urlList = [
-"https://vimeo.com/channels/staffpicks/",
 "https://www.dailymotion.com/",
 "https://joinpeertube.org/",
 ];
@@ -1428,8 +1408,6 @@ let allowUrlList = [
 "spotify.com",
 "tunein.com",
 "twitch.tv",
-"x.com",
-"vimeo.com",
 "x.com",
 "youtube.com",
 ];

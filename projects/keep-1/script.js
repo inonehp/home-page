@@ -1641,13 +1641,6 @@ embedServiceList += 'youtube';
 break;
 
 
-case 'vimeo.com':
-play = item.split('/');
-embed = `<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/` + play[play.length - 1] + `" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Larry"></iframe></div><!--<script src="https://player.vimeo.com/api/player.js"></script>-->`;
-embedServiceList += 'vimeo';
-break;
-
-
 case 'www.behance.net':
 if (item.indexOf((`/gallery/`)) != -1){
 play = item.split('/');
@@ -2173,13 +2166,6 @@ embed = `<iframe width="${w}" height="315" src="https://www.youtube.com/embed/?l
 embedServiceList += 'youtube';
 }
 }
-break;
-
-
-case 'vimeo.com':
-play = item.split('/');
-embed = `<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/` + play[play.length-1] + `?badge=0&autoplay=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Larry"></iframe></div><!--<script src="https://player.vimeo.com/api/player.js"></script>-->`;
-embedServiceList += 'vimeo';
 break;
 
 

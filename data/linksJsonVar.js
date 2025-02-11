@@ -1403,16 +1403,6 @@ var linksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=18\">id<\/a>"
     },
     {
-        "id": "14",
-        "text": "Videos on Vimeo",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/vimeo.com\/",
-        "tag": "#video #platform",
-        "time": 1705744257,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=14\">id<\/a>"
-    },
-    {
         "id": "13",
         "text": "Discover the top streamed music and songs online on Soundcloud",
         "text2": "",

@@ -17053,36 +17053,6 @@ var musicJsonVar =
         "rightFooter": ""
     },
     {
-        "id": "2436",
-        "text": "Wintergatan - Marble Machine on Vimeo",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/vimeo.com\/157743578",
-        "tag": "#music",
-        "time": 1644241388,
-        "rightFooter": ""
-    },
-    {
-        "id": "2435",
-        "text": "KCPK ft. STS - WHO WANTS IT on Vimeo",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/vimeo.com\/157251756",
-        "tag": "#music",
-        "time": 1644241224,
-        "rightFooter": ""
-    },
-    {
-        "id": "2434",
-        "text": "PUBLIC SERVICE BROADCASTING - PEOPLE, LET\u2019S DANCE on Vimeo",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/vimeo.com\/565810755",
-        "tag": "#music",
-        "time": 1644240803,
-        "rightFooter": ""
-    },
-    {
         "id": "2432",
         "text": "Throughout The Night - the Soil & the Sun - YouTube",
         "text2": "",
@@ -17090,16 +17060,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=R6erjDM-FHM",
         "tag": "#music",
         "time": 1644239196,
-        "rightFooter": ""
-    },
-    {
-        "id": "2431",
-        "text": "Son Lux: Change Is Everything (Official Music Video) on Vimeo",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/vimeo.com\/136249183",
-        "tag": "#music",
-        "time": 1644237260,
         "rightFooter": ""
     },
     {
@@ -20380,16 +20340,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=tTKuYa0MxsY",
         "tag": "#music",
         "time": 1629529961,
-        "rightFooter": ""
-    },
-    {
-        "id": "1648",
-        "text": "HINDS - WARTS on Vimeo",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/vimeo.com\/174528200",
-        "tag": "#music",
-        "time": 1629335651,
         "rightFooter": ""
     },
     {
@@ -23720,16 +23670,6 @@ var musicJsonVar =
         "url": "https:\/\/www.youtube.com\/watch?v=j9Mdog8HzMg",
         "tag": "#music",
         "time": 1620873663,
-        "rightFooter": ""
-    },
-    {
-        "id": "924",
-        "text": "THE STAVES | Black & White [Official Video] on Vimeo",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/vimeo.com\/116422883",
-        "tag": "#music",
-        "time": 1620873385,
         "rightFooter": ""
     },
     {
