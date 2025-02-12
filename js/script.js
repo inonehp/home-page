@@ -113,9 +113,9 @@ document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt(
 if (mNavUpCheck == "/pages/"||mNavUpCheck == "/other-pages/"){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("../");
 }
-/*if (String(mNavUpCheck).indexOf("/archive/") != -1){
+if (String(mNavUpCheck).indexOf("/archive/") != -1){
 document.getElementsByClassName("mClassNavUp")[index].href = fuMHideFileNameExt("/");
-}*/
+}
 
 });
 };

@@ -3,6 +3,16 @@ var linksJsonVar =
 
 [
     {
+        "id": "223",
+        "text": "Proton Mail: Get a private, secure, and encrypted email account | Proton",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/proton.me\/mail",
+        "tag": "#mail #email #service",
+        "time": 1739370455,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=223\">id<\/a>"
+    },
+    {
         "id": "222",
         "text": "Wikipedia, the free encyclopedia",
         "text2": "",
