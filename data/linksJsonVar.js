@@ -433,16 +433,6 @@ var linksJsonVar =
         "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=177\">id<\/a>"
     },
     {
-        "id": "175",
-        "text": "Falkon",
-        "text2": "",
-        "text3": "",
-        "url": "https:\/\/www.falkon.org\/",
-        "tag": "#software #app #browser",
-        "time": 1727297304,
-        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=175\">id<\/a>"
-    },
-    {
         "id": "173",
         "text": "Buy Me a Coffee",
         "text2": "",
