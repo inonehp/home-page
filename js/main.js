@@ -184,7 +184,6 @@ conf["confMenuItems"] = [
 {"url":"/mini-projects/", "title":"Mini Projects", "text":"Mini Projects", "class":""},
 {"url":"/games/", "title":"Games", "text":"Games", "class":""},
 {"url":"/archive/", "title":"Archive", "text":"Archive", "class":""},
-{"url":"https://commission.europa.eu/topics/eu-solidarity-ukraine/helping-ukrainians-how-you-can-donate-and-engage_en", "title":"Help Ukraine", "text":"🇺🇦", "class":"op"},
 ];
 
 conf["confMenuItems2"] = '';
