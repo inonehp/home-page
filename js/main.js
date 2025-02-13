@@ -1,4 +1,4 @@
-// Main js v.6.17.1
+// Main js v.6.17.2
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -174,17 +174,17 @@ document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 }
 
 
-//<!-- Nav v.1.2.1 -->
+//<!-- Nav second nav.1.2.2  -->
 //<!-- page, style.css, main.js, noscript.css -->
 // for other pages where navigation is poor
 
 conf["confMenuItems"] = [
-{"url":"/pages/", "name":"Pages", "title":"Pages"},
-//{"url":"/projects-list.html", "name":"Projects list", "title":"Projects list"},
-{"url":"/projects/", "name":"Projects", "title":"Projects"},
-{"url":"/mini-projects/", "name":"Mini Projects", "title":"Mini Projects"},
-{"url":"/games/", "name":"Games", "title":"Games"},
-{"url":"/archive/", "name":"Archive", "title":"Archive"},
+{"url":"/pages/", "title":"Pages", "text":"Pages", "class":""},
+{"url":"/projects/", "title":"Projects", "text":"Projects", "class":""},
+{"url":"/mini-projects/", "title":"Mini Projects", "text":"Mini Projects", "class":""},
+{"url":"/games/", "title":"Games", "text":"Games", "class":""},
+{"url":"/archive/", "title":"Archive", "text":"Archive", "class":""},
+{"url":"https://commission.europa.eu/topics/eu-solidarity-ukraine/helping-ukrainians-how-you-can-donate-and-engage_en", "title":"Help Ukraine", "text":"🇺🇦", "class":"op"},
 ];
 
 conf["confMenuItems2"] = '';
@@ -194,10 +194,10 @@ let navUrlClean = item['url'];
 navUrlClean = navUrlClean.replaceAll(".html", "");
 navUrlClean = navUrlClean.replaceAll(".php", "");
 if ((window.location.pathname).indexOf(navUrlClean) != -1){
-conf["confMenuItems2"] += `<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive" href="${item['url']}" title="${item['title']}">${item['name']}</a>
+conf["confMenuItems2"] += `<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive ${item['class']}" href="${item['url']}" title="${item['title']}">${item['text']}</a>
 `;
 } else {
-conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="${item['url']}" title="${item['title']}">${item['name']}</a>
+conf["confMenuItems2"] += `<a class="countMenuItem inlineBlock padding brand itemLinkAni ${item['class']}" href="${item['url']}" title="${item['title']}">${item['text']}</a>
 `;
 }
 });
@@ -222,7 +222,7 @@ document.getElementById("secondNav").innerHTML = `
 <nav>
 
 <span class="countMenuItem"></span>
-<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 2"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
+<a class="countMenuItem inlineBlock padding" style="padding-left: 0;" href="/" title="index / nav 2 (main.js)"><img class="logo2 reduceLight" src="/img/logo.png" alt="logo" style="max-width: 26px;"></a> 
 
 <span id="navMenu" class="navMenu">
 <!-- links in nav -->

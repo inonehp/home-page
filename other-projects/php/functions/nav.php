@@ -3,8 +3,8 @@
 
 /*
 $navArr = array(
-array("url" => "/pages/", "text" => "Pages", "title" => "title"),
-array("url" => "/pages/#2", "text" => "Pages 2", "title" => "title 2"),
+array("url" => "/pages/", "title" => "title", "text" => "Pages", "class" => ""),
+array("url" => "/pages/#2", "title" => "title 2", "text" => "Pages 2", "class" => ""),
 );
 echo nav($navArr, "", "");
 */
@@ -35,10 +35,12 @@ foreach ($navArr as $v => $k){
 $navUrl = "empty";
 $navText = "empty";
 $navTitle = "empty";
+$navClass = "empty";
 
 if (!empty($navArr[$v]["url"])){ $navUrl = $navArr[$v]["url"]; }
-if (!empty($navArr[$v]["text"])){ $navText = $navArr[$v]["text"]; }
 if (!empty($navArr[$v]["title"])){ $navTitle = $navArr[$v]["title"]; }
+if (!empty($navArr[$v]["text"])){ $navText = $navArr[$v]["text"]; }
+if (!empty($navArr[$v]["class"])){ $navClass = $navArr[$v]["class"]; }
 
 $vNew = $navUrl;
 $vNew = implode(explode(".php", $vNew));
@@ -55,12 +57,12 @@ if (empty($vNew)){ $vNew = "kdsjfljdfkj"; }
 if(count(explode($vNew, $_SERVER['REQUEST_URI'])) >= 2||count(explode($navCurrentPage, $navUrl)) >= 2){
 //if (count(explode($navCurrentPage, $v)) >= 2||count(explode($navCurrentPage2, $v)) >= 2){
 $navMenu .= <<<EOF
-<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive" href="$navUrl" title="$navTitle">$navText</a>
+<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive $navClass" href="$navUrl" title="$navTitle">$navText</a>
 
 EOF;
 } else {
 $navMenu .= <<<EOF
-<a class="countMenuItem inlineBlock padding brand itemLinkAni" href="$navUrl" title="$navTitle">$navText</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni $navClass" href="$navUrl" title="$navTitle">$navText</a>
 
 EOF;
 }
