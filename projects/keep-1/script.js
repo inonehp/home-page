@@ -251,6 +251,7 @@ var q3 = q + "#";
 switch (qCom) {
 
 case 'l#':
+case 'll#':
 q = q3.replace(qCom, '');
 q = q.trim();
 //q = encodeURIComponent(q);
