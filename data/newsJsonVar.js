@@ -3,6 +3,16 @@ var newsJsonVar =
 
 [
     {
+        "id": "23",
+        "text": "Elon Musk\u2019s xAI releases its latest flagship model, Grok 3 | TechCrunch",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/techcrunch.com\/2025\/02\/17\/elon-musks-ai-company-xai-releases-its-latest-flagship-ai-grok-3\/",
+        "tag": "#AI",
+        "time": 1739885826,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/news\/?id=23\">id<\/a>"
+    },
+    {
         "id": "22",
         "text": "Neocities: \"One million sites \ud83c\udf89\" \u2014 Bluesky",
         "text2": "",

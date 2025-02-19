@@ -17,7 +17,7 @@ const wordLengthLimit = 5.1;
 
 let roundStatus = "start";
 
-let taskLimit = 7;
+let taskLimit = 8 * 3;
 
 function getWpm(e){
 //if (e.target.value == ""){ dateArr = []; } //fixme

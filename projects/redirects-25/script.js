@@ -1,4 +1,4 @@
-// Search redirects v.2.8.5
+// Search redirects v.2.8.7
 // Search query + command
 
 // conf
@@ -126,10 +126,30 @@ q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://trends.google.com/trends/explore?q=" + q,
+//"https://trends.google.com/trends/explore?date=all&q=" + q,
 ];
 if (q == ''){
 urlList = [
 "https://trends.google.com/trending?hours=24",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'tree#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://trends.google.com/trends/explore?date=now%207-d&q=" + q,
+];
+if (q == ''){
+urlList = [
+//"https://trends.google.com/trending?hours=24",
+"https://trends.google.com/trending?geo=US&hl=en-US&hours=24&category=18",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -482,6 +502,8 @@ urlList = [
 "https://www.reddit.com/r/technology/",
 "https://flipboard.com/topic/technology",
 "https://slashdot.org/",
+"https://getpocket.com/explore/technology",
+//"https://alternativeto.net/news/all/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -718,7 +740,8 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-"https://trends.google.com/trends/explore?q=" + q,
+//"https://trends.google.com/trends/explore?q=" + q,
+"https://trends.google.com/trends/explore?date=now%207-d&q=" + q,
 ];
 if (q == ''){
 urlList = [
@@ -753,7 +776,8 @@ break;
 case 'u#':
 q = q3.replace(qCom, '');
 q = q.trim();
-q = encodeURIComponent(q);
+//q = encodeURIComponent(q);
+//q = q.replaceAll('%2F', '/');
 urlList = [
 "http://" + q,
 ];
@@ -930,13 +954,12 @@ q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
-//"https://substack.com/search/"+ q +"?searching=note",
 "https://bsky.app/search?q=" + q,
 "https://www.tumblr.com/search/" + q,
+//"https://www.tumblr.com/search/" + q + "?postTypes=chat%2Clink%2Cquote%2Ctext%2Cpoll%2Cask",
 ];
 if (q == ''){
 urlList = [
-//"https://substack.com/",,
 "https://bsky.app/",
 "https://www.tumblr.com/explore/trending",
 ];
@@ -1020,6 +1043,24 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://www.search.seznam.cz/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'sta#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.startpage.com/sp/search?query=" + q + "&cat=web",
+];
+if (q == ''){
+urlList = [
+"https://www.startpage.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
