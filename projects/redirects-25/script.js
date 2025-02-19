@@ -1,4 +1,4 @@
-// Search redirects v.2.8.7
+// Search redirects v.2.8.8
 // Search query + command
 
 // conf
@@ -653,7 +653,7 @@ sRedirectUrl = url;
 break;
 
 
-case 'sta#':
+case 'so#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
@@ -1051,12 +1051,32 @@ sRedirectUrl = url;
 break;
 
 
+case 'sp#':
 case 'sta#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
 urlList = [
 "https://www.startpage.com/sp/search?query=" + q + "&cat=web",
+];
+if (q == ''){
+urlList = [
+"https://www.startpage.com/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
+case 'spp#':
+case 'staa#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://www.startpage.com/sp/search?query=" + q + "&cat=web&with_date=d",
 ];
 if (q == ''){
 urlList = [
