@@ -3,6 +3,16 @@ var linksJsonVar =
 
 [
     {
+        "id": "225",
+        "text": "Design - Apple Developer",
+        "text2": "",
+        "text3": "",
+        "url": "https:\/\/developer.apple.com\/design\/",
+        "tag": "#development #design",
+        "time": 1740014616,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/links\/?id=225\">id<\/a>"
+    },
+    {
         "id": "224",
         "text": "Glyphr Studio - font design, online",
         "text2": "",

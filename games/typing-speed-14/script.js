@@ -51,7 +51,7 @@ if (mode == null){ mode = 'quote'; }
 
 
 
-var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "input", "free", "w2", "b2", "i2", /*"f2",*/);
+var modeList = Array(/*"letters",*/ "1k", "words", "quote", "book", "input", "zen", "w2", "b2", "i2", /*"f2",*/);
 var modeListPrint = '';
 modeList.forEach(FunctionModeList);
 function FunctionModeList(item, index) {
@@ -318,7 +318,7 @@ localStorage.setItem("input", inputText);
 
 
 
-if (mode == 'free'||mode == 'f2'){
+if (mode == 'zen'||mode == 'f2'){
 document.getElementById('text').rows = '7';
 task = '';
 main('');
@@ -379,7 +379,13 @@ document.getElementById("lPrintTr").style.display = "none";
 //setTimeout(function () {
 function main(task){
 
-if (mode != 'letters'&&mode != 'free'&&mode != 'f2'){
+if (mode == 'zen'){
+document.getElementById("result").style.display = "none";
+} else {
+document.getElementById("result").style.display = "block";
+}
+
+if (mode != 'letters'&&mode != 'zen'&&mode != 'f2'){
 fuLtr(task);
 } else {
 document.getElementById("mode2").innerHTML = '';
@@ -756,7 +762,7 @@ if (scrollToVar !=  ''){ document.getElementById("scrollTo").scrollIntoView(true
 
 
 
-if (mode != 'free'&&mode != 'f2'){
+if (mode != 'zen'&&mode != 'f2'){
 letters.forEach(myFunctionCheckAll);
 }
 
@@ -857,7 +863,7 @@ document.getElementById("scrollTo2").scrollIntoView(true);
 /* stat */
 
 
-if (letters.length >= answerArr.length||mode == 'free'||mode == 'f2'){
+if (letters.length >= answerArr.length||mode == 'zen'||mode == 'f2'){
 
 /*test delmme old core 1
 //if (key2 == 'Backspace'||key2 == 'Delete'){ } else {}
@@ -945,7 +951,7 @@ document.getElementById("text").style.borderTop = "9px solid var(--d2)";
 
 
 let acurancyTotal = 0;
-if (/*answerArr.length == letters.length&&*/mode != 'free'&&mode != 'f2'){
+if (/*answerArr.length == letters.length&&*/mode != 'zen'&&mode != 'f2'){
 
 acurancy = error * 100 / answerArr.length;
 acurancy =  100 - acurancy.toFixed(0);
@@ -977,8 +983,8 @@ document.getElementById("scrollTo").scrollIntoView(true);
 
 
 
-//if (letters.length == answerArr.length && error <= allowError&&mode != 'free'&&task.length >= 5){
-if (task.length == answerArr.length && error <= allowError&&mode != 'free'&&mode != 'f2'&&task.length >= 5){
+//if (letters.length == answerArr.length && error <= allowError&&mode != 'zen'&&task.length >= 5){
+if (task.length == answerArr.length && error <= allowError&&mode != 'zen'&&mode != 'f2'&&task.length >= 5){
 
 
 
