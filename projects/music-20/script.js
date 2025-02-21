@@ -192,7 +192,7 @@ document.getElementById("playURL").innerHTML =  '<a class="brand break2" href="'
 
 document.getElementById("playRandomButton").innerHTML = `
 <br />
-<div class="footerPost"><a class="button block light border borderRadius2" style="text-align:center; cursor: pointer;" onClick="window.location.reload()" title="location.reload" href="#">random</a></div>
+<div class="footerPost"><a class="button block submit border borderRadius2 tCenter pointer" onClick="window.location.reload()" title="location.reload" href="#">random</a></div>
 
 
 `;

@@ -1,4 +1,4 @@
-/* RSS style v.1.0.0
+/* RSS style v.1.1.0
 /* <?xml-stylesheet href="/css/rss.css"?>*/
 
 
@@ -8,18 +8,41 @@ width: 100%;
 max-width: 500px;
 margin: 0 auto;
 background: #F0F0F0;
+padding: 15px;
 }
 
 description, link, img, url,
 item, pubDate, title, description {
 display: block;
 background: #fff;
-padding: 20px 10px;
+padding: 15px 10px;
 }
 
-item { border-top: 3px solid silver; }
-description { font-size: small; }
-pubDate { font-size: small; text-align: right; }
+item {
+border: 1px solid silver;
+margin-bottom: 15px;
+border-radius: 15px;
+}
+
+title {
+font-size: lage;
+font-weight: bold;
+border-bottom: 1px dashed;
+}
+
+link {
+font-size: small;
+}
+
+description {
+border: 1px solid dotted;
+}
+
+pubDate {
+font-size: small;
+text-align: right;
+color: gray;
+}
 
 /* fix */
 /*channel url, channel img { visibility: hidden; }*/

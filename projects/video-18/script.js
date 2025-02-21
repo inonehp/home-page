@@ -128,7 +128,7 @@ document.getElementById("lPrint").innerHTML += `
 
 <br />
 
-<a class="button block light borderList borderRadius2" style="text-align:center; cursor: pointer;" onClick="window.location.reload()" title="location.reload" href="#">random</a>
+<a class="button tCenter block submit borderList borderRadius2" onClick="window.location.reload()" title="location.reload" href="#">random</a>
 
 </dvi>
 </div>

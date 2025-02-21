@@ -1,4 +1,4 @@
-// Search redirects v.2.8.8
+// Search redirects v.2.8.9
 // Search query + command
 
 // conf
@@ -1072,6 +1072,8 @@ break;
 
 case 'spp#':
 case 'staa#':
+case 'spd#':
+case 'stad#':
 q = q3.replace(qCom, '');
 q = q.trim();
 q = encodeURIComponent(q);
