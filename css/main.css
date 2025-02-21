@@ -1,4 +1,4 @@
-/* Main style v.20.0.1
+/* Main style v.20.1.0
 /* main.css + themes */
 /* The style is mostly based on classes: */
 
@@ -724,3 +724,8 @@ input[type="color"], form button { vertical-align: middle; min-height: var(--inp
 .reduceLight2 { filter:brightness(70%); }
 /*.reduceLight:hover, .reduceLigh2:hover { filter: brightness(90%); }*/
 
+/* fix Disqus and Twitter embed border */
+/*https://stackoverflow.com/questions/65260505/disqus-iframe-transparency-wont-work-on-chrome-87#*/
+iframe {
+color-scheme: light;
+}

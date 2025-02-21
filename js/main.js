@@ -446,7 +446,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 <span id="fPinButton"></span>
 </div>
 
-<a class="brand inlineBlock padding" style="padding-left: 0;" title="About" href="/pages/about/">About</a>
+<a class="brand inlineBlock padding" style="padding-left: 0;" title="Archive" href="/archive/">∷ Archive</a>
 <a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
 <a class="brand inlineBlock padding" title="Social Network" href="https://bsky.app/profile/${conf["confUsername"]}.bsky.social">Bluesky</a>
 <a class="brand inlineBlock padding" title="Another home page" href="https://${conf["confUsername"]}.neocities.org/">Other Home</a>
