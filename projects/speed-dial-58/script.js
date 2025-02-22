@@ -33,8 +33,9 @@ confSpeedDialDataArr.push({"text":"Flipboard", "url":"https://flipboard.com/"});
 confSpeedDialDataArr.push({"text":"Bluesky", "url":"https://bsky.app/"});
 confSpeedDialDataArr.push({"text":"Startpage", "url":"https://www.startpage.com/"});
 
-
 var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
+
+localStorage.setItem("confSpeedDialData", confSpeedDialDataArr);
 }
 
 

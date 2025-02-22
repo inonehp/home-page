@@ -1,4 +1,4 @@
-// Start menu v.1.0.0
+// Start menu v.1.0.1
 
 
 var geturl = location.href;
@@ -49,6 +49,7 @@ document.addEventListener("input", updateValue);
 
 function updateValue(e) {
 //log.textContent = e.target.value;
+q2 = "";
 q = e.target.value;
 startMenu("result", data, q);
 }
