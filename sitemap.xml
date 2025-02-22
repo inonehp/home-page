@@ -4,9 +4,6 @@
 <url><loc>https://irvirty.pages.dev/404.html</loc></url>
 <url><loc>https://irvirty.pages.dev/404</loc></url>
 
-<url><loc>https://irvirty.pages.dev/archive/index.html</loc></url>
-<url><loc>https://irvirty.pages.dev/archive/</loc></url>
-
 <url><loc>https://irvirty.pages.dev/games/dice-9/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/games/dice-9/</loc></url>
 
@@ -561,5 +558,8 @@
 
 <url><loc>https://irvirty.pages.dev/projects/weather-37/index.html</loc></url>
 <url><loc>https://irvirty.pages.dev/projects/weather-37/</loc></url>
+
+<url><loc>https://irvirty.pages.dev/start-menu/index.html</loc></url>
+<url><loc>https://irvirty.pages.dev/start-menu/</loc></url>
 
 </urlset>

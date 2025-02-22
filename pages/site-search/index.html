@@ -60,7 +60,7 @@
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/projects/" title="Projects">Projects</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/games/" title="Games">Games</a>
-<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/archive/" title="Archive">Archive</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/start-menu/" title="Start menu">Start</a>
 <!-- // links in nav -->
 </span>
 
@@ -76,7 +76,7 @@
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/projects/" title="Projects">Projects</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/games/" title="Games">Games</a>
-<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/archive/" title="Archive">Archive</a>
+<a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/start-menu/" title="Start menu">Start</a>
 <!-- // links for show in dropdown (duplicate) -->
 </div>
 </div>
@@ -116,7 +116,7 @@
 <!--<a href="https://bing.com/">Bing</a><br>-->
 </noscript>
 
-<div class="padding2 noscriptHide">
+<div class="noscriptHide">
 
 <form id="form" method="GET" class="block" action="./" style="margin:0 auto;" role="search">
 
@@ -151,8 +151,20 @@
 <script>
 
 var data = [];
-//data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar, randomwebsiteJsonVar);
-data = [...sitemapJsonVar, ...linksJsonVar, ...websitedirectoryJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar, ...randomwebsiteJsonVar];
+
+let confSpeedDialDataArr2 = localStorage.getItem("confSpeedDialData");
+if (confSpeedDialDataArr2 != null){
+confSpeedDialDataArr2 = JSON.parse(confSpeedDialDataArr2);
+data = data.concat(confSpeedDialDataArr2);
+}
+
+
+
+data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, microblogJsonVar, articlesJsonVar, notesJsonVar, randomwebsiteJsonVar);
+//data = [...sitemapJsonVar, ...linksJsonVar, ...websitedirectoryJsonVar, ...microblogJsonVar, ...articlesJsonVar, ...notesJsonVar, ...randomwebsiteJsonVar];
+
+
+
 
 </script>
 

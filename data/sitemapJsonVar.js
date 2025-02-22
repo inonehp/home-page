@@ -35,13 +35,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Archive\n\nArchive. All projects in one place. | archive: ",
-        "url": "\/archive\/index.html",
-        "tag": " #archive #all #page #main",
-        "id": "5fcfc93bd1899af1e4136b1ac6d174d4",
-        "time": "id"
-    },
-    {
         "text": "Art\n\nI try to draw something to practice and learn. | art: ",
         "url": "\/pages\/art\/index.html",
         "tag": " #art #page #main",
@@ -718,6 +711,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/start-page-41\/index.html",
         "tag": " #NewTabPage #StartPage #home #homepage #start #page #tab #NewTab #StartPage #CSS #JavaScript #project",
         "id": "0c669ab1f6ae5ee45db5b42b1b9a6bf7",
+        "time": "id"
+    },
+    {
+        "text": "Start menu\n\nSite start menu: quick access to pages. | start menu: ",
+        "url": "\/start-menu\/index.html",
+        "tag": " #start #menu #pages #search #all #page #main",
+        "id": "005ff3f10812b7008c669802fe85c2e5",
         "time": "id"
     },
     {

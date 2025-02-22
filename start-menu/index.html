@@ -3,11 +3,11 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Archive</title>
+<title>Start menu</title>
 
-<meta name="description" content="Archive. All projects in one place.">
+<meta name="description" content="Site start menu: quick access to pages.">
 <meta name="keywords" content="
-archive, all, page, main,
+start, menu, pages, search, all, page, main,
 ">
 
 <link rel="alternate" type="application/rss+xml" title="Website RSS" href="/rss.xml">
@@ -63,7 +63,7 @@ archive, all, page, main,
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/projects/" title="Projects">Projects</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/games/" title="Games">Games</a>
-<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive empty" href="/archive/" title="Archive">Archive</a>
+<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive empty" href="/start-menu/" title="Start menu">Start</a>
 <!-- // links in nav -->
 </span>
 
@@ -79,7 +79,7 @@ archive, all, page, main,
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/projects/" title="Projects">Projects</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/mini-projects/" title="Mini Projects">Mini Projects</a>
 <a class="countMenuItem inlineBlock padding brand itemLinkAni empty" href="/games/" title="Games">Games</a>
-<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive empty" href="/archive/" title="Archive">Archive</a>
+<a class="countMenuItem active2 inlineBlock padding itemLinkAniActive empty" href="/start-menu/" title="Start menu">Start</a>
 <!-- // links for show in dropdown (duplicate) -->
 </div>
 </div>
@@ -110,10 +110,36 @@ archive, all, page, main,
 <!-- content -->
 <main class="content">
 
-<h1 class="op tCenter"><span class="insertIconTitle">Archive</span></h1>
+<h1 class="op tCenter"><span class="insertIconTitle">Start menu</span></h1>
 
 <div class="wrapper">
 
+<noscript>
+<a class="blue" href="https://google.com/">Google</a><br>
+<!--<a href="https://bing.com/">Bing</a><br>-->
+</noscript>
+
+<div class="noscriptHide">
+
+<form id="form" method="GET" class="block" action="./" style="padding: 0; margin:0 auto;" role="search">
+
+<label id="search" class="op block tLeft xSmall padding1PxList" for="q"><span class="bold orange">✪</span> Search:</label>
+<input id="q" aria-labelledby="search" type="search" name="q" autofocus="autofocus" placeholder="" autocomplete="off" spellcheck="true">
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2px;">
+<input class="smaller op tCenter submit" type="submit" value="Search">
+<!--https://stackoverflow.com/questions/4171664/html-submit-button-different-value-button-text#-->
+<button class="smaller op tCenter submit" name="q2" value="l" type="submit">Luck</button>
+<!--<input  class="smaller op tCenter" type="submit" name="q2" value="l">-->
+</div>
+
+</form>
+</div>
+
+
+<div id="result"></div>
+
+<div id="pagesList">
 
 <!-- menu -->
 <nav>
@@ -414,7 +440,7 @@ archive, all, page, main,
 
 <a class=" button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/other-projects-list/"><span class="insertIcon firstLetterBold">Other projects</span></a>
 
-<a class=" borderBottomBrand op active  button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/archive/"><span class="insertIcon firstLetterBold">Archive (All)</span></a>
+<a class=" borderBottomBrand op active  button light3 border3 borderRadius2 itemHeight2" tabindex="0" href="/start-menu/"><span class="insertIcon firstLetterBold">Start manu</span></a>
 
 </div>
 
@@ -424,6 +450,9 @@ archive, all, page, main,
 <div class="padding2"></div>
 
 <span id="speedDialPrint"></span>
+
+
+</div>
 
 
 </div>
@@ -441,6 +470,33 @@ archive, all, page, main,
 
 <script src="/js/main.js"></script>
 <script src="/js/script.js"></script>
+
+
+<script src="/data/sitemapJsonVar.js"></script>
+<script src="/data/linksJsonVar.js"></script>
+<script src="/data/websitedirectoryJsonVar.js"></script>
+<script src="/data/randomwebsiteJsonVar.js"></script>
+
+<script>
+var data = [];
+
+let confSpeedDialDataArr2 = localStorage.getItem("confSpeedDialData");
+if (confSpeedDialDataArr2 != null){
+confSpeedDialDataArr2 = JSON.parse(confSpeedDialDataArr2);
+data = data.concat(confSpeedDialDataArr2);
+}
+
+data = data.concat(sitemapJsonVar, linksJsonVar, websitedirectoryJsonVar, randomwebsiteJsonVar);
+//data = [...sitemapJsonVar, ...linksJsonVar, ...websitedirectoryJsonVar, ...randomwebsiteJsonVar];
+</script>
+
+<script src="script.js"></script>
+
+<script>
+//startMenu("result", data);
+</script>
+
+
 
 
 
