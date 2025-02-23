@@ -1,4 +1,4 @@
-/* Main style v.20.1.2
+/* Main style v.20.2.0
 /* main.css + themes */
 /* The style is mostly based on classes: */
 
@@ -207,9 +207,6 @@ vertical-align: middle;
 text-align: center;
 padding: 1px;
 border: 2px dashed color-mix(in srgb, var(--brand) 50%, transparent);
-
-transition: transform .250s ease-in-out;
-animation: mAni 500ms 0s, mAniBlink 500ms .5s;
 opacity: 1;
 }
 
@@ -222,18 +219,6 @@ transition: transform 1.5s ease-in-out;
 
 @media (prefers-reduced-motion) {
 .logo:hover, .logo2:hover{ border-color: var(--c); }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-@keyframes mAni {
-from { transform: rotate(0); }
-to { transform: rotate(360deg); }
-}
-
-@keyframes mAniBlink {
-from{ border: 2px solid color-mix(in srgb, var(--brand) 100%, transparent); }
-to { border: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
-}
 }
 
 .tagList, .tagList2 {
@@ -724,8 +709,4 @@ input[type="color"], form button { vertical-align: middle; min-height: var(--inp
 .reduceLight2 { filter:brightness(70%); }
 /*.reduceLight:hover, .reduceLigh2:hover { filter: brightness(90%); }*/
 
-/* fix Disqus and Twitter embed border */
-/*https://stackoverflow.com/questions/65260505/disqus-iframe-transparency-wont-work-on-chrome-87#*/
-iframe {
-color-scheme: light;
-}
+

@@ -1,4 +1,4 @@
-// Start menu v.1.0.1
+// Start menu v.1.0.2
 
 
 var geturl = location.href;
@@ -6,6 +6,10 @@ var url = new URL(geturl);
 var q = url.searchParams.get("q");
 var q2 = url.searchParams.get("q2");
 
+// fix error
+if (typeof fuMHideFileNameExt != 'function'){
+function fuMHideFileNameExt(text){ return text; };
+}
 
 // mini redirect
 if (q != null&&q != ''){
@@ -138,6 +142,7 @@ window.location.href = window.location.href + '#StopRedirect';
 
 
 if (i <= resultLimit){
+postUrl = fuMHideFileNameExt(postUrl);
 //printPost += fuPrintPost(postId, '', postText, postTag, postTime, rightFooter, rightFooter);
 printPost += `<div class="bgList border3List borderRadius2 padding3">${postText}<br>
 <a class="brand" href="${postUrl}">${postUrl}</a></div>`;

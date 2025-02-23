@@ -149,3 +149,21 @@ border-bottom: 2px dotted var(--brand);
 }
 
 
+/*
+.logo, .logo2{
+transition: transform .250s ease-in-out;
+animation: mAni 500ms 0s, mAniBlink 500ms .5s;
+opacity: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+@keyframes mAni {
+from { transform: rotate(0); }
+to { transform: rotate(360deg); }
+}
+
+@keyframes mAniBlink {
+from{ border: 2px solid color-mix(in srgb, var(--brand) 100%, transparent); }
+to { border: 2px solid color-mix(in srgb, var(--brand) 20%, transparent); }
+}
+}*/
