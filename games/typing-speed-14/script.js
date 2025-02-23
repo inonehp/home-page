@@ -470,6 +470,7 @@ letters = text;
 // clean text clear
 
 letters = letters.replaceAll(/%E2%81%A0/g, "");
+letters = letters.replaceAll(/%EF%B8%8F/g, "");
 
 // replace symbol
 //https://www.charset.org/utf-8/66
@@ -515,6 +516,7 @@ letters = transliterate(letters);
 //letters = letters.replaceAll(/(\r\n|\r|\n){2}/g, '$1').replace(/(\r\n|\r|\n){3,}/g, '$1\n');
 letters = letters.replaceAll(/(\r\n|\r|\n){2,}/g, '$1\n');
 //https://stackoverflow.com/questions/1981349/regex-to-replace-multiple-spaces-with-a-single-space
+letters = letters.replace(/\s\s+/g, ' ');
 letters = letters.replaceAll(/  +/g, ' ');
 
 
@@ -538,6 +540,9 @@ letters = encodeURIComponent(letters)
 catch(err){
 // not decoded
 }*/
+
+letters = letters.replaceAll(/%E2%81%A0/g, "");
+letters = letters.replaceAll(/%EF%B8%8F/g, "");
 
 //https://www.charset.org/utf-8/66
 //Variation Selector
@@ -647,13 +652,19 @@ letters = letters.replaceAll(/  +/g, ' ');
 
 
 
-
+letters = letters.replace(/\s\s+/g, ' ');
+letters = letters.replaceAll(/  +/g, ' ');
 
 //letters = letters.replaceAll(/[\r\n]/gm, " ");
 /*letters = letters.replaceAll(/\s\s+/g, ' ');
 letters = letters.replaceAll(/  /g, " ");
 letters = letters.replaceAll(/\s{2,}/g, ' ');
 letters = letters.replaceAll(/  /g, " ");*/
+
+letters = letters.replaceAll(/ ️ /g, " ");
+letters = letters.replaceAll(/ ️,/g, ",");
+letters = letters.replaceAll(/ ️./g, ".");
+
 
 letters = letters.trim(); 
 letters = [...letters]; 

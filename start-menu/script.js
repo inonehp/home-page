@@ -11,6 +11,7 @@ if (typeof fuMHideFileNameExt != 'function'){
 function fuMHideFileNameExt(text){ return text; };
 }
 
+
 // mini redirect
 if (q != null&&q != ''){
 
@@ -47,6 +48,34 @@ startMenu("result", data, q);
 
 
 
+// autofocus v.1.0.0
+let keyCount = 0;
+//https://stackoverflow.com/questions/16089421/how-do-i-detect-keypresses-in-javascript
+document.onkeypress = function (e) {
+
+if (keyCount <= 0){
+// use e.keyCode
+if (document.getElementById("q") != null){
+//https://stackoverflow.com/questions/30714871/check-if-an-input-field-has-focus-in-vanilla-javascript
+if (document.activeElement.tagName !== "INPUT"){
+//https://stackoverflow.com/questions/4676321/how-do-i-make-a-field-autofocus
+document.getElementById("q").focus();
+//document.getElementById("q").value = e.keyCode;
+document.getElementById("q").value = e.key;
+}
+}
+}
+keyCount++;
+};
+
+
+
+
+
+
+
+
+
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/input_event
 //input.addEventListener("input", updateValue);
 document.addEventListener("input", updateValue);
@@ -57,9 +86,6 @@ q2 = "";
 q = e.target.value;
 startMenu("result", data, q);
 }
-
-
-
 
 
 function startMenu(printId, data, q){
@@ -259,23 +285,4 @@ document.getElementById(printId).innerHTML = printPost;
 }
 
 
-// autofocus v.1.0.0
-let keyCount = 0;
-//https://stackoverflow.com/questions/16089421/how-do-i-detect-keypresses-in-javascript
-document.onkeypress = function (e) {
-
-if (keyCount <= 0){
-// use e.keyCode
-if (document.getElementById("q") != null){
-//https://stackoverflow.com/questions/30714871/check-if-an-input-field-has-focus-in-vanilla-javascript
-if (document.activeElement.tagName !== "INPUT"){
-//https://stackoverflow.com/questions/4676321/how-do-i-make-a-field-autofocus
-document.getElementById("q").focus();
-//document.getElementById("q").value = e.keyCode;
-document.getElementById("q").value = e.key;
-}
-}
-}
-keyCount++;
-};
 

@@ -9,7 +9,7 @@ var sitemapJsonVar = [
     {
         "text": "AGI countdown timer\n\nAGI Countdown timer. An attempt to predict when general artificial intelligence will be created. | agi countdown: ",
         "url": "\/projects\/agi-countdown-59\/index.html",
-        "tag": " #Experimental #agi #CSS #JavaScript #project",
+        "tag": " #Experimental #agi #JavaScript #project",
         "id": "983c52c3556e8725e77dd0cbef09c65c",
         "time": "id"
     },
@@ -58,14 +58,14 @@ var sitemapJsonVar = [
     {
         "text": "Background colors list\n\nBackground colors list. A small selection of background colors. | background colors list: ",
         "url": "\/projects\/background-colors-list-50\/index.html",
-        "tag": " #CSS #color #colors #WebDesign #UI #pallete #project #list #collection",
+        "tag": " #CSS #color #colors #WebDesign #UI #pallete #project #list #collection #CSS #JavaScript #project",
         "id": "cf5630cda71133ed593748b826a597cd",
         "time": "id"
     },
     {
         "text": "Background with linear-gradient CSS\n\nBackground with linear-gradient CSS | background with linear gradient css: ",
         "url": "\/mini-projects\/background-with-linear-gradient-css-7\/index.html",
-        "tag": " #CSS #project",
+        "tag": " #HTML #CSS #project",
         "id": "d7217e625cbacca2159938be66b25f38",
         "time": "id"
     },
@@ -79,14 +79,14 @@ var sitemapJsonVar = [
     {
         "text": "Blocked\n\nBlock || status page.\r\nNot intended for viewing. | blocked: ",
         "url": "\/old-projects\/blocked-65\/index.html",
-        "tag": " #block #CSS #JavaScript #project",
+        "tag": " #block #JavaScript #project",
         "id": "0ccb5ac450f60f4856196f4adc8d67f3",
         "time": "id"
     },
     {
         "text": "Browser info, JavaScript test\n\nBrowser info, JS Test, test js, Test JavaScript page. | browser info test js: ",
         "url": "\/projects\/browser-info-test-js-2\/index.html",
-        "tag": " #Experimental #JS #JavaScript #test #page #CSS #JavaScript #project",
+        "tag": " #Experimental #JS #JavaScript #test #page #JavaScript #project",
         "id": "fa6480e2d51561d9ebc1161c21470a26",
         "time": "id"
     },
@@ -121,7 +121,7 @@ var sitemapJsonVar = [
     {
         "text": "CSS Demo test style UI\n\nCSS demo test style UI. Demo test style page. Demo UI or test UI. | demo test style ui: ",
         "url": "\/projects\/demo-test-style-ui-60\/index.html",
-        "tag": " #demo #test #style #UI #CSS #project",
+        "tag": " #demo #test #style #UI #HTML #CSS #project",
         "id": "556cb520771b2cbd0ff3f89bdf141ca6",
         "time": "id"
     },
@@ -184,14 +184,14 @@ var sitemapJsonVar = [
     {
         "text": "Color Picker\n\nColor picker. | color picker: ",
         "url": "\/projects\/color-picker-4\/index.html",
-        "tag": " #color #tool #picker #HTML #project",
+        "tag": " #color #tool #picker #HTML #CSS #JavaScript #project",
         "id": "ff9327a7930ca78b4fc70c8294f41eb3",
         "time": "id"
     },
     {
-        "text": "Count Symbol\n\nA very simple counter of letters or symbols in the text. | count symbol: ",
+        "text": "Count Symbol\n\nA very simple counter of letters or symbols in the text. Additionally, a word counter has been added. | count symbol: ",
         "url": "\/projects\/count-symbol-39\/index.html",
-        "tag": " #symbol #counter #tool #symbol #JavaScript #project",
+        "tag": " #symbol #counter #tool #symbol #word #symbols #words #JavaScript #project",
         "id": "c13ebf133b3b7e9dfe7288b2cc9b457c",
         "time": "id"
     },
@@ -219,14 +219,14 @@ var sitemapJsonVar = [
     {
         "text": "Drawing\n\nA simple web application for drawing. | drawing: ",
         "url": "\/projects\/drawing-7\/index.html",
-        "tag": " #draw #drawing #art #tool #HTML5 #drawing #app #WebAppproject",
+        "tag": " #draw #drawing #art #tool #HTML5 #drawing #app #WebAppproject #JavaScript #project",
         "id": "0c05b18c71846997afc95fd7f279e35c",
         "time": "id"
     },
     {
         "text": "Effect when scroll to element\n\nEffect when scroll to element. | scroll effect when scroll: ",
         "url": "\/projects\/scroll-effect-when-scroll-48\/index.html",
-        "tag": " #effect #scroll #JS #function #UI #UX #JavaScript #CSS #project",
+        "tag": " #effect #scroll #JS #function #UI #UX #CSS #JavaScript #project",
         "id": "937085cfa782101c587234b865495994",
         "time": "id"
     },
@@ -261,14 +261,14 @@ var sitemapJsonVar = [
     {
         "text": "Google Programmable Search\n\nGoogle programmable search engine. Google custom search engine and search widget. | google programmable search: ",
         "url": "\/projects\/google-programmable-search-49\/index.html",
-        "tag": " #widget #search #engine #tool #HTML #Google #embed",
+        "tag": " #widget #search #engine #tool #HTML #Google #embed #JavaScript #project",
         "id": "2b575a4c74a2cfc05b4467752b43dcaa",
         "time": "id"
     },
     {
         "text": "Google trends\n\nGoogle trends. Search trends and tendencies, what people are looking for on the Internet. | google trends: ",
         "url": "\/old-projects\/google-trends-46\/index.html",
-        "tag": " #widget #Google #trends #info #HTML #embed",
+        "tag": " #widget #Google #trends #info #HTML #embed #JavaScript #project",
         "id": "fb10b5a600d93d3d9740f92409e8c0f9",
         "time": "id"
     },
@@ -296,14 +296,14 @@ var sitemapJsonVar = [
     {
         "text": "Heading\n\nHeading. | heading: ",
         "url": "\/mini-projects\/heading-33\/index.html",
-        "tag": " #WebDesign",
+        "tag": " #WebDesign #HTML #CSS #project",
         "id": "bf61cb376dc833fbf00dd313b95b7167",
         "time": "id"
     },
     {
         "text": "Hello World!\n\nHello World! | hello world: ",
         "url": "\/old-projects\/hello-world-62\/index.html",
-        "tag": " #hello #world #CSS #JavaScript #project",
+        "tag": " #hello #world #JavaScript #project",
         "id": "1f67f64cd805e15be406d205cff35cb0",
         "time": "id"
     },
@@ -331,7 +331,7 @@ var sitemapJsonVar = [
     {
         "text": "Keep\n\nStatic version of the offline 'keep' script that saves things. Not for large data. | keep: ",
         "url": "\/projects\/keep-1\/index.html",
-        "tag": " #content #microblog #JavaScript #page #project",
+        "tag": " #content #microblog #CSS #JavaScript #project",
         "id": "561cedb4ab503ad3ea6a2310c3471e6c",
         "time": "id"
     },
@@ -345,7 +345,7 @@ var sitemapJsonVar = [
     {
         "text": "Light & dark design (Light & Dark)\n\nLight & dark design (Light & Dark) | light and dark design: ",
         "url": "\/mini-projects\/light-and-dark-design-29\/index.html",
-        "tag": " #cpc #design #WebDesign #CSS #HTML #project",
+        "tag": " #cpc #design #WebDesign #HTML #CSS #project",
         "id": "7ae7e14d472720bd5645b13d8f2bfe18",
         "time": "id"
     },
@@ -408,7 +408,7 @@ var sitemapJsonVar = [
     {
         "text": "Music blog\n\nA music blog or data history page for the music project. | music blog: ",
         "url": "\/projects\/music-blog-72\/index.html",
-        "tag": " #music #blog #JavaScript #page #project",
+        "tag": " #music #blog #JavaScript #project",
         "id": "cb60bb67921c1234811b04b89cd78e10",
         "time": "id"
     },
@@ -492,7 +492,7 @@ var sitemapJsonVar = [
     {
         "text": "Project ideas\n\nProject ideas, inspiration, project after Hello World! Ideas for projects.\r\nIdeas for projects. | project ideas: ",
         "url": "\/mini-projects\/project-ideas-37\/index.html",
-        "tag": " #project #ideas #inspiration #HTML #CSS #project",
+        "tag": " #project #ideas #inspiration #HTML #project",
         "id": "18324f5f1a7838794ef92875e068afcf",
         "time": "id"
     },
@@ -541,7 +541,7 @@ var sitemapJsonVar = [
     {
         "text": "Random TV (Playlists)\n\nA small collection of playlists, which is chosen randomly. | tv: ",
         "url": "\/projects\/tv-36\/index.html",
-        "tag": " #playlist #playlists #random #collection #embed #JavaScript #page #project",
+        "tag": " #playlist #playlists #random #collection #embed #JavaScript #project",
         "id": "51dbcbafa80241f5d7d53c57d624d6c1",
         "time": "id"
     },
@@ -555,7 +555,7 @@ var sitemapJsonVar = [
     {
         "text": "Random Video\n\nA small collection video, shown randomly. Free public domain movies. | video: ",
         "url": "\/projects\/video-18\/index.html",
-        "tag": " #video #random #collection #movie #cartoon #JavaScript #embed #page #project",
+        "tag": " #video #random #collection #movie #cartoon #embed #JavaScript #project",
         "id": "cf8764f66497b8a627865ab36433767c",
         "time": "id"
     },
@@ -569,7 +569,7 @@ var sitemapJsonVar = [
     {
         "text": "Random color generator\n\nColor generator. Generates colors from a given list of colors. You enter colors and a list of colors is generated based on them. Colors are randomly generated | random color generator: ",
         "url": "\/projects\/random-color-generator-51\/index.html",
-        "tag": " #generarot #color #JavaScript #project",
+        "tag": " #generarot #color #CSS #JavaScript #project",
         "id": "3bbbb186678f95e716cd6b6c81bfb855",
         "time": "id"
     },
@@ -583,21 +583,21 @@ var sitemapJsonVar = [
     {
         "text": "Remove duplicates\n\nRemove duplicates. Remove duplicate items. | remove duplicates: ",
         "url": "\/projects\/remove-duplicates-61\/index.html",
-        "tag": " #Experimental #tool #duplicates #remove #itmes #CSS #JavaScript #project",
+        "tag": " #Experimental #tool #duplicates #remove #itmes #JavaScript #project",
         "id": "f86d027451a664e1290a813f5146c924",
         "time": "id"
     },
     {
         "text": "Responsive Web Design\n\nExample of responsive content using CSS, where the size adapts depending on the screen size. | responsive web design: ",
         "url": "\/mini-projects\/responsive-web-design-2\/index.html",
-        "tag": " #responsive #HTML #mobile #UI #UX #CSS #project",
+        "tag": " #responsive #mobile #UI #UX #HTML #CSS #project",
         "id": "5567724843d0714e47e004bd92eae223",
         "time": "id"
     },
     {
         "text": "Responsive grid test\n\nResponsive grid test. | flex grid: ",
         "url": "\/mini-projects\/flex-grid-32\/index.html",
-        "tag": " #grid #responsive #test #project",
+        "tag": " #grid #responsive #test #project #HTML #CSS #project",
         "id": "18f4d230982c1f15cec49c9464179853",
         "time": "id"
     },
@@ -674,28 +674,28 @@ var sitemapJsonVar = [
     {
         "text": "Sorting itmes\n\nSorting itmes. Sort text. | sorting: ",
         "url": "\/projects\/sorting-55\/index.html",
-        "tag": " #Experimental #tool #sorting #sort #itmes #CSS #JavaScript #project",
+        "tag": " #Experimental #tool #sorting #sort #itmes #JavaScript #project",
         "id": "da601564f3b09b3ee57b01f86794eab4",
         "time": "id"
     },
     {
         "text": "Speech synthesiser, text to speech\n\nSpeech synthesiser, text to speech. TTS. | text to speech: ",
         "url": "\/projects\/text-to-speech\/index.html",
-        "tag": " #speech #tts #CSS #JavaScript #project",
+        "tag": " #speech #tts #JavaScript #project",
         "id": "1f9706dc2b7d26b4448831dca9a9a566",
         "time": "id"
     },
     {
         "text": "Speech to text\n\nSpeech to text. STT. Voice typing. | speech to text: ",
         "url": "\/projects\/speech-to-text-63\/index.html",
-        "tag": " #speech #text #STT #voice #CSS #JavaScript #project",
+        "tag": " #speech #text #STT #voice #JavaScript #project",
         "id": "2481b87cf38cebb71ca0975a970052ae",
         "time": "id"
     },
     {
         "text": "Speed dial\n\nPin, unpin a page for speed dial or your own link. Speed dial. Quick access to a page or site. | speed dial: ",
         "url": "\/projects\/speed-dial-58\/index.html",
-        "tag": " #speed #dial #setting #CSS #JavaScript #project",
+        "tag": " #speed #dial #setting #JavaScript #project",
         "id": "a72c4243ce1362c1831921e909d2cb59",
         "time": "id"
     },
@@ -1017,7 +1017,7 @@ var sitemapJsonVar = [
     {
         "text": "Weather\n\nA simple tiny card showing the current weather. | weather: ",
         "url": "\/projects\/weather-37\/index.html",
-        "tag": " #weather #information #api #info #JavaScript #project #widget",
+        "tag": " #weather #information #api #info #widget #CSS #JavaScript #project",
         "id": "6f8bee68e5f3f02be837cba1bf6cf272",
         "time": "id"
     },
@@ -1038,14 +1038,14 @@ var sitemapJsonVar = [
     {
         "text": "print\n\nPrint - print function test. | print: ",
         "url": "\/projects\/print-53\/index.html",
-        "tag": " #empty",
+        "tag": " #print #JavaScript #project",
         "id": "538c39d5fb633dd0ff8b888f9678fef8",
         "time": "id"
     },
     {
         "text": "pwa test\n\nTest PWA, PWA test. | pwa test: ",
         "url": "\/old-projects\/pwa-test-21\/index.html",
-        "tag": " #PWA #tool #test #WebApp #Service #worker #JavaScript #project",
+        "tag": " #PWA #tool #test #WebApp #Service #worker #HTML #JavaScript #project",
         "id": "551aec3849bcce3c49550c3fd07d25dc",
         "time": "id"
     },

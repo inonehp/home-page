@@ -60,8 +60,25 @@ document.getElementById("scrollTo").scrollIntoView(true);
 
 let countSymbol = '';
 countSymbol = q.length;
-document.getElementById("result3").innerHTML = `<div class="h3">total: ${countSymbol}</div>`;
-document.getElementById("result4").innerHTML = `<div class="h3">total: ${countSymbol}</div>`;
+
+let countWords = '';
+let countWordsCount = 0;
+countWords = q;
+countWords = countWords.replaceAll(" ", "SYMBOLFORSPLIT");
+countWords = countWords.replaceAll(`
+`, "SYMBOLFORSPLIT");
+countWords = countWords.split("SYMBOLFORSPLIT");
+
+countWords.forEach((item) => {
+if (item != ""){
+countWordsCount++;
+}
+});
+
+countWords = countWordsCount;
+
+document.getElementById("result3").innerHTML = `<div class="h3">Symbols: ${countSymbol} | Words: ${countWords}</div>`;
+document.getElementById("result4").innerHTML = `<div class="h3">Symbols: ${countSymbol} | Words: ${countWords}</div>`;
 countSymbol = '';
 
 }
