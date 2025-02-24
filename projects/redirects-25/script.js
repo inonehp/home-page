@@ -1051,6 +1051,24 @@ sRedirectUrl = url;
 break;
 
 
+case 'mwm#':
+q = q3.replace(qCom, '');
+q = q.trim();
+q = encodeURIComponent(q);
+urlList = [
+"https://mwmbl.org/?q=" + q,
+];
+if (q == ''){
+urlList = [
+"https://mwmbl.org/",
+];
+}
+random = urlList[fuMRandom(0, urlList.length - 1)];
+url = random;
+sRedirectUrl = url;
+break;
+
+
 case 'sp#':
 case 'sta#':
 q = q3.replace(qCom, '');

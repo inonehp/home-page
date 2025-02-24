@@ -609,13 +609,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | search: ",
-        "url": "\/pages\/search\/index.html",
-        "tag": " #web #search #redirection #redirect #page #main",
-        "id": "2717df99e229afcfa12abdaa58050f71",
-        "time": "id"
-    },
-    {
         "text": "Search Redirect\n\nSearch redirect, a search with redirection to other search engines. | redirects: ",
         "url": "\/projects\/redirects-25\/index.html",
         "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
@@ -644,10 +637,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Site Search\n\nSite search, main pages and more. | site search: ",
-        "url": "\/pages\/site-search\/index.html",
+        "text": "Site Search\n\nSite search, main pages and more. | search: ",
+        "url": "\/search\/index.html",
         "tag": " #site #search #page #main",
-        "id": "abc67dd68f769eda9f9338d9639a7c4c",
+        "id": "8c81733a022c63f034be7fa6f62af3ad",
         "time": "id"
     },
     {
@@ -1019,6 +1012,13 @@ var sitemapJsonVar = [
         "url": "\/projects\/weather-37\/index.html",
         "tag": " #weather #information #api #info #widget #CSS #JavaScript #project",
         "id": "6f8bee68e5f3f02be837cba1bf6cf272",
+        "time": "id"
+    },
+    {
+        "text": "Web search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | search: ",
+        "url": "\/pages\/search\/index.html",
+        "tag": " #web #search #redirection #redirect #page #main",
+        "id": "2717df99e229afcfa12abdaa58050f71",
         "time": "id"
     },
     {
