@@ -1015,13 +1015,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Web search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | search: ",
-        "url": "\/pages\/search\/index.html",
-        "tag": " #web #search #redirection #redirect #page #main",
-        "id": "2717df99e229afcfa12abdaa58050f71",
-        "time": "id"
-    },
-    {
         "text": "Website Templates (Experimental)\n\nHTML templates. Website templates. (I create pages for practice). | templates: ",
         "url": "\/pages\/templates\/index.html",
         "tag": " #Experimental #template #templates #WebDesign #website #SaaS #personal #profile #card #HomePage #project #projects #list #page #main #cards",
