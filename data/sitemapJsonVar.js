@@ -609,13 +609,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Search Redirect\n\nSearch redirect, a search with redirection to other search engines. | redirects: ",
-        "url": "\/projects\/redirects-25\/index.html",
-        "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
-        "id": "280eb18049f8b5aa6ae73412cbb71eb4",
-        "time": "id"
-    },
-    {
         "text": "Settings\n\nPage with settings: cookies, ads, clear data, etc. | settings: ",
         "url": "\/pages\/settings\/index.html",
         "tag": " #setting #page #main",
@@ -1015,10 +1008,10 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Web search (redirect)\n\nSearch (redirect). Redirection to other search engines. This is an input form that redirects search words to other search engines. | search: ",
-        "url": "\/pages\/search\/index.html",
-        "tag": " #web #search #redirection #redirect #page #main",
-        "id": "2717df99e229afcfa12abdaa58050f71",
+        "text": "Web search Redirect\n\nSearch redirect, a search with redirection to other search engines. | redirects: ",
+        "url": "\/projects\/redirects-25\/index.html",
+        "tag": " #redirect #web #search #URL #page #redirection #form #random #engine #JavaScript #project",
+        "id": "280eb18049f8b5aa6ae73412cbb71eb4",
         "time": "id"
     },
     {
