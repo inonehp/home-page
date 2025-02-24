@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.23.3
+// Typing Speed Test (WPM) or Typing Speed Game v.3.23.4
 // Note: ignore some modes (i2, b2 ...) These modes work only on localhost and have a POST request.
 
 const wmpAverageLimit = 30;
@@ -469,47 +469,12 @@ letters = text;
 /**/
 // clean text clear
 
-letters = letters.replaceAll(/%E2%81%A0/g, "");
-letters = letters.replaceAll(/%EF%B8%8F/g, "");
-
-// replace symbol
-//https://www.charset.org/utf-8/66
-//Variation Selector
-
-letters = letters.replaceAll(/%EF%B8%82/g, "");
-letters = letters.replaceAll(/%EF%B8%83/g, "");
-letters = letters.replaceAll(/%EF%B8%84/g, "");
-letters = letters.replaceAll(/%EF%B8%85/g, "");
-letters = letters.replaceAll(/%EF%B8%86/g, "");
-letters = letters.replaceAll(/%EF%B8%87/g, "");
-letters = letters.replaceAll(/%EF%B8%88/g, "");
-letters = letters.replaceAll(/%EF%B8%89/g, "");
-letters = letters.replaceAll(/%EF%B8%8A/g, "");
-letters = letters.replaceAll(/%EF%B8%8B/g, "");
-letters = letters.replaceAll(/%EF%B8%8C/g, "");
-letters = letters.replaceAll(/%EF%B8%8D/g, "");
-letters = letters.replaceAll(/%EF%B8%8E/g, "");
-letters = letters.replaceAll(/%EF%B8%8F/g, "");
-letters = letters.replaceAll(/ ️/g, ' '); // Variation Selector
-
-letters = letters.replaceAll(/  ️/g, ' '); // Variation Selector
-// normalize
-letters = letters.replaceAll("ʼ", "'");
-
 //https://stackoverflow.com/questions/18862256/how-to-detect-emoji-using-javascript
 function removeEmojis (string) {
   var regex = /(?:[\u2700-\u27bf]|(?:\ud83c[\udde6-\uddff]){2}|[\ud800-\udbff][\udc00-\udfff]|[\u0023-\u0039]\ufe0f?\u20e3|\u3299|\u3297|\u303d|\u3030|\u24c2|\ud83c[\udd70-\udd71]|\ud83c[\udd7e-\udd7f]|\ud83c\udd8e|\ud83c[\udd91-\udd9a]|\ud83c[\udde6-\uddff]|\ud83c[\ude01-\ude02]|\ud83c\ude1a|\ud83c\ude2f|\ud83c[\ude32-\ude3a]|\ud83c[\ude50-\ude51]|\u203c|\u2049|[\u25aa-\u25ab]|\u25b6|\u25c0|[\u25fb-\u25fe]|\u00a9|\u00ae|\u2122|\u2139|\ud83c\udc04|[\u2600-\u26FF]|\u2b05|\u2b06|\u2b07|\u2b1b|\u2b1c|\u2b50|\u2b55|\u231a|\u231b|\u2328|\u23cf|[\u23e9-\u23f3]|[\u23f8-\u23fa]|\ud83c\udccf|\u2934|\u2935|[\u2190-\u21ff])/g;
 
   return string.replaceAll(regex, '');
 }
-
- 
-
-
-letters = removeEmojis(letters);
-
-letters = transliterate(letters);
-
 
 
 //https://stackoverflow.com/questions/22962220/remove-multiple-line-breaks-n-in-javascript
@@ -519,31 +484,12 @@ letters = letters.replaceAll(/(\r\n|\r|\n){2,}/g, '$1\n');
 letters = letters.replace(/\s\s+/g, ' ');
 letters = letters.replaceAll(/  +/g, ' ');
 
+// custom
+letters = letters.replaceAll('%E2%80%AA', "");
+letters = letters.replaceAll('%E2%81%A0', "");
+letters = letters.replaceAll('%EF%B8%8F', "");
 
-
-
-
-
-
-
-letters = transliterate(letters);
-
-
-//letters = encodeURIComponent(letters); // error url
-
-//https://stackoverflow.com/questions/17564837/how-to-know-if-a-url-is-decoded-encoded
-/*try{
-if (encodeURIComponent(letters) != letters){
-letters = encodeURIComponent(letters)
-}
-}
-catch(err){
-// not decoded
-}*/
-
-letters = letters.replaceAll(/%E2%81%A0/g, "");
-letters = letters.replaceAll(/%EF%B8%8F/g, "");
-
+// replace symbol
 //https://www.charset.org/utf-8/66
 //Variation Selector
 letters = letters.replaceAll(/%EF%B8%82/g, "");
@@ -561,7 +507,10 @@ letters = letters.replaceAll(/%EF%B8%8D/g, "");
 letters = letters.replaceAll(/%EF%B8%8E/g, "");
 letters = letters.replaceAll(/%EF%B8%8F/g, "");
 
-
+letters = letters.replaceAll(/ ️/g, ' '); // Variation Selector
+letters = letters.replaceAll(/  ️/g, ' '); // Variation Selector
+// normalize
+letters = letters.replaceAll("ʼ", "'");
 
 //<control>
 //https://www.utf8-chartable.de/
@@ -636,6 +585,10 @@ catch(err){
 letters = letters.replaceAll(/  /g, " ");
 //letters = letters.replace(/\r\n/g, "\n");
 letters = letters.replaceAll(/ /g, ""); // end of line
+
+
+letters = removeEmojis(letters);
+letters = transliterate(letters);
 
 
 // dublicate from top
