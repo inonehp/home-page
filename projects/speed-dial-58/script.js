@@ -31,7 +31,6 @@ confSpeedDialDataArr.push({"text":"YouTube", "url":"https://www.youtube.com/"});
 confSpeedDialDataArr.push({"text":"Reddit", "url":"https://www.reddit.com/"});
 confSpeedDialDataArr.push({"text":"Flipboard", "url":"https://flipboard.com/"});
 confSpeedDialDataArr.push({"text":"Bluesky", "url":"https://bsky.app/"});
-confSpeedDialDataArr.push({"text":"Startpage", "url":"https://www.startpage.com/"});
 
 var confSpeedDialDataArr = JSON.stringify(confSpeedDialDataArr);
 
