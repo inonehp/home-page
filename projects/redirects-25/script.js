@@ -1,4 +1,4 @@
-// Search redirects v.2.8.9
+// Search redirects v.2.8.11
 // Search query + command
 
 // conf
@@ -961,7 +961,7 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://bsky.app/",
-"https://www.tumblr.com/explore/trending",
+"https://www.tumblr.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
@@ -1006,7 +1006,7 @@ urlList = [
 if (q == ''){
 urlList = [
 "https://bsky.app/",
-"https://www.tumblr.com/explore/trending",
+"https://www.tumblr.com/",
 ];
 }
 random = urlList[fuMRandom(0, urlList.length - 1)];
