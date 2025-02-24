@@ -637,13 +637,6 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Sitemap\n\nSite map with all pages or earch on the site, the path to the page is used for the search. (Static search based on JavaScript and JSON data in the variable). | pages: ",
-        "url": "\/pages\/sitemap.html",
-        "tag": " #site #map #sitemap #search #pages #main",
-        "id": "24d448889605999bb8aef2a97f47b251",
-        "time": "id"
-    },
-    {
         "text": "Sitemap\n\nSite map with all pages or earch on the site, the path to the page is used for the search. (Static search based on JavaScript and JSON data in the variable). | sitemap: ",
         "url": "\/pages\/sitemap\/index.html",
         "tag": " #site #map #sitemap #search #pages #main",
