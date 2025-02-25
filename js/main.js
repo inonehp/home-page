@@ -1,4 +1,4 @@
-// Main js v.6.17.4
+// Main js v.6.17.5
 // For second navigation, footer, themes, etc
 
 // Settings, config
@@ -179,7 +179,7 @@ document.querySelector(selector).insertAdjacentHTML('beforeend', text);
 // for other pages where navigation is poor
 
 conf["confMenuItems"] = [
-{"url":"/start-menu/", "title":"Start menu", "text":"Start", "class":""},
+{"url":"/start-menu/", "title":"Start menu", "text":"Start menu", "class":""},
 {"url":"/pages/", "title":"Pages", "text":"Pages", "class":""},
 {"url":"/projects/", "title":"Projects", "text":"Projects", "class":""},
 {"url":"/mini-projects/", "title":"Mini Projects", "text":"Mini Projects", "class":""},
@@ -446,7 +446,7 @@ fuMInsertHtml("#footer", 'beforeend', `
 <span id="fPinButton"></span>
 </div>
 
-<a class="brand inlineBlock padding" style="padding-left: 0;" title="Start menu" href="/start-menu/">∷ Start</a>
+<a class="brand inlineBlock padding" style="padding-left: 0;" title="Start menu" href="/start-menu/">∷ Start menu</a>
 <a class="brand inlineBlock padding" title="About" href="/pages/about/">About</a>
 <a class="brand inlineBlock padding" title="RSS News" href="/rss.xml">RSS</a>
 <a class="brand inlineBlock padding" title="Social Network" href="https://bsky.app/profile/${conf["confUsername"]}.bsky.social">Bluesky</a>
