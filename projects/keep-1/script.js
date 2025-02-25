@@ -1,4 +1,4 @@
-// Keep v.3.9.3
+// Keep v.3.10.0
 // The static version of my offline "keep" PHP script that saves things (links, notes, etc).
 // Inspired by Twitter, Google Keep
 // Not for large data files.
@@ -1507,7 +1507,7 @@ if (display == 'blog'&&mode != 'id'&&mode != 'idList'){ time = `<a class="tag br
 
 var usernameStatusPrint = "";
 if (usernameStatus == "on"){
-usernameStatusPrint = `<div class="padding2List bold capitalize"><a href="${scriptDir}"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>`
+usernameStatusPrint = `<div class="padding2List bold capitalize"><a href="/pages/about/"><img class="ico" src="/img/logo.png" width="20" alt="logo">${username}</a></div>`
 }
 
 return `
