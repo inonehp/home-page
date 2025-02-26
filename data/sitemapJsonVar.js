@@ -1015,9 +1015,9 @@ var sitemapJsonVar = [
         "time": "id"
     },
     {
-        "text": "Website analysis\n\nWebsite analysis | website analysis: ",
+        "text": "Website analysis\n\nLinks, tools or resources for website analysis: SEO, validator, search engine presence, etc. | website analysis: ",
         "url": "\/projects\/website-analysis-75\/index.html",
-        "tag": " #website #analysis #HTML_CSS #JavaScript #project",
+        "tag": " #website #analysis #check #HTML_CSS #JavaScript #project",
         "id": "4c38192e9957c16b667b6abd036c2f22",
         "time": "id"
     },

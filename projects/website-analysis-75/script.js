@@ -8,7 +8,7 @@ var q = url.searchParams.get("q");
 
 document.getElementById("result").innerHTML = ""; 
 
-
+let color = "";
 
 
 
@@ -18,6 +18,8 @@ document.getElementById("result").innerHTML = "";
 if (q != null&&q != ""){
 document.getElementById("q").value = q;
 analysis(q);
+
+analysis2(q);
 }
 
 //https://developer.mozilla.org/en-US/docs/Web/API/Element/input_event
@@ -29,13 +31,11 @@ q = e.target.value;
 analysis(q);
 }
 
-
-
 function analysis(q){
+
 let q2 = q;
 q2 = q2.replace("https://", "");
 q2 = q2.replace("http://", "");
-
 
 
 let data = [
@@ -122,8 +122,10 @@ return a1<b1 ?-1:a1> b1? 1 :0;
 print += `
 
 <div class="margin padding"></div>
+Сheck:
 
 `;
+
 //alert(encodeURIComponent('"'));
 data.forEach((val, index) => {
 
@@ -175,3 +177,141 @@ print = ``;
 }
 
 
+document.getElementById("result2").innerHTML = `
+<div class="margin padding"></div>
+Get page:
+<div class="bgList border3List borderRadius2 padding2">Click submit to further analyze the page
+</div>
+`;
+
+
+//https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+async function analysis2(url) {
+//const url = "https://example.org/";
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status} (fetch)`);
+    }
+//const json = await response.json();
+let text = await response.text();
+
+//https://developer.mozilla.org/en-US/docs/Web/API/DOMParser/parseFromString
+const parser = new DOMParser();
+const doc = parser.parseFromString(text, "text/html");
+
+
+//https://stackoverflow.com/questions/32210341/fetch-api-get-title-keywords-and-body-text-from-http-response
+//console.log(doc.title);
+//console.log(doc.getElementsByName("keywords")[0].getAttribute("content"));
+//console.log(doc.getElementsByTagName("body")[0].textContent)
+
+console.log(doc);
+
+text = `Response status: ${response.status}<hr>`;
+
+text += `<div>HTMLDocument:</div><div class="padding2"></div>`;
+
+text += `
+<div class="result2">
+<div class="bg padding2 borderRadius border">Name:</div>
+<div class="bg padding2 borderRadius border">Value:</div>
+<div class="bg padding2 borderRadius border">
+<div class="${color} bold"></div>
+Comment:
+</div>
+</div>
+`;
+color = "";
+
+
+text += `
+<div class="result2">
+<div class="light3 padding2 borderRadius border">URL:</div>
+<div class="light3 padding2 borderRadius border">${doc["URL"]}</div>
+<div class="light3 padding2 borderRadius border">
+<div class="${color} bold"></div>
+</div>
+</div>
+`;
+color = "";
+
+
+text += `
+<div class="result2">
+<div class="light3 padding2 borderRadius border">charset:</div>
+<div class="light3 padding2 borderRadius border">${doc["charset"]}</div>
+<div class="light3 padding2 borderRadius border">
+<div class="${color} bold"></div>
+</div>
+</div>
+`;
+color = "";
+
+
+color = "green";
+if (doc.title.length >= 61||doc.title.length <= 29){ color = "red"; }
+text += `
+<div class="result2">
+<div class="light3 padding2 borderRadius border">title:</div>
+<div class="light3 padding2 borderRadius border">${doc.title}</div>
+<div class="light3 padding2 borderRadius border">
+<div class="${color} bold">${doc.title.length}</div>
+Title length: 30 and 60 characters.
+</div>
+</div>
+`;
+color = "";
+
+
+color = "green";
+if (doc.getElementsByName("description")[0].getAttribute("content").length >= 156||doc.getElementsByName("description")[0].getAttribute("content").length <= 29){ color = "red"; }
+text += `
+<div class="result2">
+<div class="light3 padding2 borderRadius border">title:</div>
+<div class="light3 padding2 borderRadius border">${doc.getElementsByName("description")[0].getAttribute("content")}</div>
+<div class="light3 padding2 borderRadius border">
+<div class="${color} bold">${doc.getElementsByName("description")[0].getAttribute("content").length}</div>
+Description length: 30-155 characters.
+</div>
+</div>
+`;
+color = "";
+
+
+text += `
+<div class="result2">
+<div class="light3 padding2 borderRadius border">keywords:</div>
+<div class="light3 padding2 borderRadius border">${doc.getElementsByName("keywords")[0].getAttribute("content")}</div>
+<div class="light3 padding2 borderRadius border">
+<div class="${color} bold"></div>
+Keyword: less than 10% of the total words of a page.
+</div>
+</div>
+`;
+color = "";
+
+
+
+document.getElementById("result2").innerHTML = `
+<div class="margin padding"></div>
+Get page:
+<div class="bgList border3List borderRadius2 padding2">${text}</div>
+`; 
+//console.table(text);
+  } catch (error) {
+//console.error(error.message);
+document.getElementById("result2").innerHTML = `
+<div class="margin padding"></div>
+Get page:
+<div class="bgList border3List borderRadius2 padding2">` + error.message + `</div>
+`;
+
+
+}
+}
+
+
+function analysisData(data){
+
+}

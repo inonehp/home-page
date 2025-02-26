@@ -485,6 +485,10 @@ letters = letters.replace(/\s\s+/g, ' ');
 letters = letters.replaceAll(/  +/g, ' ');
 
 // custom
+
+letters = letters.replaceAll(' ​​', " ");
+
+letters = letters.replaceAll('%E2%80%8B', "");
 letters = letters.replaceAll('%E2%80%AA', "");
 letters = letters.replaceAll('%E2%81%A0', "");
 letters = letters.replaceAll('%EF%B8%8F', "");

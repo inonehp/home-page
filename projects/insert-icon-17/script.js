@@ -272,7 +272,7 @@ let icons2 = [
 {"t":"message", "t2":"💬"},
 {"t":"status", "t2":"💬"},
 {"t":"matrix", "t2":"💊"},
-{"t":"menu", "t2":"☰"},
+{"t":"menu", "t2":"☰", "t3":"proportions"},
 {"t":"movie", "t2":"🎥"},
 {"t":"money", "t2":"💲"},
 {"t":"wallet", "t2":"💲"},

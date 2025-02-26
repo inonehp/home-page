@@ -2,3 +2,9 @@
 /* comment */
 
 
+.result2 {
+display: grid;
+grid-template-columns: 20% 50% 30%;
+grid-gap: 2px;
+margin-bottom: 2px;
+}

@@ -3,6 +3,36 @@ var notesJsonVar =
 
 [
     {
+        "id": "91",
+        "text": "DOMParser: parseFromString() method - Web APIs | MDN",
+        "text2": "===\r\nconst parser = new DOMParser();\r\n\r\nconst xmlString = \"<warning>Beware of the tiger<\/warning>\";\r\nconst doc1 = parser.parseFromString(xmlString, \"application\/xml\");\r\n\/\/ XMLDocument\r\n\r\nconst svgString = '<circle cx=\"50\" cy=\"50\" r=\"50\"\/>';\r\nconst doc2 = parser.parseFromString(svgString, \"image\/svg+xml\");\r\n\/\/ XMLDocument\r\n\r\nconst htmlString = \"<strong>Beware of the leopard<\/strong>\";\r\nconst doc3 = parser.parseFromString(htmlString, \"text\/html\");\r\n\/\/ HTMLDocument\r\n\r\nconsole.log(doc1.documentElement.textContent);\r\n\/\/ \"Beware of the tiger\"\r\n\r\nconsole.log(doc2.firstChild.tagName);\r\n\/\/ \"circle\"",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/DOMParser\/parseFromString",
+        "tag": "#code #coding #JavaScript #JS",
+        "time": 1740539915,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=91\">id<\/a>"
+    },
+    {
+        "id": "90",
+        "text": "405 Method Not Allowed - HTTP | MDN",
+        "text2": "The HTTP 405 Method Not Allowed client error response status code indicates that the server knows the request method, but the target resource doesn't support this method. The server must generate an Allow header in a 405 response with a list of methods that the target resource currently supports.\r\n\r\nImproper server-side permissions set on files or directories may cause a 405 response when the request would otherwise be expected to succeed.",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Status\/405",
+        "tag": "#error #HTTP",
+        "time": 1740525999,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=90\">id<\/a>"
+    },
+    {
+        "id": "89",
+        "text": "Using the Fetch API - Web APIs | MDN",
+        "text2": "===\r\nasync function getData() {\r\n  const url = \"https:\/\/example.org\/products.json\";\r\n  try {\r\n    const response = await fetch(url);\r\n    if (!response.ok) {\r\n      throw new Error(`Response status: ${response.status}`);\r\n    }\r\n\r\n    const json = await response.json();\r\n    console.log(json);\r\n  } catch (error) {\r\n    console.error(error.message);\r\n  }\r\n}\r\n===\r\nconst response = await fetch(\"https:\/\/example.org\/post\", {\r\n  method: \"POST\",\r\n  body: JSON.stringify({ username: \"example\" }),\r\n  \/\/ ...\r\n});",
+        "text3": "",
+        "url": "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Fetch_API\/Using_Fetch",
+        "tag": "#JS #JavaScript #code #coding",
+        "time": 1740510145,
+        "rightFooter": "<a class=\"brand\" href=\"\/pages\/notes\/?id=89\">id<\/a>"
+    },
+    {
         "id": "88",
         "text": "I need help with changing my profile picture : r\/monkeytype",
         "text2": "",

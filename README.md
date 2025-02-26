@@ -4,7 +4,7 @@
   
 # About
 
-Home and start page with projects such as typing speed, to-do list, games, new tab extension, tech news, microblog, icons, themes, website templates, etc.
+Home and start page with projects such as typing speed, to-do list, games, new tab extension, tech news, microblog, icons, themes, website templates, etc
   
 ---
   
