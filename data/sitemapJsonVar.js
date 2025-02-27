@@ -457,7 +457,7 @@ var sitemapJsonVar = [
     {
         "text": "Other projects list\n\nOther projects using other programming languages. Such a PHP project as the conversion of static webpages to application (PWA). etc | other projects list: ",
         "url": "\/other-projects-list\/index.html",
-        "tag": " #php #python #code #programming #coding #projects #list #main #pages",
+        "tag": " #PHP #Python #CSS #code #programming #coding #projects #list #main #pages",
         "id": "5bc6816c23f96d4da2082fd8dab3826d",
         "time": "id"
     },

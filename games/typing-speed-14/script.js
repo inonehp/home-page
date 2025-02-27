@@ -1,4 +1,4 @@
-// Typing Speed Test (WPM) or Typing Speed Game v.3.23.4
+// Typing Speed Test (WPM) or Typing Speed Game v.3.24.0
 // Note: ignore some modes (i2, b2 ...) These modes work only on localhost and have a POST request.
 
 const wmpAverageLimit = 30;
@@ -464,8 +464,6 @@ return a[char] || char;
 
 if (mode == 'letters'){ text = text.replaceAll(/\s{2,}/g, ' '); /* space */ }
 
-letters = text;
-
 /**/
 // clean text clear
 
@@ -477,17 +475,24 @@ function removeEmojis (string) {
 }
 
 
+
+letters = text;
+
+
+letters = removeEmojis(letters);
+letters = transliterate(letters);
+
 //https://stackoverflow.com/questions/22962220/remove-multiple-line-breaks-n-in-javascript
 //letters = letters.replaceAll(/(\r\n|\r|\n){2}/g, '$1').replace(/(\r\n|\r|\n){3,}/g, '$1\n');
 letters = letters.replaceAll(/(\r\n|\r|\n){2,}/g, '$1\n');
-//https://stackoverflow.com/questions/1981349/regex-to-replace-multiple-spaces-with-a-single-space
-letters = letters.replace(/\s\s+/g, ' ');
-letters = letters.replaceAll(/  +/g, ' ');
-
-// custom
+letters = letters.replace("  ", ' ');
+letters = letters.replace("  ", ' ');
+letters = letters.replace("  ", ' ');
+letters = letters.replace("  ", ' ');
 
 letters = letters.replaceAll(' ​​', " ");
 
+letters = letters.replaceAll('%0A', "\n");
 letters = letters.replaceAll('%E2%80%8B', "");
 letters = letters.replaceAll('%E2%80%AA', "");
 letters = letters.replaceAll('%E2%81%A0', "");
@@ -496,20 +501,20 @@ letters = letters.replaceAll('%EF%B8%8F', "");
 // replace symbol
 //https://www.charset.org/utf-8/66
 //Variation Selector
-letters = letters.replaceAll(/%EF%B8%82/g, "");
-letters = letters.replaceAll(/%EF%B8%83/g, "");
-letters = letters.replaceAll(/%EF%B8%84/g, "");
-letters = letters.replaceAll(/%EF%B8%85/g, "");
-letters = letters.replaceAll(/%EF%B8%86/g, "");
-letters = letters.replaceAll(/%EF%B8%87/g, "");
-letters = letters.replaceAll(/%EF%B8%88/g, "");
-letters = letters.replaceAll(/%EF%B8%89/g, "");
-letters = letters.replaceAll(/%EF%B8%8A/g, "");
-letters = letters.replaceAll(/%EF%B8%8B/g, "");
-letters = letters.replaceAll(/%EF%B8%8C/g, "");
-letters = letters.replaceAll(/%EF%B8%8D/g, "");
-letters = letters.replaceAll(/%EF%B8%8E/g, "");
-letters = letters.replaceAll(/%EF%B8%8F/g, "");
+letters = letters.replaceAll('%EF%B8%82', "");
+letters = letters.replaceAll('%EF%B8%83', "");
+letters = letters.replaceAll('%EF%B8%84', "");
+letters = letters.replaceAll('%EF%B8%85', "");
+letters = letters.replaceAll('%EF%B8%86', "");
+letters = letters.replaceAll('%EF%B8%87', "");
+letters = letters.replaceAll('%EF%B8%88', "");
+letters = letters.replaceAll('%EF%B8%89', "");
+letters = letters.replaceAll('%EF%B8%8A', "");
+letters = letters.replaceAll('%EF%B8%8B', "");
+letters = letters.replaceAll('%EF%B8%8C', "");
+letters = letters.replaceAll('%EF%B8%8D', "");
+letters = letters.replaceAll('%EF%B8%8E', "");
+letters = letters.replaceAll('%EF%B8%8F', "");
 
 letters = letters.replaceAll(/ ️/g, ' '); // Variation Selector
 letters = letters.replaceAll(/  ️/g, ' '); // Variation Selector
@@ -574,53 +579,20 @@ letters = letters.replaceAll(/E2%80%8A/g, " "); // end of line
 letters = letters.replaceAll(/%E2%81%A6/g, ""); // Left-to-Right Isolate
 letters = letters.replaceAll(/%E2%81%A9/g, "");
 
-//letters = decodeURIComponent(letters); // error
-
-//https://stackoverflow.com/questions/17564837/how-to-know-if-a-url-is-decoded-encoded
-/*try{
-if (decodeURIComponent(letters) != letters){
-letters = decodeURIComponent(letters)
-}
-}
-catch(err){
-// not decoded
-}*/
-
 letters = letters.replaceAll(/  /g, " ");
-//letters = letters.replace(/\r\n/g, "\n");
 letters = letters.replaceAll(/ /g, ""); // end of line
 
-
-letters = removeEmojis(letters);
-letters = transliterate(letters);
-
-
-// dublicate from top
-//https://stackoverflow.com/questions/22962220/remove-multiple-line-breaks-n-in-javascript
-//letters = letters.replaceAll(/(\r\n|\r|\n){2}/g, '$1').replace(/(\r\n|\r|\n){3,}/g, '$1\n');
-letters = letters.replaceAll(/(\r\n|\r|\n){2,}/g, '$1\n');
-//https://stackoverflow.com/questions/1981349/regex-to-replace-multiple-spaces-with-a-single-space
 letters = letters.replaceAll(/  +/g, ' ');
-
-
-//letters = letters.replaceAll(/\s{2,}/g, ' ');
-
-//console.log([...letters]);
-
-
-
-letters = letters.replace(/\s\s+/g, ' ');
-letters = letters.replaceAll(/  +/g, ' ');
-
-//letters = letters.replaceAll(/[\r\n]/gm, " ");
-/*letters = letters.replaceAll(/\s\s+/g, ' ');
-letters = letters.replaceAll(/  /g, " ");
-letters = letters.replaceAll(/\s{2,}/g, ' ');
-letters = letters.replaceAll(/  /g, " ");*/
 
 letters = letters.replaceAll(/ ️ /g, " ");
 letters = letters.replaceAll(/ ️,/g, ",");
 letters = letters.replaceAll(/ ️./g, ".");
+
+
+
+
+
+
 
 
 letters = letters.trim(); 
@@ -628,6 +600,7 @@ letters = [...letters];
 task = letters; // modifed
 
 //console.log(letters);
+
 
 
 var text2 = '';
